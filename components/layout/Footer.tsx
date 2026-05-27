@@ -50,6 +50,11 @@ export default function Footer({ locale, dict }: FooterProps) {
                   {dict.nav.destinations}
                 </Link>
               </li>
+              <li>
+                <Link href={`/${locale}/countries`} className="hover:text-slate-deep">
+                  {dict.nav.countries}
+                </Link>
+              </li>
             </ul>
           </div>
 

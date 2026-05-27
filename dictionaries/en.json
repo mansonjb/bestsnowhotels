@@ -27,7 +27,12 @@
     "season": "Season",
     "snowScore": "Snow score",
     "viewHotels": "See hotels",
-    "exploreMore": "Explore →"
+    "exploreMore": "Explore →",
+    "minAltitude": "Min altitude",
+    "minSnow": "Min snow score",
+    "vibe": "Vibe",
+    "reset": "Reset filters",
+    "showing": "Showing"
   },
   "destination": {
     "overview": "Overview",

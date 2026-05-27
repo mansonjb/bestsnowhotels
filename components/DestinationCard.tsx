@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import type { Destination } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
 
@@ -23,8 +24,16 @@ export default function DestinationCard({
       href={`/${locale}/destinations/${d.slug}`}
       className="group card-hover block bg-white rounded-2xl border border-ice-100 overflow-hidden"
     >
-      <div className="relative h-44 bg-gradient-to-br from-ice-100 via-ice-200 to-ice-400 overflow-hidden">
-        <div className="absolute inset-0 bg-snow-grain opacity-50" />
+      <div className="relative h-48 overflow-hidden">
+        <Image
+          src={`/images/destinations/${d.slug}.jpg`}
+          alt={`${d.name}, ${d.region}`}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
+          className="object-cover group-hover:scale-105 transition duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-deep/80 via-slate-deep/20 to-transparent" />
+
         <div className="absolute top-3 left-3 flex items-center gap-2 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-semibold text-ice-800">
           <span aria-hidden>{d.flag}</span>
           <span>{d.country}</span>
@@ -33,8 +42,8 @@ export default function DestinationCard({
           {d.altitudeSummit.toLocaleString()} m
         </div>
         <div className="absolute bottom-3 left-4 right-4">
-          <h3 className="text-2xl font-bold text-white drop-shadow-sm">{d.name}</h3>
-          <p className="text-sm text-white/90 drop-shadow-sm">{d.region}</p>
+          <h3 className="text-2xl font-bold text-white drop-shadow-md">{d.name}</h3>
+          <p className="text-sm text-white/90 drop-shadow">{d.region}</p>
         </div>
       </div>
 

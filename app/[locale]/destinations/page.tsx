@@ -2,8 +2,8 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../dictionaries'
 import type { Locale } from '../dictionaries'
-import DestinationCard from '@/components/DestinationCard'
-import { destinations, getDestinationsByCountry } from '@/lib/destinations'
+import DestinationFilters from '@/components/DestinationFilters'
+import { destinations } from '@/lib/destinations'
 import { SITE_URL } from '@/lib/site'
 
 export async function generateStaticParams() {
@@ -49,13 +49,21 @@ export default async function DestinationsPage({
   if (!hasLocale(locale)) notFound()
 
   const dict = await getDictionary(locale as Locale)
-  const byCountry = getDestinationsByCountry()
 
   const cardLabels = {
     altitude: dict.destinations.altitude,
     pistes: dict.destinations.pistes,
     snowScore: dict.destinations.snowScore,
     viewHotels: dict.destinations.viewHotels,
+    filterCountry: dict.destinations.filterCountry,
+    filterAll: dict.destinations.filterAll,
+  }
+  const uiLabels = {
+    minAltitude: dict.destinations.minAltitude,
+    minSnow: dict.destinations.minSnow,
+    vibe: dict.destinations.vibe,
+    reset: dict.destinations.reset,
+    showing: dict.destinations.showing,
   }
 
   const itemListSchema = {
@@ -78,7 +86,7 @@ export default async function DestinationsPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
       />
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
         <h1 className="text-4xl sm:text-5xl font-bold text-slate-deep tracking-tight">
           {dict.destinations.title}
         </h1>
@@ -88,29 +96,12 @@ export default async function DestinationsPage({
       </section>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-        {Array.from(byCountry.entries()).map(([country, list]) => (
-          <section key={country} className="mt-10">
-            <h2 className="flex items-center gap-3 text-2xl font-bold text-slate-deep mb-5">
-              <span className="text-3xl" aria-hidden>
-                {list[0].flag}
-              </span>
-              <span>{country}</span>
-              <span className="text-sm font-medium text-ice-600 tabular-nums">
-                ({list.length})
-              </span>
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-              {list.map((d) => (
-                <DestinationCard
-                  key={d.slug}
-                  destination={d}
-                  locale={locale as Locale}
-                  labels={cardLabels}
-                />
-              ))}
-            </div>
-          </section>
-        ))}
+        <DestinationFilters
+          destinations={destinations}
+          locale={locale as Locale}
+          labels={cardLabels}
+          uiLabels={uiLabels}
+        />
       </div>
     </>
   )

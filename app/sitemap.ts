@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { SITE_URL } from '@/lib/site'
 import { destinations } from '@/lib/destinations'
+import { COUNTRIES } from '@/lib/countries'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -44,6 +45,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: Object.fromEntries(
             locales.map((l) => [l, `${SITE_URL}/${l}/destinations/${d.slug}`]),
+          ),
+        },
+      })
+    }
+
+    // Countries index
+    entries.push({
+      url: `${SITE_URL}/${locale}/countries`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map((l) => [l, `${SITE_URL}/${l}/countries`]),
+        ),
+      },
+    })
+
+    // Each country
+    for (const c of COUNTRIES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/countries/${c.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${SITE_URL}/${l}/countries/${c.slug}`]),
           ),
         },
       })

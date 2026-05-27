@@ -27,7 +27,12 @@
     "season": "Época",
     "snowScore": "Pontuação neve",
     "viewHotels": "Ver hotéis",
-    "exploreMore": "Explorar →"
+    "exploreMore": "Explorar →",
+    "minAltitude": "Altitude mín",
+    "minSnow": "Pontuação neve mín",
+    "vibe": "Ambiente",
+    "reset": "Redefinir",
+    "showing": "A mostrar"
   },
   "destination": {
     "overview": "Visão geral",

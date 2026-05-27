@@ -42,6 +42,9 @@ export default function Header({ locale, dict }: HeaderProps) {
             <Link href={`/${locale}/destinations`} className="hover:text-slate-deep transition">
               {dict.nav.destinations}
             </Link>
+            <Link href={`/${locale}/countries`} className="hover:text-slate-deep transition">
+              {dict.nav.countries}
+            </Link>
             <Link href={`/${locale}/about`} className="hover:text-slate-deep transition">
               {dict.nav.about}
             </Link>
@@ -84,6 +87,13 @@ export default function Header({ locale, dict }: HeaderProps) {
               className="block py-2 text-sm font-medium text-ice-800"
             >
               {dict.nav.destinations}
+            </Link>
+            <Link
+              href={`/${locale}/countries`}
+              onClick={() => setOpen(false)}
+              className="block py-2 text-sm font-medium text-ice-800"
+            >
+              {dict.nav.countries}
             </Link>
             <Link
               href={`/${locale}/about`}
