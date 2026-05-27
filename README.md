@@ -7,7 +7,7 @@ SEO + affiliate site for ski-in/ski-out hotels across the Alps and Pyrenees. 41 
 ## Stack
 
 - Next.js 16 (App Router), TypeScript, Tailwind CSS 4
-- Custom i18n middleware (en/fr/es/pt)
+- Custom i18n proxy (en/fr/es/pt)
 - Stay22 LetMeAllez for affiliate (Booking, Expedia, Hotels.com)
 - No DB — destinations live in `data/destinations.json`
 
@@ -48,7 +48,7 @@ dictionaries/
   en.json, fr.json, es.json, pt.json
 lib/
   destinations.ts, site.ts
-middleware.ts            # Locale routing
+proxy.ts                 # Locale routing (Next.js 16 — replaces deprecated middleware.ts)
 ```
 
 ## Affiliate
