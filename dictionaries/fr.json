@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "destinations": "Destinations",
+    "countries": "Pays",
+    "about": "À propos"
+  },
+  "hero": {
+    "badge": "Hôtels ski-in/ski-out dans les Alpes et les Pyrénées",
+    "title": "Les meilleurs hôtels de neige, là où la remontée part de votre porte",
+    "subtitle": "41 stations sélectionnées en France, Suisse, Autriche, Italie, Espagne et Andorre. Altitudes réelles. Vrai ski-in/ski-out. Meilleur prix sur Booking, Expedia et Hotels.com.",
+    "cta": "Voir les destinations",
+    "stat1Value": "41",
+    "stat1Label": "Destinations ski",
+    "stat2Value": "6",
+    "stat2Label": "Pays",
+    "stat3Value": "100%",
+    "stat3Label": "Gratuit"
+  },
+  "destinations": {
+    "title": "Toutes les destinations",
+    "subtitle": "Filtrez par pays, altitude, ambiance. Chaque lien compare Booking, Expedia et Hotels.com pour vous.",
+    "filterCountry": "Pays",
+    "filterAll": "Tous",
+    "altitude": "Altitude",
+    "pistes": "Pistes",
+    "season": "Saison",
+    "snowScore": "Score neige",
+    "viewHotels": "Voir les hôtels",
+    "exploreMore": "Explorer →"
+  },
+  "destination": {
+    "overview": "Présentation",
+    "whereToStay": "Où dormir",
+    "skiInSkiOut": "Ski-in/ski-out",
+    "mapTitle": "Hôtels à",
+    "mapSubtitle": "Hôtels et appartements autour des remontées. Comparez les prix sur Booking, Expedia et Hotels.com.",
+    "bookCta": "Trouver un hôtel",
+    "essentials": "L'essentiel de la station",
+    "altitudeBase": "Altitude de base",
+    "altitudeSummit": "Sommet",
+    "pistesKm": "Pistes",
+    "lifts": "Remontées",
+    "season": "Saison",
+    "vibes": "Ambiance",
+    "relatedTitle": "Autres destinations ski",
+    "relatedSubtitle": "Même esprit, autre montagne.",
+    "faqTitle": "Questions fréquentes",
+    "faq1Q": "{name} convient-il aux débutants ?",
+    "faq2Q": "Quelle est la meilleure période pour skier à {name} ?",
+    "faq3Q": "Où dormir pour un vrai ski-in/ski-out ?"
+  },
+  "footer": {
+    "tagline": "Les meilleurs hôtels de neige, là où la remontée part de votre porte.",
+    "explore": "Explorer",
+    "info": "Infos",
+    "about": "À propos",
+    "disclosure": "Mentions affiliés",
+    "privacy": "Confidentialité",
+    "contact": "Contact",
+    "disclosureText": "Ce site contient des liens d'affiliation. Nous percevons une commission sur les réservations effectuées via nos liens partenaires, sans surcoût pour vous. Cela permet à BestSnowHotels de rester gratuit.",
+    "copyright": "© 2026 BestSnowHotels — Tous droits réservés."
+  },
+  "disclosure": {
+    "banner": "BestSnowHotels est financé par ses lecteurs. Nous percevons une commission sur les réservations via nos liens partenaires, sans surcoût pour vous."
+  },
+  "home": {
+    "topTitle": "Top destinations ski",
+    "topSubtitle": "Les plus grandes, les plus enneigées, les plus ski-in/ski-out d'Europe — sélectionnées sur l'altitude, la fiabilité neige et l'inventaire réservable.",
+    "byCountryTitle": "Par pays",
+    "byCountrySubtitle": "Choisissez votre massif.",
+    "howTitle": "Comment fonctionne BestSnowHotels",
+    "howStep1Title": "Parcourez 41 stations",
+    "howStep1Text": "Chaque page donne les altitudes réelles, les kilomètres de pistes et les notes ski-in/ski-out — pas de blabla.",
+    "howStep2Title": "Voyez les hôtels sur la carte",
+    "howStep2Text": "Les cartes Stay22 montrent les hôtels et appartements autour des remontées en temps réel.",
+    "howStep3Title": "Réservez au meilleur prix",
+    "howStep3Text": "Chaque lien compare Booking, Expedia et Hotels.com. Nous percevons une commission — jamais de votre portefeuille.",
+    "trustTitle": "Pourquoi ce site existe",
+    "trustText": "Booking.com ne peut pas vous dire si un hôtel est vraiment ski-in/ski-out. Les sites des stations ne comparent pas les prix. BestSnowHotels fait les deux — et seulement ça."
+  }
+}

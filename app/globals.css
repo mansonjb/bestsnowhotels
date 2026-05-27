@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Snow / alpine palette */
+  --color-ice-50: #f5fafd;
+  --color-ice-100: #e3f1fa;
+  --color-ice-200: #c5e2f3;
+  --color-ice-300: #97cbe7;
+  --color-ice-400: #5cabd5;
+  --color-ice-500: #2f8cc0;
+  --color-ice-600: #1f6fa1;
+  --color-ice-700: #1c5882;
+  --color-ice-800: #1e4969;
+  --color-ice-900: #1f3d57;
+  --color-ice-950: #102439;
+
+  --color-powder: #fbfdff;
+  --color-frost: #eaf3f9;
+  --color-slate-deep: #0c1c2c;
+
+  /* Accent: alpenglow orange-pink for sunrise/après-ski warmth */
+  --color-alpenglow-400: #ff8a65;
+  --color-alpenglow-500: #ff6f43;
+  --color-alpenglow-600: #e8552a;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-powder);
+  color: var(--color-slate-deep);
+}
+
+/* Subtle snow grain texture for hero overlays */
+.bg-snow-grain {
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.6) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px);
+  background-size: 24px 24px, 14px 14px;
+  background-position: 0 0, 8px 8px;
+}
+
+/* Smooth card transitions */
+.card-hover {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px -10px rgba(28, 88, 130, 0.25);
+}

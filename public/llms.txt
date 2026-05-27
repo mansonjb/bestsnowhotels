@@ -1,0 +1,32 @@
+# BestSnowHotels
+
+> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 41 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data and live hotel comparison via Stay22.
+
+## What we cover
+
+Each destination page lists:
+- Real altitudes (base and summit, in metres)
+- Total piste kilometres and lift count
+- Season start and end dates
+- Snow score (0-100) reflecting historical snow reliability
+- A transparent ski-in/ski-out note (where ski-in/ski-out is genuine vs marketing)
+- Live map of bookable hotels around the resort
+- Resort vibes (luxury, family, freeride, glacier, party, etc.)
+
+## Country coverage
+
+- France: Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets
+- Switzerland: Zermatt, Verbier, St. Moritz, Crans-Montana, Saas-Fee, Davos, Andermatt
+- Austria: St. Anton, Ischgl, Sölden, Mayrhofen, Kitzbühel, Saalbach, Lech-Zürs, Obergurgl
+- Italy: Cortina d'Ampezzo, Livigno, Cervinia, Madonna di Campiglio, Sestriere, Selva Val Gardena
+- Spain: Baqueira-Beret, Formigal, Cerler
+- Andorra: Grandvalira, Vallnord-Pal Arinsal
+
+## Languages
+
+Site available in English, French, Spanish and Portuguese.
+
+## Sitemap
+
+- Sitemap: https://www.bestsnowhotels.com/sitemap.xml
+- All destinations: https://www.bestsnowhotels.com/en/destinations
