@@ -8,18 +8,18 @@
   "hero": {
     "badge": "Hôtels ski-in/ski-out dans les Alpes et les Pyrénées",
     "title": "Les meilleurs hôtels de neige, là où la remontée part de votre porte",
-    "subtitle": "41 stations sélectionnées en France, Suisse, Autriche, Italie, Espagne et Andorre. Altitudes réelles. Vrai ski-in/ski-out. Meilleur prix sur Booking, Expedia et Hotels.com.",
+    "subtitle": "41 stations triées sur le volet en France, Suisse, Autriche, Italie, Espagne et Andorre. Altitudes réelles, vrai ski-in/ski-out, meilleur prix sur Booking, Expedia et Hotels.com.",
     "cta": "Voir les destinations",
     "stat1Value": "41",
     "stat1Label": "Destinations ski",
     "stat2Value": "6",
     "stat2Label": "Pays",
-    "stat3Value": "100%",
+    "stat3Value": "100 %",
     "stat3Label": "Gratuit"
   },
   "destinations": {
     "title": "Toutes les destinations",
-    "subtitle": "Filtrez par pays, altitude, ambiance. Chaque lien compare Booking, Expedia et Hotels.com pour vous.",
+    "subtitle": "Filtrez par pays, par altitude ou par ambiance. Chaque lien compare Booking, Expedia et Hotels.com pour vous.",
     "filterCountry": "Pays",
     "filterAll": "Tous",
     "altitude": "Altitude",
@@ -27,12 +27,15 @@
     "season": "Saison",
     "snowScore": "Score neige",
     "viewHotels": "Voir les hôtels",
-    "exploreMore": "Explorer →",
-    "minAltitude": "Altitude min",
-    "minSnow": "Score neige min",
+    "exploreMore": "Explorer",
+    "minAltitude": "Altitude mini",
+    "minSnow": "Score neige mini",
     "vibe": "Ambiance",
-    "reset": "Réinitialiser",
-    "showing": "Affichage"
+    "reset": "Réinitialiser les filtres",
+    "showing": "Affichage de",
+    "resort": "station",
+    "resorts": "stations",
+    "noResults": "Aucune station ne correspond à ces filtres."
   },
   "destination": {
     "overview": "Présentation",
@@ -52,36 +55,38 @@
     "relatedSubtitle": "Même esprit, autre montagne.",
     "faqTitle": "Questions fréquentes",
     "faq1Q": "{name} convient-il aux débutants ?",
+    "faq1A": "{name} propose {pistesKm} km de pistes desservies par {lifts} remontées, de {altitudeBase} m à {altitudeSummit} m. L'intérêt pour les débutants dépend des zones d'apprentissage au pied du domaine. Renseignez-vous auprès de l'école de ski locale pour l'accès aux pistes vertes et bleues.",
     "faq2Q": "Quelle est la meilleure période pour skier à {name} ?",
-    "faq3Q": "Où dormir pour un vrai ski-in/ski-out ?"
+    "faq2A": "La saison s'étend du {seasonStart} au {seasonEnd}, avec un score neige de {snowScore}/100. Les meilleures conditions tombent en général de fin janvier à fin février ; le ski de printemps en mars et avril offre des journées plus longues et des après-midi plus souples.",
+    "faq3Q": "Où dormir pour profiter d'un vrai ski-in/ski-out ?"
   },
   "footer": {
     "tagline": "Les meilleurs hôtels de neige, là où la remontée part de votre porte.",
     "explore": "Explorer",
-    "info": "Infos",
+    "info": "Informations",
     "about": "À propos",
-    "disclosure": "Mentions affiliés",
+    "disclosure": "Mentions d'affiliation",
     "privacy": "Confidentialité",
     "contact": "Contact",
-    "disclosureText": "Ce site contient des liens d'affiliation. Nous percevons une commission sur les réservations effectuées via nos liens partenaires, sans surcoût pour vous. Cela permet à BestSnowHotels de rester gratuit.",
-    "copyright": "© 2026 BestSnowHotels — Tous droits réservés."
+    "disclosureText": "Ce site contient des liens d'affiliation. Nous percevons une commission sur les réservations effectuées via nos liens partenaires, sans surcoût pour vous. C'est ce qui permet à BestSnowHotels de rester gratuit.",
+    "copyright": "© 2026 BestSnowHotels. Tous droits réservés."
   },
   "disclosure": {
-    "banner": "BestSnowHotels est financé par ses lecteurs. Nous percevons une commission sur les réservations via nos liens partenaires, sans surcoût pour vous."
+    "banner": "BestSnowHotels est financé par ses lecteurs. Nous percevons une commission sur les réservations effectuées via nos liens partenaires, sans surcoût pour vous."
   },
   "home": {
     "topTitle": "Top destinations ski",
-    "topSubtitle": "Les plus grandes, les plus enneigées, les plus ski-in/ski-out d'Europe — sélectionnées sur l'altitude, la fiabilité neige et l'inventaire réservable.",
+    "topSubtitle": "Les plus grandes, les plus enneigées, les plus ski-in/ski-out d'Europe, sélectionnées selon l'altitude, la fiabilité de l'enneigement et l'inventaire réservable.",
     "byCountryTitle": "Par pays",
     "byCountrySubtitle": "Choisissez votre massif.",
     "howTitle": "Comment fonctionne BestSnowHotels",
     "howStep1Title": "Parcourez 41 stations",
-    "howStep1Text": "Chaque page donne les altitudes réelles, les kilomètres de pistes et les notes ski-in/ski-out — pas de blabla.",
+    "howStep1Text": "Chaque page donne les altitudes réelles, les kilomètres de pistes et une note ski-in/ski-out transparente. Pas de blabla.",
     "howStep2Title": "Voyez les hôtels sur la carte",
-    "howStep2Text": "Les cartes Stay22 montrent les hôtels et appartements autour des remontées en temps réel.",
+    "howStep2Text": "Les cartes Stay22 affichent en temps réel les hôtels et appartements autour des remontées, avec les prix en direct des grands opérateurs.",
     "howStep3Title": "Réservez au meilleur prix",
-    "howStep3Text": "Chaque lien compare Booking, Expedia et Hotels.com. Nous percevons une commission — jamais de votre portefeuille.",
+    "howStep3Text": "Chaque lien compare Booking, Expedia et Hotels.com. Nous percevons une petite commission, jamais sur votre portefeuille.",
     "trustTitle": "Pourquoi ce site existe",
-    "trustText": "Booking.com ne peut pas vous dire si un hôtel est vraiment ski-in/ski-out. Les sites des stations ne comparent pas les prix. BestSnowHotels fait les deux — et seulement ça."
+    "trustText": "Booking.com ne sait pas vous dire si un hôtel est vraiment ski-in/ski-out. Les sites des stations ne comparent pas les prix. BestSnowHotels fait les deux, et rien que ça."
   }
 }

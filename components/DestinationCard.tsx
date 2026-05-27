@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import type { Destination } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
+import { localizeCountry } from '@/lib/countryNames'
 
 interface DestinationCardProps {
   destination: Destination
@@ -36,7 +37,7 @@ export default function DestinationCard({
 
         <div className="absolute top-3 left-3 flex items-center gap-2 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1 text-xs font-semibold text-ice-800">
           <span aria-hidden>{d.flag}</span>
-          <span>{d.country}</span>
+          <span>{localizeCountry(d.country, locale)}</span>
         </div>
         <div className="absolute top-3 right-3 bg-slate-deep/90 text-white rounded-full px-3 py-1 text-xs font-bold tabular-nums">
           {d.altitudeSummit.toLocaleString()} m

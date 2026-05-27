@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react'
 import type { Destination } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
 import DestinationCard from './DestinationCard'
+import { localizeCountry } from '@/lib/countryNames'
 
 interface FilterLabels {
   altitude: string
@@ -24,6 +25,7 @@ interface DestinationFiltersProps {
     vibe: string
     reset: string
     showing: string
+    noResults: string
   }
 }
 
@@ -88,7 +90,7 @@ export default function DestinationFilters({
               <option value="all">{labels.filterAll}</option>
               {countries.map(([name, flag]) => (
                 <option key={name} value={name}>
-                  {flag} {name}
+                  {flag} {localizeCountry(name, locale)}
                 </option>
               ))}
             </select>
@@ -174,7 +176,7 @@ export default function DestinationFilters({
       {/* Results */}
       {filtered.length === 0 ? (
         <div className="bg-ice-50 border border-ice-100 rounded-2xl p-10 text-center text-ice-700">
-          No resorts match these filters.
+          {uiLabels.noResults}
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">

@@ -7,6 +7,7 @@ import { COUNTRIES, getCountry } from '@/lib/countries'
 import { destinations } from '@/lib/destinations'
 import DestinationCard from '@/components/DestinationCard'
 import { SITE_URL } from '@/lib/site'
+import { localizeCountry, inCountry } from '@/lib/countryNames'
 
 export async function generateStaticParams() {
   const params: { locale: string; slug: string }[] = []
@@ -27,10 +28,10 @@ export async function generateMetadata({
   const country = getCountry(slug)
   if (!country) return {}
   const titles: Record<Locale, string> = {
-    en: `Ski-in/ski-out hotels in ${country.name} | BestSnowHotels`,
-    fr: `Hôtels ski-in/ski-out en ${country.name} | BestSnowHotels`,
-    es: `Hoteles ski-in/ski-out en ${country.name} | BestSnowHotels`,
-    pt: `Hotéis ski-in/ski-out em ${country.name} | BestSnowHotels`,
+    en: `Ski-in/ski-out hotels ${inCountry(country.name, 'en')} | BestSnowHotels`,
+    fr: `Hôtels ski-in/ski-out ${inCountry(country.name, 'fr')} | BestSnowHotels`,
+    es: `Hoteles ski-in/ski-out ${inCountry(country.name, 'es')} | BestSnowHotels`,
+    pt: `Hotéis ski-in/ski-out ${inCountry(country.name, 'pt')} | BestSnowHotels`,
   }
   return {
     title: titles[locale as Locale],
@@ -82,9 +83,9 @@ export default async function CountryPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/${l}` },
+      { '@type': 'ListItem', position: 1, name: dict.nav.home, item: `${SITE_URL}/${l}` },
       { '@type': 'ListItem', position: 2, name: dict.nav.countries, item: `${SITE_URL}/${l}/countries` },
-      { '@type': 'ListItem', position: 3, name: country.name, item: `${SITE_URL}/${l}/countries/${country.slug}` },
+      { '@type': 'ListItem', position: 3, name: localizeCountry(country.name, l), item: `${SITE_URL}/${l}/countries/${country.slug}` },
     ],
   }
 
@@ -97,20 +98,20 @@ export default async function CountryPage({
         <div className="absolute inset-0 bg-snow-grain opacity-30 pointer-events-none" />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <nav className="text-sm text-ice-700 mb-4">
-            <Link href={`/${l}`} className="hover:text-slate-deep">Home</Link>
+            <Link href={`/${l}`} className="hover:text-slate-deep">{dict.nav.home}</Link>
             <span className="mx-2 text-ice-400">/</span>
             <Link href={`/${l}/countries`} className="hover:text-slate-deep">{dict.nav.countries}</Link>
             <span className="mx-2 text-ice-400">/</span>
-            <span className="text-slate-deep">{country.name}</span>
+            <span className="text-slate-deep">{localizeCountry(country.name, l)}</span>
           </nav>
           <div className="flex items-center gap-4 mb-2">
             <span className="text-5xl" aria-hidden>{country.flag}</span>
             <h1 className="text-4xl sm:text-5xl font-bold text-slate-deep tracking-tight">
-              {country.name}
+              {localizeCountry(country.name, l)}
             </h1>
           </div>
           <div className="text-sm font-medium text-ice-700 mb-4">
-            {list.length} {list.length === 1 ? 'resort' : 'resorts'}
+            {list.length} {list.length === 1 ? dict.destinations.resort : dict.destinations.resorts}
           </div>
           <p className="mt-3 text-lg text-ice-800/80 max-w-3xl leading-relaxed">
             {country.intro[l]}

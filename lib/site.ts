@@ -1,7 +1,7 @@
 export const SITE_URL = 'https://www.bestsnowhotels.com'
 export const SITE_NAME = 'BestSnowHotels'
 
-/** Stay22 partner ID — used for letmeallez script + map embed + allez deep links */
+/** Stay22 partner ID used for the letmeallez script, map embed and Allez deep links. */
 export const STAY22_ID = '6a172a3725eb5f0f8532400c'
 
 /**

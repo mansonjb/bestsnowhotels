@@ -23,16 +23,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   const titles: Record<Locale, string> = {
-    en: 'BestSnowHotels — Ski-in/ski-out hotels in the Alps and Pyrenees',
-    fr: 'BestSnowHotels — Hôtels ski-in/ski-out dans les Alpes et les Pyrénées',
-    es: 'BestSnowHotels — Hoteles ski-in/ski-out en los Alpes y los Pirineos',
-    pt: 'BestSnowHotels — Hotéis ski-in/ski-out nos Alpes e Pirenéus',
+    en: 'BestSnowHotels: ski-in/ski-out hotels in the Alps and Pyrenees',
+    fr: 'BestSnowHotels : hôtels ski-in/ski-out dans les Alpes et les Pyrénées',
+    es: 'BestSnowHotels : hoteles ski-in/ski-out en los Alpes y los Pirineos',
+    pt: 'BestSnowHotels: hotéis ski-in/ski-out nos Alpes e nos Pirenéus',
   }
   const descriptions: Record<Locale, string> = {
     en: 'Find ski-in/ski-out hotels across 41 resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real snow data, best prices.',
-    fr: 'Trouvez des hôtels ski-in/ski-out dans 41 stations en France, Suisse, Autriche, Italie, Espagne et Andorre. Altitudes réelles, données neige, meilleurs prix.',
-    es: 'Encuentra hoteles ski-in/ski-out en 41 estaciones de Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales, datos de nieve, mejores precios.',
-    pt: 'Encontre hotéis ski-in/ski-out em 41 estâncias em França, Suíça, Áustria, Itália, Espanha e Andorra. Altitudes reais, dados de neve, melhores preços.',
+    fr: 'Trouvez des hôtels ski-in/ski-out dans 41 stations en France, en Suisse, en Autriche, en Italie, en Espagne et en Andorre. Altitudes réelles, données d\'enneigement, meilleurs prix.',
+    es: 'Encuentra hoteles ski-in/ski-out en 41 estaciones de Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales, datos de nieve, los mejores precios.',
+    pt: 'Encontre hotéis ski-in/ski-out em 41 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha e em Andorra. Altitudes reais, dados de neve, os melhores preços.',
   }
   const l = hasLocale(locale) ? locale : 'en'
 

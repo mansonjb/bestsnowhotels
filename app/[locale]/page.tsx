@@ -7,6 +7,7 @@ import Hero from '@/components/Hero'
 import DestinationCard from '@/components/DestinationCard'
 import { destinations, getDestinationsByCountry } from '@/lib/destinations'
 import { SITE_URL } from '@/lib/site'
+import { localizeCountry } from '@/lib/countryNames'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -21,16 +22,16 @@ export async function generateMetadata({
   if (!hasLocale(locale)) return {}
 
   const titles: Record<Locale, string> = {
-    en: 'Ski-in/ski-out hotels: 41 best snow resorts across Europe | BestSnowHotels',
-    fr: 'Hôtels ski-in/ski-out : 41 meilleures stations enneigées d\'Europe | BestSnowHotels',
-    es: 'Hoteles ski-in/ski-out: 41 mejores estaciones nevadas de Europa | BestSnowHotels',
-    pt: 'Hotéis ski-in/ski-out: 41 melhores estâncias nevadas da Europa | BestSnowHotels',
+    en: 'Ski-in/ski-out hotels: the 41 best snow resorts in Europe | BestSnowHotels',
+    fr: 'Hôtels ski-in/ski-out : les 41 meilleures stations de ski d\'Europe | BestSnowHotels',
+    es: 'Hoteles ski-in/ski-out : las 41 mejores estaciones de esquí de Europa | BestSnowHotels',
+    pt: 'Hotéis ski-in/ski-out: as 41 melhores estâncias de esqui da Europa | BestSnowHotels',
   }
   const descriptions: Record<Locale, string> = {
-    en: 'Browse 41 hand-picked ski resorts in the Alps and Pyrenees with verified ski-in/ski-out hotels. Live maps powered by Stay22, best prices across Booking, Expedia and Hotels.com.',
-    fr: 'Parcourez 41 stations triées sur le volet dans les Alpes et les Pyrénées avec hôtels ski-in/ski-out vérifiés. Cartes en direct par Stay22, meilleurs prix sur Booking, Expedia et Hotels.com.',
-    es: 'Explora 41 estaciones de esquí seleccionadas en los Alpes y los Pirineos con hoteles ski-in/ski-out verificados. Mapas en vivo de Stay22, mejores precios en Booking, Expedia y Hotels.com.',
-    pt: 'Explore 41 estâncias de esqui selecionadas nos Alpes e Pirenéus com hotéis ski-in/ski-out verificados. Mapas em direto Stay22, melhores preços em Booking, Expedia e Hotels.com.',
+    en: 'Browse 41 hand-picked ski resorts in the Alps and Pyrenees with verified ski-in/ski-out hotels. Live maps powered by Stay22 and the best prices across Booking, Expedia and Hotels.com.',
+    fr: 'Parcourez 41 stations triées sur le volet dans les Alpes et les Pyrénées, avec des hôtels ski-in/ski-out vérifiés. Cartes en direct grâce à Stay22 et les meilleurs prix sur Booking, Expedia et Hotels.com.',
+    es: 'Explora 41 estaciones de esquí cuidadosamente seleccionadas en los Alpes y los Pirineos, con hoteles ski-in/ski-out verificados. Mapas en directo gracias a Stay22 y los mejores precios en Booking, Expedia y Hotels.com.',
+    pt: 'Percorra 41 estâncias de esqui cuidadosamente escolhidas nos Alpes e nos Pirenéus, com hotéis ski-in/ski-out verificados. Mapas em directo graças à Stay22 e os melhores preços no Booking, na Expedia e no Hotels.com.',
   }
 
   return {
@@ -55,7 +56,7 @@ export async function generateMetadata({
   }
 }
 
-// Top picks for the homepage — handpicked by snow score and notoriety.
+// Top picks for the homepage, handpicked by snow score and notoriety.
 const TOP_SLUGS = [
   'val-thorens',
   'zermatt',
@@ -157,18 +158,21 @@ export default async function HomePage({
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
             {Array.from(byCountry.entries()).map(([country, list]) => (
-              <div
+              <Link
                 key={country}
-                className="bg-white rounded-2xl border border-ice-100 p-5 text-center"
+                href={`/${locale}/countries/${country.toLowerCase()}`}
+                className="bg-white rounded-2xl border border-ice-100 p-5 text-center card-hover block"
               >
                 <div className="text-3xl" aria-hidden>
                   {list[0].flag}
                 </div>
-                <div className="mt-2 font-semibold text-slate-deep">{country}</div>
-                <div className="text-xs text-ice-700">
-                  {list.length} {list.length === 1 ? 'resort' : 'resorts'}
+                <div className="mt-2 font-semibold text-slate-deep">
+                  {localizeCountry(country, locale as Locale)}
                 </div>
-              </div>
+                <div className="text-xs text-ice-700">
+                  {list.length} {list.length === 1 ? dict.destinations.resort : dict.destinations.resorts}
+                </div>
+              </Link>
             ))}
           </div>
         </div>

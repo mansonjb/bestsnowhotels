@@ -5,6 +5,7 @@ import type { Locale } from '../dictionaries'
 import DestinationFilters from '@/components/DestinationFilters'
 import { destinations } from '@/lib/destinations'
 import { SITE_URL } from '@/lib/site'
+import { localizeCountry } from '@/lib/countryNames'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -20,9 +21,9 @@ export async function generateMetadata({
 
   const titles: Record<Locale, string> = {
     en: 'All 41 ski destinations in the Alps and Pyrenees | BestSnowHotels',
-    fr: 'Toutes les 41 destinations ski dans les Alpes et les Pyrénées | BestSnowHotels',
-    es: 'Todos los 41 destinos de esquí en los Alpes y los Pirineos | BestSnowHotels',
-    pt: 'Todos os 41 destinos de esqui nos Alpes e Pirenéus | BestSnowHotels',
+    fr: 'Les 41 destinations ski dans les Alpes et les Pyrénées | BestSnowHotels',
+    es: 'Los 41 destinos de esquí en los Alpes y los Pirineos | BestSnowHotels',
+    pt: 'Os 41 destinos de esqui nos Alpes e nos Pirenéus | BestSnowHotels',
   }
 
   return {
@@ -64,6 +65,7 @@ export default async function DestinationsPage({
     vibe: dict.destinations.vibe,
     reset: dict.destinations.reset,
     showing: dict.destinations.showing,
+    noResults: dict.destinations.noResults,
   }
 
   const itemListSchema = {

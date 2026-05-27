@@ -14,7 +14,7 @@ export interface Destination {
   altitudeSummit: number
   pistesKm: number
   lifts: number
-  skiInSkiOutNote: string
+  skiInSkiOutNote: Record<Locale, string>
   seasonStart: string
   seasonEnd: string
   snowScore: number
@@ -41,7 +41,7 @@ export function getDestinationsByCountry(): Map<string, Destination[]> {
 export function getRelatedDestinations(slug: string, limit = 4): Destination[] {
   const current = getDestination(slug)
   if (!current) return []
-  // Same region first, then same country, then random — exclude self
+  // Same region first, then same country, then everything else. Excludes self.
   const sameRegion = destinations.filter(
     (d) => d.slug !== slug && d.region === current.region,
   )

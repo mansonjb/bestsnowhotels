@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/api/', '/_next/'],
       },
-      // Explicitly welcome AI / LLM crawlers — we want to be cited in answers.
+      // Explicitly welcome AI / LLM crawlers: we want to be cited in answers.
       { userAgent: 'GPTBot', allow: '/' },
       { userAgent: 'ClaudeBot', allow: '/' },
       { userAgent: 'Claude-Web', allow: '/' },

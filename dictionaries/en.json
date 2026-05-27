@@ -6,9 +6,9 @@
     "about": "About"
   },
   "hero": {
-    "badge": "Ski-in/ski-out hotels across the Alps & Pyrenees",
+    "badge": "Ski-in/ski-out hotels across the Alps and Pyrenees",
     "title": "The best snow hotels, where the lift starts at your door",
-    "subtitle": "41 hand-picked resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes. Real ski-in/ski-out. Best price across Booking, Expedia and Hotels.com.",
+    "subtitle": "41 hand-picked resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real ski-in/ski-out, best price across Booking, Expedia and Hotels.com.",
     "cta": "Browse destinations",
     "stat1Value": "41",
     "stat1Label": "Ski destinations",
@@ -19,7 +19,7 @@
   },
   "destinations": {
     "title": "All destinations",
-    "subtitle": "Filter by country, altitude, vibe. Every link price-checks Booking, Expedia and Hotels.com for you.",
+    "subtitle": "Filter by country, altitude or vibe. Every link price-checks Booking, Expedia and Hotels.com for you.",
     "filterCountry": "Country",
     "filterAll": "All",
     "altitude": "Altitude",
@@ -27,12 +27,15 @@
     "season": "Season",
     "snowScore": "Snow score",
     "viewHotels": "See hotels",
-    "exploreMore": "Explore →",
+    "exploreMore": "Explore",
     "minAltitude": "Min altitude",
     "minSnow": "Min snow score",
     "vibe": "Vibe",
     "reset": "Reset filters",
-    "showing": "Showing"
+    "showing": "Showing",
+    "resort": "resort",
+    "resorts": "resorts",
+    "noResults": "No resorts match these filters."
   },
   "destination": {
     "overview": "Overview",
@@ -52,7 +55,9 @@
     "relatedSubtitle": "Similar style, different mountain.",
     "faqTitle": "Frequently asked questions",
     "faq1Q": "Is {name} good for beginners?",
+    "faq1A": "{name} offers {pistesKm} km of pistes across {lifts} lifts, from {altitudeBase} m to {altitudeSummit} m. Whether it suits beginners depends on the dedicated learner zones at the base of the slopes, so check the local ski-school options for green and blue run access.",
     "faq2Q": "When is the best time to ski {name}?",
+    "faq2A": "The season runs from {seasonStart} to {seasonEnd}, with a snow score of {snowScore}/100. The best conditions are usually from late January through February, while spring skiing in March and April brings longer days and softer afternoons.",
     "faq3Q": "Where should I stay for true ski-in/ski-out?"
   },
   "footer": {
@@ -63,25 +68,25 @@
     "disclosure": "Affiliate disclosure",
     "privacy": "Privacy",
     "contact": "Contact",
-    "disclosureText": "This site contains affiliate links. We may earn a commission when you book through us, at no extra cost to you. This helps keep BestSnowHotels free.",
-    "copyright": "© 2026 BestSnowHotels — All rights reserved."
+    "disclosureText": "This site contains affiliate links. We may earn a commission when you book through us, at no extra cost to you. It keeps BestSnowHotels free.",
+    "copyright": "© 2026 BestSnowHotels. All rights reserved."
   },
   "disclosure": {
     "banner": "BestSnowHotels is reader-supported. We earn a commission on bookings made through our partner links, at no extra cost to you."
   },
   "home": {
     "topTitle": "Top ski destinations",
-    "topSubtitle": "The biggest, snowiest, most ski-in/ski-out resorts in Europe — picked by altitude, snow record and bookable inventory.",
+    "topSubtitle": "The biggest, snowiest, most ski-in/ski-out resorts in Europe, picked by altitude, snow record and bookable inventory.",
     "byCountryTitle": "By country",
     "byCountrySubtitle": "Pick your mountain range.",
     "howTitle": "How BestSnowHotels works",
     "howStep1Title": "Browse 41 resorts",
-    "howStep1Text": "Each page lists real altitudes, piste km and ski-in/ski-out notes — no guesswork.",
+    "howStep1Text": "Each page lists real altitudes, piste kilometres and a transparent ski-in/ski-out note, with no guesswork.",
     "howStep2Title": "See live hotels on the map",
-    "howStep2Text": "Stay22 maps show hotels and apartments around the lifts in real time.",
+    "howStep2Text": "Stay22 maps show hotels and apartments around the lifts in real time, with live prices from the major operators.",
     "howStep3Title": "Book at the best price",
-    "howStep3Text": "Every link price-checks Booking, Expedia and Hotels.com. We earn a small commission — never from your wallet.",
+    "howStep3Text": "Every link price-checks Booking, Expedia and Hotels.com. We earn a small commission, never from your wallet.",
     "trustTitle": "Why this site exists",
-    "trustText": "Booking.com cannot tell you whether a hotel is truly ski-in/ski-out. Resort websites do not compare prices. BestSnowHotels does both — and only that."
+    "trustText": "Booking.com cannot tell you whether a hotel is really ski-in/ski-out. Resort websites do not compare prices. BestSnowHotels does both, and only that."
   }
 }

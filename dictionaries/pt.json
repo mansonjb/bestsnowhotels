@@ -6,33 +6,36 @@
     "about": "Sobre"
   },
   "hero": {
-    "badge": "Hotéis ski-in/ski-out nos Alpes e Pirenéus",
+    "badge": "Hotéis ski-in/ski-out nos Alpes e nos Pirenéus",
     "title": "Os melhores hotéis de neve, onde o teleférico sai à sua porta",
-    "subtitle": "41 estâncias selecionadas em França, Suíça, Áustria, Itália, Espanha e Andorra. Altitudes reais. Ski-in/ski-out a sério. Melhor preço entre Booking, Expedia e Hotels.com.",
+    "subtitle": "41 estâncias cuidadosamente escolhidas em França, Suíça, Áustria, Itália, Espanha e Andorra. Altitudes reais, ski-in/ski-out a sério, o melhor preço entre Booking, Expedia e Hotels.com.",
     "cta": "Ver destinos",
     "stat1Value": "41",
     "stat1Label": "Destinos de esqui",
     "stat2Value": "6",
     "stat2Label": "Países",
-    "stat3Value": "100%",
+    "stat3Value": "100 %",
     "stat3Label": "Grátis"
   },
   "destinations": {
     "title": "Todos os destinos",
-    "subtitle": "Filtre por país, altitude, ambiente. Cada ligação compara Booking, Expedia e Hotels.com por si.",
+    "subtitle": "Filtre por país, altitude ou ambiente. Cada ligação compara Booking, Expedia e Hotels.com por si.",
     "filterCountry": "País",
     "filterAll": "Todos",
     "altitude": "Altitude",
     "pistes": "Pistas",
     "season": "Época",
-    "snowScore": "Pontuação neve",
+    "snowScore": "Pontuação de neve",
     "viewHotels": "Ver hotéis",
-    "exploreMore": "Explorar →",
-    "minAltitude": "Altitude mín",
-    "minSnow": "Pontuação neve mín",
+    "exploreMore": "Explorar",
+    "minAltitude": "Altitude mín.",
+    "minSnow": "Pontuação de neve mín.",
     "vibe": "Ambiente",
-    "reset": "Redefinir",
-    "showing": "A mostrar"
+    "reset": "Repor filtros",
+    "showing": "A mostrar",
+    "resort": "estância",
+    "resorts": "estâncias",
+    "noResults": "Nenhuma estância corresponde a estes filtros."
   },
   "destination": {
     "overview": "Visão geral",
@@ -52,8 +55,10 @@
     "relatedSubtitle": "Mesmo espírito, outra montanha.",
     "faqTitle": "Perguntas frequentes",
     "faq1Q": "{name} é adequado para principiantes?",
+    "faq1A": "{name} oferece {pistesKm} km de pistas servidas por {lifts} teleféricos, de {altitudeBase} m a {altitudeSummit} m. A adequação para principiantes depende das zonas de aprendizagem ao pé do domínio. Informe-se junto da escola de esqui local sobre o acesso às pistas verdes e azuis.",
     "faq2Q": "Qual é a melhor altura para esquiar em {name}?",
-    "faq3Q": "Onde ficar para um verdadeiro ski-in/ski-out?"
+    "faq2A": "A época vai de {seasonStart} a {seasonEnd}, com uma pontuação de neve de {snowScore}/100. As melhores condições costumam dar-se entre o final de janeiro e o final de fevereiro ; o esqui de primavera em março e abril oferece dias mais longos e tardes mais suaves.",
+    "faq3Q": "Onde ficar para aproveitar um verdadeiro ski-in/ski-out?"
   },
   "footer": {
     "tagline": "Os melhores hotéis de neve, onde o teleférico sai à sua porta.",
@@ -63,25 +68,25 @@
     "disclosure": "Aviso de afiliação",
     "privacy": "Privacidade",
     "contact": "Contacto",
-    "disclosureText": "Este site contém ligações de afiliação. Recebemos uma comissão sobre as reservas efetuadas através dos nossos parceiros, sem custo adicional para si. Isto permite que o BestSnowHotels continue gratuito.",
-    "copyright": "© 2026 BestSnowHotels — Todos os direitos reservados."
+    "disclosureText": "Este site contém ligações de afiliação. Recebemos uma comissão sobre as reservas efetuadas através dos nossos parceiros, sem custo adicional para si. É o que permite que o BestSnowHotels continue gratuito.",
+    "copyright": "© 2026 BestSnowHotels. Todos os direitos reservados."
   },
   "disclosure": {
-    "banner": "O BestSnowHotels é financiado pelos seus leitores. Recebemos uma comissão sobre as reservas através dos nossos parceiros, sem custo adicional para si."
+    "banner": "O BestSnowHotels é financiado pelos seus leitores. Recebemos uma comissão sobre as reservas efetuadas através dos nossos parceiros, sem custo adicional para si."
   },
   "home": {
     "topTitle": "Top destinos de esqui",
-    "topSubtitle": "As maiores, com mais neve, mais ski-in/ski-out da Europa — selecionadas por altitude, fiabilidade de neve e inventário reservável.",
+    "topSubtitle": "As estâncias maiores, com mais neve e mais ski-in/ski-out da Europa, selecionadas pela altitude, pela fiabilidade da neve e pelo inventário reservável.",
     "byCountryTitle": "Por país",
     "byCountrySubtitle": "Escolha a sua cordilheira.",
     "howTitle": "Como funciona o BestSnowHotels",
     "howStep1Title": "Explore 41 estâncias",
-    "howStep1Text": "Cada página mostra altitudes reais, quilómetros de pistas e notas ski-in/ski-out — sem rodeios.",
-    "howStep2Title": "Veja hotéis no mapa",
-    "howStep2Text": "Os mapas Stay22 mostram hotéis e apartamentos à volta dos teleféricos em tempo real.",
+    "howStep1Text": "Cada página mostra altitudes reais, quilómetros de pistas e uma nota ski-in/ski-out transparente. Sem rodeios.",
+    "howStep2Title": "Veja os hotéis no mapa",
+    "howStep2Text": "Os mapas Stay22 mostram em tempo real os hotéis e apartamentos à volta dos teleféricos, com os preços em directo dos principais operadores.",
     "howStep3Title": "Reserve ao melhor preço",
-    "howStep3Text": "Cada ligação compara Booking, Expedia e Hotels.com. Recebemos uma comissão — nunca da sua carteira.",
-    "trustTitle": "Porque este site existe",
-    "trustText": "O Booking.com não consegue dizer-lhe se um hotel é realmente ski-in/ski-out. Os sites das estâncias não comparam preços. O BestSnowHotels faz as duas coisas — e só isso."
+    "howStep3Text": "Cada ligação compara Booking, Expedia e Hotels.com. Recebemos uma pequena comissão, nunca à custa da sua carteira.",
+    "trustTitle": "Porque é que este site existe",
+    "trustText": "O Booking.com não consegue dizer-lhe se um hotel é mesmo ski-in/ski-out. Os sites das estâncias não comparam preços. O BestSnowHotels faz as duas coisas, e só isso."
   }
 }

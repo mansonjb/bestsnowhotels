@@ -6,6 +6,7 @@ import type { Locale } from '../dictionaries'
 import { COUNTRIES } from '@/lib/countries'
 import { destinations } from '@/lib/destinations'
 import { SITE_URL } from '@/lib/site'
+import { localizeCountry } from '@/lib/countryNames'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -18,7 +19,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   return {
-    title: `Ski countries — Where to ski in Europe | BestSnowHotels`,
+    title: `Ski countries: where to ski in Europe | BestSnowHotels`,
     alternates: { canonical: `${SITE_URL}/${locale}/countries` },
   }
 }
@@ -58,9 +59,9 @@ export default async function CountriesIndexPage({
                   {c.flag}
                 </span>
                 <div>
-                  <h2 className="text-xl font-bold text-slate-deep">{c.name}</h2>
+                  <h2 className="text-xl font-bold text-slate-deep">{localizeCountry(c.name, l)}</h2>
                   <div className="text-xs text-ice-700 tabular-nums">
-                    {count} {count === 1 ? 'resort' : 'resorts'}
+                    {count} {count === 1 ? dict.destinations.resort : dict.destinations.resorts}
                   </div>
                 </div>
               </div>

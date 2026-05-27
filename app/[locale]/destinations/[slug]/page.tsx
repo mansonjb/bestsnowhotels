@@ -12,6 +12,7 @@ import {
   getRelatedDestinations,
 } from '@/lib/destinations'
 import { SITE_URL, buildAllezDestLink } from '@/lib/site'
+import { localizeCountry } from '@/lib/countryNames'
 
 export async function generateStaticParams() {
   const params: { locale: string; slug: string }[] = []
@@ -33,11 +34,16 @@ export async function generateMetadata({
   const d = getDestination(slug)
   if (!d) return {}
 
+  const countryEn = localizeCountry(d.country, 'en')
+  const countryFr = localizeCountry(d.country, 'fr')
+  const countryEs = localizeCountry(d.country, 'es')
+  const countryPt = localizeCountry(d.country, 'pt')
+
   const titles: Record<Locale, string> = {
-    en: `Ski-in/ski-out hotels in ${d.name} (${d.country}) | BestSnowHotels`,
-    fr: `Hôtels ski-in/ski-out à ${d.name} (${d.country}) | BestSnowHotels`,
-    es: `Hoteles ski-in/ski-out en ${d.name} (${d.country}) | BestSnowHotels`,
-    pt: `Hotéis ski-in/ski-out em ${d.name} (${d.country}) | BestSnowHotels`,
+    en: `Ski-in/ski-out hotels in ${d.name} (${countryEn}) | BestSnowHotels`,
+    fr: `Hôtels ski-in/ski-out à ${d.name} (${countryFr}) | BestSnowHotels`,
+    es: `Hoteles ski-in/ski-out en ${d.name} (${countryEs}) | BestSnowHotels`,
+    pt: `Hotéis ski-in/ski-out em ${d.name} (${countryPt}) | BestSnowHotels`,
   }
   const descriptions: Record<Locale, string> = {
     en: `Best ski-in/ski-out hotels in ${d.name}. ${d.pistesKm} km of pistes, top at ${d.altitudeSummit} m. Compare Booking, Expedia and Hotels.com.`,
@@ -105,7 +111,7 @@ export default async function DestinationDetailPage({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/${l}` },
+      { '@type': 'ListItem', position: 1, name: dict.nav.home, item: `${SITE_URL}/${l}` },
       {
         '@type': 'ListItem',
         position: 2,
@@ -121,32 +127,43 @@ export default async function DestinationDetailPage({
     ],
   }
 
+  // Build localised FAQ answers from per-locale templates, with placeholders
+  // replaced by the destination's actual figures. Keeps the displayed copy and the
+  // JSON-LD answer text perfectly in sync.
+  const fillTemplate = (tpl: string) =>
+    tpl
+      .replace('{name}', d.name)
+      .replace('{pistesKm}', String(d.pistesKm))
+      .replace('{lifts}', String(d.lifts))
+      .replace('{altitudeBase}', String(d.altitudeBase))
+      .replace('{altitudeSummit}', String(d.altitudeSummit))
+      .replace('{seasonStart}', d.seasonStart)
+      .replace('{seasonEnd}', d.seasonEnd)
+      .replace('{snowScore}', String(d.snowScore))
+
+  const faqItems = [
+    {
+      q: dict.destination.faq1Q.replace('{name}', d.name),
+      a: fillTemplate(dict.destination.faq1A),
+    },
+    {
+      q: dict.destination.faq2Q.replace('{name}', d.name),
+      a: fillTemplate(dict.destination.faq2A),
+    },
+    {
+      q: dict.destination.faq3Q,
+      a: d.skiInSkiOutNote[l],
+    },
+  ]
+
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: dict.destination.faq1Q.replace('{name}', d.name),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `${d.name} has ${d.pistesKm} km of pistes spread across ${d.lifts} lifts, from ${d.altitudeBase} m to ${d.altitudeSummit} m. Suitability for beginners depends on the resort's beginner zones — check the local ski school options.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: dict.destination.faq2Q.replace('{name}', d.name),
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `Season runs from ${d.seasonStart} to ${d.seasonEnd}. Snow score: ${d.snowScore}/100. Peak conditions typically January–February; spring skiing March–April benefits from longer days.`,
-        },
-      },
-      {
-        '@type': 'Question',
-        name: dict.destination.faq3Q,
-        acceptedAnswer: { '@type': 'Answer', text: d.skiInSkiOutNote },
-      },
-    ],
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
   }
 
   return (
@@ -170,7 +187,7 @@ export default async function DestinationDetailPage({
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <nav className="text-sm text-ice-700 mb-4">
             <Link href={`/${l}`} className="hover:text-slate-deep">
-              Home
+              {dict.nav.home}
             </Link>
             <span className="mx-2 text-ice-400">/</span>
             <Link href={`/${l}/destinations`} className="hover:text-slate-deep">
@@ -275,7 +292,7 @@ export default async function DestinationDetailPage({
           <div className="text-xs font-bold text-ice-700 uppercase tracking-wider mb-1">
             {dict.destination.skiInSkiOut}
           </div>
-          <p className="text-slate-deep leading-relaxed">{d.skiInSkiOutNote}</p>
+          <p className="text-slate-deep leading-relaxed">{d.skiInSkiOutNote[l]}</p>
         </div>
       </section>
 
@@ -304,17 +321,7 @@ export default async function DestinationDetailPage({
           {dict.destination.faqTitle}
         </h2>
         <div className="space-y-4">
-          {[
-            {
-              q: dict.destination.faq1Q.replace('{name}', d.name),
-              a: `${d.name} offers ${d.pistesKm} km of pistes across ${d.lifts} lifts, from ${d.altitudeBase} m to ${d.altitudeSummit} m. The right level depends on the resort's beginner zones — see the dedicated ski school options.`,
-            },
-            {
-              q: dict.destination.faq2Q.replace('{name}', d.name),
-              a: `Season runs from ${d.seasonStart} to ${d.seasonEnd}. Snow score: ${d.snowScore}/100. Best conditions typically late January through February; spring skiing in March–April brings longer, sunnier days.`,
-            },
-            { q: dict.destination.faq3Q, a: d.skiInSkiOutNote },
-          ].map((item, i) => (
+          {faqItems.map((item, i) => (
             <details
               key={i}
               className="group bg-white border border-ice-100 rounded-2xl p-5"

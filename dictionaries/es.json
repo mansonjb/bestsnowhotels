@@ -8,31 +8,34 @@
   "hero": {
     "badge": "Hoteles ski-in/ski-out en los Alpes y los Pirineos",
     "title": "Los mejores hoteles de nieve, donde el remonte sale de tu puerta",
-    "subtitle": "41 estaciones seleccionadas en Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales. Ski-in/ski-out de verdad. Mejor precio entre Booking, Expedia y Hotels.com.",
+    "subtitle": "41 estaciones cuidadosamente seleccionadas en Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales, ski-in/ski-out de verdad, el mejor precio entre Booking, Expedia y Hotels.com.",
     "cta": "Ver destinos",
     "stat1Value": "41",
     "stat1Label": "Destinos de esquí",
     "stat2Value": "6",
     "stat2Label": "Países",
-    "stat3Value": "100%",
+    "stat3Value": "100 %",
     "stat3Label": "Gratis"
   },
   "destinations": {
     "title": "Todos los destinos",
-    "subtitle": "Filtra por país, altitud, ambiente. Cada enlace compara Booking, Expedia y Hotels.com por ti.",
+    "subtitle": "Filtra por país, altitud o ambiente. Cada enlace compara Booking, Expedia y Hotels.com por ti.",
     "filterCountry": "País",
     "filterAll": "Todos",
     "altitude": "Altitud",
     "pistes": "Pistas",
     "season": "Temporada",
-    "snowScore": "Puntuación nieve",
+    "snowScore": "Puntuación de nieve",
     "viewHotels": "Ver hoteles",
-    "exploreMore": "Explorar →",
-    "minAltitude": "Altitud mín",
-    "minSnow": "Puntuación nieve mín",
+    "exploreMore": "Explorar",
+    "minAltitude": "Altitud mín.",
+    "minSnow": "Puntuación de nieve mín.",
     "vibe": "Ambiente",
-    "reset": "Reiniciar",
-    "showing": "Mostrando"
+    "reset": "Restablecer filtros",
+    "showing": "Mostrando",
+    "resort": "estación",
+    "resorts": "estaciones",
+    "noResults": "Ninguna estación coincide con estos filtros."
   },
   "destination": {
     "overview": "Resumen",
@@ -52,36 +55,38 @@
     "relatedSubtitle": "Mismo espíritu, otra montaña.",
     "faqTitle": "Preguntas frecuentes",
     "faq1Q": "¿{name} es adecuado para principiantes?",
+    "faq1A": "{name} ofrece {pistesKm} km de pistas servidas por {lifts} remontes, de {altitudeBase} m a {altitudeSummit} m. Su idoneidad para principiantes depende de las zonas de aprendizaje al pie del dominio. Consulta a la escuela de esquí local sobre el acceso a las pistas verdes y azules.",
     "faq2Q": "¿Cuál es la mejor época para esquiar en {name}?",
-    "faq3Q": "¿Dónde alojarse para un verdadero ski-in/ski-out?"
+    "faq2A": "La temporada se extiende del {seasonStart} al {seasonEnd}, con una puntuación de nieve de {snowScore}/100. Las mejores condiciones suelen darse entre finales de enero y finales de febrero ; el esquí de primavera en marzo y abril ofrece jornadas más largas y tardes más suaves.",
+    "faq3Q": "¿Dónde alojarse para disfrutar de un verdadero ski-in/ski-out?"
   },
   "footer": {
     "tagline": "Los mejores hoteles de nieve, donde el remonte sale de tu puerta.",
     "explore": "Explorar",
-    "info": "Info",
+    "info": "Información",
     "about": "Acerca de",
     "disclosure": "Aviso de afiliación",
     "privacy": "Privacidad",
     "contact": "Contacto",
-    "disclosureText": "Este sitio contiene enlaces de afiliación. Recibimos una comisión por las reservas realizadas a través de nuestros enlaces socios, sin coste adicional para ti. Esto permite que BestSnowHotels siga siendo gratuito.",
-    "copyright": "© 2026 BestSnowHotels — Todos los derechos reservados."
+    "disclosureText": "Este sitio contiene enlaces de afiliación. Recibimos una comisión por las reservas efectuadas a través de nuestros enlaces socios, sin coste adicional para ti. Es lo que permite que BestSnowHotels siga siendo gratuito.",
+    "copyright": "© 2026 BestSnowHotels. Todos los derechos reservados."
   },
   "disclosure": {
-    "banner": "BestSnowHotels se financia con sus lectores. Recibimos una comisión por las reservas a través de nuestros enlaces socios, sin coste adicional para ti."
+    "banner": "BestSnowHotels se financia con sus lectores. Recibimos una comisión por las reservas efectuadas a través de nuestros enlaces socios, sin coste adicional para ti."
   },
   "home": {
     "topTitle": "Top destinos de esquí",
-    "topSubtitle": "Las más grandes, las más nevadas, las más ski-in/ski-out de Europa — seleccionadas por altitud, fiabilidad de nieve e inventario reservable.",
+    "topSubtitle": "Las estaciones más grandes, con más nieve y más ski-in/ski-out de Europa, seleccionadas según la altitud, la fiabilidad de la nieve y el inventario reservable.",
     "byCountryTitle": "Por país",
     "byCountrySubtitle": "Elige tu cordillera.",
     "howTitle": "Cómo funciona BestSnowHotels",
     "howStep1Title": "Explora 41 estaciones",
-    "howStep1Text": "Cada página muestra altitudes reales, kilómetros de pistas y notas ski-in/ski-out — sin adornos.",
-    "howStep2Title": "Mira hoteles en el mapa",
-    "howStep2Text": "Los mapas Stay22 muestran hoteles y apartamentos alrededor de los remontes en tiempo real.",
+    "howStep1Text": "Cada página muestra altitudes reales, kilómetros de pistas y una nota ski-in/ski-out transparente. Sin adornos.",
+    "howStep2Title": "Ve los hoteles en el mapa",
+    "howStep2Text": "Los mapas Stay22 muestran en tiempo real los hoteles y apartamentos alrededor de los remontes, con los precios en directo de los principales operadores.",
     "howStep3Title": "Reserva al mejor precio",
-    "howStep3Text": "Cada enlace compara Booking, Expedia y Hotels.com. Recibimos una comisión — nunca de tu cartera.",
+    "howStep3Text": "Cada enlace compara Booking, Expedia y Hotels.com. Recibimos una pequeña comisión, nunca de tu bolsillo.",
     "trustTitle": "Por qué existe este sitio",
-    "trustText": "Booking.com no puede decirte si un hotel es realmente ski-in/ski-out. Los sitios de las estaciones no comparan precios. BestSnowHotels hace ambas cosas — y solo eso."
+    "trustText": "Booking.com no puede decirte si un hotel es realmente ski-in/ski-out. Los sitios de las estaciones no comparan precios. BestSnowHotels hace ambas cosas, y solo eso."
   }
 }
