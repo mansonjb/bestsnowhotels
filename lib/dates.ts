@@ -28,6 +28,11 @@ const ALL_YEAR: Record<Locale, string> = {
   pt: 'Todo o ano',
 }
 
+/** Short month label, e.g. monthLabel('Jan', 'fr') => 'janv.' */
+export function monthLabel(mon: string, locale: Locale): string {
+  return MONTHS[mon]?.[locale] ?? mon
+}
+
 export function formatSeasonDate(value: string, locale: Locale): string {
   if (value === 'All year') return ALL_YEAR[locale]
 

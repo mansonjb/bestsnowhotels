@@ -9,8 +9,6 @@ interface HotelCardProps {
     reviews: string
     checkAvailability: string
     toSlopes: string
-    from: string
-    perNight: string
   }
 }
 
@@ -71,30 +69,19 @@ export default function HotelCard({ hotel, bookHref, labels }: HotelCardProps) {
         {hotel.distanceToSlopesM != null && (
           <p className="mt-1.5 inline-flex items-center gap-1 text-xs font-semibold text-ice-700">
             <span aria-hidden>⛷</span>
-            <span className="tabular-nums">
-              ≈ {formatDistance(hotel.distanceToSlopesM)}
-            </span>
+            <span className="tabular-nums">≈ {formatDistance(hotel.distanceToSlopesM)}</span>
             <span className="font-normal text-ice-600">{labels.toSlopes}</span>
           </p>
         )}
         <p className="mt-1 text-xs text-ice-600 line-clamp-2 flex-1">{hotel.address}</p>
-        <div className="mt-3 pt-3 border-t border-ice-100 flex items-end justify-between">
-          <div className="leading-tight">
-            <div className="text-[11px] text-ice-500">{labels.from}</div>
-            <div className="text-slate-deep font-bold tabular-nums">
-              ≈ {hotel.priceFrom} €
-              <span className="text-xs font-normal text-ice-500"> {labels.perNight}</span>
-            </div>
-          </div>
-          <a
-            href={bookHref}
-            target="_blank"
-            rel="noopener sponsored"
-            className="text-sm font-semibold text-ice-700 hover:text-slate-deep whitespace-nowrap"
-          >
-            {labels.checkAvailability} →
-          </a>
-        </div>
+        <a
+          href={bookHref}
+          target="_blank"
+          rel="noopener sponsored"
+          className="mt-4 block text-center bg-ice-600 text-white text-sm font-semibold py-2.5 rounded-lg hover:bg-ice-500 transition"
+        >
+          {labels.checkAvailability}
+        </a>
       </div>
     </article>
   )

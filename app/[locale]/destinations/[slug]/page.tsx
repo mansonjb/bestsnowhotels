@@ -5,7 +5,6 @@ import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import Stay22Map from '@/components/Stay22Map'
 import DestinationCard from '@/components/DestinationCard'
-import SnowScoreBar from '@/components/SnowScoreBar'
 import {
   destinations,
   getDestination,
@@ -13,6 +12,10 @@ import {
 } from '@/lib/destinations'
 import HotelCard from '@/components/HotelCard'
 import PisteBreakdown from '@/components/PisteBreakdown'
+import SnowByMonth from '@/components/SnowByMonth'
+import { snowByMonth } from '@/lib/snow'
+// SnowScoreBar no longer used: snow score now shown in the hero stats strip.
+import { getSkiTypes } from '@/lib/skiTypes'
 import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
 import Image from 'next/image'
 import { getHotels } from '@/lib/hotels'
@@ -102,11 +105,20 @@ export default async function DestinationDetailPage({
     reviews: dict.destination.reviews,
     checkAvailability: dict.destination.checkAvailability,
     toSlopes: dict.destination.toSlopes,
-    from: dict.destination.from,
-    perNight: dict.destination.perNight,
   }
   const verticalDrop = d.altitudeSummit - d.altitudeBase
   const hasGlacier = d.vibes.includes('glacier')
+  const snow = snowByMonth(d)
+  const skiTypeLabels: Record<string, string> = {
+    alpine: dict.destination.skiAlpine,
+    snowboard: dict.destination.skiSnowboard,
+    freeride: dict.destination.skiFreeride,
+    snowpark: dict.destination.skiSnowpark,
+    glacier: dict.destination.skiGlacier,
+    nordic: dict.destination.skiNordic,
+    touring: dict.destination.skiTouring,
+  }
+  const skiTypes = getSkiTypes(d)
   const officialSite = resortSite(slug)
   const rentalUrl = skiRentalMapsUrl(d.name, d.country)
   const gallery = getGallery(slug)
@@ -215,50 +227,58 @@ export default async function DestinationDetailPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-ice-100 via-ice-50 to-white border-b border-ice-100">
-        <div className="absolute inset-0 bg-snow-grain opacity-30 pointer-events-none" />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <nav className="text-sm text-ice-700 mb-4">
-            <Link href={`/${l}`} className="hover:text-slate-deep">
+      {/* Hero, photo background */}
+      <section className="relative overflow-hidden border-b border-ice-100">
+        <Image
+          src={`/images/destinations/${d.slug}.jpg`}
+          alt={`${d.name}, ${localizeRegion(d.region, l)}`}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-deep/95 via-slate-deep/70 to-slate-deep/45" />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-8">
+          <nav className="text-sm text-white/70 mb-5">
+            <Link href={`/${l}`} className="hover:text-white">
               {dict.nav.home}
             </Link>
-            <span className="mx-2 text-ice-400">/</span>
-            <Link href={`/${l}/destinations`} className="hover:text-slate-deep">
+            <span className="mx-2 text-white/40">/</span>
+            <Link href={`/${l}/destinations`} className="hover:text-white">
               {dict.destinations.title}
             </Link>
-            <span className="mx-2 text-ice-400">/</span>
-            <span className="text-slate-deep">{d.name}</span>
+            <span className="mx-2 text-white/40">/</span>
+            <span className="text-white">{d.name}</span>
           </nav>
 
           <div className="flex items-center gap-3 mb-3">
             <span className="text-3xl" aria-hidden>
               {d.flag}
             </span>
-            <span className="text-sm font-medium text-ice-700 uppercase tracking-wide">
+            <span className="text-sm font-semibold text-white/85 uppercase tracking-wide">
               {localizeRegion(d.region, l)}
             </span>
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-deep tracking-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight drop-shadow-sm">
             {d.name}
           </h1>
-          <p className="mt-5 text-lg text-ice-800/80 leading-relaxed">
+          <p className="mt-4 text-lg text-white/90 leading-relaxed drop-shadow-sm">
             {d.intro[l]}
           </p>
 
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
               href={allezLink}
               target="_blank"
               rel="noopener sponsored"
-              className="inline-block bg-slate-deep text-white font-semibold px-7 py-3 rounded-full hover:bg-ice-800 transition shadow-lg shadow-ice-900/20"
+              className="inline-block bg-ice-600 text-white font-semibold px-7 py-3 rounded-full hover:bg-ice-500 transition shadow-lg shadow-ice-950/30"
             >
               {dict.destination.bookCta} →
             </a>
             {d.vibes.map((v) => (
               <span
                 key={v}
-                className="inline-flex items-center text-xs font-semibold uppercase tracking-wide text-ice-800 bg-white border border-ice-200 px-3 py-1.5 rounded-full"
+                className="inline-flex items-center text-xs font-semibold uppercase tracking-wide text-white bg-white/15 border border-white/25 px-3 py-1.5 rounded-full backdrop-blur-sm"
               >
                 {localizeVibe(v, l)}
               </span>
@@ -266,19 +286,20 @@ export default async function DestinationDetailPage({
           </div>
 
           {/* Key stats, above the fold */}
-          <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-px bg-ice-100 rounded-2xl overflow-hidden border border-ice-100">
+          <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-px bg-ice-100 rounded-2xl overflow-hidden shadow-2xl shadow-slate-deep/40">
             {[
               { label: dict.destinations.altitude, value: `${d.altitudeBase.toLocaleString()} - ${d.altitudeSummit.toLocaleString()} m` },
               { label: dict.destination.verticalDrop, value: `${verticalDrop.toLocaleString()} m` },
               { label: dict.destination.pistesKm, value: `${d.pistesKm} km` },
               { label: dict.destination.lifts, value: `${d.lifts}` },
               { label: dict.destinations.snowScore, value: `${d.snowScore}/100` },
+              { label: dict.destination.season, value: formatSeasonRange(d.seasonStart, d.seasonEnd, l) },
             ].map((s) => (
               <div key={s.label} className="bg-white px-4 py-4">
                 <div className="text-[11px] uppercase tracking-wide text-ice-600">
                   {s.label}
                 </div>
-                <div className="mt-1 text-lg font-bold text-slate-deep tabular-nums">
+                <div className="mt-1 text-base font-bold text-slate-deep tabular-nums">
                   {s.value}
                 </div>
               </div>
@@ -287,57 +308,58 @@ export default async function DestinationDetailPage({
         </div>
       </section>
 
-      {/* Essentials grid */}
+      {/* Pistes and lifts (high on the page) */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl font-bold text-slate-deep mb-6">
-          {dict.destination.essentials}
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            {
-              label: dict.destination.altitudeBase,
-              value: `${d.altitudeBase.toLocaleString()} m`,
-            },
-            {
-              label: dict.destination.altitudeSummit,
-              value: `${d.altitudeSummit.toLocaleString()} m`,
-            },
-            {
-              label: dict.destination.pistesKm,
-              value: `${d.pistesKm} km`,
-            },
-            {
-              label: dict.destination.lifts,
-              value: `${d.lifts}`,
-            },
-          ].map((stat) => (
-            <div
-              key={stat.label}
-              className="bg-white rounded-2xl border border-ice-100 p-5"
-            >
-              <div className="text-xs text-ice-600 font-medium uppercase tracking-wide">
-                {stat.label}
-              </div>
-              <div className="mt-1 text-2xl font-bold text-slate-deep tabular-nums">
-                {stat.value}
-              </div>
-            </div>
-          ))}
+        <div className="flex flex-wrap items-center gap-3 mb-5">
+          <h2 className="text-2xl font-bold text-slate-deep">
+            {dict.destination.pisteTitle}
+          </h2>
+          {hasGlacier && (
+            <span className="inline-flex items-center gap-1 text-xs font-semibold text-ice-700 bg-ice-100 px-3 py-1 rounded-full">
+              <span aria-hidden>🧊</span>
+              {dict.destination.glacierSkiing}
+            </span>
+          )}
         </div>
 
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="bg-white rounded-2xl border border-ice-100 p-5">
-            <div className="text-xs text-ice-600 font-medium uppercase tracking-wide mb-1">
-              {dict.destination.season}
-            </div>
-            <div className="text-lg font-semibold text-slate-deep">
-              {formatSeasonRange(d.seasonStart, d.seasonEnd, l)}
-            </div>
+        {/* Ski types */}
+        <div className="mb-5">
+          <div className="text-xs uppercase tracking-wide text-ice-600 mb-2">
+            {dict.destination.skiTypesTitle}
           </div>
-          <div className="bg-white rounded-2xl border border-ice-100 p-5">
-            <SnowScoreBar score={d.snowScore} label={dict.destinations.snowScore} />
+          <div className="flex flex-wrap gap-2">
+            {skiTypes.map((t) => (
+              <span
+                key={t}
+                className="inline-flex items-center text-sm font-medium text-ice-800 bg-ice-50 border border-ice-200 px-3 py-1.5 rounded-full"
+              >
+                {skiTypeLabels[t]}
+              </span>
+            ))}
           </div>
         </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          <PisteBreakdown
+            destination={d}
+            labels={{
+              green: dict.destination.pisteGreen,
+              blue: dict.destination.pisteBlue,
+              red: dict.destination.pisteRed,
+              black: dict.destination.pisteBlack,
+              runs: dict.destination.runs,
+            }}
+          />
+          <div className="bg-white rounded-2xl border border-ice-100 p-6">
+            <div className="text-sm font-bold text-slate-deep mb-4">
+              {dict.destination.snowTitle}
+            </div>
+            <SnowByMonth data={snow} locale={l} />
+          </div>
+        </div>
+        <p className="mt-3 text-xs text-ice-500">
+          {dict.destination.pisteNote} {dict.destination.snowNote}
+        </p>
       </section>
 
       {/* Where to stay: example hotels */}
@@ -362,32 +384,6 @@ export default async function DestinationDetailPage({
           <p className="mt-4 text-xs text-ice-500">{dict.destination.ratingsNote}</p>
         </section>
       )}
-
-      {/* Pistes and lifts */}
-      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-wrap items-center gap-3 mb-5">
-          <h2 className="text-2xl font-bold text-slate-deep">
-            {dict.destination.pisteTitle}
-          </h2>
-          {hasGlacier && (
-            <span className="inline-flex items-center gap-1 text-xs font-semibold text-ice-700 bg-ice-100 px-3 py-1 rounded-full">
-              <span aria-hidden>🧊</span>
-              {dict.destination.glacierSkiing}
-            </span>
-          )}
-        </div>
-        <PisteBreakdown
-          destination={d}
-          labels={{
-            green: dict.destination.pisteGreen,
-            blue: dict.destination.pisteBlue,
-            red: dict.destination.pisteRed,
-            black: dict.destination.pisteBlack,
-            runs: dict.destination.runs,
-          }}
-        />
-        <p className="mt-3 text-xs text-ice-500">{dict.destination.pisteNote}</p>
-      </section>
 
       {/* Ski-in/ski-out note */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
