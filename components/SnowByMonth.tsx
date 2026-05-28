@@ -20,6 +20,7 @@ export default function SnowByMonth({ data, locale }: SnowByMonthProps) {
         <div key={m.month} className="flex-1 flex flex-col items-center justify-end h-full">
           <div className="text-xs font-bold text-slate-deep tabular-nums mb-1">
             {m.cm}
+            <span className="ml-0.5 font-normal text-ice-500">cm</span>
           </div>
           <div
             className="w-full max-w-[44px] rounded-t-lg bg-gradient-to-t from-ice-300 to-ice-500"
