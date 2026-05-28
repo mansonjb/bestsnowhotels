@@ -16,12 +16,16 @@
       "en": "Almost the entire village qualifies as ski-in/ski-out. Val Thorens is built directly on the slope, so most hotels open onto the snow front.",
       "fr": "Presque tout le village est ski-in/ski-out. Val Thorens est construit à même la pente, la plupart des hôtels ouvrent directement sur les pistes.",
       "es": "Casi todo el pueblo es ski-in/ski-out. Val Thorens está construido sobre la pista misma, la mayoría de los hoteles dan directamente a la nieve.",
-      "pt": "Quase toda a aldeia é ski-in/ski-out. Val Thorens foi construída sobre a própria pista, a maioria dos hotéis abre directamente para a neve."
+      "pt": "Quase toda a aldeia é ski-in/ski-out. Val Thorens foi construída sobre a própria pista, a maioria dos hotéis abre diretamente para a neve."
     },
     "seasonStart": "Nov 23",
     "seasonEnd": "May 4",
     "snowScore": 96,
-    "vibes": ["high-altitude", "party", "freeride"],
+    "vibes": [
+      "high-altitude",
+      "party",
+      "freeride"
+    ],
     "intro": {
       "en": "Val Thorens sits at 2,300 m, the highest village in Europe and the heart of Les 3 Vallées, the world's largest linked ski area. Snow is reliable from late November through early May, every winter without fail.",
       "fr": "Val Thorens culmine à 2 300 m, plus haut village d'Europe et pilier des 3 Vallées, le plus grand domaine skiable au monde. La neige est au rendez-vous de fin novembre à début mai, chaque hiver sans exception.",
@@ -46,12 +50,16 @@
       "en": "Plenty of hotels along the main lift axis open directly onto the snow front, especially around the Solaise gondola.",
       "fr": "De nombreux hôtels situés le long de l'axe principal des remontées ouvrent directement sur les pistes, en particulier autour du téléphérique de Solaise.",
       "es": "Muchos hoteles a lo largo del eje principal de remontes dan directamente a las pistas, sobre todo en torno al teleférico de Solaise.",
-      "pt": "Muitos hotéis ao longo do eixo principal de teleféricos abrem directamente para a neve, sobretudo à volta do teleférico de Solaise."
+      "pt": "Muitos hotéis ao longo do eixo principal de teleféricos abrem diretamente para a neve, sobretudo à volta do teleférico de Solaise."
     },
     "seasonStart": "Nov 29",
     "seasonEnd": "May 4",
     "snowScore": 93,
-    "vibes": ["luxury", "freeride", "racing"],
+    "vibes": [
+      "luxury",
+      "freeride",
+      "racing"
+    ],
     "intro": {
       "en": "Val d'Isère shares the Espace Killy domain with Tignes, 300 km of pistes and some of the most legendary off-piste in the Alps, from the Fornet bowl to the steep faces of Solaise.",
       "fr": "Val d'Isère partage avec Tignes le domaine de l'Espace Killy, 300 km de pistes et l'un des hors-pistes les plus légendaires des Alpes, du cirque du Fornet aux faces raides de Solaise.",
@@ -81,7 +89,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 21",
     "snowScore": 90,
-    "vibes": ["luxury", "family", "gastronomy"],
+    "vibes": [
+      "luxury",
+      "family",
+      "gastronomy"
+    ],
     "intro": {
       "en": "Courchevel is the most Michelin-starred ski village in the world and the western gateway to Les 3 Vallées. Six villages staggered by altitude let you choose your style, from the palaces of 1850 to the family-friendly slopes of Le Praz.",
       "fr": "Courchevel est le village de ski le plus étoilé Michelin au monde et la porte d'entrée ouest des 3 Vallées. Six villages échelonnés en altitude permettent de choisir son ambiance, des palaces de 1850 aux pistes familiales du Praz.",
@@ -111,12 +123,16 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 21",
     "snowScore": 89,
-    "vibes": ["family", "chalet", "british-friendly"],
+    "vibes": [
+      "family",
+      "chalet",
+      "british-friendly"
+    ],
     "intro": {
       "en": "Méribel sits at the geographic heart of Les 3 Vallées. Its architecture of wooden chalets, central lift hub and famously British après-ski scene make it the most welcoming entry point into the domain.",
       "fr": "Méribel se trouve au cœur géographique des 3 Vallées. Son architecture de chalets en bois, son hub central de remontées et son après-ski très britannique en font la porte la plus accueillante du domaine.",
       "es": "Méribel se sitúa en el corazón geográfico de Les 3 Vallées. Su arquitectura de chalets de madera, su nudo central de remontes y su après-ski muy británico la convierten en la puerta más acogedora del dominio.",
-      "pt": "Méribel encontra-se no coração geográfico de Les 3 Vallées. A sua arquitectura de chalés de madeira, o hub central de teleféricos e o après-ski muito britânico fazem dela a porta mais acolhedora do domínio."
+      "pt": "Méribel encontra-se no coração geográfico de Les 3 Vallées. A sua arquitetura de chalés de madeira, o hub central de teleféricos e o après-ski muito britânico fazem dela a porta mais acolhedora do domínio."
     }
   },
   {
@@ -141,7 +157,11 @@
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 28",
     "snowScore": 88,
-    "vibes": ["freeride", "mountaineering", "iconic"],
+    "vibes": [
+      "freeride",
+      "mountaineering",
+      "iconic"
+    ],
     "intro": {
       "en": "Chamonix is the world capital of alpinism, set at the foot of Mont Blanc. Five separate ski areas, the mythic Vallée Blanche descent and year-round glacier skiing at Les Grands Montets make it the most serious mountain town in the Alps.",
       "fr": "Chamonix est la capitale mondiale de l'alpinisme, au pied du Mont Blanc. Cinq domaines skiables séparés, la mythique descente de la Vallée Blanche et le ski sur glacier toute l'année aux Grands Montets en font la ville de montagne la plus sérieuse des Alpes.",
@@ -166,12 +186,16 @@
       "en": "Les Arcs was designed as a ski-in/ski-out resort from the start. Hotels and apartments open directly onto the snow front in all four altitude villages.",
       "fr": "Les Arcs a été conçue dès l'origine comme une station ski-in/ski-out. Hôtels et appartements ouvrent directement sur les pistes dans les quatre villages d'altitude.",
       "es": "Les Arcs fue diseñada desde el principio como estación ski-in/ski-out. Hoteles y apartamentos dan directamente a las pistas en los cuatro pueblos por altitud.",
-      "pt": "Les Arcs foi concebida desde a origem como estância ski-in/ski-out. Hotéis e apartamentos abrem directamente para a neve nas quatro aldeias por altitude."
+      "pt": "Les Arcs foi concebida desde a origem como estância ski-in/ski-out. Hotéis e apartamentos abrem diretamente para a neve nas quatro aldeias por altitude."
     },
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 28",
     "snowScore": 92,
-    "vibes": ["family", "freeride", "value"],
+    "vibes": [
+      "family",
+      "freeride",
+      "value"
+    ],
     "intro": {
       "en": "Les Arcs is a textbook ski-in/ski-out resort, spread across four altitude villages from 1600 to 2000 m. The Vanoise Express cable car links it with La Plagne to form the vast Paradiski domain.",
       "fr": "Les Arcs est l'exemple parfait de la station ski-in/ski-out, répartie sur quatre villages d'altitude de 1600 à 2000 m. Le Vanoise Express la relie à La Plagne pour former le vaste domaine de Paradiski.",
@@ -201,7 +225,11 @@
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 28",
     "snowScore": 89,
-    "vibes": ["family", "value", "high-altitude"],
+    "vibes": [
+      "family",
+      "value",
+      "high-altitude"
+    ],
     "intro": {
       "en": "La Plagne is the other half of Paradiski, with ten linked villages from 1250 to 2100 m, the only Olympic bobsleigh track open to the public, and a glacier at Bellecôte that holds snow into spring.",
       "fr": "La Plagne est l'autre moitié de Paradiski : dix villages reliés entre 1250 et 2100 m, l'unique piste de bobsleigh olympique ouverte au public, et un glacier à Bellecôte qui tient la neige jusqu'au printemps.",
@@ -231,7 +259,11 @@
     "seasonStart": "Sep 26",
     "seasonEnd": "May 4",
     "snowScore": 95,
-    "vibes": ["high-altitude", "glacier", "value"],
+    "vibes": [
+      "high-altitude",
+      "glacier",
+      "value"
+    ],
     "intro": {
       "en": "Tignes is the twin sister of Val d'Isère, with one major advantage: the Grande Motte glacier delivers snow as early as late September. It offers the longest reliable season in the Alps.",
       "fr": "Tignes est la jumelle de Val d'Isère, avec un atout majeur : le glacier de la Grande Motte donne de la neige dès fin septembre. La saison la plus fiable des Alpes.",
@@ -261,7 +293,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 21",
     "snowScore": 87,
-    "vibes": ["sunny", "family", "freeride"],
+    "vibes": [
+      "sunny",
+      "family",
+      "freeride"
+    ],
     "intro": {
       "en": "Alpe d'Huez is known as the sun terrace of the Alps, with three hundred days of sunshine a year. It hosts the Sarenne run, the longest black piste in the world at 16 km with a 2,000 m descent.",
       "fr": "Alpe d'Huez est la terrasse ensoleillée des Alpes, avec trois cents jours de soleil par an. La station accueille la Sarenne, plus longue piste noire au monde avec ses 16 km et ses 2 000 m de dénivelé.",
@@ -291,7 +327,11 @@
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 21",
     "snowScore": 85,
-    "vibes": ["authentic", "tree-skiing", "thermal"],
+    "vibes": [
+      "authentic",
+      "tree-skiing",
+      "thermal"
+    ],
     "intro": {
       "en": "Serre Chevalier strings together four old villages along a single valley. It offers the largest tree-skiing area in France, with thermal baths at Le Monêtier to round off the day.",
       "fr": "Serre Chevalier aligne quatre anciens villages le long d'une même vallée. Elle propose le plus grand domaine de ski en forêt de France, avec les bains thermaux du Monêtier pour clore la journée.",
@@ -321,7 +361,11 @@
     "seasonStart": "All year",
     "seasonEnd": "All year",
     "snowScore": 98,
-    "vibes": ["glacier", "iconic", "luxury"],
+    "vibes": [
+      "glacier",
+      "iconic",
+      "luxury"
+    ],
     "intro": {
       "en": "Zermatt is a car-free village set at the foot of the Matterhorn, with skiing on the Theodul glacier all year round. It is the only true 365-day resort in the Alps.",
       "fr": "Zermatt est un village sans voitures niché au pied du Cervin, avec du ski sur le glacier du Théodule toute l'année. La seule véritable station 365 jours des Alpes.",
@@ -351,7 +395,11 @@
     "seasonStart": "Nov 23",
     "seasonEnd": "Apr 28",
     "snowScore": 91,
-    "vibes": ["luxury", "freeride", "party"],
+    "vibes": [
+      "luxury",
+      "freeride",
+      "party"
+    ],
     "intro": {
       "en": "Verbier is the freeride capital of the Alps and host of the Xtreme. At the heart of the 4 Vallées domain, the largest in Switzerland, it offers the relentless Tortin off-piste and an internationally famous nightlife.",
       "fr": "Verbier est la capitale du freeride dans les Alpes et l'étape phare du Xtreme. Au cœur des 4 Vallées, plus grand domaine de Suisse, elle propose le hors-piste implacable de Tortin et une vie nocturne réputée à l'international.",
@@ -381,7 +429,11 @@
     "seasonStart": "Nov 29",
     "seasonEnd": "Apr 21",
     "snowScore": 93,
-    "vibes": ["luxury", "iconic", "winter-sports"],
+    "vibes": [
+      "luxury",
+      "iconic",
+      "winter-sports"
+    ],
     "intro": {
       "en": "St. Moritz invented alpine tourism in 1864. Twice an Olympic host, home of the Cresta Run and of frozen-lake polo and horse racing, it blends old-money glamour with truly serious skiing.",
       "fr": "Saint-Moritz a inventé le tourisme alpin en 1864. Deux fois ville olympique, berceau de la Cresta Run et du polo sur lac gelé, elle marie le glamour old-money à un ski véritablement exigeant.",
@@ -406,12 +458,16 @@
       "en": "Several 5-star hotels open directly onto the Cry d'Er piste. The rest of the resort takes a short shuttle ride from the village.",
       "fr": "Plusieurs hôtels 5 étoiles donnent directement sur la piste de Cry d'Er. Le reste de la station emprunte une courte navette depuis le village.",
       "es": "Varios hoteles de 5 estrellas dan directamente a la pista de Cry d'Er. El resto de la estación toma un breve trayecto en lanzadera desde el pueblo.",
-      "pt": "Vários hotéis de 5 estrelas abrem directamente para a pista de Cry d'Er. O resto da estância faz um pequeno trajecto de carrinha desde a aldeia."
+      "pt": "Vários hotéis de 5 estrelas abrem diretamente para a pista de Cry d'Er. O resto da estância faz um pequeno trajecto de carrinha desde a aldeia."
     },
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 14",
     "snowScore": 84,
-    "vibes": ["sunny", "luxury", "wellness"],
+    "vibes": [
+      "sunny",
+      "luxury",
+      "wellness"
+    ],
     "intro": {
       "en": "Crans-Montana is a south-facing plateau overlooking the Rhône valley. It hosts the Omega European Masters golf tournament in summer and attracts a relaxed, wellness-oriented ski crowd in winter.",
       "fr": "Crans-Montana est un plateau exposé sud qui domine la vallée du Rhône. La station accueille l'Omega European Masters de golf l'été et attire une clientèle de ski détendue, orientée bien-être, l'hiver.",
@@ -436,12 +492,16 @@
       "en": "Car-free village at 1,800 m. Most hotels are within a short walk of the Alpin Express gondola and a few are slope-side.",
       "fr": "Village sans voitures à 1 800 m. La plupart des hôtels sont à quelques minutes à pied du télécabine Alpin Express, et certains donnent directement sur les pistes.",
       "es": "Pueblo sin coches a 1 800 m. La mayoría de los hoteles están a unos minutos a pie del telecabina Alpin Express, y algunos dan directamente a las pistas.",
-      "pt": "Aldeia sem carros a 1 800 m. A maioria dos hotéis fica a poucos minutos a pé do telecabina Alpin Express, e alguns abrem directamente para a neve."
+      "pt": "Aldeia sem carros a 1 800 m. A maioria dos hotéis fica a poucos minutos a pé do telecabina Alpin Express, e alguns abrem diretamente para a neve."
     },
     "seasonStart": "Jul 12",
     "seasonEnd": "Apr 21",
     "snowScore": 95,
-    "vibes": ["glacier", "car-free", "summer-ski"],
+    "vibes": [
+      "glacier",
+      "car-free",
+      "summer-ski"
+    ],
     "intro": {
       "en": "Saas-Fee is a glacier village ringed by thirteen four-thousanders. The Allalin and Fee glaciers keep snow from July to April, which makes it the summer training base of half the World Cup circuit.",
       "fr": "Saas-Fee est un village glaciaire encerclé par treize sommets à 4 000 m. Les glaciers d'Allalin et du Fee tiennent la neige de juillet à avril, ce qui en fait la base d'entraînement estivale de la moitié du circuit Coupe du Monde.",
@@ -471,7 +531,11 @@
     "seasonStart": "Nov 29",
     "seasonEnd": "Apr 21",
     "snowScore": 90,
-    "vibes": ["big-domain", "iconic", "wellness"],
+    "vibes": [
+      "big-domain",
+      "iconic",
+      "wellness"
+    ],
     "intro": {
       "en": "Davos links six ski areas, hosts the World Economic Forum every January, and inspired Thomas Mann's Magic Mountain. It is also the highest city in Europe.",
       "fr": "Davos relie six domaines skiables, accueille le Forum économique mondial chaque janvier et a inspiré La Montagne magique de Thomas Mann. C'est aussi la ville la plus haute d'Europe.",
@@ -496,12 +560,16 @@
       "en": "The Galzig and Nasserein lifts run straight from the edge of the village. Many four-star hotels are within 200 m of the snow front.",
       "fr": "Les remontées de Galzig et Nasserein partent directement du bord du village. De nombreux hôtels quatre étoiles se trouvent à moins de 200 m du front de neige.",
       "es": "Los remontes de Galzig y Nasserein salen directamente del borde del pueblo. Numerosos hoteles de cuatro estrellas están a menos de 200 m del frente de nieve.",
-      "pt": "Os teleféricos de Galzig e Nasserein partem directamente da orla da aldeia. Vários hotéis de quatro estrelas ficam a menos de 200 m da frente de neve."
+      "pt": "Os teleféricos de Galzig e Nasserein partem diretamente da orla da aldeia. Vários hotéis de quatro estrelas ficam a menos de 200 m da frente de neve."
     },
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 28",
     "snowScore": 92,
-    "vibes": ["party", "freeride", "expert"],
+    "vibes": [
+      "party",
+      "freeride",
+      "expert"
+    ],
     "intro": {
       "en": "St. Anton is the cradle of alpine skiing and the birthplace of the Arlberg method. It is famous for the most full-throttle après-ski in the Alps, at MooserWirt and Krazy Kanguruh, and for some of the toughest black runs in Europe.",
       "fr": "Saint-Anton est le berceau du ski alpin et de la méthode de l'Arlberg. La station est célèbre pour l'après-ski le plus déchaîné des Alpes, au MooserWirt et au Krazy Kanguruh, et pour des pistes noires parmi les plus exigeantes d'Europe.",
@@ -531,7 +599,11 @@
     "seasonStart": "Nov 30",
     "seasonEnd": "May 4",
     "snowScore": 91,
-    "vibes": ["party", "concerts", "duty-free"],
+    "vibes": [
+      "party",
+      "concerts",
+      "duty-free"
+    ],
     "intro": {
       "en": "Ischgl heads up the Silvretta Arena, which links over the border to Samnaun in Switzerland and its duty-free shopping. Stadium-scale après-ski and the famous opening and closing concerts at altitude.",
       "fr": "Ischgl est la tête de pont de la Silvretta Arena, reliée par-dessus la frontière à Samnaun, en Suisse, et son shopping détaxé. Après-ski au format stade et célèbres concerts d'ouverture et de clôture en altitude.",
@@ -561,7 +633,11 @@
     "seasonStart": "Sep 19",
     "seasonEnd": "May 4",
     "snowScore": 94,
-    "vibes": ["glacier", "racing", "party"],
+    "vibes": [
+      "glacier",
+      "racing",
+      "party"
+    ],
     "intro": {
       "en": "Sölden has two glaciers, Tiefenbach and Rettenbach, hosts the World Cup season opener every October, and provided the setting for the Bond film Spectre at Ice Q, above 3,000 m.",
       "fr": "Sölden possède deux glaciers, Tiefenbach et Rettenbach, accueille chaque mois d'octobre l'ouverture de la Coupe du Monde, et a servi de décor au film James Bond Spectre, à Ice Q, au-dessus de 3 000 m.",
@@ -591,7 +667,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 21",
     "snowScore": 86,
-    "vibes": ["family", "freestyle", "value"],
+    "vibes": [
+      "family",
+      "freestyle",
+      "value"
+    ],
     "intro": {
       "en": "Mayrhofen anchors the Zillertal valley. It is home to the Harakiri, the steepest groomed piste in Austria at 78%, and to the long-running Snowbombing festival each April.",
       "fr": "Mayrhofen est le pilier du Zillertal. La station héberge le Harakiri, piste damée la plus raide d'Autriche avec ses 78 % de pente, et accueille chaque avril le festival Snowbombing.",
@@ -621,7 +701,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 7",
     "snowScore": 80,
-    "vibes": ["historic", "racing", "old-money"],
+    "vibes": [
+      "historic",
+      "racing",
+      "old-money"
+    ],
     "intro": {
       "en": "Kitzbühel pairs a medieval old town with the Hahnenkamm, the most feared downhill race on the World Cup circuit. Race week, every January, turns the village into a global stage.",
       "fr": "Kitzbühel marie une vieille ville médiévale au Hahnenkamm, descente la plus redoutée du circuit Coupe du Monde. La semaine de la course, chaque janvier, transforme le village en vitrine mondiale.",
@@ -651,7 +735,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 7",
     "snowScore": 84,
-    "vibes": ["party", "family", "skicircus"],
+    "vibes": [
+      "party",
+      "family",
+      "skicircus"
+    ],
     "intro": {
       "en": "The Skicircus is the largest interconnected ski area in Austria, linking Saalbach, Hinterglemm, Leogang and Fieberbrunn. The resort hosted the 2025 World Ski Championships.",
       "fr": "Le Skicircus est le plus grand domaine relié d'Autriche, qui regroupe Saalbach, Hinterglemm, Leogang et Fieberbrunn. La station a accueilli les Championnats du Monde de ski 2025.",
@@ -681,7 +769,11 @@
     "seasonStart": "Dec 1",
     "seasonEnd": "Apr 28",
     "snowScore": 95,
-    "vibes": ["luxury", "snow-sure", "discreet"],
+    "vibes": [
+      "luxury",
+      "snow-sure",
+      "discreet"
+    ],
     "intro": {
       "en": "Lech and Zürs sit above St. Anton and are statistically the snowiest places in the Alps. Discreet, old-money luxury, the White Ring circuit, and none of the rowdy après-ski found one valley over.",
       "fr": "Lech et Zürs surplombent Saint-Anton et sont statistiquement les endroits les plus enneigés des Alpes. Luxe discret, circuit du White Ring, sans l'après-ski déchaîné de la vallée voisine.",
@@ -711,7 +803,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 14",
     "snowScore": 86,
-    "vibes": ["dolomites", "luxury", "scenic"],
+    "vibes": [
+      "dolomites",
+      "luxury",
+      "scenic"
+    ],
     "intro": {
       "en": "Cortina is the queen of the Dolomites and a host city of the 2026 Winter Olympics. Its UNESCO-listed scenery, the Tofane and Cinque Torri peaks, and long sunny lunches on the slopes set the standard for Italian skiing.",
       "fr": "Cortina est la reine des Dolomites et ville hôte des Jeux Olympiques d'hiver 2026. Son paysage classé UNESCO, les sommets des Tofane et des Cinque Torri, et les longs déjeuners au soleil sur les pistes définissent le ski à l'italienne.",
@@ -741,7 +837,11 @@
     "seasonStart": "Nov 30",
     "seasonEnd": "May 4",
     "snowScore": 93,
-    "vibes": ["duty-free", "freestyle", "value"],
+    "vibes": [
+      "duty-free",
+      "freestyle",
+      "value"
+    ],
     "intro": {
       "en": "Livigno is a duty-free border town inside the Stelvio National Park, and will host the freestyle and snowboard events at the 2026 Olympics. The long high-altitude village holds snow well into May.",
       "fr": "Livigno est une ville frontalière détaxée au cœur du parc national du Stelvio, et accueillera les épreuves de freestyle et de snowboard des JO 2026. Ce long village d'altitude conserve la neige jusqu'au mois de mai.",
@@ -771,7 +871,11 @@
     "seasonStart": "Oct 26",
     "seasonEnd": "May 4",
     "snowScore": 96,
-    "vibes": ["high-altitude", "cross-border", "scenic"],
+    "vibes": [
+      "high-altitude",
+      "cross-border",
+      "scenic"
+    ],
     "intro": {
       "en": "Cervinia is the Italian face of the Matterhorn, linked across the border to Zermatt. It boasts the highest village base in Italy and what is arguably the longest ski day in Europe, the 22 km descent from Plateau Rosà down to Zermatt.",
       "fr": "Cervinia est le versant italien du Cervin, relié à Zermatt par-dessus la frontière. La station revendique l'altitude de base la plus élevée d'Italie et sans doute la plus longue journée de ski d'Europe, les 22 km de descente du Plateau Rosà jusqu'à Zermatt.",
@@ -801,7 +905,11 @@
     "seasonStart": "Dec 1",
     "seasonEnd": "Apr 14",
     "snowScore": 88,
-    "vibes": ["elegance", "italian", "habsburg"],
+    "vibes": [
+      "elegance",
+      "italian",
+      "habsburg"
+    ],
     "intro": {
       "en": "Madonna di Campiglio is the pearl of the Brenta Dolomites and was the favourite resort of the Habsburg court. The 3Tre, its floodlit World Cup night slalom in December, draws crowds every winter.",
       "fr": "Madonna di Campiglio est la perle des Dolomites de Brenta et la station favorite de la cour des Habsbourg. Son 3Tre, slalom nocturne de Coupe du Monde sous projecteurs en décembre, attire les foules chaque hiver.",
@@ -831,7 +939,11 @@
     "seasonStart": "Dec 1",
     "seasonEnd": "Apr 14",
     "snowScore": 89,
-    "vibes": ["high-altitude", "racing", "milky-way"],
+    "vibes": [
+      "high-altitude",
+      "racing",
+      "milky-way"
+    ],
     "intro": {
       "en": "Sestriere anchors the Via Lattea, a domain linking five Italian resorts to Montgenèvre, in France. The highest village in the western Alps, it hosted the alpine events of the 2006 Winter Olympics.",
       "fr": "Sestriere est le pilier de la Via Lattea, domaine qui relie cinq stations italiennes à Montgenèvre, en France. Plus haut village des Alpes occidentales, il a accueilli les épreuves alpines des Jeux Olympiques d'hiver 2006.",
@@ -847,7 +959,7 @@
     "flag": "🇮🇹",
     "region": "Italian Alps",
     "lat": 46.5567,
-    "lng": 11.7600,
+    "lng": 11.76,
     "altitudeBase": 1563,
     "altitudeSummit": 2518,
     "pistesKm": 175,
@@ -856,12 +968,16 @@
       "en": "A central hub of the Dolomiti Superski. Many hotels open directly onto the Ciampinoi or Dantercepies pistes.",
       "fr": "Hub central du Dolomiti Superski. De nombreux hôtels donnent directement sur les pistes du Ciampinoi ou de Dantercepies.",
       "es": "Nudo central del Dolomiti Superski. Numerosos hoteles dan directamente a las pistas del Ciampinoi o de Dantercepies.",
-      "pt": "Hub central do Dolomiti Superski. Vários hotéis abrem directamente para as pistas do Ciampinoi ou de Dantercepies."
+      "pt": "Hub central do Dolomiti Superski. Vários hotéis abrem diretamente para as pistas do Ciampinoi ou de Dantercepies."
     },
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 14",
     "snowScore": 87,
-    "vibes": ["dolomiti-superski", "sellaronda", "panoramic"],
+    "vibes": [
+      "dolomiti-superski",
+      "sellaronda",
+      "panoramic"
+    ],
     "intro": {
       "en": "Selva Val Gardena lies at the heart of the Sellaronda, a 26 km circuit around the Sella massif and one of the most scenic ski days in the world, all within the Dolomiti Superski.",
       "fr": "Selva Val Gardena est au cœur du Sellaronda, circuit de 26 km autour du massif du Sella et l'une des journées de ski les plus spectaculaires au monde, en plein Dolomiti Superski.",
@@ -891,7 +1007,11 @@
     "seasonStart": "Dec 1",
     "seasonEnd": "Apr 14",
     "snowScore": 88,
-    "vibes": ["luxury-iberian", "royal", "gastronomy"],
+    "vibes": [
+      "luxury-iberian",
+      "royal",
+      "gastronomy"
+    ],
     "intro": {
       "en": "Baqueira Beret is the largest ski resort in Spain and the favourite of the Spanish royal family. The Aran Valley offers a sharp Michelin gastronomy scene, three connected sectors at Baqueira, Beret and Bonaigua, and one of the most reliable snow records in the Pyrenees.",
       "fr": "Baqueira Beret est la plus grande station de ski d'Espagne et la favorite de la famille royale. Le Val d'Aran offre une scène gastronomique étoilée Michelin pointue, trois secteurs reliés à Baqueira, Beret et Bonaigua, et l'un des meilleurs enneigements des Pyrénées.",
@@ -921,7 +1041,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 14",
     "snowScore": 84,
-    "vibes": ["party", "young-crowd", "value"],
+    "vibes": [
+      "party",
+      "young-crowd",
+      "value"
+    ],
     "intro": {
       "en": "Formigal is the largest ski domain in the Aragón Pyrenees and is linked with Panticosa. It is best known for hosting La Marchica, the wildest après-ski in Spain, and for a young, mostly Spanish crowd.",
       "fr": "Formigal est le plus grand domaine des Pyrénées aragonaises, relié à Panticosa. La station est surtout connue pour La Marchica, après-ski le plus déchaîné d'Espagne, et pour une clientèle jeune, en majorité espagnole.",
@@ -951,7 +1075,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 7",
     "snowScore": 82,
-    "vibes": ["village", "altitude", "authentic"],
+    "vibes": [
+      "village",
+      "altitude",
+      "authentic"
+    ],
     "intro": {
       "en": "Cerler is the highest village in the Spanish Pyrenees, at 1,540 m, set at the foot of Aneto, the range's tallest peak. Compact and family-run, it keeps a strongly Spanish atmosphere all season.",
       "fr": "Cerler est le village le plus haut des Pyrénées espagnoles, à 1 540 m, au pied de l'Aneto, plus haut sommet de la chaîne. Compact, familial, il conserve une ambiance résolument espagnole toute la saison.",
@@ -981,7 +1109,11 @@
     "seasonStart": "Nov 30",
     "seasonEnd": "Apr 14",
     "snowScore": 86,
-    "vibes": ["duty-free", "value", "party"],
+    "vibes": [
+      "duty-free",
+      "value",
+      "party"
+    ],
     "intro": {
       "en": "Grandvalira is the largest ski domain in the Pyrenees, with six villages from Encamp to Pas de la Casa. Tax-free shopping, World Cup finals as a regular fixture and a strong euro value make it a popular family choice.",
       "fr": "Grandvalira est le plus grand domaine skiable des Pyrénées, avec six villages d'Encamp à Pas de la Casa. Shopping détaxé, finales de Coupe du Monde régulières et excellent rapport qualité-prix en euros en font un choix de famille très prisé.",
@@ -1011,7 +1143,11 @@
     "seasonStart": "Dec 1",
     "seasonEnd": "Apr 7",
     "snowScore": 81,
-    "vibes": ["beginner", "value", "british-friendly"],
+    "vibes": [
+      "beginner",
+      "value",
+      "british-friendly"
+    ],
     "intro": {
       "en": "Vallnord is the smaller sibling of Grandvalira, particularly popular with British learners and families on a tighter budget. Friendly beginner progressions, with La Massana down in the valley for restaurants and shops.",
       "fr": "Vallnord est le petit frère de Grandvalira, particulièrement apprécié des débutants britanniques et des familles au budget plus serré. Progressions débutant accueillantes, avec La Massana en fond de vallée pour les restaurants et les boutiques.",
@@ -1041,7 +1177,11 @@
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 7",
     "snowScore": 80,
-    "vibes": ["family", "thermal", "authentic"],
+    "vibes": [
+      "family",
+      "thermal",
+      "authentic"
+    ],
     "intro": {
       "en": "Saint-Lary is the largest resort in the French Pyrenees. The Sensoria thermal baths, three connected sectors at Pla d'Adet, Espiaube and Vallée du Moudang, and a strongly family-oriented vibe make it a southern French favourite.",
       "fr": "Saint-Lary est la plus grande station des Pyrénées françaises. Les thermes Sensoria, trois secteurs reliés à Pla d'Adet, Espiaube et Vallée du Moudang, et une ambiance résolument familiale en font une référence du Sud-Ouest.",
@@ -1066,12 +1206,16 @@
       "en": "Purpose-built on the Peyresourde and Les Agudes plateaus. The bulk of the accommodation gives direct slope access.",
       "fr": "Station intégrée sur les plateaux du Peyresourde et des Agudes. La plupart des hébergements donnent un accès direct aux pistes.",
       "es": "Estación integrada en las mesetas del Peyresourde y de Les Agudes. La mayoría de los alojamientos ofrecen acceso directo a las pistas.",
-      "pt": "Estância integrada nos planaltos do Peyresourde e de Les Agudes. A maioria dos alojamentos oferece acesso directo às pistas."
+      "pt": "Estância integrada nos planaltos do Peyresourde e de Les Agudes. A maioria dos alojamentos oferece acesso direto às pistas."
     },
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 7",
     "snowScore": 82,
-    "vibes": ["altitude-pyrenees", "family", "panoramic"],
+    "vibes": [
+      "altitude-pyrenees",
+      "family",
+      "panoramic"
+    ],
     "intro": {
       "en": "Peyragudes is a high-altitude resort linking the Peyresourde and Loudenvielle valleys, with the Skyvall gondola climbing from the spa town below. The opening scene of Bond's Spectre was filmed here.",
       "fr": "Peyragudes est une station d'altitude reliant les vallées du Peyresourde et de Loudenvielle, avec le télécabine Skyvall qui grimpe depuis la ville thermale en contrebas. La scène d'ouverture de Spectre, le James Bond, y a été tournée.",
@@ -1101,7 +1245,11 @@
     "seasonStart": "Dec 7",
     "seasonEnd": "Apr 7",
     "snowScore": 79,
-    "vibes": ["sunshine", "altitude-training", "beginner"],
+    "vibes": [
+      "sunshine",
+      "altitude-training",
+      "beginner"
+    ],
     "intro": {
       "en": "Font-Romeu sits on a sun-soaked Catalan Pyrenees plateau at 1,800 m, and serves as the French altitude-training centre for Olympic athletes. It is also the most heavily snowmaking-equipped resort in the Pyrenees.",
       "fr": "Font-Romeu est posée sur un plateau catalan très ensoleillé à 1 800 m, et sert de centre d'entraînement en altitude des athlètes olympiques français. C'est aussi la station la mieux équipée en neige de culture des Pyrénées.",
@@ -1131,7 +1279,11 @@
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 7",
     "snowScore": 81,
-    "vibes": ["pyrenees-grand", "scenic", "cycling-meets-ski"],
+    "vibes": [
+      "pyrenees-grand",
+      "scenic",
+      "cycling-meets-ski"
+    ],
     "intro": {
       "en": "Grand Tourmalet is the largest linked ski area in the French Pyrenees, spanning Barèges and La Mongie under the legendary Col du Tourmalet of the Tour de France.",
       "fr": "Grand Tourmalet est le plus grand domaine relié des Pyrénées françaises, à cheval sur Barèges et La Mongie, au pied du légendaire col du Tourmalet du Tour de France.",
@@ -1161,7 +1313,11 @@
     "seasonStart": "Dec 14",
     "seasonEnd": "Apr 7",
     "snowScore": 80,
-    "vibes": ["thermal-belle-epoque", "national-park", "family"],
+    "vibes": [
+      "thermal-belle-epoque",
+      "national-park",
+      "family"
+    ],
     "intro": {
       "en": "Cauterets is a Belle Époque thermal spa town and the gateway to the Pyrenees National Park. You ski above on the Cirque du Lys plateau and unwind below in the thermal baths.",
       "fr": "Cauterets est une ville thermale Belle Époque et la porte d'entrée du parc national des Pyrénées. On skie en altitude sur le plateau du Cirque du Lys, on récupère en bas aux thermes.",
@@ -1191,7 +1347,11 @@
     "seasonStart": "Nov 16",
     "seasonEnd": "May 4",
     "snowScore": 94,
-    "vibes": ["snow-sure", "family", "high-altitude"],
+    "vibes": [
+      "snow-sure",
+      "family",
+      "high-altitude"
+    ],
     "intro": {
       "en": "Known as the diamond of the Alps, Obergurgl is the highest parish in Austria. It is snow-sure from mid-November to May, has almost no rowdy après-ski and stands as a paradise for families and intermediate skiers.",
       "fr": "Surnommée le diamant des Alpes, Obergurgl est la paroisse la plus haute d'Autriche. Elle bénéficie d'un enneigement garanti de mi-novembre à mai, propose un après-ski très calme et reste un paradis pour les familles et les skieurs intermédiaires.",
@@ -1221,7 +1381,11 @@
     "seasonStart": "Nov 30",
     "seasonEnd": "Apr 21",
     "snowScore": 91,
-    "vibes": ["freeride", "boutique", "renaissance"],
+    "vibes": [
+      "freeride",
+      "boutique",
+      "renaissance"
+    ],
     "intro": {
       "en": "Andermatt is the reborn freeride mecca, linked to Sedrun and Disentis for a 180 km domain. It enjoys the most reliable snowfall in central Switzerland, and The Chedi has set a new luxury benchmark for the region.",
       "fr": "Andermatt est la mecque renaissante du freeride, reliée à Sedrun et Disentis pour former un domaine de 180 km. Elle bénéficie de l'enneigement le plus fiable de Suisse centrale, et Le Chedi y a imposé un nouveau standard de luxe.",

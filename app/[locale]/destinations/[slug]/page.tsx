@@ -13,6 +13,9 @@ import {
 } from '@/lib/destinations'
 import { SITE_URL, buildAllezDestLink } from '@/lib/site'
 import { localizeCountry } from '@/lib/countryNames'
+import { localizeRegion } from '@/lib/regions'
+import { localizeVibe } from '@/lib/vibes'
+import { formatSeasonDate, formatSeasonRange } from '@/lib/dates'
 
 export async function generateStaticParams() {
   const params: { locale: string; slug: string }[] = []
@@ -135,10 +138,10 @@ export default async function DestinationDetailPage({
       .replace('{name}', d.name)
       .replace('{pistesKm}', String(d.pistesKm))
       .replace('{lifts}', String(d.lifts))
-      .replace('{altitudeBase}', String(d.altitudeBase))
-      .replace('{altitudeSummit}', String(d.altitudeSummit))
-      .replace('{seasonStart}', d.seasonStart)
-      .replace('{seasonEnd}', d.seasonEnd)
+      .replace('{altitudeBase}', d.altitudeBase.toLocaleString())
+      .replace('{altitudeSummit}', d.altitudeSummit.toLocaleString())
+      .replace('{seasonStart}', formatSeasonDate(d.seasonStart, l))
+      .replace('{seasonEnd}', formatSeasonDate(d.seasonEnd, l))
       .replace('{snowScore}', String(d.snowScore))
 
   const faqItems = [
@@ -202,7 +205,7 @@ export default async function DestinationDetailPage({
               {d.flag}
             </span>
             <span className="text-sm font-medium text-ice-700 uppercase tracking-wide">
-              {d.region}
+              {localizeRegion(d.region, l)}
             </span>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-deep tracking-tight">
@@ -226,7 +229,7 @@ export default async function DestinationDetailPage({
                 key={v}
                 className="inline-flex items-center text-xs font-semibold uppercase tracking-wide text-ice-800 bg-white border border-ice-200 px-3 py-1.5 rounded-full"
               >
-                {v}
+                {localizeVibe(v, l)}
               </span>
             ))}
           </div>
@@ -277,7 +280,7 @@ export default async function DestinationDetailPage({
               {dict.destination.season}
             </div>
             <div className="text-lg font-semibold text-slate-deep">
-              {d.seasonStart} → {d.seasonEnd}
+              {formatSeasonRange(d.seasonStart, d.seasonEnd, l)}
             </div>
           </div>
           <div className="bg-white rounded-2xl border border-ice-100 p-5">

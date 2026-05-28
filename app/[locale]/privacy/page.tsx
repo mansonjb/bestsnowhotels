@@ -44,7 +44,7 @@ const COPY: Record<Locale, { paragraphs: string[] }> = {
   },
   pt: {
     paragraphs: [
-      'O BestSnowHotels não recolhe informações pessoais directamente. Usamos ferramentas de análise leves (contagem de páginas vistas, dados por país) para perceber que destinos interessam mais aos nossos leitores.',
+      'O BestSnowHotels não recolhe informações pessoais diretamente. Usamos ferramentas de análise leves (contagem de páginas vistas, dados por país) para perceber que destinos interessam mais aos nossos leitores.',
       'Os parceiros de reserva (Stay22, Booking, Expedia, Hotels.com) aplicam as suas próprias políticas de privacidade. Assim que clica para um deles, são os termos desse parceiro que se aplicam.',
       'Podemos colocar alguns cookies para a atribuição de comissões de afiliação. Pode desactivar os cookies no seu navegador, e isso não o impedirá de consultar o BestSnowHotels.',
     ],

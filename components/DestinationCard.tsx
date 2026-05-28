@@ -3,6 +3,8 @@ import Image from 'next/image'
 import type { Destination } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
 import { localizeCountry } from '@/lib/countryNames'
+import { localizeRegion } from '@/lib/regions'
+import { localizeVibe } from '@/lib/vibes'
 
 interface DestinationCardProps {
   destination: Destination
@@ -28,7 +30,7 @@ export default function DestinationCard({
       <div className="relative h-48 overflow-hidden">
         <Image
           src={`/images/destinations/${d.slug}.jpg`}
-          alt={`${d.name}, ${d.region}`}
+          alt={`${d.name}, ${localizeRegion(d.region, locale)}`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
           className="object-cover group-hover:scale-105 transition duration-500"
@@ -44,7 +46,7 @@ export default function DestinationCard({
         </div>
         <div className="absolute bottom-3 left-4 right-4">
           <h3 className="text-2xl font-bold text-white drop-shadow-md">{d.name}</h3>
-          <p className="text-sm text-white/90 drop-shadow">{d.region}</p>
+          <p className="text-sm text-white/90 drop-shadow">{localizeRegion(d.region, locale)}</p>
         </div>
       </div>
 
@@ -55,7 +57,7 @@ export default function DestinationCard({
               {labels.altitude}
             </div>
             <div className="text-slate-deep font-semibold tabular-nums">
-              {d.altitudeBase}–{d.altitudeSummit} m
+              {d.altitudeBase.toLocaleString()} - {d.altitudeSummit.toLocaleString()} m
             </div>
           </div>
           <div>
@@ -83,7 +85,7 @@ export default function DestinationCard({
                 key={v}
                 className="inline-block text-[10px] font-medium uppercase tracking-wide text-ice-700 bg-ice-50 px-2 py-0.5 rounded-full"
               >
-                {v}
+                {localizeVibe(v, locale)}
               </span>
             ))}
           </div>

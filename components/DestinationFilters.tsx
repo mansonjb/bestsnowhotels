@@ -5,6 +5,7 @@ import type { Destination } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
 import DestinationCard from './DestinationCard'
 import { localizeCountry } from '@/lib/countryNames'
+import { localizeVibe } from '@/lib/vibes'
 
 interface FilterLabels {
   altitude: string
@@ -143,11 +144,14 @@ export default function DestinationFilters({
               className="w-full bg-ice-50 border border-ice-200 rounded-lg px-3 py-2 text-sm text-slate-deep focus:outline-none focus:ring-2 focus:ring-ice-400"
             >
               <option value="all">{labels.filterAll}</option>
-              {vibes.map((v) => (
-                <option key={v} value={v}>
-                  {v}
-                </option>
-              ))}
+              {vibes
+                .map((v) => ({ slug: v, label: localizeVibe(v, locale) }))
+                .sort((a, b) => a.label.localeCompare(b.label, locale))
+                .map(({ slug, label }) => (
+                  <option key={slug} value={slug}>
+                    {label}
+                  </option>
+                ))}
             </select>
           </div>
         </div>
