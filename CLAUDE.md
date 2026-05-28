@@ -23,7 +23,7 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 - Direct CTAs use `buildAllezDestLink()` from `lib/site.ts`
 
 ## Style guide
-- Snow / alpine palette in `app/globals.css` — `ice-*` (cold blue) + `alpenglow-*` (warm accent) + `slate-deep` (near-black)
+- Snow / alpine palette in `app/globals.css`: `ice-*` (cold blue) + `alpenglow-*` (warm accent) + `slate-deep` (near-black)
 - Generous whitespace, rounded-2xl cards, subtle shadows
 - Fonts: Inter (loaded via `next/font/google`)
 - Backgrounds: `bg-powder` (off-white), `bg-snow-grain` (subtle texture)
@@ -31,7 +31,7 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 ## Adding a destination
 1. Add an entry to `data/destinations.json` with the full schema (see `lib/destinations.ts` for the `Destination` type)
 2. Provide `intro` in all 4 languages
-3. Rebuild — pages, sitemap and OG images regenerate automatically
+3. Rebuild, and pages, sitemap and OG images regenerate automatically
 
 ## SEO
 - Every page has `generateMetadata` with hreflang to all 4 locales
@@ -40,6 +40,6 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 - `/llms.txt` lists priority pages for AI crawlers
 
 ## DO NOT
-- Do not introduce a database — keep `data/destinations.json` as source of truth
+- Do not introduce a database. Keep `data/destinations.json` as source of truth
 - Do not add tracking pixels other than what's in the locale layout
 - Do not break the 4-locale parity (every page must exist in en/fr/es/pt or fall back gracefully)
