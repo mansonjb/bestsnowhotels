@@ -96,6 +96,18 @@ const TARGETS = [
   { slug: 'les-angles',           query: 'Les Angles ski resort Capcir Catalan Pyrenees panorama winter snow village lake' },
   { slug: 'candanchu',            query: 'Candanchu ski resort Somport Aragon Pyrenees Spain panorama winter snow' },
   { slug: 'la-molina',            query: 'La Molina ski resort Cerdanya Catalan Pyrenees Spain panorama winter snow' },
+  { slug: 'les-sybelles',         query: 'La Toussuire Les Sybelles ski resort Maurienne French Alps panorama winter snow' },
+  { slug: 'valloire',             query: 'Valloire ski resort Galibier Maurienne French Alps panorama winter snow village' },
+  { slug: 'orcieres-merlette',    query: 'Orcieres Merlette 1850 ski resort Champsaur southern French Alps panorama winter snow' },
+  { slug: 'les-orres',            query: 'Les Orres ski resort Serre-Poncon lake Hautes-Alpes French Alps panorama winter snow' },
+  { slug: 'auron',                query: 'Auron ski resort Mercantour Alpes-Maritimes French Alps panorama winter snow village' },
+  { slug: 'les-contamines',       query: 'Les Contamines-Montjoie ski resort Mont-Blanc French Alps panorama winter snow village' },
+  { slug: 'piau-engaly',          query: 'Piau-Engaly ski resort Hautes-Pyrenees high altitude panorama winter snow' },
+  { slug: 'luz-ardiden',          query: 'Luz Ardiden ski resort Hautes-Pyrenees panorama winter snow' },
+  { slug: 'gourette',             query: 'Gourette ski resort Aubisque Bearn Pyrenees panorama winter snow' },
+  { slug: 'astun',                query: 'Astun ski resort Somport Aragon Pyrenees Spain panorama winter snow' },
+  { slug: 'boi-taull',            query: 'Boi Taull ski resort highest Pyrenees Lleida Catalonia Spain panorama winter snow' },
+  { slug: 'vallnord-ordino-arcalis', query: 'Ordino Arcalis ski resort Vallnord Andorra Pyrenees freeride panorama winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

@@ -76,6 +76,18 @@ const RESORT_SITES: Record<string, string> = {
   'les-angles': 'https://www.lesangles.com',
   candanchu: 'https://www.candanchu.com',
   'la-molina': 'https://www.lamolina.cat',
+  'les-sybelles': 'https://www.sybelles.ski',
+  valloire: 'https://www.valloire.com',
+  'orcieres-merlette': 'https://www.orcieres.com',
+  'les-orres': 'https://www.lesorres.com',
+  auron: 'https://www.auron.com',
+  'les-contamines': 'https://www.lescontamines.com',
+  'piau-engaly': 'https://www.piau-engaly.com',
+  'luz-ardiden': 'https://www.luz-ardiden.com',
+  gourette: 'https://www.gourette.com',
+  astun: 'https://www.astun.com',
+  'boi-taull': 'https://www.boitaull.com',
+  'vallnord-ordino-arcalis': 'https://www.ordinoarcalis.com',
 }
 
 export function resortSite(slug: string): string | null {

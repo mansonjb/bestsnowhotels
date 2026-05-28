@@ -3126,5 +3126,557 @@
       "red": 14,
       "black": 5
     }
+  },
+  {
+    "slug": "les-sybelles",
+    "name": "Les Sybelles",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.2472,
+    "lng": 6.2944,
+    "altitudeBase": 1100,
+    "altitudeSummit": 2620,
+    "pistesKm": 310,
+    "lifts": 70,
+    "skiInSkiOutNote": {
+      "en": "Les Sybelles links five villages; the slope-side resorts of La Toussuire and Le Corbier are built for ski-in/ski-out, with apartments opening onto the snow-front.",
+      "fr": "Les Sybelles relient cinq villages ; les stations de La Toussuire et du Corbier, au pied des pistes, sont pensées pour le ski-in/ski-out, avec des appartements qui ouvrent sur le front de neige.",
+      "es": "Les Sybelles enlazan cinco pueblos; las estaciones de La Toussuire y Le Corbier, a pie de pista, están pensadas para el ski-in/ski-out, con apartamentos que dan al frente de nieve.",
+      "pt": "As Sybelles ligam cinco aldeias; as estâncias de La Toussuire e Le Corbier, no sopé das pistas, são pensadas para o ski-in/ski-out, com apartamentos que dão para a frente de neve."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "big-domain",
+      "value"
+    ],
+    "intro": {
+      "en": "One of France's largest linked ski areas, Les Sybelles joins La Toussuire, Le Corbier and three other Maurienne villages over 310 km of piste. It is a big, sunny, good-value playground that flies under the radar.",
+      "fr": "L'un des plus grands domaines reliés de France, Les Sybelles unissent La Toussuire, Le Corbier et trois autres villages de Maurienne sur 310 km de pistes. Un grand terrain de jeu ensoleillé et abordable, qui reste sous les radars.",
+      "es": "Uno de los mayores dominios enlazados de Francia, Les Sybelles unen La Toussuire, Le Corbier y otros tres pueblos de la Maurienne en 310 km de pistas. Un gran terreno de juego soleado y asequible que pasa desapercibido.",
+      "pt": "Um dos maiores domínios ligados de França, as Sybelles unem La Toussuire, Le Corbier e outras três aldeias da Maurienne em 310 km de pistas. Um grande recreio solarengo e acessível que passa despercebido."
+    },
+    "longDescription": {
+      "en": "Les Sybelles ties together five Maurienne villages, La Toussuire, Le Corbier, Saint-Sorlin-d'Arves, Saint-Jean-d'Arves and Les Bottières, into the fourth-largest linked domain in France, 310 km of mostly wide, sunny intermediate piste. The skiing peaks at the Ouillon at 2620 m, a hub where all the sectors meet and the views open across the Arves and Belledonne ranges. It rarely feels crowded and undercuts the famous Tarentaise resorts on price, which makes it a quietly brilliant choice for families and cruising intermediates.",
+      "fr": "Les Sybelles relient cinq villages de Maurienne, La Toussuire, Le Corbier, Saint-Sorlin-d'Arves, Saint-Jean-d'Arves et Les Bottières, dans le quatrième plus grand domaine relié de France, 310 km de pistes surtout larges, ensoleillées et intermédiaires. Le ski culmine à l'Ouillon, à 2620 m, carrefour où se rejoignent tous les secteurs et où la vue s'ouvre sur les massifs des Arves et de Belledonne. On y est rarement à l'étroit et les tarifs restent bien en dessous des grandes stations de Tarentaise, ce qui en fait un choix discrètement brillant pour les familles et les intermédiaires.",
+      "es": "Les Sybelles enlazan cinco pueblos de la Maurienne, La Toussuire, Le Corbier, Saint-Sorlin-d'Arves, Saint-Jean-d'Arves y Les Bottières, en el cuarto dominio enlazado más grande de Francia, 310 km de pistas sobre todo anchas, soleadas e intermedias. El esquí culmina en el Ouillon, a 2620 m, un cruce donde se juntan todos los sectores y la vista se abre a los macizos de los Arves y de Belledonne. Rara vez se siente agobio y los precios quedan muy por debajo de las grandes estaciones de la Tarentaise, lo que la convierte en una opción discretamente brillante para familias e intermedios.",
+      "pt": "As Sybelles ligam cinco aldeias da Maurienne, La Toussuire, Le Corbier, Saint-Sorlin-d'Arves, Saint-Jean-d'Arves e Les Bottières, no quarto maior domínio ligado de França, 310 km de pistas sobretudo largas, solarengas e intermédias. O esqui culmina no Ouillon, a 2620 m, um cruzamento onde se juntam todos os setores e a vista se abre sobre os maciços dos Arves e de Belledonne. Raramente se sente aperto e os preços ficam bem abaixo das grandes estâncias da Tarentaise, o que faz dela uma escolha discretamente brilhante para famílias e intermédios."
+    },
+    "pisteCounts": {
+      "green": 24,
+      "blue": 50,
+      "red": 45,
+      "black": 15
+    }
+  },
+  {
+    "slug": "valloire",
+    "name": "Valloire",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.166,
+    "lng": 6.429,
+    "altitudeBase": 1430,
+    "altitudeSummit": 2600,
+    "pistesKm": 150,
+    "lifts": 30,
+    "skiInSkiOutNote": {
+      "en": "The old village of Valloire sits right at the foot of its slopes, so plenty of hotels and chalets are a short walk or ski from the lifts.",
+      "fr": "Le vieux village de Valloire se trouve juste au pied de ses pistes : de nombreux hôtels et chalets sont à quelques pas ou à skis des remontées.",
+      "es": "El viejo pueblo de Valloire está justo al pie de sus pistas, así que muchos hoteles y chalets quedan a pocos pasos o esquiando de los remontes.",
+      "pt": "A velha aldeia de Valloire fica mesmo no sopé das suas pistas, por isso muitos hotéis e chalés estão a poucos passos ou a esqui dos teleféricos."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "family",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A genuine old Maurienne village at the foot of the Galibier, Valloire links with Valmeinier across 150 km of the Galibier-Thabor domain. It blends real village character with sunny, varied skiing.",
+      "fr": "Vrai vieux village de Maurienne au pied du Galibier, Valloire se relie à Valmeinier sur les 150 km du domaine Galibier-Thabor. Elle mêle l'âme d'un vrai village à un ski ensoleillé et varié.",
+      "es": "Auténtico pueblo viejo de la Maurienne al pie del Galibier, Valloire se une a Valmeinier en los 150 km del dominio Galibier-Thabor. Combina el alma de un pueblo de verdad con un esquí soleado y variado.",
+      "pt": "Autêntica aldeia antiga da Maurienne ao pé do Galibier, Valloire liga-se a Valmeinier nos 150 km do domínio Galibier-Thabor. Combina a alma de uma aldeia a sério com um esqui solarengo e variado."
+    },
+    "longDescription": {
+      "en": "Valloire is that increasingly rare thing, a high-mountain resort that grew from a real Savoyard village, complete with a baroque church and working farms, at the foot of the legendary Col du Galibier. Its slopes climb both sides of the valley and connect with neighbouring Valmeinier to make the 150 km Galibier-Thabor domain, sunny and nicely balanced between gentle and challenging. The atmosphere is friendly and unpretentious, with a famous ice and snow sculpture festival that fills the village square each winter.",
+      "fr": "Valloire est une rareté de plus en plus précieuse : une station de haute montagne née d'un vrai village savoyard, avec son église baroque et ses fermes en activité, au pied du légendaire col du Galibier. Ses pistes grimpent des deux côtés de la vallée et rejoignent Valmeinier pour former le domaine Galibier-Thabor, 150 km ensoleillés et bien répartis entre douceur et défi. L'ambiance est conviviale et sans chichis, avec un célèbre festival de sculptures sur glace et sur neige qui anime la place du village chaque hiver.",
+      "es": "Valloire es una rareza cada vez más valiosa: una estación de alta montaña nacida de un verdadero pueblo saboyano, con su iglesia barroca y sus granjas en activo, al pie del legendario Col du Galibier. Sus pistas suben por ambos lados del valle y enlazan con Valmeinier para formar el dominio Galibier-Thabor, 150 km soleados y bien repartidos entre lo suave y lo exigente. El ambiente es cercano y sin pretensiones, con un famoso festival de esculturas de hielo y nieve que anima la plaza del pueblo cada invierno.",
+      "pt": "Valloire é uma raridade cada vez mais preciosa: uma estância de alta montanha nascida de uma verdadeira aldeia saboiana, com a sua igreja barroca e quintas em atividade, ao pé do lendário Col du Galibier. As suas pistas sobem dos dois lados do vale e ligam-se a Valmeinier para formar o domínio Galibier-Thabor, 150 km solarengos e bem repartidos entre o suave e o exigente. O ambiente é acolhedor e sem pretensões, com um famoso festival de esculturas de gelo e neve que anima a praça da aldeia todos os invernos."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 25,
+      "red": 26,
+      "black": 8
+    }
+  },
+  {
+    "slug": "orcieres-merlette",
+    "name": "Orcières-Merlette",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.696,
+    "lng": 6.326,
+    "altitudeBase": 1850,
+    "altitudeSummit": 2725,
+    "pistesKm": 100,
+    "lifts": 24,
+    "skiInSkiOutNote": {
+      "en": "Purpose-built Orcières 1850 sits right on the snow-front, so most apartments and hotels there are genuinely ski-in/ski-out.",
+      "fr": "La station construite d'Orcières 1850 est posée sur le front de neige : la plupart des appartements et hôtels y sont vraiment ski-in/ski-out.",
+      "es": "La estación construida de Orcières 1850 está sobre el frente de nieve, así que la mayoría de apartamentos y hoteles son de verdad ski-in/ski-out.",
+      "pt": "A estância construída de Orcières 1850 assenta no sopé das pistas, por isso a maioria dos apartamentos e hotéis é mesmo ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "sunny",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "High in the sunny Champsaur, Orcières-Merlette is a snow-sure family resort built at 1850 m in the southern Alps. Big skies, gentle slopes and a famous mountain-top pool define the place.",
+      "fr": "Haut perchée dans le Champsaur ensoleillé, Orcières-Merlette est une station familiale au bon enneigement, bâtie à 1850 m dans les Alpes du Sud. Grands ciels, pentes douces et une célèbre piscine d'altitude en font le caractère.",
+      "es": "En lo alto del soleado Champsaur, Orcières-Merlette es una estación familiar con buena nieve, construida a 1850 m en los Alpes del Sur. Cielos amplios, pendientes suaves y una famosa piscina de altura marcan su carácter.",
+      "pt": "No alto do solarengo Champsaur, Orcières-Merlette é uma estância familiar com boa neve, construída a 1850 m nos Alpes do Sul. Céus amplos, encostas suaves e uma famosa piscina de altitude definem o lugar."
+    },
+    "longDescription": {
+      "en": "Orcières-Merlette sits on a sunny shelf at 1850 m in the Champsaur, one of the warmest, brightest corners of the southern French Alps yet high enough to hold reliable snow. The 100 km of piste are mostly forgiving, ideal for families and improving skiers, with the 2725 m Drouvet summit giving the longer, steeper runs and wide southern panoramas. It is a self-contained, car-light resort with a big focus on activities, from a mountain-top pool to floodlit night skiing.",
+      "fr": "Orcières-Merlette occupe un replat ensoleillé à 1850 m dans le Champsaur, l'un des coins les plus chauds et lumineux des Alpes du Sud, mais assez haut pour garder un bon enneigement. Les 100 km de pistes sont surtout accueillants, parfaits pour les familles et les skieurs en progrès, le sommet du Drouvet à 2725 m offrant les descentes plus longues et raides et de larges panoramas vers le sud. C'est une station compacte où la voiture sert peu, très tournée vers les activités, de la piscine d'altitude au ski nocturne éclairé.",
+      "es": "Orcières-Merlette ocupa una repisa soleada a 1850 m en el Champsaur, uno de los rincones más cálidos y luminosos de los Alpes del Sur, pero lo bastante alto para mantener buena nieve. Los 100 km de pistas son sobre todo amables, ideales para familias y esquiadores en progreso, con la cima del Drouvet a 2725 m que da las bajadas más largas y empinadas y amplias vistas al sur. Es una estación compacta donde el coche apenas hace falta, muy volcada en las actividades, de la piscina de altura al esquí nocturno iluminado.",
+      "pt": "Orcières-Merlette ocupa um patamar solarengo a 1850 m no Champsaur, um dos cantos mais quentes e luminosos dos Alpes do Sul, mas alto o suficiente para manter boa neve. Os 100 km de pistas são sobretudo amáveis, ideais para famílias e esquiadores em progresso, com o cume do Drouvet a 2725 m a dar as descidas mais longas e íngremes e amplos panoramas para sul. É uma estância compacta onde o carro pouco serve, muito virada para as atividades, da piscina de altitude ao esqui noturno iluminado."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 20,
+      "red": 18,
+      "black": 6
+    }
+  },
+  {
+    "slug": "les-orres",
+    "name": "Les Orres",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.506,
+    "lng": 6.546,
+    "altitudeBase": 1650,
+    "altitudeSummit": 2720,
+    "pistesKm": 100,
+    "lifts": 18,
+    "skiInSkiOutNote": {
+      "en": "The resort villages of Les Orres 1650 and 1800 are built on the snow-front, putting most beds within ski reach of the lifts.",
+      "fr": "Les villages-stations des Orres 1650 et 1800 sont bâtis sur le front de neige, ce qui place la plupart des lits à portée de skis des remontées.",
+      "es": "Los pueblos-estación de Les Orres 1650 y 1800 están construidos sobre el frente de nieve, lo que sitúa la mayoría de camas a un paso de esquí de los remontes.",
+      "pt": "As aldeias-estância de Les Orres 1650 e 1800 estão construídas no sopé das pistas, o que coloca a maioria das camas a um passo de esqui dos teleféricos."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "sunny",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Perched above the turquoise Serre-Ponçon lake in the southern Alps, Les Orres is a sunny, forested family resort climbing to 2720 m. Larch runs and lake views give it a distinctive southern charm.",
+      "fr": "Perchée au-dessus du lac turquoise de Serre-Ponçon dans les Alpes du Sud, Les Orres est une station familiale ensoleillée et boisée qui grimpe à 2720 m. Ses pistes en mélèzes et ses vues sur le lac lui donnent un charme bien méridional.",
+      "es": "Asomada sobre el lago turquesa de Serre-Ponçon en los Alpes del Sur, Les Orres es una estación familiar soleada y arbolada que sube a 2720 m. Sus pistas entre alerces y las vistas al lago le dan un encanto muy meridional.",
+      "pt": "Debruçada sobre o lago turquesa de Serre-Ponçon nos Alpes do Sul, Les Orres é uma estância familiar solarenga e arborizada que sobe a 2720 m. As pistas entre lariços e as vistas sobre o lago dão-lhe um encanto bem meridional."
+    },
+    "longDescription": {
+      "en": "Les Orres looks out over the great turquoise reservoir of Serre-Ponçon from larch-covered slopes in the Embrunais, one of the sunniest pockets of the French Alps. Its 100 km of piste run from a gentle, sheltered base area up to the 2720 m Pic de Boussolenc, mixing forest cruisers with open, snow-sure terrain higher up. Low-key and good value, it draws Provençal families and weekenders who pair skiing with the dramatic lake scenery below.",
+      "fr": "Les Orres domine le grand réservoir turquoise de Serre-Ponçon depuis des pentes couvertes de mélèzes, dans l'Embrunais, l'une des poches les plus ensoleillées des Alpes françaises. Ses 100 km de pistes vont d'un bas de station doux et abrité jusqu'au Pic de Boussolenc à 2720 m, mêlant promenades en forêt et terrain dégagé et bien enneigé plus haut. Discrète et d'un bon rapport qualité-prix, elle attire les familles provençales et les amateurs de week-end qui associent le ski au décor spectaculaire du lac en contrebas.",
+      "es": "Les Orres domina el gran embalse turquesa de Serre-Ponçon desde laderas cubiertas de alerces, en el Embrunais, uno de los rincones más soleados de los Alpes franceses. Sus 100 km de pistas van desde una base suave y resguardada hasta el Pic de Boussolenc, a 2720 m, mezclando paseos por el bosque con terreno abierto y de nieve segura más arriba. Discreta y de buena relación calidad-precio, atrae a familias provenzales y a quienes pasan el fin de semana combinando el esquí con el espectacular paisaje del lago al fondo.",
+      "pt": "Les Orres domina o grande reservatório turquesa de Serre-Ponçon a partir de encostas cobertas de lariços, no Embrunais, um dos cantos mais solarengos dos Alpes franceses. Os seus 100 km de pistas vão de uma base suave e abrigada até ao Pic de Boussolenc, a 2720 m, misturando passeios na floresta com terreno aberto e de neve segura mais acima. Discreta e de boa relação qualidade-preço, atrai famílias provençais e quem passa o fim de semana a combinar o esqui com a paisagem espetacular do lago lá em baixo."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 18,
+      "red": 20,
+      "black": 6
+    }
+  },
+  {
+    "slug": "auron",
+    "name": "Auron",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.228,
+    "lng": 6.923,
+    "altitudeBase": 1600,
+    "altitudeSummit": 2450,
+    "pistesKm": 135,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "Auron is built around a village core on the snow-front, so most hotels and apartments sit within a short ski or walk of the lifts.",
+      "fr": "Auron s'organise autour d'un cœur de village sur le front de neige : la plupart des hôtels et appartements sont à quelques pas ou à skis des remontées.",
+      "es": "Auron se organiza en torno a un núcleo de pueblo sobre el frente de nieve, así que la mayoría de hoteles y apartamentos quedan a un corto paseo o esquí de los remontes.",
+      "pt": "Auron organiza-se à volta de um centro de aldeia no sopé das pistas, por isso a maioria dos hotéis e apartamentos fica a um curto passeio ou esqui dos teleféricos."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "sunny",
+      "family",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A sunny plateau resort in the Mercantour, Auron is the Southern Alps' answer to a classic ski village, just two hours from Nice. Reliable snow and broad, varied slopes make it a Riviera favourite.",
+      "fr": "Station de plateau ensoleillée dans le Mercantour, Auron est la version Alpes du Sud du village de ski classique, à deux heures seulement de Nice. Un enneigement fiable et de larges pistes variées en font un favori de la Côte d'Azur.",
+      "es": "Estación de meseta soleada en el Mercantour, Auron es la versión de los Alpes del Sur del pueblo de esquí clásico, a solo dos horas de Niza. Una nieve fiable y amplias pistas variadas la hacen una favorita de la Costa Azul.",
+      "pt": "Estância de planalto solarenga no Mercantour, Auron é a versão dos Alpes do Sul da aldeia de esqui clássica, a apenas duas horas de Nice. Uma neve fiável e amplas pistas variadas fazem dela uma favorita da Riviera francesa."
+    },
+    "longDescription": {
+      "en": "Auron spreads across a sunny plateau at 1600 m in the Mercantour, wrapped around a small village with a Romanesque chapel and a proper main square, an unusually characterful base for the southern Alps. Its 135 km of piste fan out over wooded and open slopes up to 2450 m, with enough red and black terrain to keep strong skiers busy alongside excellent learning areas. Barely two hours from the Mediterranean, it draws a cheerful crowd from Nice and the Riviera who appreciate dependable snow this far south.",
+      "fr": "Auron s'étend sur un plateau ensoleillé à 1600 m dans le Mercantour, autour d'un petit village avec sa chapelle romane et une vraie place centrale, un pied de station étonnamment plein de caractère pour les Alpes du Sud. Ses 135 km de pistes se déploient sur des pentes boisées et dégagées jusqu'à 2450 m, avec assez de rouges et de noires pour occuper les bons skieurs, à côté d'excellents espaces d'apprentissage. À deux heures à peine de la Méditerranée, elle attire une foule joyeuse de Niçois et de gens de la Côte qui apprécient un enneigement fiable aussi au sud.",
+      "es": "Auron se extiende por una meseta soleada a 1600 m en el Mercantour, en torno a un pequeño pueblo con su capilla románica y una verdadera plaza central, una base sorprendentemente llena de carácter para los Alpes del Sur. Sus 135 km de pistas se despliegan por laderas boscosas y abiertas hasta los 2450 m, con suficientes rojas y negras para mantener ocupados a los buenos esquiadores, junto a excelentes zonas de aprendizaje. A apenas dos horas del Mediterráneo, atrae a un público alegre de Niza y la Costa Azul que aprecia una nieve fiable tan al sur.",
+      "pt": "Auron estende-se por um planalto solarengo a 1600 m no Mercantour, à volta de uma pequena aldeia com a sua capela românica e uma verdadeira praça central, uma base surpreendentemente cheia de carácter para os Alpes do Sul. Os seus 135 km de pistas desdobram-se por encostas arborizadas e abertas até aos 2450 m, com vermelhas e negras suficientes para ocupar os bons esquiadores, a par de excelentes zonas de aprendizagem. A apenas duas horas do Mediterrâneo, atrai um público alegre de Nice e da Riviera que aprecia uma neve fiável tão a sul."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 18,
+      "red": 20,
+      "black": 7
+    }
+  },
+  {
+    "slug": "les-contamines",
+    "name": "Les Contamines",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.823,
+    "lng": 6.727,
+    "altitudeBase": 1164,
+    "altitudeSummit": 2500,
+    "pistesKm": 120,
+    "lifts": 25,
+    "skiInSkiOutNote": {
+      "en": "The village of Les Contamines stretches below the lifts, with a gondola from the centre; a few residences at the Le Lay snow-front offer true ski-in/ski-out.",
+      "fr": "Le village des Contamines s'étire sous les pistes, avec une télécabine depuis le centre ; quelques résidences sur le front de neige du Lay offrent un vrai ski-in/ski-out.",
+      "es": "El pueblo de Les Contamines se extiende bajo las pistas, con una telecabina desde el centro; algunas residencias en el frente de nieve de Le Lay ofrecen un verdadero ski-in/ski-out.",
+      "pt": "A aldeia de Les Contamines estende-se sob as pistas, com um telecabine a partir do centro; algumas residências no sopé das pistas de Le Lay oferecem um verdadeiro ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "authentic",
+      "family",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A pretty, authentic village in the Mont Blanc range, Les Contamines-Montjoie has some of the snowiest, north-facing slopes near Chamonix. It stays low-key and scenic, beloved by those in the know.",
+      "fr": "Joli village authentique dans le massif du Mont-Blanc, Les Contamines-Montjoie compte parmi les pentes les plus enneigées et orientées nord près de Chamonix. La station reste discrète et photogénique, chérie des connaisseurs.",
+      "es": "Bonito pueblo auténtico en el macizo del Mont Blanc, Les Contamines-Montjoie tiene algunas de las laderas más nevadas y orientadas al norte cerca de Chamonix. Sigue siendo discreta y pintoresca, querida por los entendidos.",
+      "pt": "Bonita aldeia autêntica no maciço do Mont Blanc, Les Contamines-Montjoie tem algumas das encostas mais nevadas e viradas a norte perto de Chamonix. Mantém-se discreta e pitoresca, adorada por quem sabe."
+    },
+    "longDescription": {
+      "en": "Les Contamines-Montjoie is a genuine Savoyard village strung along a valley below Mont Blanc, with a baroque church and a low-rise, lived-in feel rather than the look of a built resort. Its 120 km of piste face largely north and sit high, which gives it a reputation for some of the best, longest-lasting snow in the Mont Blanc area, with terrain that rewards confident intermediates and experts. Quiet, scenic and a short hop from Chamonix, it is the choice of skiers who want snow and atmosphere over nightlife.",
+      "fr": "Les Contamines-Montjoie est un vrai village savoyard étiré le long d'une vallée sous le Mont-Blanc, avec son église baroque et une allure habitée et basse, loin du look d'une station construite. Ses 120 km de pistes regardent surtout au nord et sont perchés, d'où sa réputation d'un des meilleurs enneigements, parmi les plus durables, du secteur du Mont-Blanc, sur un terrain qui récompense les intermédiaires sûrs et les experts. Calme, photogénique et à deux pas de Chamonix, c'est le choix des skieurs qui préfèrent la neige et l'ambiance à la vie nocturne.",
+      "es": "Les Contamines-Montjoie es un verdadero pueblo saboyano estirado a lo largo de un valle bajo el Mont Blanc, con su iglesia barroca y un aire habitado y bajo, lejos del aspecto de una estación construida. Sus 120 km de pistas miran sobre todo al norte y están en alto, de ahí su fama de tener una de las mejores nieves, y de las más duraderas, de la zona del Mont Blanc, en un terreno que premia a los intermedios seguros y a los expertos. Tranquila, pintoresca y a un paso de Chamonix, es la elección de quienes prefieren la nieve y el ambiente a la vida nocturna.",
+      "pt": "Les Contamines-Montjoie é uma verdadeira aldeia saboiana estendida ao longo de um vale sob o Mont Blanc, com a sua igreja barroca e um ar habitado e baixo, longe do aspeto de uma estância construída. Os seus 120 km de pistas estão sobretudo virados a norte e em altura, daí a fama de ter uma das melhores neves, e das mais duradouras, da zona do Mont Blanc, num terreno que recompensa os intermédios seguros e os experientes. Tranquila, pitoresca e a um passo de Chamonix, é a escolha de quem prefere a neve e o ambiente à vida noturna."
+    },
+    "pisteCounts": {
+      "green": 9,
+      "blue": 18,
+      "red": 20,
+      "black": 8
+    }
+  },
+  {
+    "slug": "piau-engaly",
+    "name": "Piau-Engaly",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.79,
+    "lng": 0.153,
+    "altitudeBase": 1850,
+    "altitudeSummit": 2600,
+    "pistesKm": 65,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Piau-Engaly is a compact, slope-side resort: the apartment buildings sit right on the snow-front, so almost everything is ski-in/ski-out.",
+      "fr": "Piau-Engaly est une station compacte au pied des pistes : les immeubles sont posés sur le front de neige, donc presque tout est ski-in/ski-out.",
+      "es": "Piau-Engaly es una estación compacta a pie de pista: los bloques se asientan sobre el frente de nieve, así que casi todo es ski-in/ski-out.",
+      "pt": "Piau-Engaly é uma estância compacta no sopé das pistas: os blocos assentam na frente de neve, por isso quase tudo é ski-in/ski-out."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "high-altitude",
+      "snow-sure",
+      "family"
+    ],
+    "intro": {
+      "en": "The highest resort in the French Pyrenees, Piau-Engaly sits at 1850 m near the Spanish border and holds snow when lower neighbours struggle. It is compact, modern and a freeride favourite.",
+      "fr": "Station la plus haute des Pyrénées françaises, Piau-Engaly se tient à 1850 m près de la frontière espagnole et garde la neige quand les voisines plus basses peinent. Compacte, moderne, c'est un repaire de freeride.",
+      "es": "La estación más alta de los Pirineos franceses, Piau-Engaly se sitúa a 1850 m cerca de la frontera española y conserva la nieve cuando las vecinas más bajas sufren. Compacta y moderna, es un refugio del freeride.",
+      "pt": "A estância mais alta dos Pirenéus franceses, Piau-Engaly fica a 1850 m perto da fronteira espanhola e mantém a neve quando as vizinhas mais baixas sofrem. Compacta e moderna, é um reduto do freeride."
+    },
+    "longDescription": {
+      "en": "Tucked into a high cirque near the Bielsa tunnel to Spain, Piau-Engaly is the loftiest ski resort in the French Pyrenees and reliably the snowiest, which is why powder skiers make the trip. Its 65 km of piste rise to 2600 m over open, snow-sure bowls, with serious off-piste and steep blacks alongside well-protected beginner areas. The resort itself is small and purpose-built, all of it within ski reach of the lifts, a no-nonsense base for chasing the best snow in the range.",
+      "fr": "Nichée dans un haut cirque près du tunnel de Bielsa vers l'Espagne, Piau-Engaly est la station la plus élevée des Pyrénées françaises et, de manière fiable, la plus enneigée, ce qui attire les amateurs de poudreuse. Ses 65 km de pistes montent à 2600 m sur des combes dégagées et bien enneigées, avec du hors-piste sérieux et des noires raides à côté d'espaces débutants bien protégés. La station elle-même est petite et construite d'un bloc, entièrement à portée de skis des remontées, une base sans détour pour chasser la meilleure neige du massif.",
+      "es": "Metida en un alto circo cerca del túnel de Bielsa hacia España, Piau-Engaly es la estación más elevada de los Pirineos franceses y, de forma fiable, la más nevada, lo que atrae a los amantes del polvo. Sus 65 km de pistas suben a 2600 m por circos abiertos y de nieve segura, con fuera de pista serio y negras empinadas junto a zonas de debutantes bien protegidas. La estación en sí es pequeña y construida de una pieza, toda a un paso de esquí de los remontes, una base directa para perseguir la mejor nieve del macizo.",
+      "pt": "Encaixada num alto circo perto do túnel de Bielsa para Espanha, Piau-Engaly é a estância mais elevada dos Pirenéus franceses e, de forma fiável, a mais nevada, o que atrai os apaixonados por neve pó. Os seus 65 km de pistas sobem a 2600 m por circos abertos e de neve segura, com fora-de-pista sério e negras íngremes a par de zonas de iniciação bem protegidas. A estância em si é pequena e construída de um só bloco, toda a um passo de esqui dos teleféricos, uma base direta para perseguir a melhor neve do maciço."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 12,
+      "red": 14,
+      "black": 6
+    }
+  },
+  {
+    "slug": "luz-ardiden",
+    "name": "Luz-Ardiden",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.877,
+    "lng": -0.015,
+    "altitudeBase": 1680,
+    "altitudeSummit": 2450,
+    "pistesKm": 60,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "The lifts rise from the Aulian and Bederet snow-fronts; most visitors stay down in the historic spa town of Luz-Saint-Sauveur and drive the short road up.",
+      "fr": "Les remontées partent des fronts de neige d'Aulian et de Bederet ; la plupart logent en bas, dans la ville thermale historique de Luz-Saint-Sauveur, et montent par la petite route.",
+      "es": "Los remontes salen de los frentes de nieve de Aulian y Bederet; la mayoría se aloja abajo, en la histórica ciudad termal de Luz-Saint-Sauveur, y sube por la pequeña carretera.",
+      "pt": "Os teleféricos partem das frentes de neve de Aulian e Bederet; a maioria fica em baixo, na histórica vila termal de Luz-Saint-Sauveur, e sobe pela pequena estrada."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "sunny",
+      "value"
+    ],
+    "intro": {
+      "en": "A sunny, snow-sure bowl above the spa town of Luz-Saint-Sauveur, Luz-Ardiden is best known to fans of the Tour de France. Wide, open slopes and reliable snow make it a Pyrenean classic.",
+      "fr": "Cirque ensoleillé et bien enneigé au-dessus de la ville thermale de Luz-Saint-Sauveur, Luz-Ardiden est surtout connue des passionnés du Tour de France. Ses larges pentes dégagées et son enneigement fiable en font un classique pyrénéen.",
+      "es": "Circo soleado y de nieve segura sobre la ciudad termal de Luz-Saint-Sauveur, Luz-Ardiden es conocida sobre todo por los aficionados al Tour de Francia. Sus amplias laderas abiertas y su nieve fiable la hacen un clásico pirenaico.",
+      "pt": "Circo solarengo e de neve segura acima da vila termal de Luz-Saint-Sauveur, Luz-Ardiden é conhecida sobretudo pelos fãs da Volta a França. As suas amplas encostas abertas e a neve fiável fazem dela um clássico dos Pirenéus."
+    },
+    "longDescription": {
+      "en": "Luz-Ardiden is a wide, treeless bowl of sunny, snow-holding slopes above the historic Bigorre spa town of Luz-Saint-Sauveur, a name cyclists know from its brutal Tour de France finishes. The 60 km of piste climb to 2450 m across two linked sectors, open and easy to read, with gentle blues for families and long reds for the confident. Down in the valley, Luz keeps a real Pyrenean town life and a spa to ease aching legs, a classic pairing of village and mountain.",
+      "fr": "Luz-Ardiden est un large cirque sans arbres, fait de pentes ensoleillées qui tiennent bien la neige, au-dessus de la ville thermale bigourdane de Luz-Saint-Sauveur, un nom que les cyclistes connaissent pour ses arrivées impitoyables du Tour de France. Les 60 km de pistes montent à 2450 m sur deux secteurs reliés, dégagés et faciles à lire, avec des bleues douces pour les familles et de longues rouges pour les skieurs sûrs. En bas, Luz garde une vraie vie de ville pyrénéenne et des thermes pour soulager les jambes, un mariage classique du village et de la montagne.",
+      "es": "Luz-Ardiden es un amplio circo sin árboles, de laderas soleadas que retienen bien la nieve, sobre la ciudad termal bigorrana de Luz-Saint-Sauveur, un nombre que los ciclistas conocen por sus llegadas implacables del Tour de Francia. Los 60 km de pistas suben a 2450 m por dos sectores enlazados, abiertos y fáciles de leer, con azules suaves para las familias y largas rojas para los esquiadores seguros. Abajo, Luz conserva una verdadera vida de pueblo pirenaico y un balneario para aliviar las piernas, un maridaje clásico de pueblo y montaña.",
+      "pt": "Luz-Ardiden é um amplo circo sem árvores, de encostas solarengas que retêm bem a neve, acima da vila termal bigorresa de Luz-Saint-Sauveur, um nome que os ciclistas conhecem pelas suas chegadas implacáveis da Volta a França. Os 60 km de pistas sobem a 2450 m por dois setores ligados, abertos e fáceis de ler, com azuis suaves para as famílias e longas vermelhas para os esquiadores seguros. Em baixo, Luz conserva uma verdadeira vida de vila dos Pirenéus e umas termas para aliviar as pernas, um casamento clássico de aldeia e montanha."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 12,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "gourette",
+    "name": "Gourette",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.956,
+    "lng": -0.334,
+    "altitudeBase": 1400,
+    "altitudeSummit": 2400,
+    "pistesKm": 40,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Gourette is a slope-side resort below the Col d'Aubisque, with apartment residences right on the snow-front and the spa village of Eaux-Bonnes just down the road.",
+      "fr": "Gourette est une station au pied des pistes, sous le col d'Aubisque, avec des résidences sur le front de neige et le village thermal d'Eaux-Bonnes juste en contrebas.",
+      "es": "Gourette es una estación a pie de pista, bajo el Col d'Aubisque, con residencias sobre el frente de nieve y el pueblo termal de Eaux-Bonnes justo más abajo.",
+      "pt": "Gourette é uma estância no sopé das pistas, sob o Col d'Aubisque, com residências na frente de neve e a aldeia termal de Eaux-Bonnes logo abaixo."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "authentic",
+      "value"
+    ],
+    "intro": {
+      "en": "The biggest resort in the Béarn, Gourette sits in a dramatic bowl below the Col d'Aubisque, an hour and a half from Pau. Steep walls and gentle nursery slopes sit side by side.",
+      "fr": "Plus grande station du Béarn, Gourette se niche dans un cirque spectaculaire sous le col d'Aubisque, à une heure et demie de Pau. Parois raides et pentes débutantes douces s'y côtoient.",
+      "es": "La estación más grande del Béarn, Gourette se acomoda en un circo espectacular bajo el Col d'Aubisque, a hora y media de Pau. Paredes empinadas y suaves pistas de debutantes conviven una al lado de otra.",
+      "pt": "A maior estância do Béarn, Gourette aninha-se num circo espetacular sob o Col d'Aubisque, a hora e meia de Pau. Paredes íngremes e suaves pistas de iniciação convivem lado a lado."
+    },
+    "longDescription": {
+      "en": "Gourette is the main ski resort of the Béarn, set in a steep, rocky cirque beneath the Col d'Aubisque that gives it a genuinely alpine feel for the western Pyrenees. Its 40 km of piste pack in a lot of variety for the size, from sheltered beginner slopes at the base to demanding reds and blacks on the surrounding walls. Close to Pau and the spa village of Eaux-Bonnes, it is a popular weekend mountain for the southwest of France, lively when the snow is good.",
+      "fr": "Gourette est la principale station du Béarn, posée dans un cirque raide et rocheux sous le col d'Aubisque qui lui donne une vraie allure alpine pour les Pyrénées occidentales. Ses 40 km de pistes offrent beaucoup de variété pour leur taille, des pentes débutantes abritées en bas aux rouges et noires exigeantes sur les parois alentour. Proche de Pau et du village thermal d'Eaux-Bonnes, c'est une montagne de week-end prisée du sud-ouest de la France, animée dès que la neige est au rendez-vous.",
+      "es": "Gourette es la principal estación del Béarn, situada en un circo empinado y rocoso bajo el Col d'Aubisque que le da un aire verdaderamente alpino para los Pirineos occidentales. Sus 40 km de pistas concentran mucha variedad para su tamaño, desde laderas de debutantes resguardadas en la base hasta rojas y negras exigentes en las paredes de alrededor. Cerca de Pau y del pueblo termal de Eaux-Bonnes, es una montaña de fin de semana muy querida en el suroeste de Francia, animada en cuanto la nieve acompaña.",
+      "pt": "Gourette é a principal estância do Béarn, situada num circo íngreme e rochoso sob o Col d'Aubisque que lhe dá um ar verdadeiramente alpino para os Pirenéus ocidentais. Os seus 40 km de pistas concentram muita variedade para o tamanho, das encostas de iniciação abrigadas na base às vermelhas e negras exigentes nas paredes em redor. Perto de Pau e da aldeia termal de Eaux-Bonnes, é uma montanha de fim de semana muito apreciada no sudoeste da França, animada assim que a neve aparece."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 10,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "astun",
+    "name": "Astún",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.806,
+    "lng": -0.506,
+    "altitudeBase": 1700,
+    "altitudeSummit": 2300,
+    "pistesKm": 50,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Astún is a compact, slope-side resort: its hotels and apartments cluster right at the lifts, so almost everyone is ski-in/ski-out.",
+      "fr": "Astún est une station compacte au pied des pistes : ses hôtels et appartements se regroupent au départ des remontées, donc presque tout le monde est ski-in/ski-out.",
+      "es": "Astún es una estación compacta a pie de pista: sus hoteles y apartamentos se agrupan junto a los remontes, así que casi todo el mundo es ski-in/ski-out.",
+      "pt": "Astún é uma estância compacta no sopé das pistas: os seus hotéis e apartamentos juntam-se junto aos teleféricos, por isso quase toda a gente é ski-in/ski-out."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "snow-sure",
+      "value"
+    ],
+    "intro": {
+      "en": "A purpose-built sun-trap next to Candanchú at the Somport, Astún is a friendly, snow-sure Aragonese resort. Its compact, slope-side layout suits families especially well.",
+      "fr": "Station construite et gorgée de soleil voisine de Candanchú au Somport, Astún est une station aragonaise accueillante et bien enneigée. Son plan compact au pied des pistes convient particulièrement aux familles.",
+      "es": "Estación construida y soleada junto a Candanchú en el Somport, Astún es una estación aragonesa acogedora y de nieve segura. Su trazado compacto a pie de pista va especialmente bien a las familias.",
+      "pt": "Estância construída e cheia de sol ao lado de Candanchú no Somport, Astún é uma estância aragonesa acolhedora e de neve segura. O seu traçado compacto no sopé das pistas assenta especialmente bem às famílias."
+    },
+    "longDescription": {
+      "en": "Astún was built in the 1970s in a sunny side-valley right beside Candanchú, sharing the same reliable Somport snow but with a tidy, modern, slope-side layout. Its 50 km of piste suit families and intermediates particularly well, with broad, well-groomed runs rising to 2300 m and a couple of steeper challenges off the top. Most lodging sits a snowball's throw from the lifts, and a single combined pass with Candanchú opens up the whole pass for keener skiers.",
+      "fr": "Astún a été construite dans les années 1970 dans un vallon ensoleillé juste à côté de Candanchú, profitant de la même neige fiable du Somport mais avec un plan moderne, net et au pied des pistes. Ses 50 km de pistes conviennent particulièrement aux familles et aux intermédiaires, avec de larges pistes bien damées qui montent à 2300 m et quelques défis plus raides en haut. La plupart des hébergements sont à deux pas des remontées, et un forfait commun avec Candanchú ouvre tout le col aux skieurs plus mordus.",
+      "es": "Astún se construyó en los años 1970 en un valle lateral soleado justo al lado de Candanchú, aprovechando la misma nieve fiable del Somport pero con un trazado moderno, ordenado y a pie de pista. Sus 50 km de pistas van especialmente bien a familias e intermedios, con amplias pistas bien pisadas que suben a 2300 m y un par de retos más empinados en lo alto. La mayoría del alojamiento está a un paso de los remontes, y un forfait conjunto con Candanchú abre todo el puerto a los esquiadores más entregados.",
+      "pt": "Astún foi construída nos anos 1970 num vale lateral solarengo mesmo ao lado de Candanchú, aproveitando a mesma neve fiável do Somport mas com um traçado moderno, arrumado e no sopé das pistas. Os seus 50 km de pistas assentam especialmente bem a famílias e intermédios, com amplas pistas bem pisadas que sobem a 2300 m e alguns desafios mais íngremes lá em cima. A maioria do alojamento fica a dois passos dos teleféricos, e um passe conjunto com Candanchú abre todo o porto aos esquiadores mais dedicados."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 12,
+      "red": 14,
+      "black": 4
+    }
+  },
+  {
+    "slug": "boi-taull",
+    "name": "Boí Taüll",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.487,
+    "lng": 0.84,
+    "altitudeBase": 2020,
+    "altitudeSummit": 2751,
+    "pistesKm": 45,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Boí Taüll is a slope-side resort with hotels and apartments at the lift base; the Romanesque villages of the Vall de Boí lie down in the valley below.",
+      "fr": "Boí Taüll est une station au pied des pistes, avec hôtels et appartements au départ des remontées ; les villages romans de la Vall de Boí sont plus bas dans la vallée.",
+      "es": "Boí Taüll es una estación a pie de pista, con hoteles y apartamentos en la base de los remontes; los pueblos románicos de la Vall de Boí quedan más abajo en el valle.",
+      "pt": "Boí Taüll é uma estância no sopé das pistas, com hotéis e apartamentos na base dos teleféricos; as aldeias românicas da Vall de Boí ficam mais abaixo no vale."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 82,
+    "vibes": [
+      "high-altitude",
+      "snow-sure",
+      "scenic"
+    ],
+    "intro": {
+      "en": "The highest resort in the Pyrenees, Boí Taüll starts at 2020 m in a remote corner of Catalonia and is prized for dry, abundant snow. It sits beside the UNESCO Romanesque churches of the Vall de Boí.",
+      "fr": "Station la plus haute des Pyrénées, Boí Taüll démarre à 2020 m dans un coin reculé de Catalogne et se distingue par une neige sèche et abondante. Elle voisine avec les églises romanes classées à l'UNESCO de la Vall de Boí.",
+      "es": "La estación más alta de los Pirineos, Boí Taüll arranca a 2020 m en un rincón remoto de Cataluña y destaca por su nieve seca y abundante. Está junto a las iglesias románicas de la Vall de Boí, Patrimonio de la UNESCO.",
+      "pt": "A estância mais alta dos Pirenéus, Boí Taüll arranca a 2020 m num canto remoto da Catalunha e distingue-se pela neve seca e abundante. Fica junto às igrejas românicas da Vall de Boí, Património da UNESCO."
+    },
+    "longDescription": {
+      "en": "Boí Taüll has the highest base in the Pyrenees at 2020 m, tucked away at the head of a remote Catalan valley near the Aigüestortes national park, which gives it famously dry, light and long-lasting snow. Its 45 km of piste climb to 2751 m over wide, sunny, mostly intermediate terrain, quiet even at peak times thanks to the resort's out-of-the-way location. Below lie the tiny stone villages of the Vall de Boí and their UNESCO-listed Romanesque churches, making this as much a cultural trip as a ski one.",
+      "fr": "Boí Taüll possède le point de départ le plus haut des Pyrénées, à 2020 m, blottie en tête d'une vallée catalane reculée près du parc national d'Aigüestortes, ce qui lui vaut une neige réputée sèche, légère et durable. Ses 45 km de pistes montent à 2751 m sur un terrain large, ensoleillé et surtout intermédiaire, tranquille même en pleine saison grâce à sa situation à l'écart. En contrebas s'égrènent les minuscules villages de pierre de la Vall de Boí et leurs églises romanes classées à l'UNESCO, ce qui en fait autant un voyage culturel qu'un séjour au ski.",
+      "es": "Boí Taüll tiene la base más alta de los Pirineos, a 2020 m, escondida en la cabecera de un remoto valle catalán cerca del parque nacional de Aigüestortes, lo que le da una nieve famosa por seca, ligera y duradera. Sus 45 km de pistas suben a 2751 m por un terreno amplio, soleado y sobre todo intermedio, tranquilo incluso en plena temporada gracias a su ubicación apartada. Más abajo se suceden los diminutos pueblos de piedra de la Vall de Boí y sus iglesias románicas declaradas por la UNESCO, lo que convierte esto en un viaje tan cultural como de esquí.",
+      "pt": "Boí Taüll tem a base mais alta dos Pirenéus, a 2020 m, escondida na cabeceira de um remoto vale catalão perto do parque nacional de Aigüestortes, o que lhe dá uma neve famosa por seca, leve e duradoura. Os seus 45 km de pistas sobem a 2751 m por um terreno amplo, solarengo e sobretudo intermédio, tranquilo mesmo em plena época graças à sua localização afastada. Mais abaixo sucedem-se as minúsculas aldeias de pedra da Vall de Boí e as suas igrejas românicas classificadas pela UNESCO, o que faz disto uma viagem tanto cultural como de esqui."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 12,
+      "red": 14,
+      "black": 6
+    }
+  },
+  {
+    "slug": "vallnord-ordino-arcalis",
+    "name": "Ordino-Arcalís",
+    "country": "Andorra",
+    "countryCode": "AD",
+    "flag": "🇦🇩",
+    "region": "Andorran Pyrenees",
+    "lat": 42.632,
+    "lng": 1.518,
+    "altitudeBase": 1940,
+    "altitudeSummit": 2625,
+    "pistesKm": 30,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Ordino-Arcalís is a day-skier's mountain with no lodging at the lifts; most visitors stay in the pretty village of Ordino or nearby La Massana and drive up.",
+      "fr": "Ordino-Arcalís est une montagne de ski à la journée, sans hébergement au pied des pistes ; la plupart logent dans le joli village d'Ordino ou à La Massana, et montent en voiture.",
+      "es": "Ordino-Arcalís es una montaña de esquí de día, sin alojamiento a pie de pista; la mayoría se aloja en el bonito pueblo de Ordino o en La Massana y sube en coche.",
+      "pt": "Ordino-Arcalís é uma montanha de esqui de dia, sem alojamento no sopé das pistas; a maioria fica na bonita aldeia de Ordino ou em La Massana e sobe de carro."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 14",
+    "snowScore": 84,
+    "vibes": [
+      "freeride",
+      "snow-sure",
+      "scenic"
+    ],
+    "intro": {
+      "en": "The northern, wildest sector of Andorra's Vallnord, Ordino-Arcalís has the best snow and freeride terrain in the country. North-facing and high, it is a powder-hunter's secret.",
+      "fr": "Secteur nord et le plus sauvage du Vallnord andorran, Ordino-Arcalís offre la meilleure neige et le meilleur terrain de freeride du pays. Orienté nord et en altitude, c'est un secret de chasseurs de poudreuse.",
+      "es": "Sector norte y más salvaje del Vallnord andorrano, Ordino-Arcalís ofrece la mejor nieve y el mejor terreno de freeride del país. Orientado al norte y en altura, es un secreto de cazadores de polvo.",
+      "pt": "Setor norte e mais selvagem do Vallnord andorrano, Ordino-Arcalís oferece a melhor neve e o melhor terreno de freeride do país. Virado a norte e em altitude, é um segredo de caçadores de neve pó."
+    },
+    "longDescription": {
+      "en": "Ordino-Arcalís is the northernmost and most natural-feeling ski sector in Andorra, a high, north-facing amphitheatre that catches and keeps the best snow in the principality. Its 30 km of marked piste are only half the story: this is freeride country, with renowned off-piste lines and a backcountry gate that draws experienced skiers from across the Pyrenees. There is no resort at the lift base, so skiers stay in the handsome village of Ordino or down the valley, trading slope-side convenience for snow quality and a wilder mountain feel.",
+      "fr": "Ordino-Arcalís est le secteur de ski le plus au nord et le plus naturel d'Andorre, un haut amphithéâtre orienté nord qui capte et garde la meilleure neige de la principauté. Ses 30 km de pistes balisées ne disent que la moitié de l'histoire : c'est un terrain de freeride, avec des itinéraires hors-piste réputés et une porte d'accès à la haute montagne qui attire les skieurs expérimentés de tout le massif. Il n'y a pas de station au pied des remontées : on loge donc dans le beau village d'Ordino ou plus bas dans la vallée, échangeant le ski aux pieds contre la qualité de la neige et une montagne plus sauvage.",
+      "es": "Ordino-Arcalís es el sector de esquí más al norte y más natural de Andorra, un alto anfiteatro orientado al norte que capta y conserva la mejor nieve del principado. Sus 30 km de pistas balizadas son solo la mitad de la historia: esto es terreno de freeride, con afamadas líneas de fuera de pista y una puerta de acceso a la alta montaña que atrae a esquiadores expertos de todo el macizo. No hay estación a pie de remonte, así que se duerme en el hermoso pueblo de Ordino o más abajo en el valle, cambiando la comodidad del ski-in/ski-out por la calidad de la nieve y un ambiente de montaña más salvaje.",
+      "pt": "Ordino-Arcalís é o setor de esqui mais a norte e mais natural de Andorra, um alto anfiteatro virado a norte que capta e conserva a melhor neve do principado. Os seus 30 km de pistas balizadas são só metade da história: isto é terreno de freeride, com afamadas linhas de fora-de-pista e uma porta de acesso à alta montanha que atrai esquiadores experientes de todo o maciço. Não há estância no sopé dos teleféricos, por isso fica-se na bonita aldeia de Ordino ou mais abaixo no vale, trocando a comodidade do ski-in/ski-out pela qualidade da neve e um ambiente de montanha mais selvagem."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 8,
+      "red": 11,
+      "black": 4
+    }
   }
 ]
