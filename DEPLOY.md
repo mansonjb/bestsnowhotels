@@ -54,7 +54,7 @@ After it finishes, Vercel gives you a URL like `bestsnowhotels-xxx.vercel.app`. 
 
 1. In the Vercel project, go to **Settings → Domains**
 2. Enter `bestsnowhotels.com` → **Add**
-3. Vercel will also offer to add `www.bestsnowhotels.com` — accept it (with the apex redirecting to `www` or vice versa, your call; recommendation = redirect apex → www)
+3. Vercel will also offer to add `www.bestsnowhotels.com`. Accept it (with the apex redirecting to `www` or vice versa, your call; recommendation: redirect apex to www)
 4. Vercel now shows you DNS records to add at your registrar. They look like this:
 
 ### Records to create
@@ -71,7 +71,7 @@ For `www`:
 |---|---|---|---|
 | **CNAME** | `www` | `cname.vercel-dns.com` | Auto / 3600 |
 
-> Vercel's exact instructions can shift over time. Always use the values Vercel shows you in the dashboard — they're the source of truth. The values above are what they show as of 2026.
+> Vercel's exact instructions can shift over time. Always use the values Vercel shows you in the dashboard; they're the source of truth. The values above are what they show as of 2026.
 
 ---
 
@@ -82,7 +82,7 @@ For `www`:
 1. Cloudflare Dashboard → select the domain
 2. Sidebar → **DNS → Records**
 3. Click **+ Add record**
-4. Add the A record from step 4 (Proxy status: **DNS only**, grey cloud — important, Vercel needs direct DNS for SSL)
+4. Add the A record from step 4 (Proxy status: **DNS only**, grey cloud; important, Vercel needs direct DNS for SSL)
 5. Add the CNAME record (same: **DNS only**)
 
 ### If you bought from Namecheap
@@ -102,7 +102,7 @@ Same idea: find the DNS management section, add the A and CNAME records exactly 
 
 - Vercel checks the DNS every minute. When it sees your records, it provisions a Let's Encrypt SSL cert automatically. Usually 5-15 minutes after the records are in.
 - You can check propagation manually: `dig bestsnowhotels.com` should return `76.76.21.21`.
-- Once Vercel marks the domain as **Valid** with the green checkmark, open https://bestsnowhotels.com — it should serve the site under HTTPS.
+- Once Vercel marks the domain as **Valid** with the green checkmark, open https://bestsnowhotels.com and it should serve the site under HTTPS.
 
 ---
 

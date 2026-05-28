@@ -1,4 +1,4 @@
-# BestSnowHotels — Claude Code project guide
+# BestSnowHotels: Claude Code project guide
 
 You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-out hotels across the Alps and Pyrenees.
 
@@ -9,12 +9,12 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 - **next-intl**-style locale routing via Next.js 16 proxy (custom, no `next-intl` package — see `proxy.ts`)
 - **4 languages**: en / fr / es / pt
 - **Stay22 LetMeAllez** for affiliate (lmaID `6a172a3725eb5f0f8532400c`)
-- **No DB** — 41 destinations in `data/destinations.json`
+- **No DB**, 41 destinations in `data/destinations.json`
 
 ## Routing
 - All pages live under `app/[locale]/...`
-- `proxy.ts` (Next.js 16 — replaces the deprecated `middleware.ts` convention) redirects bare `/path` to `/en/path` etc.
-- Available locales: `en`, `fr`, `es`, `pt` — see `app/[locale]/dictionaries.ts`
+- `proxy.ts` (Next.js 16, replaces the deprecated `middleware.ts` convention) redirects bare `/path` to `/en/path` etc.
+- Available locales: `en`, `fr`, `es`, `pt` (see `app/[locale]/dictionaries.ts`)
 
 ## Affiliate
 - Stay22 lmaID is in `lib/site.ts` as `STAY22_ID`
