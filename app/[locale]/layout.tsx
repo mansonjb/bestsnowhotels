@@ -28,10 +28,10 @@ export async function generateMetadata({
     pt: 'BestSnowHotels: hotéis ski-in/ski-out nos Alpes e nos Pirenéus',
   }
   const descriptions: Record<Locale, string> = {
-    en: 'Find ski-in/ski-out hotels across 80 resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real snow data, best prices.',
-    fr: 'Trouvez des hôtels ski-in/ski-out dans 80 stations en France, en Suisse, en Autriche, en Italie, en Espagne et en Andorre. Altitudes réelles, données d\'enneigement, meilleurs prix.',
-    es: 'Encuentra hoteles ski-in/ski-out en 80 estaciones de Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales, datos de nieve, los mejores precios.',
-    pt: 'Encontre hotéis ski-in/ski-out em 80 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha e em Andorra. Altitudes reais, dados de neve, os melhores preços.',
+    en: 'Find ski-in/ski-out hotels across 92 resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real snow data, best prices.',
+    fr: 'Trouvez des hôtels ski-in/ski-out dans 92 stations en France, en Suisse, en Autriche, en Italie, en Espagne et en Andorre. Altitudes réelles, données d\'enneigement, meilleurs prix.',
+    es: 'Encuentra hoteles ski-in/ski-out en 92 estaciones de Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales, datos de nieve, los mejores precios.',
+    pt: 'Encontre hotéis ski-in/ski-out em 92 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha e em Andorra. Altitudes reais, dados de neve, os melhores preços.',
   }
   const l = hasLocale(locale) ? locale : 'en'
 

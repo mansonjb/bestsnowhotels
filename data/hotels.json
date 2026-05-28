@@ -199,20 +199,6 @@
       "hasPhoto": true
     },
     {
-      "id": "val-d-isere-hotel-le-yule",
-      "name": "Hôtel Le Yule",
-      "slug": "hotel-le-yule",
-      "rating": 4.2,
-      "reviewCount": 251,
-      "priceLevel": null,
-      "priceFrom": 165,
-      "address": "Rue du Parc des Sports, 73150 Val-d'Isère, France",
-      "lat": 45.4476486,
-      "lng": 6.9790135,
-      "distanceToSlopesM": 150,
-      "hasPhoto": true
-    },
-    {
       "id": "val-d-isere-airelles-val-d-isere",
       "name": "Airelles Val d'Isère",
       "slug": "airelles-val-d-isere",
@@ -485,20 +471,6 @@
       "hasPhoto": true
     },
     {
-      "id": "chamonix-hotel-de-l-arve-by-happyculture",
-      "name": "Hôtel de L'Arve by HappyCulture",
-      "slug": "hotel-de-l-arve-by-happyculture",
-      "rating": 4.6,
-      "reviewCount": 930,
-      "priceLevel": null,
-      "priceFrom": 125,
-      "address": "60 Imp. des Anémones, 74400 Chamonix-Mont-Blanc, France",
-      "lat": 45.9259231,
-      "lng": 6.870983799999999,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
       "id": "chamonix-hotel-les-aiglons-chamonix",
       "name": "Hôtel Les Aiglons Chamonix",
       "slug": "hotel-les-aiglons-chamonix",
@@ -580,6 +552,20 @@
       "lat": 45.9244973,
       "lng": 6.869040699999999,
       "distanceToSlopesM": 100,
+      "hasPhoto": true
+    },
+    {
+      "id": "chamonix-residence-le-cristal-de-jade-mgm-hotels-residences",
+      "name": "Résidence Le Cristal de Jade - MGM Hôtels & Résidences",
+      "slug": "residence-le-cristal-de-jade-mgm-hotels-residences",
+      "rating": 4.6,
+      "reviewCount": 356,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "174 All. des Aiguilles, 74400 Chamonix-Mont-Blanc, France",
+      "lat": 45.9179311,
+      "lng": 6.871453,
+      "distanceToSlopesM": 650,
       "hasPhoto": true
     }
   ],
@@ -1577,20 +1563,6 @@
       "hasPhoto": true
     },
     {
-      "id": "verbier-hotel-bristol-verbier",
-      "name": "Hôtel Bristol Verbier",
-      "slug": "hotel-bristol-verbier",
-      "rating": 4.7,
-      "reviewCount": 424,
-      "priceLevel": null,
-      "priceFrom": 300,
-      "address": "Rte des Creux 4, 1936 Verbier, Switzerland",
-      "lat": 46.0966911,
-      "lng": 7.2294986,
-      "distanceToSlopesM": 100,
-      "hasPhoto": true
-    },
-    {
       "id": "verbier-le-chalet-d-adrien",
       "name": "Le Chalet d’Adrien",
       "slug": "le-chalet-d-adrien",
@@ -1619,34 +1591,6 @@
       "hasPhoto": true
     },
     {
-      "id": "verbier-le-farinet-verbier-sa",
-      "name": "Le Farinet Verbier SA",
-      "slug": "le-farinet-verbier-sa",
-      "rating": 4.3,
-      "reviewCount": 371,
-      "priceLevel": 3,
-      "priceFrom": 250,
-      "address": "Pl. Centrale 6, 1936 Bagnes, Switzerland",
-      "lat": 46.0960112,
-      "lng": 7.229564099999999,
-      "distanceToSlopesM": 100,
-      "hasPhoto": true
-    },
-    {
-      "id": "verbier-hotel-montpelier",
-      "name": "Hôtel Montpelier",
-      "slug": "hotel-montpelier",
-      "rating": 4.5,
-      "reviewCount": 246,
-      "priceLevel": null,
-      "priceFrom": 270,
-      "address": "Rue du Ctre sportif 37, 1936 Verbier, Switzerland",
-      "lat": 46.0974168,
-      "lng": 7.2195775,
-      "distanceToSlopesM": 700,
-      "hasPhoto": true
-    },
-    {
       "id": "verbier-hotel-de-verbier",
       "name": "Hôtel de Verbier",
       "slug": "hotel-de-verbier",
@@ -1658,62 +1602,6 @@
       "lat": 46.0958523,
       "lng": 7.228828099999999,
       "distanceToSlopesM": 50,
-      "hasPhoto": true
-    },
-    {
-      "id": "verbier-hotel-le-vanessa",
-      "name": "Hôtel Le Vanessa",
-      "slug": "hotel-le-vanessa",
-      "rating": 4.6,
-      "reviewCount": 187,
-      "priceLevel": null,
-      "priceFrom": 280,
-      "address": "Chem. des Vernes 1, 1936 Verbier, Switzerland",
-      "lat": 46.095321999999996,
-      "lng": 7.228727999999999,
-      "distanceToSlopesM": 100,
-      "hasPhoto": true
-    },
-    {
-      "id": "verbier-hotel-ermitage-verbier",
-      "name": "Hôtel Ermitage Verbier",
-      "slug": "hotel-ermitage-verbier",
-      "rating": 4.7,
-      "reviewCount": 133,
-      "priceLevel": null,
-      "priceFrom": 315,
-      "address": "Pl. Centrale 18, 1936 Verbier, Switzerland",
-      "lat": 46.0959851,
-      "lng": 7.228307,
-      "distanceToSlopesM": 50,
-      "hasPhoto": true
-    },
-    {
-      "id": "verbier-hotel-les-chamois",
-      "name": "Hôtel les Chamois",
-      "slug": "hotel-les-chamois",
-      "rating": 4.6,
-      "reviewCount": 140,
-      "priceLevel": null,
-      "priceFrom": 335,
-      "address": "Rue de Médran 9A, 1936 Verbier, Switzerland",
-      "lat": 46.09538260000001,
-      "lng": 7.231338500000001,
-      "distanceToSlopesM": 250,
-      "hasPhoto": true
-    },
-    {
-      "id": "verbier-hotel-mirabeau-verbier",
-      "name": "Hôtel Mirabeau Verbier",
-      "slug": "hotel-mirabeau-verbier",
-      "rating": 4.7,
-      "reviewCount": 82,
-      "priceLevel": null,
-      "priceFrom": 320,
-      "address": "Rue de Ransou 72, 1936 Verbier, Switzerland",
-      "lat": 46.095251999999995,
-      "lng": 7.231990399999999,
-      "distanceToSlopesM": 300,
       "hasPhoto": true
     },
     {
@@ -2203,20 +2091,6 @@
       "hasPhoto": true
     },
     {
-      "id": "st-anton-hotel-zur-pfeffermuhle",
-      "name": "Hotel zur Pfeffermühle",
-      "slug": "hotel-zur-pfeffermuhle",
-      "rating": 4.9,
-      "reviewCount": 288,
-      "priceLevel": null,
-      "priceFrom": 155,
-      "address": "Timmlerweg 6, 6580 St. Anton am Arlberg, Austria",
-      "lat": 47.1402778,
-      "lng": 10.2852778,
-      "distanceToSlopesM": 2000,
-      "hasPhoto": true
-    },
-    {
       "id": "st-anton-sporthotel-st-anton",
       "name": "Sporthotel St. Anton",
       "slug": "sporthotel-st-anton",
@@ -2355,6 +2229,20 @@
       "lng": 10.265230299999999,
       "distanceToSlopesM": 50,
       "hasPhoto": true
+    },
+    {
+      "id": "st-anton-himmlhof",
+      "name": "Himmlhof",
+      "slug": "himmlhof",
+      "rating": 5,
+      "reviewCount": 132,
+      "priceLevel": null,
+      "priceFrom": 150,
+      "address": "Im Gries 9, 6580 St. Anton am Arlberg, Austria",
+      "lat": 47.129596299999996,
+      "lng": 10.267749,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
     }
   ],
   "ischgl": [
@@ -2428,6 +2316,20 @@
       "lat": 46.9610196,
       "lng": 11.008561,
       "distanceToSlopesM": 750,
+      "hasPhoto": true
+    },
+    {
+      "id": "solden-alpengasthof-gruner",
+      "name": "Alpengasthof Grüner",
+      "slug": "alpengasthof-gruner",
+      "rating": 4.6,
+      "reviewCount": 512,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Außerwaldstraße 19, 6450 Sölden, Austria",
+      "lat": 46.964794999999995,
+      "lng": 11.003477,
+      "distanceToSlopesM": 400,
       "hasPhoto": true
     },
     {
@@ -2540,20 +2442,6 @@
       "lat": 46.96611,
       "lng": 11.007582,
       "distanceToSlopesM": 200,
-      "hasPhoto": true
-    },
-    {
-      "id": "solden-hotel-sunny-solden",
-      "name": "Hotel Sunny Sölden",
-      "slug": "hotel-sunny-solden",
-      "rating": 4.6,
-      "reviewCount": 302,
-      "priceLevel": null,
-      "priceFrom": 145,
-      "address": "Rechenaustraße 41, 6450 Sölden, Austria",
-      "lat": 46.9739899,
-      "lng": 11.011977199999999,
-      "distanceToSlopesM": 800,
       "hasPhoto": true
     }
   ],
@@ -5099,20 +4987,6 @@
       "hasPhoto": true
     },
     {
-      "id": "morzine-hideout-hostel",
-      "name": "Hideout Hostel",
-      "slug": "hideout-hostel",
-      "rating": 4.8,
-      "reviewCount": 252,
-      "priceLevel": null,
-      "priceFrom": 160,
-      "address": "60 Rte des Udrezants, 74110 Morzine, France",
-      "lat": 46.1797222,
-      "lng": 6.7097222,
-      "distanceToSlopesM": 50,
-      "hasPhoto": true
-    },
-    {
       "id": "morzine-hotel-le-petit-dru",
       "name": "Hôtel le Petit Dru",
       "slug": "hotel-le-petit-dru",
@@ -5169,45 +5043,31 @@
       "hasPhoto": true
     },
     {
-      "id": "morzine-hotel-le-samoyede",
-      "name": "Hôtel Le Samoyède",
-      "slug": "hotel-le-samoyede",
-      "rating": 4.6,
-      "reviewCount": 190,
+      "id": "morzine-hotel-la-bergerie",
+      "name": "Hôtel La Bergerie",
+      "slug": "hotel-la-bergerie",
+      "rating": 4.8,
+      "reviewCount": 119,
       "priceLevel": null,
       "priceFrom": 130,
-      "address": "9 Pl. de l'Office du Tourisme, 74110 Morzine, France",
-      "lat": 46.181278999999996,
-      "lng": 6.704235199999999,
+      "address": "103 Rte du Téléphérique, 74110 Morzine, France",
+      "lat": 46.180292,
+      "lng": 6.704058,
       "distanceToSlopesM": 450,
       "hasPhoto": true
     },
     {
-      "id": "morzine-l-equipe",
-      "name": "L'Equipe",
-      "slug": "l-equipe",
-      "rating": 4.5,
-      "reviewCount": 194,
+      "id": "morzine-la-ferme-du-lac-vert",
+      "name": "La Ferme du Lac Vert",
+      "slug": "la-ferme-du-lac-vert",
+      "rating": 4.7,
+      "reviewCount": 39,
       "priceLevel": null,
-      "priceFrom": 115,
-      "address": "733 Av. de Joux Plane, 74110 Morzine, France",
-      "lat": 46.18001410000001,
-      "lng": 6.7024935999999995,
-      "distanceToSlopesM": 550,
-      "hasPhoto": true
-    },
-    {
-      "id": "morzine-fleur-des-neiges",
-      "name": "Fleur des Neiges",
-      "slug": "fleur-des-neiges",
-      "rating": 4.8,
-      "reviewCount": 129,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "227 Taille de Mas de Nant Crue, 74110 Morzine, France",
-      "lat": 46.1839361,
-      "lng": 6.6986306,
-      "distanceToSlopesM": 1000,
+      "priceFrom": 135,
+      "address": "159 Vieille Route, 74110 Montriond, France",
+      "lat": 46.1979664,
+      "lng": 6.6952311,
+      "distanceToSlopesM": 2350,
       "hasPhoto": true
     }
   ],
@@ -6921,6 +6781,20 @@
       "hasPhoto": true
     },
     {
+      "id": "vaujany-residence-goelia-le-crystal",
+      "name": "Résidence Goélia Le Crystal",
+      "slug": "residence-goelia-le-crystal",
+      "rating": 4.1,
+      "reviewCount": 217,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "Rte du Rochas, 38114 Vaujany, France",
+      "lat": 45.1596745,
+      "lng": 6.081059,
+      "distanceToSlopesM": 1200,
+      "hasPhoto": true
+    },
+    {
       "id": "vaujany-residence-les-valmonts-de-vaujany",
       "name": "Résidence Les Valmonts de Vaujany",
       "slug": "residence-les-valmonts-de-vaujany",
@@ -7030,20 +6904,6 @@
       "lat": 45.1576909,
       "lng": 6.0766816,
       "distanceToSlopesM": 800,
-      "hasPhoto": true
-    },
-    {
-      "id": "vaujany-madame-vacances-residence-la-cascade",
-      "name": "Madame Vacances - Résidence La Cascade",
-      "slug": "madame-vacances-residence-la-cascade",
-      "rating": 3.9,
-      "reviewCount": 25,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "8 Rte des Combes, 38114 Vaujany, France",
-      "lat": 45.1580064,
-      "lng": 6.0797995,
-      "distanceToSlopesM": 1000,
       "hasPhoto": true
     }
   ],
@@ -7218,6 +7078,20 @@
       "lat": 44.370022999999996,
       "lng": 6.6054989,
       "distanceToSlopesM": 650,
+      "hasPhoto": true
+    },
+    {
+      "id": "pra-loup-le-loup-blanc",
+      "name": "Le Loup Blanc",
+      "slug": "le-loup-blanc",
+      "rating": 4.4,
+      "reviewCount": 437,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Pra Loup 1600, 04400 Uvernet-Fours, France",
+      "lat": 44.368755,
+      "lng": 6.602964999999999,
+      "distanceToSlopesM": 600,
       "hasPhoto": true
     },
     {
@@ -7693,20 +7567,6 @@
       "lng": 1.9354026,
       "distanceToSlopesM": 1850,
       "hasPhoto": true
-    },
-    {
-      "id": "la-molina-apartaments-gran-vall-apartamentos",
-      "name": "Apartaments Gran Vall - Apartamentos",
-      "slug": "apartaments-gran-vall-apartamentos",
-      "rating": 4.6,
-      "reviewCount": 38,
-      "priceLevel": null,
-      "priceFrom": 90,
-      "address": "Avinguda d' Alp, 7, 9, 17537 La Molina, Girona, Spain",
-      "lat": 42.345748,
-      "lng": 1.9554829999999999,
-      "distanceToSlopesM": 1000,
-      "hasPhoto": true
     }
   ],
   "les-sybelles": [
@@ -8137,6 +7997,20 @@
       "hasPhoto": true
     },
     {
+      "id": "les-orres-madame-vacances-residence-le-parc-des-airelles",
+      "name": "Madame Vacances - Résidence Le Parc des Airelles",
+      "slug": "madame-vacances-residence-le-parc-des-airelles",
+      "rating": 3.9,
+      "reviewCount": 745,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "ZAC DU Bois DE Mean, 05200 Les Orres, France",
+      "lat": 44.4842529,
+      "lng": 6.5535511,
+      "distanceToSlopesM": 2500,
+      "hasPhoto": true
+    },
+    {
       "id": "les-orres-sunelia-les-logis-d-orres",
       "name": "Sunêlia les Logis d'Orres",
       "slug": "sunelia-les-logis-d-orres",
@@ -8191,6 +8065,20 @@
       "lng": 6.5554179999999995,
       "distanceToSlopesM": 1200,
       "hasPhoto": true
+    },
+    {
+      "id": "les-orres-residence-les-terrasses-du-soleil-d-or",
+      "name": "Résidence les Terrasses du Soleil d'Or",
+      "slug": "residence-les-terrasses-du-soleil-d-or",
+      "rating": 3.9,
+      "reviewCount": 269,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "5 Imp. des Gentianes, 05200 Les Orres, France",
+      "lat": 44.4831849,
+      "lng": 6.5534162,
+      "distanceToSlopesM": 2600,
+      "hasPhoto": true
     }
   ],
   "auron": [
@@ -8234,48 +8122,6 @@
       "lat": 44.224686899999995,
       "lng": 6.9313619,
       "distanceToSlopesM": 750,
-      "hasPhoto": true
-    },
-    {
-      "id": "auron-hotel-edelweiss-auron",
-      "name": "Hôtel Edelweiss Auron",
-      "slug": "hotel-edelweiss-auron",
-      "rating": 3.7,
-      "reviewCount": 228,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "06660 Saint Etienne de Tinée, Auron, France",
-      "lat": 44.225141199999996,
-      "lng": 6.9309503999999995,
-      "distanceToSlopesM": 700,
-      "hasPhoto": true
-    },
-    {
-      "id": "auron-hotel-las-donnas",
-      "name": "Hôtel Las Donnas",
-      "slug": "hotel-las-donnas",
-      "rating": 4.1,
-      "reviewCount": 83,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "3 Rue Sainte-Marie Madeleine, 06660 Saint-Étienne-de-Tinée, France",
-      "lat": 44.225581399999996,
-      "lng": 6.9315997,
-      "distanceToSlopesM": 750,
-      "hasPhoto": true
-    },
-    {
-      "id": "auron-le-chastellares",
-      "name": "LE CHASTELLARES",
-      "slug": "le-chastellares",
-      "rating": 3.4,
-      "reviewCount": 154,
-      "priceLevel": null,
-      "priceFrom": 120,
-      "address": "Place Centrale, 06660 Saint-Étienne-de-Tinée, France",
-      "lat": 44.2245669,
-      "lng": 6.9321236,
-      "distanceToSlopesM": 800,
       "hasPhoto": true
     }
   ],
@@ -8656,5 +8502,446 @@
       "distanceToSlopesM": 2300,
       "hasPhoto": true
     }
-  ]
+  ],
+  "bonneval-sur-arc": [
+    {
+      "id": "bonneval-sur-arc-hotel-du-glacier-des-evettes",
+      "name": "Hôtel du Glacier des Evettes",
+      "slug": "hotel-du-glacier-des-evettes",
+      "rating": 4.5,
+      "reviewCount": 562,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "Vieux Village, 73480 Bonneval-sur-Arc, France",
+      "lat": 45.372531599999995,
+      "lng": 7.048965,
+      "distanceToSlopesM": 100,
+      "hasPhoto": true
+    }
+  ],
+  "superdevoluy": [
+    {
+      "id": "superdevoluy-hotel-restaurant-spa-la-neyrette",
+      "name": "Hôtel Restaurant Spa La Neyrette",
+      "slug": "hotel-restaurant-spa-la-neyrette",
+      "rating": 4.7,
+      "reviewCount": 512,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "La Neyrette, 23 Rte des Gillardes, 05250 Dévoluy, France",
+      "lat": 44.73001860000001,
+      "lng": 5.8980188,
+      "distanceToSlopesM": 5300,
+      "hasPhoto": true
+    },
+    {
+      "id": "superdevoluy-hotel-la-souloise",
+      "name": "Hôtel La Souloise",
+      "slug": "hotel-la-souloise",
+      "rating": 4.6,
+      "reviewCount": 200,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "2 Imp. du Saut du Loup, 05250 Dévoluy, France",
+      "lat": 44.6931341,
+      "lng": 5.9408218999999995,
+      "distanceToSlopesM": 1900,
+      "hasPhoto": true
+    },
+    {
+      "id": "superdevoluy-hotel-club-chalets-margot",
+      "name": "Hôtel Club Chalets Margot",
+      "slug": "hotel-club-chalets-margot",
+      "rating": 3.9,
+      "reviewCount": 449,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Super Dévoluy, 05250 Dévoluy, France",
+      "lat": 44.674278,
+      "lng": 5.9329034,
+      "distanceToSlopesM": 1550,
+      "hasPhoto": true
+    },
+    {
+      "id": "superdevoluy-hotel-ecrin-des-neiges",
+      "name": "Hôtel Ecrin des neiges",
+      "slug": "hotel-ecrin-des-neiges",
+      "rating": 4.3,
+      "reviewCount": 195,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Imp. de Beaume Baïsse, 05250 Dévoluy, France",
+      "lat": 44.6882263,
+      "lng": 5.8959991,
+      "distanceToSlopesM": 1950,
+      "hasPhoto": true
+    },
+    {
+      "id": "superdevoluy-residence-odalys-l-oree-des-pistes",
+      "name": "Résidence Odalys L'Orée des Pistes",
+      "slug": "residence-odalys-l-oree-des-pistes",
+      "rating": 3.6,
+      "reviewCount": 441,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Super Dévoluy, 05250 Saint-Étienne-en-Dévoluy, France",
+      "lat": 44.6731084,
+      "lng": 5.9318196,
+      "distanceToSlopesM": 1600,
+      "hasPhoto": true
+    }
+  ],
+  "valberg": [
+    {
+      "id": "valberg-adonis-appart-hotel-valberg",
+      "name": "Adonis Appart'hôtel Valberg",
+      "slug": "adonis-appart-hotel-valberg",
+      "rating": 4.2,
+      "reviewCount": 418,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "6 Rte de Guillaumes, 06470 Guillaumes, France",
+      "lat": 44.0953445,
+      "lng": 6.9281787,
+      "distanceToSlopesM": 150,
+      "hasPhoto": true
+    }
+  ],
+  "chamrousse": [
+    {
+      "id": "chamrousse-residence-la-berangere",
+      "name": "Résidence La Berangere",
+      "slug": "residence-la-berangere",
+      "rating": 4,
+      "reviewCount": 491,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "733 Rte de la Croisette, 38410 Chamrousse, France",
+      "lat": 45.113664,
+      "lng": 5.878659,
+      "distanceToSlopesM": 1050,
+      "hasPhoto": true
+    },
+    {
+      "id": "chamrousse-auberge-du-virage",
+      "name": "Auberge du Virage",
+      "slug": "auberge-du-virage",
+      "rating": 4.5,
+      "reviewCount": 239,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "10 Rue de la Cembraie, 38410 Chamrousse, France",
+      "lat": 45.1257654,
+      "lng": 5.8756204,
+      "distanceToSlopesM": 350,
+      "hasPhoto": true
+    },
+    {
+      "id": "chamrousse-l-ecrin-des-neiges",
+      "name": "L'Ecrin des Neiges",
+      "slug": "l-ecrin-des-neiges",
+      "rating": 3.6,
+      "reviewCount": 937,
+      "priceLevel": null,
+      "priceFrom": 95,
+      "address": "500 Rue des Chardons Bleus, 38410 Chamrousse, France",
+      "lat": 45.104684899999995,
+      "lng": 5.875188500000001,
+      "distanceToSlopesM": 2050,
+      "hasPhoto": true
+    },
+    {
+      "id": "chamrousse-les-balcons-du-recoin",
+      "name": "Les Balcons du Recoin",
+      "slug": "les-balcons-du-recoin",
+      "rating": 4.5,
+      "reviewCount": 115,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "49 Rue des Gentianes, 38410 Chamrousse, France",
+      "lat": 45.1250449,
+      "lng": 5.8780135,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
+    },
+    {
+      "id": "chamrousse-etape-du-fanfoue",
+      "name": "Etape du fanfoué",
+      "slug": "etape-du-fanfoue",
+      "rating": 4.6,
+      "reviewCount": 48,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "469 Rue des Gentianes, 38410 Chamrousse, France",
+      "lat": 45.125713399999995,
+      "lng": 5.8739449,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
+      "id": "chamrousse-auberge-de-jeunesse-hi-chamrousse",
+      "name": "Auberge de jeunesse HI Chamrousse",
+      "slug": "auberge-de-jeunesse-hi-chamrousse",
+      "rating": 4.2,
+      "reviewCount": 74,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "20 Rue des Alisiers, 38410 Chamrousse, France",
+      "lat": 45.1247942,
+      "lng": 5.87632,
+      "distanceToSlopesM": 200,
+      "hasPhoto": true
+    }
+  ],
+  "combloux": [
+    {
+      "id": "combloux-coin-savoyard",
+      "name": "Coin Savoyard",
+      "slug": "coin-savoyard",
+      "rating": 4.6,
+      "reviewCount": 942,
+      "priceLevel": 2,
+      "priceFrom": 145,
+      "address": "300 Rte de la Cry Cuchet, 74920 Combloux, France",
+      "lat": 45.8956498,
+      "lng": 6.6411093,
+      "distanceToSlopesM": 150,
+      "hasPhoto": true
+    },
+    {
+      "id": "combloux-aux-ducs-de-savoie",
+      "name": "Aux Ducs de Savoie",
+      "slug": "aux-ducs-de-savoie",
+      "rating": 4.7,
+      "reviewCount": 358,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "253 Rte du Bouchet, 74920 Combloux, France",
+      "lat": 45.8963623,
+      "lng": 6.6357469,
+      "distanceToSlopesM": 350,
+      "hasPhoto": true
+    },
+    {
+      "id": "combloux-chalet-hotel-alpen-valley",
+      "name": "Chalet Hôtel Alpen Valley",
+      "slug": "chalet-hotel-alpen-valley",
+      "rating": 4.6,
+      "reviewCount": 249,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "2843 Rte de la Cry Cuchet, 74920 Combloux, France",
+      "lat": 45.8919163,
+      "lng": 6.6257965,
+      "distanceToSlopesM": 1250,
+      "hasPhoto": true
+    },
+    {
+      "id": "combloux-hotel-caprice-des-neiges-combloux",
+      "name": "Hôtel Caprice des Neiges Combloux",
+      "slug": "hotel-caprice-des-neiges-combloux",
+      "rating": 4.6,
+      "reviewCount": 231,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "57 Rte de l'Épine, 74920 Combloux, France",
+      "lat": 45.888538999999994,
+      "lng": 6.650198,
+      "distanceToSlopesM": 1250,
+      "hasPhoto": true
+    },
+    {
+      "id": "combloux-goelia-les-chalets-des-pistes",
+      "name": "Goélia Les Chalets des Pistes",
+      "slug": "goelia-les-chalets-des-pistes",
+      "rating": 4.2,
+      "reviewCount": 295,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "520 Rte des Brons, 74920 Combloux, France",
+      "lat": 45.8944085,
+      "lng": 6.625336700000001,
+      "distanceToSlopesM": 1150,
+      "hasPhoto": true
+    },
+    {
+      "id": "combloux-les-roches-du-mont-blanc-residence-spa-4-etoiles",
+      "name": "Les Roches du Mont Blanc - Résidence & Spa 4 étoiles",
+      "slug": "les-roches-du-mont-blanc-residence-spa-4-etoiles",
+      "rating": 4.6,
+      "reviewCount": 119,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "2325 Rte de la Cry Cuchet, 74920 Combloux, France",
+      "lat": 45.891712999999996,
+      "lng": 6.627447999999999,
+      "distanceToSlopesM": 1150,
+      "hasPhoto": true
+    }
+  ],
+  "valfrejus": [
+    {
+      "id": "valfrejus-hotel-club-du-soleil-valfrejus",
+      "name": "Hôtel Club du Soleil Valfréjus",
+      "slug": "hotel-club-du-soleil-valfrejus",
+      "rating": 4.2,
+      "reviewCount": 1119,
+      "priceLevel": null,
+      "priceFrom": 95,
+      "address": "820 Rue du Cheval-Blanc, 73500 Modane, France",
+      "lat": 45.1718711,
+      "lng": 6.653404699999999,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
+    {
+      "id": "valfrejus-hotel-valfrejus-vacances",
+      "name": "Hôtel Valfréjus Vacances",
+      "slug": "hotel-valfrejus-vacances",
+      "rating": 4.3,
+      "reviewCount": 248,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "120 Pl. des Bergers, 73500 Modane, France",
+      "lat": 45.1731439,
+      "lng": 6.6525731,
+      "distanceToSlopesM": 200,
+      "hasPhoto": true
+    },
+    {
+      "id": "valfrejus-bodygo-hostel",
+      "name": "BodyGo Hostel",
+      "slug": "bodygo-hostel",
+      "rating": 4.5,
+      "reviewCount": 97,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "120 Rue des Bettets, 73500 Modane, France",
+      "lat": 45.1758739,
+      "lng": 6.6555178,
+      "distanceToSlopesM": 550,
+      "hasPhoto": true
+    }
+  ],
+  "la-pierre-saint-martin": [],
+  "guzet": [],
+  "porte-puymorens": [
+    {
+      "id": "porte-puymorens-le-campcardos",
+      "name": "Le Campcardos",
+      "slug": "le-campcardos",
+      "rating": 4.4,
+      "reviewCount": 330,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "16 N20, 66760, N20, 66760 Porta, France",
+      "lat": 42.5264782,
+      "lng": 1.8234744999999999,
+      "distanceToSlopesM": 1900,
+      "hasPhoto": true
+    }
+  ],
+  "masella": [
+    {
+      "id": "masella-alp-hotel-masella",
+      "name": "Alp Hotel Masella",
+      "slug": "alp-hotel-masella",
+      "rating": 4,
+      "reviewCount": 1285,
+      "priceLevel": null,
+      "priceFrom": 90,
+      "address": "Avinguda de Josep Maria Bosch Aymerich, s/n, 17538 Alp, Girona, Spain",
+      "lat": 42.35169500000001,
+      "lng": 1.90289,
+      "distanceToSlopesM": 3350,
+      "hasPhoto": true
+    }
+  ],
+  "panticosa": [
+    {
+      "id": "panticosa-panticosa-lodge",
+      "name": "Panticosa Lodge",
+      "slug": "panticosa-lodge",
+      "rating": 4.5,
+      "reviewCount": 787,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "Cam. del Pueyo, s/n, 22661 Panticosa, Huesca, Spain",
+      "lat": 42.7221405,
+      "lng": -0.2936681,
+      "distanceToSlopesM": 5650,
+      "hasPhoto": true
+    },
+    {
+      "id": "panticosa-hotel-sabocos",
+      "name": "Hotel Sabocos",
+      "slug": "hotel-sabocos",
+      "rating": 4.6,
+      "reviewCount": 461,
+      "priceLevel": null,
+      "priceFrom": 90,
+      "address": "C. Fondón, 1, 22661 Panticosa, Huesca, Spain",
+      "lat": 42.722493199999995,
+      "lng": -0.2816171,
+      "distanceToSlopesM": 5350,
+      "hasPhoto": true
+    },
+    {
+      "id": "panticosa-hotel-casa-morlans",
+      "name": "Hotel Casa Morlans",
+      "slug": "hotel-casa-morlans",
+      "rating": 4.1,
+      "reviewCount": 713,
+      "priceLevel": null,
+      "priceFrom": 85,
+      "address": "C. San Miguel, 4, 22661 Panticosa, Huesca, Spain",
+      "lat": 42.7234105,
+      "lng": -0.2849675,
+      "distanceToSlopesM": 5300,
+      "hasPhoto": true
+    },
+    {
+      "id": "panticosa-gran-hotel-balneario-de-panticosa",
+      "name": "Gran Hotel - Balneario de Panticosa",
+      "slug": "gran-hotel-balneario-de-panticosa",
+      "rating": 4.1,
+      "reviewCount": 361,
+      "priceLevel": null,
+      "priceFrom": 80,
+      "address": "C. Balneario, 22650 Balneario de Panticosa, Huesca, Spain",
+      "lat": 42.759848399999996,
+      "lng": -0.2339624,
+      "distanceToSlopesM": 3150,
+      "hasPhoto": true
+    },
+    {
+      "id": "panticosa-hotel-escalar",
+      "name": "Hotel Escalar",
+      "slug": "hotel-escalar",
+      "rating": 4,
+      "reviewCount": 372,
+      "priceLevel": null,
+      "priceFrom": 80,
+      "address": "C. la Cruz, 2, bajo, 22661 Panticosa, Huesca, Spain",
+      "lat": 42.7238889,
+      "lng": -0.2861111,
+      "distanceToSlopesM": 5300,
+      "hasPhoto": true
+    },
+    {
+      "id": "panticosa-hotel-continental",
+      "name": "Hotel Continental",
+      "slug": "hotel-continental",
+      "rating": 3.1,
+      "reviewCount": 1093,
+      "priceLevel": null,
+      "priceFrom": 70,
+      "address": "Carretera Balneario, Km 10, 22661 Panticosa, Huesca, Spain",
+      "lat": 42.7612978,
+      "lng": -0.2338082,
+      "distanceToSlopesM": 3100,
+      "hasPhoto": true
+    }
+  ],
+  "port-aine": []
 }

@@ -88,6 +88,18 @@ const RESORT_SITES: Record<string, string> = {
   astun: 'https://www.astun.com',
   'boi-taull': 'https://www.boitaull.com',
   'vallnord-ordino-arcalis': 'https://www.ordinoarcalis.com',
+  'bonneval-sur-arc': 'https://www.bonneval-sur-arc.com',
+  superdevoluy: 'https://www.ledevoluy.com',
+  valberg: 'https://www.valberg.com',
+  chamrousse: 'https://www.chamrousse.com',
+  combloux: 'https://www.combloux.com',
+  valfrejus: 'https://www.valfrejus.com',
+  'la-pierre-saint-martin': 'https://www.lapierrestmartin.com',
+  guzet: 'https://www.guzet.com',
+  'porte-puymorens': 'https://www.porte-puymorens.fr',
+  masella: 'https://www.masella.com',
+  panticosa: 'https://www.formigal-panticosa.com',
+  'port-aine': 'https://www.port-aine.com',
 }
 
 export function resortSite(slug: string): string | null {

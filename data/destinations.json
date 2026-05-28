@@ -3678,5 +3678,557 @@
       "red": 11,
       "black": 4
     }
+  },
+  {
+    "slug": "bonneval-sur-arc",
+    "name": "Bonneval-sur-Arc",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.372,
+    "lng": 7.048,
+    "altitudeBase": 1800,
+    "altitudeSummit": 2860,
+    "pistesKm": 25,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Bonneval is a protected old village, so there are no slope-side towers; charming stone gîtes and small hotels cluster a short walk from the single lift base.",
+      "fr": "Bonneval est un vieux village protégé : pas de tours au pied des pistes, mais des gîtes de pierre pleins de charme et de petits hôtels à quelques pas du télésiège de départ.",
+      "es": "Bonneval es un viejo pueblo protegido: no hay torres a pie de pista, sino encantadores alojamientos de piedra y pequeños hoteles a pocos pasos de la base del remonte.",
+      "pt": "Bonneval é uma velha aldeia protegida: não há torres no sopé das pistas, mas casas de pedra cheias de charme e pequenos hotéis a poucos passos da base do teleférico."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "May 1",
+    "snowScore": 84,
+    "vibes": [
+      "authentic",
+      "scenic",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "One of the most beautiful villages in France, Bonneval-sur-Arc sits at the very top of the Maurienne at 1800 m, all dark stone and slate. Tiny but high and snowy, it is for lovers of authenticity and wild scenery.",
+      "fr": "Classé parmi les plus beaux villages de France, Bonneval-sur-Arc se tient tout en haut de la Maurienne à 1800 m, tout en pierre sombre et en lauzes. Minuscule mais haute et enneigée, elle est faite pour les amoureux d'authenticité et de paysages sauvages.",
+      "es": "Considerado uno de los pueblos más bonitos de Francia, Bonneval-sur-Arc se encuentra en lo más alto de la Maurienne a 1800 m, todo de piedra oscura y pizarra. Diminuto pero alto y nevado, es para los amantes de la autenticidad y los paisajes salvajes.",
+      "pt": "Considerada uma das aldeias mais bonitas de França, Bonneval-sur-Arc fica no topo da Maurienne a 1800 m, toda em pedra escura e lousa. Minúscula mas alta e nevada, é para os amantes da autenticidade e das paisagens selvagens."
+    },
+    "longDescription": {
+      "en": "Bonneval-sur-Arc is the last village in the Haute-Maurienne, a perfectly preserved huddle of dark-stone houses with no modern building allowed, at the foot of the Col de l'Iseran. Its ski area is small, around 25 km of piste, but it climbs high and north, so the snow is among the most reliable in the Alps and the off-piste is superb. This is a place for skiers who value silence, glaciated horizons and a genuine mountain village over lift-linked mileage.",
+      "fr": "Bonneval-sur-Arc est le dernier village de la Haute-Maurienne, un groupe parfaitement préservé de maisons de pierre sombre où aucune construction moderne n'est autorisée, au pied du col de l'Iseran. Son domaine est petit, environ 25 km de pistes, mais il monte haut et au nord : la neige y est parmi les plus fiables des Alpes et le hors-piste superbe. Une adresse pour les skieurs qui préfèrent le silence, les horizons glaciaires et un vrai village de montagne aux kilomètres de pistes reliées.",
+      "es": "Bonneval-sur-Arc es el último pueblo de la Haute-Maurienne, un conjunto perfectamente conservado de casas de piedra oscura donde no se permite ninguna construcción moderna, al pie del Col de l'Iseran. Su dominio es pequeño, unos 25 km de pistas, pero sube alto y al norte: la nieve está entre las más fiables de los Alpes y el fuera de pista es magnífico. Un sitio para esquiadores que prefieren el silencio, los horizontes glaciares y un pueblo de montaña de verdad a los kilómetros de pistas enlazadas.",
+      "pt": "Bonneval-sur-Arc é a última aldeia da Haute-Maurienne, um conjunto perfeitamente preservado de casas de pedra escura onde não é permitida qualquer construção moderna, ao pé do Col de l'Iseran. O seu domínio é pequeno, cerca de 25 km de pistas, mas sobe alto e a norte: a neve está entre as mais fiáveis dos Alpes e o fora-de-pista é magnífico. Um lugar para quem prefere o silêncio, os horizontes glaciares e uma verdadeira aldeia de montanha aos quilómetros de pistas ligadas."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 8,
+      "red": 10,
+      "black": 4
+    }
+  },
+  {
+    "slug": "superdevoluy",
+    "name": "SuperDévoluy",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.685,
+    "lng": 5.92,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2500,
+    "pistesKm": 100,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "SuperDévoluy is a purpose-built, slope-side resort: its apartment blocks stand right on the snow-front, so most lodging is ski-in/ski-out.",
+      "fr": "SuperDévoluy est une station construite au pied des pistes : ses immeubles se dressent sur le front de neige, donc la plupart des hébergements sont ski-in/ski-out.",
+      "es": "SuperDévoluy es una estación construida a pie de pista: sus bloques se alzan sobre el frente de nieve, así que la mayoría del alojamiento es ski-in/ski-out.",
+      "pt": "SuperDévoluy é uma estância construída no sopé das pistas: os seus blocos erguem-se na frente de neve, por isso a maioria do alojamento é ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "sunny",
+      "value"
+    ],
+    "intro": {
+      "en": "Set in the strange limestone amphitheatre of the Dévoluy, SuperDévoluy and La Joue du Loup share a sunny 100 km family domain in the southern Alps. Great value and dramatic rock scenery define it.",
+      "fr": "Posée dans l'étrange amphithéâtre calcaire du Dévoluy, SuperDévoluy et La Joue du Loup partagent un domaine familial ensoleillé de 100 km dans les Alpes du Sud. Bon rapport qualité-prix et décor de roche spectaculaire en font le caractère.",
+      "es": "Situada en el extraño anfiteatro calcáreo del Dévoluy, SuperDévoluy y La Joue du Loup comparten un dominio familiar soleado de 100 km en los Alpes del Sur. Buena relación calidad-precio y un espectacular paisaje de roca marcan su carácter.",
+      "pt": "Situada no estranho anfiteatro calcário do Dévoluy, SuperDévoluy e La Joue du Loup partilham um domínio familiar solarengo de 100 km nos Alpes do Sul. Boa relação qualidade-preço e um espetacular cenário de rocha definem-na."
+    },
+    "longDescription": {
+      "en": "The Dévoluy is a wild, almost lunar limestone massif between Gap and Grenoble, and SuperDévoluy is its main resort, a compact, slope-side base linked with La Joue du Loup for 100 km of sunny, family-friendly piste. The skiing tops out around 2500 m beneath the great wall of the Obiou, with broad blues and reds and a snowpark, and prices that stay friendly for southern France. It is unpretentious and convenient, built so children can ski back to the door.",
+      "fr": "Le Dévoluy est un massif calcaire sauvage, presque lunaire, entre Gap et Grenoble, et SuperDévoluy en est la station principale : une base compacte au pied des pistes, reliée à La Joue du Loup pour 100 km de pistes ensoleillées et familiales. Le ski culmine vers 2500 m sous la grande muraille de l'Obiou, entre larges bleues et rouges et un snowpark, à des tarifs qui restent doux pour le sud de la France. Sans prétention et pratique, elle est conçue pour que les enfants rentrent skis aux pieds.",
+      "es": "El Dévoluy es un macizo calcáreo salvaje, casi lunar, entre Gap y Grenoble, y SuperDévoluy es su estación principal: una base compacta a pie de pista, enlazada con La Joue du Loup para 100 km de pistas soleadas y familiares. El esquí culmina hacia los 2500 m bajo la gran muralla del Obiou, entre amplias azules y rojas y un snowpark, con precios que siguen siendo amables para el sur de Francia. Sin pretensiones y práctica, está pensada para que los niños vuelvan esquiando hasta la puerta.",
+      "pt": "O Dévoluy é um maciço calcário selvagem, quase lunar, entre Gap e Grenoble, e SuperDévoluy é a sua estância principal: uma base compacta no sopé das pistas, ligada a La Joue du Loup para 100 km de pistas solarengas e familiares. O esqui culmina por volta dos 2500 m sob a grande muralha do Obiou, entre amplas azuis e vermelhas e um snowpark, com preços que se mantêm amáveis para o sul da França. Sem pretensões e prática, foi pensada para que as crianças regressem a esquiar até à porta."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 18,
+      "red": 18,
+      "black": 6
+    }
+  },
+  {
+    "slug": "valberg",
+    "name": "Valberg",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.095,
+    "lng": 6.93,
+    "altitudeBase": 1650,
+    "altitudeSummit": 2100,
+    "pistesKm": 90,
+    "lifts": 25,
+    "skiInSkiOutNote": {
+      "en": "Valberg is a village resort with the lifts rising from the centre, so most hotels and chalets are a short walk or ski from the snow-front.",
+      "fr": "Valberg est une station-village dont les remontées partent du centre : la plupart des hôtels et chalets sont à quelques pas ou à skis du front de neige.",
+      "es": "Valberg es una estación-pueblo cuyos remontes salen del centro, así que la mayoría de hoteles y chalets quedan a pocos pasos o esquiando del frente de nieve.",
+      "pt": "Valberg é uma estância-aldeia cujos teleféricos partem do centro, por isso a maioria dos hotéis e chalés fica a poucos passos ou a esqui da frente de neve."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "sunny",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A sunny, forested resort in the Mercantour, Valberg is one of the southern Alps' oldest, an easy drive from Nice. Mild light, pine-lined runs and a relaxed family feel set the tone.",
+      "fr": "Station ensoleillée et boisée du Mercantour, Valberg est l'une des plus anciennes des Alpes du Sud, à courte distance de Nice. Lumière douce, pistes bordées de pins et ambiance familiale détendue donnent le ton.",
+      "es": "Estación soleada y arbolada del Mercantour, Valberg es una de las más antiguas de los Alpes del Sur, a poca distancia en coche de Niza. Luz suave, pistas entre pinos y un ambiente familiar relajado marcan el tono.",
+      "pt": "Estância solarenga e arborizada do Mercantour, Valberg é uma das mais antigas dos Alpes do Sul, a curta distância de carro de Nice. Luz suave, pistas ladeadas de pinheiros e um ambiente familiar descontraído dão o tom."
+    },
+    "longDescription": {
+      "en": "Valberg has been welcoming skiers since the 1930s, a small, sunny resort set among larch and pine forest in the Mercantour at 1650 m, less than two hours from the Riviera. Its 90 km of piste are mostly gentle and tree-lined, perfect for families and intermediates, with the open slopes of the Croix de Valberg adding a touch more for stronger skiers. The village has real character and a year-round community, and the southern sun makes for some of the most pleasant ski days in the Alps.",
+      "fr": "Valberg accueille les skieurs depuis les années 1930 : petite station ensoleillée nichée dans la forêt de mélèzes et de pins du Mercantour à 1650 m, à moins de deux heures de la Côte d'Azur. Ses 90 km de pistes sont surtout douces et boisées, parfaites pour les familles et les intermédiaires, les pentes dégagées de la Croix de Valberg en offrant un peu plus aux bons skieurs. Le village a du caractère et une vie à l'année, et le soleil du Sud y donne quelques-unes des plus agréables journées de ski des Alpes.",
+      "es": "Valberg recibe esquiadores desde los años 1930: una pequeña estación soleada metida entre alerces y pinos del Mercantour a 1650 m, a menos de dos horas de la Costa Azul. Sus 90 km de pistas son sobre todo suaves y arboladas, perfectas para familias e intermedios, mientras que las laderas abiertas de la Croix de Valberg ofrecen algo más a los esquiadores fuertes. El pueblo tiene carácter y vida todo el año, y el sol del sur regala algunos de los días de esquí más agradables de los Alpes.",
+      "pt": "Valberg recebe esquiadores desde os anos 1930: uma pequena estância solarenga metida entre lariços e pinheiros do Mercantour a 1650 m, a menos de duas horas da Riviera francesa. Os seus 90 km de pistas são sobretudo suaves e arborizadas, perfeitas para famílias e intermédios, enquanto as encostas abertas da Croix de Valberg oferecem algo mais aos esquiadores fortes. A aldeia tem carácter e vida todo o ano, e o sol do sul proporciona alguns dos dias de esqui mais agradáveis dos Alpes."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 16,
+      "red": 14,
+      "black": 5
+    }
+  },
+  {
+    "slug": "chamrousse",
+    "name": "Chamrousse",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.123,
+    "lng": 5.877,
+    "altitudeBase": 1700,
+    "altitudeSummit": 2250,
+    "pistesKm": 90,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "Chamrousse spreads over two main levels, Recoin and Roche-Béranger, both with apartments and hotels on the snow-front for easy ski-in/ski-out.",
+      "fr": "Chamrousse s'étage sur deux niveaux principaux, le Recoin et Roche-Béranger, tous deux avec appartements et hôtels sur le front de neige pour un ski-in/ski-out facile.",
+      "es": "Chamrousse se reparte en dos niveles principales, Recoin y Roche-Béranger, ambos con apartamentos y hoteles en el frente de nieve para un ski-in/ski-out fácil.",
+      "pt": "Chamrousse distribui-se por dois níveis principais, Recoin e Roche-Béranger, ambos com apartamentos e hotéis na frente de neve para um ski-in/ski-out fácil."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "value",
+      "scenic"
+    ],
+    "intro": {
+      "en": "The closest real ski resort to Grenoble, Chamrousse hosted the 1968 Olympic downhill and looks out over the city and the Vercors. Easy access and big views make it a local favourite.",
+      "fr": "Station de ski véritable la plus proche de Grenoble, Chamrousse a accueilli la descente olympique de 1968 et domine la ville et le Vercors. Accès facile et vastes panoramas en font un favori des locaux.",
+      "es": "La estación de esquí de verdad más cercana a Grenoble, Chamrousse acogió el descenso olímpico de 1968 y domina la ciudad y el Vercors. Su acceso fácil y sus amplias vistas la hacen una favorita de los locales.",
+      "pt": "A estância de esqui a sério mais perto de Grenoble, Chamrousse acolheu a descida olímpica de 1968 e domina a cidade e o Vercors. O acesso fácil e as amplas vistas fazem dela uma favorita dos habitantes locais."
+    },
+    "longDescription": {
+      "en": "Perched on the Belledonne range directly above Grenoble, Chamrousse is the city's home mountain and the site of the 1968 Olympic downhill, reachable in well under an hour from the valley. Its 90 km of piste rise to the 2250 m Croix de Chamrousse, where the panorama sweeps from the Vercors to Mont Blanc, with friendly forested runs lower down and steeper, more open terrain up top. It is excellent value and especially good for families and beginners, with a lively student crowd at weekends.",
+      "fr": "Perchée sur le massif de Belledonne juste au-dessus de Grenoble, Chamrousse est la montagne de la ville et le théâtre de la descente olympique de 1968, accessible en bien moins d'une heure depuis la vallée. Ses 90 km de pistes montent à la Croix de Chamrousse à 2250 m, d'où le panorama balaie du Vercors au Mont Blanc, avec des pistes boisées accueillantes en bas et un terrain plus raide et dégagé en haut. D'un excellent rapport qualité-prix, elle est idéale pour les familles et les débutants, avec une foule étudiante animée le week-end.",
+      "es": "Encaramada en el macizo de Belledonne justo encima de Grenoble, Chamrousse es la montaña de la ciudad y el escenario del descenso olímpico de 1968, accesible en bastante menos de una hora desde el valle. Sus 90 km de pistas suben a la Croix de Chamrousse, a 2250 m, desde donde el panorama barre del Vercors al Mont Blanc, con pistas boscosas amables abajo y un terreno más empinado y abierto arriba. De excelente relación calidad-precio, es ideal para familias y principiantes, con un animado público estudiantil los fines de semana.",
+      "pt": "Empoleirada no maciço de Belledonne mesmo acima de Grenoble, Chamrousse é a montanha da cidade e o palco da descida olímpica de 1968, acessível em bem menos de uma hora a partir do vale. Os seus 90 km de pistas sobem à Croix de Chamrousse, a 2250 m, de onde o panorama varre do Vercors ao Mont Blanc, com pistas arborizadas acolhedoras em baixo e um terreno mais íngreme e aberto lá em cima. De excelente relação qualidade-preço, é ideal para famílias e principiantes, com um animado público estudantil aos fins de semana."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 18,
+      "red": 16,
+      "black": 6
+    }
+  },
+  {
+    "slug": "combloux",
+    "name": "Combloux",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.897,
+    "lng": 6.64,
+    "altitudeBase": 1000,
+    "altitudeSummit": 2350,
+    "pistesKm": 400,
+    "lifts": 100,
+    "skiInSkiOutNote": {
+      "en": "A pretty village on a sunny balcony, Combloux has the gondola from the edge of the centre; some chalets and residences near the Le Jaillet lift are ski-in/ski-out.",
+      "fr": "Joli village sur un balcon ensoleillé, Combloux a sa télécabine en bordure du centre ; certains chalets et résidences près de la remontée du Jaillet sont ski-in/ski-out.",
+      "es": "Bonito pueblo en un balcón soleado, Combloux tiene la telecabina al borde del centro; algunos chalets y residencias cerca del remonte de Le Jaillet son ski-in/ski-out.",
+      "pt": "Bonita aldeia num terraço solarengo, Combloux tem o telecabine à beira do centro; alguns chalés e residências perto do teleférico de Le Jaillet são ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 79,
+    "vibes": [
+      "family",
+      "scenic",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Known as the pearl of Mont Blanc, Combloux is a postcard village facing the great massif and plugged into the 400 km Évasion Mont-Blanc domain. Sunny, scenic and gentle, it is a family gem.",
+      "fr": "Surnommée la perle du Mont-Blanc, Combloux est un village de carte postale face au grand massif, raccordé au domaine Évasion Mont-Blanc et ses 400 km. Ensoleillée, photogénique et douce, c'est un bijou pour les familles.",
+      "es": "Conocida como la perla del Mont Blanc, Combloux es un pueblo de postal frente al gran macizo, conectado al dominio Évasion Mont-Blanc y sus 400 km. Soleada, pintoresca y suave, es una joya para las familias.",
+      "pt": "Conhecida como a pérola do Mont Blanc, Combloux é uma aldeia de postal virada para o grande maciço, ligada ao domínio Évasion Mont-Blanc e os seus 400 km. Solarenga, pitoresca e suave, é uma joia para as famílias."
+    },
+    "longDescription": {
+      "en": "Combloux sits on a sunny shelf with one of the most famous views in the Alps, looking straight across to Mont Blanc, which earned it the nickname the pearl of Mont Blanc. Its slopes link into the vast Évasion Mont-Blanc domain shared with Megève and Saint-Gervais, 400 km of mostly gentle, scenic, tree-lined cruising ideal for families. The village keeps its baroque church and farming roots, a calmer and more affordable base than glitzy Megève just next door.",
+      "fr": "Combloux occupe un replat ensoleillé avec l'une des plus célèbres vues des Alpes, droit sur le Mont Blanc, ce qui lui a valu le surnom de perle du Mont-Blanc. Ses pistes rejoignent le vaste domaine Évasion Mont-Blanc partagé avec Megève et Saint-Gervais, 400 km de glisse surtout douce, panoramique et boisée, idéale pour les familles. Le village garde son église baroque et ses racines agricoles, base plus calme et plus abordable que la chic Megève juste à côté.",
+      "es": "Combloux ocupa una repisa soleada con una de las vistas más famosas de los Alpes, de frente al Mont Blanc, lo que le valió el apodo de la perla del Mont Blanc. Sus pistas enlazan con el vasto dominio Évasion Mont-Blanc compartido con Megève y Saint-Gervais, 400 km de esquí sobre todo suave, panorámico y arbolado, ideal para familias. El pueblo conserva su iglesia barroca y sus raíces agrícolas, una base más tranquila y asequible que la glamurosa Megève, justo al lado.",
+      "pt": "Combloux ocupa um patamar solarengo com uma das vistas mais famosas dos Alpes, mesmo de frente para o Mont Blanc, o que lhe valeu a alcunha de pérola do Mont Blanc. As suas pistas ligam-se ao vasto domínio Évasion Mont-Blanc partilhado com Megève e Saint-Gervais, 400 km de esqui sobretudo suave, panorâmico e arborizado, ideal para famílias. A aldeia conserva a sua igreja barroca e as raízes agrícolas, uma base mais calma e acessível do que a glamorosa Megève, mesmo ao lado."
+    },
+    "pisteCounts": {
+      "green": 35,
+      "blue": 45,
+      "red": 35,
+      "black": 10
+    }
+  },
+  {
+    "slug": "valfrejus",
+    "name": "Valfréjus",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.173,
+    "lng": 6.65,
+    "altitudeBase": 1550,
+    "altitudeSummit": 2737,
+    "pistesKm": 65,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Valfréjus is a compact, slope-side resort in the forest above Modane, with most apartments and hotels right on the snow-front.",
+      "fr": "Valfréjus est une station compacte au pied des pistes, dans la forêt au-dessus de Modane, avec la plupart des appartements et hôtels sur le front de neige.",
+      "es": "Valfréjus es una estación compacta a pie de pista, en el bosque sobre Modane, con la mayoría de apartamentos y hoteles en el frente de nieve.",
+      "pt": "Valfréjus é uma estância compacta no sopé das pistas, na floresta acima de Modane, com a maioria dos apartamentos e hotéis na frente de neve."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "snow-sure",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A modern resort built in larch forest above Modane in the Maurienne, Valfréjus climbs to the panoramic Punta Bagna at 2737 m. Sheltered tree runs and snowy heights make a winning combination.",
+      "fr": "Station moderne bâtie dans la forêt de mélèzes au-dessus de Modane, en Maurienne, Valfréjus grimpe jusqu'à la Punta Bagna panoramique, à 2737 m. Pistes abritées en forêt et hauteurs enneigées forment une combinaison gagnante.",
+      "es": "Estación moderna construida en el bosque de alerces sobre Modane, en la Maurienne, Valfréjus sube hasta la panorámica Punta Bagna, a 2737 m. Pistas resguardadas entre árboles y alturas nevadas forman una combinación ganadora.",
+      "pt": "Estância moderna construída na floresta de lariços acima de Modane, na Maurienne, Valfréjus sobe até à panorâmica Punta Bagna, a 2737 m. Pistas abrigadas na floresta e alturas nevadas formam uma combinação vencedora."
+    },
+    "longDescription": {
+      "en": "Valfréjus is a compact, purpose-built resort tucked into thick larch forest above Modane, with lifts that climb from a sheltered 1550 m base to the panoramic Punta Bagna at 2737 m. The tree-lined lower runs are a boon in bad weather, while the top opens onto wide, snow-sure slopes and long views toward Italy and the Écrins. Quiet and good value, it is a no-fuss choice for families and intermediates who want decent vertical without the crowds.",
+      "fr": "Valfréjus est une station compacte et construite, nichée dans une épaisse forêt de mélèzes au-dessus de Modane, avec des remontées qui grimpent d'une base abritée à 1550 m jusqu'à la Punta Bagna panoramique, à 2737 m. Les pistes boisées du bas sont précieuses par mauvais temps, tandis que le sommet ouvre sur de larges pentes bien enneigées et de longues vues vers l'Italie et les Écrins. Calme et d'un bon rapport qualité-prix, c'est un choix sans tracas pour les familles et les intermédiaires qui veulent du dénivelé sans la foule.",
+      "es": "Valfréjus es una estación compacta y construida, metida en un espeso bosque de alerces sobre Modane, con remontes que suben desde una base resguardada a 1550 m hasta la panorámica Punta Bagna, a 2737 m. Las pistas arboladas de abajo son una bendición con mal tiempo, mientras que la cima se abre a amplias laderas de nieve segura y largas vistas hacia Italia y los Écrins. Tranquila y de buena relación calidad-precio, es una opción sin complicaciones para familias e intermedios que quieren buen desnivel sin el gentío.",
+      "pt": "Valfréjus é uma estância compacta e construída, metida numa espessa floresta de lariços acima de Modane, com teleféricos que sobem de uma base abrigada a 1550 m até à panorâmica Punta Bagna, a 2737 m. As pistas arborizadas em baixo são preciosas com mau tempo, enquanto o cimo se abre a amplas encostas de neve segura e longas vistas para Itália e os Écrins. Tranquila e de boa relação qualidade-preço, é uma opção sem complicações para famílias e intermédios que querem bom desnível sem a multidão."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 12,
+      "red": 12,
+      "black": 5
+    }
+  },
+  {
+    "slug": "la-pierre-saint-martin",
+    "name": "La Pierre Saint-Martin",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.977,
+    "lng": -0.739,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2150,
+    "pistesKm": 30,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "La Pierre Saint-Martin is a purpose-built, slope-side resort: its residences sit on the snow-front, so most lodging is ski-in/ski-out.",
+      "fr": "La Pierre Saint-Martin est une station construite au pied des pistes : ses résidences sont sur le front de neige, donc la plupart des hébergements sont ski-in/ski-out.",
+      "es": "La Pierre Saint-Martin es una estación construida a pie de pista: sus residencias están sobre el frente de nieve, así que la mayoría del alojamiento es ski-in/ski-out.",
+      "pt": "La Pierre Saint-Martin é uma estância construída no sopé das pistas: as suas residências ficam na frente de neve, por isso a maioria do alojamento é ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "sunny",
+      "value"
+    ],
+    "intro": {
+      "en": "High on the Béarn border with Spain, La Pierre Saint-Martin skis a sunny karst plateau famous for its caves. Open slopes, big views and slope-side convenience make it an easy family base.",
+      "fr": "Haut perchée à la frontière béarnaise avec l'Espagne, La Pierre Saint-Martin skie sur un plateau karstique ensoleillé, célèbre pour ses gouffres. Pentes dégagées, grandes vues et ski aux pieds en font une base familiale facile.",
+      "es": "En lo alto de la frontera bearnesa con España, La Pierre Saint-Martin esquía en una soleada meseta kárstica, famosa por sus simas. Laderas abiertas, grandes vistas y comodidad a pie de pista la hacen una base familiar fácil.",
+      "pt": "No alto da fronteira do Béarn com Espanha, La Pierre Saint-Martin esquia num solarengo planalto cársico, famoso pelos seus abismos. Encostas abertas, grandes vistas e comodidade no sopé das pistas fazem dela uma base familiar fácil."
+    },
+    "longDescription": {
+      "en": "La Pierre Saint-Martin sits on a remarkable limestone plateau in the far western Pyrenees, right on the Spanish frontier and famous in caving circles for some of the deepest shafts on earth. The 30 km of mostly open, sunny piste rise to about 2150 m, easy to read and well suited to families and beginners, with wide views over the Béarn peaks. It is a tidy, modern, slope-side resort where almost everything is a short slide from the lifts.",
+      "fr": "La Pierre Saint-Martin occupe un remarquable plateau calcaire de l'extrême ouest des Pyrénées, juste sur la frontière espagnole, célèbre chez les spéléologues pour quelques-uns des gouffres les plus profonds du monde. Ses 30 km de pistes surtout dégagées et ensoleillées montent à environ 2150 m, faciles à lire et bien adaptées aux familles et aux débutants, avec de larges vues sur les sommets du Béarn. C'est une station nette, moderne et au pied des pistes, où presque tout est à une glissade des remontées.",
+      "es": "La Pierre Saint-Martin ocupa una notable meseta calcárea del extremo oeste de los Pirineos, justo en la frontera española, famosa entre los espeleólogos por algunas de las simas más profundas del mundo. Sus 30 km de pistas, sobre todo abiertas y soleadas, suben a unos 2150 m, fáciles de leer y muy adecuadas para familias y principiantes, con amplias vistas sobre las cumbres del Béarn. Es una estación ordenada, moderna y a pie de pista, donde casi todo está a un deslizamiento de los remontes.",
+      "pt": "La Pierre Saint-Martin ocupa um notável planalto calcário do extremo oeste dos Pirenéus, mesmo na fronteira espanhola, famoso entre os espeleólogos por alguns dos abismos mais profundos do mundo. Os seus 30 km de pistas, sobretudo abertas e solarengas, sobem a cerca de 2150 m, fáceis de ler e muito adequadas a famílias e principiantes, com amplas vistas sobre os cumes do Béarn. É uma estância arrumada, moderna e no sopé das pistas, onde quase tudo está a um deslize dos teleféricos."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 9,
+      "red": 10,
+      "black": 3
+    }
+  },
+  {
+    "slug": "guzet",
+    "name": "Guzet",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.78,
+    "lng": 1.28,
+    "altitudeBase": 1400,
+    "altitudeSummit": 2100,
+    "pistesKm": 40,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Guzet has no resort village at the lifts; most visitors stay in the valley around Aulus-les-Bains or Seix and drive up to ski for the day.",
+      "fr": "Guzet n'a pas de village-station au pied des pistes : la plupart logent dans la vallée, vers Aulus-les-Bains ou Seix, et montent skier à la journée.",
+      "es": "Guzet no tiene pueblo-estación a pie de pista: la mayoría se aloja en el valle, hacia Aulus-les-Bains o Seix, y sube a esquiar de día.",
+      "pt": "Guzet não tem aldeia-estância no sopé das pistas: a maioria fica no vale, para os lados de Aulus-les-Bains ou Seix, e sobe para esquiar de dia."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Mar 31",
+    "snowScore": 75,
+    "vibes": [
+      "family",
+      "value",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Hidden in the forests of the Couserans in the Ariège, Guzet is a charming, tree-lined resort beloved for its quiet, scenic skiing. It is a true local secret of the central Pyrenees.",
+      "fr": "Cachée dans les forêts du Couserans, en Ariège, Guzet est une station charmante et boisée, appréciée pour son ski tranquille et photogénique. Un vrai secret local des Pyrénées centrales.",
+      "es": "Escondida en los bosques del Couserans, en el Ariège, Guzet es una estación encantadora y arbolada, querida por su esquí tranquilo y pintoresco. Un verdadero secreto local de los Pirineos centrales.",
+      "pt": "Escondida nas florestas do Couserans, no Ariège, Guzet é uma estância encantadora e arborizada, apreciada pelo seu esqui tranquilo e pitoresco. Um verdadeiro segredo local dos Pirenéus centrais."
+    },
+    "longDescription": {
+      "en": "Guzet, often called Guzet-Neige, is tucked into the wooded Couserans valleys of the Ariège, one of the greenest and least developed corners of the Pyrenees. Its 40 km of piste wind through spruce and fir forest across three sectors up to about 2100 m, sheltered and atmospheric, with gentle runs for families and a handful of steeper lines. There is no slope-side town, so it keeps a peaceful, unspoilt feel, the kind of place locals guard jealously.",
+      "fr": "Guzet, souvent appelée Guzet-Neige, se niche dans les vallées boisées du Couserans, en Ariège, l'un des coins les plus verts et les moins aménagés des Pyrénées. Ses 40 km de pistes serpentent dans la forêt d'épicéas et de sapins sur trois secteurs jusqu'à environ 2100 m, abrités et pleins d'atmosphère, avec des pistes douces pour les familles et quelques tracés plus raides. Sans ville au pied des pistes, elle garde une atmosphère paisible et préservée, le genre d'endroit que les locaux gardent jalousement.",
+      "es": "Guzet, a menudo llamada Guzet-Neige, se acomoda en los valles boscosos del Couserans, en el Ariège, uno de los rincones más verdes y menos urbanizados de los Pirineos. Sus 40 km de pistas serpentean entre abetos y píceas en tres sectores hasta unos 2100 m, resguardados y con ambiente, con pistas suaves para las familias y algunos trazados más empinados. Sin pueblo a pie de pista, conserva un aire apacible e intacto, de esos lugares que los locales guardan con celo.",
+      "pt": "Guzet, muitas vezes chamada Guzet-Neige, aninha-se nos vales arborizados do Couserans, no Ariège, um dos cantos mais verdes e menos urbanizados dos Pirenéus. Os seus 40 km de pistas serpenteiam por entre abetos e píceas em três setores até cerca de 2100 m, abrigados e cheios de atmosfera, com pistas suaves para as famílias e alguns traçados mais íngremes. Sem vila no sopé das pistas, conserva um ambiente sereno e intacto, do género de lugares que os habitantes locais guardam com ciúme."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 10,
+      "red": 10,
+      "black": 3
+    }
+  },
+  {
+    "slug": "porte-puymorens",
+    "name": "Porté-Puymorens",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.543,
+    "lng": 1.817,
+    "altitudeBase": 1600,
+    "altitudeSummit": 2500,
+    "pistesKm": 45,
+    "lifts": 9,
+    "skiInSkiOutNote": {
+      "en": "Porté-Puymorens is a small village by the railway in the Cerdagne; lodging is in and around the village, a short step from the lifts.",
+      "fr": "Porté-Puymorens est un petit village au bord de la voie ferrée, en Cerdagne ; on loge dans le village et aux alentours, à deux pas des remontées.",
+      "es": "Porté-Puymorens es un pequeño pueblo junto a la vía del tren, en la Cerdaña; el alojamiento está en el pueblo y sus alrededores, a un paso de los remontes.",
+      "pt": "Porté-Puymorens é uma pequena aldeia junto à linha de comboio, na Cerdanha; o alojamento fica na aldeia e arredores, a um passo dos teleféricos."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "value",
+      "authentic",
+      "sunny"
+    ],
+    "intro": {
+      "en": "A characterful village resort high in the Cerdagne near Andorra, Porté-Puymorens offers sunny, snow-sure skiing with a strong off-piste reputation. The little mountain railway adds to its old-world charm.",
+      "fr": "Station-village pleine de caractère, haut dans la Cerdagne près de l'Andorre, Porté-Puymorens offre un ski ensoleillé et bien enneigé, avec une solide réputation de hors-piste. Le petit train de montagne ajoute à son charme d'antan.",
+      "es": "Estación-pueblo llena de carácter, en lo alto de la Cerdaña cerca de Andorra, Porté-Puymorens ofrece un esquí soleado y de nieve segura, con una sólida fama de fuera de pista. El pequeño tren de montaña añade su encanto de antaño.",
+      "pt": "Estância-aldeia cheia de carácter, no alto da Cerdanha perto de Andorra, Porté-Puymorens oferece um esqui solarengo e de neve segura, com uma sólida fama de fora-de-pista. O pequeno comboio de montanha acrescenta-lhe o charme de outros tempos."
+    },
+    "longDescription": {
+      "en": "Porté-Puymorens is a high Cerdagne village near the Col de Puymorens and the Andorran border, served by the historic yellow train of the Pyrenees. Its 45 km of sunny, snow-holding piste climb to around 2500 m, and the resort has long had a cult reputation for accessible off-piste and uncrowded slopes. Low-key and authentic, it is a favourite of skiers who like to mix lift-served runs with a little adventure.",
+      "fr": "Porté-Puymorens est un village de haute Cerdagne près du col de Puymorens et de la frontière andorrane, desservi par le train jaune historique des Pyrénées. Ses 45 km de pistes ensoleillées qui tiennent bien la neige montent à environ 2500 m, et la station a de longue date une réputation culte pour son hors-piste accessible et ses pentes sans foule. Discrète et authentique, c'est un favori des skieurs qui aiment mêler pistes et un brin d'aventure.",
+      "es": "Porté-Puymorens es un pueblo de la alta Cerdaña cerca del Col de Puymorens y de la frontera andorrana, servido por el histórico tren amarillo de los Pirineos. Sus 45 km de pistas soleadas que retienen bien la nieve suben a unos 2500 m, y la estación tiene desde hace tiempo una fama de culto por su fuera de pista accesible y sus laderas sin gentío. Discreta y auténtica, es una favorita de los esquiadores a los que les gusta mezclar pistas con algo de aventura.",
+      "pt": "Porté-Puymorens é uma aldeia da alta Cerdanha perto do Col de Puymorens e da fronteira andorrana, servida pelo histórico comboio amarelo dos Pirenéus. Os seus 45 km de pistas solarengas que retêm bem a neve sobem a cerca de 2500 m, e a estância tem há muito uma fama de culto pelo seu fora-de-pista acessível e encostas sem multidões. Discreta e autêntica, é uma favorita dos esquiadores que gostam de misturar pistas com um pouco de aventura."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 12,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "masella",
+    "name": "Masella",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.364,
+    "lng": 1.94,
+    "altitudeBase": 1600,
+    "altitudeSummit": 2535,
+    "pistesKm": 74,
+    "lifts": 17,
+    "skiInSkiOutNote": {
+      "en": "Masella is a slope-side resort with hotels and apartments at the foot of the runs, linked over the top with La Molina as the Alp 2500 domain.",
+      "fr": "Masella est une station au pied des pistes, avec hôtels et appartements au départ des pistes, reliée par le haut à La Molina pour former le domaine Alp 2500.",
+      "es": "Masella es una estación a pie de pista, con hoteles y apartamentos en la base de las pistas, enlazada por arriba con La Molina para formar el dominio Alp 2500.",
+      "pt": "Masella é uma estância no sopé das pistas, com hotéis e apartamentos na base das pistas, ligada por cima a La Molina para formar o domínio Alp 2500."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "value",
+      "sunny"
+    ],
+    "intro": {
+      "en": "A sunny, forested resort in the Catalan Cerdanya, Masella links with La Molina to form the 140 km Alp 2500. It is famous for long tree runs and some of the best night skiing in Europe.",
+      "fr": "Station ensoleillée et boisée de la Cerdagne catalane, Masella se relie à La Molina pour former Alp 2500 et ses 140 km. Elle est réputée pour ses longues pistes en forêt et l'un des meilleurs skis nocturnes d'Europe.",
+      "es": "Estación soleada y arbolada de la Cerdaña catalana, Masella se une a La Molina para formar Alp 2500 y sus 140 km. Es famosa por sus largas pistas entre árboles y uno de los mejores esquís nocturnos de Europa.",
+      "pt": "Estância solarenga e arborizada da Cerdanha catalã, Masella liga-se a La Molina para formar Alp 2500 e os seus 140 km. É famosa pelas suas longas pistas entre árvores e por um dos melhores esquis noturnos da Europa."
+    },
+    "longDescription": {
+      "en": "Masella drops through pine and birch forest off the 2535 m Tosa d'Alp in the Catalan Cerdanya, with 74 km of its own piste that join La Molina over the summit to make the 140 km Alp 2500 area. The tree-lined runs are long, sheltered and great fun, and the resort is celebrated for one of the largest night-skiing operations in Europe. Sunny, family-friendly and easy to reach from Barcelona, it pairs naturally with neighbouring La Molina for a bigger day out.",
+      "fr": "Masella plonge dans la forêt de pins et de bouleaux depuis la Tosa d'Alp à 2535 m, en Cerdagne catalane, avec 74 km de pistes propres qui rejoignent La Molina par le sommet pour former le domaine Alp 2500 et ses 140 km. Les pistes en forêt sont longues, abritées et très ludiques, et la station est réputée pour l'un des plus grands dispositifs de ski nocturne d'Europe. Ensoleillée, familiale et facile d'accès depuis Barcelone, elle se marie naturellement avec sa voisine La Molina pour une plus grande journée de ski.",
+      "es": "Masella baja entre pinos y abedules desde la Tosa d'Alp, a 2535 m, en la Cerdaña catalana, con 74 km de pistas propias que se unen a La Molina por la cima para formar el dominio Alp 2500 y sus 140 km. Las pistas entre árboles son largas, resguardadas y muy divertidas, y la estación es célebre por uno de los mayores dispositivos de esquí nocturno de Europa. Soleada, familiar y fácil de alcanzar desde Barcelona, se combina de forma natural con su vecina La Molina para una jornada más grande.",
+      "pt": "Masella desce por entre pinheiros e bétulas a partir da Tosa d'Alp, a 2535 m, na Cerdanha catalã, com 74 km de pistas próprias que se juntam a La Molina pelo cimo para formar o domínio Alp 2500 e os seus 140 km. As pistas entre árvores são longas, abrigadas e muito divertidas, e a estância é célebre por um dos maiores dispositivos de esqui noturno da Europa. Solarenga, familiar e fácil de alcançar desde Barcelona, combina-se naturalmente com a vizinha La Molina para um dia maior."
+    },
+    "pisteCounts": {
+      "green": 7,
+      "blue": 16,
+      "red": 16,
+      "black": 6
+    }
+  },
+  {
+    "slug": "panticosa",
+    "name": "Panticosa",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.77,
+    "lng": -0.27,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2220,
+    "pistesKm": 40,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Panticosa is a day-ski mountain above the Tena valley; most visitors stay in the village of Panticosa or El Pueyo de Jaca and drive to the lifts.",
+      "fr": "Panticosa est une montagne de ski à la journée au-dessus de la vallée de Tena ; la plupart logent au village de Panticosa ou à El Pueyo de Jaca et rejoignent les remontées en voiture.",
+      "es": "Panticosa es una montaña de esquí de día sobre el valle de Tena; la mayoría se aloja en el pueblo de Panticosa o en El Pueyo de Jaca y va en coche a los remontes.",
+      "pt": "Panticosa é uma montanha de esqui de dia acima do vale de Tena; a maioria fica na aldeia de Panticosa ou em El Pueyo de Jaca e vai de carro até aos teleféricos."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 79,
+    "vibes": [
+      "family",
+      "scenic",
+      "value"
+    ],
+    "intro": {
+      "en": "A scenic Aragonese resort in the Tena valley, Panticosa pairs sunny slopes with a handsome stone village and famous thermal baths. Quieter than big sister Formigal, it shares the same lift pass.",
+      "fr": "Station aragonaise photogénique de la vallée de Tena, Panticosa associe des pentes ensoleillées à un beau village de pierre et à des thermes réputés. Plus calme que sa grande sœur Formigal, elle partage le même forfait.",
+      "es": "Estación aragonesa pintoresca del valle de Tena, Panticosa combina laderas soleadas con un hermoso pueblo de piedra y unos famosos baños termales. Más tranquila que su hermana mayor Formigal, comparte el mismo forfait.",
+      "pt": "Estância aragonesa pitoresca do vale de Tena, Panticosa combina encostas solarengas com uma bonita aldeia de pedra e umas famosas termas. Mais tranquila do que a irmã mais velha Formigal, partilha o mesmo passe."
+    },
+    "longDescription": {
+      "en": "Panticosa rises above a handsome old stone village in the Tena valley of the Aragonese Pyrenees, with around 40 km of sunny, scenic piste climbing to 2220 m. It is the quieter half of the Aramón Formigal-Panticosa pairing, sharing a lift pass with much larger Formigal up the valley, and is especially good for families and intermediates. Nearby, the spa resort of Baños de Panticosa offers thermal pools in a spectacular high mountain setting for a restful end to the day.",
+      "fr": "Panticosa s'élève au-dessus d'un beau vieux village de pierre dans la vallée de Tena, dans les Pyrénées aragonaises, avec environ 40 km de pistes ensoleillées et photogéniques qui montent à 2220 m. C'est la moitié la plus calme du couple Aramón Formigal-Panticosa, partageant un forfait avec la bien plus grande Formigal en amont, et elle convient particulièrement aux familles et aux intermédiaires. Tout près, la station thermale de Baños de Panticosa propose des bassins chauds dans un cadre de haute montagne spectaculaire pour une fin de journée reposante.",
+      "es": "Panticosa se alza sobre un hermoso pueblo viejo de piedra en el valle de Tena, en los Pirineos aragoneses, con unos 40 km de pistas soleadas y pintorescas que suben a 2220 m. Es la mitad más tranquila del binomio Aramón Formigal-Panticosa, comparte forfait con la mucho mayor Formigal valle arriba y va especialmente bien a familias e intermedios. Muy cerca, el balneario de Baños de Panticosa ofrece piscinas termales en un espectacular entorno de alta montaña para un final de día relajado.",
+      "pt": "Panticosa ergue-se acima de uma bonita aldeia antiga de pedra no vale de Tena, nos Pirenéus aragoneses, com cerca de 40 km de pistas solarengas e pitorescas que sobem a 2220 m. É a metade mais tranquila do par Aramón Formigal-Panticosa, partilha o passe com a bem maior Formigal vale acima e assenta especialmente bem a famílias e intermédios. Bem perto, as termas de Baños de Panticosa oferecem piscinas termais num espetacular cenário de alta montanha para um fim de dia repousante."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 12,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "port-aine",
+    "name": "Port Ainé",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.49,
+    "lng": 1.18,
+    "altitudeBase": 1650,
+    "altitudeSummit": 2440,
+    "pistesKm": 30,
+    "lifts": 8,
+    "skiInSkiOutNote": {
+      "en": "Port Ainé is a small slope-side resort with a hotel and apartments right at the lift base; the town of Rialp lies down in the valley.",
+      "fr": "Port Ainé est une petite station au pied des pistes, avec un hôtel et des appartements au départ des remontées ; la ville de Rialp se trouve plus bas dans la vallée.",
+      "es": "Port Ainé es una pequeña estación a pie de pista, con un hotel y apartamentos en la base de los remontes; el pueblo de Rialp queda más abajo en el valle.",
+      "pt": "Port Ainé é uma pequena estância no sopé das pistas, com um hotel e apartamentos na base dos teleféricos; a vila de Rialp fica mais abaixo no vale."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "snow-sure",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "A north-facing, forested resort in the Pallars region of Catalonia, Port Ainé is prized for dependable, dry snow. Quiet and family-friendly, it is a favourite of those chasing good powder days.",
+      "fr": "Station boisée orientée nord, dans la région du Pallars en Catalogne, Port Ainé est appréciée pour sa neige sèche et fiable. Calme et familiale, c'est un favori de ceux qui courent après les bonnes journées de poudreuse.",
+      "es": "Estación arbolada orientada al norte, en la comarca del Pallars en Cataluña, Port Ainé es apreciada por su nieve seca y fiable. Tranquila y familiar, es una favorita de quienes persiguen los buenos días de polvo.",
+      "pt": "Estância arborizada virada a norte, na região do Pallars na Catalunha, Port Ainé é apreciada pela sua neve seca e fiável. Tranquila e familiar, é uma favorita de quem persegue os bons dias de neve pó."
+    },
+    "longDescription": {
+      "en": "Port Ainé sits on north-facing, forested slopes above Rialp in the remote Pallars Sobirà of the Catalan Pyrenees, an aspect that gives it some of the driest, most dependable snow in the region. Its roughly 30 km of piste rise to about 2440 m, sheltered among the pines and quiet even in high season, with terrain that suits families and intermediates. A slope-side hotel sits right at the base, while the lively town of Sort, capital of Pyrenean white-water rafting, is a short drive down the valley.",
+      "fr": "Port Ainé occupe des pentes boisées orientées nord au-dessus de Rialp, dans le Pallars Sobirà reculé des Pyrénées catalanes, une exposition qui lui vaut une des neiges les plus sèches et fiables de la région. Ses quelque 30 km de pistes montent à environ 2440 m, abritées parmi les pins et tranquilles même en pleine saison, sur un terrain qui convient aux familles et aux intermédiaires. Un hôtel se trouve au pied même des pistes, tandis que la ville animée de Sort, capitale du rafting pyrénéen, est à courte distance en bas de la vallée.",
+      "es": "Port Ainé ocupa laderas arboladas orientadas al norte sobre Rialp, en el remoto Pallars Sobirà de los Pirineos catalanes, una orientación que le da una de las nieves más secas y fiables de la región. Sus unos 30 km de pistas suben a unos 2440 m, resguardadas entre los pinos y tranquilas incluso en plena temporada, con un terreno que va bien a familias e intermedios. Un hotel está a pie mismo de pista, mientras que la animada villa de Sort, capital del rafting pirenaico, queda a poca distancia valle abajo.",
+      "pt": "Port Ainé ocupa encostas arborizadas viradas a norte acima de Rialp, no remoto Pallars Sobirà dos Pirenéus catalães, uma exposição que lhe dá uma das neves mais secas e fiáveis da região. Os seus cerca de 30 km de pistas sobem a aproximadamente 2440 m, abrigadas por entre os pinheiros e tranquilas mesmo em plena época, com um terreno que assenta bem a famílias e intermédios. Um hotel fica mesmo no sopé das pistas, enquanto a animada vila de Sort, capital do rafting dos Pirenéus, fica a curta distância vale abaixo."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 10,
+      "red": 10,
+      "black": 4
+    }
   }
 ]

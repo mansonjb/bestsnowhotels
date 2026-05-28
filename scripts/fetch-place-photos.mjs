@@ -108,6 +108,18 @@ const TARGETS = [
   { slug: 'astun',                query: 'Astun ski resort Somport Aragon Pyrenees Spain panorama winter snow' },
   { slug: 'boi-taull',            query: 'Boi Taull ski resort highest Pyrenees Lleida Catalonia Spain panorama winter snow' },
   { slug: 'vallnord-ordino-arcalis', query: 'Ordino Arcalis ski resort Vallnord Andorra Pyrenees freeride panorama winter snow' },
+  { slug: 'bonneval-sur-arc',      query: 'Bonneval-sur-Arc village ski resort Haute-Maurienne French Alps stone village winter snow' },
+  { slug: 'superdevoluy',         query: 'SuperDevoluy ski resort Devoluy Obiou Hautes-Alpes French Alps panorama winter snow' },
+  { slug: 'valberg',              query: 'Valberg ski resort Mercantour Alpes-Maritimes French Alps panorama winter snow village' },
+  { slug: 'chamrousse',           query: 'Chamrousse ski resort Belledonne Grenoble French Alps panorama winter snow' },
+  { slug: 'combloux',             query: 'Combloux ski resort Mont-Blanc view Evasion French Alps panorama winter snow village' },
+  { slug: 'valfrejus',            query: 'Valfrejus ski resort Maurienne Modane Punta Bagna French Alps panorama winter snow' },
+  { slug: 'la-pierre-saint-martin', query: 'La Pierre Saint-Martin ski resort Bearn Arette Pyrenees panorama winter snow' },
+  { slug: 'guzet',                query: 'Guzet Neige ski resort Ariege Couserans Pyrenees forest winter snow' },
+  { slug: 'porte-puymorens',      query: 'Porte-Puymorens ski resort Cerdagne Pyrenees-Orientales winter snow' },
+  { slug: 'masella',              query: 'Masella ski resort Alp 2500 Cerdanya Catalan Pyrenees Spain forest winter snow' },
+  { slug: 'panticosa',            query: 'Panticosa ski resort Tena valley Aragon Pyrenees Spain panorama winter snow' },
+  { slug: 'port-aine',            query: 'Port Aine ski resort Pallars Rialp Catalan Pyrenees Spain forest winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {
