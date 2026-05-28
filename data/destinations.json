@@ -2574,5 +2574,557 @@
       "red": 22,
       "black": 6
     }
+  },
+  {
+    "slug": "sainte-foy-tarentaise",
+    "name": "Sainte-Foy-Tarentaise",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.6083,
+    "lng": 6.8772,
+    "altitudeBase": 1550,
+    "altitudeSummit": 2620,
+    "pistesKm": 40,
+    "lifts": 5,
+    "skiInSkiOutNote": {
+      "en": "The compact resort village at 1550 m is genuinely ski-in/ski-out, with modern chalet-residences opening straight onto the home slope; the prettier old hamlets sit just below.",
+      "fr": "Le petit village-station à 1550 m est vraiment ski-in/ski-out, avec des résidences-chalets récentes qui ouvrent sur le front de neige ; les jolis hameaux anciens sont juste en dessous.",
+      "es": "El pequeño pueblo-estación a 1550 m es de verdad ski-in/ski-out, con residencias-chalet recientes que dan al frente de nieve; las bonitas aldeas antiguas quedan justo debajo.",
+      "pt": "A pequena aldeia-estância a 1550 m é mesmo ski-in/ski-out, com residências-chalé recentes que dão para o sopé das pistas; as bonitas aldeias antigas ficam logo abaixo."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 12",
+    "snowScore": 80,
+    "vibes": [
+      "freeride",
+      "authentic",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A cult freeride hideaway between Les Arcs and Val d'Isère, Sainte-Foy has only a handful of lifts but a big reputation for untracked powder. It stays quiet, friendly and refreshingly unhurried.",
+      "fr": "Repaire freeride culte entre Les Arcs et Val d'Isère, Sainte-Foy n'a qu'une poignée de remontées mais une grande réputation de poudreuse vierge. La station reste calme, conviviale et délicieusement tranquille.",
+      "es": "Refugio freeride de culto entre Les Arcs y Val d'Isère, Sainte-Foy tiene apenas un puñado de remontes pero una gran fama de nieve polvo virgen. La estación sigue siendo tranquila, cercana y sin agobios.",
+      "pt": "Refúgio freeride de culto entre Les Arcs e Val d'Isère, Sainte-Foy tem apenas um punhado de teleféricos mas uma grande fama de neve pó intacta. A estância mantém-se calma, acolhedora e sem azáfama."
+    },
+    "longDescription": {
+      "en": "Sainte-Foy-Tarentaise is the Tarentaise valley's best-kept secret: five lifts, around 40 km of marked piste, and some of the finest lift-served off-piste in the Alps. Powder hounds come for the long north-facing runs off the Col de l'Aiguille and the views over the abandoned hamlet of Le Monal, while families enjoy short queues and gentle, sunny slopes near the base. The slope-side village is built in stone and wood, and the old hamlets of Le Miroir and Bonconseil keep a genuine Savoyard soul.",
+      "fr": "Sainte-Foy-Tarentaise est le secret le mieux gardé de la Tarentaise : cinq remontées, environ 40 km de pistes balisées et l'un des plus beaux hors-piste accessible en télésiège des Alpes. Les amateurs de poudreuse viennent pour les longs itinéraires nord du Col de l'Aiguille et les vues sur le hameau abandonné du Monal, tandis que les familles profitent de files courtes et de pentes douces et ensoleillées près du front de neige. Le village au pied des pistes est bâti en pierre et en bois, et les vieux hameaux du Miroir et de Bonconseil gardent une vraie âme savoyarde.",
+      "es": "Sainte-Foy-Tarentaise es el secreto mejor guardado del valle de la Tarentaise: cinco remontes, unos 40 km de pistas balizadas y uno de los mejores fueras de pista con acceso en telesilla de los Alpes. Los amantes del polvo vienen por los largos itinerarios al norte del Col de l'Aiguille y por las vistas a la aldea abandonada de Le Monal, mientras que las familias disfrutan de colas cortas y pendientes suaves y soleadas junto a la base. El pueblo a pie de pista es de piedra y madera, y las viejas aldeas de Le Miroir y Bonconseil conservan un alma saboyana de verdad.",
+      "pt": "Sainte-Foy-Tarentaise é o segredo mais bem guardado do vale da Tarentaise: cinco teleféricos, cerca de 40 km de pistas balizadas e um dos melhores fora-de-pista com acesso por telecadeira dos Alpes. Os apaixonados por neve pó vêm pelos longos itinerários a norte do Col de l'Aiguille e pelas vistas sobre a aldeia abandonada do Monal, enquanto as famílias aproveitam filas curtas e encostas suaves e solarengas junto à base. A aldeia no sopé das pistas é em pedra e madeira, e as antigas aldeias do Miroir e de Bonconseil guardam uma verdadeira alma saboiana."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 7,
+      "red": 7,
+      "black": 3
+    }
+  },
+  {
+    "slug": "val-cenis",
+    "name": "Val Cenis",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.289,
+    "lng": 6.895,
+    "altitudeBase": 1400,
+    "altitudeSummit": 2800,
+    "pistesKm": 125,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "Several residences along the snow-front at Lanslevillard and Val-Cenis Termignon are ski-in/ski-out; the two old villages themselves sit a short ski-bus hop from the lifts.",
+      "fr": "Plusieurs résidences sur le front de neige de Lanslevillard et de Val-Cenis Termignon sont ski-in/ski-out ; les deux villages anciens se rejoignent en navette à quelques minutes des pistes.",
+      "es": "Varias residencias en el frente de nieve de Lanslevillard y Val-Cenis Termignon son ski-in/ski-out; los dos pueblos antiguos quedan a pocos minutos en lanzadera de los remontes.",
+      "pt": "Várias residências no sopé das pistas de Lanslevillard e Val-Cenis Termignon são ski-in/ski-out; as duas aldeias antigas ficam a poucos minutos de transfer dos teleféricos."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 21",
+    "snowScore": 77,
+    "vibes": [
+      "family",
+      "authentic",
+      "beginner"
+    ],
+    "intro": {
+      "en": "On the sunny Haute-Maurienne, Val Cenis is a big, friendly family domain crowned by L'Escargot, the longest green run in France at 10 km. Two unspoilt stone villages give it a warmth most large resorts have lost.",
+      "fr": "En Haute-Maurienne ensoleillée, Val Cenis est un grand domaine familial et accueillant, couronné par L'Escargot, la plus longue piste verte de France avec ses 10 km. Deux villages de pierre préservés lui donnent une chaleur que les grandes stations ont souvent perdue.",
+      "es": "En la soleada Haute-Maurienne, Val Cenis es un gran dominio familiar y acogedor, coronado por L'Escargot, la pista verde más larga de Francia con sus 10 km. Dos pueblos de piedra intactos le dan una calidez que las grandes estaciones suelen haber perdido.",
+      "pt": "Na soalheira Haute-Maurienne, Val Cenis é um grande domínio familiar e acolhedor, coroado pela L'Escargot, a mais longa pista verde de França com os seus 10 km. Duas aldeias de pedra preservadas dão-lhe um calor que as grandes estâncias muitas vezes perderam."
+    },
+    "longDescription": {
+      "en": "Val Cenis rises above the twin villages of Lanslebourg and Lanslevillard at the foot of the Mont-Cenis pass, with 125 km of varied piste climbing to 2800 m. It is famous for L'Escargot, a gentle 10 km green that lets a true beginner ski all the way from the top, yet stronger skiers find plenty on the Solert and Termignon sides. Snow holds well thanks to altitude and a north-leaning aspect, and prices stay refreshingly down to earth for the central Alps.",
+      "fr": "Val Cenis s'élève au-dessus des villages jumeaux de Lanslebourg et Lanslevillard, au pied du col du Mont-Cenis, avec 125 km de pistes variées qui grimpent jusqu'à 2800 m. La station est connue pour L'Escargot, une verte tout en douceur de 10 km qui permet à un vrai débutant de descendre depuis le sommet, mais les bons skieurs trouvent largement de quoi faire côté Solert et Termignon. La neige tient bien grâce à l'altitude et à une orientation nord, et les tarifs restent étonnamment raisonnables pour les Alpes centrales.",
+      "es": "Val Cenis se alza sobre los pueblos gemelos de Lanslebourg y Lanslevillard, al pie del puerto del Mont-Cenis, con 125 km de pistas variadas que suben hasta los 2800 m. Es famosa por L'Escargot, una verde suavísima de 10 km que permite a un principiante de verdad bajar desde la cima, pero los esquiadores fuertes encuentran mucho en los sectores de Solert y Termignon. La nieve aguanta bien gracias a la altitud y a una orientación norte, y los precios siguen siendo sorprendentemente razonables para los Alpes centrales.",
+      "pt": "Val Cenis ergue-se acima das aldeias gémeas de Lanslebourg e Lanslevillard, ao pé do passo do Mont-Cenis, com 125 km de pistas variadas que sobem até aos 2800 m. É famosa pela L'Escargot, uma verde suavíssima de 10 km que deixa um verdadeiro principiante descer desde o cimo, mas os esquiadores mais fortes encontram muito nos setores de Solert e Termignon. A neve aguenta-se bem graças à altitude e a uma orientação a norte, e os preços mantêm-se surpreendentemente sensatos para os Alpes centrais."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 16,
+      "red": 18,
+      "black": 5
+    }
+  },
+  {
+    "slug": "vaujany",
+    "name": "Vaujany",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.1525,
+    "lng": 6.07,
+    "altitudeBase": 1250,
+    "altitudeSummit": 3330,
+    "pistesKm": 250,
+    "lifts": 81,
+    "skiInSkiOutNote": {
+      "en": "Vaujany itself is a quiet perched village, but a giant cable car lifts you straight into the slopes; a few residences by the gondola are effectively ski-in/ski-out.",
+      "fr": "Vaujany est un village perché tranquille, mais un grand téléphérique vous dépose directement sur les pistes ; quelques résidences près de la télécabine sont de fait ski-in/ski-out.",
+      "es": "Vaujany es un tranquilo pueblo colgado, pero un gran teleférico te deja directamente en las pistas; algunas residencias junto a la telecabina son en la práctica ski-in/ski-out.",
+      "pt": "Vaujany é uma tranquila aldeia empoleirada, mas um grande teleférico leva-o diretamente para as pistas; algumas residências junto ao telecabine são, na prática, ski-in/ski-out."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 85,
+    "vibes": [
+      "authentic",
+      "big-domain",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A quiet stone village facing the Grandes Rousses, Vaujany is the insider's way into the vast 250 km Alpe d'Huez Grand Domaine. Hydro-electric wealth gave this tiny place lifts and amenities far beyond its size.",
+      "fr": "Village de pierre tranquille face aux Grandes Rousses, Vaujany est la porte d'entrée des connaisseurs vers le vaste domaine de l'Alpe d'Huez et ses 250 km. La manne hydroélectrique a doté ce petit village de remontées et d'équipements bien au-dessus de sa taille.",
+      "es": "Tranquilo pueblo de piedra frente a las Grandes Rousses, Vaujany es la entrada de los entendidos al vasto dominio de Alpe d'Huez y sus 250 km. La riqueza hidroeléctrica dotó a este pequeño pueblo de remontes y servicios muy por encima de su tamaño.",
+      "pt": "Tranquila aldeia de pedra virada para as Grandes Rousses, Vaujany é a entrada dos entendidos para o vasto domínio de Alpe d'Huez e os seus 250 km. A riqueza hidroelétrica dotou esta pequena aldeia de teleféricos e serviços muito acima do seu tamanho."
+    },
+    "longDescription": {
+      "en": "Perched on a sunny shelf in the Oisans, Vaujany hides one of the Alps' great open secrets: a vast cable car that hauls skiers from the village into the full Alpe d'Huez Grand Domaine, 250 km of piste topping out at the 3330 m Pic Blanc. Funded by income from the local hydro-electric dams, the village punches absurdly above its weight, with a swish sports centre and modern lifts but only a fraction of Alpe d'Huez's crowds. Evenings are calm and authentically French, a world away from the bustle across the valley.",
+      "fr": "Perché sur un balcon ensoleillé de l'Oisans, Vaujany cache l'un des grands secrets des Alpes : un vaste téléphérique qui hisse les skieurs du village vers tout le domaine de l'Alpe d'Huez, 250 km de pistes culminant au Pic Blanc à 3330 m. Financé par les revenus des barrages hydroélectriques, le village joue dans une catégorie bien au-dessus de sa taille, avec un centre sportif rutilant et des remontées modernes, mais une fraction seulement de la foule de l'Alpe d'Huez. Les soirées y sont calmes et authentiquement françaises, à mille lieues de l'agitation d'en face.",
+      "es": "Encaramado en una repisa soleada del Oisans, Vaujany esconde uno de los grandes secretos de los Alpes: un enorme teleférico que sube a los esquiadores desde el pueblo a todo el dominio de Alpe d'Huez, 250 km de pistas que culminan en el Pic Blanc a 3330 m. Financiado con los ingresos de las presas hidroeléctricas locales, el pueblo juega muy por encima de su tamaño, con un flamante centro deportivo y remontes modernos, pero solo una fracción del gentío de Alpe d'Huez. Las tardes son tranquilas y auténticamente francesas, a años luz del bullicio del otro lado del valle.",
+      "pt": "Empoleirada num patamar solarengo do Oisans, Vaujany esconde um dos grandes segredos dos Alpes: um enorme teleférico que sobe os esquiadores da aldeia para todo o domínio de Alpe d'Huez, 250 km de pistas que culminam no Pic Blanc a 3330 m. Financiada pelas receitas das barragens hidroelétricas locais, a aldeia joga muito acima do seu tamanho, com um reluzente centro desportivo e teleféricos modernos, mas apenas uma fração da multidão de Alpe d'Huez. Os serões são calmos e autenticamente franceses, a anos-luz da agitação do outro lado do vale."
+    },
+    "pisteCounts": {
+      "green": 40,
+      "blue": 35,
+      "red": 38,
+      "black": 22
+    }
+  },
+  {
+    "slug": "risoul",
+    "name": "Risoul",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.623,
+    "lng": 6.64,
+    "altitudeBase": 1850,
+    "altitudeSummit": 2750,
+    "pistesKm": 185,
+    "lifts": 51,
+    "skiInSkiOutNote": {
+      "en": "Built ski-in/ski-out at 1850 m among the larches, Risoul lets most apartments click in and out straight onto the snow-front.",
+      "fr": "Construite ski-in/ski-out à 1850 m au milieu des mélèzes, Risoul permet à la plupart des appartements de chausser directement sur le front de neige.",
+      "es": "Construida ski-in/ski-out a 1850 m entre los alerces, Risoul permite a la mayoría de los apartamentos calzarse directamente en el frente de nieve.",
+      "pt": "Construída ski-in/ski-out a 1850 m no meio dos lariços, Risoul permite à maioria dos apartamentos calçar os esquis diretamente no sopé das pistas."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 79,
+    "vibes": [
+      "family",
+      "sunny",
+      "value"
+    ],
+    "intro": {
+      "en": "A sunny, forested resort built at 1850 m in the southern Alps, Risoul links with Vars to form La Forêt Blanche, a 185 km playground. Larch-lined runs and a young, family crowd give it an easy, friendly feel.",
+      "fr": "Station ensoleillée et boisée bâtie à 1850 m dans les Alpes du Sud, Risoul se relie à Vars pour former La Forêt Blanche, un terrain de jeu de 185 km. Ses pistes bordées de mélèzes et son public jeune et familial lui donnent une ambiance simple et conviviale.",
+      "es": "Estación soleada y arbolada construida a 1850 m en los Alpes del Sur, Risoul se une a Vars para formar La Forêt Blanche, un terreno de juego de 185 km. Sus pistas entre alerces y su público joven y familiar le dan un ambiente sencillo y cercano.",
+      "pt": "Estância solarenga e arborizada construída a 1850 m nos Alpes do Sul, Risoul liga-se a Vars para formar La Forêt Blanche, um recreio de 185 km. As suas pistas ladeadas de lariços e o público jovem e familiar dão-lhe um ambiente simples e acolhedor."
+    },
+    "longDescription": {
+      "en": "Risoul rises in tiers of timber-clad apartments at 1850 m, deep in larch forest above the Durance valley, and connects over the ridge to Vars for a combined 185 km of sunny piste. The aspect and southern latitude mean long blue-sky days, while the tree-lined runs come into their own when the weather closes in. It draws a cheerful mix of French families and young snowboarders, and prices undercut the big-name Tarentaise resorts to the north.",
+      "fr": "Risoul s'étage en immeubles habillés de bois à 1850 m, au cœur de la forêt de mélèzes au-dessus de la vallée de la Durance, et bascule par la crête vers Vars pour 185 km de pistes ensoleillées au total. L'exposition et la latitude méridionale offrent de longues journées de grand bleu, tandis que les pistes en forêt prennent tout leur sens quand le temps se gâte. La station attire un joyeux mélange de familles françaises et de jeunes snowboardeurs, à des tarifs bien inférieurs aux grandes stations de Tarentaise plus au nord.",
+      "es": "Risoul se escalona en bloques revestidos de madera a 1850 m, en plena pineda de alerces sobre el valle del Durance, y pasa por la cresta hacia Vars para sumar 185 km de pistas soleadas. La orientación y la latitud meridional regalan largas jornadas de cielo azul, mientras que las pistas entre árboles brillan cuando empeora el tiempo. Atrae una alegre mezcla de familias francesas y jóvenes snowboarders, con precios muy por debajo de las grandes estaciones de la Tarentaise, más al norte.",
+      "pt": "Risoul escalona-se em blocos revestidos de madeira a 1850 m, em plena floresta de lariços acima do vale do Durance, e passa pela crista para Vars, somando 185 km de pistas solarengas. A exposição e a latitude meridional oferecem longos dias de céu azul, enquanto as pistas entre árvores ganham todo o sentido quando o tempo piora. Atrai uma alegre mistura de famílias francesas e jovens snowboarders, com preços bem abaixo das grandes estâncias da Tarentaise, mais a norte."
+    },
+    "pisteCounts": {
+      "green": 11,
+      "blue": 24,
+      "red": 28,
+      "black": 9
+    }
+  },
+  {
+    "slug": "vars",
+    "name": "Vars",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.583,
+    "lng": 6.702,
+    "altitudeBase": 1850,
+    "altitudeSummit": 2750,
+    "pistesKm": 185,
+    "lifts": 51,
+    "skiInSkiOutNote": {
+      "en": "Vars spreads across four hamlets, with the purpose-built Vars Les Claux offering true ski-in/ski-out right on the snow-front.",
+      "fr": "Vars se répartit en quatre hameaux, et la partie construite de Vars Les Claux propose un vrai ski-in/ski-out directement sur le front de neige.",
+      "es": "Vars se reparte en cuatro aldeas, y la parte construida de Vars Les Claux ofrece un verdadero ski-in/ski-out directamente en el frente de nieve.",
+      "pt": "Vars distribui-se por quatro lugarejos, e a parte construída de Vars Les Claux oferece um verdadeiro ski-in/ski-out diretamente no sopé das pistas."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 79,
+    "vibes": [
+      "sunny",
+      "family",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Vars pairs an old Alpine village with a slope-side resort and shares the 185 km Forêt Blanche domain with neighbouring Risoul. It is sunny, family-friendly and home to one of the world's fastest speed-skiing tracks.",
+      "fr": "Vars associe un vieux village alpin à une station au pied des pistes et partage avec Risoul le domaine de la Forêt Blanche, 185 km. Ensoleillée et familiale, elle abrite l'une des pistes de kilomètre lancé les plus rapides au monde.",
+      "es": "Vars combina un viejo pueblo alpino con una estación a pie de pista y comparte con Risoul el dominio de la Forêt Blanche, 185 km. Soleada y familiar, alberga una de las pistas de kilómetro lanzado más rápidas del mundo.",
+      "pt": "Vars combina uma antiga aldeia alpina com uma estância no sopé das pistas e partilha com Risoul o domínio da Forêt Blanche, 185 km. Solarenga e familiar, alberga uma das pistas de quilómetro lançado mais rápidas do mundo."
+    },
+    "longDescription": {
+      "en": "Strung along the road to the Col de Vars, the resort mixes the old stone hamlet of Sainte-Marie with the convenient, slope-side blocks of Les Claux. From here you ski the whole Forêt Blanche, 185 km shared with Risoul over the hill, with sweeping sunny reds and gentle nursery areas alike. Vars is also a temple of speed: its Chabrières track regularly hosts speed-skiing records well beyond 250 km/h, yet the rest of the mountain stays relaxed and family-minded.",
+      "fr": "Étirée le long de la route du col de Vars, la station mêle le vieux hameau de pierre de Sainte-Marie aux immeubles pratiques et skis aux pieds des Claux. De là, on parcourt toute la Forêt Blanche, 185 km partagés avec Risoul de l'autre côté de la crête, entre grandes rouges ensoleillées et espaces débutants tout doux. Vars est aussi un temple de la vitesse : sa piste de Chabrières accueille régulièrement des records de kilomètre lancé bien au-delà de 250 km/h, alors que le reste du domaine reste paisible et familial.",
+      "es": "Estirada a lo largo de la carretera del Col de Vars, la estación mezcla la vieja aldea de piedra de Sainte-Marie con los prácticos bloques a pie de pista de Les Claux. Desde aquí se recorre toda la Forêt Blanche, 185 km compartidos con Risoul al otro lado de la loma, entre amplias rojas soleadas y suaves zonas de debutantes. Vars es además un templo de la velocidad: su pista de Chabrières acoge con regularidad récords de kilómetro lanzado muy por encima de 250 km/h, mientras el resto de la montaña sigue tranquila y familiar.",
+      "pt": "Estendida ao longo da estrada do Col de Vars, a estância mistura a velha aldeia de pedra de Sainte-Marie com os práticos blocos no sopé das pistas de Les Claux. A partir daqui percorre-se toda a Forêt Blanche, 185 km partilhados com Risoul do outro lado da crista, entre amplas vermelhas solarengas e suaves zonas de iniciação. Vars é também um templo da velocidade: a sua pista de Chabrières acolhe com regularidade recordes de quilómetro lançado bem acima dos 250 km/h, enquanto o resto da montanha se mantém tranquila e familiar."
+    },
+    "pisteCounts": {
+      "green": 11,
+      "blue": 24,
+      "red": 28,
+      "black": 9
+    }
+  },
+  {
+    "slug": "pra-loup",
+    "name": "Pra-Loup",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.364,
+    "lng": 6.606,
+    "altitudeBase": 1600,
+    "altitudeSummit": 2600,
+    "pistesKm": 180,
+    "lifts": 52,
+    "skiInSkiOutNote": {
+      "en": "The purpose-built tiers of Pra Loup 1600 sit right on the snow-front, so most apartments there are genuinely ski-in/ski-out.",
+      "fr": "Les immeubles de Pra Loup 1600 sont posés sur le front de neige : la plupart des appartements y sont vraiment ski-in/ski-out.",
+      "es": "Los bloques de Pra Loup 1600 se asientan sobre el frente de nieve, así que la mayoría de los apartamentos son de verdad ski-in/ski-out.",
+      "pt": "Os blocos de Pra Loup 1600 assentam no sopé das pistas, por isso a maioria dos apartamentos é mesmo ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 77,
+    "vibes": [
+      "sunny",
+      "family",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Above Barcelonnette in the Ubaye, Pra-Loup is a relaxed, sun-soaked resort linked to La Foux d'Allos to form the 180 km Espace Lumière. Larch woods, southern light and an easy pace define it.",
+      "fr": "Au-dessus de Barcelonnette dans l'Ubaye, Pra-Loup est une station décontractée et gorgée de soleil, reliée à La Foux d'Allos pour former l'Espace Lumière et ses 180 km. Forêts de mélèzes, lumière du Sud et rythme tranquille en font le caractère.",
+      "es": "Sobre Barcelonnette, en el Ubaye, Pra-Loup es una estación relajada y bañada de sol, unida a La Foux d'Allos para formar el Espace Lumière y sus 180 km. Bosques de alerces, luz del Sur y un ritmo tranquilo marcan su carácter.",
+      "pt": "Acima de Barcelonnette, no Ubaye, Pra-Loup é uma estância descontraída e cheia de sol, ligada a La Foux d'Allos para formar o Espace Lumière e os seus 180 km. Florestas de lariços, luz do Sul e um ritmo tranquilo definem-lhe o carácter."
+    },
+    "longDescription": {
+      "en": "Pra-Loup looks south over the Ubaye valley from two levels, 1500 and 1600, with lifts climbing into airy bowls and a long link to La Foux d'Allos that opens up 180 km of the Espace Lumière. The southern Alps deliver reliable sunshine and the larch forests give shelter and atmosphere on the lower runs. It is unpretentious and good value, a favourite of skiers from Provence and the Riviera who want big-mountain terrain without big-resort prices.",
+      "fr": "Pra-Loup regarde le sud et la vallée de l'Ubaye depuis deux niveaux, 1500 et 1600, avec des remontées qui grimpent vers des combes aériennes et une longue liaison avec La Foux d'Allos ouvrant 180 km d'Espace Lumière. Les Alpes du Sud garantissent un ensoleillement fiable et les forêts de mélèzes apportent abri et atmosphère sur les pistes du bas. Sans prétention et d'un bon rapport qualité-prix, c'est le rendez-vous des skieurs de Provence et de la Côte d'Azur qui veulent du grand ski sans les tarifs des grandes stations.",
+      "es": "Pra-Loup mira al sur sobre el valle del Ubaye desde dos niveles, 1500 y 1600, con remontes que suben a circos aéreos y un largo enlace con La Foux d'Allos que abre 180 km del Espace Lumière. Los Alpes del Sur garantizan un sol fiable y los bosques de alerces aportan abrigo y ambiente en las pistas bajas. Sin pretensiones y con buena relación calidad-precio, es la cita de los esquiadores de la Provenza y la Costa Azul que buscan gran montaña sin precios de gran estación.",
+      "pt": "Pra-Loup olha para sul sobre o vale do Ubaye a partir de dois níveis, 1500 e 1600, com teleféricos que sobem para circos aéreos e uma longa ligação a La Foux d'Allos que abre 180 km do Espace Lumière. Os Alpes do Sul garantem sol fiável e as florestas de lariços trazem abrigo e ambiente nas pistas mais baixas. Sem pretensões e com boa relação qualidade-preço, é o ponto de encontro dos esquiadores da Provença e da Riviera que querem grande montanha sem os preços das grandes estâncias."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 22,
+      "red": 28,
+      "black": 9
+    }
+  },
+  {
+    "slug": "isola-2000",
+    "name": "Isola 2000",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.186,
+    "lng": 7.153,
+    "altitudeBase": 2000,
+    "altitudeSummit": 2610,
+    "pistesKm": 120,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "Designed as a compact ski-in/ski-out resort at 2000 m, Isola 2000 puts almost every bed within ski distance of the snow-front.",
+      "fr": "Conçue comme une station ski-in/ski-out compacte à 2000 m, Isola 2000 place presque tous les lits à portée de skis du front de neige.",
+      "es": "Diseñada como una estación ski-in/ski-out compacta a 2000 m, Isola 2000 sitúa casi todas las camas a un paso de esquí del frente de nieve.",
+      "pt": "Concebida como uma estância ski-in/ski-out compacta a 2000 m, Isola 2000 coloca quase todas as camas a um passo de esqui do sopé das pistas."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "high-altitude",
+      "sunny",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "An hour and a half from Nice, Isola 2000 is the snow-sure high point of the Maritime Alps, where you can ski in the morning and see the Mediterranean by afternoon. Built at 2000 m, it is compact, sunny and reliably white.",
+      "fr": "À une heure et demie de Nice, Isola 2000 est le point culminant et le plus sûr en neige des Alpes-Maritimes : on y skie le matin et on aperçoit la Méditerranée l'après-midi. Bâtie à 2000 m, elle est compacte, ensoleillée et fidèlement enneigée.",
+      "es": "A hora y media de Niza, Isola 2000 es el punto alto y más seguro de nieve de los Alpes Marítimos: esquías por la mañana y ves el Mediterráneo por la tarde. Construida a 2000 m, es compacta, soleada y de nieve fiable.",
+      "pt": "A hora e meia de Nice, Isola 2000 é o ponto alto e mais seguro em neve dos Alpes Marítimos: esquia-se de manhã e avista-se o Mediterrâneo à tarde. Construída a 2000 m, é compacta, solarenga e de neve fiável."
+    },
+    "longDescription": {
+      "en": "Closer to the sea than any other proper ski area, Isola 2000 rises in the Mercantour just inland from the Côte d'Azur, with a 2000 m base that keeps the 120 km of piste reliably snowy and gloriously sunny. The layout is famously convenient: ski straight back to your door, with terrain spanning gentle beginner slopes and steep, often empty off-piste up at 2600 m. It is a genuine sea-and-ski destination, popular with locals from Nice for quick weekend hits.",
+      "fr": "Plus proche de la mer que tout autre vrai domaine, Isola 2000 s'élève dans le Mercantour, juste en retrait de la Côte d'Azur, avec une base à 2000 m qui garde ses 120 km de pistes fidèlement enneigés et superbement ensoleillés. Le plan de la station est réputé pratique : on rentre skis aux pieds jusqu'à sa porte, sur un terrain qui va des pentes débutantes douces au hors-piste raide, souvent désert, vers 2600 m. C'est une vraie destination mer et montagne, prisée des Niçois pour une escapade le temps d'un week-end.",
+      "es": "Más cerca del mar que cualquier otro dominio de verdad, Isola 2000 se alza en el Mercantour, justo tierra adentro de la Costa Azul, con una base a 2000 m que mantiene sus 120 km de pistas fiablemente nevados y espléndidamente soleados. El trazado es famoso por su comodidad: vuelves esquiando hasta tu puerta, en un terreno que va de suaves pendientes de debutante al fuera de pista empinado, a menudo desierto, hacia los 2600 m. Es un auténtico destino de mar y montaña, muy querido por los niceños para una escapada de fin de semana.",
+      "pt": "Mais perto do mar do que qualquer outro domínio a sério, Isola 2000 ergue-se no Mercantour, logo a seguir à Riviera francesa, com uma base a 2000 m que mantém os seus 120 km de pistas fielmente nevados e esplendidamente solarengos. O traçado é famoso pela comodidade: regressa-se a esquiar até à porta, num terreno que vai das suaves encostas de iniciação ao fora-de-pista íngreme, muitas vezes deserto, lá por cima aos 2600 m. É um verdadeiro destino de mar e montanha, muito apreciado pelos habitantes de Nice para uma escapadela de fim de semana."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 16,
+      "red": 18,
+      "black": 7
+    }
+  },
+  {
+    "slug": "saint-gervais",
+    "name": "Saint-Gervais",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.8917,
+    "lng": 6.7119,
+    "altitudeBase": 850,
+    "altitudeSummit": 2350,
+    "pistesKm": 400,
+    "lifts": 100,
+    "skiInSkiOutNote": {
+      "en": "Saint-Gervais is a real working spa town, so most stays are in-town rather than slope-side; the lifts at Le Bettex and the Mont d'Arbois gondola are a short ride away.",
+      "fr": "Saint-Gervais est une véritable ville thermale : on loge plutôt en ville qu'au pied des pistes, à quelques minutes des remontées du Bettex et de la télécabine du Mont d'Arbois.",
+      "es": "Saint-Gervais es una auténtica ciudad termal: se aloja más en el pueblo que a pie de pista, a pocos minutos de los remontes de Le Bettex y de la telecabina del Mont d'Arbois.",
+      "pt": "Saint-Gervais é uma autêntica vila termal: fica-se mais na vila do que no sopé das pistas, a poucos minutos dos teleféricos de Le Bettex e do telecabine do Mont d'Arbois."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "thermal",
+      "scenic",
+      "family"
+    ],
+    "intro": {
+      "en": "A Belle Époque spa town in the shadow of Mont Blanc, Saint-Gervais skis the 400 km Évasion Mont-Blanc domain it shares with Megève. Thermal baths, a working town and grand views set it apart.",
+      "fr": "Ville thermale Belle Époque au pied du Mont Blanc, Saint-Gervais skie sur le domaine Évasion Mont-Blanc, 400 km partagés avec Megève. Thermes, vraie vie de ville et panoramas grandioses font sa différence.",
+      "es": "Ciudad termal Belle Époque a los pies del Mont Blanc, Saint-Gervais esquía en el dominio Évasion Mont-Blanc, 400 km compartidos con Megève. Termas, vida de pueblo de verdad y vistas grandiosas marcan la diferencia.",
+      "pt": "Vila termal Belle Époque aos pés do Mont Blanc, Saint-Gervais esquia no domínio Évasion Mont-Blanc, 400 km partilhados com Megève. Termas, vida de vila a sério e vistas grandiosas fazem a diferença."
+    },
+    "longDescription": {
+      "en": "Saint-Gervais-les-Bains is that rare thing in the Alps, a proper town with shops, thermal baths and year-round life, set on a balcony beneath Mont Blanc. Its slopes at Le Bettex feed straight into the 400 km Évasion Mont-Blanc domain shared with Megève, mostly gentle, tree-lined and beautifully scenic. The famous rack railway, the Tramway du Mont-Blanc, climbs from town toward the Bionnassay glacier, a reminder that this is mountaineering country as much as a ski resort.",
+      "fr": "Saint-Gervais-les-Bains est une rareté dans les Alpes : une vraie ville, avec commerces, thermes et vie à l'année, posée sur un balcon sous le Mont Blanc. Ses pistes du Bettex donnent directement sur le domaine Évasion Mont-Blanc, 400 km partagés avec Megève, plutôt doux, boisés et magnifiquement panoramiques. Le célèbre train à crémaillère, le Tramway du Mont-Blanc, grimpe depuis la ville vers le glacier de Bionnassay, rappel que l'on est ici en terre d'alpinisme autant qu'en station de ski.",
+      "es": "Saint-Gervais-les-Bains es una rareza en los Alpes: una ciudad de verdad, con comercios, termas y vida todo el año, asomada a un balcón bajo el Mont Blanc. Sus pistas de Le Bettex dan directamente al dominio Évasion Mont-Blanc, 400 km compartidos con Megève, en su mayoría suaves, arboladas y de gran belleza. El famoso tren de cremallera, el Tramway du Mont-Blanc, sube desde la ciudad hacia el glaciar de Bionnassay, recordando que esto es tierra de alpinismo tanto como estación de esquí.",
+      "pt": "Saint-Gervais-les-Bains é uma raridade nos Alpes: uma cidade a sério, com comércio, termas e vida todo o ano, debruçada sobre uma varanda por baixo do Mont Blanc. As suas pistas de Le Bettex dão diretamente para o domínio Évasion Mont-Blanc, 400 km partilhados com Megève, na maioria suaves, arborizadas e de grande beleza. O famoso comboio de cremalheira, o Tramway du Mont-Blanc, sobe desde a cidade rumo ao glaciar de Bionnassay, a lembrar que isto é terra de alpinismo tanto como estância de esqui."
+    },
+    "pisteCounts": {
+      "green": 35,
+      "blue": 45,
+      "red": 35,
+      "black": 10
+    }
+  },
+  {
+    "slug": "ax-3-domaines",
+    "name": "Ax 3 Domaines",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.705,
+    "lng": 1.835,
+    "altitudeBase": 1400,
+    "altitudeSummit": 2400,
+    "pistesKm": 80,
+    "lifts": 17,
+    "skiInSkiOutNote": {
+      "en": "The lifts start at Ax 1400 (Bonascre); a few residences at the Bonascre snow-front are ski-in/ski-out, while most visitors stay down in the spa town of Ax-les-Thermes and ride the gondola up.",
+      "fr": "Les remontées partent d'Ax 1400 (Bonascre) ; quelques résidences sur le front de neige de Bonascre sont ski-in/ski-out, tandis que la plupart logent en bas, dans la ville thermale d'Ax-les-Thermes, et montent en télécabine.",
+      "es": "Los remontes salen de Ax 1400 (Bonascre); algunas residencias en el frente de nieve de Bonascre son ski-in/ski-out, mientras que la mayoría se aloja abajo, en la ciudad termal de Ax-les-Thermes, y sube en telecabina.",
+      "pt": "Os teleféricos partem de Ax 1400 (Bonascre); algumas residências no sopé das pistas de Bonascre são ski-in/ski-out, enquanto a maioria fica em baixo, na vila termal de Ax-les-Thermes, e sobe de telecabine."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "thermal",
+      "value",
+      "family"
+    ],
+    "intro": {
+      "en": "Above the thermal town of Ax-les-Thermes in the Ariège, Ax 3 Domaines climbs from 1400 to 2400 m over three linked sectors. Reliable eastern-Pyrenees snow and steaming hot springs make it a fine value escape.",
+      "fr": "Au-dessus de la ville thermale d'Ax-les-Thermes, en Ariège, Ax 3 Domaines s'élève de 1400 à 2400 m sur trois secteurs reliés. Un enneigement fiable pour les Pyrénées et des bains chauds fumants en font une escapade au bon rapport qualité-prix.",
+      "es": "Sobre la ciudad termal de Ax-les-Thermes, en el Ariège, Ax 3 Domaines sube de 1400 a 2400 m por tres sectores enlazados. Una nieve fiable para los Pirineos y humeantes baños termales lo convierten en una escapada de buena relación calidad-precio.",
+      "pt": "Acima da vila termal de Ax-les-Thermes, no Ariège, Ax 3 Domaines sobe de 1400 a 2400 m por três setores ligados. Uma neve fiável para os Pirenéus e fumegantes banhos termais fazem dele uma escapadela de boa relação qualidade-preço."
+    },
+    "longDescription": {
+      "en": "Ax 3 Domaines spreads across the sunny sectors of Bonascre, Saquet and Les Campels in the high Ariège, with 80 km of piste rising to 2400 m and a snow record among the best in the eastern Pyrenees. The skiing suits intermediates especially well, with long cruising reds and wide, gentle blues, and the views stretch deep into Andorra and Spain. Down in the valley, Ax-les-Thermes is a characterful old spa town whose open-air Bassin des Ladres is the perfect place to soak tired legs after a day on the snow.",
+      "fr": "Ax 3 Domaines se déploie sur les secteurs ensoleillés de Bonascre, du Saquet et des Campels, en haute Ariège, avec 80 km de pistes qui montent à 2400 m et un enneigement parmi les meilleurs des Pyrénées orientales. Le ski convient particulièrement aux intermédiaires, entre longues rouges roulantes et bleues larges et douces, avec des vues qui plongent vers l'Andorre et l'Espagne. En bas, Ax-les-Thermes est une vieille ville thermale pleine de caractère, dont le Bassin des Ladres en plein air est l'endroit rêvé pour délasser les jambes après le ski.",
+      "es": "Ax 3 Domaines se despliega por los soleados sectores de Bonascre, Saquet y Les Campels, en el alto Ariège, con 80 km de pistas que suben a 2400 m y un manto de nieve de los mejores de los Pirineos orientales. El esquí va de maravilla a los intermedios, entre largas rojas rodadoras y azules anchas y suaves, con vistas que se asoman a Andorra y España. Abajo, Ax-les-Thermes es una vieja ciudad termal con carácter, cuyo Bassin des Ladres al aire libre es el lugar ideal para relajar las piernas tras un día en la nieve.",
+      "pt": "Ax 3 Domaines desdobra-se pelos solarengos setores de Bonascre, Saquet e Les Campels, no alto Ariège, com 80 km de pistas que sobem a 2400 m e um manto de neve dos melhores dos Pirenéus orientais. O esqui assenta especialmente bem aos intermédios, entre longas vermelhas roladoras e azuis largas e suaves, com vistas que se debruçam sobre Andorra e Espanha. Em baixo, Ax-les-Thermes é uma velha vila termal cheia de carácter, cujo Bassin des Ladres ao ar livre é o sítio ideal para descansar as pernas depois de um dia na neve."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 13,
+      "red": 14,
+      "black": 4
+    }
+  },
+  {
+    "slug": "les-angles",
+    "name": "Les Angles",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.568,
+    "lng": 2.075,
+    "altitudeBase": 1600,
+    "altitudeSummit": 2400,
+    "pistesKm": 55,
+    "lifts": 19,
+    "skiInSkiOutNote": {
+      "en": "Les Angles is a village resort: a few snow-front residences are ski-in/ski-out, while the village core sits just below the slopes with a lift rising straight from the centre.",
+      "fr": "Les Angles est une station-village : quelques résidences sur le front de neige sont ski-in/ski-out, tandis que le cœur du village se trouve juste sous les pistes, avec une remontée qui part du centre.",
+      "es": "Les Angles es una estación-pueblo: algunas residencias en el frente de nieve son ski-in/ski-out, mientras que el núcleo del pueblo queda justo bajo las pistas, con un remonte que sale del centro.",
+      "pt": "Les Angles é uma estância-aldeia: algumas residências no sopé das pistas são ski-in/ski-out, enquanto o centro da aldeia fica logo abaixo das pistas, com um teleférico que parte do centro."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 79,
+    "vibes": [
+      "family",
+      "sunny",
+      "value"
+    ],
+    "intro": {
+      "en": "On the sunny Capcir plateau in the Catalan Pyrenees, Les Angles drops from 2400 m through pine forest to a friendly lakeside village. Sunshine, varied runs and great value make it a southern favourite.",
+      "fr": "Sur le plateau ensoleillé du Capcir, dans les Pyrénées catalanes, Les Angles descend de 2400 m à travers la forêt de pins jusqu'à un village convivial au bord du lac. Soleil, pistes variées et bon rapport qualité-prix en font un favori du Sud.",
+      "es": "En el soleado altiplano del Capcir, en los Pirineos catalanes, Les Angles baja desde 2400 m entre pinares hasta un acogedor pueblo junto al lago. Sol, pistas variadas y buena relación calidad-precio lo hacen un favorito del Sur.",
+      "pt": "No solarengo planalto do Capcir, nos Pirenéus catalães, Les Angles desce de 2400 m por entre pinhais até uma acolhedora aldeia à beira do lago. Sol, pistas variadas e boa relação qualidade-preço fazem dele um favorito do Sul."
+    },
+    "longDescription": {
+      "en": "Les Angles looks out over the Matemale lake from the high Capcir, one of the sunniest corners of the French Pyrenees, with 55 km of piste threading down through pine forest from 2400 m. The mix is unusually complete for its size, from a dedicated beginners' area to genuinely steep blacks off the Pic de Bernard Etienne, and the tree cover keeps things skiable in poor light. The village is relaxed and Catalan to the core, with a small wildlife park and an easy, family atmosphere far from the Alpine crowds.",
+      "fr": "Les Angles domine le lac de Matemale depuis le haut Capcir, l'un des coins les plus ensoleillés des Pyrénées françaises, avec 55 km de pistes qui se faufilent dans la forêt de pins depuis 2400 m. L'éventail est étonnamment complet pour sa taille, d'un véritable espace débutants à des noires bien raides sous le Pic de Bernard Etienne, et le couvert forestier garde tout cela skiable par mauvaise lumière. Le village est tranquille et catalan jusqu'au bout, avec un petit parc animalier et une ambiance familiale, loin de la foule des Alpes.",
+      "es": "Les Angles domina el lago de Matemale desde el alto Capcir, uno de los rincones más soleados de los Pirineos franceses, con 55 km de pistas que se cuelan entre pinares desde 2400 m. El abanico es sorprendentemente completo para su tamaño, desde una buena zona de debutantes hasta negras bien empinadas bajo el Pic de Bernard Etienne, y la masa de árboles lo mantiene esquiable con mala luz. El pueblo es tranquilo y catalán hasta la médula, con un pequeño parque de animales y un ambiente familiar, lejos del gentío de los Alpes.",
+      "pt": "Les Angles domina o lago de Matemale a partir do alto Capcir, um dos cantos mais solarengos dos Pirenéus franceses, com 55 km de pistas que serpenteiam por entre pinhais desde os 2400 m. O leque é surpreendentemente completo para o seu tamanho, de uma boa zona de iniciação a negras bem íngremes sob o Pic de Bernard Etienne, e o coberto florestal mantém tudo esquiável com pouca luz. A aldeia é tranquila e catalã até à medula, com um pequeno parque de animais e um ambiente familiar, longe da multidão dos Alpes."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 13,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "candanchu",
+    "name": "Candanchú",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.785,
+    "lng": -0.522,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2400,
+    "pistesKm": 50,
+    "lifts": 24,
+    "skiInSkiOutNote": {
+      "en": "Candanchú is a slope-side cluster of hotels right at the lifts by the Somport pass, so most beds are a few steps from the snow; the larger town of Jaca lies down the valley.",
+      "fr": "Candanchú est un petit ensemble d'hôtels au pied des remontées, près du col du Somport : la plupart des lits sont à quelques pas de la neige, la ville de Jaca étant plus bas dans la vallée.",
+      "es": "Candanchú es un pequeño conjunto de hoteles a pie de los remontes, junto al puerto del Somport: la mayoría de las camas están a unos pasos de la nieve, con la ciudad de Jaca más abajo en el valle.",
+      "pt": "Candanchú é um pequeno conjunto de hotéis no sopé dos teleféricos, junto ao porto do Somport: a maioria das camas fica a poucos passos da neve, com a cidade de Jaca mais abaixo no vale."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "snow-sure",
+      "value"
+    ],
+    "intro": {
+      "en": "One of Spain's oldest ski resorts, Candanchú sits at the Somport pass on the Aragonese border with France. North-facing and snowy, it is a magnet for off-piste skiers and old-school mountain lovers.",
+      "fr": "L'une des plus anciennes stations d'Espagne, Candanchú se niche au col du Somport, à la frontière aragonaise avec la France. Orientée nord et bien enneigée, elle attire les amateurs de hors-piste et de montagne à l'ancienne.",
+      "es": "Una de las estaciones más antiguas de España, Candanchú se asienta en el puerto del Somport, en la frontera aragonesa con Francia. Orientada al norte y nevada, es un imán para los amantes del fuera de pista y de la montaña de siempre.",
+      "pt": "Uma das estâncias mais antigas de Espanha, Candanchú assenta no porto do Somport, na fronteira aragonesa com a França. Virada a norte e nevada, é um íman para os apaixonados do fora-de-pista e da montanha à antiga."
+    },
+    "longDescription": {
+      "en": "Skiing began at Candanchú in 1928, and the resort still feels gloriously old-fashioned, a cluster of mountain hotels at the foot of north-facing slopes right by the Somport tunnel into France. Its 50 km of piste hide a surprising amount of serious terrain, with steep couloirs and long off-piste lines that draw expert skiers from across northern Spain. Modern neighbour Astún is minutes away by road, but Candanchú keeps its own rugged, mountaineering character and some of the most dependable snow in the Aragonese Pyrenees.",
+      "fr": "Le ski est né à Candanchú en 1928, et la station garde un charme délicieusement désuet : un groupe d'hôtels de montagne au pied de pentes orientées nord, juste à côté du tunnel du Somport vers la France. Ses 50 km de pistes cachent une dose surprenante de terrain sérieux, avec des couloirs raides et de longues lignes de hors-piste qui attirent les experts de tout le nord de l'Espagne. Sa voisine moderne Astún est à quelques minutes par la route, mais Candanchú conserve son caractère brut et montagnard, et l'un des enneigements les plus fiables des Pyrénées aragonaises.",
+      "es": "El esquí nació en Candanchú en 1928, y la estación conserva un encanto deliciosamente antiguo: un grupo de hoteles de montaña al pie de laderas orientadas al norte, justo al lado del túnel del Somport hacia Francia. Sus 50 km de pistas esconden una sorprendente dosis de terreno serio, con couloirs empinados y largas líneas de fuera de pista que atraen a los expertos de todo el norte de España. Su vecina moderna Astún queda a pocos minutos por carretera, pero Candanchú mantiene su carácter recio y montañero, y uno de los mantos de nieve más fiables del Pirineo aragonés.",
+      "pt": "O esqui nasceu em Candanchú em 1928, e a estância conserva um encanto deliciosamente antigo: um grupo de hotéis de montanha no sopé de encostas viradas a norte, mesmo ao lado do túnel do Somport para a França. Os seus 50 km de pistas escondem uma surpreendente dose de terreno sério, com corredores íngremes e longas linhas de fora-de-pista que atraem os experientes de todo o norte de Espanha. A vizinha moderna Astún fica a poucos minutos de carro, mas Candanchú mantém o seu carácter rude e montanhês, e um dos mantos de neve mais fiáveis dos Pirenéus aragoneses."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 11,
+      "red": 16,
+      "black": 7
+    }
+  },
+  {
+    "slug": "la-molina",
+    "name": "La Molina",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.337,
+    "lng": 1.958,
+    "altitudeBase": 1700,
+    "altitudeSummit": 2537,
+    "pistesKm": 70,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "La Molina spreads between a valley-floor village by the railway and the slope-side Supermolina, where several hotels and apartments are true ski-in/ski-out.",
+      "fr": "La Molina se partage entre un village de fond de vallée près de la voie ferrée et le secteur de Supermolina, au pied des pistes, où plusieurs hôtels et appartements sont vraiment ski-in/ski-out.",
+      "es": "La Molina se reparte entre un pueblo en el fondo del valle junto a la vía del tren y el sector de Supermolina, a pie de pista, donde varios hoteles y apartamentos son de verdad ski-in/ski-out.",
+      "pt": "La Molina divide-se entre uma aldeia no fundo do vale junto à linha de comboio e o setor de Supermolina, no sopé das pistas, onde vários hotéis e apartamentos são mesmo ski-in/ski-out."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "historic",
+      "value"
+    ],
+    "intro": {
+      "en": "Spain's birthplace of skiing, La Molina has been running lifts in the Catalan Cerdanya since the 1940s. Sunny, family-friendly and reachable by train from Barcelona, it links with Masella as the 140 km Alp 2500.",
+      "fr": "Berceau du ski espagnol, La Molina fait tourner ses remontées dans la Cerdagne catalane depuis les années 1940. Ensoleillée, familiale et accessible en train depuis Barcelone, elle se relie à Masella pour former Alp 2500 et ses 140 km.",
+      "es": "Cuna del esquí español, La Molina mueve sus remontes en la Cerdaña catalana desde los años 1940. Soleada, familiar y accesible en tren desde Barcelona, se une a Masella para formar Alp 2500 y sus 140 km.",
+      "pt": "Berço do esqui espanhol, La Molina faz girar os seus teleféricos na Cerdanha catalã desde os anos 1940. Solarenga, familiar e acessível de comboio desde Barcelona, liga-se a Masella para formar Alp 2500 e os seus 140 km."
+    },
+    "longDescription": {
+      "en": "La Molina holds a special place in Spanish skiing as the country's first resort, with lifts turning here since 1943, and it remains a sunny, welcoming place to learn. Its 70 km of well-groomed piste roll down from the 2537 m Tosa d'Alp and link over the top with Masella to make Alp 2500, around 140 km in all. The train from Barcelona stops right at the foot of the slopes, making it one of the easiest big resorts in the Pyrenees to reach without a car, and a reliable family weekend favourite for Catalans.",
+      "fr": "La Molina occupe une place à part dans le ski espagnol en tant que première station du pays, avec des remontées en service depuis 1943, et reste un lieu ensoleillé et accueillant pour apprendre. Ses 70 km de pistes bien damées descendent de la Tosa d'Alp à 2537 m et rejoignent Masella par le haut pour former Alp 2500, environ 140 km au total. Le train depuis Barcelone s'arrête au pied même des pistes, ce qui en fait l'une des grandes stations des Pyrénées les plus faciles à rejoindre sans voiture, et un rendez-vous familial sûr pour les Catalans le week-end.",
+      "es": "La Molina ocupa un lugar especial en el esquí español como la primera estación del país, con remontes en marcha desde 1943, y sigue siendo un sitio soleado y acogedor para aprender. Sus 70 km de pistas bien pisadas bajan desde la Tosa d'Alp, a 2537 m, y enlazan por arriba con Masella para formar Alp 2500, unos 140 km en total. El tren desde Barcelona para al pie mismo de las pistas, lo que la convierte en una de las grandes estaciones del Pirineo más fáciles de alcanzar sin coche, y un seguro fin de semana familiar para los catalanes.",
+      "pt": "La Molina ocupa um lugar especial no esqui espanhol como a primeira estância do país, com teleféricos em funcionamento desde 1943, e continua a ser um sítio solarengo e acolhedor para aprender. Os seus 70 km de pistas bem pisadas descem da Tosa d'Alp, a 2537 m, e ligam-se por cima a Masella para formar Alp 2500, cerca de 140 km no total. O comboio desde Barcelona para mesmo no sopé das pistas, o que faz dela uma das grandes estâncias dos Pirenéus mais fáceis de alcançar sem carro, e um seguro fim de semana familiar para os catalães."
+    },
+    "pisteCounts": {
+      "green": 9,
+      "blue": 15,
+      "red": 14,
+      "black": 5
+    }
   }
 ]

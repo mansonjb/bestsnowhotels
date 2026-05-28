@@ -64,6 +64,18 @@ const RESORT_SITES: Record<string, string> = {
   montgenevre: 'https://www.montgenevre.com',
   'les-saisies': 'https://www.lessaisies.com',
   'le-grand-bornand': 'https://www.legrandbornand.com',
+  'sainte-foy-tarentaise': 'https://www.saintefoy-tarentaise.com',
+  'val-cenis': 'https://www.valcenis.com',
+  vaujany: 'https://www.vaujany.com',
+  risoul: 'https://www.risoul.com',
+  vars: 'https://www.vars.com',
+  'pra-loup': 'https://www.praloup.com',
+  'isola-2000': 'https://www.isola2000.com',
+  'saint-gervais': 'https://www.saintgervais.com',
+  'ax-3-domaines': 'https://www.ax-ski.com',
+  'les-angles': 'https://www.lesangles.com',
+  candanchu: 'https://www.candanchu.com',
+  'la-molina': 'https://www.lamolina.cat',
 }
 
 export function resortSite(slug: string): string | null {

@@ -84,6 +84,18 @@ const TARGETS = [
   { slug: 'montgenevre',          query: 'Montgenevre ski resort Via Lattea French Alps panorama winter snow' },
   { slug: 'les-saisies',          query: 'Les Saisies ski resort Beaufortain Mont Blanc French Alps panorama winter snow' },
   { slug: 'le-grand-bornand',     query: 'Le Grand-Bornand ski resort Aravis French Alps panorama winter snow village' },
+  { slug: 'sainte-foy-tarentaise', query: 'Sainte-Foy-Tarentaise ski resort Tarentaise French Alps freeride panorama winter snow village' },
+  { slug: 'val-cenis',            query: 'Val Cenis ski resort Haute-Maurienne French Alps panorama winter snow village' },
+  { slug: 'vaujany',              query: 'Vaujany ski village Alpe d\'Huez Grand Domaine Oisans French Alps panorama winter snow' },
+  { slug: 'risoul',               query: 'Risoul 1850 ski resort Foret Blanche Hautes-Alpes French Alps panorama winter snow' },
+  { slug: 'vars',                 query: 'Vars Les Claux ski resort Foret Blanche Hautes-Alpes French Alps panorama winter snow' },
+  { slug: 'pra-loup',             query: 'Pra-Loup ski resort Ubaye Barcelonnette southern French Alps panorama winter snow' },
+  { slug: 'isola-2000',           query: 'Isola 2000 ski resort Mercantour Maritime Alps French Alps panorama winter snow' },
+  { slug: 'saint-gervais',        query: 'Saint-Gervais Mont-Blanc ski resort Le Bettex French Alps panorama winter snow' },
+  { slug: 'ax-3-domaines',        query: 'Ax 3 Domaines ski resort Ax-les-Thermes Ariege Pyrenees panorama winter snow' },
+  { slug: 'les-angles',           query: 'Les Angles ski resort Capcir Catalan Pyrenees panorama winter snow village lake' },
+  { slug: 'candanchu',            query: 'Candanchu ski resort Somport Aragon Pyrenees Spain panorama winter snow' },
+  { slug: 'la-molina',            query: 'La Molina ski resort Cerdanya Catalan Pyrenees Spain panorama winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

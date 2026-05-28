@@ -3,13 +3,13 @@
 You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-out hotels across the Alps and Pyrenees.
 
 ## Stack
-- **Next.js 16.2** (App Router) — note breaking changes from Next.js 14/15, check `node_modules/next/dist/docs/` if unsure
+- **Next.js 16.2** (App Router), note breaking changes from Next.js 14/15, check `node_modules/next/dist/docs/` if unsure
 - **TypeScript** strict mode
 - **Tailwind CSS 4** (no `tailwind.config.js`, uses `@theme` in `app/globals.css`)
 - **next-intl**-style locale routing via Next.js 16 proxy (custom, no `next-intl` package; see `proxy.ts`)
 - **4 languages**: en / fr / es / pt
 - **Stay22 LetMeAllez** for affiliate (lmaID `6a172a3725eb5f0f8532400c`)
-- **No DB**, 41 destinations in `data/destinations.json`
+- **No DB**, 68 destinations in `data/destinations.json`
 
 ## Routing
 - All pages live under `app/[locale]/...`
