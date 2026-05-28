@@ -49,6 +49,21 @@ const RESORT_SITES: Record<string, string> = {
   'font-romeu': 'https://www.font-romeu.fr',
   'grand-tourmalet': 'https://www.grand-tourmalet.com',
   cauterets: 'https://www.cauterets.com',
+  'les-menuires': 'https://www.lesmenuires.com',
+  avoriaz: 'https://www.avoriaz.com',
+  morzine: 'https://www.morzine-avoriaz.com',
+  'les-gets': 'https://www.lesgets.com',
+  megeve: 'https://www.megeve.com',
+  'la-clusaz': 'https://www.laclusaz.com',
+  'les-deux-alpes': 'https://www.les2alpes.com',
+  'la-rosiere': 'https://www.larosiere.net',
+  flaine: 'https://www.flaine.com',
+  samoens: 'https://www.samoens.com',
+  chatel: 'https://www.chatel.com',
+  valmorel: 'https://www.valmorel.com',
+  montgenevre: 'https://www.montgenevre.com',
+  'les-saisies': 'https://www.lessaisies.com',
+  'le-grand-bornand': 'https://www.legrandbornand.com',
 }
 
 export function resortSite(slug: string): string | null {

@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 41 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data and live hotel comparison via Stay22.
+> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 56 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data and live hotel comparison via Stay22.
 
 ## What we cover
 

@@ -69,6 +69,21 @@ const TARGETS = [
   { slug: 'font-romeu',           query: 'Font-Romeu ski resort Cerdagne Pyrenees France panorama winter snow' },
   { slug: 'grand-tourmalet',      query: 'La Mongie Tourmalet Bareges ski resort Pyrenees France panorama winter snow' },
   { slug: 'cauterets',            query: 'Cauterets Cirque du Lys ski resort Pyrenees France panorama winter snow' },
+  { slug: 'les-menuires',         query: 'Les Menuires ski resort Les 3 Vallees French Alps panorama winter snow' },
+  { slug: 'avoriaz',              query: 'Avoriaz ski resort Portes du Soleil French Alps panorama winter snow village' },
+  { slug: 'morzine',              query: 'Morzine ski resort Portes du Soleil French Alps panorama winter snow village' },
+  { slug: 'les-gets',             query: 'Les Gets ski resort Portes du Soleil French Alps panorama winter snow village' },
+  { slug: 'megeve',               query: 'Megeve ski resort Mont Blanc French Alps panorama winter snow village' },
+  { slug: 'la-clusaz',            query: 'La Clusaz ski resort Aravis French Alps panorama winter snow village' },
+  { slug: 'les-deux-alpes',       query: 'Les Deux Alpes ski resort glacier French Alps panorama winter snow' },
+  { slug: 'la-rosiere',           query: 'La Rosiere ski resort Espace San Bernardo French Alps panorama winter snow' },
+  { slug: 'flaine',               query: 'Flaine ski resort Grand Massif French Alps panorama winter snow' },
+  { slug: 'samoens',              query: 'Samoens ski resort Grand Massif French Alps panorama winter snow village' },
+  { slug: 'chatel',               query: 'Chatel ski resort Portes du Soleil French Alps panorama winter snow village' },
+  { slug: 'valmorel',             query: 'Valmorel ski resort Grand Domaine French Alps panorama winter snow village' },
+  { slug: 'montgenevre',          query: 'Montgenevre ski resort Via Lattea French Alps panorama winter snow' },
+  { slug: 'les-saisies',          query: 'Les Saisies ski resort Beaufortain Mont Blanc French Alps panorama winter snow' },
+  { slug: 'le-grand-bornand',     query: 'Le Grand-Bornand ski resort Aravis French Alps panorama winter snow village' },
 ]
 
 async function searchPhoto(query, apiKey) {

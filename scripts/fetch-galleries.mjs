@@ -13,6 +13,7 @@
 import sharp from 'sharp'
 import { createHash } from 'node:crypto'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
+import { existsSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -66,10 +67,19 @@ async function main() {
     await readFile(path.join(ROOT, 'data', 'destinations.json'), 'utf-8'),
   )
 
+  // Keep galleries already fetched (and still present on disk); only work the rest.
+  const existing = JSON.parse(await readFile(GAL, 'utf-8').catch(() => '{}'))
+
   const galleries = {}
   let i = 0
   for (const d of destinations) {
     i++
+    const prior = existing[d.slug]
+    if (prior && prior.length && prior.every((f) => existsSync(path.join(OUT_DIR, f)))) {
+      galleries[d.slug] = prior
+      console.log(`[${i}/${destinations.length}] ${d.slug}: kept ${prior.length} (cached)`)
+      continue
+    }
     // Two angles, interleaved so the slopes and village shots both get a chance.
     const slopes = await searchPhotos(`${d.name} ${d.country} ski slopes winter snow`, apiKey).catch(() => [])
     const village = await searchPhotos(`${d.name} ${d.country} ski village winter snow panorama`, apiKey).catch(() => [])

@@ -22,16 +22,16 @@ export async function generateMetadata({
   if (!hasLocale(locale)) return {}
 
   const titles: Record<Locale, string> = {
-    en: 'Ski-in/ski-out hotels: the 41 best snow resorts in Europe | BestSnowHotels',
-    fr: 'Hôtels ski-in/ski-out : les 41 meilleures stations de ski d\'Europe | BestSnowHotels',
-    es: 'Hoteles ski-in/ski-out : las 41 mejores estaciones de esquí de Europa | BestSnowHotels',
-    pt: 'Hotéis ski-in/ski-out: as 41 melhores estâncias de esqui da Europa | BestSnowHotels',
+    en: 'Ski-in/ski-out hotels: the 56 best snow resorts in Europe | BestSnowHotels',
+    fr: 'Hôtels ski-in/ski-out : les 56 meilleures stations de ski d\'Europe | BestSnowHotels',
+    es: 'Hoteles ski-in/ski-out : las 56 mejores estaciones de esquí de Europa | BestSnowHotels',
+    pt: 'Hotéis ski-in/ski-out: as 56 melhores estâncias de esqui da Europa | BestSnowHotels',
   }
   const descriptions: Record<Locale, string> = {
-    en: 'Browse 41 hand-picked ski resorts in the Alps and Pyrenees with verified ski-in/ski-out hotels. Live maps powered by Stay22 and the best prices across Booking, Expedia and Hotels.com.',
-    fr: 'Parcourez 41 stations triées sur le volet dans les Alpes et les Pyrénées, avec des hôtels ski-in/ski-out vérifiés. Cartes en direct grâce à Stay22 et les meilleurs prix sur Booking, Expedia et Hotels.com.',
-    es: 'Explora 41 estaciones de esquí cuidadosamente seleccionadas en los Alpes y los Pirineos, con hoteles ski-in/ski-out verificados. Mapas en directo gracias a Stay22 y los mejores precios en Booking, Expedia y Hotels.com.',
-    pt: 'Percorra 41 estâncias de esqui cuidadosamente escolhidas nos Alpes e nos Pirenéus, com hotéis ski-in/ski-out verificados. Mapas em directo graças à Stay22 e os melhores preços no Booking, na Expedia e no Hotels.com.',
+    en: 'Browse 56 hand-picked ski resorts in the Alps and Pyrenees with verified ski-in/ski-out hotels. Live maps powered by Stay22 and the best prices across Booking, Expedia and Hotels.com.',
+    fr: 'Parcourez 56 stations triées sur le volet dans les Alpes et les Pyrénées, avec des hôtels ski-in/ski-out vérifiés. Cartes en direct grâce à Stay22 et les meilleurs prix sur Booking, Expedia et Hotels.com.',
+    es: 'Explora 56 estaciones de esquí cuidadosamente seleccionadas en los Alpes y los Pirineos, con hoteles ski-in/ski-out verificados. Mapas en directo gracias a Stay22 y los mejores precios en Booking, Expedia y Hotels.com.',
+    pt: 'Percorra 56 estâncias de esqui cuidadosamente escolhidas nos Alpes e nos Pirenéus, com hotéis ski-in/ski-out verificados. Mapas em directo graças à Stay22 e os melhores preços no Booking, na Expedia e no Hotels.com.',
   }
 
   return {
@@ -100,7 +100,7 @@ export default async function HomePage({
     name: 'BestSnowHotels',
     alternateName: 'BestSnowHotels.com',
     url: SITE_URL,
-    description: '41 ski-in/ski-out resorts in the Alps and Pyrenees with verified altitudes, snow data and best-price hotel maps.',
+    description: '56 ski-in/ski-out resorts in the Alps and Pyrenees with verified altitudes, snow data and best-price hotel maps.',
     inLanguage: ['en', 'fr', 'es', 'pt'],
     publisher: { '@type': 'Organization', name: 'BestSnowHotels', url: SITE_URL },
   }

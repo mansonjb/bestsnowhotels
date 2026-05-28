@@ -1884,5 +1884,695 @@
       "red": 18,
       "black": 14
     }
+  },
+  {
+    "slug": "les-menuires",
+    "name": "Les Menuires",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.3247,
+    "lng": 6.5408,
+    "altitudeBase": 1850,
+    "altitudeSummit": 2850,
+    "pistesKm": 600,
+    "lifts": 161,
+    "skiInSkiOutNote": {
+      "en": "Built for ski-in/ski-out: most apartments and hotels in the central Croisette and Reberty areas open straight onto the snow.",
+      "fr": "Conçue pour le ski-in/ski-out : la plupart des appartements et hôtels de La Croisette et de Reberty ouvrent directement sur les pistes.",
+      "es": "Diseñada para el ski-in/ski-out: la mayoría de apartamentos y hoteles de La Croisette y Reberty dan directamente a las pistas.",
+      "pt": "Concebida para ski-in/ski-out: a maioria dos apartamentos e hotéis de La Croisette e Reberty abrem directamente para a neve."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 90,
+    "vibes": [
+      "family",
+      "value",
+      "high-altitude"
+    ],
+    "pisteCounts": {
+      "green": 28,
+      "blue": 56,
+      "red": 48,
+      "black": 18
+    },
+    "intro": {
+      "en": "The value gateway into Les 3 Vallées, Les Menuires gives you the whole 600 km domain without the Courchevel price tag. Recent makeovers have softened its functional reputation.",
+      "fr": "Porte d'entrée maligne des 3 Vallées, Les Menuires donne accès aux 600 km du domaine sans le ticket d'entrée de Courchevel. Les rénovations récentes ont adouci sa réputation fonctionnelle.",
+      "es": "Puerta de entrada económica a Les 3 Vallées, Les Menuires da acceso a los 600 km del dominio sin el precio de Courchevel. Las reformas recientes han suavizado su fama funcional.",
+      "pt": "Porta de entrada económica para Les 3 Vallées, Les Menuires dá acesso aos 600 km do domínio sem o preço de Courchevel. As renovações recentes suavizaram a sua fama funcional."
+    },
+    "longDescription": {
+      "en": "High and snow-sure at 1,850 m, Les Menuires is a family workhorse: ski-in/ski-out apartments, gentle nursery slopes at La Croisette and direct access to the Val Thorens and Méribel sides. The newer Reberty and Les Bruyères quarters are prettier and quieter than the original 1960s core.",
+      "fr": "Haute et sûre en neige à 1 850 m, Les Menuires est une valeur sûre en famille : appartements skis aux pieds, zones débutants douces à La Croisette et accès direct vers Val Thorens et Méribel. Les quartiers récents de Reberty et des Bruyères sont plus jolis et plus calmes que le cœur des années 1960.",
+      "es": "Alta y con nieve segura a 1.850 m, Les Menuires es un valor seguro en familia: apartamentos a pie de pista, zonas de debutantes suaves en La Croisette y acceso directo a Val Thorens y Méribel. Los barrios recientes de Reberty y Les Bruyères son más bonitos y tranquilos que el núcleo de los años 1960.",
+      "pt": "Alta e com neve garantida a 1.850 m, Les Menuires é um valor seguro em família: apartamentos no sopé das pistas, zonas de aprendizagem suaves em La Croisette e acesso directo a Val Thorens e Méribel. Os bairros recentes de Reberty e Les Bruyères são mais bonitos e calmos do que o núcleo dos anos 1960."
+    }
+  },
+  {
+    "slug": "avoriaz",
+    "name": "Avoriaz",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 46.1916,
+    "lng": 6.7728,
+    "altitudeBase": 1800,
+    "altitudeSummit": 2466,
+    "pistesKm": 650,
+    "lifts": 196,
+    "skiInSkiOutNote": {
+      "en": "Completely car-free and built on the slope, Avoriaz is pure ski-in/ski-out: you leave your car below and reach the village by cable car, then ski everywhere.",
+      "fr": "Entièrement sans voitures et bâtie sur la pente, Avoriaz est du ski-in/ski-out pur : on laisse la voiture en bas, on monte en télécabine, puis on skie partout.",
+      "es": "Totalmente sin coches y construida sobre la pista, Avoriaz es ski-in/ski-out puro: dejas el coche abajo, subes en telecabina y luego esquías a todas partes.",
+      "pt": "Totalmente sem carros e construída sobre a pista, Avoriaz é ski-in/ski-out puro: deixa-se o carro em baixo, sobe-se de telecabina e depois esquia-se para todo o lado."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 21",
+    "snowScore": 88,
+    "vibes": [
+      "family",
+      "freestyle",
+      "car-free"
+    ],
+    "pisteCounts": {
+      "green": 30,
+      "blue": 55,
+      "red": 50,
+      "black": 20
+    },
+    "intro": {
+      "en": "A car-free, ski-in/ski-out village of striking timber towers, Avoriaz is the French heart of the cross-border Portes du Soleil. Snow gets around on sledges, not cars.",
+      "fr": "Village sans voitures et skis aux pieds aux tours de bois spectaculaires, Avoriaz est le cœur français des Portes du Soleil transfrontalières. Ici, la neige se déplace en luge, pas en voiture.",
+      "es": "Pueblo sin coches y a pie de pista, de espectaculares torres de madera, Avoriaz es el corazón francés de los transfronterizos Portes du Soleil. Aquí la nieve se mueve en trineo, no en coche.",
+      "pt": "Aldeia sem carros e no sopé das pistas, de espectaculares torres de madeira, Avoriaz é o coração francês dos transfronteiriços Portes du Soleil. Aqui a neve desloca-se de trenó, não de carro."
+    },
+    "longDescription": {
+      "en": "Snow-covered streets, horse-drawn sleighs and famous freestyle parks make Avoriaz a magnet for families and snowboarders alike. From the village you drop straight into the 650 km Portes du Soleil, which loops through twelve resorts across France and Switzerland, so you can ski to another country for lunch.",
+      "fr": "Rues enneigées, traîneaux tirés par des chevaux et snowparks réputés font d'Avoriaz un aimant pour les familles comme pour les snowboardeurs. Du village, on plonge directement dans les 650 km des Portes du Soleil, qui enchaînent douze stations entre France et Suisse : on peut déjeuner dans un autre pays.",
+      "es": "Calles nevadas, trineos tirados por caballos y famosos parques de freestyle hacen de Avoriaz un imán para familias y para riders. Desde el pueblo bajas directo a los 650 km de los Portes du Soleil, que enlazan doce estaciones entre Francia y Suiza: puedes comer en otro país.",
+      "pt": "Ruas cobertas de neve, trenós puxados por cavalos e famosos parques de freestyle fazem de Avoriaz um íman para famílias e para riders. Da aldeia desce-se directamente para os 650 km dos Portes du Soleil, que ligam doze estâncias entre França e Suíça: pode-se almoçar noutro país."
+    }
+  },
+  {
+    "slug": "morzine",
+    "name": "Morzine",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 46.1791,
+    "lng": 6.7094,
+    "altitudeBase": 1000,
+    "altitudeSummit": 2277,
+    "pistesKm": 650,
+    "lifts": 196,
+    "skiInSkiOutNote": {
+      "en": "A real valley town, not a slope-side resort: most hotels use the Pléney and Super-Morzine cable cars or the free ski-bus to reach the snow.",
+      "fr": "Vraie ville de vallée plutôt que station sur les pistes : la plupart des hôtels empruntent les télécabines du Pléney et de Super-Morzine ou la navette gratuite.",
+      "es": "Una verdadera ciudad de valle más que una estación a pie de pista: la mayoría de hoteles usan los telecabinas de Pléney y Super-Morzine o el bus gratuito.",
+      "pt": "Uma verdadeira vila de vale mais do que uma estância no sopé das pistas: a maioria dos hotéis usa os telecabinas do Pléney e de Super-Morzine ou o autocarro gratuito."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "authentic",
+      "big-domain"
+    ],
+    "intro": {
+      "en": "A handsome slate-roofed market town at the centre of the Portes du Soleil, Morzine keeps a year-round Savoyard life that purpose-built resorts lack. It is the most characterful base for the giant cross-border domain.",
+      "fr": "Belle bourgade aux toits d'ardoise au centre des Portes du Soleil, Morzine garde une vie savoyarde à l'année qui manque aux stations-usines. C'est la base la plus pleine de caractère pour l'immense domaine transfrontalier.",
+      "es": "Bonita villa de tejados de pizarra en el centro de los Portes du Soleil, Morzine conserva una vida saboyana todo el año que les falta a las estaciones de diseño. Es la base con más carácter para el inmenso dominio transfronterizo.",
+      "pt": "Bonita vila de telhados de ardósia no centro dos Portes du Soleil, Morzine mantém uma vida saboiana todo o ano que falta às estâncias planeadas. É a base com mais carácter para o imenso domínio transfronteiriço."
+    },
+    "longDescription": {
+      "en": "Lower than its neighbours at 1,000 m, Morzine leans on snowmaking and the high Avoriaz sector when the valley warms, but its appeal is the town itself: proper restaurants, a Sunday market and an easy bus to the lifts. Families love it, and the link to Les Gets gives a gentler day out away from the Avoriaz crowds.",
+      "fr": "Plus basse que ses voisines à 1 000 m, Morzine compte sur la neige de culture et le secteur élevé d'Avoriaz quand la vallée se radoucit, mais son atout, c'est la ville elle-même : vraies tables, marché du dimanche et navette facile vers les remontées. Les familles l'adorent, et la liaison avec Les Gets offre une journée plus douce, loin de l'affluence d'Avoriaz.",
+      "es": "Más baja que sus vecinas a 1.000 m, Morzine se apoya en la nieve artificial y en el sector alto de Avoriaz cuando el valle se templa, pero su atractivo es la propia ciudad: buenos restaurantes, mercado dominical y bus cómodo a los remontes. A las familias les encanta, y el enlace con Les Gets ofrece una jornada más suave, lejos del gentío de Avoriaz.",
+      "pt": "Mais baixa do que as vizinhas a 1.000 m, Morzine apoia-se na neve artificial e no sector alto de Avoriaz quando o vale aquece, mas o seu trunfo é a própria vila: bons restaurantes, mercado de domingo e autocarro cómodo para os teleféricos. As famílias adoram-na, e a ligação a Les Gets oferece um dia mais suave, longe da multidão de Avoriaz."
+    },
+    "pisteCounts": {
+      "green": 32,
+      "blue": 55,
+      "red": 45,
+      "black": 18
+    }
+  },
+  {
+    "slug": "les-gets",
+    "name": "Les Gets",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 46.1581,
+    "lng": 6.6694,
+    "altitudeBase": 1172,
+    "altitudeSummit": 2002,
+    "pistesKm": 650,
+    "lifts": 196,
+    "skiInSkiOutNote": {
+      "en": "Village-based, with the main lifts a short walk or free shuttle from most chalets. A handful of slope-side addresses sit at the foot of the Chavannes gondola.",
+      "fr": "Station-village, les remontées principales à courte distance à pied ou en navette gratuite de la plupart des chalets. Quelques adresses sont au pied du télécabine des Chavannes.",
+      "es": "Estación-pueblo, con los remontes principales a poca distancia a pie o en bus gratuito de la mayoría de chalets. Algunas direcciones están al pie del telecabina de Chavannes.",
+      "pt": "Estância-aldeia, com os teleféricos principais a curta distância a pé ou de autocarro gratuito da maioria dos chalés. Alguns endereços ficam ao pé do telecabina de Chavannes."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 79,
+    "vibes": [
+      "family",
+      "authentic",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A pretty, traditional Haut-Chablais village twinned with Morzine, Les Gets is one of the most family-friendly entries to the Portes du Soleil. Gentle, tree-lined slopes and a mechanical music museum keep all ages happy.",
+      "fr": "Joli village traditionnel du Haut-Chablais jumelé à Morzine, Les Gets est l'une des entrées les plus familiales des Portes du Soleil. Pentes douces bordées de sapins et musée de la musique mécanique contentent tous les âges.",
+      "es": "Bonito pueblo tradicional del Haut-Chablais hermanado con Morzine, Les Gets es una de las entradas más familiares a los Portes du Soleil. Laderas suaves entre abetos y un museo de la música mecánica contentan a todas las edades.",
+      "pt": "Bonita aldeia tradicional do Haut-Chablais geminada com Morzine, Les Gets é uma das entradas mais familiares dos Portes du Soleil. Encostas suaves entre abetos e um museu da música mecânica agradam a todas as idades."
+    },
+    "longDescription": {
+      "en": "Les Gets shares its lift pass and a long ridge of forested runs with Morzine, ideal for nervous skiers and families who want trees to ski among in flat light. The chocolate-box village centre, with its wooden chalets and church, is genuinely charming, and the separate Mont Chéry side is a quiet sun trap most visitors never bother with.",
+      "fr": "Les Gets partage forfait et longue crête de pistes en forêt avec Morzine, idéal pour les skieurs prudents et les familles qui veulent des arbres pour se repérer par lumière plate. Le centre village, avec ses chalets de bois et son église, est vraiment charmant, et le versant séparé du Mont Chéry est un coin ensoleillé et calme que la plupart des visiteurs ignorent.",
+      "es": "Les Gets comparte forfait y una larga cresta de pistas en bosque con Morzine, ideal para esquiadores prudentes y familias que quieren árboles como referencia con luz plana. El centro del pueblo, con sus chalets de madera y su iglesia, es realmente encantador, y la vertiente separada del Mont Chéry es un rincón soleado y tranquilo que casi nadie pisa.",
+      "pt": "Les Gets partilha forfait e uma longa crista de pistas em floresta com Morzine, ideal para esquiadores prudentes e famílias que querem árvores como referência em luz plana. O centro da aldeia, com os seus chalés de madeira e a igreja, é realmente encantador, e a vertente separada do Mont Chéry é um recanto solarengo e calmo que quase ninguém pisa."
+    },
+    "pisteCounts": {
+      "green": 30,
+      "blue": 52,
+      "red": 40,
+      "black": 12
+    }
+  },
+  {
+    "slug": "megeve",
+    "name": "Megève",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.8567,
+    "lng": 6.6175,
+    "altitudeBase": 1113,
+    "altitudeSummit": 2350,
+    "pistesKm": 400,
+    "lifts": 100,
+    "skiInSkiOutNote": {
+      "en": "The medieval village sits in the valley; gondolas at Chamois, Rochebrune and Le Jaillet carry you up. True ski-in/ski-out is limited to a few hotels on the lower slopes.",
+      "fr": "Le village médiéval est en vallée ; les télécabines du Chamois, de Rochebrune et du Jaillet montent au domaine. Le vrai ski-in/ski-out se limite à quelques hôtels sur les pistes basses.",
+      "es": "El pueblo medieval está en el valle; los telecabinas de Chamois, Rochebrune y Le Jaillet suben al dominio. El verdadero ski-in/ski-out se limita a unos pocos hoteles en las pistas bajas.",
+      "pt": "A aldeia medieval fica no vale; os telecabinas de Chamois, Rochebrune e Le Jaillet sobem ao domínio. O verdadeiro ski-in/ski-out limita-se a alguns hotéis nas pistas baixas."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "luxury",
+      "gastronomy",
+      "family"
+    ],
+    "intro": {
+      "en": "The original French luxury ski village, created by the Rothschilds as a French answer to St. Moritz. Megève is more about cobbled streets, horse-drawn carriages and Michelin tables than vertical thrills.",
+      "fr": "Le village de ski de luxe à la française par excellence, créé par les Rothschild comme réponse française à Saint-Moritz. Megève, c'est plus une affaire de ruelles pavées, de calèches et de tables étoilées que de sensations fortes.",
+      "es": "El pueblo de esquí de lujo francés por excelencia, creado por los Rothschild como respuesta francesa a Saint Moritz. Megève va más de callejuelas empedradas, coches de caballos y mesas con estrella que de emociones fuertes.",
+      "pt": "A aldeia de esqui de luxo à francesa por excelência, criada pelos Rothschild como resposta francesa a Saint Moritz. Megève é mais uma questão de ruelas de pedra, carruagens e mesas estreladas do que de emoções fortes."
+    },
+    "longDescription": {
+      "en": "The skiing is gentle and sunny, spread over three forested mountains that flatter intermediates and families more than they challenge experts. But people really come for the village: a pedestrian medieval centre of luxury boutiques, fine restaurants and grand hotels, with the Mont Blanc looming over it all. Bring your appetite as much as your skis.",
+      "fr": "Le ski est doux et ensoleillé, réparti sur trois montagnes boisées qui flattent les intermédiaires et les familles plus qu'elles ne défient les experts. Mais on vient surtout pour le village : centre médiéval piéton de boutiques de luxe, de bonnes tables et de grands hôtels, le Mont Blanc en toile de fond. Apportez votre appétit autant que vos skis.",
+      "es": "El esquí es suave y soleado, repartido en tres montañas boscosas que favorecen a intermedios y familias más de lo que retan a los expertos. Pero se viene sobre todo por el pueblo: centro medieval peatonal de boutiques de lujo, buenos restaurantes y grandes hoteles, con el Mont Blanc de fondo. Trae el apetito tanto como los esquís.",
+      "pt": "O esqui é suave e solarengo, distribuído por três montanhas florestadas que favorecem intermédios e famílias mais do que desafiam os experientes. Mas vem-se sobretudo pela aldeia: centro medieval pedonal de boutiques de luxo, bons restaurantes e grandes hotéis, com o Mont Blanc como pano de fundo. Traga o apetite tanto como os esquis."
+    },
+    "pisteCounts": {
+      "green": 35,
+      "blue": 45,
+      "red": 35,
+      "black": 10
+    }
+  },
+  {
+    "slug": "la-clusaz",
+    "name": "La Clusaz",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.9047,
+    "lng": 6.4239,
+    "altitudeBase": 1100,
+    "altitudeSummit": 2600,
+    "pistesKm": 125,
+    "lifts": 49,
+    "skiInSkiOutNote": {
+      "en": "The village core is in the valley with lifts on its edge; a few chalets at Le Crêt du Merle and the foot of the Beauregard cable car offer genuine ski-in.",
+      "fr": "Le cœur du village est en vallée, remontées en bordure ; quelques chalets au Crêt du Merle et au pied du téléphérique de Beauregard offrent un vrai ski-in.",
+      "es": "El núcleo del pueblo está en el valle con remontes en su borde; algunos chalets en Le Crêt du Merle y al pie del teleférico de Beauregard ofrecen verdadero ski-in.",
+      "pt": "O núcleo da aldeia fica no vale com teleféricos na orla; alguns chalés no Crêt du Merle e ao pé do teleférico de Beauregard oferecem verdadeiro ski-in."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "family",
+      "freeride"
+    ],
+    "intro": {
+      "en": "The beating heart of the Aravis, an hour from Geneva, La Clusaz is a working Savoyard village with surprisingly varied skiing and a fierce local soul. Five massifs, reblochon cheese and a famous freeride following.",
+      "fr": "Cœur battant des Aravis, à une heure de Genève, La Clusaz est un village savoyard vivant au ski étonnamment varié et à l'âme locale farouche. Cinq massifs, le reblochon et une vraie scène freeride.",
+      "es": "Corazón palpitante de los Aravis, a una hora de Ginebra, La Clusaz es un pueblo saboyano vivo, con un esquí sorprendentemente variado y un alma local fuerte. Cinco macizos, queso reblochon y una verdadera escena freeride.",
+      "pt": "Coração pulsante dos Aravis, a uma hora de Genebra, La Clusaz é uma aldeia saboiana viva, com um esqui surpreendentemente variado e uma alma local forte. Cinco maciços, queijo reblochon e uma verdadeira cena freeride."
+    },
+    "longDescription": {
+      "en": "Spread across five linked massifs, La Clusaz packs in tree runs, sunny bowls and steep north faces that the local freeriders keep to themselves. It is close enough to Geneva for a weekend, authentically French in a way the big purpose-built names are not, and the village stays lively without ever feeling like a theme park.",
+      "fr": "Répartie sur cinq massifs reliés, La Clusaz aligne pistes en forêt, combes ensoleillées et faces nord raides que les freeriders locaux gardent pour eux. Assez proche de Genève pour un week-end, authentiquement française là où les grandes stations-usines ne le sont pas, et le village reste animé sans jamais virer au parc d'attractions.",
+      "es": "Repartida en cinco macizos enlazados, La Clusaz reúne pistas en bosque, circos soleados y empinadas caras norte que los riders locales se guardan. Está bastante cerca de Ginebra para un fin de semana, es auténticamente francesa donde las grandes estaciones de diseño no lo son, y el pueblo se mantiene animado sin caer nunca en el parque temático.",
+      "pt": "Distribuída por cinco maciços ligados, La Clusaz reúne pistas em floresta, circos solarengos e íngremes faces norte que os riders locais guardam para si. Está perto o suficiente de Genebra para um fim de semana, é autenticamente francesa onde as grandes estâncias planeadas não são, e a aldeia mantém-se animada sem nunca cair no parque temático."
+    },
+    "pisteCounts": {
+      "green": 16,
+      "blue": 30,
+      "red": 28,
+      "black": 10
+    }
+  },
+  {
+    "slug": "les-deux-alpes",
+    "name": "Les Deux Alpes",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.0103,
+    "lng": 6.1244,
+    "altitudeBase": 1650,
+    "altitudeSummit": 3600,
+    "pistesKm": 200,
+    "lifts": 47,
+    "skiInSkiOutNote": {
+      "en": "The long, linear resort runs along a single street with the slopes on the eastern flank, so most accommodation is a short walk from a lift, and many open onto the lower runs.",
+      "fr": "Station longue et linéaire le long d'une seule rue, pistes sur le flanc est : la plupart des hébergements sont à courte distance d'une remontée, et beaucoup ouvrent sur les pistes basses.",
+      "es": "Estación larga y lineal a lo largo de una sola calle, con las pistas en el flanco este: la mayoría de alojamientos están a poca distancia de un remonte y muchos dan a las pistas bajas.",
+      "pt": "Estância longa e linear ao longo de uma única rua, com as pistas no flanco este: a maioria dos alojamentos fica a curta distância de um teleférico e muitos abrem para as pistas baixas."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 28",
+    "snowScore": 90,
+    "vibes": [
+      "glacier",
+      "party",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Home to one of the largest skiable glaciers in Europe, Les Deux Alpes guarantees snow on top and serves up a famously big party at the bottom. Summer skiing too, when the glacier reopens for freestyle camps.",
+      "fr": "Abritant l'un des plus grands glaciers skiables d'Europe, Les Deux Alpes garantit la neige en haut et déroule une fête réputée en bas. Ski d'été aussi, quand le glacier rouvre pour les camps freestyle.",
+      "es": "Con uno de los mayores glaciares esquiables de Europa, Les Deux Alpes garantiza la nieve arriba y monta una fiesta famosa abajo. También esquí de verano, cuando el glaciar reabre para los campus de freestyle.",
+      "pt": "Com um dos maiores glaciares esquiáveis da Europa, Les Deux Alpes garante a neve em cima e monta uma festa famosa em baixo. Também esqui de verão, quando o glaciar reabre para os campos de freestyle."
+    },
+    "longDescription": {
+      "en": "The layout is unusual: the village sits on a shelf and the best, longest runs are up on the glacier, reached by a chain of lifts to 3,600 m. That makes it snow-sure and a paradise for beginners and freestylers, while the long red back to town and the off-piste towards La Grave keep stronger skiers busy. The nightlife is among the liveliest in the French Alps.",
+      "fr": "La configuration est singulière : le village est posé sur un replat et les meilleures et plus longues pistes sont sur le glacier, atteint par une enfilade de remontées jusqu'à 3 600 m. D'où une neige garantie et un paradis pour débutants et freestylers, tandis que la longue rouge de retour et le hors-piste vers La Grave occupent les meilleurs. La vie nocturne est parmi les plus animées des Alpes françaises.",
+      "es": "La disposición es singular: el pueblo se asienta en una repisa y las mejores y más largas pistas están en el glaciar, al que se llega por una sucesión de remontes hasta los 3.600 m. De ahí la nieve garantizada y un paraíso para principiantes y riders, mientras que la larga roja de regreso y el fuera de pista hacia La Grave ocupan a los mejores. La vida nocturna está entre las más animadas de los Alpes franceses.",
+      "pt": "A disposição é singular: a aldeia assenta numa plataforma e as melhores e mais longas pistas estão no glaciar, alcançado por uma sucessão de teleféricos até aos 3.600 m. Daí a neve garantida e um paraíso para principiantes e riders, enquanto a longa vermelha de regresso e o fora-de-pista para La Grave ocupam os melhores. A vida nocturna está entre as mais animadas dos Alpes franceses."
+    },
+    "pisteCounts": {
+      "green": 20,
+      "blue": 35,
+      "red": 30,
+      "black": 12
+    }
+  },
+  {
+    "slug": "la-rosiere",
+    "name": "La Rosière",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.6219,
+    "lng": 6.8517,
+    "altitudeBase": 1850,
+    "altitudeSummit": 2800,
+    "pistesKm": 160,
+    "lifts": 38,
+    "skiInSkiOutNote": {
+      "en": "Purpose-built on a sunny shelf, La Rosière is largely ski-in/ski-out: most chalets and apartments sit right on the snow front above Bourg-Saint-Maurice.",
+      "fr": "Station intégrée sur un replat ensoleillé, La Rosière est très largement ski-in/ski-out : la plupart des chalets et appartements sont sur le front de neige, au-dessus de Bourg-Saint-Maurice.",
+      "es": "Estación de diseño en una repisa soleada, La Rosière es en gran parte ski-in/ski-out: la mayoría de chalets y apartamentos están a pie de pista, sobre Bourg-Saint-Maurice.",
+      "pt": "Estância planeada numa plataforma solarenga, La Rosière é em grande parte ski-in/ski-out: a maioria dos chalés e apartamentos fica no sopé das pistas, acima de Bourg-Saint-Maurice."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "family",
+      "sunny",
+      "cross-border"
+    ],
+    "intro": {
+      "en": "A sunny, snow-sure balcony above the Tarentaise, La Rosière links over the Petit-Saint-Bernard pass into La Thuile in Italy. It is a quiet, family-first alternative to the big-name neighbours.",
+      "fr": "Balcon ensoleillé et bien enneigé au-dessus de la Tarentaise, La Rosière se relie à La Thuile, en Italie, par le col du Petit-Saint-Bernard. Une alternative calme et familiale aux voisines à grand nom.",
+      "es": "Balcón soleado y con nieve segura sobre la Tarentaise, La Rosière enlaza con La Thuile, en Italia, por el puerto del Petit-Saint-Bernard. Una alternativa tranquila y familiar a las vecinas de gran nombre.",
+      "pt": "Varanda solarenga e com neve garantida sobre a Tarentaise, La Rosière liga-se a La Thuile, em Itália, pelo colo do Petit-Saint-Bernard. Uma alternativa calma e familiar às vizinhas de grande nome."
+    },
+    "longDescription": {
+      "en": "La Rosière catches the sun all day and holds snow thanks to its altitude and exposure, which makes its wide blues ideal for families and improvers. Cross the col and you are skiing in Italy, with a long lunch and a markedly different feel before you ski home. It is calmer and cheaper than Val d'Isère or Tignes just up the valley.",
+      "fr": "La Rosière prend le soleil toute la journée et tient la neige grâce à son altitude et son exposition, ce qui rend ses larges bleues idéales pour les familles et ceux qui progressent. Franchissez le col et vous skiez en Italie, long déjeuner et ambiance nettement différente avant de rentrer skis aux pieds. Plus calme et moins chère que Val d'Isère ou Tignes, juste plus haut dans la vallée.",
+      "es": "La Rosière recibe el sol todo el día y conserva la nieve gracias a su altitud y exposición, lo que hace que sus anchas azules sean ideales para familias y para quien progresa. Cruza el puerto y esquías en Italia, con una comida larga y un ambiente muy distinto antes de volver esquiando. Es más tranquila y barata que Val d'Isère o Tignes, justo valle arriba.",
+      "pt": "La Rosière apanha sol o dia todo e mantém a neve graças à altitude e exposição, o que torna as suas largas azuis ideais para famílias e para quem progride. Atravesse o colo e está a esquiar em Itália, com um almoço demorado e um ambiente bem diferente antes de regressar de esquis. É mais calma e barata do que Val d'Isère ou Tignes, mesmo ali no vale acima."
+    },
+    "pisteCounts": {
+      "green": 18,
+      "blue": 32,
+      "red": 28,
+      "black": 8
+    }
+  },
+  {
+    "slug": "flaine",
+    "name": "Flaine",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 46.0028,
+    "lng": 6.6906,
+    "altitudeBase": 1600,
+    "altitudeSummit": 2500,
+    "pistesKm": 265,
+    "lifts": 60,
+    "skiInSkiOutNote": {
+      "en": "Designed as a single ski-in/ski-out unit around a snow-bowl, Flaine puts nearly every apartment within ski distance of the lifts and the central Forum.",
+      "fr": "Conçue comme un seul ensemble ski-in/ski-out autour d'une cuvette, Flaine place presque chaque appartement à distance de ski des remontées et du Forum central.",
+      "es": "Diseñada como un solo conjunto ski-in/ski-out en torno a un circo, Flaine sitúa casi cada apartamento a distancia de esquí de los remontes y del Forum central.",
+      "pt": "Concebida como um único conjunto ski-in/ski-out à volta de um circo, Flaine coloca quase todos os apartamentos a distância de esqui dos teleféricos e do Forum central."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 21",
+    "snowScore": 88,
+    "vibes": [
+      "family",
+      "snow-sure",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Love it or hate it, Flaine's listed Bauhaus concrete is the most architecturally serious resort in France. Behind the brutalist Forum sits a high, snow-holding bowl and the gateway to the vast Grand Massif.",
+      "fr": "Qu'on l'aime ou non, le béton Bauhaus classé de Flaine en fait la station la plus sérieuse architecturalement de France. Derrière le Forum brutaliste s'ouvre une cuvette d'altitude qui tient la neige, porte du vaste Grand Massif.",
+      "es": "Guste o no, el hormigón Bauhaus catalogado de Flaine la convierte en la estación arquitectónicamente más seria de Francia. Tras el Forum brutalista hay un circo de altitud que conserva la nieve, puerta del vasto Grand Massif.",
+      "pt": "Goste-se ou não, o betão Bauhaus classificado de Flaine faz dela a estância arquitectonicamente mais séria de França. Por trás do Forum brutalista abre-se um circo de altitude que retém a neve, porta do vasto Grand Massif."
+    },
+    "longDescription": {
+      "en": "The architecture, by Marcel Breuer, is genuinely museum-grade and even hides a Picasso and a Dubuffet outdoors. The skiing is just as practical: a sheltered, north-facing bowl that holds snow well, gentle nursery areas right by the apartments, and a fast link across to Samoëns and Les Carroz in the 265 km Grand Massif. Pure ski-in/ski-out, ideal for families.",
+      "fr": "L'architecture, signée Marcel Breuer, est de niveau musée et cache même un Picasso et un Dubuffet en plein air. Le ski est tout aussi pratique : cuvette abritée exposée nord qui tient bien la neige, zones débutants au pied des immeubles et liaison rapide vers Samoëns et Les Carroz dans les 265 km du Grand Massif. Ski-in/ski-out pur, idéal en famille.",
+      "es": "La arquitectura, de Marcel Breuer, es de nivel museo e incluso esconde un Picasso y un Dubuffet al aire libre. El esquí es igual de práctico: un circo abrigado orientado al norte que conserva bien la nieve, zonas de debutantes junto a los edificios y enlace rápido hacia Samoëns y Les Carroz en los 265 km del Grand Massif. Ski-in/ski-out puro, ideal en familia.",
+      "pt": "A arquitectura, de Marcel Breuer, é de nível museu e esconde até um Picasso e um Dubuffet ao ar livre. O esqui é igualmente prático: um circo abrigado virado a norte que retém bem a neve, zonas de aprendizagem junto aos edifícios e ligação rápida a Samoëns e Les Carroz nos 265 km do Grand Massif. Ski-in/ski-out puro, ideal em família."
+    },
+    "pisteCounts": {
+      "green": 22,
+      "blue": 38,
+      "red": 30,
+      "black": 10
+    }
+  },
+  {
+    "slug": "samoens",
+    "name": "Samoëns",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 46.0844,
+    "lng": 6.7253,
+    "altitudeBase": 720,
+    "altitudeSummit": 2480,
+    "pistesKm": 265,
+    "lifts": 60,
+    "skiInSkiOutNote": {
+      "en": "A historic stone village at 720 m, reached by a big gondola to the Grand Massif plateau. True ski-in/ski-out lives up at Samoëns 1600, not in the village itself.",
+      "fr": "Village de pierre historique à 720 m, relié au plateau du Grand Massif par une grande télécabine. Le vrai ski-in/ski-out se trouve à Samoëns 1600, pas au village.",
+      "es": "Pueblo de piedra histórico a 720 m, conectado con la meseta del Grand Massif por un gran telecabina. El verdadero ski-in/ski-out está en Samoëns 1600, no en el pueblo.",
+      "pt": "Aldeia de pedra histórica a 720 m, ligada ao planalto do Grand Massif por um grande telecabina. O verdadeiro ski-in/ski-out fica em Samoëns 1600, não na aldeia."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "family",
+      "big-domain"
+    ],
+    "intro": {
+      "en": "The only French ski village classified as a historic monument, Samoëns is all stone houses and stonemason heritage around a market square. A big gondola lifts you straight onto the 265 km Grand Massif.",
+      "fr": "Seul village de ski français classé monument historique, Samoëns aligne maisons de pierre et patrimoine de tailleurs de pierre autour d'une place de marché. Une grande télécabine vous hisse droit sur les 265 km du Grand Massif.",
+      "es": "Único pueblo de esquí francés clasificado como monumento histórico, Samoëns es todo casas de piedra y herencia de canteros en torno a una plaza de mercado. Un gran telecabina te sube directo a los 265 km del Grand Massif.",
+      "pt": "Única aldeia de esqui francesa classificada como monumento histórico, Samoëns é só casas de pedra e herança de canteiros à volta de uma praça de mercado. Um grande telecabina leva-o directo aos 265 km do Grand Massif."
+    },
+    "longDescription": {
+      "en": "Samoëns is the characterful, valley-floor alternative to concrete Flaine, sharing the same Grand Massif slopes but keeping its own Renaissance-era heart. The catch is the low altitude, so you ride the gondola up and down rather than ski home, but the village life, the Friday market and the alpine-garden charm more than make up for it.",
+      "fr": "Samoëns est l'alternative pleine de charme, en fond de vallée, à la Flaine de béton : mêmes pistes du Grand Massif, mais un cœur Renaissance bien à elle. Le bémol, c'est la faible altitude : on monte et descend en télécabine plutôt que de rentrer skis aux pieds, mais la vie de village, le marché du vendredi et le jardin alpin compensent largement.",
+      "es": "Samoëns es la alternativa con encanto, en el fondo del valle, a la Flaine de hormigón: mismas pistas del Grand Massif, pero un corazón renacentista propio. El pero es la baja altitud: subes y bajas en telecabina en vez de volver esquiando, pero la vida de pueblo, el mercado del viernes y el jardín alpino lo compensan de sobra.",
+      "pt": "Samoëns é a alternativa cheia de encanto, no fundo do vale, à Flaine de betão: mesmas pistas do Grand Massif, mas um coração renascentista próprio. O senão é a baixa altitude: sobe-se e desce-se de telecabina em vez de regressar de esquis, mas a vida de aldeia, o mercado de sexta-feira e o jardim alpino compensam de sobra."
+    },
+    "pisteCounts": {
+      "green": 22,
+      "blue": 38,
+      "red": 30,
+      "black": 10
+    }
+  },
+  {
+    "slug": "chatel",
+    "name": "Châtel",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 46.2647,
+    "lng": 6.8389,
+    "altitudeBase": 1200,
+    "altitudeSummit": 2200,
+    "pistesKm": 650,
+    "lifts": 196,
+    "skiInSkiOutNote": {
+      "en": "A spread-out farming village; most stays use the Linga and Pré-la-Joux lift bases or the free shuttle. A few chalets at Pré-la-Joux are genuinely slope-side.",
+      "fr": "Village agricole étendu ; la plupart des séjours passent par les départs de Linga et Pré-la-Joux ou la navette gratuite. Quelques chalets à Pré-la-Joux sont vraiment au pied des pistes.",
+      "es": "Pueblo agrícola disperso; la mayoría de estancias usan las bases de Linga y Pré-la-Joux o el bus gratuito. Algunos chalets en Pré-la-Joux están realmente a pie de pista.",
+      "pt": "Aldeia agrícola dispersa; a maioria das estadias usa as bases de Linga e Pré-la-Joux ou o autocarro gratuito. Alguns chalés em Pré-la-Joux ficam mesmo no sopé das pistas."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "authentic",
+      "big-domain"
+    ],
+    "intro": {
+      "en": "A genuine working farm village at the French end of the Portes du Soleil, Châtel keeps cows, chalets and a down-to-earth feel the bigger resorts have lost. It sits right on the Swiss border, with Morgins a few turns away.",
+      "fr": "Vrai village agricole à l'extrémité française des Portes du Soleil, Châtel garde vaches, chalets et une simplicité que les grandes stations ont perdue. Il est sur la frontière suisse, Morgins à quelques virages.",
+      "es": "Auténtico pueblo agrícola en el extremo francés de los Portes du Soleil, Châtel conserva vacas, chalets y una sencillez que las grandes estaciones han perdido. Está en la frontera suiza, con Morgins a unos giros.",
+      "pt": "Autêntica aldeia agrícola no extremo francês dos Portes du Soleil, Châtel mantém vacas, chalés e uma simplicidade que as grandes estâncias perderam. Fica na fronteira suíça, com Morgins a umas curvas de distância."
+    },
+    "longDescription": {
+      "en": "Châtel gives you the whole 650 km Portes du Soleil but with farmhouse charm and prices to match. The local Linga and Pré-la-Joux sectors hold the better snow and a fun snowpark, while the famous Swiss Wall over at Avoriaz is a short ski away for those who dare. Families and intermediates get the best of it.",
+      "fr": "Châtel donne accès aux 650 km des Portes du Soleil mais avec un charme de ferme et des prix assortis. Les secteurs locaux de Linga et Pré-la-Joux tiennent la meilleure neige et un snowpark sympa, tandis que le fameux Mur suisse, du côté d'Avoriaz, est à quelques virages pour les audacieux. Familles et intermédiaires y trouvent leur compte.",
+      "es": "Châtel da acceso a los 650 km de los Portes du Soleil pero con encanto de granja y precios a juego. Los sectores locales de Linga y Pré-la-Joux tienen la mejor nieve y un snowpark divertido, mientras que el famoso Muro suizo, junto a Avoriaz, está a unos giros para los atrevidos. Familias e intermedios sacan lo mejor.",
+      "pt": "Châtel dá acesso aos 650 km dos Portes du Soleil mas com encanto de quinta e preços a condizer. Os sectores locais de Linga e Pré-la-Joux têm a melhor neve e um snowpark divertido, enquanto a famosa Parede suíça, do lado de Avoriaz, fica a umas curvas para os audazes. Famílias e intermédios tiram o melhor partido."
+    },
+    "pisteCounts": {
+      "green": 28,
+      "blue": 50,
+      "red": 42,
+      "black": 14
+    }
+  },
+  {
+    "slug": "valmorel",
+    "name": "Valmorel",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.4633,
+    "lng": 6.4408,
+    "altitudeBase": 1400,
+    "altitudeSummit": 2550,
+    "pistesKm": 165,
+    "lifts": 49,
+    "skiInSkiOutNote": {
+      "en": "A purpose-built but tastefully low-rise village, Valmorel is almost entirely ski-in/ski-out, with a car-free, chalet-style centre at the foot of the runs.",
+      "fr": "Station intégrée mais à l'architecture basse et soignée, Valmorel est presque entièrement ski-in/ski-out, avec un centre piéton façon chalet au pied des pistes.",
+      "es": "Estación de diseño pero de arquitectura baja y cuidada, Valmorel es casi totalmente ski-in/ski-out, con un centro peatonal tipo chalet al pie de las pistas.",
+      "pt": "Estância planeada mas de arquitectura baixa e cuidada, Valmorel é quase totalmente ski-in/ski-out, com um centro pedonal tipo chalé no sopé das pistas."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 21",
+    "snowScore": 84,
+    "vibes": [
+      "family",
+      "value",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Proof that a purpose-built resort can have charm, Valmorel was designed in traditional Savoyard style and is fiercely family-friendly. The linked Grand Domaine adds neighbouring Saint-François-Longchamp for extra mileage.",
+      "fr": "Preuve qu'une station intégrée peut avoir du charme, Valmorel a été dessinée dans le style savoyard traditionnel et mise tout sur les familles. Le Grand Domaine relié ajoute Saint-François-Longchamp pour plus de kilomètres.",
+      "es": "Prueba de que una estación de diseño puede tener encanto, Valmorel se concibió en estilo saboyano tradicional y apuesta de lleno por las familias. El Grand Domaine enlazado añade Saint-François-Longchamp para más kilómetros.",
+      "pt": "Prova de que uma estância planeada pode ter encanto, Valmorel foi desenhada no estilo saboiano tradicional e aposta tudo nas famílias. O Grand Domaine ligado acrescenta Saint-François-Longchamp para mais quilómetros."
+    },
+    "longDescription": {
+      "en": "Valmorel is one of France's quiet family champions: a car-free, wood-and-stone village built in the 1970s but designed to look like a real Savoyard hamlet, with ski-in/ski-out lodging and a gentle learning area at its heart. The slopes suit beginners and intermediates, and prices stay friendlier than the famous Tarentaise giants over the ridge.",
+      "fr": "Valmorel est l'un des champions discrets de la famille en France : village sans voitures, de bois et de pierre, bâti dans les années 1970 mais pensé comme un vrai hameau savoyard, hébergement skis aux pieds et espace débutants au centre. Les pistes conviennent aux débutants et intermédiaires, et les prix restent plus doux que ceux des géants de la Tarentaise voisine.",
+      "es": "Valmorel es uno de los campeones discretos de la familia en Francia: pueblo sin coches, de madera y piedra, construido en los años 1970 pero pensado como una aldea saboyana de verdad, alojamiento a pie de pista y zona de debutantes en el centro. Las pistas convienen a principiantes e intermedios, y los precios son más amables que los de los gigantes de la Tarentaise al otro lado.",
+      "pt": "Valmorel é um dos campeões discretos da família em França: aldeia sem carros, de madeira e pedra, construída nos anos 1970 mas pensada como uma verdadeira aldeia saboiana, alojamento no sopé das pistas e zona de aprendizagem no centro. As pistas convêm a principiantes e intermédios, e os preços são mais suaves do que os dos gigantes da Tarentaise do outro lado."
+    },
+    "pisteCounts": {
+      "green": 20,
+      "blue": 35,
+      "red": 28,
+      "black": 8
+    }
+  },
+  {
+    "slug": "montgenevre",
+    "name": "Montgenèvre",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.9319,
+    "lng": 6.7211,
+    "altitudeBase": 1860,
+    "altitudeSummit": 2680,
+    "pistesKm": 400,
+    "lifts": 70,
+    "skiInSkiOutNote": {
+      "en": "The village straddles a high pass with lifts on both sides of the main road, so most hotels are a short walk from the snow and several are genuinely ski-in/ski-out.",
+      "fr": "Le village est posé sur un col, remontées de part et d'autre de la route principale : la plupart des hôtels sont à courte distance de la neige et plusieurs sont vraiment ski-in/ski-out.",
+      "es": "El pueblo se asienta en un puerto, con remontes a ambos lados de la carretera principal: la mayoría de hoteles están a poca distancia de la nieve y varios son realmente ski-in/ski-out.",
+      "pt": "A aldeia assenta num colo, com teleféricos de ambos os lados da estrada principal: a maioria dos hotéis fica a curta distância da neve e vários são realmente ski-in/ski-out."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 87,
+    "vibes": [
+      "high-altitude",
+      "cross-border",
+      "family"
+    ],
+    "intro": {
+      "en": "Sitting at 1,860 m on the Italian border, Montgenèvre is the French gateway to the huge Via Lattea domain. High, snowy and good value, it is a quietly excellent family and intermediate base.",
+      "fr": "Posée à 1 860 m sur la frontière italienne, Montgenèvre est la porte française de l'immense domaine de la Voie lactée. Haute, enneigée et abordable, c'est une discrète mais excellente base famille et intermédiaire.",
+      "es": "Situada a 1.860 m en la frontera italiana, Montgenèvre es la puerta francesa del enorme dominio de la Vía Láctea. Alta, nevada y económica, es una base discreta pero excelente para familias e intermedios.",
+      "pt": "Situada a 1.860 m na fronteira italiana, Montgenèvre é a porta francesa do enorme domínio da Via Láctea. Alta, com neve e económica, é uma base discreta mas excelente para famílias e intermédios."
+    },
+    "longDescription": {
+      "en": "One of the oldest ski resorts in France and the highest village pass in the southern Alps, Montgenèvre combines reliable snow with the option to ski across into Italy's Via Lattea and resorts like Sestriere. It has quietly modernised, with new lifts and a central ski-in/ski-out feel, while keeping the easy-going, sunny atmosphere of the Hautes-Alpes.",
+      "fr": "L'une des plus anciennes stations de France et le plus haut village-col des Alpes du Sud, Montgenèvre marie une neige fiable et la possibilité de basculer en Italie, sur la Voie lactée et des stations comme Sestriere. Elle s'est modernisée en douceur, nouvelles remontées et caractère ski-in/ski-out central, sans perdre l'ambiance ensoleillée et décontractée des Hautes-Alpes.",
+      "es": "Una de las estaciones más antiguas de Francia y el pueblo-puerto más alto de los Alpes del sur, Montgenèvre combina nieve fiable con la opción de cruzar a la Vía Láctea italiana y a estaciones como Sestriere. Se ha modernizado con calma, con nuevos remontes y un carácter ski-in/ski-out central, sin perder el ambiente soleado y relajado de los Hautes-Alpes.",
+      "pt": "Uma das estâncias mais antigas de França e a aldeia-colo mais alta dos Alpes do sul, Montgenèvre combina neve fiável com a opção de passar para a Via Láctea italiana e estâncias como Sestriere. Modernizou-se com calma, com novos teleféricos e um carácter ski-in/ski-out central, sem perder o ambiente solarengo e descontraído dos Hautes-Alpes."
+    },
+    "pisteCounts": {
+      "green": 24,
+      "blue": 36,
+      "red": 30,
+      "black": 8
+    }
+  },
+  {
+    "slug": "les-saisies",
+    "name": "Les Saisies",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.7606,
+    "lng": 6.5328,
+    "altitudeBase": 1650,
+    "altitudeSummit": 2069,
+    "pistesKm": 192,
+    "lifts": 76,
+    "skiInSkiOutNote": {
+      "en": "A gentle plateau village where the lifts start at the edge of town, so most chalets and hotels are within easy ski or walking distance of the snow.",
+      "fr": "Village de plateau aux pentes douces, remontées en bord de station : la plupart des chalets et hôtels sont à distance facile de ski ou de marche de la neige.",
+      "es": "Pueblo de meseta de laderas suaves, con los remontes al borde de la estación: la mayoría de chalets y hoteles están a distancia fácil de esquí o a pie de la nieve.",
+      "pt": "Aldeia de planalto de encostas suaves, com os teleféricos na orla da estância: a maioria dos chalés e hotéis fica a distância fácil de esqui ou a pé da neve."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 82,
+    "vibes": [
+      "family",
+      "sunny",
+      "beginner"
+    ],
+    "intro": {
+      "en": "A sunny cross-country and downhill plateau in the Beaufortain, Les Saisies is a gentle, beginner-friendly base with huge Mont Blanc views. Part of the Espace Diamant, with Beaufort cheese country all around.",
+      "fr": "Plateau ensoleillé de ski de fond et de ski alpin dans le Beaufortain, Les Saisies est une base douce et idéale pour débuter, avec d'immenses vues sur le Mont Blanc. Reliée à l'Espace Diamant, au pays du beaufort.",
+      "es": "Meseta soleada de esquí de fondo y alpino en el Beaufortain, Les Saisies es una base suave e ideal para empezar, con inmensas vistas del Mont Blanc. Forma parte del Espace Diamant, en pleno país del queso beaufort.",
+      "pt": "Planalto solarengo de esqui de fundo e alpino no Beaufortain, Les Saisies é uma base suave e ideal para começar, com vistas imensas do Mont Blanc. Faz parte do Espace Diamant, em pleno país do queijo beaufort."
+    },
+    "longDescription": {
+      "en": "Famous as an Olympic cross-country venue, Les Saisies is a broad, sunny plateau whose gentle downhill slopes are perfect for first-timers and young families. The Espace Diamant link adds Crest-Voland and Notre-Dame-de-Bellecombe for variety, the Mont Blanc panorama is constant, and the Beaufortain setting means superb local cheese and a refreshingly unpretentious mood.",
+      "fr": "Célèbre comme site olympique de ski de fond, Les Saisies est un large plateau ensoleillé dont les pentes alpines douces sont parfaites pour les premières fois et les jeunes familles. La liaison Espace Diamant ajoute Crest-Voland et Notre-Dame-de-Bellecombe pour varier, le panorama du Mont Blanc est permanent, et le cadre du Beaufortain garantit un fromage local superbe et une ambiance sans prétention.",
+      "es": "Famosa como sede olímpica de esquí de fondo, Les Saisies es una amplia meseta soleada cuyas suaves laderas alpinas son perfectas para principiantes y familias jóvenes. El enlace Espace Diamant añade Crest-Voland y Notre-Dame-de-Bellecombe para variar, el panorama del Mont Blanc es constante, y el entorno del Beaufortain garantiza un queso local soberbio y un ambiente sin pretensiones.",
+      "pt": "Famosa como sede olímpica de esqui de fundo, Les Saisies é um amplo planalto solarengo cujas encostas alpinas suaves são perfeitas para principiantes e famílias jovens. A ligação Espace Diamant acrescenta Crest-Voland e Notre-Dame-de-Bellecombe para variar, o panorama do Mont Blanc é constante, e o cenário do Beaufortain garante um queijo local soberbo e um ambiente sem pretensões."
+    },
+    "pisteCounts": {
+      "green": 26,
+      "blue": 40,
+      "red": 28,
+      "black": 6
+    }
+  },
+  {
+    "slug": "le-grand-bornand",
+    "name": "Le Grand-Bornand",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.9417,
+    "lng": 6.4283,
+    "altitudeBase": 1000,
+    "altitudeSummit": 2100,
+    "pistesKm": 84,
+    "lifts": 32,
+    "skiInSkiOutNote": {
+      "en": "A genuine Aravis farming village with lifts on its doorstep; some chalets at Le Chinaillon, the higher snow-front hamlet, are true ski-in/ski-out.",
+      "fr": "Vrai village agricole des Aravis, remontées au pied ; certains chalets du Chinaillon, le hameau d'altitude sur le front de neige, sont vraiment ski-in/ski-out.",
+      "es": "Auténtico pueblo agrícola de los Aravis con remontes a la puerta; algunos chalets de Le Chinaillon, la aldea alta a pie de pista, son verdaderos ski-in/ski-out.",
+      "pt": "Autêntica aldeia agrícola dos Aravis com teleféricos à porta; alguns chalés do Chinaillon, a aldeia alta no sopé das pistas, são verdadeiros ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "authentic",
+      "family",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A working reblochon-cheese village in the Aravis, Le Grand-Bornand is small, scenic and deeply French. Its sunny, intermediate-friendly slopes and Tour de France pedigree make it a low-key favourite near Annecy.",
+      "fr": "Village vivant du reblochon dans les Aravis, Le Grand-Bornand est petit, photogénique et profondément français. Ses pentes ensoleillées, accueillantes pour les intermédiaires, et son passé Tour de France en font un favori discret près d'Annecy.",
+      "es": "Pueblo vivo del reblochon en los Aravis, Le Grand-Bornand es pequeño, fotogénico y profundamente francés. Sus laderas soleadas, amables para intermedios, y su pasado del Tour de Francia lo hacen un favorito discreto cerca de Annecy.",
+      "pt": "Aldeia viva do reblochon nos Aravis, Le Grand-Bornand é pequena, fotogénica e profundamente francesa. As suas encostas solarengas, amigáveis para intermédios, e o passado na Volta a França fazem dela uma favorita discreta perto de Annecy."
+    },
+    "longDescription": {
+      "en": "Half an hour from Annecy, Le Grand-Bornand pairs a postcard farming village with sunny, mostly intermediate slopes facing the Aravis chain. It is not big, but it is authentic and unhurried, strong on local food and a fine choice for families who want real Savoie life rather than a high-rise resort. The higher Chinaillon hamlet is the spot for slope-side stays.",
+      "fr": "À une demi-heure d'Annecy, Le Grand-Bornand associe un village agricole de carte postale à des pentes ensoleillées, surtout intermédiaires, face à la chaîne des Aravis. Pas immense, mais authentique et sans précipitation, fort sur la cuisine locale et idéal pour les familles qui veulent la vraie vie savoyarde plutôt qu'une station-tour. Le hameau d'altitude du Chinaillon est l'adresse pour dormir au pied des pistes.",
+      "es": "A media hora de Annecy, Le Grand-Bornand combina un pueblo agrícola de postal con laderas soleadas, sobre todo intermedias, frente a la cadena de los Aravis. No es enorme, pero es auténtico y sin prisas, fuerte en cocina local e ideal para familias que quieren la vida saboyana de verdad y no una estación de torres. La aldea alta de Le Chinaillon es el sitio para dormir a pie de pista.",
+      "pt": "A meia hora de Annecy, Le Grand-Bornand combina uma aldeia agrícola de postal com encostas solarengas, sobretudo intermédias, virada para a cadeia dos Aravis. Não é enorme, mas é autêntica e sem pressas, forte em cozinha local e ideal para famílias que querem a vida saboiana a sério e não uma estância de torres. A aldeia alta do Chinaillon é o sítio para dormir no sopé das pistas."
+    },
+    "pisteCounts": {
+      "green": 16,
+      "blue": 26,
+      "red": 22,
+      "black": 6
+    }
   }
 ]

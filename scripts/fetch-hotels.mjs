@@ -145,6 +145,7 @@ async function main() {
   for (const dest of destinations) {
     i++
     const query = `hotels in ${dest.name}, ${dest.country} ski resort`
+    const resortLuxury = (dest.vibes ?? []).some((v) => LUXURY_VIBES.includes(v))
     try {
       const raw = await searchHotels(query, apiKey)
       const ranked = raw
