@@ -26,10 +26,10 @@ export const COUNTRIES: Country[] = [
     countryCode: 'FR',
     flag: '🇫🇷',
     intro: {
-      en: 'France runs the largest linked ski areas in the world (Les 3 Vallées, Paradiski, Espace Killy) and offers the most reliable season in Europe. French Alps resorts dominate the market on sheer scale and altitude.',
-      fr: 'La France abrite les plus grands domaines reliés au monde (3 Vallées, Paradiski, Espace Killy) et propose la saison la plus fiable d\'Europe. Les stations des Alpes françaises dominent le marché par la taille et l\'altitude.',
-      es: 'Francia alberga los mayores dominios conectados del mundo (Les 3 Vallées, Paradiski, Espace Killy) y ofrece la temporada más fiable de Europa. Las estaciones de los Alpes franceses dominan el mercado por tamaño y altitud.',
-      pt: 'A França alberga os maiores domínios ligados do mundo (Les 3 Vallées, Paradiski, Espace Killy) e oferece a época mais fiável da Europa. As estâncias dos Alpes franceses dominam o mercado pela escala e altitude.',
+      en: 'Nowhere else links so much skiable terrain under one lift pass. Les 3 Vallées, Paradiski and the Espace Killy turn whole valleys into single playgrounds, and the high French resorts hold their snow long after the rest of the Alps have given up.',
+      fr: 'Nulle part ailleurs autant de pistes ne se relient sous un même forfait. Les 3 Vallées, Paradiski et l\'Espace Killy transforment des vallées entières en un seul terrain de jeu, et les stations françaises d\'altitude gardent la neige bien après que le reste des Alpes a baissé les bras.',
+      es: 'En ningún otro sitio se enlaza tanto terreno esquiable bajo un mismo forfait. Les 3 Vallées, Paradiski y el Espace Killy convierten valles enteros en un solo patio de juego, y las estaciones francesas de altitud conservan la nieve mucho después de que el resto de los Alpes haya tirado la toalla.',
+      pt: 'Em mais lado nenhum se liga tanto terreno esquiável sob o mesmo forfait. As 3 Vallées, o Paradiski e o Espace Killy transformam vales inteiros num só recreio, e as estâncias francesas de altitude guardam a neve muito depois de o resto dos Alpes ter desistido.',
     },
   },
   {
@@ -38,10 +38,10 @@ export const COUNTRIES: Country[] = [
     countryCode: 'CH',
     flag: '🇨🇭',
     intro: {
-      en: 'Iconic peaks (Matterhorn, Eiger, Jungfrau), the highest village in Europe at Zermatt, car-free luxury and the best-groomed runs in the Alps. Premium pricing for a premium product.',
-      fr: 'Sommets iconiques (Cervin, Eiger, Jungfrau), plus haut village d\'Europe à Zermatt, luxe sans voitures et les pistes les mieux damées des Alpes. Tarifs premium pour un produit premium.',
-      es: 'Cumbres icónicas (Matterhorn, Eiger, Jungfrau), el pueblo más alto de Europa en Zermatt, lujo sin coches y las pistas mejor pisadas de los Alpes. Tarifas premium para un producto premium.',
-      pt: 'Cumes icónicos (Matterhorn, Eiger, Jungfrau), a aldeia mais alta da Europa em Zermatt, luxo sem carros e as pistas mais bem batidas dos Alpes. Tarifas premium para um produto premium.',
+      en: 'The postcard version of the Alps: the Matterhorn over Zermatt, car-free villages, grooming you could land a plane on. You pay for it, of course, but nothing else in the range feels quite this polished.',
+      fr: 'La version carte postale des Alpes : le Cervin au-dessus de Zermatt, des villages sans voitures, un damage à faire atterrir un avion. Ça se paie, évidemment, mais rien dans le massif n\'a ce niveau de finition.',
+      es: 'La versión de postal de los Alpes: el Matterhorn sobre Zermatt, pueblos sin coches, un pisado donde podrías aterrizar un avión. Se paga, claro, pero nada en la cordillera tiene este nivel de acabado.',
+      pt: 'A versão de postal dos Alpes: o Matterhorn sobre Zermatt, aldeias sem carros, um pisa-neves onde se poderia aterrar um avião. Paga-se, claro, mas nada na cordilheira tem este nível de acabamento.',
     },
   },
   {
@@ -50,10 +50,10 @@ export const COUNTRIES: Country[] = [
     countryCode: 'AT',
     flag: '🇦🇹',
     intro: {
-      en: 'Austria is the home of alpine skiing: cradle of the Arlberg method, dense ski-in/ski-out villages, the loudest après-ski in Europe at St. Anton and Ischgl, and World Cup history at Kitzbühel.',
-      fr: 'L\'Autriche est la patrie du ski alpin : berceau de la méthode de l\'Arlberg, villages ski-in/ski-out très denses, après-ski le plus déchaîné d\'Europe à Saint-Anton et Ischgl, et toute l\'histoire de la Coupe du Monde à Kitzbühel.',
-      es: 'Austria es la cuna del esquí alpino : origen de la escuela del Arlberg, pueblos ski-in/ski-out muy densos, el après-ski más desbocado de Europa en Saint Anton e Ischgl, y la historia de la Copa del Mundo en Kitzbühel.',
-      pt: 'A Áustria é a pátria do esqui alpino: berço da escola de Arlberg, aldeias ski-in/ski-out muito densas, o après-ski mais desenfreado da Europa em Saint Anton e Ischgl, e toda a história da Taça do Mundo em Kitzbühel.',
+      en: 'This is where alpine skiing was more or less invented, and it still feels that way. Snug villages where you ski back to the door, the Arlberg technique, and an après-ski scene that starts at three in the afternoon and does not ask permission.',
+      fr: 'C\'est ici que le ski alpin a plus ou moins été inventé, et ça se sent encore. Des villages douillets où l\'on rentre skis aux pieds, la technique de l\'Arlberg, et un après-ski qui démarre à trois heures de l\'après-midi sans demander la permission.',
+      es: 'Aquí es donde se inventó, más o menos, el esquí alpino, y todavía se nota. Pueblos acogedores a los que vuelves esquiando hasta la puerta, la técnica del Arlberg y un après-ski que arranca a las tres de la tarde sin pedir permiso.',
+      pt: 'Foi aqui que o esqui alpino mais ou menos nasceu, e ainda se sente. Aldeias acolhedoras a que se regressa de esquis nos pés, a técnica de Arlberg, e um après-ski que começa às três da tarde sem pedir licença.',
     },
   },
   {
@@ -62,10 +62,10 @@ export const COUNTRIES: Country[] = [
     countryCode: 'IT',
     flag: '🇮🇹',
     intro: {
-      en: 'Italy gives you the Dolomiti Superski (1,200 km on a single pass), hosts the 2026 Winter Olympics at Cortina, and serves up the most photogenic lunches on the slopes in the Alps. Strong price-to-quality ratio too.',
-      fr: 'L\'Italie, c\'est le Dolomiti Superski (1 200 km sur un seul forfait), l\'organisation des Jeux Olympiques d\'hiver 2026 à Cortina, et les déjeuners sur les pistes les plus photogéniques des Alpes. Excellent rapport qualité-prix en prime.',
-      es: 'Italia ofrece el Dolomiti Superski (1.200 km con un solo forfait), la organización de los Juegos Olímpicos de Invierno 2026 en Cortina, y los almuerzos en las pistas más fotogénicos de los Alpes. Excelente relación calidad-precio además.',
-      pt: 'A Itália oferece o Dolomiti Superski (1.200 km com um único forfait), a organização dos Jogos Olímpicos de Inverno 2026 em Cortina, e os almoços nas pistas mais fotogénicos dos Alpes. Excelente relação qualidade-preço por cima.',
+      en: 'Skiing the Italian way means a long lunch is non-negotiable. The Dolomiti Superski puts 1,200 km on one pass, Cortina hosts the 2026 Olympics, and the Dolomites turn every chairlift ride into a postcard, all of it cheaper than you would expect.',
+      fr: 'Skier à l\'italienne, c\'est admettre qu\'un long déjeuner ne se négocie pas. Le Dolomiti Superski offre 1 200 km sur un seul forfait, Cortina accueille les Jeux 2026, et les Dolomites font de chaque télésiège une carte postale, le tout moins cher qu\'on ne l\'imagine.',
+      es: 'Esquiar a la italiana significa que una comida larga no se negocia. El Dolomiti Superski ofrece 1.200 km con un solo forfait, Cortina acoge los Juegos de 2026 y los Dolomitas convierten cada telesilla en una postal, y todo más barato de lo que esperas.',
+      pt: 'Esquiar à italiana significa que um almoço demorado não se negoceia. O Dolomiti Superski oferece 1.200 km num só forfait, Cortina acolhe os Jogos de 2026, e as Dolomitas transformam cada teleassento num postal, tudo isto mais barato do que se espera.',
     },
   },
   {
@@ -74,10 +74,10 @@ export const COUNTRIES: Country[] = [
     countryCode: 'ES',
     flag: '🇪🇸',
     intro: {
-      en: 'Pyrenees skiing with sunshine: the Spanish side gets more sun than the French side. Baqueira-Beret is the royal family\'s choice, and Formigal hosts the wildest après-ski in Spain.',
-      fr: 'Le ski des Pyrénées sous le soleil : le versant espagnol est plus ensoleillé que le français. Baqueira-Beret est le choix de la famille royale et Formigal accueille l\'après-ski le plus déchaîné d\'Espagne.',
-      es: 'Esquí en los Pirineos con sol : la vertiente española recibe más sol que la francesa. Baqueira-Beret es la elección de la familia real y Formigal acoge el après-ski más desbocado de España.',
-      pt: 'Esqui nos Pirenéus com sol: a vertente espanhola apanha mais sol do que a francesa. Baqueira-Beret é a escolha da família real e Formigal acolhe o après-ski mais desenfreado de Espanha.',
+      en: 'The Spanish side of the Pyrenees gets the sun the French side misses, and Spain skis like it: late lunches, later nights. Baqueira-Beret is where the royal family goes; Formigal is where everyone else goes to dance in ski boots.',
+      fr: 'Le versant espagnol des Pyrénées récupère le soleil que le versant français rate, et l\'Espagne skie en conséquence : déjeuners tardifs, soirées plus tardives encore. Baqueira-Beret, c\'est là que va la famille royale ; Formigal, là où tous les autres dansent en chaussures de ski.',
+      es: 'La vertiente española de los Pirineos se queda con el sol que la francesa pierde, y España esquía en consecuencia: comidas tardías, noches aún más tardías. A Baqueira-Beret va la familia real; a Formigal va todo el mundo a bailar con las botas puestas.',
+      pt: 'A vertente espanhola dos Pirenéus fica com o sol que a francesa perde, e a Espanha esquia em conformidade: almoços tardios, noites ainda mais tardias. A Baqueira-Beret vai a família real; a Formigal vai toda a gente dançar de botas de esqui calçadas.',
     },
   },
   {
@@ -86,10 +86,10 @@ export const COUNTRIES: Country[] = [
     countryCode: 'AD',
     flag: '🇦🇩',
     intro: {
-      en: 'Tax-free shopping combined with the largest ski domain in the Pyrenees, Grandvalira. It is the best value-for-money pick on the European ski map, particularly friendly to beginners and tighter budgets.',
-      fr: 'Shopping détaxé et plus grand domaine skiable des Pyrénées, Grandvalira. C\'est le meilleur rapport qualité-prix du ski européen, idéal pour les débutants et les budgets serrés.',
-      es: 'Compras libres de impuestos y el mayor dominio esquiable de los Pirineos, Grandvalira. Es la mejor relación calidad-precio del esquí europeo, ideal para principiantes y presupuestos ajustados.',
-      pt: 'Compras isentas de impostos e o maior domínio esquiável dos Pirenéus, Grandvalira. É a melhor relação qualidade-preço do esqui europeu, ideal para principiantes e orçamentos mais apertados.',
+      en: 'A tiny country that punches far above its size: Grandvalira is the biggest ski domain in the Pyrenees, and the duty-free prices mean you can kit out the whole family and still come home under budget. The easiest place in Europe to learn.',
+      fr: 'Un petit pays qui joue très au-dessus de sa taille : Grandvalira est le plus grand domaine des Pyrénées, et les prix détaxés permettent d\'équiper toute la famille en rentrant sous le budget. L\'endroit le plus facile d\'Europe pour apprendre.',
+      es: 'Un país diminuto que juega muy por encima de su tamaño: Grandvalira es el mayor dominio de los Pirineos, y los precios libres de impuestos permiten equipar a toda la familia y volver a casa sin pasarse del presupuesto. El sitio más fácil de Europa para aprender.',
+      pt: 'Um país minúsculo que joga muito acima do seu tamanho: Grandvalira é o maior domínio dos Pirenéus, e os preços isentos de impostos permitem equipar a família toda e voltar a casa dentro do orçamento. O sítio mais fácil da Europa para aprender.',
     },
   },
 ]
