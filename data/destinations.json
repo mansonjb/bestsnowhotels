@@ -4230,5 +4230,649 @@
       "red": 10,
       "black": 4
     }
+  },
+  {
+    "slug": "les-7-laux",
+    "name": "Les 7 Laux",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.267,
+    "lng": 5.93,
+    "altitudeBase": 1350,
+    "altitudeSummit": 2400,
+    "pistesKm": 120,
+    "lifts": 21,
+    "skiInSkiOutNote": {
+      "en": "Les 7 Laux is mainly a day-ski area with a few slope-side residences at Prapoutel and Pipay; most visitors stay nearby or drive up from Grenoble.",
+      "fr": "Les 7 Laux est surtout un domaine de ski à la journée, avec quelques résidences au pied des pistes à Prapoutel et Pipay ; la plupart logent à proximité ou montent depuis Grenoble.",
+      "es": "Les 7 Laux es sobre todo un dominio de esquí de día, con algunas residencias a pie de pista en Prapoutel y Pipay; la mayoría se aloja cerca o sube desde Grenoble.",
+      "pt": "Les 7 Laux é sobretudo um domínio de esqui de dia, com algumas residências no sopé das pistas em Prapoutel e Pipay; a maioria fica perto ou sobe de Grenoble."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "value",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A big, snowy local favourite on the Belledonne range above Grenoble, Les 7 Laux offers 120 km of varied piste close to the city. Quiet midweek, lively at weekends, it punches above its fame.",
+      "fr": "Grand domaine enneigé et favori des locaux sur le massif de Belledonne au-dessus de Grenoble, Les 7 Laux offrent 120 km de pistes variées tout près de la ville. Tranquille en semaine, animé le week-end, il vaut bien plus que sa réputation.",
+      "es": "Gran dominio nevado y favorito de los locales en el macizo de Belledonne sobre Grenoble, Les 7 Laux ofrece 120 km de pistas variadas muy cerca de la ciudad. Tranquilo entre semana y animado los fines de semana, vale mucho más que su fama.",
+      "pt": "Grande domínio nevado e favorito dos locais no maciço de Belledonne acima de Grenoble, Les 7 Laux oferece 120 km de pistas variadas mesmo perto da cidade. Tranquilo a meio da semana e animado ao fim de semana, vale bem mais do que a sua fama."
+    },
+    "longDescription": {
+      "en": "Spread across the linked sectors of Prapoutel, Pipay and Le Pleynet on the Belledonne range, Les 7 Laux is Grenoble's big local mountain, with 120 km of piste rising to around 2400 m. The aspect and altitude give it surprisingly good snow for its modest fame, and the terrain runs from gentle forest blues to genuinely steep blacks and excellent off-piste. It is superb value and an easy drive from the city, busy with locals at weekends but blissfully quiet on weekdays.",
+      "fr": "Réparti sur les secteurs reliés de Prapoutel, Pipay et Le Pleynet, sur le massif de Belledonne, Les 7 Laux sont la grande montagne des Grenoblois, avec 120 km de pistes qui montent vers 2400 m. L'exposition et l'altitude offrent un enneigement étonnamment bon pour leur réputation modeste, et le terrain va des bleues douces en forêt aux noires bien raides et à un excellent hors-piste. D'un très bon rapport qualité-prix et à courte distance de la ville, ils se remplissent de locaux le week-end mais restent merveilleusement calmes en semaine.",
+      "es": "Repartido por los sectores enlazados de Prapoutel, Pipay y Le Pleynet, en el macizo de Belledonne, Les 7 Laux es la gran montaña de los habitantes de Grenoble, con 120 km de pistas que suben hacia los 2400 m. La orientación y la altitud regalan una nieve sorprendentemente buena para su fama modesta, y el terreno va de azules suaves en el bosque a negras bien empinadas y un excelente fuera de pista. De muy buena relación calidad-precio y a poca distancia en coche de la ciudad, se llena de locales los fines de semana pero queda maravillosamente tranquilo entre semana.",
+      "pt": "Repartido pelos setores ligados de Prapoutel, Pipay e Le Pleynet, no maciço de Belledonne, Les 7 Laux é a grande montanha dos habitantes de Grenoble, com 120 km de pistas que sobem para cerca de 2400 m. A exposição e a altitude dão uma neve surpreendentemente boa para a sua fama modesta, e o terreno vai das azuis suaves na floresta às negras bem íngremes e a um excelente fora-de-pista. De muito boa relação qualidade-preço e a curta distância de carro da cidade, enche-se de locais ao fim de semana mas fica maravilhosamente tranquilo durante a semana."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 22,
+      "red": 20,
+      "black": 6
+    }
+  },
+  {
+    "slug": "villard-de-lans",
+    "name": "Villard-de-Lans",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.07,
+    "lng": 5.55,
+    "altitudeBase": 1050,
+    "altitudeSummit": 2170,
+    "pistesKm": 125,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "A real working town in the Vercors, Villard-de-Lans has a gondola from the edge of the centre; lodging is in town, a short walk or shuttle from the lifts.",
+      "fr": "Vraie ville vivante du Vercors, Villard-de-Lans a une télécabine en bordure du centre ; on loge en ville, à quelques pas ou en navette des remontées.",
+      "es": "Verdadera ciudad viva del Vercors, Villard-de-Lans tiene una telecabina al borde del centro; el alojamiento está en el pueblo, a pocos pasos o en lanzadera de los remontes.",
+      "pt": "Verdadeira vila viva do Vercors, Villard-de-Lans tem um telecabine à beira do centro; o alojamento fica na vila, a poucos passos ou de transfer dos teleféricos."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "scenic",
+      "authentic"
+    ],
+    "intro": {
+      "en": "A lively year-round town on the Vercors plateau near Grenoble, Villard-de-Lans skis a sunny 125 km domain with Corrençon. Limestone scenery and a genuine town life set it apart.",
+      "fr": "Ville animée à l'année sur le plateau du Vercors près de Grenoble, Villard-de-Lans skie un domaine ensoleillé de 125 km avec Corrençon. Décor calcaire et vraie vie de ville font sa différence.",
+      "es": "Ciudad animada todo el año en el altiplano del Vercors cerca de Grenoble, Villard-de-Lans esquía un dominio soleado de 125 km con Corrençon. Su paisaje calcáreo y su vida de pueblo de verdad marcan la diferencia.",
+      "pt": "Vila animada todo o ano no planalto do Vercors perto de Grenoble, Villard-de-Lans esquia um domínio solarengo de 125 km com Corrençon. O cenário calcário e a vida de vila a sério fazem a diferença."
+    },
+    "longDescription": {
+      "en": "Villard-de-Lans is a proper Vercors town with shops, schools and year-round life, sharing a 125 km ski domain with neighbouring Corrençon-en-Vercors beneath the limestone walls of the Grande Moucherolle. The skiing is mostly gentle and forested, ideal for families, with the higher Côte 2000 sector offering steeper pitches and good snow up to 2170 m. Close to Grenoble and Lyon, it blends easy access, a strong outdoor culture and the wild, protected scenery of the Vercors regional park.",
+      "fr": "Villard-de-Lans est une vraie ville du Vercors, avec commerces, écoles et vie à l'année, qui partage un domaine de 125 km avec sa voisine Corrençon-en-Vercors sous les parois calcaires de la Grande Moucherolle. Le ski est surtout doux et boisé, idéal pour les familles, le secteur d'altitude de la Côte 2000 offrant des pentes plus raides et un bon enneigement jusqu'à 2170 m. Proche de Grenoble et de Lyon, elle associe accès facile, forte culture outdoor et décor sauvage et protégé du parc régional du Vercors.",
+      "es": "Villard-de-Lans es una verdadera ciudad del Vercors, con comercios, escuelas y vida todo el año, que comparte un dominio de 125 km con su vecina Corrençon-en-Vercors bajo las paredes calcáreas de la Grande Moucherolle. El esquí es sobre todo suave y arbolado, ideal para familias, mientras que el sector alto de Côte 2000 ofrece pendientes más empinadas y buena nieve hasta los 2170 m. Cerca de Grenoble y Lyon, combina acceso fácil, una fuerte cultura al aire libre y el paisaje salvaje y protegido del parque regional del Vercors.",
+      "pt": "Villard-de-Lans é uma verdadeira vila do Vercors, com comércio, escolas e vida todo o ano, que partilha um domínio de 125 km com a vizinha Corrençon-en-Vercors sob as paredes calcárias da Grande Moucherolle. O esqui é sobretudo suave e arborizado, ideal para famílias, enquanto o setor alto de Côte 2000 oferece encostas mais íngremes e boa neve até aos 2170 m. Perto de Grenoble e Lyon, combina acesso fácil, uma forte cultura ao ar livre e a paisagem selvagem e protegida do parque regional do Vercors."
+    },
+    "pisteCounts": {
+      "green": 14,
+      "blue": 24,
+      "red": 20,
+      "black": 6
+    }
+  },
+  {
+    "slug": "saint-francois-longchamp",
+    "name": "Saint-François-Longchamp",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.408,
+    "lng": 6.35,
+    "altitudeBase": 1450,
+    "altitudeSummit": 2550,
+    "pistesKm": 165,
+    "lifts": 49,
+    "skiInSkiOutNote": {
+      "en": "Purpose-built Saint-François-Longchamp sits on the snow-front below the Col de la Madeleine, so most apartments are genuinely ski-in/ski-out.",
+      "fr": "Station construite, Saint-François-Longchamp est posée sur le front de neige sous le col de la Madeleine : la plupart des appartements y sont vraiment ski-in/ski-out.",
+      "es": "Estación construida, Saint-François-Longchamp se asienta sobre el frente de nieve bajo el Col de la Madeleine, así que la mayoría de apartamentos son de verdad ski-in/ski-out.",
+      "pt": "Estância construída, Saint-François-Longchamp assenta no sopé das pistas sob o Col de la Madeleine, por isso a maioria dos apartamentos é mesmo ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "family",
+      "value",
+      "sunny"
+    ],
+    "intro": {
+      "en": "On the sunny side of the Col de la Madeleine, Saint-François-Longchamp links with Valmorel to form the 165 km Grand Domaine. It is relaxed, affordable and refreshingly uncrowded.",
+      "fr": "Sur le versant ensoleillé du col de la Madeleine, Saint-François-Longchamp se relie à Valmorel pour former le Grand Domaine et ses 165 km. Décontractée, abordable et agréablement peu fréquentée.",
+      "es": "En la cara soleada del Col de la Madeleine, Saint-François-Longchamp se une a Valmorel para formar el Grand Domaine y sus 165 km. Relajada, asequible y agradablemente poco concurrida.",
+      "pt": "Na encosta solarenga do Col de la Madeleine, Saint-François-Longchamp liga-se a Valmorel para formar o Grand Domaine e os seus 165 km. Descontraída, acessível e agradavelmente pouco concorrida."
+    },
+    "longDescription": {
+      "en": "Saint-François-Longchamp sits high on the Maurienne side of the Col de la Madeleine and connects over the pass with Valmorel to make the 165 km Grand Domaine, a sunny, mostly intermediate playground. The runs are wide and confidence-building, with the higher slopes toward the Cheval Noir holding good snow and longer descents. It is one of the better-value family bases in the Savoie, low-key and friendly, with plenty of slope-side lodging.",
+      "fr": "Saint-François-Longchamp se tient haut sur le versant Maurienne du col de la Madeleine et rejoint Valmorel par le col pour former le Grand Domaine, 165 km de terrain ensoleillé surtout intermédiaire. Les pistes sont larges et rassurantes, les pentes d'altitude vers le Cheval Noir gardant une bonne neige et de longues descentes. C'est l'une des bases familiales au meilleur rapport qualité-prix de Savoie, discrète et accueillante, avec beaucoup d'hébergements au pied des pistes.",
+      "es": "Saint-François-Longchamp se alza en lo alto de la vertiente de la Maurienne del Col de la Madeleine y conecta por el puerto con Valmorel para formar el Grand Domaine, 165 km de terreno soleado sobre todo intermedio. Las pistas son anchas y dan confianza, mientras que las laderas altas hacia el Cheval Noir conservan buena nieve y descensos más largos. Es una de las bases familiares de mejor relación calidad-precio de la Saboya, discreta y acogedora, con mucho alojamiento a pie de pista.",
+      "pt": "Saint-François-Longchamp ergue-se no alto da vertente da Maurienne do Col de la Madeleine e liga-se pelo colo a Valmorel para formar o Grand Domaine, 165 km de terreno solarengo sobretudo intermédio. As pistas são largas e dão confiança, enquanto as encostas altas rumo ao Cheval Noir mantêm boa neve e descidas mais longas. É uma das bases familiares de melhor relação qualidade-preço da Saboia, discreta e acolhedora, com muito alojamento no sopé das pistas."
+    },
+    "pisteCounts": {
+      "green": 20,
+      "blue": 35,
+      "red": 28,
+      "black": 8
+    }
+  },
+  {
+    "slug": "aussois",
+    "name": "Aussois",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.228,
+    "lng": 6.74,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2750,
+    "pistesKm": 55,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "Aussois is a sunny old village on a balcony in the Haute-Maurienne, with the lifts at the top of the village and lodging a short walk or ski away.",
+      "fr": "Aussois est un vieux village ensoleillé sur un balcon de la Haute-Maurienne, avec les remontées en haut du village et des hébergements à quelques pas ou à skis.",
+      "es": "Aussois es un viejo pueblo soleado en un balcón de la Haute-Maurienne, con los remontes en lo alto del pueblo y el alojamiento a pocos pasos o esquiando.",
+      "pt": "Aussois é uma velha aldeia solarenga num terraço da Haute-Maurienne, com os teleféricos no topo da aldeia e o alojamento a poucos passos ou a esqui."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "family",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A sunny stone village on a south-facing balcony in the Haute-Maurienne, Aussois is friendly, authentic and snow-sure up high. It looks out over the Vanoise and the Dent Parrachée.",
+      "fr": "Village de pierre ensoleillé sur un balcon exposé sud en Haute-Maurienne, Aussois est accueillant, authentique et bien enneigé en altitude. Il domine la Vanoise et la Dent Parrachée.",
+      "es": "Pueblo de piedra soleado en un balcón orientado al sur en la Haute-Maurienne, Aussois es acogedor, auténtico y de nieve segura en altura. Mira a la Vanoise y a la Dent Parrachée.",
+      "pt": "Aldeia de pedra solarenga num terraço virado a sul na Haute-Maurienne, Aussois é acolhedora, autêntica e de neve segura em altitude. Domina a Vanoise e a Dent Parrachée."
+    },
+    "longDescription": {
+      "en": "Aussois clings to a sunny, south-facing shelf in the Haute-Maurienne, a warm old stone village that has grown into a friendly little resort beneath the Vanoise glaciers. Its 55 km of piste climb from 1500 m to 2750 m, low enough for sheltered forest runs and high enough for dependable snow, with a gentle layout that suits families and improvers. The views across to the Dent Parrachée are superb, and the pace is calm and authentically Savoyard.",
+      "fr": "Aussois s'accroche à un replat ensoleillé exposé sud, en Haute-Maurienne : un vieux village de pierre chaleureux devenu une petite station accueillante sous les glaciers de la Vanoise. Ses 55 km de pistes montent de 1500 à 2750 m, assez bas pour des pistes abritées en forêt et assez haut pour une neige fiable, avec un tracé doux qui convient aux familles et aux skieurs en progrès. Les vues sur la Dent Parrachée sont superbes, et le rythme reste calme et authentiquement savoyard.",
+      "es": "Aussois se aferra a una repisa soleada orientada al sur, en la Haute-Maurienne: un cálido y viejo pueblo de piedra convertido en una pequeña estación acogedora bajo los glaciares de la Vanoise. Sus 55 km de pistas suben de 1500 a 2750 m, lo bastante bajo para pistas resguardadas en el bosque y lo bastante alto para una nieve fiable, con un trazado suave que va bien a familias y a quienes mejoran. Las vistas a la Dent Parrachée son magníficas, y el ritmo es tranquilo y auténticamente saboyano.",
+      "pt": "Aussois agarra-se a um patamar solarengo virado a sul, na Haute-Maurienne: uma velha e acolhedora aldeia de pedra tornada uma pequena estância sob os glaciares da Vanoise. Os seus 55 km de pistas sobem de 1500 a 2750 m, baixo o suficiente para pistas abrigadas na floresta e alto o suficiente para uma neve fiável, com um traçado suave que assenta bem a famílias e a quem progride. As vistas sobre a Dent Parrachée são magníficas, e o ritmo é calmo e autenticamente saboiano."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 12,
+      "red": 12,
+      "black": 5
+    }
+  },
+  {
+    "slug": "valmeinier",
+    "name": "Valmeinier",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.17,
+    "lng": 6.49,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2600,
+    "pistesKm": 150,
+    "lifts": 30,
+    "skiInSkiOutNote": {
+      "en": "Valmeinier pairs an old village lower down with the slope-side Valmeinier 1800, where most apartments are ski-in/ski-out on the Galibier-Thabor snow-front.",
+      "fr": "Valmeinier associe un vieux village plus bas à la station de Valmeinier 1800, au pied des pistes, où la plupart des appartements sont ski-in/ski-out sur le front de neige du Galibier-Thabor.",
+      "es": "Valmeinier combina un viejo pueblo más abajo con la estación de Valmeinier 1800, a pie de pista, donde la mayoría de apartamentos son ski-in/ski-out en el frente de nieve del Galibier-Thabor.",
+      "pt": "Valmeinier combina uma velha aldeia mais abaixo com a estância de Valmeinier 1800, no sopé das pistas, onde a maioria dos apartamentos é ski-in/ski-out na frente de neve do Galibier-Thabor."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "value",
+      "scenic"
+    ],
+    "intro": {
+      "en": "A quiet Maurienne resort linked with Valloire across the 150 km Galibier-Thabor domain, Valmeinier mixes an old village with a slope-side base at 1800 m. Sunny, good value and family-friendly.",
+      "fr": "Station tranquille de Maurienne reliée à Valloire sur le domaine Galibier-Thabor de 150 km, Valmeinier mêle un vieux village à une base au pied des pistes à 1800 m. Ensoleillée, abordable et familiale.",
+      "es": "Estación tranquila de la Maurienne unida a Valloire en el dominio Galibier-Thabor de 150 km, Valmeinier combina un viejo pueblo con una base a pie de pista a 1800 m. Soleada, asequible y familiar.",
+      "pt": "Estância tranquila da Maurienne ligada a Valloire no domínio Galibier-Thabor de 150 km, Valmeinier combina uma velha aldeia com uma base no sopé das pistas a 1800 m. Solarenga, acessível e familiar."
+    },
+    "longDescription": {
+      "en": "Valmeinier is the quieter twin of Valloire, sharing the same sunny 150 km Galibier-Thabor domain but with a calmer, more family-focused feel. It splits between a tiny old village at 1500 m and the convenient, slope-side Valmeinier 1800, from where lifts climb toward the 2600 m ridge and the link to Valloire. Wide intermediate runs, reliable high-altitude snow and gentle prices make it a relaxed choice well off the headline circuit.",
+      "fr": "Valmeinier est la jumelle plus tranquille de Valloire, partageant le même domaine ensoleillé Galibier-Thabor de 150 km mais avec une atmosphère plus calme et familiale. Elle se partage entre un minuscule vieux village à 1500 m et la pratique station de Valmeinier 1800, d'où les remontées grimpent vers la crête à 2600 m et la liaison avec Valloire. Larges pistes intermédiaires, neige d'altitude fiable et tarifs doux en font un choix détendu, loin des circuits en vue.",
+      "es": "Valmeinier es la gemela más tranquila de Valloire, comparte el mismo dominio soleado Galibier-Thabor de 150 km pero con un ambiente más calmado y familiar. Se reparte entre un diminuto pueblo viejo a 1500 m y la práctica estación de Valmeinier 1800, desde donde los remontes suben hacia la cresta a 2600 m y el enlace con Valloire. Anchas pistas intermedias, nieve de altura fiable y precios suaves la hacen una opción relajada, lejos de los circuitos de moda.",
+      "pt": "Valmeinier é a gémea mais tranquila de Valloire, partilha o mesmo domínio solarengo Galibier-Thabor de 150 km mas com um ambiente mais calmo e familiar. Divide-se entre uma minúscula aldeia antiga a 1500 m e a prática estância de Valmeinier 1800, de onde os teleféricos sobem rumo à crista a 2600 m e à ligação com Valloire. Largas pistas intermédias, neve de altitude fiável e preços suaves fazem dela uma opção descontraída, longe dos circuitos da moda."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 25,
+      "red": 26,
+      "black": 8
+    }
+  },
+  {
+    "slug": "areches-beaufort",
+    "name": "Arêches-Beaufort",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.7,
+    "lng": 6.58,
+    "altitudeBase": 1080,
+    "altitudeSummit": 2320,
+    "pistesKm": 50,
+    "lifts": 15,
+    "skiInSkiOutNote": {
+      "en": "Arêches-Beaufort spreads over real villages with lifts at the snow-front; some chalets and apartments at Arêches are a short walk or ski from the slopes.",
+      "fr": "Arêches-Beaufort se répartit sur de vrais villages avec remontées au front de neige ; certains chalets et appartements à Arêches sont à quelques pas ou à skis des pistes.",
+      "es": "Arêches-Beaufort se reparte por pueblos de verdad con remontes en el frente de nieve; algunos chalets y apartamentos en Arêches quedan a pocos pasos o esquiando de las pistas.",
+      "pt": "Arêches-Beaufort distribui-se por aldeias a sério com teleféricos na frente de neve; alguns chalés e apartamentos em Arêches ficam a poucos passos ou a esqui das pistas."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "scenic",
+      "family"
+    ],
+    "intro": {
+      "en": "In the heart of the Beaufortain, home of Beaufort cheese, Arêches-Beaufort is a beautiful, authentic resort famous for off-piste and ski touring. It is a postcard of old Savoie.",
+      "fr": "Au cœur du Beaufortain, patrie du fromage de Beaufort, Arêches-Beaufort est une station magnifique et authentique, réputée pour le hors-piste et le ski de randonnée. Une carte postale de la vieille Savoie.",
+      "es": "En el corazón del Beaufortain, cuna del queso Beaufort, Arêches-Beaufort es una estación preciosa y auténtica, famosa por el fuera de pista y el esquí de travesía. Una postal de la vieja Saboya.",
+      "pt": "No coração do Beaufortain, terra do queijo Beaufort, Arêches-Beaufort é uma estância magnífica e autêntica, famosa pelo fora-de-pista e pelo esqui de travessia. Um postal da velha Saboia."
+    },
+    "longDescription": {
+      "en": "Arêches-Beaufort lies deep in the Beaufortain, a green, traditional corner of Savoie famed for its Beaufort cheese and chalet-dotted hillsides. The 50 km of piste are modest in number but big on character and snow, with a north-leaning aspect that draws a devoted following of off-piste and ski-touring fans, including the legendary Pierra Menta race. It is a genuinely authentic village resort, low on glitz and high on charm, perfect for skiers who want the real Savoyard mountains.",
+      "fr": "Arêches-Beaufort se niche au fond du Beaufortain, un coin vert et traditionnel de Savoie célèbre pour son fromage de Beaufort et ses coteaux parsemés de chalets. Les 50 km de pistes sont modestes en nombre mais riches en caractère et en neige, avec une orientation nord qui séduit une fidèle communauté d'amateurs de hors-piste et de ski de randonnée, dont la légendaire course de la Pierra Menta. C'est une vraie station-village authentique, sobre en paillettes et riche en charme, parfaite pour qui veut la vraie montagne savoyarde.",
+      "es": "Arêches-Beaufort se acomoda en lo más hondo del Beaufortain, un rincón verde y tradicional de la Saboya famoso por su queso Beaufort y sus laderas salpicadas de chalets. Los 50 km de pistas son modestos en número pero ricos en carácter y nieve, con una orientación norte que atrae a una fiel comunidad de aficionados al fuera de pista y al esquí de travesía, incluida la legendaria carrera de la Pierra Menta. Es una auténtica estación-pueblo, sobria en lujo y rica en encanto, perfecta para quien busca la montaña saboyana de verdad.",
+      "pt": "Arêches-Beaufort aninha-se no fundo do Beaufortain, um canto verde e tradicional da Saboia famoso pelo seu queijo Beaufort e pelas encostas salpicadas de chalés. Os 50 km de pistas são modestos em número mas ricos em carácter e neve, com uma orientação a norte que atrai uma fiel comunidade de apaixonados do fora-de-pista e do esqui de travessia, incluindo a lendária corrida da Pierra Menta. É uma verdadeira estância-aldeia autêntica, sóbria em brilho e rica em charme, perfeita para quem procura a verdadeira montanha saboiana."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 14,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "la-norma",
+    "name": "La Norma",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.22,
+    "lng": 6.7,
+    "altitudeBase": 1350,
+    "altitudeSummit": 2750,
+    "pistesKm": 65,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "La Norma is a car-free, purpose-built resort, so its apartments and hotels are all on the snow-front for true ski-in/ski-out.",
+      "fr": "La Norma est une station construite et sans voitures : ses appartements et hôtels sont tous au front de neige pour un vrai ski-in/ski-out.",
+      "es": "La Norma es una estación construida y sin coches, así que sus apartamentos y hoteles están todos en el frente de nieve para un verdadero ski-in/ski-out.",
+      "pt": "La Norma é uma estância construída e sem carros, por isso os seus apartamentos e hotéis estão todos na frente de neve para um verdadeiro ski-in/ski-out."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "value",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "A compact, car-free resort in the Haute-Maurienne above Modane, La Norma is built for easy, ski-in/ski-out family days. Forested lower runs give way to snowy heights at 2750 m.",
+      "fr": "Station compacte et sans voitures en Haute-Maurienne au-dessus de Modane, La Norma est conçue pour des journées familiales faciles, skis aux pieds. Les pistes boisées du bas laissent place aux hauteurs enneigées à 2750 m.",
+      "es": "Estación compacta y sin coches en la Haute-Maurienne sobre Modane, La Norma está pensada para días familiares fáciles, a pie de pista. Las pistas arboladas de abajo dan paso a las alturas nevadas a 2750 m.",
+      "pt": "Estância compacta e sem carros na Haute-Maurienne acima de Modane, La Norma foi pensada para dias familiares fáceis, no sopé das pistas. As pistas arborizadas em baixo dão lugar às alturas nevadas a 2750 m."
+    },
+    "longDescription": {
+      "en": "La Norma is a small, traffic-free resort perched above Modane in the Haute-Maurienne, designed so families can step from the door straight onto the snow. Its 65 km of piste run from sheltered larch forest at 1350 m up to wide, snow-sure slopes near 2750 m, with a gondola linking the village to the upper mountain. Quiet, modern and very convenient, it is an unpretentious, good-value base for a relaxed week on skis.",
+      "fr": "La Norma est une petite station sans circulation perchée au-dessus de Modane, en Haute-Maurienne, conçue pour que les familles passent de la porte à la neige sans détour. Ses 65 km de pistes vont de la forêt de mélèzes abritée à 1350 m jusqu'à de larges pentes bien enneigées vers 2750 m, une télécabine reliant le village au haut du domaine. Calme, moderne et très pratique, c'est une base sans prétention et d'un bon rapport qualité-prix pour une semaine de ski détendue.",
+      "es": "La Norma es una pequeña estación sin tráfico encaramada sobre Modane, en la Haute-Maurienne, diseñada para que las familias pasen de la puerta a la nieve sin rodeos. Sus 65 km de pistas van desde el resguardado bosque de alerces a 1350 m hasta amplias laderas de nieve segura cerca de los 2750 m, con una telecabina que une el pueblo con la parte alta. Tranquila, moderna y muy práctica, es una base sin pretensiones y de buena relación calidad-precio para una semana de esquí relajada.",
+      "pt": "La Norma é uma pequena estância sem trânsito empoleirada acima de Modane, na Haute-Maurienne, concebida para que as famílias passem da porta para a neve sem rodeios. Os seus 65 km de pistas vão da abrigada floresta de lariços a 1350 m até amplas encostas de neve segura perto dos 2750 m, com um telecabine a ligar a aldeia ao alto do domínio. Tranquila, moderna e muito prática, é uma base sem pretensões e de boa relação qualidade-preço para uma semana de esqui descontraída."
+    },
+    "pisteCounts": {
+      "green": 7,
+      "blue": 14,
+      "red": 14,
+      "black": 5
+    }
+  },
+  {
+    "slug": "les-houches",
+    "name": "Les Houches",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.89,
+    "lng": 6.8,
+    "altitudeBase": 1010,
+    "altitudeSummit": 1900,
+    "pistesKm": 55,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "Les Houches is a spread-out valley village with lifts at each end; some chalets and hotels near the Prarion and Bellevue lifts are within easy reach of the snow.",
+      "fr": "Les Houches est un village de vallée étiré avec des remontées à chaque extrémité ; certains chalets et hôtels près des départs du Prarion et de Bellevue sont à portée facile de la neige.",
+      "es": "Les Houches es un pueblo de valle alargado con remontes en cada extremo; algunos chalets y hoteles cerca de las bases del Prarion y de Bellevue quedan a fácil alcance de la nieve.",
+      "pt": "Les Houches é uma aldeia de vale alongada com teleféricos em cada extremo; alguns chalés e hotéis perto das bases do Prarion e de Bellevue ficam a fácil alcance da neve."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "family",
+      "scenic",
+      "racing"
+    ],
+    "intro": {
+      "en": "At the foot of the Chamonix valley, Les Houches offers forested, family-friendly skiing under Mont Blanc and the famous Kandahar World Cup downhill. It is calmer and greener than Chamonix itself.",
+      "fr": "À l'entrée de la vallée de Chamonix, Les Houches offre un ski boisé et familial sous le Mont Blanc, avec la célèbre piste de descente Kandahar de Coupe du monde. Plus calme et plus verte que Chamonix même.",
+      "es": "A la entrada del valle de Chamonix, Les Houches ofrece un esquí arbolado y familiar bajo el Mont Blanc, con la famosa pista de descenso Kandahar de Copa del Mundo. Más tranquila y verde que la propia Chamonix.",
+      "pt": "À entrada do vale de Chamonix, Les Houches oferece um esqui arborizado e familiar sob o Mont Blanc, com a famosa pista de descida Kandahar da Taça do Mundo. Mais tranquila e verde do que a própria Chamonix."
+    },
+    "longDescription": {
+      "en": "Les Houches guards the entrance to the Chamonix valley, a green, forested ski area that feels a world away from the high drama of the Aiguille du Midi up the road. Its 55 km of mostly tree-lined piste are sheltered and family-friendly, but they also include the Verte des Houches, the fearsome Kandahar World Cup downhill course. With grandstand views of Mont Blanc and a calmer village feel, it is the Chamonix valley's most relaxed and family-oriented mountain.",
+      "fr": "Les Houches gardent l'entrée de la vallée de Chamonix : un domaine vert et boisé, à mille lieues de la haute dramaturgie de l'Aiguille du Midi un peu plus haut. Ses 55 km de pistes surtout en forêt sont abrités et familiaux, mais comprennent aussi la Verte des Houches, la redoutable piste de descente Kandahar de Coupe du monde. Avec ses vues imprenables sur le Mont Blanc et son ambiance de village plus calme, c'est la montagne la plus détendue et familiale de la vallée de Chamonix.",
+      "es": "Les Houches custodia la entrada del valle de Chamonix: un dominio verde y arbolado, a años luz del alto dramatismo de la Aiguille du Midi un poco más arriba. Sus 55 km de pistas sobre todo entre árboles son resguardados y familiares, pero también incluyen la Verte des Houches, la temible pista de descenso Kandahar de Copa del Mundo. Con vistas inmejorables al Mont Blanc y un ambiente de pueblo más tranquilo, es la montaña más relajada y familiar del valle de Chamonix.",
+      "pt": "Les Houches guarda a entrada do vale de Chamonix: um domínio verde e arborizado, a anos-luz do alto dramatismo da Aiguille du Midi um pouco mais acima. Os seus 55 km de pistas sobretudo entre árvores são abrigados e familiares, mas incluem também a Verte des Houches, a temível pista de descida Kandahar da Taça do Mundo. Com vistas imbatíveis sobre o Mont Blanc e um ambiente de aldeia mais tranquilo, é a montanha mais descontraída e familiar do vale de Chamonix."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 14,
+      "red": 14,
+      "black": 6
+    }
+  },
+  {
+    "slug": "luchon-superbagneres",
+    "name": "Luchon-Superbagnères",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.76,
+    "lng": 0.57,
+    "altitudeBase": 1800,
+    "altitudeSummit": 2260,
+    "pistesKm": 35,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "The slopes are at Superbagnères, reached by cable car from the spa town of Bagnères-de-Luchon below, where almost all the hotels are.",
+      "fr": "Les pistes sont à Superbagnères, reliée par téléphérique à la ville thermale de Bagnères-de-Luchon en contrebas, où se trouvent presque tous les hôtels.",
+      "es": "Las pistas están en Superbagnères, unida por teleférico con la ciudad termal de Bagnères-de-Luchon más abajo, donde se concentran casi todos los hoteles.",
+      "pt": "As pistas estão em Superbagnères, ligada por teleférico à vila termal de Bagnères-de-Luchon mais abaixo, onde se concentram quase todos os hotéis."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "scenic",
+      "thermal",
+      "value"
+    ],
+    "intro": {
+      "en": "The balcony of Luchon, Superbagnères is a panoramic ski area above one of the great spa towns of the Pyrenees. Ride the cable car up to ski, soak in the thermal baths after.",
+      "fr": "Balcon de Luchon, Superbagnères est un domaine panoramique au-dessus de l'une des grandes villes thermales des Pyrénées. On monte skier en téléphérique, on se détend aux thermes en redescendant.",
+      "es": "Balcón de Luchon, Superbagnères es un dominio panorámico sobre una de las grandes ciudades termales de los Pirineos. Se sube a esquiar en teleférico y se descansa en las termas al bajar.",
+      "pt": "Varanda de Luchon, Superbagnères é um domínio panorâmico acima de uma das grandes vilas termais dos Pirenéus. Sobe-se de teleférico para esquiar e descansa-se nas termas ao descer."
+    },
+    "longDescription": {
+      "en": "Superbagnères is the panoramic ski area perched above Bagnères-de-Luchon, the elegant Belle Époque spa town often called the queen of the Pyrenees. A historic cable car lifts skiers from the town to the 1800 m plateau, where 35 km of sunny piste fan out with sweeping views over the high border peaks. The combination of grand mountain scenery, town life and thermal baths makes it one of the most characterful days out in the French Pyrenees.",
+      "fr": "Superbagnères est le domaine panoramique perché au-dessus de Bagnères-de-Luchon, l'élégante ville thermale Belle Époque souvent surnommée la reine des Pyrénées. Un téléphérique historique hisse les skieurs de la ville jusqu'au plateau à 1800 m, où 35 km de pistes ensoleillées s'ouvrent sur de larges vues vers les hauts sommets frontaliers. Le mélange de grands paysages de montagne, de vie de ville et de thermes en fait l'une des sorties les plus pleines de caractère des Pyrénées françaises.",
+      "es": "Superbagnères es el dominio panorámico encaramado sobre Bagnères-de-Luchon, la elegante ciudad termal Belle Époque a menudo llamada la reina de los Pirineos. Un teleférico histórico sube a los esquiadores desde la ciudad hasta la meseta a 1800 m, donde 35 km de pistas soleadas se abren con amplias vistas a las altas cumbres fronterizas. La combinación de gran paisaje de montaña, vida de ciudad y termas la convierte en una de las salidas con más carácter de los Pirineos franceses.",
+      "pt": "Superbagnères é o domínio panorâmico empoleirado acima de Bagnères-de-Luchon, a elegante vila termal Belle Époque muitas vezes chamada a rainha dos Pirenéus. Um teleférico histórico sobe os esquiadores da vila até ao planalto a 1800 m, onde 35 km de pistas solarengas se abrem com amplas vistas sobre os altos cumes fronteiriços. A combinação de grande paisagem de montanha, vida de vila e termas faz dela uma das saídas com mais carácter dos Pirenéus franceses."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 12,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "formigueres",
+    "name": "Formiguères",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.62,
+    "lng": 2.1,
+    "altitudeBase": 1700,
+    "altitudeSummit": 2350,
+    "pistesKm": 25,
+    "lifts": 9,
+    "skiInSkiOutNote": {
+      "en": "Formiguères is a village resort in the Capcir; the lifts rise from the edge of the village, with lodging a short walk or drive away.",
+      "fr": "Formiguères est une station-village du Capcir ; les remontées partent en bordure du village, avec des hébergements à quelques pas ou à courte distance.",
+      "es": "Formiguères es una estación-pueblo del Capcir; los remontes salen del borde del pueblo, con alojamiento a pocos pasos o a corta distancia.",
+      "pt": "Formiguères é uma estância-aldeia do Capcir; os teleféricos partem da orla da aldeia, com alojamento a poucos passos ou a curta distância."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "sunny",
+      "value"
+    ],
+    "intro": {
+      "en": "A friendly forest resort on the sunny Capcir plateau in the Catalan Pyrenees, Formiguères is quiet, affordable and great for families. Pine-lined runs and a relaxed village set the mood.",
+      "fr": "Sympathique station forestière sur le plateau ensoleillé du Capcir, dans les Pyrénées catalanes, Formiguères est calme, abordable et idéale pour les familles. Pistes bordées de pins et village tranquille donnent le ton.",
+      "es": "Simpática estación forestal en el soleado altiplano del Capcir, en los Pirineos catalanes, Formiguères es tranquila, asequible e ideal para familias. Pistas entre pinos y un pueblo tranquilo marcan el ambiente.",
+      "pt": "Simpática estância florestal no solarengo planalto do Capcir, nos Pirenéus catalães, Formiguères é tranquila, acessível e ideal para famílias. Pistas ladeadas de pinheiros e uma aldeia tranquila dão o tom."
+    },
+    "longDescription": {
+      "en": "Formiguères sits on the high Capcir plateau, one of the sunniest and snowiest pockets of the eastern Pyrenees, just a few kilometres from Les Angles. Its 25 km of piste wind through pine forest from 1700 m up to 2350 m, sheltered, gentle and very family-friendly, with a quiet old Catalan village at the base. It is a low-key, affordable spot for relaxed skiing away from the crowds, and a good pairing with the Capcir's nordic trails and snowshoe routes.",
+      "fr": "Formiguères occupe le haut plateau du Capcir, l'une des poches les plus ensoleillées et enneigées des Pyrénées orientales, à quelques kilomètres des Angles. Ses 25 km de pistes serpentent dans la forêt de pins de 1700 à 2350 m, abritées, douces et très familiales, avec un tranquille vieux village catalan au pied. C'est un endroit discret et abordable pour skier au calme, loin de la foule, et un bon complément aux pistes nordiques et aux itinéraires raquettes du Capcir.",
+      "es": "Formiguères ocupa el alto altiplano del Capcir, uno de los rincones más soleados y nevados de los Pirineos orientales, a pocos kilómetros de Les Angles. Sus 25 km de pistas serpentean entre pinares de 1700 a 2350 m, resguardadas, suaves y muy familiares, con un tranquilo y viejo pueblo catalán a sus pies. Es un sitio discreto y asequible para esquiar con calma, lejos del gentío, y un buen complemento a las pistas nórdicas y las rutas de raquetas del Capcir.",
+      "pt": "Formiguères ocupa o alto planalto do Capcir, um dos cantos mais solarengos e nevados dos Pirenéus orientais, a poucos quilómetros de Les Angles. Os seus 25 km de pistas serpenteiam por entre pinhais de 1700 a 2350 m, abrigadas, suaves e muito familiares, com uma tranquila e velha aldeia catalã aos seus pés. É um sítio discreto e acessível para esquiar com calma, longe da multidão, e um bom complemento às pistas nórdicas e aos percursos de raquetas do Capcir."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 8,
+      "red": 8,
+      "black": 3
+    }
+  },
+  {
+    "slug": "val-louron",
+    "name": "Val Louron",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Pyrenees",
+    "lat": 42.81,
+    "lng": 0.41,
+    "altitudeBase": 1450,
+    "altitudeSummit": 2240,
+    "pistesKm": 22,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Val Louron is a small, slope-side resort in the Louron valley; the spa village of Loudenvielle just below offers most of the lodging.",
+      "fr": "Val Louron est une petite station au pied des pistes dans la vallée du Louron ; le village thermal de Loudenvielle, juste en dessous, offre l'essentiel des hébergements.",
+      "es": "Val Louron es una pequeña estación a pie de pista en el valle del Louron; el pueblo termal de Loudenvielle, justo debajo, ofrece la mayor parte del alojamiento.",
+      "pt": "Val Louron é uma pequena estância no sopé das pistas no vale do Louron; a aldeia termal de Loudenvielle, logo abaixo, oferece a maior parte do alojamento."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "sunny",
+      "value"
+    ],
+    "intro": {
+      "en": "A sunny, sheltered family resort in the Louron valley near Loudenvielle, Val Louron is gentle, quiet and great for beginners. The Balnéa spa down the valley is the perfect after-ski.",
+      "fr": "Station familiale ensoleillée et abritée de la vallée du Louron, près de Loudenvielle, Val Louron est douce, calme et idéale pour débuter. Les bains de Balnéa, en bas de la vallée, sont l'après-ski parfait.",
+      "es": "Estación familiar soleada y resguardada del valle del Louron, cerca de Loudenvielle, Val Louron es suave, tranquila e ideal para empezar. El balneario de Balnéa, valle abajo, es el après-ski perfecto.",
+      "pt": "Estância familiar solarenga e abrigada do vale do Louron, perto de Loudenvielle, Val Louron é suave, tranquila e ideal para começar. As termas de Balnéa, vale abaixo, são o après-ski perfeito."
+    },
+    "longDescription": {
+      "en": "Val Louron is a small, sun-trapped resort in the quiet Louron valley of the central Pyrenees, designed around gentle, sheltered slopes that make it a favourite for families and first-timers. Its 22 km of piste rise to about 2240 m with lovely views over the Louron and toward the Pic du Midi, never crowded and easy to navigate. Just below, the modern Balnéa thermal spa at Loudenvielle, the largest in the Pyrenees, makes for a memorable end to a ski day.",
+      "fr": "Val Louron est une petite station gorgée de soleil dans la tranquille vallée du Louron, au cœur des Pyrénées, organisée autour de pentes douces et abritées qui en font un favori des familles et des débutants. Ses 22 km de pistes montent à environ 2240 m avec de jolies vues sur le Louron et vers le Pic du Midi, jamais bondées et faciles à parcourir. Juste en dessous, les bains thermaux modernes de Balnéa à Loudenvielle, les plus grands des Pyrénées, offrent une fin de journée mémorable.",
+      "es": "Val Louron es una pequeña estación bañada de sol en el tranquilo valle del Louron, en el corazón de los Pirineos, organizada en torno a pendientes suaves y resguardadas que la hacen una favorita de familias y principiantes. Sus 22 km de pistas suben a unos 2240 m con bonitas vistas sobre el Louron y hacia el Pic du Midi, nunca abarrotadas y fáciles de recorrer. Justo debajo, el moderno balneario de Balnéa en Loudenvielle, el mayor de los Pirineos, brinda un final de día memorable.",
+      "pt": "Val Louron é uma pequena estância cheia de sol no tranquilo vale do Louron, no coração dos Pirenéus, organizada em torno de encostas suaves e abrigadas que a tornam uma favorita de famílias e principiantes. Os seus 22 km de pistas sobem a cerca de 2240 m com bonitas vistas sobre o Louron e rumo ao Pic du Midi, nunca apinhadas e fáceis de percorrer. Logo abaixo, as modernas termas de Balnéa em Loudenvielle, as maiores dos Pirenéus, proporcionam um fim de dia memorável."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 8,
+      "red": 7,
+      "black": 3
+    }
+  },
+  {
+    "slug": "espot",
+    "name": "Espot",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.58,
+    "lng": 1.09,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2500,
+    "pistesKm": 25,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "Espot Esquí is a slope-side day resort; the pretty village of Espot, gateway to the Aigüestortes park, sits just down the road with the hotels.",
+      "fr": "Espot Esquí est une station au pied des pistes ; le joli village d'Espot, porte du parc d'Aigüestortes, se trouve juste en contrebas avec les hôtels.",
+      "es": "Espot Esquí es una estación a pie de pista; el bonito pueblo de Espot, puerta del parque de Aigüestortes, queda justo más abajo con los hoteles.",
+      "pt": "Espot Esquí é uma estância no sopé das pistas; a bonita aldeia de Espot, porta do parque de Aigüestortes, fica logo abaixo com os hotéis."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "scenic",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "A quiet, snowy resort at the gateway to the Aigüestortes national park, Espot is a Catalan Pyrenees gem for families and nature lovers. Its slopes are sheltered, scenic and uncrowded.",
+      "fr": "Station calme et enneigée à la porte du parc national d'Aigüestortes, Espot est un bijou des Pyrénées catalanes pour les familles et les amoureux de nature. Ses pistes sont abritées, photogéniques et sans foule.",
+      "es": "Estación tranquila y nevada a las puertas del parque nacional de Aigüestortes, Espot es una joya de los Pirineos catalanes para familias y amantes de la naturaleza. Sus pistas son resguardadas, pintorescas y sin gentío.",
+      "pt": "Estância tranquila e nevada às portas do parque nacional de Aigüestortes, Espot é uma joia dos Pirenéus catalães para famílias e amantes da natureza. As suas pistas são abrigadas, pitorescas e sem multidões."
+    },
+    "longDescription": {
+      "en": "Espot Esquí rises above the stone village of Espot, the eastern gateway to the spectacular Aigüestortes i Estany de Sant Maurici national park in the Catalan Pyrenees. Its roughly 25 km of piste climb to about 2500 m through sheltered forest, quiet and well-suited to families and intermediates, with the dramatic granite peaks of the park as a backdrop. Close to neighbouring Port Ainé, it is a peaceful, scenic base for skiers who value nature and calm over big-resort bustle.",
+      "fr": "Espot Esquí s'élève au-dessus du village de pierre d'Espot, porte orientale du spectaculaire parc national d'Aigüestortes i Estany de Sant Maurici, dans les Pyrénées catalanes. Ses quelque 25 km de pistes montent à environ 2500 m à travers une forêt abritée, tranquilles et bien adaptées aux familles et aux intermédiaires, avec les sommets de granit du parc en toile de fond. Proche de sa voisine Port Ainé, c'est une base paisible et photogénique pour les skieurs qui préfèrent la nature et le calme à l'agitation des grandes stations.",
+      "es": "Espot Esquí se alza sobre el pueblo de piedra de Espot, la puerta oriental del espectacular parque nacional de Aigüestortes i Estany de Sant Maurici, en los Pirineos catalanes. Sus unos 25 km de pistas suben a unos 2500 m a través de un bosque resguardado, tranquilas y bien adaptadas a familias e intermedios, con las espectaculares cumbres de granito del parque como telón de fondo. Cerca de su vecina Port Ainé, es una base apacible y pintoresca para esquiadores que valoran la naturaleza y la calma frente al bullicio de las grandes estaciones.",
+      "pt": "Espot Esquí ergue-se acima da aldeia de pedra de Espot, a porta oriental do espetacular parque nacional de Aigüestortes i Estany de Sant Maurici, nos Pirenéus catalães. Os seus cerca de 25 km de pistas sobem a aproximadamente 2500 m através de uma floresta abrigada, tranquilas e bem adaptadas a famílias e intermédios, com os imponentes cumes de granito do parque como pano de fundo. Perto da vizinha Port Ainé, é uma base serena e pitoresca para esquiadores que valorizam a natureza e a calma em vez da agitação das grandes estâncias."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 9,
+      "red": 9,
+      "black": 3
+    }
+  },
+  {
+    "slug": "vallter-2000",
+    "name": "Vallter 2000",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.42,
+    "lng": 2.26,
+    "altitudeBase": 1960,
+    "altitudeSummit": 2535,
+    "pistesKm": 18,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Vallter 2000 is a high day-ski cirque with no lodging at the lifts; the village of Setcases just below has the hotels and guesthouses.",
+      "fr": "Vallter 2000 est un cirque de ski à la journée, en altitude, sans hébergement au pied des pistes ; le village de Setcases, juste en dessous, abrite hôtels et maisons d'hôtes.",
+      "es": "Vallter 2000 es un circo de esquí de día, en altura, sin alojamiento a pie de pista; el pueblo de Setcases, justo debajo, tiene los hoteles y casas de huéspedes.",
+      "pt": "Vallter 2000 é um circo de esqui de dia, em altitude, sem alojamento no sopé das pistas; a aldeia de Setcases, logo abaixo, tem os hotéis e casas de hóspedes."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "high-altitude",
+      "scenic",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "The easternmost resort in the Pyrenees, Vallter 2000 sits in a high glacial cirque where, on a clear day, you can see the Mediterranean. Snowy, scenic and small, it is a Catalan favourite.",
+      "fr": "Station la plus à l'est des Pyrénées, Vallter 2000 occupe un haut cirque glaciaire d'où, par temps clair, on aperçoit la Méditerranée. Enneigée, photogénique et petite, c'est un favori catalan.",
+      "es": "La estación más oriental de los Pirineos, Vallter 2000 ocupa un alto circo glaciar desde donde, en un día despejado, se ve el Mediterráneo. Nevada, pintoresca y pequeña, es una favorita catalana.",
+      "pt": "A estância mais oriental dos Pirenéus, Vallter 2000 ocupa um alto circo glaciar de onde, num dia limpo, se avista o Mediterrâneo. Nevada, pitoresca e pequena, é uma favorita catalã."
+    },
+    "longDescription": {
+      "en": "Vallter 2000 occupies a dramatic glacial cirque at the head of the Ter valley above Setcases, the most easterly ski resort in the Pyrenees and high enough at 1960 m to hold good snow. Its compact 18 km of piste rise to 2535 m, and on clear days the views reach all the way to the Costa Brava and the Mediterranean. Small, scenic and easy to reach from Girona and Barcelona, it is a charming day or weekend mountain for Catalan families.",
+      "fr": "Vallter 2000 occupe un spectaculaire cirque glaciaire en tête de la vallée du Ter, au-dessus de Setcases, station la plus orientale des Pyrénées et assez haute, à 1960 m, pour garder une bonne neige. Ses 18 km de pistes compacts montent à 2535 m, et par temps clair la vue porte jusqu'à la Costa Brava et la Méditerranée. Petite, photogénique et facile d'accès depuis Gérone et Barcelone, c'est une charmante montagne d'une journée ou d'un week-end pour les familles catalanes.",
+      "es": "Vallter 2000 ocupa un espectacular circo glaciar en la cabecera del valle del Ter, sobre Setcases, la estación más oriental de los Pirineos y lo bastante alta, a 1960 m, para conservar buena nieve. Sus compactos 18 km de pistas suben a 2535 m, y en días despejados la vista alcanza hasta la Costa Brava y el Mediterráneo. Pequeña, pintoresca y fácil de alcanzar desde Girona y Barcelona, es una encantadora montaña de un día o un fin de semana para las familias catalanas.",
+      "pt": "Vallter 2000 ocupa um espetacular circo glaciar na cabeceira do vale do Ter, acima de Setcases, a estância mais oriental dos Pirenéus e suficientemente alta, a 1960 m, para manter boa neve. Os seus compactos 18 km de pistas sobem a 2535 m, e em dias limpos a vista alcança até à Costa Brava e ao Mediterrâneo. Pequena, pitoresca e fácil de alcançar desde Girona e Barcelona, é uma encantadora montanha de um dia ou de um fim de semana para as famílias catalãs."
+    },
+    "pisteCounts": {
+      "green": 3,
+      "blue": 7,
+      "red": 6,
+      "black": 3
+    }
+  },
+  {
+    "slug": "port-del-comte",
+    "name": "Port del Comte",
+    "country": "Spain",
+    "countryCode": "ES",
+    "flag": "🇪🇸",
+    "region": "Spanish Pyrenees",
+    "lat": 42.19,
+    "lng": 1.53,
+    "altitudeBase": 1700,
+    "altitudeSummit": 2400,
+    "pistesKm": 50,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "Port del Comte is a sunny day-ski area in the pre-Pyrenees; the small towns of La Coma and Sant Llorenç de Morunys nearby provide the lodging.",
+      "fr": "Port del Comte est un domaine de ski à la journée ensoleillé des Pré-Pyrénées ; les petites villes de La Coma et Sant Llorenç de Morunys, à proximité, fournissent les hébergements.",
+      "es": "Port del Comte es un dominio de esquí de día soleado del prepirineo; los pueblos cercanos de La Coma y Sant Llorenç de Morunys ofrecen el alojamiento.",
+      "pt": "Port del Comte é um domínio de esqui de dia solarengo dos pré-Pirenéus; as pequenas vilas próximas de La Coma e Sant Llorenç de Morunys fornecem o alojamento."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "value",
+      "sunny"
+    ],
+    "intro": {
+      "en": "A sunny pre-Pyrenees resort near Solsona, Port del Comte is one of the closest big ski areas to Barcelona. Gentle, broad slopes make it a popular family and beginner choice.",
+      "fr": "Station ensoleillée des Pré-Pyrénées près de Solsona, Port del Comte est l'un des grands domaines de ski les plus proches de Barcelone. Ses pentes larges et douces en font un choix prisé des familles et des débutants.",
+      "es": "Estación soleada del prepirineo cerca de Solsona, Port del Comte es uno de los grandes dominios de esquí más cercanos a Barcelona. Sus laderas amplias y suaves la hacen una opción muy elegida por familias y principiantes.",
+      "pt": "Estância solarenga dos pré-Pirenéus perto de Solsona, Port del Comte é um dos grandes domínios de esqui mais próximos de Barcelona. As suas encostas amplas e suaves fazem dela uma opção muito escolhida por famílias e principiantes."
+    },
+    "longDescription": {
+      "en": "Port del Comte spreads across a broad, sunny massif in the pre-Pyrenees above Solsona, making it one of the most accessible larger ski areas from Barcelona. Its 50 km of piste rise to around 2400 m over open, gentle terrain that is ideal for families, beginners and cruising intermediates, with wide views over the Catalan plains. It is unpretentious and good value, a reliable choice for a day or a relaxed weekend on the snow close to the city.",
+      "fr": "Port del Comte s'étend sur un large massif ensoleillé des Pré-Pyrénées au-dessus de Solsona, ce qui en fait l'un des plus grands domaines de ski les plus accessibles depuis Barcelone. Ses 50 km de pistes montent à environ 2400 m sur un terrain ouvert et doux, idéal pour les familles, les débutants et les intermédiaires tranquilles, avec de larges vues sur les plaines catalanes. Sans prétention et d'un bon rapport qualité-prix, c'est un choix sûr pour une journée ou un week-end détendu sur la neige près de la ville.",
+      "es": "Port del Comte se extiende por un amplio macizo soleado del prepirineo sobre Solsona, lo que lo convierte en uno de los grandes dominios de esquí más accesibles desde Barcelona. Sus 50 km de pistas suben a unos 2400 m por un terreno abierto y suave, ideal para familias, principiantes e intermedios tranquilos, con amplias vistas sobre las llanuras catalanas. Sin pretensiones y de buena relación calidad-precio, es una opción segura para un día o un fin de semana relajado en la nieve cerca de la ciudad.",
+      "pt": "Port del Comte estende-se por um amplo maciço solarengo dos pré-Pirenéus acima de Solsona, o que faz dele um dos grandes domínios de esqui mais acessíveis a partir de Barcelona. Os seus 50 km de pistas sobem a cerca de 2400 m por um terreno aberto e suave, ideal para famílias, principiantes e intermédios tranquilos, com amplas vistas sobre as planícies catalãs. Sem pretensões e de boa relação qualidade-preço, é uma opção segura para um dia ou um fim de semana descontraído na neve perto da cidade."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 14,
+      "red": 14,
+      "black": 5
+    }
   }
 ]

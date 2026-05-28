@@ -100,6 +100,20 @@ const RESORT_SITES: Record<string, string> = {
   masella: 'https://www.masella.com',
   panticosa: 'https://www.formigal-panticosa.com',
   'port-aine': 'https://www.port-aine.com',
+  'les-7-laux': 'https://www.les7laux.com',
+  'villard-de-lans': 'https://www.villarddelans.com',
+  'saint-francois-longchamp': 'https://www.saintfrancoislongchamp.com',
+  aussois: 'https://www.aussois.com',
+  valmeinier: 'https://www.valmeinier.com',
+  'areches-beaufort': 'https://www.areches-beaufort.com',
+  'la-norma': 'https://www.la-norma.com',
+  'les-houches': 'https://www.leshouches.com',
+  'luchon-superbagneres': 'https://www.luchon-superbagneres.com',
+  formigueres: 'https://www.formigueres.fr',
+  'val-louron': 'https://www.vallouron.com',
+  espot: 'https://www.espotesqui.cat',
+  'vallter-2000': 'https://www.vallter.cat',
+  'port-del-comte': 'https://www.portdelcomte.net',
 }
 
 export function resortSite(slug: string): string | null {

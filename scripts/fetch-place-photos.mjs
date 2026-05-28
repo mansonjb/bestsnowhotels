@@ -120,6 +120,20 @@ const TARGETS = [
   { slug: 'masella',              query: 'Masella ski resort Alp 2500 Cerdanya Catalan Pyrenees Spain forest winter snow' },
   { slug: 'panticosa',            query: 'Panticosa ski resort Tena valley Aragon Pyrenees Spain panorama winter snow' },
   { slug: 'port-aine',            query: 'Port Aine ski resort Pallars Rialp Catalan Pyrenees Spain forest winter snow' },
+  { slug: 'les-7-laux',           query: 'Les 7 Laux ski resort Prapoutel Belledonne Grenoble French Alps panorama winter snow' },
+  { slug: 'villard-de-lans',      query: 'Villard-de-Lans ski resort Vercors Cote 2000 French Alps panorama winter snow' },
+  { slug: 'saint-francois-longchamp', query: 'Saint-Francois-Longchamp ski resort Col de la Madeleine Grand Domaine French Alps winter snow' },
+  { slug: 'aussois',              query: 'Aussois ski resort Haute-Maurienne Vanoise stone village French Alps winter snow' },
+  { slug: 'valmeinier',           query: 'Valmeinier 1800 ski resort Galibier-Thabor Maurienne French Alps panorama winter snow' },
+  { slug: 'areches-beaufort',     query: 'Areches-Beaufort ski resort Beaufortain Savoie French Alps village winter snow' },
+  { slug: 'la-norma',             query: 'La Norma ski resort Haute-Maurienne Modane French Alps panorama winter snow' },
+  { slug: 'les-houches',          query: 'Les Houches ski resort Chamonix valley Mont-Blanc Kandahar French Alps winter snow' },
+  { slug: 'luchon-superbagneres', query: 'Superbagneres Luchon ski resort cable car Pyrenees grand hotel panorama winter snow' },
+  { slug: 'formigueres',          query: 'Formigueres ski resort Capcir Catalan Pyrenees forest winter snow' },
+  { slug: 'val-louron',           query: 'Val Louron ski resort Loudenvielle Hautes-Pyrenees winter snow' },
+  { slug: 'espot',                query: 'Espot Esqui ski resort Aiguestortes Pallars Catalan Pyrenees Spain winter snow' },
+  { slug: 'vallter-2000',         query: 'Vallter 2000 ski resort Setcases Ripolles Catalan Pyrenees Spain glacial cirque winter snow' },
+  { slug: 'port-del-comte',       query: 'Port del Comte ski resort Solsona pre-Pyrenees Catalonia Spain panorama winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {
