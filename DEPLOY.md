@@ -10,7 +10,7 @@ Recommended registrar: **Cloudflare Registrar** (no markup, free WHOIS privacy) 
 
 Domain: `bestsnowhotels.com`.
 
-If you don't own it yet, buy it now — the next steps assume you do.
+If you don't own it yet, buy it now; the next steps assume you do.
 
 ---
 
@@ -29,7 +29,7 @@ Vercel auto-detects Next.js. The defaults are right, but verify:
 |---|---|
 | **Framework Preset** | Next.js |
 | **Root Directory** | `./` |
-| **Build Command** | `npm run build` (default — `next build` works too) |
+| **Build Command** | `npm run build` (default, `next build` works too) |
 | **Output Directory** | `.next` (default, do NOT change) |
 | **Install Command** | `npm install` |
 | **Node.js Version** | 22.x |
