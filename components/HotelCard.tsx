@@ -1,20 +1,27 @@
 import Image from 'next/image'
 import type { Hotel } from '@/lib/hotels'
+import type { Locale } from '@/app/[locale]/dictionaries'
+import {
+  hotelRatingWord,
+  hotelPriceWord,
+  hotelBlurb,
+  hotelDistanceLabel,
+  goodToKnowLabel,
+} from '@/lib/hotelContent'
 
 interface HotelCardProps {
   hotel: Hotel
   /** Stay22 Allez deep link, built by the page with the resort + country. */
   bookHref: string
+  resortName: string
+  locale: Locale
   labels: {
     reviews: string
     checkAvailability: string
     toSlopes: string
+    from: string
+    perNight: string
   }
-}
-
-function priceTag(level: number | null): string {
-  if (level == null || level <= 0) return ''
-  return '€'.repeat(Math.min(level, 4))
 }
 
 function formatReviews(n: number): string {
@@ -22,17 +29,18 @@ function formatReviews(n: number): string {
   return String(n)
 }
 
-function formatDistance(m: number): string {
-  if (m < 1000) return `${m} m`
-  return `${(m / 1000).toFixed(1)} km`
-}
-
-export default function HotelCard({ hotel, bookHref, labels }: HotelCardProps) {
-  const price = priceTag(hotel.priceLevel)
+export default function HotelCard({ hotel, bookHref, resortName, locale, labels }: HotelCardProps) {
+  const distance = hotelDistanceLabel(hotel.distanceToSlopesM)
+  const ratingWord = hotelRatingWord(hotel.rating, locale)
+  const priceWord = hotelPriceWord(hotel.priceFrom, locale)
+  const blurb = hotelBlurb(hotel, resortName, locale)
+  const chips = [distance ? `≈ ${distance} ${labels.toSlopes}` : null, priceWord].filter(
+    Boolean,
+  ) as string[]
 
   return (
     <article className="group flex flex-col bg-white rounded-2xl border border-ice-100 overflow-hidden card-hover">
-      <div className="relative h-40 overflow-hidden">
+      <div className="relative h-48 overflow-hidden">
         {hotel.hasPhoto ? (
           <Image
             src={`/images/hotels/${hotel.id}.jpg`}
@@ -46,42 +54,71 @@ export default function HotelCard({ hotel, bookHref, labels }: HotelCardProps) {
             <div className="absolute inset-0 bg-snow-grain opacity-50" />
           </div>
         )}
-        <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm rounded-lg px-2.5 py-1.5 shadow-sm">
-          <span className="text-amber-500 leading-none" aria-hidden>
-            ★
-          </span>
-          <span className="text-slate-deep font-bold text-sm leading-none tabular-nums">
+        <div className="absolute inset-x-0 top-0 h-20 bg-gradient-to-b from-black/30 to-transparent" />
+
+        {/* rating + reviews pill */}
+        <div className="absolute top-3 left-3 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm rounded-lg pl-1 pr-2 py-1 shadow-sm">
+          <span className="bg-ice-600 text-white rounded-md px-1.5 py-0.5 text-xs font-bold leading-none tabular-nums">
             {hotel.rating.toFixed(1)}
           </span>
-          <span className="text-ice-500 text-xs leading-none tabular-nums">
+          <span className="text-ice-700 text-xs font-medium leading-none tabular-nums">
             {formatReviews(hotel.reviewCount)}
           </span>
         </div>
-        {price && (
-          <div className="absolute top-3 right-3 bg-slate-deep/90 text-white rounded-lg px-2.5 py-1.5 text-xs font-bold leading-none">
-            {price}
-          </div>
-        )}
+
+        {/* indicative price pill */}
+        <div className="absolute top-3 right-3 bg-amber-400 text-slate-deep rounded-lg px-2.5 py-1.5 text-xs font-bold leading-none shadow-sm tabular-nums">
+          €{hotel.priceFrom}
+        </div>
       </div>
 
       <div className="flex flex-col flex-1 p-4">
         <h3 className="font-bold text-slate-deep leading-snug">{hotel.name}</h3>
-        {hotel.distanceToSlopesM != null && (
-          <p className="mt-1.5 inline-flex items-center gap-1 text-xs font-semibold text-ice-700">
-            <span aria-hidden>⛷</span>
-            <span className="tabular-nums">≈ {formatDistance(hotel.distanceToSlopesM)}</span>
-            <span className="font-normal text-ice-600">{labels.toSlopes}</span>
-          </p>
-        )}
-        <p className="mt-1 text-xs text-ice-600 line-clamp-2 flex-1">{hotel.address}</p>
-        <a
-          href={bookHref}
-          target="_blank"
-          rel="noopener sponsored"
-          className="mt-4 block text-center bg-ice-600 text-white text-sm font-semibold py-2.5 rounded-lg hover:bg-ice-500 transition"
-        >
-          {labels.checkAvailability}
-        </a>
+        <p className="mt-1 text-xs text-ice-600">
+          <span className="font-semibold text-slate-deep">{ratingWord}</span>
+          {' · '}
+          <span className="tabular-nums">{formatReviews(hotel.reviewCount)}</span> {labels.reviews}
+        </p>
+
+        {/* Good to know */}
+        <div className="mt-3 rounded-xl bg-ice-50 border border-ice-100 p-3">
+          <div className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wide text-ice-700">
+            <span aria-hidden>ℹ️</span>
+            {goodToKnowLabel(locale)}
+          </div>
+          <p className="mt-1.5 text-xs text-ice-800/90 leading-relaxed line-clamp-5">{blurb}</p>
+        </div>
+
+        {/* feature chips */}
+        <div className="mt-3 flex flex-wrap gap-1.5">
+          {chips.map((c) => (
+            <span
+              key={c}
+              className="inline-block text-[10px] font-medium text-ice-700 bg-white border border-ice-200 rounded-full px-2 py-0.5"
+            >
+              {c}
+            </span>
+          ))}
+        </div>
+
+        {/* footer: price + CTA */}
+        <div className="mt-auto pt-4 flex items-end justify-between gap-2">
+          <div className="leading-none">
+            <div className="text-[10px] uppercase tracking-wide text-ice-500">{labels.from}</div>
+            <div className="mt-1 text-lg font-bold text-slate-deep tabular-nums">
+              €{hotel.priceFrom}
+              <span className="ml-1 text-xs font-normal text-ice-500">{labels.perNight}</span>
+            </div>
+          </div>
+          <a
+            href={bookHref}
+            target="_blank"
+            rel="noopener sponsored"
+            className="shrink-0 bg-ice-600 text-white text-sm font-semibold px-4 py-2.5 rounded-lg hover:bg-ice-500 transition"
+          >
+            {labels.checkAvailability} →
+          </a>
+        </div>
       </div>
     </article>
   )

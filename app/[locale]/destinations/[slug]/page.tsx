@@ -107,6 +107,8 @@ export default async function DestinationDetailPage({
     reviews: dict.destination.reviews,
     checkAvailability: dict.destination.checkAvailability,
     toSlopes: dict.destination.toSlopes,
+    from: dict.destination.from,
+    perNight: dict.destination.perNight,
   }
   const verticalDrop = d.altitudeSummit - d.altitudeBase
   const hasGlacier = d.vibes.includes('glacier')
@@ -402,6 +404,8 @@ export default async function DestinationDetailPage({
                 key={h.id}
                 hotel={h}
                 bookHref={buildAllezHotelLink(h.name, d.name, d.country, 'hotel', 7)}
+                resortName={d.name}
+                locale={l}
                 labels={hotelLabels}
               />
             ))}
