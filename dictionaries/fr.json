@@ -3,6 +3,7 @@
     "home": "Accueil",
     "destinations": "Destinations",
     "countries": "Pays",
+    "skiAreas": "Domaines skiables",
     "about": "À propos"
   },
   "hero": {
@@ -96,6 +97,17 @@
     "faq4A": "{name} compte {pistesKm} km de pistes balisées desservies par {lifts} remontées, entre {altitudeBase} m et {altitudeSummit} m d'altitude.",
     "faq5Q": "{name} est-il plutôt pour les débutants ou les experts ?",
     "faq5A": "{name} compte environ {totalRuns} pistes balisées au total. La répartition par couleur ci-dessus montre comment elles se distribuent par difficulté, de quoi juger si la station correspond à votre niveau."
+  },
+  "skiAreas": {
+    "title": "Domaines skiables",
+    "subtitle": "Les grands domaines reliés où plusieurs stations partagent un même forfait. Choisissez un domaine, comparez ses stations et trouvez des hôtels ski-in/ski-out sur tout le secteur.",
+    "resortsHeading": "Les stations de ce domaine",
+    "aboutHeading": "Le domaine en bref",
+    "partOf": "Fait partie de",
+    "exploreArea": "Explorer le domaine",
+    "mapHeading": "Hôtels sur tout le domaine",
+    "mapSubtitle": "Hôtels et appartements autour de tout le domaine. Comparez les prix sur Booking, Expedia et Hotels.com.",
+    "passLabel": "Forfait"
   },
   "footer": {
     "tagline": "Les meilleurs hôtels pour skier dès la sortie de votre chambre.",

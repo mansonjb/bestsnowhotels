@@ -3,6 +3,7 @@
     "home": "Inicio",
     "destinations": "Destinos",
     "countries": "Países",
+    "skiAreas": "Dominios esquiables",
     "about": "Acerca de"
   },
   "hero": {
@@ -96,6 +97,17 @@
     "faq4A": "{name} tiene {pistesKm} km de pistas balizadas servidas por {lifts} remontes, entre {altitudeBase} m y {altitudeSummit} m de altitud.",
     "faq5Q": "¿{name} es más para principiantes o para expertos?",
     "faq5A": "{name} cuenta con unas {totalRuns} pistas señalizadas en total. El reparto por color de arriba muestra cómo se distribuyen por dificultad, una buena guía para saber si la estación se ajusta a tu nivel."
+  },
+  "skiAreas": {
+    "title": "Dominios esquiables",
+    "subtitle": "Los grandes dominios enlazados donde varias estaciones comparten un mismo forfait. Elige un dominio, compara sus estaciones y encuentra hoteles ski-in/ski-out en toda la zona.",
+    "resortsHeading": "Las estaciones de este dominio",
+    "aboutHeading": "El dominio en breve",
+    "partOf": "Forma parte de",
+    "exploreArea": "Explorar el dominio",
+    "mapHeading": "Hoteles en todo el dominio",
+    "mapSubtitle": "Hoteles y apartamentos alrededor de todo el dominio. Compara precios en Booking, Expedia y Hotels.com.",
+    "passLabel": "Forfait"
   },
   "footer": {
     "tagline": "Los mejores hoteles de nieve, donde el remonte sale de tu puerta.",

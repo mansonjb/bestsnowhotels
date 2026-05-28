@@ -3,6 +3,7 @@
     "home": "Home",
     "destinations": "Destinations",
     "countries": "Countries",
+    "skiAreas": "Ski areas",
     "about": "About"
   },
   "hero": {
@@ -96,6 +97,17 @@
     "faq4A": "{name} has {pistesKm} km of marked pistes served by {lifts} lifts, between {altitudeBase} m and {altitudeSummit} m of altitude.",
     "faq5Q": "Is {name} more for beginners or experts?",
     "faq5A": "{name} counts about {totalRuns} marked runs in total. The colour breakdown above shows how they split by difficulty, a good guide to whether the resort fits your level."
+  },
+  "skiAreas": {
+    "title": "Ski areas",
+    "subtitle": "Big linked domains where several resorts share one lift pass. Choose a domain, compare its resorts and find ski-in/ski-out hotels across the whole area.",
+    "resortsHeading": "Resorts in this ski area",
+    "aboutHeading": "About the domain",
+    "partOf": "Part of",
+    "exploreArea": "Explore the ski area",
+    "mapHeading": "Hotels across the domain",
+    "mapSubtitle": "Hotels and apartments around the whole ski area. Compare prices on Booking, Expedia and Hotels.com.",
+    "passLabel": "Lift pass"
   },
   "footer": {
     "tagline": "The best snow hotels, where the lift starts at your door.",

@@ -3,6 +3,7 @@
     "home": "Início",
     "destinations": "Destinos",
     "countries": "Países",
+    "skiAreas": "Domínios esquiáveis",
     "about": "Sobre"
   },
   "hero": {
@@ -96,6 +97,17 @@
     "faq4A": "{name} tem {pistesKm} km de pistas balizadas servidas por {lifts} teleféricos, entre {altitudeBase} m e {altitudeSummit} m de altitude.",
     "faq5Q": "{name} é mais para principiantes ou para experientes?",
     "faq5A": "{name} conta com cerca de {totalRuns} pistas sinalizadas no total. A repartição por cor acima mostra como se distribuem por dificuldade, um bom indicador para saber se a estância se adapta ao seu nível."
+  },
+  "skiAreas": {
+    "title": "Domínios esquiáveis",
+    "subtitle": "Os grandes domínios ligados onde várias estâncias partilham o mesmo forfait. Escolha um domínio, compare as suas estâncias e encontre hotéis ski-in/ski-out em toda a zona.",
+    "resortsHeading": "As estâncias deste domínio",
+    "aboutHeading": "O domínio em resumo",
+    "partOf": "Faz parte de",
+    "exploreArea": "Explorar o domínio",
+    "mapHeading": "Hotéis em todo o domínio",
+    "mapSubtitle": "Hotéis e apartamentos à volta de todo o domínio. Compare preços no Booking, na Expedia e no Hotels.com.",
+    "passLabel": "Forfait"
   },
   "footer": {
     "tagline": "Os melhores hotéis de neve, onde o teleférico sai à sua porta.",

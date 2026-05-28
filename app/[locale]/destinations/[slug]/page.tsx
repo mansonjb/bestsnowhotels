@@ -21,6 +21,7 @@ import Image from 'next/image'
 import { getHotels } from '@/lib/hotels'
 import { getGallery } from '@/lib/galleries'
 import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
+import { getSkiAreaForResort } from '@/lib/skiAreas'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { localizeVibe } from '@/lib/vibes'
@@ -99,6 +100,7 @@ export default async function DestinationDetailPage({
   const l = locale as Locale
   const dict = await getDictionary(l)
   const related = getRelatedDestinations(slug, 4)
+  const skiArea = getSkiAreaForResort(slug)
   const allezLink = buildAllezDestLink(d.name, d.country, 'destination', 7)
   const hotels = getHotels(slug)
   const hotelLabels = {
@@ -307,6 +309,29 @@ export default async function DestinationDetailPage({
           </div>
         </div>
       </section>
+
+      {/* Part of a ski area (maillage) */}
+      {skiArea && (
+        <div className="bg-ice-50 border-b border-ice-100">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <Link
+              href={`/${l}/ski-areas/${skiArea.slug}`}
+              className="group flex flex-wrap items-center gap-x-2 gap-y-1 text-sm"
+            >
+              <span className="text-[11px] font-semibold uppercase tracking-wide text-ice-600">
+                {dict.skiAreas.partOf}
+              </span>
+              <span className="font-bold text-slate-deep">{skiArea.name}</span>
+              <span className="text-ice-600 tabular-nums">
+                · {skiArea.pistesKm} km · {skiArea.members.length} {dict.destinations.resorts}
+              </span>
+              <span className="font-semibold text-ice-700 group-hover:translate-x-0.5 transition">
+                {dict.skiAreas.exploreArea} →
+              </span>
+            </Link>
+          </div>
+        </div>
+      )}
 
       {/* Pistes and lifts (high on the page) */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

@@ -1,32 +1,61 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 56 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data and live hotel comparison via Stay22.
+> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 106 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish and Portuguese.
 
 ## What we cover
 
 Each destination page lists:
 - Real altitudes (base and summit, in metres)
 - Total piste kilometres and lift count
+- Piste breakdown by colour (green, blue, red, black runs)
 - Season start and end dates
 - Snow score (0-100) reflecting historical snow reliability
+- Average snow depth by month, in cm
 - A transparent ski-in/ski-out note (where ski-in/ski-out is genuine vs marketing)
-- Live map of bookable hotels around the resort
-- Resort vibes (luxury, family, freeride, glacier, party, etc.)
+- The types of skiing on offer (alpine, snowboard, freeride, snowpark, glacier, nordic, touring)
+- Example well-rated hotels with distance to the slopes
+- A live map of bookable hotels around the resort (Booking, Expedia, Hotels.com)
+- Resort vibes (luxury, family, freeride, glacier, party, thermal, etc.)
+- A data-driven FAQ
+
+## Ski areas (linked domains)
+
+We also publish ski-area pages that group the resorts sharing one big linked domain, for travellers comparing where to base themselves:
+- Les 3 Vallées (Val Thorens, Courchevel, Méribel, Les Menuires), 600 km
+- Paradiski (Les Arcs, La Plagne), 425 km
+- Espace Killy / Tignes-Val d'Isère (Tignes, Val d'Isère), 300 km
+- Portes du Soleil (Avoriaz, Morzine, Les Gets, Châtel), around 600 km, France and Switzerland
+- Évasion Mont-Blanc (Megève, Saint-Gervais, Combloux), 400 km
+- Grand Massif (Flaine, Samoëns), 265 km
+- Alpe d'Huez Grand Domaine (Alpe d'Huez, Vaujany), 250 km
+- La Forêt Blanche (Vars, Risoul), 185 km
+- Le Grand Domaine (Valmorel, Saint-François-Longchamp), 165 km
+- Galibier-Thabor (Valloire, Valmeinier), 150 km
+- Via Lattea / Milky Way (Montgenèvre, Sestriere), around 400 km, France and Italy
+- Chamonix Mont-Blanc (Chamonix, Les Houches), 170 km
+- Les Aravis (La Clusaz, Le Grand-Bornand), around 220 km
+- Alp 2500 (La Molina, Masella), 140 km, Spain
+- Formigal-Panticosa (Formigal, Panticosa), 216 km, Spain
+- Vallnord (Pal-Arinsal, Ordino-Arcalís), around 93 km, Andorra
+- Ski Arlberg (St. Anton, Lech-Zürs), 305 km, Austria
 
 ## Country coverage
 
-- France: Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets
-- Switzerland: Zermatt, Verbier, St. Moritz, Crans-Montana, Saas-Fee, Davos, Andermatt
-- Austria: St. Anton, Ischgl, Sölden, Mayrhofen, Kitzbühel, Saalbach, Lech-Zürs, Obergurgl
-- Italy: Cortina d'Ampezzo, Livigno, Cervinia, Madonna di Campiglio, Sestriere, Selva Val Gardena
-- Spain: Baqueira-Beret, Formigal, Cerler
-- Andorra: Grandvalira, Vallnord-Pal Arinsal
+- France (69): Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets, Les Menuires, Avoriaz, Morzine, Les Gets, Megève, La Clusaz, Les Deux Alpes, La Rosière, Flaine, Samoëns, Châtel, Valmorel, Montgenèvre, Les Saisies, Le Grand-Bornand, Sainte-Foy-Tarentaise, Val Cenis, Vaujany, Risoul, Vars, Pra-Loup, Isola 2000, Saint-Gervais, Ax 3 Domaines, Les Angles, Les Sybelles, Valloire, Orcières-Merlette, Les Orres, Auron, Les Contamines, Piau-Engaly, Luz-Ardiden, Gourette, Bonneval-sur-Arc, SuperDévoluy, Valberg, Chamrousse, Combloux, Valfréjus, La Pierre Saint-Martin, Guzet, Porté-Puymorens, Les 7 Laux, Villard-de-Lans, Saint-François-Longchamp, Aussois, Valmeinier, Arêches-Beaufort, La Norma, Les Houches, Luchon-Superbagnères, Formiguères, Val Louron
+- Switzerland (7): Zermatt, Verbier, St. Moritz, Crans-Montana, Saas-Fee, Davos, Andermatt
+- Austria (8): St. Anton am Arlberg, Ischgl, Sölden, Mayrhofen, Kitzbühel, Saalbach Hinterglemm, Lech-Zürs, Obergurgl-Hochgurgl
+- Italy (6): Cortina d'Ampezzo, Livigno, Cervinia, Madonna di Campiglio, Sestriere, Selva Val Gardena
+- Spain (13): Baqueira Beret, Formigal, Cerler, Candanchú, La Molina, Astún, Boí Taüll, Masella, Panticosa, Port Ainé, Espot, Vallter 2000, Port del Comte
+- Andorra (3): Grandvalira, Vallnord-Pal Arinsal, Ordino-Arcalís
 
 ## Languages
 
-Site available in English, French, Spanish and Portuguese.
+Site available in English (en), French (fr), Spanish (es) and Portuguese (pt). Every page has hreflang alternates for all four.
 
-## Sitemap
+## Key pages
 
-- Sitemap: https://www.bestsnowhotels.com/sitemap.xml
+- Home: https://www.bestsnowhotels.com/en
 - All destinations: https://www.bestsnowhotels.com/en/destinations
+- Ski areas (linked domains): https://www.bestsnowhotels.com/en/ski-areas
+- Countries: https://www.bestsnowhotels.com/en/countries
+- Sitemap: https://www.bestsnowhotels.com/sitemap.xml

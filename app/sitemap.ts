@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next'
 import { SITE_URL } from '@/lib/site'
 import { destinations } from '@/lib/destinations'
 import { COUNTRIES } from '@/lib/countries'
+import { SKI_AREAS } from '@/lib/skiAreas'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -73,6 +74,34 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: Object.fromEntries(
             locales.map((l) => [l, `${SITE_URL}/${l}/countries/${c.slug}`]),
+          ),
+        },
+      })
+    }
+
+    // Ski areas index
+    entries.push({
+      url: `${SITE_URL}/${locale}/ski-areas`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map((l) => [l, `${SITE_URL}/${l}/ski-areas`]),
+        ),
+      },
+    })
+
+    // Each ski area
+    for (const a of SKI_AREAS) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/ski-areas/${a.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${SITE_URL}/${l}/ski-areas/${a.slug}`]),
           ),
         },
       })
