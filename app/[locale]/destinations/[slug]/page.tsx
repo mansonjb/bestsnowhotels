@@ -102,7 +102,11 @@ export default async function DestinationDetailPage({
     reviews: dict.destination.reviews,
     checkAvailability: dict.destination.checkAvailability,
     toSlopes: dict.destination.toSlopes,
+    from: dict.destination.from,
+    perNight: dict.destination.perNight,
   }
+  const verticalDrop = d.altitudeSummit - d.altitudeBase
+  const hasGlacier = d.vibes.includes('glacier')
   const officialSite = resortSite(slug)
   const rentalUrl = skiRentalMapsUrl(d.name, d.country)
   const gallery = getGallery(slug)
@@ -260,6 +264,26 @@ export default async function DestinationDetailPage({
               </span>
             ))}
           </div>
+
+          {/* Key stats, above the fold */}
+          <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-px bg-ice-100 rounded-2xl overflow-hidden border border-ice-100">
+            {[
+              { label: dict.destinations.altitude, value: `${d.altitudeBase.toLocaleString()} - ${d.altitudeSummit.toLocaleString()} m` },
+              { label: dict.destination.verticalDrop, value: `${verticalDrop.toLocaleString()} m` },
+              { label: dict.destination.pistesKm, value: `${d.pistesKm} km` },
+              { label: dict.destination.lifts, value: `${d.lifts}` },
+              { label: dict.destinations.snowScore, value: `${d.snowScore}/100` },
+            ].map((s) => (
+              <div key={s.label} className="bg-white px-4 py-4">
+                <div className="text-[11px] uppercase tracking-wide text-ice-600">
+                  {s.label}
+                </div>
+                <div className="mt-1 text-lg font-bold text-slate-deep tabular-nums">
+                  {s.value}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -341,9 +365,17 @@ export default async function DestinationDetailPage({
 
       {/* Pistes and lifts */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 className="text-2xl font-bold text-slate-deep mb-5">
-          {dict.destination.pisteTitle}
-        </h2>
+        <div className="flex flex-wrap items-center gap-3 mb-5">
+          <h2 className="text-2xl font-bold text-slate-deep">
+            {dict.destination.pisteTitle}
+          </h2>
+          {hasGlacier && (
+            <span className="inline-flex items-center gap-1 text-xs font-semibold text-ice-700 bg-ice-100 px-3 py-1 rounded-full">
+              <span aria-hidden>🧊</span>
+              {dict.destination.glacierSkiing}
+            </span>
+          )}
+        </div>
         <PisteBreakdown
           destination={d}
           labels={{

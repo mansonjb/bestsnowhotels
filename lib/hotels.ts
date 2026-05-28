@@ -9,6 +9,8 @@ export interface Hotel {
   reviewCount: number
   /** 1 (inexpensive) to 4 (very expensive), or null when Google has no price level. */
   priceLevel: number | null
+  /** Indicative nightly "from" price in EUR, derived from price level and country. */
+  priceFrom: number
   address: string
   lat: number | null
   lng: number | null

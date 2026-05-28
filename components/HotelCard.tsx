@@ -9,6 +9,8 @@ interface HotelCardProps {
     reviews: string
     checkAvailability: string
     toSlopes: string
+    from: string
+    perNight: string
   }
 }
 
@@ -76,15 +78,19 @@ export default function HotelCard({ hotel, bookHref, labels }: HotelCardProps) {
           </p>
         )}
         <p className="mt-1 text-xs text-ice-600 line-clamp-2 flex-1">{hotel.address}</p>
-        <div className="mt-3 flex items-center justify-between">
-          <span className="text-xs text-ice-500 tabular-nums">
-            {hotel.reviewCount.toLocaleString()} {labels.reviews}
-          </span>
+        <div className="mt-3 pt-3 border-t border-ice-100 flex items-end justify-between">
+          <div className="leading-tight">
+            <div className="text-[11px] text-ice-500">{labels.from}</div>
+            <div className="text-slate-deep font-bold tabular-nums">
+              ≈ {hotel.priceFrom} €
+              <span className="text-xs font-normal text-ice-500"> {labels.perNight}</span>
+            </div>
+          </div>
           <a
             href={bookHref}
             target="_blank"
             rel="noopener sponsored"
-            className="text-sm font-semibold text-ice-700 hover:text-slate-deep"
+            className="text-sm font-semibold text-ice-700 hover:text-slate-deep whitespace-nowrap"
           >
             {labels.checkAvailability} →
           </a>

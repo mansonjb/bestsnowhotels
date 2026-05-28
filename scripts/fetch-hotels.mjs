@@ -25,12 +25,33 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..')
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'hotels')
 const OUT = path.join(ROOT, 'data', 'hotels.json')
-const HOTELS_PER_RESORT = 6
-const MIN_REVIEWS = 25
+const HOTELS_PER_RESORT = 12
+const MIN_REVIEWS = 15
 // Hotels farther than this from the resort coordinates are dropped: they are
 // almost always mis-located results or lodging in a different town, not a
 // credible ski stay.
 const MAX_DIST_M = 6000
+
+// Indicative nightly "from" price (EUR). Google's Places API does not expose
+// nightly rates or a price level for these lodging results, so this is an
+// orientation estimate from the resort's country, its luxury character and the
+// hotel's own rating, with a stable per-hotel variation. The real price is on
+// the booking partner reached through the card's link.
+const COUNTRY_INDEX = { CH: 1.5, FR: 1.0, IT: 0.9, AT: 1.05, ES: 0.75, AD: 0.75 }
+const LUXURY_VIBES = ['luxury', 'old-money', 'discreet', 'elegance', 'luxury-iberian', 'royal']
+function hashStr(s) {
+  let h = 0
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0
+  return h
+}
+function estimatePrice(rating, countryCode, resortLuxury, id) {
+  const base = 110
+  const idx = COUNTRY_INDEX[countryCode] ?? 1.0
+  const luxF = resortLuxury ? 1.5 : 1.0
+  const ratingBoost = 1 + Math.max(0, (rating - 4.2)) * 0.6
+  const v = 0.85 + (hashStr(id) % 25) / 100
+  return Math.round((base * idx * luxF * ratingBoost * v) / 5) * 5
+}
 
 async function loadApiKey() {
   if (process.env.GOOGLE_PLACES_API_KEY) return process.env.GOOGLE_PLACES_API_KEY
@@ -168,13 +189,16 @@ async function main() {
           const d = distanceM(hlat, hlng, dest.lat, dest.lng)
           if (d <= MAX_DIST_M) distToSlopes = Math.round(d / 50) * 50
         }
+        const priceLevel = p.priceLevel != null ? PRICE_MAP[p.priceLevel] ?? null : null
+        const rating = Math.round(p.rating * 10) / 10
         hotels.push({
           id,
           name,
           slug: hSlug,
-          rating: Math.round(p.rating * 10) / 10,
+          rating,
           reviewCount: p.userRatingCount ?? 0,
-          priceLevel: p.priceLevel != null ? PRICE_MAP[p.priceLevel] ?? null : null,
+          priceLevel,
+          priceFrom: estimatePrice(rating, dest.countryCode, resortLuxury, id),
           address: p.formattedAddress ?? '',
           lat: hlat,
           lng: hlng,
