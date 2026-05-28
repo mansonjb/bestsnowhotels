@@ -12,9 +12,10 @@ import {
   getRelatedDestinations,
 } from '@/lib/destinations'
 import HotelCard from '@/components/HotelCard'
+import PisteBreakdown from '@/components/PisteBreakdown'
 import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
 import { getHotels } from '@/lib/hotels'
-import { resortSite, skiRentalMapsUrl, liftPassMapsUrl } from '@/lib/resortLinks'
+import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { localizeVibe } from '@/lib/vibes'
@@ -102,7 +103,6 @@ export default async function DestinationDetailPage({
   }
   const officialSite = resortSite(slug)
   const rentalUrl = skiRentalMapsUrl(d.name, d.country)
-  const liftPassUrl = liftPassMapsUrl(d.name, d.country)
 
   const cardLabels = {
     altitude: dict.destinations.altitude,
@@ -155,6 +155,9 @@ export default async function DestinationDetailPage({
       .replace('{seasonStart}', formatSeasonDate(d.seasonStart, l))
       .replace('{seasonEnd}', formatSeasonDate(d.seasonEnd, l))
       .replace('{snowScore}', String(d.snowScore))
+      .replace('{easy}', String(d.runs.easy))
+      .replace('{intermediate}', String(d.runs.intermediate))
+      .replace('{difficult}', String(d.runs.difficult))
 
   const faqItems = [
     {
@@ -168,6 +171,14 @@ export default async function DestinationDetailPage({
     {
       q: dict.destination.faq3Q,
       a: d.skiInSkiOutNote[l],
+    },
+    {
+      q: dict.destination.faq4Q.replace('{name}', d.name),
+      a: fillTemplate(dict.destination.faq4A),
+    },
+    {
+      q: dict.destination.faq5Q.replace('{name}', d.name),
+      a: fillTemplate(dict.destination.faq5A),
     },
   ]
 
@@ -301,6 +312,22 @@ export default async function DestinationDetailPage({
         </div>
       </section>
 
+      {/* Pistes and lifts */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <h2 className="text-2xl font-bold text-slate-deep mb-5">
+          {dict.destination.pisteTitle}
+        </h2>
+        <PisteBreakdown
+          destination={d}
+          labels={{
+            easy: dict.destination.easy,
+            intermediate: dict.destination.intermediate,
+            difficult: dict.destination.difficult,
+          }}
+        />
+        <p className="mt-3 text-xs text-ice-500">{dict.destination.pisteNote}</p>
+      </section>
+
       {/* Ski-in/ski-out note */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="bg-ice-50 border-l-4 border-ice-500 rounded-r-2xl p-5">
@@ -358,7 +385,7 @@ export default async function DestinationDetailPage({
         <h2 className="text-2xl font-bold text-slate-deep mb-6">
           {dict.destination.planTitle}
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {officialSite && (
             <a
               href={officialSite}
@@ -367,28 +394,12 @@ export default async function DestinationDetailPage({
               className="card-hover block bg-white rounded-2xl border border-ice-100 p-5"
             >
               <div className="text-2xl mb-2" aria-hidden>
-                🌐
+                🎫
               </div>
-              <div className="font-bold text-slate-deep">
-                {dict.destination.resortWebsite}
-              </div>
-              <p className="mt-1 text-sm text-ice-600">
-                {dict.destination.resortWebsiteHint}
-              </p>
+              <div className="font-bold text-slate-deep">{dict.destination.liftPass}</div>
+              <p className="mt-1 text-sm text-ice-600">{dict.destination.liftPassHint}</p>
             </a>
           )}
-          <a
-            href={liftPassUrl}
-            target="_blank"
-            rel="noopener"
-            className="card-hover block bg-white rounded-2xl border border-ice-100 p-5"
-          >
-            <div className="text-2xl mb-2" aria-hidden>
-              🎫
-            </div>
-            <div className="font-bold text-slate-deep">{dict.destination.liftPass}</div>
-            <p className="mt-1 text-sm text-ice-600">{dict.destination.liftPassHint}</p>
-          </a>
           <a
             href={rentalUrl}
             target="_blank"

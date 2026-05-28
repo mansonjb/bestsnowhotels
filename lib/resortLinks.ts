@@ -60,9 +60,3 @@ export function skiRentalMapsUrl(name: string, country: string): string {
   const q = encodeURIComponent(`ski rental ${name} ${country}`)
   return `https://www.google.com/maps/search/?api=1&query=${q}`
 }
-
-/** Google Maps search for lift-pass / ticket offices in the resort. */
-export function liftPassMapsUrl(name: string, country: string): string {
-  const q = encodeURIComponent(`ski lift pass office ${name} ${country}`)
-  return `https://www.google.com/maps/search/?api=1&query=${q}`
-}
