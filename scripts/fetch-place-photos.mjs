@@ -26,7 +26,7 @@ async function loadApiKey() {
   throw new Error('GOOGLE_PLACES_API_KEY not set')
 }
 
-// Targeted queries — each picks a ski-iconic landmark to avoid summer-only results.
+// Targeted queries: each picks a ski-iconic landmark to avoid summer-only results.
 const TARGETS = [
   { slug: 'val-thorens',          query: 'Val Thorens ski resort French Alps highest village panorama winter snow' },
   { slug: 'val-d-isere',          query: 'Val d\'Isere ski resort Espace Killy Bellevarde panorama winter snow Alps' },
