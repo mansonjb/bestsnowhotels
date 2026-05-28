@@ -61,10 +61,12 @@
     "pistesKm": "Pistas",
     "lifts": "Remontes",
     "pisteTitle": "Pistas y remontes",
-    "pisteNote": "Los kilómetros de pistas son el total de la estación. El reparto por dificultad es indicativo.",
-    "easy": "Fáciles",
-    "intermediate": "Intermedias",
-    "difficult": "Difíciles",
+    "pisteNote": "El número de pistas y los kilómetros son indicativos. Las pistas verdes solo existen en Francia, España y Andorra; Italia, Austria y Suiza empiezan en azul.",
+    "runs": "pistas señalizadas",
+    "pisteGreen": "Verdes",
+    "pisteBlue": "Azules",
+    "pisteRed": "Rojas",
+    "pisteBlack": "Negras",
     "season": "Temporada",
     "vibes": "Ambiente",
     "relatedTitle": "Otros destinos de esquí",
@@ -78,7 +80,7 @@
     "faq4Q": "¿Qué tamaño tiene el dominio esquiable de {name}?",
     "faq4A": "{name} tiene {pistesKm} km de pistas balizadas servidas por {lifts} remontes, entre {altitudeBase} m y {altitudeSummit} m de altitud.",
     "faq5Q": "¿{name} es más para principiantes o para expertos?",
-    "faq5A": "Las pistas se reparten aproximadamente en {easy}% fáciles, {intermediate}% intermedias y {difficult}% difíciles, una buena guía para saber si la estación se ajusta a tu nivel."
+    "faq5A": "{name} cuenta con unas {totalRuns} pistas señalizadas en total. El reparto por color de arriba muestra cómo se distribuyen por dificultad, una buena guía para saber si la estación se ajusta a tu nivel."
   },
   "footer": {
     "tagline": "Los mejores hoteles de nieve, donde el remonte sale de tu puerta.",

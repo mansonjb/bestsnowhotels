@@ -1,14 +1,18 @@
 /**
- * Fetch two extra photos per destination for an editorial gallery: one of the
- * slopes, one of the village. Saved alongside the hero image as [slug]-2.jpg
- * and [slug]-3.jpg, and recorded in data/galleries.json.
+ * Fetch two distinct extra photos per destination for an editorial gallery
+ * (a slopes shot and a village shot). Saved alongside the hero image as
+ * [slug]-2.jpg and [slug]-3.jpg, and recorded in data/galleries.json.
+ *
+ * Distinctness is enforced two ways: candidate photo references are de-duplicated
+ * by name, and downloaded images are de-duplicated by SHA-256 of their bytes, so
+ * the two gallery images are never the same picture.
  *
  * Usage:  node scripts/fetch-galleries.mjs
  * Requires GOOGLE_PLACES_API_KEY in env or .env.local.
  */
 import sharp from 'sharp'
+import { createHash } from 'node:crypto'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
-import { existsSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -16,6 +20,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..')
 const OUT_DIR = path.join(ROOT, 'public', 'images', 'destinations')
 const GAL = path.join(ROOT, 'data', 'galleries.json')
+const WANTED = 2
 
 async function loadApiKey() {
   if (process.env.GOOGLE_PLACES_API_KEY) return process.env.GOOGLE_PLACES_API_KEY
@@ -25,7 +30,7 @@ async function loadApiKey() {
   throw new Error('GOOGLE_PLACES_API_KEY not set')
 }
 
-async function searchPhoto(query, apiKey) {
+async function searchPhotos(query, apiKey) {
   const res = await fetch('https://places.googleapis.com/v1/places:searchText', {
     method: 'POST',
     headers: {
@@ -37,20 +42,21 @@ async function searchPhoto(query, apiKey) {
   })
   if (!res.ok) throw new Error(`searchText HTTP ${res.status}`)
   const data = await res.json()
-  return data.places?.[0]?.photos?.[0]?.name ?? null
+  // Flatten photo names from the top few places for more variety.
+  const names = []
+  for (const place of (data.places ?? []).slice(0, 3)) {
+    for (const ph of place.photos ?? []) names.push(ph.name)
+  }
+  return names
 }
 
-async function downloadPhoto(photoName, apiKey, outPath) {
+async function fetchBytes(photoName, apiKey) {
   const url = `https://places.googleapis.com/v1/${photoName}/media?maxWidthPx=1200&skipHttpRedirect=true&key=${apiKey}`
   const res = await fetch(url)
   if (!res.ok) throw new Error(`photo HTTP ${res.status}`)
   const { photoUri } = await res.json()
   const img = await fetch(photoUri)
-  const buf = Buffer.from(await img.arrayBuffer())
-  await sharp(buf)
-    .resize(1200, 800, { fit: 'cover', position: 'centre' })
-    .jpeg({ quality: 82, progressive: true, mozjpeg: true })
-    .toFile(outPath)
+  return Buffer.from(await img.arrayBuffer())
 }
 
 async function main() {
@@ -64,30 +70,47 @@ async function main() {
   let i = 0
   for (const d of destinations) {
     i++
-    const variants = [
-      { suffix: '2', query: `${d.name} ${d.country} ski slopes winter snow` },
-      { suffix: '3', query: `${d.name} ${d.country} ski village winter snow panorama` },
-    ]
-    const saved = []
-    for (const v of variants) {
-      const file = `${d.slug}-${v.suffix}.jpg`
-      const outPath = path.join(OUT_DIR, file)
-      if (existsSync(outPath)) {
-        saved.push(file)
-        continue
+    // Two angles, interleaved so the slopes and village shots both get a chance.
+    const slopes = await searchPhotos(`${d.name} ${d.country} ski slopes winter snow`, apiKey).catch(() => [])
+    const village = await searchPhotos(`${d.name} ${d.country} ski village winter snow panorama`, apiKey).catch(() => [])
+    const candidates = []
+    const seenName = new Set()
+    const maxLen = Math.max(slopes.length, village.length)
+    for (let k = 0; k < maxLen; k++) {
+      for (const arr of [slopes, village]) {
+        const nm = arr[k]
+        if (nm && !seenName.has(nm)) {
+          seenName.add(nm)
+          candidates.push(nm)
+        }
       }
+    }
+
+    const saved = []
+    const seenHash = new Set()
+    let suffix = 2
+    for (const nm of candidates) {
+      if (saved.length >= WANTED) break
       try {
-        const photoName = await searchPhoto(v.query, apiKey)
-        if (!photoName) continue
-        await downloadPhoto(photoName, apiKey, outPath)
+        const raw = await fetchBytes(nm, apiKey)
+        const out = await sharp(raw)
+          .resize(1200, 800, { fit: 'cover', position: 'centre' })
+          .jpeg({ quality: 82, progressive: true, mozjpeg: true })
+          .toBuffer()
+        const hash = createHash('sha256').update(out).digest('hex')
+        if (seenHash.has(hash)) continue
+        seenHash.add(hash)
+        const file = `${d.slug}-${suffix}.jpg`
+        await writeFile(path.join(OUT_DIR, file), out)
         saved.push(file)
-        await new Promise((r) => setTimeout(r, 150))
+        suffix++
+        await new Promise((r) => setTimeout(r, 120))
       } catch (e) {
-        console.error(`   ${file}: ${e.message}`)
+        console.error(`   ${d.slug} (${nm.slice(-12)}): ${e.message}`)
       }
     }
     galleries[d.slug] = saved
-    console.log(`[${i}/${destinations.length}] ${d.slug}: ${saved.length} gallery images`)
+    console.log(`[${i}/${destinations.length}] ${d.slug}: ${saved.length} distinct gallery images`)
     await new Promise((r) => setTimeout(r, 150))
   }
 

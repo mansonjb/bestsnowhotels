@@ -3,47 +3,59 @@ import type { Destination } from '@/lib/destinations'
 interface PisteBreakdownProps {
   destination: Destination
   labels: {
-    easy: string
-    intermediate: string
-    difficult: string
+    green: string
+    blue: string
+    red: string
+    black: string
+    runs: string
   }
 }
 
 /**
- * Visual breakdown of a resort's pisted terrain: a stacked bar by difficulty
- * plus the approximate kilometres at each level (total piste km split by the
- * indicative percentages stored on the destination).
+ * Number of marked runs by piste colour, as a stacked bar plus a per-colour
+ * count. Colours with no runs (e.g. green in Italy, Austria and Switzerland)
+ * are skipped. Counts are indicative.
  */
 export default function PisteBreakdown({ destination: d, labels }: PisteBreakdownProps) {
-  const { easy, intermediate, difficult } = d.runs
-  const km = (pct: number) => Math.round((d.pistesKm * pct) / 100)
+  const { green, blue, red, black } = d.pisteCounts
+  const total = green + blue + red + black
 
   const levels = [
-    { key: 'easy', label: labels.easy, pct: easy, km: km(easy), color: 'bg-sky-500', dot: 'bg-sky-500' },
-    { key: 'intermediate', label: labels.intermediate, pct: intermediate, km: km(intermediate), color: 'bg-red-500', dot: 'bg-red-500' },
-    { key: 'difficult', label: labels.difficult, pct: difficult, km: km(difficult), color: 'bg-slate-deep', dot: 'bg-slate-deep' },
-  ]
+    { key: 'green', label: labels.green, count: green, bar: 'bg-green-500', dot: 'bg-green-500' },
+    { key: 'blue', label: labels.blue, count: blue, bar: 'bg-sky-500', dot: 'bg-sky-500' },
+    { key: 'red', label: labels.red, count: red, bar: 'bg-red-500', dot: 'bg-red-500' },
+    { key: 'black', label: labels.black, count: black, bar: 'bg-slate-deep', dot: 'bg-slate-deep' },
+  ].filter((lv) => lv.count > 0)
 
   return (
     <div className="bg-white rounded-2xl border border-ice-100 p-6">
-      {/* Stacked difficulty bar */}
-      <div className="flex h-3 rounded-full overflow-hidden mb-4">
+      {/* Total runs */}
+      <div className="mb-5">
+        <span className="text-3xl font-bold text-slate-deep tabular-nums">{total}</span>{' '}
+        <span className="text-sm text-ice-600">{labels.runs}</span>
+      </div>
+
+      {/* Stacked bar by run count */}
+      <div className="flex h-3 rounded-full overflow-hidden mb-5">
         {levels.map((lv) => (
-          <div key={lv.key} className={lv.color} style={{ width: `${lv.pct}%` }} />
+          <div
+            key={lv.key}
+            className={lv.bar}
+            style={{ width: `${(lv.count / total) * 100}%` }}
+          />
         ))}
       </div>
 
-      {/* Legend with km per level */}
-      <div className="grid grid-cols-3 gap-3">
+      {/* Per-colour counts */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
         {levels.map((lv) => (
           <div key={lv.key}>
             <div className="flex items-center gap-1.5">
               <span className={`inline-block w-2.5 h-2.5 rounded-full ${lv.dot}`} aria-hidden />
               <span className="text-xs font-medium text-ice-700">{lv.label}</span>
             </div>
-            <div className="mt-1 text-sm font-bold text-slate-deep tabular-nums">
-              {lv.pct}%{' '}
-              <span className="font-normal text-ice-500">({lv.km} km)</span>
+            <div className="mt-1 text-2xl font-bold text-slate-deep tabular-nums">
+              {lv.count}
             </div>
           </div>
         ))}

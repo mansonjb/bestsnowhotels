@@ -32,16 +32,17 @@
       "es": "Ningún pueblo de Europa se asienta más alto, y pocos garantizan la nieve con tanta constancia. A 2 300 m, Val Thorens corona Les 3 Vallées, el mayor dominio enlazado del mundo, y los remontes funcionan de finales de noviembre a principios de mayo.",
       "pt": "Nenhuma aldeia da Europa se ergue mais alto, e poucas garantem a neve com tamanha constância. A 2 300 m, Val Thorens coroa as 3 Vallées, o maior domínio ligado do mundo, e os teleféricos funcionam de finais de novembro a princípios de maio."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "Purpose-built and car-light, the village runs on energy: ski-in/ski-out apartments, a buzzing main street and one of the liveliest après scenes in the Tarentaise. It suits mixed-ability groups who want guaranteed snow and short walks, especially late in the season when lower resorts thin out.",
       "fr": "Station intégrée et presque sans voitures, Val Thorens carbure à l'énergie : appartements skis aux pieds, rue principale animée et l'un des après-ski les plus vivants de la Tarentaise. Idéale pour les groupes de niveaux mélangés qui veulent de la neige garantie et peu de marche, surtout en fin de saison quand les stations plus basses se vident.",
       "es": "Estación de diseño y casi sin coches, Val Thorens funciona a base de energía: apartamentos a pie de pista, una calle principal animada y uno de los après-ski más vivos de la Tarentaise. Ideal para grupos de niveles mixtos que buscan nieve garantizada y poca caminata, sobre todo a final de temporada cuando las estaciones más bajas se vacían.",
       "pt": "Estância planeada e quase sem carros, Val Thorens vive de energia: apartamentos no sopé das pistas, uma rua principal animada e um dos après-ski mais vivos da Tarentaise. Ideal para grupos de níveis mistos que querem neve garantida e pouca caminhada, sobretudo no fim da época quando as estâncias mais baixas esvaziam."
+    },
+    "pisteCounts": {
+      "green": 25,
+      "blue": 55,
+      "red": 50,
+      "black": 20
     }
   },
   {
@@ -77,16 +78,17 @@
       "es": "Fuera de pista en todas direcciones, un palmarés de Copa del Mundo y 300 km de pistas compartidas con Tignes en el Espace Killy. Val d'Isère se gana su fama en las caras empinadas de Solaise y en el circo salvaje de Le Fornet.",
       "pt": "Fora-de-pista em todas as direções, um palmarés de Taça do Mundo e 300 km de pistas partilhadas com Tignes no Espace Killy. Val d'Isère ganha a sua fama nas encostas íngremes de Solaise e no circo selvagem do Fornet."
     },
-    "runs": {
-      "easy": 25,
-      "intermediate": 40,
-      "difficult": 35
-    },
     "longDescription": {
       "en": "Behind the sporty reputation sits a handsome stone village with serious restaurants and a late, well-dressed nightlife. Strong skiers come for the guided off-piste and the Face de Bellevarde, but the long motorway pistes back to town keep weaker members of the group happy too.",
       "fr": "Derrière la réputation sportive se cache un beau village de pierre, avec de vraies tables et une vie nocturne tardive et soignée. Les bons skieurs viennent pour le hors-piste encadré et la Face de Bellevarde, mais les longues pistes-autoroutes du retour station contentent aussi les moins aguerris du groupe.",
       "es": "Tras la fama deportiva hay un bonito pueblo de piedra, con restaurantes serios y una vida nocturna tardía y cuidada. Los buenos esquiadores vienen por el fuera de pista guiado y la Face de Bellevarde, pero las largas pistas de regreso al pueblo también contentan a los menos expertos del grupo.",
       "pt": "Por trás da fama desportiva há uma bonita aldeia de pedra, com restaurantes a sério e uma vida nocturna tardia e cuidada. Os bons esquiadores vêm pelo fora-de-pista guiado e pela Face de Bellevarde, mas as longas pistas de regresso à aldeia também agradam aos menos experientes do grupo."
+    },
+    "pisteCounts": {
+      "green": 20,
+      "blue": 45,
+      "red": 50,
+      "black": 28
     }
   },
   {
@@ -122,16 +124,17 @@
       "es": "Más estrellas Michelin que cualquier pueblo de esquí del mundo, y una puerta oeste a Les 3 Vallées. Courchevel apila seis pueblos por altitud, desde los hoteles palacio de 1850 hasta las pistas familiares de Le Praz.",
       "pt": "Mais estrelas Michelin do que qualquer aldeia de esqui do mundo, e uma porta oeste para as 3 Vallées. Courchevel empilha seis aldeias por altitude, dos hotéis palácio de 1850 às pistas familiares do Praz."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "The famous glamour lives in 1850, with private jets at the altiport and boutiques on the snow front, but the lower villages tell a gentler story. Le Praz keeps its old-Savoyard wood and quiet, and the whole valley is wide and well-groomed enough for nervous first-weekers.",
       "fr": "Le glamour qui a fait sa réputation se concentre à 1850, jets privés à l'altiport et boutiques sur le front de neige, mais les villages plus bas racontent une histoire plus douce. Le Praz garde son bois savoyard et son calme, et toute la vallée est assez large et bien damée pour rassurer les débutants.",
       "es": "El glamour que le dio fama se concentra en 1850, con jets privados en el altipuerto y boutiques a pie de pista, pero los pueblos más bajos cuentan una historia más amable. Le Praz conserva su madera saboyana y su calma, y todo el valle es lo bastante ancho y bien pisado para tranquilizar a los principiantes.",
       "pt": "O glamour que lhe deu fama concentra-se em 1850, com jactos privados no altiporto e boutiques no sopé das pistas, mas as aldeias mais baixas contam uma história mais suave. Le Praz mantém a sua madeira saboiana e a sua calma, e todo o vale é largo e bem batido o suficiente para tranquilizar os principiantes."
+    },
+    "pisteCounts": {
+      "green": 30,
+      "blue": 58,
+      "red": 45,
+      "black": 17
     }
   },
   {
@@ -167,16 +170,17 @@
       "es": "Justo en el centro de Les 3 Vallées, Méribel es la entrada más cómoda al dominio. Chalets de madera, un nudo central de remontes y un público de après-ski abiertamente británico le dan una calidez que les falta a las estaciones de diseño.",
       "pt": "Mesmo no centro das 3 Vallées, Méribel é a entrada mais cómoda no domínio. Chalés de madeira, um hub central de teleféricos e um público de après-ski assumidamente britânico dão-lhe um calor que falta às estâncias planeadas."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "British families have made this their winter home for decades, and it shows in the catered chalets and the easy, English-friendly welcome. The skiing is gloriously central: drop into either side of Les 3 Vallées before lunch and still make it back for tea.",
       "fr": "Les familles britanniques en ont fait leur quartier d'hiver depuis des décennies, et cela se sent dans les chalets avec service et l'accueil facile, anglophone. Le ski y est idéalement central : on bascule d'un côté ou de l'autre des 3 Vallées avant midi et on rentre encore pour le goûter.",
       "es": "Las familias británicas la han hecho su hogar invernal durante décadas, y se nota en los chalets con servicio y la acogida fácil y angloparlante. El esquí es idealmente central: bajas hacia cualquier lado de Les 3 Vallées antes de comer y aún vuelves para la merienda.",
       "pt": "As famílias britânicas fizeram dela a sua casa de inverno há décadas, e isso nota-se nos chalés com serviço e no acolhimento fácil e anglófono. O esqui é idealmente central: desce-se para qualquer lado de Les 3 Vallées antes do almoço e ainda se regressa para o lanche."
+    },
+    "pisteCounts": {
+      "green": 28,
+      "blue": 56,
+      "red": 48,
+      "black": 18
     }
   },
   {
@@ -212,16 +216,17 @@
       "es": "El Mont Blanc lo domina todo aquí, y la historia también. Chamonix es la cuna del alpinismo: cinco dominios esquiables separados, el mítico descenso fuera de pista de la Vallée Blanche, y un esquí de glaciar que nunca se detiene del todo.",
       "pt": "O Mont Blanc domina tudo aqui, e a história também. Chamonix é o berço do alpinismo: cinco domínios esquiáveis separados, o mítico descenso fora-de-pista da Vallée Blanche, e um esqui de glaciar que nunca pára por completo."
     },
-    "runs": {
-      "easy": 20,
-      "intermediate": 40,
-      "difficult": 40
-    },
     "longDescription": {
       "en": "This is a real town, not a ski station: trains, year-round life, mountaineering shops and bars full of guides. Beginners should know the pistes are scattered and steep, but anyone drawn to big alpine scenery and the Aiguille du Midi cable car will never forget it.",
       "fr": "C'est une vraie ville, pas une station : trains, vie à l'année, magasins d'alpinisme et bars remplis de guides. Les débutants doivent savoir que les pistes sont dispersées et raides, mais quiconque aime la grande montagne et le téléphérique de l'Aiguille du Midi en gardera un souvenir impérissable.",
       "es": "Es una ciudad de verdad, no una estación: trenes, vida todo el año, tiendas de alpinismo y bares llenos de guías. Los principiantes deben saber que las pistas están dispersas y son empinadas, pero quien ame la alta montaña y el teleférico de la Aiguille du Midi no lo olvidará jamás.",
       "pt": "É uma cidade a sério, não uma estância: comboios, vida todo o ano, lojas de alpinismo e bares cheios de guias. Os principiantes devem saber que as pistas são dispersas e íngremes, mas quem gosta de alta montanha e do teleférico da Aiguille du Midi nunca o esquecerá."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 26,
+      "red": 20,
+      "black": 12
     }
   },
   {
@@ -257,16 +262,17 @@
       "es": "Volver esquiando hasta la puerta en cualquiera de los cuatro pueblos por altitud, de 1600 a 2000 m. Les Arcs inventó el ski-in/ski-out, y el Vanoise Express la une a La Plagne para formar el inmenso dominio Paradiski.",
       "pt": "Regressar de esquis nos pés a qualquer uma das quatro aldeias por altitude, de 1600 a 2000 m. Les Arcs inventou o ski-in/ski-out, e o Vanoise Express liga-a à La Plagne para formar o imenso domínio Paradiski."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "The architecture is famously divisive, all sweeping concrete by Charlotte Perriand, but the trade-off is genuine ski-to-the-door convenience across four levels. Families lean towards Arc 1950, a newer, prettier pedestrian village, while Arc 2000 puts you highest and closest to the glaciers.",
       "fr": "L'architecture divise, tout en béton balayé signé Charlotte Perriand, mais la contrepartie est un vrai confort skis aux pieds sur quatre niveaux. Les familles préfèrent Arc 1950, village piéton plus récent et plus joli, tandis qu'Arc 2000 vous place au plus haut, au plus près des glaciers.",
       "es": "La arquitectura divide, todo hormigón curvo firmado por Charlotte Perriand, pero la contrapartida es una comodidad real a pie de pista en cuatro niveles. Las familias prefieren Arc 1950, un pueblo peatonal más nuevo y más bonito, mientras que Arc 2000 te sitúa más alto y cerca de los glaciares.",
       "pt": "A arquitectura divide, todo betão curvo assinado por Charlotte Perriand, mas a contrapartida é um conforto real no sopé das pistas em quatro níveis. As famílias preferem Arc 1950, uma aldeia pedonal mais recente e mais bonita, enquanto Arc 2000 o coloca mais alto e perto dos glaciares."
+    },
+    "pisteCounts": {
+      "green": 30,
+      "blue": 55,
+      "red": 45,
+      "black": 20
     }
   },
   {
@@ -302,16 +308,17 @@
       "es": "Diez pueblos, una pista de bobsleigh olímpica y un glaciar en Bellecôte que conserva la nieve hasta la primavera. La Plagne es la otra mitad de Paradiski, y una de las apuestas familiares más seguras de toda la Tarentaise.",
       "pt": "Dez aldeias, uma pista de bobsleigh olímpica e um glaciar em Bellecôte que guarda a neve até à primavera. La Plagne é a outra metade de Paradiski, e uma das apostas familiares mais seguras de toda a Tarentaise."
     },
-    "runs": {
-      "easy": 45,
-      "intermediate": 40,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Few resorts work harder for families: gentle nursery areas, the famous bobsleigh run for a thrill and ten villages to pick a budget. The high, snow-sure satellites like Belle Plagne are the smart base, with the lower hamlets better for quiet and value.",
       "fr": "Peu de stations en font autant pour les familles : zones débutants douces, la fameuse piste de bobsleigh pour les sensations et dix villages pour choisir son budget. Les satellites hauts et bien enneigés comme Belle Plagne sont la base maligne, les hameaux du bas restant plus calmes et plus abordables.",
       "es": "Pocas estaciones se esfuerzan tanto por las familias: zonas de debutantes suaves, la famosa pista de bobsleigh para la emoción y diez pueblos para elegir presupuesto. Los satélites altos y con nieve segura como Belle Plagne son la base inteligente, y las aldeas de abajo resultan más tranquilas y económicas.",
       "pt": "Poucas estâncias se esforçam tanto pelas famílias: zonas de aprendizagem suaves, a famosa pista de bobsleigh para a adrenalina e dez aldeias para escolher orçamento. Os satélites altos e com neve garantida como Belle Plagne são a base inteligente, e as aldeias de baixo são mais calmas e económicas."
+    },
+    "pisteCounts": {
+      "green": 35,
+      "blue": 55,
+      "red": 38,
+      "black": 17
     }
   },
   {
@@ -347,16 +354,17 @@
       "es": "Cuando el resto de los Alpes todavía está verde, Tignes ya esquía. El glaciar de la Grande Motte abre a finales de septiembre, y el enlace con Val d'Isère le da la temporada fiable más larga de la cordillera.",
       "pt": "Quando o resto dos Alpes ainda está verde, Tignes já esquia. O glaciar da Grande Motte abre em finais de setembro, e a ligação a Val d'Isère dá-lhe a época fiável mais longa da cordilheira."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "Higher and more functional than glossy Val d'Isère next door, Tignes trades charm for altitude and a season that barely ends. The lakeside hub of Le Lac is convenient and good value, and the autumn glacier opening makes it a magnet for early-season skiers.",
       "fr": "Plus haute et plus fonctionnelle que sa voisine huppée Val d'Isère, Tignes échange le charme contre l'altitude et une saison qui ne finit presque jamais. Le pôle du Lac, au bord de l'eau, est pratique et d'un bon rapport qualité-prix, et l'ouverture du glacier à l'automne en fait un aimant pour le ski de début de saison.",
       "es": "Más alta y funcional que su vecina elegante Val d'Isère, Tignes cambia el encanto por la altitud y una temporada que casi no termina. El núcleo del Lac, junto al agua, es práctico y de buena relación calidad-precio, y la apertura del glaciar en otoño la convierte en un imán para el esquí de principio de temporada.",
       "pt": "Mais alta e funcional do que a vizinha elegante Val d'Isère, Tignes troca o encanto pela altitude e por uma época que quase não acaba. O núcleo do Lac, à beira de água, é prático e com boa relação qualidade-preço, e a abertura do glaciar no outono faz dela um íman para o esqui de início de época."
+    },
+    "pisteCounts": {
+      "green": 22,
+      "blue": 48,
+      "red": 48,
+      "black": 27
     }
   },
   {
@@ -392,16 +400,17 @@
       "es": "Trescientos días de sol al año le han valido el apodo de terraza soleada de los Alpes. Alpe d'Huez alberga además la Sarenne, la pista negra más larga del planeta con sus 16 km y 2 000 m de desnivel.",
       "pt": "Trezentos dias de sol por ano valeram-lhe a alcunha de terraço solarengo dos Alpes. Alpe d'Huez acolhe ainda a Sarenne, a pista preta mais longa do planeta com os seus 16 km e 2 000 m de desnível."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 40,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "South-facing sunshine is the headline, but the domain is bigger and more varied than its tan-seeking reputation suggests, from the glacier at the top to gentle greens on the front. Beginners get a rare free nursery lift, and the long Sarenne descent rewards everyone else.",
       "fr": "Le soleil plein sud est l'argument phare, mais le domaine est plus vaste et plus varié que sa réputation de bronzette ne le laisse croire, du glacier au sommet aux vertes faciles du front de neige. Les débutants profitent d'un rare téléski gratuit, et la longue descente de la Sarenne récompense tous les autres.",
       "es": "El sol orientado al sur es el gran argumento, pero el dominio es más grande y variado de lo que su fama de tomar el sol sugiere, del glaciar de arriba a las verdes suaves del frente. Los principiantes disfrutan de un raro remonte de debutantes gratuito, y el largo descenso de la Sarenne recompensa a los demás.",
       "pt": "O sol virado a sul é o grande argumento, mas o domínio é maior e mais variado do que a fama de apanhar sol sugere, do glaciar no topo às verdes suaves na frente. Os principiantes têm um raro teleski gratuito, e a longa descida da Sarenne recompensa todos os outros."
+    },
+    "pisteCounts": {
+      "green": 40,
+      "blue": 35,
+      "red": 38,
+      "black": 22
     }
   },
   {
@@ -437,16 +446,17 @@
       "es": "Cuatro pueblos antiguos alineados a lo largo de un valle, bajo el mayor dominio de esquí en bosque de Francia. Serre Chevalier conserva su alma campesina, y los baños termales de Le Monêtier son la recompensa al final del día.",
       "pt": "Quatro aldeias antigas alinhadas ao longo de um vale, sob o maior domínio de esqui em floresta de França. Serre Chevalier mantém a sua alma rural, e os banhos termais de Le Monêtier são a recompensa no fim do dia."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "Strung between Briançon and Le Monêtier, this is the antidote to purpose-built resorts: old stone hamlets, larch forests you can ski through in bad weather, and prices that still feel reasonable. Skiing here is about variety and atmosphere rather than headline statistics.",
       "fr": "Étirée entre Briançon et Le Monêtier, c'est l'antidote aux stations intégrées : vieux hameaux de pierre, forêts de mélèzes où l'on skie par mauvais temps, et des prix encore raisonnables. Ici, le ski est affaire de variété et d'ambiance plus que de chiffres records.",
       "es": "Extendida entre Briançon y Le Monêtier, es el antídoto a las estaciones de diseño: viejas aldeas de piedra, bosques de alerces por los que esquiar con mal tiempo y precios todavía razonables. Aquí el esquí va de variedad y ambiente más que de cifras récord.",
       "pt": "Estendida entre Briançon e Le Monêtier, é o antídoto às estâncias planeadas: velhas aldeias de pedra, florestas de lariço por onde esquiar com mau tempo e preços ainda razoáveis. Aqui o esqui é sobre variedade e ambiente, mais do que sobre números recorde."
+    },
+    "pisteCounts": {
+      "green": 18,
+      "blue": 32,
+      "red": 24,
+      "black": 10
     }
   },
   {
@@ -482,16 +492,17 @@
       "es": "El Matterhorn vigila cada pista, y ningún coche tiene permitido estropear la vista. Zermatt esquía todo el año en el glaciar Theodul, la única estación de los Alpes que de verdad no cierra nunca.",
       "pt": "O Matterhorn vela por cada pista, e nenhum carro tem licença para estragar a vista. Zermatt esquia todo o ano no glaciar Theodul, a única estância dos Alpes que de facto nunca fecha."
     },
-    "runs": {
-      "easy": 25,
-      "intermediate": 45,
-      "difficult": 30
-    },
     "longDescription": {
       "en": "The pace is set by little electric taxis and the cog railway up to Gornergrat, and the whole place feels engineered to a Swiss standard. It is not cheap, and beginners face a bus or lift to the gentle areas, but few resorts deliver scenery and grooming on this level.",
       "fr": "Le rythme est donné par les petits taxis électriques et le train à crémaillère qui grimpe au Gornergrat, et tout y semble réglé au standard suisse. Ce n'est pas bon marché, et les débutants doivent prendre une navette ou une remontée pour rejoindre les zones douces, mais peu de stations offrent paysage et damage à ce niveau.",
       "es": "El ritmo lo marcan los pequeños taxis eléctricos y el tren cremallera que sube al Gornergrat, y todo parece ajustado al estándar suizo. No es barato, y los principiantes deben tomar un bus o un remonte para llegar a las zonas suaves, pero pocas estaciones ofrecen paisaje y pisado a este nivel.",
       "pt": "O ritmo é dado pelos pequenos táxis eléctricos e pelo comboio de cremalheira que sobe ao Gornergrat, e tudo parece afinado ao padrão suíço. Não é barato, e os principiantes têm de apanhar um autocarro ou teleférico para as zonas suaves, mas poucas estâncias oferecem paisagem e pisa-neves a este nível."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 26,
+      "red": 32,
+      "black": 15
     }
   },
   {
@@ -527,16 +538,17 @@
       "es": "Los freeriders peregrinan hasta aquí por el Xtreme y el implacable couloir de Tortin. Verbier reina en lo alto de Les 4 Vallées, el mayor dominio de Suiza, y la vida nocturna iguala en intensidad al terreno.",
       "pt": "Os freeriders peregrinam até aqui pelo Xtreme e pelo implacável couloir de Tortin. Verbier reina no topo de Les 4 Vallées, o maior domínio da Suíça, e a vida nocturna iguala em intensidade o terreno."
     },
-    "runs": {
-      "easy": 25,
-      "intermediate": 40,
-      "difficult": 35
-    },
     "longDescription": {
       "en": "By day it is a freeride proving ground; by night it is a Swiss party town with deep pockets. Intermediates can have a fine week on the groomers, but Verbier truly rewards strong, adventurous skiers willing to hire a guide and chase the powder off the back of Mont Fort.",
       "fr": "Le jour, c'est un terrain de freeride ; la nuit, une ville suisse qui fait la fête, le portefeuille bien garni. Les intermédiaires y passent une belle semaine sur les pistes damées, mais Verbier récompense surtout les skieurs solides et aventureux prêts à prendre un guide et à chasser la poudreuse derrière le Mont Fort.",
       "es": "De día es un campo de pruebas freeride; de noche, una ciudad suiza de fiesta y bolsillos llenos. Los intermedios pasan una buena semana en las pistas pisadas, pero Verbier recompensa sobre todo a los esquiadores fuertes y aventureros dispuestos a contratar guía y perseguir la nieve polvo tras el Mont Fort.",
       "pt": "De dia é um campo de provas de freeride; de noite, uma cidade suíça de festa e bolsos cheios. Os intermédios passam uma boa semana nas pistas batidas, mas Verbier recompensa sobretudo os esquiadores fortes e aventureiros dispostos a contratar guia e a perseguir a neve pó por trás do Mont Fort."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 32,
+      "red": 38,
+      "black": 24
     }
   },
   {
@@ -572,16 +584,17 @@
       "es": "El turismo alpino nació aquí en 1864, y el lugar no te deja olvidarlo. Dos Juegos Olímpicos, la Cresta Run, el polo y las carreras de caballos sobre lago helado: Saint Moritz envuelve un esquí exigente en un teatro de lujo clásico.",
       "pt": "O turismo alpino nasceu aqui em 1864, e o lugar nunca o deixa esquecer. Dois Jogos Olímpicos, a Cresta Run, o pólo e as corridas de cavalos em lago gelado: Saint Moritz embrulha um esqui exigente num teatro de luxo clássico."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "The skiing is genuinely good, sunny and uncrowded, but half the point is the scene: the frozen lake hosts polo and horse racing, and the hotels invented luxury alpine holidays. Come for the social calendar as much as the slopes, and budget accordingly.",
       "fr": "Le ski est réellement bon, ensoleillé et peu fréquenté, mais la moitié de l'intérêt tient à l'ambiance : le lac gelé accueille polo et courses hippiques, et les hôtels ont inventé les vacances de luxe à la montagne. On y vient pour l'agenda mondain autant que pour les pistes, et on prévoit le budget en conséquence.",
       "es": "El esquí es realmente bueno, soleado y poco concurrido, pero la mitad de la gracia está en el ambiente: el lago helado acoge polo y carreras de caballos, y los hoteles inventaron las vacaciones de lujo en la montaña. Se viene tanto por la agenda social como por las pistas, y se presupuesta en consecuencia.",
       "pt": "O esqui é realmente bom, solarengo e pouco concorrido, mas metade da graça está no ambiente: o lago gelado acolhe pólo e corridas de cavalos, e os hotéis inventaram as férias de luxo na montanha. Vem-se tanto pela agenda social como pelas pistas, e orça-se em conformidade."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 40,
+      "black": 14
     }
   },
   {
@@ -617,16 +630,17 @@
       "es": "Pocas estaciones reciben tanto sol. Crans-Montana se extiende sobre una meseta orientada al sur por encima del valle del Ródano, acoge el Omega European Masters de golf en verano, y mantiene un ritmo relajado y orientado al bienestar sobre la nieve.",
       "pt": "Poucas estâncias apanham tanto sol. Crans-Montana estende-se por um planalto virado a sul acima do vale do Ródano, acolhe o Omega European Masters de golfe no verão, e mantém um ritmo descontraído e virado para o bem-estar na neve."
     },
-    "runs": {
-      "easy": 40,
-      "intermediate": 45,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Wide, sunny and forgiving, the slopes face south over the Rhône valley, which makes for spectacular lunches but softer afternoon snow. The twin towns feel more like a chic resort than a mountain village, with golf, shopping and wellness filling the gaps between runs.",
       "fr": "Larges, ensoleillées et indulgentes, les pistes sont exposées sud sur la vallée du Rhône, ce qui offre des déjeuners spectaculaires mais une neige plus molle l'après-midi. Les deux villes ont des airs de station chic plus que de village de montagne, avec golf, shopping et bien-être pour combler les pauses entre deux pistes.",
       "es": "Anchas, soleadas e indulgentes, las pistas miran al sur sobre el valle del Ródano, lo que da almuerzos espectaculares pero nieve más blanda por la tarde. Las dos localidades parecen más una estación chic que un pueblo de montaña, con golf, compras y bienestar para llenar los huecos entre pistas.",
       "pt": "Largas, solarengas e tolerantes, as pistas viram-se a sul sobre o vale do Ródano, o que dá almoços espectaculares mas neve mais mole à tarde. As duas localidades parecem mais uma estância chique do que uma aldeia de montanha, com golfe, compras e bem-estar a preencher as pausas entre pistas."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 18,
+      "red": 18,
+      "black": 4
     }
   },
   {
@@ -662,16 +676,17 @@
       "es": "Trece cumbres de 4 000 m forman una muralla alrededor del pueblo, y los glaciares a sus pies conservan la nieve de julio a abril. Saas-Fee, sin coches, es donde media Copa del Mundo viene a entrenar durante el verano.",
       "pt": "Treze cumes de 4 000 m formam uma muralha à volta da aldeia, e os glaciares aos seus pés guardam a neve de julho a abril. Saas-Fee, sem carros, é onde metade do circuito da Taça do Mundo vem treinar durante o verão."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "The car-free village sits in a natural amphitheatre of icefalls, and the high glacier skiing means it is one of the safest snow bets in the Alps. It is quieter and more family-minded than nearby Zermatt, with a revolving summit restaurant and a genuine mountaineering pedigree.",
       "fr": "Le village sans voitures se niche dans un amphithéâtre naturel de séracs, et le ski de glacier en altitude en fait l'un des paris neige les plus sûrs des Alpes. Plus calme et plus familial que Zermatt voisine, avec un restaurant tournant au sommet et une vraie tradition d'alpinisme.",
       "es": "El pueblo sin coches se acomoda en un anfiteatro natural de seracs, y el esquí de glaciar en altitud lo convierte en una de las apuestas de nieve más seguras de los Alpes. Es más tranquilo y familiar que la cercana Zermatt, con un restaurante giratorio en la cima y una verdadera tradición de alpinismo.",
       "pt": "A aldeia sem carros aninha-se num anfiteatro natural de seracs, e o esqui de glaciar em altitude faz dela uma das apostas de neve mais seguras dos Alpes. É mais calma e familiar do que a vizinha Zermatt, com um restaurante giratório no cume e uma verdadeira tradição de alpinismo."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 16,
+      "red": 16,
+      "black": 5
     }
   },
   {
@@ -707,16 +722,17 @@
       "es": "Seis dominios esquiables, el Foro Económico Mundial cada enero, y el sanatorio que inspiró La montaña mágica de Thomas Mann. Davos es la ciudad más alta de Europa y lleva sus muchos sombreros con soltura.",
       "pt": "Seis domínios esquiáveis, o Fórum Económico Mundial todos os janeiros, e o sanatório que inspirou A Montanha Mágica de Thomas Mann. Davos é a cidade mais alta da Europa e usa os seus muitos chapéus com à-vontade."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "Big, urban and a little austere, Davos is really a working town with six ski areas attached, linked to neighbouring Klosters. The skiing on Parsenn and Jakobshorn is excellent and varied, and the spread-out layout means you rarely feel crowded even at peak times.",
       "fr": "Grande, urbaine et un peu austère, Davos est avant tout une ville active à laquelle sont rattachés six domaines, reliés à la voisine Klosters. Le ski du Parsenn et du Jakobshorn est excellent et varié, et l'étalement de la ville fait qu'on se sent rarement à l'étroit, même en pleine saison.",
       "es": "Grande, urbana y algo austera, Davos es ante todo una ciudad activa a la que se enganchan seis dominios, unidos a la vecina Klosters. El esquí del Parsenn y el Jakobshorn es excelente y variado, y lo extenso del trazado hace que rara vez te sientas apretado, incluso en plena temporada.",
       "pt": "Grande, urbana e um pouco austera, Davos é antes de tudo uma cidade activa à qual se ligam seis domínios, ligados à vizinha Klosters. O esqui do Parsenn e do Jakobshorn é excelente e variado, e a dispersão da cidade faz com que raramente se sinta apertado, mesmo em plena época."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 26,
+      "red": 35,
+      "black": 16
     }
   },
   {
@@ -752,16 +768,17 @@
       "es": "Pocos sitios esquían tan fuerte y celebran tanto. Saint Anton dio al mundo la técnica del Arlberg, y sus templos del après-ski, el MooserWirt y el Krazy Kanguruh, son tan legendarios como sus implacables pistas negras.",
       "pt": "Poucos sítios esquiam tão a sério e festejam tanto. Saint Anton deu ao mundo a técnica de Arlberg, e os seus templos do après-ski, o MooserWirt e o Krazy Kanguruh, são tão lendários como as suas implacáveis pistas pretas."
     },
-    "runs": {
-      "easy": 20,
-      "intermediate": 40,
-      "difficult": 40
-    },
     "longDescription": {
       "en": "The Arlberg skiing is vast, snowy and steep, and the off-piste is world class, but go in clear-eyed: this is a resort that skis hard all day and parties harder from mid-afternoon. Nervous beginners and early sleepers may be happier one valley over in Lech.",
       "fr": "Le ski de l'Arlberg est vaste, enneigé et raide, et le hors-piste de classe mondiale, mais venez sans illusion : ici, on skie fort toute la journée et on fait la fête plus fort encore dès le milieu d'après-midi. Les débutants anxieux et les couche-tôt seront sans doute mieux à Lech, dans la vallée voisine.",
       "es": "El esquí del Arlberg es vasto, nevado y empinado, y el fuera de pista de clase mundial, pero ven sin ilusiones: esta es una estación que esquía fuerte todo el día y celebra más fuerte aún desde media tarde. Los principiantes nerviosos y los de dormir pronto estarán mejor en Lech, en el valle de al lado.",
       "pt": "O esqui de Arlberg é vasto, com muita neve e íngreme, e o fora-de-pista de classe mundial, mas venha sem ilusões: esta é uma estância que esquia a sério o dia todo e festeja ainda mais a partir do meio da tarde. Os principiantes nervosos e os de deitar cedo estarão melhor em Lech, no vale ao lado."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 42,
+      "black": 25
     }
   },
   {
@@ -797,16 +814,17 @@
       "es": "Esquiar hasta Samnaun, al otro lado de la frontera, para las compras libres de impuestos, y volver para un concierto. Ischgl gestiona la Silvretta Arena como un festival, con après-ski tamaño estadio y grandes nombres en la apertura y el cierre.",
       "pt": "Esquiar até Samnaun, do outro lado da fronteira, para as compras isentas de impostos, e voltar para um concerto. Ischgl gere a Silvretta Arena como um festival, com après-ski tamanho estádio e grandes nomes na abertura e no encerramento."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 50,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "Ischgl is unapologetically a party resort, but the skiing underneath the noise is genuinely good: high, snow-sure, and mostly cruisy red runs perfect for confident intermediates. The duty-free hop over to Samnaun in Switzerland is a half-day outing in itself.",
       "fr": "Ischgl assume pleinement son statut de station festive, mais le ski sous le vacarme est réellement bon : haut, bien enneigé, surtout des rouges roulantes parfaites pour de bons intermédiaires. Le saut détaxé vers Samnaun, en Suisse, est une demi-journée d'excursion à lui seul.",
       "es": "Ischgl asume del todo su condición de estación de fiesta, pero el esquí bajo el ruido es realmente bueno: alto, con nieve segura, sobre todo rojas rodadoras perfectas para buenos intermedios. El salto libre de impuestos hasta Samnaun, en Suiza, es media jornada de excursión en sí mismo.",
       "pt": "Ischgl assume por completo o seu estatuto de estância de festa, mas o esqui por baixo do barulho é realmente bom: alto, com neve garantida, sobretudo vermelhas corridas perfeitas para bons intermédios. O salto isento de impostos até Samnaun, na Suíça, é meio dia de passeio por si só."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 16,
+      "red": 26,
+      "black": 6
     }
   },
   {
@@ -842,16 +860,17 @@
       "es": "Dos glaciares, el pistoletazo de salida de la Copa del Mundo cada octubre, y el restaurante de altura donde Bond rodó Spectre por encima de 3 000 m. Sölden esquía a lo grande, rápido y alto.",
       "pt": "Dois glaciares, o pontapé de saída da Taça do Mundo todos os outubros, e o restaurante de altitude onde Bond filmou Spectre acima dos 3 000 m. Sölden esquia em grande, rápido e alto."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "Two glaciers and a high, modern lift system make Sölden a reliable choice from autumn to late spring, and the village knows how to throw a party. The skiing favours intermediates and above, with the three-thousand-metre Big 3 viewpoints worth the trip on their own.",
       "fr": "Deux glaciers et un système de remontées haut et moderne font de Sölden un choix fiable de l'automne au printemps tardif, et le village sait faire la fête. Le ski convient surtout aux intermédiaires et au-dessus, avec les points de vue Big 3, à trois mille mètres, qui valent à eux seuls le déplacement.",
       "es": "Dos glaciares y un sistema de remontes alto y moderno hacen de Sölden una opción fiable del otoño a la primavera tardía, y el pueblo sabe montar fiesta. El esquí favorece a intermedios en adelante, con los miradores Big 3, a tres mil metros, que ya merecen el viaje por sí solos.",
       "pt": "Dois glaciares e um sistema de teleféricos alto e moderno fazem de Sölden uma escolha fiável do outono à primavera tardia, e a aldeia sabe fazer festa. O esqui favorece intermédios e acima, com os miradouros Big 3, a três mil metros, que já valem a viagem por si só."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 14,
+      "red": 18,
+      "black": 5
     }
   },
   {
@@ -887,16 +906,17 @@
       "es": "El Harakiri cae con un brutal 78% de inclinación, la pista pisada más empinada de Austria, y cada abril el festival Snowbombing toma la localidad. Mayrhofen es el corazón ruidoso y joven del Zillertal.",
       "pt": "O Harakiri despenha-se a uns brutais 78% de inclinação, a pista batida mais íngreme da Áustria, e todos os abris o festival Snowbombing toma conta da vila. Mayrhofen é o coração ruidoso e jovem do Zillertal."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "A lively, year-round Tyrolean town at the mouth of the Zillertal, Mayrhofen pairs slick gondolas with a famously good ski school and a young, festival-friendly crowd. The Harakiri grabs the headlines, but most of the mountain is welcoming cruising for improvers.",
       "fr": "Bourg tyrolien animé et ouvert à l'année à l'entrée du Zillertal, Mayrhofen associe des télécabines efficaces à une école de ski réputée et à un public jeune, amateur de festivals. Le Harakiri fait les gros titres, mais l'essentiel de la montagne offre un ski roulant et accueillant pour progresser.",
       "es": "Pueblo tirolés animado y abierto todo el año a la entrada del Zillertal, Mayrhofen combina telecabinas eficaces con una escuela de esquí muy valorada y un público joven y festivalero. El Harakiri acapara los titulares, pero la mayor parte de la montaña es esquí rodador y acogedor para progresar.",
       "pt": "Vila tirolesa animada e aberta todo o ano à entrada do Zillertal, Mayrhofen combina telecabinas eficazes com uma escola de esqui muito conceituada e um público jovem e amante de festivais. O Harakiri acapara as manchetes, mas a maior parte da montanha é esqui corrido e acolhedor para progredir."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 14,
+      "red": 18,
+      "black": 6
     }
   },
   {
@@ -932,16 +952,17 @@
       "es": "Cada enero, el mundo de la competición contiene el aliento por el Hahnenkamm, el descenso más temido del circuito. El resto del año, Kitzbühel es una villa medieval de postal, situada por casualidad junto a una montaña de Copa del Mundo.",
       "pt": "Todos os janeiros, o mundo da competição suspende a respiração pelo Hahnenkamm, a descida mais temida do circuito. No resto do ano, Kitzbühel é uma vila medieval de postal, instalada por acaso ao pé de uma montanha de Taça do Mundo."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "The medieval old town is the prettiest in the Alps and the dining and nightlife match it, which makes Kitzbühel as much a holiday as a ski trip. The low altitude is the catch, so it skis best in midwinter or after a fresh fall; in lean years the snowmaking earns its keep.",
       "fr": "La vieille ville médiévale est la plus jolie des Alpes, et la table comme la vie nocturne sont à la hauteur, ce qui fait de Kitzbühel autant un séjour qu'un voyage de ski. La faible altitude est le bémol : on y skie au mieux en plein hiver ou après une chute fraîche, et les années maigres, la neige de culture fait son office.",
       "es": "El casco antiguo medieval es el más bonito de los Alpes, y la gastronomía y la noche están a la altura, lo que hace de Kitzbühel tanto unas vacaciones como un viaje de esquí. La baja altitud es el pero: se esquía mejor en pleno invierno o tras una nevada fresca, y en años flojos la nieve artificial cumple su papel.",
       "pt": "O centro medieval é o mais bonito dos Alpes, e a gastronomia e a noite estão à altura, o que faz de Kitzbühel tanto umas férias como uma viagem de esqui. A baixa altitude é o senão: esquia-se melhor em pleno inverno ou após um nevão fresco, e nos anos fracos a neve artificial cumpre o seu papel."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 24,
+      "red": 28,
+      "black": 8
     }
   },
   {
@@ -977,16 +998,17 @@
       "es": "El Skicircus enlaza Saalbach, Hinterglemm, Leogang y Fieberbrunn en el mayor dominio conectado de Austria. Sede de los Campeonatos del Mundo 2025, está diseñado para encadenar pistas todo el día sin repetir ninguna.",
       "pt": "O Skicircus liga Saalbach, Hinterglemm, Leogang e Fieberbrunn no maior domínio ligado da Áustria. Anfitrião dos Campeonatos do Mundo de 2025, foi pensado para encadear pistas o dia inteiro sem repetir nenhuma."
     },
-    "runs": {
-      "easy": 40,
-      "intermediate": 45,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "The Skicircus is a paradise for mileage-hungry intermediates: a huge circuit of sunny, rolling runs you can loop all day without repeating yourself. The villages are proper Austrian, warm and beery, and the lift network is among the most modern in the country.",
       "fr": "Le Skicircus est un paradis pour les intermédiaires avides de kilomètres : un immense circuit de pistes ensoleillées et vallonnées que l'on enchaîne toute la journée sans jamais se répéter. Les villages sont typiquement autrichiens, chaleureux et bon enfant, et le réseau de remontées figure parmi les plus modernes du pays.",
       "es": "El Skicircus es un paraíso para intermedios ávidos de kilómetros: un enorme circuito de pistas soleadas y onduladas que encadenas todo el día sin repetirte. Los pueblos son típicamente austriacos, cálidos y cerveceros, y la red de remontes está entre las más modernas del país.",
       "pt": "O Skicircus é um paraíso para intermédios ávidos de quilómetros: um enorme circuito de pistas solarengas e onduladas que se encadeiam o dia todo sem repetições. As aldeias são tipicamente austríacas, acolhedoras e cervejeiras, e a rede de teleféricos está entre as mais modernas do país."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 32,
+      "red": 33,
+      "black": 7
     }
   },
   {
@@ -1022,16 +1044,17 @@
       "es": "Estadísticamente el rincón con más nieve de los Alpes, y el más discreto. Lech y Zürs se sitúan justo encima de Saint Anton pero cambian sus bares desbocados por un lujo silencioso y el elegante circuito del White Ring.",
       "pt": "Estatisticamente o canto com mais neve dos Alpes, e o mais discreto. Lech e Zürs ficam mesmo acima de Saint Anton mas trocam os seus bares desenfreados por um luxo silencioso e o elegante circuito do White Ring."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "Linked to St. Anton but a world apart in tone, Lech is where discerning, often well-known guests come for big snow and small fuss. The White Ring circuit is a satisfying day out, the hotels are exceptional, and the whole valley caps bed numbers to keep the slopes uncrowded.",
       "fr": "Reliée à Saint-Anton mais à des années-lumière en termes d'ambiance, Lech accueille une clientèle avertie, souvent connue, venue pour la grande neige et l'absence de chichis. Le circuit du White Ring fait une belle journée, les hôtels sont exceptionnels, et la vallée plafonne le nombre de lits pour garder des pistes désencombrées.",
       "es": "Unida a Saint Anton pero a años luz en el tono, Lech es donde una clientela exigente, a menudo conocida, viene por la gran nieve y la ausencia de aspavientos. El circuito del White Ring es una buena jornada, los hoteles son excepcionales, y el valle limita el número de camas para mantener las pistas despejadas.",
       "pt": "Ligada a Saint Anton mas a anos-luz no tom, Lech é onde uma clientela exigente, muitas vezes conhecida, vem pela grande neve e pela ausência de espalhafato. O circuito do White Ring é um belo dia, os hotéis são excepcionais, e o vale limita o número de camas para manter as pistas desafogadas."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 42,
+      "black": 18
     }
   },
   {
@@ -1067,16 +1090,17 @@
       "es": "La llaman la reina de los Dolomitas, y las cumbres UNESCO de las Tofane y las Cinque Torri explican por qué. Cortina coorganiza los Juegos Olímpicos de Invierno 2026, pero su verdadera moneda sigue siendo la larga comida al sol en una terraza de altura.",
       "pt": "Chamam-lhe a rainha das Dolomitas, e os cumes UNESCO das Tofane e das Cinque Torri explicam porquê. Cortina coorganiza os Jogos Olímpicos de Inverno 2026, mas a sua verdadeira moeda continua a ser o longo almoço ao sol, num terraço de altitude."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "Cortina is as much a fashionable Italian town as a ski resort, with a pedestrian Corso made for window-shopping and aperitivo. The skiing is scattered across separate areas and best for cruising and scenery rather than mileage, but the Dolomite backdrop is simply unmatched.",
       "fr": "Cortina est autant une ville italienne à la mode qu'une station de ski, avec un Corso piéton fait pour le lèche-vitrines et l'aperitivo. Le ski est réparti sur des domaines séparés, idéal pour la balade et le paysage plus que pour le kilométrage, mais la toile de fond des Dolomites est tout simplement inégalée.",
       "es": "Cortina es tanto una ciudad italiana de moda como una estación de esquí, con un Corso peatonal hecho para el escaparate y el aperitivo. El esquí se reparte en dominios separados, ideal para pasear y disfrutar del paisaje más que para el kilometraje, pero el telón de fondo de los Dolomitas no tiene rival.",
       "pt": "Cortina é tanto uma cidade italiana na moda como uma estância de esqui, com um Corso pedonal feito para a montra e o aperitivo. O esqui reparte-se por domínios separados, ideal para passear e apreciar a paisagem mais do que para a quilometragem, mas o pano de fundo das Dolomitas é simplesmente imbatível."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 24,
+      "red": 14,
+      "black": 2
     }
   },
   {
@@ -1112,16 +1136,17 @@
       "es": "Precios libres de impuestos, un entorno de parque nacional y un largo pueblo en altitud que conserva la nieve hasta mayo. Livigno acogerá las pruebas de freestyle y snowboard de los JJOO 2026, y la escena freeride ya conoce el camino.",
       "pt": "Preços isentos de impostos, um cenário de parque nacional e uma longa aldeia em altitude que guarda a neve até maio. Livigno acolherá as provas de freestyle e snowboard dos JO 2026, e a cena freeride já conhece o caminho."
     },
-    "runs": {
-      "easy": 40,
-      "intermediate": 45,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Remote and high, Livigno rewards the long drive with snow that lingers and prices kept low by its duty-free status, which is a boon for kitting out the family. The terrain parks are world class, and the long sunny valley suits beginners and freestylers more than steep-seeking experts.",
       "fr": "Isolée et haute, Livigno récompense la longue route par une neige qui s'attarde et des prix tenus bas par son statut détaxé, une aubaine pour équiper la famille. Les snowparks sont de classe mondiale, et la longue vallée ensoleillée convient mieux aux débutants et aux freestylers qu'aux experts en quête de raide.",
       "es": "Aislada y alta, Livigno recompensa el largo viaje con nieve que aguanta y precios bajos gracias a su condición libre de impuestos, una bendición para equipar a la familia. Los snowparks son de clase mundial, y el largo valle soleado conviene más a principiantes y freestylers que a expertos en busca de pendiente.",
       "pt": "Isolada e alta, Livigno recompensa a longa viagem com neve que perdura e preços baixos graças ao seu estatuto isento de impostos, uma dádiva para equipar a família. Os snowparks são de classe mundial, e o longo vale solarengo convém mais a principiantes e freestylers do que a experientes em busca de inclinação."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 22,
+      "red": 11,
+      "black": 2
     }
   },
   {
@@ -1157,16 +1182,17 @@
       "es": "El Matterhorn también tiene cara italiana, y Cervinia es su dueña. Con la base más alta de Italia y un enlace transfronterizo hacia Zermatt, se pueden esquiar 22 km desde el Plateau Rosà hasta el valle de una sola vez.",
       "pt": "O Matterhorn também tem uma face italiana, e Cervinia é a sua dona. Com a base mais alta da Itália e uma ligação transfronteiriça a Zermatt, podem esquiar-se 22 km desde o Plateau Rosà até ao vale de uma só vez."
     },
-    "runs": {
-      "easy": 45,
-      "intermediate": 40,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "High, sunny and famously gentle, Cervinia is one of the best places in the Alps to build confidence on long, wide-open motorway runs. Strong skiers use it as a launchpad to ski across into Zermatt for the day, returning over the glacier before the lifts close.",
       "fr": "Haute, ensoleillée et réputée facile, Cervinia est l'un des meilleurs endroits des Alpes pour prendre confiance sur de longues pistes-autoroutes bien dégagées. Les bons skieurs en font une rampe de lancement pour basculer sur Zermatt à la journée, revenant par le glacier avant la fermeture des remontées.",
       "es": "Alta, soleada y famosa por su suavidad, Cervinia es uno de los mejores lugares de los Alpes para ganar confianza en largas pistas anchas y despejadas. Los buenos esquiadores la usan de trampolín para cruzar a Zermatt por el día, volviendo por el glaciar antes de que cierren los remontes.",
       "pt": "Alta, solarenga e famosa pela suavidade, Cervinia é um dos melhores sítios dos Alpes para ganhar confiança em longas pistas largas e desafogadas. Os bons esquiadores usam-na como rampa de lançamento para passar a Zermatt por um dia, regressando pelo glaciar antes de os teleféricos fecharem."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 25,
+      "black": 6
     }
   },
   {
@@ -1202,16 +1228,17 @@
       "es": "Antaño favorita de la corte de los Habsburgo, Madonna di Campiglio conserva ese barniz imperial. La perla de los Dolomitas de Brenta atrae multitudes cada diciembre por el 3Tre, un slalom de Copa del Mundo disputado bajo focos.",
       "pt": "Outrora favorita da corte dos Habsburgos, Madonna di Campiglio mantém esse verniz imperial. A pérola das Dolomitas de Brenta atrai multidões todos os dezembros pelo 3Tre, um slalom da Taça do Mundo disputado sob holofotes."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "Elegant and pine-scented, Campiglio is where stylish Italians ski, with a pedestrian centre full of good restaurants and quiet evening passeggiate. The pistes are immaculately groomed and mostly intermediate, linking discreetly into the wider Brenta and Dolomiti Superski areas.",
       "fr": "Élégante et parfumée au pin, Campiglio est la station des Italiens chics, avec un centre piéton plein de bonnes tables et de calmes passeggiate du soir. Les pistes sont parfaitement damées et surtout intermédiaires, reliées discrètement aux domaines plus vastes de la Brenta et du Dolomiti Superski.",
       "es": "Elegante y con aroma a pino, Campiglio es donde esquían los italianos con estilo, con un centro peatonal lleno de buenos restaurantes y tranquilas passeggiate al anochecer. Las pistas están impecablemente pisadas y son sobre todo intermedias, enlazadas con discreción a los dominios más amplios de la Brenta y el Dolomiti Superski.",
       "pt": "Elegante e com aroma a pinheiro, Campiglio é onde esquiam os italianos com estilo, com um centro pedonal cheio de bons restaurantes e tranquilas passeggiate ao anoitecer. As pistas estão impecavelmente batidas e são sobretudo intermédias, ligadas com discrição aos domínios mais amplos da Brenta e do Dolomiti Superski."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 32,
+      "red": 22,
+      "black": 4
     }
   },
   {
@@ -1247,16 +1274,17 @@
       "es": "Construida en alto por la nieve y la velocidad, Sestriere es el pueblo más alto de los Alpes occidentales. Es el eje de la Via Lattea, un dominio que va de Italia hasta Montgenèvre en Francia, y acogió las pruebas alpinas de los JJOO 2006.",
       "pt": "Construída no alto pela neve e pela velocidade, Sestriere é a aldeia mais alta dos Alpes ocidentais. É o eixo da Via Lattea, um domínio que vai da Itália até Montgenèvre em França, e acolheu as provas alpinas dos JO 2006."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "Built for the 1930s ski elite and rebuilt for the 2006 Olympics, Sestriere is functional rather than charming, but the altitude guarantees snow and the Via Lattea offers enormous mileage. It is a strong intermediate playground with easy cross-border laps into France.",
       "fr": "Bâtie pour l'élite du ski des années 1930 et reconstruite pour les JO 2006, Sestriere est fonctionnelle plus que charmante, mais l'altitude garantit la neige et la Via Lattea offre un kilométrage énorme. C'est un beau terrain pour intermédiaires, avec des boucles transfrontalières faciles vers la France.",
       "es": "Construida para la élite del esquí de los años 1930 y reconstruida para los JJOO 2006, Sestriere es funcional más que con encanto, pero la altitud garantiza la nieve y la Via Lattea ofrece un kilometraje enorme. Es un buen terreno para intermedios, con vueltas transfronterizas fáciles hacia Francia.",
       "pt": "Construída para a elite do esqui dos anos 1930 e reconstruída para os JO 2006, Sestriere é funcional mais do que encantadora, mas a altitude garante a neve e a Via Lattea oferece uma quilometragem enorme. É um bom terreno para intermédios, com voltas transfronteiriças fáceis para França."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 36,
+      "red": 30,
+      "black": 8
     }
   },
   {
@@ -1292,16 +1320,17 @@
       "es": "Desde aquí se puede esquiar el Sellaronda, un circuito de 26 km alrededor del macizo del Sella que figura entre las jornadas de esquí más bonitas del mundo. Selva Val Gardena es una base natural para el inmenso Dolomiti Superski.",
       "pt": "Daqui pode esquiar-se o Sellaronda, um circuito de 26 km à volta do maciço do Sella que figura entre os dias de esqui mais bonitos do mundo. Selva Val Gardena é uma base natural para o imenso Dolomiti Superski."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 50,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Selva is the ideal launch pad for the Sellaronda and the wider Dolomiti Superski, with friendly Ladin villages and a generous helping of mountain-hut food. The pistes are mostly easy and intermediate, so the focus is on covering ground beneath some of the most dramatic peaks anywhere.",
       "fr": "Selva est la rampe de lancement idéale pour le Sellaronda et le vaste Dolomiti Superski, avec ses villages ladins accueillants et une généreuse dose de cuisine de refuge. Les pistes sont surtout faciles et intermédiaires : l'idée est d'avaler les kilomètres sous quelques-uns des sommets les plus spectaculaires qui soient.",
       "es": "Selva es el trampolín ideal para el Sellaronda y el amplio Dolomiti Superski, con acogedores pueblos ladinos y una generosa dosis de cocina de refugio. Las pistas son sobre todo fáciles e intermedias, así que la idea es sumar kilómetros bajo algunas de las cumbres más espectaculares que existen.",
       "pt": "Selva é a rampa de lançamento ideal para o Sellaronda e o amplo Dolomiti Superski, com acolhedoras aldeias ladinas e uma dose generosa de cozinha de refúgio. As pistas são sobretudo fáceis e intermédias, por isso a ideia é somar quilómetros sob alguns dos cumes mais espectaculares que existem."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 24,
+      "red": 16,
+      "black": 3
     }
   },
   {
@@ -1337,16 +1366,17 @@
       "es": "Cuando la familia real española se va a esquiar, viene aquí. Baqueira Beret es la mayor estación de España, con tres sectores enlazados y las mesas con estrella Michelin del Valle de Arán esperando abajo.",
       "pt": "Quando a família real espanhola vai esquiar, é aqui que vem. Baqueira Beret é a maior estância de Espanha, com três sectores ligados e as mesas com estrela Michelin do Vale de Aran à espera lá em baixo."
     },
-    "runs": {
-      "easy": 30,
-      "intermediate": 45,
-      "difficult": 25
-    },
     "longDescription": {
       "en": "Spain's smartest resort sits in the green, Atlantic-facing Aran Valley, which catches more snow than most of the Pyrenees and serves some of the best food in the mountains. It is well run and uncrowded midweek, with terrain that flatters intermediates and a quietly upmarket clientele.",
       "fr": "La station la plus chic d'Espagne se niche dans le verdoyant Val d'Aran, tourné vers l'Atlantique, qui capte plus de neige que le reste des Pyrénées et propose l'une des meilleures cuisines de montagne. Bien gérée et peu fréquentée en semaine, avec un terrain qui met en valeur les intermédiaires et une clientèle discrètement haut de gamme.",
       "es": "La estación más elegante de España se acomoda en el verde Valle de Arán, abierto al Atlántico, que recoge más nieve que el resto de los Pirineos y ofrece de la mejor cocina de montaña. Bien gestionada y poco concurrida entre semana, con un terreno que favorece a los intermedios y una clientela discretamente de alto nivel.",
       "pt": "A estância mais elegante de Espanha aninha-se no verde Vale de Aran, virado para o Atlântico, que apanha mais neve do que o resto dos Pirenéus e oferece da melhor cozinha de montanha. Bem gerida e pouco concorrida a meio da semana, com um terreno que favorece os intermédios e uma clientela discretamente requintada."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 22,
+      "red": 22,
+      "black": 8
     }
   },
   {
@@ -1382,16 +1412,17 @@
       "es": "España viene a Formigal a esquiar fuerte y a bailar más fuerte todavía. El mayor dominio de los Pirineos aragoneses, unido con Panticosa, alberga La Marchica, la fiesta de après-ski más desbocada del país.",
       "pt": "A Espanha vem a Formigal para esquiar a sério e dançar ainda mais. O maior domínio dos Pirenéus aragoneses, ligado a Panticosa, acolhe La Marchica, a festa de après-ski mais desenfreada do país."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "Formigal is loud, friendly and unmistakably Spanish: long lunches, later starts and an après scene that spills out into the snow. The terrain is broad and intermediate-friendly, linked to Panticosa, and it draws a young Madrid and Zaragoza crowd more than international visitors.",
       "fr": "Formigal est bruyante, conviviale et résolument espagnole : longs déjeuners, départs tardifs et un après-ski qui déborde sur la neige. Le terrain est large et accueillant pour les intermédiaires, relié à Panticosa, et attire une foule jeune de Madrid et Saragosse plus que des visiteurs internationaux.",
       "es": "Formigal es ruidosa, simpática e inconfundiblemente española: comidas largas, salidas más tarde y un après-ski que se desborda sobre la nieve. El terreno es amplio y amable para intermedios, unido a Panticosa, y atrae a un público joven de Madrid y Zaragoza más que a visitantes internacionales.",
       "pt": "Formigal é ruidosa, simpática e inconfundivelmente espanhola: almoços longos, partidas mais tarde e um après-ski que transborda para a neve. O terreno é amplo e amigável para intermédios, ligado a Panticosa, e atrai um público jovem de Madrid e Saragoça mais do que visitantes internacionais."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 24,
+      "red": 18,
+      "black": 5
     }
   },
   {
@@ -1427,16 +1458,17 @@
       "es": "A 1 540 m, ningún pueblo de los Pirineos españoles se asienta más alto, y el Aneto, la cumbre más alta de la cordillera, se alza justo detrás. Cerler es compacta y familiar, con un ambiente decididamente español.",
       "pt": "A 1 540 m, nenhuma aldeia dos Pirenéus espanhóis se ergue mais alto, e o Aneto, o cume mais alto da cordilheira, eleva-se mesmo atrás. Cerler é compacta e familiar, com um ambiente decididamente espanhol."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "The highest village in the Spanish Pyrenees keeps things small and traditional, with stone houses and the great bulk of Aneto for a backdrop. It is a friendly, no-frills choice for families and intermediates who want authentic Spanish mountain life over resort gloss.",
       "fr": "Le village le plus haut des Pyrénées espagnoles reste petit et traditionnel, maisons de pierre et masse imposante de l'Aneto en toile de fond. C'est un choix convivial et sans chichis pour les familles et les intermédiaires qui préfèrent l'authentique vie de montagne espagnole au vernis des grandes stations.",
       "es": "El pueblo más alto de los Pirineos españoles se mantiene pequeño y tradicional, con casas de piedra y la gran mole del Aneto de fondo. Es una opción simpática y sin pretensiones para familias e intermedios que prefieren la auténtica vida de montaña española al brillo de las grandes estaciones.",
       "pt": "A aldeia mais alta dos Pirenéus espanhóis mantém-se pequena e tradicional, com casas de pedra e a grande massa do Aneto como pano de fundo. É uma opção simpática e sem pretensões para famílias e intermédios que preferem a autêntica vida de montanha espanhola ao brilho das grandes estâncias."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 15,
+      "red": 12,
+      "black": 2
     }
   },
   {
@@ -1472,16 +1504,17 @@
       "es": "Seis pueblos, de Encamp a Pas de la Casa, componen el mayor dominio esquiable de los Pirineos. Súmale precios libres de impuestos y finales de la Copa del Mundo habituales, y Grandvalira se convierte en un sí fácil en familia.",
       "pt": "Seis aldeias, de Encamp a Pas de la Casa, compõem o maior domínio esquiável dos Pirenéus. Junte preços isentos de impostos e finais da Taça do Mundo regulares, e Grandvalira torna-se um sim fácil em família."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "Andorra's giant strings six villages along one lift-linked domain, so you can ski all day and shop tax-free all evening. Soldeu and El Tarter are the calmer, family-friendly bases; Pas de la Casa is the party end. The ski schools are excellent and English is everywhere.",
       "fr": "Le géant andorran aligne six villages le long d'un même domaine relié : on skie toute la journée et on fait du shopping détaxé toute la soirée. Soldeu et El Tarter sont les bases plus calmes et familiales ; Pas de la Casa, le côté festif. Les écoles de ski sont excellentes et l'anglais est partout.",
       "es": "El gigante andorrano alinea seis pueblos a lo largo de un mismo dominio enlazado: se esquía todo el día y se compra libre de impuestos toda la tarde. Soldeu y El Tarter son las bases más tranquilas y familiares; Pas de la Casa, el lado fiestero. Las escuelas de esquí son excelentes y el inglés está por todas partes.",
       "pt": "O gigante andorrano alinha seis aldeias ao longo de um mesmo domínio ligado: esquia-se o dia todo e faz-se compras isentas de impostos toda a noite. Soldeu e El Tarter são as bases mais calmas e familiares; Pas de la Casa, o lado festivo. As escolas de esqui são excelentes e o inglês está por todo o lado."
+    },
+    "pisteCounts": {
+      "green": 18,
+      "blue": 28,
+      "red": 22,
+      "black": 6
     }
   },
   {
@@ -1517,16 +1550,17 @@
       "es": "El hermano pequeño de Grandvalira se ha hecho un nombre con los primeros giros. Vallnord es la favorita de los principiantes británicos y de las familias con presupuesto, con progresiones suaves y La Massana en el valle para todo lo que ocurre fuera de las pistas.",
       "pt": "O irmão mais novo de Grandvalira fez nome nas primeiras curvas. Vallnord é a favorita dos principiantes britânicos e das famílias com orçamento, com progressões suaves e La Massana no fundo do vale para tudo o que acontece fora das pistas."
     },
-    "runs": {
-      "easy": 45,
-      "intermediate": 40,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Arinsal is where a lot of British skiers and boarders take their very first turns, thanks to patient instructors and gentle, confidence-building slopes. It is compact and affordable, with the larger town of La Massana down the valley for restaurants, shops and a livelier evening.",
       "fr": "C'est à Arinsal que beaucoup de Britanniques font leurs tout premiers virages, grâce à des moniteurs patients et à des pentes douces qui mettent en confiance. Compacte et abordable, avec la ville plus grande de La Massana en bas de la vallée pour les restaurants, les boutiques et des soirées plus animées.",
       "es": "Es en Arinsal donde muchos británicos hacen sus primeros giros, gracias a monitores pacientes y pendientes suaves que dan confianza. Es compacta y económica, con la mayor La Massana valle abajo para restaurantes, tiendas y un anochecer más animado.",
       "pt": "É em Arinsal que muitos britânicos dão as primeiras curvas, graças a monitores pacientes e encostas suaves que dão confiança. É compacta e acessível, com a maior La Massana mais abaixo no vale para restaurantes, lojas e um serão mais animado."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 17,
+      "red": 11,
+      "black": 2
     }
   },
   {
@@ -1562,16 +1596,17 @@
       "es": "La mayor estación de los Pirineos franceses combina tres sectores enlazados con las termas Sensoria, en el valle. Saint-Lary es tierra de familias, un clásico del suroeste francés que se llena en cada vacación escolar.",
       "pt": "A maior estância dos Pirenéus franceses combina três sectores ligados com as termas Sensoria, no vale. Saint-Lary é terra de famílias, um clássico do sudoeste francês que enche em todas as férias escolares."
     },
-    "runs": {
-      "easy": 40,
-      "intermediate": 40,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "A genuine Pyrenean town rather than a built resort, Saint-Lary pairs a lively old centre with a cable car straight up to the snow and the Sensoria spa for tired legs. It is family country through and through, busy in French school holidays and reasonably priced the rest of the time.",
       "fr": "Vraie bourgade pyrénéenne plutôt que station construite, Saint-Lary associe un centre ancien animé à un téléphérique qui grimpe droit vers la neige et aux thermes Sensoria pour les jambes fatiguées. C'est le pays des familles, bondé pendant les vacances scolaires françaises et raisonnable le reste du temps.",
       "es": "Auténtico pueblo pirenaico más que estación construida, Saint-Lary combina un animado centro antiguo con un teleférico que sube directo a la nieve y el balneario Sensoria para las piernas cansadas. Es tierra de familias, llena en las vacaciones escolares francesas y de precio razonable el resto del tiempo.",
       "pt": "Verdadeira vila pirenaica mais do que estância construída, Saint-Lary combina um animado centro antigo com um teleférico que sobe a direito até à neve e o spa Sensoria para as pernas cansadas. É terra de famílias, cheia nas férias escolares francesas e de preço razoável no resto do tempo."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 20,
+      "red": 18,
+      "black": 6
     }
   },
   {
@@ -1607,16 +1642,17 @@
       "es": "El telecabina Skyvall sube directamente desde la ciudad termal de Loudenvielle hasta la nieve, enlazando dos valles en altitud. Peyragudes tuvo su momento de Hollywood en la escena inicial de Spectre, la de James Bond.",
       "pt": "O telecabina Skyvall sobe diretamente desde a vila termal de Loudenvielle até à neve, ligando dois vales em altitude. Peyragudes teve o seu momento de Hollywood na cena inicial de Spectre, o filme de James Bond."
     },
-    "runs": {
-      "easy": 40,
-      "intermediate": 45,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Small but perfectly placed, Peyragudes is two sunny plateaus joined at altitude, with a gondola whisking you up from the spa village of Loudenvielle. It is a relaxed, family-friendly choice with wide pistes, big views and far fewer crowds than the famous names.",
       "fr": "Petite mais idéalement située, Peyragudes réunit deux plateaux ensoleillés en altitude, avec un télécabine qui vous hisse depuis le village thermal de Loudenvielle. C'est un choix détendu et familial, pistes larges, grandes vues et bien moins de monde que chez les grands noms.",
       "es": "Pequeña pero perfectamente situada, Peyragudes une dos mesetas soleadas en altitud, con un telecabina que te sube desde el pueblo termal de Loudenvielle. Es una opción relajada y familiar, pistas anchas, grandes vistas y mucha menos gente que en los grandes nombres.",
       "pt": "Pequena mas perfeitamente situada, Peyragudes une dois planaltos solarengos em altitude, com um telecabina que o leva desde a vila termal de Loudenvielle. É uma opção descontraída e familiar, pistas largas, grandes vistas e muito menos gente do que nos grandes nomes."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 16,
+      "red": 11,
+      "black": 3
     }
   },
   {
@@ -1652,16 +1688,17 @@
       "es": "Los olímpicos franceses suben a esta soleada meseta catalana, a 1 800 m, para entrenar en altitud. Font-Romeu cuenta además con el mayor equipamiento de nieve artificial de los Pirineos, y sus pistas siguen abiertas cuando otras todavía esperan la nieve.",
       "pt": "Os olímpicos franceses sobem a este solarengo planalto catalão, a 1 800 m, para treinar em altitude. Font-Romeu dispõe ainda do maior equipamento de neve artificial dos Pirenéus, e as suas pistas continuam abertas quando outras ainda esperam pela neve."
     },
-    "runs": {
-      "easy": 50,
-      "intermediate": 40,
-      "difficult": 10
-    },
     "longDescription": {
       "en": "Bathed in Catalan sunshine and famous as an altitude-training base, Font-Romeu is reassuringly gentle and exceptionally well equipped with snowmaking. It suits families and beginners who value sun and certainty, with the medieval town of Mont-Louis and Spain both close by.",
       "fr": "Baignée de soleil catalan et réputée comme base d'entraînement en altitude, Font-Romeu est rassurante de douceur et exceptionnellement bien équipée en neige de culture. Elle convient aux familles et aux débutants qui aiment le soleil et la certitude, avec la cité médiévale de Mont-Louis et l'Espagne tout près.",
       "es": "Bañada por el sol catalán y famosa como base de entrenamiento en altitud, Font-Romeu es tranquilizadoramente suave y excepcionalmente equipada con nieve artificial. Conviene a familias y principiantes que valoran el sol y la certeza, con la villa medieval de Mont-Louis y España muy cerca.",
       "pt": "Banhada pelo sol catalão e famosa como base de treino em altitude, Font-Romeu é tranquilizadoramente suave e excepcionalmente equipada com neve artificial. Convém a famílias e principiantes que valorizam o sol e a certeza, com a vila medieval de Mont-Louis e a Espanha mesmo ao lado."
+    },
+    "pisteCounts": {
+      "green": 14,
+      "blue": 15,
+      "red": 9,
+      "black": 2
     }
   },
   {
@@ -1697,16 +1734,17 @@
       "es": "Bajo el col du Tourmalet, la subida que rompe a los ciclistas del Tour de Francia cada verano, se extiende el mayor dominio enlazado de los Pirineos franceses. Grand Tourmalet reúne Barèges y La Mongie a ambos lados del puerto.",
       "pt": "Sob o col du Tourmalet, a subida que parte os ciclistas da Volta a França todos os verões, estende-se o maior domínio ligado dos Pirenéus franceses. Grand Tourmalet reúne Barèges e La Mongie de ambos os lados do colo."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 45,
-      "difficult": 20
-    },
     "longDescription": {
       "en": "The biggest linked area in the French Pyrenees joins the lively, ski-to-the-door base of La Mongie with the old spa village of Barèges over the Col du Tourmalet. It is a varied, good-value mountain that rewards intermediates and serves up properly big Pyrenean views.",
       "fr": "Le plus grand domaine relié des Pyrénées françaises associe la base animée et skis aux pieds de La Mongie au vieux village thermal de Barèges, par-dessus le col du Tourmalet. Montagne variée et d'un bon rapport qualité-prix, elle récompense les intermédiaires et offre de très grandes vues pyrénéennes.",
       "es": "El mayor dominio enlazado de los Pirineos franceses une la animada base a pie de pista de La Mongie con el viejo pueblo termal de Barèges, por encima del col du Tourmalet. Montaña variada y de buena relación calidad-precio, recompensa a los intermedios y regala grandes vistas pirenaicas.",
       "pt": "O maior domínio ligado dos Pirenéus franceses une a animada base no sopé das pistas de La Mongie à velha vila termal de Barèges, por cima do col du Tourmalet. Montanha variada e com boa relação qualidade-preço, recompensa os intermédios e oferece grandes vistas pirenaicas."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 17,
+      "red": 13,
+      "black": 3
     }
   },
   {
@@ -1742,16 +1780,17 @@
       "es": "Esquiar en la meseta del Cirque du Lys de día, relajarse en las termas Belle Époque al atardecer. Cauterets es la puerta del Parque Nacional de los Pirineos, una ciudad termal que lleva con ligereza su grandeza del siglo XIX.",
       "pt": "Esquiar no planalto do Cirque du Lys de dia, descansar nas termas Belle Époque ao fim da tarde. Cauterets é a porta do Parque Nacional dos Pirenéus, uma vila termal que usa com leveza a sua grandeza do século XIX."
     },
-    "runs": {
-      "easy": 40,
-      "intermediate": 45,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Cauterets is a graceful Belle Époque spa town in a deep valley, with the ski area sitting on the Cirque du Lys plateau a gondola ride above. It is compact and uncrowded, ideal for families who want to mix a few easy ski days with hot springs, walks and a real town to come home to.",
       "fr": "Cauterets est une gracieuse ville thermale Belle Époque au fond d'une vallée encaissée, le domaine skiable étant posé sur le plateau du Cirque du Lys, à un télécabine au-dessus. Compacte et tranquille, idéale pour les familles qui veulent mêler quelques journées de ski faciles aux sources chaudes, aux balades et à une vraie ville où rentrer.",
       "es": "Cauterets es una elegante ciudad termal Belle Époque en un valle profundo, con la estación de esquí en la meseta del Cirque du Lys, a un telecabina por encima. Compacta y tranquila, ideal para familias que quieren combinar unos días de esquí fáciles con aguas termales, paseos y una ciudad de verdad a la que volver.",
       "pt": "Cauterets é uma graciosa vila termal Belle Époque num vale profundo, com a estância de esqui no planalto do Cirque du Lys, a um telecabina acima. Compacta e tranquila, ideal para famílias que querem juntar alguns dias de esqui fáceis a águas termais, passeios e uma vila a sério para onde regressar."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 9,
+      "red": 7,
+      "black": 1
     }
   },
   {
@@ -1787,16 +1826,17 @@
       "es": "La llaman el diamante de los Alpes, y el registro de nieve lo respalda, con cobertura fiable de mediados de noviembre a mayo. Obergurgl es la parroquia más alta de Austria, tranquila donde sus vecinas son ruidosas, y un paraíso para familias y buenos esquiadores intermedios.",
       "pt": "Chamam-lhe o diamante dos Alpes, e o registo de neve confirma-o, com cobertura fiável de meados de novembro a maio. Obergurgl é a freguesia mais alta da Áustria, calma onde as vizinhas são ruidosas, e um paraíso para famílias e bons esquiadores intermédios."
     },
-    "runs": {
-      "easy": 35,
-      "intermediate": 50,
-      "difficult": 15
-    },
     "longDescription": {
       "en": "Tucked at the head of the Ötztal at nearly two thousand metres, Obergurgl is snow-sure, sunny and reassuringly calm, with hotels you can ski back to and almost no rowdiness. It is a confident intermediate's and a family's resort, best reached with a car or transfer given how high it sits.",
       "fr": "Blottie en tête de l'Ötztal à près de deux mille mètres, Obergurgl est sûre en neige, ensoleillée et d'un calme rassurant, avec des hôtels où l'on rentre skis aux pieds et presque aucun débordement. C'est une station pour bons intermédiaires et familles, à rejoindre de préférence en voiture ou en transfert vu son altitude.",
       "es": "Acurrucada en la cabecera del Ötztal a casi dos mil metros, Obergurgl tiene nieve segura, sol y una calma tranquilizadora, con hoteles a los que vuelves esquiando y casi ningún desfase. Es estación de buenos intermedios y familias, mejor alcanzada en coche o traslado dada su altitud.",
       "pt": "Aninhada na cabeceira do Ötztal a quase dois mil metros, Obergurgl tem neve garantida, sol e uma calma tranquilizadora, com hotéis a que se regressa de esquis nos pés e quase nenhum exagero. É estância de bons intermédios e famílias, de preferência alcançada de carro ou transfer dada a sua altitude."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 12,
+      "red": 13,
+      "black": 2
     }
   },
   {
@@ -1832,16 +1872,17 @@
       "es": "Una adormecida ciudad de guarnición convertida en favorita del freeride, ahora conectada con Sedrun y Disentis para 180 km de terreno. Andermatt recibe la nieve más fiable del centro de Suiza, y The Chedi redefinió allí el lujo.",
       "pt": "Uma adormecida cidade de guarnição tornada queridinha do freeride, agora ligada a Sedrun e Disentis para 180 km de terreno. Andermatt recebe a neve mais fiável do centro da Suíça, e o Chedi redefiniu ali o luxo."
     },
-    "runs": {
-      "easy": 25,
-      "intermediate": 40,
-      "difficult": 35
-    },
     "longDescription": {
       "en": "A decade of investment turned a quiet army town into one of central Switzerland's most exciting bases, with The Chedi anchoring a smart new quarter. The reward for getting here by train is reliable snow, proper steeps off the Gemsstock and far smaller crowds than the famous names.",
       "fr": "Une décennie d'investissements a transformé une paisible ville de garnison en l'une des bases les plus excitantes de Suisse centrale, Le Chedi ancrant un nouveau quartier chic. La récompense, après le trajet en train, c'est une neige fiable, de vraies pentes raides au Gemsstock et bien moins de monde que chez les grands noms.",
       "es": "Una década de inversión convirtió una tranquila ciudad militar en una de las bases más emocionantes del centro de Suiza, con The Chedi anclando un barrio nuevo y elegante. La recompensa, tras llegar en tren, es nieve fiable, auténticas pendientes en el Gemsstock y mucha menos gente que en los grandes nombres.",
       "pt": "Uma década de investimento transformou uma tranquila cidade militar numa das bases mais entusiasmantes do centro da Suíça, com o Chedi a ancorar um bairro novo e elegante. A recompensa, depois de chegar de comboio, é neve fiável, encostas íngremes a sério no Gemsstock e muito menos gente do que nos grandes nomes."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 14,
+      "red": 18,
+      "black": 14
     }
   }
 ]

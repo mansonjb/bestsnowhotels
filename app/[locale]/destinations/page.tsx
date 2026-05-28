@@ -92,7 +92,7 @@ export default async function DestinationsPage({
         <h1 className="text-4xl sm:text-5xl font-bold text-slate-deep tracking-tight">
           {dict.destinations.title}
         </h1>
-        <p className="mt-4 text-lg text-ice-800/80 max-w-2xl">
+        <p className="mt-4 text-lg text-ice-800/80">
           {dict.destinations.subtitle}
         </p>
       </section>

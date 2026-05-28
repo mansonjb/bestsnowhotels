@@ -149,7 +149,7 @@ export default async function HomePage({
       {/* By country */}
       <section className="bg-ice-50 border-y border-ice-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="max-w-3xl mb-10">
+          <div className="mb-10">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-deep tracking-tight">
               {dict.home.byCountryTitle}
             </h2>

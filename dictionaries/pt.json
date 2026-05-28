@@ -61,10 +61,12 @@
     "pistesKm": "Pistas",
     "lifts": "Teleféricos",
     "pisteTitle": "Pistas e teleféricos",
-    "pisteNote": "Os quilómetros de pistas são o total da estância. A repartição por dificuldade é indicativa.",
-    "easy": "Fáceis",
-    "intermediate": "Intermédias",
-    "difficult": "Difíceis",
+    "pisteNote": "O número de pistas e os quilómetros são indicativos. As pistas verdes só existem em França, Espanha e Andorra; a Itália, a Áustria e a Suíça começam no azul.",
+    "runs": "pistas sinalizadas",
+    "pisteGreen": "Verdes",
+    "pisteBlue": "Azuis",
+    "pisteRed": "Vermelhas",
+    "pisteBlack": "Pretas",
     "season": "Época",
     "vibes": "Ambiente",
     "relatedTitle": "Outros destinos de esqui",
@@ -78,7 +80,7 @@
     "faq4Q": "Qual é a dimensão do domínio esquiável de {name}?",
     "faq4A": "{name} tem {pistesKm} km de pistas balizadas servidas por {lifts} teleféricos, entre {altitudeBase} m e {altitudeSummit} m de altitude.",
     "faq5Q": "{name} é mais para principiantes ou para experientes?",
-    "faq5A": "As pistas dividem-se aproximadamente em {easy}% fáceis, {intermediate}% intermédias e {difficult}% difíceis, um bom indicador para saber se a estância se adapta ao seu nível."
+    "faq5A": "{name} conta com cerca de {totalRuns} pistas sinalizadas no total. A repartição por cor acima mostra como se distribuem por dificuldade, um bom indicador para saber se a estância se adapta ao seu nível."
   },
   "footer": {
     "tagline": "Os melhores hotéis de neve, onde o teleférico sai à sua porta.",

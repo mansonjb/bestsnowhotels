@@ -19,8 +19,9 @@ export interface Destination {
   seasonEnd: string
   snowScore: number
   vibes: string[]
-  /** Indicative difficulty split of the pisted terrain, percentages summing to 100. */
-  runs: { easy: number; intermediate: number; difficult: number }
+  /** Indicative number of marked runs by piste colour. Green is 0 in countries
+   *  whose classification has no green (Italy, Austria, Switzerland). */
+  pisteCounts: { green: number; blue: number; red: number; black: number }
   intro: Record<Locale, string>
   /** Longer editorial paragraph shown in the "Get to know the resort" section. */
   longDescription: Record<Locale, string>

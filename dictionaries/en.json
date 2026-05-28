@@ -61,10 +61,12 @@
     "pistesKm": "Pistes",
     "lifts": "Lifts",
     "pisteTitle": "Pistes and lifts",
-    "pisteNote": "Piste kilometres are the resort total. The difficulty split is indicative.",
-    "easy": "Easy",
-    "intermediate": "Intermediate",
-    "difficult": "Difficult",
+    "pisteNote": "Run counts and piste kilometres are indicative. Green runs only exist in France, Spain and Andorra; Italy, Austria and Switzerland start at blue.",
+    "runs": "marked runs",
+    "pisteGreen": "Green",
+    "pisteBlue": "Blue",
+    "pisteRed": "Red",
+    "pisteBlack": "Black",
     "season": "Season",
     "vibes": "Vibe",
     "relatedTitle": "Other ski destinations",
@@ -78,7 +80,7 @@
     "faq4Q": "How big is the {name} ski area?",
     "faq4A": "{name} has {pistesKm} km of marked pistes served by {lifts} lifts, between {altitudeBase} m and {altitudeSummit} m of altitude.",
     "faq5Q": "Is {name} more for beginners or experts?",
-    "faq5A": "The pisted terrain splits roughly into {easy}% easy, {intermediate}% intermediate and {difficult}% difficult runs, so use that as a guide to whether it fits your level."
+    "faq5A": "{name} counts about {totalRuns} marked runs in total. The colour breakdown above shows how they split by difficulty, a good guide to whether the resort fits your level."
   },
   "footer": {
     "tagline": "The best snow hotels, where the lift starts at your door.",

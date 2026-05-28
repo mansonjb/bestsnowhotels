@@ -40,7 +40,7 @@ export default async function CountriesIndexPage({
         <h1 className="text-4xl sm:text-5xl font-bold text-slate-deep tracking-tight">
           {dict.nav.countries}
         </h1>
-        <p className="mt-4 text-lg text-ice-800/80 max-w-2xl">
+        <p className="mt-4 text-lg text-ice-800/80">
           {dict.home.byCountrySubtitle}
         </p>
       </section>

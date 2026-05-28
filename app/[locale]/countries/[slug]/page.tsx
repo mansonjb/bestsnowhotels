@@ -113,7 +113,7 @@ export default async function CountryPage({
           <div className="text-sm font-medium text-ice-700 mb-4">
             {list.length} {list.length === 1 ? dict.destinations.resort : dict.destinations.resorts}
           </div>
-          <p className="mt-3 text-lg text-ice-800/80 max-w-3xl leading-relaxed">
+          <p className="mt-3 text-lg text-ice-800/80 leading-relaxed">
             {country.intro[l]}
           </p>
         </div>

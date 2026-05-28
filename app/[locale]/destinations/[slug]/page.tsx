@@ -158,9 +158,10 @@ export default async function DestinationDetailPage({
       .replace('{seasonStart}', formatSeasonDate(d.seasonStart, l))
       .replace('{seasonEnd}', formatSeasonDate(d.seasonEnd, l))
       .replace('{snowScore}', String(d.snowScore))
-      .replace('{easy}', String(d.runs.easy))
-      .replace('{intermediate}', String(d.runs.intermediate))
-      .replace('{difficult}', String(d.runs.difficult))
+      .replace(
+        '{totalRuns}',
+        String(d.pisteCounts.green + d.pisteCounts.blue + d.pisteCounts.red + d.pisteCounts.black),
+      )
 
   const faqItems = [
     {
@@ -237,7 +238,7 @@ export default async function DestinationDetailPage({
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-deep tracking-tight">
             {d.name}
           </h1>
-          <p className="mt-5 text-lg text-ice-800/80 max-w-3xl leading-relaxed">
+          <p className="mt-5 text-lg text-ice-800/80 leading-relaxed">
             {d.intro[l]}
           </p>
 
@@ -315,6 +316,29 @@ export default async function DestinationDetailPage({
         </div>
       </section>
 
+      {/* Where to stay: example hotels */}
+      {hotels.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <h2 className="text-2xl font-bold text-slate-deep">
+            {dict.destination.whereToStay}
+          </h2>
+          <p className="mt-2 text-ice-800/80 mb-6">
+            {dict.destination.whereToStaySubtitle}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {hotels.map((h) => (
+              <HotelCard
+                key={h.id}
+                hotel={h}
+                bookHref={buildAllezHotelLink(h.name, d.name, d.country, 'hotel', 7)}
+                labels={hotelLabels}
+              />
+            ))}
+          </div>
+          <p className="mt-4 text-xs text-ice-500">{dict.destination.ratingsNote}</p>
+        </section>
+      )}
+
       {/* Pistes and lifts */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h2 className="text-2xl font-bold text-slate-deep mb-5">
@@ -323,9 +347,11 @@ export default async function DestinationDetailPage({
         <PisteBreakdown
           destination={d}
           labels={{
-            easy: dict.destination.easy,
-            intermediate: dict.destination.intermediate,
-            difficult: dict.destination.difficult,
+            green: dict.destination.pisteGreen,
+            blue: dict.destination.pisteBlue,
+            red: dict.destination.pisteRed,
+            black: dict.destination.pisteBlack,
+            runs: dict.destination.runs,
           }}
         />
         <p className="mt-3 text-xs text-ice-500">{dict.destination.pisteNote}</p>
@@ -346,7 +372,7 @@ export default async function DestinationDetailPage({
         <h2 className="text-2xl font-bold text-slate-deep mb-5">
           {dict.destination.aboutTitle}
         </h2>
-        <p className="text-lg text-ice-800/80 leading-relaxed max-w-3xl">
+        <p className="text-lg text-ice-800/80 leading-relaxed">
           {d.longDescription[l]}
         </p>
         {gallery.length > 0 && (
@@ -368,29 +394,6 @@ export default async function DestinationDetailPage({
           </div>
         )}
       </section>
-
-      {/* Where to stay: example hotels */}
-      {hotels.length > 0 && (
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <h2 className="text-2xl font-bold text-slate-deep">
-            {dict.destination.whereToStay}
-          </h2>
-          <p className="mt-2 text-ice-800/80 mb-6 max-w-3xl">
-            {dict.destination.whereToStaySubtitle}
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {hotels.map((h) => (
-              <HotelCard
-                key={h.id}
-                hotel={h}
-                bookHref={buildAllezHotelLink(h.name, d.name, d.country, 'hotel', 7)}
-                labels={hotelLabels}
-              />
-            ))}
-          </div>
-          <p className="mt-4 text-xs text-ice-500">{dict.destination.ratingsNote}</p>
-        </section>
-      )}
 
       {/* Stay22 Map */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -447,7 +450,7 @@ export default async function DestinationDetailPage({
       </section>
 
       {/* FAQ */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-2xl font-bold text-slate-deep mb-6">
           {dict.destination.faqTitle}
         </h2>

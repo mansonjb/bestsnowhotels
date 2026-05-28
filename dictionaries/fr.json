@@ -61,10 +61,12 @@
     "pistesKm": "Pistes",
     "lifts": "Remontées",
     "pisteTitle": "Pistes et remontées",
-    "pisteNote": "Les kilomètres de pistes correspondent au total de la station. La répartition par difficulté est indicative.",
-    "easy": "Faciles",
-    "intermediate": "Intermédiaires",
-    "difficult": "Difficiles",
+    "pisteNote": "Le nombre de pistes et les kilomètres sont indicatifs. Les pistes vertes n'existent qu'en France, en Espagne et en Andorre ; l'Italie, l'Autriche et la Suisse commencent au bleu.",
+    "runs": "pistes balisées",
+    "pisteGreen": "Vertes",
+    "pisteBlue": "Bleues",
+    "pisteRed": "Rouges",
+    "pisteBlack": "Noires",
     "season": "Saison",
     "vibes": "Ambiance",
     "relatedTitle": "Autres destinations ski",
@@ -78,7 +80,7 @@
     "faq4Q": "Quelle est la taille du domaine skiable de {name} ?",
     "faq4A": "{name} compte {pistesKm} km de pistes balisées desservies par {lifts} remontées, entre {altitudeBase} m et {altitudeSummit} m d'altitude.",
     "faq5Q": "{name} est-il plutôt pour les débutants ou les experts ?",
-    "faq5A": "Les pistes se répartissent à peu près en {easy}% de faciles, {intermediate}% d'intermédiaires et {difficult}% de difficiles : de quoi juger si la station correspond à votre niveau."
+    "faq5A": "{name} compte environ {totalRuns} pistes balisées au total. La répartition par couleur ci-dessus montre comment elles se distribuent par difficulté, de quoi juger si la station correspond à votre niveau."
   },
   "footer": {
     "tagline": "Les meilleurs hôtels pour skier dès la sortie de votre chambre.",

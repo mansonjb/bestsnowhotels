@@ -66,7 +66,7 @@ export default async function AboutPage({
   const copy = COPY[locale as Locale]
 
   return (
-    <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <article className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <h1 className="text-4xl font-bold text-slate-deep tracking-tight mb-8">
         {copy.title}
       </h1>
