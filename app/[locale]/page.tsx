@@ -197,7 +197,7 @@ export default async function HomePage({
               className="bg-white rounded-2xl border border-ice-100 p-6"
             >
               <div className="text-ice-400 font-bold text-xs tracking-widest">
-                STEP {s.n}
+                {dict.home.stepLabel} {s.n}
               </div>
               <h3 className="mt-2 font-bold text-lg text-slate-deep">{s.t}</h3>
               <p className="mt-2 text-sm text-ice-800/80 leading-relaxed">{s.x}</p>
