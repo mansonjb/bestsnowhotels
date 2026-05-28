@@ -134,6 +134,20 @@ const TARGETS = [
   { slug: 'espot',                query: 'Espot Esqui ski resort Aiguestortes Pallars Catalan Pyrenees Spain winter snow' },
   { slug: 'vallter-2000',         query: 'Vallter 2000 ski resort Setcases Ripolles Catalan Pyrenees Spain glacial cirque winter snow' },
   { slug: 'port-del-comte',       query: 'Port del Comte ski resort Solsona pre-Pyrenees Catalonia Spain panorama winter snow' },
+  { slug: 'grindelwald',          query: 'Grindelwald ski resort Eiger north face Jungfrau Switzerland panorama winter snow' },
+  { slug: 'wengen',               query: 'Wengen car-free ski village Jungfrau Lauberhorn Switzerland panorama winter snow' },
+  { slug: 'murren',               query: 'Murren ski village Schilthorn Piz Gloria cliff Switzerland panorama winter snow' },
+  { slug: 'engelberg',            query: 'Engelberg Titlis glacier ski resort freeride Switzerland panorama winter snow' },
+  { slug: 'laax',                 query: 'Laax Flims ski resort snowpark freestyle glacier Switzerland panorama winter snow' },
+  { slug: 'arosa-lenzerheide',    query: 'Arosa Lenzerheide ski resort Graubunden Switzerland panorama winter snow' },
+  { slug: 'nendaz',               query: 'Nendaz ski resort 4 Vallees Mont-Fort Valais Switzerland panorama winter snow' },
+  { slug: 'veysonnaz',            query: 'Veysonnaz ski resort Piste de l Ours 4 Vallees Valais Switzerland winter snow' },
+  { slug: 'villars-gryon',        query: 'Villars Switzerland ski resort mountains winter snow' },
+  { slug: 'les-diablerets',       query: 'Les Diablerets Glacier 3000 ski resort Vaud Switzerland panorama winter snow' },
+  { slug: 'adelboden',            query: 'Adelboden ski resort Chuenisbargli Bernese Oberland Switzerland chalet village winter snow' },
+  { slug: 'gstaad',               query: 'Gstaad ski resort Saanenland chalet village Switzerland panorama winter snow' },
+  { slug: 'champery',             query: 'Champery ski village Dents du Midi Portes du Soleil Switzerland panorama winter snow' },
+  { slug: 'grimentz-zinal',       query: 'Grimentz Zinal ski resort Val d Anniviers Weisshorn Valais Switzerland winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

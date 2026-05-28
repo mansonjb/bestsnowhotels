@@ -4874,5 +4874,649 @@
       "red": 14,
       "black": 5
     }
+  },
+  {
+    "slug": "grindelwald",
+    "name": "Grindelwald",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.624,
+    "lng": 8.034,
+    "altitudeBase": 1034,
+    "altitudeSummit": 2486,
+    "pistesKm": 160,
+    "lifts": 44,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "scenic",
+      "iconic",
+      "family"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Grindelwald is a big valley village under the Eiger; some hotels sit by the Grund and First gondolas, though most are a short walk or train hop from the lifts.",
+      "fr": "Grindelwald est un grand village de vallée sous l'Eiger ; certains hôtels jouxtent les télécabines du Grund et de First, mais la plupart sont à quelques pas ou à un arrêt de train des remontées.",
+      "es": "Grindelwald es un gran pueblo de valle bajo el Eiger; algunos hoteles están junto a las telecabinas de Grund y First, aunque la mayoría quedan a pocos pasos o a una parada de tren de los remontes.",
+      "pt": "Grindelwald é uma grande aldeia de vale sob o Eiger; alguns hotéis ficam junto aos telecabines de Grund e First, mas a maioria está a poucos passos ou a uma paragem de comboio dos teleféricos."
+    },
+    "intro": {
+      "en": "Beneath the north face of the Eiger, Grindelwald is the heart of the Jungfrau ski region, 160 km linking Wengen and the First sector. Few resorts can match its scenery or its place in mountaineering history.",
+      "fr": "Au pied de la face nord de l'Eiger, Grindelwald est le cœur du domaine de la Jungfrau, 160 km reliant Wengen et le secteur de First. Peu de stations rivalisent avec ses paysages ou sa place dans l'histoire de l'alpinisme.",
+      "es": "Al pie de la cara norte del Eiger, Grindelwald es el corazón de la región de esquí de la Jungfrau, 160 km que enlazan Wengen y el sector de First. Pocas estaciones igualan su paisaje o su lugar en la historia del alpinismo.",
+      "pt": "Ao pé da face norte do Eiger, Grindelwald é o coração da região de esqui da Jungfrau, 160 km que ligam Wengen e o setor de First. Poucas estâncias igualam a sua paisagem ou o seu lugar na história do alpinismo."
+    },
+    "longDescription": {
+      "en": "Grindelwald spreads along a green valley directly beneath the Eiger, Mönch and Jungfrau, with fast gondolas whisking skiers up to the Männlichen and the sunny First sector. Its share of the 160 km Jungfrau ski region is mostly gentle and intermediate, made unforgettable by the scenery, while neighbouring Wengen holds the Lauberhorn, the longest downhill on the World Cup circuit. Trains and lifts knit the whole region together, so a car is never needed.",
+      "fr": "Grindelwald s'étire dans une vallée verdoyante juste sous l'Eiger, le Mönch et la Jungfrau, de rapides télécabines hissant les skieurs vers le Männlichen et le secteur ensoleillé de First. Sa part des 160 km du domaine de la Jungfrau est surtout douce et intermédiaire, rendue inoubliable par le décor, tandis que la voisine Wengen abrite le Lauberhorn, la plus longue descente du circuit de Coupe du monde. Trains et remontées tissent tout le secteur ensemble : la voiture n'est jamais nécessaire.",
+      "es": "Grindelwald se extiende por un valle verde justo bajo el Eiger, el Mönch y la Jungfrau, con rápidas telecabinas que suben a los esquiadores al Männlichen y al soleado sector de First. Su parte de los 160 km de la región de la Jungfrau es sobre todo suave e intermedia, hecha inolvidable por el paisaje, mientras que la vecina Wengen alberga el Lauberhorn, el descenso más largo del circuito de Copa del Mundo. Trenes y remontes tejen toda la región: nunca hace falta coche.",
+      "pt": "Grindelwald estende-se por um vale verde mesmo sob o Eiger, o Mönch e a Jungfrau, com rápidos telecabines a subir os esquiadores ao Männlichen e ao solarengo setor de First. A sua parte dos 160 km da região da Jungfrau é sobretudo suave e intermédia, tornada inesquecível pela paisagem, enquanto a vizinha Wengen alberga o Lauberhorn, a mais longa descida do circuito da Taça do Mundo. Comboios e teleféricos tecem toda a região: nunca é preciso carro."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 40,
+      "red": 50,
+      "black": 12
+    }
+  },
+  {
+    "slug": "wengen",
+    "name": "Wengen",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.6055,
+    "lng": 7.922,
+    "altitudeBase": 1274,
+    "altitudeSummit": 2320,
+    "pistesKm": 160,
+    "lifts": 44,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "scenic",
+      "car-free",
+      "iconic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Wengen is a car-free village on a sunny shelf above Lauterbrunnen, reached by cog railway; most hotels are a short, level walk from the train and lifts.",
+      "fr": "Wengen est un village sans voitures sur un balcon ensoleillé au-dessus de Lauterbrunnen, accessible par train à crémaillère ; la plupart des hôtels sont à quelques pas à plat du train et des remontées.",
+      "es": "Wengen es un pueblo sin coches en un balcón soleado sobre Lauterbrunnen, al que se llega en tren cremallera; la mayoría de los hoteles están a pocos pasos llanos del tren y los remontes.",
+      "pt": "Wengen é uma aldeia sem carros num terraço solarengo acima de Lauterbrunnen, acessível por comboio de cremalheira; a maioria dos hotéis fica a poucos passos planos do comboio e dos teleféricos."
+    },
+    "intro": {
+      "en": "Car-free Wengen sits on a sunlit terrace facing the Eiger, Mönch and Jungfrau, home of the legendary Lauberhorn downhill. It is timeless, genteel and pure Belle Époque Switzerland.",
+      "fr": "Sans voitures, Wengen occupe une terrasse ensoleillée face à l'Eiger, au Mönch et à la Jungfrau, patrie de la légendaire descente du Lauberhorn. Intemporelle et raffinée, c'est la Suisse Belle Époque à l'état pur.",
+      "es": "Sin coches, Wengen ocupa una terraza soleada frente al Eiger, el Mönch y la Jungfrau, cuna del legendario descenso del Lauberhorn. Atemporal y distinguida, es la Suiza Belle Époque en estado puro.",
+      "pt": "Sem carros, Wengen ocupa um terraço solarengo virado para o Eiger, o Mönch e a Jungfrau, terra da lendária descida do Lauberhorn. Intemporal e requintada, é a Suíça Belle Époque em estado puro."
+    },
+    "longDescription": {
+      "en": "Reached only by the cog railway up from Lauterbrunnen, Wengen has kept its car-free, Belle Époque calm while plugging into the 160 km Jungfrau ski region shared with Grindelwald. The skiing is mostly gentle and intermediate across to Kleine Scheidegg and Männlichen, all of it under the colossal north face of the Eiger. Every January the village hosts the Lauberhorn, the longest and one of the most storied downhills in ski racing.",
+      "fr": "Accessible seulement par le train à crémaillère depuis Lauterbrunnen, Wengen a gardé son calme Belle Époque sans voitures tout en se raccordant aux 160 km du domaine de la Jungfrau partagé avec Grindelwald. Le ski est surtout doux et intermédiaire jusqu'à la Kleine Scheidegg et au Männlichen, le tout sous la colossale face nord de l'Eiger. Chaque janvier, le village accueille le Lauberhorn, la plus longue et l'une des plus mythiques descentes du ski de compétition.",
+      "es": "Accesible solo por el tren cremallera desde Lauterbrunnen, Wengen ha conservado su calma Belle Époque sin coches mientras se conecta a los 160 km de la región de la Jungfrau compartida con Grindelwald. El esquí es sobre todo suave e intermedio hacia Kleine Scheidegg y Männlichen, todo bajo la colosal cara norte del Eiger. Cada enero el pueblo acoge el Lauberhorn, el descenso más largo y uno de los más legendarios del esquí de competición.",
+      "pt": "Acessível apenas pelo comboio de cremalheira a partir de Lauterbrunnen, Wengen manteve a sua calma Belle Époque sem carros enquanto se liga aos 160 km da região da Jungfrau partilhada com Grindelwald. O esqui é sobretudo suave e intermédio até Kleine Scheidegg e Männlichen, tudo sob a colossal face norte do Eiger. Todos os janeiros a aldeia acolhe o Lauberhorn, a mais longa e uma das mais lendárias descidas do esqui de competição."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 40,
+      "red": 50,
+      "black": 12
+    }
+  },
+  {
+    "slug": "murren",
+    "name": "Mürren",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.559,
+    "lng": 7.892,
+    "altitudeBase": 1638,
+    "altitudeSummit": 2970,
+    "pistesKm": 54,
+    "lifts": 16,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "scenic",
+      "car-free",
+      "expert"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Mürren is a tiny car-free village high on a cliff edge; its handful of hotels are all a short walk from the lifts and the Schilthorn cable car.",
+      "fr": "Mürren est un minuscule village sans voitures, haut perché au bord d'une falaise ; ses quelques hôtels sont tous à quelques pas des remontées et du téléphérique du Schilthorn.",
+      "es": "Mürren es un diminuto pueblo sin coches, en lo alto de un borde de acantilado; sus pocos hoteles están todos a pocos pasos de los remontes y del teleférico del Schilthorn.",
+      "pt": "Mürren é uma minúscula aldeia sem carros, no alto de uma falésia; os seus poucos hotéis estão todos a poucos passos dos teleféricos e do teleférico do Schilthorn."
+    },
+    "intro": {
+      "en": "Perched on a cliff at 1638 m with the Schilthorn and its revolving Piz Gloria restaurant above, Mürren is one of the most spectacular small resorts in the Alps. Car-free and snow-sure, it is the home of the Inferno, the world's oldest amateur downhill.",
+      "fr": "Perchée sur une falaise à 1638 m, dominée par le Schilthorn et son restaurant tournant Piz Gloria, Mürren est l'une des plus spectaculaires petites stations des Alpes. Sans voitures et bien enneigée, elle est la patrie de l'Inferno, la plus ancienne descente amateur du monde.",
+      "es": "Encaramada en un acantilado a 1638 m, con el Schilthorn y su restaurante giratorio Piz Gloria arriba, Mürren es una de las pequeñas estaciones más espectaculares de los Alpes. Sin coches y de nieve segura, es la cuna del Inferno, el descenso amateur más antiguo del mundo.",
+      "pt": "Empoleirada numa falésia a 1638 m, com o Schilthorn e o seu restaurante giratório Piz Gloria por cima, Mürren é uma das pequenas estâncias mais espetaculares dos Alpes. Sem carros e de neve segura, é a casa do Inferno, a mais antiga descida amadora do mundo."
+    },
+    "longDescription": {
+      "en": "Mürren clings to a cliff edge opposite the Eiger, Mönch and Jungfrau, a car-free village reached only by cable car and mountain railway. Its 54 km of piste are compact but high and snow-sure, with the Schilthorn at 2970 m serving steep, exhilarating descents back to the village. British skiers more or less invented downhill racing here in the 1920s, and the legendary Inferno race still runs every winter.",
+      "fr": "Mürren s'accroche au bord d'une falaise face à l'Eiger, au Mönch et à la Jungfrau, village sans voitures accessible seulement par téléphérique et train de montagne. Ses 54 km de pistes sont compacts mais hauts et bien enneigés, le Schilthorn à 2970 m offrant des descentes raides et grisantes jusqu'au village. Les Britanniques y ont plus ou moins inventé la descente dans les années 1920, et la légendaire course de l'Inferno s'y dispute encore chaque hiver.",
+      "es": "Mürren se aferra al borde de un acantilado frente al Eiger, el Mönch y la Jungfrau, un pueblo sin coches al que solo se llega en teleférico y tren de montaña. Sus 54 km de pistas son compactos pero altos y de nieve segura, con el Schilthorn a 2970 m que ofrece bajadas empinadas y emocionantes hasta el pueblo. Los británicos más o menos inventaron aquí el descenso en los años 1920, y la legendaria carrera del Inferno se sigue corriendo cada invierno.",
+      "pt": "Mürren agarra-se à beira de uma falésia em frente ao Eiger, ao Mönch e à Jungfrau, uma aldeia sem carros a que só se chega de teleférico e comboio de montanha. Os seus 54 km de pistas são compactos mas altos e de neve segura, com o Schilthorn a 2970 m a oferecer descidas íngremes e emocionantes até à aldeia. Os britânicos mais ou menos inventaram aqui a descida nos anos 1920, e a lendária corrida do Inferno continua a disputar-se todos os invernos."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 14,
+      "red": 22,
+      "black": 10
+    }
+  },
+  {
+    "slug": "engelberg",
+    "name": "Engelberg",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.821,
+    "lng": 8.401,
+    "altitudeBase": 1000,
+    "altitudeSummit": 3028,
+    "pistesKm": 82,
+    "lifts": 26,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 28",
+    "snowScore": 86,
+    "vibes": [
+      "freeride",
+      "glacier",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Engelberg is a real working town, so most hotels are in the centre, a short walk or bus from the Titlis and Brunni lift stations rather than slope-side.",
+      "fr": "Engelberg est une vraie petite ville : la plupart des hôtels sont au centre, à quelques pas ou à un bus des départs du Titlis et du Brunni, plutôt qu'au pied des pistes.",
+      "es": "Engelberg es una ciudad de verdad, así que la mayoría de los hoteles están en el centro, a pocos pasos o en autobús de las estaciones del Titlis y el Brunni, más que a pie de pista.",
+      "pt": "Engelberg é uma cidade a sério, por isso a maioria dos hotéis fica no centro, a poucos passos ou de autocarro das estações do Titlis e do Brunni, mais do que no sopé das pistas."
+    },
+    "intro": {
+      "en": "A monastery town under the glaciated Titlis, Engelberg is one of Europe's great freeride resorts, with a long season and huge vertical. The famous Laub and Galtiberg descents draw powder hunters from around the world.",
+      "fr": "Ville monastique sous le Titlis glaciaire, Engelberg est l'une des grandes stations de freeride d'Europe, avec une longue saison et un dénivelé énorme. Les célèbres descentes du Laub et du Galtiberg attirent les chasseurs de poudreuse du monde entier.",
+      "es": "Ciudad monástica bajo el Titlis glaciar, Engelberg es una de las grandes estaciones de freeride de Europa, con una larga temporada y un enorme desnivel. Los famosos descensos del Laub y del Galtiberg atraen a cazadores de polvo de todo el mundo.",
+      "pt": "Cidade monástica sob o Titlis glaciar, Engelberg é uma das grandes estâncias de freeride da Europa, com uma longa época e um enorme desnível. As famosas descidas do Laub e do Galtiberg atraem caçadores de neve pó de todo o mundo."
+    },
+    "longDescription": {
+      "en": "Engelberg climbs from a 1000 m monastery town to the glacier on the 3028 m Titlis, giving over 2000 m of vertical and a season that runs from autumn into May. It is, above all, a freeride legend: the open Laub face and the long Galtiberg run to the valley are among the finest lift-served off-piste descents anywhere. The pisted skiing is more limited, so this is a mountain for confident skiers chasing powder and big days out.",
+      "fr": "Engelberg grimpe d'une ville monastique à 1000 m jusqu'au glacier du Titlis à 3028 m, offrant plus de 2000 m de dénivelé et une saison qui court de l'automne à mai. C'est avant tout une légende du freeride : la face ouverte du Laub et la longue descente du Galtiberg jusqu'à la vallée comptent parmi les plus beaux hors-piste accessibles en remontée. Le ski sur pistes est plus limité : c'est une montagne pour skieurs sûrs en quête de poudreuse et de grandes journées.",
+      "es": "Engelberg sube de una ciudad monástica a 1000 m hasta el glaciar del Titlis a 3028 m, con más de 2000 m de desnivel y una temporada que va del otoño a mayo. Es, ante todo, una leyenda del freeride: la cara abierta del Laub y el largo descenso del Galtiberg hasta el valle están entre los mejores fueras de pista con acceso en remonte. El esquí en pista es más limitado: es una montaña para esquiadores seguros en busca de polvo y grandes jornadas.",
+      "pt": "Engelberg sobe de uma cidade monástica a 1000 m até ao glaciar do Titlis a 3028 m, com mais de 2000 m de desnível e uma época que vai do outono a maio. É, acima de tudo, uma lenda do freeride: a face aberta do Laub e a longa descida do Galtiberg até ao vale estão entre os melhores fora-de-pista com acesso por teleférico. O esqui em pista é mais limitado: é uma montanha para esquiadores seguros em busca de neve pó e grandes dias."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 20,
+      "red": 30,
+      "black": 14
+    }
+  },
+  {
+    "slug": "laax",
+    "name": "Laax",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.805,
+    "lng": 9.258,
+    "altitudeBase": 1100,
+    "altitudeSummit": 3018,
+    "pistesKm": 224,
+    "lifts": 28,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 21",
+    "snowScore": 85,
+    "vibes": [
+      "freestyle",
+      "big-domain",
+      "glacier"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Laax skis from the villages of Laax, Flims and Falera; modern slope-side hotels at Laax Murschetg and the Rocksresort sit right at the gondola for true ski-in/ski-out.",
+      "fr": "Laax se skie depuis les villages de Laax, Flims et Falera ; des hôtels modernes au pied des pistes à Laax Murschetg et au Rocksresort sont au départ de la télécabine pour un vrai ski-in/ski-out.",
+      "es": "Laax se esquía desde los pueblos de Laax, Flims y Falera; modernos hoteles a pie de pista en Laax Murschetg y el Rocksresort están junto a la telecabina para un verdadero ski-in/ski-out.",
+      "pt": "Laax esquia-se a partir das aldeias de Laax, Flims e Falera; modernos hotéis no sopé das pistas em Laax Murschetg e no Rocksresort ficam junto ao telecabine para um verdadeiro ski-in/ski-out."
+    },
+    "intro": {
+      "en": "The freestyle capital of Europe, Laax pairs the biggest snowparks on the continent with 224 km of piste and a glacier at 3018 m. Sleek, design-led and snow-sure, it is where Swiss snowboarding grew up.",
+      "fr": "Capitale européenne du freestyle, Laax associe les plus grands snowparks du continent à 224 km de pistes et un glacier à 3018 m. Élégante, tournée vers le design et bien enneigée, c'est là qu'a grandi le snowboard suisse.",
+      "es": "Capital europea del freestyle, Laax combina los mayores snowparks del continente con 224 km de pistas y un glaciar a 3018 m. Elegante, volcada en el diseño y de nieve segura, es donde creció el snowboard suizo.",
+      "pt": "Capital europeia do freestyle, Laax combina os maiores snowparks do continente com 224 km de pistas e um glaciar a 3018 m. Elegante, virada para o design e de neve segura, é onde cresceu o snowboard suíço."
+    },
+    "longDescription": {
+      "en": "Laax, with Flims and Falera, spreads 224 km of piste across a sunny, snow-sure massif topped by the Vorab glacier at 3018 m. It is world-famous for freestyle, with several of the largest parks in Europe and a 200 m superpipe, but the broad cruising runs and long descents suit every level. The design-led base at Laax Murschetg, with its rocksresort cubes and big freeride scene, gives it a distinctly modern, young feel.",
+      "fr": "Laax, avec Flims et Falera, déploie 224 km de pistes sur un massif ensoleillé et bien enneigé, couronné par le glacier du Vorab à 3018 m. Mondialement réputée pour le freestyle, avec plusieurs des plus grands parks d'Europe et un superpipe de 200 m, elle convient pourtant à tous les niveaux grâce à ses larges pistes roulantes et ses longues descentes. Le pied de station design de Laax Murschetg, avec ses cubes du rocksresort et sa grande scène freeride, lui donne une allure moderne et jeune.",
+      "es": "Laax, con Flims y Falera, despliega 224 km de pistas por un macizo soleado y de nieve segura, coronado por el glaciar del Vorab a 3018 m. Mundialmente famosa por el freestyle, con varios de los mayores parques de Europa y un superpipe de 200 m, va sin embargo bien a todos los niveles por sus amplias pistas rodadoras y largos descensos. La base de diseño de Laax Murschetg, con sus cubos del rocksresort y su gran escena freeride, le da un aire moderno y joven.",
+      "pt": "Laax, com Flims e Falera, desdobra 224 km de pistas por um maciço solarengo e de neve segura, coroado pelo glaciar do Vorab a 3018 m. Mundialmente famosa pelo freestyle, com vários dos maiores parques da Europa e um superpipe de 200 m, assenta porém bem a todos os níveis pelas amplas pistas roladoras e longas descidas. A base de design de Laax Murschetg, com os seus cubos do rocksresort e a grande cena freeride, dá-lhe um ar moderno e jovem."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 44,
+      "red": 50,
+      "black": 20
+    }
+  },
+  {
+    "slug": "arosa-lenzerheide",
+    "name": "Arosa-Lenzerheide",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.78,
+    "lng": 9.68,
+    "altitudeBase": 1230,
+    "altitudeSummit": 2865,
+    "pistesKm": 225,
+    "lifts": 43,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 84,
+    "vibes": [
+      "scenic",
+      "family",
+      "panoramic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Both Arosa and Lenzerheide have hotels right by the slopes; the linking cable car over the Urden pass lets you stay either side and ski the whole domain.",
+      "fr": "Arosa et Lenzerheide ont toutes deux des hôtels au pied des pistes ; le téléphérique de liaison par-dessus le col d'Urden permet de loger d'un côté ou de l'autre et de skier tout le domaine.",
+      "es": "Tanto Arosa como Lenzerheide tienen hoteles junto a las pistas; el teleférico de enlace por el paso de Urden permite alojarse a un lado u otro y esquiar todo el dominio.",
+      "pt": "Tanto Arosa como Lenzerheide têm hotéis junto às pistas; o teleférico de ligação sobre o colo de Urden permite ficar de um lado ou do outro e esquiar todo o domínio."
+    },
+    "intro": {
+      "en": "Two classic Graubünden resorts joined by a high cable car, Arosa-Lenzerheide offers 225 km of sunny, scenic piste. Wide, well-groomed and family-friendly, with a wildlife park and big panoramas.",
+      "fr": "Deux stations classiques des Grisons reliées par un téléphérique d'altitude, Arosa-Lenzerheide offre 225 km de pistes ensoleillées et panoramiques. Larges, bien damées et familiales, avec un parc animalier et de grands panoramas.",
+      "es": "Dos estaciones clásicas de los Grisones unidas por un teleférico de altura, Arosa-Lenzerheide ofrece 225 km de pistas soleadas y panorámicas. Anchas, bien pisadas y familiares, con un parque de fauna y grandes panoramas.",
+      "pt": "Duas estâncias clássicas dos Grisões unidas por um teleférico de altitude, Arosa-Lenzerheide oferece 225 km de pistas solarengas e panorâmicas. Largas, bem pisadas e familiares, com um parque de fauna e grandes panoramas."
+    },
+    "longDescription": {
+      "en": "Since a cable car over the Urden saddle joined them, Arosa and Lenzerheide have skied as one 225 km domain on the sunny, gentle side of Graubünden. The terrain is wide, beautifully groomed and forgiving, ideal for families and intermediates, rising to the 2865 m Weisshorn with long views across the eastern Alps. Arosa keeps its smart, end-of-the-valley calm while Lenzerheide is broader and busier, two faces of a relaxed, scenic domain.",
+      "fr": "Depuis qu'un téléphérique par-dessus le col d'Urden les a réunies, Arosa et Lenzerheide skient comme un seul domaine de 225 km, sur le versant ensoleillé et doux des Grisons. Le terrain est large, magnifiquement damé et accueillant, idéal pour les familles et les intermédiaires, montant au Weisshorn à 2865 m avec de longues vues sur les Alpes orientales. Arosa garde son calme chic de fond de vallée tandis que Lenzerheide est plus vaste et animée, deux visages d'un domaine détendu et panoramique.",
+      "es": "Desde que un teleférico por el collado de Urden las unió, Arosa y Lenzerheide esquían como un solo dominio de 225 km, en la vertiente soleada y suave de los Grisones. El terreno es amplio, magníficamente pisado y amable, ideal para familias e intermedios, subiendo al Weisshorn a 2865 m con largas vistas sobre los Alpes orientales. Arosa conserva su calma elegante de fondo de valle mientras Lenzerheide es más amplia y animada, dos caras de un dominio relajado y panorámico.",
+      "pt": "Desde que um teleférico sobre o colo de Urden as uniu, Arosa e Lenzerheide esquiam como um só domínio de 225 km, na vertente solarenga e suave dos Grisões. O terreno é amplo, magnificamente pisado e acolhedor, ideal para famílias e intermédios, subindo ao Weisshorn a 2865 m com longas vistas sobre os Alpes orientais. Arosa mantém a sua calma elegante de fundo de vale enquanto Lenzerheide é mais ampla e animada, duas faces de um domínio descontraído e panorâmico."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 48,
+      "black": 16
+    }
+  },
+  {
+    "slug": "nendaz",
+    "name": "Nendaz",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.183,
+    "lng": 7.306,
+    "altitudeBase": 1365,
+    "altitudeSummit": 3330,
+    "pistesKm": 410,
+    "lifts": 92,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 84,
+    "vibes": [
+      "big-domain",
+      "scenic",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Sunny, balcony Nendaz has slope-side chalets and residences at Haute-Nendaz by the main gondola; it is the most affordable gateway into the vast 4 Vallées.",
+      "fr": "Ensoleillée et en balcon, Nendaz compte des chalets et résidences au pied des pistes à Haute-Nendaz, près de la télécabine principale ; c'est la porte d'entrée la plus abordable du vaste domaine des 4 Vallées.",
+      "es": "Soleada y en balcón, Nendaz tiene chalets y residencias a pie de pista en Haute-Nendaz, junto a la telecabina principal; es la entrada más asequible al vasto dominio de los 4 Vallées.",
+      "pt": "Solarenga e em varanda, Nendaz tem chalés e residências no sopé das pistas em Haute-Nendaz, junto ao telecabine principal; é a entrada mais acessível para o vasto domínio dos 4 Vallées."
+    },
+    "intro": {
+      "en": "A sunny balcony village above the Rhône valley, Nendaz is the largest and best-value gateway to Switzerland's biggest ski domain, the 410 km 4 Vallées. The lifts climb to Mont-Fort at 3330 m, shared with Verbier.",
+      "fr": "Village-balcon ensoleillé au-dessus de la vallée du Rhône, Nendaz est la plus grande porte d'entrée, et la plus abordable, vers le plus vaste domaine skiable de Suisse, les 410 km des 4 Vallées. Les remontées montent au Mont-Fort à 3330 m, partagé avec Verbier.",
+      "es": "Pueblo-balcón soleado sobre el valle del Ródano, Nendaz es la mayor y más económica entrada al mayor dominio esquiable de Suiza, los 410 km de los 4 Vallées. Los remontes suben al Mont-Fort a 3330 m, compartido con Verbier.",
+      "pt": "Aldeia-varanda solarenga acima do vale do Ródano, Nendaz é a maior e mais económica entrada para o maior domínio esquiável da Suíça, os 410 km dos 4 Vallées. Os teleféricos sobem ao Mont-Fort a 3330 m, partilhado com Verbier."
+    },
+    "longDescription": {
+      "en": "Nendaz sits on a sunny shelf high above the Rhône, the biggest of the villages that make up the 4 Vallées, Switzerland's largest linked ski area at 410 km. From Haute-Nendaz the lifts climb toward the glacier on Mont-Fort at 3330 m, the high point shared with neighbouring Verbier, with vast intermediate cruising and serious off-piste in between. It is far better value than Verbier across the valley, which makes it a smart base for skiing the whole domain.",
+      "fr": "Nendaz occupe un replat ensoleillé bien au-dessus du Rhône, le plus grand des villages qui composent les 4 Vallées, plus vaste domaine relié de Suisse avec 410 km. Depuis Haute-Nendaz, les remontées grimpent vers le glacier du Mont-Fort à 3330 m, point culminant partagé avec la voisine Verbier, entre immenses pistes intermédiaires et hors-piste sérieux. Bien plus abordable que Verbier, de l'autre côté de la vallée, c'est une base maligne pour skier tout le domaine.",
+      "es": "Nendaz ocupa una repisa soleada muy por encima del Ródano, el mayor de los pueblos que forman los 4 Vallées, el mayor dominio enlazado de Suiza con 410 km. Desde Haute-Nendaz los remontes suben hacia el glaciar del Mont-Fort a 3330 m, el punto alto compartido con la vecina Verbier, entre inmensas pistas intermedias y fuera de pista serio. Mucho más económica que Verbier, al otro lado del valle, es una base inteligente para esquiar todo el dominio.",
+      "pt": "Nendaz ocupa um patamar solarengo bem acima do Ródano, a maior das aldeias que compõem os 4 Vallées, o maior domínio ligado da Suíça com 410 km. A partir de Haute-Nendaz os teleféricos sobem para o glaciar do Mont-Fort a 3330 m, o ponto alto partilhado com a vizinha Verbier, entre imensas pistas intermédias e fora-de-pista a sério. Bem mais acessível do que Verbier, do outro lado do vale, é uma base inteligente para esquiar todo o domínio."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 45,
+      "red": 70,
+      "black": 28
+    }
+  },
+  {
+    "slug": "veysonnaz",
+    "name": "Veysonnaz",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.19,
+    "lng": 7.34,
+    "altitudeBase": 1300,
+    "altitudeSummit": 3330,
+    "pistesKm": 410,
+    "lifts": 92,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 83,
+    "vibes": [
+      "big-domain",
+      "racing",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "A small sunny village on the 4 Vallées circuit, Veysonnaz has chalets and apartments by the Piste de l'Ours, so you can ski straight onto the famous black run.",
+      "fr": "Petit village ensoleillé sur le circuit des 4 Vallées, Veysonnaz compte chalets et appartements au bord de la Piste de l'Ours : on chausse directement sur la célèbre noire.",
+      "es": "Pequeño pueblo soleado en el circuito de los 4 Vallées, Veysonnaz tiene chalets y apartamentos junto a la Piste de l'Ours: te calzas directamente en la famosa negra.",
+      "pt": "Pequena aldeia solarenga no circuito dos 4 Vallées, Veysonnaz tem chalés e apartamentos junto à Piste de l'Ours: calça-se diretamente na famosa negra."
+    },
+    "intro": {
+      "en": "A sunny terrace village on the 4 Vallées circuit, Veysonnaz is famous for the Piste de l'Ours World Cup descent. Small and quiet, it opens onto the same 410 km domain as Verbier and Nendaz.",
+      "fr": "Village-terrasse ensoleillé sur le circuit des 4 Vallées, Veysonnaz est célèbre pour la descente de Coupe du monde de la Piste de l'Ours. Petite et tranquille, elle ouvre sur le même domaine de 410 km que Verbier et Nendaz.",
+      "es": "Pueblo-terraza soleado en el circuito de los 4 Vallées, Veysonnaz es famoso por el descenso de Copa del Mundo de la Piste de l'Ours. Pequeño y tranquilo, da al mismo dominio de 410 km que Verbier y Nendaz.",
+      "pt": "Aldeia-terraço solarenga no circuito dos 4 Vallées, Veysonnaz é famosa pela descida da Taça do Mundo da Piste de l'Ours. Pequena e tranquila, abre para o mesmo domínio de 410 km que Verbier e Nendaz."
+    },
+    "longDescription": {
+      "en": "Veysonnaz is a small, sunny village clinging to a terrace on the eastern side of the 4 Vallées, the 410 km domain it shares with Verbier and Nendaz. Below it drops the Piste de l'Ours, a steep, perfectly pitched black that regularly hosts World Cup races. Quiet and traditional, it is a calm, good-value base from which to ski one of the great Swiss circuits.",
+      "fr": "Veysonnaz est un petit village ensoleillé accroché à une terrasse sur le flanc est des 4 Vallées, le domaine de 410 km qu'elle partage avec Verbier et Nendaz. En dessous plonge la Piste de l'Ours, une noire raide et parfaitement inclinée qui accueille régulièrement des courses de Coupe du monde. Calme et traditionnelle, c'est une base paisible et d'un bon rapport qualité-prix pour skier l'un des grands circuits suisses.",
+      "es": "Veysonnaz es un pequeño pueblo soleado aferrado a una terraza en el lado este de los 4 Vallées, el dominio de 410 km que comparte con Verbier y Nendaz. Por debajo cae la Piste de l'Ours, una negra empinada y de pendiente perfecta que acoge con regularidad carreras de Copa del Mundo. Tranquila y tradicional, es una base apacible y económica para esquiar uno de los grandes circuitos suizos.",
+      "pt": "Veysonnaz é uma pequena aldeia solarenga agarrada a um terraço no lado este dos 4 Vallées, o domínio de 410 km que partilha com Verbier e Nendaz. Por baixo cai a Piste de l'Ours, uma negra íngreme e de inclinação perfeita que acolhe com regularidade corridas da Taça do Mundo. Tranquila e tradicional, é uma base serena e económica para esquiar um dos grandes circuitos suíços."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 45,
+      "red": 70,
+      "black": 28
+    }
+  },
+  {
+    "slug": "villars-gryon",
+    "name": "Villars-Gryon",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.298,
+    "lng": 7.056,
+    "altitudeBase": 1300,
+    "altitudeSummit": 2120,
+    "pistesKm": 125,
+    "lifts": 44,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "scenic",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Villars is a sunny resort town with a cog railway to the slopes; some chalets at Villars and Gryon sit on the snow-front, most lodging is a short walk or train away.",
+      "fr": "Villars est une ville-station ensoleillée avec un train à crémaillère vers les pistes ; quelques chalets à Villars et Gryon sont sur le front de neige, la plupart des hébergements à quelques pas ou un arrêt de train.",
+      "es": "Villars es una ciudad-estación soleada con un tren cremallera a las pistas; algunos chalets en Villars y Gryon están en el frente de nieve, la mayoría del alojamiento a pocos pasos o una parada de tren.",
+      "pt": "Villars é uma vila-estância solarenga com um comboio de cremalheira para as pistas; alguns chalés em Villars e Gryon ficam na frente de neve, a maioria do alojamento a poucos passos ou a uma paragem de comboio."
+    },
+    "intro": {
+      "en": "A sunny, family resort in the Vaud Alps with grand views over the Rhône valley, Villars-Gryon links to Les Diablerets and the Glacier 3000. Relaxed and scenic, it is a long-time favourite of Swiss boarding schools.",
+      "fr": "Station familiale et ensoleillée des Alpes vaudoises, avec de grandes vues sur la vallée du Rhône, Villars-Gryon se relie aux Diablerets et au Glacier 3000. Décontractée et photogénique, c'est un favori de longue date des internats suisses.",
+      "es": "Estación familiar y soleada de los Alpes de Vaud, con grandes vistas sobre el valle del Ródano, Villars-Gryon se enlaza con Les Diablerets y el Glacier 3000. Relajada y pintoresca, es un viejo favorito de los internados suizos.",
+      "pt": "Estância familiar e solarenga dos Alpes de Vaud, com grandes vistas sobre o vale do Ródano, Villars-Gryon liga-se a Les Diablerets e ao Glacier 3000. Descontraída e pitoresca, é um velho favorito dos colégios internos suíços."
+    },
+    "longDescription": {
+      "en": "Villars-Gryon sits on a sunny shelf in the Vaud Alps, an easy, scenic resort that looks across the Rhône valley to the Dents du Midi and links over the hill to Les Diablerets and the Glacier 3000. Its 125 km of piste are mostly gentle and tree-lined, ideal for families and improvers, with the glacier guaranteeing snow at the top. With a cog railway from the village and a famously international, school-town atmosphere, it is one of the most relaxed bases in the western Alps.",
+      "fr": "Villars-Gryon occupe un replat ensoleillé des Alpes vaudoises, station facile et photogénique qui regarde, par-dessus la vallée du Rhône, les Dents du Midi, et se relie par la montagne aux Diablerets et au Glacier 3000. Ses 125 km de pistes sont surtout doux et boisés, idéaux pour les familles et les skieurs en progrès, le glacier garantissant la neige en haut. Avec son train à crémaillère depuis le village et son atmosphère internationale de ville d'internats, c'est l'une des bases les plus détendues des Alpes occidentales.",
+      "es": "Villars-Gryon ocupa una repisa soleada de los Alpes de Vaud, una estación fácil y pintoresca que mira, por encima del valle del Ródano, a los Dents du Midi, y se enlaza por la montaña con Les Diablerets y el Glacier 3000. Sus 125 km de pistas son sobre todo suaves y arbolados, ideales para familias y para quienes mejoran, con el glaciar que garantiza nieve arriba. Con su tren cremallera desde el pueblo y su famosa atmósfera internacional de ciudad de internados, es una de las bases más relajadas de los Alpes occidentales.",
+      "pt": "Villars-Gryon ocupa um patamar solarengo dos Alpes de Vaud, uma estância fácil e pitoresca que olha, por cima do vale do Ródano, para os Dents du Midi, e liga-se pela montanha a Les Diablerets e ao Glacier 3000. Os seus 125 km de pistas são sobretudo suaves e arborizados, ideais para famílias e para quem progride, com o glaciar a garantir neve no topo. Com o seu comboio de cremalheira desde a aldeia e a famosa atmosfera internacional de cidade de colégios internos, é uma das bases mais descontraídas dos Alpes ocidentais."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 30,
+      "black": 10
+    }
+  },
+  {
+    "slug": "les-diablerets",
+    "name": "Les Diablerets",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.352,
+    "lng": 7.153,
+    "altitudeBase": 1200,
+    "altitudeSummit": 2971,
+    "pistesKm": 125,
+    "lifts": 44,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 82,
+    "vibes": [
+      "glacier",
+      "scenic",
+      "family"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Les Diablerets is a traditional village in a dramatic bowl; lodging is in and around the village, a short ride from the Glacier 3000 and Isenau lifts.",
+      "fr": "Les Diablerets est un village traditionnel dans un cirque spectaculaire ; on loge dans le village et aux alentours, à quelques minutes des remontées du Glacier 3000 et d'Isenau.",
+      "es": "Les Diablerets es un pueblo tradicional en un circo espectacular; el alojamiento está en el pueblo y alrededores, a pocos minutos de los remontes del Glacier 3000 e Isenau.",
+      "pt": "Les Diablerets é uma aldeia tradicional num circo espetacular; o alojamento fica na aldeia e arredores, a poucos minutos dos teleféricos do Glacier 3000 e de Isenau."
+    },
+    "intro": {
+      "en": "Wrapped in a dramatic rock amphitheatre, Les Diablerets is a traditional Vaud village with skiing up to the Glacier 3000 at 2971 m. It links with Villars-Gryon for 125 km of varied, scenic terrain.",
+      "fr": "Blottie dans un spectaculaire amphithéâtre de roche, Les Diablerets est un village vaudois traditionnel avec un ski jusqu'au Glacier 3000 à 2971 m. Il se relie à Villars-Gryon pour 125 km de terrain varié et photogénique.",
+      "es": "Envuelta en un espectacular anfiteatro de roca, Les Diablerets es un pueblo tradicional de Vaud con esquí hasta el Glacier 3000 a 2971 m. Se enlaza con Villars-Gryon para 125 km de terreno variado y pintoresco.",
+      "pt": "Envolta num espetacular anfiteatro de rocha, Les Diablerets é uma aldeia tradicional de Vaud com esqui até ao Glacier 3000 a 2971 m. Liga-se a Villars-Gryon para 125 km de terreno variado e pitoresco."
+    },
+    "longDescription": {
+      "en": "Les Diablerets sits in a dramatic rock cirque at the head of the Ormonts valley, a traditional village with its skiing split between the local Isenau slopes and the snow-sure Glacier 3000 up at 2971 m. Linked with Villars-Gryon, it shares a 125 km domain of mostly gentle, scenic runs, with the glacier and the Quille du Diable viewpoint as headline attractions. Quiet and characterful, it is a relaxed alternative to the bigger Valais resorts.",
+      "fr": "Les Diablerets se niche dans un cirque rocheux spectaculaire en tête de la vallée des Ormonts, village traditionnel dont le ski se partage entre les pentes locales d'Isenau et le Glacier 3000 bien enneigé, à 2971 m. Reliée à Villars-Gryon, elle partage un domaine de 125 km de pistes surtout douces et photogéniques, avec le glacier et le belvédère de la Quille du Diable en têtes d'affiche. Calme et pleine de caractère, c'est une alternative détendue aux plus grandes stations valaisannes.",
+      "es": "Les Diablerets se acomoda en un espectacular circo rocoso en la cabecera del valle de los Ormonts, un pueblo tradicional con su esquí repartido entre las laderas locales de Isenau y el Glacier 3000 de nieve segura, a 2971 m. Enlazada con Villars-Gryon, comparte un dominio de 125 km de pistas sobre todo suaves y pintorescas, con el glaciar y el mirador de la Quille du Diable como grandes atractivos. Tranquila y con carácter, es una alternativa relajada a las mayores estaciones del Valais.",
+      "pt": "Les Diablerets aninha-se num espetacular circo rochoso na cabeceira do vale dos Ormonts, uma aldeia tradicional com o esqui repartido entre as encostas locais de Isenau e o Glacier 3000 de neve segura, a 2971 m. Ligada a Villars-Gryon, partilha um domínio de 125 km de pistas sobretudo suaves e pitorescas, com o glaciar e o miradouro da Quille du Diable como grandes atrações. Tranquila e cheia de carácter, é uma alternativa descontraída às maiores estâncias do Valais."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 30,
+      "black": 10
+    }
+  },
+  {
+    "slug": "adelboden",
+    "name": "Adelboden",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.492,
+    "lng": 7.561,
+    "altitudeBase": 1350,
+    "altitudeSummit": 2362,
+    "pistesKm": 210,
+    "lifts": 56,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "scenic",
+      "family",
+      "racing"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Adelboden is a classic chalet village strung along a sunny ridge; some hotels sit by the lifts at Oey and Boden, most are a short walk or ski-bus from the slopes.",
+      "fr": "Adelboden est un village de chalets classique étiré sur une crête ensoleillée ; certains hôtels jouxtent les remontées d'Oey et de Boden, la plupart à quelques pas ou en navette des pistes.",
+      "es": "Adelboden es un clásico pueblo de chalets estirado sobre una cresta soleada; algunos hoteles están junto a los remontes de Oey y Boden, la mayoría a pocos pasos o en lanzadera de las pistas.",
+      "pt": "Adelboden é uma clássica aldeia de chalés estendida sobre uma crista solarenga; alguns hotéis ficam junto aos teleféricos de Oey e Boden, a maioria a poucos passos ou de transfer das pistas."
+    },
+    "intro": {
+      "en": "A picture-perfect chalet village in the Bernese Oberland, Adelboden links with Lenk for 210 km of sunny piste. It is famous worldwide for its January World Cup giant slalom on the Chuenisbärgli.",
+      "fr": "Village de chalets de carte postale de l'Oberland bernois, Adelboden se relie au Lenk pour 210 km de pistes ensoleillées. Elle est mondialement connue pour son slalom géant de Coupe du monde de janvier sur le Chuenisbärgli.",
+      "es": "Pueblo de chalets de postal del Oberland bernés, Adelboden se enlaza con Lenk para 210 km de pistas soleadas. Es mundialmente conocida por su eslalon gigante de Copa del Mundo de enero en el Chuenisbärgli.",
+      "pt": "Aldeia de chalés de postal do Oberland bernês, Adelboden liga-se a Lenk para 210 km de pistas solarengas. É mundialmente conhecida pelo seu slalom gigante da Taça do Mundo de janeiro no Chuenisbärgli."
+    },
+    "longDescription": {
+      "en": "Adelboden strings classic Bernese chalets along a sunny ridge and links with neighbouring Lenk for a 210 km domain of mostly intermediate, beautifully scenic piste. Every January the world's best racers descend on the brutally steep Chuenisbärgli for one of the loudest giant slaloms on the World Cup tour. Away from race weekend it is calm, family-friendly and gloriously traditional, with grand views toward the Wildstrubel.",
+      "fr": "Adelboden égrène ses chalets bernois classiques sur une crête ensoleillée et se relie au Lenk voisin pour un domaine de 210 km de pistes surtout intermédiaires et magnifiquement panoramiques. Chaque janvier, les meilleurs skieurs du monde dévalent le Chuenisbärgli, terriblement raide, pour l'un des slaloms géants les plus bruyants du circuit. Hors week-end de course, c'est calme, familial et superbement traditionnel, avec de grandes vues vers le Wildstrubel.",
+      "es": "Adelboden desgrana sus chalets berneses clásicos sobre una cresta soleada y se enlaza con la vecina Lenk para un dominio de 210 km de pistas sobre todo intermedias y magníficamente panorámicas. Cada enero, los mejores esquiadores del mundo bajan el Chuenisbärgli, terriblemente empinado, en uno de los eslalon gigantes más ruidosos del circuito. Fuera del fin de semana de carrera es tranquila, familiar y espléndidamente tradicional, con grandes vistas hacia el Wildstrubel.",
+      "pt": "Adelboden desfia os seus chalés berneses clássicos sobre uma crista solarenga e liga-se à vizinha Lenk para um domínio de 210 km de pistas sobretudo intermédias e magnificamente panorâmicas. Todos os janeiros, os melhores esquiadores do mundo descem o Chuenisbärgli, terrivelmente íngreme, num dos slaloms gigantes mais ruidosos do circuito. Fora do fim de semana de corrida é tranquila, familiar e esplendidamente tradicional, com grandes vistas para o Wildstrubel."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 50,
+      "black": 12
+    }
+  },
+  {
+    "slug": "gstaad",
+    "name": "Gstaad",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.472,
+    "lng": 7.286,
+    "altitudeBase": 1050,
+    "altitudeSummit": 3000,
+    "pistesKm": 200,
+    "lifts": 53,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 79,
+    "vibes": [
+      "luxury",
+      "scenic",
+      "elegance"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Gstaad is a chic chalet town whose skiing is spread over many separate sectors; lodging is in the village and nearby resorts, a short drive or train from each lift base.",
+      "fr": "Gstaad est une ville-chalet chic dont le ski s'étale sur de nombreux secteurs séparés ; on loge au village et dans les stations voisines, à quelques minutes en voiture ou en train de chaque départ.",
+      "es": "Gstaad es una chic ciudad-chalet cuyo esquí se reparte por muchos sectores separados; el alojamiento está en el pueblo y estaciones vecinas, a pocos minutos en coche o tren de cada base de remonte.",
+      "pt": "Gstaad é uma chique vila-chalé cujo esqui se espalha por muitos setores separados; o alojamento fica na aldeia e estâncias vizinhas, a poucos minutos de carro ou comboio de cada base de teleférico."
+    },
+    "intro": {
+      "en": "The byword for discreet Alpine luxury, Gstaad spreads 200 km of mostly gentle piste across a string of sunny Saanenland villages. Glamour aside, it is relaxed, scenic and surprisingly down-to-earth on the snow.",
+      "fr": "Synonyme de luxe alpin discret, Gstaad déploie 200 km de pistes surtout douces sur un chapelet de villages ensoleillés du Saanenland. Glamour mis à part, c'est détendu, photogénique et étonnamment simple sur les pistes.",
+      "es": "Sinónimo de lujo alpino discreto, Gstaad despliega 200 km de pistas sobre todo suaves por un rosario de pueblos soleados del Saanenland. Glamour aparte, es relajada, pintoresca y sorprendentemente sencilla en la nieve.",
+      "pt": "Sinónimo de luxo alpino discreto, Gstaad desdobra 200 km de pistas sobretudo suaves por um rosário de aldeias solarengas do Saanenland. Glamour à parte, é descontraída, pitoresca e surpreendentemente simples na neve."
+    },
+    "longDescription": {
+      "en": "Gstaad is famous for its chalets, its film stars and its boarding schools, but the skiing is a low-key spread of around 200 km across many sunny sectors of the Saanenland and Pays-d'Enhaut, plus the snow-sure Glacier 3000 nearby. Most of it is gentle and intermediate, beautifully maintained and rarely crowded, with the high glacier guaranteeing a few runs whatever the weather. It is a place to ski gently, lunch grandly and soak up some of the most genteel scenery in the Alps.",
+      "fr": "Gstaad est célèbre pour ses chalets, ses stars de cinéma et ses internats, mais le ski y est une discrète mosaïque d'environ 200 km sur de nombreux secteurs ensoleillés du Saanenland et du Pays-d'Enhaut, plus le Glacier 3000 tout proche, sûr en neige. L'essentiel est doux et intermédiaire, superbement entretenu et rarement bondé, le haut glacier garantissant quelques pistes par tous les temps. C'est un lieu pour skier tranquillement, déjeuner grandement et savourer l'un des décors les plus raffinés des Alpes.",
+      "es": "Gstaad es famosa por sus chalets, sus estrellas de cine y sus internados, pero el esquí es un discreto mosaico de unos 200 km por muchos sectores soleados del Saanenland y el Pays-d'Enhaut, más el Glacier 3000 cercano, seguro de nieve. La mayoría es suave e intermedio, espléndidamente cuidado y rara vez abarrotado, con el glaciar alto que garantiza algunas pistas con cualquier tiempo. Es un sitio para esquiar con calma, comer a lo grande y empaparse de uno de los paisajes más distinguidos de los Alpes.",
+      "pt": "Gstaad é famosa pelos seus chalés, vedetas de cinema e colégios internos, mas o esqui é um discreto mosaico de cerca de 200 km por muitos setores solarengos do Saanenland e do Pays-d'Enhaut, mais o Glacier 3000 ali perto, seguro em neve. A maioria é suave e intermédia, esplendidamente cuidada e raramente cheia, com o glaciar alto a garantir algumas pistas com qualquer tempo. É um sítio para esquiar com calma, almoçar à grande e absorver uma das paisagens mais requintadas dos Alpes."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 48,
+      "black": 14
+    }
+  },
+  {
+    "slug": "champery",
+    "name": "Champéry",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.178,
+    "lng": 6.869,
+    "altitudeBase": 1050,
+    "altitudeSummit": 2277,
+    "pistesKm": 650,
+    "lifts": 196,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "scenic",
+      "authentic",
+      "big-domain"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Champéry is a beautiful old village in the valley; a cable car climbs to the slopes at Planachaux, with most hotels a short walk from the lift in the village centre.",
+      "fr": "Champéry est un beau village ancien dans la vallée ; un téléphérique grimpe aux pistes de Planachaux, la plupart des hôtels étant à quelques pas du départ, au centre du village.",
+      "es": "Champéry es un hermoso pueblo antiguo en el valle; un teleférico sube a las pistas de Planachaux, con la mayoría de los hoteles a pocos pasos del remonte, en el centro del pueblo.",
+      "pt": "Champéry é uma bonita aldeia antiga no vale; um teleférico sobe às pistas de Planachaux, com a maioria dos hotéis a poucos passos do teleférico, no centro da aldeia."
+    },
+    "intro": {
+      "en": "A handsome old village under the dramatic Dents du Midi, Champéry is the Swiss gateway to the vast Portes du Soleil, 600 km across France and Switzerland. Traditional charm meets one of the biggest ski circuits in the world.",
+      "fr": "Beau village ancien sous les spectaculaires Dents du Midi, Champéry est la porte suisse du vaste domaine des Portes du Soleil, 600 km entre France et Suisse. Le charme traditionnel rencontre l'un des plus grands circuits de ski du monde.",
+      "es": "Hermoso pueblo antiguo bajo los espectaculares Dents du Midi, Champéry es la entrada suiza al vasto dominio de los Portes du Soleil, 600 km entre Francia y Suiza. El encanto tradicional se une a uno de los mayores circuitos de esquí del mundo.",
+      "pt": "Bonita aldeia antiga sob os espetaculares Dents du Midi, Champéry é a porta suíça do vasto domínio dos Portes du Soleil, 600 km entre França e Suíça. O charme tradicional encontra um dos maiores circuitos de esqui do mundo."
+    },
+    "longDescription": {
+      "en": "Champéry is one of the prettiest villages in the Valais, a long high street of old chalets beneath the sawtooth Dents du Midi, and the main Swiss entrance to the Portes du Soleil. A cable car lifts skiers to Planachaux and the great cross-border circuit of around 600 km that loops through a dozen French and Swiss resorts. The local Swiss side is quiet and scenic, including the fearsome Swiss Wall above Les Crosets, while the village keeps a genuine, unspoilt feel.",
+      "fr": "Champéry est l'un des plus jolis villages du Valais, une longue rue de vieux chalets sous les Dents du Midi en dents de scie, et la principale porte suisse des Portes du Soleil. Un téléphérique hisse les skieurs à Planachaux et vers le grand circuit transfrontalier d'environ 600 km qui boucle à travers une douzaine de stations françaises et suisses. Le versant suisse local est calme et photogénique, avec le redoutable Mur suisse au-dessus des Crosets, tandis que le village garde une atmosphère authentique et préservée.",
+      "es": "Champéry es uno de los pueblos más bonitos del Valais, una larga calle de viejos chalets bajo los dentados Dents du Midi, y la principal entrada suiza a los Portes du Soleil. Un teleférico sube a los esquiadores a Planachaux y al gran circuito transfronterizo de unos 600 km que recorre una docena de estaciones francesas y suizas. La vertiente suiza local es tranquila y pintoresca, con el temible Muro Suizo sobre Les Crosets, mientras el pueblo conserva un aire auténtico e intacto.",
+      "pt": "Champéry é uma das aldeias mais bonitas do Valais, uma longa rua de velhos chalés sob os dentados Dents du Midi, e a principal entrada suíça dos Portes du Soleil. Um teleférico sobe os esquiadores a Planachaux e ao grande circuito transfronteiriço de cerca de 600 km que percorre uma dúzia de estâncias francesas e suíças. A vertente suíça local é tranquila e pitoresca, com o temível Muro Suíço acima de Les Crosets, enquanto a aldeia conserva um ambiente autêntico e intacto."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 80,
+      "red": 70,
+      "black": 24
+    }
+  },
+  {
+    "slug": "grimentz-zinal",
+    "name": "Grimentz-Zinal",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.178,
+    "lng": 7.571,
+    "altitudeBase": 1570,
+    "altitudeSummit": 2900,
+    "pistesKm": 75,
+    "lifts": 17,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 83,
+    "vibes": [
+      "freeride",
+      "scenic",
+      "authentic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Grimentz and Zinal are two old Val d'Anniviers villages linked on the mountain; gondolas climb from each, with most lodging a short walk from the lift base.",
+      "fr": "Grimentz et Zinal sont deux vieux villages du val d'Anniviers reliés en altitude ; des télécabines montent de chacun, la plupart des hébergements étant à quelques pas du départ.",
+      "es": "Grimentz y Zinal son dos viejos pueblos del val d'Anniviers enlazados en la montaña; telecabinas suben de cada uno, con la mayoría del alojamiento a pocos pasos de la base.",
+      "pt": "Grimentz e Zinal são duas velhas aldeias do val d'Anniviers ligadas na montanha; telecabines sobem de cada uma, com a maioria do alojamento a poucos passos da base."
+    },
+    "intro": {
+      "en": "Two beautifully preserved Valais villages linked into one 75 km domain, Grimentz-Zinal is a freeride favourite deep in the Val d'Anniviers. Big, north-facing snow and grand 4000 m peaks define it.",
+      "fr": "Deux villages valaisans superbement préservés reliés en un domaine de 75 km, Grimentz-Zinal est un favori du freeride au fond du val d'Anniviers. Une neige abondante orientée nord et de grands sommets de 4000 m en font le caractère.",
+      "es": "Dos pueblos valaisanos magníficamente conservados unidos en un dominio de 75 km, Grimentz-Zinal es un favorito del freeride en lo hondo del val d'Anniviers. Una nieve abundante orientada al norte y grandes cumbres de 4000 m marcan su carácter.",
+      "pt": "Duas aldeias do Valais magnificamente preservadas unidas num domínio de 75 km, Grimentz-Zinal é um favorito do freeride no fundo do val d'Anniviers. Uma neve abundante virada a norte e grandes cumes de 4000 m definem-na."
+    },
+    "longDescription": {
+      "en": "Grimentz and Zinal are two of the most authentic villages in the Valais, dark-timber hamlets in the wild Val d'Anniviers, now joined by lifts into a single 75 km domain. The skiing is high, north-facing and snow-sure, with a serious freeride reputation and a grandstand of 4000 m peaks including the Weisshorn and the Besso. It is a connoisseur's resort: small in pisted terrain but big on snow, scenery and off-piste adventure.",
+      "fr": "Grimentz et Zinal comptent parmi les villages les plus authentiques du Valais, hameaux de bois sombre du val d'Anniviers sauvage, désormais reliés par les remontées en un seul domaine de 75 km. Le ski y est haut, orienté nord et sûr en neige, avec une solide réputation de freeride et un parterre de sommets de 4000 m dont le Weisshorn et le Besso. C'est une station de connaisseurs : petite en pistes mais grande en neige, en paysages et en aventure hors-piste.",
+      "es": "Grimentz y Zinal están entre los pueblos más auténticos del Valais, aldeas de madera oscura del salvaje val d'Anniviers, ahora unidas por los remontes en un solo dominio de 75 km. El esquí es alto, orientado al norte y de nieve segura, con una sólida fama de freeride y un anfiteatro de cumbres de 4000 m, entre ellas el Weisshorn y el Besso. Es una estación de entendidos: pequeña en pista pero grande en nieve, paisaje y aventura fuera de pista.",
+      "pt": "Grimentz e Zinal estão entre as aldeias mais autênticas do Valais, lugarejos de madeira escura do selvagem val d'Anniviers, agora ligadas pelos teleféricos num só domínio de 75 km. O esqui é alto, virado a norte e de neve segura, com uma sólida fama de freeride e um anfiteatro de cumes de 4000 m, entre eles o Weisshorn e o Besso. É uma estância de entendidos: pequena em pista mas grande em neve, paisagem e aventura fora-de-pista."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 18,
+      "red": 30,
+      "black": 16
+    }
   }
 ]

@@ -114,6 +114,20 @@ const RESORT_SITES: Record<string, string> = {
   espot: 'https://www.espotesqui.cat',
   'vallter-2000': 'https://www.vallter.cat',
   'port-del-comte': 'https://www.portdelcomte.net',
+  grindelwald: 'https://www.grindelwald.swiss',
+  wengen: 'https://www.wengen.swiss',
+  murren: 'https://www.muerren.swiss',
+  engelberg: 'https://www.engelberg.ch',
+  laax: 'https://www.laax.com',
+  'arosa-lenzerheide': 'https://arosalenzerheide.swiss',
+  nendaz: 'https://www.nendaz.ch',
+  veysonnaz: 'https://www.veysonnaz.ch',
+  'villars-gryon': 'https://www.villars.ch',
+  'les-diablerets': 'https://www.diablerets.ch',
+  adelboden: 'https://www.adelboden.ch',
+  gstaad: 'https://www.gstaad.ch',
+  champery: 'https://www.champery.ch',
+  'grimentz-zinal': 'https://www.valdanniviers.ch',
 }
 
 export function resortSite(slug: string): string | null {

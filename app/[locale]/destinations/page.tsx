@@ -20,10 +20,10 @@ export async function generateMetadata({
   if (!hasLocale(locale)) return {}
 
   const titles: Record<Locale, string> = {
-    en: 'All 106 ski destinations in the Alps and Pyrenees | BestSnowHotels',
-    fr: 'Les 106 destinations ski dans les Alpes et les Pyrénées | BestSnowHotels',
-    es: 'Los 106 destinos de esquí en los Alpes y los Pirineos | BestSnowHotels',
-    pt: 'Os 106 destinos de esqui nos Alpes e nos Pirenéus | BestSnowHotels',
+    en: 'All 120 ski destinations in the Alps and Pyrenees | BestSnowHotels',
+    fr: 'Les 120 destinations ski dans les Alpes et les Pyrénées | BestSnowHotels',
+    es: 'Los 120 destinos de esquí en los Alpes y los Pirineos | BestSnowHotels',
+    pt: 'Os 120 destinos de esqui nos Alpes e nos Pirenéus | BestSnowHotels',
   }
 
   return {
