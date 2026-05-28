@@ -14,7 +14,9 @@ import {
 import HotelCard from '@/components/HotelCard'
 import PisteBreakdown from '@/components/PisteBreakdown'
 import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
+import Image from 'next/image'
 import { getHotels } from '@/lib/hotels'
+import { getGallery } from '@/lib/galleries'
 import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
@@ -103,6 +105,7 @@ export default async function DestinationDetailPage({
   }
   const officialSite = resortSite(slug)
   const rentalUrl = skiRentalMapsUrl(d.name, d.country)
+  const gallery = getGallery(slug)
 
   const cardLabels = {
     altitude: dict.destinations.altitude,
@@ -336,6 +339,34 @@ export default async function DestinationDetailPage({
           </div>
           <p className="text-slate-deep leading-relaxed">{d.skiInSkiOutNote[l]}</p>
         </div>
+      </section>
+
+      {/* Get to know the resort: editorial + gallery */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 className="text-2xl font-bold text-slate-deep mb-5">
+          {dict.destination.aboutTitle}
+        </h2>
+        <p className="text-lg text-ice-800/80 leading-relaxed max-w-3xl">
+          {d.longDescription[l]}
+        </p>
+        {gallery.length > 0 && (
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {gallery.map((file) => (
+              <div
+                key={file}
+                className="relative aspect-[3/2] rounded-2xl overflow-hidden border border-ice-100"
+              >
+                <Image
+                  src={`/images/destinations/${file}`}
+                  alt={`${d.name}, ${localizeRegion(d.region, l)}`}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
+        )}
       </section>
 
       {/* Where to stay: example hotels */}

@@ -22,6 +22,8 @@ export interface Destination {
   /** Indicative difficulty split of the pisted terrain, percentages summing to 100. */
   runs: { easy: number; intermediate: number; difficult: number }
   intro: Record<Locale, string>
+  /** Longer editorial paragraph shown in the "Get to know the resort" section. */
+  longDescription: Record<Locale, string>
 }
 
 export const destinations = data as Destination[]
