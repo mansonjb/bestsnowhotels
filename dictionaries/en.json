@@ -40,6 +40,18 @@
   "destination": {
     "overview": "Overview",
     "whereToStay": "Where to stay",
+    "whereToStaySubtitle": "A handful of well-rated hotels in and around the resort. Pick one, then compare live prices across Booking, Expedia and Hotels.com.",
+    "reviews": "reviews",
+    "checkAvailability": "Check availability",
+    "ratingsNote": "Ratings from Google. Availability and prices via our booking partners.",
+    "toSlopes": "to the slopes",
+    "planTitle": "Plan your trip",
+    "resortWebsite": "Official resort website",
+    "resortWebsiteHint": "Trail map, opening dates and online lift passes.",
+    "liftPass": "Lift passes",
+    "liftPassHint": "Where to buy your pass once you arrive.",
+    "skiRental": "Ski rental shops",
+    "skiRentalHint": "Rental shops in and around the resort.",
     "skiInSkiOut": "Ski-in/ski-out",
     "mapTitle": "Hotels in",
     "mapSubtitle": "Hotels and apartments around the lifts. Compare prices on Booking, Expedia and Hotels.com.",
@@ -70,9 +82,6 @@
     "contact": "Contact",
     "disclosureText": "This site contains affiliate links. We may earn a commission when you book through us, at no extra cost to you. It keeps BestSnowHotels free.",
     "copyright": "© 2026 BestSnowHotels. All rights reserved."
-  },
-  "disclosure": {
-    "banner": "BestSnowHotels is reader-supported. We earn a commission on bookings made through our partner links, at no extra cost to you."
   },
   "home": {
     "topTitle": "Top ski destinations",

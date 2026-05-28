@@ -6,7 +6,6 @@ import { getDictionary, hasLocale, locales } from './dictionaries'
 import type { Locale } from './dictionaries'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import DisclosureBanner from '@/components/DisclosureBanner'
 import { STAY22_ID, SITE_URL } from '@/lib/site'
 import { notFound } from 'next/navigation'
 
@@ -77,7 +76,6 @@ export default async function LocaleLayout({
         <link rel="preconnect" href="https://www.booking.com" />
       </head>
       <body className="bg-powder text-slate-deep antialiased">
-        <DisclosureBanner text={dict.disclosure.banner} />
         <Header locale={locale as Locale} dict={dict} />
         <main>{children}</main>
         <Footer locale={locale as Locale} dict={dict} />

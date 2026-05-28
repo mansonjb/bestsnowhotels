@@ -40,6 +40,18 @@
   "destination": {
     "overview": "Présentation",
     "whereToStay": "Où dormir",
+    "whereToStaySubtitle": "Une sélection d'hôtels bien notés dans la station et aux alentours. Choisissez, puis comparez les prix en direct sur Booking, Expedia et Hotels.com.",
+    "reviews": "avis",
+    "checkAvailability": "Voir les disponibilités",
+    "ratingsNote": "Notes issues de Google. Disponibilités et prix via nos partenaires de réservation.",
+    "toSlopes": "des pistes",
+    "planTitle": "Préparer son séjour",
+    "resortWebsite": "Site officiel de la station",
+    "resortWebsiteHint": "Plan des pistes, dates d'ouverture et forfaits en ligne.",
+    "liftPass": "Forfaits",
+    "liftPassHint": "Où acheter votre forfait une fois sur place.",
+    "skiRental": "Magasins de location",
+    "skiRentalHint": "Les loueurs de ski dans la station et aux alentours.",
     "skiInSkiOut": "Ski-in/ski-out",
     "mapTitle": "Hôtels à",
     "mapSubtitle": "Hôtels et appartements autour des remontées. Comparez les prix sur Booking, Expedia et Hotels.com.",
@@ -70,9 +82,6 @@
     "contact": "Contact",
     "disclosureText": "Ce site contient des liens d'affiliation. Nous percevons une commission sur les réservations effectuées via nos liens partenaires, sans surcoût pour vous. C'est ce qui permet à BestSnowHotels de rester gratuit.",
     "copyright": "© 2026 BestSnowHotels. Tous droits réservés."
-  },
-  "disclosure": {
-    "banner": "BestSnowHotels est financé par ses lecteurs. Nous percevons une commission sur les réservations effectuées via nos liens partenaires, sans surcoût pour vous."
   },
   "home": {
     "topTitle": "Top destinations ski",

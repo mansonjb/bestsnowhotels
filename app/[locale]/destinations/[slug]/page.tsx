@@ -11,7 +11,10 @@ import {
   getDestination,
   getRelatedDestinations,
 } from '@/lib/destinations'
-import { SITE_URL, buildAllezDestLink } from '@/lib/site'
+import HotelCard from '@/components/HotelCard'
+import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
+import { getHotels } from '@/lib/hotels'
+import { resortSite, skiRentalMapsUrl, liftPassMapsUrl } from '@/lib/resortLinks'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { localizeVibe } from '@/lib/vibes'
@@ -91,6 +94,15 @@ export default async function DestinationDetailPage({
   const dict = await getDictionary(l)
   const related = getRelatedDestinations(slug, 4)
   const allezLink = buildAllezDestLink(d.name, d.country, 'destination', 7)
+  const hotels = getHotels(slug)
+  const hotelLabels = {
+    reviews: dict.destination.reviews,
+    checkAvailability: dict.destination.checkAvailability,
+    toSlopes: dict.destination.toSlopes,
+  }
+  const officialSite = resortSite(slug)
+  const rentalUrl = skiRentalMapsUrl(d.name, d.country)
+  const liftPassUrl = liftPassMapsUrl(d.name, d.country)
 
   const cardLabels = {
     altitude: dict.destinations.altitude,
@@ -299,6 +311,29 @@ export default async function DestinationDetailPage({
         </div>
       </section>
 
+      {/* Where to stay: example hotels */}
+      {hotels.length > 0 && (
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <h2 className="text-2xl font-bold text-slate-deep">
+            {dict.destination.whereToStay}
+          </h2>
+          <p className="mt-2 text-ice-800/80 mb-6 max-w-3xl">
+            {dict.destination.whereToStaySubtitle}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {hotels.map((h) => (
+              <HotelCard
+                key={h.id}
+                hotel={h}
+                bookHref={buildAllezHotelLink(h.name, d.name, d.country, 'hotel', 7)}
+                labels={hotelLabels}
+              />
+            ))}
+          </div>
+          <p className="mt-4 text-xs text-ice-500">{dict.destination.ratingsNote}</p>
+        </section>
+      )}
+
       {/* Stay22 Map */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-2xl font-bold text-slate-deep">
@@ -314,6 +349,57 @@ export default async function DestinationDetailPage({
             className="inline-block bg-slate-deep text-white font-semibold px-8 py-3.5 rounded-full hover:bg-ice-800 transition shadow-lg shadow-ice-900/20"
           >
             {dict.destination.bookCta} →
+          </a>
+        </div>
+      </section>
+
+      {/* Plan your trip: practical links */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 className="text-2xl font-bold text-slate-deep mb-6">
+          {dict.destination.planTitle}
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          {officialSite && (
+            <a
+              href={officialSite}
+              target="_blank"
+              rel="noopener"
+              className="card-hover block bg-white rounded-2xl border border-ice-100 p-5"
+            >
+              <div className="text-2xl mb-2" aria-hidden>
+                🌐
+              </div>
+              <div className="font-bold text-slate-deep">
+                {dict.destination.resortWebsite}
+              </div>
+              <p className="mt-1 text-sm text-ice-600">
+                {dict.destination.resortWebsiteHint}
+              </p>
+            </a>
+          )}
+          <a
+            href={liftPassUrl}
+            target="_blank"
+            rel="noopener"
+            className="card-hover block bg-white rounded-2xl border border-ice-100 p-5"
+          >
+            <div className="text-2xl mb-2" aria-hidden>
+              🎫
+            </div>
+            <div className="font-bold text-slate-deep">{dict.destination.liftPass}</div>
+            <p className="mt-1 text-sm text-ice-600">{dict.destination.liftPassHint}</p>
+          </a>
+          <a
+            href={rentalUrl}
+            target="_blank"
+            rel="noopener"
+            className="card-hover block bg-white rounded-2xl border border-ice-100 p-5"
+          >
+            <div className="text-2xl mb-2" aria-hidden>
+              🎿
+            </div>
+            <div className="font-bold text-slate-deep">{dict.destination.skiRental}</div>
+            <p className="mt-1 text-sm text-ice-600">{dict.destination.skiRentalHint}</p>
           </a>
         </div>
       </section>
