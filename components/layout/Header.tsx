@@ -12,8 +12,8 @@ interface HeaderProps {
   }
 }
 
-const localeLabels: Record<Locale, string> = { en: 'EN', fr: 'FR', es: 'ES', pt: 'PT' }
-const allLocales: Locale[] = ['en', 'fr', 'es', 'pt']
+const localeLabels: Record<Locale, string> = { en: 'EN', fr: 'FR', es: 'ES', pt: 'PT', it: 'IT' }
+const allLocales: Locale[] = ['en', 'fr', 'es', 'pt', 'it']
 
 export default function Header({ locale, dict }: HeaderProps) {
   const [open, setOpen] = useState(false)

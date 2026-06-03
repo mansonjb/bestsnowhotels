@@ -53,6 +53,14 @@ const COPY: Record<Locale, { title: string; paragraphs: string[] }> = {
       'Recebemos uma pequena comissão quando reserva através das nossas ligações. Essa comissão não lhe custa nada adicional. Serve para financiar o site, e mais nada.',
     ],
   },
+  it: {
+    title: 'Chi è BestSnowHotels',
+    paragraphs: [
+      'BestSnowHotels è un piccolo progetto editoriale con un\'unica missione: aiutare gli sciatori a trovare hotel davvero ski-in/ski-out sulle Alpi e sui Pirenei, senza perdersi tra siti di prenotazione generici.',
+      'Copriamo 166 località in Francia, Svizzera, Austria, Italia, Spagna e Andorra. Per ognuna indichiamo quote verificate, chilometri di piste, date di stagione e una nota ski-in/ski-out trasparente. La mappa interattiva di ogni destinazione è fornita da Stay22. Confronta Booking, Expedia e Hotels.com in tempo reale, così vedi sempre il miglior prezzo.',
+      'Riceviamo una piccola commissione quando prenoti tramite i nostri link. Quella commissione non ti costa nulla in più. Serve a finanziare il sito, e niente altro.',
+    ],
+  },
 }
 
 export default async function AboutPage({

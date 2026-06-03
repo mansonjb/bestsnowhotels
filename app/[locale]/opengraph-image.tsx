@@ -65,7 +65,7 @@ export default async function OG() {
           <span>·</span>
           <span>6 countries</span>
           <span>·</span>
-          <span>4 languages</span>
+          <span>5 languages</span>
         </div>
       </div>
     ),

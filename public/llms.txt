@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 166 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish and Portuguese.
+> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 166 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -52,6 +52,11 @@ Curated lists for travellers shopping by intent rather than by name:
 - Best resorts for beginners
 - Highest ski resorts in Europe (by village altitude)
 - Car-free ski resorts
+- Best ski resorts for freestyle and snowparks
+- Best ski resorts near Geneva
+- Best ski resorts near Lyon
+- Best ski resorts near Munich
+- Best ski resorts near Barcelona
 
 Index: https://www.bestsnowhotels.com/en/best
 
@@ -66,7 +71,7 @@ Index: https://www.bestsnowhotels.com/en/best
 
 ## Languages
 
-Site available in English (en), French (fr), Spanish (es) and Portuguese (pt). Every page has hreflang alternates for all four.
+Site available in English (en), French (fr), Spanish (es), Portuguese (pt) and Italian (it). Every page has hreflang alternates for all five.
 
 ## Key pages
 

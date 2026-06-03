@@ -22,12 +22,14 @@ export async function generateMetadata({
     fr: "Domaines skiables : les grands domaines reliés des Alpes et des Pyrénées | BestSnowHotels",
     es: 'Dominios esquiables: los grandes dominios enlazados de los Alpes y los Pirineos | BestSnowHotels',
     pt: 'Domínios esquiáveis: os grandes domínios ligados dos Alpes e dos Pirenéus | BestSnowHotels',
+    it: 'Comprensori sciistici: i grandi domini collegati delle Alpi e dei Pirenei | BestSnowHotels',
   }
   const descriptions: Record<string, string> = {
     en: 'Explore the great linked ski domains where several resorts share one lift pass: Les 3 Vallées, Paradiski, Portes du Soleil, Ski Arlberg and more. Compare resorts and find ski-in/ski-out hotels.',
     fr: "Explorez les grands domaines skiables reliés où plusieurs stations partagent un forfait : Les 3 Vallées, Paradiski, Portes du Soleil, Ski Arlberg et plus. Comparez les stations et trouvez des hôtels ski-in/ski-out.",
     es: 'Explora los grandes dominios esquiables enlazados donde varias estaciones comparten un forfait: Les 3 Vallées, Paradiski, Portes du Soleil, Ski Arlberg y más. Compara estaciones y encuentra hoteles ski-in/ski-out.',
     pt: 'Explore os grandes domínios esquiáveis ligados onde várias estâncias partilham um forfait: Les 3 Vallées, Paradiski, Portes du Soleil, Ski Arlberg e mais. Compare estâncias e encontre hotéis ski-in/ski-out.',
+    it: 'Esplora i grandi comprensori collegati dove più località condividono lo stesso skipass: Les 3 Vallées, Paradiski, Portes du Soleil, Ski Arlberg e altri. Confronta le località e trova hotel ski-in/ski-out.',
   }
   return {
     title: titles[locale] ?? titles.en,

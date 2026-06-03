@@ -24,6 +24,7 @@ export async function generateMetadata({
     fr: 'Les 166 destinations ski dans les Alpes et les Pyrénées | BestSnowHotels',
     es: 'Los 166 destinos de esquí en los Alpes y los Pirineos | BestSnowHotels',
     pt: 'Os 166 destinos de esqui nos Alpes e nos Pirenéus | BestSnowHotels',
+    it: 'Le 166 destinazioni sci sulle Alpi e sui Pirenei | BestSnowHotels',
   }
 
   return {
@@ -35,6 +36,7 @@ export async function generateMetadata({
         fr: `${SITE_URL}/fr/destinations`,
         es: `${SITE_URL}/es/destinations`,
         pt: `${SITE_URL}/pt/destinations`,
+        it: `${SITE_URL}/it/destinations`,
         'x-default': `${SITE_URL}/en/destinations`,
       },
     },

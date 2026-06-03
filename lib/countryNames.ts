@@ -3,16 +3,16 @@ import type { Locale } from '@/app/[locale]/dictionaries'
 /**
  * Localised country names. Source of truth uses the English name
  * (as stored in data/destinations.json and lib/countries.ts).
- * This helper translates that name into the four supported locales
+ * This helper translates that name into the supported locales
  * so we never display "Hôtels en Switzerland".
  */
 const NAMES: Record<string, Record<Locale, string>> = {
-  France: { en: 'France', fr: 'France', es: 'Francia', pt: 'França' },
-  Switzerland: { en: 'Switzerland', fr: 'Suisse', es: 'Suiza', pt: 'Suíça' },
-  Austria: { en: 'Austria', fr: 'Autriche', es: 'Austria', pt: 'Áustria' },
-  Italy: { en: 'Italy', fr: 'Italie', es: 'Italia', pt: 'Itália' },
-  Spain: { en: 'Spain', fr: 'Espagne', es: 'España', pt: 'Espanha' },
-  Andorra: { en: 'Andorra', fr: 'Andorre', es: 'Andorra', pt: 'Andorra' },
+  France: { en: 'France', fr: 'France', es: 'Francia', pt: 'França', it: 'Francia' },
+  Switzerland: { en: 'Switzerland', fr: 'Suisse', es: 'Suiza', pt: 'Suíça', it: 'Svizzera' },
+  Austria: { en: 'Austria', fr: 'Autriche', es: 'Austria', pt: 'Áustria', it: 'Austria' },
+  Italy: { en: 'Italy', fr: 'Italie', es: 'Italia', pt: 'Itália', it: 'Italia' },
+  Spain: { en: 'Spain', fr: 'Espagne', es: 'España', pt: 'Espanha', it: 'Spagna' },
+  Andorra: { en: 'Andorra', fr: 'Andorre', es: 'Andorra', pt: 'Andorra', it: 'Andorra' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -21,7 +21,7 @@ export function localizeCountry(englishName: string, locale: Locale): string {
 
 /**
  * Preposition + country, idiomatic per locale.
- * e.g. "en France", "en Suisse", "in France", "en España", "em França", "na Suíça".
+ * e.g. "en France", "en Suisse", "in France", "en España", "em França", "na Suíça", "in Francia".
  */
 export function inCountry(englishName: string, locale: Locale): string {
   const name = localizeCountry(englishName, locale)
@@ -37,6 +37,10 @@ export function inCountry(englishName: string, locale: Locale): string {
     // "na" before names with article (Suíça, Áustria).
     if (englishName === 'Switzerland' || englishName === 'Austria') return `na ${name}`
     return `em ${name}`
+  }
+  if (locale === 'it') {
+    // Italian: "in" works for all six (Francia, Svizzera, Austria, Italia, Spagna, Andorra).
+    return `in ${name}`
   }
   return name
 }

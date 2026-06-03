@@ -16,7 +16,7 @@ export async function generateStaticParams() {
   )
 }
 
-const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e' }
+const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e' }
 
 function listJoin(names: string[], locale: Locale): string {
   if (names.length <= 1) return names[0] ?? ''
@@ -37,12 +37,14 @@ export async function generateMetadata({
     fr: `Domaine skiable de ${area.name} : stations, pistes et hôtels ski-in/ski-out | BestSnowHotels`,
     es: `Dominio esquiable de ${area.name}: estaciones, pistas y hoteles ski-in/ski-out | BestSnowHotels`,
     pt: `Domínio esquiável de ${area.name}: estâncias, pistas e hotéis ski-in/ski-out | BestSnowHotels`,
+    it: `Comprensorio di ${area.name}: località, piste e hotel ski-in/ski-out | BestSnowHotels`,
   }
   const descriptions: Record<Locale, string> = {
     en: `${area.name}: ${area.pistesKm} km of piste, ${area.members.length} linked resorts and ski-in/ski-out hotels. Compare Booking, Expedia and Hotels.com on a live map.`,
     fr: `${area.name} : ${area.pistesKm} km de pistes, ${area.members.length} stations reliées et des hôtels ski-in/ski-out. Comparez Booking, Expedia et Hotels.com sur une carte en direct.`,
     es: `${area.name}: ${area.pistesKm} km de pistas, ${area.members.length} estaciones enlazadas y hoteles ski-in/ski-out. Compara Booking, Expedia y Hotels.com en un mapa en directo.`,
     pt: `${area.name}: ${area.pistesKm} km de pistas, ${area.members.length} estâncias ligadas e hotéis ski-in/ski-out. Compare Booking, Expedia e Hotels.com num mapa em direto.`,
+    it: `${area.name}: ${area.pistesKm} km di piste, ${area.members.length} località collegate e hotel ski-in/ski-out. Confronta Booking, Expedia e Hotels.com su una mappa in tempo reale.`,
   }
   return {
     title: titles[l],
@@ -85,12 +87,14 @@ export default async function SkiAreaPage({
         fr: `Quelles stations font partie du domaine ${area.name} ?`,
         es: `¿Qué estaciones forman parte de ${area.name}?`,
         pt: `Que estâncias fazem parte de ${area.name}?`,
+        it: `Quali località fanno parte del comprensorio ${area.name}?`,
       } as Record<Locale, string>,
       a: {
         en: `${area.name} links ${listJoin(memberNames, 'en')} on the ${area.pass} pass, with ${area.pistesKm} km of piste served by around ${area.lifts} lifts.`,
         fr: `${area.name} relie ${listJoin(memberNames, 'fr')} sur le forfait ${area.pass}, soit ${area.pistesKm} km de pistes desservies par environ ${area.lifts} remontées.`,
         es: `${area.name} enlaza ${listJoin(memberNames, 'es')} con el forfait ${area.pass}, ${area.pistesKm} km de pistas servidas por unos ${area.lifts} remontes.`,
         pt: `${area.name} liga ${listJoin(memberNames, 'pt')} no forfait ${area.pass}, ${area.pistesKm} km de pistas servidas por cerca de ${area.lifts} teleféricos.`,
+        it: `${area.name} collega ${listJoin(memberNames, 'it')} sullo skipass ${area.pass}, con ${area.pistesKm} km di piste serviti da circa ${area.lifts} impianti.`,
       } as Record<Locale, string>,
     },
     {
@@ -99,12 +103,14 @@ export default async function SkiAreaPage({
         fr: `Quelle est la taille du domaine skiable de ${area.name} ?`,
         es: `¿Qué tamaño tiene el dominio esquiable de ${area.name}?`,
         pt: `Qual é a dimensão do domínio esquiável de ${area.name}?`,
+        it: `Quanto è grande il comprensorio di ${area.name}?`,
       } as Record<Locale, string>,
       a: {
         en: `${area.name} offers ${area.pistesKm} km of marked piste and about ${area.lifts} lifts, rising to ${area.topAltitude.toLocaleString()} m.`,
         fr: `${area.name} propose ${area.pistesKm} km de pistes balisées et environ ${area.lifts} remontées, jusqu'à ${area.topAltitude.toLocaleString()} m.`,
         es: `${area.name} ofrece ${area.pistesKm} km de pistas balizadas y unos ${area.lifts} remontes, hasta los ${area.topAltitude.toLocaleString()} m.`,
         pt: `${area.name} oferece ${area.pistesKm} km de pistas balizadas e cerca de ${area.lifts} teleféricos, até aos ${area.topAltitude.toLocaleString()} m.`,
+        it: `${area.name} offre ${area.pistesKm} km di piste segnalate e circa ${area.lifts} impianti, fino a ${area.topAltitude.toLocaleString()} m.`,
       } as Record<Locale, string>,
     },
   ]

@@ -51,18 +51,21 @@ export async function generateMetadata({
   const countryFr = localizeCountry(d.country, 'fr')
   const countryEs = localizeCountry(d.country, 'es')
   const countryPt = localizeCountry(d.country, 'pt')
+  const countryIt = localizeCountry(d.country, 'it')
 
   const titles: Record<Locale, string> = {
     en: `Ski-in/ski-out hotels in ${d.name} (${countryEn}) | BestSnowHotels`,
     fr: `Hôtels ski-in/ski-out à ${d.name} (${countryFr}) | BestSnowHotels`,
     es: `Hoteles ski-in/ski-out en ${d.name} (${countryEs}) | BestSnowHotels`,
     pt: `Hotéis ski-in/ski-out em ${d.name} (${countryPt}) | BestSnowHotels`,
+    it: `Hotel ski-in/ski-out a ${d.name} (${countryIt}) | BestSnowHotels`,
   }
   const descriptions: Record<Locale, string> = {
     en: `Best ski-in/ski-out hotels in ${d.name}. ${d.pistesKm} km of pistes, top at ${d.altitudeSummit} m. Compare Booking, Expedia and Hotels.com.`,
     fr: `Meilleurs hôtels ski-in/ski-out à ${d.name}. ${d.pistesKm} km de pistes, sommet à ${d.altitudeSummit} m. Comparez Booking, Expedia et Hotels.com.`,
     es: `Mejores hoteles ski-in/ski-out en ${d.name}. ${d.pistesKm} km de pistas, cumbre a ${d.altitudeSummit} m. Compara Booking, Expedia y Hotels.com.`,
     pt: `Melhores hotéis ski-in/ski-out em ${d.name}. ${d.pistesKm} km de pistas, cume a ${d.altitudeSummit} m. Compare Booking, Expedia e Hotels.com.`,
+    it: `Migliori hotel ski-in/ski-out a ${d.name}. ${d.pistesKm} km di piste, cima a ${d.altitudeSummit} m. Confronta Booking, Expedia e Hotels.com.`,
   }
 
   return {
@@ -81,6 +84,7 @@ export async function generateMetadata({
         fr: `${SITE_URL}/fr/destinations/${d.slug}`,
         es: `${SITE_URL}/es/destinations/${d.slug}`,
         pt: `${SITE_URL}/pt/destinations/${d.slug}`,
+        it: `${SITE_URL}/it/destinations/${d.slug}`,
         'x-default': `${SITE_URL}/en/destinations/${d.slug}`,
       },
     },
