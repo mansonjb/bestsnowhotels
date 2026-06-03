@@ -5518,5 +5518,741 @@
       "red": 30,
       "black": 16
     }
+  },
+  {
+    "slug": "obertauern",
+    "name": "Obertauern",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.252,
+    "lng": 13.556,
+    "altitudeBase": 1740,
+    "altitudeSummit": 2313,
+    "pistesKm": 100,
+    "lifts": 26,
+    "seasonStart": "Nov 30",
+    "seasonEnd": "May 1",
+    "snowScore": 88,
+    "vibes": [
+      "snow-sure",
+      "scenic",
+      "party"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Obertauern is a purpose-built, slope-side resort strung around a high pass; almost every hotel sits right on the snow-front for true ski-in/ski-out.",
+      "fr": "Obertauern est une station construite au pied des pistes, étirée autour d'un col d'altitude ; presque tous les hôtels donnent sur le front de neige pour un vrai ski-in/ski-out.",
+      "es": "Obertauern es una estación construida a pie de pista, repartida alrededor de un alto puerto; casi todos los hoteles dan al frente de nieve para un verdadero ski-in/ski-out.",
+      "pt": "Obertauern é uma estância construída no sopé das pistas, distribuída à volta de um alto colo; quase todos os hotéis dão para a frente de neve para um verdadeiro ski-in/ski-out."
+    },
+    "intro": {
+      "en": "High on the Tauern pass at 1740 m, Obertauern is one of the snowiest resorts in Austria, with a ring of 100 km of piste you can ski as a circuit. Snow-sure, lively and built for ski-in/ski-out.",
+      "fr": "Haut perché sur le col des Tauern à 1740 m, Obertauern est l'une des stations les plus enneigées d'Autriche, avec un anneau de 100 km de pistes qui se skie en circuit. Sûre en neige, animée et pensée pour le ski-in/ski-out.",
+      "es": "En lo alto del puerto de los Tauern a 1740 m, Obertauern es una de las estaciones más nevadas de Austria, con un anillo de 100 km de pistas que se esquía en circuito. De nieve segura, animada y pensada para el ski-in/ski-out.",
+      "pt": "No alto do colo dos Tauern a 1740 m, Obertauern é uma das estâncias mais nevadas da Áustria, com um anel de 100 km de pistas que se esquia em circuito. De neve segura, animada e pensada para o ski-in/ski-out."
+    },
+    "longDescription": {
+      "en": "Obertauern sits astride a high mountain pass where the snow piles up like nowhere else in Austria, opening early and lasting into May. Its 100 km of piste form a ring around the village, linked by lift so you can ski the whole circuit clockwise or anticlockwise back to your door. Compact, high and reliably white, it pairs serious snow with a famously lively après-ski.",
+      "fr": "Obertauern enjambe un haut col de montagne où la neige s'accumule comme nulle part ailleurs en Autriche, ouvrant tôt et tenant jusqu'en mai. Ses 100 km de pistes forment un anneau autour du village, relié par remontées : on skie tout le circuit dans un sens ou dans l'autre pour rentrer à sa porte. Compacte, haute et fidèlement enneigée, elle associe une vraie neige à un après-ski réputé.",
+      "es": "Obertauern se asienta sobre un alto puerto de montaña donde la nieve se acumula como en ningún otro sitio de Austria, abriendo pronto y aguantando hasta mayo. Sus 100 km de pistas forman un anillo alrededor del pueblo, enlazado por remontes: se esquía todo el circuito en un sentido u otro para volver a la puerta. Compacta, alta y fiablemente nevada, combina nieve de verdad con un après-ski famoso.",
+      "pt": "Obertauern assenta sobre um alto colo de montanha onde a neve se acumula como em nenhum outro sítio da Áustria, abrindo cedo e aguentando até maio. Os seus 100 km de pistas formam um anel à volta da aldeia, ligado por teleféricos: esquia-se todo o circuito num sentido ou no outro para regressar à porta. Compacta, alta e fiavelmente nevada, combina neve a sério com um après-ski famoso."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 55,
+      "black": 10
+    }
+  },
+  {
+    "slug": "schladming",
+    "name": "Schladming",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.394,
+    "lng": 13.687,
+    "altitudeBase": 745,
+    "altitudeSummit": 2015,
+    "pistesKm": 123,
+    "lifts": 44,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 80,
+    "vibes": [
+      "racing",
+      "family",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Schladming is a real working town below the Planai gondola; most hotels are in town, a short walk or ski-bus from the four linked mountains.",
+      "fr": "Schladming est une vraie petite ville sous la télécabine de la Planai ; la plupart des hôtels sont en ville, à quelques pas ou en navette des quatre montagnes reliées.",
+      "es": "Schladming es una ciudad de verdad bajo la telecabina del Planai; la mayoría de los hoteles están en el pueblo, a pocos pasos o en lanzadera de las cuatro montañas enlazadas.",
+      "pt": "Schladming é uma cidade a sério sob o telecabine do Planai; a maioria dos hotéis fica na cidade, a poucos passos ou de transfer das quatro montanhas ligadas."
+    },
+    "intro": {
+      "en": "A lively Styrian town famous for its floodlit World Cup night slalom, Schladming links four mountains into 123 km of piste. Wide, well-groomed runs and a big après scene make it a crowd-pleaser.",
+      "fr": "Ville animée de Styrie célèbre pour son slalom nocturne de Coupe du monde sous les projecteurs, Schladming relie quatre montagnes en 123 km de pistes. De larges pistes bien damées et un gros après-ski en font une valeur sûre.",
+      "es": "Animada ciudad de Estiria famosa por su eslalon nocturno de Copa del Mundo bajo focos, Schladming enlaza cuatro montañas en 123 km de pistas. Amplias pistas bien pisadas y un gran après-ski la hacen un acierto seguro.",
+      "pt": "Animada cidade da Estíria famosa pelo seu slalom noturno da Taça do Mundo sob holofotes, Schladming liga quatro montanhas em 123 km de pistas. Amplas pistas bem pisadas e um grande après-ski fazem dela um sucesso garantido."
+    },
+    "longDescription": {
+      "en": "Schladming is the hub of the 4-Berge Skischaukel, four linked mountains (Planai, Hochwurzen, Hauser Kaibling and Reiteralm) totalling 123 km of mostly wide, cruisey piste in the Styrian Dachstein. The town is best known for its electric World Cup night slalom each January, a floodlit spectacle with tens of thousands of fans. It is part of the giant Ski amadé pass, lively, well-organised and a reliable all-rounder for families and intermediates.",
+      "fr": "Schladming est le pôle de la 4-Berge Skischaukel, quatre montagnes reliées (Planai, Hochwurzen, Hauser Kaibling et Reiteralm) totalisant 123 km de pistes surtout larges et roulantes, dans le Dachstein styrien. La ville est surtout connue pour son slalom nocturne de Coupe du monde chaque janvier, un spectacle sous les projecteurs devant des dizaines de milliers de fans. Intégrée au géant forfait Ski amadé, elle est animée, bien organisée et polyvalente pour les familles et les intermédiaires.",
+      "es": "Schladming es el eje de la 4-Berge Skischaukel, cuatro montañas enlazadas (Planai, Hochwurzen, Hauser Kaibling y Reiteralm) que suman 123 km de pistas sobre todo anchas y rodadoras, en el Dachstein estirio. La ciudad es famosa por su eslalon nocturno de Copa del Mundo cada enero, un espectáculo bajo focos ante decenas de miles de aficionados. Integrada en el gigante forfait Ski amadé, es animada, bien organizada y polivalente para familias e intermedios.",
+      "pt": "Schladming é o polo da 4-Berge Skischaukel, quatro montanhas ligadas (Planai, Hochwurzen, Hauser Kaibling e Reiteralm) que somam 123 km de pistas sobretudo largas e roladoras, no Dachstein da Estíria. A cidade é famosa pelo seu slalom noturno da Taça do Mundo todos os janeiros, um espetáculo sob holofotes perante dezenas de milhares de fãs. Integrada no gigante passe Ski amadé, é animada, bem organizada e polivalente para famílias e intermédios."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 40,
+      "red": 70,
+      "black": 13
+    }
+  },
+  {
+    "slug": "bad-gastein",
+    "name": "Bad Gastein",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.114,
+    "lng": 13.134,
+    "altitudeBase": 1000,
+    "altitudeSummit": 2686,
+    "pistesKm": 88,
+    "lifts": 30,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 82,
+    "vibes": [
+      "thermal",
+      "historic",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Bad Gastein is a dramatic Belle Époque spa town built into a gorge; hotels cluster around the Stubnerkogel gondola, a short walk or shuttle from the lifts.",
+      "fr": "Bad Gastein est une spectaculaire ville thermale Belle Époque bâtie dans une gorge ; les hôtels se regroupent autour de la télécabine du Stubnerkogel, à quelques pas ou en navette des remontées.",
+      "es": "Bad Gastein es una espectacular ciudad termal Belle Époque construida en una garganta; los hoteles se agrupan en torno a la telecabina del Stubnerkogel, a pocos pasos o en lanzadera de los remontes.",
+      "pt": "Bad Gastein é uma espetacular vila termal Belle Époque construída numa garganta; os hotéis juntam-se à volta do telecabine do Stubnerkogel, a poucos passos ou de transfer dos teleféricos."
+    },
+    "intro": {
+      "en": "A spectacular Belle Époque spa town tumbling down a gorge around a waterfall, Bad Gastein pairs grand thermal baths with 88 km of high piste. Faded glamour reborn, on the giant Ski amadé pass.",
+      "fr": "Spectaculaire ville thermale Belle Époque qui dévale une gorge autour d'une cascade, Bad Gastein associe de grands bains thermaux à 88 km de pistes d'altitude. Une gloire d'antan renaissante, sur le géant forfait Ski amadé.",
+      "es": "Espectacular ciudad termal Belle Époque que cae por una garganta en torno a una cascada, Bad Gastein combina grandes baños termales con 88 km de pistas de altura. Un glamour de antaño renacido, en el gigante forfait Ski amadé.",
+      "pt": "Espetacular vila termal Belle Époque que desce por uma garganta em torno de uma cascata, Bad Gastein combina grandes termas com 88 km de pistas de altitude. Um glamour de outrora renascido, no gigante passe Ski amadé."
+    },
+    "longDescription": {
+      "en": "Bad Gastein is like no other ski town in the Alps: a tier of grand Belle Époque hotels built into a steep gorge around a thundering waterfall, now in the middle of a stylish revival. Its skiing, shared with Bad Hofgastein on the Stubnerkogel and Schlossalm, runs to 88 km of mostly red, high-altitude piste with a long season. Famous radon thermal baths and a long spa tradition make this as much a wellness destination as a ski one, all on the giant Ski amadé pass.",
+      "fr": "Bad Gastein ne ressemble à aucune autre ville de ski des Alpes : un empilement de grands hôtels Belle Époque bâtis dans une gorge raide autour d'une cascade tonitruante, au cœur d'un renouveau élégant. Son ski, partagé avec Bad Hofgastein sur le Stubnerkogel et la Schlossalm, atteint 88 km de pistes surtout rouges et d'altitude, avec une longue saison. Ses célèbres bains au radon et sa longue tradition thermale en font autant une destination bien-être qu'une station de ski, le tout sur le géant forfait Ski amadé.",
+      "es": "Bad Gastein no se parece a ninguna otra ciudad de esquí de los Alpes: una sucesión de grandes hoteles Belle Époque construidos en una garganta empinada en torno a una cascada atronadora, en plena renovación elegante. Su esquí, compartido con Bad Hofgastein en el Stubnerkogel y la Schlossalm, llega a 88 km de pistas sobre todo rojas y de altura, con una larga temporada. Sus famosos baños de radón y su larga tradición termal la hacen tanto un destino de bienestar como de esquí, todo en el gigante forfait Ski amadé.",
+      "pt": "Bad Gastein não se parece com nenhuma outra cidade de esqui dos Alpes: uma sucessão de grandes hotéis Belle Époque construídos numa garganta íngreme em torno de uma cascata atroadora, em plena renovação elegante. O seu esqui, partilhado com Bad Hofgastein no Stubnerkogel e na Schlossalm, chega a 88 km de pistas sobretudo vermelhas e de altitude, com uma longa época. Os famosos banhos de rádon e a longa tradição termal fazem dela tanto um destino de bem-estar como de esqui, tudo no gigante passe Ski amadé."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 45,
+      "black": 13
+    }
+  },
+  {
+    "slug": "bad-hofgastein",
+    "name": "Bad Hofgastein",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.17,
+    "lng": 13.101,
+    "altitudeBase": 860,
+    "altitudeSummit": 2300,
+    "pistesKm": 88,
+    "lifts": 30,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 81,
+    "vibes": [
+      "thermal",
+      "family",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Bad Hofgastein is a relaxed spa town on the valley floor; a gondola climbs to the Schlossalm slopes, with most hotels a short walk or shuttle away.",
+      "fr": "Bad Hofgastein est une ville thermale tranquille au fond de la vallée ; une télécabine grimpe aux pistes de la Schlossalm, la plupart des hôtels étant à quelques pas ou en navette.",
+      "es": "Bad Hofgastein es una tranquila ciudad termal en el fondo del valle; una telecabina sube a las pistas de la Schlossalm, con la mayoría de los hoteles a pocos pasos o en lanzadera.",
+      "pt": "Bad Hofgastein é uma tranquila vila termal no fundo do vale; um telecabine sobe às pistas da Schlossalm, com a maioria dos hotéis a poucos passos ou de transfer."
+    },
+    "intro": {
+      "en": "The Gastein valley's gentler, family-friendly spa town, Bad Hofgastein shares 88 km of sunny piste with neighbouring Bad Gastein. Big thermal baths and broad slopes define it.",
+      "fr": "Ville thermale plus douce et familiale de la vallée de Gastein, Bad Hofgastein partage 88 km de pistes ensoleillées avec sa voisine Bad Gastein. Grands bains thermaux et larges pentes en font le caractère.",
+      "es": "La ciudad termal más suave y familiar del valle de Gastein, Bad Hofgastein comparte 88 km de pistas soleadas con su vecina Bad Gastein. Grandes baños termales y amplias laderas marcan su carácter.",
+      "pt": "A vila termal mais suave e familiar do vale de Gastein, Bad Hofgastein partilha 88 km de pistas solarengas com a vizinha Bad Gastein. Grandes termas e amplas encostas definem-na."
+    },
+    "longDescription": {
+      "en": "Bad Hofgastein sits on the broad floor of the Gastein valley, a relaxed, family-friendly spa town with one of the largest thermal bath complexes in the Alps. Its Schlossalm slopes link with Bad Gastein's Stubnerkogel for a shared 88 km of sunny, mostly intermediate piste, all on the giant Ski amadé pass. It is calmer and more spread out than its dramatic neighbour, ideal for families who want wide runs by day and thermal soaking by evening.",
+      "fr": "Bad Hofgastein s'étale sur le large fond de la vallée de Gastein, ville thermale détendue et familiale dotée de l'un des plus grands complexes thermaux des Alpes. Ses pentes de la Schlossalm se relient au Stubnerkogel de Bad Gastein pour 88 km de pistes ensoleillées et surtout intermédiaires, sur le géant forfait Ski amadé. Plus calme et plus étendue que sa spectaculaire voisine, elle est idéale pour les familles qui veulent de larges pistes le jour et des bains chauds le soir.",
+      "es": "Bad Hofgastein se extiende por el ancho fondo del valle de Gastein, una relajada y familiar ciudad termal con uno de los mayores complejos termales de los Alpes. Sus laderas de la Schlossalm se enlazan con el Stubnerkogel de Bad Gastein para 88 km de pistas soleadas y sobre todo intermedias, en el gigante forfait Ski amadé. Más tranquila y extendida que su espectacular vecina, es ideal para familias que quieren amplias pistas de día y baños termales al atardecer.",
+      "pt": "Bad Hofgastein estende-se pelo largo fundo do vale de Gastein, uma descontraída e familiar vila termal com um dos maiores complexos termais dos Alpes. As suas encostas da Schlossalm ligam-se ao Stubnerkogel de Bad Gastein para 88 km de pistas solarengas e sobretudo intermédias, no gigante passe Ski amadé. Mais tranquila e espalhada do que a espetacular vizinha, é ideal para famílias que querem amplas pistas de dia e banhos termais ao fim da tarde."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 32,
+      "red": 44,
+      "black": 12
+    }
+  },
+  {
+    "slug": "zell-am-see",
+    "name": "Zell am See",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.325,
+    "lng": 12.796,
+    "altitudeBase": 750,
+    "altitudeSummit": 2000,
+    "pistesKm": 77,
+    "lifts": 28,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "scenic",
+      "family",
+      "panoramic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Zell am See is a lakeside town with gondolas to the Schmittenhöhe; most hotels are in town by the lake, a short walk or shuttle from the lifts.",
+      "fr": "Zell am See est une ville au bord d'un lac avec des télécabines vers le Schmittenhöhe ; la plupart des hôtels sont en ville près du lac, à quelques pas ou en navette des remontées.",
+      "es": "Zell am See es una ciudad junto a un lago con telecabinas al Schmittenhöhe; la mayoría de los hoteles están en el pueblo junto al lago, a pocos pasos o en lanzadera de los remontes.",
+      "pt": "Zell am See é uma cidade à beira de um lago com telecabines para o Schmittenhöhe; a maioria dos hotéis fica na cidade junto ao lago, a poucos passos ou de transfer dos teleféricos."
+    },
+    "intro": {
+      "en": "A pretty town on a turquoise lake under the Schmittenhöhe, Zell am See pairs scenic skiing with the snow-sure Kaprun glacier next door. The lake-and-mountain setting is one of the loveliest in Austria.",
+      "fr": "Jolie ville au bord d'un lac turquoise sous le Schmittenhöhe, Zell am See associe un ski panoramique au glacier de Kaprun, sûr en neige, juste à côté. Le décor lac et montagne est l'un des plus beaux d'Autriche.",
+      "es": "Bonita ciudad junto a un lago turquesa bajo el Schmittenhöhe, Zell am See combina un esquí panorámico con el glaciar de Kaprun, seguro de nieve, al lado. El entorno de lago y montaña es de los más bonitos de Austria.",
+      "pt": "Bonita cidade à beira de um lago turquesa sob o Schmittenhöhe, Zell am See combina um esqui panorâmico com o glaciar de Kaprun, seguro em neve, mesmo ao lado. O cenário de lago e montanha é dos mais bonitos da Áustria."
+    },
+    "longDescription": {
+      "en": "Zell am See wraps around a deep turquoise lake beneath the Schmittenhöhe, whose 77 km of piste give long, scenic descents back toward the water. Paired on one Alpin Card with the Kitzsteinhorn glacier at Kaprun, it offers snow-sure skiing high above the valley even in a lean winter. The lakeside town has real year-round life and a postcard setting, one of the most photogenic bases in the Austrian Alps.",
+      "fr": "Zell am See enlace un profond lac turquoise sous le Schmittenhöhe, dont les 77 km de pistes offrent de longues descentes panoramiques vers l'eau. Associée sur une même Alpin Card au glacier du Kitzsteinhorn à Kaprun, elle propose un ski sûr en neige, haut au-dessus de la vallée, même lors d'un hiver maigre. La ville au bord du lac a une vraie vie à l'année et un décor de carte postale, l'une des bases les plus photogéniques des Alpes autrichiennes.",
+      "es": "Zell am See abraza un profundo lago turquesa bajo el Schmittenhöhe, cuyos 77 km de pistas brindan largos descensos panorámicos hacia el agua. Unida en una misma Alpin Card al glaciar del Kitzsteinhorn en Kaprun, ofrece un esquí de nieve segura, en lo alto sobre el valle, incluso en un invierno flojo. La ciudad junto al lago tiene vida todo el año y un entorno de postal, una de las bases más fotogénicas de los Alpes austriacos.",
+      "pt": "Zell am See abraça um profundo lago turquesa sob o Schmittenhöhe, cujos 77 km de pistas oferecem longas descidas panorâmicas rumo à água. Unida numa mesma Alpin Card ao glaciar do Kitzsteinhorn em Kaprun, oferece um esqui de neve segura, no alto sobre o vale, mesmo num inverno fraco. A cidade à beira do lago tem vida todo o ano e um cenário de postal, uma das bases mais fotogénicas dos Alpes austríacos."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 35,
+      "black": 12
+    }
+  },
+  {
+    "slug": "kaprun",
+    "name": "Kaprun",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.27,
+    "lng": 12.756,
+    "altitudeBase": 768,
+    "altitudeSummit": 3029,
+    "pistesKm": 61,
+    "lifts": 25,
+    "seasonStart": "Oct 12",
+    "seasonEnd": "May 25",
+    "snowScore": 90,
+    "vibes": [
+      "glacier",
+      "snow-sure",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Kaprun is a relaxed village below the Kitzsteinhorn glacier; hotels are in the village, a short shuttle from the glacier and Maiskogel gondolas.",
+      "fr": "Kaprun est un village tranquille sous le glacier du Kitzsteinhorn ; les hôtels sont au village, à une courte navette des télécabines du glacier et du Maiskogel.",
+      "es": "Kaprun es un pueblo tranquilo bajo el glaciar del Kitzsteinhorn; los hoteles están en el pueblo, a una corta lanzadera de las telecabinas del glaciar y del Maiskogel.",
+      "pt": "Kaprun é uma aldeia tranquila sob o glaciar do Kitzsteinhorn; os hotéis ficam na aldeia, a um curto transfer dos telecabines do glaciar e do Maiskogel."
+    },
+    "intro": {
+      "en": "Home to the Kitzsteinhorn, Salzburg's only glacier, Kaprun offers snow-sure skiing to 3029 m from autumn into late spring. A quiet village paired with Zell am See on one pass.",
+      "fr": "Patrie du Kitzsteinhorn, unique glacier du Land de Salzbourg, Kaprun offre un ski sûr en neige jusqu'à 3029 m, de l'automne au printemps tardif. Un village tranquille associé à Zell am See sur un même forfait.",
+      "es": "Hogar del Kitzsteinhorn, el único glaciar del Estado de Salzburgo, Kaprun ofrece un esquí de nieve segura hasta los 3029 m, del otoño a la primavera tardía. Un pueblo tranquilo unido a Zell am See en un mismo forfait.",
+      "pt": "Casa do Kitzsteinhorn, o único glaciar do Estado de Salzburgo, Kaprun oferece um esqui de neve segura até aos 3029 m, do outono à primavera tardia. Uma aldeia tranquila unida a Zell am See num mesmo passe."
+    },
+    "longDescription": {
+      "en": "Kaprun sits below the Kitzsteinhorn, the only glacier in the Salzburg region, which guarantees snow from October into late spring high above the valley. A modern gondola chain now links the village and the Maiskogel straight up to the glacier, and one Alpin Card adds Zell am See's Schmittenhöhe for 138 km in all. Quiet and family-friendly, it is the snow-sure half of one of Austria's most scenic ski areas.",
+      "fr": "Kaprun se niche sous le Kitzsteinhorn, unique glacier de la région de Salzbourg, qui garantit la neige d'octobre au printemps tardif, haut au-dessus de la vallée. Une chaîne de télécabines modernes relie désormais le village et le Maiskogel directement au glacier, et une Alpin Card ajoute le Schmittenhöhe de Zell am See pour 138 km au total. Tranquille et familiale, c'est la moitié sûre en neige de l'un des plus beaux domaines d'Autriche.",
+      "es": "Kaprun se acomoda bajo el Kitzsteinhorn, el único glaciar de la región de Salzburgo, que garantiza nieve de octubre a la primavera tardía, en lo alto sobre el valle. Una cadena de telecabinas modernas enlaza ahora el pueblo y el Maiskogel directamente con el glaciar, y una Alpin Card añade el Schmittenhöhe de Zell am See para 138 km en total. Tranquila y familiar, es la mitad de nieve segura de uno de los dominios más bonitos de Austria.",
+      "pt": "Kaprun aninha-se sob o Kitzsteinhorn, o único glaciar da região de Salzburgo, que garante neve de outubro à primavera tardia, no alto sobre o vale. Uma cadeia de telecabines modernos liga agora a aldeia e o Maiskogel diretamente ao glaciar, e uma Alpin Card acrescenta o Schmittenhöhe de Zell am See para 138 km no total. Tranquila e familiar, é a metade de neve segura de um dos domínios mais bonitos da Áustria."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 22,
+      "red": 27,
+      "black": 12
+    }
+  },
+  {
+    "slug": "hintertux",
+    "name": "Hintertux",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.07,
+    "lng": 11.668,
+    "altitudeBase": 1500,
+    "altitudeSummit": 3250,
+    "pistesKm": 60,
+    "lifts": 21,
+    "seasonStart": "Oct 5",
+    "seasonEnd": "May 25",
+    "snowScore": 92,
+    "vibes": [
+      "glacier",
+      "snow-sure",
+      "freeride"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Hintertux is a small village at the foot of its glacier; hotels sit by the valley gondola, with skiing possible 365 days a year up top.",
+      "fr": "Hintertux est un petit village au pied de son glacier ; les hôtels jouxtent la télécabine de la vallée, et le ski est possible 365 jours par an en haut.",
+      "es": "Hintertux es un pequeño pueblo al pie de su glaciar; los hoteles están junto a la telecabina del valle, y arriba se puede esquiar 365 días al año.",
+      "pt": "Hintertux é uma pequena aldeia ao pé do seu glaciar; os hotéis ficam junto ao telecabine do vale, e lá em cima esquia-se 365 dias por ano."
+    },
+    "intro": {
+      "en": "The only resort in the Alps where you can ski every single day of the year, Hintertux climbs to a 3250 m glacier at the head of the Zillertal. Snow-sure, high and a serious freeride draw.",
+      "fr": "Seule station des Alpes où l'on peut skier chaque jour de l'année, Hintertux grimpe jusqu'à un glacier à 3250 m, en tête du Zillertal. Sûre en neige, haute et un vrai aimant à freeride.",
+      "es": "La única estación de los Alpes donde se puede esquiar cada día del año, Hintertux sube a un glaciar a 3250 m, en la cabecera del Zillertal. De nieve segura, alta y un verdadero imán del freeride.",
+      "pt": "A única estância dos Alpes onde se pode esquiar todos os dias do ano, Hintertux sobe a um glaciar a 3250 m, na cabeceira do Zillertal. De neve segura, alta e um verdadeiro íman do freeride."
+    },
+    "longDescription": {
+      "en": "At the very head of the Zillertal, the Hintertux glacier is famous as the only place in the Alps open for skiing 365 days a year, rising to 3250 m. The 60 km of glacier and valley piste are high, reliable and a magnet for early-season training and powder days, with the Gefrorene Wand cirque holding superb snow. It joins the rest of the Zillertal on the regional Superskipass, so a single ticket reaches well over 500 km across the valley.",
+      "fr": "Tout en tête du Zillertal, le glacier de Hintertux est célèbre comme le seul endroit des Alpes ouvert au ski 365 jours par an, jusqu'à 3250 m. Ses 60 km de pistes de glacier et de vallée sont hauts, fiables et un aimant pour l'entraînement de début de saison et les jours de poudreuse, le cirque de la Gefrorene Wand gardant une neige superbe. Il rejoint le reste du Zillertal sur le Superskipass régional : un seul billet atteint bien plus de 500 km à travers la vallée.",
+      "es": "En la mismísima cabecera del Zillertal, el glaciar de Hintertux es famoso por ser el único lugar de los Alpes abierto para esquiar 365 días al año, hasta los 3250 m. Sus 60 km de pistas de glaciar y valle son altos, fiables y un imán para el entrenamiento de principio de temporada y los días de polvo, con el circo de la Gefrorene Wand que conserva una nieve magnífica. Se une al resto del Zillertal en el Superskipass regional: un solo billete alcanza bastante más de 500 km por el valle.",
+      "pt": "Mesmo na cabeceira do Zillertal, o glaciar de Hintertux é famoso por ser o único lugar dos Alpes aberto para esquiar 365 dias por ano, até aos 3250 m. Os seus 60 km de pistas de glaciar e vale são altos, fiáveis e um íman para o treino de início de época e os dias de neve pó, com o circo da Gefrorene Wand a manter uma neve magnífica. Junta-se ao resto do Zillertal no Superskipass regional: um só bilhete alcança bem mais de 500 km pelo vale."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 18,
+      "red": 28,
+      "black": 14
+    }
+  },
+  {
+    "slug": "serfaus-fiss-ladis",
+    "name": "Serfaus-Fiss-Ladis",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.044,
+    "lng": 10.603,
+    "altitudeBase": 1200,
+    "altitudeSummit": 2820,
+    "pistesKm": 214,
+    "lifts": 68,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "family",
+      "big-domain",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Three sunny plateau villages with lifts on the doorstep and an underground village train; plenty of hotels are genuine ski-in/ski-out.",
+      "fr": "Trois villages-balcons ensoleillés avec remontées au pied et un métro souterrain de village ; de nombreux hôtels sont de vrais ski-in/ski-out.",
+      "es": "Tres soleados pueblos de meseta con remontes a la puerta y un metro subterráneo de pueblo; muchos hoteles son verdaderos ski-in/ski-out.",
+      "pt": "Três solarengas aldeias de planalto com teleféricos à porta e um metro subterrâneo de aldeia; muitos hotéis são verdadeiros ski-in/ski-out."
+    },
+    "intro": {
+      "en": "A sunny high-plateau trio above the Inn valley, Serfaus-Fiss-Ladis is Austria's ultimate family mega-resort, 214 km with kids' worlds everywhere. Even the village transport is a free underground train.",
+      "fr": "Trio de hauts plateaux ensoleillés au-dessus de la vallée de l'Inn, Serfaus-Fiss-Ladis est le méga-domaine familial par excellence d'Autriche, 214 km parsemés de mondes pour enfants. Même le transport du village est un métro souterrain gratuit.",
+      "es": "Trío de altiplanos soleados sobre el valle del Inn, Serfaus-Fiss-Ladis es el megadominio familiar por excelencia de Austria, 214 km salpicados de mundos infantiles. Hasta el transporte del pueblo es un metro subterráneo gratuito.",
+      "pt": "Trio de altos planaltos solarengos acima do vale do Inn, Serfaus-Fiss-Ladis é o megadomínio familiar por excelência da Áustria, 214 km repletos de mundos infantis. Até o transporte da aldeia é um metro subterrâneo gratuito."
+    },
+    "longDescription": {
+      "en": "Three villages on a sunny shelf high above the Inn, Serfaus, Fiss and Ladis share 214 km of immaculately groomed piste and a reputation as the best family resort in the Alps. Children's areas, adventure parks and gentle terrain are everywhere, while the top lifts at 2820 m and a snow-sure aspect keep conditions reliable. Serfaus is even car-free, served by a quirky free underground village train, which adds to the easy, safe feel families love.",
+      "fr": "Trois villages sur un replat ensoleillé bien au-dessus de l'Inn, Serfaus, Fiss et Ladis partagent 214 km de pistes impeccablement damées et une réputation de meilleur domaine familial des Alpes. Espaces enfants, parcs d'aventure et terrain doux sont partout, tandis que les remontées hautes à 2820 m et une bonne exposition gardent des conditions fiables. Serfaus est même sans voitures, desservie par un drôle de métro souterrain gratuit, ce qui ajoute au côté facile et sûr qu'adorent les familles.",
+      "es": "Tres pueblos en una repisa soleada muy por encima del Inn, Serfaus, Fiss y Ladis comparten 214 km de pistas impecablemente pisadas y fama de mejor dominio familiar de los Alpes. Zonas infantiles, parques de aventura y terreno suave hay por todas partes, mientras que los remontes altos a 2820 m y una buena orientación mantienen condiciones fiables. Serfaus es incluso sin coches, servida por un curioso metro subterráneo gratuito, lo que añade a la sensación fácil y segura que adoran las familias.",
+      "pt": "Três aldeias num patamar solarengo bem acima do Inn, Serfaus, Fiss e Ladis partilham 214 km de pistas impecavelmente pisadas e a fama de melhor domínio familiar dos Alpes. Zonas infantis, parques de aventura e terreno suave há por todo o lado, enquanto os teleféricos altos a 2820 m e uma boa exposição mantêm condições fiáveis. Serfaus é até sem carros, servida por um curioso metro subterrâneo gratuito, o que acrescenta à sensação fácil e segura que as famílias adoram."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 70,
+      "red": 95,
+      "black": 30
+    }
+  },
+  {
+    "slug": "nauders",
+    "name": "Nauders",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 46.891,
+    "lng": 10.503,
+    "altitudeBase": 1400,
+    "altitudeSummit": 2850,
+    "pistesKm": 110,
+    "lifts": 17,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 21",
+    "snowScore": 84,
+    "vibes": [
+      "snow-sure",
+      "scenic",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Nauders is a traditional village on the Reschen pass; hotels are in and around the village, a short hop from the Bergkastel gondola.",
+      "fr": "Nauders est un village traditionnel sur le col de Reschen ; les hôtels sont dans le village et aux alentours, à un saut de la télécabine du Bergkastel.",
+      "es": "Nauders es un pueblo tradicional en el puerto de Reschen; los hoteles están en el pueblo y alrededores, a un paso de la telecabina del Bergkastel.",
+      "pt": "Nauders é uma aldeia tradicional no colo de Reschen; os hotéis ficam na aldeia e arredores, a um salto do telecabine do Bergkastel."
+    },
+    "intro": {
+      "en": "Where Austria, Italy and Switzerland nearly meet, Nauders sits high on the Reschen pass with 110 km of sunny, snow-sure piste. Quiet, scenic and great value, away from the big-name crowds.",
+      "fr": "Là où l'Autriche, l'Italie et la Suisse se rejoignent presque, Nauders se tient haut sur le col de Reschen avec 110 km de pistes ensoleillées et sûres en neige. Tranquille, photogénique et d'un bon rapport qualité-prix, loin de la foule des grands noms.",
+      "es": "Donde Austria, Italia y Suiza casi se juntan, Nauders se sitúa en lo alto del puerto de Reschen con 110 km de pistas soleadas y de nieve segura. Tranquila, pintoresca y de buena relación calidad-precio, lejos del gentío de los grandes nombres.",
+      "pt": "Onde a Áustria, a Itália e a Suíça quase se juntam, Nauders fica no alto do colo de Reschen com 110 km de pistas solarengas e de neve segura. Tranquila, pitoresca e de boa relação qualidade-preço, longe da multidão dos grandes nomes."
+    },
+    "longDescription": {
+      "en": "Nauders perches on the Reschen pass at the three-country corner of Austria, Italy and Switzerland, a traditional Tyrolean village with 110 km of high, sunny piste rising to 2850 m. The aspect and altitude make it reliably snowy, and the wide, quiet runs are a joy for intermediates who like space. Far from the famous Tyrolean honeypots, it offers big-mountain skiing at notably gentle prices.",
+      "fr": "Nauders se perche sur le col de Reschen, au carrefour des trois pays Autriche, Italie et Suisse, village tyrolien traditionnel avec 110 km de pistes hautes et ensoleillées montant à 2850 m. L'exposition et l'altitude la rendent fidèlement enneigée, et ses pistes larges et tranquilles font le bonheur des intermédiaires qui aiment l'espace. Loin des hauts lieux tyroliens, elle offre du grand ski à des tarifs remarquablement doux.",
+      "es": "Nauders se encarama en el puerto de Reschen, en la esquina de los tres países Austria, Italia y Suiza, un pueblo tirolés tradicional con 110 km de pistas altas y soleadas que suben a 2850 m. La orientación y la altitud la hacen fiablemente nevada, y sus pistas amplias y tranquilas son una delicia para los intermedios a los que les gusta el espacio. Lejos de los grandes focos tiroleses, ofrece gran montaña a precios notablemente suaves.",
+      "pt": "Nauders empoleira-se no colo de Reschen, no canto dos três países Áustria, Itália e Suíça, uma aldeia tirolesa tradicional com 110 km de pistas altas e solarengas que sobem a 2850 m. A exposição e a altitude tornam-na fiavelmente nevada, e as suas pistas largas e tranquilas são uma delícia para os intermédios que gostam de espaço. Longe dos grandes focos tiroleses, oferece grande montanha a preços notavelmente suaves."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 50,
+      "black": 12
+    }
+  },
+  {
+    "slug": "stubai",
+    "name": "Stubai Glacier",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.07,
+    "lng": 11.12,
+    "altitudeBase": 1750,
+    "altitudeSummit": 3210,
+    "pistesKm": 64,
+    "lifts": 26,
+    "seasonStart": "Sep 28",
+    "seasonEnd": "May 11",
+    "snowScore": 90,
+    "vibes": [
+      "glacier",
+      "snow-sure",
+      "family"
+    ],
+    "skiInSkiOutNote": {
+      "en": "The Stubai glacier is reached from villages down the valley around Neustift; most hotels are a short drive or ski-bus from the base station.",
+      "fr": "Le glacier du Stubai s'atteint depuis les villages de la vallée, autour de Neustift ; la plupart des hôtels sont à quelques minutes en voiture ou en navette de la gare de départ.",
+      "es": "Al glaciar del Stubai se llega desde los pueblos del valle, en torno a Neustift; la mayoría de los hoteles están a pocos minutos en coche o lanzadera de la estación base.",
+      "pt": "Ao glaciar do Stubai chega-se a partir das aldeias do vale, à volta de Neustift; a maioria dos hotéis fica a poucos minutos de carro ou de transfer da estação base."
+    },
+    "intro": {
+      "en": "Austria's largest glacier ski area, the Stubai climbs to 3210 m a short drive from Innsbruck. Snow-sure from autumn to late spring, with gentle glacier cruising and grand high-alpine views.",
+      "fr": "Plus grand domaine glaciaire d'Autriche, le Stubai grimpe à 3210 m, à courte distance d'Innsbruck. Sûr en neige de l'automne au printemps tardif, avec une glisse douce sur glacier et de grandes vues de haute montagne.",
+      "es": "El mayor dominio glaciar de Austria, el Stubai sube a 3210 m, a poca distancia de Innsbruck. De nieve segura del otoño a la primavera tardía, con un esquí suave sobre glaciar y grandes vistas de alta montaña.",
+      "pt": "O maior domínio glaciar da Áustria, o Stubai sobe a 3210 m, a curta distância de Innsbruck. De neve segura do outono à primavera tardia, com um esqui suave sobre glaciar e grandes vistas de alta montanha."
+    },
+    "longDescription": {
+      "en": "The Stubai Glacier is the biggest glacier ski area in Austria, rising to 3210 m at the head of the Stubaital, just half an hour from Innsbruck. Snow is guaranteed from autumn into late spring across 64 km of mostly gentle, high-altitude piste, with a dedicated beginner area up top and the spectacular Top of Tyrol viewing platform. Skiers stay down the valley in villages like Neustift and ride up each day to some of the most reliable snow in the Alps.",
+      "fr": "Le glacier du Stubai est le plus grand domaine glaciaire d'Autriche, montant à 3210 m en tête du Stubaital, à une demi-heure seulement d'Innsbruck. La neige est garantie de l'automne au printemps tardif sur 64 km de pistes surtout douces et d'altitude, avec un espace débutants dédié en haut et la spectaculaire plateforme panoramique Top of Tyrol. Les skieurs logent dans les villages de la vallée comme Neustift et montent chaque jour vers l'une des neiges les plus fiables des Alpes.",
+      "es": "El glaciar del Stubai es el mayor dominio glaciar de Austria, subiendo a 3210 m en la cabecera del Stubaital, a solo media hora de Innsbruck. La nieve está garantizada del otoño a la primavera tardía en 64 km de pistas sobre todo suaves y de altura, con una zona de debutantes dedicada arriba y la espectacular plataforma panorámica Top of Tyrol. Los esquiadores se alojan en los pueblos del valle como Neustift y suben cada día a una de las nieves más fiables de los Alpes.",
+      "pt": "O glaciar do Stubai é o maior domínio glaciar da Áustria, subindo a 3210 m na cabeceira do Stubaital, a apenas meia hora de Innsbruck. A neve está garantida do outono à primavera tardia em 64 km de pistas sobretudo suaves e de altitude, com uma zona de iniciação dedicada lá em cima e a espetacular plataforma panorâmica Top of Tyrol. Os esquiadores ficam nas aldeias do vale como Neustift e sobem todos os dias a uma das neves mais fiáveis dos Alpes."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 22,
+      "red": 28,
+      "black": 12
+    }
+  },
+  {
+    "slug": "kuhtai",
+    "name": "Kühtai",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.213,
+    "lng": 11.008,
+    "altitudeBase": 2020,
+    "altitudeSummit": 2520,
+    "pistesKm": 45,
+    "lifts": 11,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 14",
+    "snowScore": 86,
+    "vibes": [
+      "snow-sure",
+      "high-altitude",
+      "family"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Kühtai is a tiny ski-in/ski-out hamlet at 2020 m; its handful of hotels sit right on the snow-front, the highest village resort in Austria.",
+      "fr": "Kühtai est un minuscule hameau ski-in/ski-out à 2020 m ; ses quelques hôtels donnent sur le front de neige, c'est la station-village la plus haute d'Autriche.",
+      "es": "Kühtai es una diminuta aldea ski-in/ski-out a 2020 m; sus pocos hoteles dan al frente de nieve, es la estación-pueblo más alta de Austria.",
+      "pt": "Kühtai é um minúsculo lugarejo ski-in/ski-out a 2020 m; os seus poucos hotéis dão para a frente de neve, é a estância-aldeia mais alta da Áustria."
+    },
+    "intro": {
+      "en": "The highest village resort in Austria at 2020 m, Kühtai is small, snow-sure and ski-in/ski-out by design. A quiet, high hideaway 40 minutes from Innsbruck.",
+      "fr": "Station-village la plus haute d'Autriche à 2020 m, Kühtai est petite, sûre en neige et ski-in/ski-out par conception. Un refuge tranquille et perché, à 40 minutes d'Innsbruck.",
+      "es": "La estación-pueblo más alta de Austria a 2020 m, Kühtai es pequeña, de nieve segura y ski-in/ski-out por diseño. Un refugio tranquilo y elevado, a 40 minutos de Innsbruck.",
+      "pt": "A estância-aldeia mais alta da Áustria a 2020 m, Kühtai é pequena, de neve segura e ski-in/ski-out por conceção. Um refúgio tranquilo e elevado, a 40 minutos de Innsbruck."
+    },
+    "longDescription": {
+      "en": "Kühtai sits on a high saddle at 2020 m, the loftiest village resort in Austria, which gives it some of the most reliable snow in the Tyrol and lets you click in and out straight from the hotel door. Its 45 km of piste are uncrowded and well suited to families and intermediates, with the bonus of accessible off-piste and ski touring on the surrounding slopes. Just 40 minutes from Innsbruck yet wonderfully quiet, it is a snow-sure escape for those who value altitude over nightlife.",
+      "fr": "Kühtai occupe un haut col à 2020 m, station-village la plus élevée d'Autriche, ce qui lui vaut une des neiges les plus fiables du Tyrol et permet de chausser directement à la porte de l'hôtel. Ses 45 km de pistes sont peu fréquentés et bien adaptés aux familles et aux intermédiaires, avec en prime un hors-piste accessible et du ski de randonnée sur les pentes alentour. À 40 minutes seulement d'Innsbruck mais merveilleusement calme, c'est une évasion sûre en neige pour qui préfère l'altitude à la vie nocturne.",
+      "es": "Kühtai se asienta en un alto collado a 2020 m, la estación-pueblo más elevada de Austria, lo que le da una de las nieves más fiables del Tirol y permite calzarse directamente en la puerta del hotel. Sus 45 km de pistas están poco concurridos y van bien a familias e intermedios, con la ventaja de un fuera de pista accesible y esquí de travesía en las laderas de alrededor. A solo 40 minutos de Innsbruck pero maravillosamente tranquila, es una escapada de nieve segura para quien prefiere la altitud a la vida nocturna.",
+      "pt": "Kühtai assenta num alto colo a 2020 m, a estância-aldeia mais elevada da Áustria, o que lhe dá uma das neves mais fiáveis do Tirol e permite calçar os esquis diretamente à porta do hotel. Os seus 45 km de pistas são pouco concorridos e assentam bem a famílias e intermédios, com a vantagem de um fora-de-pista acessível e esqui de travessia nas encostas em redor. A apenas 40 minutos de Innsbruck mas maravilhosamente tranquila, é uma escapadela de neve segura para quem prefere a altitude à vida noturna."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 20,
+      "red": 18,
+      "black": 7
+    }
+  },
+  {
+    "slug": "soll",
+    "name": "Söll",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.502,
+    "lng": 12.212,
+    "altitudeBase": 700,
+    "altitudeSummit": 1829,
+    "pistesKm": 284,
+    "lifts": 77,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "big-domain",
+      "party",
+      "family"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Söll is a classic Tyrolean village below the SkiWelt gondola; hotels are in and around the village, a short walk or shuttle from the lift.",
+      "fr": "Söll est un village tyrolien classique sous la télécabine du SkiWelt ; les hôtels sont dans le village et aux alentours, à quelques pas ou en navette de la remontée.",
+      "es": "Söll es un pueblo tirolés clásico bajo la telecabina del SkiWelt; los hoteles están en el pueblo y alrededores, a pocos pasos o en lanzadera del remonte.",
+      "pt": "Söll é uma aldeia tirolesa clássica sob o telecabine do SkiWelt; os hotéis ficam na aldeia e arredores, a poucos passos ou de transfer do teleférico."
+    },
+    "intro": {
+      "en": "A friendly Tyrolean village and a gateway to the SkiWelt Wilder Kaiser-Brixental, one of Austria's largest linked areas at 284 km. Gentle slopes, lively après and great value.",
+      "fr": "Sympathique village tyrolien et porte d'entrée du SkiWelt Wilder Kaiser-Brixental, l'un des plus grands domaines reliés d'Autriche avec 284 km. Pentes douces, après-ski animé et bon rapport qualité-prix.",
+      "es": "Simpático pueblo tirolés y entrada al SkiWelt Wilder Kaiser-Brixental, uno de los mayores dominios enlazados de Austria con 284 km. Laderas suaves, après-ski animado y buena relación calidad-precio.",
+      "pt": "Simpática aldeia tirolesa e entrada para o SkiWelt Wilder Kaiser-Brixental, um dos maiores domínios ligados da Áustria com 284 km. Encostas suaves, après-ski animado e boa relação qualidade-preço."
+    },
+    "longDescription": {
+      "en": "Söll is one of the friendliest gateways to the SkiWelt Wilder Kaiser-Brixental, which links nine villages into 284 km of piste, among the largest connected ski areas in Austria. The terrain is mostly gentle and tree-lined, ideal for beginners and cruising intermediates, with extensive snowmaking to offset its modest altitude. The village is famous for its lively après-ski and low prices, a classic Tyrolean week away that suits groups and families alike.",
+      "fr": "Söll est l'une des portes les plus accueillantes du SkiWelt Wilder Kaiser-Brixental, qui relie neuf villages en 284 km de pistes, parmi les plus grands domaines reliés d'Autriche. Le terrain est surtout doux et boisé, idéal pour les débutants et les intermédiaires tranquilles, avec une importante neige de culture pour compenser une altitude modeste. Le village est réputé pour son après-ski animé et ses prix bas, une semaine tyrolienne classique qui convient autant aux groupes qu'aux familles.",
+      "es": "Söll es una de las entradas más acogedoras del SkiWelt Wilder Kaiser-Brixental, que enlaza nueve pueblos en 284 km de pistas, entre los mayores dominios conectados de Austria. El terreno es sobre todo suave y arbolado, ideal para principiantes e intermedios rodadores, con abundante nieve artificial para compensar su altitud modesta. El pueblo es famoso por su après-ski animado y sus precios bajos, una semana tirolesa clásica que va bien tanto a grupos como a familias.",
+      "pt": "Söll é uma das entradas mais acolhedoras do SkiWelt Wilder Kaiser-Brixental, que liga nove aldeias em 284 km de pistas, entre os maiores domínios ligados da Áustria. O terreno é sobretudo suave e arborizado, ideal para principiantes e intermédios roladores, com abundante neve artificial para compensar a altitude modesta. A aldeia é famosa pelo après-ski animado e pelos preços baixos, uma semana tirolesa clássica que assenta bem tanto a grupos como a famílias."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 100,
+      "red": 120,
+      "black": 24
+    }
+  },
+  {
+    "slug": "alpbach",
+    "name": "Alpbach",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.398,
+    "lng": 11.941,
+    "altitudeBase": 1000,
+    "altitudeSummit": 2025,
+    "pistesKm": 109,
+    "lifts": 47,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "scenic",
+      "family",
+      "authentic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Alpbach is a famously pretty wooden village; most hotels are in the village, a short walk or shuttle from the Wiedersbergerhorn gondola.",
+      "fr": "Alpbach est un village de bois réputé pour sa beauté ; la plupart des hôtels sont au village, à quelques pas ou en navette de la télécabine du Wiedersbergerhorn.",
+      "es": "Alpbach es un pueblo de madera famoso por su belleza; la mayoría de los hoteles están en el pueblo, a pocos pasos o en lanzadera de la telecabina del Wiedersbergerhorn.",
+      "pt": "Alpbach é uma aldeia de madeira famosa pela beleza; a maioria dos hotéis fica na aldeia, a poucos passos ou de transfer do telecabine do Wiedersbergerhorn."
+    },
+    "intro": {
+      "en": "Often called Austria's most beautiful village, Alpbach is a vision of dark-wood chalets, now linked with Wildschönau as the 109 km Ski Juwel. Storybook looks with proper intermediate skiing.",
+      "fr": "Souvent dit le plus beau village d'Autriche, Alpbach est une vision de chalets en bois sombre, désormais relié à la Wildschönau dans le Ski Juwel et ses 109 km. Un décor de conte avec un vrai ski intermédiaire.",
+      "es": "A menudo llamado el pueblo más bonito de Austria, Alpbach es una visión de chalets de madera oscura, ahora enlazado con Wildschönau en el Ski Juwel y sus 109 km. Estampa de cuento con un esquí intermedio de verdad.",
+      "pt": "Muitas vezes dito a aldeia mais bonita da Áustria, Alpbach é uma visão de chalés de madeira escura, agora ligado à Wildschönau no Ski Juwel e os seus 109 km. Visual de conto com um esqui intermédio a sério."
+    },
+    "longDescription": {
+      "en": "Alpbach has won prizes as the most beautiful village in Austria, a tight cluster of dark-timber chalets that all newer buildings must imitate. Its skiing on the Wiedersbergerhorn links with neighbouring Wildschönau to form the 109 km Ski Juwel, mostly rewarding intermediate terrain with a few genuinely steep pitches. It is a postcard base with real Tyrolean character, low-key and family-friendly rather than glitzy.",
+      "fr": "Alpbach a été primé comme le plus beau village d'Autriche, un serré ensemble de chalets de bois sombre que toute construction récente doit imiter. Son ski sur le Wiedersbergerhorn se relie à la Wildschönau voisine pour former le Ski Juwel et ses 109 km, surtout un terrain intermédiaire gratifiant avec quelques pentes vraiment raides. Une base de carte postale au vrai caractère tyrolien, discrète et familiale plutôt que clinquante.",
+      "es": "Alpbach ha ganado premios como el pueblo más bonito de Austria, un apretado conjunto de chalets de madera oscura que toda construcción nueva debe imitar. Su esquí en el Wiedersbergerhorn se enlaza con la vecina Wildschönau para formar el Ski Juwel y sus 109 km, sobre todo un terreno intermedio gratificante con algunas pendientes realmente empinadas. Una base de postal con auténtico carácter tirolés, discreta y familiar más que ostentosa.",
+      "pt": "Alpbach ganhou prémios como a aldeia mais bonita da Áustria, um apertado conjunto de chalés de madeira escura que toda a construção nova deve imitar. O seu esqui no Wiedersbergerhorn liga-se à vizinha Wildschönau para formar o Ski Juwel e os seus 109 km, sobretudo um terreno intermédio gratificante com algumas encostas realmente íngremes. Uma base de postal com autêntico carácter tirolês, discreta e familiar mais do que ostensiva."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 40,
+      "red": 50,
+      "black": 12
+    }
+  },
+  {
+    "slug": "fieberbrunn",
+    "name": "Fieberbrunn",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.466,
+    "lng": 12.547,
+    "altitudeBase": 800,
+    "altitudeSummit": 2020,
+    "pistesKm": 270,
+    "lifts": 70,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "freeride",
+      "big-domain",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Fieberbrunn is a spread-out village below the Lärchfilzkogel gondola; hotels are in and around the village, a short hop from the lift into the Skicircus.",
+      "fr": "Fieberbrunn est un village étendu sous la télécabine du Lärchfilzkogel ; les hôtels sont dans le village et aux alentours, à un saut de la remontée vers le Skicircus.",
+      "es": "Fieberbrunn es un pueblo extendido bajo la telecabina del Lärchfilzkogel; los hoteles están en el pueblo y alrededores, a un paso del remonte hacia el Skicircus.",
+      "pt": "Fieberbrunn é uma aldeia espalhada sob o telecabine do Lärchfilzkogel; os hotéis ficam na aldeia e arredores, a um salto do teleférico para o Skicircus."
+    },
+    "intro": {
+      "en": "A Tyrolean freeride hotspot linked into the giant Skicircus, Fieberbrunn famously holds the best powder in the region. The huge 270 km circuit reaches all the way to Saalbach.",
+      "fr": "Haut lieu du freeride tyrolien relié au géant Skicircus, Fieberbrunn est réputée garder la meilleure poudreuse de la région. L'immense circuit de 270 km va jusqu'à Saalbach.",
+      "es": "Punto caliente del freeride tirolés enlazado al gigante Skicircus, Fieberbrunn es famosa por conservar el mejor polvo de la región. El inmenso circuito de 270 km llega hasta Saalbach.",
+      "pt": "Ponto quente do freeride tirolês ligado ao gigante Skicircus, Fieberbrunn é famosa por manter a melhor neve pó da região. O imenso circuito de 270 km chega até Saalbach."
+    },
+    "longDescription": {
+      "en": "Fieberbrunn is the freeride capital of the Kitzbühel Alps, a Freeride World Tour venue famous for catching more snow than its neighbours thanks to its north-leaning slopes. A gondola link ties it into the Skicircus Saalbach Hinterglemm Leogang Fieberbrunn, a colossal 270 km circuit you can ski all the way to Saalbach and back. Pisted terrain is broad and intermediate-friendly, but the real draw is the off-piste and the sheer scale of the linked domain.",
+      "fr": "Fieberbrunn est la capitale du freeride des Alpes de Kitzbühel, étape du Freeride World Tour réputée pour capter plus de neige que ses voisines grâce à ses pentes orientées nord. Une liaison par télécabine l'intègre au Skicircus Saalbach Hinterglemm Leogang Fieberbrunn, un colossal circuit de 270 km que l'on skie jusqu'à Saalbach et retour. Le terrain sur pistes est large et accueillant pour les intermédiaires, mais le vrai attrait reste le hors-piste et l'ampleur du domaine relié.",
+      "es": "Fieberbrunn es la capital del freeride de los Alpes de Kitzbühel, sede del Freeride World Tour famosa por captar más nieve que sus vecinas gracias a sus laderas orientadas al norte. Un enlace por telecabina la integra en el Skicircus Saalbach Hinterglemm Leogang Fieberbrunn, un colosal circuito de 270 km que se esquía hasta Saalbach y vuelta. El terreno en pista es amplio y amable para intermedios, pero el verdadero atractivo es el fuera de pista y la enorme escala del dominio enlazado.",
+      "pt": "Fieberbrunn é a capital do freeride dos Alpes de Kitzbühel, palco do Freeride World Tour famosa por captar mais neve do que as vizinhas graças às encostas viradas a norte. Uma ligação por telecabine integra-a no Skicircus Saalbach Hinterglemm Leogang Fieberbrunn, um colossal circuito de 270 km que se esquia até Saalbach e de volta. O terreno em pista é amplo e acolhedor para intermédios, mas o verdadeiro atrativo é o fora-de-pista e a enorme escala do domínio ligado."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 90,
+      "red": 110,
+      "black": 40
+    }
+  },
+  {
+    "slug": "gerlos",
+    "name": "Gerlos",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.223,
+    "lng": 12.021,
+    "altitudeBase": 1250,
+    "altitudeSummit": 2500,
+    "pistesKm": 143,
+    "lifts": 51,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 21",
+    "snowScore": 82,
+    "vibes": [
+      "big-domain",
+      "family",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Gerlos is a high Zillertal village strung along the road to the pass; many hotels sit by the lifts on the snow-front for easy ski-in/ski-out.",
+      "fr": "Gerlos est un village d'altitude du Zillertal étiré le long de la route du col ; de nombreux hôtels jouxtent les remontées sur le front de neige pour un ski-in/ski-out facile.",
+      "es": "Gerlos es un pueblo alto del Zillertal estirado a lo largo de la carretera del puerto; muchos hoteles están junto a los remontes en el frente de nieve para un ski-in/ski-out fácil.",
+      "pt": "Gerlos é uma aldeia alta do Zillertal estendida ao longo da estrada do colo; muitos hotéis ficam junto aos teleféricos na frente de neve para um ski-in/ski-out fácil."
+    },
+    "intro": {
+      "en": "A high, snowy village in the Zillertal, Gerlos anchors the 143 km Zillertal Arena, the valley's biggest linked area. Sunny, family-friendly and reliably white at 1250 m.",
+      "fr": "Village haut et enneigé du Zillertal, Gerlos est le pivot de la Zillertal Arena et ses 143 km, le plus grand domaine relié de la vallée. Ensoleillée, familiale et fidèlement enneigée à 1250 m.",
+      "es": "Pueblo alto y nevado del Zillertal, Gerlos es el eje de la Zillertal Arena y sus 143 km, el mayor dominio enlazado del valle. Soleada, familiar y fiablemente nevada a 1250 m.",
+      "pt": "Aldeia alta e nevada do Zillertal, Gerlos é o eixo da Zillertal Arena e os seus 143 km, o maior domínio ligado do vale. Solarenga, familiar e fiavelmente nevada a 1250 m."
+    },
+    "longDescription": {
+      "en": "Gerlos sits high on the road to the Gerlos pass, the central village of the Zillertal Arena, which links with Zell am Ziller and Königsleiten for 143 km of sunny, varied piste. At 1250 m it holds snow well, and the broad, well-groomed runs suit families and intermediates, with the whole Zillertal Superskipass on the doorstep. Quieter and snowier than the valley-floor resorts, it is a smart base for skiing the wider Zillertal.",
+      "fr": "Gerlos se tient haut sur la route du col de Gerlos, village central de la Zillertal Arena, qui se relie à Zell am Ziller et Königsleiten pour 143 km de pistes ensoleillées et variées. À 1250 m, elle garde bien la neige, et ses pistes larges et bien damées conviennent aux familles et aux intermédiaires, avec tout le Superskipass du Zillertal à la porte. Plus calme et plus enneigée que les stations de fond de vallée, c'est une base maligne pour skier l'ensemble du Zillertal.",
+      "es": "Gerlos se alza en lo alto de la carretera del puerto de Gerlos, el pueblo central de la Zillertal Arena, que se enlaza con Zell am Ziller y Königsleiten para 143 km de pistas soleadas y variadas. A 1250 m aguanta bien la nieve, y sus pistas amplias y bien pisadas van bien a familias e intermedios, con todo el Superskipass del Zillertal a la puerta. Más tranquila y nevada que las estaciones del fondo del valle, es una base inteligente para esquiar todo el Zillertal.",
+      "pt": "Gerlos fica no alto da estrada do colo de Gerlos, a aldeia central da Zillertal Arena, que se liga a Zell am Ziller e Königsleiten para 143 km de pistas solarengas e variadas. A 1250 m aguenta bem a neve, e as pistas largas e bem pisadas assentam a famílias e intermédios, com todo o Superskipass do Zillertal à porta. Mais tranquila e nevada do que as estâncias do fundo do vale, é uma base inteligente para esquiar todo o Zillertal."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 60,
+      "black": 20
+    }
+  },
+  {
+    "slug": "flachau",
+    "name": "Flachau",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.345,
+    "lng": 13.39,
+    "altitudeBase": 925,
+    "altitudeSummit": 1980,
+    "pistesKm": 120,
+    "lifts": 45,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 79,
+    "vibes": [
+      "family",
+      "racing",
+      "big-domain"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Flachau is a busy village below the Snow Space slopes; many hotels sit on the snow-front, with the rest a short walk or shuttle from the gondolas.",
+      "fr": "Flachau est un village animé sous les pistes du Snow Space ; de nombreux hôtels donnent sur le front de neige, le reste à quelques pas ou en navette des télécabines.",
+      "es": "Flachau es un pueblo animado bajo las pistas del Snow Space; muchos hoteles dan al frente de nieve, el resto a pocos pasos o en lanzadera de las telecabinas.",
+      "pt": "Flachau é uma aldeia animada sob as pistas do Snow Space; muitos hotéis dão para a frente de neve, o resto a poucos passos ou de transfer dos telecabines."
+    },
+    "intro": {
+      "en": "Home village of ski legend Hermann Maier, Flachau anchors Snow Space Salzburg and hosts a floodlit World Cup night slalom. A family favourite on the giant Ski amadé pass.",
+      "fr": "Village natal de la légende du ski Hermann Maier, Flachau est le pivot du Snow Space Salzburg et accueille un slalom nocturne de Coupe du monde sous les projecteurs. Un favori des familles sur le géant forfait Ski amadé.",
+      "es": "Pueblo natal de la leyenda del esquí Hermann Maier, Flachau es el eje del Snow Space Salzburg y acoge un eslalon nocturno de Copa del Mundo bajo focos. Un favorito de las familias en el gigante forfait Ski amadé.",
+      "pt": "Aldeia natal da lenda do esqui Hermann Maier, Flachau é o eixo do Snow Space Salzburg e acolhe um slalom noturno da Taça do Mundo sob holofotes. Um favorito das famílias no gigante passe Ski amadé."
+    },
+    "longDescription": {
+      "en": "Flachau is the home village of double Olympic champion Hermann Maier and the hub of Snow Space Salzburg, which links with Wagrain and St. Johann for 120 km of broad, beautifully groomed piste. Part of the giant Ski amadé pass, it is a family and intermediate paradise, with gentle runs, big ski schools and a famous floodlit World Cup night slalom each January. Lively but well-organised, it is one of the most popular family weeks in the Salzburg Alps.",
+      "fr": "Flachau est le village natal du double champion olympique Hermann Maier et le cœur du Snow Space Salzburg, qui se relie à Wagrain et St. Johann pour 120 km de pistes larges et magnifiquement damées. Intégrée au géant forfait Ski amadé, c'est un paradis pour familles et intermédiaires, avec des pistes douces, de grandes écoles de ski et un célèbre slalom nocturne de Coupe du monde chaque janvier. Animée mais bien organisée, c'est l'une des semaines familiales les plus prisées des Alpes de Salzbourg.",
+      "es": "Flachau es el pueblo natal del doble campeón olímpico Hermann Maier y el corazón del Snow Space Salzburg, que se enlaza con Wagrain y St. Johann para 120 km de pistas amplias y magníficamente pisadas. Integrada en el gigante forfait Ski amadé, es un paraíso para familias e intermedios, con pistas suaves, grandes escuelas de esquí y un famoso eslalon nocturno de Copa del Mundo cada enero. Animada pero bien organizada, es una de las semanas familiares más populares de los Alpes de Salzburgo.",
+      "pt": "Flachau é a aldeia natal do bicampeão olímpico Hermann Maier e o coração do Snow Space Salzburg, que se liga a Wagrain e St. Johann para 120 km de pistas amplas e magnificamente pisadas. Integrada no gigante passe Ski amadé, é um paraíso para famílias e intermédios, com pistas suaves, grandes escolas de esqui e um famoso slalom noturno da Taça do Mundo todos os janeiros. Animada mas bem organizada, é uma das semanas familiares mais populares dos Alpes de Salzburgo."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 45,
+      "red": 55,
+      "black": 15
+    }
   }
 ]

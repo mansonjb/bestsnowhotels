@@ -69,6 +69,86 @@ export function goodToKnowLabel(locale: Locale): string {
   return GOOD_TO_KNOW[locale]
 }
 
+const WHY_WE_LIKE: Record<Locale, string> = {
+  en: 'Why we like it',
+  fr: 'Pourquoi on aime',
+  es: 'Por qué nos gusta',
+  pt: 'Porque gostamos',
+}
+export function whyWeLikeLabel(locale: Locale): string {
+  return WHY_WE_LIKE[locale]
+}
+
+const TOP_PICK: Record<Locale, string> = {
+  en: 'Top pick',
+  fr: 'Notre coup de cœur',
+  es: 'Nuestra preferida',
+  pt: 'A nossa preferida',
+}
+export function topPickLabel(locale: Locale): string {
+  return TOP_PICK[locale]
+}
+
+/**
+ * A short editorial "why we like it" reason, picking the hotel's single
+ * strongest selling point from its data (slope-side, top-rated, luxury,
+ * value, popular, or a safe default).
+ */
+export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): string {
+  const d = hotel.distanceToSlopesM
+  const r = hotel.rating
+  const n = hotel.reviewCount
+  const tier = priceKey(hotel.priceFrom)
+
+  let kind: string
+  if (d != null && d <= 350) kind = 'slopeside'
+  else if (r >= 4.7 && n >= 150) kind = 'topRated'
+  else if (tier === 'luxury') kind = 'luxury'
+  else if ((tier === 'budget' || tier === 'mid') && r >= 4.4) kind = 'value'
+  else if (n >= 600) kind = 'popular'
+  else kind = 'reliable'
+
+  const R: Record<string, Record<Locale, string>> = {
+    slopeside: {
+      en: `Moments from the lifts in ${resortName}, so you can ski back to the door and skip the morning queues.`,
+      fr: `À quelques pas des remontées à ${resortName} : on rentre skis aux pieds et on évite les files du matin.`,
+      es: `A pocos pasos de los remontes en ${resortName}: vuelves esquiando hasta la puerta y te ahorras las colas de la mañana.`,
+      pt: `A poucos passos dos teleféricos em ${resortName}: regressa a esquiar até à porta e evita as filas da manhã.`,
+    },
+    topRated: {
+      en: `One of the highest-rated places to stay in ${resortName}, with guests singling out the service and comfort.`,
+      fr: `L'un des hôtels les mieux notés de ${resortName}, où les voyageurs saluent l'accueil et le confort.`,
+      es: `Uno de los alojamientos mejor valorados de ${resortName}, donde los huéspedes destacan el trato y el confort.`,
+      pt: `Um dos alojamentos mais bem avaliados de ${resortName}, onde os hóspedes destacam o atendimento e o conforto.`,
+    },
+    luxury: {
+      en: `A polished, high-end base for ${resortName} when you want to be properly looked after after a day on the snow.`,
+      fr: `Une adresse haut de gamme et soignée à ${resortName}, pour se faire chouchouter après une journée sur les pistes.`,
+      es: `Una dirección de alta gama y cuidada en ${resortName}, para que te mimen tras un día en la nieve.`,
+      pt: `Uma morada de alta gama e cuidada em ${resortName}, para se deixar mimar depois de um dia na neve.`,
+    },
+    value: {
+      en: `Strong value for ${resortName}, with a high guest rating that punches above its nightly price.`,
+      fr: `Un très bon plan à ${resortName}, avec une note voyageurs élevée pour un prix à la nuit raisonnable.`,
+      es: `Una gran relación calidad-precio en ${resortName}, con una nota de huéspedes alta para su precio por noche.`,
+      pt: `Uma ótima relação qualidade-preço em ${resortName}, com uma nota de hóspedes alta para o preço por noite.`,
+    },
+    popular: {
+      en: `A long-standing favourite in ${resortName}, trusted by thousands of guests before you.`,
+      fr: `Un favori de longue date à ${resortName}, plébiscité par des milliers de voyageurs avant vous.`,
+      es: `Un favorito de siempre en ${resortName}, avalado por miles de huéspedes antes que tú.`,
+      pt: `Um favorito de longa data em ${resortName}, recomendado por milhares de hóspedes antes de si.`,
+    },
+    reliable: {
+      en: `A dependable, well-reviewed choice for a stay in ${resortName}.`,
+      fr: `Un choix fiable et bien noté pour un séjour à ${resortName}.`,
+      es: `Una opción fiable y bien valorada para alojarse en ${resortName}.`,
+      pt: `Uma opção fiável e bem avaliada para ficar em ${resortName}.`,
+    },
+  }
+  return R[kind][locale]
+}
+
 /** A short, data-driven "good to know" paragraph for the card. */
 export function hotelBlurb(hotel: Hotel, resortName: string, locale: Locale): string {
   const rw = hotelRatingWord(hotel.rating, locale).toLowerCase()

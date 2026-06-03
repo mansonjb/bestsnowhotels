@@ -398,17 +398,29 @@ export default async function DestinationDetailPage({
           <p className="mt-2 text-ice-800/80 mb-6">
             {dict.destination.whereToStaySubtitle}
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {hotels.map((h) => (
-              <HotelCard
-                key={h.id}
-                hotel={h}
-                bookHref={buildAllezHotelLink(h.name, d.name, d.country, 'hotel', 7)}
-                resortName={d.name}
-                locale={l}
-                labels={hotelLabels}
-              />
-            ))}
+          <div className="space-y-5">
+            <HotelCard
+              hotel={hotels[0]}
+              featured
+              bookHref={buildAllezHotelLink(hotels[0].name, d.name, d.country, 'hotel', 7)}
+              resortName={d.name}
+              locale={l}
+              labels={hotelLabels}
+            />
+            {hotels.length > 1 && (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {hotels.slice(1).map((h) => (
+                  <HotelCard
+                    key={h.id}
+                    hotel={h}
+                    bookHref={buildAllezHotelLink(h.name, d.name, d.country, 'hotel', 7)}
+                    resortName={d.name}
+                    locale={l}
+                    labels={hotelLabels}
+                  />
+                ))}
+              </div>
+            )}
           </div>
           <p className="mt-4 text-xs text-ice-500">{dict.destination.ratingsNote}</p>
         </section>

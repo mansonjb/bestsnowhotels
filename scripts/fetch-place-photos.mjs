@@ -148,6 +148,22 @@ const TARGETS = [
   { slug: 'gstaad',               query: 'Gstaad ski resort Saanenland chalet village Switzerland panorama winter snow' },
   { slug: 'champery',             query: 'Champery ski village Dents du Midi Portes du Soleil Switzerland panorama winter snow' },
   { slug: 'grimentz-zinal',       query: 'Grimentz Zinal ski resort Val d Anniviers Weisshorn Valais Switzerland winter snow' },
+  { slug: 'obertauern',           query: 'Obertauern ski resort Tauern pass Salzburg Austria snow village winter' },
+  { slug: 'schladming',           query: 'Schladming Planai ski resort night slalom Styria Austria winter snow' },
+  { slug: 'bad-gastein',          query: 'Bad Gastein Belle Epoque spa town waterfall ski Austria winter snow' },
+  { slug: 'bad-hofgastein',       query: 'Bad Hofgastein Schlossalm ski resort Gastein valley Austria winter snow' },
+  { slug: 'zell-am-see',          query: 'Zell am See lake Schmittenhohe ski resort Austria winter snow panorama' },
+  { slug: 'kaprun',               query: 'Kaprun Kitzsteinhorn glacier ski resort Austria winter snow' },
+  { slug: 'hintertux',            query: 'Hintertux glacier ski resort Zillertal Austria winter snow' },
+  { slug: 'serfaus-fiss-ladis',   query: 'Serfaus Fiss Ladis ski resort Tyrol Austria plateau winter snow' },
+  { slug: 'nauders',              query: 'Nauders Bergkastel ski resort Reschen pass Tyrol Austria winter snow' },
+  { slug: 'stubai',               query: 'Stubai Glacier ski resort Tyrol Austria Top of Tyrol winter snow' },
+  { slug: 'kuhtai',               query: 'Kuhtai ski resort highest village Tyrol Austria winter snow' },
+  { slug: 'soll',                 query: 'Soll SkiWelt Wilder Kaiser ski resort Tyrol Austria village winter snow' },
+  { slug: 'alpbach',              query: 'Alpbach village ski resort Tyrol Austria wooden chalets winter snow' },
+  { slug: 'fieberbrunn',          query: 'Fieberbrunn ski resort Skicircus freeride Tyrol Austria winter snow' },
+  { slug: 'gerlos',               query: 'Gerlos Zillertal Arena ski resort Tyrol Austria winter snow' },
+  { slug: 'flachau',              query: 'Flachau Snow Space Salzburg ski resort Austria night slalom winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

@@ -128,6 +128,22 @@ const RESORT_SITES: Record<string, string> = {
   gstaad: 'https://www.gstaad.ch',
   champery: 'https://www.champery.ch',
   'grimentz-zinal': 'https://www.valdanniviers.ch',
+  obertauern: 'https://www.obertauern.com',
+  schladming: 'https://www.schladming-dachstein.at',
+  'bad-gastein': 'https://www.gastein.com',
+  'bad-hofgastein': 'https://www.gastein.com',
+  'zell-am-see': 'https://www.zellamsee-kaprun.com',
+  kaprun: 'https://www.zellamsee-kaprun.com',
+  hintertux: 'https://www.hintertuxergletscher.at',
+  'serfaus-fiss-ladis': 'https://www.serfaus-fiss-ladis.at',
+  nauders: 'https://www.nauders.com',
+  stubai: 'https://www.stubaier-gletscher.com',
+  kuhtai: 'https://www.kuehtai.info',
+  soll: 'https://www.skiwelt.at',
+  alpbach: 'https://www.skijuwel.com',
+  fieberbrunn: 'https://www.fieberbrunn.com',
+  gerlos: 'https://www.zillertalarena.com',
+  flachau: 'https://www.snow-space.com',
 }
 
 export function resortSite(slug: string): string | null {
