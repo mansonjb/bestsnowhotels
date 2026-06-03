@@ -4,6 +4,7 @@
     "destinations": "Destinations",
     "countries": "Countries",
     "skiAreas": "Ski areas",
+    "best": "Best for",
     "about": "About"
   },
   "hero": {
@@ -97,6 +98,12 @@
     "faq4A": "{name} has {pistesKm} km of marked pistes served by {lifts} lifts, between {altitudeBase} m and {altitudeSummit} m of altitude.",
     "faq5Q": "Is {name} more for beginners or experts?",
     "faq5A": "{name} counts about {totalRuns} marked runs in total. The colour breakdown above shows how they split by difficulty, a good guide to whether the resort fits your level."
+  },
+  "best": {
+    "title": "Best ski resorts in Europe",
+    "subtitle": "Curated lists of the snowiest, biggest, most luxurious and best-value resorts in our database, all picked from real data on 152 destinations.",
+    "howRanked": "How we picked",
+    "exploreList": "Explore the list"
   },
   "skiAreas": {
     "title": "Ski areas",

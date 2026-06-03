@@ -3,6 +3,7 @@ import { SITE_URL } from '@/lib/site'
 import { destinations } from '@/lib/destinations'
 import { COUNTRIES } from '@/lib/countries'
 import { SKI_AREAS } from '@/lib/skiAreas'
+import { BEST_FOR_LISTS } from '@/lib/bestFor'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -103,6 +104,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: Object.fromEntries(
             locales.map((l) => [l, `${SITE_URL}/${l}/ski-areas/${a.slug}`]),
           ),
+        },
+      })
+    }
+
+    // Best-for index
+    entries.push({
+      url: `${SITE_URL}/${locale}/best`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: {
+        languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/best`])),
+      },
+    })
+
+    // Each best-for list
+    for (const b of BEST_FOR_LISTS) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/best/${b.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.75,
+        alternates: {
+          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/best/${b.slug}`])),
         },
       })
     }

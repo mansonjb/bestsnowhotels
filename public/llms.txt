@@ -39,6 +39,22 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 - Vallnord (Pal-Arinsal, Ordino-Arcalís), around 93 km, Andorra
 - Ski Arlberg (St. Anton, Lech-Zürs), 305 km, Austria
 
+## Best-for lists (curated)
+
+Curated lists for travellers shopping by intent rather than by name:
+- Best snow-sure ski resorts: highest snow score (0-100), top altitudes
+- Best family ski resorts
+- Most luxurious ski resorts
+- Best ski resorts with a glacier
+- Biggest ski domains (linked piste km)
+- Best value ski resorts
+- Best resorts for freeride
+- Best resorts for beginners
+- Highest ski resorts in Europe (by village altitude)
+- Car-free ski resorts
+
+Index: https://www.bestsnowhotels.com/en/best
+
 ## Country coverage
 
 - France (69): Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets, Les Menuires, Avoriaz, Morzine, Les Gets, Megève, La Clusaz, Les Deux Alpes, La Rosière, Flaine, Samoëns, Châtel, Valmorel, Montgenèvre, Les Saisies, Le Grand-Bornand, Sainte-Foy-Tarentaise, Val Cenis, Vaujany, Risoul, Vars, Pra-Loup, Isola 2000, Saint-Gervais, Ax 3 Domaines, Les Angles, Les Sybelles, Valloire, Orcières-Merlette, Les Orres, Auron, Les Contamines, Piau-Engaly, Luz-Ardiden, Gourette, Bonneval-sur-Arc, SuperDévoluy, Valberg, Chamrousse, Combloux, Valfréjus, La Pierre Saint-Martin, Guzet, Porté-Puymorens, Les 7 Laux, Villard-de-Lans, Saint-François-Longchamp, Aussois, Valmeinier, Arêches-Beaufort, La Norma, Les Houches, Luchon-Superbagnères, Formiguères, Val Louron

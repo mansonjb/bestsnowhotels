@@ -15,7 +15,7 @@ interface FooterProps {
       disclosureText: string
       copyright: string
     }
-    nav: { destinations: string; countries: string; skiAreas: string }
+    nav: { destinations: string; countries: string; skiAreas: string; best: string }
   }
 }
 
@@ -58,6 +58,11 @@ export default function Footer({ locale, dict }: FooterProps) {
               <li>
                 <Link href={`/${locale}/ski-areas`} className="hover:text-slate-deep">
                   {dict.nav.skiAreas}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/best`} className="hover:text-slate-deep">
+                  {dict.nav.best}
                 </Link>
               </li>
             </ul>

@@ -4,6 +4,7 @@
     "destinations": "Destinations",
     "countries": "Pays",
     "skiAreas": "Domaines skiables",
+    "best": "Top stations",
     "about": "À propos"
   },
   "hero": {
@@ -97,6 +98,12 @@
     "faq4A": "{name} compte {pistesKm} km de pistes balisées desservies par {lifts} remontées, entre {altitudeBase} m et {altitudeSummit} m d'altitude.",
     "faq5Q": "{name} est-il plutôt pour les débutants ou les experts ?",
     "faq5A": "{name} compte environ {totalRuns} pistes balisées au total. La répartition par couleur ci-dessus montre comment elles se distribuent par difficulté, de quoi juger si la station correspond à votre niveau."
+  },
+  "best": {
+    "title": "Les meilleures stations de ski d'Europe",
+    "subtitle": "Sélections des stations les plus enneigées, les plus grandes, les plus chic et au meilleur rapport qualité-prix de notre base, toutes choisies sur les vraies données de nos 152 destinations.",
+    "howRanked": "Comment on a choisi",
+    "exploreList": "Découvrir la sélection"
   },
   "skiAreas": {
     "title": "Domaines skiables",

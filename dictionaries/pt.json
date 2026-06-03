@@ -4,6 +4,7 @@
     "destinations": "Destinos",
     "countries": "Países",
     "skiAreas": "Domínios esquiáveis",
+    "best": "Top estâncias",
     "about": "Sobre"
   },
   "hero": {
@@ -97,6 +98,12 @@
     "faq4A": "{name} tem {pistesKm} km de pistas balizadas servidas por {lifts} teleféricos, entre {altitudeBase} m e {altitudeSummit} m de altitude.",
     "faq5Q": "{name} é mais para principiantes ou para experientes?",
     "faq5A": "{name} conta com cerca de {totalRuns} pistas sinalizadas no total. A repartição por cor acima mostra como se distribuem por dificuldade, um bom indicador para saber se a estância se adapta ao seu nível."
+  },
+  "best": {
+    "title": "As melhores estâncias de esqui da Europa",
+    "subtitle": "Seleções das estâncias com mais neve, maiores, mais chiques e com a melhor relação qualidade-preço da nossa base, todas escolhidas a partir de dados reais sobre 152 destinos.",
+    "howRanked": "Como escolhemos",
+    "exploreList": "Explorar a seleção"
   },
   "skiAreas": {
     "title": "Domínios esquiáveis",
