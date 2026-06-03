@@ -6990,5 +6990,649 @@
       "red": 65,
       "black": 20
     }
+  },
+  {
+    "slug": "la-foux-allos",
+    "name": "La Foux d'Allos",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.276,
+    "lng": 6.582,
+    "altitudeBase": 1800,
+    "altitudeSummit": 2600,
+    "pistesKm": 180,
+    "lifts": 53,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "sunny",
+      "family",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "La Foux d'Allos is a purpose-built, slope-side resort at 1800 m; most apartments sit right on the snow-front for true ski-in/ski-out.",
+      "fr": "La Foux d'Allos est une station construite au pied des pistes à 1800 m : la plupart des appartements donnent sur le front de neige pour un vrai ski-in/ski-out.",
+      "es": "La Foux d'Allos es una estación construida a pie de pista a 1800 m: la mayoría de los apartamentos dan al frente de nieve para un verdadero ski-in/ski-out.",
+      "pt": "La Foux d'Allos é uma estância construída no sopé das pistas a 1800 m: a maioria dos apartamentos dão para a frente de neve para um verdadeiro ski-in/ski-out."
+    },
+    "intro": {
+      "en": "A sunny purpose-built resort at the head of the Verdon valley, La Foux d'Allos links with Pra-Loup to form the 180 km Espace Lumière. Real southern Alps light and snow-sure altitude.",
+      "fr": "Station construite et ensoleillée en tête de la vallée du Verdon, La Foux d'Allos se relie à Pra-Loup pour former l'Espace Lumière et ses 180 km. Vraie lumière des Alpes du Sud et altitude sûre en neige.",
+      "es": "Estación construida y soleada en la cabecera del valle del Verdón, La Foux d'Allos se une a Pra-Loup para formar el Espace Lumière y sus 180 km. Auténtica luz de los Alpes del Sur y altitud de nieve segura.",
+      "pt": "Estância construída e solarenga na cabeceira do vale do Verdon, La Foux d'Allos liga-se a Pra-Loup para formar o Espace Lumière e os seus 180 km. Autêntica luz dos Alpes do Sul e altitude de neve segura."
+    },
+    "longDescription": {
+      "en": "La Foux d'Allos sits at the head of the Verdon valley, a compact slope-side resort built at 1800 m, sunny and snow-sure thanks to its altitude in the southern Alps. A long ridge link drops over to Pra-Loup to form the 180 km Espace Lumière, with wide, well-graded cruisers and short queues. Quiet, family-friendly and great value, it is one of the smartest southern-Alps bases for a relaxed week on snow.",
+      "fr": "La Foux d'Allos se tient en tête de la vallée du Verdon, station compacte construite au pied des pistes à 1800 m, ensoleillée et sûre en neige grâce à son altitude dans les Alpes du Sud. Une longue liaison de crête bascule vers Pra-Loup pour former l'Espace Lumière et ses 180 km, larges pistes roulantes et files courtes. Calme, familiale et d'un bon rapport qualité-prix, c'est l'une des bases les plus malines des Alpes du Sud pour une semaine de ski détendue.",
+      "es": "La Foux d'Allos se sitúa en la cabecera del valle del Verdón, una estación compacta construida a pie de pista a 1800 m, soleada y de nieve segura gracias a su altitud en los Alpes del Sur. Un largo enlace de cresta cae a Pra-Loup para formar el Espace Lumière y sus 180 km, amplias pistas rodadoras y colas cortas. Tranquila, familiar y de buena relación calidad-precio, es una de las bases más inteligentes de los Alpes del Sur para una semana relajada en la nieve.",
+      "pt": "La Foux d'Allos fica na cabeceira do vale do Verdon, uma estância compacta construída no sopé das pistas a 1800 m, solarenga e de neve segura graças à altitude nos Alpes do Sul. Uma longa ligação de crista desce para Pra-Loup para formar o Espace Lumière e os seus 180 km, amplas pistas roladoras e filas curtas. Tranquila, familiar e de boa relação qualidade-preço, é uma das bases mais inteligentes dos Alpes do Sul para uma semana descontraída na neve."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 22,
+      "red": 28,
+      "black": 9
+    }
+  },
+  {
+    "slug": "crest-voland-cohennoz",
+    "name": "Crest-Voland-Cohennoz",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.77,
+    "lng": 6.487,
+    "altitudeBase": 1230,
+    "altitudeSummit": 1980,
+    "pistesKm": 192,
+    "lifts": 80,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "scenic",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Crest-Voland is a tiny old Savoyard village with lifts on the doorstep; most lodging is in the village, a short walk or ski from the snow-front.",
+      "fr": "Crest-Voland est un minuscule vieux village savoyard avec les remontées au pied : la plupart des hébergements sont dans le village, à quelques pas ou à skis du front de neige.",
+      "es": "Crest-Voland es un minúsculo viejo pueblo saboyano con los remontes a la puerta: la mayoría del alojamiento está en el pueblo, a pocos pasos o esquiando del frente de nieve.",
+      "pt": "Crest-Voland é uma minúscula velha aldeia saboiana com os teleféricos à porta: a maioria do alojamento fica na aldeia, a poucos passos ou a esqui do sopé das pistas."
+    },
+    "intro": {
+      "en": "A real old Savoyard village in the Beaufortain, Crest-Voland is one of the gateways into the 192 km Espace Diamant, linked with Les Saisies. Postcard mountains, gentle slopes and refreshingly low prices.",
+      "fr": "Vrai vieux village savoyard du Beaufortain, Crest-Voland est l'une des portes d'entrée de l'Espace Diamant et ses 192 km, relié aux Saisies. Montagnes de carte postale, pentes douces et tarifs étonnamment doux.",
+      "es": "Auténtico viejo pueblo saboyano del Beaufortain, Crest-Voland es una de las entradas al Espace Diamant y sus 192 km, enlazado con Les Saisies. Montañas de postal, pendientes suaves y precios sorprendentemente bajos.",
+      "pt": "Autêntica velha aldeia saboiana do Beaufortain, Crest-Voland é uma das entradas do Espace Diamant e os seus 192 km, ligada a Les Saisies. Montanhas de postal, pendentes suaves e preços surpreendentemente baixos."
+    },
+    "longDescription": {
+      "en": "Crest-Voland sits in the Beaufortain near the head of the Val d'Arly, a tiny stone-and-wood village ringed by farms, lift-linked over the hill into the 192 km Espace Diamant alongside Les Saisies, Notre-Dame-de-Bellecombe, Flumet and Praz-sur-Arly. The skiing is mostly gentle, sunny and forested, ideal for families and improvers, and the views toward Mont Blanc are some of the best in the northern Alps. Discreet and low-key, it is one of the genuinely authentic, well-priced bases left in fashionable Savoie.",
+      "fr": "Crest-Voland se niche dans le Beaufortain près de la tête du Val d'Arly, minuscule village de pierre et de bois entouré de fermes, relié par la montagne à l'Espace Diamant et ses 192 km, au côté des Saisies, de Notre-Dame-de-Bellecombe, de Flumet et de Praz-sur-Arly. Le ski est surtout doux, ensoleillé et boisé, idéal pour les familles et les skieurs en progrès, avec parmi les plus belles vues sur le Mont Blanc des Alpes du Nord. Discret et sans esbroufe, c'est l'une des bases authentiques et abordables encore préservées dans une Savoie à la mode.",
+      "es": "Crest-Voland se acomoda en el Beaufortain cerca de la cabecera del Val d'Arly, un diminuto pueblo de piedra y madera rodeado de granjas, enlazado por la montaña con el Espace Diamant y sus 192 km, junto a Les Saisies, Notre-Dame-de-Bellecombe, Flumet y Praz-sur-Arly. El esquí es sobre todo suave, soleado y arbolado, ideal para familias y quienes mejoran, con algunas de las mejores vistas al Mont Blanc de los Alpes del Norte. Discreta y sin alardes, es una de las bases auténticas y económicas que aún quedan en una Saboya de moda.",
+      "pt": "Crest-Voland aninha-se no Beaufortain perto da cabeceira do Val d'Arly, uma minúscula aldeia de pedra e madeira rodeada de quintas, ligada pela montanha ao Espace Diamant e aos seus 192 km, ao lado de Les Saisies, Notre-Dame-de-Bellecombe, Flumet e Praz-sur-Arly. O esqui é sobretudo suave, solarengo e arborizado, ideal para famílias e para quem progride, com algumas das melhores vistas para o Mont Blanc dos Alpes do Norte. Discreta e sem alardes, é uma das bases autênticas e acessíveis ainda preservadas numa Saboia da moda."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 25,
+      "red": 24,
+      "black": 5
+    }
+  },
+  {
+    "slug": "notre-dame-de-bellecombe",
+    "name": "Notre-Dame-de-Bellecombe",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.795,
+    "lng": 6.515,
+    "altitudeBase": 1100,
+    "altitudeSummit": 1980,
+    "pistesKm": 192,
+    "lifts": 80,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 75,
+    "vibes": [
+      "family",
+      "scenic",
+      "authentic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Notre-Dame-de-Bellecombe is a traditional village with lifts at one end; hotels are in town and a few residences sit right on the snow-front.",
+      "fr": "Notre-Dame-de-Bellecombe est un village traditionnel avec les remontées à une extrémité : les hôtels sont en ville et quelques résidences donnent sur le front de neige.",
+      "es": "Notre-Dame-de-Bellecombe es un pueblo tradicional con los remontes en un extremo: los hoteles están en el pueblo y algunas residencias dan al frente de nieve.",
+      "pt": "Notre-Dame-de-Bellecombe é uma aldeia tradicional com os teleféricos numa extremidade: os hotéis ficam na vila e algumas residências dão para a frente de neve."
+    },
+    "intro": {
+      "en": "A traditional Val d'Arly village strung along a sunny shelf, Notre-Dame-de-Bellecombe links into the Espace Diamant and its 192 km. Family-friendly, scenic and far less expensive than Megève up the road.",
+      "fr": "Village traditionnel du Val d'Arly étiré sur un balcon ensoleillé, Notre-Dame-de-Bellecombe se relie à l'Espace Diamant et ses 192 km. Familiale, photogénique et bien moins chère que Megève en amont.",
+      "es": "Pueblo tradicional del Val d'Arly estirado sobre una repisa soleada, Notre-Dame-de-Bellecombe se enlaza al Espace Diamant y sus 192 km. Familiar, pintoresca y mucho más barata que Megève valle arriba.",
+      "pt": "Aldeia tradicional do Val d'Arly estendida num patamar solarengo, Notre-Dame-de-Bellecombe liga-se ao Espace Diamant e aos seus 192 km. Familiar, pitoresca e muito mais barata do que Megève vale acima."
+    },
+    "longDescription": {
+      "en": "Notre-Dame-de-Bellecombe spreads along a sunny shelf above the Val d'Arly, a quiet traditional village with classic Savoyard wooden chalets and a working farming community. Its slopes are part of the 192 km Espace Diamant, linked through with Les Saisies, Crest-Voland, Flumet and Praz-sur-Arly, mostly gentle and tree-lined, ideal for families and intermediates. Just down the road from chic Megève, it offers similarly grand Mont Blanc views at a fraction of the price.",
+      "fr": "Notre-Dame-de-Bellecombe s'étire sur un balcon ensoleillé au-dessus du Val d'Arly, village traditionnel calme aux chalets de bois savoyards et à la vie agricole encore présente. Ses pistes font partie des 192 km de l'Espace Diamant, reliées aux Saisies, à Crest-Voland, à Flumet et à Praz-sur-Arly, surtout douces et boisées, idéales pour les familles et les intermédiaires. À quelques minutes de la chic Megève, elle offre des vues semblables sur le Mont Blanc à une fraction du prix.",
+      "es": "Notre-Dame-de-Bellecombe se extiende por una repisa soleada sobre el Val d'Arly, un pueblo tradicional tranquilo de chalets de madera saboyanos y vida agrícola aún presente. Sus laderas forman parte de los 192 km del Espace Diamant, enlazadas con Les Saisies, Crest-Voland, Flumet y Praz-sur-Arly, sobre todo suaves y arboladas, ideales para familias e intermedios. A pocos minutos de la chic Megève, ofrece vistas similares al Mont Blanc por una fracción del precio.",
+      "pt": "Notre-Dame-de-Bellecombe estende-se por um patamar solarengo acima do Val d'Arly, uma aldeia tradicional tranquila de chalés de madeira saboianos e vida agrícola ainda presente. As suas encostas fazem parte dos 192 km do Espace Diamant, ligadas a Les Saisies, Crest-Voland, Flumet e Praz-sur-Arly, sobretudo suaves e arborizadas, ideais para famílias e intermédios. A poucos minutos da chique Megève, oferece vistas semelhantes para o Mont Blanc por uma fração do preço."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 25,
+      "red": 24,
+      "black": 5
+    }
+  },
+  {
+    "slug": "praz-sur-arly",
+    "name": "Praz-sur-Arly",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.838,
+    "lng": 6.572,
+    "altitudeBase": 1036,
+    "altitudeSummit": 2069,
+    "pistesKm": 192,
+    "lifts": 80,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 75,
+    "vibes": [
+      "family",
+      "scenic",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Praz-sur-Arly is a village in the Val d'Arly with the lifts at the edge of town; lodging is in the village, a short walk or shuttle from the slopes.",
+      "fr": "Praz-sur-Arly est un village du Val d'Arly avec les remontées en lisière : on loge dans le village, à quelques pas ou en navette des pistes.",
+      "es": "Praz-sur-Arly es un pueblo del Val d'Arly con los remontes en el borde: se aloja en el pueblo, a pocos pasos o en lanzadera de las pistas.",
+      "pt": "Praz-sur-Arly é uma aldeia do Val d'Arly com os teleféricos na orla: fica-se na aldeia, a poucos passos ou de transfer das pistas."
+    },
+    "intro": {
+      "en": "A quiet Val d'Arly village a short hop from Megève, Praz-sur-Arly is the south-western gateway to the 192 km Espace Diamant. Famous for ballooning, with gentle slopes and grand Mont Blanc views.",
+      "fr": "Village calme du Val d'Arly à un saut de Megève, Praz-sur-Arly est la porte sud-ouest de l'Espace Diamant et ses 192 km. Célèbre pour ses montgolfières, avec des pentes douces et de grandes vues sur le Mont Blanc.",
+      "es": "Pueblo tranquilo del Val d'Arly a un salto de Megève, Praz-sur-Arly es la entrada suroeste del Espace Diamant y sus 192 km. Famoso por sus globos aerostáticos, con pendientes suaves y grandes vistas al Mont Blanc.",
+      "pt": "Aldeia tranquila do Val d'Arly a um salto de Megève, Praz-sur-Arly é a entrada sudoeste do Espace Diamant e dos seus 192 km. Famosa pelos balões de ar quente, com pendentes suaves e grandes vistas para o Mont Blanc."
+    },
+    "longDescription": {
+      "en": "Praz-sur-Arly looks across the Val d'Arly to Mont Blanc, a quiet village just minutes from the cachet of Megève but at a fraction of the prices. Its lifts climb into the 192 km Espace Diamant shared with Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe and Flumet, mostly gentle and forested, with the snow-sure altitude side over Les Saisies kept for fresh tracks. The village is famous for the hot-air balloons that fill the valley on bluebird mornings, an unmistakable Savoyard postcard.",
+      "fr": "Praz-sur-Arly regarde le Val d'Arly et le Mont Blanc, village calme à quelques minutes du cachet de Megève mais à une fraction des tarifs. Ses remontées grimpent dans l'Espace Diamant et ses 192 km partagés avec Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe et Flumet, surtout doux et boisés, le versant d'altitude sûr en neige côté Saisies gardant les premières traces. Le village est célèbre pour les montgolfières qui emplissent la vallée par ciels d'azur, une carte postale savoyarde inimitable.",
+      "es": "Praz-sur-Arly mira el Val d'Arly y el Mont Blanc, un pueblo tranquilo a pocos minutos del caché de Megève pero a una fracción de los precios. Sus remontes suben al Espace Diamant y sus 192 km compartidos con Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe y Flumet, sobre todo suaves y arbolados, con la vertiente de altura de nieve segura del lado de Les Saisies guardando las huellas frescas. El pueblo es famoso por los globos que llenan el valle en mañanas despejadas, una postal saboyana inconfundible.",
+      "pt": "Praz-sur-Arly olha para o Val d'Arly e o Mont Blanc, uma aldeia tranquila a poucos minutos do cachet de Megève mas a uma fração dos preços. Os seus teleféricos sobem para o Espace Diamant e os seus 192 km partilhados com Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe e Flumet, sobretudo suaves e arborizados, com a vertente de altitude de neve segura do lado de Les Saisies a guardar as primeiras curvas. A aldeia é famosa pelos balões de ar quente que enchem o vale nas manhãs limpas, um postal saboiano inconfundível."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 25,
+      "red": 24,
+      "black": 5
+    }
+  },
+  {
+    "slug": "manigod",
+    "name": "Manigod",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.846,
+    "lng": 6.398,
+    "altitudeBase": 1000,
+    "altitudeSummit": 1900,
+    "pistesKm": 220,
+    "lifts": 80,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "authentic",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Manigod is a tiny old Aravis village; hotels are in and around the village, a short walk or drive from the La Croix-Fry slopes shared with La Clusaz.",
+      "fr": "Manigod est un minuscule vieux village des Aravis : les hôtels sont au village et aux alentours, à quelques pas ou minutes en voiture des pistes de la Croix-Fry partagées avec La Clusaz.",
+      "es": "Manigod es un minúsculo viejo pueblo de los Aravis: los hoteles están en el pueblo y alrededores, a pocos pasos o minutos en coche de las pistas de La Croix-Fry compartidas con La Clusaz.",
+      "pt": "Manigod é uma minúscula velha aldeia dos Aravis: os hotéis ficam na aldeia e arredores, a poucos passos ou minutos de carro das pistas da Croix-Fry partilhadas com La Clusaz."
+    },
+    "intro": {
+      "en": "A working old Aravis village famous for its reblochon, Manigod shares the Col de la Croix-Fry slopes with La Clusaz. A discreet, authentic alternative in one of the prettiest corners of Savoie.",
+      "fr": "Vrai vieux village des Aravis, célèbre pour son reblochon, Manigod partage les pistes du Col de la Croix-Fry avec La Clusaz. Une alternative discrète et authentique dans l'un des plus jolis coins de Savoie.",
+      "es": "Auténtico viejo pueblo de los Aravis, famoso por su reblochon, Manigod comparte las pistas del Col de la Croix-Fry con La Clusaz. Una alternativa discreta y auténtica en uno de los rincones más bonitos de la Saboya.",
+      "pt": "Autêntica velha aldeia dos Aravis, famosa pelo seu reblochon, Manigod partilha as pistas do Col de la Croix-Fry com La Clusaz. Uma alternativa discreta e autêntica num dos cantos mais bonitos da Saboia."
+    },
+    "longDescription": {
+      "en": "Manigod is a working farm village in the Aravis, all dark wood and old stone, lift-linked at the Col de la Croix-Fry to the slopes of neighbouring La Clusaz for around 220 km between them on the shared Aravis pass. The local skiing is gentle and family-friendly, but a few drag lifts up reach high enough to drop you straight into La Clusaz's domain. With its reblochon dairies and Michelin-starred Chalet de la Croix-Fry, this is the secret Savoie behind the headline names.",
+      "fr": "Manigod est un village agricole vivant des Aravis, tout de bois sombre et de vieille pierre, relié par les remontées au Col de la Croix-Fry aux pentes de la voisine La Clusaz pour environ 220 km à elles deux, sur le forfait Aravis commun. Le ski local est doux et familial, mais quelques téléskis emmènent assez haut pour basculer directement dans le domaine de La Clusaz. Avec ses fermes à reblochon et le Chalet de la Croix-Fry étoilé Michelin, c'est la Savoie secrète derrière les grands noms.",
+      "es": "Manigod es un pueblo agrícola vivo de los Aravis, todo de madera oscura y piedra vieja, enlazado por los remontes en el Col de la Croix-Fry con las laderas de la vecina La Clusaz para unos 220 km entre las dos en el forfait Aravis común. El esquí local es suave y familiar, pero algunos arrastres llegan lo bastante alto para caer directos en el dominio de La Clusaz. Con sus queserías de reblochon y el Chalet de la Croix-Fry con estrella Michelin, es la Saboya secreta detrás de los grandes nombres.",
+      "pt": "Manigod é uma aldeia agrícola viva dos Aravis, toda em madeira escura e pedra antiga, ligada pelos teleféricos no Col de la Croix-Fry às encostas da vizinha La Clusaz para cerca de 220 km entre as duas, no passe Aravis comum. O esqui local é suave e familiar, mas alguns reboques sobem o suficiente para cair diretamente no domínio de La Clusaz. Com as suas queijarias de reblochon e o Chalet de la Croix-Fry com estrela Michelin, é a Saboia secreta por detrás dos grandes nomes."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 8,
+      "red": 6,
+      "black": 3
+    }
+  },
+  {
+    "slug": "praz-de-lys-sommand",
+    "name": "Praz-de-Lys Sommand",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 46.142,
+    "lng": 6.582,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2002,
+    "pistesKm": 50,
+    "lifts": 23,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "snow-sure",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Praz-de-Lys and Sommand are twin high-altitude resorts; many chalets and apartments sit right on the snow-front for genuine ski-in/ski-out.",
+      "fr": "Praz-de-Lys et Sommand sont des stations-jumelles d'altitude : de nombreux chalets et appartements donnent sur le front de neige pour un vrai ski-in/ski-out.",
+      "es": "Praz-de-Lys y Sommand son estaciones gemelas de altura: muchos chalets y apartamentos dan al frente de nieve para un verdadero ski-in/ski-out.",
+      "pt": "Praz-de-Lys e Sommand são estâncias-gémeas de altitude: muitos chalés e apartamentos dão para o sopé das pistas para um verdadeiro ski-in/ski-out."
+    },
+    "intro": {
+      "en": "A sunny, high-plateau twin resort in the Haute-Savoie Faucigny, Praz-de-Lys Sommand offers 50 km of family piste at 1500 m. Snow-sure altitude on a budget, less than an hour from Geneva.",
+      "fr": "Station-jumelle de plateau d'altitude ensoleillée du Faucigny, Praz-de-Lys Sommand offre 50 km de pistes familiales à 1500 m. Altitude sûre en neige à petit budget, à moins d'une heure de Genève.",
+      "es": "Estación gemela de altiplano soleada del Faucigny, Praz-de-Lys Sommand ofrece 50 km de pistas familiares a 1500 m. Altitud de nieve segura a buen precio, a menos de una hora de Ginebra.",
+      "pt": "Estância-gémea de planalto solarenga do Faucigny, Praz-de-Lys Sommand oferece 50 km de pistas familiares a 1500 m. Altitude de neve segura a bom preço, a menos de uma hora de Genebra."
+    },
+    "longDescription": {
+      "en": "Praz-de-Lys and Sommand sit on a sunny high plateau in the Haute-Savoie Faucigny, two slope-side villages linked into 50 km of mostly intermediate piste at 1500 m. The high base means reliable snow, the lift-served terrain is broad and well groomed, and the proximity to Geneva makes it a quietly popular weekend escape. With far better value than the famous Mont Blanc names down the road, it is a relaxed family pick that just delivers.",
+      "fr": "Praz-de-Lys et Sommand occupent un haut plateau ensoleillé du Faucigny en Haute-Savoie, deux villages au pied des pistes reliés sur 50 km de pistes surtout intermédiaires à 1500 m. La base haute garantit la neige, le terrain desservi par remontées est large et bien damé, et la proximité de Genève en fait une escapade week-end prisée. Bien plus abordable que les grands noms du Mont-Blanc plus bas, c'est un choix familial détendu qui tient ses promesses.",
+      "es": "Praz-de-Lys y Sommand ocupan un alto altiplano soleado del Faucigny en la Alta Saboya, dos pueblos a pie de pista enlazados en 50 km de pistas sobre todo intermedias a 1500 m. La base alta garantiza la nieve, el terreno servido por remontes es amplio y bien pisado, y la cercanía a Ginebra la convierte en una discreta escapada de fin de semana. Mucho más económica que los grandes nombres del Mont Blanc valle abajo, es una opción familiar relajada que cumple.",
+      "pt": "Praz-de-Lys e Sommand ocupam um alto planalto solarengo do Faucigny na Alta Saboia, duas aldeias no sopé das pistas ligadas em 50 km de pistas sobretudo intermédias a 1500 m. A base alta garante a neve, o terreno servido por teleféricos é amplo e bem pisado, e a proximidade de Genebra faz dela uma discreta escapadela de fim de semana. Bem mais acessível do que os grandes nomes do Mont Blanc vale abaixo, é uma opção familiar descontraída que cumpre."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 12,
+      "red": 10,
+      "black": 4
+    }
+  },
+  {
+    "slug": "saint-pierre-de-chartreuse",
+    "name": "Saint-Pierre-de-Chartreuse",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.336,
+    "lng": 5.797,
+    "altitudeBase": 900,
+    "altitudeSummit": 1800,
+    "pistesKm": 35,
+    "lifts": 12,
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Mar 31",
+    "snowScore": 72,
+    "vibes": [
+      "family",
+      "scenic",
+      "authentic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Saint-Pierre-de-Chartreuse is a quiet old village under the cliffs; hotels are in the village, a short walk or shuttle from the Le Planolet lifts.",
+      "fr": "Saint-Pierre-de-Chartreuse est un calme vieux village sous les falaises : les hôtels sont au village, à quelques pas ou en navette des remontées du Planolet.",
+      "es": "Saint-Pierre-de-Chartreuse es un tranquilo y viejo pueblo bajo los acantilados: los hoteles están en el pueblo, a pocos pasos o en lanzadera de los remontes de Le Planolet.",
+      "pt": "Saint-Pierre-de-Chartreuse é uma tranquila e velha aldeia sob as falésias: os hotéis ficam na aldeia, a poucos passos ou de transfer dos teleféricos de Le Planolet."
+    },
+    "intro": {
+      "en": "Tucked into the dramatic Chartreuse massif a short drive from Grenoble, Saint-Pierre-de-Chartreuse is a peaceful family resort below the Chamechaude cliffs. Wild scenery, monastic calm and 35 km of friendly piste.",
+      "fr": "Niché dans le spectaculaire massif de la Chartreuse à courte distance de Grenoble, Saint-Pierre-de-Chartreuse est une paisible station familiale sous les falaises de Chamechaude. Décor sauvage, calme monastique et 35 km de pistes accueillantes.",
+      "es": "Metido en el espectacular macizo de la Chartreuse a poca distancia de Grenoble, Saint-Pierre-de-Chartreuse es una apacible estación familiar bajo los acantilados de Chamechaude. Paisaje salvaje, calma monástica y 35 km de pistas amables.",
+      "pt": "Metida no espetacular maciço da Chartreuse a curta distância de Grenoble, Saint-Pierre-de-Chartreuse é uma serena estância familiar sob as falésias do Chamechaude. Paisagem selvagem, calma monástica e 35 km de pistas acolhedoras."
+    },
+    "longDescription": {
+      "en": "Saint-Pierre-de-Chartreuse sits inside the Chartreuse Regional Park, an old monastic centre under the saw-tooth cliffs of Chamechaude, less than an hour from Grenoble. Its 35 km of piste, shared with Le Planolet, are mostly gentle and tree-lined, perfect for families and improvers, with the bonus of grand limestone scenery on every chairlift. It is a peaceful, traditional alternative to the high-altitude resorts further south, with the Chartreuse monks' herbal liqueur as a memorable winter warmer.",
+      "fr": "Saint-Pierre-de-Chartreuse se trouve dans le parc régional de Chartreuse, ancien centre monastique sous les falaises en dents de scie de Chamechaude, à moins d'une heure de Grenoble. Ses 35 km de pistes, partagés avec Le Planolet, sont surtout doux et boisés, parfaits pour les familles et les skieurs en progrès, avec en prime un grand décor calcaire à chaque télésiège. Une alternative paisible et traditionnelle aux stations d'altitude plus au sud, avec en bonus la chartreuse des moines comme réconfort hivernal mémorable.",
+      "es": "Saint-Pierre-de-Chartreuse se encuentra dentro del parque regional de la Chartreuse, antiguo centro monástico bajo los acantilados dentados de Chamechaude, a menos de una hora de Grenoble. Sus 35 km de pistas, compartidos con Le Planolet, son sobre todo suaves y arbolados, perfectos para familias y para quienes mejoran, con el añadido de un gran paisaje calcáreo en cada telesilla. Una alternativa apacible y tradicional a las estaciones de altura más al sur, con el licor herbal de los monjes de la Chartreuse como reconfortante invernal memorable.",
+      "pt": "Saint-Pierre-de-Chartreuse encontra-se no parque regional da Chartreuse, antigo centro monástico sob as falésias dentadas do Chamechaude, a menos de uma hora de Grenoble. Os seus 35 km de pistas, partilhados com Le Planolet, são sobretudo suaves e arborizados, perfeitos para famílias e para quem progride, com o bónus de uma grande paisagem calcária em cada teleassento. Uma alternativa serena e tradicional às estâncias de altitude mais a sul, com o licor de ervas dos monges da Chartreuse como reconfortante invernal memorável."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 8,
+      "red": 8,
+      "black": 3
+    }
+  },
+  {
+    "slug": "ponte-di-legno",
+    "name": "Ponte di Legno",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.258,
+    "lng": 10.51,
+    "altitudeBase": 1257,
+    "altitudeSummit": 3016,
+    "pistesKm": 100,
+    "lifts": 27,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "May 1",
+    "snowScore": 84,
+    "vibes": [
+      "family",
+      "snow-sure",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Ponte di Legno is a historic Lombard town below the pass; hotels are in town, with a gondola straight to the slopes that link Passo Tonale and the Presena glacier.",
+      "fr": "Ponte di Legno est une ville lombarde historique sous le col : les hôtels sont en ville, avec une télécabine droit vers les pistes reliant Passo Tonale et le glacier de la Presena.",
+      "es": "Ponte di Legno es una histórica ciudad lombarda bajo el puerto: los hoteles están en el pueblo, con una telecabina directa a las pistas que enlazan Passo Tonale y el glaciar de la Presena.",
+      "pt": "Ponte di Legno é uma histórica cidade lombarda sob o colo: os hotéis ficam na cidade, com um telecabine direto para as pistas que ligam Passo Tonale e o glaciar da Presena."
+    },
+    "intro": {
+      "en": "A historic Lombard town at 1257 m, Ponte di Legno is lift-linked over to Passo Tonale for the 100 km Adamello Ski domain. Real town life, glacier-sure snow and big-mountain views.",
+      "fr": "Ville lombarde historique à 1257 m, Ponte di Legno se relie par remontées à Passo Tonale pour le domaine Adamello Ski et ses 100 km. Vraie vie de ville, neige garantie au glacier et grandes vues.",
+      "es": "Histórica ciudad lombarda a 1257 m, Ponte di Legno se enlaza por remontes con Passo Tonale para el dominio Adamello Ski y sus 100 km. Vida de ciudad de verdad, nieve garantizada en el glaciar y grandes vistas.",
+      "pt": "Histórica cidade lombarda a 1257 m, Ponte di Legno liga-se por teleféricos a Passo Tonale para o domínio Adamello Ski e os seus 100 km. Vida de cidade a sério, neve garantida no glaciar e grandes vistas."
+    },
+    "longDescription": {
+      "en": "Ponte di Legno is a historic Lombard town in the Valle Camonica, lift-linked over the mountain to Passo Tonale for the 100 km Adamello Ski domain, with the Presena glacier at 3016 m guaranteeing snow into May. Unlike the purpose-built villages around it, Ponte di Legno has proper year-round Italian town life, with stone porticoes, a famous Christmas market and excellent food. It is one of the best-value high-season weeks in the Italian Alps, with the snow up top to match.",
+      "fr": "Ponte di Legno est une ville lombarde historique de la Valle Camonica, reliée par la montagne à Passo Tonale pour le domaine Adamello Ski et ses 100 km, avec le glacier de la Presena à 3016 m qui garantit la neige jusqu'en mai. Contrairement aux villages construits autour, Ponte di Legno a une vraie vie de ville italienne à l'année, avec arcades de pierre, célèbre marché de Noël et excellente cuisine. C'est l'une des semaines de pleine saison au meilleur rapport qualité-prix des Alpes italiennes, avec la neige en haut qui suit.",
+      "es": "Ponte di Legno es una histórica ciudad lombarda de la Valle Camonica, enlazada por la montaña con Passo Tonale para el dominio Adamello Ski y sus 100 km, con el glaciar de la Presena a 3016 m que garantiza nieve hasta mayo. A diferencia de los pueblos construidos a su alrededor, Ponte di Legno tiene una vida de ciudad italiana de verdad todo el año, con soportales de piedra, famoso mercado navideño y excelente cocina. Es una de las semanas de plena temporada con mejor relación calidad-precio de los Alpes italianos, con la nieve arriba a la altura.",
+      "pt": "Ponte di Legno é uma histórica cidade lombarda da Valle Camonica, ligada pela montanha a Passo Tonale para o domínio Adamello Ski e os seus 100 km, com o glaciar da Presena a 3016 m a garantir neve até maio. Ao contrário das aldeias construídas em seu redor, Ponte di Legno tem uma verdadeira vida de cidade italiana todo o ano, com arcadas de pedra, famoso mercado de Natal e excelente cozinha. É uma das semanas de plena época com melhor relação qualidade-preço dos Alpes italianos, com a neve lá em cima à altura."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 40,
+      "red": 45,
+      "black": 15
+    }
+  },
+  {
+    "slug": "santa-caterina-valfurva",
+    "name": "Santa Caterina Valfurva",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.42,
+    "lng": 10.494,
+    "altitudeBase": 1738,
+    "altitudeSummit": 2725,
+    "pistesKm": 35,
+    "lifts": 9,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 84,
+    "vibes": [
+      "snow-sure",
+      "family",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Santa Caterina is a tiny stone-built village at 1738 m; most hotels are a short walk from the snow-front on the edge of the Stelvio National Park.",
+      "fr": "Santa Caterina est un minuscule village de pierre à 1738 m : la plupart des hôtels sont à quelques pas du front de neige, en lisière du parc national du Stelvio.",
+      "es": "Santa Caterina es un minúsculo pueblo de piedra a 1738 m: la mayoría de los hoteles están a pocos pasos del frente de nieve, al borde del parque nacional del Stelvio.",
+      "pt": "Santa Caterina é uma minúscula aldeia de pedra a 1738 m: a maioria dos hotéis fica a poucos passos do sopé das pistas, à beira do parque nacional do Stelvio."
+    },
+    "intro": {
+      "en": "A snow-sure little village at 1738 m on the edge of the Stelvio Park, Santa Caterina Valfurva is the quieter half of the Alta Valtellina pass with Bormio. Hometown of Olympic champion Deborah Compagnoni.",
+      "fr": "Petit village sûr en neige à 1738 m en lisière du parc du Stelvio, Santa Caterina Valfurva est la moitié plus calme du forfait Alta Valtellina avec Bormio. Patrie de la championne olympique Deborah Compagnoni.",
+      "es": "Pequeño pueblo de nieve segura a 1738 m al borde del parque del Stelvio, Santa Caterina Valfurva es la mitad más tranquila del forfait Alta Valtellina con Bormio. Cuna de la campeona olímpica Deborah Compagnoni.",
+      "pt": "Pequena aldeia de neve segura a 1738 m à beira do parque do Stelvio, Santa Caterina Valfurva é a metade mais tranquila do passe Alta Valtellina com Bormio. Terra da campeã olímpica Deborah Compagnoni."
+    },
+    "longDescription": {
+      "en": "Santa Caterina Valfurva sits at 1738 m at the head of a quiet side valley off the road to the Stelvio Pass, the snowy little hometown of Olympic champion Deborah Compagnoni. Its own 35 km of piste are wide, snow-sure and skewed to red and black, with the Bormio-Cima Bianca World Cup heritage just up the slope. The Alta Valtellina lift pass links it with much larger Bormio for around 115 km in all, a quiet, sporty base on the doorstep of the Stelvio National Park.",
+      "fr": "Santa Caterina Valfurva se tient à 1738 m en tête d'un vallon calme sur la route du Stelvio, petit village enneigé natal de la championne olympique Deborah Compagnoni. Ses 35 km de pistes propres sont larges, sûrs en neige et orientés rouge et noir, avec l'héritage de Coupe du monde de Bormio-Cima Bianca juste au-dessus. Le forfait Alta Valtellina la relie à Bormio bien plus vaste pour environ 115 km au total, base calme et sportive au seuil du parc national du Stelvio.",
+      "es": "Santa Caterina Valfurva se asienta a 1738 m en la cabecera de un valle lateral tranquilo en la carretera del Stelvio, pequeño pueblo nevado natal de la campeona olímpica Deborah Compagnoni. Sus 35 km de pistas propias son amplios, de nieve segura y sesgados al rojo y negro, con la herencia de Copa del Mundo de Bormio-Cima Bianca justo arriba. El forfait Alta Valtellina la enlaza con la mucho mayor Bormio para unos 115 km en total, una base tranquila y deportiva a las puertas del parque nacional del Stelvio.",
+      "pt": "Santa Caterina Valfurva assenta a 1738 m na cabeceira de um vale lateral tranquilo na estrada do Stelvio, pequena aldeia nevada natal da campeã olímpica Deborah Compagnoni. Os seus 35 km de pistas próprias são amplos, de neve segura e inclinados para o vermelho e o preto, com o legado da Taça do Mundo de Bormio-Cima Bianca mesmo acima. O passe Alta Valtellina liga-a à bem maior Bormio para cerca de 115 km no total, uma base tranquila e desportiva às portas do parque nacional do Stelvio."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 8,
+      "red": 18,
+      "black": 9
+    }
+  },
+  {
+    "slug": "madesimo",
+    "name": "Madesimo",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.434,
+    "lng": 9.348,
+    "altitudeBase": 1550,
+    "altitudeSummit": 2884,
+    "pistesKm": 60,
+    "lifts": 14,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 28",
+    "snowScore": 86,
+    "vibes": [
+      "snow-sure",
+      "freeride",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Madesimo is a small stone-built village right at the base of the lifts; many hotels sit on the snow-front for true ski-in/ski-out near the Swiss border.",
+      "fr": "Madesimo est un petit village de pierre au pied des remontées : de nombreux hôtels donnent sur le front de neige pour un vrai ski-in/ski-out, près de la frontière suisse.",
+      "es": "Madesimo es un pequeño pueblo de piedra al pie de los remontes: muchos hoteles dan al frente de nieve para un verdadero ski-in/ski-out, cerca de la frontera suiza.",
+      "pt": "Madesimo é uma pequena aldeia de pedra ao pé dos teleféricos: muitos hotéis dão para o sopé das pistas para um verdadeiro ski-in/ski-out, perto da fronteira suíça."
+    },
+    "intro": {
+      "en": "A snowy, north-facing resort near the Swiss border at the end of the Valchiavenna, Madesimo is famous for the Canalone, one of the longest freeride descents in the Alps. Stone village, big snow, serious skiing.",
+      "fr": "Station enneigée et orientée nord près de la frontière suisse, en fin de Valchiavenna, Madesimo est célèbre pour le Canalone, l'une des plus longues descentes de freeride des Alpes. Village de pierre, grosse neige, ski sérieux.",
+      "es": "Estación nevada y orientada al norte cerca de la frontera suiza, al final de la Valchiavenna, Madesimo es famosa por el Canalone, uno de los descensos de freeride más largos de los Alpes. Pueblo de piedra, mucha nieve, esquí serio.",
+      "pt": "Estância nevada e virada a norte perto da fronteira suíça, no fim da Valchiavenna, Madesimo é famosa pelo Canalone, uma das mais longas descidas de freeride dos Alpes. Aldeia de pedra, muita neve, esqui a sério."
+    },
+    "longDescription": {
+      "en": "Madesimo lies at the snowy end of the Valchiavenna right by the Swiss border, a compact stone-built village under the Pizzo Stella with 60 km of north-facing piste rising to 2884 m. The skiing is steep for Italy, with the Canalone Walter Bonatti, a 1500 m vertical freeride descent, drawing experts from across the Alps. Snow holds well thanks to altitude and aspect, and the village stays low-key and traditional, a strong contrast to the busier Lombard names.",
+      "fr": "Madesimo se trouve au fond enneigé de la Valchiavenna, juste à la frontière suisse, village de pierre compact sous le Pizzo Stella avec 60 km de pistes orientées nord montant à 2884 m. Le ski y est raide pour l'Italie, avec le Canalone Walter Bonatti, descente freeride de 1500 m de dénivelé, qui attire les experts de tout l'arc alpin. La neige tient bien grâce à l'altitude et à l'exposition, et le village reste discret et traditionnel, contraste marqué avec les noms lombards plus animés.",
+      "es": "Madesimo está al fondo nevado de la Valchiavenna, justo en la frontera suiza, un compacto pueblo de piedra bajo el Pizzo Stella con 60 km de pistas orientadas al norte que suben a 2884 m. El esquí es empinado para Italia, con el Canalone Walter Bonatti, descenso de freeride de 1500 m de desnivel, que atrae a los expertos de todo el arco alpino. La nieve aguanta bien gracias a la altitud y la orientación, y el pueblo se mantiene discreto y tradicional, fuerte contraste con los nombres lombardos más animados.",
+      "pt": "Madesimo encontra-se no fundo nevado da Valchiavenna, mesmo na fronteira suíça, uma compacta aldeia de pedra sob o Pizzo Stella com 60 km de pistas viradas a norte a subir até 2884 m. O esqui é íngreme para a Itália, com o Canalone Walter Bonatti, descida de freeride de 1500 m de desnível, que atrai os experientes de todo o arco alpino. A neve aguenta-se bem graças à altitude e à exposição, e a aldeia mantém-se discreta e tradicional, em forte contraste com os nomes lombardos mais animados."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 14,
+      "red": 28,
+      "black": 15
+    }
+  },
+  {
+    "slug": "bardonecchia",
+    "name": "Bardonecchia",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.077,
+    "lng": 6.706,
+    "altitudeBase": 1312,
+    "altitudeSummit": 2800,
+    "pistesKm": 110,
+    "lifts": 23,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "scenic",
+      "family",
+      "freestyle"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Bardonecchia is a Belle Époque town below the lifts; hotels are in the centre, a short walk or bus from the Campo Smith and Jafferau gondolas.",
+      "fr": "Bardonecchia est une ville Belle Époque sous les remontées : les hôtels sont au centre, à quelques pas ou en bus des télécabines du Campo Smith et du Jafferau.",
+      "es": "Bardonecchia es una ciudad Belle Époque bajo los remontes: los hoteles están en el centro, a pocos pasos o en autobús de las telecabinas de Campo Smith y el Jafferau.",
+      "pt": "Bardonecchia é uma cidade Belle Époque sob os teleféricos: os hotéis ficam no centro, a poucos passos ou de autocarro dos telecabines de Campo Smith e do Jafferau."
+    },
+    "intro": {
+      "en": "A Belle Époque town in the Susa valley, Bardonecchia hosted the 2006 Olympic snowboarding and offers 110 km of piste at the French border. Real Piedmontese town life, big halfpipes and value pricing.",
+      "fr": "Ville Belle Époque de la vallée de Suse, Bardonecchia a accueilli le snowboard olympique 2006 et offre 110 km de pistes à la frontière française. Vraie vie de ville piémontaise, grands halfpipes et tarifs doux.",
+      "es": "Ciudad Belle Époque del valle de Susa, Bardonecchia acogió el snowboard olímpico de 2006 y ofrece 110 km de pistas en la frontera francesa. Vida de ciudad piamontesa de verdad, grandes halfpipes y precios suaves.",
+      "pt": "Cidade Belle Époque do vale de Susa, Bardonecchia acolheu o snowboard olímpico de 2006 e oferece 110 km de pistas na fronteira francesa. Vida de cidade piemontesa a sério, grandes halfpipes e preços suaves."
+    },
+    "longDescription": {
+      "en": "Bardonecchia is one of the oldest ski resorts in Italy, a Belle Époque railway town high in the Susa valley right at the French border, with 110 km of piste split between the Campo Smith, Melezet and Jafferau sectors. It hosted the snowboarding events of the 2006 Turin Olympics and keeps a strong freestyle scene, with one of Italy's best terrain parks above town. Easily reached by train from Turin or Paris on the high-speed line, it pairs proper city life with a genuine Olympic mountain at notably gentle prices.",
+      "fr": "Bardonecchia est l'une des plus anciennes stations de ski d'Italie, ville ferroviaire Belle Époque haut dans la vallée de Suse, juste à la frontière française, avec 110 km de pistes répartis entre les secteurs Campo Smith, Melezet et Jafferau. Elle a accueilli les épreuves de snowboard des Jeux de Turin 2006 et conserve une forte scène freestyle, avec l'un des meilleurs snowparks d'Italie au-dessus de la ville. Facilement reliée à Turin et Paris par TGV, elle associe vraie vie de ville à une vraie montagne olympique à des tarifs étonnamment doux.",
+      "es": "Bardonecchia es una de las estaciones de esquí más antiguas de Italia, una ciudad ferroviaria Belle Époque en lo alto del valle de Susa, justo en la frontera francesa, con 110 km de pistas repartidos entre los sectores Campo Smith, Melezet y Jafferau. Acogió las pruebas de snowboard de los Juegos de Turín 2006 y conserva una fuerte escena freestyle, con uno de los mejores snowparks de Italia sobre la ciudad. Fácilmente conectada con Turín y París por alta velocidad, combina vida de ciudad de verdad con una auténtica montaña olímpica a precios sorprendentemente suaves.",
+      "pt": "Bardonecchia é uma das mais antigas estâncias de esqui da Itália, uma cidade ferroviária Belle Époque no alto do vale de Susa, mesmo na fronteira francesa, com 110 km de pistas repartidos pelos setores Campo Smith, Melezet e Jafferau. Acolheu as provas de snowboard dos Jogos de Turim 2006 e conserva uma forte cena freestyle, com um dos melhores snowparks da Itália acima da cidade. Facilmente ligada a Turim e Paris por alta velocidade, combina vida de cidade a sério com uma autêntica montanha olímpica a preços surpreendentemente suaves."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 40,
+      "red": 50,
+      "black": 15
+    }
+  },
+  {
+    "slug": "pragelato",
+    "name": "Pragelato",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 44.953,
+    "lng": 6.945,
+    "altitudeBase": 1535,
+    "altitudeSummit": 2700,
+    "pistesKm": 400,
+    "lifts": 70,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "scenic",
+      "value",
+      "big-domain"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Pragelato is a sunny old village in the Val Chisone; many residences sit on the snow-front by the lifts that climb up to Sestriere and the Via Lattea.",
+      "fr": "Pragelato est un vieux village ensoleillé du Val Chisone : de nombreuses résidences donnent sur le front de neige, près des remontées qui grimpent à Sestriere et à la Voie lactée.",
+      "es": "Pragelato es un viejo pueblo soleado del Val Chisone: muchas residencias dan al frente de nieve, junto a los remontes que suben a Sestriere y la Vía Láctea.",
+      "pt": "Pragelato é uma velha aldeia solarenga do Val Chisone: muitas residências dão para o sopé das pistas, junto aos teleféricos que sobem para Sestriere e a Via Láctea."
+    },
+    "intro": {
+      "en": "A sunny Val Chisone village lift-linked up to Sestriere on the Via Lattea, Pragelato hosted the 2006 Olympic nordic events. The quiet, well-priced way into the 400 km Milky Way.",
+      "fr": "Village ensoleillé du Val Chisone relié par remontées à Sestriere sur la Voie lactée, Pragelato a accueilli les épreuves nordiques olympiques 2006. L'entrée discrète et abordable des 400 km de la Milky Way.",
+      "es": "Pueblo soleado del Val Chisone enlazado por remontes con Sestriere en la Vía Láctea, Pragelato acogió las pruebas nórdicas olímpicas de 2006. La entrada discreta y económica a los 400 km de la Milky Way.",
+      "pt": "Aldeia solarenga do Val Chisone ligada por teleféricos a Sestriere na Via Láctea, Pragelato acolheu as provas nórdicas olímpicas de 2006. A entrada discreta e acessível para os 400 km da Milky Way."
+    },
+    "longDescription": {
+      "en": "Pragelato spreads along the sunny Val Chisone, an old Waldensian village now linked by gondola straight up to Sestriere on the giant Via Lattea, around 400 km of piste shared with Sauze d'Oulx and Montgenèvre across the French border. It hosted the cross-country and ski-jumping events of the 2006 Turin Olympics and keeps a strong nordic side. As an alpine base it is quieter and notably better value than the famous Olympic resorts up the road, with a fast cable car to all of them included on the pass.",
+      "fr": "Pragelato s'étire dans l'ensoleillé Val Chisone, vieux village vaudois désormais relié par télécabine à Sestriere sur la géante Via Lattea, environ 400 km de pistes partagées avec Sauze d'Oulx et Montgenèvre, de l'autre côté de la frontière française. Elle a accueilli le ski de fond et le saut à ski des Jeux de Turin 2006 et conserve un fort versant nordique. Comme base alpine, elle est plus calme et bien plus abordable que les stations olympiques voisines, avec une télécabine rapide vers toutes incluse au forfait.",
+      "es": "Pragelato se extiende por el soleado Val Chisone, un viejo pueblo valdense ahora enlazado por telecabina directa con Sestriere en la gigante Via Lattea, unos 400 km de pistas compartidos con Sauze d'Oulx y Montgenèvre al otro lado de la frontera francesa. Acogió el esquí de fondo y el salto en los Juegos de Turín 2006 y mantiene una fuerte vertiente nórdica. Como base alpina es más tranquila y mucho más económica que las estaciones olímpicas vecinas, con una telecabina rápida a todas incluida en el forfait.",
+      "pt": "Pragelato estende-se pelo solarengo Val Chisone, uma velha aldeia valdense agora ligada por telecabine direto a Sestriere na gigante Via Lattea, cerca de 400 km de pistas partilhados com Sauze d'Oulx e Montgenèvre do outro lado da fronteira francesa. Acolheu o esqui de fundo e o salto nos Jogos de Turim 2006 e conserva uma forte vertente nórdica. Como base alpina é mais tranquila e bem mais acessível do que as estâncias olímpicas vizinhas, com um telecabine rápido a todas incluído no passe."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 80,
+      "red": 130,
+      "black": 30
+    }
+  },
+  {
+    "slug": "andalo",
+    "name": "Andalo",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.165,
+    "lng": 11.012,
+    "altitudeBase": 1042,
+    "altitudeSummit": 2125,
+    "pistesKm": 50,
+    "lifts": 18,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "scenic",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Andalo is a relaxed Trentino village on a sunny plateau; many hotels sit on the snow-front for genuine ski-in/ski-out on the Paganella ski area.",
+      "fr": "Andalo est un village du Trentin détendu sur un plateau ensoleillé : de nombreux hôtels donnent sur le front de neige pour un vrai ski-in/ski-out sur le domaine de la Paganella.",
+      "es": "Andalo es un pueblo trentino relajado sobre un altiplano soleado: muchos hoteles dan al frente de nieve para un verdadero ski-in/ski-out en el dominio de la Paganella.",
+      "pt": "Andalo é uma aldeia trentina descontraída num planalto solarengo: muitos hotéis dão para o sopé das pistas para um verdadeiro ski-in/ski-out no domínio da Paganella."
+    },
+    "intro": {
+      "en": "A relaxed Trentino plateau village just under the Paganella ridge, Andalo offers 50 km of family-friendly piste with the Brenta Dolomites as a backdrop. One of Italy's favourite family ski weeks.",
+      "fr": "Village-plateau détendu du Trentin sous la crête de la Paganella, Andalo offre 50 km de pistes familiales avec les Dolomites de Brenta en arrière-plan. L'une des semaines familiales préférées d'Italie.",
+      "es": "Pueblo-altiplano relajado del Trentino bajo la cresta de la Paganella, Andalo ofrece 50 km de pistas familiares con los Dolomitas de Brenta de fondo. Una de las semanas familiares preferidas de Italia.",
+      "pt": "Aldeia-planalto descontraída do Trentino sob a crista da Paganella, Andalo oferece 50 km de pistas familiares com as Dolomitas de Brenta como pano de fundo. Uma das semanas familiares preferidas da Itália."
+    },
+    "longDescription": {
+      "en": "Andalo sits on a sunny plateau under the Paganella ridge, looking out toward the Brenta Dolomites, with 50 km of piste that link it to neighbouring Fai della Paganella. The skiing is wide, well groomed and almost entirely intermediate, with a strong dedicated beginner area and a famous kids' club at the base of the gondola. With car-light pedestrian streets, big swimming pools and short transfer from Verona, it has earned a steady reputation as one of the best family ski weeks in Italy.",
+      "fr": "Andalo occupe un plateau ensoleillé sous la crête de la Paganella, face aux Dolomites de Brenta, avec 50 km de pistes qui le relient à la voisine Fai della Paganella. Le ski est large, bien damé et presque entièrement intermédiaire, avec un grand espace débutants dédié et un célèbre club enfants au pied de la télécabine. Avec ses rues piétonnes, ses grandes piscines et son transfert court depuis Vérone, il s'est forgé une solide réputation de meilleure semaine familiale d'Italie.",
+      "es": "Andalo ocupa un altiplano soleado bajo la cresta de la Paganella, mirando hacia los Dolomitas de Brenta, con 50 km de pistas que lo enlazan con la vecina Fai della Paganella. El esquí es amplio, bien pisado y casi todo intermedio, con una gran zona dedicada a debutantes y un famoso club infantil al pie de la telecabina. Con sus calles peatonales, grandes piscinas y traslado corto desde Verona, se ha ganado una sólida reputación como una de las mejores semanas familiares de Italia.",
+      "pt": "Andalo ocupa um planalto solarengo sob a crista da Paganella, virado para as Dolomitas de Brenta, com 50 km de pistas que o ligam à vizinha Fai della Paganella. O esqui é amplo, bem pisado e quase todo intermédio, com uma grande zona dedicada a iniciantes e um famoso clube infantil no sopé do telecabine. Com as suas ruas pedonais, grandes piscinas e transfer curto desde Verona, ganhou uma sólida reputação como uma das melhores semanas familiares da Itália."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 16,
+      "red": 24,
+      "black": 10
+    }
+  },
+  {
+    "slug": "tarvisio",
+    "name": "Tarvisio",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.503,
+    "lng": 13.586,
+    "altitudeBase": 750,
+    "altitudeSummit": 1860,
+    "pistesKm": 25,
+    "lifts": 11,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Mar 31",
+    "snowScore": 80,
+    "vibes": [
+      "scenic",
+      "value",
+      "cross-border"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Tarvisio is a small Italian town at the three-borders corner with Austria and Slovenia; hotels are in town, a short walk from the lift base.",
+      "fr": "Tarvisio est une petite ville italienne au point triple avec l'Autriche et la Slovénie : les hôtels sont en ville, à quelques pas du départ des remontées.",
+      "es": "Tarvisio es una pequeña ciudad italiana en el punto triple con Austria y Eslovenia: los hoteles están en el pueblo, a pocos pasos de la base de los remontes.",
+      "pt": "Tarvisio é uma pequena cidade italiana no ponto triplo com a Áustria e a Eslovénia: os hotéis ficam na vila, a poucos passos da base dos teleféricos."
+    },
+    "intro": {
+      "en": "At the three-borders corner with Austria and Slovenia, Tarvisio is the easternmost Italian ski town, with a long, scenic descent off Monte Lussari. Quiet, snowy and famously cosmopolitan.",
+      "fr": "Au point triple avec l'Autriche et la Slovénie, Tarvisio est la ville de ski la plus orientale d'Italie, avec une longue descente panoramique depuis le Monte Lussari. Calme, enneigée et célèbre pour son cosmopolitisme.",
+      "es": "En el punto triple con Austria y Eslovenia, Tarvisio es la ciudad de esquí más oriental de Italia, con un largo descenso panorámico desde el Monte Lussari. Tranquila, nevada y famosa por su cosmopolitismo.",
+      "pt": "No ponto triplo com a Áustria e a Eslovénia, Tarvisio é a cidade de esqui mais oriental da Itália, com uma longa descida panorâmica desde o Monte Lussari. Tranquila, nevada e famosa pelo seu cosmopolitismo."
+    },
+    "longDescription": {
+      "en": "Tarvisio sits at the three-borders corner of Italy, Austria and Slovenia, a small Friulian town under the pilgrimage chapel of Monte Lussari, with around 25 km of north-facing piste dropping nearly 1100 m back to the valley. The aspect and proximity to Atlantic weather systems make this one of the snowier corners of Italy, and the cross-border atmosphere brings Slovenian, Friulian and Austrian influences to the local food and language. Easy to reach from Klagenfurt or Trieste, it is one of the last truly cosmopolitan corners of the Alps.",
+      "fr": "Tarvisio se tient au point triple Italie-Autriche-Slovénie, petite ville frioulane sous la chapelle de pèlerinage du Monte Lussari, avec environ 25 km de pistes orientées nord qui plongent près de 1100 m de dénivelé vers la vallée. L'exposition et la proximité des perturbations atlantiques en font l'un des coins les plus enneigés d'Italie, et l'atmosphère transfrontalière mêle influences slovènes, frioulanes et autrichiennes dans la cuisine et la langue. Facilement accessible depuis Klagenfurt ou Trieste, c'est l'un des derniers coins vraiment cosmopolites des Alpes.",
+      "es": "Tarvisio se sitúa en el punto triple Italia-Austria-Eslovenia, pequeña ciudad friulana bajo la capilla de peregrinación del Monte Lussari, con unos 25 km de pistas orientadas al norte que caen casi 1100 m de desnivel hasta el valle. La orientación y la proximidad a las borrascas atlánticas la hacen uno de los rincones más nevados de Italia, y la atmósfera transfronteriza mezcla influencias eslovenas, friulanas y austriacas en la cocina y la lengua. Fácilmente accesible desde Klagenfurt o Trieste, es uno de los últimos rincones realmente cosmopolitas de los Alpes.",
+      "pt": "Tarvisio fica no ponto triplo Itália-Áustria-Eslovénia, pequena cidade friulana sob a capela de peregrinação do Monte Lussari, com cerca de 25 km de pistas viradas a norte que descem quase 1100 m de desnível para o vale. A exposição e a proximidade das depressões atlânticas fazem dela um dos cantos mais nevados da Itália, e a atmosfera transfronteiriça mistura influências eslovenas, friulanas e austríacas na cozinha e na língua. Facilmente acessível desde Klagenfurt ou Trieste, é um dos últimos cantos verdadeiramente cosmopolitas dos Alpes."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 8,
+      "red": 12,
+      "black": 5
+    }
   }
 ]

@@ -160,6 +160,20 @@ const RESORT_SITES: Record<string, string> = {
   pila: 'https://www.pila.it',
   'passo-tonale': 'https://www.pontedilegnotonale.com',
   'folgarida-marilleva': 'https://www.skiareacampiglio.it',
+  'la-foux-allos': 'https://www.valdallos.com',
+  'crest-voland-cohennoz': 'https://www.espacediamant.com',
+  'notre-dame-de-bellecombe': 'https://www.espacediamant.com',
+  'praz-sur-arly': 'https://www.prazsurarly.com',
+  manigod: 'https://www.manigod.fr',
+  'praz-de-lys-sommand': 'https://www.praz-de-lys-sommand.com',
+  'saint-pierre-de-chartreuse': 'https://www.chartreuse-tourisme.com',
+  'ponte-di-legno': 'https://www.pontedilegnotonale.com',
+  'santa-caterina-valfurva': 'https://www.santacaterina.it',
+  madesimo: 'https://www.madesimo.eu',
+  bardonecchia: 'https://www.bardonecchiaski.com',
+  pragelato: 'https://www.vialattea.it',
+  andalo: 'https://www.visitdolomitipaganella.it',
+  tarvisio: 'https://www.promotur.org',
 }
 
 export function resortSite(slug: string): string | null {

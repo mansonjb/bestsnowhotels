@@ -10,9 +10,9 @@
   "hero": {
     "badge": "Hôtels ski-in/ski-out dans les Alpes et les Pyrénées",
     "title": "Les meilleurs hôtels pour skier dès la sortie de votre chambre.",
-    "subtitle": "152 stations triées sur le volet en France, Suisse, Autriche, Italie, Espagne et Andorre. Altitudes réelles, vrai ski-in/ski-out, meilleur prix sur Booking, Expedia et Hotels.com.",
+    "subtitle": "166 stations triées sur le volet en France, Suisse, Autriche, Italie, Espagne et Andorre. Altitudes réelles, vrai ski-in/ski-out, meilleur prix sur Booking, Expedia et Hotels.com.",
     "cta": "Voir les destinations",
-    "stat1Value": "152",
+    "stat1Value": "166",
     "stat1Label": "Destinations ski",
     "stat2Value": "6",
     "stat2Label": "Pays",
@@ -101,7 +101,7 @@
   },
   "best": {
     "title": "Les meilleures stations de ski d'Europe",
-    "subtitle": "Sélections des stations les plus enneigées, les plus grandes, les plus chic et au meilleur rapport qualité-prix de notre base, toutes choisies sur les vraies données de nos 152 destinations.",
+    "subtitle": "Sélections des stations les plus enneigées, les plus grandes, les plus chic et au meilleur rapport qualité-prix de notre base, toutes choisies sur les vraies données de nos 166 destinations.",
     "howRanked": "Comment on a choisi",
     "exploreList": "Découvrir la sélection"
   },
@@ -134,7 +134,7 @@
     "byCountrySubtitle": "Choisissez votre massif.",
     "howTitle": "Comment fonctionne BestSnowHotels",
     "stepLabel": "ÉTAPE",
-    "howStep1Title": "Parcourez 152 stations",
+    "howStep1Title": "Parcourez 166 stations",
     "howStep1Text": "Chaque page donne les altitudes réelles, les kilomètres de pistes et une note ski-in/ski-out transparente. Pas de blabla.",
     "howStep2Title": "Voyez les hôtels sur la carte",
     "howStep2Text": "Les cartes Stay22 affichent en temps réel les hôtels et appartements autour des remontées, avec les prix en direct des grands opérateurs.",

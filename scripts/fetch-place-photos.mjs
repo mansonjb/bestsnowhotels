@@ -180,6 +180,20 @@ const TARGETS = [
   { slug: 'pila',                 query: 'Pila Aosta ski resort Mont Blanc view Italy gondola winter snow' },
   { slug: 'passo-tonale',         query: 'Passo Tonale Presena glacier ski resort Adamello Italy winter snow' },
   { slug: 'folgarida-marilleva',  query: 'Folgarida Marilleva ski resort Val di Sole Skirama Madonna di Campiglio Italy winter snow' },
+  { slug: 'la-foux-allos',        query: 'La Foux d Allos ski resort Espace Lumiere Verdon French Alps winter snow village' },
+  { slug: 'crest-voland-cohennoz',query: 'Crest Voland Cohennoz Espace Diamant Beaufortain ski village French Alps winter snow' },
+  { slug: 'notre-dame-de-bellecombe', query: 'Notre Dame de Bellecombe Espace Diamant Val d Arly ski village French Alps winter snow' },
+  { slug: 'praz-sur-arly',        query: 'Praz sur Arly Val d Arly Mont Blanc ski village balloons French Alps winter snow' },
+  { slug: 'manigod',              query: 'Manigod La Croix Fry Aravis ski village reblochon French Alps winter snow' },
+  { slug: 'praz-de-lys-sommand',  query: 'Praz de Lys Sommand ski resort Faucigny Haute-Savoie plateau winter snow' },
+  { slug: 'saint-pierre-de-chartreuse', query: 'Saint Pierre de Chartreuse ski Chamechaude cliffs French Alps winter snow' },
+  { slug: 'ponte-di-legno',       query: 'Ponte di Legno ski town Adamello Lombardy Italy alpine village winter snow' },
+  { slug: 'santa-caterina-valfurva', query: 'Santa Caterina Valfurva ski resort Stelvio Lombardy Italy alpine village winter snow' },
+  { slug: 'madesimo',             query: 'Madesimo ski resort Valchiavenna Pizzo Stella Lombardy Italy alpine village winter snow' },
+  { slug: 'bardonecchia',         query: 'Bardonecchia Belle Epoque ski town Susa Piedmont Italy Olympic winter snow' },
+  { slug: 'pragelato',            query: 'Pragelato Val Chisone Via Lattea ski resort Piedmont Italy Olympic winter snow' },
+  { slug: 'andalo',               query: 'Andalo Paganella Brenta Dolomites ski resort Trentino Italy family winter snow' },
+  { slug: 'tarvisio',             query: 'Tarvisio three borders Friuli ski resort Monte Lussari Italy winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 152 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish and Portuguese.
+> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 166 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish and Portuguese.
 
 ## What we cover
 
@@ -57,10 +57,10 @@ Index: https://www.bestsnowhotels.com/en/best
 
 ## Country coverage
 
-- France (69): Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets, Les Menuires, Avoriaz, Morzine, Les Gets, Megève, La Clusaz, Les Deux Alpes, La Rosière, Flaine, Samoëns, Châtel, Valmorel, Montgenèvre, Les Saisies, Le Grand-Bornand, Sainte-Foy-Tarentaise, Val Cenis, Vaujany, Risoul, Vars, Pra-Loup, Isola 2000, Saint-Gervais, Ax 3 Domaines, Les Angles, Les Sybelles, Valloire, Orcières-Merlette, Les Orres, Auron, Les Contamines, Piau-Engaly, Luz-Ardiden, Gourette, Bonneval-sur-Arc, SuperDévoluy, Valberg, Chamrousse, Combloux, Valfréjus, La Pierre Saint-Martin, Guzet, Porté-Puymorens, Les 7 Laux, Villard-de-Lans, Saint-François-Longchamp, Aussois, Valmeinier, Arêches-Beaufort, La Norma, Les Houches, Luchon-Superbagnères, Formiguères, Val Louron
+- France (76): Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets, Les Menuires, Avoriaz, Morzine, Les Gets, Megève, La Clusaz, Les Deux Alpes, La Rosière, Flaine, Samoëns, Châtel, Valmorel, Montgenèvre, Les Saisies, Le Grand-Bornand, Sainte-Foy-Tarentaise, Val Cenis, Vaujany, Risoul, Vars, Pra-Loup, Isola 2000, Saint-Gervais, Ax 3 Domaines, Les Angles, Les Sybelles, Valloire, Orcières-Merlette, Les Orres, Auron, Les Contamines, Piau-Engaly, Luz-Ardiden, Gourette, Bonneval-sur-Arc, SuperDévoluy, Valberg, Chamrousse, Combloux, Valfréjus, La Pierre Saint-Martin, Guzet, Porté-Puymorens, Les 7 Laux, Villard-de-Lans, Saint-François-Longchamp, Aussois, Valmeinier, Arêches-Beaufort, La Norma, Les Houches, Luchon-Superbagnères, Formiguères, Val Louron, La Foux d'Allos, Crest-Voland-Cohennoz, Notre-Dame-de-Bellecombe, Praz-sur-Arly, Manigod, Praz-de-Lys Sommand, Saint-Pierre-de-Chartreuse
 - Switzerland (21): Zermatt, Verbier, St. Moritz, Crans-Montana, Saas-Fee, Davos, Andermatt, Grindelwald, Wengen, Mürren, Engelberg, Laax, Arosa-Lenzerheide, Nendaz, Veysonnaz, Villars-Gryon, Les Diablerets, Adelboden, Gstaad, Champéry, Grimentz-Zinal
 - Austria (24): St. Anton am Arlberg, Ischgl, Sölden, Mayrhofen, Kitzbühel, Saalbach Hinterglemm, Lech-Zürs, Obergurgl-Hochgurgl, Obertauern, Schladming, Bad Gastein, Bad Hofgastein, Zell am See, Kaprun, Hintertux, Serfaus-Fiss-Ladis, Nauders, Stubai Glacier, Kühtai, Söll, Alpbach, Fieberbrunn, Gerlos, Flachau
-- Italy (22): Cortina d'Ampezzo, Livigno, Cervinia, Madonna di Campiglio, Sestriere, Selva Val Gardena, Alta Badia, Canazei, Arabba, Ortisei, Bormio, La Thuile, Courmayeur, Sauze d'Oulx, Alagna, Champoluc, Gressoney, Kronplatz, San Martino di Castrozza, Pila, Passo Tonale, Folgarida-Marilleva
+- Italy (29): Cortina d'Ampezzo, Livigno, Cervinia, Madonna di Campiglio, Sestriere, Selva Val Gardena, Alta Badia, Canazei, Arabba, Ortisei, Bormio, La Thuile, Courmayeur, Sauze d'Oulx, Alagna, Champoluc, Gressoney, Kronplatz, San Martino di Castrozza, Pila, Passo Tonale, Folgarida-Marilleva, Ponte di Legno, Santa Caterina Valfurva, Madesimo, Bardonecchia, Pragelato, Andalo, Tarvisio
 - Spain (13): Baqueira Beret, Formigal, Cerler, Candanchú, La Molina, Astún, Boí Taüll, Masella, Panticosa, Port Ainé, Espot, Vallter 2000, Port del Comte
 - Andorra (3): Grandvalira, Vallnord-Pal Arinsal, Ordino-Arcalís
 
