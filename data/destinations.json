@@ -6254,5 +6254,741 @@
       "red": 55,
       "black": 15
     }
+  },
+  {
+    "slug": "alta-badia",
+    "name": "Alta Badia",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.55,
+    "lng": 11.883,
+    "altitudeBase": 1300,
+    "altitudeSummit": 2778,
+    "pistesKm": 130,
+    "lifts": 50,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 80,
+    "vibes": [
+      "scenic",
+      "dolomites",
+      "gastronomy"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Alta Badia is a string of Ladin villages (Corvara, San Cassiano, La Villa) with hotels on the snow-front at the heart of the Sella Ronda circuit.",
+      "fr": "Alta Badia est un chapelet de villages ladins (Corvara, San Cassiano, La Villa) avec des hôtels au pied des pistes, au cœur du circuit du Sella Ronda.",
+      "es": "Alta Badia es un rosario de pueblos ladinos (Corvara, San Cassiano, La Villa) con hoteles a pie de pista, en el corazón del circuito de la Sella Ronda.",
+      "pt": "Alta Badia é um rosário de aldeias ladinas (Corvara, San Cassiano, La Villa) com hotéis no sopé das pistas, no coração do circuito da Sella Ronda."
+    },
+    "intro": {
+      "en": "Three Ladin villages at the heart of the Dolomites and the Sella Ronda circuit, Alta Badia is famous for gourmet refuges and immaculate grooming. The piste-side scenery is among the most beautiful in the Alps.",
+      "fr": "Trois villages ladins au cœur des Dolomites et du circuit du Sella Ronda, Alta Badia est célèbre pour ses refuges gourmands et son damage impeccable. Le décor au bord des pistes est l'un des plus beaux des Alpes.",
+      "es": "Tres pueblos ladinos en el corazón de los Dolomitas y del circuito de la Sella Ronda, Alta Badia es famosa por sus refugios gourmet y su pisado impecable. El paisaje a pie de pista es de los más bonitos de los Alpes.",
+      "pt": "Três aldeias ladinas no coração das Dolomitas e do circuito da Sella Ronda, Alta Badia é famosa pelos seus refúgios gourmet e pelo seu pisado impecável. A paisagem ao lado das pistas é das mais bonitas dos Alpes."
+    },
+    "longDescription": {
+      "en": "Alta Badia gathers Corvara, San Cassiano and La Villa into 130 km of immaculately groomed piste in the Italian Dolomites, all on the giant Dolomiti Superski pass and the legendary Sella Ronda circuit. The skiing is mostly broad and intermediate, but the real draw is the lunchtime stop: more Michelin stars per kilometre than anywhere else in the Alps. Long, gentle red runs, pale Dolomite peaks at every turn and unhurried Ladin culture make it as much a culinary trip as a ski one.",
+      "fr": "Alta Badia réunit Corvara, San Cassiano et La Villa en 130 km de pistes impeccablement damées dans les Dolomites italiennes, sur le géant forfait Dolomiti Superski et le légendaire circuit du Sella Ronda. Le ski y est surtout large et intermédiaire, mais le vrai attrait reste la pause déjeuner : plus d'étoiles Michelin au kilomètre que partout ailleurs dans les Alpes. Longues rouges douces, pics pâles des Dolomites à chaque virage et culture ladine sans précipitation en font autant un voyage gourmand qu'une semaine de ski.",
+      "es": "Alta Badia reúne Corvara, San Cassiano y La Villa en 130 km de pistas impecablemente pisadas en los Dolomitas italianos, todo en el gigante forfait Dolomiti Superski y el legendario circuito de la Sella Ronda. El esquí es sobre todo amplio e intermedio, pero el verdadero atractivo es la pausa para comer: más estrellas Michelin por kilómetro que en ningún otro lugar de los Alpes. Largas rojas suaves, cumbres pálidas de los Dolomitas en cada giro y una cultura ladina sin prisas la hacen tanto un viaje gastronómico como una semana de esquí.",
+      "pt": "Alta Badia reúne Corvara, San Cassiano e La Villa em 130 km de pistas impecavelmente pisadas nas Dolomitas italianas, tudo no gigante passe Dolomiti Superski e no lendário circuito da Sella Ronda. O esqui é sobretudo amplo e intermédio, mas o verdadeiro atrativo é a pausa do almoço: mais estrelas Michelin por quilómetro do que em qualquer outro lugar dos Alpes. Longas vermelhas suaves, cumes pálidos das Dolomitas a cada curva e uma cultura ladina sem pressas fazem dela tanto uma viagem gourmet como uma semana de esqui."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 65,
+      "black": 15
+    }
+  },
+  {
+    "slug": "canazei",
+    "name": "Canazei",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.476,
+    "lng": 11.77,
+    "altitudeBase": 1450,
+    "altitudeSummit": 2950,
+    "pistesKm": 120,
+    "lifts": 80,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 82,
+    "vibes": [
+      "dolomites",
+      "sellaronda",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Canazei is a busy old village in the Val di Fassa; hotels are in town, with cable cars from the edge of the village straight onto the Sella Ronda.",
+      "fr": "Canazei est un vieux village animé du Val di Fassa ; les hôtels sont en ville, les téléphériques partant de la lisière du village direct sur le Sella Ronda.",
+      "es": "Canazei es un viejo pueblo animado del Val di Fassa; los hoteles están en el pueblo, con teleféricos desde el borde del pueblo directos a la Sella Ronda.",
+      "pt": "Canazei é uma velha aldeia animada do Val di Fassa; os hotéis ficam na vila, com teleféricos a partir da orla da aldeia diretos para a Sella Ronda."
+    },
+    "intro": {
+      "en": "A buzzing Ladin village in the Val di Fassa and a key gateway to the Sella Ronda, Canazei sits beneath the Sasso Lungo and the Marmolada glacier. Big slopes, big views and a lively old town.",
+      "fr": "Village ladin trépidant du Val di Fassa et entrée majeure du Sella Ronda, Canazei se tient sous le Sasso Lungo et le glacier de la Marmolada. Grandes pistes, grands panoramas et vieille ville animée.",
+      "es": "Pueblo ladino bullicioso del Val di Fassa y entrada clave a la Sella Ronda, Canazei se sitúa bajo el Sasso Lungo y el glaciar de la Marmolada. Grandes pistas, grandes vistas y un casco viejo animado.",
+      "pt": "Aldeia ladina efervescente do Val di Fassa e porta de entrada chave para a Sella Ronda, Canazei fica sob o Sasso Lungo e o glaciar da Marmolada. Grandes pistas, grandes vistas e um centro histórico animado."
+    },
+    "longDescription": {
+      "en": "Canazei is one of the most lively gateways to the Sella Ronda, the great Dolomite circuit you can ski clockwise or anticlockwise on one pass. Its own Val di Fassa slopes climb to the 2950 m Sass Pordoi, with the Marmolada glacier a short link away for the longest descent in the Dolomites. The old village has real Italian buzz, the Dolomiti Superski covers everything around, and a single base lets you ski a different valley each day.",
+      "fr": "Canazei est l'une des portes d'entrée les plus animées du Sella Ronda, le grand circuit dolomitique que l'on peut skier dans un sens ou dans l'autre sur un seul forfait. Ses propres pentes du Val di Fassa grimpent au Sass Pordoi à 2950 m, avec le glacier de la Marmolada à un saut pour la plus longue descente des Dolomites. Le vieux village a une vraie effervescence italienne, le Dolomiti Superski couvre tout autour, et une seule base permet de skier une vallée différente chaque jour.",
+      "es": "Canazei es una de las entradas más animadas a la Sella Ronda, el gran circuito dolomítico que se puede esquiar en un sentido u otro con un solo forfait. Sus propias laderas del Val di Fassa suben al Sass Pordoi a 2950 m, con el glaciar de la Marmolada a un salto para el descenso más largo de los Dolomitas. El casco viejo tiene auténtico bullicio italiano, el Dolomiti Superski cubre todo el entorno, y una sola base permite esquiar un valle distinto cada día.",
+      "pt": "Canazei é uma das portas mais animadas para a Sella Ronda, o grande circuito dolomítico que se pode esquiar num sentido ou no outro com um só passe. As suas próprias encostas do Val di Fassa sobem ao Sass Pordoi a 2950 m, com o glaciar da Marmolada a um salto para a mais longa descida das Dolomitas. O centro histórico tem autêntica efervescência italiana, o Dolomiti Superski cobre todo o entorno, e uma só base permite esquiar um vale diferente todos os dias."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 65,
+      "black": 15
+    }
+  },
+  {
+    "slug": "arabba",
+    "name": "Arabba",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.498,
+    "lng": 11.877,
+    "altitudeBase": 1602,
+    "altitudeSummit": 3265,
+    "pistesKm": 63,
+    "lifts": 28,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 84,
+    "vibes": [
+      "sellaronda",
+      "expert",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Arabba is a small village right by the Porta Vescovo gondola; most hotels are a few steps from the lift and the Sella Ronda starts at your door.",
+      "fr": "Arabba est un petit village au pied de la télécabine du Porta Vescovo ; la plupart des hôtels sont à quelques pas de la remontée et le Sella Ronda commence à votre porte.",
+      "es": "Arabba es un pequeño pueblo justo al lado de la telecabina del Porta Vescovo; la mayoría de los hoteles están a pocos pasos del remonte y la Sella Ronda empieza en tu puerta.",
+      "pt": "Arabba é uma pequena aldeia mesmo ao lado do telecabine do Porta Vescovo; a maioria dos hotéis fica a poucos passos do teleférico e a Sella Ronda começa à sua porta."
+    },
+    "intro": {
+      "en": "The steepest, snowiest village on the Sella Ronda, Arabba is the connoisseur's choice in the Dolomites. North-facing slopes climb to the 3265 m Marmolada glacier.",
+      "fr": "Village le plus raide et le plus enneigé du Sella Ronda, Arabba est le choix des connaisseurs dans les Dolomites. Ses pentes orientées nord montent au glacier de la Marmolada à 3265 m.",
+      "es": "El pueblo más empinado y nevado de la Sella Ronda, Arabba es la elección de los entendidos en los Dolomitas. Sus laderas orientadas al norte suben al glaciar de la Marmolada a 3265 m.",
+      "pt": "A aldeia mais íngreme e nevada da Sella Ronda, Arabba é a escolha dos entendidos nas Dolomitas. As suas encostas viradas a norte sobem ao glaciar da Marmolada a 3265 m."
+    },
+    "longDescription": {
+      "en": "Arabba is the smallest and quietest of the four Sella Ronda villages, but it has the steepest, snowiest pisted skiing thanks to its mostly north-facing slopes and a link to the 3265 m Marmolada glacier. Its 63 km of local piste skew red and black, and the full Sella Ronda circuit plus the rest of Dolomiti Superski are at the door. A favourite of strong intermediate and expert skiers who want the Dolomite scenery without the crowds.",
+      "fr": "Arabba est le plus petit et le plus calme des quatre villages du Sella Ronda, mais son ski sur pistes y est le plus raide et le plus enneigé, grâce à des pentes surtout orientées nord et à une liaison avec le glacier de la Marmolada à 3265 m. Ses 63 km de pistes locales penchent fortement vers le rouge et le noir, et le circuit complet du Sella Ronda et le reste du Dolomiti Superski sont au pied. Un favori des bons intermédiaires et des experts qui veulent le décor dolomitique sans la foule.",
+      "es": "Arabba es el más pequeño y tranquilo de los cuatro pueblos de la Sella Ronda, pero su esquí en pista es el más empinado y nevado gracias a laderas sobre todo orientadas al norte y a un enlace con el glaciar de la Marmolada a 3265 m. Sus 63 km de pistas locales se inclinan fuerte hacia el rojo y el negro, y el circuito completo de la Sella Ronda y el resto del Dolomiti Superski están a la puerta. Una favorita de los buenos intermedios y los expertos que quieren el paisaje dolomítico sin el gentío.",
+      "pt": "Arabba é a mais pequena e tranquila das quatro aldeias da Sella Ronda, mas o seu esqui em pista é o mais íngreme e nevado graças a encostas sobretudo viradas a norte e a uma ligação com o glaciar da Marmolada a 3265 m. Os seus 63 km de pistas locais inclinam-se forte para o vermelho e o preto, e o circuito completo da Sella Ronda e o resto do Dolomiti Superski estão à porta. Um favorito dos bons intermédios e dos experientes que querem a paisagem dolomítica sem a multidão."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 35,
+      "black": 15
+    }
+  },
+  {
+    "slug": "ortisei",
+    "name": "Ortisei",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.575,
+    "lng": 11.672,
+    "altitudeBase": 1236,
+    "altitudeSummit": 2518,
+    "pistesKm": 175,
+    "lifts": 80,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 82,
+    "vibes": [
+      "dolomites",
+      "scenic",
+      "family"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Ortisei is a handsome valley-floor town with gondolas climbing straight onto the slopes; many hotels are in the centre with the lifts a short walk away.",
+      "fr": "Ortisei est une belle ville de fond de vallée avec des télécabines qui grimpent direct sur les pistes ; de nombreux hôtels sont au centre, à quelques pas des remontées.",
+      "es": "Ortisei es una hermosa ciudad en el fondo del valle con telecabinas que suben directas a las pistas; muchos hoteles están en el centro, a pocos pasos de los remontes.",
+      "pt": "Ortisei é uma bonita cidade no fundo do vale com telecabines a subir diretos para as pistas; muitos hotéis ficam no centro, a poucos passos dos teleféricos."
+    },
+    "intro": {
+      "en": "The handsome capital of the Val Gardena, Ortisei combines a real working town with 175 km of Dolomite piste and the Sella Ronda circuit at the door. Pure Tyrolean charm in Italian skin.",
+      "fr": "Belle capitale du Val Gardena, Ortisei associe une vraie petite ville à 175 km de pistes dolomitiques et au circuit du Sella Ronda à la porte. Charme tyrolien à la sauce italienne.",
+      "es": "Hermosa capital del Val Gardena, Ortisei combina una ciudad de verdad con 175 km de pistas dolomíticas y el circuito de la Sella Ronda en la puerta. Encanto tirolés a la italiana.",
+      "pt": "Bonita capital do Val Gardena, Ortisei combina uma cidade a sério com 175 km de pistas dolomíticas e o circuito da Sella Ronda à porta. Charme tirolês ao estilo italiano."
+    },
+    "longDescription": {
+      "en": "Ortisei is the most attractive valley-floor town in the Dolomites, a Ladin centre famous for its woodcarving where Tyrolean and Italian cultures blend. Three gondolas from the edge of town climb to Seceda, the Alpe di Siusi and the Sella Ronda circuit, opening 175 km of Val Gardena piste and the giant Dolomiti Superski beyond. Calm and family-friendly compared with Selva up the valley, with some of the loveliest piste-side views in the Alps.",
+      "fr": "Ortisei est la plus belle ville de fond de vallée des Dolomites, centre ladin réputé pour la sculpture sur bois, où les cultures tyrolienne et italienne se mêlent. Trois télécabines depuis la lisière de la ville montent à la Seceda, à l'Alpe di Siusi et au circuit du Sella Ronda, ouvrant 175 km de pistes du Val Gardena et le géant Dolomiti Superski au-delà. Calme et familiale comparée à Selva en amont, avec quelques-unes des plus belles vues au bord des pistes des Alpes.",
+      "es": "Ortisei es la ciudad más bonita en el fondo del valle de los Dolomitas, un centro ladino famoso por la talla en madera donde se mezclan las culturas tirolesa e italiana. Tres telecabinas desde el borde de la ciudad suben a la Seceda, al Alpe di Siusi y al circuito de la Sella Ronda, abriendo 175 km de pistas del Val Gardena y el gigante Dolomiti Superski más allá. Tranquila y familiar en comparación con Selva valle arriba, con algunas de las vistas a pie de pista más bonitas de los Alpes.",
+      "pt": "Ortisei é a mais bonita cidade no fundo do vale das Dolomitas, um centro ladino famoso pela escultura em madeira onde se misturam as culturas tirolesa e italiana. Três telecabines a partir da orla da cidade sobem à Seceda, ao Alpe di Siusi e ao circuito da Sella Ronda, abrindo 175 km de pistas do Val Gardena e o gigante Dolomiti Superski para lá. Tranquila e familiar em comparação com Selva vale acima, com algumas das mais bonitas vistas no sopé das pistas dos Alpes."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 65,
+      "black": 15
+    }
+  },
+  {
+    "slug": "bormio",
+    "name": "Bormio",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.467,
+    "lng": 10.37,
+    "altitudeBase": 1225,
+    "altitudeSummit": 3012,
+    "pistesKm": 50,
+    "lifts": 28,
+    "seasonStart": "Dec 1",
+    "seasonEnd": "May 1",
+    "snowScore": 82,
+    "vibes": [
+      "historic",
+      "thermal",
+      "racing"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Bormio is a historic spa town below the Stelvio massif; hotels cluster in and around the old centre, a short walk from the Bormio 2000 gondola.",
+      "fr": "Bormio est une ville thermale historique sous le massif du Stelvio ; les hôtels se regroupent dans et autour du vieux centre, à quelques pas de la télécabine de Bormio 2000.",
+      "es": "Bormio es una ciudad termal histórica bajo el macizo del Stelvio; los hoteles se agrupan en y alrededor del casco viejo, a pocos pasos de la telecabina de Bormio 2000.",
+      "pt": "Bormio é uma cidade termal histórica sob o maciço do Stelvio; os hotéis juntam-se dentro e à volta do centro histórico, a poucos passos do telecabine de Bormio 2000."
+    },
+    "intro": {
+      "en": "A historic spa town in the Valtellina, Bormio descends 1800 vertical metres of legendary World Cup downhill from 3012 m. Roman thermal baths, big race-piste skiing and quietly excellent food.",
+      "fr": "Ville thermale historique de la Valtellina, Bormio dévale 1800 m de dénivelé sur la légendaire descente de Coupe du monde, depuis 3012 m. Thermes romains, grand ski de course et cuisine discrètement excellente.",
+      "es": "Ciudad termal histórica de la Valtellina, Bormio baja 1800 m de desnivel por el legendario descenso de Copa del Mundo, desde 3012 m. Termas romanas, gran esquí de competición y una cocina discretamente excelente.",
+      "pt": "Cidade termal histórica da Valtellina, Bormio desce 1800 m de desnível pela lendária descida da Taça do Mundo, desde 3012 m. Termas romanas, grande esqui de competição e uma cozinha discretamente excelente."
+    },
+    "longDescription": {
+      "en": "Bormio is one of the most interesting bases in Italy: a medieval Lombard town with Roman thermal baths beneath the Stelvio National Park, and a ski mountain that drops 1800 vertical metres of red and black piste from 3012 m back to the door. The Stelvio is one of the toughest World Cup downhill courses on the circuit and runs through town. With the Alta Valtellina pass linking to Santa Caterina, this is serious-skier territory with grown-up town life as a bonus.",
+      "fr": "Bormio est l'une des bases les plus intéressantes d'Italie : une ville médiévale lombarde avec ses thermes romains sous le parc national du Stelvio, et une montagne de ski qui plonge 1800 m de dénivelé sur des pistes rouges et noires depuis 3012 m, jusqu'à la porte. La Stelvio est l'une des descentes de Coupe du monde les plus dures du circuit et traverse la ville. Avec le forfait Alta Valtellina qui se relie à Santa Caterina, c'est un terrain de skieurs sérieux, avec une vie de ville d'adultes en prime.",
+      "es": "Bormio es una de las bases más interesantes de Italia: una ciudad medieval lombarda con sus termas romanas bajo el parque nacional del Stelvio, y una montaña de esquí que cae 1800 m de desnivel por pistas rojas y negras desde 3012 m, hasta la puerta. La Stelvio es uno de los descensos de Copa del Mundo más duros del circuito y atraviesa la ciudad. Con el forfait Alta Valtellina enlazando con Santa Caterina, es terreno de esquiadores serios, con una vida de ciudad adulta como bonus.",
+      "pt": "Bormio é uma das bases mais interessantes da Itália: uma cidade medieval lombarda com as suas termas romanas sob o parque nacional do Stelvio, e uma montanha de esqui que cai 1800 m de desnível por pistas vermelhas e negras desde 3012 m, até à porta. A Stelvio é uma das descidas da Taça do Mundo mais duras do circuito e atravessa a cidade. Com o passe Alta Valtellina a ligar a Santa Caterina, é terreno de esquiadores sérios, com uma vida de cidade adulta como bónus."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 10,
+      "red": 25,
+      "black": 15
+    }
+  },
+  {
+    "slug": "la-thuile",
+    "name": "La Thuile",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.714,
+    "lng": 6.955,
+    "altitudeBase": 1441,
+    "altitudeSummit": 2641,
+    "pistesKm": 152,
+    "lifts": 38,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "cross-border",
+      "scenic",
+      "snow-sure"
+    ],
+    "skiInSkiOutNote": {
+      "en": "La Thuile is a sunny ski village in the Aosta valley; modern hotels at Les Suches and the village base are right by the lifts for true ski-in/ski-out.",
+      "fr": "La Thuile est un village ensoleillé du val d'Aoste ; des hôtels modernes aux Suches et au pied du village jouxtent les remontées pour un vrai ski-in/ski-out.",
+      "es": "La Thuile es un soleado pueblo del valle de Aosta; hoteles modernos en Les Suches y en la base del pueblo están junto a los remontes para un verdadero ski-in/ski-out.",
+      "pt": "La Thuile é uma aldeia solarenga do vale de Aosta; hotéis modernos em Les Suches e na base da aldeia ficam junto aos teleféricos para um verdadeiro ski-in/ski-out."
+    },
+    "intro": {
+      "en": "Italy's cross-border twin to French La Rosière, La Thuile shares 152 km of sunny piste on the Espace San Bernardo. Quiet, scenic and snow-sure under Mont Blanc.",
+      "fr": "Jumelle italienne de la française La Rosière, La Thuile partage 152 km de pistes ensoleillées sur l'Espace San Bernardo. Calme, panoramique et sûre en neige sous le Mont Blanc.",
+      "es": "Gemela italiana de la francesa La Rosière, La Thuile comparte 152 km de pistas soleadas en el Espace San Bernardo. Tranquila, panorámica y de nieve segura bajo el Mont Blanc.",
+      "pt": "Gémea italiana da francesa La Rosière, La Thuile partilha 152 km de pistas solarengas no Espace San Bernardo. Tranquila, panorâmica e de neve segura sob o Mont Blanc."
+    },
+    "longDescription": {
+      "en": "La Thuile climbs into 152 km of sunny piste shared cross-border with La Rosière on the French side, the Espace San Bernardo. The Italian side is quieter and snowier, with long forest descents and a black pisted run that hosted the women's Alpine Skiing World Championships. Hotels at Les Suches and the village base put you on the snow-front, with grand views toward Mont Blanc.",
+      "fr": "La Thuile grimpe sur 152 km de pistes ensoleillées partagées par-dessus la frontière avec La Rosière côté français, l'Espace San Bernardo. Le versant italien est plus calme et plus enneigé, avec de longues descentes en forêt et une piste noire qui a accueilli les championnats du monde féminins. Les hôtels aux Suches et au pied du village vous mettent sur le front de neige, avec de grandes vues vers le Mont Blanc.",
+      "es": "La Thuile sube por 152 km de pistas soleadas compartidas a través de la frontera con La Rosière en el lado francés, el Espace San Bernardo. La vertiente italiana es más tranquila y nevada, con largos descensos por el bosque y una pista negra que acogió los mundiales femeninos. Los hoteles en Les Suches y la base del pueblo te ponen en el frente de nieve, con grandes vistas al Mont Blanc.",
+      "pt": "La Thuile sobe por 152 km de pistas solarengas partilhadas através da fronteira com La Rosière do lado francês, o Espace San Bernardo. A vertente italiana é mais tranquila e nevada, com longas descidas pela floresta e uma pista negra que acolheu os mundiais femininos. Os hotéis em Les Suches e na base da aldeia colocam-no no sopé das pistas, com grandes vistas para o Mont Blanc."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 45,
+      "black": 20
+    }
+  },
+  {
+    "slug": "courmayeur",
+    "name": "Courmayeur",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.796,
+    "lng": 6.969,
+    "altitudeBase": 1224,
+    "altitudeSummit": 2755,
+    "pistesKm": 100,
+    "lifts": 30,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 82,
+    "vibes": [
+      "scenic",
+      "gastronomy",
+      "iconic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Courmayeur is a stylish old village on the Italian side of Mont Blanc; hotels are in town, with a cable car straight from the centre onto the slopes.",
+      "fr": "Courmayeur est un vieux village élégant côté italien du Mont-Blanc ; les hôtels sont en ville, un téléphérique partant droit du centre sur les pistes.",
+      "es": "Courmayeur es un elegante pueblo viejo en la vertiente italiana del Mont Blanc; los hoteles están en el pueblo, con un teleférico directo desde el centro a las pistas.",
+      "pt": "Courmayeur é uma elegante velha aldeia do lado italiano do Mont Blanc; os hotéis ficam na vila, com um teleférico direto desde o centro para as pistas."
+    },
+    "intro": {
+      "en": "Italy's answer to Chamonix on the south side of Mont Blanc, Courmayeur pairs stylish village life with 100 km of high, scenic piste. Sunny aspect and grand-mountain views set it apart.",
+      "fr": "Réponse italienne à Chamonix sur le versant sud du Mont-Blanc, Courmayeur associe une vie de village élégante à 100 km de pistes hautes et panoramiques. Exposition ensoleillée et grandes vues de montagne en font la marque.",
+      "es": "La respuesta italiana a Chamonix en la vertiente sur del Mont Blanc, Courmayeur combina una vida de pueblo elegante con 100 km de pistas altas y panorámicas. Su orientación soleada y grandes vistas de montaña marcan la diferencia.",
+      "pt": "A resposta italiana a Chamonix na vertente sul do Mont Blanc, Courmayeur combina uma vida de aldeia elegante com 100 km de pistas altas e panorâmicas. A exposição solarenga e as grandes vistas de montanha fazem a diferença."
+    },
+    "longDescription": {
+      "en": "Courmayeur sits below the south face of Mont Blanc, a stylish old village turned smart Italian ski town with a cable car straight from the centre to the Plan Chécrouit and Val Vény slopes. Its 100 km of piste are sunnier and softer than Chamonix across the tunnel, and the Skyway Monte Bianco gives one of the most jaw-dropping cable-car rides in the Alps. With the Mont Blanc Unlimited pass linking through to France and Switzerland, this is grand-mountain skiing with serious Italian food and a designer-village evening.",
+      "fr": "Courmayeur se tient sous la face sud du Mont-Blanc, vieux village élégant devenu chic station de ski italienne, avec un téléphérique direct depuis le centre vers les pentes du Plan Chécrouit et du Val Vény. Ses 100 km de pistes sont plus ensoleillés et plus doux que ceux de Chamonix de l'autre côté du tunnel, et la Skyway Monte Bianco offre l'une des plus époustouflantes montées en téléphérique des Alpes. Avec le forfait Mont Blanc Unlimited qui se prolonge en France et en Suisse, c'est du grand ski avec une vraie cuisine italienne et un village de designers le soir.",
+      "es": "Courmayeur se asienta bajo la cara sur del Mont Blanc, un elegante pueblo viejo convertido en chic ciudad de esquí italiana, con un teleférico directo desde el centro a las laderas de Plan Chécrouit y Val Vény. Sus 100 km de pistas son más soleados y suaves que los de Chamonix al otro lado del túnel, y la Skyway Monte Bianco ofrece uno de los recorridos en teleférico más espectaculares de los Alpes. Con el forfait Mont Blanc Unlimited enlazando con Francia y Suiza, es gran esquí con auténtica gastronomía italiana y un pueblo de diseño al atardecer.",
+      "pt": "Courmayeur fica sob a face sul do Mont Blanc, uma elegante velha aldeia tornada chique cidade de esqui italiana, com um teleférico direto desde o centro para as encostas de Plan Chécrouit e Val Vény. Os seus 100 km de pistas são mais solarengos e suaves do que os de Chamonix do outro lado do túnel, e a Skyway Monte Bianco oferece uma das mais espetaculares subidas de teleférico dos Alpes. Com o passe Mont Blanc Unlimited a ligar-se à França e à Suíça, é grande esqui com autêntica gastronomia italiana e uma aldeia de design ao fim do dia."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 50,
+      "black": 15
+    }
+  },
+  {
+    "slug": "sauze-doulx",
+    "name": "Sauze d'Oulx",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.027,
+    "lng": 6.865,
+    "altitudeBase": 1509,
+    "altitudeSummit": 2823,
+    "pistesKm": 400,
+    "lifts": 70,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "party",
+      "big-domain",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Sauze d'Oulx is a busy hillside village; many hotels sit on the snow-front above the old centre, with the rest a short walk from the village lifts.",
+      "fr": "Sauze d'Oulx est un village animé à flanc de coteau ; de nombreux hôtels sont sur le front de neige au-dessus du vieux centre, le reste à quelques pas des remontées du village.",
+      "es": "Sauze d'Oulx es un pueblo animado en ladera; muchos hoteles están sobre el frente de nieve por encima del casco viejo, el resto a pocos pasos de los remontes del pueblo.",
+      "pt": "Sauze d'Oulx é uma aldeia animada na encosta; muitos hotéis ficam na frente de neve acima do centro histórico, o resto a poucos passos dos teleféricos da aldeia."
+    },
+    "intro": {
+      "en": "A lively Piedmontese village on the giant Via Lattea, Sauze d'Oulx is famous for its après scene and 400 km of sunny piste across the Italian-French border. Italian energy on a vast circuit.",
+      "fr": "Village piémontais animé sur la géante Voie lactée, Sauze d'Oulx est célèbre pour son après-ski et 400 km de pistes ensoleillées à cheval sur la frontière franco-italienne. L'énergie italienne sur un vaste circuit.",
+      "es": "Animado pueblo piamontés en la gigante Vía Láctea, Sauze d'Oulx es famoso por su après-ski y por 400 km de pistas soleadas a caballo de la frontera francoitaliana. Energía italiana en un vasto circuito.",
+      "pt": "Animada aldeia piemontesa na gigante Via Láctea, Sauze d'Oulx é famosa pelo après-ski e por 400 km de pistas solarengas a cavalo da fronteira franco-italiana. Energia italiana num vasto circuito."
+    },
+    "longDescription": {
+      "en": "Sauze d'Oulx is the liveliest of the Italian Via Lattea villages, a busy hillside town with 400 km of sunny piste linking it to Sestriere, Sansicario and on into France at Montgenèvre. Its own slopes are wide and intermediate-friendly, while the big domain offers long, low-priced cross-border days out. The town has a famously raucous après-ski tradition and a young, value-focused crowd, all good food and cheap drinks.",
+      "fr": "Sauze d'Oulx est le plus animé des villages italiens de la Voie lactée, ville à flanc de coteau avec 400 km de pistes ensoleillées la reliant à Sestriere, Sansicario puis jusqu'à Montgenèvre en France. Ses propres pentes sont larges et intermédiaires, et le grand domaine offre de longues journées transfrontalières à prix bas. La ville a une tradition d'après-ski tonitruante et un public jeune attentif au rapport qualité-prix, le tout autour d'une bonne cuisine et de boissons bon marché.",
+      "es": "Sauze d'Oulx es el más animado de los pueblos italianos de la Vía Láctea, una ciudad en ladera con 400 km de pistas soleadas que la enlazan con Sestriere, Sansicario y hasta Montgenèvre en Francia. Sus propias laderas son amplias y amables para intermedios, mientras que el gran dominio brinda largas jornadas transfronterizas a bajo precio. La ciudad tiene una tradición de après-ski estrepitosa y un público joven atento a la relación calidad-precio, todo con buena cocina y bebida barata.",
+      "pt": "Sauze d'Oulx é a mais animada das aldeias italianas da Via Láctea, uma cidade em encosta com 400 km de pistas solarengas a ligá-la a Sestriere, Sansicario e até Montgenèvre em França. As suas próprias encostas são amplas e amáveis para intermédios, enquanto o grande domínio oferece longos dias transfronteiriços a preços baixos. A cidade tem uma tradição de après-ski estrondosa e um público jovem atento à relação qualidade-preço, tudo com boa cozinha e bebida barata."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 80,
+      "red": 130,
+      "black": 30
+    }
+  },
+  {
+    "slug": "alagna",
+    "name": "Alagna",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.854,
+    "lng": 7.941,
+    "altitudeBase": 1191,
+    "altitudeSummit": 3275,
+    "pistesKm": 180,
+    "lifts": 38,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 88,
+    "vibes": [
+      "freeride",
+      "scenic",
+      "authentic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Alagna is a tiny, atmospheric old village at the foot of the Monterosa lift; most hotels are in or by the village, a short walk from the gondola.",
+      "fr": "Alagna est un minuscule vieux village plein d'atmosphère au pied de la remontée du Monterosa ; la plupart des hôtels sont dans le village ou à côté, à quelques pas de la télécabine.",
+      "es": "Alagna es un diminuto y atmosférico pueblo viejo al pie del remonte del Monterosa; la mayoría de los hoteles están en el pueblo o al lado, a pocos pasos de la telecabina.",
+      "pt": "Alagna é uma minúscula e atmosférica velha aldeia ao pé do teleférico do Monterosa; a maioria dos hotéis fica na aldeia ou ao lado, a poucos passos do telecabine."
+    },
+    "intro": {
+      "en": "A tiny Walser village under the Monte Rosa, Alagna is a legendary freeride base, plugged into 180 km of the Monterosa Ski domain. Off-piste lines that take all day, in cinematic high-mountain scenery.",
+      "fr": "Minuscule village walser sous le Mont Rose, Alagna est une base de freeride légendaire, raccordée aux 180 km du domaine Monterosa Ski. Des lignes hors-piste qui durent la journée, dans un décor cinématographique de haute montagne.",
+      "es": "Diminuto pueblo walser bajo el Monte Rosa, Alagna es una legendaria base de freeride, conectada con los 180 km del dominio Monterosa Ski. Líneas fuera de pista que duran todo el día, en un escenario cinematográfico de alta montaña.",
+      "pt": "Minúscula aldeia walser sob o Monte Rosa, Alagna é uma lendária base de freeride, ligada aos 180 km do domínio Monterosa Ski. Linhas fora-de-pista que duram o dia todo, num cenário cinematográfico de alta montanha."
+    },
+    "longDescription": {
+      "en": "Alagna is one of Europe's great freeride hideaways, a perfectly preserved Walser village beneath the south face of the Monte Rosa, the second-highest peak in the Alps. The cable car climbs to 3275 m at Punta Indren, opening some of the longest off-piste descents in the range and a link into the 180 km Monterosa Ski domain shared with Champoluc and Gressoney. It is small and quiet on the surface but globally famous among skiers who chase big-mountain lines, with a helicopter just up the valley for the truly committed.",
+      "fr": "Alagna est l'un des grands repaires de freeride d'Europe, village walser parfaitement préservé sous la face sud du Mont Rose, deuxième plus haut sommet des Alpes. Le téléphérique grimpe à 3275 m à Punta Indren, ouvrant quelques-unes des plus longues descentes hors-piste du massif et une liaison avec les 180 km du domaine Monterosa Ski partagé avec Champoluc et Gressoney. Petite et calme en surface, mais mondialement connue des skieurs en quête de grandes lignes, avec un hélicoptère un peu plus haut dans la vallée pour les plus engagés.",
+      "es": "Alagna es uno de los grandes refugios de freeride de Europa, un pueblo walser perfectamente conservado bajo la cara sur del Monte Rosa, la segunda cumbre más alta de los Alpes. El teleférico sube a 3275 m a Punta Indren, abriendo algunos de los descensos fuera de pista más largos del macizo y un enlace al dominio Monterosa Ski de 180 km compartido con Champoluc y Gressoney. Pequeña y tranquila en apariencia, pero mundialmente famosa entre los esquiadores que persiguen grandes líneas, con un helicóptero un poco más arriba en el valle para los más entregados.",
+      "pt": "Alagna é um dos grandes refúgios de freeride da Europa, uma aldeia walser perfeitamente preservada sob a face sul do Monte Rosa, o segundo mais alto cume dos Alpes. O teleférico sobe a 3275 m a Punta Indren, abrindo algumas das mais longas descidas fora-de-pista do maciço e uma ligação ao domínio Monterosa Ski de 180 km partilhado com Champoluc e Gressoney. Pequena e tranquila à superfície, mas mundialmente famosa entre os esquiadores que perseguem grandes linhas, com um helicóptero um pouco mais acima no vale para os mais empenhados."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 45,
+      "black": 30
+    }
+  },
+  {
+    "slug": "champoluc",
+    "name": "Champoluc",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.839,
+    "lng": 7.718,
+    "altitudeBase": 1568,
+    "altitudeSummit": 3275,
+    "pistesKm": 180,
+    "lifts": 38,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "family",
+      "scenic",
+      "big-domain"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Champoluc is a friendly Val d'Ayas village; a gondola from the centre climbs to the Monterosa Ski circuit, with most hotels a short walk away.",
+      "fr": "Champoluc est un sympathique village du val d'Ayas ; une télécabine depuis le centre grimpe au circuit Monterosa Ski, la plupart des hôtels étant à quelques pas.",
+      "es": "Champoluc es un simpático pueblo del Val d'Ayas; una telecabina desde el centro sube al circuito Monterosa Ski, con la mayoría de hoteles a pocos pasos.",
+      "pt": "Champoluc é uma simpática aldeia do Val d'Ayas; um telecabine desde o centro sobe ao circuito Monterosa Ski, com a maioria dos hotéis a poucos passos."
+    },
+    "intro": {
+      "en": "A friendly Aosta valley village on the great Monterosa Ski circuit, Champoluc shares 180 km with Alagna and Gressoney. The family side of one of Italy's wildest ski areas.",
+      "fr": "Sympathique village du Val d'Aoste sur le grand circuit Monterosa Ski, Champoluc partage 180 km avec Alagna et Gressoney. Le versant familial de l'un des domaines les plus sauvages d'Italie.",
+      "es": "Simpático pueblo del valle de Aosta en el gran circuito Monterosa Ski, Champoluc comparte 180 km con Alagna y Gressoney. La cara familiar de uno de los dominios más salvajes de Italia.",
+      "pt": "Simpática aldeia do vale de Aosta no grande circuito Monterosa Ski, Champoluc partilha 180 km com Alagna e Gressoney. A face familiar de um dos domínios mais selvagens da Itália."
+    },
+    "longDescription": {
+      "en": "Champoluc is the gentlest of the three Monterosa Ski villages, a relaxed Val d'Ayas resort linked over the high passes to Gressoney and Alagna for 180 km of mostly intermediate piste under the Monte Rosa massif. The terrain is wide, sunny and family-friendly, with great off-piste options reached by a short bus to Alagna for stronger skiers. With a real village feel, modern lifts and far fewer crowds than the famous Alps resorts, it is one of the smartest secrets in Italian skiing.",
+      "fr": "Champoluc est le plus doux des trois villages du Monterosa Ski, station détendue du val d'Ayas reliée par les hauts cols à Gressoney et Alagna pour 180 km de pistes surtout intermédiaires sous le massif du Mont Rose. Le terrain est large, ensoleillé et familial, avec d'excellentes options hors-piste à un bus d'Alagna pour les meilleurs skieurs. Avec un vrai esprit de village, des remontées modernes et bien moins de monde que les stations célèbres, c'est l'un des secrets les plus malins du ski italien.",
+      "es": "Champoluc es el más suave de los tres pueblos del Monterosa Ski, una estación relajada del Val d'Ayas enlazada por los altos pasos con Gressoney y Alagna para 180 km de pistas sobre todo intermedias bajo el macizo del Monte Rosa. El terreno es amplio, soleado y familiar, con excelentes opciones fuera de pista a un autobús de Alagna para los esquiadores fuertes. Con un verdadero ambiente de pueblo, remontes modernos y mucha menos gente que las estaciones famosas, es uno de los secretos más inteligentes del esquí italiano.",
+      "pt": "Champoluc é a mais suave das três aldeias do Monterosa Ski, uma estância descontraída do Val d'Ayas ligada pelos altos colos a Gressoney e Alagna para 180 km de pistas sobretudo intermédias sob o maciço do Monte Rosa. O terreno é amplo, solarengo e familiar, com excelentes opções fora-de-pista a um autocarro de Alagna para os esquiadores fortes. Com um verdadeiro ambiente de aldeia, teleféricos modernos e bem menos gente do que as estâncias famosas, é um dos segredos mais inteligentes do esqui italiano."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 50,
+      "black": 25
+    }
+  },
+  {
+    "slug": "gressoney",
+    "name": "Gressoney",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.766,
+    "lng": 7.827,
+    "altitudeBase": 1637,
+    "altitudeSummit": 3275,
+    "pistesKm": 180,
+    "lifts": 38,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "scenic",
+      "authentic",
+      "freeride"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Gressoney-La-Trinité is a small Walser village beneath the lifts; most hotels are in town, a short walk from the gondola that climbs to the Monterosa Ski domain.",
+      "fr": "Gressoney-La-Trinité est un petit village walser sous les remontées ; la plupart des hôtels sont en ville, à quelques pas de la télécabine qui grimpe vers le domaine Monterosa Ski.",
+      "es": "Gressoney-La-Trinité es un pequeño pueblo walser bajo los remontes; la mayoría de los hoteles están en el pueblo, a pocos pasos de la telecabina que sube al dominio Monterosa Ski.",
+      "pt": "Gressoney-La-Trinité é uma pequena aldeia walser sob os teleféricos; a maioria dos hotéis fica na vila, a poucos passos do telecabine que sobe para o domínio Monterosa Ski."
+    },
+    "intro": {
+      "en": "A handsome Walser village in the Lys valley at the centre of Monterosa Ski, Gressoney is calm, traditional and ringed by 4000 m peaks. The middle door into the 180 km domain.",
+      "fr": "Beau village walser de la vallée du Lys, au centre de Monterosa Ski, Gressoney est calme, traditionnel et entouré de sommets de 4000 m. La porte du milieu vers le domaine de 180 km.",
+      "es": "Hermoso pueblo walser del valle del Lys, en el centro del Monterosa Ski, Gressoney es tranquilo, tradicional y rodeado de cumbres de 4000 m. La puerta central al dominio de 180 km.",
+      "pt": "Bonita aldeia walser do vale do Lys, no centro do Monterosa Ski, Gressoney é tranquila, tradicional e rodeada de cumes de 4000 m. A porta central para o domínio de 180 km."
+    },
+    "longDescription": {
+      "en": "Gressoney sits in the middle of the three Monterosa Ski villages, in the wild Lys valley below the Monte Rosa, with the cable cars of Gressoney-La-Trinité rising to the high cols that link Champoluc and Alagna. The setting is grand and quiet, with traditional Walser architecture and easy access to both the family slopes of the Val d'Ayas and the famous freeride of Alagna. For skiers who want grand-mountain scenery without crowds and with serious off-piste in reach, it is one of the best-value bases in the Italian Alps.",
+      "fr": "Gressoney occupe le centre des trois villages du Monterosa Ski, dans la vallée sauvage du Lys sous le Mont Rose, les téléphériques de Gressoney-La-Trinité s'élevant vers les hauts cols qui relient Champoluc et Alagna. Le cadre est grandiose et calme, avec une architecture walser traditionnelle et un accès facile aux pentes familiales du val d'Ayas comme au freeride célèbre d'Alagna. Pour les skieurs qui veulent un décor de haute montagne sans foule et avec du hors-piste sérieux à portée, c'est l'une des bases au meilleur rapport qualité-prix des Alpes italiennes.",
+      "es": "Gressoney ocupa el centro de los tres pueblos del Monterosa Ski, en el salvaje valle del Lys bajo el Monte Rosa, con los teleféricos de Gressoney-La-Trinité subiendo a los altos pasos que enlazan Champoluc y Alagna. El entorno es grandioso y tranquilo, con arquitectura walser tradicional y acceso fácil tanto a las laderas familiares del Val d'Ayas como al famoso freeride de Alagna. Para los esquiadores que quieren paisaje de alta montaña sin gentío y con fuera de pista serio al alcance, es una de las bases de mejor relación calidad-precio de los Alpes italianos.",
+      "pt": "Gressoney ocupa o centro das três aldeias do Monterosa Ski, no selvagem vale do Lys sob o Monte Rosa, com os teleféricos de Gressoney-La-Trinité a subir para os altos colos que ligam Champoluc e Alagna. O cenário é grandioso e tranquilo, com arquitetura walser tradicional e acesso fácil tanto às encostas familiares do Val d'Ayas como ao famoso freeride de Alagna. Para os esquiadores que querem paisagem de alta montanha sem multidões e com fora-de-pista a sério ao alcance, é uma das bases de melhor relação qualidade-preço dos Alpes italianos."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 48,
+      "black": 25
+    }
+  },
+  {
+    "slug": "kronplatz",
+    "name": "Kronplatz",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.737,
+    "lng": 11.954,
+    "altitudeBase": 950,
+    "altitudeSummit": 2275,
+    "pistesKm": 119,
+    "lifts": 32,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "panoramic",
+      "scenic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Kronplatz is reached from villages around its flat-topped summit; hotels in Olang, San Vigilio and Riscone sit by gondolas onto the mountain.",
+      "fr": "Kronplatz se rejoint depuis les villages tout autour de son sommet aplati ; les hôtels d'Olang, San Vigilio et Riscone jouxtent les télécabines vers la montagne.",
+      "es": "Kronplatz se alcanza desde los pueblos en torno a su cima aplanada; los hoteles en Olang, San Vigilio y Riscone están junto a las telecabinas a la montaña.",
+      "pt": "Kronplatz alcança-se a partir das aldeias à volta do seu cume achatado; os hotéis em Olang, San Vigilio e Riscone ficam junto aos telecabines para a montanha."
+    },
+    "intro": {
+      "en": "The flat-topped Plan de Corones rises over the Pusteria valley, with 119 km of immaculately groomed piste cascading off the summit in every direction. Family-perfect skiing on the Dolomiti Superski pass.",
+      "fr": "Le sommet aplati de Plan de Corones s'élève au-dessus de la vallée de la Pusteria, avec 119 km de pistes impeccablement damées qui dévalent du sommet dans toutes les directions. Du ski parfait pour les familles, sur le forfait Dolomiti Superski.",
+      "es": "La cumbre aplanada del Plan de Corones se alza sobre el valle de la Pusteria, con 119 km de pistas impecablemente pisadas que caen desde la cima en todas las direcciones. Esquí perfecto para familias, en el forfait Dolomiti Superski.",
+      "pt": "O cume achatado do Plan de Corones ergue-se sobre o vale da Pusteria, com 119 km de pistas impecavelmente pisadas a descer do cimo em todas as direções. Esqui perfeito para famílias, no passe Dolomiti Superski."
+    },
+    "longDescription": {
+      "en": "Kronplatz, or Plan de Corones, is a flat-topped massif above the Pusteria valley, with 119 km of immaculately groomed piste dropping in every direction from its summit. It is regularly voted the best family ski area in Italy, with wide cruising runs, modern fast lifts and three Messner Mountain Museums plus a steep Lumen photography gallery up top. It is on the Dolomiti Superski pass, so a single ticket also reaches the Sella Ronda valleys and beyond.",
+      "fr": "Kronplatz, ou Plan de Corones, est un massif aplati au sommet, au-dessus de la vallée de la Pusteria, avec 119 km de pistes impeccablement damées qui descendent du sommet dans toutes les directions. Régulièrement élu meilleur domaine familial d'Italie, il offre de larges pistes roulantes, des remontées modernes et rapides et trois musées Messner Mountain plus la spectaculaire galerie de photographie Lumen au sommet. Il est sur le forfait Dolomiti Superski : un seul billet rejoint aussi les vallées du Sella Ronda et au-delà.",
+      "es": "Kronplatz, o Plan de Corones, es un macizo de cumbre aplanada sobre el valle de la Pusteria, con 119 km de pistas impecablemente pisadas que caen del sumido en todas las direcciones. Es regularmente elegido el mejor dominio familiar de Italia, con amplias pistas rodadoras, remontes modernos y rápidos y tres museos Messner Mountain más la espectacular galería de fotografía Lumen en la cima. Está en el forfait Dolomiti Superski: un solo billete alcanza también los valles de la Sella Ronda y más allá.",
+      "pt": "Kronplatz, ou Plan de Corones, é um maciço de cume achatado sobre o vale da Pusteria, com 119 km de pistas impecavelmente pisadas a descer do cimo em todas as direções. É regularmente eleito o melhor domínio familiar da Itália, com amplas pistas roladoras, teleféricos modernos e rápidos e três museus Messner Mountain mais a espetacular galeria de fotografia Lumen no topo. Está no passe Dolomiti Superski: um só bilhete alcança também os vales da Sella Ronda e para lá."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 50,
+      "black": 19
+    }
+  },
+  {
+    "slug": "san-martino-di-castrozza",
+    "name": "San Martino di Castrozza",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.262,
+    "lng": 11.799,
+    "altitudeBase": 1467,
+    "altitudeSummit": 2350,
+    "pistesKm": 60,
+    "lifts": 22,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "dolomites",
+      "scenic",
+      "authentic"
+    ],
+    "skiInSkiOutNote": {
+      "en": "San Martino is a small old village under the Pale di San Martino; hotels are in town, a short walk from gondolas at each end of the village.",
+      "fr": "San Martino est un petit vieux village sous les Pale di San Martino ; les hôtels sont en ville, à quelques pas de télécabines à chaque extrémité du village.",
+      "es": "San Martino es un pequeño pueblo viejo bajo las Pale di San Martino; los hoteles están en el pueblo, a pocos pasos de telecabinas en cada extremo del pueblo.",
+      "pt": "San Martino é uma pequena velha aldeia sob as Pale di San Martino; os hotéis ficam na vila, a poucos passos de telecabines em cada extremo da aldeia."
+    },
+    "intro": {
+      "en": "A pretty old village under the dramatic Pale di San Martino, this is one of the most photogenic small resorts in the Dolomites, on the Dolomiti Superski pass.",
+      "fr": "Joli vieux village sous les spectaculaires Pale di San Martino, c'est l'une des plus photogéniques petites stations des Dolomites, sur le forfait Dolomiti Superski.",
+      "es": "Bonito pueblo viejo bajo las espectaculares Pale di San Martino, es una de las pequeñas estaciones más fotogénicas de los Dolomitas, en el forfait Dolomiti Superski.",
+      "pt": "Bonita velha aldeia sob as espetaculares Pale di San Martino, é uma das pequenas estâncias mais fotogénicas das Dolomitas, no passe Dolomiti Superski."
+    },
+    "longDescription": {
+      "en": "San Martino di Castrozza sits at the foot of the Pale di San Martino, a wall of pale Dolomite rock that gives this small Trentino village one of the most jaw-dropping settings in the Alps. Two cable cars from each end of the village access 60 km of well-laid-out piste, plus the giant Dolomiti Superski pass on neighbouring valleys. Quiet and traditional, it is a fine alternative to the bigger names for skiers who want the Dolomite views without the crowds.",
+      "fr": "San Martino di Castrozza se tient au pied des Pale di San Martino, un mur de roche dolomitique pâle qui offre à ce petit village trentin l'un des cadres les plus stupéfiants des Alpes. Deux téléphériques à chaque extrémité du village donnent accès à 60 km de pistes bien tracées, plus le géant forfait Dolomiti Superski sur les vallées voisines. Calme et traditionnel, c'est une belle alternative aux grands noms pour les skieurs qui veulent la vue dolomitique sans la foule.",
+      "es": "San Martino di Castrozza se sitúa al pie de las Pale di San Martino, un muro de pálida roca dolomítica que da a este pequeño pueblo trentino uno de los escenarios más impactantes de los Alpes. Dos teleféricos en cada extremo del pueblo dan acceso a 60 km de pistas bien trazadas, además del gigante forfait Dolomiti Superski en los valles vecinos. Tranquila y tradicional, es una buena alternativa a los grandes nombres para los esquiadores que quieren las vistas dolomíticas sin el gentío.",
+      "pt": "San Martino di Castrozza fica ao pé das Pale di San Martino, uma parede de rocha dolomítica pálida que dá a esta pequena aldeia trentina um dos cenários mais impressionantes dos Alpes. Dois teleféricos em cada extremo da aldeia dão acesso a 60 km de pistas bem traçadas, mais o gigante passe Dolomiti Superski nos vales vizinhos. Tranquila e tradicional, é uma boa alternativa aos grandes nomes para os esquiadores que querem as vistas dolomíticas sem a multidão."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 22,
+      "red": 28,
+      "black": 10
+    }
+  },
+  {
+    "slug": "pila",
+    "name": "Pila",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.708,
+    "lng": 7.306,
+    "altitudeBase": 1800,
+    "altitudeSummit": 2700,
+    "pistesKm": 70,
+    "lifts": 13,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "scenic",
+      "snow-sure",
+      "family"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Pila is a compact, modern slope-side resort reached by gondola from Aosta; most apartments and hotels there are right on the snow-front.",
+      "fr": "Pila est une station compacte et moderne au pied des pistes, accessible par télécabine depuis Aoste ; la plupart des appartements et hôtels y donnent sur le front de neige.",
+      "es": "Pila es una estación compacta y moderna a pie de pista, alcanzable en telecabina desde Aosta; la mayoría de apartamentos y hoteles dan al frente de nieve.",
+      "pt": "Pila é uma estância compacta e moderna no sopé das pistas, alcançável de telecabine desde Aosta; a maioria dos apartamentos e hotéis dão para a frente de neve."
+    },
+    "intro": {
+      "en": "A purpose-built sun-balcony resort above Aosta, Pila looks straight across to the Italian Mont Blanc. A gondola from the city centre puts the skiing at the door.",
+      "fr": "Station-balcon ensoleillée construite au-dessus d'Aoste, Pila regarde droit le Mont-Blanc italien. Une télécabine depuis le centre-ville met le ski à la porte.",
+      "es": "Estación-balcón soleada construida sobre Aosta, Pila mira de frente al Mont Blanc italiano. Una telecabina desde el centro de la ciudad pone el esquí en la puerta.",
+      "pt": "Estância-varanda solarenga construída acima de Aosta, Pila olha de frente para o Mont Blanc italiano. Um telecabine desde o centro da cidade põe o esqui à porta."
+    },
+    "longDescription": {
+      "en": "Pila sits on a sunny shelf at 1800 m straight above the Roman city of Aosta, reached by a fast gondola from the centre of town. Its 70 km of piste are wide, snow-sure and family-friendly, with show-stopping views across the Aosta valley to the Italian side of Mont Blanc. You can sleep in a real city by the lifts of a real ski area, a rare combination in the Alps.",
+      "fr": "Pila occupe un balcon ensoleillé à 1800 m, juste au-dessus de la cité romaine d'Aoste, accessible par une télécabine rapide depuis le centre. Ses 70 km de pistes sont larges, sûrs en neige et familiaux, avec des vues époustouflantes sur la vallée d'Aoste vers le versant italien du Mont-Blanc. On peut dormir dans une vraie ville au pied des remontées d'une vraie station de ski, combinaison rare dans les Alpes.",
+      "es": "Pila ocupa una repisa soleada a 1800 m, justo encima de la ciudad romana de Aosta, alcanzable por una telecabina rápida desde el centro. Sus 70 km de pistas son amplios, de nieve segura y familiares, con vistas impactantes sobre el valle de Aosta hacia la vertiente italiana del Mont Blanc. Se puede dormir en una ciudad de verdad al pie de los remontes de una estación de esquí de verdad, combinación rara en los Alpes.",
+      "pt": "Pila ocupa um patamar solarengo a 1800 m, mesmo acima da cidade romana de Aosta, alcançável por um telecabine rápido desde o centro. Os seus 70 km de pistas são amplos, de neve segura e familiares, com vistas impressionantes sobre o vale de Aosta para a vertente italiana do Mont Blanc. Pode-se dormir numa cidade a sério no sopé dos teleféricos de uma estância de esqui a sério, combinação rara nos Alpes."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 25,
+      "red": 33,
+      "black": 12
+    }
+  },
+  {
+    "slug": "passo-tonale",
+    "name": "Passo Tonale",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.258,
+    "lng": 10.587,
+    "altitudeBase": 1883,
+    "altitudeSummit": 3016,
+    "pistesKm": 100,
+    "lifts": 27,
+    "seasonStart": "Nov 30",
+    "seasonEnd": "May 4",
+    "snowScore": 86,
+    "vibes": [
+      "snow-sure",
+      "glacier",
+      "value"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Passo Tonale is strung along a high mountain pass, with most hotels right on the broad snow-front for true ski-in/ski-out.",
+      "fr": "Passo Tonale s'étire le long d'un haut col de montagne, la plupart des hôtels donnant sur le large front de neige pour un vrai ski-in/ski-out.",
+      "es": "Passo Tonale se extiende a lo largo de un alto puerto de montaña, con la mayoría de los hoteles sobre el amplio frente de nieve para un verdadero ski-in/ski-out.",
+      "pt": "Passo Tonale estende-se ao longo de um alto colo de montanha, com a maioria dos hotéis sobre o amplo sopé das pistas para um verdadeiro ski-in/ski-out."
+    },
+    "intro": {
+      "en": "A high pass between Lombardy and Trentino at 1883 m, Passo Tonale is snow-sure into May with a glacier at 3016 m. Wide, beginner-friendly slopes and excellent value.",
+      "fr": "Haut col entre Lombardie et Trentin à 1883 m, Passo Tonale est sûr en neige jusqu'en mai, avec un glacier à 3016 m. Larges pentes accueillantes pour débutants et excellent rapport qualité-prix.",
+      "es": "Alto puerto entre Lombardía y Trentino a 1883 m, Passo Tonale es de nieve segura hasta mayo, con un glaciar a 3016 m. Amplias laderas amables para debutantes y excelente relación calidad-precio.",
+      "pt": "Alto colo entre a Lombardia e o Trentino a 1883 m, Passo Tonale é de neve segura até maio, com um glaciar a 3016 m. Amplas encostas amáveis para iniciantes e excelente relação qualidade-preço."
+    },
+    "longDescription": {
+      "en": "Passo Tonale straddles a high mountain pass at 1883 m between the Lombardy and Trentino sides of the Alps, with skiing that climbs to the Presena glacier at 3016 m and stays snow-sure well into May. Its 100 km of piste are unusually wide and gentle, making it a favourite for beginners and ski schools, and prices are markedly lower than the famous Italian names. With the Adamello Ski pass linking to Ponte di Legno, it is one of the best snow bets in the Italian Alps for the same money.",
+      "fr": "Passo Tonale enjambe un haut col à 1883 m entre les versants lombard et trentin des Alpes, avec un ski qui grimpe au glacier de la Presena à 3016 m et reste sûr en neige jusqu'en mai. Ses 100 km de pistes sont exceptionnellement larges et douces, ce qui en fait un favori des débutants et des écoles de ski, et les tarifs sont nettement inférieurs aux grands noms italiens. Avec le forfait Adamello Ski qui se relie à Ponte di Legno, c'est l'un des meilleurs paris d'enneigement des Alpes italiennes au même prix.",
+      "es": "Passo Tonale cruza un alto puerto a 1883 m entre las vertientes lombarda y trentina de los Alpes, con un esquí que sube al glaciar del Presena a 3016 m y mantiene nieve segura hasta mayo. Sus 100 km de pistas son inusualmente amplios y suaves, lo que lo hace favorito de principiantes y escuelas de esquí, y los precios son notablemente más bajos que los grandes nombres italianos. Con el forfait Adamello Ski enlazando con Ponte di Legno, es una de las mejores apuestas de nieve de los Alpes italianos por el mismo dinero.",
+      "pt": "Passo Tonale atravessa um alto colo a 1883 m entre as vertentes lombarda e trentina dos Alpes, com esqui que sobe ao glaciar da Presena a 3016 m e mantém neve segura até maio. Os seus 100 km de pistas são invulgarmente amplos e suaves, o que faz dele favorito de principiantes e escolas de esqui, e os preços são notavelmente mais baixos do que os grandes nomes italianos. Com o passe Adamello Ski a ligar a Ponte di Legno, é uma das melhores apostas de neve dos Alpes italianos pelo mesmo dinheiro."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 40,
+      "red": 45,
+      "black": 15
+    }
+  },
+  {
+    "slug": "folgarida-marilleva",
+    "name": "Folgarida-Marilleva",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.314,
+    "lng": 10.865,
+    "altitudeBase": 1300,
+    "altitudeSummit": 2179,
+    "pistesKm": 150,
+    "lifts": 60,
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "value",
+      "big-domain"
+    ],
+    "skiInSkiOutNote": {
+      "en": "Folgarida and Marilleva are purpose-built sister villages with apartments and hotels on the snow-front, lift-linked to Madonna di Campiglio.",
+      "fr": "Folgarida et Marilleva sont des villages-jumeaux construits avec appartements et hôtels sur le front de neige, reliés par remontées à Madonna di Campiglio.",
+      "es": "Folgarida y Marilleva son pueblos gemelos construidos con apartamentos y hoteles en el frente de nieve, enlazados por remontes con Madonna di Campiglio.",
+      "pt": "Folgarida e Marilleva são aldeias-gémeas construídas com apartamentos e hotéis na frente de neve, ligadas por teleféricos a Madonna di Campiglio."
+    },
+    "intro": {
+      "en": "Sunny purpose-built sister villages on the Val di Sole side of the Brenta Dolomites, lift-linked to Madonna di Campiglio for 150 km in all. A family-friendly value alternative.",
+      "fr": "Villages-jumeaux construits et ensoleillés côté Val di Sole des Dolomites de Brenta, reliés par remontées à Madonna di Campiglio pour 150 km au total. Une alternative familiale au bon rapport qualité-prix.",
+      "es": "Pueblos gemelos construidos y soleados en la vertiente del Val di Sole de los Dolomitas de Brenta, enlazados por remontes con Madonna di Campiglio para 150 km en total. Una alternativa familiar de buena relación calidad-precio.",
+      "pt": "Aldeias-gémeas construídas e solarengas na vertente do Val di Sole das Dolomitas de Brenta, ligadas por teleféricos a Madonna di Campiglio para 150 km no total. Uma alternativa familiar de boa relação qualidade-preço."
+    },
+    "longDescription": {
+      "en": "Folgarida and Marilleva are purpose-built ski-in/ski-out villages on the sunny Val di Sole side of the Brenta Dolomites, lift-linked over the mountain to Madonna di Campiglio for a shared 150 km of piste. Slopes are wide and well-suited to families and improvers, and prices are markedly lower than chic Madonna across the ridge. On the broader Skirama Dolomiti pass it is one of the best-value family weeks in the Italian Alps.",
+      "fr": "Folgarida et Marilleva sont des villages-stations construits ski-in/ski-out côté Val di Sole ensoleillé des Dolomites de Brenta, reliés par la montagne à Madonna di Campiglio pour 150 km de pistes partagées. Les pentes sont larges et bien adaptées aux familles et aux skieurs en progrès, et les tarifs sont nettement inférieurs à la chic Madonna de l'autre côté de la crête. Sur le plus large forfait Skirama Dolomiti, c'est l'une des semaines familiales au meilleur rapport qualité-prix des Alpes italiennes.",
+      "es": "Folgarida y Marilleva son pueblos-estación construidos ski-in/ski-out en la soleada vertiente del Val di Sole de los Dolomitas de Brenta, enlazados por la montaña con Madonna di Campiglio para 150 km de pistas compartidas. Las laderas son amplias y bien adaptadas a familias y a quienes mejoran, y los precios son notablemente más bajos que en la chic Madonna al otro lado de la loma. En el más amplio forfait Skirama Dolomiti es una de las semanas familiares con mejor relación calidad-precio de los Alpes italianos.",
+      "pt": "Folgarida e Marilleva são aldeias-estância construídas ski-in/ski-out na solarenga vertente do Val di Sole das Dolomitas de Brenta, ligadas pela montanha a Madonna di Campiglio para 150 km de pistas partilhadas. As encostas são amplas e bem adaptadas a famílias e a quem progride, e os preços são notavelmente mais baixos do que na chique Madonna do outro lado da crista. No mais amplo passe Skirama Dolomiti é uma das semanas familiares com melhor relação qualidade-preço dos Alpes italianos."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 50,
+      "red": 65,
+      "black": 20
+    }
   }
 ]

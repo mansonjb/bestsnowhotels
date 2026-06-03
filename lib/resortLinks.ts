@@ -144,6 +144,22 @@ const RESORT_SITES: Record<string, string> = {
   fieberbrunn: 'https://www.fieberbrunn.com',
   gerlos: 'https://www.zillertalarena.com',
   flachau: 'https://www.snow-space.com',
+  'alta-badia': 'https://www.altabadia.org',
+  canazei: 'https://www.fassa.com',
+  arabba: 'https://www.arabba.it',
+  ortisei: 'https://www.valgardena.it',
+  bormio: 'https://www.bormio.eu',
+  'la-thuile': 'https://www.lathuile.it',
+  courmayeur: 'https://www.courmayeur-mont-blanc.com',
+  'sauze-doulx': 'https://www.sauzedoulx.it',
+  alagna: 'https://www.alagna.it',
+  champoluc: 'https://www.monterosa-ski.com',
+  gressoney: 'https://www.monterosa-ski.com',
+  kronplatz: 'https://www.kronplatz.com',
+  'san-martino-di-castrozza': 'https://www.sanmartino.com',
+  pila: 'https://www.pila.it',
+  'passo-tonale': 'https://www.pontedilegnotonale.com',
+  'folgarida-marilleva': 'https://www.skiareacampiglio.it',
 }
 
 export function resortSite(slug: string): string | null {

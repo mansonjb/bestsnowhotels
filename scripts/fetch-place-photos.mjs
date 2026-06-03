@@ -164,6 +164,22 @@ const TARGETS = [
   { slug: 'fieberbrunn',          query: 'Fieberbrunn ski resort Skicircus freeride Tyrol Austria winter snow' },
   { slug: 'gerlos',               query: 'Gerlos Zillertal Arena ski resort Tyrol Austria winter snow' },
   { slug: 'flachau',              query: 'Flachau Snow Space Salzburg ski resort Austria night slalom winter snow' },
+  { slug: 'alta-badia',           query: 'Alta Badia Corvara ski resort Sella Ronda Dolomites Italy winter snow' },
+  { slug: 'canazei',              query: 'Canazei Val di Fassa ski resort Sella Ronda Sasso Lungo Dolomites Italy winter snow' },
+  { slug: 'arabba',               query: 'Arabba Marmolada ski resort Sella Ronda Dolomites Italy winter snow' },
+  { slug: 'ortisei',              query: 'Ortisei Val Gardena Seceda ski resort Dolomites Italy winter snow' },
+  { slug: 'bormio',               query: 'Bormio Stelvio World Cup ski resort Lombardy Italy thermal baths winter snow' },
+  { slug: 'la-thuile',            query: 'La Thuile Aosta Espace San Bernardo ski resort Italy winter snow' },
+  { slug: 'courmayeur',           query: 'Courmayeur Mont Blanc Skyway ski resort Aosta Italy winter snow village' },
+  { slug: 'sauze-doulx',          query: 'Sauze d Oulx Via Lattea ski resort Piedmont Italy winter snow village' },
+  { slug: 'alagna',               query: 'Alagna Monterosa ski resort Walser village freeride Italy winter snow' },
+  { slug: 'champoluc',            query: 'Champoluc Italy ski resort winter mountains' },
+  { slug: 'gressoney',            query: 'Gressoney La Trinite Monterosa ski resort Lys valley Walser Italy winter snow' },
+  { slug: 'kronplatz',            query: 'Kronplatz Plan de Corones ski resort Pusteria Dolomites Italy winter snow' },
+  { slug: 'san-martino-di-castrozza', query: 'San Martino di Castrozza Pale di San Martino ski resort Dolomites Italy winter snow' },
+  { slug: 'pila',                 query: 'Pila Aosta ski resort Mont Blanc view Italy gondola winter snow' },
+  { slug: 'passo-tonale',         query: 'Passo Tonale Presena glacier ski resort Adamello Italy winter snow' },
+  { slug: 'folgarida-marilleva',  query: 'Folgarida Marilleva ski resort Val di Sole Skirama Madonna di Campiglio Italy winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {
