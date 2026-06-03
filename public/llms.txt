@@ -39,6 +39,15 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 - Vallnord (Pal-Arinsal, Ordino-Arcalís), around 93 km, Andorra
 - Ski Arlberg (St. Anton, Lech-Zürs), 305 km, Austria
 
+## Live snow report
+
+A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
+
+- /weather: index of all 166 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
+- /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
+- /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
+
 ## Best-for lists (curated)
 
 Curated lists for travellers shopping by intent rather than by name:
@@ -79,4 +88,5 @@ Site available in English (en), French (fr), Spanish (es), Portuguese (pt) and I
 - All destinations: https://www.bestsnowhotels.com/en/destinations
 - Ski areas (linked domains): https://www.bestsnowhotels.com/en/ski-areas
 - Countries: https://www.bestsnowhotels.com/en/countries
+- Live snow report: https://www.bestsnowhotels.com/en/weather
 - Sitemap: https://www.bestsnowhotels.com/sitemap.xml

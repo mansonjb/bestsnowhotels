@@ -283,6 +283,13 @@ export default async function DestinationDetailPage({
             >
               {dict.destination.bookCta} →
             </a>
+            <Link
+              href={`/${l}/weather/${d.slug}`}
+              className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-sm text-white font-semibold px-5 py-3 rounded-full hover:bg-white/25 transition border border-white/25"
+            >
+              <span className="w-1.5 h-1.5 bg-emerald-300 rounded-full animate-pulse" aria-hidden />
+              {dict.weather.pageTitleResort} →
+            </Link>
             {d.vibes.map((v) => (
               <span
                 key={v}

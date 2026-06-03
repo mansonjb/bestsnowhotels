@@ -8,7 +8,15 @@ import type { Locale } from '@/app/[locale]/dictionaries'
 interface HeaderProps {
   locale: Locale
   dict: {
-    nav: { home: string; destinations: string; countries: string; skiAreas: string; best: string; about: string }
+    nav: {
+      home: string
+      destinations: string
+      countries: string
+      skiAreas: string
+      best: string
+      weather: string
+      about: string
+    }
   }
 }
 
@@ -50,6 +58,9 @@ export default function Header({ locale, dict }: HeaderProps) {
             </Link>
             <Link href={`/${locale}/best`} className="hover:text-slate-deep transition">
               {dict.nav.best}
+            </Link>
+            <Link href={`/${locale}/weather`} className="hover:text-slate-deep transition">
+              {dict.nav.weather}
             </Link>
             <Link href={`/${locale}/about`} className="hover:text-slate-deep transition">
               {dict.nav.about}
@@ -114,6 +125,13 @@ export default function Header({ locale, dict }: HeaderProps) {
               className="block py-2 text-sm font-medium text-ice-800"
             >
               {dict.nav.best}
+            </Link>
+            <Link
+              href={`/${locale}/weather`}
+              onClick={() => setOpen(false)}
+              className="block py-2 text-sm font-medium text-ice-800"
+            >
+              {dict.nav.weather}
             </Link>
             <Link
               href={`/${locale}/about`}

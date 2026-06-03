@@ -132,6 +132,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
     }
 
+    // Weather index + curated lists (live data; high change frequency)
+    for (const path of ['weather', 'weather/best-snow', 'weather/fresh-powder']) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/${path}`,
+        lastModified: now,
+        changeFrequency: 'hourly',
+        priority: 0.8,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${SITE_URL}/${l}/${path}`]),
+          ),
+        },
+      })
+    }
+
+    // Per-resort weather pages (one per destination, every 30 min ISR)
+    for (const d of destinations) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/weather/${d.slug}`,
+        lastModified: now,
+        changeFrequency: 'hourly',
+        priority: 0.75,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map((l) => [l, `${SITE_URL}/${l}/weather/${d.slug}`]),
+          ),
+        },
+      })
+    }
+
     // Static pages
     for (const path of ['about', 'disclosure', 'privacy']) {
       entries.push({
