@@ -62,6 +62,13 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Alpes bávaros',
     it: 'Alpi bavaresi',
   },
+  'Black Forest': {
+    en: 'Black Forest',
+    fr: 'Forêt-Noire',
+    es: 'Selva Negra',
+    pt: 'Floresta Negra',
+    it: 'Foresta Nera',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {
