@@ -174,6 +174,20 @@ const RESORT_SITES: Record<string, string> = {
   pragelato: 'https://www.vialattea.it',
   andalo: 'https://www.visitdolomitipaganella.it',
   tarvisio: 'https://www.promotur.org',
+  'saint-martin-de-belleville': 'https://www.st-martin-belleville.com',
+  'brides-les-bains': 'https://www.brides-les-bains.com',
+  'champagny-en-vanoise': 'https://www.la-plagne.com/info/champagny-en-vanoise',
+  'peisey-vallandry': 'https://www.peisey-vallandry.com',
+  'le-corbier': 'https://www.le-corbier.com',
+  'chiesa-in-valmalenco': 'https://www.sondrioevalmalenco.it',
+  aprica: 'https://www.apricaonline.com',
+  pejo: 'https://www.skipejo.it',
+  sappada: 'https://www.sappadadolomiti.com',
+  anzere: 'https://www.anzere.ch',
+  leysin: 'https://www.leysin.ch',
+  damuls: 'https://www.damuels.at',
+  'maria-alm': 'https://www.hochkoenig.at',
+  lermoos: 'https://www.zugspitzarena.com',
 }
 
 export function resortSite(slug: string): string | null {

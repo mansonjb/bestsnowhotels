@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 166 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 180 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain and Andorra, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -43,7 +43,7 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 
 A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
 
-- /weather: index of all 166 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather: index of all 180 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
@@ -71,10 +71,10 @@ Index: https://www.bestsnowhotels.com/en/best
 
 ## Country coverage
 
-- France (76): Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets, Les Menuires, Avoriaz, Morzine, Les Gets, Megève, La Clusaz, Les Deux Alpes, La Rosière, Flaine, Samoëns, Châtel, Valmorel, Montgenèvre, Les Saisies, Le Grand-Bornand, Sainte-Foy-Tarentaise, Val Cenis, Vaujany, Risoul, Vars, Pra-Loup, Isola 2000, Saint-Gervais, Ax 3 Domaines, Les Angles, Les Sybelles, Valloire, Orcières-Merlette, Les Orres, Auron, Les Contamines, Piau-Engaly, Luz-Ardiden, Gourette, Bonneval-sur-Arc, SuperDévoluy, Valberg, Chamrousse, Combloux, Valfréjus, La Pierre Saint-Martin, Guzet, Porté-Puymorens, Les 7 Laux, Villard-de-Lans, Saint-François-Longchamp, Aussois, Valmeinier, Arêches-Beaufort, La Norma, Les Houches, Luchon-Superbagnères, Formiguères, Val Louron, La Foux d'Allos, Crest-Voland-Cohennoz, Notre-Dame-de-Bellecombe, Praz-sur-Arly, Manigod, Praz-de-Lys Sommand, Saint-Pierre-de-Chartreuse
-- Switzerland (21): Zermatt, Verbier, St. Moritz, Crans-Montana, Saas-Fee, Davos, Andermatt, Grindelwald, Wengen, Mürren, Engelberg, Laax, Arosa-Lenzerheide, Nendaz, Veysonnaz, Villars-Gryon, Les Diablerets, Adelboden, Gstaad, Champéry, Grimentz-Zinal
-- Austria (24): St. Anton am Arlberg, Ischgl, Sölden, Mayrhofen, Kitzbühel, Saalbach Hinterglemm, Lech-Zürs, Obergurgl-Hochgurgl, Obertauern, Schladming, Bad Gastein, Bad Hofgastein, Zell am See, Kaprun, Hintertux, Serfaus-Fiss-Ladis, Nauders, Stubai Glacier, Kühtai, Söll, Alpbach, Fieberbrunn, Gerlos, Flachau
-- Italy (29): Cortina d'Ampezzo, Livigno, Cervinia, Madonna di Campiglio, Sestriere, Selva Val Gardena, Alta Badia, Canazei, Arabba, Ortisei, Bormio, La Thuile, Courmayeur, Sauze d'Oulx, Alagna, Champoluc, Gressoney, Kronplatz, San Martino di Castrozza, Pila, Passo Tonale, Folgarida-Marilleva, Ponte di Legno, Santa Caterina Valfurva, Madesimo, Bardonecchia, Pragelato, Andalo, Tarvisio
+- France (81): Val Thorens, Val d'Isère, Courchevel, Méribel, Chamonix, Les Arcs, La Plagne, Tignes, Alpe d'Huez, Serre Chevalier, Saint-Lary, Peyragudes, Font-Romeu, Grand Tourmalet, Cauterets, Les Menuires, Avoriaz, Morzine, Les Gets, Megève, La Clusaz, Les Deux Alpes, La Rosière, Flaine, Samoëns, Châtel, Valmorel, Montgenèvre, Les Saisies, Le Grand-Bornand, Sainte-Foy-Tarentaise, Val Cenis, Vaujany, Risoul, Vars, Pra-Loup, Isola 2000, Saint-Gervais, Ax 3 Domaines, Les Angles, Les Sybelles, Valloire, Orcières-Merlette, Les Orres, Auron, Les Contamines, Piau-Engaly, Luz-Ardiden, Gourette, Bonneval-sur-Arc, SuperDévoluy, Valberg, Chamrousse, Combloux, Valfréjus, La Pierre Saint-Martin, Guzet, Porté-Puymorens, Les 7 Laux, Villard-de-Lans, Saint-François-Longchamp, Aussois, Valmeinier, Arêches-Beaufort, La Norma, Les Houches, Luchon-Superbagnères, Formiguères, Val Louron, La Foux d'Allos, Crest-Voland-Cohennoz, Notre-Dame-de-Bellecombe, Praz-sur-Arly, Manigod, Praz-de-Lys Sommand, Saint-Pierre-de-Chartreuse, Saint-Martin-de-Belleville, Brides-les-Bains, Champagny-en-Vanoise, Peisey-Vallandry, Le Corbier
+- Switzerland (23): Zermatt, Verbier, St. Moritz, Crans-Montana, Saas-Fee, Davos, Andermatt, Grindelwald, Wengen, Mürren, Engelberg, Laax, Arosa-Lenzerheide, Nendaz, Veysonnaz, Villars-Gryon, Les Diablerets, Adelboden, Gstaad, Champéry, Grimentz-Zinal, Anzère, Leysin
+- Austria (27): St. Anton am Arlberg, Ischgl, Sölden, Mayrhofen, Kitzbühel, Saalbach Hinterglemm, Lech-Zürs, Obergurgl-Hochgurgl, Obertauern, Schladming, Bad Gastein, Bad Hofgastein, Zell am See, Kaprun, Hintertux, Serfaus-Fiss-Ladis, Nauders, Stubai Glacier, Kühtai, Söll, Alpbach, Fieberbrunn, Gerlos, Flachau, Damüls, Maria Alm, Lermoos
+- Italy (33): Cortina d'Ampezzo, Livigno, Cervinia, Madonna di Campiglio, Sestriere, Selva Val Gardena, Alta Badia, Canazei, Arabba, Ortisei, Bormio, La Thuile, Courmayeur, Sauze d'Oulx, Alagna, Champoluc, Gressoney, Kronplatz, San Martino di Castrozza, Pila, Passo Tonale, Folgarida-Marilleva, Ponte di Legno, Santa Caterina Valfurva, Madesimo, Bardonecchia, Pragelato, Andalo, Tarvisio, Chiesa in Valmalenco, Aprica, Pejo, Sappada
 - Spain (13): Baqueira Beret, Formigal, Cerler, Candanchú, La Molina, Astún, Boí Taüll, Masella, Panticosa, Port Ainé, Espot, Vallter 2000, Port del Comte
 - Andorra (3): Grandvalira, Vallnord-Pal Arinsal, Ordino-Arcalís
 

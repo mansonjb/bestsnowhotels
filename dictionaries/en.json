@@ -11,9 +11,9 @@
   "hero": {
     "badge": "Ski-in/ski-out hotels across the Alps and Pyrenees",
     "title": "The best snow hotels, where the lift starts at your door",
-    "subtitle": "166 hand-picked resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real ski-in/ski-out, best price across Booking, Expedia and Hotels.com.",
+    "subtitle": "180 hand-picked resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real ski-in/ski-out, best price across Booking, Expedia and Hotels.com.",
     "cta": "Browse destinations",
-    "stat1Value": "166",
+    "stat1Value": "180",
     "stat1Label": "Ski destinations",
     "stat2Value": "6",
     "stat2Label": "Countries",
@@ -102,7 +102,7 @@
   },
   "best": {
     "title": "Best ski resorts in Europe",
-    "subtitle": "Curated lists of the snowiest, biggest, most luxurious and best-value resorts in our database, all picked from real data on 166 destinations.",
+    "subtitle": "Curated lists of the snowiest, biggest, most luxurious and best-value resorts in our database, all picked from real data on 180 destinations.",
     "howRanked": "How we picked",
     "exploreList": "Explore the list"
   },
@@ -119,7 +119,7 @@
   },
   "weather": {
     "title": "Live snow report across the Alps and Pyrenees",
-    "subtitle": "Real snow depth, temperature and a 7-day forecast for the 166 resorts in our database, updated every 30 minutes.",
+    "subtitle": "Real snow depth, temperature and a 7-day forecast for the 180 resorts in our database, updated every 30 minutes.",
     "pageTitleResort": "Snow report",
     "asOf": "Updated",
     "livePill": "Live",
@@ -171,7 +171,7 @@
     "byCountrySubtitle": "Pick your mountain range.",
     "howTitle": "How BestSnowHotels works",
     "stepLabel": "STEP",
-    "howStep1Title": "Browse 166 resorts",
+    "howStep1Title": "Browse 180 resorts",
     "howStep1Text": "Each page lists real altitudes, piste kilometres and a transparent ski-in/ski-out note, with no guesswork.",
     "howStep2Title": "See live hotels on the map",
     "howStep2Text": "Stay22 maps show hotels and apartments around the lifts in real time, with live prices from the major operators.",

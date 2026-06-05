@@ -194,6 +194,20 @@ const TARGETS = [
   { slug: 'pragelato',            query: 'Pragelato Val Chisone Via Lattea ski resort Piedmont Italy Olympic winter snow' },
   { slug: 'andalo',               query: 'Andalo Paganella Brenta Dolomites ski resort Trentino Italy family winter snow' },
   { slug: 'tarvisio',             query: 'Tarvisio three borders Friuli ski resort Monte Lussari Italy winter snow' },
+  { slug: 'saint-martin-de-belleville', query: 'Saint-Martin-de-Belleville Savoyard village 3 Vallees ski resort French Alps winter snow' },
+  { slug: 'brides-les-bains',     query: 'Brides-les-Bains Belle Epoque spa 3 Vallees Olympe gondola ski resort French Alps winter snow' },
+  { slug: 'champagny-en-vanoise', query: 'Champagny-en-Vanoise village Paradiski La Plagne Vanoise National Park French Alps winter snow' },
+  { slug: 'peisey-vallandry',     query: 'Peisey Vallandry Plan Peisey Paradiski Les Arcs Vanoise Express French Alps winter snow' },
+  { slug: 'le-corbier',           query: 'Le Corbier Sybelles ski resort Maurienne French Alps panorama winter snow' },
+  { slug: 'chiesa-in-valmalenco', query: 'Chiesa in Valmalenco Bernina Palu Snow Eagle ski resort Lombardy Italy winter snow' },
+  { slug: 'aprica',               query: 'Aprica pass Magnolta Palabione ski resort Valtellina Lombardy Italy winter snow' },
+  { slug: 'pejo',                 query: 'Pejo 3000 Vioz glacier Stelvio National Park Val di Sole Trentino Italy winter snow' },
+  { slug: 'sappada',              query: 'Sappada Plodarisch German village Friuli Carnic Alps Italy painted houses winter snow' },
+  { slug: 'anzere',               query: 'Anzere sunny Valais balcony pedestrian Rhone valley ski resort Switzerland winter snow' },
+  { slug: 'leysin',               query: 'Leysin Vaudois village Berneuse rotating restaurant Tour Ai Dents du Midi ski Switzerland winter snow' },
+  { slug: 'damuls',               query: 'Damuls Bregenzerwald snowiest village ski Mellau Vorarlberg Austria winter snow powder' },
+  { slug: 'maria-alm',            query: 'Maria Alm Hochkonig onion dome church Salzburger Land Austria ski village winter snow' },
+  { slug: 'lermoos',              query: 'Lermoos Grubigstein Zugspitze Zugspitz Arena Tirol Austria ski resort panorama winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

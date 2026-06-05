@@ -8132,5 +8132,690 @@
       "red": 12,
       "black": 5
     }
+  },
+  {
+    "slug": "saint-martin-de-belleville",
+    "name": "Saint-Martin-de-Belleville",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.3833,
+    "lng": 6.5167,
+    "altitudeBase": 1450,
+    "altitudeSummit": 2952,
+    "pistesKm": 600,
+    "lifts": 161,
+    "skiInSkiOutNote": {
+      "en": "Hotels around the village square at 1,450 m are genuinely ski-in/ski-out via the Saint-Martin-1 gondola and the long run back down from La Masse. A handful of properties further down the lane involve a short walk in boots; check the exact location before booking.",
+      "fr": "Les hôtels autour de la place du village, à 1450 m, sont vraiment ski aux pieds grâce à la télécabine Saint-Martin-1 et à la longue piste de retour depuis La Masse. Quelques adresses un peu plus bas dans la rue impliquent une courte marche en chaussures de ski ; vérifiez l'emplacement exact avant de réserver.",
+      "es": "Los hoteles alrededor de la plaza del pueblo, a 1.450 m, están realmente esquiando hasta la puerta gracias al telecabina Saint-Martin-1 y a la larga pista de bajada desde La Masse. Algunas direcciones un poco más abajo en la calle implican un breve paseo con las botas puestas; conviene comprobar la ubicación exacta antes de reservar.",
+      "pt": "Os hotéis em volta da praça da aldeia, a 1.450 m, ficam mesmo a esquiar até à porta graças ao teleférico Saint-Martin-1 e à longa pista de regresso a partir de La Masse. Alguns alojamentos um pouco mais abaixo na rua exigem uma curta caminhada com as botas calçadas; convém confirmar a localização exata antes de reservar.",
+      "it": "Gli hotel intorno alla piazza del borgo, a 1.450 m, sono davvero da rientrare sci ai piedi grazie alla cabinovia Saint-Martin-1 e alla lunga pista di rientro da La Masse. Qualche struttura più giù lungo la stessa via comporta una breve camminata con gli scarponi; meglio verificare l'ubicazione precisa prima di prenotare."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 88,
+    "vibes": [
+      "authentic",
+      "gastronomy",
+      "family"
+    ],
+    "intro": {
+      "en": "Stone barns, a slate-roofed bell tower, and the quiet hum of a village square that happens to sit on the back doorstep of Les 3 Vallées. Saint-Martin-de-Belleville is the Savoyard ringer of the Belleville valley, where you can chase 600 km of pistes by day and walk to a 3-Michelin-starred dining room by night. It is the version of the world's largest linked ski area that still feels like a real place.",
+      "fr": "Des granges en pierre, un clocher à bardeaux et la rumeur tranquille d'une place de village qui se trouve, par chance, en bas des 3 Vallées. Saint-Martin-de-Belleville, c'est le visage savoyard de la vallée des Belleville, où l'on enchaîne 600 km de pistes la journée avant de rejoindre à pied une table 3 étoiles le soir. La version la plus authentique du plus grand domaine relié du monde.",
+      "es": "Pajares de piedra, un campanario de pizarra y el murmullo tranquilo de una plaza que casualmente está a la puerta trasera de Les 3 Vallées. Saint-Martin-de-Belleville es el rostro saboyano del valle de los Belleville, donde se encadenan 600 km de pistas por el día y se va caminando a una mesa con 3 estrellas Michelin por la noche. La versión más auténtica del mayor dominio esquiable enlazado del mundo.",
+      "pt": "Celeiros de pedra, um campanário de ardósia e o rumor tranquilo de uma praça que, por acaso, fica à porta das traseiras de Les 3 Vallées. Saint-Martin-de-Belleville é o rosto saboiano do vale dos Belleville, onde se encadeiam 600 km de pistas durante o dia e se vai a pé jantar a uma mesa com 3 estrelas Michelin à noite. A versão mais autêntica do maior domínio esquiável ligado do mundo.",
+      "it": "Fienili in pietra, un campanile in lose e il brusio tranquillo di una piazza che, per puro caso, si affaccia sul retro de Les 3 Vallées. Saint-Martin-de-Belleville è il volto savoiardo della valle dei Belleville, dove di giorno si infilano 600 km di piste e di sera si va a piedi in un ristorante 3 stelle Michelin. La versione più autentica del più grande comprensorio collegato del mondo."
+    },
+    "longDescription": {
+      "en": "Sitting at 1,450 m halfway up the Belleville valley, Saint-Martin keeps the timbered chalets and the quiet that Les Menuires and Val Thorens long ago left behind. The skiing is the full 600 km Les 3 Vallées circuit: morning lap to La Masse, lunch above Méribel, an afternoon push to the Val Thorens glacier, and home down the long village run by 4 pm. It suits skiers who want a serious mountain without the ski-factory mood up top, and families who want a village their kids can walk around safely. The food scene is unusual for a small resort: La Bouitte holds 3 Michelin stars in the hamlet of Saint-Marcel just down the road, and the village itself runs from honest mountain bistros to Le Montagnard's Savoyard classics. The crowd skews quieter, older, more knowing. Come for the skiing, stay for the dinners.",
+      "fr": "Posé à 1450 m à mi-pente de la vallée des Belleville, Saint-Martin a gardé les chalets en bois et le calme que Les Menuires et Val Thorens ont depuis longtemps laissés derrière. Le ski, c'est les 600 km des 3 Vallées en intégralité : un tour à La Masse en matinée, le déjeuner au-dessus de Méribel, une après-midi en direction du glacier de Val Thorens, retour à la maison par la grande piste du village vers 16 h. La station convient aux skieurs qui veulent un vrai terrain de jeu sans l'ambiance d'usine à ski des hauteurs, et aux familles qui cherchent un village où les enfants peuvent marcher sans danger. La gastronomie est surprenante pour une si petite station : La Bouitte tient ses 3 étoiles au hameau de Saint-Marcel juste à côté, et le village aligne d'honnêtes bistrots de montagne jusqu'aux classiques savoyards du Montagnard. La clientèle est plus discrète, plus mûre, plus connaisseuse. On vient pour skier, on reste pour les dîners.",
+      "es": "Situado a 1.450 m a media altura del valle de los Belleville, Saint-Martin conserva los chalets de madera y la calma que Les Menuires y Val Thorens dejaron atrás hace tiempo. El esquí son los 600 km enteros del circuito de Les 3 Vallées: una vuelta a La Masse por la mañana, el almuerzo por encima de Méribel, una sesión vespertina hacia el glaciar de Val Thorens y regreso por la larga pista del pueblo hacia las cuatro. Va para esquiadores que quieren una montaña seria sin el ambiente de fábrica de las cotas altas, y para familias que buscan un pueblo donde los niños puedan andar tranquilos. La oferta gastronómica sorprende para un sitio tan pequeño: La Bouitte mantiene sus 3 estrellas Michelin en el caserío de Saint-Marcel, ahí al lado, y el propio pueblo va de bistrós honestos a los clásicos saboyanos de Le Montagnard. El público es más callado, más maduro, más experto. Se viene a esquiar y se queda uno por las cenas.",
+      "pt": "Situado a 1.450 m a meia encosta do vale dos Belleville, Saint-Martin guarda os chalés de madeira e a calma que Les Menuires e Val Thorens há muito deixaram para trás. O esqui são os 600 km completos do circuito de Les 3 Vallées: uma volta a La Masse de manhã, o almoço por cima de Méribel, uma sessão à tarde rumo ao glaciar de Val Thorens e regresso pela longa pista do povoado por volta das quatro. Serve a esquiadores que querem uma montanha a sério sem o ambiente de fábrica das cotas mais altas e a famílias que procuram uma aldeia onde as crianças andem com segurança. A oferta de mesa surpreende para uma estância tão pequena: La Bouitte mantém as 3 estrelas Michelin no lugar de Saint-Marcel, ali ao lado, e a própria aldeia vai de bistrós honestos da montanha aos clássicos saboianos de Le Montagnard. O público é mais discreto, mais maduro, mais conhecedor. Vem-se para esquiar e fica-se pelos jantares.",
+      "it": "Adagiato a 1.450 m a mezza costa della valle dei Belleville, Saint-Martin conserva i chalet di legno e la quiete che Les Menuires e Val Thorens si sono lasciati alle spalle da tempo. Lo sci sono i 600 km interi del circuito de Les 3 Vallées: giro a La Masse al mattino, pranzo sopra Méribel, sessione pomeridiana verso il ghiacciaio di Val Thorens e ritorno lungo la grande pista del borgo entro le quattro. È una località adatta a chi vuole una montagna seria senza l'aria da fabbrica delle quote alte e alle famiglie in cerca di un borgo dove i bambini possano camminare in sicurezza. La cucina sorprende per un posto così piccolo: La Bouitte tiene le sue 3 stelle Michelin nella frazione di Saint-Marcel, qui accanto, e il borgo va dai bistrot di montagna onesti ai classici savoiardi del Montagnard. Il pubblico è più tranquillo, più maturo, più competente. Si viene per sciare, si resta per le cene."
+    },
+    "pisteCounts": {
+      "green": 25,
+      "blue": 55,
+      "red": 50,
+      "black": 20
+    }
+  },
+  {
+    "slug": "brides-les-bains",
+    "name": "Brides-les-Bains",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.4544,
+    "lng": 6.5689,
+    "altitudeBase": 600,
+    "altitudeSummit": 2952,
+    "pistesKm": 600,
+    "lifts": 161,
+    "skiInSkiOutNote": {
+      "en": "Brides-les-Bains sits at 600 m with no snow on the streets, so ski-in/ski-out in the literal sense does not exist here. What you get instead is hotels within 2 to 8 minutes' walk of the Olympe gondola, which lifts you in three stages straight to Chaudanne in Méribel; many properties offer ski lockers at the lift station to skip carrying gear.",
+      "fr": "Brides-les-Bains se trouve à 600 m, sans neige dans les rues : le ski aux pieds au sens strict n'existe pas ici. Ce que la station propose, ce sont des hôtels à 2 à 8 minutes à pied de la télécabine Olympe, qui monte en trois tronçons directement jusqu'à la Chaudanne à Méribel ; beaucoup d'établissements mettent à disposition des casiers à skis à la gare de départ pour éviter de porter le matériel.",
+      "es": "Brides-les-Bains está a 600 m y no hay nieve en las calles, así que esquiar hasta la puerta en sentido literal no existe aquí. Lo que ofrece la estación son hoteles a entre 2 y 8 minutos a pie del telecabina Olympe, que sube en tres tramos directamente hasta La Chaudanne, en Méribel; muchos establecimientos ponen taquillas para esquís en la estación inferior para no tener que cargar con el material.",
+      "pt": "Brides-les-Bains fica a 600 m e não há neve nas ruas, pelo que esquiar até à porta no sentido literal não existe aqui. O que a estância oferece são hotéis a 2 a 8 minutos a pé do teleférico Olympe, que sobe em três troços diretamente até La Chaudanne, em Méribel; muitas unidades dispõem de cacifos para esquis na estação inferior, dispensando o transporte do material.",
+      "it": "Brides-les-Bains si trova a 600 m, senza neve per strada: rientrare sci ai piedi in senso stretto qui non esiste. Quel che la località offre sono hotel a 2-8 minuti a piedi dalla cabinovia Olympe, che in tre tronchi porta dritti su a La Chaudanne, a Méribel; molte strutture mettono a disposizione armadietti per gli sci alla stazione di partenza, così non occorre portarsi dietro l'attrezzatura."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 75,
+    "vibes": [
+      "thermal",
+      "value",
+      "family"
+    ],
+    "intro": {
+      "en": "A Belle Epoque spa town at 600 m that somehow became the cheap way into Les 3 Vallées, with the Olympe gondola hauling skiers from the high street straight up into Méribel. Brides-les-Bains will not pretend to be an Alpine postcard, the buildings are turn-of-the-century and the streetlamps are still cast iron. It is the rare place where you sleep in a thermal town and ski 600 km of piste from a single lift pass.",
+      "fr": "Une ville thermale Belle Époque à 600 m, devenue par un curieux concours de circonstances la porte d'entrée la moins chère des 3 Vallées, avec la télécabine Olympe qui embarque les skieurs depuis l'avenue principale jusqu'à Méribel. Brides-les-Bains ne joue pas la carte de la carte postale alpine ; les bâtiments sont du début du siècle et les lampadaires sont encore en fonte. C'est l'un des rares endroits où l'on dort dans une station thermale et où l'on skie 600 km de pistes sur un seul forfait.",
+      "es": "Un balneario Belle Époque a 600 m que, por un curioso giro de la historia, se convirtió en la entrada barata a Les 3 Vallées, con el telecabina Olympe llevando a los esquiadores desde la calle principal directamente a Méribel. Brides-les-Bains no juega a la postal alpina; los edificios son de principios de siglo y las farolas siguen siendo de hierro fundido. Es de los pocos sitios donde uno duerme en una ciudad termal y esquía 600 km de pistas con un solo forfait.",
+      "pt": "Uma vila termal Belle Époque a 600 m que, por uma curiosa volta da história, se tornou a porta de entrada barata para Les 3 Vallées, com o teleférico Olympe a levar os esquiadores da rua principal diretamente a Méribel. Brides-les-Bains não brinca ao postal alpino; os edifícios são do princípio do século e os candeeiros continuam em ferro fundido. É um dos raros sítios onde se dorme numa estância termal e se esquiam 600 km de pistas com um único forfait.",
+      "it": "Una cittadina termale Belle Époque a 600 m che, per un curioso scherzo della storia, è diventata la via economica per entrare ne Les 3 Vallées, con la cabinovia Olympe che porta gli sciatori dal corso principale dritti su a Méribel. Brides-les-Bains non gioca a fare la cartolina alpina; gli edifici sono di inizio Novecento e i lampioni sono ancora in ghisa. È uno dei rari posti dove si dorme in una città termale e si sciano 600 km di piste con un unico skipass."
+    },
+    "longDescription": {
+      "en": "Brides was already a thermal town when alpine skiing was invented; the 1992 Albertville Olympics gave it the Olympe gondola, three stages climbing straight from the village into Chaudanne in Méribel, and that single piece of infrastructure rewrote the resort's identity. From the village base at 600 m you can be on a 2,500 m red run inside 25 minutes, with the full 600 km Les 3 Vallées domain on the same lift pass as Courchevel or Val Thorens, but at roughly half the lodging price. The atmosphere is decidedly not Alpine-village: cast-iron balconies, a casino, a thermal spa that still treats curistes through the summer, low altitude, no snow on the streets. It suits couples and value-minded skiers who want serious mileage by day and a proper town in the evening, plus anyone for whom Courchevel prices have stopped being funny. Just accept what it is, a low spa town with a gondola, and Brides delivers.",
+      "fr": "Brides était déjà une ville thermale avant l'invention du ski alpin ; les Jeux olympiques d'Albertville en 1992 lui ont offert la télécabine Olympe, trois tronçons qui grimpent directement du centre du village jusqu'à la Chaudanne à Méribel, et cette seule infrastructure a réécrit l'identité de la station. Depuis la base à 600 m, on est sur une rouge à 2500 m en 25 minutes, avec les 600 km du domaine des 3 Vallées sur le même forfait que Courchevel ou Val Thorens, mais pour à peu près la moitié du prix d'hébergement. L'atmosphère n'est résolument pas village alpin : balcons en fer forgé, casino, thermes qui accueillent encore des curistes en été, basse altitude, pas un flocon dans les rues. Ça plaît aux couples et aux skieurs attentifs au budget qui veulent skier beaucoup la journée et retrouver une vraie ville le soir, plus à toutes celles et ceux qui ne trouvent plus les tarifs de Courchevel très drôles. Acceptez ce que c'est, une ville thermale en fond de vallée avec une télécabine, et Brides tient son contrat.",
+      "es": "Brides ya era ciudad termal antes de que se inventara el esquí alpino; los Juegos Olímpicos de Albertville de 1992 le regalaron el telecabina Olympe, tres tramos que suben directos desde el centro del pueblo hasta La Chaudanne en Méribel, y esa única infraestructura reescribió la identidad de la estación. Desde la base a 600 m se planta uno en una pista roja a 2.500 m en 25 minutos, con los 600 km del dominio de Les 3 Vallées en el mismo forfait que Courchevel o Val Thorens, pero a más o menos la mitad de precio de alojamiento. La atmósfera no es de pueblo alpino: balcones de hierro forjado, casino, termas que siguen atendiendo curistas en verano, baja altitud, ni un copo en las calles. Encaja con parejas y esquiadores conscientes del presupuesto que quieren hacer muchos kilómetros de día y volver a una ciudad de verdad por la noche, además de cualquiera al que los precios de Courchevel ya no le hagan gracia. Si se acepta lo que es, una ciudad termal de fondo de valle con un telecabina, Brides cumple.",
+      "pt": "Brides já era cidade termal antes de o esqui alpino ter sido inventado; os Jogos Olímpicos de Albertville em 1992 deram-lhe o teleférico Olympe, três troços que sobem diretamente do centro da vila até La Chaudanne, em Méribel, e essa única infraestrutura reescreveu a identidade da estância. A partir da base a 600 m, em 25 minutos está-se numa pista vermelha a 2.500 m, com os 600 km do domínio de Les 3 Vallées no mesmo forfait que Courchevel ou Val Thorens, mas a cerca de metade do preço de alojamento. A atmosfera não é de aldeia alpina: varandas em ferro forjado, casino, termas que ainda recebem curistas no verão, baixa altitude, nenhum floco nas ruas. Encaixa em casais e em esquiadores atentos ao orçamento que querem fazer muitos quilómetros de dia e voltar a uma cidade a sério à noite, e ainda em quem já não acha graça aos preços de Courchevel. Aceitando-se aquilo que é, uma vila termal no fundo do vale com um teleférico, Brides cumpre o prometido.",
+      "it": "Brides era già una città termale prima che lo sci alpino fosse inventato; le Olimpiadi di Albertville del 1992 le hanno regalato la cabinovia Olympe, tre tronchi che salgono diritti dal centro del paese fino a La Chaudanne a Méribel, e quella sola infrastruttura ha riscritto l'identità della località. Dalla base a 600 m si è su una rossa a 2.500 m in 25 minuti, con i 600 km del comprensorio de Les 3 Vallées sullo stesso skipass di Courchevel o Val Thorens, ma a circa metà del prezzo di alloggio. L'atmosfera non è certo da villaggio alpino: balconi in ferro battuto, casinò, terme che curano ancora i pazienti d'estate, quota bassa, neanche un fiocco per strada. Va a genio alle coppie e agli sciatori attenti al budget che vogliono macinare chilometri di giorno e ritrovare una città vera la sera, oltre a chi non trova più simpatici i prezzi di Courchevel. Accettando per quello che è, una città termale a fondovalle con una cabinovia, Brides mantiene le promesse."
+    },
+    "pisteCounts": {
+      "green": 25,
+      "blue": 55,
+      "red": 50,
+      "black": 20
+    }
+  },
+  {
+    "slug": "champagny-en-vanoise",
+    "name": "Champagny-en-Vanoise",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.4628,
+    "lng": 6.7333,
+    "altitudeBase": 1250,
+    "altitudeSummit": 3250,
+    "pistesKm": 425,
+    "lifts": 130,
+    "skiInSkiOutNote": {
+      "en": "Champagny is a low village at 1,250 m: you reach the Paradiski slopes via the Champagny-en-Vanoise gondola, not by clipping in at the door. Hotels in the central village are typically 2 to 6 minutes' walk to the gondola base, and the home run from above arrives on the same flank, so the morning out and evening return are both straightforward.",
+      "fr": "Champagny est un village de fond de vallée à 1250 m : on rejoint les pistes de Paradiski par la télécabine Champagny-en-Vanoise, pas en chaussant à la porte. Les hôtels du centre se trouvent en général à 2 à 6 minutes à pied du départ de la télécabine, et la piste de retour depuis le haut arrive sur le même flanc, ce qui rend la montée du matin et le retour du soir tout aussi simples.",
+      "es": "Champagny es un pueblo de baja altitud a 1.250 m: a las pistas de Paradiski se accede por el telecabina Champagny-en-Vanoise, no calzándose los esquís en la puerta. Los hoteles del centro están normalmente a 2-6 minutos a pie de la salida del telecabina, y la pista de vuelta desde arriba llega por el mismo flanco, así que la subida de la mañana y el regreso de la tarde resultan igual de cómodos.",
+      "pt": "Champagny é uma aldeia em cota baixa, a 1.250 m: chega-se às pistas de Paradiski pelo teleférico Champagny-en-Vanoise, não calçando os esquis à porta. Os hotéis no centro ficam normalmente a 2-6 minutos a pé da base do teleférico, e a pista de regresso de cima desce pelo mesmo lado, pelo que a subida de manhã e o regresso à tarde são igualmente simples.",
+      "it": "Champagny è un borgo a quota bassa, 1.250 m: alle piste di Paradiski si arriva con la cabinovia Champagny-en-Vanoise, non calzando gli sci sull'uscio. Gli hotel del centro distano in genere 2-6 minuti a piedi dalla base della cabinovia, e la pista di rientro scende sullo stesso versante, quindi tanto la salita del mattino quanto il rientro serale risultano comodi."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 21",
+    "snowScore": 82,
+    "vibes": [
+      "authentic",
+      "family",
+      "big-domain"
+    ],
+    "intro": {
+      "en": "A traditional Savoyard village sitting at 1,250 m in the shadow of the Bellecôte glacier, with the Vanoise National Park out the back door and the whole 425 km Paradiski domain up the gondola. Champagny is the quiet, low-key end of La Plagne, all stone roofs and church bells where the hill above goes all aluminium and apartment blocks. Skiers come for the access, ice climbers come for the frozen waterfalls, and almost no one comes by accident.",
+      "fr": "Un village savoyard traditionnel à 1250 m, à l'ombre du glacier de Bellecôte, avec le Parc national de la Vanoise juste derrière et les 425 km de Paradiski à atteindre en télécabine. Champagny, c'est le versant tranquille et discret de La Plagne, des toits de pierre et des cloches là où, plus haut, tout est aluminium et résidences. Les skieurs viennent pour l'accès au grand domaine, les cascadeurs de glace pour les cascades gelées, et presque personne par hasard.",
+      "es": "Un pueblo saboyano tradicional a 1.250 m, a la sombra del glaciar de Bellecôte, con el Parque Nacional de la Vanoise a la espalda y los 425 km del dominio de Paradiski accesibles desde el telecabina. Champagny es el lado tranquilo y discreto de La Plagne, tejados de piedra y campanadas donde, ahí arriba, todo es aluminio y bloques de apartamentos. Los esquiadores vienen por el acceso, los escaladores de hielo por las cascadas heladas, y casi nadie llega aquí por casualidad.",
+      "pt": "Uma aldeia saboiana tradicional a 1.250 m, à sombra do glaciar do Bellecôte, com o Parque Nacional da Vanoise mesmo ao lado e os 425 km do domínio Paradiski a uma viagem de teleférico. Champagny é o lado tranquilo e discreto de La Plagne, telhados de pedra e sinos de igreja onde, mais acima, é tudo alumínio e blocos de apartamentos. Os esquiadores vêm pelo acesso ao grande domínio, os escaladores de gelo pelas cascatas geladas, e quase ninguém chega aqui por acaso.",
+      "it": "Un borgo savoiardo tradizionale a 1.250 m, all'ombra del ghiacciaio del Bellecôte, con il Parco Nazionale della Vanoise dietro l'angolo e i 425 km del comprensorio Paradiski a una corsa di cabinovia. Champagny è il lato tranquillo e discreto di La Plagne, tetti in pietra e campane di chiesa dove, più in alto, è tutto alluminio e palazzine di appartamenti. Gli sciatori arrivano per l'accesso al grande dominio, i ghiacciatori per le cascate ghiacciate, e quasi nessuno capita qui per caso."
+    },
+    "longDescription": {
+      "en": "Champagny is laid out the old way, a tight cluster of stone-and-wood chalets around a 17th-century baroque church, with the Champagny-en-Vanoise gondola lifting out of the village to plug straight into the Paradiski lift network and the Bellecôte glacier at 3,250 m. Skiing it gives you the full 425 km Paradiski domain on a single pass, both the La Plagne side and, via the Vanoise Express cable car, the whole Les Arcs sector. The personality is village first, ski resort second. The lower hamlet of Champagny-le-Haut sits inside the Vanoise National Park boundary and turns into one of France's best ice-climbing arenas every January, when the cascades freeze solid. Most skiers staying here are families, regulars, or people who tried the purpose-built hubs once and decided they wanted dinner in a place with a baker. The trade-off is honest: less in-and-out skiing convenience at altitude, far more atmosphere at the end of the day.",
+      "fr": "Champagny est organisé à l'ancienne, un noyau serré de chalets en pierre et bois autour d'une église baroque du XVIIe siècle, avec la télécabine Champagny-en-Vanoise qui décolle du village pour se brancher sur tout le réseau Paradiski et le glacier de Bellecôte à 3250 m. La station donne accès aux 425 km de Paradiski sur un seul forfait, à la fois le secteur La Plagne et, via la Vanoise Express, tout le secteur des Arcs. Le caractère est avant tout celui d'un village, ensuite seulement d'une station. Le hameau du dessus, Champagny-le-Haut, est dans le Parc national de la Vanoise et devient chaque mois de janvier l'un des meilleurs spots de cascade de glace en France, quand les cascades gèlent dur. Les skieurs qui logent ici sont surtout des familles, des habitués, ou des gens qui ont essayé une fois les stations construites tout en haut et qui veulent désormais dîner dans un endroit avec un boulanger. Le compromis est honnête : un peu moins de praticité ski aux pieds en altitude, beaucoup plus d'ambiance le soir venu.",
+      "es": "Champagny tiene la traza antigua, un núcleo apretado de chalets de piedra y madera en torno a una iglesia barroca del siglo XVII, con el telecabina Champagny-en-Vanoise que sale del pueblo y se conecta a toda la red de Paradiski y al glaciar de Bellecôte a 3.250 m. La estación da acceso a los 425 km del dominio Paradiski con un solo forfait, tanto al sector de La Plagne como, a través del teleférico Vanoise Express, a todo el sector de Les Arcs. El carácter es de pueblo primero y de estación después. El caserío de más arriba, Champagny-le-Haut, está dentro del Parque Nacional de la Vanoise y se convierte cada enero en uno de los mejores espacios de cascada de hielo de Francia, cuando se congelan las cascadas. Los esquiadores que se alojan aquí son sobre todo familias, asiduos, o gente que probó una vez los hubs construidos arriba y decidió que prefería cenar en un sitio con panadero. El trato es honesto: algo menos de comodidad esquiando hasta la puerta en altitud, mucha más atmósfera al caer el día.",
+      "pt": "Champagny está organizada à moda antiga, um núcleo cerrado de chalés de pedra e madeira em torno de uma igreja barroca do século XVII, com o teleférico Champagny-en-Vanoise a partir do povoado a ligar-se diretamente à rede Paradiski e ao glaciar do Bellecôte a 3.250 m. A estância dá acesso aos 425 km do domínio Paradiski num só forfait, tanto ao setor de La Plagne como, via Vanoise Express, a todo o setor de Les Arcs. O caráter é primeiro de aldeia e depois de estância. O lugarejo de cima, Champagny-le-Haut, fica dentro do Parque Nacional da Vanoise e transforma-se, cada janeiro, num dos melhores palcos franceses para escalada em cascatas de gelo, quando estas congelam por inteiro. Os esquiadores que aqui ficam são sobretudo famílias, frequentadores antigos, ou pessoas que experimentaram uma vez os polos construídos lá em cima e decidiram que preferiam jantar num sítio com padeiro. A troca é franca: um pouco menos de conforto a esquiar até à porta em altitude, muito mais ambiente ao fim do dia.",
+      "it": "Champagny è disposto all'antica, un nucleo compatto di chalet in pietra e legno intorno a una chiesa barocca del Seicento, con la cabinovia Champagny-en-Vanoise che parte dal borgo e si innesta direttamente nella rete Paradiski e nel ghiacciaio del Bellecôte a 3.250 m. La località dà accesso ai 425 km del comprensorio Paradiski su uno skipass unico, sia al settore di La Plagne sia, tramite il Vanoise Express, all'intero settore di Les Arcs. Il carattere è prima borgo, poi località sciistica. La frazione più in alto, Champagny-le-Haut, è dentro i confini del Parco Nazionale della Vanoise e ogni gennaio diventa uno dei migliori teatri francesi per l'arrampicata su cascate di ghiaccio, quando le cascate gelano del tutto. Chi alloggia qui sono soprattutto famiglie, habitué, o persone che hanno provato una volta i poli costruiti più in alto e hanno deciso che preferiscono cenare in un posto con il fornaio. Il compromesso è onesto: un po' meno comodità sci ai piedi in quota, molta più atmosfera a fine giornata."
+    },
+    "pisteCounts": {
+      "green": 22,
+      "blue": 40,
+      "red": 45,
+      "black": 23
+    }
+  },
+  {
+    "slug": "peisey-vallandry",
+    "name": "Peisey-Vallandry",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.5556,
+    "lng": 6.7972,
+    "altitudeBase": 1600,
+    "altitudeSummit": 3250,
+    "pistesKm": 425,
+    "lifts": 130,
+    "skiInSkiOutNote": {
+      "en": "Hotels in Plan-Peisey and Vallandry, both around 1,550 to 1,600 m, are genuinely ski-in/ski-out: you step out of the door onto blue and red runs and ride the Vanoise Express across to La Plagne from the same plateau. The lower village of Peisey-Nancroix at 1,300 m is not slope-side and relies on a free shuttle to the lift base, so check which of the three sectors your booking is in.",
+      "fr": "Les hôtels de Plan-Peisey et de Vallandry, entre 1550 et 1600 m, sont véritablement ski aux pieds : on sort de l'hôtel sur des pistes bleues et rouges, et on prend le Vanoise Express pour passer côté La Plagne depuis le même plateau. Le village du bas, Peisey-Nancroix à 1300 m, n'est pas en bord de piste et dépend d'une navette gratuite jusqu'au départ des remontées : pensez à vérifier dans lequel des trois secteurs se trouve votre réservation.",
+      "es": "Los hoteles de Plan-Peisey y Vallandry, entre 1.550 y 1.600 m, sí están realmente esquiando hasta la puerta: se sale a pistas azules y rojas y se toma el Vanoise Express hacia La Plagne desde la misma plataforma. El pueblo de abajo, Peisey-Nancroix a 1.300 m, no está a pie de pista y depende de una lanzadera gratuita hasta la base de remontes, así que conviene comprobar en cuál de los tres sectores se aloja uno.",
+      "pt": "Os hotéis de Plan-Peisey e Vallandry, entre 1.550 e 1.600 m, ficam mesmo a esquiar até à porta: sai-se para pistas azuis e vermelhas e apanha-se o Vanoise Express para La Plagne a partir do mesmo plateau. A aldeia mais em baixo, Peisey-Nancroix a 1.300 m, não está à beira das pistas e depende de um transfere gratuito até à base dos teleféricos, pelo que convém confirmar em qual dos três setores fica a reserva.",
+      "it": "Gli hotel di Plan-Peisey e Vallandry, tra 1.550 e 1.600 m, sono davvero sci ai piedi: si esce dalla porta su piste blu e rosse e si prende il Vanoise Express verso La Plagne dallo stesso pianoro. Il borgo più in basso, Peisey-Nancroix a 1.300 m, non è a bordo pista e dipende da una navetta gratuita per gli impianti, quindi conviene controllare in quale dei tre settori si trova la propria prenotazione."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "authentic",
+      "family",
+      "big-domain"
+    ],
+    "intro": {
+      "en": "Larch forests, a long beam of afternoon sun across the Tarentaise, and the Vanoise Express drifting overhead on its way across the valley to La Plagne. Peisey-Vallandry is the Paradiski entry that still looks like the Alps, with old Peisey down in the trees and Plan-Peisey and Vallandry strung along the slopes above. It is for skiers who want the 425 km of Paradiski but would rather sleep among larches than under floodlights.",
+      "fr": "Des forêts de mélèzes, un rayon de soleil d'après-midi qui traverse la Tarentaise et le Vanoise Express qui glisse au-dessus de la vallée pour rejoindre La Plagne. Peisey-Vallandry, c'est l'entrée de Paradiski qui ressemble encore aux Alpes, avec le vieux Peisey en bas dans les bois et Plan-Peisey et Vallandry alignés plus haut, à même les pistes. Pour les skieurs qui veulent les 425 km de Paradiski mais préfèrent dormir parmi les mélèzes plutôt que sous les projecteurs.",
+      "es": "Bosques de alerces, un haz largo de sol vespertino que cruza la Tarentaise y el Vanoise Express deslizándose por encima del valle camino de La Plagne. Peisey-Vallandry es la entrada a Paradiski que aún se parece a los Alpes, con el viejo Peisey abajo entre los árboles y Plan-Peisey y Vallandry alineados más arriba, a pie de pista. Para esquiadores que quieren los 425 km de Paradiski pero prefieren dormir entre alerces antes que bajo focos.",
+      "pt": "Florestas de lariço, um raio longo de sol da tarde a atravessar a Tarentaise e o Vanoise Express a deslizar por cima do vale a caminho de La Plagne. Peisey-Vallandry é a entrada em Paradiski que ainda se parece com os Alpes, com o velho Peisey lá em baixo entre as árvores e Plan-Peisey e Vallandry alinhados mais acima, mesmo à beira das pistas. Para esquiadores que querem os 425 km de Paradiski mas preferem dormir entre lariços a estar debaixo de holofotes.",
+      "it": "Boschi di larici, una lunga lama di sole pomeridiano sulla Tarentaise e il Vanoise Express che scivola in alto sopra la valle diretto a La Plagne. Peisey-Vallandry è l'ingresso a Paradiski che ha ancora le sembianze delle Alpi, col vecchio Peisey giù tra gli alberi e Plan-Peisey e Vallandry allineati più in alto, a bordo pista. Per gli sciatori che vogliono i 425 km di Paradiski ma preferiscono dormire tra i larici piuttosto che sotto i fari."
+    },
+    "longDescription": {
+      "en": "Peisey-Vallandry is really three things in one ski pass: the old slate-roofed village of Peisey-Nancroix sitting in larch forest down at 1,300 m, and the two purpose-built but human-scale clusters of Plan-Peisey (1,600 m) and Vallandry (1,550 m) up on the lift line. From here the Les Arcs side of Paradiski opens straight out, and the Vanoise Express, a double-decker cable car spanning the Ponturin gorge in four minutes, drops you onto Bellecôte and the whole La Plagne side. The skiing is famously scenic, long pistes cut through larch and pine, and the forest aspect means it skis well in flat light when higher resorts go blank. It suits families, intermediate skiers who like a varied 425 km playground without ski-resort theatre, and anyone who has decided to swap the high-altitude hubs for trees, sun and slightly slower nights. Plan-Peisey and Vallandry are slope-side; Peisey-Nancroix proper is a free shuttle ride down.",
+      "fr": "Peisey-Vallandry, c'est en réalité trois endroits sur un seul forfait : le vieux village de Peisey-Nancroix aux toits de lauzes, au milieu des mélèzes à 1300 m, et les deux pôles construits mais à taille humaine de Plan-Peisey (1600 m) et Vallandry (1550 m) en bord de piste. D'ici, on plonge directement dans le secteur Les Arcs de Paradiski, et le Vanoise Express, un téléphérique à deux étages qui franchit la gorge du Ponturin en quatre minutes, vous dépose sur le Bellecôte et tout le côté La Plagne. Le ski y est réputé pour ses paysages, de longues pistes taillées dans le mélézin, et le fait de skier sous les arbres permet de continuer à voir quelque chose quand la lumière s'aplatit ailleurs. La station convient aux familles, aux skieurs intermédiaires qui veulent un terrain de jeu de 425 km sans la mise en scène habituelle, et à toutes celles et ceux qui ont préféré aux stations d'altitude des arbres, du soleil et des soirées un peu plus tranquilles. Plan-Peisey et Vallandry sont en bord de piste ; Peisey-Nancroix lui-même est à une navette gratuite en contrebas.",
+      "es": "Peisey-Vallandry son en realidad tres sitios en un mismo forfait: el viejo Peisey-Nancroix, con sus tejados de losa, entre alerces a 1.300 m, y los dos polos construidos pero a escala humana de Plan-Peisey (1.600 m) y Vallandry (1.550 m), justo a pie de pista. Desde aquí se entra directamente al sector de Les Arcs de Paradiski, y el Vanoise Express, un teleférico de dos pisos que cruza la garganta del Ponturin en cuatro minutos, deja al esquiador sobre el Bellecôte y todo el lado de La Plagne. El esquí es muy paisajístico, pistas largas cortadas entre alerces y pinos, y la presencia del bosque permite seguir esquiando con luz plana cuando arriba todo se vuelve blanco. Va para familias, esquiadores intermedios que quieren un terreno de juego variado de 425 km sin teatro de estación, y para cualquiera que haya cambiado los hubs de alta cota por árboles, sol y noches algo más tranquilas. Plan-Peisey y Vallandry están a pie de pista; el propio Peisey-Nancroix queda a una lanzadera gratuita más abajo.",
+      "pt": "Peisey-Vallandry são na verdade três sítios num só forfait: a velha Peisey-Nancroix, de telhados de lousa, no meio dos lariços a 1.300 m, e os dois polos construídos mas à escala humana de Plan-Peisey (1.600 m) e Vallandry (1.550 m), mesmo na linha de pistas. A partir daqui entra-se direto no setor de Les Arcs do Paradiski, e o Vanoise Express, um teleférico de dois pisos que cruza a garganta do Ponturin em quatro minutos, deixa-nos sobre o Bellecôte e todo o lado de La Plagne. O esqui é particularmente cénico, pistas longas abertas entre lariços e pinheiros, e o facto de se esquiar entre árvores permite continuar a ver quando a luz fica plana lá em cima. Convém a famílias, a esquiadores intermédios que querem um campo de jogos variado de 425 km sem teatralidade de estância e a quem trocou os polos de alta cota por árvores, sol e serões um pouco mais calmos. Plan-Peisey e Vallandry ficam mesmo à beira das pistas; a própria Peisey-Nancroix fica a um transfere gratuito mais abaixo.",
+      "it": "Peisey-Vallandry è in realtà tre cose con un solo skipass: il vecchio borgo dai tetti in lose di Peisey-Nancroix, in mezzo ai larici a 1.300 m, e i due poli costruiti ma a misura d'uomo di Plan-Peisey (1.600 m) e Vallandry (1.550 m) a bordo pista. Da qui si entra dritti nel settore di Les Arcs di Paradiski, e il Vanoise Express, una funivia a due piani che attraversa la gola del Ponturin in quattro minuti, scarica direttamente sul Bellecôte e su tutto il versante La Plagne. Lo sci è famoso per il paesaggio, piste lunghe ricavate nel larici e nei pini, e l'aspetto boschivo permette di sciare bene anche con luce piatta, quando le quote più alte si appiattiscono. Va a genio alle famiglie, agli sciatori intermedi che vogliono un parco giochi variato di 425 km senza la teatralità di certe località, e a chi ha scelto di scambiare i poli d'alta quota con alberi, sole e serate un po' più tranquille. Plan-Peisey e Vallandry sono a bordo pista; Peisey-Nancroix vera e propria è a una navetta gratuita più giù."
+    },
+    "pisteCounts": {
+      "green": 22,
+      "blue": 40,
+      "red": 45,
+      "black": 23
+    }
+  },
+  {
+    "slug": "le-corbier",
+    "name": "Le Corbier",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.2236,
+    "lng": 6.3361,
+    "altitudeBase": 1550,
+    "altitudeSummit": 2620,
+    "pistesKm": 310,
+    "lifts": 67,
+    "skiInSkiOutNote": {
+      "en": "Le Corbier was purpose-built to be ski-in/ski-out and it largely delivers: the apartment blocks line the snowfront at 1,550 m, with lifts and beginner runs starting within a 1 to 3 minute walk of most front doors. A few buildings on the back side of the resort involve a short climb in boots to reach the snow; ask for a piste-side property if true ski-in/ski-out matters to you.",
+      "fr": "Le Corbier a été conçu dès l'origine pour être ski aux pieds, et il tient à peu près la promesse : les immeubles sont alignés sur le front de neige à 1550 m, et les remontées comme les pistes débutants démarrent à 1 à 3 minutes à pied de la plupart des entrées. Quelques bâtiments à l'arrière de la station imposent une petite montée en chaussures de ski jusqu'à la neige ; demandez un logement côté piste si le vrai ski aux pieds compte pour vous.",
+      "es": "Le Corbier se diseñó desde el principio para esquiar hasta la puerta y, en gran medida, lo cumple: los edificios se alinean sobre el frente de nieve a 1.550 m, y los remontes y las pistas para principiantes arrancan a 1-3 minutos a pie de la mayoría de los portales. Algunos bloques de la trasera de la estación obligan a una pequeña subida con las botas puestas hasta la nieve; conviene pedir un alojamiento del lado pista si lo importante es el ski-in/ski-out de verdad.",
+      "pt": "Le Corbier foi pensada de raiz para esquiar até à porta e cumpre, em grande parte: os blocos alinham-se sobre a frente de neve a 1.550 m, e os teleféricos e pistas de principiantes começam a 1-3 minutos a pé da maioria das entradas. Alguns edifícios nas traseiras da estância obrigam a uma pequena subida com as botas calçadas até à neve; convém pedir um alojamento do lado da pista se o verdadeiro ski-in/ski-out é importante.",
+      "it": "Le Corbier è stata progettata fin dall'inizio per essere sci ai piedi e in gran parte mantiene la promessa: gli edifici si allineano sul fronte neve a 1.550 m e impianti e piste per principianti partono a 1-3 minuti a piedi dalla maggior parte degli ingressi. Alcuni caseggiati sul retro della località comportano una breve salita con gli scarponi fino alla neve; meglio chiedere una struttura sul fronte pista se il vero rientrare sci ai piedi è importante."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "value",
+      "family",
+      "big-domain"
+    ],
+    "intro": {
+      "en": "Long banana-curved apartment blocks at 1,550 m, parked on a sunny shelf above the Maurienne, with 310 km of Les Sybelles pistes opening directly off the balconies. Le Corbier is unapologetically 1960s, a piece of pure French ski-resort modernism that hides one of the easiest big-domain ski holidays in the Alps. Bring the kids, forget the gondola queues, ski straight off the bed.",
+      "fr": "De longs bâtiments d'appartements en forme de banane à 1550 m, posés sur un replat ensoleillé au-dessus de la Maurienne, avec 310 km de pistes des Sybelles qui partent directement des balcons. Le Corbier assume son architecture des années 60, pur produit de la modernité française du ski, qui cache l'un des séjours grand domaine les plus simples des Alpes. On y vient avec les enfants, on oublie les files d'attente aux télécabines, on skie en sortant du lit.",
+      "es": "Largos edificios de apartamentos curvados en banana a 1.550 m, posados sobre una repisa soleada por encima de la Maurienne, con 310 km de pistas de Les Sybelles que arrancan directamente de los balcones. Le Corbier asume sin complejos sus aires de los años 60, una pieza pura de la modernidad francesa del esquí que esconde una de las vacaciones de gran dominio más sencillas de los Alpes. Se va con los niños, se olvidan las colas en los telecabinas, se esquía nada más salir de la cama.",
+      "pt": "Longos blocos de apartamentos curvados em banana a 1.550 m, pousados num planalto soalheiro sobre a Maurienne, com 310 km de pistas de Les Sybelles a abrirem-se diretamente das varandas. Le Corbier assume sem complexos os seus traços dos anos 60, pura modernidade francesa do esqui, que esconde umas das férias de grande domínio mais simples dos Alpes. Vem-se com os miúdos, esquecem-se as filas nos teleféricos, esquia-se mal se sai da cama.",
+      "it": "Lunghi caseggiati di appartamenti a banana a 1.550 m, posati su un ripiano soleggiato sopra la Maurienne, con 310 km di piste de Les Sybelles che si aprono direttamente dai balconi. Le Corbier non si vergogna del proprio Sessanta, puro pezzo di modernità francese dello sci che nasconde una delle vacanze su grande comprensorio più semplici delle Alpi. Si arriva coi bambini, ci si dimentica delle code agli impianti, si scia appena scesi dal letto."
+    },
+    "longDescription": {
+      "en": "Built from scratch in the 1960s on a south-facing ridge of the Maurienne at 1,550 m, Le Corbier is a textbook integrated French ski station: long curved apartment blocks designed to put every front door within walking distance of the snow, no cars to cross, no village outside the resort itself. From here you ski straight onto Les Sybelles, 310 km and 67 lifts linking Le Corbier with La Toussuire, Saint-Jean-d'Arves, Saint-Sorlin-d'Arves and Les Bottières across a single ridge system. Terrain is gentle in character, with 18 green and 35 blue runs against just 12 black, which is why it has become a favourite for families with small skiers and for groups taking lessons. Lodging is mostly self-catering apartments with a handful of small hotels, and the price point sits well below the better-known Tarentaise resorts on the other side of the watershed. Aesthetics are not the reason to come; mileage, sun and value are.",
+      "fr": "Sorti de terre dans les années 60 sur une crête plein sud de la Maurienne à 1550 m, Le Corbier est un manuel de station intégrée à la française : de longs immeubles incurvés dessinés pour que chaque porte d'entrée donne sur la neige, aucune route à traverser, aucun village extérieur à la station. D'ici on enchaîne directement avec Les Sybelles, 310 km et 67 remontées qui relient Le Corbier à La Toussuire, Saint-Jean-d'Arves, Saint-Sorlin-d'Arves et Les Bottières d'un même versant. Le terrain est plutôt doux, 18 vertes et 35 bleues contre seulement 12 noires, ce qui en fait une station très appréciée des familles avec petits skieurs et des groupes en cours collectifs. L'hébergement, c'est surtout des appartements en location et quelques petits hôtels, à un tarif nettement plus accessible que les stations connues de Tarentaise de l'autre côté de la ligne de partage. L'esthétique n'est pas la raison d'y aller ; le kilométrage, le soleil et le rapport qualité-prix le sont.",
+      "es": "Construido desde cero en los años 60 sobre una loma orientada al sur de la Maurienne a 1.550 m, Le Corbier es un manual de estación integrada a la francesa: largos edificios curvados pensados para que cada puerta dé a la nieve, sin coches que cruzar, sin pueblo fuera de la propia estación. Desde aquí se entra directo a Les Sybelles, 310 km y 67 remontes que enlazan Le Corbier con La Toussuire, Saint-Jean-d'Arves, Saint-Sorlin-d'Arves y Les Bottières sobre un mismo cordal. El terreno es de carácter suave, 18 verdes y 35 azules frente a apenas 12 negras, lo que la ha convertido en una opción muy apreciada por familias con esquiadores pequeños y por grupos en clases. El alojamiento es sobre todo apartamentos para alquiler con cocina y unos pocos hoteles pequeños, a un precio bastante por debajo de las estaciones más conocidas de la Tarentaise al otro lado de la divisoria. La estética no es la razón para venir; el kilometraje, el sol y la relación calidad-precio sí.",
+      "pt": "Construído de raiz nos anos 60 sobre uma crista virada a sul da Maurienne a 1.550 m, Le Corbier é um manual de estância integrada à francesa: longos blocos curvos pensados para que cada porta dê para a neve, sem estradas a atravessar, sem aldeia fora da própria estância. A partir daqui entra-se diretamente em Les Sybelles, 310 km e 67 teleféricos que ligam Le Corbier a La Toussuire, Saint-Jean-d'Arves, Saint-Sorlin-d'Arves e Les Bottières pelo mesmo sistema de cumeada. O terreno é de caráter suave, 18 verdes e 35 azuis contra apenas 12 negras, o que faz dela uma escolha apreciada por famílias com esquiadores pequenos e por grupos em aulas. O alojamento é sobretudo apartamentos com cozinha para alugar, mais alguns pequenos hotéis, a um preço claramente abaixo das estâncias mais conhecidas da Tarentaise, do outro lado da linha de águas. A estética não é o motivo para vir; a quilometragem, o sol e a relação qualidade-preço, esses sim, são.",
+      "it": "Costruita da zero negli anni Sessanta su un crinale esposto a sud della Maurienne a 1.550 m, Le Corbier è un manuale di località integrata alla francese: lunghi caseggiati curvi pensati perché ogni porta d'ingresso dia sulla neve, niente strade da attraversare, niente borgo al di fuori della località stessa. Da qui si entra dritti ne Les Sybelles, 310 km e 67 impianti che collegano Le Corbier con La Toussuire, Saint-Jean-d'Arves, Saint-Sorlin-d'Arves e Les Bottières lungo un unico sistema di crinali. Il terreno è di indole dolce, 18 verdi e 35 blu contro appena 12 nere, ed è il motivo per cui è diventata una scelta amata dalle famiglie con piccoli sciatori e dai gruppi in lezione. L'alloggio è soprattutto appartamenti con cucina più qualche piccolo hotel, a un prezzo nettamente sotto le località note della Tarentaise dall'altra parte dello spartiacque. L'estetica non è il motivo per venirci; chilometraggio, sole e rapporto qualità-prezzo sì."
+    },
+    "pisteCounts": {
+      "green": 18,
+      "blue": 35,
+      "red": 35,
+      "black": 12
+    }
+  },
+  {
+    "slug": "chiesa-in-valmalenco",
+    "name": "Chiesa in Valmalenco",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.2606,
+    "lng": 9.8456,
+    "altitudeBase": 1000,
+    "altitudeSummit": 2336,
+    "pistesKm": 60,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Genuine ski-in/ski-out in Chiesa is limited: the village sits below the lifts, and most hotels are a short walk or shuttle from the San Antonio and Snow Eagle base stations. A handful of properties at the lift base do offer true door-to-piste access.",
+      "fr": "Le vrai ski aux pieds reste limité à Chiesa: le village est en contrebas des remontées, et la plupart des hôtels se trouvent à quelques minutes à pied ou en navette des départs de San Antonio et du Snow Eagle. Seuls quelques établissements au pied des remontées proposent un accès direct aux pistes.",
+      "es": "El ski-in/ski-out de verdad es limitado en Chiesa: el pueblo queda por debajo de los remontes y la mayoría de los hoteles están a pocos minutos andando o en lanzadera de las bases de San Antonio y Snow Eagle. Solo un puñado de establecimientos al pie de los remontes ofrecen acceso directo a pista.",
+      "pt": "O verdadeiro ski-in/ski-out é limitado em Chiesa: a aldeia fica abaixo dos teleféricos e a maioria dos hotéis estão a poucos minutos a pé ou de transfer das bases de San Antonio e Snow Eagle. Apenas alguns alojamentos no sopé dos teleféricos oferecem acesso direto à pista.",
+      "it": "Il vero ski-in/ski-out a Chiesa è limitato: il borgo si trova più in basso degli impianti e la maggior parte degli hotel dista pochi minuti a piedi o in navetta dalle stazioni di partenza di San Antonio e Snow Eagle. Solo alcune strutture al piede degli impianti permettono di rientrare sci ai piedi davvero."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 72,
+    "vibes": [
+      "authentic",
+      "value"
+    ],
+    "intro": {
+      "en": "Tucked into the Valmalenco above the upper Adda valley, Chiesa is where Sondrio locals come to ski without queues or fuss. From the stone-built village at 1,000 m, the Palu and Snow Eagle lifts climb to the Piazza Cavalli plateau at 2,336 m, with the Bernina range filling the horizon. Low prices, big mountains and proper Valtellina cooking, that is the deal.",
+      "fr": "Blottie dans le Valmalenco au-dessus de la haute vallée de l'Adda, Chiesa est la station où les habitants de Sondrio viennent skier sans foule ni esbroufe. Depuis le village en pierre à 1 000 m, les remontées Palu et Snow Eagle grimpent jusqu'au plateau de Piazza Cavalli à 2 336 m, face au massif de la Bernina. Petits prix, grande montagne et vraie cuisine valtelline, voilà le programme.",
+      "es": "Recogida en la Valmalenco, sobre el alto valle del Adda, Chiesa es la estación donde los vecinos de Sondrio esquían sin colas ni alharaca. Desde el pueblo de piedra a 1.000 m, los remontes de Palu y Snow Eagle suben a la meseta de Piazza Cavalli, a 2.336 m, frente al macizo de la Bernina. Forfaits asequibles, alta montaña de verdad y buena mesa valtellinesa.",
+      "pt": "Aninhada na Valmalenco, sobre o alto vale do Adda, Chiesa é a estância onde os locais de Sondrio esquiam sem filas nem encenação. Da aldeia de pedra a 1.000 m, os teleféricos de Palu e Snow Eagle sobem ao planalto de Piazza Cavalli, a 2.336 m, com o maciço do Bernina ao fundo. Forfaits acessíveis, montanha grande e cozinha valtelinesa a sério.",
+      "it": "Incassata in Valmalenco sopra l'alta Valle dell'Adda, Chiesa è la località dove gli sciatori sondriesi salgono a sciare senza code e senza scenografie. Dal borgo in pietra a 1.000 m, gli impianti del Palu e dello Snow Eagle portano sul pianoro di Piazza Cavalli a 2.336 m, di fronte al massiccio del Bernina. Skipass leggeri, montagna vera e cucina valtellinese come si deve."
+    },
+    "longDescription": {
+      "en": "Chiesa in Valmalenco sits at 1,000 m on the Italian side of the Bernina, in the deep, quiet valley that climbs north from Sondrio. The lift network is compact but well laid out: twelve lifts, around 60 km of pistes split between 15 blues, 12 reds and 5 blacks, with most of the action above 2,000 m on the Palu and Snow Eagle sectors. The descent off the Piazza Cavalli plateau is long, varied and often empty, especially mid-week. Snow holds reliably from early December to mid-April thanks to north-facing aspects and the cold microclimate of the Bernina foothills. Off the snow, the village keeps its working-mountain feel, with bisciola, pizzoccheri and Sforzato wine on the table. It is a quiet, value-driven alternative to Bormio and Livigno, both about an hour further up the valley.",
+      "fr": "Chiesa in Valmalenco s'étire à 1 000 m sur le versant italien de la Bernina, au fond de la vallée silencieuse qui remonte au nord de Sondrio. Le domaine est compact mais bien dessiné: douze remontées, une soixantaine de kilomètres de pistes réparties entre 15 bleues, 12 rouges et 5 noires, avec l'essentiel du ski au-dessus de 2 000 m sur les secteurs Palu et Snow Eagle. La descente depuis le plateau de Piazza Cavalli est longue, variée et souvent vide en semaine. La neige tient bien de début décembre à mi-avril, grâce à l'exposition nord et au microclimat frais du piémont de la Bernina. Au village, on reste dans une vraie montagne de travail, autour d'un plat de pizzoccheri, d'une part de bisciola et d'un verre de Sforzato. Une alternative tranquille et bon marché à Bormio et Livigno, à une heure plus haut dans la vallée.",
+      "es": "Chiesa in Valmalenco se asienta a 1.000 m en la vertiente italiana del Bernina, en el valle profundo y silencioso que sube al norte desde Sondrio. El dominio es compacto pero está bien trazado: doce remontes, unos 60 km de pistas repartidos entre 15 azules, 12 rojas y 5 negras, con la mayor parte del esquí por encima de los 2.000 m en los sectores de Palu y Snow Eagle. La bajada desde la meseta de Piazza Cavalli es larga, variada y a menudo vacía entre semana. La nieve aguanta bien de principios de diciembre a mediados de abril, gracias a la orientación norte y al microclima fresco al pie del Bernina. En el pueblo se respira aún montaña de trabajo, con pizzoccheri, bisciola y vino Sforzato en la mesa. Una alternativa tranquila y económica a Bormio y Livigno, a una hora valle arriba.",
+      "pt": "Chiesa in Valmalenco fica a 1.000 m, no lado italiano do Bernina, no fundo do vale silencioso que sobe a norte de Sondrio. A área esquiável é compacta mas bem desenhada: doze teleféricos, cerca de 60 km de pistas distribuídos por 15 azuis, 12 vermelhas e 5 negras, com o grosso do esqui acima dos 2.000 m nos setores de Palu e Snow Eagle. A descida do planalto de Piazza Cavalli é longa, variada e muitas vezes vazia a meio da semana. A neve aguenta bem de princípios de dezembro a meados de abril, graças à exposição a norte e ao microclima frio do sopé do Bernina. Na aldeia mantém-se o ambiente de montanha de trabalho, com pizzoccheri, bisciola e vinho Sforzato à mesa. Uma alternativa sossegada e barata a Bormio e Livigno, a uma hora vale acima.",
+      "it": "Chiesa in Valmalenco si distende a 1.000 m sul versante italiano del Bernina, in fondo alla valle silenziosa che risale a nord di Sondrio. Il comprensorio è raccolto ma ben disegnato: dodici impianti, una sessantina di chilometri di piste tra 15 blu, 12 rosse e 5 nere, con il grosso dello sci sopra i 2.000 m sui versanti del Palu e dello Snow Eagle. La discesa dal pianoro di Piazza Cavalli è lunga, varia e spesso deserta infrasettimanale. La neve tiene bene da inizio dicembre a metà aprile, complici l'esposizione nord e il microclima fresco del piedemonte del Bernina. In paese si respira ancora la montagna che lavora, con pizzoccheri, bisciola e un calice di Sforzato sul tavolo. Una valida alternativa tranquilla e a buon prezzo a Bormio e Livigno, un'ora più su in valle."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 12,
+      "black": 5
+    }
+  },
+  {
+    "slug": "aprica",
+    "name": "Aprica",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.1547,
+    "lng": 10.1539,
+    "altitudeBase": 1180,
+    "altitudeSummit": 2310,
+    "pistesKm": 50,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Aprica is one of the few small Italian resorts where genuine ski-in/ski-out is realistic: the village lies right at the foot of the Magnolta and Palabione lifts, and several hotels along the main road let you click in and out at the door. Properties at the village's lower end will still need a short walk or shuttle.",
+      "fr": "Aprica est l'une des rares petites stations italiennes où le ski aux pieds est réellement possible: le village est au pied des remontées Magnolta et Palabione, et plusieurs hôtels sur la rue principale permettent de chausser à la porte. Les établissements en bas du village restent à quelques minutes à pied ou en navette.",
+      "es": "Aprica es una de las pocas estaciones pequeñas italianas donde el ski-in/ski-out es real: el pueblo se sitúa al pie de los remontes de Magnolta y Palabione y varios hoteles de la calle principal permiten calzarse en la misma puerta. Los alojamientos de la parte baja del pueblo siguen quedando a un breve paseo o lanzadera.",
+      "pt": "Aprica é uma das poucas pequenas estâncias italianas onde o ski-in/ski-out é mesmo realista: a povoação fica ao pé dos teleféricos da Magnolta e do Palabione e vários hotéis da rua principal permitem calçar os esquis à porta. Os alojamentos na parte baixa do povoado ficam ainda a uma curta caminhada ou transfer.",
+      "it": "Aprica è una delle poche piccole località italiane dove lo ski-in/ski-out è davvero possibile: il paese si trova ai piedi degli impianti della Magnolta e del Palabione e diversi hotel sulla strada principale permettono di calzare gli sci direttamente sull'uscio. Le strutture nella parte bassa del paese restano comunque a pochi minuti a piedi o in navetta."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 72,
+    "vibes": [
+      "family",
+      "value"
+    ],
+    "intro": {
+      "en": "Set on the sunny pass between Sondrio and the Val Camonica, Aprica is the easygoing family resort of upper Valtellina. Its base at 1,180 m feeds wide, sun-baked pistes on the Magnolta and Palabione sectors, climbing to 2,310 m. Affordable, snow-reliable and refreshingly free of pretension.",
+      "fr": "Posée sur le col ensoleillé qui sépare Sondrio de la Val Camonica, Aprica est la station famille tranquille de la haute Valtelline. Son pied à 1 180 m donne accès à de larges pistes baignées de soleil sur les secteurs Magnolta et Palabione, jusqu'à 2 310 m. Bon marché, fiable côté neige et sans la moindre prétention.",
+      "es": "En el soleado puerto que separa Sondrio del Val Camonica, Aprica es la estación familiar y sin complicaciones de la alta Valtellina. Su cota a 1.180 m da paso a anchas pistas asoleadas en los sectores de Magnolta y Palabione, hasta los 2.310 m. Forfaits asequibles, nieve fiable y cero postureo.",
+      "pt": "No soalheiro porto que separa Sondrio do Val Camonica, Aprica é a estância familiar e descontraída da alta Valtellina. A sua base a 1.180 m dá acesso a pistas largas e bem expostas ao sol nos setores de Magnolta e Palabione, até aos 2.310 m. Preço acessível, neve fiável e zero pretensão.",
+      "it": "Adagiata sul valico soleggiato tra Sondrio e la Val Camonica, Aprica è la località di famiglia tranquilla dell'alta Valtellina. Dai 1.180 m del paese si aprono piste larghe e baciate dal sole sui versanti della Magnolta e del Palabione, fino a 2.310 m. Skipass leggero, neve affidabile e nessuna posa."
+    },
+    "longDescription": {
+      "en": "Aprica spreads along its 1,180 m pass with the pistes practically backing onto the village. The ski area counts fourteen lifts and around 50 km of pistes, weighted toward gentle blue and red terrain that suits mixed-ability groups: 15 blues, 8 reds and 3 blacks. The Magnolta side opens broad sunny cruisers; the Palabione sector adds tree-lined runs that come into their own on storm days. Snow keeps well from December to mid-April thanks to the pass's elevation and modern snowmaking. Beginners and children are properly looked after, with one of the better learn-to-ski programmes in northern Italy and a lift pass well below Dolomiti Superski prices. Mornings on skis, afternoons sledging or skating in the village, evenings around polenta taragna, this is the Aprica routine.",
+      "fr": "Aprica s'étire le long de son col à 1 180 m, les pistes pratiquement dans le village. Quatorze remontées et une cinquantaine de kilomètres de pistes, à dominante bleue et rouge bien adaptée aux groupes de niveaux mixtes: 15 bleues, 8 rouges et 3 noires. Le versant Magnolta déroule de larges boulevards ensoleillés; le secteur Palabione ajoute des pistes en sous-bois précieuses les jours de chutes de neige. La neige tient bien de décembre à mi-avril grâce à l'altitude du col et à un parc à neige moderne. Les débutants et les enfants y sont vraiment soignés, avec l'une des meilleures offres apprentissage du nord de l'Italie et un forfait nettement sous les tarifs Dolomiti Superski. Skis le matin, luge ou patinoire l'après-midi, polenta taragna le soir, c'est le rythme d'Aprica.",
+      "es": "Aprica se alarga a lo largo de su puerto a 1.180 m, con las pistas casi metidas en el pueblo. Catorce remontes y unos 50 km de pistas dominados por azules y rojas, ideales para grupos de niveles mixtos: 15 azules, 8 rojas y 3 negras. La vertiente Magnolta despliega anchos bulevares al sol; el sector Palabione añade pistas entre árboles que brillan los días de nieve. La nieve aguanta bien de diciembre a mediados de abril gracias a la cota del puerto y a una buena cobertura artificial. Principiantes y niños están muy bien atendidos, con una de las mejores ofertas de aprendizaje del norte de Italia y un forfait muy por debajo de las tarifas Dolomiti Superski. Esquí por la mañana, trineo o patinaje por la tarde y polenta taragna por la noche, así se vive Aprica.",
+      "pt": "Aprica estende-se ao longo do seu porto a 1.180 m, com as pistas praticamente coladas à povoação. Catorze teleféricos e cerca de 50 km de pistas, com predominância de azuis e vermelhas adaptadas a grupos de níveis mistos: 15 azuis, 8 vermelhas e 3 negras. O lado da Magnolta abre largas avenidas ao sol; o setor de Palabione acrescenta descidas entre pinheiros que brilham nos dias de neve. A neve aguenta bem de dezembro a meados de abril graças à cota do porto e a uma boa cobertura artificial. Principiantes e crianças são muito bem tratados, com uma das melhores ofertas de aprendizagem do norte de Itália e um forfait bem abaixo das tarifas Dolomiti Superski. Esqui de manhã, trenó ou pista de gelo à tarde e polenta taragna à noite, é o ritmo de Aprica.",
+      "it": "Aprica si distende lungo il suo valico a 1.180 m, con le piste praticamente dentro al paese. Quattordici impianti e una cinquantina di chilometri di piste a netta prevalenza di blu e rosse, perfette per gruppi a livelli misti: 15 blu, 8 rosse e 3 nere. Il versante della Magnolta apre ampi viali al sole; il settore del Palabione aggiunge piste nel bosco preziose nelle giornate di neve. La copertura tiene bene da dicembre a metà aprile grazie alla quota del valico e a un buon innevamento programmato. Principianti e bambini sono curati davvero, con una delle scuole sci più solide del Nord Italia e uno skipass ben al di sotto delle tariffe Dolomiti Superski. Sci la mattina, slittino o pattinaggio al pomeriggio, polenta taragna la sera: il ritmo dell'Aprica è questo."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 8,
+      "black": 3
+    }
+  },
+  {
+    "slug": "pejo",
+    "name": "Pejo",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.3608,
+    "lng": 10.6792,
+    "altitudeBase": 1400,
+    "altitudeSummit": 3000,
+    "pistesKm": 30,
+    "lifts": 9,
+    "skiInSkiOutNote": {
+      "en": "Pejo is split between the lift base at Pejo Fonti and the older village of Pejo Paese, a few kilometres lower. True ski-in/ski-out is essentially limited to a small cluster of hotels around the Pejo 3000 cable car station; everywhere else relies on a short walk or the local shuttle.",
+      "fr": "Pejo se divise entre la base des remontées à Pejo Fonti et le vieux village de Pejo Paese, quelques kilomètres plus bas. Le vrai ski aux pieds se concentre sur quelques hôtels autour de la station de départ du téléphérique Pejo 3000; ailleurs, il faut compter sur une courte marche ou la navette du village.",
+      "es": "Pejo se reparte entre la base de los remontes en Pejo Fonti y el pueblo antiguo de Pejo Paese, unos kilómetros más abajo. El verdadero ski-in/ski-out se limita a un puñado de hoteles junto a la estación del teleférico Pejo 3000; el resto depende de un breve paseo o de la lanzadera local.",
+      "pt": "Pejo divide-se entre a base dos teleféricos em Pejo Fonti e a aldeia antiga de Pejo Paese, alguns quilómetros mais abaixo. O verdadeiro ski-in/ski-out resume-se a um pequeno grupo de hotéis junto à estação do teleférico Pejo 3000; o resto depende de uma curta caminhada ou do transfer local.",
+      "it": "Pejo è divisa tra la base degli impianti a Pejo Fonti e il borgo storico di Pejo Paese, qualche chilometro più in basso. Il vero ski-in/ski-out si concentra in pochi hotel attorno alla stazione di partenza della cabinovia Pejo 3000; per il resto si parla di pochi minuti a piedi o di navetta locale."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 85,
+    "vibes": [
+      "glacier",
+      "authentic",
+      "snow-sure",
+      "family"
+    ],
+    "intro": {
+      "en": "Pejo is a quiet, traditional Val di Sole village tucked inside the Stelvio National Park, where the lift to the Vioz glacier climbs straight to 3,000 m. From a base at 1,400 m, the small but high Pejo 3000 area offers some of the most snow-reliable skiing in the southern Alps. No chic, no nightlife, just glaciated peaks and empty pistes.",
+      "fr": "Pejo est un village discret et traditionnel du Val di Sole, blotti à l'intérieur du parc national du Stelvio, où la remontée vers le glacier du Vioz file droit jusqu'à 3 000 m. Depuis le pied à 1 400 m, le petit mais haut domaine de Pejo 3000 offre l'un des enneigements les plus fiables du sud des Alpes. Pas de chic, pas de vie nocturne, juste des sommets glaciaires et des pistes désertes.",
+      "es": "Pejo es un pueblo tranquilo y tradicional del Val di Sole, en pleno parque nacional del Stelvio, donde el remonte hasta el glaciar del Vioz sube directo a 3.000 m. Desde su cota a 1.400 m, el pequeño pero alto dominio de Pejo 3000 brinda uno de los enneves más fiables del sur de los Alpes. Sin postureo ni vida nocturna, solo cumbres glaciares y pistas vacías.",
+      "pt": "Pejo é uma aldeia sossegada e tradicional do Val di Sole, encaixada no parque nacional do Stelvio, com um teleférico que sobe direto ao glaciar do Vioz, a 3.000 m. Da base a 1.400 m, a pequena mas alta área de Pejo 3000 oferece um dos mantos de neve mais fiáveis do sul dos Alpes. Sem chique, sem vida noturna, apenas picos glaciares e pistas vazias.",
+      "it": "Pejo è un borgo silenzioso e tradizionale della Val di Sole, dentro al Parco Nazionale dello Stelvio, dove l'impianto verso il ghiacciaio del Vioz sale dritto a 3.000 m. Dai 1.400 m del paese, la piccola ma alta area di Pejo 3000 offre uno degli innevamenti più sicuri delle Alpi meridionali. Niente posa, niente movida, solo cime glaciali e piste deserte."
+    },
+    "longDescription": {
+      "en": "Pejo sits at 1,400 m in the upper Val di Sole, hemmed in by the Adamello-Brenta and Ortles-Cevedale massifs and entirely surrounded by the Stelvio National Park. The ski area is deliberately compact: nine lifts and around 30 km of pistes, with 8 blues, 14 reds and 5 blacks rising from forested lower slopes to the bare, glaciated summit at 3,000 m. Altitude and a north-east aspect give it a snowScore of 85 and a season that runs reliably from early December into April. With so few skiers, even a busy holiday morning feels like a quiet midweek elsewhere. Off the snow, Pejo keeps a strong sense of mountain identity, with the old village of Pejo Paese, the Pejo thermal spa and traditional Trentino cooking. It is family skiing in its calmest form, with the high peaks of the Stelvio as the backdrop.",
+      "fr": "Pejo s'établit à 1 400 m en haut du Val di Sole, cerné par les massifs de l'Adamello-Brenta et de l'Ortles-Cevedale, totalement inclus dans le parc national du Stelvio. Le domaine est volontairement raccourci: neuf remontées et une trentaine de kilomètres de pistes, 8 bleues, 14 rouges et 5 noires, qui montent des bois jusqu'au sommet glaciaire dénudé à 3 000 m. L'altitude et l'exposition nord-est lui valent un snowScore de 85 et une saison qui tient bien de début décembre jusqu'en avril. Avec si peu de monde, même un samedi de vacances ressemble à un mercredi tranquille ailleurs. Hors ski, Pejo cultive sa forte identité montagnarde, avec le vieux village de Pejo Paese, les thermes et une cuisine trentine très authentique. Du ski en famille dans sa version la plus calme, avec les hauts sommets du Stelvio en toile de fond.",
+      "es": "Pejo se asienta a 1.400 m en la cabecera del Val di Sole, rodeada por los macizos del Adamello-Brenta y el Ortles-Cevedale, dentro del parque nacional del Stelvio. El dominio es intencionadamente reducido: nueve remontes y unos 30 km de pistas, con 8 azules, 14 rojas y 5 negras, que suben desde el bosque hasta la cima glaciar pelada a 3.000 m. La altitud y la orientación noreste le dan un snowScore de 85 y una temporada que aguanta bien de principios de diciembre hasta abril. Con tan pocos esquiadores, una mañana de vacaciones se parece a un miércoles tranquilo en cualquier otro sitio. Fuera del esquí, Pejo conserva una fuerte identidad de montaña, con el viejo Pejo Paese, las termas y una cocina trentina muy auténtica. Esquí en familia en su versión más serena, con las altas cumbres del Stelvio detrás.",
+      "pt": "Pejo fica a 1.400 m no topo do Val di Sole, abraçada pelos maciços do Adamello-Brenta e do Ortles-Cevedale e totalmente dentro do parque nacional do Stelvio. A área esquiável é propositadamente curta: nove teleféricos e cerca de 30 km de pistas, com 8 azuis, 14 vermelhas e 5 negras, que sobem do bosque até ao cume glaciar pelado a 3.000 m. A altitude e a exposição a nordeste dão-lhe um snowScore de 85 e uma temporada que aguenta bem de princípios de dezembro até abril. Com tão poucos esquiadores, uma manhã de feriado parece uma quarta-feira sossegada noutro lado qualquer. Fora do esqui, Pejo mantém uma forte identidade de montanha, com a velha Pejo Paese, as termas e uma cozinha trentina muito autêntica. Esqui em família na sua versão mais serena, com os altos cumes do Stelvio em pano de fundo.",
+      "it": "Pejo si trova a 1.400 m in alta Val di Sole, stretta tra i massicci dell'Adamello-Brenta e dell'Ortles-Cevedale, interamente compresa nel Parco Nazionale dello Stelvio. Il comprensorio è volutamente raccolto: nove impianti e una trentina di chilometri di piste, con 8 blu, 14 rosse e 5 nere, che salgono dai boschi fino alla vetta glaciale spoglia a 3.000 m. La quota e l'esposizione a nord-est le valgono uno snowScore di 85 e una stagione che tiene bene da inizio dicembre fino ad aprile. Con così pochi sciatori, un sabato di vacanza sa di mercoledì tranquillo altrove. Fuori dalle piste, Pejo conserva una forte identità di montagna, con il borgo storico di Pejo Paese, le terme e una cucina trentina davvero schietta. Sci in famiglia nella sua versione più serena, con le cime alte dello Stelvio sullo sfondo."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 8,
+      "red": 14,
+      "black": 5
+    }
+  },
+  {
+    "slug": "sappada",
+    "name": "Sappada",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.5667,
+    "lng": 12.6833,
+    "altitudeBase": 1250,
+    "altitudeSummit": 2050,
+    "pistesKm": 25,
+    "lifts": 6,
+    "skiInSkiOutNote": {
+      "en": "Sappada's lifts cluster at the Pian dei Nidi and Sappada 2000 bases, both a short distance from the main village. A few hotels at Sappada 2000 offer true ski-in/ski-out; in the historic Borgate, expect a short walk, ski-bus or quick drive to the lifts.",
+      "fr": "Les remontées de Sappada se concentrent aux pieds des secteurs Pian dei Nidi et Sappada 2000, à courte distance du village principal. Quelques hôtels à Sappada 2000 offrent un vrai ski aux pieds; dans les Borgate historiques, comptez quelques minutes à pied, en ski-bus ou en voiture pour rejoindre les remontées.",
+      "es": "Los remontes de Sappada se agrupan en las bases de Pian dei Nidi y Sappada 2000, a corta distancia del pueblo principal. Algunos hoteles en Sappada 2000 ofrecen ski-in/ski-out de verdad; en las Borgate históricas, hay que contar con un breve paseo, ski-bus o coche hasta los remontes.",
+      "pt": "Os teleféricos de Sappada concentram-se nas bases de Pian dei Nidi e Sappada 2000, a curta distância da aldeia principal. Alguns hotéis em Sappada 2000 oferecem ski-in/ski-out a sério; nas Borgate históricas, conte com uma curta caminhada, ski-bus ou rápida deslocação de carro até aos teleféricos.",
+      "it": "Gli impianti di Sappada si concentrano alle basi del Pian dei Nidi e di Sappada 2000, a poca distanza dal centro del paese. Alcuni hotel a Sappada 2000 permettono di rientrare sci ai piedi davvero; nelle Borgate storiche servono qualche minuto a piedi, lo ski-bus o un breve tragitto in auto per raggiungere gli impianti."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 74,
+    "vibes": [
+      "authentic",
+      "family",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Sappada is a German-speaking Plodarisch enclave in the Friuli Carnic Alps, where the Piave river begins and the chimneys are still wooden. The village at 1,250 m sits beneath Monte Siera, with a small alpine area and a wide network of cross-country trails on the Borgate. Carnival here is the real thing, masked, ancient and loud.",
+      "fr": "Sappada est une enclave germanophone Plodarisch dans les Alpes carniques du Frioul, là où naît le Piave et où les cheminées sont encore en bois. Le village à 1 250 m est blotti sous le Monte Siera, avec un petit domaine alpin et un large réseau de ski de fond sur les Borgate. Le Carnaval, ici, est le vrai, masqué, ancien et bruyant.",
+      "es": "Sappada es un enclave germanófono Plodarisch en los Alpes Cárnicos del Friuli, donde nace el Piave y las chimeneas siguen siendo de madera. El pueblo a 1.250 m se acoge bajo el Monte Siera, con un pequeño dominio alpino y una amplia red de fondo en las Borgate. El Carnaval, aquí, es de los de verdad: enmascarado, antiguo y ruidoso.",
+      "pt": "Sappada é um enclave de língua alemã Plodarisch nos Alpes Cárnicos do Friuli, onde nasce o Piave e as chaminés ainda são de madeira. A aldeia, a 1.250 m, fica aos pés do Monte Siera, com uma pequena área alpina e uma vasta rede de pistas de fundo nas Borgate. O Carnaval aqui é do velho mundo: mascarado, antigo e barulhento.",
+      "it": "Sappada è l'enclave di lingua tedesca, il Plodarisch, nelle Alpi Carniche friulane, dove nasce il Piave e i camini sono ancora di legno. Il paese, a 1.250 m, si raccoglie sotto il Monte Siera, con una piccola area alpina e una rete ampia di fondo sulle Borgate. Il Carnevale qui è quello vero: mascherato, antico e fragoroso."
+    },
+    "longDescription": {
+      "en": "Sappada sits at 1,250 m near the source of the Piave river, in a sunlit basin where the Friuli Carnic Alps meet the eastern Dolomites. The Plodarisch community keeps its medieval German dialect alive, and the village reads like a postcard: log houses with painted facades, wooden balconies and snow-laden roofs strung across the fifteen Borgate. The alpine ski area on Monte Siera is small, six lifts and about 25 km of pistes, with 8 blues, 10 reds and 3 blacks rising to 2,050 m, but the cross-country network and the deep snow make it punch above its weight. Snow holds reliably from early December into April. Beyond the pistes, the famous Carnival, with its hand-carved wooden masks, draws visitors from across northeast Italy. Cortina is a quick drive south through the Cadore, but here you keep the mountains, the silence, and a fraction of the bill.",
+      "fr": "Sappada s'étend à 1 250 m près de la source du Piave, dans une cuvette ensoleillée où les Alpes carniques du Frioul rencontrent les Dolomites orientales. La communauté Plodarisch perpétue son vieux dialecte germanique, et le village a tout d'une carte postale: maisons en rondins aux façades peintes, balcons en bois et toits chargés de neige le long des quinze Borgate. Le domaine alpin du Monte Siera est petit, six remontées et environ 25 km de pistes, avec 8 bleues, 10 rouges et 3 noires jusqu'à 2 050 m, mais le réseau de fond et la qualité de l'enneigement le font jouer au-dessus de sa taille. La neige tient bien de début décembre à avril. Au-delà du ski, le fameux Carnaval et ses masques de bois sculptés à la main attire les visiteurs de tout le nord-est de l'Italie. Cortina est à une courte route au sud par le Cadore, mais ici on garde la montagne, le silence et une fraction de l'addition.",
+      "es": "Sappada se sitúa a 1.250 m cerca del nacimiento del Piave, en una cubeta soleada donde los Alpes Cárnicos friulanos se encuentran con los Dolomitas orientales. La comunidad Plodarisch conserva vivo su antiguo dialecto germánico y el pueblo se lee como una postal: casas de troncos con fachadas pintadas, balcones de madera y tejados cargados de nieve a lo largo de las quince Borgate. El dominio alpino del Monte Siera es pequeño, seis remontes y unos 25 km de pistas, con 8 azules, 10 rojas y 3 negras hasta los 2.050 m, pero la red de fondo y la calidad de la nieve lo hacen rendir muy por encima de su tamaño. La nieve aguanta bien desde principios de diciembre hasta abril. Más allá del esquí, el famoso Carnaval con sus máscaras de madera talladas a mano atrae visitantes de todo el nordeste italiano. Cortina queda a una breve carretera al sur por el Cadore, pero aquí uno se queda con la montaña, el silencio y una fracción de la cuenta.",
+      "pt": "Sappada situa-se a 1.250 m perto da nascente do Piave, numa bacia soalheira onde os Alpes Cárnicos friulanos se encontram com os Dolomitas orientais. A comunidade Plodarisch mantém vivo o seu antigo dialeto germânico e a aldeia parece um postal: casas de toros com fachadas pintadas, varandas de madeira e telhados carregados de neve ao longo das quinze Borgate. A área alpina do Monte Siera é pequena, seis teleféricos e cerca de 25 km de pistas, com 8 azuis, 10 vermelhas e 3 negras até aos 2.050 m, mas a rede de fundo e a qualidade da neve fazem-na render muito acima do seu tamanho. A neve aguenta bem de princípios de dezembro até abril. Para lá do esqui, o famoso Carnaval, com as suas máscaras de madeira esculpidas à mão, atrai visitantes de todo o nordeste italiano. Cortina fica a uma curta estrada a sul pelo Cadore, mas aqui ficamos com a montanha, o silêncio e uma fração da conta.",
+      "it": "Sappada si distende a 1.250 m vicino alle sorgenti del Piave, in una conca soleggiata dove le Alpi Carniche friulane incontrano le Dolomiti orientali. La comunità plodarisch tiene vivo il suo antico dialetto germanico e il paese sembra una cartolina: case in legno con facciate dipinte, balconi di legno e tetti carichi di neve lungo le quindici Borgate. L'area alpina del Monte Siera è piccola, sei impianti e circa 25 km di piste, con 8 blu, 10 rosse e 3 nere fino a 2.050 m, ma la rete di fondo e la qualità della neve la fanno giocare oltre la sua taglia. La copertura tiene bene da inizio dicembre fino ad aprile. Oltre allo sci, il famoso Carnevale con le sue maschere di legno intagliate a mano richiama visitatori da tutto il nord-est. Cortina è a un'ora scarsa a sud per il Cadore, ma qui restano la montagna, il silenzio e una frazione del conto."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 8,
+      "red": 10,
+      "black": 3
+    }
+  },
+  {
+    "slug": "anzere",
+    "name": "Anzere",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.2967,
+    "lng": 7.4067,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2420,
+    "pistesKm": 50,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is realistic in Anzere because the gondola and main lifts sit at the edge of the pedestrian centre. Most hotels are within a few minutes' walk of the base, and some sit directly on the snow line.",
+      "fr": "Le vrai ski aux pieds est réaliste à Anzère, la télécabine et les principales remontées étant à la lisière du centre piéton. La plupart des hôtels sont à quelques minutes à pied de la base et certains donnent directement sur la neige.",
+      "es": "El verdadero ski-in/ski-out es realista en Anzère porque el telecabina y los remontes principales están al borde del centro peatonal. La mayoría de los hoteles quedan a pocos minutos a pie de la base y algunos dan directamente a la nieve.",
+      "pt": "O verdadeiro ski-in/ski-out é realista em Anzère porque o teleférico e os principais teleféricos ficam à beira do centro pedonal. A maioria dos hotéis está a poucos minutos a pé da base e alguns dão diretamente para a neve.",
+      "it": "Il vero ski-in/ski-out è realistico ad Anzère perché la cabinovia e gli impianti principali si trovano ai margini del centro pedonale. La maggior parte degli hotel è a pochi minuti a piedi dalla partenza e alcuni si affacciano direttamente sulla neve."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "sunny",
+      "car-free"
+    ],
+    "intro": {
+      "en": "Anzere sits on a sunny Valais balcony at 1,500 m, a tidy pedestrian village high above Sion with three south-facing peaks at the door. The Rhone valley views are the ones Crans-Montana made famous, only with a fraction of the crowds.",
+      "fr": "Anzère occupe un balcon ensoleillé du Valais à 1 500 m, station piétonne soignée perchée au-dessus de Sion, avec trois sommets plein sud au pas de la porte. La vue sur la vallée du Rhône est celle qui a fait la réputation de Crans-Montana, sans la foule.",
+      "es": "Anzère ocupa un balcón soleado del Valais a 1.500 m, una estación peatonal cuidada por encima de Sion, con tres cumbres orientadas al sur a la salida del hotel. Las vistas al valle del Ródano son las que dieron fama a Crans-Montana, con una fracción del gentío.",
+      "pt": "Anzère ocupa uma varanda soalheira do Valais a 1.500 m, uma estância pedonal cuidada acima de Sion, com três cimos virados a sul à porta. As vistas sobre o vale do Ródano são as que tornaram Crans-Montana famosa, com uma fração da multidão.",
+      "it": "Anzère si distende su un balcone soleggiato del Vallese a 1.500 m, un borgo pedonale ordinato sopra Sion, con tre cime esposte a sud davanti agli hotel. Le vedute sulla valle del Rodano sono quelle che hanno reso celebre Crans-Montana, con una frazione della folla."
+    },
+    "longDescription": {
+      "en": "The resort spreads across a single sunny shelf at 1,500 m, with 50 km of pistes and 13 lifts climbing to 2,420 m on three connected peaks. Most slopes face south, so afternoon light is generous and the snow softens early in spring; the breakdown of 15 blue, 15 red and 5 black pistes keeps things squarely in family and intermediate territory. The pedestrian centre is the heart of the day, with hotels, restaurants and the wellness pool complex within a short walk of the gondola base. Sion is twenty minutes down the switchbacks, which means easy access from Geneva and the option of a valley dinner without a long drive. For Valais character without the price tag of the better-known neighbours, Anzère is one of the quietest finds on this side of the Rhone.",
+      "fr": "La station se déploie sur une seule terrasse ensoleillée à 1 500 m, avec 50 km de pistes et 13 remontées qui montent à 2 420 m sur trois sommets reliés. La plupart des pistes sont orientées plein sud, la lumière d'après-midi est généreuse et la neige se ramollit tôt au printemps ; la répartition de 15 bleues, 15 rouges et 5 noires garde le domaine clairement familial et intermédiaire. Le centre piéton est le cœur de la journée, hôtels, restaurants et complexe wellness à quelques minutes à pied du départ de la télécabine. Sion se trouve à vingt minutes de lacets, l'accès depuis Genève reste simple et un dîner dans la vallée ne demande pas une longue route. Pour le caractère valaisan sans le tarif des voisines plus connues, Anzère reste l'une des stations les plus discrètes de ce versant du Rhône.",
+      "es": "La estación se despliega en una sola terraza soleada a 1.500 m, con 50 km de pistas y 13 remontes que suben a 2.420 m sobre tres cumbres conectadas. La mayoría de las pistas miran al sur, la luz de la tarde es generosa y la nieve se reblandece pronto en primavera; el reparto de 15 azules, 15 rojas y 5 negras mantiene el dominio en terreno familiar e intermedio. El centro peatonal es el corazón del día, con hoteles, restaurantes y el complejo de bienestar a pocos minutos a pie de la base del telecabina. Sion queda a veinte minutos por la carretera de revueltas, lo que facilita el acceso desde Ginebra y permite cenar en el valle sin un trayecto largo. Para encontrar el carácter valesano sin el precio de las vecinas más conocidas, Anzère es una de las elecciones más tranquilas de esta orilla del Ródano.",
+      "pt": "A estância estende-se sobre uma única plataforma soalheira a 1.500 m, com 50 km de pistas e 13 teleféricos que sobem aos 2.420 m em três cimos ligados. A maior parte das pistas está virada a sul, a luz da tarde é generosa e a neve amolece cedo na primavera; a distribuição de 15 azuis, 15 vermelhas e 5 pretas mantém o domínio em terreno familiar e intermédio. O centro pedonal é o coração do dia, com hotéis, restaurantes e o complexo de bem-estar a poucos minutos a pé da base do teleférico. Sion fica a vinte minutos pela estrada em ziguezague, o que facilita o acesso desde Genebra e permite jantar no vale sem grande viagem. Para encontrar o caráter do Valais sem o preço das vizinhas mais conhecidas, Anzère é uma das estâncias mais discretas deste lado do Ródano.",
+      "it": "La località si distribuisce su un'unica terrazza soleggiata a 1.500 m, con 50 km di piste e 13 impianti che salgono a 2.420 m su tre cime collegate. La maggior parte delle piste è esposta a sud, la luce del pomeriggio è generosa e la neve si ammorbidisce presto in primavera; la suddivisione di 15 blu, 15 rosse e 5 nere tiene il comprensorio in territorio chiaramente familiare e intermedio. Il centro pedonale è il cuore della giornata, con hotel, ristoranti e il complesso wellness a pochi minuti a piedi dalla partenza della cabinovia. Sion si trova a venti minuti di tornanti, l'accesso da Ginevra resta semplice e una cena in valle non richiede lunghe trasferte. Per il carattere vallesano senza i prezzi delle vicine più note, Anzère resta una delle scelte più tranquille di questo versante del Rodano."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 15,
+      "black": 5
+    }
+  },
+  {
+    "slug": "leysin",
+    "name": "Leysin",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.3417,
+    "lng": 7.0167,
+    "altitudeBase": 1300,
+    "altitudeSummit": 2200,
+    "pistesKm": 60,
+    "lifts": 18,
+    "skiInSkiOutNote": {
+      "en": "Genuine ski-in/ski-out in Leysin depends on the address: the resort spreads along a long balcony, so a handful of hotels above the village sit directly on the slopes while others are a short shuttle or walk from the lifts.",
+      "fr": "Le vrai ski aux pieds à Leysin dépend de l'adresse : la station s'étire sur un long balcon, quelques hôtels au-dessus du village donnent directement sur les pistes, d'autres sont à une courte navette ou marche des remontées.",
+      "es": "El verdadero ski-in/ski-out en Leysin depende de la dirección: la estación se extiende a lo largo de un balcón alargado, unos pocos hoteles por encima del pueblo dan directamente a las pistas, otros quedan a un corto traslado o paseo de los remontes.",
+      "pt": "O verdadeiro ski-in/ski-out em Leysin depende da morada: a estância estende-se ao longo de uma varanda comprida, alguns hotéis acima da aldeia dão diretamente para as pistas e outros ficam a um curto transfer ou caminhada dos teleféricos.",
+      "it": "Il vero ski-in/ski-out a Leysin dipende dall'indirizzo: la località si allunga su un balcone esteso, alcuni hotel sopra il villaggio si affacciano direttamente sulle piste, altri sono a una breve navetta o passeggiata dagli impianti."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "authentic",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Leysin is a Vaudois village at 1,300 m, strung along a sunny balcony with one of the most photographed panoramas in the Alps: the Dents du Midi and Mont Blanc straight ahead. International schools, mellow tree-lined skiing and the train from Geneva give it a calm, lived-in feel.",
+      "fr": "Leysin est un village vaudois à 1 300 m, étiré sur un balcon ensoleillé avec l'un des panoramas les plus photographiés des Alpes : les Dents du Midi et le Mont Blanc droit devant. Écoles internationales, ski tranquille en forêt et train depuis Genève lui donnent un air paisible et habité.",
+      "es": "Leysin es un pueblo del cantón de Vaud a 1.300 m, tendido sobre un balcón soleado con uno de los panoramas más fotografiados de los Alpes: las Dents du Midi y el Mont Blanc enfrente. Colegios internacionales, esquí tranquilo entre árboles y tren desde Ginebra le dan un aire sereno y habitado.",
+      "pt": "Leysin é uma aldeia vaudoise a 1.300 m, estendida sobre uma varanda soalheira com um dos panoramas mais fotografados dos Alpes: as Dents du Midi e o Mont Blanc em frente. Escolas internacionais, esqui tranquilo entre árvores e comboio desde Genebra dão-lhe um ar sereno e habitado.",
+      "it": "Leysin è un villaggio vodese a 1.300 m, allungato su un balcone soleggiato con uno dei panorami più fotografati delle Alpi: le Dents du Midi e il Monte Bianco proprio di fronte. Scuole internazionali, sci tranquillo tra gli alberi e treno da Ginevra le danno un'atmosfera calma e abitata."
+    },
+    "longDescription": {
+      "en": "The skiing covers 60 km on 18 lifts, climbing from 1,300 m to 2,200 m on the slopes opposite the village, with 20 blue, 12 red and 5 black pistes that read as classic family and intermediate territory. The Tour d'Ai dominates the skyline above the resort, and the rotating Berneuse restaurant at 2,048 m turns a full circle through the Mont Blanc and Lake Geneva view roughly every hour and a half. Down in the village, international boarding schools have shaped a quietly cosmopolitan high street of cafes, sports shops and chalet hotels stretched along the south-facing terrace. The cog railway from Aigle, on the main Geneva line, means you can step off a long-haul flight and be on the balcony in around two hours with no rental car. Snow comes in reliably from December, the tree-lined runs hold their shape in poor visibility, and the Dents du Midi backdrop is genuinely as good as the brochure suggests.",
+      "fr": "Le ski couvre 60 km sur 18 remontées, montant de 1 300 m à 2 200 m sur le versant opposé au village, avec 20 bleues, 12 rouges et 5 noires, un terrain résolument familial et intermédiaire. La Tour d'Ai domine l'horizon de la station, et le restaurant tournant de la Berneuse à 2 048 m fait un tour complet sur le Mont Blanc et le Léman environ toutes les heures et demie. Au village, les écoles internationales ont façonné une rue principale discrètement cosmopolite, cafés, magasins de sport et hôtels-chalets alignés le long de la terrasse plein sud. Le train à crémaillère depuis Aigle, sur la ligne principale de Genève, permet de descendre d'un long-courrier et de rejoindre le balcon en environ deux heures sans voiture de location. La neige arrive régulièrement dès décembre, les pistes en forêt tiennent bien par mauvaise visibilité, et le décor des Dents du Midi tient toutes ses promesses.",
+      "es": "El esquí cubre 60 km en 18 remontes, subiendo de 1.300 m a 2.200 m en la vertiente opuesta al pueblo, con 20 azules, 12 rojas y 5 negras, un terreno claramente familiar e intermedio. La Tour d'Ai domina el horizonte de la estación, y el restaurante giratorio de la Berneuse, a 2.048 m, completa un giro sobre el Mont Blanc y el lago Léman cada hora y media aproximadamente. En el pueblo, los colegios internacionales han ido moldeando una calle principal discretamente cosmopolita, con cafés, tiendas de deporte y hoteles-chalet alineados a lo largo de la terraza orientada al sur. El cremallera desde Aigle, en la línea principal de Ginebra, permite bajar de un vuelo intercontinental y plantarse en el balcón en unas dos horas sin coche de alquiler. La nieve llega con regularidad desde diciembre, las pistas entre árboles aguantan bien con mala visibilidad y el decorado de las Dents du Midi cumple lo que promete el folleto.",
+      "pt": "O esqui cobre 60 km em 18 teleféricos, subindo de 1.300 m a 2.200 m na encosta oposta à aldeia, com 20 azuis, 12 vermelhas e 5 pretas, um terreno claramente familiar e intermédio. A Tour d'Ai domina o horizonte da estância e o restaurante rotativo da Berneuse, a 2.048 m, completa um giro sobre o Mont Blanc e o lago Lemano cerca de uma vez por hora e meia. Na aldeia, as escolas internacionais foram moldando uma rua principal discretamente cosmopolita, com cafés, lojas de desporto e hotéis-chalé alinhados ao longo da varanda virada a sul. O comboio de cremalheira desde Aigle, na linha principal de Genebra, permite descer de um voo de longo curso e chegar à varanda em cerca de duas horas sem carro alugado. A neve chega com regularidade desde dezembro, as pistas no meio das árvores aguentam bem em má visibilidade e o cenário das Dents du Midi cumpre o que o folheto promete.",
+      "it": "Lo sci copre 60 km su 18 impianti, salendo da 1.300 m a 2.200 m sul versante opposto al borgo, con 20 blu, 12 rosse e 5 nere, un terreno chiaramente familiare e intermedio. La Tour d'Ai domina il profilo della località e il ristorante girevole della Berneuse, a 2.048 m, compie un giro completo sul Monte Bianco e sul lago Lemano circa ogni ora e mezza. In paese, le scuole internazionali hanno modellato una via principale discretamente cosmopolita, con caffè, negozi sportivi e hotel-chalet allineati sulla terrazza esposta a sud. Il treno a cremagliera da Aigle, sulla linea principale di Ginevra, consente di scendere da un volo intercontinentale e raggiungere il balcone in circa due ore senza auto a noleggio. La neve arriva con regolarità da dicembre, le piste in mezzo agli alberi reggono bene con scarsa visibilità e lo sfondo delle Dents du Midi mantiene davvero le promesse del depliant."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 20,
+      "red": 12,
+      "black": 5
+    }
+  },
+  {
+    "slug": "damuls",
+    "name": "Damuls",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.2861,
+    "lng": 9.8989,
+    "altitudeBase": 1430,
+    "altitudeSummit": 2050,
+    "pistesKm": 110,
+    "lifts": 29,
+    "skiInSkiOutNote": {
+      "en": "Damuls is genuinely close-to-snow: most hotels in the upper village sit a minute or two from a lift base, and several open directly onto a piste. Anything described as ski-in/ski-out here usually is.",
+      "fr": "Damüls est vraiment au pied des pistes : la plupart des hôtels du haut du village sont à une ou deux minutes d'une remontée, plusieurs donnent directement sur une piste. Ce qui est annoncé comme ski aux pieds ici l'est en général vraiment.",
+      "es": "Damüls está realmente al pie de las pistas: la mayoría de los hoteles de la parte alta del pueblo se encuentran a uno o dos minutos de un remonte, y varios dan directamente a una pista. Lo que aquí se anuncia como ski-in/ski-out suele serlo de verdad.",
+      "pt": "Damüls está mesmo ao pé das pistas: a maioria dos hotéis na parte alta da aldeia fica a um ou dois minutos de um teleférico e vários dão diretamente para uma pista. O que aqui é anunciado como ski-in/ski-out costuma sê-lo de facto.",
+      "it": "Damüls è davvero a ridosso della neve: la maggior parte degli hotel nella parte alta del paese si trova a uno o due minuti da una partenza degli impianti e diversi si affacciano direttamente su una pista. Ciò che qui viene descritto come ski-in/ski-out di solito lo è davvero."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 14",
+    "snowScore": 92,
+    "vibes": [
+      "snow-sure",
+      "family",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Damuls sits at 1,430 m high in the Bregenzerwald in Vorarlberg, often advertised as the snowiest village in the world with around 9 m of average annual snowfall. Linked with Mellau for 110 km of mostly open, above-the-tree-line piste, it stays family by day and quietly serious for freeride by morning.",
+      "fr": "Damüls se trouve à 1 430 m, perché dans le Bregenzerwald du Vorarlberg, souvent présenté comme le village le plus enneigé du monde avec environ 9 m de chutes de neige annuelles. Relié à Mellau pour 110 km de pistes en majorité au-dessus de la limite des arbres, il reste familial le jour et discrètement sérieux pour le freeride au petit matin.",
+      "es": "Damüls se sitúa a 1.430 m, en lo alto del Bregenzerwald de Vorarlberg, y se anuncia a menudo como el pueblo más nevado del mundo, con unos 9 m de nevadas medias anuales. Conectado con Mellau para 110 km de pistas en su mayoría por encima del límite del bosque, mantiene un perfil familiar de día y un freeride discretamente serio a primera hora.",
+      "pt": "Damüls fica a 1.430 m, no alto do Bregenzerwald em Vorarlberg, e é frequentemente anunciada como a aldeia mais nevada do mundo, com cerca de 9 m de queda de neve média anual. Ligada a Mellau num domínio de 110 km de pistas, na maioria acima do limite da floresta, mantém um perfil familiar de dia e um freeride discretamente sério ao primeiro impulso.",
+      "it": "Damüls si trova a 1.430 m, in alta quota nel Bregenzerwald del Vorarlberg, spesso presentato come il villaggio più nevoso al mondo con circa 9 m di precipitazioni nevose medie all'anno. Collegato a Mellau in un comprensorio di 110 km di piste in gran parte oltre il limite del bosco, resta familiare di giorno e seriamente interessante per il fuori pista al primo mattino."
+    },
+    "longDescription": {
+      "en": "The Damuls-Mellau area runs 110 km of piste on 29 lifts between 1,430 m and 2,050 m, with 35 blue, 30 red and 15 black runs, a mix that explains the freeride reputation as much as the family one. Above the tree line, large open faces hold powder for days after a dump, and the local lift map turns into a freeride playground once the patrol opens the ridges. The village itself is small, traditional and discreet, a working Bregenzerwald community of timber farmhouses and a handful of family-run hotels rather than a packaged ski resort. Snowfall genuinely arrives in mid-November most years, and the season can run with cover well into April thanks to north-east exposure. Linkage with Mellau is by lift, not by road, and the combined Bregenzerwald pass adds value if a longer stay calls for a day in the wider Vorarlberg domain. For deep snow without crowds, this is one of the best-kept secrets in Austria.",
+      "fr": "Le domaine Damüls-Mellau aligne 110 km de pistes sur 29 remontées entre 1 430 m et 2 050 m, avec 35 bleues, 30 rouges et 15 noires, un mélange qui explique autant la réputation freeride que l'offre familiale. Au-dessus de la forêt, de larges pentes ouvertes conservent la poudre plusieurs jours après une chute, et la carte des remontées se transforme en terrain de jeu freeride dès que les patrouilleurs ouvrent les crêtes. Le village reste petit, traditionnel et discret, une communauté du Bregenzerwald en fermes de bois et quelques hôtels familiaux plutôt qu'une station packagée. La neige arrive vraiment mi-novembre la plupart des années, et la saison tient avec une bonne couverture jusqu'en avril grâce à l'exposition nord-est. La liaison avec Mellau se fait par les remontées, pas par la route, et le forfait combiné Bregenzerwald devient intéressant pour un séjour qui inclut une journée sur le domaine élargi du Vorarlberg. Pour de la neige profonde sans foule, c'est l'un des secrets les mieux gardés d'Autriche.",
+      "es": "El dominio Damüls-Mellau alinea 110 km de pistas sobre 29 remontes entre 1.430 m y 2.050 m, con 35 azules, 30 rojas y 15 negras, una mezcla que explica tanto la fama freeride como la oferta familiar. Por encima del bosque, amplias laderas abiertas conservan la nieve polvo varios días después de una nevada, y el plano de remontes se convierte en un terreno de juego freeride en cuanto los pisters abren las crestas. El pueblo sigue siendo pequeño, tradicional y discreto, una comunidad del Bregenzerwald de granjas de madera y unos cuantos hoteles familiares más que una estación empaquetada. La nieve llega de verdad a mediados de noviembre la mayoría de los años, y la temporada aguanta con buen manto hasta abril gracias a la exposición noreste. La unión con Mellau se hace por remontes, no por carretera, y el forfait combinado del Bregenzerwald aporta valor para una estancia que incluya un día en el dominio ampliado de Vorarlberg. Para nieve profunda sin gentío, es uno de los secretos mejor guardados de Austria.",
+      "pt": "O domínio Damüls-Mellau apresenta 110 km de pistas em 29 teleféricos entre 1.430 m e 2.050 m, com 35 azuis, 30 vermelhas e 15 pretas, uma mistura que explica tanto a fama de freeride como a oferta familiar. Acima da floresta, encostas amplas e abertas guardam o pó vários dias depois de uma queda e o mapa dos teleféricos transforma-se num parque de freeride assim que os patrulheiros abrem as cumeadas. A aldeia continua pequena, tradicional e discreta, uma comunidade do Bregenzerwald feita de quintas de madeira e meia dúzia de hotéis familiares, em vez de uma estância embalada. A neve chega mesmo em meados de novembro na maioria dos anos e a temporada aguenta com bom manto até abril graças à exposição nordeste. A ligação a Mellau faz-se pelos teleféricos, não pela estrada, e o forfait combinado do Bregenzerwald acrescenta valor para uma estadia que inclua um dia no domínio alargado de Vorarlberg. Para neve profunda sem multidão, este é um dos segredos mais bem guardados da Áustria.",
+      "it": "Il comprensorio Damüls-Mellau allinea 110 km di piste su 29 impianti tra 1.430 m e 2.050 m, con 35 blu, 30 rosse e 15 nere, un mix che spiega tanto la fama da fuori pista quanto l'offerta per famiglie. Oltre il limite del bosco, ampi pendii aperti conservano la polvere per giorni dopo una nevicata e la mappa degli impianti diventa un parco giochi per il fuori pista non appena i pattugliatori aprono le creste. Il villaggio resta piccolo, tradizionale e discreto, una comunità del Bregenzerwald fatta di fattorie in legno e una manciata di hotel a gestione familiare, più che una località confezionata. La neve arriva davvero a metà novembre nella maggior parte degli anni e la stagione regge con buon manto fino ad aprile grazie all'esposizione nord-est. Il collegamento con Mellau avviene per impianti, non su strada, e lo skipass combinato del Bregenzerwald aggiunge valore quando il soggiorno prevede una giornata sul comprensorio allargato del Vorarlberg. Per neve profonda senza folla, questo è uno dei segreti meglio custoditi d'Austria."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 30,
+      "black": 15
+    }
+  },
+  {
+    "slug": "maria-alm",
+    "name": "Maria Alm",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.4044,
+    "lng": 12.9011,
+    "altitudeBase": 800,
+    "altitudeSummit": 2000,
+    "pistesKm": 120,
+    "lifts": 34,
+    "skiInSkiOutNote": {
+      "en": "Maria Alm itself sits below the main lift base, so true ski-in/ski-out is limited to a handful of properties at the gondola; village hotels are typically a short shuttle or walk to the lifts, with valley returns in good seasons.",
+      "fr": "Maria Alm est en contrebas du départ principal des remontées, le vrai ski aux pieds se limite à quelques hôtels près de la télécabine ; les hôtels du village sont en général à une courte navette ou marche des remontées, avec un retour skis aux pieds dans la vallée les bonnes saisons.",
+      "es": "Maria Alm queda por debajo de la base principal de remontes, por lo que el ski-in/ski-out real se limita a unos pocos alojamientos junto al telecabina; los hoteles del pueblo suelen estar a un corto traslado o paseo de los remontes, con retorno esquiando al valle en buenas temporadas.",
+      "pt": "Maria Alm está abaixo da base principal dos teleféricos, pelo que o ski-in/ski-out verdadeiro se limita a um punhado de alojamentos junto ao teleférico; os hotéis da aldeia costumam ficar a um curto transfer ou caminhada dos teleféricos, com regresso a esquiar até ao vale nas boas temporadas.",
+      "it": "Maria Alm si trova al di sotto della partenza principale degli impianti, quindi il vero ski-in/ski-out è limitato a una manciata di strutture vicine alla cabinovia; gli hotel in paese sono di solito a una breve navetta o passeggiata dagli impianti, con rientro sci ai piedi a fondovalle nelle stagioni buone."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "family",
+      "authentic",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Maria Alm is a picture-book Salzburger Land village at 800 m at the foot of the Hochkonig massif, with an onion-domed church and one of the prettiest squares in the Alps. The lifts climb into the 120 km Hochkonig area and the Ski Amade pass opens the door to the rest.",
+      "fr": "Maria Alm est un village de carte postale du Salzburger Land à 800 m, au pied du massif du Hochkönig, avec son église à bulbe et l'une des plus jolies places des Alpes. Les remontées montent dans le domaine du Hochkönig de 120 km, et le forfait Ski Amadé ouvre la porte au reste.",
+      "es": "Maria Alm es un pueblo de postal del Salzburger Land a 800 m, al pie del macizo del Hochkönig, con su iglesia de cúpula bulbosa y una de las plazas más bonitas de los Alpes. Los remontes suben al dominio del Hochkönig de 120 km y el forfait Ski Amadé abre la puerta al resto.",
+      "pt": "Maria Alm é uma aldeia de postal do Salzburger Land a 800 m, ao pé do maciço do Hochkönig, com a sua igreja de cúpula bulbosa e uma das praças mais bonitas dos Alpes. Os teleféricos sobem para o domínio do Hochkönig de 120 km e o forfait Ski Amadé abre a porta ao resto.",
+      "it": "Maria Alm è un villaggio da cartolina del Salzburger Land a 800 m, ai piedi del massiccio dell'Hochkönig, con la sua chiesa a cipolla e una delle piazze più belle delle Alpi. Gli impianti salgono nel comprensorio dell'Hochkönig di 120 km e lo skipass Ski Amadé apre la porta al resto."
+    },
+    "longDescription": {
+      "en": "The Hochkonig sector serves 120 km of piste on 34 lifts between 800 m and 2,000 m, with 35 blue, 30 red and 8 black runs that favour wide, sunny, intermediate cruising over steep technicality. The lower base altitude is honestly managed by a strong snow-making backbone, and the high cabin-lifts up to the linking ridges keep the wider area connected even when the village snowline rises. Down at 800 m, traditional Gasthof culture is alive: timber balconies, hot Brettljause boards at lunch, brass bands during festival weeks, and the famous onion-domed parish church anchoring the square. The Ski Amade combined pass adds Schladming, Saalbach-side neighbours and other big Salzburger names within a single forfait, which makes Maria Alm a smart base for a long week of variety. For families and intermediates who want Austrian village character rather than a high-altitude bowl, the balance here is hard to beat.",
+      "fr": "Le secteur du Hochkönig propose 120 km de pistes sur 34 remontées entre 800 m et 2 000 m, avec 35 bleues, 30 rouges et 8 noires qui favorisent un ski large, ensoleillé et intermédiaire plutôt que la pure technique. L'altitude de base relativement basse est gérée par un solide réseau de neige de culture, et les télécabines vers les crêtes de liaison maintiennent le domaine connecté même quand la limite pluie-neige remonte. À 800 m, la culture du Gasthof est bien vivante : balcons de bois, planches de Brettljause à midi, fanfares pendant les semaines de fête, et la fameuse église à bulbe qui ancre la place. Le forfait combiné Ski Amadé ajoute Schladming, les voisins côté Saalbach et d'autres grands noms du Salzburger Land sur un seul titre, ce qui fait de Maria Alm une base maline pour une semaine de variété. Pour les familles et les skieurs intermédiaires qui veulent du caractère de village autrichien plutôt qu'une cuvette d'altitude, l'équilibre est difficile à battre.",
+      "es": "El sector del Hochkönig ofrece 120 km de pistas en 34 remontes entre 800 m y 2.000 m, con 35 azules, 30 rojas y 8 negras que favorecen un esquí amplio, soleado e intermedio antes que la dificultad técnica. La altitud de base relativamente baja se compensa con una sólida red de innivación, y los telecabinas hacia las crestas de unión mantienen el dominio conectado incluso cuando la cota de nieve sube. Abajo, a 800 m, la cultura del Gasthof sigue muy viva: balcones de madera, tablas de Brettljause al mediodía, bandas de viento en las semanas de fiesta y la famosa iglesia de cúpula bulbosa anclando la plaza. El forfait combinado Ski Amadé añade Schladming, los vecinos del lado de Saalbach y otros grandes nombres del Salzburger Land en un solo titulo, lo que convierte a Maria Alm en una base inteligente para una semana variada. Para familias y esquiadores intermedios que buscan carácter de pueblo austriaco más que un circo de altitud, el equilibrio aquí es difícil de igualar.",
+      "pt": "O setor do Hochkönig oferece 120 km de pistas em 34 teleféricos entre 800 m e 2.000 m, com 35 azuis, 30 vermelhas e 8 pretas que privilegiam um esqui largo, soalheiro e intermédio em vez da dificuldade técnica. A altitude de base relativamente baixa é compensada por uma sólida rede de neve artificial e os teleféricos até às cumeadas de ligação mantêm o domínio conectado mesmo quando a cota de neve sobe. Em baixo, a 800 m, a cultura do Gasthof continua bem viva: varandas de madeira, tábuas de Brettljause ao almoço, bandas de sopros nas semanas de festa e a famosa igreja de cúpula bulbosa a ancorar a praça. O forfait combinado Ski Amadé acrescenta Schladming, os vizinhos do lado de Saalbach e outros grandes nomes do Salzburger Land num só titulo, o que faz de Maria Alm uma base inteligente para uma semana variada. Para famílias e esquiadores intermédios que procuram caráter de aldeia austríaca em vez de um circo de altitude, o equilíbrio aqui é difícil de bater.",
+      "it": "Il settore dell'Hochkönig serve 120 km di piste su 34 impianti tra 800 m e 2.000 m, con 35 blu, 30 rosse e 8 nere che privilegiano uno sci ampio, soleggiato e intermedio rispetto alla pura tecnicità. La quota di partenza piuttosto bassa è compensata da una solida rete di innevamento programmato e le cabinovie verso le creste di collegamento tengono il comprensorio connesso anche quando la quota neve sale. In basso, a 800 m, la cultura del Gasthof è viva: balconi in legno, taglieri di Brettljause a pranzo, bande di ottoni nelle settimane di festa e la celebre chiesa a cipolla che ancora la piazza. Lo skipass combinato Ski Amadé aggiunge Schladming, i vicini sul versante di Saalbach e altri grandi nomi del Salzburger Land in un solo titolo, e questo fa di Maria Alm una base intelligente per una settimana di varietà. Per famiglie e sciatori intermedi che cercano carattere di borgo austriaco invece di un catino d'alta quota, l'equilibrio qui è difficile da battere."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 35,
+      "red": 30,
+      "black": 8
+    }
+  },
+  {
+    "slug": "lermoos",
+    "name": "Lermoos",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.4083,
+    "lng": 10.8806,
+    "altitudeBase": 1004,
+    "altitudeSummit": 2200,
+    "pistesKm": 35,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Genuine ski-in/ski-out in Lermoos is limited because the village sits down on the valley floor while the Grubigstein lifts climb the opposite slope; most hotels rely on a short ski-bus or walk to the gondola base.",
+      "fr": "Le vrai ski aux pieds à Lermoos reste limité, le village étant dans la plaine alors que les remontées du Grubigstein montent sur le versant opposé ; la plupart des hôtels comptent sur une courte navette ou marche jusqu'au départ de la télécabine.",
+      "es": "El ski-in/ski-out real en Lermoos es limitado, ya que el pueblo se asienta en la llanura mientras los remontes del Grubigstein suben por la ladera opuesta; la mayoría de los hoteles depende de un corto skibús o paseo hasta la base del telecabina.",
+      "pt": "O ski-in/ski-out genuíno em Lermoos é limitado, pois a aldeia assenta no fundo do vale enquanto os teleféricos do Grubigstein sobem a encosta oposta; a maioria dos hotéis depende de um curto autocarro de esqui ou caminhada até à base do teleférico.",
+      "it": "Il vero ski-in/ski-out a Lermoos è limitato, perché il paese si trova sul fondovalle mentre gli impianti del Grubigstein salgono sul versante opposto; la maggior parte degli hotel si affida a una breve navetta o passeggiata fino alla partenza della cabinovia."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "panoramic",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Lermoos sits at 1,004 m in the Tirol's Zugspitz Arena, with the Grubigstein lift system rising opposite the unmistakable north face of the Zugspitze. The postcard view across the plain to Germany's highest peak is the reason most skiers come back.",
+      "fr": "Lermoos se trouve à 1 004 m dans la Zugspitz Arena, au Tirol, avec le domaine du Grubigstein qui monte face à l'imposante face nord de la Zugspitze. La vue carte postale à travers la plaine vers le plus haut sommet d'Allemagne est la raison pour laquelle la plupart des skieurs reviennent.",
+      "es": "Lermoos se sitúa a 1.004 m en la Zugspitz Arena, en el Tirol, con el dominio del Grubigstein subiendo frente a la inconfundible cara norte de la Zugspitze. La vista de postal a través de la llanura hacia la cumbre más alta de Alemania es la razón por la que la mayoría de los esquiadores vuelven.",
+      "pt": "Lermoos fica a 1.004 m na Zugspitz Arena, no Tirol, com o domínio do Grubigstein a subir em frente à inconfundível face norte da Zugspitze. A vista de postal através da planície até ao cume mais alto da Alemanha é a razão por que a maioria dos esquiadores volta.",
+      "it": "Lermoos si trova a 1.004 m nella Zugspitz Arena del Tirolo, con il comprensorio del Grubigstein che sale di fronte all'inconfondibile parete nord della Zugspitze. La vista da cartolina attraverso la pianura fino alla vetta più alta della Germania è la ragione per cui la maggior parte degli sciatori torna."
+    },
+    "longDescription": {
+      "en": "The Grubigstein serves 35 km of piste on 12 lifts between 1,004 m and 2,200 m, with 12 blue, 10 red and 5 black runs, a tidy, family-friendly mountain rather than a giant interconnect. The Zugspitz Arena lift pass groups it with Ehrwald, Berwang and Biberwier so a week never feels short of options, and the wider Tirol Snow Card opens further valleys if a longer stay calls for it. The view is what makes Lermoos genuinely memorable, the whole north face of the Zugspitze framing every chairlift ride and every photo from the village. The village itself is Tirolean and authentic, painted facades, traditional Gasthofe and the church spire at the centre, with the train station on the Munich line a short walk from many hotels. Compared to nearby Garmisch on the German side, the buzz is lower and the queues are shorter, which is part of the appeal for skiers chasing the panorama without the crowds.",
+      "fr": "Le Grubigstein dessert 35 km de pistes sur 12 remontées entre 1 004 m et 2 200 m, avec 12 bleues, 10 rouges et 5 noires, une montagne soignée et familiale plus qu'un grand domaine relié. Le forfait Zugspitz Arena le regroupe avec Ehrwald, Berwang et Biberwier, une semaine ne manque jamais d'options, et la Tirol Snow Card élargit le terrain si un séjour plus long s'impose. C'est la vue qui rend Lermoos vraiment mémorable, toute la face nord de la Zugspitze cadrant chaque montée en télésiège et chaque photo du village. Le village reste tyrolien et authentique, façades peintes, Gasthöfe traditionnels et clocher au centre, avec la gare sur la ligne de Munich à quelques minutes à pied de nombreux hôtels. Comparé à Garmisch côté allemand, l'animation est plus calme et les files plus courtes, ce qui fait partie du charme pour qui cherche le panorama sans la foule.",
+      "es": "El Grubigstein da servicio a 35 km de pistas en 12 remontes entre 1.004 m y 2.200 m, con 12 azules, 10 rojas y 5 negras, una montaña cuidada y familiar más que un gran dominio enlazado. El forfait de la Zugspitz Arena lo agrupa con Ehrwald, Berwang y Biberwier, una semana nunca se queda sin opciones, y la Tirol Snow Card amplía el terreno si una estancia más larga lo pide. Es la vista lo que hace a Lermoos verdaderamente memorable, toda la cara norte de la Zugspitze enmarca cada subida en telesilla y cada foto del pueblo. El pueblo conserva un aire tirolés y auténtico, fachadas pintadas, Gasthöfe tradicionales y el campanario en el centro, con la estación de tren en la línea de Múnich a pocos minutos a pie de muchos hoteles. Comparado con la vecina Garmisch del lado alemán, el bullicio es menor y las colas más cortas, parte del atractivo para quien busca el panorama sin la multitud.",
+      "pt": "O Grubigstein serve 35 km de pistas em 12 teleféricos entre 1.004 m e 2.200 m, com 12 azuis, 10 vermelhas e 5 pretas, uma montanha cuidada e familiar em vez de um grande domínio interligado. O forfait da Zugspitz Arena agrupa-o com Ehrwald, Berwang e Biberwier, uma semana nunca fica sem opções, e o Tirol Snow Card alarga o terreno quando uma estadia mais longa o pede. É a vista que torna Lermoos verdadeiramente memorável, com toda a face norte da Zugspitze a emoldurar cada subida em telecadeira e cada fotografia da aldeia. A aldeia mantém um ar tirolês e autêntico, fachadas pintadas, Gasthöfe tradicionais e o campanário no centro, com a estação de comboios na linha de Munique a poucos minutos a pé de muitos hotéis. Comparado com a vizinha Garmisch, do lado alemão, o ambiente é mais calmo e as filas mais curtas, parte do encanto para quem procura o panorama sem a multidão.",
+      "it": "Il Grubigstein serve 35 km di piste su 12 impianti tra 1.004 m e 2.200 m, con 12 blu, 10 rosse e 5 nere, una montagna curata e familiare più che un grande comprensorio collegato. Lo skipass della Zugspitz Arena lo unisce a Ehrwald, Berwang e Biberwier, e una settimana non resta mai senza opzioni, mentre la Tirol Snow Card amplia il terreno quando un soggiorno più lungo lo richiede. È la vista a rendere Lermoos davvero memorabile, con tutta la parete nord della Zugspitze che incornicia ogni risalita in seggiovia e ogni fotografia del paese. Il villaggio mantiene un'aria tirolese e autentica, facciate dipinte, Gasthöfe tradizionali e il campanile al centro, con la stazione ferroviaria sulla linea di Monaco a pochi minuti a piedi da molti hotel. Rispetto alla vicina Garmisch, sul versante tedesco, l'atmosfera è più tranquilla e le code più corte, parte del fascino per chi cerca il panorama senza la folla."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 12,
+      "red": 10,
+      "black": 5
+    }
   }
 ]

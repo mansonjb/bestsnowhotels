@@ -29,11 +29,11 @@ export async function generateMetadata({
     it: 'BestSnowHotels: hotel ski-in/ski-out sulle Alpi e sui Pirenei',
   }
   const descriptions: Record<Locale, string> = {
-    en: 'Find ski-in/ski-out hotels across 166 resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real snow data, best prices.',
-    fr: 'Trouvez des hôtels ski-in/ski-out dans 166 stations en France, en Suisse, en Autriche, en Italie, en Espagne et en Andorre. Altitudes réelles, données d\'enneigement, meilleurs prix.',
-    es: 'Encuentra hoteles ski-in/ski-out en 166 estaciones de Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales, datos de nieve, los mejores precios.',
-    pt: 'Encontre hotéis ski-in/ski-out em 166 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha e em Andorra. Altitudes reais, dados de neve, os melhores preços.',
-    it: 'Trova hotel ski-in/ski-out in 166 località tra Francia, Svizzera, Austria, Italia, Spagna e Andorra. Quote reali, dati neve veri, prezzi migliori.',
+    en: 'Find ski-in/ski-out hotels across 180 resorts in France, Switzerland, Austria, Italy, Spain and Andorra. Real altitudes, real snow data, best prices.',
+    fr: 'Trouvez des hôtels ski-in/ski-out dans 180 stations en France, en Suisse, en Autriche, en Italie, en Espagne et en Andorre. Altitudes réelles, données d\'enneigement, meilleurs prix.',
+    es: 'Encuentra hoteles ski-in/ski-out en 180 estaciones de Francia, Suiza, Austria, Italia, España y Andorra. Altitudes reales, datos de nieve, los mejores precios.',
+    pt: 'Encontre hotéis ski-in/ski-out em 180 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha e em Andorra. Altitudes reais, dados de neve, os melhores preços.',
+    it: 'Trova hotel ski-in/ski-out in 180 località tra Francia, Svizzera, Austria, Italia, Spagna e Andorra. Quote reali, dati neve veri, prezzi migliori.',
   }
   const l = hasLocale(locale) ? locale : 'en'
 
