@@ -11,11 +11,11 @@
   "hero": {
     "badge": "Hotel ski-in/ski-out sulle Alpi e sui Pirenei",
     "title": "I migliori hotel di neve, dove gli impianti partono dalla porta",
-    "subtitle": "180 località scelte una per una tra Francia, Svizzera, Austria, Italia, Spagna e Andorra. Quote vere, ski-in/ski-out sul serio, miglior prezzo tra Booking, Expedia e Hotels.com.",
+    "subtitle": "207 località scelte una per una tra Francia, Svizzera, Austria, Italia, Spagna, Andorra e Germania. Quote vere, ski-in/ski-out sul serio, miglior prezzo tra Booking, Expedia e Hotels.com.",
     "cta": "Vedi le destinazioni",
-    "stat1Value": "180",
+    "stat1Value": "207",
     "stat1Label": "Destinazioni sci",
-    "stat2Value": "6",
+    "stat2Value": "7",
     "stat2Label": "Paesi",
     "stat3Value": "100 %",
     "stat3Label": "Gratis"
@@ -68,7 +68,7 @@
     "pistesKm": "Piste",
     "lifts": "Impianti",
     "pisteTitle": "Piste e impianti",
-    "pisteNote": "Il numero di piste e i chilometri sono indicativi. Le piste verdi esistono solo in Francia, Spagna e Andorra; Italia, Austria e Svizzera partono dal blu.",
+    "pisteNote": "Il numero di piste e i chilometri sono indicativi. Le piste verdi esistono solo in Francia, Spagna, Andorra e Germania; Italia, Austria, Svizzera e Germania partono dal blu.",
     "runs": "piste segnalate",
     "glacierSkiing": "Sci sul ghiacciaio",
     "pisteGreen": "Verdi",
@@ -102,7 +102,7 @@
   },
   "best": {
     "title": "Le migliori località sciistiche d'Europa",
-    "subtitle": "Selezioni delle località più innevate, più grandi, più chic e con il miglior rapporto qualità-prezzo del nostro database, tutte scelte sui dati reali delle 180 destinazioni.",
+    "subtitle": "Selezioni delle località più innevate, più grandi, più chic e con il miglior rapporto qualità-prezzo del nostro database, tutte scelte sui dati reali delle 207 destinazioni.",
     "howRanked": "Come abbiamo scelto",
     "exploreList": "Scopri la selezione"
   },
@@ -119,7 +119,7 @@
   },
   "weather": {
     "title": "Bollettino neve in tempo reale di Alpi e Pirenei",
-    "subtitle": "Altezza neve, temperature e previsioni a 7 giorni per le 180 località del nostro database, aggiornate ogni 30 minuti.",
+    "subtitle": "Altezza neve, temperature e previsioni a 7 giorni per le 207 località del nostro database, aggiornate ogni 30 minuti.",
     "pageTitleResort": "Bollettino neve",
     "asOf": "Aggiornato",
     "livePill": "Live",
@@ -171,7 +171,7 @@
     "byCountrySubtitle": "Scegli il tuo massiccio.",
     "howTitle": "Come funziona BestSnowHotels",
     "stepLabel": "PASSO",
-    "howStep1Title": "Scopri 180 località",
+    "howStep1Title": "Scopri 207 località",
     "howStep1Text": "Ogni pagina mostra quote reali, chilometri di piste e una nota ski-in/ski-out trasparente. Niente fumo.",
     "howStep2Title": "Vedi gli hotel sulla mappa",
     "howStep2Text": "Le mappe Stay22 mostrano in tempo reale hotel e appartamenti attorno agli impianti, con i prezzi in diretta dei principali operatori.",

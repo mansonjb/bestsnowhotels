@@ -98,6 +98,19 @@ export const COUNTRIES: Country[] = [
       it: 'Un paese minuscolo che gioca molto sopra la sua taglia: Grandvalira è il comprensorio più grande dei Pirenei, e i prezzi duty-free permettono di equipaggiare tutta la famiglia rientrando dentro il budget. Il posto più facile d\'Europa per imparare.',
     },
   },
+  {
+    slug: 'germany',
+    name: 'Germany',
+    countryCode: 'DE',
+    flag: '🇩🇪',
+    intro: {
+      en: 'Germany packs all its serious skiing into the Bavarian Alps along the Austrian border: Garmisch-Partenkirchen under the Zugspitze, Oberstdorf in the Allgäu, Berchtesgaden over the Königssee. Smaller piste maps than the Tarentaise, but proper alpine terrain, World Cup pedigree and the most beautiful fresco-painted villages in the range.',
+      fr: 'L\'Allemagne concentre tout son ski sérieux dans les Alpes bavaroises, le long de la frontière autrichienne : Garmisch-Partenkirchen sous la Zugspitze, Oberstdorf dans l\'Allgäu, Berchtesgaden au-dessus du Königssee. Plans de pistes plus modestes qu\'en Tarentaise, mais du vrai terrain alpin, un palmarès de Coupe du Monde et les plus beaux villages à fresques du massif.',
+      es: 'Alemania concentra todo su esquí serio en los Alpes bávaros, a lo largo de la frontera austriaca: Garmisch-Partenkirchen bajo la Zugspitze, Oberstdorf en el Allgäu, Berchtesgaden sobre el Königssee. Mapas de pistas más modestos que los de la Tarentaise, pero terreno alpino de verdad, palmarés de Copa del Mundo y los pueblos pintados con frescos más bellos de la cordillera.',
+      pt: 'A Alemanha concentra todo o seu esqui a sério nos Alpes Bávaros, ao longo da fronteira austríaca: Garmisch-Partenkirchen sob a Zugspitze, Oberstdorf no Allgäu, Berchtesgaden sobre o Königssee. Mapas de pistas mais modestos do que os da Tarentaise, mas terreno alpino a sério, um palmarés de Taça do Mundo e as aldeias pintadas a fresco mais bonitas da cordilheira.',
+      it: 'La Germania concentra tutto lo sci serio nelle Alpi bavaresi, lungo il confine austriaco: Garmisch-Partenkirchen sotto la Zugspitze, Oberstdorf nell\'Allgäu, Berchtesgaden sopra il Königssee. Mappe piste più modeste di quelle della Tarentaise, ma terreno alpino vero, un palmarès di Coppa del Mondo e i borghi affrescati più belli della catena.',
+    },
+  },
 ]
 
 export function getCountry(slug: string): Country | undefined {

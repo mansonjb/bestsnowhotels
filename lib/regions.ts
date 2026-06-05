@@ -55,6 +55,13 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Pirenéus andorranos',
     it: 'Pirenei andorrani',
   },
+  'Bavarian Alps': {
+    en: 'Bavarian Alps',
+    fr: 'Alpes bavaroises',
+    es: 'Alpes bávaros',
+    pt: 'Alpes bávaros',
+    it: 'Alpi bavaresi',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {
