@@ -12093,5 +12093,986 @@
       "red": 4,
       "black": 2
     }
+  },
+  {
+    "slug": "pralognan-la-vanoise",
+    "name": "Pralognan-la-Vanoise",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.3792,
+    "lng": 6.725,
+    "altitudeBase": 1410,
+    "altitudeSummit": 2360,
+    "pistesKm": 27,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Genuine ski-in/ski-out is rare here as the village sits below the lifts, but several hotels are a two-minute walk from the Mont Bochor cable car and the beginner lifts. Expect to clip in at the lift base rather than at the hotel door.",
+      "fr": "Le vrai ski aux pieds reste rare, le village étant sous les remontées, mais plusieurs hôtels se trouvent à deux minutes à pied du téléphérique de Mont Bochor et des tapis débutants. Comptez chausser au pied des remontées plutôt qu'à la porte de l'hôtel.",
+      "es": "El verdadero ski-in/ski-out es poco frecuente porque el pueblo queda por debajo de los remontes, pero varios hoteles están a dos minutos a pie del teleférico del Mont Bochor y de los remontes de iniciación. Cuente con calzarse a los pies de los remontes y no a la puerta del hotel.",
+      "pt": "O verdadeiro ski-in/ski-out é raro porque a aldeia fica abaixo dos teleféricos, mas vários hotéis estão a dois minutos a pé do teleférico de Mont Bochor e dos meios para principiantes. Conte calçar os esquis ao pé do teleférico e não à porta do hotel.",
+      "it": "Lo ski-in/ski-out vero è raro, perché il borgo sta sotto gli impianti, ma diversi alberghi distano due minuti a piedi dalla funivia del Mont Bochor e dai tapis per principianti. Mettete in conto di calzare gli sci alla partenza degli impianti, non sulla porta dell'albergo."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "authentic",
+      "national-park",
+      "family",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Pralognan-la-Vanoise sits at 1,410 m at the gateway to France's first national park, a Savoyard village that never traded its stone barns for tower blocks. The lifts of Mont Bochor and Becquetta serve a modest 27 km of piste with a north-facing aspect that holds snow well into spring. Beyond the marked runs, the Vanoise opens into one of the great ski-touring playgrounds of the Alps.",
+      "fr": "Pralognan-la-Vanoise s'étire à 1 410 m aux portes du premier parc national français, un village savoyard qui n'a jamais troqué ses granges de pierre contre des immeubles. Les remontées de Mont Bochor et de la Becquetta desservent 27 km de pistes bien orientées au nord, tenant la neige jusqu'au printemps. Au-delà du domaine balisé, la Vanoise déroule l'un des plus beaux terrains de ski de randonnée des Alpes.",
+      "es": "Pralognan-la-Vanoise se asienta a 1.410 m a las puertas del primer parque nacional francés, un pueblo saboyano que nunca cambió sus pajares de piedra por bloques de apartamentos. Los remontes del Mont Bochor y la Becquetta dan acceso a unos modestos 27 km de pistas orientadas al norte, donde la nieve aguanta hasta bien entrada la primavera. Más allá del dominio balizado, la Vanoise abre uno de los grandes terrenos de esquí de travesía de los Alpes.",
+      "pt": "Pralognan-la-Vanoise estende-se a 1.410 m às portas do primeiro parque nacional francês, uma aldeia saboiana que nunca trocou os seus celeiros de pedra por blocos de apartamentos. Os teleféricos de Mont Bochor e da Becquetta servem uns modestos 27 km de pistas viradas a norte, que seguram a neve até à primavera. Além do domínio balizado, a Vanoise abre um dos grandes terrenos de esqui de travessia dos Alpes.",
+      "it": "Pralognan-la-Vanoise si distende a 1.410 m alle porte del primo parco nazionale francese, un villaggio savoiardo che non ha mai barattato i suoi fienili in pietra con palazzine. Gli impianti del Mont Bochor e della Becquetta servono 27 km di piste con esposizione a nord, che tengono la neve fin dentro la primavera. Oltre il tracciato segnato, la Vanoise apre uno dei più grandi terreni di scialpinismo delle Alpi."
+    },
+    "longDescription": {
+      "en": "The village stands at the end of the road, hemmed in by the Grande Casse and the glaciers of the Vanoise National Park, founded in 1963 to protect the ibex on the Italian border. Twelve lifts and 27 km of piste keep the local skiing intentionally human-scaled: eight greens, twelve blues, twelve reds and four blacks spread between Mont Bochor and Becquetta. The real draw, though, is what lies beyond the rope lines, where waymarked snowshoe routes and classic ski-touring itineraries climb toward the Col d'Aussois, the Refuge de la Vanoise and the Pointe de la Réchasse. Pralognan stays family-paced because it never wanted to be a Tarentaise factory resort, and the lift pass and lessons reflect that. Hotels stretch along the main street rather than clinging to a lift queue, and the typical evening looks like a fondue with a window view of the Grand Bec rather than a packed après-ski bar. For booking, check Booking, Expedia and Hotels.com, but call ahead in February school holidays as the village is small.",
+      "fr": "Le village est en bout de route, cerné par la Grande Casse et les glaciers du Parc national de la Vanoise, créé en 1963 pour protéger les bouquetins jusqu'à la frontière italienne. Douze remontées et 27 km de pistes maintiennent volontairement le domaine à taille humaine : huit vertes, douze bleues, douze rouges et quatre noires entre Mont Bochor et Becquetta. Le vrai attrait reste ce qui se passe au-delà des cordes, où les itinéraires raquette et les classiques du ski de rando montent vers le col d'Aussois, le refuge de la Vanoise et la pointe de la Réchasse. Pralognan reste familial parce qu'elle n'a jamais voulu devenir une usine tarentaise, et le forfait comme les cours s'en ressentent. Les hôtels longent la rue principale plutôt que de se coller à la file du télésiège, et la soirée type, c'est une fondue avec vue sur le Grand Bec plutôt qu'un bar après-ski bondé. Pour réserver, regardez Booking, Expedia et Hotels.com, mais appelez en amont pendant les vacances de février, le village est petit.",
+      "es": "El pueblo está al final de la carretera, encajonado entre la Grande Casse y los glaciares del Parque Nacional de la Vanoise, creado en 1963 para proteger a los íbices hasta la frontera italiana. Doce remontes y 27 km de pistas mantienen el dominio a una escala intencionadamente humana: ocho verdes, doce azules, doce rojas y cuatro negras entre Mont Bochor y Becquetta. Lo que de verdad atrae está sin embargo más allá de las cuerdas, donde los itinerarios de raquetas y los clásicos del esquí de travesía suben hacia el col d'Aussois, el refugio de la Vanoise y la Pointe de la Réchasse. Pralognan conserva su ritmo familiar porque nunca quiso ser una fábrica de la Tarentaise, y eso se nota en el forfait y en las clases. Los hoteles se alinean a lo largo de la calle principal en lugar de pegarse a la cola de un telesilla, y la velada típica es una fondue con vistas al Grand Bec, no un bar de après-ski abarrotado. Para reservar, mire Booking, Expedia y Hotels.com, pero llame con antelación en las vacaciones de febrero porque el pueblo es pequeño.",
+      "pt": "A aldeia fica no fim da estrada, encaixada entre a Grande Casse e os glaciares do Parque Nacional da Vanoise, criado em 1963 para proteger os cabritos-monteses até à fronteira italiana. Doze teleféricos e 27 km de pistas mantêm a estância a uma escala intencionalmente humana: oito verdes, doze azuis, doze vermelhas e quatro pretas entre Mont Bochor e Becquetta. O verdadeiro chamariz está, no entanto, para lá das cordas, onde os percursos de raquetas e os clássicos do esqui de travessia sobem em direção ao col d'Aussois, ao refúgio da Vanoise e à Pointe de la Réchasse. Pralognan mantém o seu ritmo familiar porque nunca quis ser uma fábrica da Tarentaise, e isso nota-se no forfait e nas aulas. Os hotéis alinham-se ao longo da rua principal em vez de se colarem à fila do telecadeira, e o serão típico é uma fondue com vista para o Grand Bec, e não um bar de après-ski apinhado. Para reservar, veja Booking, Expedia e Hotels.com, mas contate com antecedência nas férias de fevereiro, porque a aldeia é pequena.",
+      "it": "Il borgo sta in fondo alla strada, stretto tra la Grande Casse e i ghiacciai del Parco nazionale della Vanoise, istituito nel 1963 per proteggere gli stambecchi fino al confine italiano. Dodici impianti e 27 km di piste tengono il comprensorio volutamente a misura d'uomo: otto verdi, dodici blu, dodici rosse e quattro nere tra Mont Bochor e Becquetta. Il vero richiamo è però quello che sta oltre le corde, dove gli itinerari con le racchette e i classici dello scialpinismo salgono verso il col d'Aussois, il rifugio della Vanoise e la Pointe de la Réchasse. Pralognan resta a misura di famiglia perché non ha mai voluto diventare una fabbrica della Tarentaise, e lo skipass e le lezioni lo dimostrano. Gli alberghi seguono la via principale invece di incollarsi alla coda della seggiovia, e la serata tipo è una fondue con vista sul Grand Bec piuttosto che un bar d'après-ski affollato. Per prenotare, guardate Booking, Expedia e Hotels.com, ma chiamate per tempo durante le vacanze di febbraio, perché il borgo è piccolo."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 12,
+      "red": 12,
+      "black": 4
+    }
+  },
+  {
+    "slug": "albiez-montrond",
+    "name": "Albiez-Montrond",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.2569,
+    "lng": 6.3417,
+    "altitudeBase": 1500,
+    "altitudeSummit": 2200,
+    "pistesKm": 38,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "A handful of chalet hotels in the upper hamlet of Albiez-le-Jeune sit metres from the piste back to the lifts, so ski-in/ski-out is realistic if you book carefully. Most accommodation in Albiez-Montrond proper involves a short walk or a free shuttle.",
+      "fr": "Quelques chalets-hôtels d'Albiez-le-Jeune se trouvent à quelques mètres de la piste de retour vers les remontées, le ski aux pieds est donc envisageable en réservant bien. La plupart des hébergements d'Albiez-Montrond impliquent une courte marche ou la navette gratuite.",
+      "es": "Algunos hoteles-chalé del núcleo alto de Albiez-le-Jeune están a metros de la pista de regreso a los remontes, así que el ski-in/ski-out es realista si se reserva con cuidado. La mayoría de los alojamientos en Albiez-Montrond suponen un paseo corto o la lanzadera gratuita.",
+      "pt": "Alguns chalés-hotel do núcleo alto de Albiez-le-Jeune ficam a poucos metros da pista de regresso aos teleféricos, pelo que o ski-in/ski-out é realista se reservar com atenção. A maior parte do alojamento em Albiez-Montrond implica uma caminhada curta ou o transfere gratuito.",
+      "it": "Qualche chalet-albergo della frazione alta di Albiez-le-Jeune dista pochi metri dalla pista di rientro agli impianti, quindi lo ski-in/ski-out è realistico prenotando con attenzione. La maggior parte degli alloggi nel paese di Albiez-Montrond comporta una breve camminata o la navetta gratuita."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 74,
+    "vibes": [
+      "authentic",
+      "family",
+      "value"
+    ],
+    "intro": {
+      "en": "Albiez-Montrond clings to the sunny side of the Maurienne at 1,500 m, a hamlet of slate roofs and silence above Saint-Jean-de-Maurienne. Thirty-eight kilometres of piste roll across the Grand Bec sector, gentle on the wallet and gentle on the family. When you want the bigger picture, the Sybelles is one road over.",
+      "fr": "Albiez-Montrond s'accroche au balcon ensoleillé de la Maurienne à 1 500 m, un hameau de toits d'ardoise et de silence au-dessus de Saint-Jean-de-Maurienne. Trente-huit kilomètres de pistes déroulent sur le secteur du Grand Bec, doux pour le portefeuille et doux pour la famille. Quand on veut voir plus grand, les Sybelles sont à une route de là.",
+      "es": "Albiez-Montrond se agarra al balcón soleado de la Maurienne a 1.500 m, una aldea de tejados de pizarra y silencio sobre Saint-Jean-de-Maurienne. Treinta y ocho kilómetros de pistas se despliegan en el sector del Grand Bec, suaves para el bolsillo y suaves para la familia. Cuando se quiere algo más grande, las Sybelles están a una carretera de distancia.",
+      "pt": "Albiez-Montrond agarra-se à varanda soalheira da Maurienne a 1.500 m, uma aldeia de telhados de ardósia e silêncio acima de Saint-Jean-de-Maurienne. Trinta e oito quilómetros de pistas desenrolam-se no setor do Grand Bec, suaves para a carteira e suaves para a família. Quando se quer ver mais alto, as Sybelles ficam a uma estrada de distância.",
+      "it": "Albiez-Montrond si aggrappa al balcone soleggiato della Maurienne a 1.500 m, una frazione di tetti in ardesia e silenzio sopra Saint-Jean-de-Maurienne. Trentotto chilometri di piste si srotolano sul settore del Grand Bec, leggeri per il portafoglio e leggeri per la famiglia. Quando si vuole vedere più in grande, le Sybelles sono a una strada di distanza."
+    },
+    "longDescription": {
+      "en": "The Maurienne sunny balcony is one of those French Alps backwaters that locals keep quiet about on purpose. Twelve lifts serve 38 km of piste split into twelve greens, fifteen blues, eight reds and three blacks, with a friendly snowpark and a long, slow run home through larch forest. The terrain is engineered around children and intermediates rather than thrill-seekers, which is exactly why families come back year after year. The lift pass is one of the cheapest in Savoie, and most hotels and chalets are run by the same families that built them. For more vertical, the road climbs to the Sybelles lift system at Le Corbier and La Toussuire, fifteen minutes away, where 310 km of linked piste open up on a multi-day pass. Down in the valley, Saint-Jean-de-Maurienne has the train station for arrivals from Paris and Lyon, and there are regular shuttles up in season. Booking, Expedia and Hotels.com all cover the few hotels on offer.",
+      "fr": "Le balcon ensoleillé de la Maurienne, c'est un de ces coins des Alpes que les locaux gardent volontairement discrets. Douze remontées desservent 38 km de pistes : douze vertes, quinze bleues, huit rouges et trois noires, avec un snowpark sympa et une longue piste-retour douce sous les mélèzes. Le terrain est dessiné pour les enfants et les intermédiaires plutôt que pour les chercheurs de sensations, et c'est exactement pour ça que les familles reviennent. Le forfait reste un des moins chers de Savoie, et la plupart des hôtels et chalets sont tenus par les familles qui les ont bâtis. Pour plus de dénivelé, la route monte au domaine des Sybelles, au Corbier et à La Toussuire, à un quart d'heure, où 310 km de pistes reliées s'ouvrent avec un forfait plusieurs jours. En bas, Saint-Jean-de-Maurienne a la gare pour les arrivées depuis Paris et Lyon, et des navettes circulent en saison. Booking, Expedia et Hotels.com référencent les quelques hôtels du village.",
+      "es": "El balcón soleado de la Maurienne es uno de esos rincones de los Alpes franceses que los locales guardan discretos a propósito. Doce remontes dan acceso a 38 km de pistas: doce verdes, quince azules, ocho rojas y tres negras, con un snowpark agradable y una larga pista de regreso por el bosque de alerces. El terreno está pensado para niños e intermedios más que para buscadores de emociones fuertes, y por eso las familias vuelven año tras año. El forfait es uno de los más baratos de Saboya, y la mayoría de hoteles y chalés los llevan las familias que los construyeron. Para más desnivel, la carretera sube al dominio de las Sybelles, en Le Corbier y La Toussuire, a quince minutos, donde 310 km de pistas conectadas se abren con un forfait de varios días. Abajo, Saint-Jean-de-Maurienne tiene la estación de tren para llegadas desde París y Lyon, y hay lanzaderas regulares en temporada. Booking, Expedia y Hotels.com cubren los pocos hoteles del pueblo.",
+      "pt": "A varanda soalheira da Maurienne é um daqueles cantos dos Alpes franceses que os locais guardam discretos de propósito. Doze teleféricos servem 38 km de pistas: doze verdes, quinze azuis, oito vermelhas e três pretas, com um snowpark simpático e uma longa pista de regresso pelo lariçal. O terreno foi pensado para crianças e intermédios mais do que para quem procura adrenalina, e é exatamente por isso que as famílias voltam ano após ano. O forfait é um dos mais baratos da Sabóia, e a maior parte dos hotéis e chalés é gerida pelas famílias que os construíram. Para mais desnível, a estrada sobe ao domínio das Sybelles, em Le Corbier e La Toussuire, a um quarto de hora, onde 310 km de pistas ligadas se abrem com um forfait de vários dias. Em baixo, Saint-Jean-de-Maurienne tem a estação de comboios para chegadas a partir de Paris e Lyon, e há transferes regulares em época. Booking, Expedia e Hotels.com cobrem os poucos hotéis da aldeia.",
+      "it": "Il balcone soleggiato della Maurienne è uno di quegli angoli delle Alpi francesi che i locali tengono volutamente sottotraccia. Dodici impianti servono 38 km di piste: dodici verdi, quindici blu, otto rosse e tre nere, con uno snowpark gradevole e una lunga pista di rientro sotto i larici. Il terreno è disegnato per bambini e intermedi più che per cercatori di brividi, ed è esattamente per questo che le famiglie tornano. Lo skipass è tra i più economici della Savoia, e gran parte degli alberghi e degli chalet è gestita dalle famiglie che li hanno costruiti. Per più dislivello, la strada sale al comprensorio delle Sybelles, a Le Corbier e La Toussuire, a un quarto d'ora, dove 310 km di piste collegate si aprono con uno skipass plurigiornaliero. A valle, Saint-Jean-de-Maurienne ha la stazione ferroviaria per gli arrivi da Parigi e Lione, e in stagione girano navette regolari. Booking, Expedia e Hotels.com coprono i pochi alberghi della località."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 15,
+      "red": 8,
+      "black": 3
+    }
+  },
+  {
+    "slug": "crevoux",
+    "name": "Crévoux",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.5444,
+    "lng": 6.6028,
+    "altitudeBase": 1600,
+    "altitudeSummit": 2400,
+    "pistesKm": 17,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "Crévoux is too small for true ski-in/ski-out: the lifts depart from one edge of the hamlet, and most accommodation is a one- to five-minute walk away. Easy in practice, just don't expect to step from your room onto the snow.",
+      "fr": "Crévoux est trop petit pour le vrai ski aux pieds : les remontées partent d'un bout du hameau, et la plupart des hébergements sont à une à cinq minutes à pied. Facile en pratique, mais ne comptez pas sortir de la chambre directement sur la neige.",
+      "es": "Crévoux es demasiado pequeño para un verdadero ski-in/ski-out: los remontes salen de un extremo de la aldea, y la mayoría de los alojamientos están a uno a cinco minutos a pie. Cómodo en la práctica, pero no espere salir de la habitación directamente a la nieve.",
+      "pt": "Crévoux é pequena demais para um verdadeiro ski-in/ski-out: os teleféricos partem de uma ponta da aldeia, e a maior parte do alojamento fica a um a cinco minutos a pé. Cómodo na prática, mas não conte sair do quarto diretamente para a neve.",
+      "it": "Crévoux è troppo piccola per un vero ski-in/ski-out: gli impianti partono da un'estremità del nucleo, e quasi tutti gli alloggi sono a uno o cinque minuti a piedi. Comodo nella pratica, ma non aspettatevi di uscire dalla camera direttamente sulla neve."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 74,
+    "vibes": [
+      "authentic",
+      "family",
+      "sunny"
+    ],
+    "intro": {
+      "en": "Crévoux is barely a village, a cluster of stone houses at 1,600 m above Embrun where the southern Hautes-Alpes start to feel Mediterranean. Seven lifts and 17 km of piste keep the day-skiing modest, but the Parpaillon massif lays out one of the best ski-touring backyards south of Briançon. The sun does most of the work here.",
+      "fr": "Crévoux, c'est à peine un village, une grappe de maisons de pierre à 1 600 m au-dessus d'Embrun, là où les Hautes-Alpes du sud commencent à sentir la Méditerranée. Sept remontées et 17 km de pistes maintiennent le ski de la journée à un format modeste, mais le massif du Parpaillon déroule l'un des meilleurs terrains de ski de rando au sud de Briançon. C'est le soleil qui fait le plus gros du travail ici.",
+      "es": "Crévoux es apenas un pueblo, un puñado de casas de piedra a 1.600 m sobre Embrun, donde el sur de los Altos Alpes empieza a oler a Mediterráneo. Siete remontes y 17 km de pistas mantienen el esquí del día en formato modesto, pero el macizo del Parpaillon despliega uno de los mejores patios de esquí de travesía al sur de Briançon. Aquí el sol hace casi todo el trabajo.",
+      "pt": "Crévoux mal chega a aldeia, um punhado de casas de pedra a 1.600 m acima de Embrun, onde o sul dos Altos Alpes começa a cheirar a Mediterrâneo. Sete teleféricos e 17 km de pistas mantêm o esqui do dia num formato modesto, mas o maciço do Parpaillon abre um dos melhores terrenos de esqui de travessia a sul de Briançon. Aqui o sol faz quase tudo o trabalho.",
+      "it": "Crévoux è appena un villaggio, un grappolo di case in pietra a 1.600 m sopra Embrun, dove le Hautes-Alpes meridionali iniziano a profumare di Mediterraneo. Sette impianti e 17 km di piste tengono lo sci di giornata a un formato modesto, ma il massiccio del Parpaillon offre uno dei migliori terreni di scialpinismo a sud di Briançon. Qui è il sole a fare quasi tutto il lavoro."
+    },
+    "longDescription": {
+      "en": "The village faces south across the Embrunais valley, with the Lac de Serre-Ponçon glittering far below and the Italian border one ridge away. Five green pistes, eight blues, six reds and two blacks distribute themselves between 1,600 m and 2,400 m, perfect for a quiet family week without the lift queues of Les Orres next door. The Parpaillon massif and its disused military tunnel are the local cult destination for ski-touring and snowshoe outings, with classic itineraries running from Crévoux to the col itself. Hotels are few and family-run, dining is hearty Hautes-Alpes (think tourtons and tomme blanche), and prices stay well below the Tarentaise average. Embrun, fifteen minutes down the road, has the train station, the supermarkets and the lakeside cafés that come back to life in March. Booking, Expedia and Hotels.com cover the village, and reservations are usually easy to secure outside French school holidays.",
+      "fr": "Le village est plein sud, face à la vallée de l'Embrunais, avec le lac de Serre-Ponçon qui scintille en contrebas et la frontière italienne à un col de là. Cinq pistes vertes, huit bleues, six rouges et deux noires se répartissent entre 1 600 m et 2 400 m, parfait pour une semaine famille tranquille loin des files des Orres voisines. Le massif du Parpaillon et son tunnel militaire désaffecté restent la destination culte pour le ski de rando et la raquette, avec des classiques qui partent de Crévoux vers le col. Les hôtels sont rares et familiaux, la cuisine est franche (tourtons, tomme blanche), et les tarifs restent bien sous la moyenne tarentaise. Embrun, à un quart d'heure, a la gare, les supermarchés et les cafés au bord du lac qui se réveillent en mars. Booking, Expedia et Hotels.com couvrent le village, et les réservations restent faciles hors vacances scolaires.",
+      "es": "El pueblo mira al sur, frente al valle del Embrunais, con el lago de Serre-Ponçon brillando abajo y la frontera italiana al otro lado del cordal. Cinco pistas verdes, ocho azules, seis rojas y dos negras se reparten entre 1.600 m y 2.400 m, perfecto para una semana familiar tranquila lejos de las colas de Les Orres, ahí al lado. El macizo del Parpaillon y su túnel militar abandonado son el destino de culto local para el esquí de travesía y las raquetas, con clásicos que arrancan de Crévoux y suben al collado. Los hoteles son pocos y familiares, la cocina es franca de los Altos Alpes (tourtons, tomme blanche), y los precios se quedan muy por debajo de la media de la Tarentaise. Embrun, a un cuarto de hora, tiene la estación de tren, los supermercados y los cafés a orillas del lago que reviven en marzo. Booking, Expedia y Hotels.com cubren el pueblo, y reservar suele ser fácil fuera de las vacaciones escolares francesas.",
+      "pt": "A aldeia está virada a sul, em frente ao vale do Embrunais, com o Lac de Serre-Ponçon a brilhar lá em baixo e a fronteira italiana a um colo de distância. Cinco pistas verdes, oito azuis, seis vermelhas e duas pretas distribuem-se entre os 1.600 m e os 2.400 m, ideais para uma semana familiar tranquila, longe das filas de Les Orres, ali ao lado. O maciço do Parpaillon e o seu túnel militar desativado são o destino de culto local para o esqui de travessia e as raquetas, com clássicos que partem de Crévoux até ao colo. Os hotéis são poucos e familiares, a cozinha é honesta dos Altos Alpes (tourtons, tomme blanche), e os preços ficam muito abaixo da média da Tarentaise. Embrun, a um quarto de hora, tem a estação ferroviária, os supermercados e os cafés à beira do lago que voltam à vida em março. Booking, Expedia e Hotels.com cobrem a aldeia, e reservar costuma ser fácil fora das férias escolares francesas.",
+      "it": "Il villaggio guarda a sud, di fronte alla valle dell'Embrunais, con il Lac de Serre-Ponçon che brilla in basso e il confine italiano a un colle di distanza. Cinque piste verdi, otto blu, sei rosse e due nere si distribuiscono tra 1.600 m e 2.400 m, perfette per una settimana di famiglia tranquilla lontano dalle code di Les Orres, lì accanto. Il massiccio del Parpaillon e il suo tunnel militare in disuso sono la meta di culto locale per scialpinismo e racchette, con classici che partono da Crévoux verso il colle. Gli alberghi sono pochi e a gestione familiare, la cucina è schietta delle Hautes-Alpes (tourtons, tomme blanche), e i prezzi restano ben sotto la media della Tarentaise. Embrun, a un quarto d'ora, ha la stazione, i supermercati e i caffè in riva al lago che si risvegliano in marzo. Booking, Expedia e Hotels.com coprono la località, e prenotare è di solito facile fuori dalle vacanze scolastiche francesi."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 8,
+      "red": 6,
+      "black": 2
+    }
+  },
+  {
+    "slug": "saint-leger-les-melezes",
+    "name": "Saint-Léger-les-Mélèzes",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 44.6764,
+    "lng": 6.19,
+    "altitudeBase": 1260,
+    "altitudeSummit": 1800,
+    "pistesKm": 23,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is not really on offer: the lifts start a few hundred metres above the village and a free skier shuttle links the centre with the lift base every morning. A short walk in ski boots, not an open balcony onto the piste.",
+      "fr": "Le vrai ski aux pieds n'est pas vraiment au programme : les remontées partent quelques centaines de mètres au-dessus du village, et une navette skieurs gratuite relie le centre au pied des pistes chaque matin. C'est une courte marche en chaussures de ski, pas un balcon ouvert sur la piste.",
+      "es": "Un verdadero ski-in/ski-out no entra en oferta: los remontes salen unos cientos de metros por encima del pueblo y una lanzadera gratuita para esquiadores conecta el centro con el pie de pistas cada mañana. Es un paseo corto en botas de esquí, no un balcón abierto sobre la pista.",
+      "pt": "Um verdadeiro ski-in/ski-out não está realmente disponível: os teleféricos partem algumas centenas de metros acima da aldeia, e um transfere gratuito para esquiadores liga o centro ao pé das pistas todas as manhãs. É uma caminhada curta de botas de esqui, não uma varanda aberta sobre a pista.",
+      "it": "Un vero ski-in/ski-out non è davvero in offerta: gli impianti partono qualche centinaio di metri sopra il villaggio, e ogni mattina una navetta sciistica gratuita collega il centro alla partenza delle piste. È una breve camminata con gli scarponi, non un balcone aperto sulla pista."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 70,
+    "vibes": [
+      "family",
+      "authentic",
+      "sunny"
+    ],
+    "intro": {
+      "en": "Saint-Léger-les-Mélèzes is named for its larches, and they fill the slopes above this Champsaur village at 1,260 m above Gap. Twenty-three kilometres of family piste, seven lifts and a network of cross-country trails make for one of the gentlest weeks in the southern Alps. The Champsaur is where Briançonnais skiers come to breathe.",
+      "fr": "Saint-Léger-les-Mélèzes tient son nom des mélèzes, et ce sont eux qui couvrent les pentes au-dessus de ce village du Champsaur, à 1 260 m au-dessus de Gap. Vingt-trois kilomètres de pistes familiales, sept remontées et un beau réseau de fond donnent une des semaines les plus tranquilles des Alpes du sud. Le Champsaur, c'est là que les Briançonnais viennent souffler.",
+      "es": "Saint-Léger-les-Mélèzes debe su nombre a los alerces, que cubren las laderas sobre este pueblo del Champsaur a 1.260 m sobre Gap. Veintitrés kilómetros de pista familiar, siete remontes y una bonita red de fondo ofrecen una de las semanas más tranquilas de los Alpes del sur. El Champsaur es a donde los esquiadores del Briançonnais vienen a respirar.",
+      "pt": "Saint-Léger-les-Mélèzes deve o nome aos lariços, que cobrem as encostas sobre esta aldeia do Champsaur, a 1.260 m acima de Gap. Vinte e três quilómetros de pista familiar, sete teleféricos e uma boa rede de esqui de fundo dão uma das semanas mais tranquilas dos Alpes do sul. O Champsaur é o sítio para onde os esquiadores do Briançonnais vão respirar.",
+      "it": "Saint-Léger-les-Mélèzes deve il nome ai larici, che coprono i pendii sopra questo villaggio dello Champsaur, a 1.260 m sopra Gap. Ventitré chilometri di piste familiari, sette impianti e una bella rete di fondo regalano una delle settimane più tranquille delle Alpi meridionali. Lo Champsaur è il posto dove gli sciatori del Briançonnais vanno a respirare."
+    },
+    "longDescription": {
+      "en": "The Champsaur is one of the sunniest valleys in the French Alps, and Saint-Léger sits at its heart, just above the regional capital of Gap. The shared Saint-Léger-Ancelle ski area, eight greens, ten blues, four reds and a single black, runs through proper larch forest with views across to the Écrins, and the cross-country network reaches up onto the plateau above the village. The local lift pass is modest, the lessons fill quickly with kids on holiday from Gap, and the snow holds longest on the north-facing pistes despite the southern latitude. When the Briançonnais and the Embrunais get crowded in February, this is where their own residents disappear to. Hotels and guesthouses are small, mostly run by farming families that still keep the lavender summer business going. Booking, Expedia and Hotels.com cover the village; if you arrive without a car, Gap has the train and a couple of seasonal shuttle services run to Saint-Léger on weekends.",
+      "fr": "Le Champsaur est une des vallées les plus ensoleillées des Alpes françaises, et Saint-Léger en est le cœur, juste au-dessus du chef-lieu de Gap. Le domaine partagé de Saint-Léger-Ancelle, huit vertes, dix bleues, quatre rouges et une noire, déroule en pleine mélèze face aux Écrins, et le réseau de fond grimpe sur le plateau au-dessus du village. Le forfait local reste doux, les cours se remplissent vite avec les enfants en vacances de Gap, et la neige tient le mieux sur les pistes nord malgré la latitude méridionale. Quand le Briançonnais et l'Embrunais saturent en février, c'est ici que leurs propres habitants s'éclipsent. Hôtels et chambres d'hôtes restent petits, souvent tenus par des familles d'agriculteurs qui font aussi la lavande l'été. Booking, Expedia et Hotels.com couvrent le village ; sans voiture, Gap a la gare et des navettes saisonnières circulent vers Saint-Léger le week-end.",
+      "es": "El Champsaur es uno de los valles más soleados de los Alpes franceses, y Saint-Léger es su corazón, justo encima de la capital regional de Gap. El dominio compartido de Saint-Léger-Ancelle, ocho verdes, diez azules, cuatro rojas y una negra, transcurre por bosque de alerces frente al macizo de los Écrins, y la red de fondo sube a la meseta sobre el pueblo. El forfait local es asequible, las clases se llenan rápido con niños de vacaciones desde Gap, y la nieve aguanta más en las pistas norte a pesar de la latitud meridional. Cuando el Briançonnais y el Embrunais se llenan en febrero, este es el sitio donde se esfuman sus propios habitantes. Hoteles y casas rurales son pequeños, llevados a menudo por familias agricultoras que también cultivan lavanda en verano. Booking, Expedia y Hotels.com cubren el pueblo; sin coche, Gap tiene la estación de tren y hay lanzaderas estacionales hacia Saint-Léger los fines de semana.",
+      "pt": "O Champsaur é um dos vales mais soalheiros dos Alpes franceses, e Saint-Léger é o seu coração, mesmo acima da capital regional de Gap. O domínio partilhado de Saint-Léger-Ancelle, oito verdes, dez azuis, quatro vermelhas e uma preta, atravessa lariçal em frente ao maciço dos Écrins, e a rede de esqui de fundo sobe ao planalto acima da aldeia. O forfait local é acessível, as aulas enchem-se depressa com crianças em férias vindas de Gap, e a neve aguenta melhor nas pistas a norte, apesar da latitude meridional. Quando o Briançonnais e o Embrunais ficam cheios em fevereiro, é para aqui que os seus próprios habitantes se esgueiram. Hotéis e casas de hóspedes são pequenos, muitas vezes geridos por famílias agricultoras que cultivam alfazema no verão. Booking, Expedia e Hotels.com cobrem a aldeia; sem carro, Gap tem a estação e há transferes sazonais para Saint-Léger ao fim de semana.",
+      "it": "Lo Champsaur è una delle vallate più soleggiate delle Alpi francesi, e Saint-Léger ne è il cuore, proprio sopra il capoluogo di Gap. Il comprensorio condiviso di Saint-Léger-Ancelle, otto verdi, dieci blu, quattro rosse e una nera, attraversa un bel bosco di larici di fronte al gruppo degli Écrins, e la rete di fondo sale sull'altopiano sopra il villaggio. Lo skipass locale resta morbido, le lezioni si riempiono in fretta con i bambini in vacanza da Gap, e la neve tiene di più sulle piste nord nonostante la latitudine meridionale. Quando il Briançonnais e l'Embrunais si affollano in febbraio, è qui che spariscono i loro stessi abitanti. Alberghi e camere si mantengono piccoli, spesso gestiti da famiglie contadine che d'estate fanno la lavanda. Booking, Expedia e Hotels.com coprono la località; senza auto, Gap ha la stazione ferroviaria e nei fine settimana circolano navette stagionali per Saint-Léger."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 10,
+      "red": 4,
+      "black": 1
+    }
+  },
+  {
+    "slug": "aillons-margeriaz",
+    "name": "Aillons-Margériaz",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.65,
+    "lng": 6.0833,
+    "altitudeBase": 1000,
+    "altitudeSummit": 1845,
+    "pistesKm": 25,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "Real ski-in/ski-out exists only at Margériaz 1400, where a small cluster of chalets and a hotel sit metres from the lifts. The hotels down in Aillons 1000 and the surrounding hamlets rely on a free skier shuttle that runs all day in season.",
+      "fr": "Le vrai ski aux pieds n'existe vraiment qu'à Margériaz 1400, où un petit ensemble de chalets et un hôtel se trouvent à quelques mètres des remontées. Les hôtels d'Aillons 1000 et des hameaux alentour comptent sur la navette skieurs gratuite qui tourne toute la journée en saison.",
+      "es": "El verdadero ski-in/ski-out solo existe en Margériaz 1400, donde un pequeño grupo de chalés y un hotel quedan a metros de los remontes. Los hoteles abajo en Aillons 1000 y en las aldeas de alrededor dependen de la lanzadera gratuita para esquiadores que circula todo el día en temporada.",
+      "pt": "O verdadeiro ski-in/ski-out só existe em Margériaz 1400, onde um pequeno núcleo de chalés e um hotel ficam a metros dos teleféricos. Os hotéis em baixo, em Aillons 1000 e nas aldeias em redor, contam com o transfere gratuito para esquiadores que circula todo o dia em época.",
+      "it": "Il vero ski-in/ski-out esiste solo a Margériaz 1400, dove un piccolo gruppo di chalet e un albergo distano pochi metri dagli impianti. Gli alberghi più in basso, ad Aillons 1000 e nelle frazioni intorno, si appoggiano alla navetta sciistica gratuita che gira tutto il giorno in stagione."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 70,
+    "vibes": [
+      "family",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Aillons-Margériaz hides in the Bauges Regional Park between Chambéry, Annecy and Lyon, a twin-hamlet ski area at 1,000 m that locals reach in under an hour by car. Eleven lifts and 25 km of piste split between Aillons 1000 and Margériaz 1400 stay deep in spruce and beech forest. This is everyone's first ski weekend, and quite a few people's favourite.",
+      "fr": "Aillons-Margériaz se cache dans le parc naturel régional des Bauges entre Chambéry, Annecy et Lyon, un domaine à deux hameaux à 1 000 m que les locaux rallient en moins d'une heure de voiture. Onze remontées et 25 km de pistes répartis entre Aillons 1000 et Margériaz 1400 restent en pleine sapinière et hêtraie. C'est le premier week-end ski de tout le monde, et le préféré d'un certain nombre.",
+      "es": "Aillons-Margériaz se esconde en el parque natural regional de los Bauges, entre Chambéry, Annecy y Lyon, un dominio de dos aldeas a 1.000 m al que los locales llegan en menos de una hora en coche. Once remontes y 25 km de pistas repartidos entre Aillons 1000 y Margériaz 1400 transcurren en pleno abetal y hayedo. Es el primer fin de semana de esquí de todos, y el favorito de unos cuantos.",
+      "pt": "Aillons-Margériaz esconde-se no parque natural regional dos Bauges entre Chambéry, Annecy e Lyon, uma área de duas aldeias a 1.000 m a que os locais chegam em menos de uma hora de carro. Onze teleféricos e 25 km de pistas divididos entre Aillons 1000 e Margériaz 1400 mantêm-se no abetal e faial. É o primeiro fim de semana de esqui de toda a gente, e o preferido de muitos.",
+      "it": "Aillons-Margériaz si nasconde nel parco naturale regionale delle Bauges tra Chambéry, Annecy e Lione, un comprensorio a due frazioni a 1.000 m che i locali raggiungono in meno di un'ora in auto. Undici impianti e 25 km di piste divisi tra Aillons 1000 e Margériaz 1400 restano in piena foresta di abeti e faggi. È il primo weekend sulla neve di tutti, e il preferito di parecchi."
+    },
+    "longDescription": {
+      "en": "The Bauges Regional Park is one of those green pockets of Savoie that gets less press than the Tarentaise or the Maurienne, and that suits the locals fine. Eight greens, ten blues, five reds and two blacks unroll mostly between 1,000 m and 1,845 m, with the higher Margériaz sector taking the day's snow and the lower Aillons offering shorter runs back to the village. A solid snowpark sits on the Margériaz side, and the cross-country network around the park reaches over forty kilometres of trail. Eating local means Tome des Bauges DOP cheese, charcuterie from the valleys around Le Chatelard, and tartiflette with a view of the limestone cliffs of the Margériaz. The drive from Lyon takes about ninety minutes outside rush hour, Chambéry is half an hour, Annecy roughly the same. Booking, Expedia and Hotels.com cover the village hotels and the half-dozen chalets up at Margériaz 1400.",
+      "fr": "Le parc des Bauges est une de ces poches vertes de Savoie qui font moins de bruit que la Tarentaise ou la Maurienne, et ça arrange bien les locaux. Huit vertes, dix bleues, cinq rouges et deux noires se déploient surtout entre 1 000 m et 1 845 m, le haut secteur Margériaz captant la neige, le bas d'Aillons proposant des pistes plus courtes vers le village. Un snowpark sérieux est posé côté Margériaz, et le réseau de fond du parc dépasse les quarante kilomètres de pistes tracées. Manger local, c'est la Tome des Bauges DOP, la charcuterie des vallées autour du Châtelard, et la tartiflette face aux falaises calcaires de la Margériaz. La route depuis Lyon prend environ une heure et demie hors heures de pointe, Chambéry est à une demi-heure, Annecy à peu près pareil. Booking, Expedia et Hotels.com couvrent les hôtels du village et la demi-douzaine de chalets à Margériaz 1400.",
+      "es": "El parque de los Bauges es uno de esos rincones verdes de Saboya que hace menos ruido que la Tarentaise o la Maurienne, y eso les viene bien a los locales. Ocho verdes, diez azules, cinco rojas y dos negras se despliegan sobre todo entre los 1.000 m y los 1.845 m: el sector alto de Margériaz capta la nieve, el bajo de Aillons ofrece pistas más cortas hacia el pueblo. Un snowpark serio se asienta del lado de Margériaz, y la red de fondo del parque supera los cuarenta kilómetros de itinerario marcado. Comer local es la Tome des Bauges DOP, los embutidos de los valles en torno a Le Chatelard, y la tartiflette frente a los acantilados calcáreos de la Margériaz. La carretera desde Lyon supone hora y media fuera de hora punta, Chambéry queda a media hora, Annecy más o menos lo mismo. Booking, Expedia y Hotels.com cubren los hoteles del pueblo y la media docena de chalés de arriba en Margériaz 1400.",
+      "pt": "O parque dos Bauges é um daqueles cantos verdes da Sabóia que faz menos barulho do que a Tarentaise ou a Maurienne, e isso convém aos locais. Oito verdes, dez azuis, cinco vermelhas e duas pretas estendem-se sobretudo entre os 1.000 m e os 1.845 m: o setor mais alto de Margériaz capta a neve, o mais baixo de Aillons oferece pistas mais curtas para a aldeia. Um snowpark sério ficou do lado de Margériaz, e a rede de fundo do parque ultrapassa os quarenta quilómetros de percurso marcado. Comer local é a Tome des Bauges DOP, os enchidos dos vales à volta de Le Châtelard, e a tartiflette em frente às falésias calcárias da Margériaz. A estrada desde Lião faz-se em cerca de hora e meia fora das horas de ponta, Chambéry fica a meia hora, Annecy quase o mesmo. Booking, Expedia e Hotels.com cobrem os hotéis da aldeia e a meia dúzia de chalés lá em cima, em Margériaz 1400.",
+      "it": "Il parco delle Bauges è una di quelle sacche verdi della Savoia che fanno meno rumore della Tarentaise o della Maurienne, e ai locali sta bene così. Otto verdi, dieci blu, cinque rosse e due nere si distendono soprattutto tra i 1.000 m e i 1.845 m: il settore alto di Margériaz cattura la neve, quello basso di Aillons offre piste più corte verso il paese. Uno snowpark serio è posato sul versante Margériaz, e la rete di fondo del parco supera i quaranta chilometri di tracciato. Mangiare locale significa Tome des Bauges DOP, salumi delle valli intorno a Le Châtelard, e tartiflette davanti alle pareti calcaree della Margériaz. La strada da Lione richiede circa un'ora e mezza fuori dalle ore di punta, Chambéry è a mezz'ora, Annecy più o meno lo stesso. Booking, Expedia e Hotels.com coprono gli alberghi del paese e la mezza dozzina di chalet su a Margériaz 1400."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 10,
+      "red": 5,
+      "black": 2
+    }
+  },
+  {
+    "slug": "macugnaga",
+    "name": "Macugnaga",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 45.97,
+    "lng": 7.965,
+    "altitudeBase": 1327,
+    "altitudeSummit": 2868,
+    "pistesKm": 35,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Properties at Pecetto sit beside the Belvedere chairlift; central Staffa lodgings are a short walk or shuttle to the lift base.",
+      "fr": "Les hébergements de Pecetto sont juste à côté du télésiège du Belvedere ; ceux du centre de Staffa demandent une courte marche ou une navette jusqu'au pied des remontées.",
+      "es": "Los alojamientos de Pecetto están junto al telesilla del Belvedere; los del centro de Staffa quedan a un corto paseo o lanzadera de los remontes.",
+      "pt": "Os alojamentos em Pecetto ficam ao lado do teleférico do Belvedere; os do centro de Staffa exigem uma curta caminhada ou transfer até à base dos teleféricos.",
+      "it": "Le sistemazioni a Pecetto sono accanto alla seggiovia del Belvedere; quelle nel centro di Staffa richiedono una breve camminata o navetta fino agli impianti."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 82,
+    "vibes": [
+      "authentic",
+      "glacier",
+      "panoramic",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Macugnaga sits at 1,327 m beneath the only Himalayan-scale wall in the Alps, the east face of Monte Rosa. A Walser stone-roofed village where you ski quietly under 4,000 m peaks.",
+      "fr": "Macugnaga se niche à 1 327 m au pied de la seule paroi himalayenne des Alpes, le versant est du Mont Rose. Un village Walser aux toits de pierre où l'on skie tranquillement sous les sommets de 4 000 m.",
+      "es": "Macugnaga se sitúa a 1.327 m al pie de la única pared de escala himalaya de los Alpes, la cara este del Monte Rosa. Un pueblo Walser de tejados de piedra donde se esquía tranquilo bajo cumbres de 4.000 m.",
+      "pt": "Macugnaga fica a 1.327 m aos pés da única parede de escala himalaia dos Alpes, a face este do Monte Rosa. Uma aldeia Walser de telhados de pedra onde se esquia tranquilamente sob cumes de 4.000 m.",
+      "it": "Macugnaga si stende a 1.327 m ai piedi dell'unica parete di scala himalayana delle Alpi, il versante est del Monte Rosa. Un borgo Walser dai tetti in piode dove si scia in silenzio sotto vette di 4.000 m."
+    },
+    "longDescription": {
+      "en": "Macugnaga is one of those places that has stayed itself. The Walser settlers came over from the Valais in the 13th century and left a village of dark larch beams and heavy stone-slab roofs, and that is still the architecture you walk through at 1,327 m today. Above you rises the Monte Rosa east face, a vertical wall of nearly 2,500 m that climbers genuinely compare to the Himalayas. The skiing splits in two: the Belvedere sector right out of the village, mellower and tree-lined, and the Monte Moro sector that climbs in a single big cable car to 2,868 m. From the top of Monte Moro you look across at the Mattmark dam holding back its blue lake on the Swiss side, and the long descent back down through gullies and open snowfields is what people come for. Thirty-five km of piste is not a huge number, but the terrain is serious, the off-piste possibilities are real, and the lift queues are almost nothing. Macugnaga is also one of the great ski-touring bases in the western Alps, with the Monte Rosa hut routes starting from the valley head. Come here if you want quiet pistes, big mountains overhead, and an Italian village that still feels like itself.",
+      "fr": "Macugnaga est l'un de ces endroits qui sont restés eux-mêmes. Les colons Walser sont arrivés du Valais au XIIIᵉ siècle et ont laissé un village de poutres de mélèze sombre et de toits en lourdes lauzes, et c'est toujours l'architecture que l'on traverse à 1 327 m aujourd'hui. Au-dessus se dresse le versant est du Mont Rose, une paroi verticale de près de 2 500 m que les alpinistes comparent vraiment à l'Himalaya. Le ski se partage en deux : le secteur Belvedere juste au-dessus du village, plus doux et boisé, et le secteur Monte Moro qui grimpe d'un seul grand téléphérique à 2 868 m. Du sommet du Monte Moro on voit le barrage de Mattmark retenant son lac bleu côté suisse, et la longue descente par couloirs et grands champs de neige est ce que l'on vient chercher. Trente-cinq km de pistes ce n'est pas énorme, mais le terrain est sérieux, le hors-piste est réel et les files aux remontées sont quasi inexistantes. Macugnaga est aussi l'une des grandes bases de ski de randonnée des Alpes occidentales, avec les itinéraires du refuge Mont Rose qui partent du fond de la vallée. Venez ici si vous voulez des pistes calmes, de la grande montagne au-dessus et un village italien resté lui-même.",
+      "es": "Macugnaga es uno de esos lugares que han seguido siendo ellos mismos. Los colonos Walser llegaron del Valais en el siglo XIII y dejaron un pueblo de vigas de alerce oscuro y pesados tejados de lajas, y esa es todavía la arquitectura que se recorre a 1.327 m. Arriba se alza la cara este del Monte Rosa, una pared vertical de casi 2.500 m que los alpinistas comparan de verdad con el Himalaya. El esquí se divide en dos: el sector Belvedere a la salida misma del pueblo, más suave y entre bosques, y el sector Monte Moro que sube en un solo gran teleférico hasta 2.868 m. Desde lo alto del Monte Moro se ve la presa de Mattmark conteniendo su lago azul del lado suizo, y la larga bajada por canales y campos de nieve abiertos es lo que viene a buscarse. Treinta y cinco km de pistas no es una cifra enorme, pero el terreno es serio, el fuera de pista es real y las colas en los remontes casi no existen. Macugnaga es también una de las grandes bases de esquí de montaña de los Alpes occidentales, con los itinerarios del refugio Monte Rosa partiendo del fondo del valle. Venga aquí si quiere pistas tranquilas, gran montaña encima y un pueblo italiano que sigue siendo él mismo.",
+      "pt": "Macugnaga é um daqueles sítios que continuaram a ser eles próprios. Os colonos Walser chegaram do Valais no século XIII e deixaram uma aldeia de vigas de larício escuro e pesados telhados de lajes, e é essa a arquitetura que ainda se percorre a 1.327 m. Por cima ergue-se a face este do Monte Rosa, uma parede vertical de quase 2.500 m que os alpinistas comparam mesmo aos Himalaias. O esqui divide-se em dois: o setor Belvedere mesmo à saída da aldeia, mais suave e entre bosques, e o setor Monte Moro que sobe num único grande teleférico até 2.868 m. Do alto do Monte Moro vê-se a barragem de Mattmark a segurar o seu lago azul do lado suíço, e a longa descida por canais e campos de neve abertos é o que se vai buscar. Trinta e cinco km de pistas não é um número enorme, mas o terreno é sério, o fora de pista é real e as filas nos teleféricos quase não existem. Macugnaga é também uma das grandes bases de esqui de montanha dos Alpes ocidentais, com os itinerários do refúgio Monte Rosa a partirem do fundo do vale. Venha cá se quiser pistas calmas, montanha grande por cima e uma aldeia italiana que continua a ser ela própria.",
+      "it": "Macugnaga è uno di quei posti che sono rimasti se stessi. I coloni Walser arrivarono dal Vallese nel XIII secolo e lasciarono una località di travi di larice scuro e pesanti tetti in piode, ed è ancora l'architettura che si attraversa oggi a 1.327 m. Sopra si alza il versante est del Monte Rosa, una parete verticale di quasi 2.500 m che gli alpinisti paragonano davvero all'Himalaya. La sciata si divide in due: il settore Belvedere a due passi dal borgo, più dolce e tra i boschi, e il settore Monte Moro che sale con una sola grande funivia a 2.868 m. Dalla cima del Monte Moro si vede la diga di Mattmark che trattiene il suo lago azzurro sul versante svizzero, e la lunga discesa per canali e ampi nevai aperti è quello che si viene a cercare. Trentacinque km di piste non sono un numero enorme, ma il terreno è serio, il fuori pista è vero e le code agli impianti quasi non esistono. Macugnaga è anche una delle grandi basi di scialpinismo delle Alpi occidentali, con gli itinerari del rifugio Monte Rosa che partono dal fondovalle. Venite qui se volete piste tranquille, grande montagna sopra la testa e una località italiana che è rimasta se stessa."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 10,
+      "red": 15,
+      "black": 5
+    }
+  },
+  {
+    "slug": "carezza",
+    "name": "Carezza",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.4083,
+    "lng": 11.5917,
+    "altitudeBase": 1182,
+    "altitudeSummit": 2337,
+    "pistesKm": 40,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Most lodgings cluster around the Pra di Tori gondola at Carezza al Lago for true ski-in/ski-out; Welschnofen properties use the short shuttle to the lift base.",
+      "fr": "La plupart des hébergements se regroupent autour de la télécabine de Pra di Tori à Carezza al Lago pour un vrai ski-in/ski-out ; ceux de Nova Levante prennent la courte navette jusqu'au pied des pistes.",
+      "es": "La mayoría de los alojamientos se agrupan junto a la telecabina de Pra di Tori en Carezza al Lago para un auténtico ski-in/ski-out; los de Nova Levante usan la corta lanzadera hasta los remontes.",
+      "pt": "A maioria dos alojamentos concentra-se junto ao teleférico de Pra di Tori em Carezza al Lago para um verdadeiro ski-in/ski-out; os de Nova Levante usam o transfer curto até à base.",
+      "it": "La maggior parte delle sistemazioni si raccoglie attorno alla cabinovia di Pra di Tori a Carezza al Lago per un vero ski-in/ski-out; quelle di Nova Levante usano la breve navetta fino agli impianti."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "dolomites",
+      "family",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Carezza opens at 1,182 m onto the postcard view of the Karersee mirroring the pink Catinaccio at sunset. Forty km of pistes on the König Laurin sector, Dolomiti Superski pass, and a calm family pace.",
+      "fr": "Carezza s'ouvre à 1 182 m sur la carte postale du Karersee qui reflète le Catinaccio rose au coucher du soleil. Quarante km de pistes sur le secteur König Laurin, forfait Dolomiti Superski et un rythme familial paisible.",
+      "es": "Carezza se abre a 1.182 m a la postal del Karersee reflejando el Catinaccio rosa al atardecer. Cuarenta km de pistas en el sector König Laurin, forfait Dolomiti Superski y un ritmo familiar tranquilo.",
+      "pt": "Carezza abre-se a 1.182 m para o postal do Karersee a refletir o Catinaccio rosado ao pôr do sol. Quarenta km de pistas no setor König Laurin, forfait Dolomiti Superski e um ritmo familiar tranquilo.",
+      "it": "Carezza si apre a 1.182 m sulla cartolina del Lago di Carezza che riflette il Catinaccio rosa al tramonto. Quaranta km di piste sul settore König Laurin, skipass Dolomiti Superski e un ritmo familiare tranquillo."
+    },
+    "longDescription": {
+      "en": "If you have ever seen a photograph of the Dolomites, there is a good chance it was taken at Lake Carezza. The little lake sits at 1,534 m just above the resort, ringed by larch and spruce, and at sunset it reflects the spires of the Catinaccio (Rosengarten in German) glowing pink in the alpenglow. Local Ladin legend says King Laurin's enchanted rose garden was turned to stone there, which is why the modern ski sector carries his name. The resort itself opens at 1,182 m on the road that runs between Val di Fiemme and Val di Fassa, and the König Laurin domain reaches 2,337 m with about 40 km of piste. Most of the slopes are wide blues and gentle reds with the Latemar on one side and the Catinaccio on the other, which makes Carezza one of the most photogenic family resorts in the whole Dolomites. The lift system was rebuilt with the high-capacity Pra di Tori and Paolina gondolas, lift queues stay short, and the snowpark at Pra di Tori is a fixture for freestyle riders. Because Carezza sits inside the Dolomiti Superski circuit, your pass also gives you Val di Fassa, Val di Fiemme, Obereggen and the rest of the 1,200 km network. The villages are South Tyrolean, German and Italian are spoken interchangeably, and the food on the mountain huts shows it: speck, canederli, strudel and a glass of Lagrein on a sun terrace facing the Rosengarten.",
+      "fr": "Si vous avez déjà vu une photo des Dolomites, il y a de bonnes chances qu'elle ait été prise au lac de Carezza. Le petit lac repose à 1 534 m juste au-dessus de la station, cerné de mélèzes et d'épicéas, et au coucher du soleil il reflète les flèches du Catinaccio (Rosengarten en allemand) rosies par l'alpenglow. La légende ladine raconte que le jardin de roses enchanté du roi Laurin y fut changé en pierre, d'où le nom du secteur de ski moderne. La station elle-même s'ouvre à 1 182 m sur la route qui relie le Val di Fiemme au Val di Fassa, et le domaine König Laurin monte à 2 337 m pour 40 km de pistes environ. La plupart des pentes sont des bleues larges et des rouges douces avec le Latemar d'un côté et le Catinaccio de l'autre, ce qui fait de Carezza l'une des stations familiales les plus photogéniques de toutes les Dolomites. Le réseau a été refait avec les télécabines à grande capacité de Pra di Tori et de Paolina, les files aux remontées restent courtes, et le snowpark de Pra di Tori est un classique pour les riders. Comme Carezza fait partie du circuit Dolomiti Superski, votre forfait vous donne aussi le Val di Fassa, le Val di Fiemme, Obereggen et le reste du réseau de 1 200 km. Les villages sont sud-tyroliens, on parle allemand et italien indifféremment, et la cuisine des refuges le montre : speck, canederli, strudel et un verre de Lagrein sur une terrasse face au Rosengarten.",
+      "es": "Si alguna vez ha visto una foto de los Dolomitas, hay buenas probabilidades de que se hiciera en el lago de Carezza. El pequeño lago descansa a 1.534 m justo encima de la estación, rodeado de alerces y abetos, y al atardecer refleja las agujas del Catinaccio (Rosengarten en alemán) teñidas de rosa por el alpenglow. La leyenda ladina cuenta que el jardín de rosas encantado del rey Laurino se convirtió allí en piedra, de ahí el nombre del sector de esquí moderno. La estación misma se abre a 1.182 m sobre la carretera que une Val di Fiemme y Val di Fassa, y el dominio König Laurin sube a 2.337 m con unos 40 km de pistas. La mayor parte son azules amplias y rojas suaves con el Latemar a un lado y el Catinaccio al otro, lo que convierte a Carezza en una de las estaciones familiares más fotogénicas de todos los Dolomitas. La red se rehízo con las telecabinas de gran capacidad de Pra di Tori y Paolina, las colas en los remontes son cortas, y el snowpark de Pra di Tori es un clásico para los riders. Como Carezza forma parte del circuito Dolomiti Superski, su forfait le da también Val di Fassa, Val di Fiemme, Obereggen y el resto de la red de 1.200 km. Los pueblos son sudtiroleses, se habla alemán e italiano indistintamente, y la cocina de los refugios lo demuestra: speck, canederli, strudel y una copa de Lagrein en una terraza frente al Rosengarten.",
+      "pt": "Se alguma vez viu uma fotografia dos Dolomitas, é bem provável que tenha sido tirada no lago de Carezza. O pequeno lago descansa a 1.534 m mesmo acima da estância, cercado de larícios e abetos, e ao pôr do sol reflete as agulhas do Catinaccio (Rosengarten em alemão) tingidas de cor-de-rosa pelo alpenglow. A lenda ladina conta que o jardim de rosas encantado do rei Laurino aí se transformou em pedra, daí o nome do setor de esqui moderno. A estância em si abre a 1.182 m sobre a estrada que liga o Val di Fiemme ao Val di Fassa, e o domínio König Laurin sobe aos 2.337 m com cerca de 40 km de pistas. A maioria são azuis largas e vermelhas suaves com o Latemar de um lado e o Catinaccio do outro, o que torna Carezza numa das estâncias familiares mais fotogénicas de todos os Dolomitas. A rede foi refeita com os teleféricos de grande capacidade de Pra di Tori e de Paolina, as filas mantêm-se curtas e o snowpark de Pra di Tori é um clássico para os riders. Como Carezza integra o circuito Dolomiti Superski, o seu forfait dá-lhe também Val di Fassa, Val di Fiemme, Obereggen e o resto da rede de 1.200 km. As localidades são sul-tirolesas, fala-se alemão e italiano indistintamente, e a cozinha dos refúgios mostra-o: speck, canederli, strudel e um copo de Lagrein num terraço de frente para o Rosengarten.",
+      "it": "Se avete mai visto una fotografia delle Dolomiti, c'è buona probabilità che sia stata scattata al Lago di Carezza. Il piccolo lago si trova a 1.534 m appena sopra la località, cinto da larici e abeti rossi, e al tramonto riflette le guglie del Catinaccio (Rosengarten in tedesco) che si accendono di rosa nell'enrosadira. La leggenda ladina racconta che il giardino di rose incantato di re Laurino vi fu trasformato in pietra, e da lì viene il nome del moderno settore sciistico. La località si apre a 1.182 m sulla strada che collega Val di Fiemme e Val di Fassa, e il comprensorio König Laurin arriva a 2.337 m con circa 40 km di piste. La maggior parte sono blu larghe e rosse dolci con il Latemar da una parte e il Catinaccio dall'altra, e questo fa di Carezza una delle località familiari più fotogeniche di tutte le Dolomiti. Gli impianti sono stati rifatti con le cabinovie ad alta portata di Pra di Tori e Paolina, le code restano corte e lo snowpark di Pra di Tori è un classico per i freestyler. Essendo Carezza nel circuito Dolomiti Superski, lo skipass vi dà anche Val di Fassa, Val di Fiemme, Obereggen e il resto della rete di 1.200 km. I paesi sono sudtirolesi, si parla tedesco e italiano indifferentemente, e la cucina dei rifugi lo dice: speck, canederli, strudel e un calice di Lagrein su una terrazza al sole davanti al Rosengarten."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 15,
+      "black": 3
+    }
+  },
+  {
+    "slug": "alleghe-civetta",
+    "name": "Alleghe-Civetta",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.4083,
+    "lng": 12.0083,
+    "altitudeBase": 980,
+    "altitudeSummit": 2100,
+    "pistesKm": 80,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "Properties beside the Funivia Alleghe in the village put you on the cable car to Piani di Pezze in minutes; lodgings up at Piani di Pezze and Pian del Crep are true ski-in/ski-out.",
+      "fr": "Les hébergements près de la Funivia Alleghe au village vous mettent au téléphérique des Piani di Pezze en quelques minutes ; ceux des Piani di Pezze et du Pian del Crep sont en vrai ski-in/ski-out.",
+      "es": "Los alojamientos junto a la Funivia Alleghe en el pueblo le ponen en el teleférico de Piani di Pezze en pocos minutos; los de Piani di Pezze y Pian del Crep son auténtico ski-in/ski-out.",
+      "pt": "Os alojamentos junto à Funivia Alleghe na aldeia colocam-no no teleférico dos Piani di Pezze em poucos minutos; os de Piani di Pezze e do Pian del Crep são verdadeiro ski-in/ski-out.",
+      "it": "Le sistemazioni accanto alla Funivia Alleghe in paese vi mettono sulla funivia dei Piani di Pezze in pochi minuti; quelle in quota a Piani di Pezze e a Pian del Crep sono vero ski-in/ski-out."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 78,
+    "vibes": [
+      "dolomites",
+      "family",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Alleghe sits at 980 m on the lake at the foot of the Civetta wall (3,220 m). Ski Civetta links 80 km of pistes from Alleghe over Col dei Baldi to Selva di Cadore and Zoldo, Dolomiti Superski included.",
+      "fr": "Alleghe s'installe à 980 m au bord de son lac, au pied de la paroi de la Civetta (3 220 m). Le Ski Civetta enchaîne 80 km de pistes d'Alleghe au Col dei Baldi, à Selva di Cadore et au Val di Zoldo, Dolomiti Superski inclus.",
+      "es": "Alleghe se asienta a 980 m a la orilla de su lago al pie de la pared de la Civetta (3.220 m). El Ski Civetta enlaza 80 km de pistas desde Alleghe por el Col dei Baldi hasta Selva di Cadore y Val di Zoldo, Dolomiti Superski incluido.",
+      "pt": "Alleghe instala-se a 980 m à beira do seu lago aos pés da parede da Civetta (3.220 m). O Ski Civetta encadeia 80 km de pistas de Alleghe pelo Col dei Baldi até Selva di Cadore e ao Val di Zoldo, Dolomiti Superski incluído.",
+      "it": "Alleghe si adagia a 980 m sulle rive del suo lago ai piedi della parete della Civetta (3.220 m). Lo Ski Civetta collega 80 km di piste da Alleghe al Col dei Baldi, a Selva di Cadore e al Val di Zoldo, Dolomiti Superski compreso."
+    },
+    "longDescription": {
+      "en": "Alleghe is the Dolomites resort that people in the know keep for themselves. The village sits at 980 m on the shore of the small Lago di Alleghe in the province of Belluno, and straight above it rises the north-west wall of the Civetta, 3,220 m of grey limestone that climbers count among the great faces of the Alps. The cable car from the village lifts you to the Piani di Pezze, and from there the Ski Civetta domain unrolls 80 km of piste and 22 lifts across three slopes: down the Pian di Pezze side back into Alleghe, over the Col dei Baldi shoulder into Selva di Cadore and Pescul, and on into the Val di Zoldo at Pecol. It is one of the longer single ski circuits in the Dolomites, and because Alleghe is on the Dolomiti Superski pass you can also drive a few minutes to Arabba and connect onto the Sellaronda. The pistes are mostly blues and reds threading through larch forest, with a few demanding blacks under the Civetta wall, and the views from the Belvedere terrace down onto the lake are some of the best in the range. Alleghe is Veneto rather than South Tyrol, which means the village feel is Italian first: bell tower, lakeside passeggiata, a few good osterie. It is noticeably quieter and noticeably cheaper than Cortina an hour away, and that is the trade many regulars come for.",
+      "fr": "Alleghe est la station des Dolomites que les habitués gardent pour eux. Le village s'étire à 980 m sur la rive du petit Lago di Alleghe dans la province de Belluno, et juste au-dessus se dresse la face nord-ouest de la Civetta, 3 220 m de calcaire gris que les grimpeurs comptent parmi les grandes parois des Alpes. Le téléphérique partant du village vous emmène aux Piani di Pezze, et de là le domaine Ski Civetta déroule 80 km de pistes et 22 remontées sur trois versants : redescente côté Pian di Pezze sur Alleghe, passage par l'épaule du Col dei Baldi vers Selva di Cadore et Pescul, et basculement sur le Val di Zoldo à Pecol. C'est l'un des plus longs circuits de ski d'un seul tenant des Dolomites, et comme Alleghe est sur le forfait Dolomiti Superski vous pouvez aussi rouler quelques minutes jusqu'à Arabba et embrayer sur le Sellaronda. Les pistes sont surtout des bleues et des rouges qui louvoient dans la mélézaie, avec quelques noires exigeantes sous la paroi de la Civetta, et les vues depuis la terrasse du Belvedere sur le lac figurent parmi les plus belles du massif. Alleghe c'est la Vénétie, pas le Haut-Adige, et le village se vit en italien : campanile, passeggiata au bord de l'eau, quelques bonnes osterie. C'est nettement plus calme et nettement moins cher que Cortina à une heure de là, et c'est ce compromis que viennent chercher les habitués.",
+      "es": "Alleghe es la estación de los Dolomitas que los entendidos se guardan para sí. El pueblo se extiende a 980 m a la orilla del pequeño Lago di Alleghe en la provincia de Belluno, y justo encima se yergue la cara noroeste de la Civetta, 3.220 m de caliza gris que los escaladores cuentan entre las grandes paredes de los Alpes. El teleférico desde el pueblo le sube a los Piani di Pezze, y desde allí el dominio Ski Civetta despliega 80 km de pistas y 22 remontes sobre tres vertientes: bajada por el lado Pian di Pezze hasta Alleghe, paso por el hombro del Col dei Baldi hacia Selva di Cadore y Pescul, y vuelco sobre Val di Zoldo en Pecol. Es uno de los circuitos de esquí más largos de un solo tirón de los Dolomitas, y como Alleghe está en el forfait Dolomiti Superski también puede conducir unos minutos hasta Arabba y enlazar con el Sellaronda. Las pistas son sobre todo azules y rojas que serpentean entre los alerces, con algunas negras exigentes bajo la pared de la Civetta, y las vistas desde la terraza del Belvedere sobre el lago están entre las mejores del macizo. Alleghe es Véneto, no Alto Adigio, y el pueblo se vive en italiano: campanario, passeggiata junto al agua, alguna buena osteria. Es claramente más tranquilo y claramente más barato que Cortina a una hora, y ese es el compromiso al que vienen los habituales.",
+      "pt": "Alleghe é a estância dos Dolomitas que os entendidos guardam para si. A aldeia estende-se a 980 m na margem do pequeno Lago di Alleghe na província de Belluno, e logo acima ergue-se a face noroeste da Civetta, 3.220 m de calcário cinzento que os escaladores contam entre as grandes paredes dos Alpes. O teleférico a partir da aldeia leva-o aos Piani di Pezze, e dali o domínio Ski Civetta desdobra 80 km de pistas e 22 teleféricos por três vertentes: descida pelo lado Pian di Pezze até Alleghe, passagem pelo ombro do Col dei Baldi até Selva di Cadore e Pescul, e basculamento sobre o Val di Zoldo em Pecol. É um dos circuitos de esqui mais longos sem interrupção dos Dolomitas, e como Alleghe está no forfait Dolomiti Superski também pode conduzir uns minutos até Arabba e ligar ao Sellaronda. As pistas são sobretudo azuis e vermelhas que serpenteiam entre os larícios, com algumas pretas exigentes sob a parede da Civetta, e as vistas desde o terraço do Belvedere sobre o lago estão entre as melhores do maciço. Alleghe é Veneto, não Alto Adige, e a aldeia vive-se em italiano: campanário, passeggiata à beira de água, algumas boas osterie. É claramente mais calma e claramente mais barata do que Cortina a uma hora, e é esse compromisso que os habituais vêm procurar.",
+      "it": "Alleghe è la località delle Dolomiti che chi se ne intende si tiene per sé. Il paese si distende a 980 m sulla riva del piccolo Lago di Alleghe nel Bellunese, e proprio sopra si alza la parete nord-ovest della Civetta, 3.220 m di calcare grigio che gli alpinisti annoverano fra le grandi pareti delle Alpi. La funivia dal paese vi porta ai Piani di Pezze, e da lì il comprensorio Ski Civetta srotola 80 km di piste e 22 impianti su tre versanti: discesa lato Pian di Pezze fino ad Alleghe, passaggio per la spalla del Col dei Baldi verso Selva di Cadore e Pescul, e ribaltamento sul Val di Zoldo a Pecol. È uno dei caroselli più lunghi senza interruzione delle Dolomiti, e siccome Alleghe è sul Dolomiti Superski potete anche guidare pochi minuti fino ad Arabba e attaccare il Sellaronda. Le piste sono soprattutto blu e rosse che si snodano nel lariceto, con qualche nera impegnativa sotto la parete della Civetta, e i panorami dalla terrazza del Belvedere sul lago restano fra i più belli del gruppo. Alleghe è Veneto, non Alto Adige, e il paese si vive in italiano: campanile, passeggiata sul lago, qualche buona osteria. È nettamente più tranquilla e nettamente meno cara di Cortina a un'ora di distanza, ed è proprio questo compromesso che chi torna ogni anno viene a cercare."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 30,
+      "red": 25,
+      "black": 5
+    }
+  },
+  {
+    "slug": "marmolada-malga-ciapela",
+    "name": "Marmolada-Malga Ciapela",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.45,
+    "lng": 11.8639,
+    "altitudeBase": 1450,
+    "altitudeSummit": 3270,
+    "pistesKm": 25,
+    "lifts": 5,
+    "skiInSkiOutNote": {
+      "en": "Hotels at Malga Ciapela sit directly at the cable car base; Sottoguda and Rocca Pietore properties rely on the short ski-bus to Malga Ciapela.",
+      "fr": "Les hôtels de Malga Ciapela sont directement au pied du téléphérique ; ceux de Sottoguda et Rocca Pietore dépendent du court ski-bus jusqu'à Malga Ciapela.",
+      "es": "Los hoteles de Malga Ciapela están justo al pie del teleférico; los de Sottoguda y Rocca Pietore dependen del corto ski-bus hasta Malga Ciapela.",
+      "pt": "Os hotéis de Malga Ciapela ficam mesmo aos pés do teleférico; os de Sottoguda e Rocca Pietore dependem do curto ski-bus até Malga Ciapela.",
+      "it": "Gli alberghi a Malga Ciapela sono proprio alla base della funivia; quelli di Sottoguda e Rocca Pietore dipendono dal breve ski-bus per Malga Ciapela."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 84,
+    "vibes": [
+      "glacier",
+      "panoramic",
+      "dolomites",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "The Marmolada (3,343 m) is the Queen of the Dolomites, the only glaciated peak in the range. The cable car from Malga Ciapela at 1,450 m lifts you to Punta Rocca at 3,270 m for the 7 km Bellunese descent.",
+      "fr": "La Marmolada (3 343 m) est la Reine des Dolomites, l'unique sommet englacé du massif. Le téléphérique part de Malga Ciapela à 1 450 m et monte à la Punta Rocca à 3 270 m pour les 7 km de la Bellunese.",
+      "es": "La Marmolada (3.343 m) es la Reina de los Dolomitas, la única cumbre con glaciar del macizo. El teleférico parte de Malga Ciapela a 1.450 m y sube hasta Punta Rocca a 3.270 m para los 7 km de la Bellunese.",
+      "pt": "A Marmolada (3.343 m) é a Rainha dos Dolomitas, o único cume glaciar do maciço. O teleférico parte de Malga Ciapela a 1.450 m e sobe até à Punta Rocca a 3.270 m para os 7 km da Bellunese.",
+      "it": "La Marmolada (3.343 m) è la Regina delle Dolomiti, l'unica vetta glacializzata del gruppo. La funivia parte da Malga Ciapela a 1.450 m e sale a Punta Rocca a 3.270 m per i 7 km della Bellunese."
+    },
+    "longDescription": {
+      "en": "There is one ski run in the Dolomites that everyone with a season in their legs talks about, and it is this one. The Marmolada is the highest peak of the range at 3,343 m, the only one that still carries a glacier, and the cable car system from Malga Ciapela climbs in three pitches from 1,450 m to Punta Rocca at 3,270 m. What you do from there is the Bellunese, a 7 km descent of more than 1,800 m of vertical that drops you straight back to base. The top section runs across the glacier with the Sella, the Sassolungo and the Tofane all turning around you, then breaks into a long bowl of red and blue piste before the final cruise through the larches to Malga Ciapela. It is snow-sure into late April thanks to the altitude and the glacier, which is why Marmolada is one of the most reliable Dolomites resorts at the shoulders of the season. The Dolomiti Superski pass works here, and a short connection over the Fedaia pass and onto the lifts at Arabba puts you onto the Sellaronda circuit. The resort is not Cortina, not Arabba, not a place where you stroll boutiques at the bottom of the lifts; Malga Ciapela is essentially the cable car base, a handful of hotels and ski hire, and the historical area is at Sottoguda below in the canyon. People come here to ski one of the great descents of the Alps and then go home, and that is exactly the point.",
+      "fr": "Il y a une descente des Dolomites dont parlent tous ceux qui ont fait une saison dans les jambes, et c'est celle-ci. La Marmolada est le plus haut sommet du massif à 3 343 m, le seul qui porte encore un glacier, et le téléphérique part de Malga Ciapela en trois tronçons de 1 450 m à la Punta Rocca à 3 270 m. Ce que l'on y fait c'est la Bellunese, 7 km et plus de 1 800 m de dénivelé qui vous ramènent d'une traite au pied des pistes. La section haute traverse le glacier avec le Sella, le Sassolungo et les Tofane qui tournent autour de vous, puis bascule dans un grand cirque rouge et bleu avant le retour final dans les mélèzes vers Malga Ciapela. La neige tient jusqu'à fin avril grâce à l'altitude et au glacier, ce qui fait de la Marmolada l'une des stations dolomitiques les plus fiables aux deux extrémités de la saison. Le forfait Dolomiti Superski fonctionne ici, et une courte liaison par le col du Fedaia avec les remontées d'Arabba vous met sur le circuit du Sellaronda. La station n'est ni Cortina ni Arabba, ce n'est pas un endroit où l'on flâne en boutiques au pied des pistes ; Malga Ciapela c'est pour l'essentiel le bas du téléphérique, une poignée d'hôtels et la location de matériel, le centre historique se trouve à Sottoguda en contrebas dans le canyon. On vient ici pour skier l'une des grandes descentes des Alpes et puis on rentre, et c'est tout l'intérêt.",
+      "es": "Hay una bajada de los Dolomitas de la que hablan todos los que se han hecho una temporada en las piernas, y es esta. La Marmolada es la cumbre más alta del macizo a 3.343 m, la única que aún lleva glaciar, y el teleférico arranca en Malga Ciapela en tres tramos de 1.450 m hasta la Punta Rocca a 3.270 m. Lo que se hace allí arriba es la Bellunese, 7 km y más de 1.800 m de desnivel que le devuelven de un tirón al pie de las pistas. La sección alta cruza el glaciar con el Sella, el Sassolungo y las Tofane girando a su alrededor, luego bascula a un gran circo rojo y azul antes de la vuelta final entre alerces hasta Malga Ciapela. La nieve aguanta hasta finales de abril gracias a la altitud y al glaciar, lo que convierte a la Marmolada en una de las estaciones dolomíticas más fiables a los dos extremos de la temporada. El forfait Dolomiti Superski funciona aquí, y un breve enlace por el paso del Fedaia con los remontes de Arabba le pone en el circuito del Sellaronda. La estación no es Cortina ni Arabba, no es un lugar donde se pasee por boutiques al pie de las pistas; Malga Ciapela es esencialmente la base del teleférico, un puñado de hoteles y alquiler de material, el casco histórico está en Sottoguda más abajo en el cañón. Se viene aquí a esquiar una de las grandes bajadas de los Alpes y luego se vuelve a casa, y de eso se trata.",
+      "pt": "Há uma descida dos Dolomitas de que falam todos os que têm uma temporada nas pernas, e é esta. A Marmolada é o cume mais alto do maciço a 3.343 m, o único que ainda traz glaciar, e o teleférico arranca em Malga Ciapela em três troços dos 1.450 m até à Punta Rocca a 3.270 m. O que ali se faz é a Bellunese, 7 km e mais de 1.800 m de desnível que o devolvem de uma só vez aos pés das pistas. A parte alta atravessa o glaciar com o Sella, o Sassolungo e as Tofane a girar à sua volta, depois bascula para um grande circo vermelho e azul antes do regresso final entre larícios até Malga Ciapela. A neve aguenta até finais de abril graças à altitude e ao glaciar, o que faz da Marmolada uma das estâncias dolomíticas mais fiáveis nas duas extremidades da temporada. O forfait Dolomiti Superski funciona aqui, e uma curta ligação pelo Passo Fedaia com os teleféricos de Arabba coloca-o no circuito do Sellaronda. A estância não é Cortina nem Arabba, não é um lugar para passear por boutiques aos pés das pistas; Malga Ciapela é essencialmente a base do teleférico, um punhado de hotéis e o aluguer de material, o centro histórico fica em Sottoguda mais abaixo no desfiladeiro. Vem-se cá esquiar uma das grandes descidas dos Alpes e depois volta-se a casa, e é precisamente esse o ponto.",
+      "it": "C'è una discesa delle Dolomiti di cui parlano tutti quelli che si sono fatti una stagione nelle gambe, ed è questa. La Marmolada è la vetta più alta del gruppo a 3.343 m, l'unica che porta ancora un ghiacciaio, e la funivia parte da Malga Ciapela in tre tronchi da 1.450 m fino a Punta Rocca a 3.270 m. Quello che si fa lassù è la Bellunese, 7 km e più di 1.800 m di dislivello che vi riportano di filato a fondovalle. Il primo tratto attraversa il ghiacciaio con il Sella, il Sassolungo e le Tofane che ruotano attorno a voi, poi ribalta in un grande catino di rosse e blu prima del rientro finale nei lariceti verso Malga Ciapela. La neve regge fino a fine aprile grazie alla quota e al ghiacciaio, e per questo la Marmolada è una delle località dolomitiche più affidabili nelle code di stagione. Lo skipass Dolomiti Superski vale qui, e un breve collegamento per il Passo Fedaia con gli impianti di Arabba vi mette sul Sellaronda. La località non è Cortina, non è Arabba, non è il posto dove si passeggia tra boutique a piè di pista; Malga Ciapela è in sostanza la base della funivia, una manciata di alberghi e il noleggio, il centro storico è giù a Sottoguda nel canyon. Si viene qui per sciare una delle grandi discese delle Alpi e poi si torna a casa, ed è proprio questo il punto."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 8,
+      "red": 10,
+      "black": 5
+    }
+  },
+  {
+    "slug": "solda",
+    "name": "Solda",
+    "country": "Italy",
+    "countryCode": "IT",
+    "flag": "🇮🇹",
+    "region": "Italian Alps",
+    "lat": 46.5217,
+    "lng": 10.5872,
+    "altitudeBase": 1900,
+    "altitudeSummit": 3250,
+    "pistesKm": 44,
+    "lifts": 9,
+    "skiInSkiOutNote": {
+      "en": "Hotels along the village road sit a short walk or ski from the Langenstein, Sulden and Schöntauf gondola stations; properties near the cable car base in the upper village are true ski-in/ski-out.",
+      "fr": "Les hôtels le long de la route du village sont à quelques pas ou à ski des télécabines de Langenstein, Sulden et Schöntauf ; ceux du haut du village près de la gare de départ sont en vrai ski-in/ski-out.",
+      "es": "Los hoteles a lo largo de la carretera del pueblo quedan a un corto paseo o esquí de las telecabinas de Langenstein, Sulden y Schöntauf; los de la parte alta del pueblo junto al teleférico son auténtico ski-in/ski-out.",
+      "pt": "Os hotéis ao longo da estrada da aldeia ficam a uma curta caminhada ou ski dos teleféricos de Langenstein, Sulden e Schöntauf; os da parte alta da aldeia junto à base do teleférico são verdadeiro ski-in/ski-out.",
+      "it": "Gli alberghi lungo la strada del paese sono a pochi passi o a sci dalle cabinovie Langenstein, Sulden e Schöntauf; quelli nella parte alta della località vicino alla stazione di valle sono vero ski-in/ski-out."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "May 4",
+    "snowScore": 86,
+    "vibes": [
+      "glacier",
+      "snow-sure",
+      "panoramic",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Solda (Sulden in German) sits at 1,900 m in the Stelvio National Park at the foot of the Ortler (3,905 m). Forty-four km of north-facing piste reaching 3,250 m, and skiing into May most years.",
+      "fr": "Solda (Sulden en allemand) repose à 1 900 m dans le parc national du Stelvio au pied de l'Ortles (3 905 m). Quarante-quatre km de pistes orientées nord qui montent à 3 250 m, et du ski jusqu'en mai la plupart des saisons.",
+      "es": "Solda (Sulden en alemán) descansa a 1.900 m en el parque nacional del Stelvio al pie del Ortles (3.905 m). Cuarenta y cuatro km de pistas orientadas al norte que suben a 3.250 m, y esquí hasta mayo la mayoría de las temporadas.",
+      "pt": "Solda (Sulden em alemão) descansa a 1.900 m no parque nacional do Stelvio aos pés do Ortles (3.905 m). Quarenta e quatro km de pistas viradas a norte que sobem a 3.250 m, e esqui até maio na maioria das temporadas.",
+      "it": "Solda (Sulden in tedesco) si trova a 1.900 m nel Parco Nazionale dello Stelvio ai piedi dell'Ortles (3.905 m). Quarantaquattro km di piste esposte a nord che salgono a 3.250 m, e si scia fino a maggio nella maggior parte degli anni."
+    },
+    "longDescription": {
+      "en": "Solda is high, very high. The hamlet sits at 1,900 m at the head of its glacial valley inside the Stelvio National Park, and it looks straight up at the Ortler at 3,905 m, the highest peak of the entire eastern Alps. The skiing climbs onto the Madritsch, Schöntauf and Rosim sector with a top station at 3,250 m, north-facing all day, which is why the resort still holds its snow when half of the Dolomites have closed for the season. Forty-four km of piste is enough variety, and the layout suits strong intermediates: long fast reds across the high carving terrain, a few short genuine blacks like the Marlet, plenty of easy blues at altitude, and gentle home runs to the village. Off the piste the freeride lines under the Madritsch and the Schöntauf are seriously good, and ski touring up into the Ortler group is one of the great spring projects of the Alps. Culturally Solda is South Tyrol: German is the first language, Italian comes second, the architecture is Tyrolean wood and white plaster, and the menus run to schlutzkrapfen, kaiserschmarrn and apfelstrudel rather than pasta. Reinhold Messner grew up in Funes nearby and one of his MMM Mountain Museums sits just down the road in Sulden, with a viewing platform on the Ortler. Quiet during the week, snow-sure on the dates when most other resorts gamble, and Italian only by passport.",
+      "fr": "Solda est en altitude, vraiment en altitude. Le hameau s'installe à 1 900 m en tête de sa vallée glaciaire à l'intérieur du parc national du Stelvio, et regarde droit en haut l'Ortles à 3 905 m, le plus haut sommet des Alpes orientales. Le ski monte sur le secteur Madritsch-Schöntauf-Rosim avec un point haut à 3 250 m, exposé nord toute la journée, et c'est pour cela que la station tient sa neige quand la moitié des Dolomites ont fermé. Quarante-quatre km de pistes c'est suffisant pour varier, et le tracé convient bien aux bons intermédiaires : longues rouges rapides en carving sur les hauts, quelques noires courtes mais sérieuses comme la Marlet, beaucoup de bleues faciles en altitude, et des retours stations doux jusqu'au village. Hors piste les itinéraires freeride sous le Madritsch et le Schöntauf sont franchement bons, et le ski de randonnée vers le massif de l'Ortles est l'un des grands projets de printemps des Alpes. Culturellement Solda c'est le Haut-Adige : l'allemand est la première langue, l'italien la seconde, l'architecture est tyrolienne en bois et crépi blanc, et les menus tournent autour des schlutzkrapfen, du kaiserschmarrn et de l'apfelstrudel plutôt que des pâtes. Reinhold Messner a grandi à Funes tout près, et l'un de ses MMM Mountain Museums se trouve à Sulden, juste en bas, avec une plateforme de vue sur l'Ortles. Calme en semaine, sûr pour la neige aux dates où les autres stations jouent gros, et italien seulement par le passeport.",
+      "es": "Solda está en altura, mucha altura. El caserío se asienta a 1.900 m en la cabecera de su valle glaciar dentro del parque nacional del Stelvio, y mira justo arriba al Ortles a 3.905 m, la cumbre más alta de los Alpes orientales. El esquí sube al sector Madritsch-Schöntauf-Rosim con cota máxima a 3.250 m, orientado al norte todo el día, y por eso la estación mantiene la nieve cuando la mitad de los Dolomitas han cerrado. Cuarenta y cuatro km de pistas dan variedad suficiente, y el trazado conviene a los buenos intermedios: largas rojas rápidas en carving por arriba, alguna negra corta pero seria como la Marlet, muchas azules fáciles en altitud, y bajadas a estación suaves hasta el pueblo. Fuera de pista los itinerarios freeride bajo el Madritsch y el Schöntauf son francamente buenos, y el esquí de montaña hacia el grupo del Ortles es uno de los grandes proyectos de primavera de los Alpes. Culturalmente Solda es Alto Adigio: el alemán es la primera lengua, el italiano la segunda, la arquitectura es tirolesa de madera y revoco blanco, y las cartas giran en torno a schlutzkrapfen, kaiserschmarrn y apfelstrudel más que a pasta. Reinhold Messner creció en Funes muy cerca, y uno de sus MMM Mountain Museum está en Sulden, justo más abajo, con una plataforma con vistas al Ortles. Tranquilo entre semana, seguro de nieve en fechas en las que otras estaciones se la juegan, e italiano solo por pasaporte.",
+      "pt": "Solda está em altitude, em verdadeira altitude. A aldeia instala-se a 1.900 m na cabeceira do seu vale glaciar dentro do parque nacional do Stelvio, e olha mesmo para cima o Ortles a 3.905 m, o cume mais alto dos Alpes orientais. O esqui sobe ao setor Madritsch-Schöntauf-Rosim com cota máxima a 3.250 m, virado a norte todo o dia, e por isso a estância segura a neve quando metade dos Dolomitas já fechou. Quarenta e quatro km de pistas dão variedade suficiente, e o traçado convém aos bons intermédios: vermelhas longas e rápidas em carving lá em cima, alguma preta curta mas séria como a Marlet, muitas azuis fáceis em altitude, e regressos suaves à aldeia. Fora de pista, os itinerários freeride sob o Madritsch e o Schöntauf são francamente bons, e o esqui de montanha para o grupo do Ortles é um dos grandes projetos de primavera dos Alpes. Culturalmente Solda é Alto Adige: o alemão é a primeira língua, o italiano a segunda, a arquitetura é tirolesa de madeira e reboco branco, e as ementas giram em torno de schlutzkrapfen, kaiserschmarrn e apfelstrudel mais do que de massa. Reinhold Messner cresceu em Funes mesmo perto, e um dos seus MMM Mountain Museum fica em Sulden, mesmo abaixo, com uma plataforma com vista para o Ortles. Tranquilo durante a semana, seguro de neve em datas em que outras estâncias jogam alto, e italiano apenas por passaporte.",
+      "it": "Solda è in quota, davvero in quota. La frazione si stende a 1.900 m alla testata della sua valle glaciale dentro il Parco Nazionale dello Stelvio, e guarda dritta in alto l'Ortles a 3.905 m, la vetta più alta dell'intero arco alpino orientale. La sciata sale sul settore Madritsch-Schöntauf-Rosim con punto più alto a 3.250 m, esposto a nord tutto il giorno, ed è per questo che la località tiene la neve quando metà delle Dolomiti ha già chiuso. Quarantaquattro km di piste bastano per variare, e il tracciato è fatto per i buoni intermedi: lunghe rosse veloci da carving in quota, qualche nera corta ma vera come la Marlet, molte blu facili in alta quota e rientri morbidi fino in paese. Il fuori pista sotto il Madritsch e lo Schöntauf è francamente buono, e lo scialpinismo nel gruppo dell'Ortles è uno dei grandi progetti di primavera delle Alpi. Culturalmente Solda è Alto Adige: il tedesco è la prima lingua, l'italiano la seconda, l'architettura è tirolese di legno e intonaco bianco, e i menù vanno sugli schlutzkrapfen, sul kaiserschmarrn e sull'apfelstrudel più che sulla pasta. Reinhold Messner è cresciuto a Funes qui vicino, e uno dei suoi MMM Mountain Museum è proprio a Sulden, poco più in basso, con una piattaforma panoramica sull'Ortles. Tranquilla in settimana, sicura sulla neve nelle date in cui altre località se la giocano, e italiana solo per passaporto."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 20,
+      "black": 8
+    }
+  },
+  {
+    "slug": "hochzeiger",
+    "name": "Hochzeiger",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.1903,
+    "lng": 10.8839,
+    "altitudeBase": 1450,
+    "altitudeSummit": 2450,
+    "pistesKm": 55,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "True ski-in ski-out is limited at Hochzeiger. The lift base sits at Liss, just outside Jerzens, and most of the village requires a short shuttle or drive to reach the gondola. A handful of mountain restaurants and the Hochzeigerhaus offer slope-side access at altitude.",
+      "fr": "Le vrai ski-in ski-out est limité à Hochzeiger. Le pied des remontées se trouve à Liss, juste à l'extérieur de Jerzens, et la plupart du village impose une navette courte ou la voiture pour rejoindre la télécabine. Quelques restaurants d'altitude et la Hochzeigerhaus offrent un accès aux pistes en hauteur.",
+      "es": "El verdadero ski-in ski-out es limitado en Hochzeiger. La base de remontes está en Liss, justo a las afueras de Jerzens, y la mayor parte del pueblo requiere un breve traslado o el coche para llegar a la telecabina. Algunos restaurantes de montaña y la Hochzeigerhaus ofrecen acceso directo a pistas en altura.",
+      "pt": "O verdadeiro ski-in ski-out é limitado em Hochzeiger. A base dos teleféricos fica em Liss, mesmo à saída de Jerzens, e a maior parte da aldeia obriga a um curto transfer ou ao carro para chegar ao telecabine. Alguns restaurantes de montanha e a Hochzeigerhaus oferecem acesso direto às pistas em altitude.",
+      "it": "Il vero ski-in ski-out è limitato a Hochzeiger. La partenza degli impianti è a Liss, appena fuori Jerzens, e gran parte del paese richiede una breve navetta o l'auto per raggiungere la cabinovia. Alcuni rifugi d'alta quota e la Hochzeigerhaus offrono accesso diretto alle piste in quota."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "panoramic",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Hochzeiger sits above Jerzens in the Pitztal, a 55 km family ski area between 1,450 m and 2,450 m with one of Tirol's friendliest children's offers.",
+      "fr": "Hochzeiger domine Jerzens dans le Pitztal, station familiale de 55 km de pistes entre 1 450 m et 2 450 m avec l'une des plus belles offres enfants du Tyrol.",
+      "es": "Hochzeiger se alza sobre Jerzens en el Pitztal, una estación familiar con 55 km de pistas entre 1.450 m y 2.450 m y una de las mejores ofertas infantiles del Tirol.",
+      "pt": "Hochzeiger ergue-se sobre Jerzens, no Pitztal, uma estância familiar com 55 km de pistas entre 1.450 m e 2.450 m e uma das melhores ofertas para crianças do Tirol.",
+      "it": "Hochzeiger sovrasta Jerzens in Pitztal, una località familiare con 55 km di piste tra 1.450 m e 2.450 m e una delle migliori proposte per i bambini del Tirolo."
+    },
+    "longDescription": {
+      "en": "Pitztal locals will tell you Hochzeiger is the valley's open secret: snow-sure thanks to a generous north-facing aspect, with wide intermediate cruisers that fan out from the Sechszeigerbahn and quiet blue corners tucked behind the Hochzeigerhaus. The children's offer is the real signature here, with the dedicated kids' area at mid-mountain run by patient Tirolean instructors who genuinely seem to enjoy the job. Eighteen blue pistes mean confident beginners can roam the full lift network by day three, while five blacks off the upper Zeigerjoch keep stronger skiers honest. Run out of terrain and the Pitztal glacier sits forty minutes further up the valley for a late-season day trip on Austria's highest snow. Jerzens itself stays refreshingly low-key, a working Tirolean village with a handful of warm Gasthof options and almost none of the apres noise of the better-known neighbours.",
+      "fr": "Les locaux du Pitztal vous le diront, Hochzeiger est le secret bien gardé de la vallée: enneigement fiable grâce à une exposition nord généreuse, larges pistes intermédiaires qui se déploient depuis la Sechszeigerbahn et coins bleus tranquilles cachés derrière la Hochzeigerhaus. La grande signature reste l'offre enfants, avec un espace dédié en mi-montagne encadré par des moniteurs tyroliens patients qui ont l'air d'aimer leur métier. Les dix-huit pistes bleues laissent les débutants confirmés explorer tout le réseau de remontées dès le troisième jour, tandis que cinq noires du Zeigerjoch supérieur tiennent les bons skieurs en haleine. Quand le domaine devient trop étroit, le glacier du Pitztal n'est qu'à quarante minutes plus haut dans la vallée pour une journée de fin de saison sur la plus haute neige d'Autriche. Jerzens reste rafraîchissant de simplicité, vrai village tyrolien avec quelques Gasthof chaleureux et presque rien du tapage après-ski des voisins plus célèbres.",
+      "es": "Los locales del Pitztal lo dicen claro: Hochzeiger es el secreto del valle. Nieve segura gracias a una orientación norte generosa, anchas pistas intermedias que se abren desde el Sechszeigerbahn y rincones azules tranquilos escondidos tras la Hochzeigerhaus. La verdadera firma es la oferta infantil, con un espacio dedicado a media montaña dirigido por monitores tiroleses pacientes que parecen disfrutar de verdad. Las dieciocho pistas azules permiten a los principiantes con soltura recorrer toda la red de remontes al tercer día, mientras cinco negras del Zeigerjoch superior mantienen alerta a los esquiadores más fuertes. Cuando el dominio se queda corto, el glaciar del Pitztal está cuarenta minutos valle arriba para una jornada de final de temporada sobre la nieve más alta de Austria. Jerzens conserva un aire refrescante de pueblo tirolés auténtico, con un puñado de Gasthof cálidos y casi nada del bullicio après-ski de los vecinos más famosos.",
+      "pt": "Quem conhece o Pitztal sabe: Hochzeiger é o segredo do vale. Neve garantida pela exposição norte generosa, largas pistas intermédias que se abrem a partir do Sechszeigerbahn e cantos azuis tranquilos escondidos atrás da Hochzeigerhaus. A grande marca da estância é mesmo a oferta infantil, com uma área dedicada a meio da montanha dirigida por monitores tiroleses pacientes que parecem gostar verdadeiramente do que fazem. As dezoito pistas azuis permitem aos principiantes confiantes percorrer toda a rede de teleféricos ao terceiro dia, enquanto cinco negras a partir do Zeigerjoch superior mantêm os esquiadores mais fortes em ato de atenção. Quando o domínio fica curto, o glaciar do Pitztal está a quarenta minutos vale acima para um dia de fim de temporada na neve mais alta da Áustria. Jerzens mantém-se refrescantemente discreta, autêntica aldeia tirolesa com alguns Gasthof acolhedores e quase nada do barulho après-ski das vizinhas mais conhecidas.",
+      "it": "Chi vive in Pitztal lo dice senza giri di parole: Hochzeiger è il segreto della valle. Innevamento sicuro grazie a una generosa esposizione a nord, ampie piste intermedie che si aprono dalla Sechszeigerbahn e angoli blu tranquilli nascosti dietro la Hochzeigerhaus. La vera firma resta l'offerta per i bambini, con un'area dedicata a metà montagna gestita da maestri tirolesi pazienti che sembrano davvero amare il proprio mestiere. Le diciotto piste blu permettono ai principianti sicuri di girare tutta la rete di impianti già al terzo giorno, mentre cinque nere dallo Zeigerjoch alto tengono in allenamento gli sciatori più forti. Quando il comprensorio sta stretto, il ghiacciaio del Pitztal è quaranta minuti più in alto nella valle per una giornata di fine stagione sulla neve più alta d'Austria. Jerzens resta una località tirolese di lavoro, con qualche Gasthof caldo e quasi nessuno del rumore après dei vicini più chiassosi."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 18,
+      "red": 20,
+      "black": 5
+    }
+  },
+  {
+    "slug": "moelltaler-gletscher",
+    "name": "Mölltaler Gletscher",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.0667,
+    "lng": 13.2167,
+    "altitudeBase": 1200,
+    "altitudeSummit": 3122,
+    "pistesKm": 17,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "There is no ski-in ski-out in the conventional sense at Mölltaler Gletscher. The funicular base sits at 1,200 m near Flattach and lodgings cluster in the valley, with a free ski bus running to the station each morning. Accommodation on the glacier itself is limited to the Schareckstüberl mountain hut at altitude.",
+      "fr": "Il n'y a pas de ski-in ski-out au sens classique au Mölltaler Gletscher. La gare du funiculaire se trouve à 1 200 m près de Flattach et les hébergements se regroupent dans la vallée, avec une navette ski gratuite qui rejoint la station chaque matin. L'hébergement sur le glacier même se limite au refuge Schareckstüberl en altitude.",
+      "es": "No existe ski-in ski-out en el sentido clásico en el Mölltaler Gletscher. La base del funicular está a 1.200 m cerca de Flattach y los alojamientos se concentran en el valle, con un autobús de esquí gratuito que enlaza con la estación cada mañana. El alojamiento sobre el propio glaciar se limita al refugio Schareckstüberl en altitud.",
+      "pt": "Não existe ski-in ski-out no sentido clássico no Mölltaler Gletscher. A base do funicular fica aos 1.200 m, perto de Flattach, e os alojamentos concentram-se no vale, com um autocarro de esqui gratuito a fazer ligação à estância todas as manhãs. O alojamento no próprio glaciar resume-se ao refúgio Schareckstüberl, em altitude.",
+      "it": "Non esiste un vero ski-in ski-out al Mölltaler Gletscher. La base della funicolare è a 1.200 m vicino a Flattach e gli alloggi si concentrano in fondovalle, con un bus sci gratuito che collega alla località ogni mattina. La sistemazione sul ghiacciaio stesso si limita al rifugio Schareckstüberl in quota."
+    },
+    "seasonStart": "Sep 26",
+    "seasonEnd": "May 4",
+    "snowScore": 88,
+    "vibes": [
+      "glacier",
+      "snow-sure",
+      "summer-ski",
+      "racing"
+    ],
+    "intro": {
+      "en": "The Mölltaler Gletscher rises above Flattach in Carinthia, an underground funicular climbing from 1,200 m to the Schareck-Wurtenkees at 3,122 m for 17 km of year-round snow.",
+      "fr": "Le Mölltaler Gletscher domine Flattach en Carinthie, funiculaire souterrain qui grimpe de 1 200 m au Schareck-Wurtenkees à 3 122 m pour 17 km de neige toute l'année.",
+      "es": "El Mölltaler Gletscher se alza sobre Flattach en Carintia, con un funicular subterráneo que sube desde los 1.200 m hasta el Schareck-Wurtenkees a 3.122 m y 17 km de nieve todo el año.",
+      "pt": "O Mölltaler Gletscher ergue-se sobre Flattach, na Caríntia, com um funicular subterrâneo que sobe dos 1.200 m até ao Schareck-Wurtenkees, a 3.122 m, e 17 km de neve durante todo o ano.",
+      "it": "Il Mölltaler Gletscher sovrasta Flattach in Carinzia, una funicolare sotterranea sale dai 1.200 m allo Schareck-Wurtenkees a 3.122 m per 17 km di neve tutto l'anno."
+    },
+    "longDescription": {
+      "en": "Few Austrian ski areas have a more distinctive arrival than the Mölltaler Gletscher: the access funicular is buried inside the mountain, a six-minute ride through the rock from the valley floor at Flattach to the Eisseebahn mid-station, where the daylight suddenly returns at well over two thousand metres. From there a fast gondola lifts you onto the Schareck-Wurtenkees itself, broad blue glacier rollers in the morning, harder reds and a few honest blacks once the snow firms up. Seventeen kilometres of piste is modest on paper, but the season runs from late September to May and national racing teams have been training here since the lifts open in autumn, which tells you most of what you need to know about the snow quality. Flattach down in the Mölltal stays a quiet Carinthian village, southern-facing valley life rather than Tirol's lacquered chalets. One of Austria's most underrated glaciers, and one of its quietest.",
+      "fr": "Peu de stations autrichiennes proposent une arrivée aussi singulière que le Mölltaler Gletscher: le funiculaire d'accès est enterré dans la montagne, six minutes à travers la roche depuis le fond de vallée à Flattach jusqu'à la station intermédiaire de l'Eisseebahn, où la lumière du jour réapparaît brutalement à plus de deux mille mètres. De là, une télécabine rapide vous hisse sur le Schareck-Wurtenkees lui-même, larges rouleaux bleus de glacier le matin, rouges plus mordantes et quelques noires honnêtes une fois la neige durcie. Dix-sept kilomètres de pistes paraissent modestes sur le papier, mais la saison court de fin septembre à mai et les équipes nationales de course y font leur préparation dès l'ouverture automnale, ce qui en dit long sur la qualité de la neige. Flattach, en bas dans le Mölltal, reste un village carinthien calme, vie de vallée exposée au sud plutôt que chalets vernis du Tyrol. L'un des glaciers les plus sous-estimés d'Autriche, et l'un des plus silencieux.",
+      "es": "Pocas estaciones austriacas tienen una llegada tan singular como el Mölltaler Gletscher: el funicular de acceso está enterrado en la montaña, seis minutos a través de la roca desde el fondo del valle en Flattach hasta la estación intermedia del Eisseebahn, donde la luz del día vuelve de golpe a más de dos mil metros. Desde allí una telecabina rápida te lleva al propio Schareck-Wurtenkees, anchas pistas azules de glaciar por la mañana, rojas más exigentes y algunas negras serias cuando la nieve endurece. Diecisiete kilómetros de pistas parecen modestos sobre el papel, pero la temporada va de finales de septiembre a mayo y los equipos nacionales de competición entrenan aquí desde la apertura otoñal, lo que dice todo sobre la calidad de la nieve. Flattach, abajo en el Mölltal, sigue siendo un pueblo carintio tranquilo, vida de valle orientado al sur en vez de chalets barnizados del Tirol. Uno de los glaciares más infravalorados de Austria, y uno de los más silenciosos.",
+      "pt": "Poucas estâncias austríacas têm uma chegada tão singular como o Mölltaler Gletscher: o funicular de acesso está enterrado dentro da montanha, seis minutos através da rocha desde o fundo do vale, em Flattach, até à estação intermédia do Eisseebahn, onde a luz do dia regressa de repente a mais de dois mil metros. Dali um telecabine rápido leva-o ao próprio Schareck-Wurtenkees, largas pistas azuis de glaciar pela manhã, vermelhas mais exigentes e algumas negras a sério quando a neve endurece. Dezassete quilómetros de pistas parecem modestos no papel, mas a temporada vai de finais de setembro a maio e as seleções nacionais de competição treinam cá desde a abertura outonal, o que diz tudo sobre a qualidade da neve. Flattach, lá em baixo no Mölltal, continua a ser uma aldeia caríntia tranquila, vida de vale virado a sul em vez de chalés envernizados do Tirol. Um dos glaciares mais subvalorizados da Áustria, e dos mais silenciosos.",
+      "it": "Poche località austriache hanno un arrivo così singolare come il Mölltaler Gletscher: la funicolare d'accesso è scavata nella montagna, sei minuti dentro la roccia dal fondovalle di Flattach fino alla stazione intermedia dell'Eisseebahn, dove la luce del giorno torna all'improvviso ben oltre i duemila metri di quota. Da lì una cabinovia veloce ti porta sullo Schareck-Wurtenkees vero e proprio, ampi pendii blu da ghiacciaio al mattino, rosse più decise e qualche nera onesta quando la neve si compatta. Diciassette chilometri di piste sembrano pochi sulla carta, ma la stagione corre da fine settembre a maggio e le squadre nazionali di sci da gara si allenano qui fin dall'apertura autunnale, il che dice tutto sulla qualità della neve. Flattach, giù in Mölltal, resta un paese carinziano tranquillo, vita di vallata esposta a sud più che chalet laccati tirolesi. Uno dei ghiacciai più sottovalutati d'Austria, e tra i più silenziosi."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 5,
+      "red": 8,
+      "black": 4
+    }
+  },
+  {
+    "slug": "see",
+    "name": "See",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.0697,
+    "lng": 10.4231,
+    "altitudeBase": 1042,
+    "altitudeSummit": 2350,
+    "pistesKm": 41,
+    "lifts": 8,
+    "skiInSkiOutNote": {
+      "en": "See offers limited ski-in ski-out. The Medrigjochbahn starts on the edge of the village, so a handful of central pensions are a short walk from the lift, but most accommodation requires a brief stroll or the free village ski bus to reach the base station.",
+      "fr": "See propose un ski-in ski-out limité. La Medrigjochbahn part en bordure de village, si bien que quelques pensions centrales se trouvent à courte marche de la remontée, mais la plupart des hébergements imposent une petite balade ou la navette ski gratuite pour rejoindre la gare de départ.",
+      "es": "See ofrece ski-in ski-out limitado. El Medrigjochbahn parte en el borde del pueblo, por lo que unas pocas pensiones céntricas quedan a un paseo del remonte, pero la mayoría de los alojamientos requieren una breve caminata o el autobús de esquí gratuito para llegar a la base.",
+      "pt": "See oferece ski-in ski-out limitado. O Medrigjochbahn parte na orla da aldeia, pelo que algumas pensões centrais ficam a curta caminhada do teleférico, mas a maior parte dos alojamentos exige uma breve caminhada ou o autocarro de esqui gratuito para chegar à base.",
+      "it": "See offre un ski-in ski-out limitato. La Medrigjochbahn parte ai margini del paese, perciò alcune pensioni centrali sono a pochi passi dall'impianto, ma la maggior parte degli alloggi richiede una breve passeggiata o il bus sci gratuito per raggiungere la stazione di partenza."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "family",
+      "value",
+      "authentic"
+    ],
+    "intro": {
+      "en": "See is the quiet Paznaun village ten kilometres down the valley from Ischgl, with its own 41 km local area on the Medrigjoch and a fraction of the prices.",
+      "fr": "See est le village discret du Paznaun à dix kilomètres en aval d'Ischgl, avec son propre domaine local de 41 km sur le Medrigjoch et une fraction des prix.",
+      "es": "See es el pueblo tranquilo del Paznaun a diez kilómetros valle abajo de Ischgl, con su propia área local de 41 km en el Medrigjoch y una fracción de los precios.",
+      "pt": "See é a aldeia discreta do Paznaun a dez quilómetros vale abaixo de Ischgl, com a sua área local de 41 km no Medrigjoch e uma fração dos preços.",
+      "it": "See è il paese tranquillo della Paznaun a dieci chilometri a valle di Ischgl, con il suo comprensorio locale di 41 km sul Medrigjoch e una frazione dei prezzi."
+    },
+    "longDescription": {
+      "en": "See plays the role most ski valleys lack: the affordable, low-key sister down the road from a famous neighbour. Ischgl absorbs the international crowds ten kilometres up the Paznaun, while See keeps its own 41 km area on the Medrigjoch entirely for itself, pleasantly empty even in February half-term week. The lift system is modern and quick, terrain is dominated by long blue and red intermediate cruisers between 1,042 m and 2,350 m, and three honest blacks on the upper sector add some bite for a weather-window morning. Snow is reliable for the altitude thanks to north-facing aspect and Paznaun positioning. What really sets See apart is the village itself: a working Tirolean place with intact Gasthof culture, family-run pensions where the host pours your evening schnapps, and a genuine local lift pass that rewards the choice to stay here instead of the resort upstairs. A clever value pick.",
+      "fr": "See joue le rôle que beaucoup de vallées de ski oublient: la petite sœur abordable et discrète juste en aval d'une voisine célèbre. Ischgl absorbe les foules internationales dix kilomètres plus haut dans le Paznaun, tandis que See garde pour elle ses 41 km de domaine sur le Medrigjoch, agréablement vide même la semaine des vacances de février. Le réseau de remontées est moderne et rapide, le terrain est dominé par de longues pistes bleues et rouges intermédiaires entre 1 042 m et 2 350 m, et trois noires honnêtes du secteur supérieur apportent du mordant pour une matinée de bonne météo. La neige est fiable pour l'altitude grâce à l'exposition nord et au positionnement du Paznaun. Ce qui distingue vraiment See, c'est le village lui-même: un vrai bourg tyrolien actif, culture Gasthof intacte, pensions familiales où l'hôte vous sert le schnaps du soir, et un forfait local qui récompense le choix de loger ici plutôt qu'à la station du dessus. Choix malin pour le rapport qualité-prix.",
+      "es": "See cumple el papel que muchos valles de esquí olvidan: la hermana asequible y discreta valle abajo de una vecina famosa. Ischgl absorbe a las masas internacionales diez kilómetros más arriba en el Paznaun, mientras See guarda para sí sus 41 km de dominio en el Medrigjoch, agradablemente vacíos incluso en la semana de carnaval. El sistema de remontes es moderno y rápido, el terreno está dominado por largas pistas azules y rojas intermedias entre 1.042 m y 2.350 m, y tres negras serias del sector superior añaden mordiente para una mañana de buen tiempo. La nieve es fiable para la altitud gracias a la orientación norte y al emplazamiento del Paznaun. Lo que realmente distingue a See es el pueblo en sí: una localidad tirolesa activa, con cultura Gasthof intacta, pensiones familiares donde el anfitrión sirve el schnapps de la noche, y un forfait local que premia la decisión de alojarse aquí en vez de en la estación de arriba. Una elección inteligente de calidad-precio.",
+      "pt": "See cumpre o papel que tantos vales de esqui esquecem: a irmã acessível e discreta vale abaixo de uma vizinha famosa. Ischgl absorve as multidões internacionais dez quilómetros vale acima no Paznaun, enquanto See guarda para si os seus 41 km de domínio no Medrigjoch, agradavelmente vazios mesmo na semana do carnaval. A rede de teleféricos é moderna e rápida, o terreno é dominado por longas pistas azuis e vermelhas intermédias entre 1.042 m e 2.350 m, e três negras honestas do setor superior dão garra a uma manhã de bom tempo. A neve é fiável para a altitude graças à exposição norte e à posição do Paznaun. O que realmente distingue See é a própria aldeia: uma localidade tirolesa em ato pleno de vida, cultura Gasthof intata, pensões de família onde o anfitrião serve o schnapps da noite, e um forfait local que premeia a opção de ficar cá em vez da estância lá em cima. Uma escolha inteligente em relação qualidade-preço.",
+      "it": "See interpreta il ruolo che a tante vallate sciistiche manca: la sorella minore accessibile e discreta a valle di una vicina famosa. Ischgl assorbe le folle internazionali dieci chilometri più in alto in Paznaun, mentre See tiene per sé i suoi 41 km di comprensorio sul Medrigjoch, piacevolmente vuoti perfino a febbraio in settimana bianca. Gli impianti sono moderni e rapidi, il terreno è dominato da lunghi cruisers blu e rossi intermedi tra 1.042 m e 2.350 m, e tre nere oneste sul settore alto aggiungono mordente per una mattinata di bel tempo. La neve è affidabile per la quota grazie all'esposizione a nord e alla posizione del Paznaun. Quel che davvero distingue See è il paese stesso: una località tirolese viva, cultura Gasthof intatta, pensioni familiari dove il padrone di casa versa lo schnaps della sera, e uno skipass locale che premia la scelta di dormire qui invece che nella stazione di sopra. Una scelta intelligente sul rapporto qualità-prezzo."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 15,
+      "black": 3
+    }
+  },
+  {
+    "slug": "pertisau",
+    "name": "Pertisau",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.4467,
+    "lng": 11.7194,
+    "altitudeBase": 950,
+    "altitudeSummit": 1800,
+    "pistesKm": 24,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "Pertisau is not a true ski-in ski-out resort. The Karwendel cable car base lies at the edge of the village by the lake, with a few central hotels a short walk away, but most visitors use the free village ski bus to reach the lift each morning.",
+      "fr": "Pertisau n'est pas une station ski-in ski-out à proprement parler. La gare de départ du téléphérique du Karwendel se trouve en bordure de village au bord du lac, avec quelques hôtels centraux à courte marche, mais la plupart des visiteurs utilisent la navette ski gratuite pour rejoindre la remontée chaque matin.",
+      "es": "Pertisau no es una estación ski-in ski-out propiamente dicha. La base del teleférico del Karwendel queda al borde del pueblo junto al lago, con algunos hoteles céntricos a un breve paseo, pero la mayoría de visitantes utiliza el autobús de esquí gratuito del pueblo para llegar al remonte cada mañana.",
+      "pt": "Pertisau não é uma estância ski-in ski-out propriamente dita. A base do teleférico do Karwendel fica na orla da aldeia, junto ao lago, com alguns hotéis centrais a curta caminhada, mas a maioria dos visitantes utiliza o autocarro de esqui gratuito da aldeia para chegar ao teleférico todas as manhãs.",
+      "it": "Pertisau non è una località ski-in ski-out vera e propria. La base della funivia del Karwendel è ai margini del paese, sul lago, con qualche hotel centrale a poca distanza a piedi, ma la maggior parte dei visitatori usa il bus sci gratuito del paese per raggiungere l'impianto ogni mattina."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 72,
+    "vibes": [
+      "family",
+      "scenic",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Pertisau sits postcard-quiet on the western shore of the Achensee, the Karwendel cable car climbing from 950 m to 1,800 m for 24 km of family-paced piste under a limestone wall.",
+      "fr": "Pertisau s'étend, calme et carte postale, sur la rive occidentale de l'Achensee, le téléphérique du Karwendel s'élevant de 950 m à 1 800 m pour 24 km de pistes familiales sous une muraille calcaire.",
+      "es": "Pertisau se extiende, postal en calma, sobre la orilla occidental del Achensee, con el teleférico del Karwendel subiendo de 950 m a 1.800 m para 24 km de pistas familiares al pie de una muralla caliza.",
+      "pt": "Pertisau estende-se, postal em calma, na margem ocidental do Achensee, com o teleférico do Karwendel a subir dos 950 m aos 1.800 m para 24 km de pistas familiares ao pé de uma muralha calcária.",
+      "it": "Pertisau si stende, da cartolina e in silenzio, sulla riva occidentale dell'Achensee, la funivia del Karwendel sale dai 950 m ai 1.800 m per 24 km di piste a misura di famiglia sotto una parete calcarea."
+    },
+    "longDescription": {
+      "en": "Pertisau combines two Tirolean things most resorts cannot offer at once: a real alpine lake at the door and a quiet little ski mountain behind. The Karwendel cable car lifts you cleanly out of the village from 950 m to 1,800 m, opening onto a compact 24 km area dominated by blue and red intermediates with a couple of black pitches for the strong. It is honestly family-paced terrain, the sort where parents can let stronger teenagers loose for a morning without worrying, and skis still work for sensible adults after lunch. Pertisau is also one of Tirol's serious cross-country towns: the Pertisau Loipe trails fan out along the lakeshore and back into the Karwendel valleys for one of the best classic and skating networks in the country. Add the postcard backdrop of the limestone Karwendel rising straight from the Achensee, the quiet sister relationship with Achenkirch up the lake, and you have a Tirolean week that feels considerably more refined than the piste count suggests.",
+      "fr": "Pertisau combine deux choses tyroliennes que peu de stations savent réunir: un vrai lac alpin à la porte et une petite montagne à ski tranquille derrière. Le téléphérique du Karwendel vous emmène proprement hors du village de 950 m à 1 800 m, ouvrant sur un domaine compact de 24 km dominé par les bleues et les rouges intermédiaires avec deux ou trois sections noires pour les bons skieurs. C'est honnêtement un terrain au rythme famille, du genre où les parents laissent les ados confirmés s'aérer une matinée sans inquiétude, et où le ski fonctionne encore pour des adultes raisonnables après le déjeuner. Pertisau est aussi l'une des vraies villes de fond du Tyrol: les pistes de la Pertisau Loipe se déploient le long du lac et remontent les vallées du Karwendel pour l'un des plus beaux réseaux classique et skating du pays. Ajoutez le décor de carte postale du Karwendel calcaire jaillissant de l'Achensee, la relation de petite sœur discrète avec Achenkirch en amont, et vous obtenez une semaine tyrolienne sensiblement plus raffinée que ne le laisse penser le nombre de kilomètres de pistes.",
+      "es": "Pertisau combina dos cosas tirolesas que pocas estaciones logran juntar: un verdadero lago alpino a la puerta y una montañita de esquí tranquila detrás. El teleférico del Karwendel te saca limpiamente del pueblo de 950 m a 1.800 m, abriendo un dominio compacto de 24 km dominado por azules y rojas intermedias con un par de tramos negros para los fuertes. Es terreno honestamente familiar, del que permite a los padres soltar a los adolescentes con soltura una mañana sin preocupación, y el esquí sigue funcionando para adultos sensatos después del almuerzo. Pertisau es también una de las grandes localidades de fondo del Tirol: las pistas de la Pertisau Loipe se despliegan por la orilla del lago y remontan los valles del Karwendel para uno de los mejores entramados clásico y skating del país. Añade el decorado de postal del Karwendel calizo emergiendo del Achensee, la relación de hermana discreta con Achenkirch al norte del lago, y obtienes una semana tirolesa bastante más refinada de lo que sugieren los kilómetros de pistas.",
+      "pt": "Pertisau combina duas coisas tirolesas que poucas estâncias conseguem juntar: um verdadeiro lago alpino à porta e uma montanhinha de esqui tranquila atrás. O teleférico do Karwendel tira-o limpamente da aldeia, dos 950 m aos 1.800 m, abrindo um domínio compacto de 24 km dominado por azuis e vermelhas intermédias com um par de troços negros para os fortes. É terreno honestamente familiar, do tipo que deixa os pais soltarem os adolescentes confiantes uma manhã sem preocupação, e o esqui ainda funciona para adultos razoáveis depois do almoço. Pertisau é também uma das grandes localidades de fundo do Tirol: as pistas da Pertisau Loipe espalham-se ao longo da margem do lago e sobem os vales do Karwendel para uma das melhores redes clássico e skating do país. Junte o cenário de postal do Karwendel calcário a emergir do Achensee, a relação de irmã discreta com Achenkirch a norte do lago, e tem uma semana tirolesa bem mais refinada do que o número de pistas faz crer.",
+      "it": "Pertisau mette insieme due cose tirolesi che poche località riescono ad avere: un vero lago alpino sulla porta e una montagna da sci piccola e tranquilla alle spalle. La funivia del Karwendel vi solleva pulita dal paese da 950 m a 1.800 m, aprendo un comprensorio compatto di 24 km dominato da blu e rosse intermedie con un paio di tratti neri per chi spinge. È terreno onestamente familiare, di quelli che lasciano i genitori liberare un mattino i ragazzi più allenati senza pensieri, e che funziona ancora dopo pranzo per adulti ragionevoli. Pertisau è anche una delle vere capitali tirolesi del fondo: i tracciati della Pertisau Loipe si aprono lungo la riva del lago e risalgono le valli del Karwendel per una delle migliori reti tra classico e skating del Paese. Aggiungete lo sfondo da cartolina del Karwendel calcareo che sale di colpo dall'Achensee, il legame da sorella discreta con Achenkirch a nord del lago, e avrete una settimana tirolese più raffinata di quanto i chilometri di piste lascino intuire."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 10,
+      "red": 8,
+      "black": 3
+    }
+  },
+  {
+    "slug": "berwang",
+    "name": "Berwang",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.4225,
+    "lng": 10.7842,
+    "altitudeBase": 1336,
+    "altitudeSummit": 1740,
+    "pistesKm": 39,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Berwang is one of the better Zugspitz Arena villages for ski-in ski-out, with the Sonnalmbahn and a couple of village drag lifts rising directly from the centre. Several traditional Bauernhaus and family hotels sit a few metres from the snow, while outlying chalets rely on the free Top Snow Card ski bus.",
+      "fr": "Berwang est l'un des meilleurs villages de la Zugspitz Arena pour le ski-in ski-out, la Sonnalmbahn et deux téléskis de village partant directement du centre. Plusieurs Bauernhaus traditionnels et hôtels familiaux se trouvent à quelques mètres de la neige, tandis que les chalets périphériques s'appuient sur la navette ski gratuite de la Top Snow Card.",
+      "es": "Berwang es uno de los mejores pueblos de la Zugspitz Arena para ski-in ski-out, con el Sonnalmbahn y un par de telesquíes del pueblo que arrancan directamente del centro. Varios Bauernhaus tradicionales y hoteles familiares quedan a unos metros de la nieve, mientras los chalets periféricos dependen del autobús de esquí gratuito de la Top Snow Card.",
+      "pt": "Berwang é uma das melhores aldeias da Zugspitz Arena para ski-in ski-out, com o Sonnalmbahn e um par de teleskis a partirem diretamente do centro. Vários Bauernhaus tradicionais e hotéis de família ficam a metros da neve, enquanto os chalés mais afastados dependem do autocarro de esqui gratuito do Top Snow Card.",
+      "it": "Berwang è uno dei paesi della Zugspitz Arena con il miglior ski-in ski-out: la Sonnalmbahn e un paio di skilift di paese partono direttamente dal centro. Diversi Bauernhaus tradizionali e hotel familiari sono a pochi metri dalla neve, mentre gli chalet più periferici contano sul bus sci gratuito della Top Snow Card."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 74,
+    "vibes": [
+      "family",
+      "panoramic",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Berwang is the highest village in the Zugspitz Arena at 1,336 m, with 39 km of piste shared with Bichlbach and Heiterwang on the Berwanger Sonnalm and the Top Snow Card on the side.",
+      "fr": "Berwang est le village le plus haut de la Zugspitz Arena à 1 336 m, avec 39 km de pistes partagées avec Bichlbach et Heiterwang sur la Berwanger Sonnalm et la Top Snow Card en complément.",
+      "es": "Berwang es el pueblo más alto de la Zugspitz Arena a 1.336 m, con 39 km de pistas compartidas con Bichlbach y Heiterwang en la Berwanger Sonnalm y la Top Snow Card como complemento.",
+      "pt": "Berwang é a aldeia mais alta da Zugspitz Arena, a 1.336 m, com 39 km de pistas partilhadas com Bichlbach e Heiterwang na Berwanger Sonnalm e o Top Snow Card como complemento.",
+      "it": "Berwang è il paese più alto della Zugspitz Arena a 1.336 m, con 39 km di piste condivise con Bichlbach e Heiterwang sulla Berwanger Sonnalm e la Top Snow Card in aggiunta."
+    },
+    "longDescription": {
+      "en": "Berwang plays a clever hand. The village sits at 1,336 m, the highest in the Zugspitz Arena, which buys it a more reliable winter than the lower neighbours in the same lift pass, and the Berwanger Sonnalm above the village links cleanly across to Bichlbach and Heiterwang for a 39 km local area that is firmly aimed at families and lower intermediates. Fifteen blue pistes mean almost everyone in the group has somewhere to ski all week, twelve reds keep mid-intermediates engaged, and three short blacks add a token bit of bite. The real lever is the Top Snow Card, a regional pass that adds the much bigger Lermoos area and the Bavarian Garmisch-Partenkirchen with the Zugspitze itself, on a single ticket. That turns a quiet Tirolean Bauernhaus village into the base for an entire half-region's worth of skiing without ever needing to change accommodation. Berwang itself stays low-key, with traditional farmhouse architecture and a near-total absence of late-night clamour.",
+      "fr": "Berwang joue une carte habile. Le village se trouve à 1 336 m, le plus haut de la Zugspitz Arena, ce qui lui offre un hiver plus fiable que ses voisins inférieurs sur le même forfait, et la Berwanger Sonnalm au-dessus du village se relie proprement à Bichlbach et Heiterwang pour un domaine local de 39 km clairement orienté familles et intermédiaires moyens. Quinze pistes bleues permettent à presque tout le monde dans le groupe de skier toute la semaine, douze rouges tiennent en haleine les intermédiaires confirmés, et trois noires courtes ajoutent un brin de mordant. Le vrai levier reste la Top Snow Card, forfait régional qui ajoute le bien plus vaste domaine de Lermoos et la bavaroise Garmisch-Partenkirchen avec la Zugspitze elle-même, sur un seul ticket. De quoi transformer un village tyrolien Bauernhaus tranquille en base de toute une demi-région de ski sans jamais changer d'hébergement. Berwang reste discret, architecture de fermes traditionnelle et absence quasi totale de tapage tardif.",
+      "es": "Berwang juega una mano astuta. El pueblo está a 1.336 m, el más alto de la Zugspitz Arena, lo que le da un invierno más fiable que el de los vecinos más bajos en el mismo forfait, y la Berwanger Sonnalm sobre el pueblo enlaza limpiamente con Bichlbach y Heiterwang para un dominio local de 39 km claramente orientado a familias e intermedios medios. Quince pistas azules permiten que casi todos en el grupo encuentren dónde esquiar toda la semana, doce rojas mantienen ocupados a los intermedios fuertes, y tres negras cortas añaden un poco de garra. El verdadero comodín es la Top Snow Card, forfait regional que añade el dominio mucho mayor de Lermoos y la bávara Garmisch-Partenkirchen con la propia Zugspitze, en un único ticket. Esto convierte una aldea tirolesa Bauernhaus tranquila en base de toda una media región de esquí sin cambiar nunca de alojamiento. Berwang sigue siendo discreto, con arquitectura tradicional de granjas y una ausencia casi total de jaleo nocturno.",
+      "pt": "Berwang joga uma mão hábil. A aldeia fica a 1.336 m, a mais alta da Zugspitz Arena, o que lhe garante um inverno mais fiável do que os vizinhos mais baixos no mesmo forfait, e a Berwanger Sonnalm acima da aldeia liga-se limpamente a Bichlbach e Heiterwang para um domínio local de 39 km claramente orientado a famílias e intermédios médios. Quinze pistas azuis fazem com que quase toda a gente do grupo tenha onde esquiar a semana inteira, doze vermelhas mantêm em ato os intermédios fortes, e três negras curtas dão um pouco de garra. O verdadeiro trunfo é o Top Snow Card, forfait regional que junta o domínio bem maior de Lermoos e a bávara Garmisch-Partenkirchen com a própria Zugspitze, num único bilhete. Isto transforma uma aldeia tirolesa Bauernhaus tranquila na base de meia região de esqui inteira sem nunca trocar de alojamento. Berwang mantém-se discreta, com arquitetura tradicional de quintas e ausência quase total de barulho noturno.",
+      "it": "Berwang gioca una mano astuta. Il paese sta a 1.336 m, il più alto della Zugspitz Arena, il che gli regala un inverno più affidabile dei vicini più bassi sullo stesso skipass, e la Berwanger Sonnalm sopra il paese si collega pulita a Bichlbach e Heiterwang per un comprensorio locale di 39 km dichiaratamente rivolto alle famiglie e agli intermedi medi. Quindici piste blu fanno sì che quasi tutti nel gruppo abbiano dove sciare per tutta la settimana, dodici rosse tengono impegnati gli intermedi forti, e tre nere brevi aggiungono un pizzico di mordente. La vera leva è la Top Snow Card, skipass regionale che aggiunge il ben più ampio comprensorio di Lermoos e la bavarese Garmisch-Partenkirchen con la Zugspitze stessa, su un unico biglietto. Trasforma una tranquilla località tirolese di Bauernhaus nella base di mezza regione sciistica senza mai cambiare alloggio. Berwang resta discreta, con architettura tradizionale di masi e una quasi totale assenza di chiasso notturno."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 12,
+      "black": 3
+    }
+  },
+  {
+    "slug": "pontresina",
+    "name": "Pontresina",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.4783,
+    "lng": 9.9089,
+    "altitudeBase": 1800,
+    "altitudeSummit": 3303,
+    "pistesKm": 60,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Pontresina is a valley-floor Engadine village, not a piste-side resort: Diavolezza and Lagalb are a short post-bus or car ride up the Bernina pass road, and the lifts of the St. Moritz-Corviglia side are reached by train or bus. Ski-in ski-out in the strict sense is not the point here.",
+      "fr": "Pontresina est un village de fond de vallée engadinois, pas une station au pied des pistes : Diavolezza et Lagalb sont à quelques minutes de car postal ou de voiture sur la route du col de la Bernina, et les remontées du côté St. Moritz-Corviglia se rejoignent en train ou en bus. Le ski aux pieds au sens strict n'est pas l'intérêt du lieu.",
+      "es": "Pontresina es un pueblo de fondo de valle engadino, no una estación al pie de pistas: el Diavolezza y el Lagalb están a unos minutos de autocar postal o coche por la carretera del paso del Bernina, y los remontes del lado St. Moritz-Corviglia se alcanzan en tren o autobús. El esquí en los pies en sentido estricto no es el punto fuerte del lugar.",
+      "pt": "Pontresina é uma aldeia de fundo de vale da Engadina, não uma estância junto às pistas: o Diavolezza e o Lagalb ficam a alguns minutos de autocarro postal ou de carro pela estrada do passo do Bernina, e os teleféricos do lado St. Moritz-Corviglia chegam-se de comboio ou de autocarro. O esqui à porta no sentido estrito não é o objectivo do sítio.",
+      "it": "Pontresina è una località di fondovalle engadinese, non una stazione ai piedi delle piste: Diavolezza e Lagalb si raggiungono in pochi minuti di postale o di auto lungo la strada del passo del Bernina, e gli impianti del versante St. Moritz-Corviglia si prendono in treno o in bus. Lo ski-in ski-out in senso stretto non è il punto di forza del posto."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "authentic",
+      "panoramic",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Pontresina is the quieter, more affordable side of the Engadine. Sister village to St. Moritz under a single regional lift pass, it sits at 1,800 m at the foot of Diavolezza and Lagalb, with 60 km of snow-sure pistes that climb to 3,303 m and the great ski-touring playground of the Bernina range directly overhead.",
+      "fr": "Pontresina, c'est la face calme et plus abordable de l'Engadine. Village jumeau de St. Moritz sous un forfait régional commun, il s'étire à 1 800 m au pied de Diavolezza et Lagalb, avec 60 km de pistes d'enneigement garanti culminant à 3 303 m et, juste au-dessus, le terrain de ski de randonnée monumental de la Bernina.",
+      "es": "Pontresina es la cara tranquila y más asequible de la Engadina. Pueblo hermano de St. Moritz bajo un mismo forfait regional, se asienta a 1.800 m al pie del Diavolezza y el Lagalb, con 60 km de pistas de nieve segura que llegan a los 3.303 m y, justo encima, el gran terreno de esquí de travesía del macizo del Bernina.",
+      "pt": "Pontresina é o lado tranquilo e mais acessível da Engadina. Aldeia irmã de St. Moritz sob o mesmo forfait regional, fica a 1.800 m no sopé do Diavolezza e do Lagalb, com 60 km de pistas de neve garantida que sobem aos 3.303 m e, mesmo por cima, o grande território de esqui de travessia do maciço do Bernina.",
+      "it": "Pontresina è il volto tranquillo e più accessibile dell'Engadina. Borgo gemello di St. Moritz sotto un unico skipass regionale, si distende a 1.800 m ai piedi del Diavolezza e del Lagalb, con 60 km di piste a innevamento sicuro che salgono a 3.303 m e, proprio sopra, lo straordinario terreno scialpinistico del Bernina."
+    },
+    "longDescription": {
+      "en": "Pontresina has always been the Engadine's other choice. Where St. Moritz across the lake plays the part of the glitzy Alpine capital, Pontresina keeps its old Romansh inn-fronts and its dialect, and lets the mountain do the talking. The regional lift pass binds the two together, which means everything St. Moritz, Corviglia, Corvatsch and Furtschellas is yours, but you sleep cheaper and quieter, and you wake up looking at the Bernina rather than at the shopping windows of the Via Serlas.\n\nThe two home areas are Diavolezza and Lagalb, both north of the village on the Bernina pass road. Diavolezza is the glacier sector, topping out at 3,303 m with that famous high-altitude descent down the Morteratsch glacier when conditions allow, an off-piste itinerary rather than a marked piste but one of the great runs of the Alps. Lagalb is steeper, narrower, north-facing and tends to be the locals' choice when it snows. Between them you have around 60 km of pisted skiing, much of it red and black, and almost all of it above 2,000 m, which is why this corner of the Engadine stays in such reliable shape from December through April.\n\nWhat really makes Pontresina is what surrounds it. The village is the springboard for cross-country skiing in the Engadine, with one of the longest groomed trail networks in the country running right from the door, and it is the unofficial Swiss capital of ski touring: the Bernina, Piz Palu, Bellavista, Morteratsch and a dozen named couloirs are all within a half-day skin from the valley floor. After dark the rhythm is hotel bars, a couple of good restaurants, and the certainty that you are sleeping at 1,800 m in air that is famously dry, clear and cold.",
+      "fr": "Pontresina a toujours été l'autre choix de l'Engadine. Quand St. Moritz, de l'autre côté du lac, joue la capitale alpine clinquante, Pontresina garde ses anciennes façades d'auberges romanches et son dialecte, et laisse parler la montagne. Le forfait régional relie les deux : tout le domaine de St. Moritz, Corviglia, Corvatsch et Furtschellas vous est ouvert, mais vous dormez moins cher, plus tranquille, et vous vous réveillez face au Bernina plutôt qu'aux vitrines de la Via Serlas.\n\nLes deux secteurs maison sont Diavolezza et Lagalb, tous deux au nord du village sur la route du col de la Bernina. Diavolezza est le secteur glaciaire, qui culmine à 3 303 m, avec cette fameuse descente d'altitude par le glacier de Morteratsch quand les conditions le permettent : un itinéraire hors-piste plutôt qu'une piste balisée, mais l'une des grandes descentes des Alpes. Lagalb est plus raide, plus étroit, exposé nord, et c'est souvent le choix des locaux les jours de chute. Entre les deux, environ 60 km de pistes, majoritairement rouges et noires, presque toutes au-dessus de 2 000 m : c'est ce qui rend cette portion d'Engadine si fiable de décembre à avril.\n\nMais ce qui fait Pontresina, c'est tout ce qui l'entoure. Le village est la rampe de lancement du ski de fond engadinois, avec l'un des plus longs réseaux de pistes damées du pays au pas de porte, et c'est la capitale suisse officieuse du ski de randonnée : Bernina, Piz Palu, Bellavista, Morteratsch et une dizaine de couloirs nommés sont à moins d'une demi-journée de peaux de phoque depuis le fond de vallée. Le soir venu, on reste sur le rythme bars d'hôtel, deux ou trois bonnes tables, et la certitude de dormir à 1 800 m dans un air réputé sec, clair et froid.",
+      "es": "Pontresina ha sido siempre la otra opción de la Engadina. Mientras St. Moritz, al otro lado del lago, hace de capital alpina con brillo, Pontresina conserva sus antiguas fachadas de posada romanche y su dialecto, y deja que sea la montaña la que hable. El forfait regional une las dos: todo el dominio de St. Moritz, Corviglia, Corvatsch y Furtschellas está a su alcance, pero usted duerme más barato, más tranquilo y se despierta mirando al Bernina en lugar de a los escaparates de la Via Serlas.\n\nLos dos sectores propios son el Diavolezza y el Lagalb, ambos al norte del pueblo en la carretera del paso del Bernina. El Diavolezza es el sector glaciar, llega a los 3.303 m, con esa célebre bajada de altura por el glaciar del Morteratsch cuando las condiciones lo permiten: un itinerario fuera de pista más que una pista balizada, pero una de las grandes bajadas de los Alpes. El Lagalb es más empinado, más estrecho, orientación norte, y suele ser la elección local los días de nevada. Entre ambos, unos 60 km de pistas, en su mayoría rojas y negras, casi todas por encima de los 2.000 m: ese es el motivo de la fiabilidad nival de este rincón de la Engadina de diciembre a abril.\n\nPero lo que define a Pontresina es lo que la rodea. El pueblo es la rampa de lanzamiento del esquí de fondo engadino, con una de las redes de pistas pisadas más largas del país al pie de la puerta, y es la capital suiza oficiosa del esquí de travesía: Bernina, Piz Palu, Bellavista, Morteratsch y una decena de corredores con nombre propio están a menos de medio día de pieles desde el fondo del valle. Al caer la tarde, ritmo de bares de hotel, dos o tres buenos restaurantes y la certeza de dormir a 1.800 m en un aire célebre por ser seco, claro y frío.",
+      "pt": "Pontresina foi sempre a outra escolha da Engadina. Enquanto St. Moritz, do outro lado do lago, faz de capital alpina cintilante, Pontresina mantém as suas antigas fachadas de estalagem romanche e o seu dialecto, e deixa a montanha falar. O forfait regional liga as duas: todo o domínio de St. Moritz, Corviglia, Corvatsch e Furtschellas está à mão, mas dorme mais barato, mais sossegado, e acorda a olhar para o Bernina e não para as montras da Via Serlas.\n\nOs dois sectores próprios são o Diavolezza e o Lagalb, ambos a norte da aldeia, na estrada do passo do Bernina. O Diavolezza é o sector glaciar, chega aos 3.303 m, com aquela famosa descida de altitude pelo glaciar do Morteratsch quando as condições permitem: um itinerário fora de pista mais do que uma pista balizada, mas uma das grandes descidas dos Alpes. O Lagalb é mais inclinado, mais estreito, virado a norte, e costuma ser a escolha dos locais nos dias de queda de neve. Entre os dois, cerca de 60 km de pistas, na sua maioria vermelhas e pretas, quase todas acima dos 2.000 m: é por isso que este canto da Engadina se mantém fiável de Dezembro a Abril.\n\nO que faz Pontresina é tudo o que está à sua volta. A aldeia é a rampa de lançamento do esqui de fundo engadino, com uma das mais longas redes de pistas batidas do país à porta, e é a capital suíça oficiosa do esqui de travessia: Bernina, Piz Palu, Bellavista, Morteratsch e uma dezena de corredores com nome próprio estão a menos de meio dia de peles desde o fundo do vale. Ao fim do dia, o ritmo são bares de hotel, dois ou três bons restaurantes e a certeza de dormir a 1.800 m num ar célebre por ser seco, límpido e frio.",
+      "it": "Pontresina è sempre stata l'altra Engadina. Mentre St. Moritz, dall'altra parte del lago, fa la capitale alpina scintillante, Pontresina tiene strette le sue vecchie facciate di locanda romancia e il suo dialetto, e lascia parlare la montagna. Lo skipass regionale unisce le due: tutto il comprensorio di St. Moritz, Corviglia, Corvatsch e Furtschellas è a portata di mano, ma si dorme meno cari, più tranquilli, e ci si sveglia davanti al Bernina e non davanti alle vetrine della Via Serlas.\n\nI due settori di casa sono Diavolezza e Lagalb, entrambi a nord della località sulla strada del passo del Bernina. Diavolezza è il settore glaciale, tocca quota 3.303 m, con quella celebre discesa d'alta quota lungo il ghiacciaio del Morteratsch quando le condizioni lo permettono: un itinerario fuori pista più che una pista battuta, ma una delle grandi discese delle Alpi. Lagalb è più ripido, più stretto, esposto a nord, ed è spesso la scelta dei locali nelle giornate di nevicata. Tra i due, una sessantina di chilometri di piste, in gran parte rosse e nere, quasi tutte sopra i 2.000 m: è il motivo per cui questo angolo d'Engadina resta affidabile da dicembre ad aprile.\n\nMa Pontresina la fa tutto ciò che la circonda. Il borgo è la rampa di lancio dello sci di fondo engadinese, con una delle reti di piste battute più lunghe del Paese che parte sotto casa, ed è la capitale svizzera ufficiosa dello scialpinismo: Bernina, Piz Palu, Bellavista, Morteratsch e una decina di canali con nome proprio sono a meno di mezza giornata di pelli dal fondovalle. Al calare della sera, ritmo da bar d'albergo, due o tre buoni tavoli, e la certezza di dormire a 1.800 m in un'aria famosa per essere secca, limpida e fredda."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 25,
+      "black": 12
+    }
+  },
+  {
+    "slug": "klewenalp-stockhuette",
+    "name": "Klewenalp-Stockhütte",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.95,
+    "lng": 8.4889,
+    "altitudeBase": 1593,
+    "altitudeSummit": 1900,
+    "pistesKm": 40,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Almost no traditional ski-in ski-out lodging here, because there is no proper village on the mountain: a handful of mountain inns sit on Klewenalp itself, but most beds are down at Beckenried on the lake. The cable car closes in the evening, so plan around it.",
+      "fr": "Pratiquement pas d'hébergement ski aux pieds au sens classique : il n'y a pas de vrai village en altitude, juste quelques auberges de montagne sur le plateau de la Klewenalp, et l'essentiel des lits se trouve en bas à Beckenried au bord du lac. Le téléphérique ferme le soir, à prévoir.",
+      "es": "Prácticamente no hay alojamiento esquí en los pies en sentido clásico: no existe verdadero pueblo en altura, sólo unos cuantos albergues de montaña en la meseta de Klewenalp, y el grueso de las camas está abajo, en Beckenried, a orillas del lago. El teleférico cierra por la tarde, hay que tenerlo en cuenta.",
+      "pt": "Praticamente não há alojamento esqui à porta no sentido clássico: não existe verdadeira aldeia em altitude, apenas algumas pousadas de montanha no planalto de Klewenalp, e o grosso das camas está em baixo, em Beckenried, à beira do lago. O teleférico fecha ao fim do dia, é preciso ter isso em conta.",
+      "it": "Quasi nessuna sistemazione ski-in ski-out in senso classico: in quota non c'è un vero borgo, solo qualche locanda di montagna sull'altopiano della Klewenalp, e la maggior parte dei letti è giù a Beckenried sul lago. La funivia chiude la sera, da mettere in conto."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 72,
+    "vibes": [
+      "family",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Klewenalp-Stockhütte is the Lake Lucerne ski area in the purest sense: you leave Beckenried on the lakeshore, take the cable car up, and ski 40 km of piste between 1,593 m and 1,900 m with the Rigi, Pilatus and Stanserhorn lined up in front of you. An hour from Zurich and as family-friendly as Swiss skiing gets.",
+      "fr": "Klewenalp-Stockhütte, c'est le ski au-dessus du lac des Quatre-Cantons dans sa version la plus pure : on quitte Beckenried au bord du lac, on monte par le téléphérique, et on skie 40 km de pistes entre 1 593 m et 1 900 m avec le Rigi, le Pilatus et le Stanserhorn alignés en face. À une heure de Zurich, et aussi familial qu'on puisse l'imaginer en Suisse.",
+      "es": "Klewenalp-Stockhütte es el esquí sobre el lago de los Cuatro Cantones en su versión más pura: se sale de Beckenried, a la orilla del lago, se sube en teleférico y se esquían 40 km de pistas entre los 1.593 m y los 1.900 m con el Rigi, el Pilatus y el Stanserhorn alineados enfrente. A una hora de Zúrich y tan familiar como puede serlo el esquí suizo.",
+      "pt": "Klewenalp-Stockhütte é o esqui sobre o lago dos Quatro Cantões na sua versão mais pura: parte-se de Beckenried, à beira do lago, sobe-se de teleférico e esquia-se 40 km de pistas entre os 1.593 m e os 1.900 m com o Rigi, o Pilatus e o Stanserhorn alinhados em frente. A uma hora de Zurique e tão familiar quanto pode ser o esqui suíço.",
+      "it": "Klewenalp-Stockhütte è lo sci sul Lago dei Quattro Cantoni nella sua versione più pura: si parte da Beckenried, sulla riva, si sale in funivia e si sciano 40 km di piste tra i 1.593 m e i 1.900 m, con Rigi, Pilatus e Stanserhorn allineati di fronte. A un'ora da Zurigo e familiare quanto può esserlo lo sci svizzero."
+    },
+    "longDescription": {
+      "en": "There is no road up to Klewenalp. You park at Beckenried on Lake Lucerne, you queue at the cable-car station with skis on your shoulder, and four minutes later you are at 1,593 m on a long open shelf above the water. The journey is half the appeal: the gondola lifts you out of the lake fog into clean light, and then for the rest of the day you are skiing with the Rigi to the east, Pilatus to the north and Stanserhorn closing the middle distance: one of the great Swiss panoramas, and one you only really get from skis.\n\nThe domain spreads over two linked sectors, Klewenalp and Stockhütte, with 40 km of piste in total. The verticals are modest, peaking at 1,900 m, and the gradient is genuinely friendly: 15 km of blue, 15 km of red, three short blacks for variety. This is intentional. Klewenalp-Stockhütte makes its living as a family mountain and a Zurich day-trip mountain, and it is built for that audience: gentle wide runs, a long beginner zone above the top cable-car station, attentive ski schools, sunny restaurant terraces angled at the water. The snow record is solid for the altitude, helped by the lake-effect cold and a good cover of snowmaking on the main return runs.\n\nWhat keeps people coming back is the same thing that brought them the first time: that view. You ride the lifts and have the Mythen, the Rigi, Pilatus and the Stanserhorn arranged around you, the lake silver below, the Bernese giants white in the distance on a clear day. After lunch on a south-facing terrace at 1,800 m, with Lake Lucerne directly underneath, the rest of Switzerland feels a long way off.",
+      "fr": "Il n'y a pas de route pour monter à Klewenalp. On se gare à Beckenried au bord du lac des Quatre-Cantons, on fait la file à la station inférieure du téléphérique skis à l'épaule, et quatre minutes plus tard on est à 1 593 m, sur une grande terrasse ouverte au-dessus de l'eau. La montée fait la moitié du charme : la cabine vous sort du brouillard du lac pour vous déposer dans la lumière, et pour le reste de la journée vous skiez avec le Rigi à l'est, le Pilatus au nord et le Stanserhorn en plan intermédiaire : un des grands panoramas suisses, et on ne l'a vraiment qu'à skis.\n\nLe domaine s'étend sur deux secteurs reliés, Klewenalp et Stockhütte, soit 40 km de pistes au total. Les dénivelés restent modestes, point haut à 1 900 m, et les pentes sont franchement accueillantes : 15 km de bleu, 15 km de rouge, trois noires courtes pour varier. C'est voulu. Klewenalp-Stockhütte est une montagne familiale et une montagne d'excursionnistes zurichois, et tout y est calibré pour ce public : longues pistes larges, vaste zone débutants au sommet du téléphérique, écoles de ski attentives, terrasses de restaurants ensoleillées tournées vers le lac. L'enneigement est solide pour l'altitude, aidé par l'air froid du lac et un bon réseau de canons sur les pistes de retour.\n\nCe qui fait revenir, c'est ce qui a fait venir la première fois : la vue. Sur les remontées, vous avez les Mythen, le Rigi, le Pilatus et le Stanserhorn rangés autour de vous, le lac qui scintille en bas, et les géants bernois en blanc à l'horizon par temps clair. Après un repas en terrasse sud à 1 800 m, avec le lac des Quatre-Cantons en aplomb, la Suisse entière paraît très loin.",
+      "es": "No hay carretera para subir a Klewenalp. Se aparca en Beckenried, a orillas del lago de los Cuatro Cantones, se hace cola en la estación inferior del teleférico con los esquís al hombro y, cuatro minutos después, se está a 1.593 m sobre una gran balconada abierta sobre el agua. La subida es la mitad del encanto: la cabina le saca de la niebla del lago y le deposita en plena luz, y el resto del día esquía con el Rigi al este, el Pilatus al norte y el Stanserhorn en plano intermedio: uno de los grandes panoramas suizos, y uno que sólo se tiene de verdad con los esquís.\n\nEl dominio se extiende sobre dos sectores enlazados, Klewenalp y Stockhütte, con 40 km de pistas en total. Los desniveles son modestos, cota máxima a 1.900 m, y las pendientes son francamente acogedoras: 15 km de azules, 15 km de rojas, tres negras cortas para variar. Es deliberado. Klewenalp-Stockhütte es una montaña de familias y una montaña de excursionistas zuriqueses, y todo está calibrado para ese público: pistas anchas y largas, gran zona de debutantes en lo alto del teleférico, escuelas de esquí atentas, terrazas soleadas orientadas al lago. La nevada es sólida para la altitud, ayudada por el aire frío del lago y una buena cobertura de cañones en las pistas de regreso.\n\nLo que hace volver es lo que hizo venir la primera vez: la vista. En los remontes, tiene los Mythen, el Rigi, el Pilatus y el Stanserhorn ordenados alrededor, el lago plateado debajo y los gigantes berneses blancos en el horizonte en día claro. Tras una comida en terraza sur a 1.800 m, con el lago de los Cuatro Cantones justo debajo, el resto de Suiza parece quedar muy lejos.",
+      "pt": "Não há estrada para subir a Klewenalp. Estaciona-se em Beckenried, à beira do lago dos Quatro Cantões, faz-se fila no teleférico de partida com os esquis ao ombro e, quatro minutos depois, está-se a 1.593 m sobre uma grande varanda aberta por cima da água. A subida é metade do encanto: a cabina arranca-o à neblina do lago e deixa-o em plena luz, e o resto do dia esquia com o Rigi a leste, o Pilatus a norte e o Stanserhorn em plano intermédio: um dos grandes panoramas suíços, e um que só se tem mesmo com os esquis nos pés.\n\nO domínio estende-se por dois sectores ligados, Klewenalp e Stockhütte, num total de 40 km de pistas. Os desníveis são modestos, ponto alto a 1.900 m, e as inclinações são francamente acolhedoras: 15 km de azuis, 15 km de vermelhos, três pretas curtas para variar. É propositado. Klewenalp-Stockhütte é uma montanha de famílias e uma montanha de excursionistas de Zurique, e está toda calibrada para esse público: pistas largas e longas, grande zona de iniciados no topo do teleférico, escolas de esqui atentas, esplanadas soalheiras viradas para o lago. A neve é sólida para a altitude, ajudada pelo ar frio do lago e por uma boa rede de canhões nas pistas de regresso.\n\nO que faz voltar é o que fez vir da primeira vez: a vista. Nos teleféricos tem os Mythen, o Rigi, o Pilatus e o Stanserhorn dispostos à volta, o lago prateado em baixo e os gigantes berneses brancos ao longe em dia claro. Depois de uma refeição em esplanada sul a 1.800 m, com o lago dos Quatro Cantões mesmo por baixo, o resto da Suíça parece muito longe.",
+      "it": "Non c'è strada per salire al Klewenalp. Si parcheggia a Beckenried, sulla riva del Lago dei Quattro Cantoni, si fa la coda alla stazione a valle della funivia con gli sci in spalla e, quattro minuti dopo, si è a 1.593 m su un grande terrazzo aperto sull'acqua. La salita è metà del fascino: la cabina vi strappa alla nebbia del lago e vi posa nella luce, e per il resto della giornata si scia con il Rigi a est, il Pilatus a nord e lo Stanserhorn in piano intermedio: uno dei grandi panorami svizzeri, e uno che si vede davvero solo con gli sci.\n\nIl comprensorio si distende su due settori collegati, Klewenalp e Stockhütte, per un totale di 40 km di piste. I dislivelli sono modesti, quota massima 1.900 m, e le pendenze sono francamente accoglienti: 15 km di blu, 15 km di rosse, tre nere corte per variare. È voluto. Klewenalp-Stockhütte è una montagna da famiglie e da gita zurighese, e tutto è calibrato per quel pubblico: piste larghe e lunghe, grande zona principianti alla stazione a monte, scuole sci attente, terrazze soleggiate rivolte verso il lago. L'innevamento è solido per la quota, aiutato dall'aria fredda del lago e da una buona copertura di cannoni sulle piste di rientro.\n\nCiò che fa tornare è quello che ha fatto venire la prima volta: la vista. Sugli impianti avete i Mythen, il Rigi, il Pilatus e lo Stanserhorn disposti intorno, il lago d'argento sotto e i giganti bernesi bianchi all'orizzonte nelle giornate limpide. Dopo pranzo in terrazza sud a 1.800 m, con il Lago dei Quattro Cantoni in verticale, il resto della Svizzera sembra molto lontano."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 15,
+      "black": 3
+    }
+  },
+  {
+    "slug": "tschiertschen",
+    "name": "Tschiertschen",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.8167,
+    "lng": 9.6,
+    "altitudeBase": 1340,
+    "altitudeSummit": 2100,
+    "pistesKm": 26,
+    "lifts": 5,
+    "skiInSkiOutNote": {
+      "en": "Tschiertschen is small enough that almost everywhere in the village is walking distance from the Furggabüel chair, but few hotels actually open onto a piste: this is foot-from-the-lift skiing rather than door-to-piste. Carry your skis the last 100 m.",
+      "fr": "Tschiertschen est assez petit pour que presque tout le village soit à pied du télésiège du Furggabüel, mais rares sont les hôtels qui ouvrent directement sur une piste : c'est du ski au pied des remontées plutôt que skis aux pieds au sens strict. Les cent derniers mètres se font skis à la main.",
+      "es": "Tschiertschen es lo bastante pequeño como para que casi todo el pueblo esté a pie del telesilla del Furggabüel, pero pocos hoteles dan directamente a una pista: es esquí al pie de remontes más que esquí en los pies en sentido estricto. Los últimos 100 m se hacen con los esquís en la mano.",
+      "pt": "Tschiertschen é suficientemente pequena para que quase toda a aldeia esteja a pé do telecadeira do Furggabüel, mas poucos hotéis abrem mesmo para uma pista: é esqui ao pé dos teleféricos mais do que esqui à porta no sentido estrito. Os últimos 100 m fazem-se com os esquis na mão.",
+      "it": "Tschiertschen è abbastanza piccola perché quasi tutto il paese sia a piedi dalla seggiovia del Furggabüel, ma pochi alberghi si aprono davvero su una pista: è sci ai piedi degli impianti più che ski-in ski-out in senso stretto. Gli ultimi cento metri si fanno con gli sci in mano."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 7",
+    "snowScore": 76,
+    "vibes": [
+      "freeride",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Tschiertschen sits at the end of a single mountain road from Chur, at 1,340 m, with 26 km of piste on Furggabüel and a quiet cult reputation among Graubünden freeriders. Wooden Walser farmhouses, no apartment blocks, five lifts, and a powder field on the Schalfegg side that the locals would prefer you forget.",
+      "fr": "Tschiertschen est au bout d'une route de montagne unique partant de Chur, à 1 340 m, avec 26 km de pistes sur le Furggabüel et une réputation culte discrète chez les freeriders grisons. Fermes en bois walser, pas un immeuble de résidences, cinq remontées, et un champ de poudreuse côté Schalfegg que les locaux préféreraient vous voir oublier.",
+      "es": "Tschiertschen está al final de una carretera de montaña única que sale de Chur, a 1.340 m, con 26 km de pistas en el Furggabüel y una reputación de culto discreta entre los freeriders grisones. Granjas de madera walser, ni un bloque de apartamentos, cinco remontes y un campo de polvo en la cara Schalfegg que los locales preferirían que olvidara.",
+      "pt": "Tschiertschen fica no fim de uma única estrada de montanha a partir de Chur, a 1.340 m, com 26 km de pistas no Furggabüel e uma reputação de culto discreta entre os freeriders dos Grisões. Casas de madeira walser, nem um bloco de apartamentos, cinco teleféricos e um campo de neve fresca do lado de Schalfegg que os locais prefeririam que se esquecesse.",
+      "it": "Tschiertschen è in fondo a un'unica strada di montagna che sale da Chur, a 1.340 m, con 26 km di piste sul Furggabüel e una fama di culto sommessa fra i freerider grigionesi. Case walser in legno, nemmeno un palazzo per appartamenti, cinque impianti e un campo di neve fresca sul versante Schalfegg che i locali preferirebbero teneste a mente."
+    },
+    "longDescription": {
+      "en": "The road into Tschiertschen does not lead anywhere else. It climbs out of Chur, switchbacks up through the forest, and ends at a 1,340 m balcony where 250 people live in dark wooden Walser houses. There is no through traffic, no apartment block built in the 1970s, no second cable car running into a neighbouring valley: this is one of the last small Graubünden villages that still feels like a village, and the ski area has been left in proportion to it.\n\nThe lift-served terrain is concentrated on the Furggabüel above the village, 26 km of piste served by five lifts, topping out at around 2,100 m. The pistes themselves are honest: blues that flatter intermediates, reds that turn serious in poor light, two or three blacks that justify the colour. But that is not really what people are here for. Tschiertschen has a reputation, quietly held by a small constellation of Zurich and Chur skiers, as one of the best lift-served freeride mountains in eastern Switzerland. The Schalfegg face, the Geissamatta couloirs and the back-of-the-mountain itinerary down toward Praden absorb fresh snow beautifully and are tracked out far more slowly than at famous resorts: a midweek powder day here, with a 9 a.m. first chair and lunch in the village, is something the regulars guard carefully.\n\nThe village answers in kind. There is no resort centre, only a handful of inns, a tiny grocery, ski racks leaning against 400-year-old Walser barns. You stay in a wooden room with thick walls, you walk to the lift, you eat where the locals eat, and you spend nothing on lift-queue cafes because there are not any. For a certain kind of skier this is the best ski-resort formula in Graubünden, and they would rather you did not write about it.",
+      "fr": "La route qui monte à Tschiertschen ne mène nulle part ailleurs. Elle sort de Chur, enchaîne les lacets dans la forêt et finit sur un balcon à 1 340 m où vivent 250 personnes dans des maisons walser en bois sombre. Pas de circulation de transit, pas d'immeuble construit dans les années 1970, pas de second téléphérique vers la vallée voisine : c'est l'un des derniers petits villages grisons à ressembler encore à un village, et le domaine skiable est resté à sa mesure.\n\nLe ski mécanisé est concentré sur le Furggabüel au-dessus du village : 26 km de pistes, cinq remontées, point haut autour de 2 100 m. Les pistes sont honnêtes : des bleues qui flattent les bons intermédiaires, des rouges qui se durcissent quand la lumière baisse, deux ou trois noires qui méritent leur couleur. Mais ce n'est pas pour ça qu'on vient vraiment. Tschiertschen a, dans une petite constellation de skieurs zurichois et coirois, la réputation d'être l'une des meilleures montagnes de freeride mécanisé de la Suisse orientale. La face de Schalfegg, les couloirs de la Geissamatta et l'itinéraire arrière vers Praden encaissent la chute fraîche admirablement et se font tracer beaucoup plus lentement que dans les stations connues : un jour de poudreuse en semaine ici, avec la première benne à 9 h et le déjeuner au village, c'est un secret que les habitués gardent jalousement.\n\nLe village joue la même note. Pas de centre station, juste quelques auberges, une minuscule épicerie, des porte-skis appuyés contre des granges walser de quatre siècles. On dort dans une chambre en bois aux murs épais, on marche jusqu'au télésiège, on dîne là où mangent les locaux, et on ne dépense rien en cafés au pied des remontées parce qu'il n'y en a pas. Pour un certain type de skieur, c'est la meilleure formule de domaine skiable des Grisons, et il préférerait que vous n'en parliez pas.",
+      "es": "La carretera que sube a Tschiertschen no lleva a ninguna otra parte. Sale de Chur, encadena curvas por el bosque y acaba en un balcón a 1.340 m donde viven 250 personas en casas walser de madera oscura. Sin tráfico de paso, sin bloques de los años 70, sin un segundo teleférico hacia el valle vecino: es uno de los últimos pueblos pequeños grisones que aún parece un pueblo, y la estación se ha quedado a su medida.\n\nEl esquí mecanizado se concentra en el Furggabüel sobre el pueblo: 26 km de pistas, cinco remontes, cota máxima en torno a los 2.100 m. Las pistas son honestas: azules que halagan al buen intermedio, rojas que se endurecen cuando baja la luz, dos o tres negras que merecen el color. Pero no se viene realmente por eso. Tschiertschen tiene, dentro de una pequeña constelación de esquiadores de Zúrich y de Chur, la reputación de ser una de las mejores montañas de freeride mecanizado de la Suiza oriental. La cara de Schalfegg, los corredores de la Geissamatta y el itinerario trasero hacia Praden encajan la nieve fresca a las mil maravillas y se tracean mucho más despacio que en las estaciones conocidas: un día de polvo entre semana aquí, con la primera silla a las 9 y la comida en el pueblo, es un secreto que los habituales guardan con celo.\n\nEl pueblo va al unísono. No hay centro de estación, sólo unas posadas, una tiendecita de ultramarinos, portaesquíes apoyados en pajares walser de cuatro siglos. Se duerme en una habitación de madera de paredes gruesas, se camina hasta el telesilla, se cena donde cenan los del lugar y no se gasta nada en cafeterías a pie de pista porque no las hay. Para cierto tipo de esquiador, es la mejor fórmula de dominio esquiable de los Grisones, y preferiría que usted no la contase.",
+      "pt": "A estrada para Tschiertschen não dá para mais lado nenhum. Sai de Chur, encadeia curvas pela floresta e termina numa varanda a 1.340 m onde vivem 250 pessoas em casas walser de madeira escura. Sem trânsito de passagem, sem prédios dos anos 70, sem um segundo teleférico para o vale vizinho: é uma das últimas pequenas aldeias dos Grisões que ainda parece uma aldeia, e a estância manteve-se à medida disso.\n\nO esqui mecanizado concentra-se no Furggabüel por cima da aldeia: 26 km de pistas, cinco teleféricos, ponto alto à volta dos 2.100 m. As pistas são honestas: azuis que favorecem o bom intermédio, vermelhas que endurecem com a luz baixa, duas ou três pretas que merecem a cor. Mas não é por isso que se vem mesmo. Tschiertschen tem, dentro de uma pequena constelação de esquiadores de Zurique e de Chur, a fama de ser uma das melhores montanhas de freeride mecanizado da Suíça oriental. A face de Schalfegg, os corredores da Geissamatta e o itinerário traseiro em direcção a Praden encaixam a queda fresca lindamente e tracejam-se muito mais devagar do que nas estâncias conhecidas: um dia de neve fresca a meio da semana aqui, com o primeiro telecadeira às 9 e o almoço na aldeia, é um segredo que os habituais guardam com cuidado.\n\nA aldeia vai pelo mesmo tom. Não há centro de estância, apenas algumas estalagens, uma mercearia minúscula, porta-esquis encostados a celeiros walser de quatro séculos. Dorme-se num quarto de madeira com paredes grossas, vai-se a pé ao telecadeira, jantamos onde janta o pessoal de cá e não se gasta nada em cafés à beira de pista porque não os há. Para um certo tipo de esquiador, é a melhor fórmula de domínio esquiável dos Grisões, e preferiria que ninguém escrevesse sobre isto.",
+      "it": "La strada che sale a Tschiertschen non porta da nessun'altra parte. Esce da Chur, sale a tornanti nel bosco e finisce su un terrazzo a 1.340 m, dove vivono 250 persone in case walser di legno scuro. Niente traffico di passaggio, niente palazzine anni Settanta, niente seconda funivia verso la valle accanto: è uno degli ultimi piccoli borghi grigionesi che assomiglia ancora a un borgo, e il comprensorio è rimasto alla sua misura.\n\nLo sci da impianti è concentrato sul Furggabüel sopra il paese: 26 km di piste, cinque impianti, quota massima intorno ai 2.100 m. Le piste sono oneste: blu che fanno bella figura agli intermedi, rosse che si induriscono quando cala la luce, due o tre nere che meritano il colore. Ma non si viene davvero per quello. Tschiertschen ha, in una piccola costellazione di sciatori zurighesi e di Chur, la fama di essere una delle migliori montagne da freeride da impianti della Svizzera orientale. La parete di Schalfegg, i canali della Geissamatta e l'itinerario sul retro verso Praden assorbono mirabilmente la nevicata fresca e si tracciano molto più lentamente che nelle località famose: una giornata di neve fresca infrasettimanale qui, con il primo impianto alle nove e il pranzo in paese, è un segreto che gli affezionati custodiscono.\n\nIl borgo accompagna lo stesso tono. Niente centro stazione, solo qualche locanda, un piccolo alimentari, portasci appoggiati a fienili walser di quattro secoli. Si dorme in una camera in legno con muri spessi, si va a piedi alla seggiovia, si cena dove cenano i locali e non si spende nulla in bar ai piedi degli impianti perché non ce ne sono. Per un certo tipo di sciatore è la migliore formula di comprensorio dei Grigioni, e preferirebbe che non se ne scrivesse."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 8,
+      "red": 10,
+      "black": 5
+    }
+  },
+  {
+    "slug": "wildhaus",
+    "name": "Wildhaus",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 47.2017,
+    "lng": 9.35,
+    "altitudeBase": 1090,
+    "altitudeSummit": 2262,
+    "pistesKm": 60,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "A few hotels and chalets sit close enough to the village lift station to be effectively door-to-piste, but most of Wildhaus is a short walk or shuttle from the lifts. Plenty of good options with skis on within a hundred metres or so, none with a true Alpine resort-village layout.",
+      "fr": "Quelques hôtels et chalets sont assez près de la station du village pour parler de ski aux pieds dans les faits, mais l'essentiel de Wildhaus est à courte marche ou navette des remontées. Beaucoup de bonnes options à moins de cent mètres skis aux pieds, aucune avec un vrai plan de station alpine au pied des pistes.",
+      "es": "Algunos hoteles y chalets están lo bastante cerca de la estación de salida del pueblo como para hablar de esquí en los pies en la práctica, pero la mayor parte de Wildhaus está a poca marcha o lanzadera de los remontes. Muchas buenas opciones a menos de cien metros con los esquís puestos, ninguna con un verdadero trazado de pueblo-estación alpina al pie de pistas.",
+      "pt": "Alguns hotéis e chalés ficam suficientemente perto da estação do teleférico de partida para se falar de esqui à porta na prática, mas a maior parte de Wildhaus está a curta caminhada ou transfer dos teleféricos. Muitas boas opções a menos de cem metros com os esquis calçados, nenhuma com um verdadeiro traçado de aldeia-estância alpina ao pé das pistas.",
+      "it": "Qualche albergo e qualche chalet sono abbastanza vicini all'impianto di partenza in paese da poter parlare di sci ai piedi nei fatti, ma la maggior parte di Wildhaus è a una breve passeggiata o navetta dagli impianti. Tante buone opzioni entro un centinaio di metri con gli sci ai piedi, nessuna con un vero impianto da località alpina ai piedi delle piste."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 74,
+    "vibes": [
+      "family",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Wildhaus is the Toggenburg valley village at 1,090 m below the Säntis, with 60 km of piste on the Wildhaus-Gamserrugg sector, one of the great eastern Swiss panoramas across to the Churfirsten, and a long-running family tradition. The reformer Huldrych Zwingli was born here in 1484, the village has not changed character much since.",
+      "fr": "Wildhaus est le village du Toggenburg, à 1 090 m sous le Säntis, avec 60 km de pistes sur le secteur Wildhaus-Gamserrugg, l'un des grands panoramas de Suisse orientale face aux Churfirsten, et une longue tradition familiale. Le réformateur Huldrych Zwingli y est né en 1484 : le village n'a pas tant changé de caractère depuis.",
+      "es": "Wildhaus es el pueblo del Toggenburg, a 1.090 m bajo el Säntis, con 60 km de pistas en el sector Wildhaus-Gamserrugg, uno de los grandes panoramas de la Suiza oriental frente al Churfirsten, y una larga tradición familiar. El reformador Huldrych Zwingli nació aquí en 1484: el pueblo no ha cambiado tanto de carácter desde entonces.",
+      "pt": "Wildhaus é a aldeia do Toggenburg, a 1.090 m por baixo do Säntis, com 60 km de pistas no sector Wildhaus-Gamserrugg, um dos grandes panoramas da Suíça oriental frente ao Churfirsten, e uma longa tradição familiar. O reformador Huldrych Zwingli nasceu aqui em 1484: a aldeia não mudou assim tanto de carácter desde então.",
+      "it": "Wildhaus è il borgo del Toggenburg, a 1.090 m sotto il Säntis, con 60 km di piste sul settore Wildhaus-Gamserrugg, uno dei grandi panorami della Svizzera orientale di fronte al Churfirsten, e una lunga tradizione familiare. Il riformatore Huldrych Zwingli nacque qui nel 1484: il borgo non ha cambiato carattere più di tanto da allora."
+    },
+    "longDescription": {
+      "en": "Wildhaus is the kind of Swiss village that arrives in front of you without much warning. You leave the eastern motorway, climb up into the Toggenburg, and at 1,090 m the road opens into a long meadow with the great wall of the Churfirsten on one side and the Säntis at the head of the valley. There are no high-rises, no purpose-built quarter: the village is mostly Tannenholz, the traditional Toggenburger silver-fir architecture, with low farmhouses, a parish church and a hotel or two from the 19th century. The reformer Huldrych Zwingli was born here in 1484, and the historical weight of the place is part of why it has resisted the worst impulses of resort development.\n\nThe ski area, Wildhaus-Gamserrugg, runs from the village floor up to 2,262 m on the Gamserrugg peak, with 60 km of piste served by 16 lifts. The bulk of the terrain is intermediate, twenty kilometres of blue and fifteen of red, with five black sections to give the better skier something to chew on. Snow-making covers the lower returns, which matters at 1,090 m of base altitude, while the upper sectors near the Gamserrugg and the linked Oberdorf hold their own naturally through most winters. The lift system links cleanly with the smaller Unterwasser-Toggenburg sector across the valley, doubling the skiable terrain on a single pass.\n\nThe character of the place is family, which here is not a marketing word: it is the deliberate calibration of beginners' meadows, ski-school numbers, kindergartens at the lift base, and a closing time that matches when small children get cold. The other half of the appeal is the panorama. From the top of the Gamserrugg you look straight across at the Churfirsten ridge, and on a clear day the Säntis closes the western horizon: the great defining shape of eastern Switzerland, which most of the country recognises but very few skiers see this close.",
+      "fr": "Wildhaus est ce genre de village suisse qui arrive sans prévenir. On quitte l'autoroute de l'est, on monte dans le Toggenburg, et à 1 090 m la route débouche sur une longue prairie : la muraille des Churfirsten d'un côté, le Säntis qui ferme le fond de la vallée. Pas de tours, pas de quartier construit ex nihilo : le village est majoritairement en Tannenholz, le bois de sapin argenté traditionnel du Toggenburg, avec ses fermes basses, son église paroissiale et un hôtel ou deux du XIXe. Le réformateur Huldrych Zwingli y est né en 1484, et le poids historique du lieu fait partie des raisons pour lesquelles il a résisté aux pires pulsions du développement stationnel.\n\nLe domaine skiable Wildhaus-Gamserrugg s'étire du fond de vallée jusqu'à 2 262 m sur le sommet du Gamserrugg, avec 60 km de pistes desservis par 16 remontées. Le gros du terrain est intermédiaire, vingt kilomètres de bleu et quinze de rouge, avec cinq sections noires pour donner aux meilleurs skieurs de quoi mordre. L'enneigement de culture couvre les pistes de retour, ce qui compte avec une base à 1 090 m, tandis que les secteurs hauts du Gamserrugg et de l'Oberdorf relié tiennent naturellement la plupart des hivers. Le réseau de remontées se raccorde proprement au plus petit secteur d'Unterwasser-Toggenburg de l'autre côté de la vallée, ce qui double le terrain skiable sur un même forfait.\n\nLe caractère du lieu est familial, et ici ce n'est pas un mot de brochure : c'est le réglage volontaire des prairies débutants, des effectifs de l'école de ski, des garderies au pied des remontées et d'une heure de fermeture qui correspond au moment où les petits ont froid. L'autre moitié de l'attrait, c'est le panorama. Du haut du Gamserrugg, on regarde droit en face la crête des Churfirsten et, par temps clair, le Säntis ferme l'horizon ouest : la grande silhouette emblématique de Suisse orientale, que tout le pays reconnaît, mais que très peu de skieurs voient d'aussi près.",
+      "es": "Wildhaus es ese tipo de pueblo suizo que aparece de pronto. Se deja la autopista del este, se sube al Toggenburg y, a 1.090 m, la carretera desemboca en una larga pradera: la muralla del Churfirsten a un lado, el Säntis cerrando el fondo del valle. Sin torres, sin barrio levantado de la nada: el pueblo es mayoritariamente Tannenholz, la madera de abeto plateado tradicional del Toggenburg, con sus granjas bajas, su iglesia parroquial y uno o dos hoteles del XIX. El reformador Huldrych Zwingli nació aquí en 1484, y el peso histórico del lugar es parte de la razón por la que ha resistido los peores impulsos del urbanismo de estación.\n\nEl dominio Wildhaus-Gamserrugg se extiende del fondo del valle hasta los 2.262 m en la cima del Gamserrugg, con 60 km de pistas servidas por 16 remontes. El grueso del terreno es intermedio, veinte kilómetros de azul y quince de rojo, con cinco tramos negros para que los mejores tengan algo a lo que hincar el diente. La nieve producida cubre las pistas de regreso, lo cual importa con cota base a 1.090 m, mientras que los sectores altos del Gamserrugg y el enlazado Oberdorf aguantan por sí mismos la mayoría de los inviernos. La red de remontes enlaza limpiamente con el sector menor de Unterwasser-Toggenburg al otro lado del valle, lo que duplica el terreno esquiable con un mismo forfait.\n\nEl carácter del sitio es familiar, y aquí no es una palabra de folleto: es el ajuste deliberado de las praderas de debutantes, los efectivos de la escuela de esquí, las guarderías al pie de los remontes y una hora de cierre que coincide con el momento en el que los pequeños tienen frío. La otra mitad del atractivo es el panorama. Desde lo alto del Gamserrugg se mira de frente la cresta del Churfirsten y, con día claro, el Säntis cierra el horizonte oeste: la gran silueta emblemática de la Suiza oriental, que todo el país reconoce, pero que muy pocos esquiadores ven tan de cerca.",
+      "pt": "Wildhaus é desse tipo de aldeia suíça que aparece de repente. Sai-se da auto-estrada de leste, sobe-se ao Toggenburg e, a 1.090 m, a estrada desemboca num longo prado: a muralha do Churfirsten de um lado, o Säntis a fechar o fundo do vale. Sem torres, sem bairro construído de raiz: a aldeia é maioritariamente em Tannenholz, a madeira de abeto prateado tradicional do Toggenburg, com as suas casas baixas, a igreja paroquial e um ou dois hotéis do século XIX. O reformador Huldrych Zwingli nasceu aqui em 1484, e o peso histórico do sítio é parte da razão por que resistiu aos piores impulsos do urbanismo de estância.\n\nO domínio Wildhaus-Gamserrugg estende-se do fundo do vale até aos 2.262 m no cume do Gamserrugg, com 60 km de pistas servidas por 16 teleféricos. O grosso do terreno é intermédio, vinte quilómetros de azul e quinze de vermelho, com cinco troços pretos para que os melhores tenham onde se entreter. A neve artificial cobre as pistas de regresso, o que importa com cota base a 1.090 m, enquanto os sectores altos do Gamserrugg e do Oberdorf ligado aguentam por si próprios na maioria dos invernos. A rede de teleféricos liga-se sem sobressaltos ao sector menor de Unterwasser-Toggenburg do outro lado do vale, o que duplica o terreno esquiável com o mesmo forfait.\n\nO carácter do sítio é familiar, e aqui não é palavra de folheto: é o ajuste deliberado dos prados de iniciados, dos efectivos da escola de esqui, das creches ao pé dos teleféricos e de uma hora de fecho que coincide com o momento em que as crianças sentem frio. A outra metade do encanto é o panorama. Do alto do Gamserrugg olha-se de frente para a crista do Churfirsten e, em dia claro, o Säntis fecha o horizonte oeste: a grande silhueta emblemática da Suíça oriental, que o país inteiro reconhece mas que poucos esquiadores vêem assim tão de perto.",
+      "it": "Wildhaus è uno di quei borghi svizzeri che ti compaiono davanti senza preavviso. Si lascia l'autostrada di levante, si sale nel Toggenburg, e a 1.090 m la strada sbocca su un lungo prato: la muraglia del Churfirsten da un lato, il Säntis a chiudere il fondovalle. Niente torri, niente quartiere costruito da zero: il borgo è in gran parte di Tannenholz, il legno d'abete bianco tradizionale del Toggenburg, con le sue cascine basse, la chiesa parrocchiale e un paio di alberghi dell'Ottocento. Il riformatore Huldrych Zwingli nacque qui nel 1484, e il peso storico del posto è parte del motivo per cui ha resistito ai peggiori impulsi dell'edilizia da stazione.\n\nIl comprensorio Wildhaus-Gamserrugg si distende dal fondovalle fino ai 2.262 m del Gamserrugg, con 60 km di piste serviti da 16 impianti. La gran parte del terreno è intermedia, venti chilometri di blu e quindici di rosso, con cinque tratti neri perché i più forti abbiano qualcosa da masticare. L'innevamento programmato copre le piste di rientro, cosa che conta con una quota base di 1.090 m, mentre i settori alti del Gamserrugg e dell'Oberdorf collegato reggono da soli quasi tutti gli inverni. La rete impianti si collega in modo pulito al settore minore di Unterwasser-Toggenburg dall'altra parte della valle, raddoppiando il terreno sciabile con un solo skipass.\n\nIl carattere del posto è familiare, e qui non è una parola da brochure: è la regolazione voluta dei prati per principianti, degli organici della scuola sci, degli asili ai piedi degli impianti e di un orario di chiusura che coincide con il momento in cui i piccoli iniziano ad avere freddo. L'altra metà del fascino è il panorama. Dall'alto del Gamserrugg si guarda dritto in faccia la cresta del Churfirsten e, in giornata limpida, il Säntis chiude l'orizzonte a ponente: la grande sagoma simbolo della Svizzera orientale, che tutto il Paese riconosce ma che ben pochi sciatori vedono così da vicino."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 20,
+      "red": 15,
+      "black": 5
+    }
+  },
+  {
+    "slug": "saint-luc",
+    "name": "Saint-Luc",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.2167,
+    "lng": 7.6072,
+    "altitudeBase": 1675,
+    "altitudeSummit": 3000,
+    "pistesKm": 75,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Saint-Luc is a traditional Anniviard village laid out along the contour, with the Tignousa funicular as the access point: a handful of hotels and chalets are within a short ski or walk of pistes, but the cleanest door-to-snow arrangements are higher up at Tignousa itself and in the Chandolin sector across the link.",
+      "fr": "Saint-Luc est un village anniviard traditionnel étiré sur la courbe de niveau, avec le funiculaire de Tignousa comme porte d'entrée : quelques hôtels et chalets sont à un court ski ou à pied des pistes, mais les meilleures configurations skis aux pieds sont plus haut, à Tignousa même, et dans le secteur de Chandolin de l'autre côté de la liaison.",
+      "es": "Saint-Luc es un pueblo anniviarde tradicional extendido sobre la curva de nivel, con el funicular de Tignousa como puerta de entrada: unos cuantos hoteles y chalets están a un corto esquí o paseo de las pistas, pero las mejores configuraciones esquí en los pies se encuentran más arriba, en la propia Tignousa, y en el sector de Chandolin al otro lado del enlace.",
+      "pt": "Saint-Luc é uma aldeia anniviarde tradicional alongada sobre a curva de nível, com o funicular de Tignousa como porta de entrada: alguns hotéis e chalés estão a um curto esqui ou a pé das pistas, mas as melhores configurações esqui à porta encontram-se mais acima, na própria Tignousa, e no sector de Chandolin do outro lado da ligação.",
+      "it": "Saint-Luc è un tipico borgo anniviarde disteso lungo la curva di livello, con la funicolare di Tignousa come porta d'ingresso: qualche albergo e qualche chalet sono a un breve sci o a piedi dalle piste, ma le migliori sistemazioni ski-in ski-out si trovano più in alto, a Tignousa stessa, e nel settore di Chandolin dall'altra parte del collegamento."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 14",
+    "snowScore": 80,
+    "vibes": [
+      "authentic",
+      "snow-sure",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Saint-Luc sits on the sunny balcony of the Val d'Anniviers at 1,675 m, linked to sister village Chandolin under one lift pass and one 75 km area. The panorama runs from the Matterhorn to the Weisshorn, the villages are old Walser-influenced stone, and the high-altitude planetary path leads to the Observatoire François-Xavier-Bagnoud.",
+      "fr": "Saint-Luc s'étire sur le balcon ensoleillé du Val d'Anniviers à 1 675 m, relié à son village jumeau de Chandolin sous un forfait unique et un domaine de 75 km. Le panorama va du Cervin au Weisshorn, les villages sont de vieille pierre d'influence walser, et le sentier planétaire d'altitude mène à l'Observatoire François-Xavier-Bagnoud.",
+      "es": "Saint-Luc se extiende sobre el balcón soleado del Val d'Anniviers a 1.675 m, enlazado con su pueblo hermano de Chandolin bajo un único forfait y un dominio de 75 km. El panorama va del Cervino al Weisshorn, los pueblos son de vieja piedra de influencia walser y el sendero planetario de altura conduce al Observatorio François-Xavier-Bagnoud.",
+      "pt": "Saint-Luc estende-se sobre a varanda soalheira do Val d'Anniviers a 1.675 m, ligada à aldeia irmã de Chandolin sob um forfait único e um domínio de 75 km. O panorama vai do Cervino ao Weisshorn, as aldeias são de pedra antiga de influência walser, e o caminho planetário de altitude leva ao Observatório François-Xavier-Bagnoud.",
+      "it": "Saint-Luc si distende sul balcone soleggiato della Val d'Anniviers a 1.675 m, collegata al borgo gemello di Chandolin sotto un unico skipass e un comprensorio di 75 km. Il panorama va dal Cervino al Weisshorn, i villaggi sono di vecchia pietra d'influenza walser, e il sentiero planetario d'alta quota porta all'Osservatorio François-Xavier-Bagnoud."
+    },
+    "longDescription": {
+      "en": "Saint-Luc is one of those Valais villages that you arrive at and then immediately understand why people stayed. The Val d'Anniviers cuts south off the Rhône, climbs sharply through the forests, and opens at 1,675 m onto a sun-drenched balcony at right angles to the high peaks. Saint-Luc is the lower of the two main villages, Chandolin the higher and even sunnier, and both are made of dark wood and stone in the Walser-influenced Anniviard tradition. They are linked by piste and by a single lift pass into a 75 km area that punches well above its weight.\n\nThe ski-area architecture is the classic Anniviard one: a funicular from the village (the Tignousa funicular at Saint-Luc) lifts you out of the trees and onto the sun-bowl above, the lifts climb across Bella-Tola, Tignousa and Tsapé to the Pointe de Tounot at 3,000 m, and the long red-and-blue runs come back down toward both Saint-Luc and Chandolin. The high sectors hold genuinely good snow into spring, helped by altitude and north-facing exposures off the Pointe de Tounot, and the lower runs are well covered by snowmaking. With seventy-five kilometres of varied piste, ten of them black, plus serious off-piste in the side bowls, this is a proper big-day area without the prices to match.\n\nWhat sets Saint-Luc apart, though, is what you do when you stop. Two things really. The first is the panorama: from the upper lifts and from the chairs back into Tignousa you have a clean line from the Matterhorn through the Dent Blanche to the Weisshorn, the high crest of the southern Valais arranged in front of you like a teaching diagram. The second is the planetary path, a high-altitude walk laid out at the scale of the solar system, which leads to the Observatoire François-Xavier-Bagnoud above Tignousa: an unusual thing to find on a ski mountain, and the only one of its kind in the Alps.",
+      "fr": "Saint-Luc est l'un de ces villages valaisans où l'on arrive et où l'on comprend tout de suite pourquoi les gens y sont restés. Le Val d'Anniviers s'enfonce vers le sud depuis le Rhône, grimpe sec à travers les forêts et s'ouvre à 1 675 m sur un balcon gorgé de soleil, perpendiculaire aux grands sommets. Saint-Luc est le plus bas des deux villages principaux, Chandolin le plus haut et plus solaire encore, et tous deux sont faits de bois sombre et de pierre dans la tradition anniviarde d'influence walser. Ils sont reliés par les pistes et par un forfait unique, sur un domaine de 75 km qui frappe au-dessus de son poids.\n\nL'architecture du domaine est l'architecture anniviarde classique : un funiculaire depuis le village (le funiculaire de Tignousa à Saint-Luc) vous sort des bois pour vous poser sur la combe solaire, les remontées montent à travers la Bella-Tola, Tignousa et le Tsapé jusqu'à la Pointe de Tounot à 3 000 m, et les longues rouges et bleues redescendent vers Saint-Luc et Chandolin. Les secteurs hauts gardent une vraie bonne neige jusqu'au printemps, portés par l'altitude et l'exposition nord sous la Pointe de Tounot, et les pistes basses sont bien couvertes par la neige de culture. Avec soixante-quinze kilomètres de pistes variées, dont une dizaine de noires, plus du vrai hors-piste dans les combes latérales, on a là un domaine taille grande journée sans en avoir les prix.\n\nMais ce qui distingue Saint-Luc, c'est ce qu'on y fait quand on s'arrête. Deux choses essentiellement. La première, c'est le panorama : depuis les remontées hautes et depuis les télésièges qui redescendent sur Tignousa, vous avez l'enchaînement du Cervin à la Dent Blanche jusqu'au Weisshorn, la haute crête du Valais sud rangée devant vous comme une planche pédagogique. La seconde, c'est le sentier planétaire, un chemin d'altitude tracé à l'échelle du système solaire, qui mène à l'Observatoire François-Xavier-Bagnoud au-dessus de Tignousa : un objet inhabituel sur une montagne à skis, et le seul du genre dans les Alpes.",
+      "es": "Saint-Luc es uno de esos pueblos valaisanos a los que se llega y se entiende de inmediato por qué la gente se quedó. El Val d'Anniviers se hunde hacia el sur desde el Ródano, sube en seco por los bosques y se abre a 1.675 m sobre un balcón empapado de sol, perpendicular a las grandes cumbres. Saint-Luc es el más bajo de los dos pueblos principales, Chandolin el más alto y aún más soleado, y ambos están hechos de madera oscura y piedra en la tradición anniviarde de influencia walser. Están enlazados por pistas y por un forfait único, sobre un dominio de 75 km que golpea por encima de su peso.\n\nLa arquitectura del dominio es la arquitectura anniviarde clásica: un funicular desde el pueblo (el funicular de Tignousa en Saint-Luc) le saca del bosque y le deja en la cuenca solar, los remontes suben atravesando el Bella-Tola, Tignousa y el Tsapé hasta la Pointe de Tounot a 3.000 m, y las largas rojas y azules vuelven a bajar hacia Saint-Luc y Chandolin. Los sectores altos guardan nieve realmente buena hasta la primavera, ayudados por la altura y la orientación norte bajo la Pointe de Tounot, y las pistas bajas están bien cubiertas por la nieve de cañón. Con setenta y cinco kilómetros de pistas variadas, una decena de ellas negras, más auténtico fuera de pista en las cuencas laterales, tenemos un dominio de jornada larga sin los precios de uno.\n\nPero lo que distingue a Saint-Luc es lo que se hace en ella cuando se para. Dos cosas, fundamentalmente. La primera es el panorama: desde los remontes altos y desde los telesillas que vuelven a Tignousa, se tiene el encadenamiento del Cervino a la Dent Blanche hasta el Weisshorn, la alta cresta del Valais sur dispuesta delante como una lámina pedagógica. La segunda es el sendero planetario, un camino de altura trazado a la escala del sistema solar, que conduce al Observatorio François-Xavier-Bagnoud por encima de Tignousa: un objeto inusual en una montaña de esquí, y el único de su clase en los Alpes.",
+      "pt": "Saint-Luc é uma daquelas aldeias valaisanas a que se chega e se percebe logo porque é que as pessoas ficaram. O Val d'Anniviers entra para sul a partir do Ródano, sobe a pique pelas florestas e abre-se a 1.675 m sobre uma varanda banhada de sol, perpendicular aos grandes cumes. Saint-Luc é a mais baixa das duas aldeias principais, Chandolin a mais alta e ainda mais soalheira, e ambas são feitas de madeira escura e pedra na tradição anniviarde de influência walser. Estão ligadas por pistas e por um forfait único, num domínio de 75 km que bate acima do seu peso.\n\nA arquitectura do domínio é a arquitectura anniviarde clássica: um funicular a partir da aldeia (o funicular de Tignousa em Saint-Luc) tira-o do bosque e deixa-o na bacia solar, os teleféricos sobem atravessando o Bella-Tola, Tignousa e o Tsapé até à Pointe de Tounot a 3.000 m, e as longas pistas vermelhas e azuis voltam a descer para Saint-Luc e Chandolin. Os sectores altos guardam neve realmente boa até à Primavera, ajudados pela altitude e pela exposição a norte por baixo da Pointe de Tounot, e as pistas baixas estão bem cobertas pela neve de canhão. Com setenta e cinco quilómetros de pistas variadas, uma dezena delas pretas, e a juntar a isso autêntico fora de pista nas bacias laterais, temos um domínio de dia inteiro sem preço de dia inteiro.\n\nMas o que distingue Saint-Luc é o que se faz nela quando se pára. Duas coisas, fundamentalmente. A primeira é o panorama: dos teleféricos altos e dos telecadeiras que voltam a Tignousa, tem-se o encadeamento do Cervino à Dent Blanche até ao Weisshorn, a alta crista do Valais sul disposta à frente como uma estampa pedagógica. A segunda é o caminho planetário, um trilho de altitude traçado à escala do sistema solar, que leva ao Observatório François-Xavier-Bagnoud por cima de Tignousa: um objecto invulgar numa montanha de esqui, e o único do género nos Alpes.",
+      "it": "Saint-Luc è uno di quei borghi vallesani in cui si arriva e si capisce subito perché la gente è rimasta. La Val d'Anniviers si insinua verso sud dal Rodano, sale ripida tra i boschi e si apre a 1.675 m su un balcone pieno di sole, perpendicolare alle grandi cime. Saint-Luc è la più bassa dei due borghi principali, Chandolin la più alta e ancor più soleggiata, ed entrambe sono fatte di legno scuro e pietra nella tradizione anniviarde d'influenza walser. Sono collegate dalle piste e da uno skipass unico, su un comprensorio di 75 km che colpisce ben oltre il suo peso.\n\nL'architettura del comprensorio è quella classica anniviarde: una funicolare dal paese (la funicolare di Tignousa a Saint-Luc) vi strappa al bosco e vi posa sulla conca solare, gli impianti salgono attraverso la Bella-Tola, Tignousa e il Tsapé fino alla Pointe de Tounot a 3.000 m, e le lunghe rosse e blu ridiscendono verso Saint-Luc e Chandolin. I settori alti tengono una neve davvero buona fino a primavera, sostenuti dalla quota e dall'esposizione a nord sotto la Pointe de Tounot, e le piste basse sono ben coperte dall'innevamento programmato. Con settantacinque chilometri di piste varie, una decina nere, più del vero fuoripista nelle conche laterali, qui c'è un comprensorio da giornata piena senza i prezzi di una giornata piena.\n\nMa ciò che distingue Saint-Luc è ciò che ci si fa quando ci si ferma. Due cose, in sostanza. La prima è il panorama: dagli impianti alti e dalle seggiovie che riportano a Tignousa si vede l'incatenamento dal Cervino alla Dent Blanche fino al Weisshorn, l'alta cresta del Vallese meridionale disposta davanti come una tavola didattica. La seconda è il sentiero planetario, un percorso d'alta quota tracciato in scala del sistema solare, che porta all'Osservatorio François-Xavier-Bagnoud sopra Tignousa: un oggetto inconsueto su una montagna da sci, e l'unico del suo genere sulle Alpi."
+    },
+    "pisteCounts": {
+      "green": 0,
+      "blue": 15,
+      "red": 20,
+      "black": 10
+    }
   }
 ]
