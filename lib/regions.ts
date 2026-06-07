@@ -97,6 +97,27 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Lapónia finlandesa',
     it: 'Lapponia finlandese',
   },
+  'Hokkaido': {
+    en: 'Hokkaido',
+    fr: 'Hokkaidō',
+    es: 'Hokkaidō',
+    pt: 'Hokkaidō',
+    it: 'Hokkaidō',
+  },
+  'Japanese Alps': {
+    en: 'Japanese Alps',
+    fr: 'Alpes japonaises',
+    es: 'Alpes japoneses',
+    pt: 'Alpes japoneses',
+    it: 'Alpi giapponesi',
+  },
+  'Tohoku Mountains': {
+    en: 'Tohoku Mountains',
+    fr: 'Montagnes du Tōhoku',
+    es: 'Montañas de Tōhoku',
+    pt: 'Montanhas de Tōhoku',
+    it: 'Monti del Tōhoku',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {

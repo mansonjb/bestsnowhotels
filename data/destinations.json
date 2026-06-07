@@ -16008,5 +16008,600 @@
       "red": 4,
       "black": 1
     }
+  },
+  {
+    "slug": "niseko",
+    "name": "Niseko",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Hokkaido",
+    "lat": 42.8631,
+    "lng": 140.7066,
+    "altitudeBase": 255,
+    "altitudeSummit": 1188,
+    "pistesKm": 47,
+    "lifts": 30,
+    "skiInSkiOutNote": {
+      "en": "True ski-in ski-out is realistic in upper Hirafu near the Family lift, mid-Annupuri, and the Hanazono base. Many central Hirafu hotels are a short shuttle or walk to the gondola, not directly slope-side.",
+      "fr": "Le vrai ski aux pieds existe dans le haut de Hirafu près du Family lift, au milieu d'Annupuri et à la base de Hanazono. Beaucoup d'hôtels du centre de Hirafu sont à une navette ou une courte marche de la gondole, pas directement sur la piste.",
+      "es": "El verdadero ski-in ski-out es realista en la parte alta de Hirafu cerca del Family lift, en mitad de Annupuri y en la base de Hanazono. Muchos hoteles del centro de Hirafu están a un corto trayecto en lanzadera o a pie de la góndola, no directamente al borde de la pista.",
+      "pt": "O verdadeiro ski-in ski-out é realista na parte alta de Hirafu junto ao Family lift, a meio de Annupuri e na base de Hanazono. Muitos hotéis do centro de Hirafu estão a uma curta viagem de shuttle ou a pé da gôndola, e não directamente à beira da pista.",
+      "it": "Il vero ski-in ski-out è realistico nella parte alta di Hirafu vicino al Family lift, a metà Annupuri e alla base di Hanazono. Molti hotel del centro di Hirafu sono a una breve navetta o a piedi dalla gondola, non direttamente sulla pista."
+    },
+    "seasonStart": "Nov 24",
+    "seasonEnd": "May 5",
+    "snowScore": 98,
+    "vibes": [
+      "japow",
+      "freeride",
+      "big-domain",
+      "party"
+    ],
+    "intro": {
+      "en": "Niseko is the name every powder hunter whispers. Storms roll in off the Sea of Japan and drop fifteen metres of dry, weightless japow on Mount Annupuri each winter, while Mt Yotei rises across the valley like a private Fuji. Four interlinked bases, neon-lit izakaya, steaming onsen at night: this is Hokkaido in maximum mode.",
+      "fr": "Niseko, c'est le nom que chuchotent tous les chasseurs de poudreuse. Les tempêtes arrivent de la mer du Japon et déposent quinze mètres de japow sec et léger sur le mont Annupuri chaque hiver, pendant que le Yotei se dresse de l'autre côté de la vallée tel un Fuji privé. Quatre bases reliées, izakaya aux néons, onsen fumants la nuit: le Hokkaido en version maximale.",
+      "es": "Niseko es el nombre que susurran todos los cazadores de polvo. Las tormentas llegan del mar del Japón y descargan quince metros de japow seco y ligero sobre el monte Annupuri cada invierno, mientras el Yotei se alza al otro lado del valle como un Fuji privado. Cuatro bases conectadas, izakayas de neón, onsen humeantes de noche: Hokkaido al máximo.",
+      "pt": "Niseko é o nome que todos os caçadores de pó sussurram. As tempestades chegam do mar do Japão e deixam quinze metros de japow seco e leve no monte Annupuri todos os invernos, enquanto o Yotei se ergue do outro lado do vale como um Fuji privado. Quatro bases interligadas, izakayas de néon, onsen a fumegar à noite: Hokkaido no máximo.",
+      "it": "Niseko è il nome che sussurrano tutti i cacciatori di polvere. Le tempeste arrivano dal mar del Giappone e scaricano quindici metri di japow asciutto e leggero sul monte Annupuri ogni inverno, mentre lo Yotei si erge oltre la valle come un Fuji privato. Quattro basi collegate, izakaya al neon, onsen fumanti la notte: Hokkaido al massimo."
+    },
+    "longDescription": {
+      "en": "Spread across four interconnected base areas, Hirafu, Niseko Village, Annupuri and Hanazono, Niseko United covers Mount Annupuri with 47 kilometres of pistes and a lift pass that unlocks the entire massif. The terrain is famously democratic: long blue cruisers under the gondolas, mellow greens for families, and gate-accessed sidecountry that has built the resort's global reputation. When the lifts close at four, night skiing fires up under floodlights and the powder keeps falling, sometimes another thirty centimetres before breakfast.\n\nHirafu is the buzzing heart, narrow streets stacked with ramen counters, craft cocktail bars and ski-in pensions, while Annupuri and Hanazono feel quieter and more residential. English is spoken almost everywhere, signage is bilingual, and the after-ski ritual is non-negotiable: soak in a rotenburo open-air onsen with the snow falling on your shoulders, then dinner of grilled hokke, Hokkaido scallops and Yoichi whisky. Sapporo's New Chitose airport sits two and a half hours away by bus or rail, making Niseko one of the most accessible big-mountain destinations on the planet.",
+      "fr": "Réparti sur quatre bases interconnectées, Hirafu, Niseko Village, Annupuri et Hanazono, Niseko United couvre le mont Annupuri avec 47 kilomètres de pistes et un forfait unique qui ouvre tout le massif. Le terrain est merveilleusement démocratique: longues bleues sous les gondoles, vertes douces pour les familles, et hors-piste contrôlé par portes qui a bâti la réputation mondiale de la station. Quand les remontées ferment à 16 heures, le ski nocturne s'allume sous les projecteurs et la poudreuse continue de tomber, parfois trente centimètres de plus avant le petit-déjeuner.\n\nHirafu est le coeur effervescent, ruelles tapissées de comptoirs à ramen, bars à cocktails et pensions ski aux pieds, tandis qu'Annupuri et Hanazono restent plus calmes, plus résidentielles. L'anglais est parlé presque partout, la signalétique est bilingue, et le rituel d'après-ski n'est pas négociable: tremper dans un rotenburo, onsen en plein air, neige sur les épaules, puis dîner de hokke grillé, coquilles Saint-Jacques de Hokkaido et whisky de Yoichi. L'aéroport de New Chitose, à Sapporo, est à deux heures et demie en bus ou en train, faisant de Niseko l'une des grandes destinations big-mountain les plus accessibles de la planète.",
+      "es": "Repartido en cuatro bases interconectadas, Hirafu, Niseko Village, Annupuri y Hanazono, Niseko United cubre el monte Annupuri con 47 kilómetros de pistas y un forfait único que abre todo el macizo. El terreno es maravillosamente democrático: largas azules bajo las góndolas, verdes suaves para familias, y fuera pista controlado por puertas que ha forjado la fama mundial de la estación. Cuando los remontes cierran a las cuatro, el esquí nocturno se enciende bajo focos y la nieve sigue cayendo, a veces otros treinta centímetros antes del desayuno.\n\nHirafu es el corazón vibrante, callejuelas repletas de barras de ramen, cocteleros de autor y pensiones a pie de pista, mientras que Annupuri y Hanazono se sienten más tranquilas y residenciales. Se habla inglés casi en todas partes, la señalización es bilingüe, y el ritual del après-ski no se negocia: sumergirse en un rotenburo, onsen al aire libre, con la nieve cayendo sobre los hombros, y después cenar hokke a la parrilla, vieiras de Hokkaido y whisky de Yoichi. El aeropuerto de New Chitose, en Sapporo, queda a dos horas y media en autobús o tren, lo que convierte a Niseko en uno de los destinos de gran montaña más accesibles del planeta.",
+      "pt": "Distribuída por quatro bases interligadas, Hirafu, Niseko Village, Annupuri e Hanazono, a Niseko United cobre o monte Annupuri com 47 quilómetros de pistas e um passe único que desbloqueia o maciço inteiro. O terreno é maravilhosamente democrático: longas azuis sob as gôndolas, verdes suaves para famílias, e fora de pista controlado por portões que construiu a fama mundial da estância. Quando os teleféricos fecham às quatro, o esqui nocturno acende-se sob os holofotes e a neve continua a cair, por vezes mais trinta centímetros antes do pequeno-almoço.\n\nHirafu é o coração efervescente, ruelas atulhadas de balcões de ramen, bares de cocktails de autor e pensões ao pé da pista, enquanto Annupuri e Hanazono se mantêm mais sossegadas e residenciais. Fala-se inglês em quase todo o lado, a sinalética é bilingue, e o ritual de après-ski não se discute: mergulhar num rotenburo, onsen ao ar livre, com a neve a pousar nos ombros, e depois jantar hokke grelhado, vieiras de Hokkaido e whisky de Yoichi. O aeroporto de New Chitose, em Sapporo, fica a duas horas e meia de autocarro ou comboio, fazendo de Niseko um dos destinos de grande montanha mais acessíveis do planeta.",
+      "it": "Distribuita su quattro basi interconnesse, Hirafu, Niseko Village, Annupuri e Hanazono, Niseko United copre il monte Annupuri con 47 chilometri di piste e uno skipass unico che apre l'intero massiccio. Il terreno è splendidamente democratico: lunghe blu sotto le gondole, verdi morbide per le famiglie, e fuoripista con accesso a cancelli che ha costruito la fama mondiale della località. Quando gli impianti chiudono alle quattro, lo sci notturno si accende sotto i fari e la neve continua a cadere, a volte altri trenta centimetri prima della colazione.\n\nHirafu è il cuore pulsante, viuzze tappezzate di banconi di ramen, cocktail bar d'autore e pensioni ai piedi delle piste, mentre Annupuri e Hanazono restano più tranquille, più residenziali. L'inglese si parla quasi ovunque, la segnaletica è bilingue, e il rito dell'après-ski non si discute: immergersi in un rotenburo, onsen all'aperto, con la neve sulle spalle, e poi cena di hokke alla griglia, capesante di Hokkaido e whisky di Yoichi. L'aeroporto di New Chitose, a Sapporo, dista due ore e mezza in autobus o treno, rendendo Niseko una delle grandi mete da big mountain più accessibili del pianeta."
+    },
+    "pisteCounts": {
+      "green": 16,
+      "blue": 18,
+      "red": 16,
+      "black": 11
+    }
+  },
+  {
+    "slug": "rusutsu",
+    "name": "Rusutsu",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Hokkaido",
+    "lat": 42.7407,
+    "lng": 140.9261,
+    "altitudeBase": 400,
+    "altitudeSummit": 994,
+    "pistesKm": 42,
+    "lifts": 18,
+    "skiInSkiOutNote": {
+      "en": "True ski-in ski-out is concentrated at the Rusutsu Resort Tower complex and the Westin Rusutsu Resort, both directly on the West Mountain base. Outlying lodges rely on a free shuttle, perfectly fine but not slope-side.",
+      "fr": "Le vrai ski aux pieds se concentre au complexe Rusutsu Resort Tower et au Westin Rusutsu Resort, tous deux directement à la base de West Mountain. Les pensions extérieures dépendent d'une navette gratuite, parfaitement fluide mais pas au pied des pistes.",
+      "es": "El verdadero ski-in ski-out se concentra en el complejo Rusutsu Resort Tower y el Westin Rusutsu Resort, ambos directamente en la base de West Mountain. Los alojamientos exteriores dependen de una lanzadera gratuita, perfectamente fluida pero no al pie de la pista.",
+      "pt": "O verdadeiro ski-in ski-out concentra-se no complexo Rusutsu Resort Tower e no Westin Rusutsu Resort, ambos directamente na base de West Mountain. Os alojamentos periféricos dependem de um shuttle gratuito, perfeitamente fluido mas não ao pé da pista.",
+      "it": "Il vero ski-in ski-out si concentra nel complesso Rusutsu Resort Tower e al Westin Rusutsu Resort, entrambi direttamente alla base di West Mountain. Le pensioni più esterne contano su una navetta gratuita, perfettamente fluida ma non a piedi delle piste."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 5",
+    "snowScore": 96,
+    "vibes": [
+      "tree-skiing",
+      "japow",
+      "family",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Twenty minutes over the ridge from Niseko, Rusutsu is the quieter sibling that locals send powder addicts to when the main resort gets crowded. Three small mountains, sparse Hokkaido birch forests, and that same Siberian airstream dump bottomless japow between widely-spaced trees, all under the silent gaze of Mt Yotei.",
+      "fr": "À vingt minutes par la crête depuis Niseko, Rusutsu est la station soeur, plus calme, où les locaux envoient les accros à la poudreuse quand le grand voisin se remplit. Trois petites montagnes, des forêts de bouleaux clairsemées et le même flux sibérien déversent un japow sans fond entre des arbres bien espacés, sous le regard silencieux du Yotei.",
+      "es": "A veinte minutos por la cresta desde Niseko, Rusutsu es la hermana más tranquila a la que los locales mandan a los adictos al polvo cuando la estación principal se llena. Tres montañas pequeñas, bosques de abedules de Hokkaido bien aireados y la misma corriente siberiana descargan un japow sin fondo entre árboles muy separados, bajo la mirada silenciosa del Yotei.",
+      "pt": "A vinte minutos pela crista a partir de Niseko, Rusutsu é a irmã mais calma para onde os locais mandam os viciados em pó quando a estância principal enche. Três pequenas montanhas, bosques de bétulas de Hokkaido bem arejados e a mesma corrente siberiana despejam um japow sem fundo entre árvores bem espaçadas, sob o olhar silencioso do Yotei.",
+      "it": "A venti minuti di cresta da Niseko, Rusutsu è la sorella più tranquilla a cui i locali spediscono i tossici della polvere quando la stazione principale si affolla. Tre piccole montagne, foreste di betulle di Hokkaido ben aerate e la stessa corrente siberiana scaricano un japow senza fondo tra alberi distanziati, sotto lo sguardo silenzioso dello Yotei."
+    },
+    "longDescription": {
+      "en": "Rusutsu spreads across three peaks, West Mountain, East Mountain and Mount Isola, linked by gondolas and quad chairs to deliver 42 kilometres of groomers plus some of the best tree skiing in Japan. The birch forests here are open and gladed in a way alpine pines never are, perfect for first powder turns and intermediate riders learning to read terrain. The lift system is modern, the lines almost non-existent, and a single mid-week storm can replenish the entire mountain overnight.\n\nAt the base, the Rusutsu Resort Tower complex anchors the village with hotel rooms, an indoor wave pool, an old-school amusement park dormant under snow, and a string of restaurants that make this a serious family destination as much as a powder one. Onsen open until midnight, kid-friendly ski school and lower lift prices than Niseko have turned Rusutsu into the Hokkaido secret that is no longer a secret. From New Chitose airport count on roughly two hours by direct shuttle bus, fewer transfers than its famous neighbour.",
+      "fr": "Rusutsu se déploie sur trois sommets, West Mountain, East Mountain et Mount Isola, reliés par gondoles et quatre-places pour offrir 42 kilomètres de pistes damées plus l'un des plus beaux ski en forêt du Japon. Les forêts de bouleaux sont ouvertes et aérées comme les pinèdes alpines ne le sont jamais, idéales pour les premiers virages en poudreuse et pour les skieurs intermédiaires qui apprennent à lire un terrain. Le système de remontées est moderne, les files quasi inexistantes, et une seule tempête de milieu de semaine suffit à recharger toute la montagne en une nuit.\n\nAu pied, le complexe de la Rusutsu Resort Tower ancre le village avec chambres d'hôtel, piscine à vagues couverte, parc d'attractions à l'ancienne endormi sous la neige et chapelet de restaurants qui font de cet endroit une vraie destination famille autant qu'un spot à poudreuse. Onsen ouverts jusqu'à minuit, école de ski accueillante pour les enfants et forfaits moins chers qu'à Niseko ont transformé Rusutsu en secret de Hokkaido qui n'en est plus un. Depuis l'aéroport de New Chitose, comptez environ deux heures en navette directe, moins de correspondances que son voisin célèbre.",
+      "es": "Rusutsu se reparte en tres cumbres, West Mountain, East Mountain y Mount Isola, conectadas por góndolas y telesillas cuádruples para entregar 42 kilómetros de pistas batidas más uno de los mejores esquís entre árboles de Japón. Los bosques de abedules son abiertos y aireados como las piceas alpinas nunca lo son, perfectos para los primeros giros en polvo y para riders intermedios que aprenden a leer el terreno. El sistema de remontes es moderno, las colas casi inexistentes, y una sola tormenta a mitad de semana basta para repintar la montaña entera en una noche.\n\nA pie de pista, el complejo de la Rusutsu Resort Tower ancla el pueblo con habitaciones de hotel, piscina de olas cubierta, parque de atracciones a la antigua usanza adormecido bajo la nieve y una hilera de restaurantes que hacen de este lugar un destino familiar serio tanto como un spot polvo. Onsen abiertos hasta medianoche, escuela de esquí amable con los niños y forfaits más baratos que Niseko han convertido a Rusutsu en el secreto de Hokkaido que ya no es secreto. Desde el aeropuerto de New Chitose cuente unas dos horas en lanzadera directa, menos transbordos que su vecino famoso.",
+      "pt": "Rusutsu estende-se por três cumes, West Mountain, East Mountain e Mount Isola, ligados por gôndolas e telecadeiras quádruplas para entregar 42 quilómetros de pistas batidas e um dos melhores esquis entre árvores do Japão. Os bosques de bétulas são abertos e arejados como os pinhais alpinos nunca são, perfeitos para as primeiras curvas em pó e para esquiadores intermédios que aprendem a ler o terreno. O sistema de teleféricos é moderno, as filas quase inexistentes, e uma única tempestade a meio da semana chega para repintar a montanha inteira numa noite.\n\nNa base, o complexo da Rusutsu Resort Tower ancora a aldeia com quartos de hotel, piscina de ondas coberta, parque de diversões à moda antiga adormecido sob a neve e uma fileira de restaurantes que fazem deste sítio um destino familiar a sério tanto quanto um spot de pó. Onsen abertos até à meia-noite, escola de esqui acolhedora para as crianças e passes mais baratos do que em Niseko transformaram Rusutsu no segredo de Hokkaido que já não é segredo. A partir do aeroporto de New Chitose conte com cerca de duas horas em shuttle directo, menos transbordos do que o seu vizinho famoso.",
+      "it": "Rusutsu si distende su tre cime, West Mountain, East Mountain e Mount Isola, collegate da gondole e seggiovie quadriposto per offrire 42 chilometri di piste battute più uno dei migliori sci tra gli alberi del Giappone. I boschi di betulle sono aperti e arieggiati come le pinete alpine non lo sono mai, perfetti per le prime curve in polvere e per i rider intermedi che imparano a leggere il terreno. L'impiantistica è moderna, le code quasi inesistenti, e una sola tempesta a metà settimana basta a riverniciare la montagna intera in una notte.\n\nAi piedi delle piste, il complesso della Rusutsu Resort Tower ancora il villaggio con camere d'albergo, piscina con onde coperta, parco divertimenti d'altri tempi addormentato sotto la neve e una fila di ristoranti che rendono questo posto una vera destinazione famiglia oltre che uno spot da polvere. Onsen aperti fino a mezzanotte, scuola di sci accogliente per i bambini e skipass più economici di Niseko hanno trasformato Rusutsu nel segreto di Hokkaido che segreto non è più. Dall'aeroporto di New Chitose conta circa due ore in navetta diretta, meno cambi rispetto al celebre vicino."
+    },
+    "pisteCounts": {
+      "green": 14,
+      "blue": 11,
+      "red": 8,
+      "black": 4
+    }
+  },
+  {
+    "slug": "furano",
+    "name": "Furano",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Hokkaido",
+    "lat": 43.4175,
+    "lng": 142.4915,
+    "altitudeBase": 234,
+    "altitudeSummit": 1074,
+    "pistesKm": 25,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "Genuine ski-in ski-out is limited to the Furano Prince and New Furano Prince at the Kitanomine and Furano base areas. Hotels in central Furano town are a ten-minute shuttle ride from the lifts.",
+      "fr": "Le vrai ski aux pieds se limite au Furano Prince et au New Furano Prince, sur les bases de Kitanomine et de Furano. Les hôtels du centre-ville de Furano sont à dix minutes de navette des remontées.",
+      "es": "El verdadero ski-in ski-out se limita al Furano Prince y al New Furano Prince, en las bases de Kitanomine y Furano. Los hoteles del centro de Furano están a diez minutos de lanzadera de los remontes.",
+      "pt": "O verdadeiro ski-in ski-out limita-se ao Furano Prince e ao New Furano Prince, nas bases de Kitanomine e de Furano. Os hotéis do centro da vila de Furano ficam a dez minutos de shuttle dos teleféricos.",
+      "it": "Il vero ski-in ski-out si limita al Furano Prince e al New Furano Prince, alle basi di Kitanomine e Furano. Gli hotel nel centro della cittadina di Furano sono a dieci minuti di navetta dagli impianti."
+    },
+    "seasonStart": "Nov 25",
+    "seasonEnd": "May 5",
+    "snowScore": 92,
+    "vibes": [
+      "family",
+      "snow-sure",
+      "japow"
+    ],
+    "intro": {
+      "en": "Furano sits dead-centre on Hokkaido, far enough inland to escape the coastal moisture and produce what locals quietly insist is the driest snow in Japan. Lavender fields in July, japow up to the knees in February, a working agricultural town that doubles as a ski resort: this is the Hokkaido that never made the powder magazine covers, and is all the better for it.",
+      "fr": "Furano se trouve au coeur exact de Hokkaido, assez loin des côtes pour échapper à l'humidité marine et produire ce que les locaux affirment discrètement être la neige la plus sèche du Japon. Champs de lavande en juillet, japow jusqu'aux genoux en février, vraie ville agricole qui double en station de ski: c'est le Hokkaido qui n'a jamais fait la une des magazines de poudre, et tant mieux.",
+      "es": "Furano se asienta justo en el centro de Hokkaido, lo bastante tierra adentro como para escapar de la humedad costera y producir lo que los locales sostienen discretamente que es la nieve más seca de Japón. Campos de lavanda en julio, japow hasta las rodillas en febrero, un pueblo agrícola de verdad que dobla como estación de esquí: este es el Hokkaido que nunca salió en portada de las revistas de polvo, y mejor así.",
+      "pt": "Furano fica mesmo no centro de Hokkaido, suficientemente longe da costa para escapar à humidade marítima e produzir aquela que os locais sustentam discretamente ser a neve mais seca do Japão. Campos de alfazema em Julho, japow até aos joelhos em Fevereiro, uma vila agrícola a sério que faz as vezes de estância de esqui: este é o Hokkaido que nunca foi capa das revistas de pó, e ainda bem.",
+      "it": "Furano si trova esattamente al centro di Hokkaido, abbastanza lontana dalla costa da sfuggire all'umidità marina e produrre quella che i locali sostengono sottovoce essere la neve più asciutta del Giappone. Campi di lavanda a luglio, japow fino alle ginocchia a febbraio, una vera cittadina agricola che fa anche da stazione sciistica: questo è l'Hokkaido che non è mai finito sulle copertine delle riviste di polvere, e meno male."
+    },
+    "longDescription": {
+      "en": "The skiing splits between the Kitanomine and Furano zones, linked at altitude on the same Mount Kitanomine massif, with twenty-five kilometres of pistes that lean confidently towards the blue and red end of the spectrum. The grooming is meticulous, an old habit from Furano's years on the World Cup giant slalom circuit, and the ropeway out of the base lifts you 900 vertical metres in a single bite. Below the lifts, mellow forests of birch and Sakhalin spruce hide quiet sidecountry stashes that hold powder for days after a storm because so few people come here.\n\nThe town itself, ten minutes by bus from the base, is the real selling point. Sake breweries, soup curry counters, melon farms, a covered shopping street and surprisingly good wine from the Furano basin make for an après-ski culture that has nothing to do with imported alpine clichés. Families and lower-intermediate skiers find Furano gentler than Niseko; experts find pockets of untouched japow within the resort boundary that would already be tracked out by 9am elsewhere. New Chitose airport sits roughly two and a half hours away via the JR Furano-Biei Norokko line.",
+      "fr": "Le ski se partage entre les secteurs Kitanomine et Furano, reliés en altitude sur le même massif du mont Kitanomine, avec vingt-cinq kilomètres de pistes qui penchent confortablement vers le bleu et le rouge. Le damage est méticuleux, vieille habitude héritée des années de Furano sur le circuit Coupe du monde de slalom géant, et la télécabine au départ de la base monte 900 mètres de dénivelé d'une traite. Sous les remontées, des forêts douces de bouleaux et d'épicéas de Sakhaline cachent des hors-piste discrets qui gardent la poudreuse plusieurs jours après une tempête, simplement parce que peu de monde vient ici.\n\nLa ville elle-même, à dix minutes de bus de la base, c'est le vrai argument. Brasseries de saké, comptoirs de soup curry, fermes de melon, rue commerçante couverte et vin étonnamment bon du bassin de Furano composent une culture d'après-ski qui n'a rien à voir avec les clichés alpins importés. Les familles et skieurs intermédiaires trouvent Furano plus doux que Niseko; les experts y dénichent dans les limites du domaine des poches de japow vierge qui seraient déjà tracées à 9h ailleurs. L'aéroport de New Chitose se trouve à environ deux heures et demie, en empruntant la ligne JR Furano-Biei Norokko.",
+      "es": "El esquí se reparte entre los sectores Kitanomine y Furano, conectados en altura sobre el mismo macizo del monte Kitanomine, con veinticinco kilómetros de pistas que se inclinan cómodamente hacia el azul y el rojo. El pisado es meticuloso, vieja costumbre de los años de Furano en el circuito Copa del Mundo de eslalon gigante, y la telecabina desde la base sube 900 metros de desnivel de un solo tirón. Bajo los remontes, bosques suaves de abedules y piceas de Sajalín esconden fueras de pista discretos que conservan el polvo varios días después de una tormenta, sencillamente porque viene poca gente.\n\nEl pueblo mismo, a diez minutos de autobús de la base, es el argumento de verdad. Destilerías de sake, barras de soup curry, granjas de melón, calle comercial cubierta y un vino sorprendentemente bueno de la cuenca de Furano componen una cultura de après-ski que nada tiene que ver con los clichés alpinos importados. Familias y esquiadores intermedios encuentran Furano más amable que Niseko; los expertos descubren dentro de los límites del dominio bolsas de japow virgen que en otros sitios estarían pisadas a las 9 de la mañana. El aeropuerto de New Chitose queda a unas dos horas y media tomando la línea JR Furano-Biei Norokko.",
+      "pt": "O esqui reparte-se pelos sectores Kitanomine e Furano, ligados em altura no mesmo maciço do monte Kitanomine, com vinte e cinco quilómetros de pistas que pendem confortavelmente para o azul e o vermelho. A preparação é meticulosa, velho hábito dos anos de Furano no circuito Taça do Mundo de slalom gigante, e o teleférico desde a base sobe 900 metros de desnível de um só fôlego. Por baixo das pistas, bosques suaves de bétulas e abetos de Sacalina escondem fora-de-pistas discretos que aguentam o pó vários dias após uma tempestade, simplesmente porque vem pouca gente.\n\nA própria vila, a dez minutos de autocarro da base, é o verdadeiro argumento. Destilarias de sake, balcões de soup curry, quintas de melão, rua comercial coberta e um vinho surpreendentemente bom da bacia de Furano compõem uma cultura de après-ski que nada tem a ver com clichés alpinos importados. Famílias e esquiadores intermédios acham Furano mais amável do que Niseko; os experientes descobrem dentro dos limites do domínio bolsas de japow virgem que noutros sítios já estariam pisadas às 9 da manhã. O aeroporto de New Chitose fica a cerca de duas horas e meia pela linha JR Furano-Biei Norokko.",
+      "it": "Lo sci si divide tra i settori Kitanomine e Furano, collegati in quota sullo stesso massiccio del monte Kitanomine, con venticinque chilometri di piste che pendono comodamente verso il blu e il rosso. La battitura è meticolosa, vecchia abitudine degli anni di Furano sul circuito di Coppa del Mondo di slalom gigante, e la cabinovia dalla base sale 900 metri di dislivello in un solo colpo. Sotto gli impianti, boschi morbidi di betulle e peccio di Sachalin nascondono fuoripista discreti che tengono la polvere per giorni dopo una tempesta, semplicemente perché ci viene poca gente.\n\nLa cittadina stessa, a dieci minuti di autobus dalla base, è il vero punto di forza. Distillerie di sakè, banconi di soup curry, fattorie di meloni, via commerciale coperta e un vino sorprendentemente buono dalla conca di Furano compongono una cultura d'après-ski che nulla ha a che fare con i cliché alpini importati. Famiglie e sciatori intermedi trovano Furano più gentile di Niseko; gli esperti scoprono dentro i confini del comprensorio sacche di japow vergine che altrove sarebbero già battute alle 9 del mattino. L'aeroporto di New Chitose dista circa due ore e mezza con la linea JR Furano-Biei Norokko."
+    },
+    "pisteCounts": {
+      "green": 7,
+      "blue": 6,
+      "red": 7,
+      "black": 3
+    }
+  },
+  {
+    "slug": "kiroro",
+    "name": "Kiroro",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Hokkaido",
+    "lat": 43.0958,
+    "lng": 140.9536,
+    "altitudeBase": 570,
+    "altitudeSummit": 1180,
+    "pistesKm": 23,
+    "lifts": 9,
+    "skiInSkiOutNote": {
+      "en": "Kiroro is one of the rare Japanese resorts where ski-in ski-out is genuinely the rule, not the exception. The Kiroro Tribute Portfolio Hotel and Yu Kiroro both sit on the snowfront at the main base.",
+      "fr": "Kiroro fait partie des rares stations japonaises où le ski aux pieds est vraiment la règle plutôt que l'exception. Le Kiroro Tribute Portfolio Hotel et le Yu Kiroro sont tous deux directement sur le front de neige de la base principale.",
+      "es": "Kiroro es una de las raras estaciones japonesas donde el ski-in ski-out es genuinamente la regla y no la excepción. El Kiroro Tribute Portfolio Hotel y el Yu Kiroro están ambos directamente en el frente de nieve de la base principal.",
+      "pt": "Kiroro é uma das raras estâncias japonesas onde o ski-in ski-out é mesmo a regra e não a excepção. O Kiroro Tribute Portfolio Hotel e o Yu Kiroro estão ambos directamente na frente de neve da base principal.",
+      "it": "Kiroro è una delle rare stazioni giapponesi dove lo ski-in ski-out è davvero la regola e non l'eccezione. Il Kiroro Tribute Portfolio Hotel e lo Yu Kiroro si trovano entrambi direttamente sul fronte neve della base principale."
+    },
+    "seasonStart": "Nov 25",
+    "seasonEnd": "May 6",
+    "snowScore": 95,
+    "vibes": [
+      "japow",
+      "snow-sure",
+      "family",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Tucked inside a sheltered valley on the Shakotan peninsula, Kiroro catches the full force of the Sea of Japan storms and turns them into twenty-one metres of fall-line japow per season, the highest official total in the country. North-facing slopes, light winds, no town to speak of: just two hotels, two mountains and an obsessive snowfall record.",
+      "fr": "Niché dans une vallée abritée de la péninsule de Shakotan, Kiroro reçoit de plein fouet les tempêtes de la mer du Japon et les transforme en vingt et un mètres de japow ligne de pente par saison, le record officiel du pays. Pentes orientées nord, vent faible, pas de ville à proprement parler: deux hôtels, deux montagnes et un obsessionnel record d'enneigement.",
+      "es": "Encajada en un valle resguardado de la península de Shakotan, Kiroro recibe de lleno las tormentas del mar del Japón y las transforma en veintiún metros de japow línea de máxima pendiente por temporada, el récord oficial del país. Laderas orientadas al norte, viento débil, ningún pueblo de verdad: dos hoteles, dos montañas y un obsesivo récord de nevadas.",
+      "pt": "Encaixada num vale abrigado da península de Shakotan, Kiroro apanha em cheio as tempestades do mar do Japão e transforma-as em vinte e um metros de japow linha de máxima inclinação por época, o recorde oficial do país. Encostas viradas a norte, vento fraco, nenhuma vila propriamente dita: dois hotéis, duas montanhas e um obsessivo recorde de neve.",
+      "it": "Annidata in una valle riparata della penisola di Shakotan, Kiroro incassa in pieno le tempeste del mar del Giappone e le trasforma in ventuno metri di japow lungo la linea di massima pendenza a stagione, il record ufficiale del Paese. Pendii esposti a nord, vento debole, nessun paese vero e proprio: due alberghi, due montagne e un ossessivo record di nevicate."
+    },
+    "longDescription": {
+      "en": "Kiroro Snow World links Mount Asari and Mount Nagamine across 23 kilometres of pistes served by nine quiet lifts. The orientation is the secret sauce: north-facing aspects keep the snow cold and dry through warm spells that affect southern Hokkaido, while the surrounding ridges shelter the resort from the wind that closes lifts elsewhere. Long, wide blue runs make this a confidence-building resort for families and intermediates, while the tree zones between groomers serve up endless first-tracks well into the afternoon.\n\nThere is no village here, and that is the point. Two anchor properties at the base, the Kiroro Tribute Portfolio Hotel and the Sheraton-affiliated Yu Kiroro, handle accommodation, restaurants, onsen and ski school, leaving you free to focus on the snow. Otaru, the historic canal town, sits forty-five minutes downhill for an evening of sushi and Nikka whisky, and Sapporo lies just under two hours away by direct shuttle from New Chitose airport. For powder-lovers who want the storm without the crowds, Kiroro delivers with the quiet efficiency of a Japanese ryokan.",
+      "fr": "Kiroro Snow World relie le mont Asari et le mont Nagamine sur 23 kilomètres de pistes desservies par neuf remontées silencieuses. L'orientation, c'est la recette: versants exposés au nord qui gardent la neige froide et sèche pendant les coups de redoux qui touchent le sud de Hokkaido, et crêtes environnantes qui mettent la station à l'abri du vent qui ferme les télésièges ailleurs. De longues et larges bleues en font une station rassurante pour familles et intermédiaires, tandis que les zones boisées entre les pistes damées offrent une trace fraîche infinie jusque dans l'après-midi.\n\nIl n'y a pas de village ici, et c'est tout l'intérêt. Deux établissements ancrent la base, le Kiroro Tribute Portfolio Hotel et le Yu Kiroro affilié à Sheraton, qui gèrent hébergement, restaurants, onsen et école de ski, vous laissant libre de vous concentrer sur la neige. Otaru, la ville historique aux canaux, est à quarante-cinq minutes en contrebas pour un soir de sushis et de whisky Nikka, et Sapporo se trouve à un peu moins de deux heures en navette directe depuis l'aéroport de New Chitose. Pour qui aime la poudreuse sans la foule, Kiroro livre la marchandise avec la discrétion efficace d'un ryokan japonais.",
+      "es": "Kiroro Snow World conecta el monte Asari y el monte Nagamine en 23 kilómetros de pistas servidas por nueve remontes silenciosos. La orientación es la receta secreta: vertientes mirando al norte que mantienen la nieve fría y seca durante los episodios cálidos que afectan al sur de Hokkaido, y crestas que abrigan la estación del viento que cierra los telesillas en otros lugares. Largas y anchas pistas azules la convierten en una estación que da confianza a familias e intermedios, mientras que las zonas arboladas entre los pisteados ofrecen huella fresca interminable hasta bien entrada la tarde.\n\nNo hay pueblo aquí, y ese es el chiste. Dos establecimientos anclan la base, el Kiroro Tribute Portfolio Hotel y el Yu Kiroro afiliado a Sheraton, que se encargan de alojamiento, restaurantes, onsen y escuela de esquí, dejándole libre para centrarse en la nieve. Otaru, la ciudad histórica de los canales, queda a cuarenta y cinco minutos cuesta abajo para una velada de sushi y whisky Nikka, y Sapporo está a algo menos de dos horas en lanzadera directa desde el aeropuerto de New Chitose. Para quien ama el polvo sin gentío, Kiroro entrega la mercancía con la eficacia discreta de un ryokan japonés.",
+      "pt": "A Kiroro Snow World liga o monte Asari ao monte Nagamine em 23 quilómetros de pistas servidas por nove teleféricos silenciosos. A orientação é a receita secreta: encostas viradas a norte que mantêm a neve fria e seca durante os episódios quentes que afectam o sul de Hokkaido, e cumeadas que abrigam a estância do vento que fecha os teleféricos noutros sítios. Pistas azuis longas e largas fazem dela uma estância que dá confiança a famílias e intermédios, enquanto as zonas arborizadas entre os corredores batidos oferecem pegada fresca infinita até ao fim da tarde.\n\nNão há vila aqui, e é mesmo essa a graça. Dois estabelecimentos ancoram a base, o Kiroro Tribute Portfolio Hotel e o Yu Kiroro associado à Sheraton, que tratam de alojamento, restaurantes, onsen e escola de esqui, deixando-o livre para se concentrar na neve. Otaru, a histórica cidade dos canais, fica a quarenta e cinco minutos pela encosta abaixo para um serão de sushi e whisky Nikka, e Sapporo está a pouco menos de duas horas em shuttle directo a partir do aeroporto de New Chitose. Para quem gosta de pó sem multidões, Kiroro entrega a encomenda com a eficácia discreta de um ryokan japonês.",
+      "it": "Kiroro Snow World collega il monte Asari e il monte Nagamine su 23 chilometri di piste servite da nove impianti silenziosi. L'esposizione è la ricetta segreta: versanti rivolti a nord che tengono la neve fredda e asciutta anche durante gli episodi miti che colpiscono il sud di Hokkaido, e creste che riparano la stazione dal vento che chiude le seggiovie altrove. Lunghe e larghe piste blu ne fanno una stazione che mette in fiducia famiglie e intermedi, mentre le zone alberate fra le piste battute servono tracce fresche infinite fino a pomeriggio inoltrato.\n\nQui non c'è un paese, ed è proprio quello il bello. Due strutture ancorano la base, il Kiroro Tribute Portfolio Hotel e lo Yu Kiroro affiliato a Sheraton, che si occupano di alloggio, ristoranti, onsen e scuola di sci, lasciandoti libero di concentrarti sulla neve. Otaru, storica cittadina dei canali, dista quarantacinque minuti a valle per una serata di sushi e whisky Nikka, e Sapporo si trova a poco meno di due ore in navetta diretta dall'aeroporto di New Chitose. Per chi ama la polvere senza la folla, Kiroro consegna la merce con l'efficacia discreta di un ryokan giapponese."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 7,
+      "red": 5,
+      "black": 3
+    }
+  },
+  {
+    "slug": "sapporo-teine",
+    "name": "Sapporo Teine",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Hokkaido",
+    "lat": 43.0911,
+    "lng": 141.2003,
+    "altitudeBase": 400,
+    "altitudeSummit": 1023,
+    "pistesKm": 17,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Sapporo Teine is a day-trip resort, not a slope-side village. There is no true ski-in/ski-out lodging on the mountain. Stay in central Sapporo and use the 30-minute shuttle, or pick one of the rare hotels at the mountain base for the easiest morning lift access.",
+      "fr": "Sapporo Teine est une station de journée, pas un village au pied des pistes. Il n'y a pas d'hébergement véritablement ski aux pieds sur la montagne. Le mieux: dormir au centre de Sapporo et prendre la navette de 30 minutes, ou choisir un des rares hôtels en bas de station pour un accès matinal direct.",
+      "es": "Sapporo Teine es una estación de día, no un pueblo a pie de pista. No hay alojamiento realmente ski-in/ski-out en la montaña. Lo mejor: dormir en el centro de Sapporo y usar la lanzadera de 30 minutos, o elegir uno de los pocos hoteles al pie de la estación para acceder al remonte por la mañana.",
+      "pt": "Sapporo Teine é uma estância para visita de dia, não uma aldeia ao pé das pistas. Não existe verdadeiro alojamento ski-in/ski-out na montanha. O ideal: dormir no centro de Sapporo e usar o shuttle de 30 minutos, ou escolher um dos raros hotéis na base para chegar ao primeiro telesqui sem demoras.",
+      "it": "Sapporo Teine è una stazione da gita giornaliera, non un villaggio ai piedi delle piste. Sulla montagna non c'è un vero ski-in/ski-out. La soluzione migliore: alloggiare nel centro di Sapporo e usare la navetta da 30 minuti, oppure scegliere uno dei rari hotel alla base per arrivare in pista la mattina senza tempi morti."
+    },
+    "seasonStart": "Nov 22",
+    "seasonEnd": "May 5",
+    "snowScore": 88,
+    "vibes": [
+      "panoramic",
+      "city-access",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Sapporo Teine is the rare ski resort that sits inside a major city. From the upper Highland Zone, Ishikari Bay glitters on one side, the lights of Sapporo on the other. The runs date back to the 1972 Winter Olympics, and the cold Hokkaido air still delivers the dry, weightless japow that made this island famous.",
+      "fr": "Sapporo Teine est cette rareté: une station de ski intégrée à une grande ville. Depuis la Highland Zone, la baie d'Ishikari scintille d'un côté, les lumières de Sapporo de l'autre. Les pistes datent des Jeux olympiques de 1972, et l'air glacial d'Hokkaido continue d'offrir cette japow sèche et impesante qui a fait la légende de l'île.",
+      "es": "Sapporo Teine es esa rareza poco común: una estación de esquí dentro de una gran ciudad. Desde la Highland Zone, la bahía de Ishikari brilla a un lado y las luces de Sapporo al otro. Las pistas se remontan a los Juegos Olímpicos de 1972 y el aire helado de Hokkaido sigue entregando esa japow seca e ingrávida que hizo famosa a la isla.",
+      "pt": "Sapporo Teine é uma raridade: uma estância de esqui dentro de uma grande cidade. Da Highland Zone vê-se a baía de Ishikari a brilhar de um lado e as luzes de Sapporo do outro. As pistas remontam aos Jogos Olímpicos de 1972, e o ar gelado de Hokkaido continua a oferecer a japow seca e leve que tornou a ilha lendária.",
+      "it": "Sapporo Teine è una rarità assoluta: una stazione sciistica dentro una grande città. Dalla Highland Zone, la baia di Ishikari luccica da un lato e le luci di Sapporo dall'altro. Le piste risalgono alle Olimpiadi invernali del 1972, e l'aria gelida di Hokkaido continua a regalare quella japow asciutta e impalpabile che ha reso celebre l'isola."
+    },
+    "longDescription": {
+      "en": "The mountain splits into two distinct worlds. The Olympia Zone, lower down, is mellow and family-friendly, perfect for beginners and intermediates carving long blue runs through silver birch. Higher up, the Highland Zone is where Teine shows its real face: steeper black pitches, side-country gullies, and the legendary Kitakabe wall that locals still talk about. The 1972 Olympic giant slalom course is skiable, snow conditions permitting, and it remains a serious test.\n\nThe genius of Teine is geography. You can wake up in a Sapporo hotel, eat a proper ramen breakfast, ride the bus or a quick taxi, and be on the lift in around half an hour. After a day on the snow, the city pulls you back: Susukino's neon, izakayas, sushi counters, and the steam of an onsen. Few resorts on earth let you mix world-class japow with a metropolitan night out so easily. Teine suits day-trippers, urban-minded skiers, and anyone who wants powder without committing to a remote mountain village.",
+      "fr": "La montagne se partage en deux mondes distincts. L'Olympia Zone, plus basse, est douce et familiale, parfaite pour les débutants et les intermédiaires qui tracent de longues pistes bleues entre les bouleaux argentés. Plus haut, la Highland Zone révèle le vrai visage de Teine: pentes noires plus raides, couloirs hors-piste, et le légendaire mur de Kitakabe dont les locaux parlent encore. La piste olympique du slalom géant de 1972 reste skiable selon l'enneigement, et c'est toujours un sérieux examen.\n\nLe génie de Teine, c'est la géographie. On se réveille dans un hôtel de Sapporo, on attaque un vrai petit-déjeuner de ramen, on saute dans un bus ou un taxi, et on est sur les remontées en une demi-heure. Après une journée de ski, la ville rappelle: les néons de Susukino, les izakaya, les comptoirs de sushi, la vapeur d'un onsen. Peu de stations dans le monde permettent d'enchaîner japow de classe mondiale et sortie urbaine avec autant de facilité. Teine convient aux skieurs en journée, aux citadins, et à tous ceux qui veulent de la poudreuse sans s'enfermer dans un village de montagne isolé.",
+      "es": "La montaña se divide en dos mundos. La Olympia Zone, más baja, es suave y familiar, ideal para principiantes e intermedios que dibujan largas pistas azules entre abedules plateados. Más arriba, la Highland Zone enseña la verdadera cara de Teine: pendientes negras más serias, couloirs fuera de pista y el legendario muro de Kitakabe del que aún hablan los locales. La pista olímpica de slalom gigante de 1972 sigue siendo esquiable cuando la nieve acompaña, y continúa siendo un examen exigente.\n\nLa gracia de Teine es la geografía. Te despiertas en un hotel de Sapporo, desayunas un ramen como Dios manda, coges un bus o un taxi rápido y estás en el telesilla en media hora. Tras un día sobre la nieve, la ciudad reclama: los neones de Susukino, las izakaya, las barras de sushi y el vapor de un onsen. Pocas estaciones en el mundo permiten combinar japow de primer nivel con noche urbana con esta facilidad. Teine va perfecta para excursionistas, esquiadores urbanitas y quien quiera nieve polvo sin encerrarse en un pueblo aislado.",
+      "pt": "A montanha divide-se em dois mundos distintos. A Olympia Zone, mais em baixo, é suave e familiar, ideal para iniciantes e intermédios que traçam longas pistas azuis entre os vidoeiros prateados. Mais acima, a Highland Zone mostra a verdadeira cara de Teine: declives negros mais sérios, couloirs fora de pista e o lendário paredão de Kitakabe de que os locais ainda falam. A pista olímpica de slalom gigante de 1972 está esquiável quando a neve permite e continua a ser um exame exigente.\n\nO trunfo de Teine é a geografia. Acorda-se num hotel de Sapporo, toma-se um pequeno-almoço de ramen a sério, apanha-se um autocarro ou um táxi rápido, e em meia hora já se está no telesqui. Depois de um dia na neve, a cidade chama: os néons de Susukino, as izakaya, os balcões de sushi e o vapor de um onsen. Poucas estâncias no mundo permitem encadear japow de nível mundial com noite urbana com tanta facilidade. Teine é perfeita para quem vai apenas pelo dia, para esquiadores citadinos e para quem quer pó sem se fechar numa aldeia de montanha isolada.",
+      "it": "La montagna si divide in due mondi distinti. L'Olympia Zone, più in basso, è morbida e familiare, perfetta per principianti e intermedi che disegnano lunghe piste blu tra le betulle argentate. Più in alto, la Highland Zone mostra il vero volto di Teine: pendii neri più severi, canaloni fuoripista e il leggendario muro di Kitakabe di cui i locali parlano ancora. La pista olimpica di slalom gigante del 1972 resta sciabile quando la neve lo consente, e continua a essere un esame impegnativo.\n\nIl genio di Teine sta nella geografia. Ti svegli in un hotel di Sapporo, fai una colazione di ramen come si deve, prendi un autobus o un taxi veloce, e in mezz'ora sei sull'impianto. Dopo una giornata sulla neve, la città richiama: i neon di Susukino, le izakaya, i banconi del sushi, il vapore di un onsen. Poche stazioni al mondo permettono di unire japow di livello mondiale e serata metropolitana con questa facilità. Teine è ideale per chi scia in giornata, per gli sciatori cittadini e per chi vuole neve fresca senza chiudersi in un villaggio di montagna isolato."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 5,
+      "red": 4,
+      "black": 2
+    }
+  },
+  {
+    "slug": "tomamu",
+    "name": "Tomamu",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Hokkaido",
+    "lat": 42.9905,
+    "lng": 142.6614,
+    "altitudeBase": 545,
+    "altitudeSummit": 1239,
+    "pistesKm": 29,
+    "lifts": 6,
+    "skiInSkiOutNote": {
+      "en": "Tomamu is a true ski-in/ski-out resort. The Tower and Risonare buildings sit at the base, linked by heated walkways to the lifts and the gondola, so you click into your skis steps from the room. It is one of the most seamless mountain-to-bed setups in Japan.",
+      "fr": "Tomamu est un véritable ski aux pieds. Les tours Tower et Risonare sont au pied des pistes, reliées aux remontées et à la télécabine par des passerelles chauffées: on chausse les skis à quelques pas de la chambre. Une des configurations chambre-piste les plus fluides du Japon.",
+      "es": "Tomamu es un auténtico ski-in/ski-out. Las torres Tower y Risonare están al pie de las pistas, conectadas a los remontes y a la telecabina por pasillos climatizados: te calzas los esquís a pocos pasos de la habitación. Una de las configuraciones cama-pista más fluidas de Japón.",
+      "pt": "Tomamu é verdadeiramente ski-in/ski-out. As torres Tower e Risonare ficam ao pé das pistas, ligadas aos telesquis e à telecabina por passadiços aquecidos: calça-se os esquis a poucos passos do quarto. Uma das ligações quarto-pista mais fluidas do Japão.",
+      "it": "Tomamu è un autentico ski-in/ski-out. Le torri Tower e Risonare sono ai piedi delle piste, collegate agli impianti e alla cabinovia da passerelle riscaldate: si calzano gli sci a pochi passi dalla camera. Uno dei collegamenti camera-pista più fluidi di tutto il Giappone."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 5",
+    "snowScore": 90,
+    "vibes": [
+      "luxury",
+      "family",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Tomamu is a world of its own: two glass towers rising from the snowfields of central Hokkaido, framed by Hoshino Resort's quiet luxury. The skiing is gentle and forgiving, the snow is among the most reliable in Japan, and the resort lights up at night with the Ice Village, a winter art installation built entirely from frozen sea water.",
+      "fr": "Tomamu est un monde en soi: deux tours de verre dressées dans les champs de neige du centre de Hokkaido, dans l'écrin de luxe discret du Hoshino Resort. Le ski y est doux et indulgent, l'enneigement parmi les plus fiables du Japon, et le soir le domaine s'illumine avec l'Ice Village, une installation d'art hivernal entièrement construite en eau de mer gelée.",
+      "es": "Tomamu es un mundo aparte: dos torres de cristal levantadas sobre los nevados del centro de Hokkaido, dentro del lujo discreto del Hoshino Resort. El esquí es suave e indulgente, la nieve está entre las más fiables de Japón y, al caer la tarde, el resort se enciende con el Ice Village, una instalación artística invernal hecha por completo con agua de mar congelada.",
+      "pt": "Tomamu é um mundo à parte: duas torres de vidro erguidas sobre os campos de neve do centro de Hokkaido, no luxo discreto do Hoshino Resort. O esqui é suave e perdoador, a neve está entre as mais fiáveis do Japão e, ao cair da noite, a estância acende-se com a Ice Village, uma instalação de arte invernal construída inteiramente em água do mar congelada.",
+      "it": "Tomamu è un mondo a sé: due torri di vetro che si alzano sui campi innevati del centro di Hokkaido, immerse nel lusso discreto dell'Hoshino Resort. La sciata è morbida e indulgente, la neve è tra le più affidabili del Giappone e, di sera, la stazione si accende con l'Ice Village, un'installazione d'arte invernale costruita interamente con acqua di mare ghiacciata."
+    },
+    "longDescription": {
+      "en": "The terrain leans toward green and blue runs, with long, well-pitched cruisers winding through birch forest and a few steeper red and black pitches near the summit for skiers wanting more. The tree skiing, accessed through gated zones, is a quietly serious draw on a powder day. Tomamu sits in the rain-shadow heart of Hokkaido, so the season tends to be cold and consistent. The light, dry japow is the real currency here.\n\nWhat sets Tomamu apart is everything off the slopes. The Hoshino concept is fully realized: heated walkways link the towers, a vast indoor wave pool called Mina Mina lets you swim in summer water while it snows outside, the Kirin terrace offers a sea-of-clouds dawn view in shoulder season, and the Ice Village turns the resort into a glowing winter dreamscape after dark, complete with an ice chapel, ice bar, and ice skating rink. It is a resort that works equally for families with small kids, for couples on a quiet retreat, and for skiers who want luxury and reliable snow in the same package.",
+      "fr": "Le domaine privilégie les pistes vertes et bleues, avec de longs cruisers bien dessinés qui serpentent à travers les bouleaux, et quelques rouges et noires plus raides près du sommet pour celles et ceux qui veulent en avoir un peu plus. Le ski en forêt, accessible par des zones balisées, devient une petite affaire sérieuse les jours de poudreuse. Tomamu est niché au coeur sec de Hokkaido, et la saison est généralement froide et régulière. La japow légère et sèche reste la vraie monnaie du lieu.\n\nCe qui distingue Tomamu, c'est tout ce qui se passe hors des pistes. Le concept Hoshino est pleinement assumé: passerelles chauffées entre les tours, immense piscine à vagues couverte appelée Mina Mina pour nager dans une eau d'été pendant qu'il neige dehors, terrasse Kirin pour observer la mer de nuages à l'aube en demi-saison, et Ice Village qui transforme le domaine en paysage hivernal lumineux après la tombée du jour, avec sa chapelle de glace, son bar de glace et sa patinoire. C'est une station qui parle autant aux familles avec jeunes enfants qu'aux couples en quête de calme et aux skieurs qui veulent luxe et neige fiable dans un même forfait.",
+      "es": "El dominio se inclina hacia las verdes y azules, con largos cruceros bien trazados que serpentean entre los abedules, y algunas rojas y negras más empinadas cerca de la cima para quien quiere más caña. El esquí entre árboles, en zonas señalizadas, se convierte en un asunto serio los días de polvo. Tomamu está plantada en el corazón seco de Hokkaido, así que la temporada suele ser fría y constante. La japow ligera y seca es la verdadera moneda del lugar.\n\nLo que distingue a Tomamu es todo lo que ocurre fuera de las pistas. El concepto Hoshino se asume sin medias tintas: pasillos climatizados entre las torres, una enorme piscina de olas cubierta llamada Mina Mina para nadar en agua de verano mientras nieva fuera, la terraza Kirin para contemplar el mar de nubes al amanecer en temporada media, y el Ice Village que convierte el resort en un paisaje invernal luminoso al caer la noche, con su capilla de hielo, su bar de hielo y su pista de patinaje. Una estación que funciona igual de bien para familias con peques, para parejas en busca de calma y para esquiadores que quieren lujo y nieve segura en un mismo paquete.",
+      "pt": "O domínio inclina-se para as pistas verdes e azuis, com longos cruzeiros bem desenhados que serpenteiam por entre os vidoeiros e algumas vermelhas e negras mais íngremes perto do cume para quem quer mais inclinação. O esqui entre árvores, em zonas sinalizadas, torna-se um caso sério nos dias de pó. Tomamu fica no coração seco de Hokkaido, por isso a época costuma ser fria e regular. A japow leve e seca é a verdadeira moeda do sítio.\n\nO que distingue Tomamu é tudo o que se passa fora das pistas. O conceito Hoshino está assumido por inteiro: passadiços aquecidos entre as torres, uma enorme piscina de ondas coberta chamada Mina Mina onde se nada em água de verão enquanto neva lá fora, o terraço Kirin para contemplar o mar de nuvens ao amanhecer na meia-estação, e a Ice Village que transforma a estância numa paisagem invernal luminosa quando cai a noite, com capela de gelo, bar de gelo e pista de patinagem. Uma estância que funciona tanto para famílias com crianças pequenas como para casais em retiro tranquilo, ou para esquiadores que querem luxo e neve fiável no mesmo pacote.",
+      "it": "Il comprensorio si appoggia soprattutto su piste verdi e blu, con lunghi cruiser ben disegnati che si snodano fra le betulle e qualche rossa e nera più ripida vicino alla cima per chi vuole alzare il tiro. Lo sci tra gli alberi, in zone segnalate, diventa una faccenda seria nei giorni di polvere. Tomamu sta nel cuore asciutto di Hokkaido, quindi la stagione è di solito fredda e regolare. La japow leggera e asciutta resta la vera valuta del posto.\n\nA distinguere Tomamu è tutto quello che succede fuori dalle piste. Il concept Hoshino è assunto senza compromessi: passerelle riscaldate fra le torri, un'enorme piscina coperta a onde chiamata Mina Mina dove si nuota in acqua d'estate mentre fuori nevica, la terrazza Kirin per contemplare il mare di nuvole all'alba in mezza stagione, e l'Ice Village che a sera trasforma la stazione in un paesaggio invernale luminoso con cappella di ghiaccio, bar di ghiaccio e pista di pattinaggio. Una stazione che funziona altrettanto bene per famiglie con bambini piccoli, per coppie in cerca di quiete, e per chi vuole lusso e neve sicura nello stesso pacchetto."
+    },
+    "pisteCounts": {
+      "green": 9,
+      "blue": 8,
+      "red": 7,
+      "black": 5
+    }
+  },
+  {
+    "slug": "hakuba-happo-one",
+    "name": "Hakuba Happo-One",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Japanese Alps",
+    "lat": 36.6975,
+    "lng": 137.8327,
+    "altitudeBase": 760,
+    "altitudeSummit": 1831,
+    "pistesKm": 30,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is rare at Happo-One: the village spreads across a wide valley floor and most lodgings need a short shuttle, walk, or taxi to a lift base. A handful of pensions and hotels sit close to the Nakiyama or Sakka lift entries and come closest to genuine ski-in/ski-out.",
+      "fr": "Le vrai ski aux pieds est rare à Happo-One: le village s'étire sur un large fond de vallée et la plupart des hébergements impliquent une courte navette, une marche ou un taxi jusqu'à une remontée. Quelques pensions et hôtels près des accès Nakiyama ou Sakka s'approchent au plus près du véritable ski-in/ski-out.",
+      "es": "El verdadero ski-in/ski-out escasea en Happo-One: el pueblo se extiende sobre un amplio fondo de valle y la mayoría de alojamientos necesitan una breve lanzadera, un paseo o un taxi hasta un remonte. Un puñado de pensiones y hoteles cerca de los accesos Nakiyama o Sakka se acercan al ski-in/ski-out genuino.",
+      "pt": "Verdadeiro ski-in/ski-out é raro em Happo-One: a aldeia estende-se por um vasto fundo de vale e a maioria dos alojamentos exige um curto shuttle, uma caminhada ou um táxi até um telesqui. Algumas pensões e hotéis junto aos acessos Nakiyama ou Sakka aproximam-se mais do ski-in/ski-out genuíno.",
+      "it": "Il vero ski-in/ski-out è raro a Happo-One: il villaggio si estende su un ampio fondovalle e quasi tutti gli alloggi richiedono una breve navetta, una camminata o un taxi fino a un impianto. Una manciata di pensioni e hotel vicino agli accessi Nakiyama o Sakka si avvicina al ski-in/ski-out autentico."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "May 5",
+    "snowScore": 89,
+    "vibes": [
+      "olympic",
+      "freeride",
+      "big-mountain"
+    ],
+    "intro": {
+      "en": "Happo-One is the headline mountain of the Hakuba Valley, the steepest and the most storied. It hosted the 1998 Nagano Olympics downhill, and the famous Olympic and Riesen Slalom courses still command respect today. Above the trees, the Northern Alps rise in a serrated wall, and on a clear morning the view alone is worth the lift ticket.",
+      "fr": "Happo-One est la montagne phare de la vallée de Hakuba, la plus raide et la plus chargée d'histoire. Elle a accueilli la descente des Jeux olympiques de Nagano en 1998, et les célèbres pistes Olympique et Riesen Slalom imposent toujours le respect. Au-dessus des arbres, les Alpes du Nord se dressent en une muraille dentelée, et par un matin clair le panorama vaut à lui seul le forfait.",
+      "es": "Happo-One es la montaña insignia del valle de Hakuba, la más empinada y la más cargada de historia. Acogió el descenso de los Juegos Olímpicos de Nagano de 1998, y las célebres pistas Olímpica y Riesen Slalom siguen imponiendo respeto. Por encima de los árboles, los Alpes del Norte se levantan como una muralla dentada y, en una mañana clara, las vistas ya justifican el forfait.",
+      "pt": "Happo-One é a montanha de bandeira do vale de Hakuba, a mais íngreme e a mais carregada de história. Acolheu a descida dos Jogos Olímpicos de Nagano de 1998, e as célebres pistas Olímpica e Riesen Slalom continuam a impor respeito. Acima das árvores, os Alpes do Norte erguem-se como uma muralha denteada e, numa manhã clara, a vista por si só justifica o passe.",
+      "it": "Happo-One è la montagna di punta della valle di Hakuba, la più ripida e la più carica di storia. Ha ospitato la discesa libera delle Olimpiadi di Nagano del 1998, e le celebri piste Olimpica e Riesen Slalom incutono ancora rispetto. Sopra il limite degli alberi, le Alpi del Nord si alzano come una muraglia dentellata e, in una mattina limpida, la vista vale da sola lo skipass."
+    },
+    "longDescription": {
+      "en": "Happo's terrain is honest. The lower slopes through the trees are wide and well groomed, but as you climb past Usagidaira the gradient stiffens and the famous Riesen Slalom drops in a continuous black ribbon that local racers have used for generations. The top of the resort is alpine and exposed, with the Skyline ridge giving access to wide bowls, lift-served off-piste, and gated backcountry gates for those with the skills and the gear. When the storm wind blows in off the Sea of Japan, Happo gets buried.\n\nThe village is the spiritual heart of Hakuba: a stretched-out collection of pensions, izakayas, ramen shops, and onsen bathhouses where you can soak the day out of your legs while snow piles up on the cedar roof. There is a real international ski culture here, with Australian and European seasonaires alongside Japanese regulars, but the soul of the place stays Japanese: late-night yakitori, a hot bath, a cold beer, and the steady sound of falling snow. Happo suits strong intermediates, advanced skiers, freeriders, and anyone drawn to mountains that demand a little respect.",
+      "fr": "Le terrain de Happo est franc. Le bas du domaine, en forêt, est large et bien damé, mais une fois passé Usagidaira la pente se redresse, et la fameuse Riesen Slalom descend d'un trait noir continu que les coureurs locaux pratiquent depuis des générations. Le haut de la station est alpin et exposé: la ligne de crête Skyline ouvre sur de larges combes, du hors-piste accessible aux remontées et des portes balisées vers la backcountry pour celles et ceux qui ont le niveau et le matériel. Quand la tempête vient de la mer du Japon, Happo se fait ensevelir.\n\nLe village est le coeur spirituel de Hakuba: un long alignement de pensions, d'izakaya, de comptoirs de ramen et de bains onsen où l'on laisse fondre la journée pendant que la neige s'accumule sur les toits de cèdre. Il existe ici une vraie culture ski internationale, avec des saisonniers australiens et européens aux côtés des habitués japonais, mais l'âme du lieu reste japonaise: yakitori en fin de soirée, bain chaud, bière fraîche, et le bruit régulier de la neige qui tombe. Happo s'adresse aux intermédiaires solides, aux skieurs confirmés, aux freerideurs, et à tous ceux qui aiment les montagnes qui exigent un peu de respect.",
+      "es": "El terreno de Happo es honesto. La parte baja, entre los árboles, es ancha y bien pisada, pero una vez pasado Usagidaira la pendiente se endurece y la mítica Riesen Slalom cae como una cinta negra continua que los corredores locales esquían desde hace generaciones. La parte alta es alpina y expuesta: la cresta Skyline da acceso a amplios cuencos, fuera de pista servido por remontes y puertas balizadas hacia la backcountry para quien tenga nivel y material. Cuando el temporal entra desde el mar de Japón, Happo queda enterrada.\n\nEl pueblo es el corazón espiritual de Hakuba: una larga sucesión de pensiones, izakaya, locales de ramen y baños onsen donde dejar disolver el día mientras la nieve se acumula sobre los tejados de cedro. Aquí hay una cultura esquiadora internacional de verdad, con temporeros australianos y europeos junto a los habituales japoneses, pero el alma del sitio sigue siendo japonesa: yakitori a última hora, baño caliente, cerveza fría y el sonido constante de la nieve que cae. Happo encaja con intermedios sólidos, esquiadores avanzados, freeriders y todos los que aman las montañas que exigen un poco de respeto.",
+      "pt": "O terreno de Happo é franco. A parte de baixo, entre as árvores, é larga e bem pisada, mas depois de Usagidaira o declive endurece, e a mítica Riesen Slalom desce como uma fita negra contínua que os corredores locais esquiam há gerações. O alto da estância é alpino e exposto: a crista Skyline dá acesso a amplos bowls, fora de pista servido por telesquis e portas balizadas para o backcountry para quem tenha nível e equipamento. Quando o temporal entra do mar do Japão, Happo fica soterrada.\n\nA aldeia é o coração espiritual de Hakuba: uma longa sucessão de pensões, izakaya, casas de ramen e banhos onsen onde se dissolve o dia enquanto a neve se acumula sobre os telhados de cedro. Há aqui uma verdadeira cultura de esqui internacional, com seasonaires australianos e europeus ao lado dos habituais japoneses, mas a alma da estância continua japonesa: yakitori já tarde, banho quente, cerveja fresca e o som constante da neve a cair. Happo é ideal para intermédios sólidos, esquiadores avançados, freeriders e qualquer pessoa atraída por montanhas que exigem um pouco de respeito.",
+      "it": "Il terreno di Happo è onesto. La parte bassa, nel bosco, è ampia e ben battuta, ma superato Usagidaira la pendenza si fa cattiva, e la celebre Riesen Slalom scende come un nastro nero continuo che i racer locali sciano da generazioni. La parte alta della stazione è alpina ed esposta: la cresta Skyline apre su ampi catini, fuoripista servito dagli impianti e cancelli segnalati verso il backcountry per chi ha livello e attrezzatura. Quando arriva la tempesta dal Mar del Giappone, Happo viene letteralmente sepolta.\n\nIl villaggio è il cuore spirituale di Hakuba: una lunga sequenza di pensioni, izakaya, ramen-ya e bagni onsen dove sciogliere la giornata mentre la neve si accumula sui tetti di cedro. Qui c'è una vera cultura sciistica internazionale, con stagionali australiani ed europei accanto agli habitué giapponesi, ma l'anima del posto resta giapponese: yakitori a tarda sera, bagno caldo, birra fredda, e il suono costante della neve che cade. Happo è la scelta giusta per intermedi solidi, sciatori avanzati, freerider e per chiunque ami le montagne che chiedono un po' di rispetto."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 9,
+      "red": 8,
+      "black": 6
+    }
+  },
+  {
+    "slug": "hakuba-goryu",
+    "name": "Hakuba Goryu & 47",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Japanese Alps",
+    "lat": 36.6605,
+    "lng": 137.8443,
+    "altitudeBase": 750,
+    "altitudeSummit": 1676,
+    "pistesKm": 23,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Goryu has a handful of true ski-in/ski-out hotels and pensions right at the Toomi gondola base and the Escal Plaza, which is unusual for Hakuba. Most other valley lodgings need a short shuttle, so book the base hotels early if morning-first-chair convenience matters.",
+      "fr": "Goryu compte quelques vrais hôtels et pensions ski aux pieds juste au pied de la télécabine Toomi et de l'Escal Plaza, ce qui est rare à Hakuba. La plupart des autres hébergements de la vallée impliquent une courte navette: si l'on tient à attraper la première benne à pied, mieux vaut réserver ces hôtels de base tôt.",
+      "es": "Goryu cuenta con unos pocos auténticos hoteles y pensiones ski-in/ski-out al pie de la telecabina de Toomi y del Escal Plaza, algo poco habitual en Hakuba. La mayoría de los demás alojamientos del valle implican una lanzadera corta, así que reserva pronto los hoteles de la base si te importa coger el primer remonte sin trasiego.",
+      "pt": "Goryu tem alguns hotéis e pensões verdadeiramente ski-in/ski-out mesmo na base da telecabina de Toomi e do Escal Plaza, o que é raro em Hakuba. A maioria dos restantes alojamentos do vale exige um curto shuttle, por isso convém reservar cedo os hotéis da base se a primeira cadeira da manhã contar.",
+      "it": "Goryu ha una manciata di veri ski-in/ski-out tra hotel e pensioni proprio alla base della cabinovia di Toomi e dell'Escal Plaza, cosa rara per Hakuba. Quasi tutti gli altri alloggi della valle richiedono una breve navetta, quindi conviene prenotare per tempo gli hotel della base se prendere la prima cabina del mattino è una priorità."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 7",
+    "snowScore": 87,
+    "vibes": [
+      "freestyle",
+      "family",
+      "japow"
+    ],
+    "intro": {
+      "en": "Hakuba Goryu and its connected neighbour Hakuba 47 form the playground end of the valley. The park is the best in Hakuba, the snowfall is famously dependable, and the layout, split between Toomi, Iimori, and Alps Daira, gives families an easy mellow base and freestylers a serious set of features. Goryu is where Hakuba feels lighter, younger, more about play.",
+      "fr": "Hakuba Goryu et son voisin connecté Hakuba 47 forment l'extrémité ludique de la vallée. Le snowpark est le meilleur de Hakuba, l'enneigement est réputé pour sa régularité, et la disposition entre Toomi, Iimori et Alps Daira offre aux familles une base douce et facile, et aux freestyleurs un vrai terrain de jeu sérieux. Goryu, c'est Hakuba en version plus légère, plus jeune, plus axée jeu.",
+      "es": "Hakuba Goryu y su vecina conectada Hakuba 47 forman la cara más juguetona del valle. El snowpark es el mejor de Hakuba, la nieve tiene fama de fiable y el reparto entre Toomi, Iimori y Alps Daira ofrece a las familias una base suave y accesible y a los freestyleros un parque serio de verdad. Goryu es Hakuba en versión más ligera, más joven, más enfocada al juego.",
+      "pt": "Hakuba Goryu e a sua vizinha ligada Hakuba 47 formam o lado mais lúdico do vale. O snowpark é o melhor de Hakuba, a queda de neve tem fama de fiável e a disposição entre Toomi, Iimori e Alps Daira oferece às famílias uma base suave e fácil e aos freestylers um parque verdadeiramente sério. Goryu é Hakuba em versão mais leve, mais jovem, mais virada para a brincadeira.",
+      "it": "Hakuba Goryu e la confinante Hakuba 47, ad essa collegata, formano il lato più giocoso della valle. Lo snowpark è il migliore di Hakuba, la nevicata è famosa per la sua affidabilità, e la suddivisione tra Toomi, Iimori e Alps Daira offre alle famiglie una base morbida e facile e ai freestyler un terreno di gioco davvero serio. Goryu è Hakuba in versione più leggera, più giovane, più orientata al gioco."
+    },
+    "longDescription": {
+      "en": "The mountain has three faces. Toomi, with its wide nursery slopes and lit night skiing, is where many Japanese kids first clip into skis. Iimori adds longer cruisers and easy intermediate runs. Cross into Alps Daira and the Hakuba 47 side, and the terrain wakes up: steeper red and black pistes, well-defined tree zones, and the Spice park, which year after year is the most respected line of jumps and rails in the valley. Because the resort faces a slightly different aspect from Happo, it often holds the dry snow a little longer after a storm cycle.\n\nThe base village is compact and practical rather than romantic, but that suits the audience: families who want a quick walk from car to lift, freestyle skiers and snowboarders who want easy park laps, and groups who want to mix one easy day with one big day in the wider Hakuba Valley. The onsen options nearby are excellent, and the Hakuba Valley ticket lets you sample Happo, Iwatake, and Cortina with a short bus ride. Goryu is the most balanced base in Hakuba: snow-sure, varied, and rarely intimidating.",
+      "fr": "La montagne a trois visages. Toomi, avec ses larges pistes débutantes et son ski nocturne éclairé, est l'endroit où beaucoup d'enfants japonais chaussent leurs premiers skis. Iimori ajoute des cruisers plus longs et de bonnes pistes intermédiaires. On passe ensuite côté Alps Daira et Hakuba 47, et le terrain se réveille: rouges et noires plus raides, zones de forêt bien dessinées, et le snowpark Spice qui reste année après année la ligne de modules et de rails la plus respectée de la vallée. Parce que la station n'a pas tout à fait la même orientation que Happo, elle conserve souvent la neige sèche un peu plus longtemps après un épisode de tempête.\n\nLe village de base est compact et pratique plus que romantique, mais cela colle au public: familles qui veulent un court trajet entre la voiture et la remontée, skieurs et snowboardeurs freestyle qui veulent enchaîner les sessions de park, et groupes qui veulent alterner une journée tranquille et une grosse journée ailleurs dans la vallée de Hakuba. Les options onsen autour sont excellentes, et le forfait Hakuba Valley permet de tester Happo, Iwatake et Cortina avec une courte navette. Goryu, c'est la base la plus équilibrée de Hakuba: enneigement sûr, variée, rarement intimidante.",
+      "es": "La montaña tiene tres caras. Toomi, con sus amplias pistas de debutantes y su esquí nocturno iluminado, es donde muchos niños japoneses se calzan los esquís por primera vez. Iimori añade cruceros más largos y buenas pistas intermedias. Pasas al lado de Alps Daira y Hakuba 47, y el terreno se despierta: rojas y negras más empinadas, zonas de árboles bien dibujadas y el snowpark Spice, que año tras año sigue siendo la línea de saltos y rieles más respetada del valle. Como la estación no tiene la misma orientación que Happo, a menudo conserva la nieve seca un poco más tras un episodio de tormenta.\n\nLa base es compacta y práctica más que romántica, pero eso encaja con el público: familias que quieren un trayecto corto del coche al remonte, esquiadores y snowboarders de freestyle que quieren encadenar vueltas al parque, y grupos que quieren combinar un día tranquilo con un día fuerte en otro punto del valle de Hakuba. Las opciones onsen alrededor son excelentes, y el forfait Hakuba Valley permite probar Happo, Iwatake y Cortina con una corta lanzadera. Goryu es la base más equilibrada de Hakuba: nieve segura, variada y rara vez intimidante.",
+      "pt": "A montanha tem três caras. Toomi, com as suas largas pistas para principiantes e o esqui nocturno iluminado, é onde muitas crianças japonesas calçam os esquis pela primeira vez. Iimori acrescenta cruzeiros mais longos e boas pistas intermédias. Passa-se para o lado de Alps Daira e Hakuba 47, e o terreno acorda: vermelhas e negras mais íngremes, zonas entre árvores bem definidas e o snowpark Spice, que ano após ano continua a ser a linha de saltos e rails mais respeitada do vale. Como a estância não tem exactamente a mesma orientação que Happo, costuma manter a neve seca um pouco mais tempo depois de uma tempestade.\n\nA aldeia da base é compacta e prática, mais do que romântica, mas isso assenta no público que recebe: famílias que querem um percurso curto do carro ao telesqui, esquiadores e snowboarders de freestyle que querem encadear voltas no parque, e grupos que querem alternar um dia tranquilo com um dia mais forte noutro ponto do vale de Hakuba. As opções de onsen em redor são excelentes, e o passe Hakuba Valley permite provar Happo, Iwatake e Cortina com um curto shuttle. Goryu é a base mais equilibrada de Hakuba: neve segura, variada e raramente intimidante.",
+      "it": "La montagna ha tre volti. Toomi, con le sue ampie piste per principianti e lo sci notturno illuminato, è dove molti bambini giapponesi mettono per la prima volta gli sci ai piedi. Iimori aggiunge cruiser più lunghi e buone piste intermedie. Si passa poi sul versante di Alps Daira e Hakuba 47, e il terreno si sveglia: rosse e nere più ripide, zone tra gli alberi ben disegnate e lo snowpark Spice, che anno dopo anno resta la linea di salti e rail più rispettata della valle. Poiché la stazione ha un'esposizione leggermente diversa rispetto a Happo, spesso conserva la neve asciutta un po' più a lungo dopo un episodio di tempesta.\n\nIl villaggio alla base è compatto e funzionale più che romantico, ma si sposa bene con il pubblico: famiglie che vogliono pochi passi tra l'auto e l'impianto, sciatori e snowboarder freestyle che vogliono incatenare giri al park, e gruppi che vogliono alternare una giornata tranquilla a una giornata forte in un'altra zona della valle di Hakuba. Le opzioni onsen attorno sono eccellenti, e lo skipass Hakuba Valley permette di provare Happo, Iwatake e Cortina con una breve navetta. Goryu è la base più equilibrata di Hakuba: neve sicura, varia, e raramente intimidatoria."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 7,
+      "red": 6,
+      "black": 4
+    }
+  },
+  {
+    "slug": "shiga-kogen",
+    "name": "Shiga Kogen",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Japanese Alps",
+    "lat": 36.7176,
+    "lng": 138.4937,
+    "altitudeBase": 1340,
+    "altitudeSummit": 2305,
+    "pistesKm": 80,
+    "lifts": 50,
+    "skiInSkiOutNote": {
+      "en": "Several ryokan and hotels at Ichinose, Hasuike and Yakebitaiyama drop you straight onto a lift line, so true ski-in ski-out exists here. Be aware that linking nineteen resorts often means short transfers or a final shuttle home.",
+      "fr": "Plusieurs ryokan et hôtels à Ichinose, Hasuike et Yakebitaiyama vous déposent directement au pied d'un télésiège: le vrai ski-in ski-out existe ici. Sachez toutefois que relier dix-neuf stations implique souvent un court transfert ou une dernière navette pour rentrer.",
+      "es": "Varios ryokan y hoteles en Ichinose, Hasuike y Yakebitaiyama te dejan directamente al pie de un remonte: el verdadero ski-in ski-out existe aquí. Eso sí, encadenar diecinueve estaciones suele implicar un transfer corto o una última lanzadera para volver.",
+      "pt": "Vários ryokan e hotéis em Ichinose, Hasuike e Yakebitaiyama deixam-no diretamente junto a um teleférico: o verdadeiro ski-in ski-out existe aqui. Note, contudo, que ligar dezanove estâncias implica muitas vezes um transfer curto ou um último shuttle para voltar.",
+      "it": "Diversi ryokan e hotel a Ichinose, Hasuike e Yakebitaiyama lasciano direttamente sotto un impianto: il vero ski-in ski-out qui esiste. Tieni presente però che collegare diciannove stazioni spesso significa un breve transfer o una navetta finale per rientrare."
+    },
+    "seasonStart": "Nov 23",
+    "seasonEnd": "May 6",
+    "snowScore": 92,
+    "vibes": [
+      "big-domain",
+      "high-altitude",
+      "snow-sure",
+      "onsen"
+    ],
+    "intro": {
+      "en": "Shiga Kogen is a high-altitude constellation: nineteen resorts stitched into one pass, eighty kilometres of piste wandering between birch forests, ridges and steaming onsen valleys. Base at 1340 m means cold, dry snow well into spring, and a quiet, sprawling feel far from the Niseko crowd.",
+      "fr": "Shiga Kogen, c'est une constellation d'altitude: dix-neuf stations cousues sous un seul forfait, quatre-vingts kilomètres de pistes qui serpentent entre bouleaux, crêtes et vallées d'onsen fumants. Avec une base à 1340 m, la neige reste froide et sèche jusqu'au printemps, dans une atmosphère vaste et tranquille, loin de la foule de Niseko.",
+      "es": "Shiga Kogen es una constelación de altura: diecinueve estaciones cosidas bajo un mismo forfait, ochenta kilómetros de pistas que serpentean entre abedules, crestas y valles de onsen humeantes. Con una cota baja a 1340 m, la nieve se mantiene fría y seca hasta bien entrada la primavera, en un ambiente amplio y tranquilo, lejos del bullicio de Niseko.",
+      "pt": "Shiga Kogen é uma constelação de altitude: dezanove estâncias cosidas sob um único passe, oitenta quilómetros de pistas que serpenteiam entre bétulas, cumes e vales de onsen fumegantes. Com a cota base a 1340 m, a neve mantém-se fria e seca até bem dentro da primavera, num ambiente vasto e tranquilo, longe da multidão de Niseko.",
+      "it": "Shiga Kogen è una costellazione d'alta quota: diciannove stazioni cucite sotto un unico skipass, ottanta chilometri di piste che serpeggiano tra betulle, creste e valli di onsen fumanti. La base a 1340 m garantisce neve fredda e asciutta fin dentro la primavera, in un'atmosfera ampia e silenziosa, lontana dalla folla di Niseko."
+    },
+    "longDescription": {
+      "en": "Few areas in Japan deliver the sheer scale of Shiga Kogen. The interconnected domain spans nineteen ski resorts linked by lift and shuttle, and the single ticket lets you ride from Higashidateyama all the way across to Yakebitaiyama in a single day, picking off ridges, bowls and tree runs along the way. The summit reaches 2305 m, the highest base in the country sits here at 1340 m, and the result is dependable cold-smoke japow from November to May.\n\nThe terrain is genuinely varied: gentle cruisers above Ichinose perfect for families, the steeper north-facing pitches at Yakebitaiyama that hosted the 1998 Nagano Olympics giant slalom and snowboard events, and quiet glades for those who like exploring. Off the snow, Shiga keeps a traditional Japanese mountain feel: low-rise wooden ryokan, kaiseki dinners, public onsen in nearly every village, and almost no neon. It suits skiers and snowboarders who want big mileage, high snow security and a calm, authentic après over a polished resort hub.",
+      "fr": "Peu de domaines au Japon offrent l'envergure de Shiga Kogen. La zone reliée couvre dix-neuf stations connectées par remontées et navettes, et un seul forfait permet de relier Higashidateyama à Yakebitaiyama dans la journée, en enchaînant crêtes, cuvettes et sous-bois. Le sommet culmine à 2305 m, la base la plus haute du pays se trouve ici à 1340 m, et le résultat est une japow froide et fiable de novembre à mai.\n\nLe terrain est vraiment varié: pentes douces au-dessus d'Ichinose, idéales pour les familles, versants nord plus raides de Yakebitaiyama qui ont accueilli le slalom géant et le snowboard des Jeux de Nagano 1998, et clairières discrètes pour ceux qui aiment fouiller la montagne. Hors pistes, Shiga conserve une ambiance de montagne japonaise traditionnelle: ryokan en bois, kaiseki, onsen publics dans presque chaque hameau et très peu de néons. Le domaine séduit skieurs et snowboardeurs qui cherchent du kilométrage, de la neige assurée et un après-ski calme et authentique plutôt qu'un hub de station léché.",
+      "es": "Pocos dominios en Japón ofrecen la envergadura de Shiga Kogen. La zona conectada abarca diecinueve estaciones unidas por remontes y lanzaderas, y un único forfait permite enlazar Higashidateyama con Yakebitaiyama en una sola jornada, encadenando crestas, cubetas y arboledas por el camino. La cima alcanza los 2305 m, la cota baja más alta del país se sitúa aquí a 1340 m, y el resultado es japow fría y fiable de noviembre a mayo.\n\nEl terreno es realmente variado: cruceros suaves sobre Ichinose, perfectos para familias, las pendientes más severas orientadas al norte de Yakebitaiyama que acogieron el eslalon gigante y el snowboard de los Juegos de Nagano 1998, y claros tranquilos para quienes disfrutan explorando. Lejos de la nieve, Shiga conserva un aire de montaña japonesa tradicional: ryokan de madera de baja altura, cenas kaiseki, onsen públicos en casi cada aldea y apenas neón. Encaja con esquiadores y riders que buscan kilómetros, garantía de nieve y un après calmado y auténtico antes que un núcleo pulido.",
+      "pt": "Poucos domínios no Japão oferecem a dimensão de Shiga Kogen. A área interligada abrange dezanove estâncias unidas por teleféricos e transferes, e um único passe permite ligar Higashidateyama a Yakebitaiyama no mesmo dia, encadeando cumes, bacias e clareiras pelo caminho. O cume atinge os 2305 m, a cota base mais elevada do país está aqui a 1340 m, e o resultado é japow fria e fiável de novembro a maio.\n\nO terreno é genuinamente variado: traçados suaves acima de Ichinose, perfeitos para famílias, as encostas norte mais inclinadas de Yakebitaiyama que receberam o slalom gigante e o snowboard dos Jogos de Nagano de 1998, e clareiras discretas para quem gosta de explorar. Fora da neve, Shiga mantém uma atmosfera de montanha japonesa tradicional: ryokan de madeira de pouca altura, jantares kaiseki, onsen públicos em quase cada aldeia e quase nenhum néon. A estância serve esquiadores e snowboarders que querem quilometragem, garantia de neve e um après calmo e autêntico, em vez de um pólo de estância polido.",
+      "it": "Pochi comprensori in Giappone offrono la portata di Shiga Kogen. L'area collegata copre diciannove stazioni unite da impianti e navette, e un solo skipass consente di passare da Higashidateyama fino a Yakebitaiyama in una giornata, mettendo in fila creste, conche e boschi lungo il percorso. La vetta tocca i 2305 m, la base più alta del paese si trova qui a 1340 m, e il risultato è una japow fredda e affidabile da novembre a maggio.\n\nIl terreno è davvero vario: cruiser dolci sopra Ichinose, perfetti per le famiglie, i pendii nord più ripidi di Yakebitaiyama che hanno ospitato lo slalom gigante e lo snowboard delle Olimpiadi di Nagano 1998, e radure tranquille per chi ama esplorare. Lontano dalla neve, Shiga conserva un'atmosfera di montagna giapponese tradizionale: ryokan in legno a pochi piani, cene kaiseki, onsen pubblici in quasi ogni villaggio e quasi niente neon. Si adatta a sciatori e snowboarder che cercano chilometraggio, neve garantita e un après calmo e autentico, più che un hub patinato di stazione."
+    },
+    "pisteCounts": {
+      "green": 22,
+      "blue": 24,
+      "red": 18,
+      "black": 9
+    }
+  },
+  {
+    "slug": "nozawa-onsen",
+    "name": "Nozawa Onsen",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Japanese Alps",
+    "lat": 36.9237,
+    "lng": 138.4498,
+    "altitudeBase": 565,
+    "altitudeSummit": 1650,
+    "pistesKm": 50,
+    "lifts": 19,
+    "skiInSkiOutNote": {
+      "en": "True ski-in ski-out is rare here: the village sits well below the lifts, with a moving walkway and gondola linking street to slope. A handful of hotels above Yu Road get close, but most stays rely on the short ride up each morning.",
+      "fr": "Le vrai ski-in ski-out est rare ici: le village est nettement plus bas que les remontées, reliées à la rue par un tapis roulant et une télécabine. Quelques hôtels au-dessus de Yu Road s'en approchent, mais la plupart des séjours passent par la petite montée du matin.",
+      "es": "El verdadero ski-in ski-out escasea aquí: el pueblo queda muy por debajo de los remontes, conectados a la calle por una cinta y una telecabina. Algunos hoteles sobre Yu Road se acercan, pero la mayoría de las estancias dependen del breve trayecto de subida matinal.",
+      "pt": "O verdadeiro ski-in ski-out é raro aqui: a aldeia fica bem abaixo dos teleféricos, ligados à rua por um tapete rolante e uma telecabina. Alguns hotéis acima de Yu Road aproximam-se, mas a maioria das estadias depende da curta subida matinal.",
+      "it": "Il vero ski-in ski-out qui è raro: il paese sta ben sotto gli impianti, collegati alla strada da un tappeto mobile e una cabinovia. Qualche hotel sopra Yu Road si avvicina, ma la maggior parte dei soggiorni richiede la breve risalita mattutina."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "May 6",
+    "snowScore": 91,
+    "vibes": [
+      "onsen",
+      "authentic",
+      "traditional",
+      "japow"
+    ],
+    "intro": {
+      "en": "Nozawa Onsen is the Japanese ski village in its purest form: thirteen free public soto-yu steaming in narrow lanes, the smell of cedar smoke and miso, a single mountain rising straight out of the town, and powder days that still feel like a local secret.",
+      "fr": "Nozawa Onsen, c'est le village de ski japonais dans sa forme la plus pure: treize bains soto-yu publics et gratuits qui fument dans les ruelles, l'odeur du cèdre brûlé et du miso, une seule montagne qui s'élève juste au-dessus du village, et des journées de poudreuse qui gardent un air de secret local.",
+      "es": "Nozawa Onsen es la aldea de esquí japonesa en su forma más pura: trece soto-yu públicos y gratuitos humeando en callejones estrechos, olor a cedro quemado y miso, una sola montaña que se alza desde el propio pueblo y jornadas de polvo que aún saben a secreto local.",
+      "pt": "Nozawa Onsen é a aldeia de esqui japonesa na sua forma mais pura: treze soto-yu públicos e gratuitos a fumegar em ruelas estreitas, cheiro a cedro queimado e miso, uma única montanha que se ergue mesmo a partir da povoação, e dias de neve fofa que ainda parecem um segredo local.",
+      "it": "Nozawa Onsen è il villaggio sciistico giapponese nella sua forma più pura: tredici soto-yu pubblici e gratuiti che fumano nei vicoli, odore di cedro bruciato e miso, una sola montagna che si alza dritta sopra il paese e giornate di powder che hanno ancora il sapore di un segreto locale."
+    },
+    "longDescription": {
+      "en": "Few resorts marry village and mountain as cleanly as Nozawa Onsen. The slopes start at 565 m and climb to 1650 m, with fifty kilometres of piste fanned around the Yamabiko bowl, the long Skyline ridge run, and steeper terrain off Uenotaira. Snow is classic japow: light, frequent, often metres deep by mid-January, when the village hosts the Dosojin Fire Festival on the 15th and the town turns into a roar of flame and chanting.\n\nWhat sets Nozawa apart is the village itself. Thirteen public soto-yu, free and run by neighbourhood associations, sit between wooden inns and steaming drainage channels where locals boil eggs in onsen water. The Schneider Ski School, founded on Austrian technique in the 1930s, still anchors the snow culture, and you will see kids in race bibs the moment school finishes. It suits travellers who want short transfers from Tokyo, deep snow and a real working onsen town, rather than a built-from-scratch resort.",
+      "fr": "Peu de stations marient village et montagne aussi proprement que Nozawa Onsen. Les pistes démarrent à 565 m et grimpent à 1650 m, avec cinquante kilomètres de tracés en éventail autour de la cuvette de Yamabiko, la longue arête de Skyline et le terrain plus raide d'Uenotaira. La neige est de la japow classique: légère, fréquente, souvent métrique mi-janvier, quand le village célèbre la fête du feu Dosojin le 15 et que toute la rue principale devient un fracas de flammes et de chants.\n\nCe qui distingue vraiment Nozawa, c'est le village. Treize soto-yu publics, gratuits et tenus par les associations de quartier, s'installent entre auberges en bois et canaux fumants où les habitants cuisent les œufs dans l'eau d'onsen. La Schneider Ski School, fondée sur la technique autrichienne dans les années 1930, ancre encore la culture neige, et les enfants en dossards de course sortent dès la fin des classes. Idéal pour qui veut des transferts courts depuis Tokyo, de la neige profonde et une vraie ville d'onsen en activité, plutôt qu'une station bâtie de toutes pièces.",
+      "es": "Pocas estaciones casan pueblo y montaña con tanta limpieza como Nozawa Onsen. Las pistas arrancan a 565 m y trepan hasta los 1650 m, con cincuenta kilómetros desplegados en abanico sobre la cubeta de Yamabiko, la larga cresta de Skyline y el terreno más fuerte de Uenotaira. La nieve es japow clásica: ligera, frecuente, a menudo métrica a mediados de enero, cuando el pueblo celebra el festival del fuego Dosojin el día 15 y la calle principal se convierte en un estruendo de llamas y cánticos.\n\nLo que distingue a Nozawa es el propio pueblo. Trece soto-yu públicos, gratuitos y gestionados por asociaciones de barrio, se reparten entre posadas de madera y canales humeantes donde los vecinos cuecen huevos en agua de onsen. La Schneider Ski School, fundada sobre técnica austríaca en los años 30, sigue anclando la cultura nieve, y verás a los niños con dorsales de carrera nada más salir del colegio. Encaja con quien busca transfers cortos desde Tokio, nieve profunda y una verdadera localidad de onsen en activo, antes que un resort levantado desde cero.",
+      "pt": "Poucas estâncias casam aldeia e montanha com a limpidez de Nozawa Onsen. As pistas arrancam aos 565 m e sobem até aos 1650 m, com cinquenta quilómetros em leque sobre a bacia de Yamabiko, a longa crista de Skyline e o terreno mais exigente de Uenotaira. A neve é japow clássica: leve, frequente, muitas vezes métrica em meados de janeiro, quando a aldeia celebra o festival do fogo Dosojin no dia 15 e a rua principal se transforma num rugir de chamas e cânticos.\n\nO que distingue Nozawa é a própria aldeia. Treze soto-yu públicos, gratuitos e geridos por associações de bairro, distribuem-se entre estalagens de madeira e canais fumegantes onde os vizinhos cozem ovos em água de onsen. A Schneider Ski School, fundada sobre técnica austríaca nos anos 30, ainda ancora a cultura da neve, e veem-se crianças com peitorais de corrida assim que sai a escola. A estância serve quem quer transferes curtos a partir de Tóquio, neve profunda e uma autêntica vila termal em atividade, em vez de uma estância erguida do zero.",
+      "it": "Poche stazioni sposano paese e montagna con la pulizia di Nozawa Onsen. Le piste partono a 565 m e salgono fino a 1650 m, con cinquanta chilometri aperti a ventaglio sulla conca di Yamabiko, la lunga cresta di Skyline e il terreno più ripido di Uenotaira. La neve è japow classica: leggera, frequente, spesso metrica a metà gennaio, quando il paese celebra il festival del fuoco Dosojin il giorno 15 e la via principale diventa un boato di fiamme e canti.\n\nCiò che rende Nozawa unica è il paese stesso. Tredici soto-yu pubblici, gratuiti e gestiti dalle associazioni di quartiere, si infilano tra locande di legno e canali fumanti dove gli abitanti cuociono le uova nell'acqua di onsen. La Schneider Ski School, fondata sulla tecnica austriaca negli anni Trenta, ancora oggi tiene la cultura sciistica, e si vedono i bambini con i pettorali da gara appena finita la scuola. Si adatta a chi cerca transfer brevi da Tokyo, neve profonda e una vera cittadina termale viva, più che una stazione costruita da zero."
+    },
+    "pisteCounts": {
+      "green": 11,
+      "blue": 14,
+      "red": 10,
+      "black": 5
+    }
+  },
+  {
+    "slug": "myoko-akakura",
+    "name": "Myoko Akakura",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Japanese Alps",
+    "lat": 36.9211,
+    "lng": 138.1849,
+    "altitudeBase": 750,
+    "altitudeSummit": 1500,
+    "pistesKm": 50,
+    "lifts": 18,
+    "skiInSkiOutNote": {
+      "en": "Akakura Onsen and Akakura Kanko both have a strong selection of true ski-in ski-out ryokan and hotels right on the piste edge. Suginohara is more spread out, so expect a short transfer or driving day if you base yourself there.",
+      "fr": "Akakura Onsen et Akakura Kanko proposent une vraie sélection de ryokan et d'hôtels en ski-in ski-out, posés au bord de la piste. Suginohara est plus étalé: prévoyez un court transfert ou la voiture si vous logez de ce côté.",
+      "es": "Akakura Onsen y Akakura Kanko ofrecen una buena selección de ryokan y hoteles a pie de pista en ski-in ski-out real. Suginohara está más disperso: cuenta con un transfer corto o un día con coche si te alojas allí.",
+      "pt": "Akakura Onsen e Akakura Kanko oferecem uma boa seleção de ryokan e hotéis a pé de pista em ski-in ski-out real. Suginohara é mais disperso: conte com um transfer curto ou um dia de carro se ficar desse lado.",
+      "it": "Akakura Onsen e Akakura Kanko offrono una buona selezione di ryokan e hotel a piedi di pista in vero ski-in ski-out. Suginohara è più sparpagliato: metti in conto un breve transfer o l'auto se alloggi lì."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "May 6",
+    "snowScore": 93,
+    "vibes": [
+      "onsen",
+      "snow-sure",
+      "japow",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Myoko Akakura sits under the snowiest skies on Honshu, where thirteen metres of powder fall in a normal winter, traditional onsen inns line the lanes, and one of the longest pistes in Japan, Suginohara's 8.5 km cruiser, unrolls beneath you.",
+      "fr": "Myoko Akakura repose sous le ciel le plus enneigé de Honshu, là où treize mètres de poudreuse tombent en hiver normal, où les auberges traditionnelles d'onsen bordent les ruelles, et où l'une des plus longues pistes du Japon, le ruban de 8,5 km de Suginohara, se déroule sous les skis.",
+      "es": "Myoko Akakura se asienta bajo el cielo más nevado de Honshu, donde caen trece metros de polvo en un invierno normal, las posadas onsen tradicionales jalonan los callejones y una de las pistas más largas de Japón, el descenso de 8,5 km de Suginohara, se despliega bajo los esquíes.",
+      "pt": "Myoko Akakura assenta sob o céu mais nevado de Honshu, onde caem treze metros de neve fofa num inverno normal, as estalagens onsen tradicionais alinham-se pelas ruelas e uma das mais longas pistas do Japão, o traçado de 8,5 km de Suginohara, se desenrola sob os esquis.",
+      "it": "Myoko Akakura sta sotto i cieli più nevosi di Honshu, dove cadono tredici metri di powder in un inverno normale, le locande tradizionali onsen costeggiano i vicoli e una delle piste più lunghe del Giappone, il nastro di 8,5 km di Suginohara, si srotola sotto gli sci."
+    },
+    "longDescription": {
+      "en": "Myoko has long been a quiet, mid-mountain answer to Niseko: a cluster of three connected resorts, Akakura Onsen, Akakura Kanko and Suginohara, plus a few outliers, totalling roughly fifty kilometres of piste under one of the heaviest snowfalls in Japan. The base sits at 750 m, the top reaches 1500 m, and the area logs around 13 m of snow each year, which is why the trees here grow with such an obvious bend.\n\nThe terrain rewards exploration: friendly groomers at Akakura Onsen, steeper north-facing pitches and lift-served sidecountry at Akakura Kanko, and the marathon 8.5 km cruiser of Suginohara, one of the longest single runs in the country. Off snow, Myoko keeps its Meiji-era onsen character, with sulphur baths in family-run ryokan and small izakaya feeding hungry skiers. It suits guests who want serious japow without the international resort sheen, and who like the idea of a village still firmly Japanese in tempo.",
+      "fr": "Myoko est depuis longtemps la réponse discrète et de moyenne montagne face à Niseko: une grappe de trois stations reliées, Akakura Onsen, Akakura Kanko et Suginohara, plus quelques satellites, soit environ cinquante kilomètres de pistes sous l'une des plus grosses chutes du Japon. La base est à 750 m, le sommet à 1500 m, et la zone reçoit autour de 13 m de neige par an: les arbres y poussent visiblement courbés.\n\nLe terrain récompense l'exploration: pistes amicales à Akakura Onsen, versants nord plus pentus et hors-pistes accessibles aux remontées d'Akakura Kanko, et le marathon de 8,5 km de Suginohara, l'une des plus longues pistes continues du pays. Hors neige, Myoko a gardé son caractère d'onsen de l'ère Meiji, avec des bains soufrés en ryokan familial et de petits izakaya qui nourrissent les skieurs affamés. Convient à qui veut de la vraie japow sans le vernis international, et qui aime l'idée d'un village resté pleinement japonais dans son rythme.",
+      "es": "Myoko es desde hace tiempo la respuesta discreta y de cota media a Niseko: un racimo de tres estaciones conectadas, Akakura Onsen, Akakura Kanko y Suginohara, más algún satélite, en torno a cincuenta kilómetros de pistas bajo una de las nevadas más intensas de Japón. La cota baja se sitúa a 750 m, la alta a 1500 m, y la zona acumula unos 13 m de nieve al año: por algo los árboles crecen aquí visiblemente curvados.\n\nEl terreno premia la exploración: pistas amables en Akakura Onsen, vertientes norte más serias y sidecountry accesible desde los remontes en Akakura Kanko, y el maratón de 8,5 km de Suginohara, uno de los descensos continuos más largos del país. Lejos de la nieve, Myoko conserva su carácter de onsen de era Meiji, con baños sulfurosos en ryokan familiares e izakaya pequeñas que alimentan a esquiadores hambrientos. Encaja con quien busca japow seria sin barniz internacional, y disfruta la idea de un pueblo aún plenamente japonés en su ritmo.",
+      "pt": "Myoko é há muito a resposta discreta e de média montanha a Niseko: um grupo de três estâncias ligadas, Akakura Onsen, Akakura Kanko e Suginohara, mais alguns satélites, com cerca de cinquenta quilómetros de pistas sob uma das maiores quedas de neve do Japão. A cota base está a 750 m, o topo a 1500 m, e a zona acumula cerca de 13 m de neve por ano: por algo as árvores aqui crescem visivelmente curvadas.\n\nO terreno recompensa quem explora: pistas amigáveis em Akakura Onsen, encostas norte mais sérias e sidecountry acessível por teleférico em Akakura Kanko, e a maratona de 8,5 km de Suginohara, uma das mais longas descidas contínuas do país. Fora da neve, Myoko mantém o seu carácter de onsen da era Meiji, com banhos sulfurosos em ryokan familiares e pequenas izakaya que alimentam esquiadores esfomeados. A estância serve quem quer japow a sério sem o verniz internacional e gosta da ideia de uma aldeia ainda plenamente japonesa no ritmo.",
+      "it": "Myoko è da tempo la risposta discreta e di media quota a Niseko: un grappolo di tre stazioni collegate, Akakura Onsen, Akakura Kanko e Suginohara, più qualche satellite, per circa cinquanta chilometri di piste sotto una delle nevicate più intense del Giappone. La base sta a 750 m, la cima a 1500 m, e l'area registra circa 13 m di neve all'anno: per qualcosa gli alberi qui crescono visibilmente piegati.\n\nIl terreno premia l'esplorazione: piste amichevoli ad Akakura Onsen, versanti nord più seri e sidecountry servito da impianti ad Akakura Kanko, e la maratona di 8,5 km di Suginohara, una delle discese continue più lunghe del paese. Lontano dalla neve, Myoko conserva il carattere onsen di epoca Meiji, con bagni sulfurei in ryokan familiari e piccoli izakaya che sfamano gli sciatori affamati. Si adatta a chi vuole japow vera senza vernice internazionale e ama l'idea di un villaggio ancora pienamente giapponese nei ritmi."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 13,
+      "red": 10,
+      "black": 6
+    }
+  },
+  {
+    "slug": "zao-onsen",
+    "name": "Zao Onsen",
+    "country": "Japan",
+    "countryCode": "JP",
+    "flag": "🇯🇵",
+    "region": "Tohoku Mountains",
+    "lat": 38.1606,
+    "lng": 140.3982,
+    "altitudeBase": 855,
+    "altitudeSummit": 1660,
+    "pistesKm": 41,
+    "lifts": 36,
+    "skiInSkiOutNote": {
+      "en": "Most Zao Onsen ryokan sit in the historic spring town, a short walk or shuttle from the lift bases at Yokokura, Uwanodai and Zao Sanroku. A handful of slope-side hotels offer genuine ski-in ski-out, but the village charm is the reason you came.",
+      "fr": "La plupart des ryokan de Zao Onsen sont dans la vieille ville thermale, à courte marche ou en navette des départs de remontées de Yokokura, Uwanodai et Zao Sanroku. Quelques hôtels au pied des pistes proposent un vrai ski-in ski-out, mais le charme du village reste la raison principale de venir.",
+      "es": "La mayoría de los ryokan de Zao Onsen se reparten por la vieja ciudad termal, a un corto paseo o lanzadera de las bases de Yokokura, Uwanodai y Zao Sanroku. Algunos hoteles al pie de pista ofrecen ski-in ski-out de verdad, pero el encanto del pueblo es la razón para venir.",
+      "pt": "A maioria dos ryokan de Zao Onsen está na velha vila termal, a curta caminhada ou shuttle das bases de Yokokura, Uwanodai e Zao Sanroku. Alguns hotéis a pé de pista oferecem ski-in ski-out a sério, mas o encanto da aldeia é a razão pela qual se vem.",
+      "it": "La maggior parte dei ryokan di Zao Onsen si distribuisce nella vecchia cittadina termale, a breve cammino o navetta dalle basi di Yokokura, Uwanodai e Zao Sanroku. Alcuni hotel a piedi di pista offrono un vero ski-in ski-out, ma il fascino del paese è la ragione per cui si viene qui."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "May 6",
+    "snowScore": 90,
+    "vibes": [
+      "onsen",
+      "snow-monsters",
+      "panoramic",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Zao Onsen is the home of the juhyo, the frozen Maries fir trees that swell into ghostly snow monsters above the ropeway. Below, a 1900-year-old sulphur spring town hums quietly under the lanterns, a Tohoku original far from the Honshu mainstream.",
+      "fr": "Zao Onsen, c'est la patrie des juhyo, ces sapins de Maries gelés qui gonflent en monstres de neige fantomatiques au-dessus du téléphérique. En contrebas, une ville thermale soufrée vieille de 1900 ans bourdonne doucement sous les lanternes: un original du Tohoku, loin du courant principal de Honshu.",
+      "es": "Zao Onsen es la patria de los juhyo, los abetos Maries congelados que se hinchan en monstruos de nieve fantasmales sobre el teleférico. Más abajo, una localidad termal sulfurosa de 1900 años murmura bajo los farolillos: un original de Tohoku, lejos de la corriente principal de Honshu.",
+      "pt": "Zao Onsen é a pátria dos juhyo, os abetos Maries congelados que incham em monstros de neve fantasmagóricos por cima do teleférico. Mais abaixo, uma vila termal sulfurosa com 1900 anos murmura sob as lanternas: um original de Tohoku, longe da corrente principal de Honshu.",
+      "it": "Zao Onsen è la patria dei juhyo, gli abeti di Maries congelati che si gonfiano in mostri di neve spettrali sopra la funivia. Più in basso, una cittadina termale sulfurea di 1900 anni canticchia sotto le lanterne: un originale del Tohoku, lontano dalla corrente principale di Honshu."
+    },
+    "longDescription": {
+      "en": "Zao Onsen is unlike anywhere else in Japan. The mountain rises behind a sulphur-spring village said to date back roughly 1900 years, with a labyrinth of small wooden streets, steaming public baths and milky-blue rotenburo. Above town, the Zao Ropeway climbs to Mt Jizo at 1660 m, into the wind-blasted realm of the juhyo: Maries fir trees so plastered in rime and snow that they bend into the famous snow monsters, eerie at dawn, floodlit and unforgettable at night.\n\nThe ski area itself spreads across forty kilometres of piste, with thirty-six lifts knitting together gentle bowls at Yokokura and Paradise, longer fall-line runs from Jizo, and the steep, often misty pitches under the ropeway. The vibe is Tohoku through and through: regional Yamagata cuisine, soba and imoni stew, fewer foreign visitors than Nagano, and a quiet, slightly mystical feel. It suits travellers who want classic onsen culture, an unmistakable scene and powder days under skeletal white trees.",
+      "fr": "Zao Onsen ne ressemble à nul autre lieu au Japon. La montagne se dresse derrière un village de source soufrée que l'on dit vieux d'environ 1900 ans, avec son labyrinthe de petites rues en bois, ses bains publics fumants et ses rotenburo d'un bleu laiteux. Au-dessus du bourg, le téléphérique de Zao grimpe au mont Jizo à 1660 m, dans le royaume battu par les vents des juhyo: sapins de Maries si chargés de givre et de neige qu'ils se ploient en fameux monstres de neige, étranges à l'aube, éclairés et inoubliables la nuit.\n\nLe domaine couvre quarante kilomètres de pistes, avec trente-six remontées qui relient les cuvettes douces de Yokokura et Paradise, les descentes plus longues depuis Jizo, et les pentes raides souvent enveloppées de brume sous le téléphérique. L'ambiance est résolument Tohoku: cuisine régionale de Yamagata, soba et ragoût imoni, moins de visiteurs étrangers qu'à Nagano, et une atmosphère calme et un peu mystique. Convient à qui veut de la culture onsen classique, un décor inimitable et des journées de poudreuse sous des arbres blancs squelettiques.",
+      "es": "Zao Onsen no se parece a ningún otro sitio de Japón. La montaña se alza tras una aldea termal sulfurosa con unos 1900 años de historia, con un laberinto de callecitas de madera, baños públicos humeantes y rotenburo de un azul lechoso. Por encima del pueblo, el teleférico de Zao trepa al monte Jizo a 1660 m, hasta el reino azotado por el viento de los juhyo: abetos Maries tan recubiertos de cencellada y nieve que se doblan en los famosos monstruos de nieve, fantasmales al amanecer, iluminados e inolvidables de noche.\n\nEl dominio se reparte en cuarenta kilómetros de pistas, con treinta y seis remontes que enlazan las cubetas suaves de Yokokura y Paradise, los descensos más largos desde Jizo y las pendientes severas, a menudo entre brumas, bajo el teleférico. El ambiente es Tohoku puro: cocina regional de Yamagata, soba y estofado imoni, menos visitantes extranjeros que en Nagano y una atmósfera tranquila, ligeramente mística. Encaja con quien busca cultura onsen clásica, una escena inconfundible y jornadas de polvo bajo árboles blancos esqueléticos.",
+      "pt": "Zao Onsen não se parece com nenhum outro sítio do Japão. A montanha ergue-se atrás de uma aldeia termal sulfurosa com cerca de 1900 anos de história, com um labirinto de ruelas de madeira, banhos públicos fumegantes e rotenburo de azul leitoso. Por cima da povoação, o teleférico de Zao sobe ao monte Jizo a 1660 m, ao reino fustigado pelo vento dos juhyo: abetos Maries tão cobertos de gelo e neve que se dobram nos famosos monstros de neve, fantasmagóricos ao amanhecer, iluminados e inesquecíveis à noite.\n\nO domínio espalha-se por quarenta quilómetros de pistas, com trinta e seis teleféricos a ligar as bacias suaves de Yokokura e Paradise, as descidas mais longas a partir de Jizo e os declives severos, muitas vezes envoltos em bruma, sob o teleférico. O ambiente é Tohoku puro: cozinha regional de Yamagata, soba e ensopado imoni, menos visitantes estrangeiros do que em Nagano e uma atmosfera calma, ligeiramente mística. A estância serve quem quer cultura onsen clássica, um cenário inconfundível e dias de neve fofa sob árvores brancas esqueléticas.",
+      "it": "Zao Onsen non somiglia a nessun altro luogo in Giappone. La montagna si alza dietro un villaggio termale sulfureo che si dice vecchio di circa 1900 anni, con un labirinto di stradine di legno, bagni pubblici fumanti e rotenburo di un azzurro lattiginoso. Sopra il paese, la funivia di Zao sale al monte Jizo a 1660 m, nel regno sferzato dal vento dei juhyo: abeti di Maries così carichi di galaverna e neve da piegarsi nei celebri mostri di neve, spettrali all'alba, illuminati e indimenticabili di notte.\n\nIl comprensorio si distende su quaranta chilometri di piste, con trentasei impianti che cuciono insieme le conche dolci di Yokokura e Paradise, le discese più lunghe da Jizo e i pendii ripidi, spesso avvolti dalla bruma, sotto la funivia. L'atmosfera è Tohoku autentica: cucina regionale di Yamagata, soba e zuppa imoni, meno visitatori stranieri che a Nagano e un'aria tranquilla, lievemente mistica. Si adatta a chi cerca cultura onsen classica, una scena inconfondibile e giornate di powder sotto alberi bianchi e scheletrici."
+    },
+    "pisteCounts": {
+      "green": 11,
+      "blue": 12,
+      "red": 10,
+      "black": 5
+    }
   }
 ]

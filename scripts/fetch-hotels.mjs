@@ -37,7 +37,7 @@ const MAX_DIST_M = 6000
 // orientation estimate from the resort's country, its luxury character and the
 // hotel's own rating, with a stable per-hotel variation. The real price is on
 // the booking partner reached through the card's link.
-const COUNTRY_INDEX = { CH: 1.5, FR: 1.0, IT: 0.9, AT: 1.05, ES: 0.75, AD: 0.75, DE: 1.0, NO: 1.3, SE: 1.15, FI: 1.1 }
+const COUNTRY_INDEX = { CH: 1.5, FR: 1.0, IT: 0.9, AT: 1.05, ES: 0.75, AD: 0.75, DE: 1.0, NO: 1.3, SE: 1.15, FI: 1.1, JP: 1.2 }
 const LUXURY_VIBES = ['luxury', 'old-money', 'discreet', 'elegance', 'luxury-iberian', 'royal']
 function hashStr(s) {
   let h = 0

@@ -150,6 +150,19 @@ export const COUNTRIES: Country[] = [
       it: "La Lapponia finlandese vale tanto per l'esperienza artica quanto per lo sci: borghi di baite di legno ai piedi di tunturi (fjäll) arrotondati, mandrie di renne sulle piste, aurora boreale da ottobre ad aprile e una stagione da ottobre a maggio a Ruka e Levi. Lo sci è dolce e familiare; il marchio Lapponia attorno, uno dei più forti del turismo invernale.",
     },
   },
+  {
+    slug: 'japan',
+    name: 'Japan',
+    countryCode: 'JP',
+    flag: '🇯🇵',
+    intro: {
+      en: "Japan is the powder skiing capital of the world: a Siberian airmass crossing the Sea of Japan dumps the world's driest, deepest snow on Hokkaido and the Japanese Alps from December through March. Add tree skiing through Hokkaido birches, soak-in-the-snow onsen culture, ryokan ski-towns, and a service standard the Alps cannot match. Niseko leads the international scene, but Nagano, Niigata and Yamagata hide some of the season's most rewarding mountains.",
+      fr: "Le Japon est la capitale mondiale du ski de poudreuse : une masse d'air sibérienne qui traverse la mer du Japon dépose la neige la plus sèche et la plus profonde de la planète sur Hokkaido et les Alpes japonaises de décembre à mars. Ajoutez le ski en forêt entre les bouleaux d'Hokkaido, la culture des onsen au milieu de la neige, les ryokan de villages de ski et un niveau de service que les Alpes ne savent pas atteindre. Niseko mène la scène internationale, mais Nagano, Niigata et Yamagata cachent quelques-unes des plus belles montagnes de la saison.",
+      es: "Japón es la capital mundial del esquí en polvo: una masa de aire siberiano que cruza el Mar de Japón deja la nieve más seca y profunda del planeta sobre Hokkaido y los Alpes japoneses de diciembre a marzo. Súmale el esquí entre los abedules de Hokkaido, la cultura de los onsen dentro de la nieve, los ryokan de pueblos esquiables y un nivel de servicio que los Alpes no logran igualar. Niseko lidera la escena internacional, pero Nagano, Niigata y Yamagata esconden algunas de las montañas más memorables de la temporada.",
+      pt: "O Japão é a capital mundial do esqui em neve fresca: uma massa de ar siberiana que atravessa o Mar do Japão deixa a neve mais seca e profunda do planeta sobre Hokkaido e os Alpes japoneses de dezembro a março. Junte o esqui entre os bétulas de Hokkaido, a cultura dos onsen no meio da neve, os ryokan de aldeias de esqui e um nível de serviço que os Alpes não conseguem igualar. Niseko lidera a cena internacional, mas Nagano, Niigata e Yamagata escondem algumas das montanhas mais marcantes da época.",
+      it: "Il Giappone è la capitale mondiale dello sci in polvere: una massa d'aria siberiana che attraversa il Mar del Giappone scarica la neve più asciutta e profonda del pianeta su Hokkaido e sulle Alpi giapponesi da dicembre a marzo. Aggiungi lo sci tra le betulle di Hokkaido, la cultura degli onsen in mezzo alla neve, i ryokan dei villaggi sciistici e uno standard di servizio che le Alpi non sanno eguagliare. Niseko guida la scena internazionale, ma Nagano, Niigata e Yamagata nascondono alcune delle montagne più memorabili della stagione.",
+    },
+  },
 ]
 
 export function getCountry(slug: string): Country | undefined {

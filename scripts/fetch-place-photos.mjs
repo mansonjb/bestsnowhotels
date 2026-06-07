@@ -355,6 +355,18 @@ const TARGETS = [
   { slug: 'pyha-luosto',          query: 'Pyha Luosto Pyhatunturi Pyha-Luosto National Park amethyst Lapland Finland ski village winter snow' },
   { slug: 'iso-syote',            query: 'Iso-Syote tree-house Hotel southernmost Lapland Finland ski village Northern Lights winter snow' },
   { slug: 'salla',                query: 'Salla Sallatunturi Russian border Lapland Finland ski village Northern Lights reindeer winter snow' },
+  { slug: 'niseko',               query: 'Niseko Hirafu Hokkaido Japan ski resort Mt Yotei powder snow village winter' },
+  { slug: 'rusutsu',              query: 'Rusutsu Resort Hokkaido Japan ski resort tree skiing Mt Yotei powder snow winter' },
+  { slug: 'furano',               query: 'Furano Prince Hokkaido Japan ski resort village mountain powder snow winter' },
+  { slug: 'kiroro',               query: 'Kiroro Resort Hokkaido Japan ski village Otaru powder snow Sheraton winter' },
+  { slug: 'sapporo-teine',        query: 'Sapporo Teine Hokkaido Japan ski resort Ishikari Bay views Sapporo city winter snow' },
+  { slug: 'tomamu',               query: 'Hoshino Tomamu Hokkaido Japan ski resort Ice Village towers winter snow' },
+  { slug: 'hakuba-happo-one',     query: 'Hakuba Happo-One Nagano Japan ski resort Olympics Japanese Alps village winter snow' },
+  { slug: 'hakuba-goryu',         query: 'Hakuba Goryu 47 Nagano Japan ski resort village Japanese Alps winter snow' },
+  { slug: 'shiga-kogen',          query: 'Shiga Kogen Nagano Japan biggest ski area highlands village Japanese Alps winter snow' },
+  { slug: 'nozawa-onsen',         query: 'Nozawa Onsen Nagano Japan traditional onsen ski village hot spring winter snow' },
+  { slug: 'myoko-akakura',        query: 'Myoko Akakura Onsen Niigata Japan ski village hot springs Japanese Alps winter snow' },
+  { slug: 'zao-onsen',            query: 'Zao Onsen Yamagata Japan ski resort snow monsters juhyo ropeway winter' },
 ]
 
 async function searchPhoto(query, apiKey) {

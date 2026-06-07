@@ -63,6 +63,14 @@ const VIBES: Record<string, Record<Locale, string>> = {
   'national-park': { en: 'national park', fr: 'parc national', es: 'parque nacional', pt: 'parque nacional', it: 'parco nazionale' },
   boutique: { en: 'boutique', fr: 'boutique', es: 'boutique', pt: 'boutique', it: 'boutique' },
   renaissance: { en: 'renaissance', fr: 'renaissance', es: 'renacimiento', pt: 'renascimento', it: 'rinascita' },
+  japow: { en: 'japow', fr: 'japow', es: 'japow', pt: 'japow', it: 'japow' },
+  onsen: { en: 'onsen', fr: 'onsen', es: 'onsen', pt: 'onsen', it: 'onsen' },
+  traditional: { en: 'traditional', fr: 'traditionnel', es: 'tradicional', pt: 'tradicional', it: 'tradizionale' },
+  'big-mountain': { en: 'big mountain', fr: 'grande montagne', es: 'gran montaña', pt: 'grande montanha', it: 'grande montagna' },
+  olympic: { en: 'Olympic', fr: 'olympique', es: 'olímpico', pt: 'olímpico', it: 'olimpico' },
+  'city-access': { en: 'city access', fr: "à un pas de la ville", es: 'acceso urbano', pt: 'acesso urbano', it: 'a un passo dalla città' },
+  'snow-monsters': { en: 'snow monsters', fr: 'monstres de neige', es: 'monstruos de nieve', pt: 'monstros de neve', it: 'mostri di neve' },
+  'ice-village': { en: 'ice village', fr: 'village de glace', es: 'aldea de hielo', pt: 'aldeia de gelo', it: 'villaggio di ghiaccio' },
 }
 
 export function localizeVibe(slug: string, locale: Locale): string {

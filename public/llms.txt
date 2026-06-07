@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory across the Alps and Pyrenees. 327 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden and Finland, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory from the Alps to Japan. 339 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland and Japan, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -43,7 +43,7 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 
 A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
 
-- /weather: index of all 327 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather: index of all 339 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
@@ -81,6 +81,7 @@ Index: https://www.bestsnowhotels.com/en/best
 - Norway (13): Trysil, Hemsedal, Geilo, Hafjell, Voss, Kvitfjell, Oppdal, Beitostølen, Skeikampen, Stryn, Røldal, Narvik, Hovden
 - Sweden (10): Åre, Sälen, Vemdalen, Idre Fjäll, Riksgränsen, Funäsdalen, Lofsdalen, Hemavan, Branäs, Tärnaby
 - Finland (7): Levi, Ylläs, Ruka, Saariselkä, Pyhä-Luosto, Iso-Syöte, Salla
+- Japan (12): Niseko, Rusutsu, Furano, Kiroro, Sapporo Teine, Tomamu (Hokkaido); Hakuba Happo-One, Hakuba Goryu & 47, Shiga Kogen, Nozawa Onsen, Myoko Akakura (Japanese Alps / Nagano-Niigata); Zao Onsen (Tohoku)
 
 ## Languages
 

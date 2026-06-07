@@ -1306,5 +1306,53 @@
   "salla": [
     "salla-2.jpg",
     "salla-3.jpg"
+  ],
+  "niseko": [
+    "niseko-2.jpg",
+    "niseko-3.jpg"
+  ],
+  "rusutsu": [
+    "rusutsu-2.jpg",
+    "rusutsu-3.jpg"
+  ],
+  "furano": [
+    "furano-2.jpg",
+    "furano-3.jpg"
+  ],
+  "kiroro": [
+    "kiroro-2.jpg",
+    "kiroro-3.jpg"
+  ],
+  "sapporo-teine": [
+    "sapporo-teine-2.jpg",
+    "sapporo-teine-3.jpg"
+  ],
+  "tomamu": [
+    "tomamu-2.jpg",
+    "tomamu-3.jpg"
+  ],
+  "hakuba-happo-one": [
+    "hakuba-happo-one-2.jpg",
+    "hakuba-happo-one-3.jpg"
+  ],
+  "hakuba-goryu": [
+    "hakuba-goryu-2.jpg",
+    "hakuba-goryu-3.jpg"
+  ],
+  "shiga-kogen": [
+    "shiga-kogen-2.jpg",
+    "shiga-kogen-3.jpg"
+  ],
+  "nozawa-onsen": [
+    "nozawa-onsen-2.jpg",
+    "nozawa-onsen-3.jpg"
+  ],
+  "myoko-akakura": [
+    "myoko-akakura-2.jpg",
+    "myoko-akakura-3.jpg"
+  ],
+  "zao-onsen": [
+    "zao-onsen-2.jpg",
+    "zao-onsen-3.jpg"
   ]
 }

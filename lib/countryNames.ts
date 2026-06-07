@@ -17,6 +17,7 @@ const NAMES: Record<string, Record<Locale, string>> = {
   Norway: { en: 'Norway', fr: 'Norvège', es: 'Noruega', pt: 'Noruega', it: 'Norvegia' },
   Sweden: { en: 'Sweden', fr: 'Suède', es: 'Suecia', pt: 'Suécia', it: 'Svezia' },
   Finland: { en: 'Finland', fr: 'Finlande', es: 'Finlandia', pt: 'Finlândia', it: 'Finlandia' },
+  Japan: { en: 'Japan', fr: 'Japon', es: 'Japón', pt: 'Japão', it: 'Giappone' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -31,14 +32,17 @@ export function inCountry(englishName: string, locale: Locale): string {
   const name = localizeCountry(englishName, locale)
   if (locale === 'en') return `in ${name}`
   if (locale === 'fr') {
-    // EN names: Switzerland, Italy, Spain, France, Austria, Andorra
-    // FR rule: "en" for feminine country names (the usual case for these)
+    // EN names: Switzerland, Italy, Spain, France, Austria, Andorra → "en" (feminine)
+    // Japan (Japon) is masculine → "au"
+    if (englishName === 'Japan') return `au ${name}`
     return `en ${name}`
   }
   if (locale === 'es') return `en ${name}`
   if (locale === 'pt') {
     // PT-PT rule: "em" before names without article (França, Itália, Espanha, Andorra, Finlândia),
-    // "na" before names with article (Suíça, Áustria, Alemanha, Noruega, Suécia).
+    // "na" before feminine names with article (Suíça, Áustria, Alemanha, Noruega, Suécia),
+    // "no" before masculine names with article (Japão).
+    if (englishName === 'Japan') return `no ${name}`
     if (
       englishName === 'Switzerland' ||
       englishName === 'Austria' ||
@@ -50,7 +54,7 @@ export function inCountry(englishName: string, locale: Locale): string {
     return `em ${name}`
   }
   if (locale === 'it') {
-    // Italian: "in" works for all (Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia).
+    // Italian: "in" works for all (Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone).
     return `in ${name}`
   }
   return name

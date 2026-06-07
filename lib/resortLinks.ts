@@ -335,6 +335,18 @@ const RESORT_SITES: Record<string, string> = {
   'pyha-luosto': 'https://www.pyha.fi',
   'iso-syote': 'https://www.isosyote.fi',
   salla: 'https://www.skisalla.fi',
+  niseko: 'https://www.niseko.ne.jp/en/',
+  rusutsu: 'https://rusutsu.com/en/',
+  furano: 'https://www.snowfurano.com/english/',
+  kiroro: 'https://www.kiroro.co.jp/en/winter/',
+  'sapporo-teine': 'https://www.sapporo-teine.com/snow/english/',
+  tomamu: 'https://www.snowtomamu.jp/winter/english/',
+  'hakuba-happo-one': 'https://www.happo-one.jp/en/',
+  'hakuba-goryu': 'https://www.hakubaescal.com/winter/en/',
+  'shiga-kogen': 'https://www.shigakogen-ski.com/en/',
+  'nozawa-onsen': 'https://nozawaski.com/en/',
+  'myoko-akakura': 'https://www.akakura-ski.com/en/',
+  'zao-onsen': 'https://www.zao-ski.or.jp/en/',
 }
 
 export function resortSite(slug: string): string | null {
