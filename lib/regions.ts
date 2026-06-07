@@ -76,6 +76,27 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Floresta Bávara',
     it: 'Foresta Bavarese',
   },
+  'Norwegian Mountains': {
+    en: 'Norwegian Mountains',
+    fr: 'Montagnes norvégiennes',
+    es: 'Montañas noruegas',
+    pt: 'Montanhas norueguesas',
+    it: 'Montagne norvegesi',
+  },
+  'Swedish Mountains': {
+    en: 'Swedish Mountains',
+    fr: 'Montagnes suédoises',
+    es: 'Montañas suecas',
+    pt: 'Montanhas suecas',
+    it: 'Montagne svedesi',
+  },
+  'Finnish Lapland': {
+    en: 'Finnish Lapland',
+    fr: 'Laponie finlandaise',
+    es: 'Laponia finlandesa',
+    pt: 'Lapónia finlandesa',
+    it: 'Lapponia finlandese',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {

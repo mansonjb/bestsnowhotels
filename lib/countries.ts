@@ -111,6 +111,45 @@ export const COUNTRIES: Country[] = [
       it: 'La Germania concentra tutto lo sci serio nelle Alpi bavaresi, lungo il confine austriaco: Garmisch-Partenkirchen sotto la Zugspitze, Oberstdorf nell\'Allgäu, Berchtesgaden sopra il Königssee. Mappe piste più modeste di quelle della Tarentaise, ma terreno alpino vero, un palmarès di Coppa del Mondo e i borghi affrescati più belli della catena.',
     },
   },
+  {
+    slug: 'norway',
+    name: 'Norway',
+    countryCode: 'NO',
+    flag: '🇳🇴',
+    intro: {
+      en: 'Norway is the snow-sure heart of European skiing: low base altitudes but a Scandinavian climate that delivers November-to-May seasons, family-tested groomers and big-mountain freeride from Trysil to Røldal. Add fjord views from the Voss and Stryn slopes, Northern Lights from the Narvik gondola, and an outdoor culture that treats kids on skis as the norm.',
+      fr: "La Norvège est le cœur fiable en neige du ski européen : des altitudes basses, mais un climat scandinave qui garantit des saisons de novembre à mai, des pistes damées à toute épreuve pour les familles et du grand freeride de Trysil à Røldal. Ajoutez la vue sur les fjords depuis Voss et Stryn, les aurores boréales depuis le téléphérique de Narvik et une culture qui considère les enfants à ski comme la norme.",
+      es: "Noruega es el corazón fiable en nieve del esquí europeo: altitudes bajas pero un clima escandinavo que asegura temporadas de noviembre a mayo, pistas pisadas para familias y freeride de gran montaña de Trysil a Røldal. Añade vistas a los fiordos desde Voss y Stryn, auroras boreales desde el teleférico de Narvik y una cultura al aire libre que da por hecho que los niños esquían.",
+      pt: "A Noruega é o coração fiável em neve do esqui europeu: altitudes baixas mas um clima escandinavo que garante épocas de novembro a maio, pistas pisadas para famílias e freeride de grande montanha de Trysil a Røldal. Junte vistas para os fiordes a partir de Voss e Stryn, auroras boreais desde o teleférico de Narvik e uma cultura ao ar livre que dá como certo que as crianças esquiam.",
+      it: "La Norvegia è il cuore sicuro sulla neve dello sci europeo: quote di base basse ma un clima scandinavo che garantisce stagioni da novembre a maggio, piste battute a prova di famiglia e vero freeride di grande montagna da Trysil a Røldal. Aggiungi viste sui fiordi da Voss e Stryn, aurora boreale dalla funivia di Narvik e una cultura all'aria aperta che dà per scontato che i bambini sciino.",
+    },
+  },
+  {
+    slug: 'sweden',
+    name: 'Sweden',
+    countryCode: 'SE',
+    flag: '🇸🇪',
+    intro: {
+      en: 'Sweden is where the Nordic family-ski tradition runs deepest: rounded fjäll instead of jagged peaks, huge linked low-altitude domains like Sälen and Funäsfjällen, a sleeper train to Åre and Riksgränsen above the Arctic Circle for late-spring midnight-sun skiing. Cosy hytte culture, well-organised ski schools and after-ski that knows when to stop.',
+      fr: "La Suède, c'est là où la tradition nordique du ski en famille est la plus profonde : des fjäll arrondis plutôt que des pics déchiquetés, d'immenses domaines reliés d'altitude basse comme Sälen et Funäsfjällen, un train de nuit pour Åre et Riksgränsen au-dessus du cercle polaire pour skier sous le soleil de minuit au printemps. Culture des hytte, écoles de ski rodées, et un après-ski qui sait quand s'arrêter.",
+      es: "Suecia es donde la tradición nórdica del esquí en familia está más enraizada: fjäll redondeados en vez de picos dentados, enormes dominios enlazados de baja altitud como Sälen y Funäsfjällen, un tren-cama a Åre y Riksgränsen sobre el Círculo Polar Ártico para esquiar bajo el sol de medianoche en primavera. Cultura de las hytte, escuelas de esquí muy rodadas y un après-ski que sabe parar.",
+      pt: "A Suécia é onde a tradição nórdica do esqui em família está mais enraizada: fjäll arredondados em vez de picos dentados, enormes domínios ligados de baixa altitude como Sälen e Funäsfjällen, um comboio-cama para Åre e Riksgränsen acima do Círculo Polar Ártico para esquiar sob o sol da meia-noite na primavera. Cultura das hytte, escolas de esqui bem rodadas e um après-ski que sabe parar.",
+      it: "La Svezia è dove la tradizione nordica dello sci in famiglia è più radicata: fjäll arrotondati invece di vette frastagliate, enormi comprensori collegati a bassa quota come Sälen e Funäsfjällen, un treno notte per Åre e Riksgränsen sopra il Circolo Polare Artico per sciare sotto il sole di mezzanotte in primavera. Cultura delle hytte, scuole sci collaudate e un après-ski che sa fermarsi.",
+    },
+  },
+  {
+    slug: 'finland',
+    name: 'Finland',
+    countryCode: 'FI',
+    flag: '🇫🇮',
+    intro: {
+      en: 'Finnish Lapland is where you go for the Arctic experience as much as the skiing: log-cabin villages at the foot of low rounded tunturi (fjäll), reindeer herds in the trails, Northern Lights from October to April and an October-to-May ski season at Ruka and Levi. The skiing is gentle and family-shaped; the Lapland brand around it is one of the strongest in winter tourism.',
+      fr: "La Laponie finlandaise, c'est autant pour l'expérience arctique que pour le ski : villages de chalets en bois au pied des tunturi (fjäll) arrondis, troupeaux de rennes sur les pistes, aurores boréales d'octobre à avril et une saison d'octobre à mai à Ruka et Levi. Le ski est doux et familial ; la marque Laponie autour, l'une des plus fortes du tourisme d'hiver.",
+      es: "La Laponia finlandesa es tanto por la experiencia ártica como por el esquí: pueblos de cabañas de madera al pie de tunturi (fjäll) redondeados, manadas de renos en las pistas, auroras boreales de octubre a abril y una temporada de octubre a mayo en Ruka y Levi. El esquí es suave y familiar; la marca Laponia alrededor, una de las más fuertes del turismo de invierno.",
+      pt: "A Lapónia finlandesa é tanto pela experiência ártica como pelo esqui: aldeias de cabanas de madeira ao pé dos tunturi (fjäll) arredondados, manadas de renas nas pistas, auroras boreais de outubro a abril e uma época de outubro a maio em Ruka e Levi. O esqui é suave e familiar; a marca Lapónia à volta, uma das mais fortes do turismo de inverno.",
+      it: "La Lapponia finlandese vale tanto per l'esperienza artica quanto per lo sci: borghi di baite di legno ai piedi di tunturi (fjäll) arrotondati, mandrie di renne sulle piste, aurora boreale da ottobre ad aprile e una stagione da ottobre a maggio a Ruka e Levi. Lo sci è dolce e familiare; il marchio Lapponia attorno, uno dei più forti del turismo invernale.",
+    },
+  },
 ]
 
 export function getCountry(slug: string): Country | undefined {

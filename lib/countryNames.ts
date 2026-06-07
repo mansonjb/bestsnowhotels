@@ -14,6 +14,9 @@ const NAMES: Record<string, Record<Locale, string>> = {
   Spain: { en: 'Spain', fr: 'Espagne', es: 'España', pt: 'Espanha', it: 'Spagna' },
   Andorra: { en: 'Andorra', fr: 'Andorre', es: 'Andorra', pt: 'Andorra', it: 'Andorra' },
   Germany: { en: 'Germany', fr: 'Allemagne', es: 'Alemania', pt: 'Alemanha', it: 'Germania' },
+  Norway: { en: 'Norway', fr: 'Norvège', es: 'Noruega', pt: 'Noruega', it: 'Norvegia' },
+  Sweden: { en: 'Sweden', fr: 'Suède', es: 'Suecia', pt: 'Suécia', it: 'Svezia' },
+  Finland: { en: 'Finland', fr: 'Finlande', es: 'Finlandia', pt: 'Finlândia', it: 'Finlandia' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -34,14 +37,20 @@ export function inCountry(englishName: string, locale: Locale): string {
   }
   if (locale === 'es') return `en ${name}`
   if (locale === 'pt') {
-    // PT-PT rule: "em" before names without article (França, Itália, Espanha, Andorra),
-    // "na" before names with article (Suíça, Áustria, Alemanha).
-    if (englishName === 'Switzerland' || englishName === 'Austria' || englishName === 'Germany')
+    // PT-PT rule: "em" before names without article (França, Itália, Espanha, Andorra, Finlândia),
+    // "na" before names with article (Suíça, Áustria, Alemanha, Noruega, Suécia).
+    if (
+      englishName === 'Switzerland' ||
+      englishName === 'Austria' ||
+      englishName === 'Germany' ||
+      englishName === 'Norway' ||
+      englishName === 'Sweden'
+    )
       return `na ${name}`
     return `em ${name}`
   }
   if (locale === 'it') {
-    // Italian: "in" works for all seven (Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania).
+    // Italian: "in" works for all (Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia).
     return `in ${name}`
   }
   return name
