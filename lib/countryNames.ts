@@ -18,6 +18,7 @@ const NAMES: Record<string, Record<Locale, string>> = {
   Sweden: { en: 'Sweden', fr: 'Suède', es: 'Suecia', pt: 'Suécia', it: 'Svezia' },
   Finland: { en: 'Finland', fr: 'Finlande', es: 'Finlandia', pt: 'Finlândia', it: 'Finlandia' },
   Japan: { en: 'Japan', fr: 'Japon', es: 'Japón', pt: 'Japão', it: 'Giappone' },
+  'United States': { en: 'United States', fr: 'États-Unis', es: 'Estados Unidos', pt: 'Estados Unidos', it: 'Stati Uniti' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -34,15 +35,22 @@ export function inCountry(englishName: string, locale: Locale): string {
   if (locale === 'fr') {
     // EN names: Switzerland, Italy, Spain, France, Austria, Andorra → "en" (feminine)
     // Japan (Japon) is masculine → "au"
+    // United States (États-Unis) is plural → "aux"
     if (englishName === 'Japan') return `au ${name}`
+    if (englishName === 'United States') return `aux ${name}`
     return `en ${name}`
   }
-  if (locale === 'es') return `en ${name}`
+  if (locale === 'es') {
+    // Estados Unidos plural masculine usually takes "en" without article in modern usage.
+    return `en ${name}`
+  }
   if (locale === 'pt') {
     // PT-PT rule: "em" before names without article (França, Itália, Espanha, Andorra, Finlândia),
     // "na" before feminine names with article (Suíça, Áustria, Alemanha, Noruega, Suécia),
-    // "no" before masculine names with article (Japão).
+    // "no" before masculine singular with article (Japão),
+    // "nos" before masculine plural with article (Estados Unidos).
     if (englishName === 'Japan') return `no ${name}`
+    if (englishName === 'United States') return `nos ${name}`
     if (
       englishName === 'Switzerland' ||
       englishName === 'Austria' ||
@@ -54,7 +62,8 @@ export function inCountry(englishName: string, locale: Locale): string {
     return `em ${name}`
   }
   if (locale === 'it') {
-    // Italian: "in" works for all (Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone).
+    // Italian: most countries take "in" + name. Plural masculine takes "negli" (Stati Uniti).
+    if (englishName === 'United States') return `negli ${name}`
     return `in ${name}`
   }
   return name

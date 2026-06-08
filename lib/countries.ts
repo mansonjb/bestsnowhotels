@@ -163,6 +163,19 @@ export const COUNTRIES: Country[] = [
       it: "Il Giappone è la capitale mondiale dello sci in polvere: una massa d'aria siberiana che attraversa il Mar del Giappone scarica la neve più asciutta e profonda del pianeta su Hokkaido e sulle Alpi giapponesi da dicembre a marzo. Aggiungi lo sci tra le betulle di Hokkaido, la cultura degli onsen in mezzo alla neve, i ryokan dei villaggi sciistici e uno standard di servizio che le Alpi non sanno eguagliare. Niseko guida la scena internazionale, ma Nagano, Niigata e Yamagata nascondono alcune delle montagne più memorabili della stagione.",
     },
   },
+  {
+    slug: 'united-states',
+    name: 'United States',
+    countryCode: 'US',
+    flag: '🇺🇸',
+    intro: {
+      en: "The United States runs the world's biggest ski market, and the variety is the point: Colorado's high-altitude Rockies cluster (Vail, Aspen, Breckenridge, Telluride), Utah's powder-hammered Wasatch (Snowbird, Alta, Park City), California's Sierra Nevada (Mammoth, Palisades Tahoe, Heavenly), the wild expert terrain of Jackson Hole and Big Sky, and the rugged charm of Vermont's Green Mountains. Add Sun Valley's vintage, Taos' desert powder and Whitefish's value, and the picture spans nine months of season, six time zones and twenty distinct ski cultures.",
+      fr: "Les États-Unis pilotent le plus grand marché de ski au monde, et c'est la diversité qui fait tout : le cluster d'altitude des Rocheuses du Colorado (Vail, Aspen, Breckenridge, Telluride), le Wasatch tapissé de poudreuse de l'Utah (Snowbird, Alta, Park City), la Sierra Nevada californienne (Mammoth, Palisades Tahoe, Heavenly), le terrain sauvage de Jackson Hole et de Big Sky, et le charme rugueux des Green Mountains du Vermont. Ajoutez le millésime de Sun Valley, la neige du désert à Taos et le rapport qualité-prix de Whitefish, et vous obtenez neuf mois de saison, six fuseaux horaires et vingt cultures de ski distinctes.",
+      es: "Estados Unidos lidera el mayor mercado de esquí del mundo, y la variedad es el punto: el clúster de altura de las Rocosas de Colorado (Vail, Aspen, Breckenridge, Telluride), el Wasatch de Utah martilleado por la nieve polvo (Snowbird, Alta, Park City), la Sierra Nevada californiana (Mammoth, Palisades Tahoe, Heavenly), el terreno salvaje y experto de Jackson Hole y Big Sky, y el encanto rudo de las Green Mountains de Vermont. Súmale el vintage de Sun Valley, la nieve de desierto de Taos y la relación calidad-precio de Whitefish, y el panorama abarca nueve meses de temporada, seis husos horarios y veinte culturas de esquí distintas.",
+      pt: "Os Estados Unidos lideram o maior mercado de esqui do mundo, e a variedade é o ponto: o agrupamento de altitude das Rochosas do Colorado (Vail, Aspen, Breckenridge, Telluride), o Wasatch do Utah martelado pela neve em pó (Snowbird, Alta, Park City), a Sierra Nevada californiana (Mammoth, Palisades Tahoe, Heavenly), o terreno selvagem de Jackson Hole e Big Sky, e o charme rude das Green Mountains do Vermont. Junte o vintage de Sun Valley, a neve do deserto em Taos e a relação qualidade-preço de Whitefish, e o panorama abrange nove meses de época, seis fusos horários e vinte culturas de esqui distintas.",
+      it: "Gli Stati Uniti guidano il più grande mercato sciistico al mondo, e la varietà è il punto: il cluster d'alta quota delle Rocciose del Colorado (Vail, Aspen, Breckenridge, Telluride), il Wasatch dello Utah martellato dalla polvere (Snowbird, Alta, Park City), la Sierra Nevada californiana (Mammoth, Palisades Tahoe, Heavenly), il terreno selvaggio di Jackson Hole e Big Sky, e il fascino ruvido delle Green Mountains del Vermont. Aggiungi il vintage di Sun Valley, la polvere del deserto di Taos e il rapporto qualità-prezzo di Whitefish, e il quadro copre nove mesi di stagione, sei fusi orari e venti culture sciistiche distinte.",
+    },
+  },
 ]
 
 export function getCountry(slug: string): Country | undefined {

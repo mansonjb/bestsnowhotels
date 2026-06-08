@@ -71,6 +71,13 @@ const VIBES: Record<string, Record<Locale, string>> = {
   'city-access': { en: 'city access', fr: "à un pas de la ville", es: 'acceso urbano', pt: 'acesso urbano', it: 'a un passo dalla città' },
   'snow-monsters': { en: 'snow monsters', fr: 'monstres de neige', es: 'monstruos de nieve', pt: 'monstros de neve', it: 'mostri di neve' },
   'ice-village': { en: 'ice village', fr: 'village de glace', es: 'aldea de hielo', pt: 'aldeia de gelo', it: 'villaggio di ghiaccio' },
+  'back-bowls': { en: 'back bowls', fr: 'bowls de poudreuse', es: 'cuencos de polvo', pt: 'bowls de neve', it: 'conche di polvere' },
+  powder: { en: 'powder', fr: 'poudreuse', es: 'nieve polvo', pt: 'neve em pó', it: 'neve fresca' },
+  'east-coast': { en: 'East Coast', fr: 'côte Est', es: 'costa Este', pt: 'costa Leste', it: 'costa orientale' },
+  vintage: { en: 'vintage', fr: 'rétro chic', es: 'vintage', pt: 'vintage', it: 'vintage' },
+  tram: { en: 'tram-access', fr: 'téléphérique-roi', es: 'teleférico estrella', pt: 'teleférico ícone', it: 'funivia regina' },
+  isolated: { en: 'isolated', fr: 'isolée', es: 'aislada', pt: 'isolada', it: 'isolata' },
+  'ski-only': { en: 'ski-only', fr: 'skis seulement', es: 'solo esquí', pt: 'só esqui', it: 'solo sci' },
 }
 
 export function localizeVibe(slug: string, locale: Locale): string {

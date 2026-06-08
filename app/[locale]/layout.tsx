@@ -29,11 +29,11 @@ export async function generateMetadata({
     it: 'BestSnowHotels: hotel ski-in/ski-out sulle Alpi e sui Pirenei',
   }
   const descriptions: Record<Locale, string> = {
-    en: 'Find ski-in/ski-out hotels across 339 resorts in France, Switzerland, Austria, Italy, Spain, Andorra, Germany, Norway, Sweden, Finland and Japan. Real altitudes, real snow data, best prices.',
-    fr: 'Trouvez des hôtels ski-in/ski-out dans 339 stations en France, en Suisse, en Autriche, en Italie, en Espagne, en Andorre, en Allemagne, en Norvège, en Suède, en Finlande et au Japon. Altitudes réelles, données d\'enneigement, meilleurs prix.',
-    es: 'Encuentra hoteles ski-in/ski-out en 339 estaciones de Francia, Suiza, Austria, Italia, España, Andorra, Alemania, Noruega, Suecia, Finlandia y Japón. Altitudes reales, datos de nieve, los mejores precios.',
-    pt: 'Encontre hotéis ski-in/ski-out em 339 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha, em Andorra, na Alemanha, na Noruega, na Suécia, na Finlândia e no Japão. Altitudes reais, dados de neve, os melhores preços.',
-    it: 'Trova hotel ski-in/ski-out in 339 località tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia e Giappone. Quote reali, dati neve veri, prezzi migliori.',
+    en: 'Find ski-in/ski-out hotels across 359 resorts in France, Switzerland, Austria, Italy, Spain, Andorra, Germany, Norway, Sweden, Finland, Japan and the United States. Real altitudes, real snow data, best prices.',
+    fr: 'Trouvez des hôtels ski-in/ski-out dans 359 stations en France, en Suisse, en Autriche, en Italie, en Espagne, en Andorre, en Allemagne, en Norvège, en Suède, en Finlande, au Japon et aux États-Unis. Altitudes réelles, données d\'enneigement, meilleurs prix.',
+    es: 'Encuentra hoteles ski-in/ski-out en 359 estaciones de Francia, Suiza, Austria, Italia, España, Andorra, Alemania, Noruega, Suecia, Finlandia, Japón y Estados Unidos. Altitudes reales, datos de nieve, los mejores precios.',
+    pt: 'Encontre hotéis ski-in/ski-out em 359 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha, em Andorra, na Alemanha, na Noruega, na Suécia, na Finlândia, no Japão e nos Estados Unidos. Altitudes reais, dados de neve, os melhores preços.',
+    it: 'Trova hotel ski-in/ski-out in 359 località tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone e Stati Uniti. Quote reali, dati neve veri, prezzi migliori.',
   }
   const l = hasLocale(locale) ? locale : 'en'
 

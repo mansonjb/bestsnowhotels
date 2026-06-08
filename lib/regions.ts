@@ -118,6 +118,48 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Montanhas de Tōhoku',
     it: 'Monti del Tōhoku',
   },
+  'Colorado Rockies': {
+    en: 'Colorado Rockies',
+    fr: 'Rocheuses du Colorado',
+    es: 'Rocosas de Colorado',
+    pt: 'Rochosas do Colorado',
+    it: 'Montagne Rocciose del Colorado',
+  },
+  'Wasatch Mountains': {
+    en: 'Wasatch Mountains',
+    fr: 'Montagnes Wasatch',
+    es: 'Montañas Wasatch',
+    pt: 'Montanhas Wasatch',
+    it: 'Monti Wasatch',
+  },
+  'Sierra Nevada': {
+    en: 'Sierra Nevada',
+    fr: 'Sierra Nevada',
+    es: 'Sierra Nevada',
+    pt: 'Serra Nevada',
+    it: 'Sierra Nevada',
+  },
+  'Northern Rockies': {
+    en: 'Northern Rockies',
+    fr: 'Rocheuses du Nord',
+    es: 'Rocosas del Norte',
+    pt: 'Rochosas do Norte',
+    it: 'Montagne Rocciose del Nord',
+  },
+  'Green Mountains': {
+    en: 'Green Mountains',
+    fr: 'Green Mountains',
+    es: 'Green Mountains',
+    pt: 'Green Mountains',
+    it: 'Green Mountains',
+  },
+  'Sangre de Cristo': {
+    en: 'Sangre de Cristo',
+    fr: 'Sangre de Cristo',
+    es: 'Sangre de Cristo',
+    pt: 'Sangre de Cristo',
+    it: 'Sangre de Cristo',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {

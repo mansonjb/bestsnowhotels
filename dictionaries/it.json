@@ -9,13 +9,13 @@
     "about": "Chi siamo"
   },
   "hero": {
-    "badge": "Hotel ski-in/ski-out dalle Alpi al Giappone",
+    "badge": "Hotel ski-in/ski-out dalle Alpi alle Rocciose",
     "title": "I migliori hotel di neve, dove gli impianti partono dalla porta",
-    "subtitle": "339 località scelte una per una tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia e Giappone. Quote vere, ski-in/ski-out sul serio, miglior prezzo tra Booking, Expedia e Hotels.com.",
+    "subtitle": "359 località scelte una per una tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone e Stati Uniti. Quote vere, ski-in/ski-out sul serio, miglior prezzo tra Booking, Expedia e Hotels.com.",
     "cta": "Vedi le destinazioni",
-    "stat1Value": "339",
+    "stat1Value": "359",
     "stat1Label": "Destinazioni sci",
-    "stat2Value": "11",
+    "stat2Value": "12",
     "stat2Label": "Paesi",
     "stat3Value": "100 %",
     "stat3Label": "Gratis"
@@ -68,7 +68,7 @@
     "pistesKm": "Piste",
     "lifts": "Impianti",
     "pisteTitle": "Piste e impianti",
-    "pisteNote": "Il numero di piste e i chilometri sono indicativi. Le piste verdi esistono solo in Francia, Spagna, Andorra, Norvegia, Svezia, Finlandia e Giappone; Italia, Austria, Svizzera e Germania partono dal blu.",
+    "pisteNote": "Il numero di piste e i chilometri sono indicativi. Le piste verdi esistono solo in Francia, Spagna, Andorra, Norvegia, Svezia, Finlandia, Giappone e Stati Uniti; Italia, Austria, Svizzera e Germania partono dal blu.",
     "runs": "piste segnalate",
     "glacierSkiing": "Sci sul ghiacciaio",
     "pisteGreen": "Verdi",
@@ -102,7 +102,7 @@
   },
   "best": {
     "title": "Le migliori località sciistiche d'Europa",
-    "subtitle": "Selezioni delle località più innevate, più grandi, più chic e con il miglior rapporto qualità-prezzo del nostro database, tutte scelte sui dati reali delle 339 destinazioni.",
+    "subtitle": "Selezioni delle località più innevate, più grandi, più chic e con il miglior rapporto qualità-prezzo del nostro database, tutte scelte sui dati reali delle 359 destinazioni.",
     "howRanked": "Come abbiamo scelto",
     "exploreList": "Scopri la selezione"
   },
@@ -118,8 +118,8 @@
     "passLabel": "Skipass"
   },
   "weather": {
-    "title": "Bollettino neve in tempo reale dalle Alpi al Giappone",
-    "subtitle": "Altezza neve, temperature e previsioni a 7 giorni per le 339 località del nostro database, aggiornate ogni 30 minuti.",
+    "title": "Bollettino neve in tempo reale dalle Alpi alle Rocciose",
+    "subtitle": "Altezza neve, temperature e previsioni a 7 giorni per le 359 località del nostro database, aggiornate ogni 30 minuti.",
     "pageTitleResort": "Bollettino neve",
     "asOf": "Aggiornato",
     "livePill": "Live",
@@ -171,7 +171,7 @@
     "byCountrySubtitle": "Scegli il tuo massiccio.",
     "howTitle": "Come funziona BestSnowHotels",
     "stepLabel": "PASSO",
-    "howStep1Title": "Scopri 339 località",
+    "howStep1Title": "Scopri 359 località",
     "howStep1Text": "Ogni pagina mostra quote reali, chilometri di piste e una nota ski-in/ski-out trasparente. Niente fumo.",
     "howStep2Title": "Vedi gli hotel sulla mappa",
     "howStep2Text": "Le mappe Stay22 mostrano in tempo reale hotel e appartamenti attorno agli impianti, con i prezzi in diretta dei principali operatori.",
