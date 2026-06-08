@@ -49,6 +49,27 @@ const CITIES = {
   barcelona: { lat: 41.3851, lng: 2.1734, radiusKm: 300 },
 }
 
+/** Continent helpers used to keep each best-for list scoped to a region. */
+const EUROPE_COUNTRY_CODES = new Set(['FR', 'CH', 'IT', 'AT', 'ES', 'AD', 'DE', 'NO', 'SE', 'FI'])
+const isEurope = (d: Destination) => EUROPE_COUNTRY_CODES.has(d.countryCode)
+const isJapan = (d: Destination) => d.countryCode === 'JP'
+const isUSA = (d: Destination) => d.countryCode === 'US'
+
+/** US powder-focused subset (snow + freeride + tree-skiing pedigree). */
+const USA_POWDER_RESORTS = new Set([
+  'snowbird', 'alta', 'jackson-hole', 'steamboat', 'big-sky',
+  'mammoth-mountain', 'whitefish', 'taos-ski-valley',
+])
+
+/** US East Coast resorts (Green Mountains today, room to expand). */
+const USA_EAST_SLUGS = new Set(['stowe', 'killington'])
+/** Colorado Rockies cluster. */
+const USA_COLORADO_SLUGS = new Set([
+  'vail', 'aspen-snowmass', 'beaver-creek', 'breckenridge', 'telluride', 'steamboat',
+])
+/** Utah Wasatch cluster (powder mecca). */
+const USA_UTAH_SLUGS = new Set(['park-city', 'deer-valley', 'snowbird', 'alta'])
+
 export const BEST_FOR_LISTS: BestForList[] = [
   {
     slug: 'snow-sure',
@@ -74,7 +95,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "A neve é o objetivo de uma viagem de esqui, e estas estâncias têm a altitude e a exposição para a garantir melhor do que as outras. Ordenamo-las pela nossa pontuação de neve, uma medida de 0 a 100 que combina altitudes de base e cume, histórico de neve e exposição. Espere estâncias que abrem cedo, fecham tarde e resistem aos invernos fracos quando as vizinhas mais baixas desistem.",
       it: "La neve è il senso di un viaggio sulla neve, e queste località hanno la quota e l'esposizione per garantirla meglio delle altre. Le ordiniamo per il nostro punteggio neve, una misura da 0 a 100 che combina quote di base e di cima, storico dell'innevamento ed esposizione. Aspettati località che aprono presto, chiudono tardi e sopravvivono agli inverni magri quando le vicine più basse abbassano la saracinesca.",
     },
-    filter: (d) => d.snowScore >= 85,
+    filter: (d) => isEurope(d) && d.snowScore >= 85,
     sort: (d) => d.snowScore,
   },
   {
@@ -101,7 +122,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Uma grande estância familiar é mais do que um bom clube infantil: precisa de pendentes suaves, zonas de iniciação com teleféricos, uma aldeia segura para passear e atividades de interior para dias de neve. Estas estâncias têm tudo, da sem-carros Wengen ao metro subterrâneo de Serfaus-Fiss-Ladis ou à Avoriaz no sopé das pistas. Verdadeiras montanhas, mas pensadas primeiro para as crianças.",
       it: "Una grande località per famiglie è molto più di un buon mini club: servono pendenze morbide, aree per chi inizia servite da impianti, un borgo sicuro dove camminare e attività al coperto per le giornate di neve. Queste località mettono insieme tutto, dalla senza-auto Wengen al metro sotterraneo di Serfaus-Fiss-Ladis fino ad Avoriaz ai piedi delle piste. Vere montagne, ma pensate prima per i bambini.",
     },
-    filter: (d) => d.vibes.includes('family'),
+    filter: (d) => isEurope(d) && d.vibes.includes('family'),
     sort: (d) => d.snowScore,
   },
   {
@@ -128,7 +149,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Acolhedoras, íntimas ou abertamente glamorosas, são as estâncias onde a rua principal parece a Bond Street e a banheira do chalé tem o tamanho do seu quarto. De Courchevel e Megève em França a Gstaad, Zermatt e St. Moritz na Suíça, passando por Cortina em Itália, o estilo de vida e o pisado são igualmente cuidados.",
       it: "Accoglienti, intime o apertamente glamour, sono le località dove la via principale somiglia a Bond Street e la vasca dello chalet ha le dimensioni della tua camera. Da Courchevel e Megève in Francia a Gstaad, Zermatt e St. Moritz in Svizzera, passando per Cortina in Italia, lo stile di vita e la battitura sono altrettanto curati.",
     },
-    filter: (d) => d.vibes.some((v) => LUX_VIBES.has(v)),
+    filter: (d) => isEurope(d) && d.vibes.some((v) => LUX_VIBES.has(v)),
     sort: (d) => d.snowScore,
   },
   {
@@ -155,7 +176,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Quando um glaciar faz parte do domínio, a época alonga-se, a neve é mais fiável e quase sempre se encontram algumas pistas, faça o tempo que fizer. Do famoso Hintertux aberto 365 dias por ano a Tignes, Saas-Fee, Les Deux Alpes, Kitzsteinhorn e ao Stubai, são as estâncias onde o gelo de altitude faz todo o trabalho.",
       it: "Quando un ghiacciaio fa parte del comprensorio, la stagione si allunga, la neve è più affidabile e si trovano quasi sempre alcune piste, qualunque sia il meteo. Dal famoso Hintertux aperto 365 giorni l'anno a Tignes, Saas-Fee, Les Deux Alpes, Kitzsteinhorn e allo Stubai, sono le località dove il ghiaccio d'alta quota fa tutto il lavoro.",
     },
-    filter: (d) => d.vibes.includes('glacier'),
+    filter: (d) => isEurope(d) && d.vibes.includes('glacier'),
     sort: (d) => d.altitudeSummit,
   },
   {
@@ -182,7 +203,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Estas estâncias são enormes: cada uma liga-se a 200 km ou mais de pistas num só passe, das Trois Vallées e Paradiski ao transfronteiriço Portes du Soleil e ao Dolomiti Superski italiano. Uma semana mal arranha a superfície, e ao sétimo dia ainda há pistas por experimentar.",
       it: "Queste località sono enormi: ognuna si collega a 200 km o più di piste con un solo skipass, dalle gigantesche Trois Vallées e Paradiski al transfrontaliero Portes du Soleil e all'italiano Dolomiti Superski. Una settimana qui basta appena, e al settimo giorno restano ancora piste da provare.",
     },
-    filter: (d) => d.pistesKm >= 200,
+    filter: (d) => isEurope(d) && d.pistesKm >= 200,
     sort: (d) => d.pistesKm,
   },
   {
@@ -209,7 +230,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Esquiar nos Alpes não é pagar Courchevel. Estas estâncias, de Bormio e Sauze d'Oulx em Itália aos Pirenéus espanhóis e aos Alpes do Sul franceses, dão esqui de montanha a sério a preços notavelmente mais suaves. Mesma neve, metade da conta.",
       it: "Sciare sulle Alpi non significa pagare Courchevel. Queste località, da Bormio e Sauze d'Oulx in Italia ai Pirenei spagnoli e alle Alpi del Sud francesi, regalano vero sci di montagna a prezzi nettamente più morbidi. Stessa neve, metà del conto.",
     },
-    filter: (d) => d.vibes.includes('value'),
+    filter: (d) => isEurope(d) && d.vibes.includes('value'),
     sort: (d) => d.snowScore,
   },
   {
@@ -236,7 +257,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "O freeride é deixar para trás as pistas pisadas, e estas estâncias foram feitas para isso: encostas viradas a norte, longas descidas fora-de-pista, acesso fácil ao helicóptero e cultura séria de segurança. De Engelberg e Alagna, lendas do género, a Sainte-Foy, Ordino-Arcalís e Fieberbrunn, é aqui que os caçadores de neve pó reservam as suas semanas primeiro.",
       it: "Il freeride significa lasciarsi alle spalle le piste battute, e queste località sono fatte apposta: versanti esposti a nord, lunghe discese fuori pista, accesso facile all'eliski e una seria cultura della sicurezza. Da Engelberg e Alagna, leggende del genere, a Sainte-Foy, Ordino-Arcalís e Fieberbrunn, è qui che i cacciatori di neve fresca prenotano per primi le settimane.",
     },
-    filter: (d) => d.vibes.includes('freeride'),
+    filter: (d) => isEurope(d) && d.vibes.includes('freeride'),
     sort: (d) => d.snowScore,
   },
   {
@@ -263,7 +284,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Aprender a esquiar é um desporto diferente de descer azuis, e a estância escolhida conta: zonas de iniciação dedicadas, tapetes mágicos, uma escola de esqui acolhedora e acesso fácil a longas pistas suaves. Estas estâncias têm tudo, e a nossa seleção privilegia domínios franceses, espanhóis e andorranos, onde as verdes balizadas dão aos principiantes um terreno seguro e fácil de ler.",
       it: "Imparare a sciare è un altro sport rispetto al filare sulle blu, e la scelta della località conta: campi scuola dedicati, tappeti magici, una scuola sci accogliente e accesso facile a lunghe piste dolci. Queste località fanno tutto, e la nostra selezione privilegia i comprensori francesi, spagnoli e andorrani, dove le piste verdi segnalate offrono ai principianti un terreno sicuro e leggibile.",
     },
-    filter: (d) => d.pisteCounts.green >= 10,
+    filter: (d) => isEurope(d) && d.pisteCounts.green >= 10,
     sort: (d) => d.pisteCounts.green,
   },
   {
@@ -290,7 +311,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Uma altitude de aldeia elevada é o seguro de neve mais simples que se pode comprar. São as estâncias onde a cama já está a 1800 m ou mais, por isso a neve à porta funciona quase sempre, mesmo em invernos fracos, de Val Thorens a 2300 m a Tignes, Val d'Isère, Avoriaz e Kühtai.",
       it: "Una quota di paese elevata è la più semplice assicurazione neve che si possa comprare. Sono le località dove il letto è già a 1800 m o più, così la neve sulla porta funziona quasi sempre, anche negli inverni magri, da Val Thorens a 2.300 m a Tignes, Val d'Isère, Avoriaz e Kühtai.",
     },
-    filter: (d) => d.altitudeBase >= 1800,
+    filter: (d) => isEurope(d) && d.altitudeBase >= 1800,
     sort: (d) => d.altitudeBase,
   },
   {
@@ -317,7 +338,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: "Uma aldeia sem carros é um dos grandes luxos tranquilos do esqui: só se ouvem os cascos dos cavalos e os esquis sobre a neve. De Zermatt, Wengen e Mürren na Suíça a Avoriaz e Vaujany em França, são as estâncias onde se deixa o carro no vale e o comboio, o telecabine ou o trenó se encarregam do resto.",
       it: "Un borgo senza auto è uno dei grandi lussi silenziosi dello sci: si sentono solo gli zoccoli dei cavalli e gli sci sulla neve. Da Zermatt, Wengen e Mürren in Svizzera ad Avoriaz e Vaujany in Francia, sono le località dove si lascia l'auto a valle e il treno, la cabinovia o la slitta si occupano del resto.",
     },
-    filter: (d) => d.vibes.includes('car-free'),
+    filter: (d) => isEurope(d) && d.vibes.includes('car-free'),
     sort: (d) => d.snowScore,
   },
   {
@@ -344,7 +365,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       pt: 'Estas estâncias tratam o snowpark como atração principal, não como acessório. Laax na Suíça põe a fasquia do shaping; Mayrhofen, Saalbach, Livigno, Madonna di Campiglio, Avoriaz e Grandvalira mantêm-na alta. Várias linhas de park, contests regulares, equipas de shape dedicadas e uma cultura after-park à altura.',
       it: "Queste località trattano lo snowpark come l'attrazione principale, non come un accessorio. Laax in Svizzera fissa l'asticella dello shaping; Mayrhofen, Saalbach, Livigno, Madonna di Campiglio, Avoriaz e Grandvalira la tengono alta. Più linee di park, contest regolari, squadre shape dedicate e una cultura after-park all'altezza.",
     },
-    filter: (d) => FREESTYLE_RESORTS.has(d.slug),
+    filter: (d) => isEurope(d) && FREESTYLE_RESORTS.has(d.slug),
     sort: (d) => d.snowScore,
   },
   {
@@ -458,6 +479,202 @@ export const BEST_FOR_LISTS: BestForList[] = [
     filter: (d) => distanceKm(CITIES.barcelona.lat, CITIES.barcelona.lng, d.lat, d.lng) <= CITIES.barcelona.radiusKm,
     sort: (d) => d.snowScore,
     limit: 30,
+  },
+  {
+    slug: 'japan',
+    heroSlug: 'niseko',
+    name: {
+      en: 'Best ski resorts in Japan',
+      fr: 'Meilleures stations de ski au Japon',
+      es: 'Mejores estaciones de esquí de Japón',
+      pt: 'Melhores estâncias de esqui do Japão',
+      it: "Migliori località sciistiche in Giappone",
+    },
+    intro: {
+      en: 'Japow on tap: the Hokkaido + Honshu resorts that earn Japan its powder-skiing reputation, ranked by snow score.',
+      fr: "Japow à volonté : les stations de Hokkaido et de Honshu qui ont fait la réputation de poudreuse du Japon, classées par score neige.",
+      es: 'Japow a discreción: las estaciones de Hokkaido y Honshu que han hecho la fama de Japón en nieve polvo, ordenadas por puntuación de nieve.',
+      pt: 'Japow sem limites: as estâncias de Hokkaido e Honshu que fizeram a fama do Japão em neve fresca, ordenadas pela pontuação de neve.',
+      it: "Japow a fiumi: le località di Hokkaido e Honshu che hanno fatto la fama del Giappone in polvere, ordinate per punteggio neve.",
+    },
+    description: {
+      en: 'A Siberian airmass crossing the Sea of Japan dumps the world\'s driest, deepest snow on Hokkaido and the Japanese Alps from December into March. These twelve resorts span the powder bowls of Niseko and Kiroro, the tree-skiing of Rusutsu and Furano, the historic onsen ski-towns of Nozawa, Myoko and Zao, and the Olympic terrain of Hakuba. Add ryokan stays, hot-spring soaks at the end of every day, and a service standard the Alps cannot match.',
+      fr: "Une masse d'air sibérienne traverse la mer du Japon et déverse la neige la plus sèche et la plus profonde de la planète sur Hokkaido et les Alpes japonaises, de décembre à mars. Ces douze stations couvrent les bowls de Niseko et Kiroro, le ski en forêt de Rusutsu et Furano, les villages historiques aux onsen de Nozawa, Myoko et Zao, et le terrain olympique d'Hakuba. Ajoutez les ryokan, les bains chauds en fin de journée et un service que les Alpes ne savent pas atteindre.",
+      es: "Una masa de aire siberiano cruza el Mar de Japón y deja la nieve más seca y profunda del planeta sobre Hokkaido y los Alpes japoneses, de diciembre a marzo. Estas doce estaciones abarcan los cuencos de polvo de Niseko y Kiroro, el esquí en bosque de Rusutsu y Furano, los pueblos onsen históricos de Nozawa, Myoko y Zao, y el terreno olímpico de Hakuba. Suma los ryokan, los baños termales al final del día y un nivel de servicio que los Alpes no alcanzan.",
+      pt: "Uma massa de ar siberiana atravessa o Mar do Japão e deixa a neve mais seca e profunda do planeta sobre Hokkaido e os Alpes japoneses, de dezembro a março. Estas doze estâncias cobrem os bowls de Niseko e Kiroro, o esqui em floresta de Rusutsu e Furano, as aldeias onsen históricas de Nozawa, Myoko e Zao, e o terreno olímpico de Hakuba. Junte os ryokan, os banhos termais ao fim do dia e um nível de serviço que os Alpes não conseguem igualar.",
+      it: "Una massa d'aria siberiana attraversa il Mar del Giappone e scarica la neve più asciutta e profonda del pianeta su Hokkaido e sulle Alpi giapponesi, da dicembre a marzo. Queste dodici località coprono le conche di Niseko e Kiroro, lo sci tra i boschi di Rusutsu e Furano, i borghi onsen storici di Nozawa, Myoko e Zao, e il terreno olimpico di Hakuba. Aggiungi i ryokan, i bagni termali a fine giornata e uno standard di servizio che le Alpi non sanno eguagliare.",
+    },
+    filter: (d) => isJapan(d),
+    sort: (d) => d.snowScore,
+    limit: 24,
+  },
+  {
+    slug: 'japan-powder',
+    heroSlug: 'rusutsu',
+    name: {
+      en: 'Best powder resorts in Japan',
+      fr: 'Meilleures stations de poudreuse au Japon',
+      es: 'Mejores estaciones de nieve polvo de Japón',
+      pt: 'Melhores estâncias de neve fresca do Japão',
+      it: 'Migliori località per la polvere in Giappone',
+    },
+    intro: {
+      en: 'The Japanese resorts that earn the japow nickname every winter: ridiculous snowfall, light dry flakes, and trees made for it.',
+      fr: "Les stations japonaises qui gagnent leur surnom de japow chaque hiver : enneigement délirant, flocons légers et secs, et forêts faites pour ça.",
+      es: 'Las estaciones japonesas que ganan su apodo de japow cada invierno: nieve delirante, copos ligeros y secos, y bosques hechos para ello.',
+      pt: 'As estâncias japonesas que merecem a alcunha de japow todos os invernos: nevadas delirantes, flocos leves e secos, e florestas feitas para isso.',
+      it: 'Le località giapponesi che si guadagnano il soprannome japow ogni inverno: nevicate folli, fiocchi leggeri e asciutti, e foreschi fatti apposta.',
+    },
+    description: {
+      en: 'Niseko, Rusutsu, Kiroro and Furano on Hokkaido catch the heaviest deliveries, with 14 to 21 m of annual snowfall on a base that rarely freezes. Honshu adds Myoko Akakura, where 13 m a year falls on traditional onsen-town terrain. We pick by snow score, japow vibe and tree-skiing tradition: powder-day breakfasts before sunrise, then chairlifts through birch glades until the lifts close.',
+      fr: "Niseko, Rusutsu, Kiroro et Furano sur Hokkaido reçoivent les plus grosses livraisons, avec 14 à 21 m de neige par an sur un manteau qui ne gèle presque jamais. Honshu ajoute Myoko Akakura, où il tombe 13 m par an sur du terrain d'onsen traditionnel. Sélection par score neige, vibe japow et tradition du ski en forêt : petit déjeuner aux premières lueurs les jours de poudreuse, puis télésièges entre les bouleaux jusqu'à la fermeture.",
+      es: "Niseko, Rusutsu, Kiroro y Furano en Hokkaido reciben las descargas más generosas, con 14 a 21 m de nieve al año sobre una base que casi nunca se congela. Honshu suma Myoko Akakura, donde caen 13 m anuales sobre terreno tradicional de onsen. Selección por puntuación de nieve, vibe japow y tradición del esquí en bosque: desayunos de día de polvo antes del amanecer, luego telesillas entre abedules hasta el cierre.",
+      pt: "Niseko, Rusutsu, Kiroro e Furano em Hokkaido recebem as cargas mais generosas, com 14 a 21 m de neve por ano sobre uma base que quase nunca congela. Honshu acrescenta Myoko Akakura, onde caem 13 m anuais sobre terreno tradicional de onsen. Seleção pela pontuação de neve, vibe japow e tradição de esqui em floresta: pequenos-almoços antes do nascer do sol nos dias de pó, depois teleféricos entre bétulas até ao fecho.",
+      it: "Niseko, Rusutsu, Kiroro e Furano in Hokkaido prendono le consegne più generose, con 14, 21 m di neve all'anno su un manto che quasi non gela mai. Honshu aggiunge Myoko Akakura, dove cadono 13 m all'anno su terreno tradizionale di onsen. Selezione per punteggio neve, vibe japow e tradizione dello sci tra i boschi: colazioni prima dell'alba nei powder day, poi seggiovie tra le betulle fino alla chiusura.",
+    },
+    filter: (d) => isJapan(d) && (d.vibes.includes('japow') || d.vibes.includes('powder')),
+    sort: (d) => d.snowScore,
+    limit: 20,
+  },
+  {
+    slug: 'usa',
+    heroSlug: 'jackson-hole',
+    name: {
+      en: 'Best ski resorts in the United States',
+      fr: "Meilleures stations de ski aux États-Unis",
+      es: 'Mejores estaciones de esquí de Estados Unidos',
+      pt: 'Melhores estâncias de esqui dos Estados Unidos',
+      it: 'Migliori località sciistiche degli Stati Uniti',
+    },
+    intro: {
+      en: 'The crown jewels of US skiing across the Rockies, the Wasatch, the Sierra Nevada, the Tetons and the East Coast: twenty resorts ranked by snow and terrain.',
+      fr: "Les joyaux du ski américain, des Rocheuses au Wasatch, en passant par la Sierra Nevada, les Tetons et la côte Est : vingt stations classées par neige et terrain.",
+      es: 'Las joyas del esquí estadounidense en las Rocosas, el Wasatch, la Sierra Nevada, los Tetons y la costa Este: veinte estaciones ordenadas por nieve y terreno.',
+      pt: 'As joias do esqui americano nas Rochosas, no Wasatch, na Serra Nevada, nos Tetons e na costa Leste: vinte estâncias ordenadas pela neve e pelo terreno.',
+      it: "I gioielli dello sci americano sulle Rocciose, sul Wasatch, sulla Sierra Nevada, sui Teton e sulla costa orientale: venti località ordinate per neve e terreno.",
+    },
+    description: {
+      en: 'America runs the world\'s biggest ski market and the variety is the point: Colorado\'s high-altitude Rockies (Vail, Aspen, Breckenridge, Telluride, Steamboat), Utah\'s powder-hammered Wasatch (Snowbird, Alta, Park City), California\'s Sierra Nevada (Mammoth, Palisades Tahoe, Heavenly), the wild expert terrain of Jackson Hole and Big Sky, and the rugged charm of Stowe and Killington back East. Sun Valley vintage, Taos\' desert powder and Whitefish value round out the season.',
+      fr: "Les États-Unis pilotent le plus grand marché de ski au monde, et c'est la variété qui fait tout : les Rocheuses d'altitude du Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), le Wasatch tapissé de poudreuse de l'Utah (Snowbird, Alta, Park City), la Sierra Nevada californienne (Mammoth, Palisades Tahoe, Heavenly), le terrain sauvage et expert de Jackson Hole et Big Sky, et le charme rugueux de Stowe et Killington sur la côte Est. Sun Valley en mode rétro, Taos en mode désert et Whitefish en mode bon plan complètent le tableau.",
+      es: "Estados Unidos lidera el mayor mercado de esquí del mundo, y la variedad es el punto: las Rocosas de altura del Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), el Wasatch de Utah martilleado por la nieve polvo (Snowbird, Alta, Park City), la Sierra Nevada de California (Mammoth, Palisades Tahoe, Heavenly), el terreno salvaje y experto de Jackson Hole y Big Sky, y el encanto rudo de Stowe y Killington en el Este. Sun Valley vintage, Taos con su nieve de desierto y Whitefish como buen plan completan la temporada.",
+      pt: "Os Estados Unidos lideram o maior mercado de esqui do mundo, e a variedade é o ponto: as Rochosas de altitude do Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), o Wasatch do Utah martelado pela neve em pó (Snowbird, Alta, Park City), a Serra Nevada californiana (Mammoth, Palisades Tahoe, Heavenly), o terreno selvagem de Jackson Hole e Big Sky, e o charme rude de Stowe e Killington a Leste. Sun Valley vintage, Taos com a sua neve de deserto e Whitefish como bom preço fecham a época.",
+      it: "Gli Stati Uniti guidano il più grande mercato sciistico al mondo, e la varietà è il punto: le Rocciose d'alta quota del Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), il Wasatch dello Utah martellato dalla polvere (Snowbird, Alta, Park City), la Sierra Nevada californiana (Mammoth, Palisades Tahoe, Heavenly), il terreno selvaggio di Jackson Hole e Big Sky, e il fascino ruvido di Stowe e Killington sulla costa orientale. Sun Valley vintage, Taos con la sua polvere del deserto e Whitefish dal buon prezzo chiudono la stagione.",
+    },
+    filter: (d) => isUSA(d),
+    sort: (d) => d.snowScore,
+    limit: 24,
+  },
+  {
+    slug: 'usa-powder',
+    heroSlug: 'snowbird',
+    name: {
+      en: 'Best powder ski resorts in the United States',
+      fr: "Meilleures stations de poudreuse aux États-Unis",
+      es: 'Mejores estaciones de nieve polvo de Estados Unidos',
+      pt: 'Melhores estâncias de neve em pó dos Estados Unidos',
+      it: 'Migliori località per la polvere degli Stati Uniti',
+    },
+    intro: {
+      en: 'Where North American skiers chase the goods: the resorts with the highest snowfall and the steepest in-bounds terrain in the Lower 48.',
+      fr: "Là où les skieurs nord-américains chassent la poudre : les stations aux plus gros enneigements et au terrain le plus raide des États-Unis continentaux.",
+      es: 'Donde los esquiadores norteamericanos persiguen la nieve: las estaciones con más nevadas y terreno más empinado de los Estados Unidos continentales.',
+      pt: 'Onde os esquiadores norte-americanos perseguem a neve: as estâncias com mais nevadas e terreno mais íngreme dos Estados Unidos continentais.',
+      it: "Dove gli sciatori nordamericani cercano la roba buona: le località con più neve e il terreno più ripido degli Stati Uniti continentali.",
+    },
+    description: {
+      en: 'Utah\'s Little Cottonwood Canyon delivers 14 m+ of snow a year onto Snowbird and Alta, two of the snowiest mountains in the Lower 48. Jackson Hole turns the same air into expert lines. Steamboat\'s Champagne Powder, Big Sky\'s Lone Peak, Whitefish\'s Big Mountain, Mammoth\'s Eastern Sierra storms and Taos\' high-desert deliveries round out the list. These are the resorts to plan a powder trip around, not just visit.',
+      fr: "Le Little Cottonwood Canyon de l'Utah livre plus de 14 m de neige par an sur Snowbird et Alta, deux des montagnes les plus enneigées des USA continentaux. Jackson Hole transforme cette même neige en lignes expertes. La Champagne Powder de Steamboat, le Lone Peak de Big Sky, la Big Mountain de Whitefish, les tempêtes du Mammoth dans la Sierra et la neige de haute altitude de Taos complètent la liste. Des stations autour desquelles on planifie un voyage poudreuse, pas seulement une visite.",
+      es: "El Little Cottonwood Canyon de Utah deposita más de 14 m de nieve al año en Snowbird y Alta, dos de las montañas más nevadas de los Estados Unidos continentales. Jackson Hole convierte ese mismo aire en líneas expertas. El Champagne Powder de Steamboat, el Lone Peak de Big Sky, la Big Mountain de Whitefish, las tormentas de Mammoth en la Sierra y la nieve de altura de Taos completan la lista. Estaciones para planificar un viaje de polvo, no solo para visitar.",
+      pt: "O Little Cottonwood Canyon do Utah deposita mais de 14 m de neve por ano em Snowbird e Alta, duas das montanhas mais nevadas dos Estados Unidos continentais. Jackson Hole transforma esse ar em linhas para experts. O Champagne Powder de Steamboat, o Lone Peak de Big Sky, a Big Mountain de Whitefish, as tempestades de Mammoth na Serra e a neve de altitude de Taos fecham a lista. Estâncias para planear uma viagem de pó, não apenas para visitar.",
+      it: "Il Little Cottonwood Canyon dello Utah deposita oltre 14 m di neve all'anno su Snowbird e Alta, due delle montagne più innevate degli Stati Uniti continentali. Jackson Hole trasforma quell'aria in linee da esperti. La Champagne Powder di Steamboat, il Lone Peak di Big Sky, la Big Mountain di Whitefish, le tempeste del Mammoth sulla Sierra e la polvere d'alta quota di Taos chiudono la lista. Località su cui pianificare un viaggio di polvere, non solo da visitare.",
+    },
+    filter: (d) => isUSA(d) && USA_POWDER_RESORTS.has(d.slug),
+    sort: (d) => d.snowScore,
+    limit: 20,
+  },
+  {
+    slug: 'colorado-rockies',
+    heroSlug: 'vail',
+    name: {
+      en: 'Best ski resorts in the Colorado Rockies',
+      fr: 'Meilleures stations de ski des Rocheuses du Colorado',
+      es: 'Mejores estaciones de esquí de las Rocosas de Colorado',
+      pt: 'Melhores estâncias de esqui das Rochosas do Colorado',
+      it: 'Migliori località sciistiche delle Montagne Rocciose del Colorado',
+    },
+    intro: {
+      en: 'The Colorado classics: high-altitude Rockies skiing from Vail and Aspen to Telluride, Breckenridge and Steamboat, all reachable from Denver or Eagle.',
+      fr: "Les classiques du Colorado : ski d'altitude dans les Rocheuses, de Vail et Aspen à Telluride, Breckenridge et Steamboat, accessibles depuis Denver ou Eagle.",
+      es: 'Los clásicos de Colorado: esquí de altura en las Rocosas, de Vail y Aspen a Telluride, Breckenridge y Steamboat, accesibles desde Denver o Eagle.',
+      pt: 'Os clássicos do Colorado: esqui de altitude nas Rochosas, de Vail e Aspen a Telluride, Breckenridge e Steamboat, acessíveis a partir de Denver ou Eagle.',
+      it: "I classici del Colorado: sci d'alta quota sulle Rocciose, da Vail e Aspen a Telluride, Breckenridge e Steamboat, raggiungibili da Denver o Eagle.",
+    },
+    description: {
+      en: 'Colorado holds the highest concentration of marquee American ski resorts in one state, all above 2 100 m of base altitude. Vail leads with its 7 Back Bowls and Bavarian-style mid-mountain village; Aspen Snowmass spreads four mountains and an old-money town around its base; Breckenridge tops out at the highest in-bounds lift in the US; Telluride hides in the most dramatic box canyon setting in the country; Beaver Creek polishes its luxury; Steamboat brings the ranching town and the Champagne Powder.',
+      fr: "Le Colorado concentre la plus grande densité de stations américaines de renom dans un seul État, toutes avec une base au-dessus de 2 100 m. Vail mène avec ses 7 Back Bowls et son village bavarois à mi-montagne ; Aspen Snowmass étale quatre montagnes et une ville old money autour de sa base ; Breckenridge culmine au télésiège le plus haut des USA ; Telluride se cache dans le canyon le plus spectaculaire du pays ; Beaver Creek peaufine son luxe ; Steamboat apporte la ville de ranch et la Champagne Powder.",
+      es: "Colorado concentra la mayor densidad de estaciones americanas de renombre en un solo estado, todas con base por encima de 2 100 m. Vail lidera con sus 7 Back Bowls y su pueblo bávaro a media montaña; Aspen Snowmass extiende cuatro montañas y un pueblo de old money en su base; Breckenridge culmina en el telesilla más alto de Estados Unidos; Telluride se esconde en el cañón más espectacular del país; Beaver Creek pule su lujo; Steamboat aporta el pueblo ranchero y la Champagne Powder.",
+      pt: "O Colorado concentra a maior densidade de estâncias americanas de renome num só estado, todas com base acima dos 2 100 m. Vail lidera com os seus 7 Back Bowls e a aldeia bávara a meio da montanha; Aspen Snowmass espalha quatro montanhas e uma vila old money em torno da base; Breckenridge culmina no teleférico mais alto dos EUA; Telluride esconde-se no canyon mais espetacular do país; Beaver Creek pole o seu luxo; Steamboat traz a vila de ranchos e a Champagne Powder.",
+      it: "Il Colorado concentra la più alta densità di località americane di richiamo in un solo stato, tutte con base sopra i 2 100 m. Vail guida con i suoi 7 Back Bowls e il borgo bavarese a metà montagna; Aspen Snowmass dispiega quattro montagne e una cittadina old money attorno alla base; Breckenridge culmina nel seggiovia in quota più alto degli USA; Telluride si nasconde nel canyon più spettacolare del paese; Beaver Creek lima il suo lusso; Steamboat porta il paese di ranch e la Champagne Powder.",
+    },
+    filter: (d) => isUSA(d) && USA_COLORADO_SLUGS.has(d.slug),
+    sort: (d) => d.snowScore,
+    limit: 10,
+  },
+  {
+    slug: 'utah-wasatch',
+    heroSlug: 'alta',
+    name: {
+      en: 'Best ski resorts in the Utah Wasatch',
+      fr: 'Meilleures stations de ski du Wasatch (Utah)',
+      es: 'Mejores estaciones de esquí del Wasatch (Utah)',
+      pt: 'Melhores estâncias de esqui do Wasatch (Utah)',
+      it: 'Migliori località sciistiche del Wasatch (Utah)',
+    },
+    intro: {
+      en: 'The greatest snow on earth, or so the licence plates say: Snowbird, Alta, Park City and Deer Valley, all within 45 minutes of Salt Lake City airport.',
+      fr: "La meilleure neige du monde, comme l'affichent les plaques d'immatriculation : Snowbird, Alta, Park City et Deer Valley, toutes à 45 minutes de l'aéroport de Salt Lake City.",
+      es: 'La mejor nieve del mundo, según rezan las matrículas: Snowbird, Alta, Park City y Deer Valley, todas a 45 minutos del aeropuerto de Salt Lake City.',
+      pt: 'A melhor neve do mundo, como dizem as matrículas: Snowbird, Alta, Park City e Deer Valley, todas a 45 minutos do aeroporto de Salt Lake City.',
+      it: "La neve più bella del mondo, come dichiarano le targhe: Snowbird, Alta, Park City e Deer Valley, tutte a 45 minuti dall'aeroporto di Salt Lake City.",
+    },
+    description: {
+      en: 'The Wasatch Range above Salt Lake City gets some of the lightest, driest snow in North America, channeled into a handful of canyon-end ski resorts. Snowbird and Alta in Little Cottonwood Canyon are powder royalty; Park City Mountain is the biggest US ski resort by skiable acreage; Deer Valley keeps it ski-only and white-tablecloth. From plane to first chair: under two hours.',
+      fr: "La chaîne du Wasatch au-dessus de Salt Lake City reçoit l'une des neiges les plus légères et les plus sèches d'Amérique du Nord, canalisée dans une poignée de stations en fond de canyon. Snowbird et Alta dans le Little Cottonwood sont la royauté de la poudreuse ; Park City Mountain est la plus grande station des USA en superficie skiable ; Deer Valley reste ski seulement et nappe blanche. De l'avion au premier siège : moins de deux heures.",
+      es: "La cadena del Wasatch sobre Salt Lake City recibe una de las nieves más ligeras y secas de Norteamérica, canalizada en un puñado de estaciones al fondo del cañón. Snowbird y Alta en Little Cottonwood son la realeza del polvo; Park City Mountain es la mayor estación de EE. UU. por superficie esquiable; Deer Valley se queda con esquí solo y mantel blanco. Del avión a la primera silla: menos de dos horas.",
+      pt: "A cordilheira do Wasatch acima de Salt Lake City recebe uma das neves mais leves e secas da América do Norte, canalizada para um punhado de estâncias no fundo do canyon. Snowbird e Alta em Little Cottonwood são a realeza do pó; Park City Mountain é a maior estância dos EUA em área esquiável; Deer Valley mantém-se só esqui e toalha branca. Do avião à primeira cadeira: menos de duas horas.",
+      it: "La catena del Wasatch sopra Salt Lake City riceve una delle nevi più leggere e asciutte del Nord America, incanalata in un pugno di località in fondo al canyon. Snowbird e Alta nel Little Cottonwood sono la nobiltà della polvere; Park City Mountain è la più grande località degli USA per superficie sciabile; Deer Valley resta solo sci e tovaglia bianca. Dall'aereo alla prima seggiovia: meno di due ore.",
+    },
+    filter: (d) => isUSA(d) && USA_UTAH_SLUGS.has(d.slug),
+    sort: (d) => d.snowScore,
+    limit: 10,
+  },
+  {
+    slug: 'east-coast-usa',
+    heroSlug: 'stowe',
+    name: {
+      en: 'Best ski resorts on the US East Coast',
+      fr: 'Meilleures stations de ski sur la côte Est des USA',
+      es: 'Mejores estaciones de esquí en la costa Este de EE. UU.',
+      pt: 'Melhores estâncias de esqui na costa Leste dos EUA',
+      it: "Migliori località sciistiche sulla costa orientale degli USA",
+    },
+    intro: {
+      en: 'New England ski country, where the sport grew up in the 1930s: classic Vermont resorts a drive from Boston, New York or Montréal.',
+      fr: "Le pays du ski de Nouvelle-Angleterre, là où le sport a grandi dans les années 1930 : stations classiques du Vermont à quelques heures de Boston, New York ou Montréal.",
+      es: 'El país del esquí de Nueva Inglaterra, donde el deporte creció en los años 30: estaciones clásicas del Vermont a unas horas de Boston, Nueva York o Montreal.',
+      pt: 'O país do esqui da Nova Inglaterra, onde o desporto cresceu nos anos 30: estâncias clássicas do Vermont a algumas horas de Boston, Nova Iorque ou Montreal.',
+      it: "Il paese sciistico del New England, dove lo sport è cresciuto negli anni '30: località classiche del Vermont a poche ore da Boston, New York o Montréal.",
+    },
+    description: {
+      en: 'East Coast skiing is its own discipline: cold smoke when the storms align, ice-armoured groomers when they do not, and a culture of tough locals who keep skiing through both. Stowe under Mt Mansfield is Vermont\'s most polished classic; Killington is the Beast of the East, the largest in the region with the longest season. Both deliver on a weekend trip from Boston, New York or Montréal.',
+      fr: "Le ski de la côte Est, c'est sa propre discipline : powder froid quand les tempêtes s'alignent, pistes blindées de glace quand elles ne le font pas, et une culture de locaux coriaces qui skient à travers les deux. Stowe sous le Mt Mansfield est le classique le plus soigné du Vermont ; Killington est la Bête de l'Est, la plus grande de la région et celle qui ouvre le plus longtemps. Les deux marchent en mode week-end depuis Boston, New York ou Montréal.",
+      es: "El esquí de la costa Este es una disciplina propia: humo frío cuando las tormentas se alinean, pistas blindadas de hielo cuando no, y una cultura de locales duros que esquían en ambas. Stowe bajo Mt Mansfield es el clásico más pulido del Vermont; Killington es la Bestia del Este, la mayor de la región y la de temporada más larga. Las dos funcionan para un fin de semana desde Boston, Nueva York o Montreal.",
+      pt: "O esqui da costa Leste é uma disciplina própria: fumo frio quando as tempestades se alinham, pistas blindadas de gelo quando não, e uma cultura de locais duros que esquia em ambas. Stowe sob o Mt Mansfield é o clássico mais polido do Vermont; Killington é a Besta do Leste, a maior da região e a de época mais longa. Ambas funcionam para um fim de semana a partir de Boston, Nova Iorque ou Montreal.",
+      it: "Lo sci della costa orientale è una disciplina a sé: fumo freddo quando le tempeste si allineano, piste corazzate di ghiaccio quando no, e una cultura di locali tosti che scia in entrambe. Stowe sotto il Mt Mansfield è il classico più curato del Vermont; Killington è la Bestia dell'Est, la più grande della regione e con la stagione più lunga. Entrambe reggono un weekend da Boston, New York o Montréal.",
+    },
+    filter: (d) => isUSA(d) && USA_EAST_SLUGS.has(d.slug),
+    sort: (d) => d.snowScore,
+    limit: 10,
   },
 ]
 

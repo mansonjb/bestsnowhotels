@@ -50,22 +50,35 @@ A live snow + 7-day forecast section sits at /weather, refreshed every 30 minute
 
 ## Best-for lists (curated)
 
-Curated lists for travellers shopping by intent rather than by name:
-- Best snow-sure ski resorts: highest snow score (0-100), top altitudes
-- Best family ski resorts
-- Most luxurious ski resorts
-- Best ski resorts with a glacier
-- Biggest ski domains (linked piste km)
-- Best value ski resorts
-- Best resorts for freeride
-- Best resorts for beginners
+Curated lists for travellers shopping by intent rather than by name. Europe lists scope to the 10 European countries; Japan and USA each get their own.
+
+Europe (Alps, Pyrenees, Scandinavia, Bavarian + Black Forest):
+- Best snow-sure ski resorts in Europe: highest snow score (0-100), top altitudes
+- Best family ski resorts in Europe
+- Most luxurious ski resorts in Europe
+- Best ski resorts with a glacier in Europe
+- Biggest ski domains in Europe (linked piste km)
+- Best value ski resorts in Europe
+- Best resorts for freeride in Europe
+- Best resorts for beginners in Europe
 - Highest ski resorts in Europe (by village altitude)
-- Car-free ski resorts
-- Best ski resorts for freestyle and snowparks
+- Car-free ski resorts in Europe
+- Best ski resorts for freestyle and snowparks in Europe
 - Best ski resorts near Geneva
 - Best ski resorts near Lyon
 - Best ski resorts near Munich
 - Best ski resorts near Barcelona
+
+Japan (Hokkaido + Honshu):
+- Best ski resorts in Japan
+- Best powder resorts in Japan (japow)
+
+United States (Rockies, Wasatch, Sierra, Tetons, East Coast):
+- Best ski resorts in the United States
+- Best powder ski resorts in the United States
+- Best ski resorts in the Colorado Rockies
+- Best ski resorts in the Utah Wasatch
+- Best ski resorts on the US East Coast
 
 Index: https://www.bestsnowhotels.com/en/best
 
