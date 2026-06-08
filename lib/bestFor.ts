@@ -51,9 +51,11 @@ const CITIES = {
 
 /** Continent helpers used to keep each best-for list scoped to a region. */
 const EUROPE_COUNTRY_CODES = new Set(['FR', 'CH', 'IT', 'AT', 'ES', 'AD', 'DE', 'NO', 'SE', 'FI'])
+const AFRICA_COUNTRY_CODES = new Set(['MA', 'DZ', 'LS', 'ZA', 'EG'])
 const isEurope = (d: Destination) => EUROPE_COUNTRY_CODES.has(d.countryCode)
 const isJapan = (d: Destination) => d.countryCode === 'JP'
 const isUSA = (d: Destination) => d.countryCode === 'US'
+const isAfrica = (d: Destination) => AFRICA_COUNTRY_CODES.has(d.countryCode)
 
 /** US powder-focused subset (snow + freeride + tree-skiing pedigree). */
 const USA_POWDER_RESORTS = new Set([
@@ -675,6 +677,34 @@ export const BEST_FOR_LISTS: BestForList[] = [
     filter: (d) => isUSA(d) && USA_EAST_SLUGS.has(d.slug),
     sort: (d) => d.snowScore,
     limit: 10,
+  },
+  {
+    slug: 'africa',
+    heroSlug: 'oukaimeden',
+    name: {
+      en: 'Ski resorts in Africa',
+      fr: "Stations de ski d'Afrique",
+      es: 'Estaciones de esquí de África',
+      pt: 'Estâncias de esqui de África',
+      it: "Località sciistiche in Africa",
+    },
+    intro: {
+      en: 'Yes, you can ski in Africa: Morocco\'s Atlas, Algeria\'s Djurdjura, Lesotho\'s Maluti, South Africa\'s Drakensberg and even an indoor slope in Cairo.',
+      fr: "Oui, on skie en Afrique : l'Atlas marocain, le Djurdjura algérien, les Maluti du Lesotho, le Drakensberg sud-africain, et même une piste indoor au Caire.",
+      es: 'Sí, se puede esquiar en África: el Atlas marroquí, el Djurdjura argelino, los Maluti de Lesoto, el Drakensberg sudafricano y hasta una pista cubierta en El Cairo.',
+      pt: 'Sim, esquia-se em África: o Atlas marroquino, o Djurdjura argelino, os Maluti do Lesoto, o Drakensberg sul-africano e até uma pista indoor no Cairo.',
+      it: "Sì, in Africa si scia: l'Atlante marocchino, il Djurdjura algerino, i Maluti del Lesotho, il Drakensberg sudafricano e perfino una pista indoor al Cairo.",
+    },
+    description: {
+      en: 'African skiing is short, often unreliable, and almost always small. That is the appeal. Oukaïmeden in the Moroccan High Atlas is the headline act at 2620 m with 7 lifts and Mt Toubkal as the backdrop; Mischliffen and a handful of Middle Atlas resorts add cedar-forest skiing near Ifrane. Algeria runs Chréa above Blida and the Djurdjura pair of Tikjda and Tala-Guilef. Afriski in Lesotho is the highest base in Africa (3050 m) and skis southern-hemisphere winter June to August, joined by South Africa\'s Tiffindell. Ski Egypt in Cairo is indoor and year-round. None of this is the Alps. All of it is improbable in the best way.',
+      fr: "Le ski africain est court, souvent peu fiable et presque toujours petit. C'est précisément ce qui en fait le sel. Oukaïmeden, dans le Haut Atlas marocain, tient la tête d'affiche à 2620 m avec 7 remontées et le Toubkal en toile de fond ; Mischliffen et une poignée de domaines du Moyen Atlas ajoutent le ski en cédraie autour d'Ifrane. L'Algérie aligne Chréa au-dessus de Blida et le duo du Djurdjura (Tikjda + Tala-Guilef). Afriski au Lesotho détient la plus haute base d'Afrique (3050 m) et skie l'hiver austral de juin à août, accompagné de Tiffindell en Afrique du Sud. Ski Egypt au Caire est indoor, toute l'année. Rien de tout cela n'égale les Alpes. Tout est improbable au meilleur sens.",
+      es: "El esquí africano es corto, a menudo poco fiable y casi siempre pequeño. Justo eso es lo que lo hace especial. Oukaïmeden, en el Alto Atlas marroquí, es la cabeza de cartel a 2620 m con 7 remontes y el Toubkal de fondo; Mischliffen y un puñado de estaciones del Atlas Medio suman esquí en cedrales cerca de Ifrane. Argelia juega con Chréa sobre Blida y el dúo del Djurdjura (Tikjda + Tala-Guilef). Afriski en Lesoto tiene la base más alta de África (3050 m) y esquía el invierno austral de junio a agosto, acompañado de Tiffindell en Sudáfrica. Ski Egypt en El Cairo es cubierto y abre todo el año. Nada de esto iguala a los Alpes. Todo es improbable, en el mejor sentido.",
+      pt: "O esqui africano é curto, muitas vezes pouco fiável e quase sempre pequeno. É precisamente por isso que é especial. Oukaïmeden, no Alto Atlas marroquino, é o cabeça de cartaz a 2620 m com 7 teleféricos e o Toubkal como cenário; Mischliffen e um punhado de estâncias do Atlas Médio juntam esqui em cedrais perto de Ifrane. A Argélia alinha Chréa acima de Blida e o duo do Djurdjura (Tikjda + Tala-Guilef). O Afriski no Lesoto tem a base mais alta de África (3050 m) e esquia o inverno austral de junho a agosto, com Tiffindell na África do Sul a acompanhar. O Ski Egypt no Cairo é indoor, aberto todo o ano. Nada disto iguala os Alpes. Tudo é improvável, no melhor dos sentidos.",
+      it: "Lo sci africano è breve, spesso poco affidabile e quasi sempre piccolo. È esattamente questo a renderlo speciale. Oukaïmeden, nell'Alto Atlante marocchino, è la testa di cartellone a 2620 m con 7 impianti e il Toubkal sullo sfondo; Mischliffen e un pugno di località dell'Atlante Medio aggiungono lo sci tra i cedri vicino a Ifrane. L'Algeria schiera Chréa sopra Blida e la coppia del Djurdjura (Tikjda + Tala-Guilef). Afriski in Lesotho ha la base più alta d'Africa (3050 m) e scia l'inverno australe da giugno ad agosto, con Tiffindell in Sudafrica al seguito. Ski Egypt al Cairo è indoor, aperto tutto l'anno. Nulla di tutto questo è all'altezza delle Alpi. Tutto è improbabile, nel senso migliore.",
+    },
+    filter: (d) => isAfrica(d),
+    sort: (d) => d.snowScore,
+    limit: 12,
   },
 ]
 

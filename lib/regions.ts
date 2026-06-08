@@ -160,6 +160,34 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Sangre de Cristo',
     it: 'Sangre de Cristo',
   },
+  'Moroccan Atlas': {
+    en: 'Moroccan Atlas',
+    fr: 'Atlas marocain',
+    es: 'Atlas marroquí',
+    pt: 'Atlas marroquino',
+    it: 'Atlante marocchino',
+  },
+  'Algerian Mountains': {
+    en: 'Algerian Mountains',
+    fr: 'Montagnes algériennes',
+    es: 'Montañas argelinas',
+    pt: 'Montanhas argelinas',
+    it: 'Monti algerini',
+  },
+  'Maluti and Drakensberg': {
+    en: 'Maluti and Drakensberg',
+    fr: 'Maluti et Drakensberg',
+    es: 'Maluti y Drakensberg',
+    pt: 'Maluti e Drakensberg',
+    it: 'Maluti e Drakensberg',
+  },
+  'Cairo Indoor': {
+    en: 'Cairo Indoor',
+    fr: 'Indoor du Caire',
+    es: 'Cubierto de El Cairo',
+    pt: 'Indoor do Cairo',
+    it: 'Indoor del Cairo',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {

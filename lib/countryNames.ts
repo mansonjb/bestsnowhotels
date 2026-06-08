@@ -19,6 +19,11 @@ const NAMES: Record<string, Record<Locale, string>> = {
   Finland: { en: 'Finland', fr: 'Finlande', es: 'Finlandia', pt: 'Finlândia', it: 'Finlandia' },
   Japan: { en: 'Japan', fr: 'Japon', es: 'Japón', pt: 'Japão', it: 'Giappone' },
   'United States': { en: 'United States', fr: 'États-Unis', es: 'Estados Unidos', pt: 'Estados Unidos', it: 'Stati Uniti' },
+  Morocco: { en: 'Morocco', fr: 'Maroc', es: 'Marruecos', pt: 'Marrocos', it: 'Marocco' },
+  Algeria: { en: 'Algeria', fr: 'Algérie', es: 'Argelia', pt: 'Argélia', it: 'Algeria' },
+  Lesotho: { en: 'Lesotho', fr: 'Lesotho', es: 'Lesoto', pt: 'Lesoto', it: 'Lesotho' },
+  'South Africa': { en: 'South Africa', fr: 'Afrique du Sud', es: 'Sudáfrica', pt: 'África do Sul', it: 'Sudafrica' },
+  Egypt: { en: 'Egypt', fr: 'Égypte', es: 'Egipto', pt: 'Egito', it: 'Egitto' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -34,23 +39,25 @@ export function inCountry(englishName: string, locale: Locale): string {
   if (locale === 'en') return `in ${name}`
   if (locale === 'fr') {
     // EN names: Switzerland, Italy, Spain, France, Austria, Andorra → "en" (feminine)
-    // Japan (Japon) is masculine → "au"
-    // United States (États-Unis) is plural → "aux"
-    if (englishName === 'Japan') return `au ${name}`
+    // Masculine singular country → "au" (Japon, Maroc, Lesotho)
+    // Plural masculine → "aux" (États-Unis)
+    if (englishName === 'Japan' || englishName === 'Morocco' || englishName === 'Lesotho')
+      return `au ${name}`
     if (englishName === 'United States') return `aux ${name}`
     return `en ${name}`
   }
   if (locale === 'es') {
-    // Estados Unidos plural masculine usually takes "en" without article in modern usage.
     return `en ${name}`
   }
   if (locale === 'pt') {
-    // PT-PT rule: "em" before names without article (França, Itália, Espanha, Andorra, Finlândia),
-    // "na" before feminine names with article (Suíça, Áustria, Alemanha, Noruega, Suécia),
-    // "no" before masculine singular with article (Japão),
+    // PT-PT rule: "em" before names without article (França, Itália, Espanha, Andorra, Finlândia, Marrocos),
+    // "na" before feminine names with article (Suíça, Áustria, Alemanha, Noruega, Suécia, Argélia, África do Sul),
+    // "no" before masculine singular with article (Japão, Lesoto, Egito),
     // "nos" before masculine plural with article (Estados Unidos).
-    if (englishName === 'Japan') return `no ${name}`
+    if (englishName === 'Japan' || englishName === 'Lesotho' || englishName === 'Egypt')
+      return `no ${name}`
     if (englishName === 'United States') return `nos ${name}`
+    if (englishName === 'Algeria' || englishName === 'South Africa') return `na ${name}`
     if (
       englishName === 'Switzerland' ||
       englishName === 'Austria' ||

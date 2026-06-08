@@ -17623,5 +17623,500 @@
       "red": 30,
       "black": 17
     }
+  },
+  {
+    "slug": "oukaimeden",
+    "name": "Oukaïmeden",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "flag": "🇲🇦",
+    "region": "Moroccan Atlas",
+    "lat": 31.2042,
+    "lng": -7.8556,
+    "altitudeBase": 2620,
+    "altitudeSummit": 3268,
+    "pistesKm": 20,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is rare here. A handful of village lodges sit a short walk from the first lift, but expect a stroll across snow and stone, not a slopeside drop-in. Locals often shuttle gear by donkey.",
+      "fr": "Le vrai ski aux pieds est rare. Quelques auberges du village sont à courte distance du premier téléski, mais comptez une marche sur neige et pierre, pas un accès direct piste. Les ânes locaux transportent souvent le matériel.",
+      "es": "El verdadero ski-in/ski-out es excepcional. Algunos albergues del pueblo quedan a pocos pasos del primer teleski, pero hay que cruzar nieve y piedra, no esperar acceso directo a pista. Los burros locales suelen llevar el material.",
+      "pt": "O autêntico ski-in/ski-out é raro. Algumas pousadas da aldeia ficam a curta distância do primeiro teleski, mas conte com uma caminhada por neve e pedra, e não um acesso direto à pista. Os burros locais transportam o equipamento.",
+      "it": "Lo ski-in/ski-out autentico è raro. Alcune locande del villaggio sono a pochi passi dal primo skilift, ma servirà una camminata su neve e pietra, non un accesso diretto. Gli asini locali portano spesso l'attrezzatura."
+    },
+    "seasonStart": "Dec 21",
+    "seasonEnd": "Mar 31",
+    "snowScore": 48,
+    "vibes": [
+      "desert-ski",
+      "high-altitude",
+      "unique",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Africa's headline ski resort sits 70 km south of Marrakech, where Berber villages cling to slopes and the Sahara shimmers far below. Lifts climb past 3,200 m with Mount Toubkal filling the horizon. Snow comes when it comes, but the experience is genuinely surreal.",
+      "fr": "La station de ski phare d'Afrique veille à 70 km au sud de Marrakech, où villages berbères et neige du Haut Atlas se rencontrent. Les remontées grimpent au-delà de 3200 m, le Toubkal en toile de fond, le Sahara en contrebas. Une expérience hors norme au Maroc.",
+      "es": "La estación de esquí más emblemática de África se encuentra a 70 km al sur de Marrakech, donde aldeas bereberes salpican las laderas del Alto Atlas. Los remontes superan los 3200 m frente al Toubkal, con el Sáhara brillando abajo. Esquiar en Marruecos resulta sencillamente surrealista.",
+      "pt": "A estância de esqui mais célebre de África ergue-se 70 km a sul de Marraquexe, onde aldeias berberes pontuam as encostas do Alto Atlas. Os teleféricos sobem além dos 3200 m, com o Toubkal no horizonte e o Sara a cintilar lá em baixo. Esquiar em Marrocos é uma vivência genuinamente irreal.",
+      "it": "La stazione sciistica simbolo dell'Africa si trova 70 km a sud di Marrakech, dove i villaggi berberi punteggiano le pendici dell'Alto Atlante. Gli impianti salgono oltre i 3200 m con il Toubkal all'orizzonte e il Sahara che luccica in basso. Sciare in Marocco è un'esperienza autenticamente surreale."
+    },
+    "longDescription": {
+      "en": "Oukaïmeden offers around 20 km of pistes between 2,620 m and 3,268 m, served by seven lifts including a venerable chairlift that still does the heavy lifting. The terrain is open, sun-drenched, and surprisingly varied: easy blues near the village, a few proper reds, and one steep black off the summit ridge with Toubkal (4,167 m) directly in view. The season runs roughly late December to March, but snow is the wild card. Some winters deliver a metre, others almost nothing. The village base is unmistakably Berber, with stone houses, mint tea, donkeys ferrying skis to the lower lift, and a handful of simple hotels and refuges. Most visitors come for the day from Marrakech, a 90-minute drive over a serpentine road through the High Atlas. Stay overnight to catch sunrise on the summit and the strange beauty of snowfields above date palms.",
+      "fr": "Oukaïmeden déroule une vingtaine de kilomètres de pistes entre 2620 m et 3268 m, desservies par sept remontées dont un télésiège historique toujours en service. Le domaine est ouvert, ensoleillé, étonnamment varié : bleues faciles près du village, quelques rouges franches et une noire raide sous la crête sommitale, le Toubkal (4167 m) plein cadre. Saison de fin décembre à mars, mais la neige reste le grand inconnu. Le village garde son âme berbère : maisons de pierre, thé à la menthe, ânes qui montent les skis jusqu'au premier téléski, quelques hôtels simples et refuges. La plupart des skieurs viennent à la journée depuis Marrakech, 90 minutes de route en lacets dans le Haut Atlas. Dormez sur place pour voir le lever du soleil au sommet, la neige qui surplombe les palmeraies.",
+      "es": "Oukaïmeden ofrece unos 20 km de pistas entre 2620 m y 3268 m, con siete remontes que incluyen un veterano telesilla todavía en servicio. El dominio es abierto, soleado y sorprendentemente variado: azules suaves junto al pueblo, varias rojas francas y una negra inclinada bajo la cresta cumbre, con el Toubkal (4167 m) llenando el horizonte. La temporada se extiende desde finales de diciembre hasta marzo, pero la nieve es la gran incógnita. El pueblo conserva su alma bereber: casas de piedra, té con menta, burros que suben los esquíes hasta el primer teleski, algunos hoteles sencillos y refugios. La mayoría llega desde Marrakech por una carretera de curvas de 90 minutos por el Alto Atlas en Marruecos. Pernoctar permite ver el amanecer en la cumbre y la rara belleza de la nieve sobre los palmerales.",
+      "pt": "Oukaïmeden estende cerca de 20 km de pistas entre 2620 m e 3268 m, servidas por sete teleféricos, incluindo um veterano telecadeira ainda em funcionamento. O terreno é aberto, ensolarado e surpreendentemente variado: azuis fáceis junto à aldeia, várias vermelhas francas e uma negra íngreme sob a crista cimeira, com o Toubkal (4167 m) a preencher o horizonte. A época vai do fim de dezembro a março, mas a neve é a grande incógnita. A aldeia mantém a alma berbere: casas de pedra, chá de menta, burros a levar os esquis até ao primeiro teleski, alguns hotéis simples e refúgios. A maioria dos visitantes chega de Marraquexe, 90 minutos de estrada sinuosa pelo Alto Atlas em Marrocos. Pernoitar permite apanhar o nascer do sol no cume e a beleza estranha da neve sobre os palmares.",
+      "it": "Oukaïmeden offre circa 20 km di piste tra 2620 m e 3268 m, serviti da sette impianti, tra cui una storica seggiovia ancora operativa. Il terreno è aperto, soleggiato e sorprendentemente vario: blu facili vicino al villaggio, alcune rosse decise e una nera ripida sotto la cresta sommitale, con il Toubkal (4167 m) a riempire l'orizzonte. La stagione va da fine dicembre a marzo, ma la neve resta l'incognita. Il villaggio conserva la sua anima berbera: case di pietra, tè alla menta, asini che portano gli sci fino al primo skilift, alcuni alberghi semplici e rifugi. La maggior parte degli sciatori arriva in giornata da Marrakech, 90 minuti di strada tortuosa attraverso l'Alto Atlante in Marocco. Pernottare permette di cogliere l'alba in vetta e la bellezza rara della neve sopra i palmeti."
+    },
+    "pisteCounts": {
+      "green": 2,
+      "blue": 2,
+      "red": 4,
+      "black": 1
+    }
+  },
+  {
+    "slug": "mischliffen",
+    "name": "Mischliffen",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "flag": "🇲🇦",
+    "region": "Moroccan Atlas",
+    "lat": 33.4317,
+    "lng": -5.0589,
+    "altitudeBase": 2050,
+    "altitudeSummit": 2200,
+    "pistesKm": 3,
+    "lifts": 2,
+    "skiInSkiOutNote": {
+      "en": "There is no slopeside lodging at Mischliffen itself. Skiers base in Ifrane town, ten minutes by car, and drive up each morning. The Hotel Michlifen and a handful of guesthouses serve as comfortable launchpads.",
+      "fr": "Aucun hébergement au pied des pistes à Mischliffen. Les skieurs logent à Ifrane, dix minutes en voiture, et montent chaque matin. L'Hotel Michlifen et quelques maisons d'hôtes font de bons points de départ.",
+      "es": "No hay alojamiento a pie de pista en Mischliffen. Los esquiadores se hospedan en Ifrane, a diez minutos en coche, y suben cada mañana. El Hotel Michlifen y algunas casas rurales son cómodas bases.",
+      "pt": "Não há alojamento ao pé das pistas em Mischliffen. Os esquiadores ficam em Ifrane, a dez minutos de carro, e sobem cada manhã. O Hotel Michlifen e algumas casas de hóspedes servem de boas bases.",
+      "it": "Non esistono alloggi ai piedi delle piste a Mischliffen. Gli sciatori soggiornano a Ifrane, dieci minuti in auto, e salgono ogni mattina. L'Hotel Michlifen e alcune case di ospitalità sono ottime basi."
+    },
+    "seasonStart": "Jan 5",
+    "seasonEnd": "Feb 28",
+    "snowScore": 30,
+    "vibes": [
+      "cedar-forest",
+      "authentic",
+      "value"
+    ],
+    "intro": {
+      "en": "In the crater of an extinct volcano above Ifrane, Morocco's so-called Switzerland of cedar forests and colonial chalets, Mischliffen is a tiny ski circle that opens when winter cooperates. Two lifts, three kilometres of piste, and a Middle Atlas charm hard to find elsewhere.",
+      "fr": "Niché dans le cratère d'un volcan éteint au-dessus d'Ifrane, la Suisse marocaine aux cèdres et chalets coloniaux, Mischliffen est un petit cirque de ski qui ouvre quand l'hiver le veut bien. Deux remontées, trois kilomètres de pistes, et un charme du Moyen Atlas introuvable ailleurs au Maroc.",
+      "es": "En el cráter de un volcán extinto sobre Ifrane, la llamada Suiza marroquí de cedros y chalets coloniales, Mischliffen es un pequeño círculo de esquí que abre cuando el invierno colabora. Dos remontes, tres kilómetros de pistas y un encanto del Atlas Medio difícil de hallar en otro rincón de Marruecos.",
+      "pt": "Na cratera de um vulcão extinto acima de Ifrane, a chamada Suíça marroquina de cedros e chalés coloniais, Mischliffen é um pequeno circo de esqui que abre quando o inverno coopera. Dois teleféricos, três quilómetros de pista e um charme do Médio Atlas dificilmente encontrado noutra estância de Marrocos.",
+      "it": "Nel cratere di un vulcano spento sopra Ifrane, la cosiddetta Svizzera marocchina dei cedri e degli chalet coloniali, Mischliffen è un piccolo cerchio di sci che apre quando l'inverno collabora. Due impianti, tre chilometri di piste e un fascino del Medio Atlante difficile da trovare altrove in Marocco."
+    },
+    "longDescription": {
+      "en": "Mischliffen sits at 2,050 m inside a wide volcanic crater, with two short lifts serving roughly three kilometres of green, blue and one red piste. It is brief, low-altitude, and notoriously dependent on snowfall. Some winters the lifts run for weeks; others, the crater stays bare. What pulls people here is not the vertical but the setting: the cedar forests of the Middle Atlas, the colonial-era streets of Ifrane just down the road, and the wider Moyen Atlas plateau where storks circle and Berber shepherds drive flocks across the snow. Ifrane town has a polished side, anchored by Hotel Michlifen Resort and Spa for travellers wanting a proper alpine base, and a working side full of cafes, cedar workshops and a famous stone lion. Mischliffen suits day-trippers, family beginners, and anyone curious about a corner of Morocco that feels improbably European. Drive from Fes (about 90 minutes) or pair with a Marrakech road trip across the Atlas.",
+      "fr": "Mischliffen se trouve à 2050 m dans un large cratère volcanique, avec deux remontées courtes qui desservent environ trois kilomètres de pistes vertes, bleues et une rouge. C'est bref, peu élevé, et notoirement tributaire de l'enneigement. Certains hivers les remontées tournent plusieurs semaines, d'autres le cratère reste à nu. Ce qui attire ici, ce n'est pas le dénivelé mais le décor : les cédraies du Moyen Atlas, Ifrane et ses rues d'inspiration coloniale juste en contrebas, le plateau où circulent cigognes et bergers berbères. Ifrane a sa face soignée, ancrée par l'Hotel Michlifen Resort and Spa pour qui veut un vrai pied-à-terre alpin, et sa face vivante de cafés, ateliers de cèdre et célèbre lion de pierre. Mischliffen séduit les visiteurs à la journée, les familles débutantes et les curieux d'un Maroc presque européen. Comptez 90 minutes depuis Fès ou intégrez la station à un road trip à travers l'Atlas.",
+      "es": "Mischliffen se sitúa a 2050 m en un amplio cráter volcánico, con dos remontes cortos que sirven unos tres kilómetros de pistas verdes, azules y una roja. Es breve, de baja altitud y notoriamente dependiente de la nieve. Algunos inviernos los remontes funcionan semanas, otros el cráter queda desnudo. Lo que atrae no es el desnivel sino el escenario: los cedrales del Atlas Medio, las calles de inspiración colonial de Ifrane y la meseta donde cruzan cigüeñas y pastores bereberes. Ifrane tiene su lado pulido, anclado por el Hotel Michlifen Resort and Spa para quien busca una verdadera base alpina, y su lado vivo de cafés, talleres de cedro y un famoso león de piedra. Mischliffen va bien para excursiones de un día, familias principiantes y curiosos de un Marruecos improbablemente europeo. Cuente 90 minutos desde Fez o intégrelo a una ruta por el Atlas.",
+      "pt": "Mischliffen situa-se a 2050 m no interior de uma ampla cratera vulcânica, com dois teleféricos curtos que servem cerca de três quilómetros de pistas verdes, azuis e uma vermelha. É breve, de baixa altitude e notoriamente dependente da neve. Em alguns invernos os teleféricos rodam semanas, noutros a cratera permanece nua. O que atrai aqui não é o desnível mas o cenário: os cedrais do Médio Atlas, as ruas de inspiração colonial de Ifrane e o planalto onde cruzam cegonhas e pastores berberes. Ifrane tem o seu lado polido, ancorado pelo Hotel Michlifen Resort and Spa para quem procura uma estância alpina a sério, e o seu lado vivo de cafés, oficinas de cedro e o famoso leão de pedra. Esta estância serve excursões de um dia, famílias iniciantes e curiosos de um Marrocos improvavelmente europeu. Conte 90 minutos desde Fez ou integre na rota pelo Atlas.",
+      "it": "Mischliffen si trova a 2050 m all'interno di un ampio cratere vulcanico, con due impianti corti che servono circa tre chilometri di piste verdi, blu e una rossa. È breve, di bassa quota e notoriamente dipendente dalla neve. In alcuni inverni gli impianti girano per settimane, in altri il cratere resta nudo. Ciò che attira qui non è il dislivello ma lo scenario: i cedreti del Medio Atlante, le vie di ispirazione coloniale di Ifrane e l'altopiano dove passano cicogne e pastori berberi. Ifrane ha il suo lato curato, ancorato dall'Hotel Michlifen Resort and Spa per chi cerca una vera base alpina, e il suo lato vivo di caffè, botteghe del cedro e il celebre leone di pietra. Mischliffen è perfetta per gite in giornata, famiglie principianti e curiosi di un Marocco quasi europeo. Sono 90 minuti da Fes o un anello da inserire in un viaggio attraverso l'Atlante."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 1,
+      "red": 1,
+      "black": 0
+    }
+  },
+  {
+    "slug": "jbel-habri",
+    "name": "Jbel Habri",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "flag": "🇲🇦",
+    "region": "Moroccan Atlas",
+    "lat": 33.4275,
+    "lng": -5.1933,
+    "altitudeBase": 1900,
+    "altitudeSummit": 2104,
+    "pistesKm": 2,
+    "lifts": 1,
+    "skiInSkiOutNote": {
+      "en": "There is no on-mountain lodging at Jbel Habri. Sleep in Azrou, fifteen minutes away by car, or in Ifrane half an hour up the road, and drive up when the lift is reported running.",
+      "fr": "Aucun hébergement sur place à Jbel Habri. Dormez à Azrou, quinze minutes en voiture, ou à Ifrane à trente minutes, et montez quand le téléski tourne.",
+      "es": "No hay alojamiento en pista en Jbel Habri. Pernocte en Azrou, a quince minutos en coche, o en Ifrane a media hora, y suba cuando el remonte esté en marcha.",
+      "pt": "Não há alojamento no monte em Jbel Habri. Pernoite em Azrou, a quinze minutos de carro, ou em Ifrane a meia hora, e suba quando o teleski estiver a operar.",
+      "it": "Non ci sono alloggi in quota a Jbel Habri. Dormite ad Azrou, quindici minuti in auto, o a Ifrane a mezz'ora, e salite quando lo skilift è in funzione."
+    },
+    "seasonStart": "Jan 10",
+    "seasonEnd": "Feb 25",
+    "snowScore": 26,
+    "vibes": [
+      "cedar-forest",
+      "authentic",
+      "value"
+    ],
+    "intro": {
+      "en": "Tucked into the cedar forests near Azrou, Jbel Habri is a one-lift Middle Atlas micro-resort where Barbary macaques outnumber skiers. Snow is modest, the vibe is family weekend, and the surrounding woodland is the real headline.",
+      "fr": "Niché dans les cédraies près d'Azrou, Jbel Habri est un micro-domaine du Moyen Atlas à un seul téléski, où les magots berbères sont plus nombreux que les skieurs. La neige reste modeste, l'ambiance est familiale et la forêt de cèdres vole la vedette au Maroc.",
+      "es": "Escondido entre los cedrales cerca de Azrou, Jbel Habri es un microdominio del Atlas Medio con un solo remonte donde los macacos de Berbería superan a los esquiadores. La nieve es modesta, el ambiente familiar y el bosque circundante es el verdadero protagonista de este rincón de Marruecos.",
+      "pt": "Escondido nos cedrais perto de Azrou, Jbel Habri é uma microestância do Médio Atlas com apenas um teleski, onde os macacos de Barbária superam os esquiadores. A neve é modesta, o ambiente é familiar e o bosque circundante é a verdadeira atração desta estância de Marrocos.",
+      "it": "Nascosta nei cedreti vicino ad Azrou, Jbel Habri è una micro-stazione del Medio Atlante con un solo skilift, dove le bertucce sono più numerose degli sciatori. La neve è modesta, l'atmosfera è familiare e il bosco di cedri ruba la scena in questo angolo del Marocco."
+    },
+    "longDescription": {
+      "en": "Jbel Habri sits at 1,900 m with one short lift, two gentle pistes and a season measured in weeks rather than months. The skiing is honest beginner territory: a green and a blue, both perfect for first turns or for kids who have never seen snow. What turns the drive into a destination is what surrounds the slope. The Middle Atlas cedar forest here is one of the most beautiful in North Africa, home to the endangered Barbary macaque. Walk five minutes from the carpark and you will likely see a troop. Azrou, the market town below, has a relaxed Berber feel, decent local food and reasonable guesthouses. Most travellers fit Jbel Habri into a Fes-Meknes-Marrakech itinerary, treating it as a winter half-day rather than a holiday in itself. Bring your camera, a thermos and low expectations on the snow front, and you will leave smiling.",
+      "fr": "Jbel Habri culmine à 1900 m avec un seul téléski, deux pistes douces et une saison qui se compte en semaines plutôt qu'en mois. Le ski est franchement débutant : une verte et une bleue, idéales pour les premières glisses ou pour des enfants qui découvrent la neige. Ce qui transforme la route en destination, c'est ce qui entoure la pente. La cédraie du Moyen Atlas est l'une des plus belles d'Afrique du Nord, refuge du magot menacé. Cinq minutes de marche depuis le parking suffisent souvent pour croiser une troupe. Azrou, la ville-marché en contrebas, garde son atmosphère berbère, une cuisine locale honnête et des maisons d'hôtes abordables. La plupart des voyageurs intègrent Jbel Habri à un itinéraire Fès-Meknès-Marrakech comme une demi-journée d'hiver. Apportez un appareil photo, un thermos et de modestes attentes côté neige, vous repartirez heureux.",
+      "es": "Jbel Habri se eleva a 1900 m con un único remonte, dos pistas suaves y una temporada que se cuenta en semanas más que en meses. El esquí es claramente para principiantes: una verde y una azul, ideales para los primeros giros o para niños que descubren la nieve. Lo que convierte el viaje en destino es lo que rodea la pista. El cedral del Atlas Medio es uno de los más bellos del norte de África y refugio del amenazado macaco de Berbería. Bastan cinco minutos a pie desde el aparcamiento para encontrarse con un grupo. Azrou, el pueblo mercado al pie, mantiene su atmósfera bereber, cocina local honesta y casas de huéspedes asequibles. La mayoría integra Jbel Habri en una ruta Fez-Mequinez-Marrakech como media jornada invernal. Lleve cámara, termo y expectativas modestas sobre la nieve y volverá sonriendo.",
+      "pt": "Jbel Habri ergue-se a 1900 m com um único teleski, duas pistas suaves e uma época que se conta em semanas, não em meses. O esqui é claramente para principiantes: uma verde e uma azul, ideais para as primeiras curvas ou para crianças que descobrem a neve. O que transforma a viagem em destino é o que envolve a pista. O cedral do Médio Atlas é um dos mais belos do norte de África, refúgio do ameaçado macaco de Barbária. Bastam cinco minutos a pé desde o parque para cruzar com um grupo. Azrou, a vila-mercado ao fundo, mantém a sua atmosfera berbere, cozinha local honesta e pensões acessíveis. A maioria inclui Jbel Habri num roteiro Fez-Mequinez-Marraquexe como meio dia de inverno. Leve câmara, termos e expectativas modestas quanto à neve e regressará a sorrir.",
+      "it": "Jbel Habri si trova a 1900 m con un solo skilift, due piste dolci e una stagione che si misura in settimane più che in mesi. Lo sci è chiaramente per principianti: una verde e una blu, perfette per le prime curve o per bambini che scoprono la neve. Ciò che trasforma il viaggio in destinazione è ciò che circonda la pista. Il cedreto del Medio Atlante è uno dei più belli del nord Africa e rifugio della minacciata bertuccia. Bastano cinque minuti a piedi dal parcheggio per incrociare un gruppo. Azrou, la cittadina mercato a valle, conserva la sua atmosfera berbera, una cucina locale onesta e pensioni accessibili. La maggior parte dei viaggiatori inserisce Jbel Habri in un itinerario Fes-Meknes-Marrakech come mezza giornata invernale. Portate macchina fotografica, thermos e aspettative modeste sulla neve, tornerete sorridenti."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 1,
+      "red": 0,
+      "black": 0
+    }
+  },
+  {
+    "slug": "jbel-bou-iblane",
+    "name": "Jbel Bou Iblane",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "flag": "🇲🇦",
+    "region": "Moroccan Atlas",
+    "lat": 33.6717,
+    "lng": -4.2317,
+    "altitudeBase": 2050,
+    "altitudeSummit": 2840,
+    "pistesKm": 3,
+    "lifts": 1,
+    "skiInSkiOutNote": {
+      "en": "There is essentially no slopeside accommodation. A basic refuge sometimes operates near the lift, otherwise plan on Taza (about two hours by car) or Fes (three hours), and arrive early on a snow day.",
+      "fr": "Il n'y a quasiment aucun hébergement au pied des pistes. Un refuge sommaire fonctionne parfois près du téléski, sinon prévoyez Taza (deux heures de route) ou Fès (trois heures), et arrivez tôt les jours de neige.",
+      "es": "Prácticamente no hay alojamiento a pie de pista. Un refugio básico funciona a veces junto al remonte, en caso contrario planee desde Taza (unas dos horas en coche) o Fez (tres horas), y llegue temprano los días de nieve.",
+      "pt": "Praticamente não há alojamento ao pé das pistas. Um refúgio básico funciona por vezes junto ao teleski, caso contrário planeie a partir de Taza (cerca de duas horas de carro) ou Fez (três horas), e chegue cedo nos dias de neve.",
+      "it": "Praticamente non esistono alloggi ai piedi delle piste. Un rifugio essenziale opera talvolta vicino allo skilift, altrimenti pianificate da Taza (circa due ore in auto) o Fes (tre ore), e arrivate presto nei giorni di neve."
+    },
+    "seasonStart": "Jan 15",
+    "seasonEnd": "Feb 20",
+    "snowScore": 28,
+    "vibes": [
+      "isolated",
+      "authentic",
+      "value"
+    ],
+    "intro": {
+      "en": "The most remote of Morocco's ski stations, Jbel Bou Iblane rises above Taza in the Eastern Middle Atlas. One lift, untouched cedar wilderness and a season often counted in days. Pure adventure terrain, not a weekend cruise.",
+      "fr": "La plus isolée des stations marocaines, Jbel Bou Iblane domine Taza dans le Moyen Atlas oriental. Un téléski, une cédraie vierge et une saison souvent comptée en jours. Terrain d'aventure pur, loin du ski de week-end au Maroc.",
+      "es": "La estación más remota de Marruecos, Jbel Bou Iblane se alza sobre Taza, en el Atlas Medio oriental. Un único remonte, cedrales vírgenes y una temporada a menudo contada en días. Terreno de pura aventura, lejos del esquí de fin de semana.",
+      "pt": "A estância mais remota de Marrocos, Jbel Bou Iblane ergue-se acima de Taza, no Médio Atlas oriental. Um único teleski, cedrais virgens e uma época muitas vezes contada em dias. Terreno de pura aventura, longe do esqui de fim de semana.",
+      "it": "La più remota delle stazioni del Marocco, Jbel Bou Iblane sovrasta Taza nel Medio Atlante orientale. Un solo skilift, cedreti incontaminati e una stagione spesso contata in giorni. Terreno di pura avventura, lontano dallo sci da weekend."
+    },
+    "longDescription": {
+      "en": "Jbel Bou Iblane reaches 2,840 m at its summit, with a base around 2,050 m and a single old lift that may or may not run on any given week. The pistes amount to roughly three kilometres, but the real terrain here is what lies outside the marked area: long, gentle ridgelines and open cedar forest perfect for ski touring when snow falls. The mountain sits a couple of hours south of Taza in the Eastern Middle Atlas, well off the standard Morocco tourist track. You will share the slopes with shepherds, a handful of locals from Taza, and the very occasional foreign ski-tourer. Accommodation in the immediate area is bare-bones, so most visitors base in Taza or Fes and treat Bou Iblane as a day adventure when the snow report is positive. It is not a destination for cruising piste skiers. It is for travellers who want to step off the map, drive a rough road and earn their turns in genuine Atlas wilderness.",
+      "fr": "Jbel Bou Iblane atteint 2840 m au sommet, avec un pied vers 2050 m et un seul vieux téléski qui ne fonctionne pas toutes les semaines. Le balisé totalise environ trois kilomètres, mais l'intérêt est ailleurs : longues crêtes douces et cédraies ouvertes parfaites pour la randonnée à ski quand la neige tombe. La montagne se trouve à deux heures au sud de Taza, dans le Moyen Atlas oriental, loin des circuits touristiques classiques du Maroc. Vous partagerez la pente avec des bergers, quelques skieurs de Taza et de rares randonneurs étrangers. L'hébergement sur place est rudimentaire, la plupart des visiteurs logent à Taza ou Fès et viennent à la journée quand le bulletin neige est positif. Ce n'est pas un domaine de glisse confortable, c'est un terrain pour qui veut sortir de la carte, rouler sur une piste cabossée et gagner ses virages dans une vraie nature atlasique.",
+      "es": "Jbel Bou Iblane alcanza 2840 m en la cumbre, con base hacia 2050 m y un único remonte antiguo que no funciona todas las semanas. Las pistas balizadas suman unos tres kilómetros, pero el verdadero terreno está fuera: largas crestas suaves y cedrales abiertos perfectos para el esquí de travesía cuando cae nieve. La montaña queda a un par de horas al sur de Taza, en el Atlas Medio oriental, lejos de las rutas turísticas habituales de Marruecos. Compartirá ladera con pastores, algunos esquiadores de Taza y muy ocasionales extranjeros con pieles de foca. El alojamiento cercano es básico, así que la mayoría se hospeda en Taza o Fez y sube en el día cuando el parte de nieve favorece. No es un destino para pisteros cómodos. Es para viajeros que quieren salirse del mapa, conducir una pista accidentada y ganarse las curvas en una auténtica naturaleza del Atlas.",
+      "pt": "Jbel Bou Iblane atinge 2840 m no cume, com base por volta dos 2050 m e um único teleski antigo que não opera todas as semanas. As pistas balizadas somam cerca de três quilómetros, mas o verdadeiro terreno está fora: longas cristas suaves e cedrais abertos perfeitos para esqui de travessia quando cai neve. A montanha fica a duas horas a sul de Taza, no Médio Atlas oriental, longe dos circuitos turísticos habituais de Marrocos. Partilhará a encosta com pastores, alguns esquiadores de Taza e raros estrangeiros com peles de foca. O alojamento próximo é básico, por isso a maioria fica em Taza ou Fez e sobe no dia quando o boletim de neve favorece. Não é um destino para pisteiros confortáveis. É para viajantes que querem sair do mapa, conduzir por uma estrada acidentada e merecer as curvas numa autêntica natureza do Atlas.",
+      "it": "Jbel Bou Iblane raggiunge 2840 m in vetta, con base intorno ai 2050 m e un solo vecchio skilift che non funziona ogni settimana. Le piste battute totalizzano circa tre chilometri, ma il vero terreno è altrove: lunghe creste dolci e cedreti aperti perfetti per lo sci alpinismo quando nevica. La montagna si trova a un paio d'ore a sud di Taza, nel Medio Atlante orientale, lontano dai circuiti turistici tradizionali del Marocco. Condividerete la pista con pastori, qualche sciatore di Taza e rari stranieri con pelli di foca. Gli alloggi in zona sono spartani, perciò la maggior parte si sistema a Taza o Fes e sale in giornata quando il bollettino neve è favorevole. Non è una meta per pistaioli comodi. È per viaggiatori che vogliono uscire dalla mappa, percorrere una strada sterrata e guadagnarsi le curve in una autentica natura dell'Atlante."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 1,
+      "red": 1,
+      "black": 0
+    }
+  },
+  {
+    "slug": "chrea",
+    "name": "Chréa",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "flag": "🇩🇿",
+    "region": "Algerian Mountains",
+    "lat": 36.4267,
+    "lng": 2.8786,
+    "altitudeBase": 1500,
+    "altitudeSummit": 1629,
+    "pistesKm": 5,
+    "lifts": 2,
+    "skiInSkiOutNote": {
+      "en": "A few simple guesthouses sit close to the lifts at the base village, but most visitors drive up from Blida or Algiers on the day. Expect a short walk on snow to the lift rather than true slopeside service.",
+      "fr": "Quelques maisons d'hôtes simples se trouvent près des remontées dans le village de base, mais la plupart des visiteurs montent à la journée depuis Blida ou Alger. Comptez une courte marche sur neige jusqu'au téléski, pas un vrai service au pied des pistes.",
+      "es": "Algunas casas de huéspedes sencillas se sitúan cerca de los remontes del pueblo base, pero la mayoría sube en el día desde Blida o Argel. Cuente con un breve paseo sobre nieve hasta el remonte, no con un verdadero servicio a pie de pista.",
+      "pt": "Algumas pensões simples ficam perto dos teleféricos na aldeia base, mas a maioria dos visitantes sobe no dia a partir de Blida ou Argel. Conte com uma curta caminhada sobre neve até ao teleski, e não um verdadeiro serviço ao pé das pistas.",
+      "it": "Alcune semplici pensioni si trovano vicino agli impianti nel villaggio base, ma la maggior parte dei visitatori sale in giornata da Blida o Algeri. Mettete in conto una breve camminata sulla neve fino allo skilift, non un vero servizio ai piedi delle piste."
+    },
+    "seasonStart": "Jan 10",
+    "seasonEnd": "Feb 28",
+    "snowScore": 30,
+    "vibes": [
+      "value",
+      "panoramic",
+      "authentic",
+      "city-access"
+    ],
+    "intro": {
+      "en": "Fifty kilometres south of Algiers, Chréa sits in the Atlas Blidéen above Blida, inside a national park where Barbary macaques still roam. Two lifts, a short season, and the rare thrill of skiing Mediterranean mountains within sight of the capital.",
+      "fr": "À cinquante kilomètres au sud d'Alger, Chréa s'accroche à l'Atlas Blidéen au-dessus de Blida, dans un parc national où les magots vivent encore. Deux remontées, une saison brève et le plaisir rare de skier en montagne méditerranéenne à portée de regard de la capitale en Algérie.",
+      "es": "A cincuenta kilómetros al sur de Argel, Chréa se aferra al Atlas Blideño sobre Blida, dentro de un parque nacional donde aún viven macacos de Berbería. Dos remontes, temporada breve y el placer raro de esquiar en una montaña mediterránea casi a la vista de la capital de Argelia.",
+      "pt": "A cinquenta quilómetros a sul de Argel, Chréa instala-se no Atlas Blidense acima de Blida, dentro de um parque nacional onde ainda vivem macacos de Barbária. Dois teleféricos, época breve e o prazer raro de esquiar em montanha mediterrânica à vista da capital, na Argélia.",
+      "it": "A cinquanta chilometri a sud di Algeri, Chréa si aggrappa all'Atlante Blideno sopra Blida, all'interno di un parco nazionale dove vivono ancora le bertucce. Due impianti, una stagione breve e il piacere raro di sciare in montagna mediterranea a vista della capitale, in Algeria."
+    },
+    "longDescription": {
+      "en": "Chréa rises to 1,629 m with a base near 1,500 m, served by two lifts and about five kilometres of pistes that include a green, two blues and one red. The skiing is short and modest, but the location is genuinely special: pine and cedar forest dropping toward the Mitidja plain, the Mediterranean glimmering in the distance, and Algiers a one-hour drive away. When snow falls, families pour up from Blida and the capital, the small base village fills with grilled meat smoke and laughter, and the slopes briefly come alive. Chréa National Park surrounds the resort, with hiking trails, a Barbary macaque reserve nearby and viewpoints over the Atlas Blidéen. Season is unreliable, typically January and February, sometimes barely opening. Treat Chréa as a winter day trip from Algiers rather than a ski holiday in the alpine sense. The reward is a unique Mediterranean-meets-mountain identity you will not find anywhere else.",
+      "fr": "Chréa culmine à 1629 m, pied à 1500 m, avec deux remontées et environ cinq kilomètres de pistes : une verte, deux bleues et une rouge. Le ski est court et modeste, mais le site est singulier : forêt de pins et de cèdres descendant vers la plaine de la Mitidja, la Méditerranée scintillante au loin et Alger à une heure de route. Quand la neige tombe, les familles montent de Blida et de la capitale, le petit village de base s'emplit de fumée de grillades et de rires, les pistes s'animent brièvement. Le parc national de Chréa entoure la station, avec sentiers, réserve de magots à proximité et belvédères sur l'Atlas Blidéen. La saison reste incertaine, en général janvier-février, parfois à peine ouverte. Voyez Chréa comme une journée d'hiver depuis Alger plutôt qu'un séjour alpin. La récompense est une identité méditerranéo-montagnarde introuvable ailleurs en Algérie.",
+      "es": "Chréa culmina a 1629 m, con base hacia 1500 m, dos remontes y unos cinco kilómetros de pistas: una verde, dos azules y una roja. El esquí es breve y modesto, pero el emplazamiento es singular: bosque de pinos y cedros que cae hacia la llanura de la Mitidja, el Mediterráneo brillando a lo lejos y Argel a una hora en coche. Cuando nieva, las familias suben desde Blida y la capital, el pequeño pueblo base se llena de humo de parrillas y risas, las pistas se animan brevemente. El Parque Nacional de Chréa rodea la estación, con senderos, reserva de macacos cerca y miradores sobre el Atlas Blideño. La temporada es incierta, normalmente enero y febrero, a veces apenas abre. Tome Chréa como una jornada invernal desde Argel más que como vacaciones alpinas. La recompensa es una identidad mediterránea-montañera que no encontrará en otro lugar de Argelia.",
+      "pt": "Chréa atinge 1629 m, com base por volta dos 1500 m, dois teleféricos e cerca de cinco quilómetros de pistas: uma verde, duas azuis e uma vermelha. O esqui é breve e modesto, mas o local é singular: floresta de pinheiros e cedros a descer para a planície de Mitidja, o Mediterrâneo a brilhar ao longe e Argel a uma hora de carro. Quando neva, as famílias sobem de Blida e da capital, a pequena aldeia base enche-se de fumo de grelhados e risos, as pistas animam-se brevemente. O Parque Nacional de Chréa envolve a estância, com trilhos, reserva de macacos por perto e miradouros sobre o Atlas Blidense. A época é incerta, geralmente janeiro e fevereiro, por vezes mal abre. Encare Chréa como um dia de inverno a partir de Argel e não como umas férias alpinas. A recompensa é uma identidade mediterrânica e montanhesa que não encontrará noutro ponto da Argélia.",
+      "it": "Chréa raggiunge 1629 m, con base intorno ai 1500 m, due impianti e circa cinque chilometri di piste: una verde, due blu e una rossa. Lo sci è breve e modesto, ma il luogo è speciale: bosco di pini e cedri che scende verso la pianura della Mitidja, il Mediterraneo che luccica in lontananza e Algeri a un'ora di auto. Quando nevica, le famiglie salgono da Blida e dalla capitale, il piccolo villaggio base si riempie di fumo di grigliate e risate, le piste si animano brevemente. Il Parco Nazionale di Chréa circonda la stazione, con sentieri, riserva di bertucce nelle vicinanze e belvedere sull'Atlante Blideno. La stagione è incerta, in genere gennaio e febbraio, a volte apre appena. Prendete Chréa come una giornata invernale da Algeri, non come una vacanza alpina. La ricompensa è un'identità mediterranea-montanara che non troverete altrove in Algeria."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 2,
+      "red": 1,
+      "black": 0
+    }
+  },
+  {
+    "slug": "tikjda",
+    "name": "Tikjda",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "flag": "🇩🇿",
+    "region": "Algerian Mountains",
+    "lat": 36.452,
+    "lng": 4.173,
+    "altitudeBase": 1475,
+    "altitudeSummit": 2308,
+    "pistesKm": 3,
+    "lifts": 1,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is a stretch here. Local lodges sit close to the lift base, so you can ski to within a short walk of your room, but there is no high-rise piste-side village. Boots on, a few minutes in the snow, and you are skiing.",
+      "fr": "Le ski-in/ski-out strict n'a pas vraiment de sens ici. Les gîtes locaux se trouvent près du téléski : on rejoint sa chambre à pied en quelques minutes après la dernière descente, mais sans village au pied des pistes au sens alpin.",
+      "es": "El ski-in/ski-out estricto no aplica realmente aquí. Los albergues están cerca del remonte y puedes llegar a tu habitación en pocos minutos a pie tras la última bajada, pero no hay un pueblo al pie de pistas como en los Alpes.",
+      "pt": "Um verdadeiro ski-in/ski-out é forçado neste sítio. Os alojamentos ficam perto do teleférico e chega-se ao quarto a pé em poucos minutos depois da última descida, mas não há aldeia ao pé das pistas no sentido alpino.",
+      "it": "Un vero ski-in/ski-out qui è forzato. Gli alloggi sono vicini all'impianto e si raggiunge la propria stanza a piedi in pochi minuti dopo l'ultima discesa, ma non esiste un villaggio ai piedi delle piste come sulle Alpi."
+    },
+    "seasonStart": "Jan 15",
+    "seasonEnd": "Feb 25",
+    "snowScore": 32,
+    "vibes": [
+      "panoramic",
+      "value",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Tucked into the limestone cathedrals of Djurdjura National Park, Tikjda is Algeria's window onto a snowy Atlas most travellers never imagine. A short drive from Algiers, it pairs Kabyle-Berber hospitality with a single lift, a stark summit, and a season that comes and goes with the cedars.",
+      "fr": "Niché au cœur des cathédrales calcaires du Parc national du Djurdjura, Tikjda est la fenêtre algérienne sur un Atlas enneigé que peu de voyageurs imaginent. À deux heures d'Alger, on y croise l'hospitalité kabyle-berbère, un téléski unique et une saison aussi courte que les cèdres sont vieux.",
+      "es": "Encajada entre las catedrales calcáreas del Parque Nacional de Djurdjura, Tikjda es la ventana de Argelia a un Atlas nevado que pocos viajeros imaginan. A dos horas de Argel, combina hospitalidad cabilio-bereber, un único remonte y una temporada tan breve como impredecible.",
+      "pt": "Encaixada entre as catedrais calcárias do Parque Nacional de Djurdjura, Tikjda é a janela da Argélia para um Atlas nevado que poucos viajantes imaginam. A duas horas de Argel, junta hospitalidade cabila-berbere, um único teleférico e uma temporada tão breve como imprevisível.",
+      "it": "Incastonata tra le cattedrali calcaree del Parco Nazionale del Djurdjura, Tikjda è la finestra dell'Algeria su un Atlante innevato che pochi viaggiatori immaginano. A due ore da Algeri, mescola ospitalità cabilo-berbera, un solo impianto e una stagione tanto breve quanto imprevedibile."
+    },
+    "longDescription": {
+      "en": "Tikjda sits at 1475 m in the Djurdjura range, climbing to a summit point around 2308 m and offering just enough vertical for a handful of short pistes when winter is kind. The lone lift, the modest grooming and the often patchy snow make this a place for curious travellers rather than piste-hungry skiers. What it lacks in terrain it returns in atmosphere: limestone cliffs lit by low Mediterranean sun, holm-oak forests, and the silhouette of Lalla Khedidja above the plateau. The base is best known as a hiking and climbing hub, with skiing layered on top during the short January-to-February window. Visitors typically come from Algiers and Tizi Ouzou for weekend trips, eating tagine and couscous in family-run gîtes, picking up wool blankets in nearby Kabyle villages, and skiing for an hour or two between long lunches. Tikjda suits beginners testing first turns, ski-tourers curious about North African lines, and travellers who care more about culture and landscape than lift stats.",
+      "fr": "Tikjda culmine entre 1475 m et environ 2308 m dans le massif du Djurdjura, offrant juste assez de dénivelé pour quelques pistes courtes lorsque l'hiver est généreux. Le téléski unique, le damage modeste et l'enneigement souvent capricieux en font un terrain de curieux plutôt que de skieurs affamés de kilomètres. Ce que le domaine perd en piste, il le rend en atmosphère : falaises calcaires éclairées par un soleil méditerranéen rasant, forêts de chênes verts, silhouette de Lalla Khedidja au-dessus du plateau. La station est avant tout une base de randonnée et d'escalade, le ski s'y greffe pendant la courte fenêtre de janvier à février. On y vient surtout d'Alger et de Tizi Ouzou pour le week-end, on mange tajine et couscous dans des gîtes familiaux, on ramène des couvertures kabyles des villages voisins, et on skie une heure ou deux entre deux longs repas. Tikjda parle aux débutants, aux randonneurs à peaux et aux voyageurs qui placent la culture avant les chiffres de remontées.",
+      "es": "Tikjda se asienta a 1475 m en la cordillera de Djurdjura y alcanza unos 2308 m en su cota más alta, con desnivel suficiente para un puñado de pistas cortas cuando el invierno acompaña. El único remonte, el pisado modesto y la nieve a menudo irregular hacen de este lugar un destino para viajeros curiosos más que para esquiadores hambrientos de kilómetros. Lo que pierde en terreno lo gana en atmósfera: cantiles calcáreos iluminados por un sol mediterráneo bajo, encinares y la silueta de Lalla Khedidja sobre la meseta. La base es ante todo punto de partida para senderismo y escalada, y el esquí se añade durante la breve ventana de enero a febrero. Llegan sobre todo argelinos y kabilios de Argel y Tizi Ouzou en fin de semana, comen tajín y cuscús en gîtes familiares, recogen mantas de lana en aldeas vecinas y esquían una o dos horas entre comidas largas. Tikjda es ideal para principiantes, esquiadores de travesía curiosos por las líneas norteafricanas y viajeros que valoran cultura y paisaje por encima de la oferta de remontes.",
+      "pt": "Tikjda situa-se a 1475 m na cordilheira de Djurdjura e sobe até cerca de 2308 m, com desnível bastante para um punhado de pistas curtas quando o inverno colabora. O único teleférico, o pisado modesto e a neve frequentemente irregular fazem deste um sítio para viajantes curiosos, mais do que para esquiadores ávidos de quilómetros. O que perde em terreno devolve em atmosfera: falésias calcárias iluminadas por um sol mediterrânico rasante, azinhais e a silhueta da Lalla Khedidja sobre o planalto. A base é sobretudo ponto de partida para caminhadas e escalada, com o esqui a juntar-se na curta janela de janeiro a fevereiro. Quem vem chega de Argel e de Tizi Ouzou ao fim de semana, come tagine e cuscuz em alojamentos familiares, leva cobertores de lã das aldeias cabilas e esquia uma ou duas horas entre refeições longas. Tikjda fala a principiantes, a esquiadores de travessia curiosos sobre o Norte de África e a viajantes que valorizam cultura e paisagem mais do que estatísticas de remontes.",
+      "it": "Tikjda si trova a 1475 m nella catena del Djurdjura e sale fino a circa 2308 m, con dislivello sufficiente per qualche pista breve quando l'inverno è generoso. L'unico impianto, la battitura modesta e la neve spesso a chiazze ne fanno una meta per viaggiatori curiosi più che per sciatori affamati di chilometri. Quello che perde in terreno lo restituisce in atmosfera: pareti calcaree accese dal sole mediterraneo basso, leccete e la sagoma della Lalla Khedidja sopra l'altopiano. La base è soprattutto un punto di partenza per escursionismo e arrampicata; lo sci si aggiunge nella breve finestra di gennaio e febbraio. Si arriva da Algeri e da Tizi Ouzou per il fine settimana, si mangiano tajine e cous cous in alloggi familiari, si comprano coperte di lana nei villaggi cabili e si scia un'ora o due tra un pranzo lungo e l'altro. Tikjda parla ai principianti, agli scialpinisti incuriositi dalle linee nordafricane e ai viaggiatori che mettono cultura e paesaggio davanti alle statistiche degli impianti."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 1,
+      "red": 1,
+      "black": 0
+    }
+  },
+  {
+    "slug": "tala-guilef",
+    "name": "Tala-Guilef",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "flag": "🇩🇿",
+    "region": "Algerian Mountains",
+    "lat": 36.5092,
+    "lng": 4.0739,
+    "altitudeBase": 1450,
+    "altitudeSummit": 2000,
+    "pistesKm": 2,
+    "lifts": 1,
+    "skiInSkiOutNote": {
+      "en": "Forget Alpine-style piste-side hotels. Lodging is limited to nearby simple guesthouses and a former state hotel. You drive or walk a short distance to the lift base, click in, and call it a day from your boot bag.",
+      "fr": "Pas d'hôtels au pied des pistes à l'alpine ici. L'hébergement se limite à des gîtes simples et à un ancien hôtel d'État. On rejoint le téléski en voiture ou à pied sur une courte distance, on chausse, puis on rentre à la fin de la journée.",
+      "es": "Olvídate de hoteles a pie de pistas al estilo alpino. El alojamiento se reduce a pensiones sencillas y a un antiguo hotel estatal. Llegas al remonte en coche o a pie en pocos minutos, calzas y, al final del día, vuelves.",
+      "pt": "Esqueça hotéis ao pé das pistas ao estilo alpino. O alojamento resume-se a pensões simples e a um antigo hotel estatal. Chega-se ao teleférico de carro ou a pé em poucos minutos, calça-se e, no fim do dia, regressa-se.",
+      "it": "Niente hotel ai piedi delle piste in stile alpino. L'alloggio si riduce a pensioni semplici e a un ex hotel di Stato. Si raggiunge l'impianto in auto o a piedi in pochi minuti, ci si lega gli sci e a fine giornata si torna."
+    },
+    "seasonStart": "Jan 15",
+    "seasonEnd": "Feb 20",
+    "snowScore": 28,
+    "vibes": [
+      "isolated",
+      "authentic",
+      "value"
+    ],
+    "intro": {
+      "en": "Thirty kilometres west of Tikjda, Tala-Guilef is the quieter sibling of Algerian skiing: a single lift on a cedar-fringed slope, a base at 1450 m and a summit near 2000 m, open mostly for local weekenders when the snow decides to fall.",
+      "fr": "À une trentaine de kilomètres à l'ouest de Tikjda, Tala-Guilef est la station-sœur plus discrète du ski algérien : un téléski unique sur un versant bordé de cèdres, une base à 1450 m, un sommet vers 2000 m, ouverte pour les week-enders locaux quand la neige veut bien tomber.",
+      "es": "A unos treinta kilómetros al oeste de Tikjda, Tala-Guilef es la hermana más discreta del esquí argelino: un único remonte en una ladera cubierta de cedros, base a 1450 m y cima cerca de los 2000 m, abierta para los locales de fin de semana cuando la nieve quiere caer.",
+      "pt": "A cerca de trinta quilómetros a oeste de Tikjda, Tala-Guilef é a irmã discreta do esqui argelino: um único teleférico numa encosta orlada de cedros, base a 1450 m e cume perto dos 2000 m, aberta para visitantes locais ao fim de semana quando a neve resolve cair.",
+      "it": "A una trentina di chilometri a ovest di Tikjda, Tala-Guilef è la sorella più discreta dello sci algerino: un impianto solo su un versante orlato di cedri, base a 1450 m e cima vicino ai 2000 m, aperta per locali nei fine settimana quando la neve decide di cadere."
+    },
+    "longDescription": {
+      "en": "Tala-Guilef hides above the Tigzirt area on the northern flank of the Djurdjura range, in the shade of centuries-old Atlas cedars. The numbers are small: a base around 1450 m, a summit close to 2000 m, one short lift and a handful of pistes that can fit on a postcard. Snow cover is unreliable, and many winters the resort simply does not open. When it does, what awaits is something rare in the Mediterranean basin: skiing among the cedars, with views down towards the coastal plain and the Mitidja in clear weather. The crowd is local, mostly weekenders from Tizi Ouzou and Algiers, plus Kabyle families who treat the snow as a novelty. There is little infrastructure beyond a former hotel complex, a few simple eateries and the lift itself. Tala-Guilef suits beginners, ski-curious travellers building a North African itinerary, photographers chasing cedar-and-snow scenes, and anyone who values an authentic, off-grid experience over piste statistics. Pair it with a couple of days in Tikjda and a Kabyle village or two, and you have one of the most unusual ski weeks on the continent.",
+      "fr": "Tala-Guilef se cache au-dessus de la région de Tigzirt, sur le flanc nord du Djurdjura, à l'ombre de cèdres séculaires de l'Atlas. Les chiffres sont modestes : une base à 1450 m, un sommet proche des 2000 m, un téléski court et quelques pistes qui tiennent sur une carte postale. L'enneigement est aléatoire et beaucoup d'hivers la station n'ouvre tout simplement pas. Quand elle fonctionne, on y goûte une chose rare dans le bassin méditerranéen : skier entre les cèdres, avec une vue plongeante sur la plaine côtière et la Mitidja par temps clair. Le public est local, surtout des week-enders de Tizi Ouzou et d'Alger, et des familles kabyles pour qui la neige reste une fête. Hors du téléski et d'un ancien complexe hôtelier, peu d'infrastructures et quelques gargotes simples. Tala-Guilef parle aux débutants, aux voyageurs qui construisent un itinéraire nord-africain inhabituel, aux photographes en quête de cèdres enneigés et à tous ceux qui préfèrent l'authenticité au compte des remontées. Combinée à deux jours à Tikjda et un crochet par les villages kabyles, elle compose l'une des semaines de ski les plus singulières du continent.",
+      "es": "Tala-Guilef se esconde sobre la zona de Tigzirt, en la vertiente norte de Djurdjura, a la sombra de cedros centenarios del Atlas. Las cifras son modestas: base hacia 1450 m, cima cerca de 2000 m, un remonte corto y un puñado de pistas que cabrían en una postal. La cobertura de nieve es incierta y en muchos inviernos la estación ni siquiera abre. Cuando funciona, se vive algo raro en la cuenca mediterránea: esquiar entre cedros, con la llanura costera y la Mitidja a la vista en días claros. El público es local, sobre todo gente de Tizi Ouzou y Argel que sube el fin de semana, y familias cabilias para quienes la nieve es una pequeña fiesta. Aparte del remonte y de un antiguo complejo hotelero, hay poca infraestructura y unos pocos comedores sencillos. Tala-Guilef encaja con principiantes, viajeros que arman un itinerario norteafricano poco habitual, fotógrafos buscando cedros nevados y quienes prefieren autenticidad a estadísticas. Combinada con un par de días en Tikjda y una visita a las aldeas cabilias, compone una de las semanas de esquí más singulares del continente.",
+      "pt": "Tala-Guilef esconde-se acima da zona de Tigzirt, na vertente norte do Djurdjura, à sombra de cedros seculares do Atlas. Os números são modestos: base por volta de 1450 m, cume perto dos 2000 m, um teleférico curto e um punhado de pistas que caberiam num postal. A cobertura de neve é incerta e em muitos invernos a estação nem chega a abrir. Quando funciona, oferece algo raro na bacia mediterrânica: esquiar entre cedros, com a planície costeira e a Mitidja à vista em dias limpos. O público é local, sobretudo gente de Tizi Ouzou e Argel que sobe ao fim de semana, e famílias cabilas para quem a neve continua a ser festa. Para além do teleférico e de um antigo complexo hoteleiro, há pouca infraestrutura e alguns restaurantes simples. Tala-Guilef serve principiantes, viajantes a montar um roteiro norte-africano pouco comum, fotógrafos à procura de cedros nevados e quem prefere autenticidade a estatísticas. Combinada com dois dias em Tikjda e uma passagem pelas aldeias cabilas, compõe uma das semanas de esqui mais singulares do continente.",
+      "it": "Tala-Guilef si nasconde sopra la zona di Tigzirt, sul versante settentrionale del Djurdjura, all'ombra di cedri secolari dell'Atlante. I numeri sono modesti: base intorno a 1450 m, cima vicino ai 2000 m, un solo impianto corto e un pugno di piste che starebbero in una cartolina. L'innevamento è incerto e in molti inverni la stazione non apre nemmeno. Quando funziona, regala qualcosa di raro nel bacino mediterraneo: sciare tra i cedri, con la pianura costiera e la Mitidja in vista nelle giornate limpide. Il pubblico è locale, soprattutto gente di Tizi Ouzou e Algeri che sale per il fine settimana, e famiglie cabile per cui la neve resta una festa. A parte l'impianto e un vecchio complesso alberghiero, l'infrastruttura è scarsa e i ristori semplici. Tala-Guilef parla ai principianti, ai viaggiatori che costruiscono un itinerario nordafricano insolito, ai fotografi a caccia di cedri innevati e a chi preferisce l'autenticità alle statistiche. Abbinata a due giorni a Tikjda e a un passaggio nei villaggi cabili, compone una delle settimane di sci più singolari del continente."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 1,
+      "red": 0,
+      "black": 0
+    }
+  },
+  {
+    "slug": "afriski",
+    "name": "Afriski",
+    "country": "Lesotho",
+    "countryCode": "LS",
+    "flag": "🇱🇸",
+    "region": "Maluti and Drakensberg",
+    "lat": -28.7494,
+    "lng": 28.6678,
+    "altitudeBase": 3050,
+    "altitudeSummit": 3260,
+    "pistesKm": 2,
+    "lifts": 2,
+    "skiInSkiOutNote": {
+      "en": "Afriski's chalets and apartments cluster around the base area, with the lift just outside the door. It is as close to true ski-in/ski-out as Africa gets: walk a couple of minutes in your boots and you are on snow.",
+      "fr": "Les chalets et appartements d'Afriski sont regroupés autour de la zone de base, avec le téléski à la porte. C'est ce qui se rapproche le plus du vrai ski-in/ski-out en Afrique : deux minutes à pied en chaussures et l'on est sur la neige.",
+      "es": "Los chalés y apartamentos de Afriski se agrupan en torno a la zona de base, con el remonte justo en la puerta. Es lo más parecido al verdadero ski-in/ski-out en África: dos minutos a pie con las botas y ya estás en la nieve.",
+      "pt": "Os chalés e apartamentos de Afriski concentram-se em torno da zona da base, com o teleférico à porta. É o mais próximo do verdadeiro ski-in/ski-out em África: dois minutos a pé com as botas e está-se na neve.",
+      "it": "Gli chalet e gli appartamenti di Afriski si raggruppano attorno alla zona di base, con l'impianto a due passi. È quanto di più vicino al vero ski-in/ski-out l'Africa possa offrire: due minuti a piedi con gli scarponi e si è sulla neve."
+    },
+    "seasonStart": "Jun 14",
+    "seasonEnd": "Aug 31",
+    "snowScore": 52,
+    "vibes": [
+      "southern-hemisphere",
+      "high-altitude",
+      "isolated",
+      "unique"
+    ],
+    "intro": {
+      "en": "At 3050 m in the Maluti Mountains, Afriski is the highest ski base in Africa and the continent's only real Southern Hemisphere resort. One chairlift, one surface tow, a single well-groomed piste, and a southern winter that runs from June to August above Lesotho's roof.",
+      "fr": "À 3050 m dans les monts Maluti, Afriski est la plus haute base de ski d'Afrique et la seule vraie station de l'hémisphère sud du continent. Un télésiège, un téléski, une piste damée et un hiver austral de juin à août au-dessus des plateaux du Lesotho.",
+      "es": "A 3050 m en los montes Maluti, Afriski es la base de esquí más alta de África y la única estación auténtica del hemisferio sur del continente. Una telesilla, un remonte de superficie, una pista bien pisada y un invierno austral de junio a agosto sobre los altiplanos de Lesoto.",
+      "pt": "A 3050 m nos montes Maluti, Afriski é a base de esqui mais alta de África e a única estação verdadeira do hemisfério sul no continente. Um telecadeira, um teleférico de superfície, uma pista bem pisada e um inverno austral de junho a agosto sobre os altiplanos do Lesoto.",
+      "it": "A 3050 m nei monti Maluti, Afriski è la base sciistica più alta d'Africa e l'unica vera stazione dell'emisfero australe del continente. Una seggiovia, uno skilift, una pista ben battuta e un inverno australe da giugno ad agosto sopra gli altopiani del Lesotho."
+    },
+    "longDescription": {
+      "en": "Afriski Mountain Resort sits high in northern Lesotho, near Butha-Buthe and about six hours by road from Johannesburg via the Maluti Mountains. The base is at 3050 m and the top of the chair at roughly 3260 m, with a single proper piste, snow guns, grooming and a ski-school setup that takes its job seriously. The terrain is modest by Alpine or Andean standards, but the altitude, the basalt ridges and the openness of the high veld give it a real mountain feel. The season runs from mid-June to late August, a rare Southern Hemisphere window on a continent dominated by summer beaches. Outside ski hours, Afriski leans into game-lodge mountain ambiance: log-and-stone chalets, fireplaces, hearty South African fare, sunrise hikes, fat-bike rides, and the chance to share trails with shepherds in traditional Basotho blankets. In summer it turns into a mountain-bike and trail-running base. Afriski suits beginner and intermediate skiers, families chasing a novelty alpine break in winter Africa, and adventure travellers who like the idea of skiing one day and driving past dinosaur footprints the next.",
+      "fr": "Afriski Mountain Resort se dresse haut dans le nord du Lesotho, près de Butha-Buthe, à environ six heures de route de Johannesburg par les monts Maluti. La base est à 3050 m, le sommet du télésiège vers 3260 m, avec une piste principale, des enneigeurs, du damage et une école de ski qui prend son rôle au sérieux. Le terrain reste modeste à l'échelle alpine ou andine, mais l'altitude, les crêtes de basalte et l'immensité du haut veld donnent un vrai goût de montagne. La saison va de mi-juin à fin août, fenêtre australe rare sur un continent dominé par les plages d'été. Hors des heures de ski, Afriski cultive l'ambiance de lodge de montagne : chalets de bois et de pierre, cheminées, cuisine sud-africaine généreuse, randonnées au lever du soleil, fat-bike, et la chance de croiser des bergers basothos en couvertures traditionnelles. L'été, le site se transforme en base VTT et trail. Afriski convient aux débutants et intermédiaires, aux familles en quête de nouveauté alpine pendant l'hiver africain, et aux voyageurs d'aventure prêts à skier le matin et à passer devant des empreintes de dinosaures l'après-midi.",
+      "es": "Afriski Mountain Resort se levanta en lo alto del norte de Lesoto, cerca de Butha-Buthe y a unas seis horas por carretera de Johannesburgo a través de los montes Maluti. La base se sitúa a 3050 m y la cabecera de la telesilla rondan los 3260 m, con una pista principal, cañones de nieve, pisado y una escuela que se toma en serio su trabajo. El terreno es modesto si lo comparamos con Alpes o Andes, pero la altitud, las crestas de basalto y la inmensidad del altiplano dan auténtico sabor a montaña. La temporada va de mediados de junio a finales de agosto, una rara ventana austral en un continente dominado por playas de verano. Fuera de pista, Afriski cultiva ambiente de lodge: chalés de madera y piedra, chimeneas, cocina sudafricana contundente, caminatas al amanecer, fat-bike y la posibilidad de cruzarse con pastores basothos envueltos en mantas tradicionales. En verano se convierte en base de bici y trail. Afriski va bien a principiantes e intermedios, a familias que buscan novedad alpina en pleno invierno africano y a viajeros aventureros dispuestos a esquiar por la mañana y pasar junto a huellas de dinosaurio por la tarde.",
+      "pt": "Afriski Mountain Resort ergue-se no alto do norte do Lesoto, perto de Butha-Buthe e a cerca de seis horas de carro de Joanesburgo, atravessando os montes Maluti. A base fica a 3050 m e o topo do telecadeira por volta dos 3260 m, com uma pista principal, canhões de neve, pisado e uma escola que leva o seu trabalho a sério. O terreno é modesto à escala alpina ou andina, mas a altitude, as cristas de basalto e a imensidão do altiplano dão verdadeiro sabor a montanha. A temporada vai de meados de junho a finais de agosto, janela austral rara num continente dominado por praias de verão. Fora de pista, Afriski cultiva atmosfera de lodge de montanha: chalés de madeira e pedra, lareiras, cozinha sul-africana farta, caminhadas ao amanhecer, fat-bike e a hipótese de cruzar pastores basotos envoltos em cobertores tradicionais. No verão transforma-se em base de BTT e trail. Afriski serve principiantes e intermédios, famílias à procura de novidade alpina no inverno africano e viajantes aventureiros prontos a esquiar de manhã e passar perto de pegadas de dinossauros à tarde.",
+      "it": "Afriski Mountain Resort si erge in alto nel nord del Lesotho, vicino a Butha-Buthe e a circa sei ore di auto da Johannesburg attraverso i monti Maluti. La base è a 3050 m e l'arrivo della seggiovia intorno ai 3260 m, con una pista principale, cannoni da neve, battitura e una scuola che prende sul serio il proprio lavoro. Il terreno è modesto se confrontato con Alpi o Ande, ma l'altitudine, le creste basaltiche e l'ampiezza dell'altopiano restituiscono un autentico sapore di montagna. La stagione va da metà giugno a fine agosto, finestra australe rara in un continente dominato dalle spiagge estive. Fuori dalle piste, Afriski coltiva l'atmosfera da lodge di montagna: chalet di legno e pietra, camini, cucina sudafricana abbondante, escursioni all'alba, fat-bike e la possibilità di incrociare pastori basotho avvolti in coperte tradizionali. D'estate diventa base per mountain bike e trail running. Afriski parla a principianti e intermedi, a famiglie in cerca di novità alpina nel pieno inverno africano e a viaggiatori d'avventura disposti a sciare la mattina e a passare accanto a impronte di dinosauri il pomeriggio."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 2,
+      "red": 1,
+      "black": 1
+    }
+  },
+  {
+    "slug": "tiffindell",
+    "name": "Tiffindell",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "flag": "🇿🇦",
+    "region": "Maluti and Drakensberg",
+    "lat": -30.645,
+    "lng": 27.95,
+    "altitudeBase": 2510,
+    "altitudeSummit": 2782,
+    "pistesKm": 3,
+    "lifts": 1,
+    "skiInSkiOutNote": {
+      "en": "Tiffindell's on-mountain lodge sits right at the base of the chair, so guests staying there can almost click in at the door. Off-site cottages in nearby Rhodes need a short drive up the pass before any skiing happens.",
+      "fr": "Le lodge de Tiffindell est posé au pied du télésiège : les hôtes y chaussent presque sur le pas de la porte. Les cottages du village de Rhodes, en contrebas, impliquent une petite route de col avant de skier.",
+      "es": "El lodge de Tiffindell se sitúa al pie de la telesilla y los huéspedes que se alojan allí casi pueden calzar en la puerta. Las casitas del cercano pueblo de Rhodes obligan a un trayecto corto por el puerto antes de esquiar.",
+      "pt": "O lodge de Tiffindell fica mesmo aos pés da telecadeira e quem ali se aloja quase calça os esquis à porta. As casinhas da aldeia próxima de Rhodes obrigam a um curto trajeto pela serra antes de esquiar.",
+      "it": "Il lodge di Tiffindell si trova proprio ai piedi della seggiovia e chi vi alloggia può quasi calzare gli sci sulla porta. I cottage del vicino villaggio di Rhodes impongono un breve tragitto sul passo prima di sciare."
+    },
+    "seasonStart": "Jun 25",
+    "seasonEnd": "Aug 25",
+    "snowScore": 40,
+    "vibes": [
+      "southern-hemisphere",
+      "isolated",
+      "panoramic",
+      "unique"
+    ],
+    "intro": {
+      "en": "Perched at 2510 m in the Eastern Cape Drakensberg, Tiffindell is South Africa's only proper ski resort, climbing to 2782 m at the country's snowiest summit. Closed for years and recently reborn, it offers one chairlift, a handful of trails and a Southern Hemisphere season that runs from late June to August.",
+      "fr": "Perchée à 2510 m dans le Drakensberg du Cap-Oriental, Tiffindell est la seule vraie station de ski d'Afrique du Sud, montant jusqu'à 2782 m, le sommet le plus enneigé du pays. Fermée plusieurs années puis réouverte, elle propose un télésiège, quelques pistes et une saison australe de fin juin à août.",
+      "es": "Encaramada a 2510 m en el Drakensberg del Cabo Oriental, Tiffindell es la única estación de esquí auténtica de Sudáfrica y sube hasta los 2782 m, la cumbre más nevada del país. Cerrada durante años y reabierta hace poco, ofrece una telesilla, un puñado de pistas y una temporada austral de finales de junio a agosto.",
+      "pt": "Empoleirada a 2510 m no Drakensberg do Cabo Oriental, Tiffindell é a única estação de esqui verdadeira da África do Sul, subindo até aos 2782 m, o cume mais nevado do país. Encerrada durante anos e reaberta há pouco, oferece um telecadeira, um punhado de pistas e uma temporada austral de finais de junho a agosto.",
+      "it": "Arroccata a 2510 m nel Drakensberg del Capo Orientale, Tiffindell è l'unica vera stazione sciistica del Sudafrica e sale fino a 2782 m, la cima più innevata del paese. Chiusa per anni e da poco rinata, offre una seggiovia, qualche pista e una stagione australe da fine giugno ad agosto."
+    },
+    "longDescription": {
+      "en": "Tiffindell hides in a high amphitheatre below Ben Macdhui, the highest peak in the Eastern Cape, with views down towards Rhodes village and across the immense Karoo. The base is at 2510 m, the summit at 2782 m, and a single chairlift serves six short trails across mostly intermediate terrain, supported by snow guns when natural snow disappoints. The resort closed for half a decade after financial troubles, reopening to enthusiastic local response and ongoing investment in lifts and lodging. The Drakensberg setting is what sells it: huge skies, dramatic basalt cliffs, frozen waterfalls in winter, and silence broken only by Cape vultures overhead. Days are short and the conditions can be mercurial, with bright sun melting snow by afternoon and frosty mornings refreezing the corduroy by dawn. Tiffindell suits families from Johannesburg and Cape Town who want their children to try snow, intermediate skiers happy with a few rides on a fast chair, and overland travellers stitching a Drakensberg loop together. Aprés revolves around the on-site lodge, log fires, South African wines and braais under stars that feel almost touchable at that altitude.",
+      "fr": "Tiffindell se cache dans un haut cirque sous le Ben Macdhui, plus haut sommet du Cap-Oriental, avec une vue plongeante vers le village de Rhodes et l'immense Karoo. La base est à 2510 m, le sommet à 2782 m, et un télésiège unique dessert six pistes courtes sur un terrain majoritairement intermédiaire, complété par des enneigeurs quand la neige naturelle fait défaut. La station est restée fermée près de cinq ans après des soucis financiers, avant une réouverture saluée localement et des investissements continus dans les remontées et l'hébergement. Le décor du Drakensberg fait l'essentiel : ciels immenses, falaises de basalte, cascades gelées en hiver, silence brisé seulement par les vautours du Cap. Les journées sont courtes et les conditions changeantes : soleil brillant qui ramollit la neige l'après-midi, gel nocturne qui durcit le corduroy au matin. Tiffindell convient aux familles de Johannesburg et du Cap qui veulent faire goûter la neige aux enfants, aux skieurs intermédiaires heureux de quelques descentes sur un télésiège rapide, et aux voyageurs en boucle Drakensberg. L'après-ski tourne autour du lodge, des feux de cheminée, des vins sud-africains et des braais sous un ciel d'étoiles presque tangible à cette altitude.",
+      "es": "Tiffindell se esconde en un alto circo bajo el Ben Macdhui, la cumbre más alta del Cabo Oriental, con vistas hacia el pueblo de Rhodes y la inmensa meseta del Karoo. La base está a 2510 m, la cima a 2782 m, y una única telesilla sirve seis pistas cortas en un terreno mayoritariamente intermedio, apoyado por cañones de nieve cuando la natural escasea. La estación cerró durante casi cinco años por problemas financieros antes de reabrir con buena respuesta local y nuevas inversiones en remontes y alojamiento. El escenario del Drakensberg lo es casi todo: cielos enormes, cantiles de basalto, cascadas heladas en invierno, silencio roto solo por los buitres del Cabo. Los días son cortos y las condiciones cambiantes: sol brillante que reblandece la nieve por la tarde, heladas nocturnas que endurecen el corduroy al amanecer. Tiffindell encaja con familias de Johannesburgo y Ciudad del Cabo que quieren que sus hijos prueben la nieve, con esquiadores intermedios contentos de una telesilla rápida y con viajeros que recorren el Drakensberg. El après-ski gira en torno al lodge, chimeneas, vinos sudafricanos y braais bajo un cielo de estrellas casi al alcance de la mano.",
+      "pt": "Tiffindell esconde-se num alto circo sob o Ben Macdhui, o ponto mais alto do Cabo Oriental, com vistas sobre a aldeia de Rhodes e o imenso Karoo. A base fica a 2510 m, o cume a 2782 m e uma única telecadeira serve seis pistas curtas num terreno sobretudo intermédio, apoiado por canhões de neve quando a natural falha. A estação esteve encerrada cerca de cinco anos por problemas financeiros antes de reabrir com boa receção local e novos investimentos em remontes e alojamento. O cenário do Drakensberg é quase tudo: céus enormes, falésias de basalto, cascatas geladas no inverno, silêncio cortado apenas pelos abutres do Cabo. Os dias são curtos e as condições mutáveis: sol intenso que amolece a neve à tarde, geadas noturnas que endurecem o corduroy ao amanhecer. Tiffindell serve famílias de Joanesburgo e Cidade do Cabo que querem que os filhos provem a neve, esquiadores intermédios felizes com uma telecadeira rápida e viajantes a fazer roteiros no Drakensberg. O après-ski gira em torno do lodge, lareiras, vinhos sul-africanos e braais sob um céu de estrelas quase ao alcance da mão.",
+      "it": "Tiffindell si nasconde in un alto circo sotto il Ben Macdhui, vetta più alta del Capo Orientale, con vista sul villaggio di Rhodes e sull'immenso Karoo. La base è a 2510 m, la cima a 2782 m, e un'unica seggiovia serve sei piste brevi su terreno prevalentemente intermedio, sostenuto da cannoni da neve quando quella naturale latita. La stazione è rimasta chiusa per quasi cinque anni dopo problemi finanziari prima di riaprire con un buon riscontro locale e nuovi investimenti in impianti e ricettività. Lo scenario del Drakensberg è quasi tutto: cieli enormi, pareti di basalto, cascate gelate d'inverno, silenzio rotto solo dagli avvoltoi del Capo. Le giornate sono brevi e le condizioni mutevoli: sole intenso che ammorbidisce la neve nel pomeriggio, gelate notturne che indurano il corduroy all'alba. Tiffindell parla a famiglie di Johannesburg e Cape Town che vogliono far provare la neve ai figli, a sciatori intermedi soddisfatti di qualche risalita su una seggiovia veloce e a viaggiatori che disegnano un anello nel Drakensberg. L'après-ski ruota attorno al lodge, ai camini, ai vini sudafricani e ai braai sotto un cielo di stelle quasi a portata di mano."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 2,
+      "red": 2,
+      "black": 1
+    }
+  },
+  {
+    "slug": "ski-egypt",
+    "name": "Ski Egypt",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "flag": "🇪🇬",
+    "region": "Cairo Indoor",
+    "lat": 29.987,
+    "lng": 31.013,
+    "altitudeBase": 30,
+    "altitudeSummit": 30,
+    "pistesKm": 1,
+    "lifts": 1,
+    "skiInSkiOutNote": {
+      "en": "Ski-in/ski-out at Ski Egypt means mall-in mall-out. You collect rental kit, walk through a refrigerated airlock, and you are on the slope. No mountain village, no chalets, just a chairlift, a snow park and a food court a corridor away.",
+      "fr": "Le ski-in/ski-out à Ski Egypt se traduit par mall-in mall-out. On récupère le matériel de location, on franchit un sas réfrigéré et l'on est sur la piste. Pas de village de montagne, pas de chalet, juste un téléski, un snowpark et un food court à un couloir de là.",
+      "es": "El ski-in/ski-out en Ski Egypt es en realidad mall-in mall-out. Recoges el material de alquiler, cruzas una esclusa refrigerada y estás en la pista. No hay pueblo de montaña ni chalés, solo un remonte, un snowpark y un food court a un pasillo.",
+      "pt": "O ski-in/ski-out em Ski Egypt traduz-se em mall-in mall-out. Levanta-se o material de aluguer, atravessa-se uma câmara refrigerada e está-se na pista. Não há aldeia de montanha nem chalés, apenas um teleférico, um snowpark e uma praça de restauração a um corredor.",
+      "it": "Lo ski-in/ski-out a Ski Egypt si traduce in mall-in mall-out. Si ritira il materiale a noleggio, si attraversa una camera di compensazione refrigerata e si è sulla pista. Niente villaggio di montagna, niente chalet, solo un impianto, uno snowpark e una food court a un corridoio di distanza."
+    },
+    "seasonStart": "Jan 1",
+    "seasonEnd": "Dec 31",
+    "snowScore": 70,
+    "vibes": [
+      "indoor",
+      "year-round",
+      "unique",
+      "city-access"
+    ],
+    "intro": {
+      "en": "Inside the Mall of Egypt in Cairo, Ski Egypt is the only indoor snow slope on the African continent and the only way to ski in Egypt at all. A 100 m run, a single lift, snow guns, ice features and resident penguins, all kept at around -2 to -4 °C, three hundred and sixty-five days a year.",
+      "fr": "À l'intérieur du Mall of Egypt au Caire, Ski Egypt est la seule piste de neige couverte du continent africain et la seule manière de skier en Égypte. Cent mètres de descente, un téléski, des enneigeurs, des sculptures de glace et des manchots résidents, maintenus entre -2 et -4 °C, 365 jours par an.",
+      "es": "Dentro del Mall of Egypt, en El Cairo, Ski Egypt es la única pista de nieve cubierta del continente africano y la única forma de esquiar en Egipto. Cien metros de bajada, un remonte, cañones de nieve, esculturas de hielo y pingüinos residentes, todo a unos -2 a -4 °C, 365 días al año.",
+      "pt": "Dentro do Mall of Egypt, no Cairo, Ski Egypt é a única pista de neve coberta do continente africano e a única forma de esquiar no Egito. Cem metros de descida, um teleférico, canhões de neve, esculturas de gelo e pinguins residentes, mantidos entre -2 e -4 °C, 365 dias por ano.",
+      "it": "Dentro il Mall of Egypt al Cairo, Ski Egypt è l'unica pista di neve al coperto del continente africano e l'unico modo di sciare in Egitto. Cento metri di discesa, un impianto, cannoni da neve, sculture di ghiaccio e pinguini residenti, tenuti tra i -2 e i -4 °C, 365 giorni l'anno."
+    },
+    "longDescription": {
+      "en": "Ski Egypt occupies a refrigerated hangar inside one of Cairo's biggest shopping malls, a few minutes from the city's southern suburbs and the desert beyond. The single slope is roughly 100 m long with a modest vertical, served by one lift, with snow guns laying fresh cover overnight and grooming machines sharpening it before opening. Realistically this is beginner terrain: green pitch, soft turns, falls cushioned by manufactured snow. Beyond skiing, the park is built as a family attraction with tobogganing, snow play areas, ice slides, a small zip line and a colony of African penguins that share a sub-zero enclosure with curious visitors. Inside, temperatures sit between -2 and -4 °C, with insulated jackets, trousers and boots provided. Outside, Cairo can be 25 to 40 °C on the same afternoon, which is half the fun. Ski Egypt suits city travellers stitching a curiosity day between pyramids and Khan El Khalili, families with small children getting their first snow exposure, and ski tourists who collect unusual ski countries the way others collect passport stamps.",
+      "fr": "Ski Egypt occupe un hangar réfrigéré à l'intérieur d'un des plus grands centres commerciaux du Caire, à quelques minutes des banlieues sud et du désert. La piste unique fait environ 100 m, avec un dénivelé modeste et un seul téléski. Des enneigeurs déposent une couche fraîche chaque nuit et les dameuses la peignent avant l'ouverture. Sur le terrain, on est clairement en zone débutant : pente verte, virages tranquilles, chutes amorties par une neige fabriquée. Au-delà du ski, le parc se vit comme une attraction familiale avec luge, aires de jeu, toboggans de glace, mini-tyrolienne et une colonie de manchots du Cap qui partagent une enceinte glacée avec les visiteurs. L'air intérieur reste entre -2 et -4 °C, vestes, pantalons et bottes fournis. Dehors, Le Caire peut afficher de 25 à 40 °C le même après-midi, ce qui fait la moitié du plaisir. Ski Egypt convient aux voyageurs urbains qui glissent une journée curieuse entre Pyramides et Khan El Khalili, aux familles avec jeunes enfants en première neige, et aux collectionneurs de pays skis-pieds insolites.",
+      "es": "Ski Egypt ocupa un hangar refrigerado dentro de uno de los centros comerciales más grandes de El Cairo, a pocos minutos de los suburbios del sur y del desierto. La única pista mide alrededor de 100 m, con desnivel modesto y un solo remonte. Los cañones tienden una capa fresca cada noche y las pisadoras la peinan antes de abrir. En la práctica es terreno claramente principiante: pendiente verde, giros suaves, caídas amortiguadas por nieve fabricada. Más allá del esquí, el parque funciona como atracción familiar con trineos, zonas de juego, toboganes de hielo, una mini tirolina y una colonia de pingüinos del Cabo que comparten su recinto helado con los visitantes. Dentro, la temperatura ronda los -2 a -4 °C, con chaquetas, pantalones y botas incluidos. Fuera, El Cairo puede marcar 25 a 40 °C la misma tarde, y ahí está la mitad de la gracia. Ski Egypt encaja con viajeros urbanos que se permiten un día curioso entre pirámides y Khan El Khalili, con familias que estrenan nieve con los pequeños y con coleccionistas de países esquiados poco habituales.",
+      "pt": "Ski Egypt ocupa um hangar refrigerado dentro de um dos maiores centros comerciais do Cairo, a poucos minutos dos subúrbios sul e do deserto. A única pista tem cerca de 100 m, com desnível modesto e um só teleférico. Os canhões depositam uma camada fresca todas as noites e as máquinas penteiam-na antes da abertura. Na prática é terreno claramente para principiantes: inclinação verde, curvas suaves, quedas amortecidas por neve fabricada. Para além do esqui, o parque funciona como atração familiar com trenós, zonas de jogo, escorregas de gelo, uma pequena tirolesa e uma colónia de pinguins do Cabo que partilha o recinto gelado com os visitantes. Lá dentro, a temperatura fica entre -2 e -4 °C, com casacos, calças e botas fornecidos. Lá fora, o Cairo pode marcar 25 a 40 °C na mesma tarde, e é aí que mora metade da graça. Ski Egypt serve viajantes urbanos a inserir um dia curioso entre Pirâmides e Khan El Khalili, famílias com crianças pequenas a estrear neve e colecionadores de países esquiados invulgares.",
+      "it": "Ski Egypt occupa un hangar refrigerato all'interno di uno dei più grandi centri commerciali del Cairo, a pochi minuti dai sobborghi meridionali e dal deserto. L'unica pista misura circa 100 m, con dislivello modesto e un solo impianto. I cannoni stendono una coltre fresca ogni notte e i gatti delle nevi la lisciano prima dell'apertura. Sul campo è chiaramente terreno da principianti: pendenza verde, curve morbide, cadute attutite da neve artificiale. Oltre allo sci, il parco vive come attrazione familiare con slittini, aree gioco, scivoli di ghiaccio, una piccola zip line e una colonia di pinguini del Capo che condivide il recinto gelido con i visitatori. Dentro, la temperatura resta tra i -2 e i -4 °C, con giacche, pantaloni e scarponi forniti. Fuori, il Cairo può segnare dai 25 ai 40 °C nello stesso pomeriggio, e in questo sta metà del divertimento. Ski Egypt parla ai viaggiatori urbani che inseriscono una giornata curiosa tra Piramidi e Khan El Khalili, alle famiglie che fanno provare la neve ai più piccoli e ai collezionisti di paesi sciati insoliti."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 0,
+      "red": 0,
+      "black": 0
+    }
   }
 ]

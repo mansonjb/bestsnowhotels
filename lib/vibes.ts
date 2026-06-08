@@ -78,6 +78,12 @@ const VIBES: Record<string, Record<Locale, string>> = {
   tram: { en: 'tram-access', fr: 'téléphérique-roi', es: 'teleférico estrella', pt: 'teleférico ícone', it: 'funivia regina' },
   isolated: { en: 'isolated', fr: 'isolée', es: 'aislada', pt: 'isolada', it: 'isolata' },
   'ski-only': { en: 'ski-only', fr: 'skis seulement', es: 'solo esquí', pt: 'só esqui', it: 'solo sci' },
+  'desert-ski': { en: 'desert ski', fr: 'ski du désert', es: 'esquí del desierto', pt: 'esqui do deserto', it: 'sci del deserto' },
+  'cedar-forest': { en: 'cedar forest', fr: 'cédraie', es: 'cedral', pt: 'cedral', it: 'cedrate' },
+  'southern-hemisphere': { en: 'Southern Hemisphere', fr: 'hémisphère sud', es: 'hemisferio sur', pt: 'hemisfério sul', it: 'emisfero sud' },
+  indoor: { en: 'indoor', fr: 'indoor', es: 'cubierto', pt: 'indoor', it: 'indoor' },
+  'year-round': { en: 'year-round', fr: "toute l'année", es: 'todo el año', pt: 'todo o ano', it: 'tutto l\'anno' },
+  unique: { en: 'unique', fr: 'unique', es: 'único', pt: 'único', it: 'unica' },
 }
 
 export function localizeVibe(slug: string, locale: Locale): string {

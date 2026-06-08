@@ -9,13 +9,13 @@
     "about": "À propos"
   },
   "hero": {
-    "badge": "Hôtels ski-in/ski-out des Alpes aux Rocheuses",
+    "badge": "Hôtels ski-in/ski-out à travers le monde, des Alpes à l'Atlas",
     "title": "Les meilleurs hôtels pour skier dès la sortie de votre chambre.",
-    "subtitle": "359 stations triées sur le volet en France, Suisse, Autriche, Italie, Espagne, Andorre, Allemagne, Norvège, Suède, Finlande, Japon et États-Unis. Altitudes réelles, vrai ski-in/ski-out, meilleur prix sur Booking, Expedia et Hotels.com.",
+    "subtitle": "369 stations triées sur le volet en France, Suisse, Autriche, Italie, Espagne, Andorre, Allemagne, Norvège, Suède, Finlande, Japon, États-Unis, Maroc, Algérie, Lesotho, Afrique du Sud et Égypte. Altitudes réelles, vrai ski-in/ski-out, meilleur prix sur Booking, Expedia et Hotels.com.",
     "cta": "Voir les destinations",
-    "stat1Value": "359",
+    "stat1Value": "369",
     "stat1Label": "Destinations ski",
-    "stat2Value": "12",
+    "stat2Value": "17",
     "stat2Label": "Pays",
     "stat3Value": "100 %",
     "stat3Label": "Gratuit"
@@ -102,7 +102,7 @@
   },
   "best": {
     "title": "Les meilleures stations de ski : listes par envie",
-    "subtitle": "Sélections des stations les plus enneigées, les plus grandes, les plus chic et au meilleur rapport qualité-prix de notre base, toutes choisies sur les vraies données de nos 359 destinations.",
+    "subtitle": "Sélections des stations les plus enneigées, les plus grandes, les plus chic et au meilleur rapport qualité-prix de notre base, toutes choisies sur les vraies données de nos 369 destinations.",
     "howRanked": "Comment on a choisi",
     "exploreList": "Découvrir la sélection"
   },
@@ -118,8 +118,8 @@
     "passLabel": "Forfait"
   },
   "weather": {
-    "title": "Bulletin neige en direct des Alpes aux Rocheuses",
-    "subtitle": "Hauteur de neige, températures et prévisions à 7 jours pour les 359 stations de notre base, mis à jour toutes les 30 minutes.",
+    "title": "Bulletin neige en direct à travers le monde",
+    "subtitle": "Hauteur de neige, températures et prévisions à 7 jours pour les 369 stations de notre base, mis à jour toutes les 30 minutes.",
     "pageTitleResort": "Bulletin neige",
     "asOf": "Mis à jour",
     "livePill": "En direct",
@@ -171,7 +171,7 @@
     "byCountrySubtitle": "Choisissez votre massif.",
     "howTitle": "Comment fonctionne BestSnowHotels",
     "stepLabel": "ÉTAPE",
-    "howStep1Title": "Parcourez 359 stations",
+    "howStep1Title": "Parcourez 369 stations",
     "howStep1Text": "Chaque page donne les altitudes réelles, les kilomètres de pistes et une note ski-in/ski-out transparente. Pas de blabla.",
     "howStep2Title": "Voyez les hôtels sur la carte",
     "howStep2Text": "Les cartes Stay22 affichent en temps réel les hôtels et appartements autour des remontées, avec les prix en direct des grands opérateurs.",

@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory from the Alps to the Rockies. 359 hand-picked ski destinations in France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan and the United States, with verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas. 369 hand-picked ski destinations across 17 countries and 4 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa and Egypt (indoor). Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -43,7 +43,7 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 
 A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
 
-- /weather: index of all 359 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather: index of all 369 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
@@ -80,6 +80,9 @@ United States (Rockies, Wasatch, Sierra, Tetons, East Coast):
 - Best ski resorts in the Utah Wasatch
 - Best ski resorts on the US East Coast
 
+Africa (Atlas, Djurdjura, Maluti, Drakensberg, indoor Cairo):
+- Ski resorts in Africa
+
 Index: https://www.bestsnowhotels.com/en/best
 
 ## Country coverage
@@ -96,6 +99,11 @@ Index: https://www.bestsnowhotels.com/en/best
 - Finland (7): Levi, Ylläs, Ruka, Saariselkä, Pyhä-Luosto, Iso-Syöte, Salla
 - Japan (12): Niseko, Rusutsu, Furano, Kiroro, Sapporo Teine, Tomamu (Hokkaido); Hakuba Happo-One, Hakuba Goryu & 47, Shiga Kogen, Nozawa Onsen, Myoko Akakura (Japanese Alps / Nagano-Niigata); Zao Onsen (Tohoku)
 - United States (20): Vail, Aspen Snowmass, Beaver Creek, Breckenridge, Telluride, Steamboat (Colorado Rockies); Park City, Deer Valley, Snowbird, Alta (Wasatch / Utah); Mammoth Mountain, Palisades Tahoe, Heavenly (Sierra Nevada / California); Jackson Hole (Wyoming), Big Sky (Montana), Sun Valley (Idaho), Whitefish Mountain (Montana) (Northern Rockies); Stowe, Killington (Green Mountains / Vermont); Taos Ski Valley (Sangre de Cristo / New Mexico)
+- Morocco (4): Oukaïmeden (High Atlas, near Marrakech); Mischliffen, Jbel Habri, Jbel Bou Iblane (Middle Atlas)
+- Algeria (3): Chréa (Atlas Blidéen, near Algiers); Tikjda, Tala-Guilef (Djurdjura, Kabylia)
+- Lesotho (1): Afriski Mountain Resort (Maluti, highest ski base in Africa at 3050 m, southern-hemisphere season Jun-Aug)
+- South Africa (1): Tiffindell (Eastern Cape Drakensberg, southern-hemisphere season Jun-Aug)
+- Egypt (1): Ski Egypt (Mall of Egypt, Cairo — the only indoor ski slope in Africa, year-round)
 
 ## Languages
 

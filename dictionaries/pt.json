@@ -9,13 +9,13 @@
     "about": "Sobre"
   },
   "hero": {
-    "badge": "Hotéis ski-in/ski-out dos Alpes às Rochosas",
+    "badge": "Hotéis ski-in/ski-out pelo mundo, dos Alpes ao Atlas",
     "title": "Os melhores hotéis de neve, onde o teleférico sai à sua porta",
-    "subtitle": "359 estâncias cuidadosamente escolhidas em França, Suíça, Áustria, Itália, Espanha, Andorra, Alemanha, Noruega, Suécia, Finlândia, Japão e Estados Unidos. Altitudes reais, ski-in/ski-out a sério, o melhor preço entre Booking, Expedia e Hotels.com.",
+    "subtitle": "369 estâncias cuidadosamente escolhidas em França, Suíça, Áustria, Itália, Espanha, Andorra, Alemanha, Noruega, Suécia, Finlândia, Japão, Estados Unidos, Marrocos, Argélia, Lesoto, África do Sul e Egito. Altitudes reais, ski-in/ski-out a sério, o melhor preço entre Booking, Expedia e Hotels.com.",
     "cta": "Ver destinos",
-    "stat1Value": "359",
+    "stat1Value": "369",
     "stat1Label": "Destinos de esqui",
-    "stat2Value": "12",
+    "stat2Value": "17",
     "stat2Label": "Países",
     "stat3Value": "100 %",
     "stat3Label": "Grátis"
@@ -102,7 +102,7 @@
   },
   "best": {
     "title": "As melhores estâncias de esqui: listas por intenção",
-    "subtitle": "Seleções das estâncias com mais neve, maiores, mais chiques e com a melhor relação qualidade-preço da nossa base, todas escolhidas a partir de dados reais sobre 359 destinos.",
+    "subtitle": "Seleções das estâncias com mais neve, maiores, mais chiques e com a melhor relação qualidade-preço da nossa base, todas escolhidas a partir de dados reais sobre 369 destinos.",
     "howRanked": "Como escolhemos",
     "exploreList": "Explorar a seleção"
   },
@@ -118,8 +118,8 @@
     "passLabel": "Forfait"
   },
   "weather": {
-    "title": "Boletim de neve em direto dos Alpes às Rochosas",
-    "subtitle": "Altura de neve, temperaturas e previsão a 7 dias para as 359 estâncias da nossa base, atualizadas a cada 30 minutos.",
+    "title": "Boletim de neve em direto pelo mundo",
+    "subtitle": "Altura de neve, temperaturas e previsão a 7 dias para as 369 estâncias da nossa base, atualizadas a cada 30 minutos.",
     "pageTitleResort": "Boletim de neve",
     "asOf": "Atualizado",
     "livePill": "Em direto",
@@ -171,7 +171,7 @@
     "byCountrySubtitle": "Escolha a sua cordilheira.",
     "howTitle": "Como funciona o BestSnowHotels",
     "stepLabel": "PASSO",
-    "howStep1Title": "Explore 359 estâncias",
+    "howStep1Title": "Explore 369 estâncias",
     "howStep1Text": "Cada página mostra altitudes reais, quilómetros de pistas e uma nota ski-in/ski-out transparente. Sem rodeios.",
     "howStep2Title": "Veja os hotéis no mapa",
     "howStep2Text": "Os mapas Stay22 mostram em tempo real os hotéis e apartamentos à volta dos teleféricos, com os preços em direto dos principais operadores.",

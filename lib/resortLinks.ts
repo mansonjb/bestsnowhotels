@@ -367,6 +367,16 @@ const RESORT_SITES: Record<string, string> = {
   'sun-valley': 'https://www.sunvalley.com',
   'taos-ski-valley': 'https://www.skitaos.com',
   whitefish: 'https://skiwhitefish.com',
+  oukaimeden: 'https://oukaimeden.com',
+  mischliffen: 'https://www.michlifenresort.com',
+  'jbel-habri': 'https://www.skiforum.fr/jbel-habri',
+  'jbel-bou-iblane': 'https://www.skiforum.fr/jbel-bou-iblane',
+  chrea: 'https://www.skichrea.dz',
+  tikjda: 'https://www.tikjda.dz',
+  'tala-guilef': 'https://www.djurdjura.dz',
+  afriski: 'https://afriski.net',
+  tiffindell: 'https://tiffindell.co.za',
+  'ski-egypt': 'https://www.skiegy.com',
 }
 
 export function resortSite(slug: string): string | null {

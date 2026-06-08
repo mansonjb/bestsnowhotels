@@ -387,6 +387,16 @@ const TARGETS = [
   { slug: 'sun-valley',           query: 'Sun Valley Idaho USA historic ski resort Bald Mountain Ketchum winter snow' },
   { slug: 'taos-ski-valley',      query: 'Taos Ski Valley New Mexico USA ski resort Sangre de Cristo adobe Southwest winter snow' },
   { slug: 'whitefish',            query: 'Whitefish Mountain Montana USA ski resort Big Mountain Glacier National Park winter snow' },
+  { slug: 'oukaimeden',           query: 'Oukaimeden Morocco High Atlas ski resort Mt Toubkal Berber village winter snow' },
+  { slug: 'mischliffen',          query: 'Mischliffen Ifrane Morocco Middle Atlas ski resort cedar forest crater winter snow' },
+  { slug: 'jbel-habri',           query: 'Jbel Habri Azrou Morocco Middle Atlas ski cedar forest winter snow' },
+  { slug: 'jbel-bou-iblane',      query: 'Jbel Bou Iblane Taza Morocco Middle Atlas remote ski cedar forest winter snow' },
+  { slug: 'chrea',                query: 'Chrea Atlas Blideen Algeria ski resort national park Mediterranean mountain winter snow' },
+  { slug: 'tikjda',               query: 'Tikjda Djurdjura Bouira Algeria ski resort limestone Kabylia winter snow' },
+  { slug: 'tala-guilef',          query: 'Tala Guilef Djurdjura Algeria ski cedar forest Kabylia mountain winter snow' },
+  { slug: 'afriski',              query: 'Afriski Mountain Resort Lesotho Maluti ski highest base Africa snow guns lodge winter' },
+  { slug: 'tiffindell',           query: 'Tiffindell ski resort Eastern Cape Drakensberg South Africa highest mountain winter snow' },
+  { slug: 'ski-egypt',            query: 'Ski Egypt Mall of Egypt Cairo indoor ski slope snow Africa penguin' },
 ]
 
 async function searchPhoto(query, apiKey) {

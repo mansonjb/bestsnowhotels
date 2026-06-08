@@ -9,13 +9,13 @@
     "about": "Acerca de"
   },
   "hero": {
-    "badge": "Hoteles ski-in/ski-out de los Alpes a las Rocosas",
+    "badge": "Hoteles ski-in/ski-out por el mundo, de los Alpes al Atlas",
     "title": "Los mejores hoteles de nieve, donde el remonte sale de tu puerta",
-    "subtitle": "359 estaciones cuidadosamente seleccionadas en Francia, Suiza, Austria, Italia, España, Andorra, Alemania, Noruega, Suecia, Finlandia, Japón y Estados Unidos. Altitudes reales, ski-in/ski-out de verdad, el mejor precio entre Booking, Expedia y Hotels.com.",
+    "subtitle": "369 estaciones cuidadosamente seleccionadas en Francia, Suiza, Austria, Italia, España, Andorra, Alemania, Noruega, Suecia, Finlandia, Japón, Estados Unidos, Marruecos, Argelia, Lesoto, Sudáfrica y Egipto. Altitudes reales, ski-in/ski-out de verdad, el mejor precio entre Booking, Expedia y Hotels.com.",
     "cta": "Ver destinos",
-    "stat1Value": "359",
+    "stat1Value": "369",
     "stat1Label": "Destinos de esquí",
-    "stat2Value": "12",
+    "stat2Value": "17",
     "stat2Label": "Países",
     "stat3Value": "100 %",
     "stat3Label": "Gratis"
@@ -68,7 +68,7 @@
     "pistesKm": "Pistas",
     "lifts": "Remontes",
     "pisteTitle": "Pistas y remontes",
-    "pisteNote": "El número de pistas y los kilómetros son indicativos. Las pistas verdes solo existen en Francia, España, Andorra, Noruega, Suecia, Finlandia, Japón y Estados Unidos; Italia, Austria, Suiza y Alemania empiezan en azul.",
+    "pisteNote": "El número de pistas y los kilómetros son indicativos. Las pistas verdes solo existen en Francia, España, Andorra, Noruega, Suecia, Finlandia, Japón, Estados Unidos, Marruecos, Argelia, Lesoto, Sudáfrica y Egipto; Italia, Austria, Suiza y Alemania empiezan en azul.",
     "runs": "pistas señalizadas",
     "glacierSkiing": "Esquí en glaciar",
     "pisteGreen": "Verdes",
@@ -102,7 +102,7 @@
   },
   "best": {
     "title": "Las mejores estaciones de esquí: listas por intención",
-    "subtitle": "Selecciones de las estaciones con más nieve, más grandes, más chic y de mejor relación calidad-precio de nuestra base, escogidas a partir de datos reales sobre 359 destinos.",
+    "subtitle": "Selecciones de las estaciones con más nieve, más grandes, más chic y de mejor relación calidad-precio de nuestra base, escogidas a partir de datos reales sobre 369 destinos.",
     "howRanked": "Cómo elegimos",
     "exploreList": "Explorar la selección"
   },
@@ -118,8 +118,8 @@
     "passLabel": "Forfait"
   },
   "weather": {
-    "title": "Parte de nieve en directo de los Alpes a las Rocosas",
-    "subtitle": "Altura de nieve, temperaturas y previsión a 7 días para las 359 estaciones de nuestra base, actualizadas cada 30 minutos.",
+    "title": "Parte de nieve en directo por el mundo",
+    "subtitle": "Altura de nieve, temperaturas y previsión a 7 días para las 369 estaciones de nuestra base, actualizadas cada 30 minutos.",
     "pageTitleResort": "Parte de nieve",
     "asOf": "Actualizado",
     "livePill": "En directo",
@@ -171,7 +171,7 @@
     "byCountrySubtitle": "Elige tu cordillera.",
     "howTitle": "Cómo funciona BestSnowHotels",
     "stepLabel": "PASO",
-    "howStep1Title": "Explora 359 estaciones",
+    "howStep1Title": "Explora 369 estaciones",
     "howStep1Text": "Cada página muestra altitudes reales, kilómetros de pistas y una nota ski-in/ski-out transparente. Sin adornos.",
     "howStep2Title": "Ve los hoteles en el mapa",
     "howStep2Text": "Los mapas Stay22 muestran en tiempo real los hoteles y apartamentos alrededor de los remontes, con los precios en directo de los principales operadores.",
