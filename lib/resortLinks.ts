@@ -377,6 +377,16 @@ const RESORT_SITES: Record<string, string> = {
   afriski: 'https://afriski.net',
   tiffindell: 'https://tiffindell.co.za',
   'ski-egypt': 'https://www.skiegy.com',
+  'whistler-blackcomb': 'https://www.whistlerblackcomb.com',
+  'banff-sunshine': 'https://www.skibanff.com',
+  'lake-louise': 'https://www.skilouise.com',
+  revelstoke: 'https://www.revelstokemountainresort.com',
+  tremblant: 'https://www.tremblant.ca',
+  'big-white': 'https://www.bigwhite.com',
+  'sun-peaks': 'https://www.sunpeaksresort.com',
+  'kicking-horse': 'https://kickinghorseresort.com',
+  'mont-sainte-anne': 'https://mont-sainte-anne.com',
+  'marmot-basin': 'https://www.skimarmot.com',
 }
 
 export function resortSite(slug: string): string | null {

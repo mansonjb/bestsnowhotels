@@ -56,6 +56,7 @@ const isEurope = (d: Destination) => EUROPE_COUNTRY_CODES.has(d.countryCode)
 const isJapan = (d: Destination) => d.countryCode === 'JP'
 const isUSA = (d: Destination) => d.countryCode === 'US'
 const isAfrica = (d: Destination) => AFRICA_COUNTRY_CODES.has(d.countryCode)
+const isCanada = (d: Destination) => d.countryCode === 'CA'
 
 /** US powder-focused subset (snow + freeride + tree-skiing pedigree). */
 const USA_POWDER_RESORTS = new Set([
@@ -703,6 +704,34 @@ export const BEST_FOR_LISTS: BestForList[] = [
       it: "Lo sci africano è breve, spesso poco affidabile e quasi sempre piccolo. È esattamente questo a renderlo speciale. Oukaïmeden, nell'Alto Atlante marocchino, è la testa di cartellone a 2620 m con 7 impianti e il Toubkal sullo sfondo; Mischliffen e un pugno di località dell'Atlante Medio aggiungono lo sci tra i cedri vicino a Ifrane. L'Algeria schiera Chréa sopra Blida e la coppia del Djurdjura (Tikjda + Tala-Guilef). Afriski in Lesotho ha la base più alta d'Africa (3050 m) e scia l'inverno australe da giugno ad agosto, con Tiffindell in Sudafrica al seguito. Ski Egypt al Cairo è indoor, aperto tutto l'anno. Nulla di tutto questo è all'altezza delle Alpi. Tutto è improbabile, nel senso migliore.",
     },
     filter: (d) => isAfrica(d),
+    sort: (d) => d.snowScore,
+    limit: 12,
+  },
+  {
+    slug: 'canada',
+    heroSlug: 'whistler-blackcomb',
+    name: {
+      en: 'Best ski resorts in Canada',
+      fr: 'Meilleures stations de ski au Canada',
+      es: 'Mejores estaciones de esquí de Canadá',
+      pt: 'Melhores estâncias de esqui do Canadá',
+      it: 'Migliori località sciistiche del Canada',
+    },
+    intro: {
+      en: "Whistler's Pacific maritime giant, the Banff National Park trio, the alpine steeps of Kicking Horse and Revelstoke, plus East-Coast Tremblant and Mont-Sainte-Anne: ten resorts that frame Canadian skiing in one list.",
+      fr: "Le géant maritime du Pacifique à Whistler, le trio du parc national de Banff, le raide alpin de Kicking Horse et Revelstoke, plus Tremblant et le Mont-Sainte-Anne côté Est : dix stations qui résument le ski canadien en une liste.",
+      es: 'El gigante marítimo del Pacífico en Whistler, el trío del parque nacional de Banff, los empinados alpinos de Kicking Horse y Revelstoke, más Tremblant y Mont-Sainte-Anne en el Este: diez estaciones que resumen el esquí canadiense.',
+      pt: 'O gigante marítimo do Pacífico em Whistler, o trio do parque nacional de Banff, os íngremes alpinos de Kicking Horse e Revelstoke, mais Tremblant e Mont-Sainte-Anne no Leste: dez estâncias que resumem o esqui canadiano.',
+      it: "Il gigante marittimo del Pacifico a Whistler, il trio del parco nazionale di Banff, le ripide alpine di Kicking Horse e Revelstoke, più Tremblant e Mont-Sainte-Anne sul versante Est: dieci località che riassumono lo sci canadese.",
+    },
+    description: {
+      en: "Canada packs two ski countries onto one passport. The West runs maritime + continental in big chunks: Whistler Blackcomb on the Pacific with the Peak 2 Peak Gondola, the Banff park trio (Sunshine + Lake Louise + Marmot Basin) trading on altitude and national-park scenery, the BC Interior offering Big White and Sun Peaks for family powder, Revelstoke for the highest vertical in North America, Kicking Horse for the steepest in-bounds Canadian terrain. The East runs colder and smaller: Tremblant's pedestrian village 2 hr from Montreal, Mont-Sainte-Anne's St-Lawrence views 30 min from Quebec City. November-to-May seasons on both coasts.",
+      fr: "Le Canada loge deux pays de ski sur un même passeport. L'Ouest, c'est du maritime + du continental par gros blocs : Whistler Blackcomb sur le Pacifique avec la Peak 2 Peak Gondola, le trio du parc de Banff (Sunshine + Lake Louise + Marmot Basin) qui mise sur l'altitude et les paysages de parc national, l'intérieur de la C.-B. avec Big White et Sun Peaks pour la poudreuse en famille, Revelstoke pour le plus gros dénivelé d'Amérique du Nord, Kicking Horse pour le plus raide en bord de piste du pays. L'Est est plus froid et plus petit : le village piéton de Tremblant à 2 h de Montréal, les vues sur le Saint-Laurent du Mont-Sainte-Anne à 30 min de Québec. Saisons de novembre à mai des deux côtés.",
+      es: "Canadá mete dos países de esquí en un solo pasaporte. El Oeste corre marítimo + continental por grandes bloques: Whistler Blackcomb en el Pacífico con la Peak 2 Peak Gondola, el trío del parque de Banff (Sunshine + Lake Louise + Marmot Basin) que apuesta por la altitud y los paisajes de parque nacional, el interior de la Columbia Británica con Big White y Sun Peaks para polvo en familia, Revelstoke para el mayor desnivel de Norteamérica, Kicking Horse para el terreno más empinado dentro de pistas del país. El Este corre más frío y más pequeño: el pueblo peatonal de Tremblant a 2 h de Montreal, las vistas al San Lorenzo de Mont-Sainte-Anne a 30 min de Quebec. Temporadas de noviembre a mayo en ambos lados.",
+      pt: "O Canadá mete dois países de esqui num só passaporte. O Oeste corre marítimo + continental em grandes blocos: Whistler Blackcomb no Pacífico com a Peak 2 Peak Gondola, o trio do parque de Banff (Sunshine + Lake Louise + Marmot Basin) que aposta na altitude e nas paisagens de parque nacional, o interior da Colúmbia Britânica com Big White e Sun Peaks para neve em pó em família, Revelstoke para o maior desnível da América do Norte, Kicking Horse para o terreno mais íngreme dentro de pistas do país. O Leste corre mais frio e mais pequeno: a vila pedonal de Tremblant a 2 h de Montreal, as vistas para o São Lourenço de Mont-Sainte-Anne a 30 min de Quebec. Épocas de novembro a maio dos dois lados.",
+      it: "Il Canada infila due paesi sciistici in un solo passaporto. L'Ovest corre marittimo + continentale a grandi blocchi: Whistler Blackcomb sul Pacifico con la Peak 2 Peak Gondola, il trio del parco di Banff (Sunshine + Lake Louise + Marmot Basin) che punta sulla quota e sui paesaggi da parco nazionale, l'interno della Columbia Britannica con Big White e Sun Peaks per la polvere in famiglia, Revelstoke per il maggior dislivello del Nord America, Kicking Horse per il terreno più ripido in pista del paese. L'Est corre più freddo e più piccolo: il villaggio pedonale di Tremblant a 2 h da Montréal, le viste sul San Lorenzo del Mont-Sainte-Anne a 30 min da Québec. Stagioni da novembre a maggio su entrambi i versanti.",
+    },
+    filter: (d) => isCanada(d),
     sort: (d) => d.snowScore,
     limit: 12,
   },

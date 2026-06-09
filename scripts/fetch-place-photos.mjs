@@ -397,6 +397,16 @@ const TARGETS = [
   { slug: 'afriski',              query: 'Afriski Mountain Resort Lesotho Maluti ski highest base Africa snow guns lodge winter' },
   { slug: 'tiffindell',           query: 'Tiffindell ski resort Eastern Cape Drakensberg South Africa highest mountain winter snow' },
   { slug: 'ski-egypt',            query: 'Ski Egypt Mall of Egypt Cairo indoor ski slope snow Africa penguin' },
+  { slug: 'whistler-blackcomb',   query: 'Whistler Blackcomb British Columbia Canada ski resort Peak 2 Peak gondola pedestrian village winter snow' },
+  { slug: 'banff-sunshine',       query: 'Banff Sunshine Village Alberta Canada ski resort Continental Divide National Park winter snow' },
+  { slug: 'lake-louise',          query: 'Lake Louise ski resort Banff Alberta Canada Canadian Rockies World Cup downhill winter snow' },
+  { slug: 'revelstoke',           query: 'Revelstoke Mountain Resort British Columbia Canada highest vertical Selkirk Mountains powder winter snow' },
+  { slug: 'tremblant',            query: 'Mont Tremblant Quebec Canada ski resort pedestrian village Laurentides winter snow' },
+  { slug: 'big-white',            query: 'Big White ski resort British Columbia Canada Kelowna snow ghosts powder winter' },
+  { slug: 'sun-peaks',            query: 'Sun Peaks Resort British Columbia Canada Kamloops Tyrolean village three mountains winter snow' },
+  { slug: 'kicking-horse',        query: 'Kicking Horse Mountain Resort Golden British Columbia Canada Eagle Eye gondola alpine bowls winter' },
+  { slug: 'mont-sainte-anne',     query: 'Mont Sainte-Anne ski resort Quebec Canada gondola St Lawrence River winter snow' },
+  { slug: 'marmot-basin',         query: 'Marmot Basin Jasper National Park Alberta Canada ski resort Canadian Rockies winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

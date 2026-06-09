@@ -61,9 +61,9 @@ export default async function OG() {
             color: '#e3f1fa',
           }}
         >
-          <span>369 resorts</span>
+          <span>379 resorts</span>
           <span>·</span>
-          <span>17 countries</span>
+          <span>18 countries</span>
           <span>·</span>
           <span>5 languages</span>
         </div>

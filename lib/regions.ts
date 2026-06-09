@@ -188,6 +188,34 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Indoor do Cairo',
     it: 'Indoor del Cairo',
   },
+  'Coast Mountains': {
+    en: 'Coast Mountains',
+    fr: 'Chaîne Côtière',
+    es: 'Cordillera Costera',
+    pt: 'Cordilheira Costeira',
+    it: 'Catena Costiera',
+  },
+  'Canadian Rockies': {
+    en: 'Canadian Rockies',
+    fr: 'Rocheuses canadiennes',
+    es: 'Rocosas canadienses',
+    pt: 'Rochosas canadianas',
+    it: 'Montagne Rocciose canadesi',
+  },
+  'BC Interior': {
+    en: 'BC Interior',
+    fr: "Intérieur de la Colombie-Britannique",
+    es: 'Interior de la Columbia Británica',
+    pt: 'Interior da Colúmbia Britânica',
+    it: 'Interno della Columbia Britannica',
+  },
+  'Laurentides': {
+    en: 'Laurentides',
+    fr: 'Laurentides',
+    es: 'Laurentides',
+    pt: 'Laurentides',
+    it: 'Laurentides',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {

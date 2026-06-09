@@ -229,6 +229,19 @@ export const COUNTRIES: Country[] = [
     },
   },
   {
+    slug: 'canada',
+    name: 'Canada',
+    countryCode: 'CA',
+    flag: '🇨🇦',
+    intro: {
+      en: "Canada runs two utterly different ski countries on one passport. The West is big-mountain skiing in its purest form: Whistler Blackcomb on the Pacific Coast, the Banff Park trio of Sunshine + Lake Louise + Marmot, the steep alpine of Kicking Horse and Revelstoke, the snowy interior of Big White and Sun Peaks. The East runs colder, smaller, and tougher: Tremblant's pedestrian village and Mont-Sainte-Anne's St-Lawrence views in the Laurentides. Long seasons either side, often into May.",
+      fr: "Le Canada fait tenir deux pays de ski radicalement différents sur un seul passeport. L'Ouest, c'est le ski de grande montagne dans sa version la plus pure : Whistler Blackcomb sur la côte Pacifique, le trio du parc de Banff (Sunshine + Lake Louise + Marmot), l'alpin raide de Kicking Horse et Revelstoke, l'intérieur enneigé de Big White et Sun Peaks. L'Est est plus froid, plus petit, plus rude : le village piéton de Tremblant et les vues sur le Saint-Laurent du Mont-Sainte-Anne dans les Laurentides. Saisons longues des deux côtés, souvent jusqu'en mai.",
+      es: "Canadá hace caber dos países de esquí radicalmente distintos en un solo pasaporte. El Oeste es esquí de gran montaña en estado puro: Whistler Blackcomb en la costa del Pacífico, el trío del parque de Banff (Sunshine + Lake Louise + Marmot), el alpino empinado de Kicking Horse y Revelstoke, el interior nevado de Big White y Sun Peaks. El Este corre más frío, más pequeño, más duro: el pueblo peatonal de Tremblant y las vistas al San Lorenzo de Mont-Sainte-Anne en las Laurentides. Temporadas largas en ambos lados, a menudo hasta mayo.",
+      pt: "O Canadá faz caber dois países de esqui radicalmente diferentes num só passaporte. O Oeste é esqui de grande montanha em estado puro: Whistler Blackcomb na costa do Pacífico, o trio do parque de Banff (Sunshine + Lake Louise + Marmot), o alpino íngreme de Kicking Horse e Revelstoke, o interior nevado de Big White e Sun Peaks. O Leste corre mais frio, mais pequeno, mais duro: a vila pedonal de Tremblant e as vistas para o São Lourenço do Mont-Sainte-Anne nas Laurentides. Épocas longas dos dois lados, frequentemente até maio.",
+      it: "Il Canada fa stare due paesi sciistici radicalmente diversi in un solo passaporto. L'Ovest è sci di grande montagna allo stato puro: Whistler Blackcomb sulla costa del Pacifico, il trio del parco di Banff (Sunshine + Lake Louise + Marmot), l'alpino ripido di Kicking Horse e Revelstoke, l'interno innevato di Big White e Sun Peaks. L'Est corre più freddo, più piccolo, più ruvido: il villaggio pedonale di Tremblant e le viste sul San Lorenzo del Mont-Sainte-Anne nelle Laurentides. Stagioni lunghe da entrambe le parti, spesso fino a maggio.",
+    },
+  },
+  {
     slug: 'united-states',
     name: 'United States',
     countryCode: 'US',

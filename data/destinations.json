@@ -18118,5 +18118,513 @@
       "red": 0,
       "black": 0
     }
+  },
+  {
+    "slug": "whistler-blackcomb",
+    "name": "Whistler Blackcomb",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "Coast Mountains",
+    "lat": 50.1163,
+    "lng": -122.9574,
+    "altitudeBase": 675,
+    "altitudeSummit": 2284,
+    "pistesKm": 460,
+    "lifts": 38,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is concentrated on the Upper Village around the Blackcomb base and the Whistler Creekside gondola. Most Whistler Village lodgings are a short walk or shuttle from the lifts, very few have skis-on-the-snow access despite the marketing.",
+      "fr": "Le vrai ski-in/ski-out se concentre dans l'Upper Village au pied de Blackcomb et autour de la télécabine de Whistler Creekside. La plupart des hébergements de Whistler Village sont à quelques minutes à pied ou en navette des remontées, peu sont skis aux pieds malgré les annonces.",
+      "es": "El verdadero ski-in/ski-out se concentra en el Upper Village al pie de Blackcomb y junto al teleférico de Whistler Creekside. La mayoría de los alojamientos del Whistler Village quedan a pocos minutos a pie o en lanzadera de los remontes, muy pocos son realmente a pie de pistas pese a lo que prometen.",
+      "pt": "O verdadeiro ski-in/ski-out concentra-se na Upper Village ao pé de Blackcomb e junto ao teleférico de Whistler Creekside. A maioria dos alojamentos de Whistler Village fica a poucos minutos a pé ou de shuttle dos teleféricos, muito poucos são mesmo a pé das pistas apesar do que prometem.",
+      "it": "Il vero ski-in/ski-out si concentra nell'Upper Village ai piedi di Blackcomb e attorno alla cabinovia di Whistler Creekside. La maggior parte degli alloggi del Whistler Village dista pochi minuti a piedi o di navetta dagli impianti, ben pochi sono davvero sci ai piedi nonostante quanto promesso."
+    },
+    "seasonStart": "Nov 23",
+    "seasonEnd": "May 25",
+    "snowScore": 94,
+    "vibes": [
+      "big-domain",
+      "iconic",
+      "luxury",
+      "freeride",
+      "glacier"
+    ],
+    "intro": {
+      "en": "Whistler Blackcomb is North America's biggest playground, two giant peaks linked by the Peak 2 Peak Gondola, hosting Olympic memories from 2010 and Pacific powder that falls in feet, not inches. A pedestrian village at the base hums all winter long, ninety minutes from Vancouver.",
+      "fr": "Whistler Blackcomb, c'est le plus grand domaine d'Amérique du Nord, deux pics géants reliés par la télécabine Peak 2 Peak, l'héritage des Jeux olympiques de 2010 et la neige du Pacifique qui tombe par mètres entiers. Village piéton vibrant à 90 minutes de Vancouver, en Colombie-Britannique au Canada.",
+      "es": "Whistler Blackcomb es el mayor dominio esquiable de Norteamérica, dos cumbres gigantes unidas por el teleférico Peak 2 Peak, sede de los Juegos Olímpicos de 2010 y nieve del Pacífico que cae a metros. Pueblo peatonal a 90 minutos de Vancouver, en Columbia Británica, Canadá.",
+      "pt": "Whistler Blackcomb é o maior domínio esquiável da América do Norte, dois picos gigantes ligados pelo teleférico Peak 2 Peak, palco dos Jogos Olímpicos de 2010 e neve do Pacífico que cai aos metros. Vila pedonal vibrante a 90 minutos de Vancouver, na Colúmbia Britânica, Canadá.",
+      "it": "Whistler Blackcomb è il più grande comprensorio del Nord America, due vette giganti collegate dalla cabinovia Peak 2 Peak, sede dei Giochi Olimpici 2010 e neve del Pacifico che cade a metri. Villaggio pedonale vivace a 90 minuti da Vancouver, in Columbia Britannica, Canada."
+    },
+    "longDescription": {
+      "en": "Saying Whistler is big does not really capture it. The two mountains together cover around 3300 hectares and 460 km of marked pistes, with 41 greens, 109 blues, 90 reds and 30 blacks. The Peak 2 Peak Gondola stitches them in eleven minutes across the valley, glass-floor cabins included. You can ski groomed motorways on Blackcomb's Solar Coaster ridge, drop into the Spanky's Ladder backcountry chutes, then finish with sun-warmed turns on the Horstman Glacier well into May. Beginners get gentle wide carpets at Olympic Plaza, intermediates own the place, experts have alpine bowls and steep tree skiing for entire seasons. Down at the base, Whistler Village is fully pedestrian, an Intrawest creation with restaurants, hot tubs, breweries and live music every night. The Pacific maritime climate brings heavy, abundant snow, occasionally rain-on-snow lower down, dependable cover up high. Vancouver airport sits ninety minutes south on the Sea-to-Sky Highway, making this resort the easiest world-class destination on the West Coast.",
+      "fr": "Dire que Whistler est grand ne suffit pas. Les deux montagnes totalisent environ 3300 hectares et 460 km de pistes balisées, 41 vertes, 109 bleues, 90 rouges et 30 noires. La télécabine Peak 2 Peak les relie en onze minutes au-dessus de la vallée, cabines à plancher de verre comprises. On enchaîne les autoroutes damées du Solar Coaster sur Blackcomb, on plonge dans les couloirs hors-piste de Spanky's Ladder, puis on termine au soleil sur le glacier Horstman jusqu'en mai. Les débutants ont des tapis larges et doux à Olympic Plaza, les intermédiaires sont chez eux, les experts disposent de bols alpins et de tree skiing pour des saisons entières. En bas, Whistler Village est entièrement piéton, une création Intrawest avec restaurants, bains chauds, brasseries et musique live chaque soir. Le climat maritime du Pacifique apporte une neige lourde et abondante, parfois mêlée de pluie en bas, mais une couverture fiable en altitude. Vancouver est à 90 minutes par la Sea-to-Sky Highway, ce qui en fait la station internationale la plus accessible de la côte Ouest canadienne.",
+      "es": "Decir que Whistler es grande se queda corto. Las dos montañas suman unas 3300 hectáreas y 460 km de pistas balizadas: 41 verdes, 109 azules, 90 rojas y 30 negras. El teleférico Peak 2 Peak las conecta en once minutos sobre el valle, con cabinas de suelo de cristal. Se enlazan las autopistas pisadas del Solar Coaster en Blackcomb, se baja por los corredores fuera de pista de Spanky's Ladder y se termina al sol en el glaciar Horstman hasta mayo. Los principiantes disponen de cintas anchas y suaves en Olympic Plaza, los intermedios reinan por todas partes, los expertos tienen circos alpinos y tree skiing para temporadas enteras. Abajo, Whistler Village es totalmente peatonal, una creación Intrawest con restaurantes, jacuzzis, cervecerías y música en vivo cada noche. El clima marítimo del Pacífico trae nieve pesada y abundante, a veces mezclada con lluvia en cotas bajas, pero cobertura segura en altura. Vancouver queda a 90 minutos por la Sea-to-Sky Highway, lo que convierte a esta estación en el destino internacional más accesible de la costa oeste canadiense.",
+      "pt": "Dizer que Whistler é grande não chega. As duas montanhas somam cerca de 3300 hectares e 460 km de pistas balizadas: 41 verdes, 109 azuis, 90 vermelhas e 30 pretas. O teleférico Peak 2 Peak liga-as em onze minutos sobre o vale, com cabinas de chão de vidro. Encadeiam-se as autoestradas pisadas do Solar Coaster em Blackcomb, mergulha-se nos corredores fora de pista de Spanky's Ladder e termina-se ao sol no glaciar Horstman até maio. Os principiantes têm tapetes largos e suaves em Olympic Plaza, os intermédios estão em casa em qualquer setor, os peritos dispõem de circos alpinos e tree skiing para épocas inteiras. Em baixo, Whistler Village é totalmente pedonal, uma criação Intrawest com restaurantes, jacuzzis, cervejarias e música ao vivo todas as noites. O clima marítimo do Pacífico traz neve pesada e abundante, por vezes com chuva nas cotas baixas, mas cobertura segura em altitude. Vancouver fica a 90 minutos pela Sea-to-Sky Highway, o que torna esta estância no destino internacional mais acessível da costa oeste canadiana.",
+      "it": "Dire che Whistler è grande è un eufemismo. Le due montagne sommano circa 3300 ettari e 460 km di piste battute: 41 verdi, 109 blu, 90 rosse e 30 nere. La cabinovia Peak 2 Peak le collega in undici minuti sopra la valle, con cabine dal pavimento di vetro. Si incatenano le autostrade battute del Solar Coaster su Blackcomb, ci si tuffa nei canali fuoripista di Spanky's Ladder e si chiude al sole sul ghiacciaio Horstman fino a maggio. I principianti hanno tappeti larghi e dolci a Olympic Plaza, gli intermedi sono di casa ovunque, gli esperti dispongono di catini alpini e tree skiing per intere stagioni. A valle, Whistler Village è interamente pedonale, una creazione Intrawest con ristoranti, vasche idromassaggio, birrifici e musica dal vivo ogni sera. Il clima marittimo del Pacifico porta neve pesante e abbondante, talvolta mista a pioggia in basso, ma copertura affidabile in quota. Vancouver è a 90 minuti sulla Sea-to-Sky Highway, il che rende questa stazione la destinazione internazionale più accessibile della costa ovest canadese."
+    },
+    "pisteCounts": {
+      "green": 41,
+      "blue": 109,
+      "red": 90,
+      "black": 30
+    }
+  },
+  {
+    "slug": "banff-sunshine",
+    "name": "Banff Sunshine",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "Canadian Rockies",
+    "lat": 51.0833,
+    "lng": -115.7833,
+    "altitudeBase": 1660,
+    "altitudeSummit": 2730,
+    "pistesKm": 145,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out at Sunshine means one place: the Sunshine Mountain Lodge at the top of the access gondola, the only on-mountain hotel inside Banff National Park. Everywhere else, you commute up by gondola from the parking lot each morning.",
+      "fr": "Le vrai ski-in/ski-out à Sunshine, c'est une seule adresse: le Sunshine Mountain Lodge en haut de la télécabine d'accès, seul hôtel sur les pistes à l'intérieur du parc national de Banff. Partout ailleurs, on rejoint le domaine chaque matin par la télécabine depuis le parking.",
+      "es": "El verdadero ski-in/ski-out en Sunshine se reduce a una sola dirección: el Sunshine Mountain Lodge en lo alto del telecabina de acceso, único hotel a pie de pistas dentro del parque nacional de Banff. En cualquier otro lugar se sube cada mañana en telecabina desde el aparcamiento.",
+      "pt": "O verdadeiro ski-in/ski-out em Sunshine resume-se a uma só morada: o Sunshine Mountain Lodge no topo do teleférico de acesso, único hotel a pé das pistas dentro do parque nacional de Banff. Em qualquer outro lado sobe-se todas as manhãs de teleférico a partir do parque de estacionamento.",
+      "it": "Il vero ski-in/ski-out a Sunshine si riduce a un solo indirizzo: il Sunshine Mountain Lodge in cima alla cabinovia di accesso, unico hotel sulle piste dentro il parco nazionale di Banff. Ovunque altrove si sale ogni mattina in cabinovia dal parcheggio."
+    },
+    "seasonStart": "Nov 8",
+    "seasonEnd": "May 18",
+    "snowScore": 93,
+    "vibes": [
+      "snow-sure",
+      "panoramic",
+      "family",
+      "iconic",
+      "national-park"
+    ],
+    "intro": {
+      "en": "Sunshine sits high inside Banff National Park, three mountains straddling the Continental Divide where the snow falls naturally from early November to mid-May. No snowmaking, no compromises, just dry Rockies powder, big views and a gondola ride from the parking lot to a snowed-in base village.",
+      "fr": "Sunshine est perché dans le parc national de Banff, trois montagnes à cheval sur la ligne de partage des eaux où la neige tombe naturellement de début novembre à mi-mai. Pas de neige de culture, pas de compromis, juste la poudreuse sèche des Rocheuses, des panoramas immenses et la télécabine qui mène du parking au village d'altitude, au Canada.",
+      "es": "Sunshine se alza dentro del parque nacional de Banff, tres montañas a caballo sobre la divisoria continental donde la nieve cae natural de principios de noviembre a mediados de mayo. Sin cañones, sin concesiones, solo polvo seco de las Rocosas, vistas inmensas y un teleférico que sube del aparcamiento al pueblo de altura, en Canadá.",
+      "pt": "Sunshine ergue-se no interior do parque nacional de Banff, três montanhas em cima da Continental Divide onde a neve cai naturalmente de início de novembro a meados de maio. Sem canhões, sem compromissos, só pó seco das Rochosas, vistas imensas e o teleférico que sobe do parque para a aldeia de altitude, no Canadá.",
+      "it": "Sunshine si alza dentro il parco nazionale di Banff, tre montagne a cavallo della Continental Divide dove la neve cade naturalmente da inizio novembre a metà maggio. Niente innevamento artificiale, nessun compromesso, solo polvere asciutta delle Rockies, panorami immensi e la cabinovia che sale dal parcheggio al villaggio d'alta quota, in Canada."
+    },
+    "longDescription": {
+      "en": "Sunshine Village is the rare ski resort you reach by gondola before you put your skis on. From the Banff parking, an eight-seater climbs five kilometres to the base at 2160 m, then three mountains open above you: Standish with its sunny family runs and the Wawa zone, Lookout straddling the Alberta-British Columbia border with sweeping high-alpine bowls, and Goat's Eye, steeper and wilder, the place locals point to for serious skiing. Total terrain reaches 1358 hectares and 145 km of pistes, 20 greens, 39 blues, 38 reds and 30 blacks. Delirium Dive and the Wild West gates demand a partner, a beacon and a transceiver, true backcountry hidden inside a ski area. Because the resort sits at altitude, snow is consistently dry and the season runs from early November to Victoria Day in May, the longest non-glacier season in Canada. The base village has a few mountain lodges and the historic Sunshine Mountain Lodge, but most skiers stay down in Banff town and ride up daily. Calgary airport is about ninety minutes east.",
+      "fr": "Sunshine Village est l'une des rares stations où l'on prend la télécabine avant même de chausser les skis. Depuis le parking de Banff, une cabine huit places grimpe cinq kilomètres jusqu'à la base à 2160 m, puis trois montagnes s'ouvrent au-dessus: Standish et ses pistes familiales ensoleillées avec la zone Wawa, Lookout à cheval sur la frontière Alberta - Colombie-Britannique et ses larges bols d'altitude, et Goat's Eye, plus raide et plus sauvage, le terrain de jeu des locaux. L'ensemble totalise 1358 hectares et 145 km de pistes, 20 vertes, 39 bleues, 38 rouges et 30 noires. Delirium Dive et les portes Wild West exigent un partenaire, un détecteur et une pelle, du vrai hors-piste caché dans la station. Comme tout se passe en altitude, la neige reste sèche et la saison court de début novembre à Victoria Day en mai, la plus longue du Canada hors glacier. Le village d'altitude compte quelques lodges et le Sunshine Mountain Lodge historique, mais la plupart des skieurs logent à Banff et montent chaque jour. L'aéroport de Calgary est à 90 minutes à l'est.",
+      "es": "Sunshine Village es una de las pocas estaciones a las que se sube en telecabina antes de calzarse los esquís. Desde el aparcamiento de Banff, una cabina de ocho plazas trepa cinco kilómetros hasta la base, a 2160 m, y entonces se abren tres montañas: Standish con sus pistas familiares al sol y la zona Wawa, Lookout a caballo sobre la frontera Alberta - Columbia Británica con amplios circos de alta montaña, y Goat's Eye, más empinada y salvaje, el terreno de juego de los locales. El dominio suma 1358 hectáreas y 145 km de pistas, 20 verdes, 39 azules, 38 rojas y 30 negras. Delirium Dive y las puertas Wild West exigen compañero, ARVA y pala, fuera de pista de verdad dentro de la estación. Como todo está en altura, la nieve se mantiene seca y la temporada va de principios de noviembre al Victoria Day en mayo, la más larga de Canadá fuera de glaciar. El pueblo de altura tiene algunos lodges y el histórico Sunshine Mountain Lodge, pero la mayoría duerme en Banff y sube a diario. El aeropuerto de Calgary queda a unos 90 minutos al este.",
+      "pt": "Sunshine Village é uma das raras estâncias a que se chega de teleférico antes de calçar os esquis. Do parque de Banff, uma cabina de oito lugares sobe cinco quilómetros até à base, a 2160 m, e abrem-se três montanhas: Standish com as suas pistas familiares ao sol e a zona Wawa, Lookout em cima da fronteira Alberta - Colúmbia Britânica com amplos circos de alta montanha, e Goat's Eye, mais íngreme e selvagem, o terreno de eleição dos locais. O domínio soma 1358 hectares e 145 km de pistas, 20 verdes, 39 azuis, 38 vermelhas e 30 pretas. Delirium Dive e as portas Wild West exigem parceiro, ARVA e pá, fora de pista a sério dentro da estância. Como tudo está em altitude, a neve mantém-se seca e a época vai de início de novembro ao Victoria Day em maio, a mais longa do Canadá fora de glaciar. A aldeia de altitude tem alguns lodges e o histórico Sunshine Mountain Lodge, mas a maioria pernoita em Banff e sobe diariamente. O aeroporto de Calgary fica a cerca de 90 minutos a leste.",
+      "it": "Sunshine Village è una delle rare stazioni cui si arriva in cabinovia prima ancora di calzare gli sci. Dal parcheggio di Banff, una cabina da otto posti sale cinque chilometri fino alla base a 2160 m, poi tre montagne si aprono sopra: Standish con le sue piste familiari al sole e la zona Wawa, Lookout a cavallo del confine Alberta - Columbia Britannica con ampi catini d'alta quota, e Goat's Eye, più ripida e selvaggia, il terreno di gioco dei locali. Il comprensorio somma 1358 ettari e 145 km di piste, 20 verdi, 39 blu, 38 rosse e 30 nere. Delirium Dive e le porte Wild West richiedono compagno, ARTVA e pala, fuoripista vero nascosto dentro la stazione. Dato che tutto sta in quota, la neve resta asciutta e la stagione va da inizio novembre al Victoria Day di maggio, la più lunga del Canada fuori dai ghiacciai. Il villaggio in quota ha qualche lodge e lo storico Sunshine Mountain Lodge, ma la maggior parte dorme a Banff e sale ogni giorno. L'aeroporto di Calgary è a circa 90 minuti a est."
+    },
+    "pisteCounts": {
+      "green": 20,
+      "blue": 39,
+      "red": 38,
+      "black": 30
+    }
+  },
+  {
+    "slug": "lake-louise",
+    "name": "Lake Louise",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "Canadian Rockies",
+    "lat": 51.4273,
+    "lng": -116.1761,
+    "altitudeBase": 1646,
+    "altitudeSummit": 2637,
+    "pistesKm": 175,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "There is no true ski-in/ski-out at Lake Louise: the resort sits inside Banff National Park and no hotels are built at the lift base. The closest options are in Lake Louise hamlet five kilometres away, and most visitors stay there or in Banff town.",
+      "fr": "Pas de vrai ski-in/ski-out à Lake Louise: la station est dans le parc national de Banff et aucun hôtel n'est construit au pied des remontées. Les hébergements les plus proches sont dans le hameau de Lake Louise à cinq kilomètres, et la plupart des visiteurs logent là ou à Banff.",
+      "es": "No hay verdadero ski-in/ski-out en Lake Louise: la estación está dentro del parque nacional de Banff y no se permiten hoteles a pie de remonte. Las opciones más cercanas están en el caserío de Lake Louise, a cinco kilómetros, y la mayoría se aloja allí o en el pueblo de Banff.",
+      "pt": "Não existe verdadeiro ski-in/ski-out em Lake Louise: a estância fica dentro do parque nacional de Banff e não há hotéis ao pé dos teleféricos. As opções mais próximas ficam no lugar de Lake Louise, a cinco quilómetros, e a maioria pernoita aí ou na vila de Banff.",
+      "it": "A Lake Louise non c'è un vero ski-in/ski-out: la stazione è dentro il parco nazionale di Banff e non sono ammessi hotel ai piedi degli impianti. Le opzioni più vicine sono nel borgo di Lake Louise a cinque chilometri, e la maggior parte dei visitatori dorme lì o nella cittadina di Banff."
+    },
+    "seasonStart": "Nov 9",
+    "seasonEnd": "May 4",
+    "snowScore": 92,
+    "vibes": [
+      "panoramic",
+      "iconic",
+      "national-park",
+      "racing",
+      "freeride"
+    ],
+    "intro": {
+      "en": "Lake Louise opens the men's World Cup downhill calendar every November and then settles into a long winter inside Banff National Park, four mountain faces above the turquoise lake, with the Mt Temple and Victoria Glacier framing every photograph you take from the Whitehorn ridge.",
+      "fr": "Lake Louise ouvre chaque année la Coupe du monde de descente messieurs en novembre, puis s'installe dans un long hiver à l'intérieur du parc national de Banff, quatre faces de montagne au-dessus du lac turquoise, avec le Mont Temple et le glacier Victoria qui cadrent toutes les photos prises depuis la crête de Whitehorn, en Alberta au Canada.",
+      "es": "Lake Louise abre cada noviembre el calendario de la Copa del Mundo masculina de descenso y luego se asienta en un largo invierno dentro del parque nacional de Banff, cuatro caras de montaña sobre el lago turquesa, con el monte Temple y el glaciar Victoria enmarcando cada foto que se hace desde la cresta de Whitehorn, en Alberta, Canadá.",
+      "pt": "Lake Louise abre todos os anos o calendário da Taça do Mundo masculina de descida em novembro e instala-se depois num longo inverno dentro do parque nacional de Banff, quatro vertentes de montanha sobre o lago turquesa, com o monte Temple e o glaciar Victória a enquadrar cada fotografia tirada do cume de Whitehorn, em Alberta, Canadá.",
+      "it": "Lake Louise inaugura ogni novembre il calendario di Coppa del Mondo maschile di discesa libera e si accomoda poi in un lungo inverno dentro il parco nazionale di Banff, quattro versanti sopra il lago turchese, con il Monte Temple e il ghiacciaio Victoria a inquadrare ogni fotografia scattata dal crinale di Whitehorn, in Alberta, Canada."
+    },
+    "longDescription": {
+      "en": "Lake Louise is a domain of four faces totalling 1700 hectares and 175 km of pistes: 25 greens, 48 blues, 35 reds and 37 blacks, the lift system anchored by the Top of the World six-pack, the Glacier Express and the Grizzly Express gondola. The front face hosts the famous Men's Downhill course in late November, fast and steely, while the back side and Larch face open quiet powder runs in the trees and big alpine bowls above the treeline. The Paradise area is a sun-trap for blue-square cruising, the West Bowl reaches glacier-style high country, and Whitehorn 2 is a peak-experience platform with the lake glittering far below. The resort stays inside Banff National Park, so there is no real village at the lift base, only the day lodge. Lake Louise hamlet, with the iconic Fairmont Chateau on the lakefront, is five kilometres away, and many visitors stay in Banff town, 60 km east. The climate is high and dry, snow stays cold and light from opening day, and the season runs from early November to early May.",
+      "fr": "Lake Louise, c'est un domaine de quatre faces qui totalise 1700 hectares et 175 km de pistes: 25 vertes, 48 bleues, 35 rouges et 37 noires, articulé autour du six-places Top of the World, du Glacier Express et de la télécabine Grizzly Express. La face avant accueille en novembre la fameuse descente Coupe du monde, rapide et glacée, tandis que la face arrière et le secteur Larch ouvrent des runs poudreux dans les arbres et de grands bols d'altitude au-dessus de la forêt. Paradise est un piège à soleil pour cruiser sur les bleues, West Bowl atteint des hauteurs de type glaciaire, Whitehorn 2 est une plateforme panoramique avec le lac qui scintille tout en bas. La station est dans le parc national de Banff, donc pas de vrai village au pied des pistes, juste le day lodge. Le hameau de Lake Louise, avec le mythique Fairmont Chateau au bord du lac, est à cinq kilomètres, et beaucoup logent à Banff, 60 km plus à l'est. Le climat d'altitude reste sec, la neige froide et légère dès l'ouverture, et la saison court de début novembre à début mai.",
+      "es": "Lake Louise es un dominio de cuatro caras que suma 1700 hectáreas y 175 km de pistas: 25 verdes, 48 azules, 35 rojas y 37 negras, articulado en torno al seis plazas Top of the World, el Glacier Express y la telecabina Grizzly Express. La cara delantera acoge en noviembre el famoso descenso de Copa del Mundo, rápido y vitrificado, mientras que la cara trasera y el sector Larch abren bajadas en polvo entre árboles y grandes circos por encima de la línea forestal. Paradise es una trampa de sol para cruzar pistas azules, West Bowl alcanza cotas de alta montaña, Whitehorn 2 es una plataforma panorámica con el lago brillando abajo. La estación está dentro del parque nacional de Banff, así que no hay un verdadero pueblo a pie de pistas, solo el day lodge. El caserío de Lake Louise, con el mítico Fairmont Chateau a orillas del lago, queda a cinco kilómetros, y muchos se alojan en Banff, 60 km al este. El clima de altura es seco, la nieve fría y ligera desde la apertura, y la temporada se prolonga de principios de noviembre a principios de mayo.",
+      "pt": "Lake Louise é um domínio de quatro vertentes que soma 1700 hectares e 175 km de pistas: 25 verdes, 48 azuis, 35 vermelhas e 37 pretas, articulado em torno do seis-lugares Top of the World, do Glacier Express e do teleférico Grizzly Express. A vertente da frente recebe em novembro a famosa descida da Taça do Mundo, rápida e vitrificada, enquanto a vertente de trás e o setor Larch abrem descidas em pó entre árvores e grandes circos acima da linha das árvores. Paradise é uma armadilha de sol para cruzar nas azuis, West Bowl atinge cotas de alta montanha, Whitehorn 2 é uma plataforma panorâmica com o lago a brilhar lá em baixo. A estância fica dentro do parque nacional de Banff, por isso não há verdadeira aldeia ao pé das pistas, apenas o day lodge. O lugar de Lake Louise, com o mítico Fairmont Chateau à beira do lago, fica a cinco quilómetros, e muitos pernoitam em Banff, 60 km a leste. O clima de altitude é seco, a neve fria e leve desde a abertura, e a época prolonga-se de início de novembro a início de maio.",
+      "it": "Lake Louise è un comprensorio di quattro versanti che totalizza 1700 ettari e 175 km di piste: 25 verdi, 48 blu, 35 rosse e 37 nere, articolato attorno al sei posti Top of the World, al Glacier Express e alla cabinovia Grizzly Express. Il versante anteriore ospita a novembre la celebre discesa libera di Coppa del Mondo, veloce e vetrificata, mentre il versante posteriore e il settore Larch aprono linee di polvere fra gli alberi e grandi catini sopra il bosco. Paradise è una trappola di sole per girare in blu, West Bowl raggiunge quote da ghiacciaio, Whitehorn 2 è una piattaforma panoramica con il lago che brilla in basso. La stazione è dentro il parco nazionale di Banff, quindi non c'è un vero villaggio ai piedi degli impianti, solo il day lodge. Il borgo di Lake Louise, con il mitico Fairmont Chateau in riva al lago, è a cinque chilometri, e molti dormono a Banff, 60 km a est. Il clima d'alta quota resta secco, la neve fredda e leggera fin dall'apertura, e la stagione va da inizio novembre a inizio maggio."
+    },
+    "pisteCounts": {
+      "green": 25,
+      "blue": 48,
+      "red": 35,
+      "black": 37
+    }
+  },
+  {
+    "slug": "revelstoke",
+    "name": "Revelstoke",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "BC Interior",
+    "lat": 50.9551,
+    "lng": -118.1635,
+    "altitudeBase": 512,
+    "altitudeSummit": 2225,
+    "pistesKm": 260,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is limited to the Sutton Place Hotel and a handful of condos right at the Revelation Gondola plaza. Everywhere else in town, expect a five to ten minute drive or a free shuttle to the base, all part of Revelstoke's small-resort charm.",
+      "fr": "Le vrai ski-in/ski-out se limite au Sutton Place Hotel et à quelques condos juste sur la place de la télécabine Revelation. Partout ailleurs en ville, comptez cinq à dix minutes de voiture ou la navette gratuite jusqu'au départ des remontées, et c'est aussi le charme petite station de Revelstoke.",
+      "es": "El verdadero ski-in/ski-out se limita al Sutton Place Hotel y a un puñado de condos justo en la plaza del teleférico Revelation. En el resto de la ciudad hay que contar cinco o diez minutos en coche o la lanzadera gratuita hasta la base, y forma parte del encanto de estación pequeña de Revelstoke.",
+      "pt": "O verdadeiro ski-in/ski-out limita-se ao Sutton Place Hotel e a alguns condomínios mesmo na praça do teleférico Revelation. No resto da cidade conte cinco a dez minutos de carro ou o shuttle gratuito até à base, e faz parte do encanto de pequena estância de Revelstoke.",
+      "it": "Il vero ski-in/ski-out si limita al Sutton Place Hotel e a una manciata di condo proprio sulla piazza della cabinovia Revelation. Altrove in città mettete in conto cinque o dieci minuti d'auto o la navetta gratuita fino agli impianti, ed è parte del fascino da piccola stazione di Revelstoke."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 14",
+    "snowScore": 95,
+    "vibes": [
+      "powder",
+      "expert",
+      "tree-skiing",
+      "freeride",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Revelstoke holds the biggest vertical drop in North America, 1713 metres of skiing from summit to base, served by just seven lifts and famous for the deepest, driest powder in interior British Columbia. Family-owned, slightly raw, with a small old railway town at the bottom of the hill.",
+      "fr": "Revelstoke détient le plus grand dénivelé d'Amérique du Nord, 1713 mètres de ski du sommet à la base, desservis par seulement sept remontées, et la réputation de la neige la plus profonde et la plus sèche de l'intérieur de la Colombie-Britannique. Station familiale, encore brute, avec une petite ville ferroviaire au pied du domaine, au Canada.",
+      "es": "Revelstoke posee el mayor desnivel esquiable de Norteamérica, 1713 metros desde la cumbre hasta la base, servidos por solo siete remontes, y la fama de tener la nieve más profunda y seca del interior de Columbia Británica. Estación familiar, aún áspera, con una pequeña ciudad ferroviaria al pie del dominio, en Canadá.",
+      "pt": "Revelstoke detém o maior desnível esquiável da América do Norte, 1713 metros do cume à base, servidos por apenas sete teleféricos, e a fama de ter a neve mais profunda e seca do interior da Colúmbia Britânica. Estância familiar, ainda crua, com uma pequena cidade ferroviária ao pé do domínio, no Canadá.",
+      "it": "Revelstoke vanta il maggior dislivello sciabile del Nord America, 1713 metri dalla vetta alla base, serviti da soli sette impianti, e la fama della neve più profonda e asciutta dell'interno della Columbia Britannica. Stazione familiare, ancora ruvida, con una piccola cittadina ferroviaria ai piedi del comprensorio, in Canada."
+    },
+    "longDescription": {
+      "en": "Revelstoke is the youngest big mountain in Canada, opened in 2007 and still privately owned. The numbers are striking: 1700 hectares of marked terrain, 260 km of pistes, 13 greens, 27 blues, 14 reds and 21 blacks, all served by seven lifts that each access enormous, gladed, ungroomed pods of the Selkirk Mountains. The Revelation Gondola and the Stoke Chair stack 1713 m of vertical between them, the most in North America, and the snow is almost always cold and dry: the interior BC snowbelt simply piles up. There is genuine beginner ground low on the mountain, but Revelstoke is built for intermediates who want to learn trees and for advanced skiers who came for the steeps in Greely Bowl and North Bowl. Cat-skiing and heli ops add hundreds of square kilometres if the resort feels small. Revelstoke town, population about 8000, sits on the Trans-Canada Highway at the bottom, an old railway and logging hub with a real grocery store, bakeries, microbreweries and zero pretension. Closest airports are Kelowna, two hours west, and Calgary, four hours east.",
+      "fr": "Revelstoke est la plus jeune grande montagne du Canada, ouverte en 2007 et toujours en mains privées. Les chiffres frappent: 1700 hectares de domaine balisé, 260 km de pistes, 13 vertes, 27 bleues, 14 rouges et 21 noires, le tout desservi par seulement sept remontées qui ouvrent chacune d'énormes secteurs forestiers et non damés des Selkirk. La télécabine Revelation et le télésiège Stoke cumulent 1713 m de dénivelé, le plus haut d'Amérique du Nord, et la neige est presque toujours froide et sèche: la ceinture neigeuse de l'intérieur de la Colombie-Britannique fonctionne sans répit. Il existe de vraies pentes débutantes en bas du domaine, mais Revelstoke est bâti pour les intermédiaires qui apprennent les arbres et pour les bons skieurs venus chercher les pentes raides de Greely Bowl et North Bowl. Le cat-skiing et l'héliski ajoutent des centaines de km² si la station semble petite. La ville de Revelstoke, environ 8000 habitants, est sur la Trans-Canada Highway au pied du domaine, ancienne plaque tournante ferroviaire et forestière, vraie épicerie, boulangeries, microbrasseries et zéro chichi. Aéroports les plus proches: Kelowna à 2 heures à l'ouest et Calgary à 4 heures à l'est.",
+      "es": "Revelstoke es la montaña grande más joven de Canadá, abrió en 2007 y sigue siendo de propiedad privada. Las cifras impresionan: 1700 hectáreas de dominio balizado, 260 km de pistas, 13 verdes, 27 azules, 14 rojas y 21 negras, todo servido por apenas siete remontes que abren cada uno enormes sectores boscosos y sin pisar de las Selkirk. El teleférico Revelation y el telesilla Stoke acumulan 1713 m de desnivel, el mayor de Norteamérica, y la nieve es casi siempre fría y seca: el cinturón nevado del interior de Columbia Británica trabaja sin descanso. Hay verdaderas pendientes para principiantes en la parte baja, pero Revelstoke está hecho para intermedios que aprenden a esquiar entre árboles y para esquiadores avanzados que vienen a por las paredes de Greely Bowl y North Bowl. El cat-skiing y el heliesquí añaden cientos de km² si la estación parece corta. La ciudad de Revelstoke, unos 8000 habitantes, queda sobre la Trans-Canada Highway al pie de la montaña, antiguo nudo ferroviario y maderero, con supermercado de verdad, panaderías, microcervecerías y cero postureo. Aeropuertos más cercanos: Kelowna a 2 horas al oeste y Calgary a 4 horas al este.",
+      "pt": "Revelstoke é a montanha grande mais jovem do Canadá, abriu em 2007 e continua de propriedade privada. Os números impressionam: 1700 hectares de domínio balizado, 260 km de pistas, 13 verdes, 27 azuis, 14 vermelhas e 21 pretas, tudo servido por apenas sete teleféricos, cada um abrindo enormes setores florestais e não pisados das Selkirk. O teleférico Revelation e o telecadeira Stoke somam 1713 m de desnível, o maior da América do Norte, e a neve é quase sempre fria e seca: o cinturão de neve do interior da Colúmbia Britânica trabalha sem parar. Há mesmo verdadeiras vertentes para principiantes na parte de baixo, mas Revelstoke foi feito para intermédios que aprendem a esquiar entre árvores e para esquiadores avançados à procura dos íngremes de Greely Bowl e North Bowl. O cat-skiing e o heli-esqui acrescentam centenas de km² se a estância parecer pequena. A cidade de Revelstoke, cerca de 8000 habitantes, fica na Trans-Canada Highway aos pés da montanha, antigo entroncamento ferroviário e madeireiro, com mercearia a sério, padarias, microcervejarias e zero pretensão. Aeroportos mais próximos: Kelowna a 2 horas a oeste e Calgary a 4 horas a leste.",
+      "it": "Revelstoke è la grande montagna più giovane del Canada, aperta nel 2007 e ancora di proprietà privata. I numeri colpiscono: 1700 ettari di comprensorio segnalato, 260 km di piste, 13 verdi, 27 blu, 14 rosse e 21 nere, tutto servito da soli sette impianti che aprono ciascuno enormi settori boschivi e non battuti delle Selkirk. La cabinovia Revelation e la seggiovia Stoke sommano 1713 m di dislivello, il maggiore del Nord America, e la neve è quasi sempre fredda e asciutta: la cintura nevosa dell'interno della Columbia Britannica lavora senza sosta. Esistono vere piste per principianti nella parte bassa, ma Revelstoke è pensato per intermedi che imparano gli alberi e per sciatori avanzati venuti per i ripidi di Greely Bowl e North Bowl. Cat-skiing ed eliski aggiungono centinaia di km² se la stazione sembra piccola. La cittadina di Revelstoke, circa 8000 abitanti, sta sulla Trans-Canada Highway ai piedi della montagna, vecchio snodo ferroviario e del legname, alimentari veri, panetterie, microbirrifici e zero posa. Aeroporti più vicini: Kelowna a 2 ore a ovest e Calgary a 4 ore a est."
+    },
+    "pisteCounts": {
+      "green": 13,
+      "blue": 27,
+      "red": 14,
+      "black": 21
+    }
+  },
+  {
+    "slug": "tremblant",
+    "name": "Tremblant",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "Laurentides",
+    "lat": 46.2118,
+    "lng": -74.5852,
+    "altitudeBase": 265,
+    "altitudeSummit": 875,
+    "pistesKm": 105,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Tremblant gets close to true ski-in/ski-out: the upper village hotels above the cabriolet sit directly on the Nansen run, while lower-village lodgings use the free cabriolet to reach the main lift base. Practically speaking, the whole resort is walk-to-snow.",
+      "fr": "Tremblant frôle le vrai ski-in/ski-out: les hôtels du haut du village au-dessus du cabriolet donnent directement sur la piste Nansen, tandis que les logements du bas du village empruntent le cabriolet gratuit pour rejoindre le départ des remontées. En pratique, toute la station est skis aux pieds.",
+      "es": "Tremblant roza el verdadero ski-in/ski-out: los hoteles del pueblo alto, por encima del cabriolet, dan directamente a la pista Nansen, mientras que los alojamientos del pueblo bajo usan el cabriolet gratuito para llegar al pie de los remontes. En la práctica, toda la estación es a pie de pistas.",
+      "pt": "Tremblant fica muito perto do verdadeiro ski-in/ski-out: os hotéis da parte alta da vila, acima do cabriolet, dão diretamente para a pista Nansen, enquanto os alojamentos da parte baixa usam o cabriolet gratuito para chegar ao pé dos teleféricos. Na prática, toda a estância é a pé das pistas.",
+      "it": "Tremblant sfiora il vero ski-in/ski-out: gli hotel della parte alta del villaggio, sopra il cabriolet, danno direttamente sulla pista Nansen, mentre gli alloggi della parte bassa usano il cabriolet gratuito per raggiungere la base degli impianti. In pratica tutta la stazione è sci ai piedi."
+    },
+    "seasonStart": "Nov 22",
+    "seasonEnd": "Apr 13",
+    "snowScore": 84,
+    "vibes": [
+      "family",
+      "east-coast",
+      "iconic",
+      "freestyle",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Tremblant is the queen of the Laurentides, the biggest ski destination east of the Rockies, two hours north of Montreal. A four-sided mountain wrapped in a pedestrian village of bright French-Canadian facades, where snowmaking and East Coast hardpack meet real freestyle and a vibrant après-ski every night.",
+      "fr": "Tremblant est la reine des Laurentides, le plus grand domaine skiable à l'est des Rocheuses, à deux heures au nord de Montréal au Québec. Une montagne à quatre versants enveloppée d'un village piéton aux façades colorées de l'esprit canadien-français, où la neige de culture et la glace de l'Est rencontrent un vrai freestyle et un après-ski animé chaque soir.",
+      "es": "Tremblant es la reina de las Laurentides, el mayor dominio esquiable al este de las Rocosas, a dos horas al norte de Montreal, en Quebec. Una montaña con cuatro vertientes envuelta por un pueblo peatonal de fachadas de colores al puro estilo francocanadiense, donde la nieve producida y el hielo de la costa este conviven con un freestyle de verdad y un après-ski animado cada noche.",
+      "pt": "Tremblant é a rainha das Laurentides, o maior domínio esquiável a leste das Rochosas, a duas horas a norte de Montreal, no Quebeque. Uma montanha de quatro vertentes envolvida por uma vila pedonal de fachadas coloridas ao puro estilo franco-canadiano, onde a neve produzida e o gelo da costa leste convivem com freestyle a sério e um après-ski animado todas as noites.",
+      "it": "Tremblant è la regina delle Laurentides, il più grande comprensorio sciistico a est delle Rockies, a due ore a nord di Montréal, nel Québec. Una montagna a quattro versanti avvolta da un villaggio pedonale dalle facciate colorate in puro stile franco-canadese, dove neve programmata e ghiaccio della East Coast convivono con un vero freestyle e un après-ski animato ogni sera."
+    },
+    "longDescription": {
+      "en": "Tremblant is small in altitude, 610 m of vertical between 265 and 875 metres, but big in everything else. The mountain has four sides, North, South, Versant Soleil and Edge, totalling 102 trails and 105 km of pistes, 18 greens, 33 blues, 32 reds and 22 blacks, served by 14 lifts including the iconic eight-passenger cabriolet that scoops you up across the village. Snowmaking covers virtually the entire mountain, as it must in a Quebec winter, and the grooming is among the best in North America: the cruising on Algonquin and Beauchemin is faultless, the moguls on the South Side and Versant Soleil are serious, and the freestyle parks are stops on the FIS circuit. At the base sits Mont Tremblant Village, an Intrawest project from the late 1990s, fully pedestrian, with bright red and blue and yellow facades stacked up the hillside above a cobbled main street. Restaurants, bars, a casino, a spa, an outdoor heated pool: in the evening it is one of the most lively villages in eastern Canada. Montreal-Trudeau airport is 130 km south.",
+      "fr": "Tremblant est une petite montagne en altitude, 610 m de dénivelé entre 265 et 875 mètres, mais grande dans tout le reste. La montagne a quatre versants, Nord, Sud, Versant Soleil et Edge, qui totalisent 102 pistes et 105 km balisés, 18 vertes, 33 bleues, 32 rouges et 22 noires, desservis par 14 remontées dont l'emblématique cabriolet huit places qui vous prend au-dessus du village. La neige de culture couvre la quasi-totalité du domaine, comme il se doit dans un hiver québécois, et le damage compte parmi les meilleurs d'Amérique du Nord: on cruise comme on respire sur Algonquin et Beauchemin, les bosses du versant Sud et du Versant Soleil ne pardonnent pas, et les snowparks accueillent des étapes du circuit FIS. Au pied du domaine, le village de Mont-Tremblant, projet Intrawest de la fin des années 1990, est entièrement piéton, avec ses façades rouges, bleues et jaunes empilées au-dessus de la rue principale pavée. Restaurants, bars, casino, spa, piscine extérieure chauffée: le soir, c'est l'un des villages les plus animés de l'est du Canada. L'aéroport de Montréal-Trudeau est à 130 km au sud.",
+      "es": "Tremblant es pequeña en altura, 610 m de desnivel entre 265 y 875 metros, pero grande en todo lo demás. La montaña tiene cuatro vertientes, Norte, Sur, Versant Soleil y Edge, que suman 102 pistas y 105 km balizados, 18 verdes, 33 azules, 32 rojas y 22 negras, servidas por 14 remontes incluido el emblemático cabriolet de ocho plazas que recoge a los esquiadores por encima del pueblo. La nieve producida cubre prácticamente todo el dominio, como debe ser en un invierno quebequés, y la pisada figura entre las mejores de Norteamérica: las pistas Algonquin y Beauchemin se cruzan sin esfuerzo, los baches del versante sur y del Versant Soleil son serios, y los snowparks acogen etapas del circuito FIS. Al pie del dominio, Mont-Tremblant Village, proyecto Intrawest de finales de los años noventa, es totalmente peatonal, con sus fachadas rojas, azules y amarillas apiladas sobre la calle principal empedrada. Restaurantes, bares, casino, spa, piscina exterior climatizada: por la noche es uno de los pueblos más animados del este de Canadá. El aeropuerto de Montreal-Trudeau queda a 130 km al sur.",
+      "pt": "Tremblant é pequena em altitude, 610 m de desnível entre 265 e 875 metros, mas grande em tudo o resto. A montanha tem quatro vertentes, Norte, Sul, Versant Soleil e Edge, que somam 102 pistas e 105 km balizados, 18 verdes, 33 azuis, 32 vermelhas e 22 pretas, servidos por 14 teleféricos incluindo o emblemático cabriolet de oito lugares que recolhe os esquiadores por cima da vila. A neve produzida cobre praticamente todo o domínio, como tem de ser num inverno quebequense, e a pisagem está entre as melhores da América do Norte: as Algonquin e Beauchemin cruzam-se sem esforço, as moitas da vertente Sul e do Versant Soleil são sérias, e os snowparks acolhem etapas do circuito FIS. Aos pés do domínio, Mont-Tremblant Village, projeto Intrawest do final dos anos noventa, é totalmente pedonal, com as suas fachadas vermelhas, azuis e amarelas empilhadas sobre a rua principal calcetada. Restaurantes, bares, casino, spa, piscina exterior aquecida: à noite é uma das vilas mais animadas do leste do Canadá. O aeroporto de Montreal-Trudeau fica a 130 km a sul.",
+      "it": "Tremblant è piccola in quota, 610 m di dislivello tra 265 e 875 metri, ma grande in tutto il resto. La montagna ha quattro versanti, Nord, Sud, Versant Soleil ed Edge, che totalizzano 102 piste e 105 km segnalati, 18 verdi, 33 blu, 32 rosse e 22 nere, serviti da 14 impianti compreso l'iconica cabinovia cabriolet a otto posti che raccoglie gli sciatori sopra il villaggio. La neve programmata copre praticamente tutto il comprensorio, come deve essere in un inverno québécois, e la battitura è fra le migliori del Nord America: si cruisa senza fatica su Algonquin e Beauchemin, le gobbe del versante Sud e del Versant Soleil non perdonano, e gli snowpark ospitano tappe del circuito FIS. Ai piedi del comprensorio, Mont-Tremblant Village, progetto Intrawest di fine anni novanta, è interamente pedonale, con le sue facciate rosse, blu e gialle impilate sopra la via principale acciottolata. Ristoranti, bar, casinò, spa, piscina esterna riscaldata: di sera è uno dei villaggi più vivaci dell'est del Canada. L'aeroporto di Montréal-Trudeau è a 130 km a sud."
+    },
+    "pisteCounts": {
+      "green": 18,
+      "blue": 33,
+      "red": 32,
+      "black": 22
+    }
+  },
+  {
+    "slug": "big-white",
+    "name": "Big White",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "BC Interior",
+    "lat": 49.7283,
+    "lng": -118.9333,
+    "altitudeBase": 1508,
+    "altitudeSummit": 2319,
+    "pistesKm": 185,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "Big White really is the ski-in/ski-out capital of Canada, with 6,500 beds scattered along the lift lines. Walk out the door, click in, ride up. The village is compact, snow-cat groomed at night and genuinely doorstep-to-piste from almost every property.",
+      "fr": "Big White est vraiment la capitale canadienne du ski-in/ski-out, avec 6500 lits répartis le long des remontées. On sort, on chausse, on monte. Le village est compact, damé à la dameuse pendant la nuit, et la liaison porte-piste fonctionne depuis presque tous les hébergements.",
+      "es": "Big White es la auténtica capital ski-in/ski-out de Canadá, con 6500 camas repartidas a lo largo de los remontes. Sales por la puerta, te calzas los esquís y subes. El pueblo es compacto, se pisa de noche y la conexión puerta-pista funciona desde casi todos los alojamientos.",
+      "pt": "Big White é mesmo a capital ski-in/ski-out do Canadá, com 6500 camas espalhadas ao longo dos teleféricos. Sai-se da porta, calça-se e sobe-se. A aldeia é compacta, é pisada à noite e a ligação porta-pista funciona a partir de quase todos os alojamentos.",
+      "it": "Big White è davvero la capitale ski-in/ski-out del Canada, con 6500 posti letto distribuiti lungo gli impianti. Esci di casa, agganci e sali. Il villaggio è compatto, viene battuto di notte e il collegamento porta-pista funziona da quasi tutte le strutture."
+    },
+    "seasonStart": "Nov 28",
+    "seasonEnd": "Apr 6",
+    "snowScore": 91,
+    "vibes": [
+      "powder",
+      "family",
+      "tree-skiing",
+      "snow-sure",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Big White sits at 1755 metres in the BC Interior, where rime-frosted spruces called snow ghosts stand sentry over a village of 6,500 ski-in/ski-out beds, the most on any Canadian mountain. Champagne powder falls deep and dry, and Kelowna airport is just an hour down the road.",
+      "fr": "Big White culmine à 1755 mètres dans l'intérieur de la Colombie-Britannique, où les épinettes givrées que l'on appelle snow ghosts veillent sur un village de 6500 lits ski-in/ski-out, le plus grand du Canada. La poudreuse y tombe profonde et sèche, et l'aéroport de Kelowna n'est qu'à une heure de route.",
+      "es": "Big White se alza a 1755 metros en el interior de la Columbia Británica (Canadá), donde las píceas cubiertas de escarcha, los famosos snow ghosts, vigilan un pueblo con 6500 camas ski-in/ski-out, el mayor de todo Canadá. La nieve cae profunda y seca, y el aeropuerto de Kelowna está a solo una hora.",
+      "pt": "Big White ergue-se a 1755 metros no interior da Colúmbia Britânica, onde os abetos cobertos de gelo, os famosos snow ghosts, vigiam uma aldeia com 6500 camas ski-in/ski-out, a maior de todo o Canadá. A neve cai funda e seca, e o aeroporto de Kelowna fica a apenas uma hora de carro.",
+      "it": "Big White si trova a 1755 metri nell'entroterra della Columbia Britannica, dove gli abeti ricoperti di brina, i celebri snow ghosts, vegliano su un villaggio con 6500 letti ski-in/ski-out, il più grande di tutto il Canada. La neve cade profonda e asciutta, e l'aeroporto di Kelowna è a un'ora di strada."
+    },
+    "longDescription": {
+      "en": "Big White is the snowiest interior BC resort thanks to its 1755-metre base, the highest of any major Canadian mountain. The dryness produces light, deep powder that piles up on 118 runs served by 16 lifts spread across 1,127 hectares. The layout looks gentle at first glance, with rolling blue cruisers ideal for families, but the mountain hides serious tree skiing in the Cliff, Sun-Rype Bowl and Powder Chair zones, plus advanced terrain on the back side. The snow ghosts, those rime-encased spruces sculpted by wind and freezing fog, give Big White an eerie, otherworldly feel comparable to Zao in Japan or Whitefish in Montana. The village is the largest fully ski-in/ski-out community in Canada, with 6,500 beds tucked among the trees at altitude. British families fly in for the half-term holidays, drawn by the easy logistics from Kelowna airport, just sixty kilometres west, and by snow that is consistently more reliable than anything in the Alps. It suits powder hounds who like to hunt their lines without lift queues, families who want everything within walking distance and skiers chasing a relaxed, all-Canadian mountain culture.",
+      "fr": "Big White est la station la plus enneigée de l'intérieur de la Colombie-Britannique grâce à son altitude de base de 1755 mètres, la plus élevée parmi les grands domaines canadiens. La sécheresse de l'air produit une poudreuse légère et profonde qui s'accumule sur 118 pistes desservies par 16 remontées sur 1127 hectares. Le tracé paraît débonnaire au premier coup d'œil, avec des bleues vallonnées idéales pour les familles, mais la montagne cache un véritable ski en forêt dans les secteurs Cliff, Sun-Rype Bowl et Powder Chair, plus du terrain expert sur la face arrière. Les snow ghosts, ces épinettes givrées sculptées par le vent et le brouillard givrant, donnent à Big White une atmosphère fantastique digne de Zao au Japon. Le village est la plus grande communauté entièrement ski-in/ski-out du Canada, avec 6500 lits nichés entre les arbres en altitude. Les familles britanniques s'y envolent pendant les vacances scolaires, séduites par la logistique simple depuis l'aéroport de Kelowna, à soixante kilomètres à l'ouest, et par un enneigement bien plus fiable que celui des Alpes. La station convient aux amateurs de poudreuse qui cherchent leurs lignes sans queue, aux familles qui veulent tout à pied et aux skieurs en quête d'une culture montagne canadienne décontractée.",
+      "es": "Big White es la estación más nevada del interior de la Columbia Británica gracias a su altitud de base de 1755 metros, la más alta de los grandes dominios canadienses. La sequedad del aire produce nieve polvo ligera y profunda que se acumula en 118 pistas servidas por 16 remontes en 1127 hectáreas. El trazado parece tranquilo a primera vista, con azules suaves ideales para familias, pero la montaña esconde un esquí entre árboles muy serio en las zonas Cliff, Sun-Rype Bowl y Powder Chair, además de terreno experto en la cara trasera. Los snow ghosts, esas píceas cubiertas de hielo esculpidas por el viento y la niebla helada, dan a Big White una atmósfera fantasmal comparable a la de Zao en Japón. La aldea es la mayor comunidad totalmente ski-in/ski-out de Canadá, con 6500 camas escondidas entre los árboles en altitud. Las familias británicas vuelan hasta aquí en las vacaciones escolares, atraídas por la logística sencilla desde el aeropuerto de Kelowna, a sesenta kilómetros al oeste, y por una nieve mucho más fiable que la de los Alpes. La estación va de maravilla a los amantes de la nieve polvo que buscan sus líneas sin colas, a las familias que quieren moverse a pie y a quienes persiguen una cultura de montaña canadiense relajada.",
+      "pt": "Big White é a estação mais nevada do interior da Colúmbia Britânica graças à sua altitude de base de 1755 metros, a mais alta dos grandes domínios canadianos. A secura do ar produz neve fofa, leve e profunda, que se acumula em 118 pistas servidas por 16 teleféricos em 1127 hectares. O traçado parece tranquilo à primeira vista, com azuis ondulantes ideais para famílias, mas a montanha esconde uma esquiada entre árvores muito séria nas zonas Cliff, Sun-Rype Bowl e Powder Chair, além de terreno expert na vertente traseira. Os snow ghosts, aqueles abetos cobertos de gelo esculpidos pelo vento e pelo nevoeiro gelado, conferem a Big White uma atmosfera fantasmagórica comparável à de Zao, no Japão. A aldeia é a maior comunidade inteiramente ski-in/ski-out do Canadá, com 6500 camas escondidas entre as árvores em altitude. As famílias britânicas voam até cá nas férias escolares, atraídas pela logística simples a partir do aeroporto de Kelowna, a sessenta quilómetros para oeste, e por neve bem mais fiável do que a dos Alpes. A estação serve quem ama a neve fofa e procura linhas sem filas, famílias que querem tudo a pé e esquiadores em busca de uma cultura de montanha canadiana descontraída.",
+      "it": "Big White è la stazione più nevosa dell'entroterra della Columbia Britannica grazie alla sua quota di base di 1755 metri, la più alta tra i grandi comprensori canadesi. L'aria secca produce una neve polverosa leggera e profonda che si accumula su 118 piste servite da 16 impianti su 1127 ettari. Il layout sembra tranquillo a prima vista, con blu ondulate ideali per le famiglie, ma la montagna nasconde uno sci tra gli alberi molto serio nei settori Cliff, Sun-Rype Bowl e Powder Chair, oltre a terreno esperto sul versante posteriore. Gli snow ghosts, quegli abeti coperti di brina scolpiti dal vento e dalla nebbia gelata, regalano a Big White un'atmosfera spettrale paragonabile a quella di Zao in Giappone. Il villaggio è la più grande comunità interamente ski-in/ski-out del Canada, con 6500 posti letto nascosti tra gli alberi in quota. Le famiglie britanniche volano qui durante le vacanze scolastiche, attratte dalla logistica semplice dall'aeroporto di Kelowna, a sessanta chilometri a ovest, e da un innevamento molto più affidabile di quello delle Alpi. La stazione si adatta agli amanti della neve fresca che cercano le loro linee senza code, alle famiglie che vogliono tutto a piedi e a chi insegue una cultura di montagna canadese rilassata."
+    },
+    "pisteCounts": {
+      "green": 23,
+      "blue": 56,
+      "red": 36,
+      "black": 33
+    }
+  },
+  {
+    "slug": "sun-peaks",
+    "name": "Sun Peaks",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "BC Interior",
+    "lat": 50.8843,
+    "lng": -119.8836,
+    "altitudeBase": 1255,
+    "altitudeSummit": 2152,
+    "pistesKm": 215,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Most lodgings inside the pedestrian village are properly ski-in/ski-out, with the Sundance and Sunburst chairs leaving directly from the resort's main street. The further you walk from the central square, the more likely you are to need a five-minute ride on a free shuttle or skis on shoulder.",
+      "fr": "La plupart des hébergements à l'intérieur du village piéton sont vraiment ski-in/ski-out, les télésièges Sundance et Sunburst partant directement de la rue principale de la station. Plus on s'éloigne de la place centrale, plus la probabilité d'une navette gratuite de cinq minutes ou des skis à l'épaule augmente.",
+      "es": "La mayoría de los alojamientos dentro del pueblo peatonal son auténticamente ski-in/ski-out, con los telesillas Sundance y Sunburst saliendo directamente de la calle principal de la estación. Cuanto más te alejes de la plaza central, más probable es que necesites un viajecito de cinco minutos en lanzadera gratuita o los esquís al hombro.",
+      "pt": "A maioria dos alojamentos dentro da aldeia pedonal é mesmo ski-in/ski-out, com os teleféricos Sundance e Sunburst a partirem diretamente da rua principal da estação. Quanto mais se afasta da praça central, maior é a probabilidade de precisar de um shuttle gratuito de cinco minutos ou de levar os esquis ao ombro.",
+      "it": "La maggior parte degli alloggi all'interno del villaggio pedonale è davvero ski-in/ski-out, con le seggiovie Sundance e Sunburst che partono direttamente dalla via principale della stazione. Più ci si allontana dalla piazza centrale, più probabile è dover prendere una navetta gratuita di cinque minuti o portare gli sci a spalla."
+    },
+    "seasonStart": "Nov 22",
+    "seasonEnd": "Apr 12",
+    "snowScore": 89,
+    "vibes": [
+      "family",
+      "big-domain",
+      "authentic",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Sun Peaks is the second-largest ski area in Canada after Whistler, spread across three mountains and crowned by a pedestrian village built in Tyrolean-meets-Bavarian style. Seventy-five kilometres north of Kamloops, it runs on what locals call Sun Peaks Time: unhurried, sunny and completely lift-queue-free.",
+      "fr": "Sun Peaks est le deuxième plus grand domaine skiable du Canada après Whistler, déployé sur trois montagnes et coiffé d'un village piéton inspiré du Tyrol et de la Bavière. À soixante-quinze kilomètres au nord de Kamloops, on y vit à l'heure Sun Peaks: tranquille, ensoleillée et sans la moindre file d'attente.",
+      "es": "Sun Peaks es el segundo dominio esquiable más grande de Canadá después de Whistler, repartido en tres montañas y coronado por un pueblo peatonal de estilo tirolés y bávaro. A setenta y cinco kilómetros al norte de Kamloops, aquí se vive a la Sun Peaks Time: con calma, mucho sol y cero colas en los remontes.",
+      "pt": "Sun Peaks é o segundo maior domínio esquiável do Canadá a seguir a Whistler, espalhado por três montanhas e coroado por uma aldeia pedonal de estilo tirolês e bávaro. A setenta e cinco quilómetros a norte de Kamloops, vive-se ao ritmo Sun Peaks Time: tranquilo, soalheiro e sem filas nos teleféricos.",
+      "it": "Sun Peaks è il secondo comprensorio sciistico del Canada dopo Whistler, esteso su tre montagne e dominato da un villaggio pedonale in stile tirolese e bavarese. A settantacinque chilometri a nord di Kamloops, qui si vive al ritmo Sun Peaks Time: rilassato, soleggiato e completamente senza code agli impianti."
+    },
+    "longDescription": {
+      "en": "Sun Peaks links three distinct mountains, Sundance, Tod and Morrisey, into a single 1,728-hectare domain covered by 134 trails. Sundance offers wide, sunny intermediate cruising perfect for confidence-building, Tod climbs to the resort's 2,152-metre high point and serves up the steeps and tree zones expert skiers come for, while Morrisey is the quiet local favourite with mellow glades and uncrowded blues. The terrain breakdown is balanced enough that families with mixed levels can ski together all morning and still find a black diamond before lunch. The pedestrian village sits at 1,255 metres, its main street flanked by timber chalets, lantern-lit balconies and steaming patio fire pits. The atmosphere is unmistakably Tyrolean ranch, an architectural style invented for the resort that blends Bavarian carved-wood detailing with the bigger, lower profiles of a British Columbia working ranch. Seventy-five kilometres north of Kamloops, well off the Whistler tourist circuit, Sun Peaks runs at its own pace, which is exactly why Canadian families and savvy Europeans book it instead. Excellent intermediates, families who want a walkable village and skiers tired of queues will all feel at home.",
+      "fr": "Sun Peaks relie trois montagnes distinctes, Sundance, Tod et Morrisey, en un domaine unique de 1728 hectares couvert par 134 pistes. Sundance offre des intermédiaires larges et ensoleillées parfaites pour prendre confiance, Tod grimpe jusqu'au point culminant de la station à 2152 mètres et sert les pentes raides et les sous-bois que viennent chercher les skieurs expérimentés, tandis que Morrisey est la favorite tranquille des locaux, avec ses clairières douces et ses bleues désertes. La répartition du terrain est suffisamment équilibrée pour qu'une famille aux niveaux mixtes skie ensemble toute la matinée et déniche encore une noire avant le déjeuner. Le village piéton se situe à 1255 mètres, sa rue principale bordée de chalets en bois, de balcons éclairés à la lanterne et de braseros fumants. L'ambiance est résolument Tyrolean ranch, un style architectural inventé pour la station qui marie les sculptures bavaroises au gabarit plus bas et plus large d'un ranch de Colombie-Britannique. À soixante-quinze kilomètres au nord de Kamloops, loin du circuit touristique de Whistler, Sun Peaks vit à son propre rythme, et c'est précisément pour cela que les familles canadiennes et les Européens avertis la choisissent. Excellents intermédiaires, familles à la recherche d'un village piéton et skieurs lassés des files s'y sentiront tous chez eux.",
+      "es": "Sun Peaks enlaza tres montañas distintas, Sundance, Tod y Morrisey, en un único dominio de 1728 hectáreas con 134 pistas. Sundance ofrece azules amplias y soleadas perfectas para ganar confianza, Tod sube hasta los 2152 metros del punto culminante y sirve las pendientes fuertes y las zonas de árboles que buscan los esquiadores expertos, mientras que Morrisey es la favorita tranquila de los locales, con claros suaves y azules vacías. El reparto del terreno está tan equilibrado que una familia con niveles mixtos puede esquiar junta toda la mañana y aún encontrar una negra antes de comer. El pueblo peatonal se sitúa a 1255 metros, con calle principal bordeada de chalés de madera, balcones iluminados con farolillos y braseros humeantes. El ambiente es genuinamente Tyrolean ranch, un estilo arquitectónico inventado para la estación que mezcla las tallas bávaras con el gálibo más bajo y ancho de un rancho de la Columbia Británica. A setenta y cinco kilómetros al norte de Kamloops, lejos del circuito turístico de Whistler, Sun Peaks va a su propio ritmo, y precisamente por eso la eligen las familias canadienses y los europeos con olfato. Buenos intermedios, familias que quieren un pueblo a pie y esquiadores hartos de colas se sentirán como en casa.",
+      "pt": "Sun Peaks liga três montanhas distintas, Sundance, Tod e Morrisey, num único domínio de 1728 hectares com 134 pistas. Sundance oferece azuis amplas e ensolaradas, perfeitas para ganhar confiança, Tod sobe até aos 2152 metros do ponto mais alto e serve as encostas íngremes e as zonas de árvores que os esquiadores experientes procuram, e Morrisey é a favorita discreta dos locais, com clareiras suaves e azuis vazias. A distribuição do terreno está tão equilibrada que uma família com níveis variados pode esquiar junta toda a manhã e ainda encontrar uma negra antes do almoço. A aldeia pedonal fica a 1255 metros, com a rua principal ladeada por chalés de madeira, varandas iluminadas a candeeiros e braseiros fumegantes. O ambiente é genuinamente Tyrolean ranch, um estilo arquitetónico inventado para a estação que combina as esculturas bávaras com o gabarito mais baixo e largo de um rancho da Colúmbia Britânica. A setenta e cinco quilómetros a norte de Kamloops, longe do circuito turístico de Whistler, Sun Peaks vai ao seu próprio ritmo, e é precisamente por isso que as famílias canadianas e os europeus informados a escolhem. Bons intermédios, famílias que querem uma aldeia a pé e esquiadores fartos de filas vão sentir-se em casa.",
+      "it": "Sun Peaks collega tre montagne distinte, Sundance, Tod e Morrisey, in un unico comprensorio di 1728 ettari con 134 piste. Sundance offre blu ampie e soleggiate, perfette per prendere fiducia, Tod sale fino ai 2152 metri del punto più alto e serve i pendii ripidi e i boschi che gli sciatori esperti vengono a cercare, mentre Morrisey è la preferita discreta dei locali, con radure dolci e blu deserte. La ripartizione del terreno è abbastanza equilibrata da permettere a una famiglia con livelli misti di sciare insieme tutta la mattina e trovare comunque una nera prima di pranzo. Il villaggio pedonale si trova a 1255 metri, con la via principale fiancheggiata da chalet di legno, balconi illuminati da lanterne e bracieri fumanti. L'atmosfera è autenticamente Tyrolean ranch, uno stile architettonico inventato per la stazione che unisce gli intagli bavaresi al profilo più basso e largo di un ranch della Columbia Britannica. A settantacinque chilometri a nord di Kamloops, lontano dal circuito turistico di Whistler, Sun Peaks va al proprio ritmo, ed è esattamente per questo che le famiglie canadesi e gli europei informati la scelgono. Ottimi intermedi, famiglie che vogliono un villaggio a piedi e sciatori stanchi delle code si sentiranno a casa."
+    },
+    "pisteCounts": {
+      "green": 28,
+      "blue": 47,
+      "red": 29,
+      "black": 31
+    }
+  },
+  {
+    "slug": "kicking-horse",
+    "name": "Kicking Horse",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "BC Interior",
+    "lat": 51.2978,
+    "lng": -117.0494,
+    "altitudeBase": 1190,
+    "altitudeSummit": 2450,
+    "pistesKm": 120,
+    "lifts": 5,
+    "skiInSkiOutNote": {
+      "en": "There is a small ski-in/ski-out enclave at the base village around the Eagle Express Gondola, but the bulk of accommodation is in Golden, thirteen kilometres down a winding road. Plan on shuttles or a rental car. The trade-off is a real working town instead of a manicured resort plaza.",
+      "fr": "Il existe une petite enclave ski-in/ski-out au pied des pistes autour de la télécabine Eagle Express, mais l'essentiel des hébergements se trouve à Golden, à treize kilomètres au bout d'une route sinueuse. Prévoir navettes ou voiture de location. La contrepartie est une vraie ville vivante plutôt qu'un parvis de station bien lissé.",
+      "es": "Hay un pequeño enclave ski-in/ski-out al pie de pistas alrededor del telecabina Eagle Express, pero el grueso del alojamiento está en Golden, a trece kilómetros por una carretera sinuosa. Cuenta con lanzaderas o un coche de alquiler. La contrapartida es un pueblo de verdad en lugar de una plaza de estación demasiado pulida.",
+      "pt": "Existe um pequeno enclave ski-in/ski-out no sopé das pistas em torno do teleférico Eagle Express, mas a maior parte do alojamento fica em Golden, a treze quilómetros por uma estrada sinuosa. Conte com shuttles ou carro de aluguer. A contrapartida é uma vila a sério, em vez de uma praça de estação demasiado polida.",
+      "it": "Esiste una piccola enclave ski-in/ski-out ai piedi delle piste intorno alla cabinovia Eagle Express, ma il grosso degli alloggi è a Golden, tredici chilometri lungo una strada tortuosa. Mettete in conto navette o auto a noleggio. In cambio si ha una città vera invece di una piazza di stazione troppo curata."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 13",
+    "snowScore": 92,
+    "vibes": [
+      "expert",
+      "powder",
+      "panoramic",
+      "freeride",
+      "authentic"
+    ],
+    "intro": {
+      "en": "Kicking Horse delivers the steepest in-bounds terrain in Canada, 1,260 vertical metres of bowls, chutes and ridgelines crowned by the Eagle's Eye Gondola at 2,450 metres, home to the country's highest restaurant. The town of Golden sits thirteen kilometres below, right on the Trans-Canada Highway between Banff and Revelstoke.",
+      "fr": "Kicking Horse propose le terrain le plus raide à l'intérieur des limites au Canada, 1260 mètres verticaux de combes, couloirs et arêtes couronnés par la télécabine Eagle's Eye à 2450 mètres, qui abrite le restaurant le plus haut du pays. La ville de Golden se trouve treize kilomètres en contrebas, sur la Trans-Canada entre Banff et Revelstoke.",
+      "es": "Kicking Horse ofrece el terreno más empinado dentro de pista de Canadá, 1260 metros verticales de cuencos, canales y crestas coronados por el telecabina Eagle's Eye a 2450 metros, que alberga el restaurante más alto del país. La localidad de Golden se sitúa trece kilómetros más abajo, en la Trans-Canada entre Banff y Revelstoke.",
+      "pt": "Kicking Horse oferece o terreno em pista mais íngreme do Canadá, 1260 metros verticais de tigelas, corredores e cumeeiras coroados pelo teleférico Eagle's Eye a 2450 metros, que alberga o restaurante mais alto do país. A vila de Golden fica treze quilómetros mais abaixo, junto à autoestrada Trans-Canada entre Banff e Revelstoke.",
+      "it": "Kicking Horse offre il terreno in pista più ripido del Canada, 1260 metri di dislivello tra catini, canali e creste coronati dalla cabinovia Eagle's Eye a 2450 metri, che ospita il ristorante più alto del paese. Il paese di Golden si trova tredici chilometri più in basso, sulla Trans-Canada tra Banff e Revelstoke."
+    },
+    "longDescription": {
+      "en": "Kicking Horse is an experts' mountain, full stop. Around sixty percent of its 120 piste-kilometres are graded advanced or expert, with four enormous alpine bowls (Bowl Over, Crystal, Feuz and Super Bowl) feeding chute after chute back to treeline. The Eagle Express Gondola climbs in one long swoop to the 2,450-metre summit ridge, where the Eagle's Eye restaurant offers a 360-degree view across the Canadian Rockies to the east and the Purcell range to the west, and where boot-packed access leads onto Whitewall, T2 and the Stairway to Heaven traverse. Intermediates have legitimate cruising terrain on the lower mountain, but it is the unrelenting steep alpine that defines the place. Down in the valley, the working railway town of Golden offers Best Western lodges, craft breweries and surprisingly good restaurants for a mountain town of seven thousand people. The Trans-Canada Highway puts Banff under two hours away and Revelstoke within ninety minutes, making powder chasing road trips entirely feasible. It suits strong intermediates ready to be pushed, expert freeriders craving north-facing bowls and anyone tired of the polished resort experience and ready for an unfiltered Rockies mountain.",
+      "fr": "Kicking Horse est une montagne d'experts, point. Près de soixante pour cent de ses 120 kilomètres de pistes sont classés difficile ou expert, avec quatre énormes combes alpines (Bowl Over, Crystal, Feuz et Super Bowl) qui alimentent couloir après couloir jusqu'à la limite des arbres. La télécabine Eagle Express monte d'un seul élan jusqu'à l'arête sommitale à 2450 mètres, où le restaurant Eagle's Eye offre une vue à 360 degrés sur les Rocheuses canadiennes à l'est et la chaîne des Purcells à l'ouest, et d'où l'accès à pied mène sur Whitewall, T2 et la traversée Stairway to Heaven. Les intermédiaires disposent de vraies pistes de cruising sur la partie basse, mais c'est le ski alpin raide et permanent qui définit l'endroit. Dans la vallée, la ville ferroviaire de Golden propose des lodges Best Western, des brasseries artisanales et des restaurants étonnamment bons pour une bourgade de sept mille habitants. La Trans-Canada place Banff à moins de deux heures et Revelstoke à quatre-vingt-dix minutes, ce qui rend les road trips à la chasse à la poudreuse parfaitement réalistes. La station convient aux bons intermédiaires prêts à être bousculés, aux freeriders chevronnés en quête de combes nord et à tous ceux qui veulent quitter l'expérience station polie pour une montagne brute des Rocheuses.",
+      "es": "Kicking Horse es una montaña de expertos, sin más. Cerca del sesenta por ciento de sus 120 kilómetros de pistas está clasificado avanzado o experto, con cuatro enormes cuencos alpinos (Bowl Over, Crystal, Feuz y Super Bowl) que alimentan canal tras canal hasta el límite del bosque. El telecabina Eagle Express sube de una sola tirada hasta la cresta cumbre a 2450 metros, donde el restaurante Eagle's Eye ofrece una vista de 360 grados sobre las Rocosas canadienses al este y la cordillera de los Purcells al oeste, y desde donde el acceso a pie lleva a Whitewall, T2 y la travesía Stairway to Heaven. Los intermedios disponen de pistas de cruising reales en la parte baja, pero es el esquí alpino fuerte e implacable lo que define el lugar. En el valle, el pueblo ferroviario de Golden ofrece lodges Best Western, cervecerías artesanales y restaurantes sorprendentemente buenos para una localidad de siete mil habitantes. La Trans-Canada deja Banff a menos de dos horas y Revelstoke a noventa minutos, lo que hace muy viables las road trips de caza de nieve polvo. La estación va a los intermedios fuertes listos para ser sacudidos, a los freeriders expertos a la caza de cuencos norte y a quienes quieren dejar la experiencia de estación pulida por una montaña en bruto de las Rocosas.",
+      "pt": "Kicking Horse é uma montanha de experts, ponto. Cerca de sessenta por cento dos seus 120 quilómetros de pistas é classificado avançado ou expert, com quatro tigelas alpinas enormes (Bowl Over, Crystal, Feuz e Super Bowl) a alimentar corredor após corredor até ao limite das árvores. O teleférico Eagle Express sobe de um só ímpeto até à crista cimeira a 2450 metros, onde o restaurante Eagle's Eye proporciona uma vista de 360 graus sobre as Rochosas canadianas a leste e a cordilheira dos Purcells a oeste, e de onde o acesso a pé leva a Whitewall, T2 e à travessia Stairway to Heaven. Os intermédios têm pistas reais de cruising na parte baixa, mas é o esqui alpino íngreme e implacável que define o sítio. No vale, a vila ferroviária de Golden oferece lodges Best Western, cervejarias artesanais e restaurantes surpreendentemente bons para uma povoação de sete mil habitantes. A autoestrada Trans-Canada deixa Banff a menos de duas horas e Revelstoke a noventa minutos, tornando as viagens à caça da neve fofa perfeitamente viáveis. A estação serve intermédios fortes prontos para serem desafiados, freeriders experientes em busca de tigelas norte e quem quer trocar a experiência de estação polida por uma montanha em bruto das Rochosas.",
+      "it": "Kicking Horse è una montagna per esperti, punto. Circa il sessanta per cento dei suoi 120 chilometri di piste è classificato avanzato o expert, con quattro enormi catini alpini (Bowl Over, Crystal, Feuz e Super Bowl) che alimentano canalone dopo canalone fino al limite della foresta. La cabinovia Eagle Express sale in un'unica spinta fino alla cresta sommitale a 2450 metri, dove il ristorante Eagle's Eye regala una vista a 360 gradi sulle Rocciose canadesi a est e sulla catena dei Purcells a ovest, e da cui l'accesso a piedi porta su Whitewall, T2 e sulla traversata Stairway to Heaven. Gli intermedi hanno vere piste di cruising nella parte bassa, ma è lo sci alpino ripido e incessante a definire il posto. A valle, la cittadina ferroviaria di Golden propone lodge Best Western, birrifici artigianali e ristoranti sorprendentemente buoni per un centro di settemila abitanti. La Trans-Canada mette Banff a meno di due ore e Revelstoke a novanta minuti, rendendo i road trip a caccia di neve fresca perfettamente realistici. La stazione si adatta agli intermedi forti pronti a essere spinti, ai freerider esperti in cerca di catini nord e a chi vuole lasciare l'esperienza di stazione patinata per una montagna grezza delle Rocciose."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 28,
+      "red": 24,
+      "black": 36
+    }
+  },
+  {
+    "slug": "mont-sainte-anne",
+    "name": "Mont-Sainte-Anne",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "Laurentides",
+    "lat": 47.0764,
+    "lng": -70.9136,
+    "altitudeBase": 175,
+    "altitudeSummit": 800,
+    "pistesKm": 75,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is limited to a handful of slopeside condos at the village base. Most chalets sit a few minutes' drive away, with paid parking and a quick boot-walk to the gondola. The Chateau Mont-Sainte-Anne is the obvious doorstep-to-piste choice if zero walking matters.",
+      "fr": "Le vrai ski-in/ski-out se limite à quelques condos en bord de piste au pied du village. La plupart des chalets sont à quelques minutes en voiture, avec parking payant et une courte marche en chaussures jusqu'à la télécabine. Le Château Mont-Sainte-Anne reste le choix porte-piste évident si l'on refuse de marcher.",
+      "es": "El verdadero ski-in/ski-out se limita a un puñado de condos al pie de las pistas en la base del pueblo. La mayoría de los chalets quedan a unos minutos en coche, con aparcamiento de pago y una caminata corta con botas hasta la telecabina. El Château Mont-Sainte-Anne es la opción puerta-pista evidente para quien no quiere andar nada.",
+      "pt": "O verdadeiro ski-in/ski-out resume-se a alguns condomínios à beira da pista na base da aldeia. A maioria dos chalés fica a alguns minutos de carro, com estacionamento pago e uma caminhada curta de botas até ao teleférico. O Château Mont-Sainte-Anne é a escolha porta-pista óbvia para quem se recusa a andar.",
+      "it": "Il vero ski-in/ski-out si limita a una manciata di condomini sul bordo pista alla base del villaggio. La maggior parte degli chalet è a pochi minuti d'auto, con parcheggio a pagamento e una breve camminata con gli scarponi fino alla cabinovia. Il Château Mont-Sainte-Anne resta la scelta porta-pista evidente per chi non vuole camminare."
+    },
+    "seasonStart": "Nov 25",
+    "seasonEnd": "Apr 13",
+    "snowScore": 85,
+    "vibes": [
+      "east-coast",
+      "authentic",
+      "panoramic",
+      "racing"
+    ],
+    "intro": {
+      "en": "Mont-Sainte-Anne stands forty minutes from Quebec City and just thirty from Jean-Lesage airport, looking out across the St Lawrence River toward Île d'Orléans. Its three faces, day and night, deliver classic Laurentian skiing in a wind-blown, snow-bound landscape that feels older and more French-Canadian than anywhere else on the continent.",
+      "fr": "Mont-Sainte-Anne se trouve à quarante minutes de la ville de Québec et à seulement trente minutes de l'aéroport Jean-Lesage, face au fleuve Saint-Laurent et à l'île d'Orléans. Ses trois versants, de jour comme de nuit, offrent un ski laurentien classique dans un paysage venteux et enneigé qui paraît plus ancien et plus canadien-français qu'aucun autre sur le continent.",
+      "es": "Mont-Sainte-Anne está a cuarenta minutos de la ciudad de Quebec y a solo treinta del aeropuerto Jean-Lesage, frente al río San Lorenzo y a la isla de Orleans. Sus tres caras, de día y de noche, ofrecen un esquí laurentino clásico en un paisaje ventoso y nevado que parece más antiguo y más franco-canadiense que cualquier otro del continente.",
+      "pt": "Mont-Sainte-Anne fica a quarenta minutos da cidade de Quebeque e a apenas trinta do aeroporto Jean-Lesage, virado para o rio São Lourenço e para a ilha de Orleães. As suas três vertentes, de dia e de noite, oferecem um esqui laurentino clássico, numa paisagem ventosa e nevada que parece mais antiga e mais franco-canadiana do que qualquer outra no continente.",
+      "it": "Mont-Sainte-Anne si trova a quaranta minuti dalla città di Quebec e a soli trenta dall'aeroporto Jean-Lesage, affacciato sul fiume San Lorenzo e sull'isola di Orléans. I suoi tre versanti, di giorno e di notte, offrono uno sci laurenziano classico in un paesaggio ventoso e innevato che sembra più antico e più franco-canadese di qualunque altro nel continente."
+    },
+    "longDescription": {
+      "en": "Mont-Sainte-Anne climbs from 175 metres at the base to 800 at the summit, a vertical that sounds modest but plays bigger because of the unfiltered Laurentian wind and the way the trails are cut straight off the upper plateau. Three distinct faces, south, north and west, give it variety: the south face, lit for night skiing, is the largest night-ski operation in Canada and runs until 9 pm on weekends, while the north face holds the resort's quietest, snowiest tree runs and the west face dishes out the racing pitches favoured by the Quebec carving school. The gondola, the oldest in Canada, still hauls skiers up to the summit in a rhythm that feels delightfully retro. The Beaupré coast road below the mountain leads to the Sainte-Anne basilica, the cliffs of the Côte-de-Beaupré and the bridge across to Île d'Orléans, where producers and cheesemakers stay open through winter. Forty minutes' drive south, Quebec City offers fortified ramparts, Petit-Champlain bistros and bagged poutine after midnight. Less polished than Tremblant but considerably more authentic, Mont-Sainte-Anne suits skiers who want an east-coast Quebec experience, families with young night-skiers and travellers chasing French Canadian culture as much as carving turns.",
+      "fr": "Mont-Sainte-Anne grimpe de 175 mètres au pied jusqu'à 800 au sommet, un dénivelé qui paraît modeste mais qui prend de l'ampleur grâce au vent laurentien permanent et au tracé des pistes, coupées droit dans le plateau supérieur. Trois versants distincts, sud, nord et ouest, en font la variété: la face sud, éclairée pour le ski de soirée, est la plus grande exploitation nocturne du Canada et tourne jusqu'à 21 h le week-end, la face nord abrite les sous-bois les plus tranquilles et les plus enneigés de la station, et la face ouest sert les pentes de course chères à l'école de carving québécoise. La télécabine, la plus ancienne du Canada, hisse encore les skieurs jusqu'au sommet dans un rythme délicieusement rétro. La route de la Côte-de-Beaupré au pied de la montagne mène à la basilique Sainte-Anne, aux falaises de la côte et au pont vers l'île d'Orléans, où les producteurs et fromagers restent ouverts tout l'hiver. À quarante minutes en voiture au sud, la ville de Québec offre ses remparts fortifiés, les bistros du Petit-Champlain et la poutine en sachet après minuit. Moins lisse que Tremblant mais nettement plus authentique, Mont-Sainte-Anne convient aux skieurs en quête d'une expérience québécoise de la côte est, aux familles avec des jeunes skieurs de soirée et aux voyageurs venus chercher la culture canadienne-française autant que les virages.",
+      "es": "Mont-Sainte-Anne sube desde los 175 metros del pie hasta los 800 de la cima, un desnivel que parece modesto pero que cobra fuerza por el viento laurentino permanente y por el trazado de las pistas, cortadas en línea recta desde la meseta superior. Tres caras distintas, sur, norte y oeste, le aportan variedad: la cara sur, iluminada para el esquí nocturno, es la mayor operación de noche de Canadá y funciona hasta las 21 h los fines de semana, la cara norte alberga los bosques más tranquilos y nevados de la estación y la cara oeste sirve las bajadas de carreras predilectas de la escuela quebequesa de carving. La telecabina, la más antigua de Canadá, sigue subiendo a los esquiadores hasta la cima con un ritmo deliciosamente retro. La carretera de la Côte-de-Beaupré al pie de la montaña conduce a la basílica de Sainte-Anne, a los acantilados de la costa y al puente hacia la isla de Orleans, donde productores y queseros siguen abiertos todo el invierno. A cuarenta minutos en coche hacia el sur, la ciudad de Quebec ofrece sus murallas fortificadas, los bistrós del Petit-Champlain y la poutine en bolsa después de medianoche. Menos pulido que Tremblant pero bastante más auténtico, Mont-Sainte-Anne va a los esquiadores que buscan una experiencia quebequesa de la costa este, a las familias con jóvenes que esquían de noche y a los viajeros que persiguen la cultura franco-canadiense tanto como los giros bien tallados.",
+      "pt": "Mont-Sainte-Anne sobe dos 175 metros do sopé até aos 800 do cume, um desnível que parece modesto mas que ganha força com o vento laurentino permanente e com o traçado das pistas, cortadas a direito a partir do planalto superior. Três vertentes distintas, sul, norte e oeste, dão-lhe variedade: a vertente sul, iluminada para esqui noturno, é a maior operação noturna do Canadá e funciona até às 21h ao fim de semana, a vertente norte abriga os bosques mais tranquilos e nevados da estação e a vertente oeste serve as descidas de competição preferidas pela escola quebequense de carving. O teleférico, o mais antigo do Canadá, ainda leva os esquiadores ao cume num ritmo deliciosamente retro. A estrada da Côte-de-Beaupré ao pé da montanha conduz à basílica de Sainte-Anne, às falésias da costa e à ponte para a ilha de Orleães, onde produtores e queijeiros se mantêm abertos todo o inverno. A quarenta minutos de carro para sul, a cidade de Quebeque oferece muralhas fortificadas, os bistrôs do Petit-Champlain e a poutine em saco depois da meia-noite. Menos polido do que Tremblant mas claramente mais autêntico, Mont-Sainte-Anne serve os esquiadores que procuram uma experiência quebequense da costa leste, famílias com jovens que esquiam à noite e viajantes que perseguem a cultura franco-canadiana tanto como as curvas bem inclinadas.",
+      "it": "Mont-Sainte-Anne sale dai 175 metri della base agli 800 della cima, un dislivello che sembra modesto ma che si fa sentire grazie al vento laurenziano costante e al tracciato delle piste, tagliate dritte dal plateau superiore. Tre versanti distinti, sud, nord e ovest, ne fanno la varietà: il versante sud, illuminato per lo sci notturno, è la più grande operazione notturna del Canada e gira fino alle 21 il fine settimana, il versante nord ospita i boschi più tranquilli e innevati della stazione e il versante ovest serve le discese da gara amate dalla scuola di carving quebecchese. La cabinovia, la più antica del Canada, porta ancora gli sciatori in cima con un ritmo deliziosamente retrò. La strada della Côte-de-Beaupré ai piedi della montagna porta alla basilica di Sainte-Anne, alle falesie della costa e al ponte verso l'isola di Orléans, dove produttori e formaggiai restano aperti tutto l'inverno. A quaranta minuti d'auto a sud, la città di Quebec offre i bastioni fortificati, i bistrot di Petit-Champlain e la poutine in sacchetto dopo la mezzanotte. Meno levigata di Tremblant ma decisamente più autentica, Mont-Sainte-Anne si adatta a chi cerca un'esperienza quebecchese della costa est, alle famiglie con giovani sciatori notturni e ai viaggiatori che inseguono la cultura franco-canadese tanto quanto le curve."
+    },
+    "pisteCounts": {
+      "green": 16,
+      "blue": 24,
+      "red": 16,
+      "black": 15
+    }
+  },
+  {
+    "slug": "marmot-basin",
+    "name": "Marmot Basin",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "Canadian Rockies",
+    "lat": 52.7889,
+    "lng": -118.0833,
+    "altitudeBase": 1698,
+    "altitudeSummit": 2612,
+    "pistesKm": 140,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "There is no ski-in/ski-out lodging at Marmot Basin at all. Jasper National Park rules keep the base car-park only, so every visitor drives or shuttles the nineteen kilometres up from Jasper townsite each morning. The reward is a mountain that empties out by 4 pm and a national-park town to come back to.",
+      "fr": "Il n'existe aucun hébergement ski-in/ski-out à Marmot Basin. Les règles du parc national de Jasper réservent la base à un simple parking, et chaque visiteur monte donc en voiture ou en navette les dix-neuf kilomètres depuis la ville de Jasper tous les matins. La récompense est une montagne qui se vide à 16 h et une ville de parc national où rentrer le soir.",
+      "es": "No existe alojamiento ski-in/ski-out alguno en Marmot Basin. Las normas del parque nacional de Jasper mantienen la base solo como aparcamiento, así que cada visitante sube en coche o en lanzadera los diecinueve kilómetros desde el pueblo de Jasper todas las mañanas. La recompensa es una montaña que se vacía a las 16 h y un pueblo de parque nacional al que volver por la noche.",
+      "pt": "Não existe qualquer alojamento ski-in/ski-out em Marmot Basin. As regras do parque nacional de Jasper mantêm a base apenas como parque de estacionamento, pelo que cada visitante sobe de carro ou de shuttle os dezanove quilómetros desde a vila de Jasper todas as manhãs. A recompensa é uma montanha que se esvazia às 16h e uma vila de parque nacional para onde regressar à noite.",
+      "it": "Non esiste alcun alloggio ski-in/ski-out a Marmot Basin. Le regole del parco nazionale di Jasper mantengono la base come semplice parcheggio, quindi ogni visitatore sale in auto o in navetta i diciannove chilometri dalla cittadina di Jasper ogni mattina. La ricompensa è una montagna che si svuota alle 16 e una cittadina di parco nazionale dove rientrare la sera."
+    },
+    "seasonStart": "Nov 9",
+    "seasonEnd": "May 4",
+    "snowScore": 90,
+    "vibes": [
+      "isolated",
+      "national-park",
+      "panoramic",
+      "authentic",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Marmot Basin sits inside Jasper National Park, far quieter than the better-known Banff resorts thanks to its position deep in the Canadian Rockies. The base sits at 1,698 metres, the summit reaches 2,612, and the only sounds at the bottom of a run might be a passing elk or a distant pair of caribou.",
+      "fr": "Marmot Basin se trouve à l'intérieur du parc national de Jasper, bien plus calme que les stations de Banff grâce à sa position au cœur des Rocheuses canadiennes. La base est à 1698 mètres, le sommet à 2612, et les seuls bruits au pied d'une piste peuvent être un wapiti qui passe ou un couple de caribous au loin.",
+      "es": "Marmot Basin se sitúa dentro del parque nacional de Jasper, mucho más tranquilo que las estaciones de Banff gracias a su posición en plenas Rocosas canadienses. La base está a 1698 metros, la cima alcanza los 2612, y los únicos sonidos al pie de una pista pueden ser un wapití al pasar o una pareja de caribús a lo lejos.",
+      "pt": "Marmot Basin fica dentro do parque nacional de Jasper, bem mais sossegado do que as estações de Banff graças à sua posição no coração das Rochosas canadianas. A base situa-se a 1698 metros, o cume chega aos 2612, e os únicos sons ao fundo de uma pista podem ser um wapiti a passar ou um par de caribus ao longe.",
+      "it": "Marmot Basin si trova all'interno del parco nazionale di Jasper, molto più tranquilla delle stazioni di Banff grazie alla sua posizione nel cuore delle Rocciose canadesi. La base è a 1698 metri, la vetta tocca i 2612, e gli unici suoni al fondo di una pista possono essere un wapiti di passaggio o una coppia di caribù in lontananza."
+    },
+    "longDescription": {
+      "en": "Marmot Basin spreads 7 lifts across 1,675 acres in one of the most protected landscapes in North America. The lower mountain offers long, confidence-building blue cruisers down to the main lodge, the middle station opens onto wide intermediate ridges, and from the Knob Chair the terrain steps up into Eagle Ridge, the Marmot Basin Headwall and the hike-to expert lines on Caribou Knob, which deliver some of the most isolated descents on the continent. Snow is reliably deep and dry from late November to early May, and on a quiet weekday it is genuinely possible to ski a fresh line at 11 am. There is no village at the base, only a day lodge and parking; visitors stay in Jasper townsite, nineteen kilometres down the access road, with its lantern-lit main street, Fairmont Jasper Park Lodge and the Maligne Canyon ice walks for rest days. Wildlife sightings are routine, with elk wandering the town and caribou occasionally crossing the highway. The far position, three and a half hours west of Edmonton, keeps crowds away and rewards travellers ready to commit. Suits intermediates after empty pistes, off-piste experts hunting hike-to lines and anyone who values an unfiltered national-park setting over slopeside bars.",
+      "fr": "Marmot Basin déploie 7 remontées sur 1675 acres dans l'un des paysages les mieux protégés d'Amérique du Nord. Le bas de la montagne offre de longues bleues de croisière qui mettent en confiance jusqu'au chalet principal, la station intermédiaire ouvre sur de larges arêtes intermédiaires, et depuis le télésiège Knob, le terrain monte d'un cran vers Eagle Ridge, le Marmot Basin Headwall et les lignes expertes en accès à pied de Caribou Knob, qui offrent certaines des descentes les plus isolées du continent. L'enneigement reste profond et sec de fin novembre à début mai, et un mercredi tranquille, on peut vraiment skier une ligne fraîche à 11 heures. Il n'y a pas de village à la base, seulement un chalet de jour et un parking; on loge à Jasper, à dix-neuf kilomètres au bout de la route d'accès, avec sa rue principale éclairée à la lanterne, le Fairmont Jasper Park Lodge et les marches sur la glace du Maligne Canyon pour les jours de repos. Les rencontres avec la faune sont la norme, avec les wapitis qui se promènent en ville et les caribous qui traversent parfois la route. La position reculée, à trois heures et demie à l'ouest d'Edmonton, tient les foules à distance et récompense les voyageurs prêts à s'engager. Convient aux intermédiaires qui veulent des pistes vides, aux experts du hors-piste à la recherche de lignes en accès à pied et à tous ceux qui préfèrent un cadre de parc national brut aux bars sur les pistes.",
+      "es": "Marmot Basin reparte 7 remontes en 678 hectáreas en uno de los paisajes mejor protegidos de Norteamérica. La parte baja de la montaña ofrece largas azules de cruising que dan confianza hasta el lodge principal, la estación intermedia abre a anchas crestas para intermedios, y desde el telesilla Knob el terreno sube de categoría hacia Eagle Ridge, el Marmot Basin Headwall y las líneas expertas en acceso a pie de Caribou Knob, que brindan algunas de las bajadas más aisladas del continente. La nieve sigue siendo profunda y seca de finales de noviembre a comienzos de mayo, y en un día laborable tranquilo es perfectamente posible esquiar una línea fresca a las 11 de la mañana. No hay pueblo en la base, solo un chalé de día y aparcamiento; uno se aloja en el pueblo de Jasper, a diecinueve kilómetros al final de la carretera de acceso, con su calle principal iluminada con farolillos, el Fairmont Jasper Park Lodge y los paseos por el hielo del Maligne Canyon para los días de descanso. Los encuentros con la fauna son habituales, con wapitís paseando por el pueblo y caribús que a veces cruzan la carretera. La posición remota, a tres horas y media al oeste de Edmonton, mantiene las multitudes alejadas y recompensa a los viajeros dispuestos a comprometerse. Va a los intermedios que quieren pistas vacías, a los expertos del fuera de pista que buscan líneas con acceso a pie y a quienes prefieren un escenario de parque nacional sin filtros a los bares a pie de pista.",
+      "pt": "Marmot Basin distribui 7 teleféricos por 678 hectares numa das paisagens mais protegidas da América do Norte. A parte baixa da montanha oferece longas azuis de cruising que dão confiança até ao lodge principal, a estação intermédia abre para largas cumeeiras intermédias e, a partir do telesqui Knob, o terreno sobe de patamar para Eagle Ridge, para o Marmot Basin Headwall e para as linhas expert em acesso a pé do Caribou Knob, que oferecem algumas das descidas mais isoladas do continente. A neve mantém-se funda e seca de finais de novembro a princípios de maio e, num dia útil sossegado, é mesmo possível esquiar uma linha fresca às 11 da manhã. Não há aldeia na base, apenas um lodge de dia e estacionamento; fica-se na vila de Jasper, a dezanove quilómetros no fim da estrada de acesso, com a sua rua principal iluminada por candeeiros, o Fairmont Jasper Park Lodge e as caminhadas no gelo do Maligne Canyon para os dias de descanso. Os encontros com a vida selvagem são rotina, com wapitis a passear pela vila e caribus a atravessar por vezes a estrada. A posição recuada, a três horas e meia a oeste de Edmonton, mantém as multidões longe e recompensa os viajantes dispostos a comprometer-se. Serve intermédios que querem pistas vazias, experts do fora de pista à caça de linhas com acesso a pé e quem prefere um cenário de parque nacional sem filtros aos bares à beira de pista.",
+      "it": "Marmot Basin distribuisce 7 impianti su 678 ettari in uno dei paesaggi più protetti del Nord America. La parte bassa della montagna offre lunghe blu di cruising che danno fiducia fino al lodge principale, la stazione intermedia si apre su ampie creste intermedie e, dalla seggiovia Knob, il terreno sale di livello verso Eagle Ridge, il Marmot Basin Headwall e le linee expert raggiungibili a piedi del Caribou Knob, che regalano alcune delle discese più isolate del continente. La neve resta profonda e asciutta da fine novembre a inizio maggio e, in una giornata feriale tranquilla, è davvero possibile sciare una linea fresca alle 11 del mattino. Non c'è villaggio alla base, solo un lodge diurno e parcheggio; si alloggia nella cittadina di Jasper, a diciannove chilometri al termine della strada d'accesso, con la via principale illuminata dalle lanterne, il Fairmont Jasper Park Lodge e le passeggiate sul ghiaccio del Maligne Canyon nei giorni di riposo. Gli avvistamenti di fauna sono la norma, con i wapiti che passeggiano in città e i caribù che a volte attraversano la strada. La posizione defilata, a tre ore e mezza a ovest di Edmonton, tiene lontane le folle e premia i viaggiatori disposti a impegnarsi. Si adatta agli intermedi che vogliono piste vuote, agli esperti del fuori pista a caccia di linee con accesso a piedi e a chi preferisce un'ambientazione di parco nazionale non addolcita ai bar sulle piste."
+    },
+    "pisteCounts": {
+      "green": 18,
+      "blue": 30,
+      "red": 28,
+      "black": 15
+    }
   }
 ]

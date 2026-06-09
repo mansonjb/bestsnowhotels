@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas. 369 hand-picked ski destinations across 17 countries and 4 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa and Egypt (indoor). Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas. 379 hand-picked ski destinations across 18 countries and 4 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor) and Canada. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -43,7 +43,7 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 
 A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
 
-- /weather: index of all 369 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather: index of all 379 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
@@ -83,6 +83,9 @@ United States (Rockies, Wasatch, Sierra, Tetons, East Coast):
 Africa (Atlas, Djurdjura, Maluti, Drakensberg, indoor Cairo):
 - Ski resorts in Africa
 
+Canada (Coast Mountains, Rockies, BC Interior, Laurentides):
+- Best ski resorts in Canada
+
 Index: https://www.bestsnowhotels.com/en/best
 
 ## Country coverage
@@ -104,6 +107,7 @@ Index: https://www.bestsnowhotels.com/en/best
 - Lesotho (1): Afriski Mountain Resort (Maluti, highest ski base in Africa at 3050 m, southern-hemisphere season Jun-Aug)
 - South Africa (1): Tiffindell (Eastern Cape Drakensberg, southern-hemisphere season Jun-Aug)
 - Egypt (1): Ski Egypt (Mall of Egypt, Cairo — the only indoor ski slope in Africa, year-round)
+- Canada (10): Whistler Blackcomb (Coast Mountains, BC); Banff Sunshine, Lake Louise, Marmot Basin (Canadian Rockies, Alberta); Revelstoke, Big White, Sun Peaks, Kicking Horse (BC Interior); Tremblant, Mont-Sainte-Anne (Laurentides, Quebec)
 
 ## Languages
 

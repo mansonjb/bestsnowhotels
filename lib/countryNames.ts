@@ -24,6 +24,7 @@ const NAMES: Record<string, Record<Locale, string>> = {
   Lesotho: { en: 'Lesotho', fr: 'Lesotho', es: 'Lesoto', pt: 'Lesoto', it: 'Lesotho' },
   'South Africa': { en: 'South Africa', fr: 'Afrique du Sud', es: 'Sudáfrica', pt: 'África do Sul', it: 'Sudafrica' },
   Egypt: { en: 'Egypt', fr: 'Égypte', es: 'Egipto', pt: 'Egito', it: 'Egitto' },
+  Canada: { en: 'Canada', fr: 'Canada', es: 'Canadá', pt: 'Canadá', it: 'Canada' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -39,9 +40,14 @@ export function inCountry(englishName: string, locale: Locale): string {
   if (locale === 'en') return `in ${name}`
   if (locale === 'fr') {
     // EN names: Switzerland, Italy, Spain, France, Austria, Andorra → "en" (feminine)
-    // Masculine singular country → "au" (Japon, Maroc, Lesotho)
+    // Masculine singular country → "au" (Japon, Maroc, Lesotho, Canada)
     // Plural masculine → "aux" (États-Unis)
-    if (englishName === 'Japan' || englishName === 'Morocco' || englishName === 'Lesotho')
+    if (
+      englishName === 'Japan' ||
+      englishName === 'Morocco' ||
+      englishName === 'Lesotho' ||
+      englishName === 'Canada'
+    )
       return `au ${name}`
     if (englishName === 'United States') return `aux ${name}`
     return `en ${name}`
@@ -54,7 +60,12 @@ export function inCountry(englishName: string, locale: Locale): string {
     // "na" before feminine names with article (Suíça, Áustria, Alemanha, Noruega, Suécia, Argélia, África do Sul),
     // "no" before masculine singular with article (Japão, Lesoto, Egito),
     // "nos" before masculine plural with article (Estados Unidos).
-    if (englishName === 'Japan' || englishName === 'Lesotho' || englishName === 'Egypt')
+    if (
+      englishName === 'Japan' ||
+      englishName === 'Lesotho' ||
+      englishName === 'Egypt' ||
+      englishName === 'Canada'
+    )
       return `no ${name}`
     if (englishName === 'United States') return `nos ${name}`
     if (englishName === 'Algeria' || englishName === 'South Africa') return `na ${name}`
