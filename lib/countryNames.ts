@@ -25,6 +25,9 @@ const NAMES: Record<string, Record<Locale, string>> = {
   'South Africa': { en: 'South Africa', fr: 'Afrique du Sud', es: 'Sudáfrica', pt: 'África do Sul', it: 'Sudafrica' },
   Egypt: { en: 'Egypt', fr: 'Égypte', es: 'Egipto', pt: 'Egito', it: 'Egitto' },
   Canada: { en: 'Canada', fr: 'Canada', es: 'Canadá', pt: 'Canadá', it: 'Canada' },
+  'South Korea': { en: 'South Korea', fr: 'Corée du Sud', es: 'Corea del Sur', pt: 'Coreia do Sul', it: 'Corea del Sud' },
+  Australia: { en: 'Australia', fr: 'Australie', es: 'Australia', pt: 'Austrália', it: 'Australia' },
+  'New Zealand': { en: 'New Zealand', fr: 'Nouvelle-Zélande', es: 'Nueva Zelanda', pt: 'Nova Zelândia', it: 'Nuova Zelanda' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -68,7 +71,14 @@ export function inCountry(englishName: string, locale: Locale): string {
     )
       return `no ${name}`
     if (englishName === 'United States') return `nos ${name}`
-    if (englishName === 'Algeria' || englishName === 'South Africa') return `na ${name}`
+    if (
+      englishName === 'Algeria' ||
+      englishName === 'South Africa' ||
+      englishName === 'South Korea' ||
+      englishName === 'Australia' ||
+      englishName === 'New Zealand'
+    )
+      return `na ${name}`
     if (
       englishName === 'Switzerland' ||
       englishName === 'Austria' ||

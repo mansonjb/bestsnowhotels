@@ -1499,7 +1499,10 @@
     "big-white-2.jpg",
     "big-white-3.jpg"
   ],
-  "sun-peaks": [],
+  "sun-peaks": [
+    "sun-peaks-2.jpg",
+    "sun-peaks-3.jpg"
+  ],
   "kicking-horse": [
     "kicking-horse-2.jpg",
     "kicking-horse-3.jpg"
@@ -1511,5 +1514,85 @@
   "marmot-basin": [
     "marmot-basin-2.jpg",
     "marmot-basin-3.jpg"
+  ],
+  "yongpyong": [
+    "yongpyong-2.jpg",
+    "yongpyong-3.jpg"
+  ],
+  "high1": [
+    "high1-2.jpg",
+    "high1-3.jpg"
+  ],
+  "phoenix-pyeongchang": [
+    "phoenix-pyeongchang-2.jpg",
+    "phoenix-pyeongchang-3.jpg"
+  ],
+  "alpensia": [
+    "alpensia-2.jpg",
+    "alpensia-3.jpg"
+  ],
+  "vivaldi-park": [
+    "vivaldi-park-2.jpg",
+    "vivaldi-park-3.jpg"
+  ],
+  "welli-hilli-park": [
+    "welli-hilli-park-2.jpg",
+    "welli-hilli-park-3.jpg"
+  ],
+  "konjiam": [
+    "konjiam-2.jpg",
+    "konjiam-3.jpg"
+  ],
+  "oak-valley": [
+    "oak-valley-2.jpg",
+    "oak-valley-3.jpg"
+  ],
+  "muju-deogyusan": [
+    "muju-deogyusan-2.jpg",
+    "muju-deogyusan-3.jpg"
+  ],
+  "eden-valley": [
+    "eden-valley-2.jpg",
+    "eden-valley-3.jpg"
+  ],
+  "perisher": [
+    "perisher-2.jpg",
+    "perisher-3.jpg"
+  ],
+  "thredbo": [
+    "thredbo-2.jpg",
+    "thredbo-3.jpg"
+  ],
+  "falls-creek": [
+    "falls-creek-2.jpg",
+    "falls-creek-3.jpg"
+  ],
+  "mt-hotham": [
+    "mt-hotham-2.jpg",
+    "mt-hotham-3.jpg"
+  ],
+  "mt-buller": [
+    "mt-buller-2.jpg",
+    "mt-buller-3.jpg"
+  ],
+  "cardrona": [
+    "cardrona-2.jpg",
+    "cardrona-3.jpg"
+  ],
+  "treble-cone": [
+    "treble-cone-2.jpg",
+    "treble-cone-3.jpg"
+  ],
+  "coronet-peak": [
+    "coronet-peak-2.jpg",
+    "coronet-peak-3.jpg"
+  ],
+  "the-remarkables": [
+    "the-remarkables-2.jpg",
+    "the-remarkables-3.jpg"
+  ],
+  "mt-hutt": [
+    "mt-hutt-2.jpg",
+    "mt-hutt-3.jpg"
   ]
 }

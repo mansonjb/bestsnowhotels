@@ -18626,5 +18626,1023 @@
       "red": 28,
       "black": 15
     }
+  },
+  {
+    "slug": "yongpyong",
+    "name": "Yongpyong",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Taebaek Mountains",
+    "lat": 37.6491,
+    "lng": 128.6864,
+    "altitudeBase": 700,
+    "altitudeSummit": 1458,
+    "pistesKm": 33,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Genuine ski-in/ski-out at Yongpyong means the hotels and condos clustered around Dragon Plaza, the Tower Condominium and the Birch Hill block. Slopeside lodging here is the rule rather than the exception, and night skiing means you can step out for a few runs after dinner.",
+      "fr": "Le vrai ski-in/ski-out à Yongpyong, ce sont les hôtels et condos groupés autour de Dragon Plaza, du Tower Condominium et du bloc Birch Hill. Le logement au pied des pistes est ici la norme, pas l'exception, et le ski nocturne permet de sortir tirer quelques descentes après le dîner.",
+      "es": "El verdadero ski-in/ski-out en Yongpyong son los hoteles y condominios agrupados en torno a Dragon Plaza, el Tower Condominium y el bloque Birch Hill. El alojamiento al pie de pistas es aquí la norma, no la excepción, y el esquí nocturno permite salir a tirar unas bajadas después de cenar.",
+      "pt": "O verdadeiro ski-in/ski-out em Yongpyong está nos hotéis e condomínios agrupados à volta de Dragon Plaza, do Tower Condominium e do bloco Birch Hill. O alojamento ao pé das pistas é aqui a regra, não a exceção, e o esqui noturno permite sair para algumas descidas depois do jantar.",
+      "it": "Il vero ski-in/ski-out a Yongpyong sono gli hotel e i condomini raccolti attorno a Dragon Plaza, alla Tower Condominium e al blocco Birch Hill. L'alloggio ai piedi delle piste qui è la regola, non l'eccezione, e lo sci notturno permette di uscire per qualche discesa dopo cena."
+    },
+    "seasonStart": "Nov 28",
+    "seasonEnd": "Mar 31",
+    "snowScore": 74,
+    "vibes": [
+      "olympic",
+      "big-domain",
+      "family",
+      "racing",
+      "night-ski"
+    ],
+    "intro": {
+      "en": "Yongpyong is the giant of Korean skiing, a fan of white runs spilling down Mt Balwangsan in the PyeongChang highlands. This is where the 2018 Winter Olympics ran their alpine slalom and giant slalom races, and the resort still wears that pedigree with quiet pride above the Dragon Plaza village.",
+      "fr": "Yongpyong est le géant du ski coréen, un éventail de pistes blanches qui dévalent le mont Balwangsan, dans les hauteurs de PyeongChang. C'est ici que les Jeux olympiques d'hiver 2018 ont disputé le slalom et le slalom géant, et la station porte encore ce pedigree avec une fierté tranquille, au-dessus du village piéton de Dragon Plaza.",
+      "es": "Yongpyong es el gigante del esquí surcoreano, un abanico de pistas blancas que caen por el monte Balwangsan, en las tierras altas de PyeongChang. Aquí se disputaron el eslalon y el eslalon gigante de los Juegos Olímpicos de Invierno de 2018, y la estación todavía luce ese pedigrí con orgullo tranquilo sobre el pueblo peatonal de Dragon Plaza.",
+      "pt": "Yongpyong é o gigante do esqui coreano, um leque de pistas brancas que desce do monte Balwangsan, nas terras altas de PyeongChang. Foi aqui que os Jogos Olímpicos de Inverno de 2018 disputaram o slalom e o slalom gigante, e a estância ainda exibe esse pedigree com orgulho discreto sobre a aldeia pedonal de Dragon Plaza.",
+      "it": "Yongpyong è il gigante dello sci coreano, un ventaglio di piste bianche che scendono dal monte Balwangsan, nell'altopiano di PyeongChang. Qui i Giochi olimpici invernali del 2018 hanno disputato lo slalom e lo slalom gigante, e la stazione porta ancora quel pedigree con orgoglio tranquillo sopra il villaggio pedonale di Dragon Plaza."
+    },
+    "longDescription": {
+      "en": "With 33 km of piste served by 14 lifts and a summit at 1458 m, Yongpyong is the biggest ski resort in South Korea. The mountain spreads out in a wide bowl, with 18 named trails covering everything from gentle greens for first-timers to four genuine blacks including the Olympic Rainbow runs at the top. Snow is mostly manmade and groomed every night, but the cold dry air and the altitude keep the surface fast and the season honest from late November through March. The base is a self-contained pedestrian resort: Dragon Plaza with hotels, restaurants, a spa, ski rental and an indoor water park, all walkable. Night skiing runs to around 22:30 most evenings. Getting here is unusually easy by international standards: the KTX high-speed train from Seoul Station reaches Jinbu in roughly 90 minutes, and a free resort shuttle covers the last 20 minutes to the base. The crowd is a mix of Seoul families, Korean university trips and a growing wave of skiers from Hong Kong, Singapore and Taipei. In summer the slopes turn into a championship golf course.",
+      "fr": "Avec 33 km de pistes desservies par 14 remontées et un sommet à 1458 m, Yongpyong est la plus grande station de ski de Corée du Sud. La montagne s'étale en large cuvette, et les 18 pistes balisées couvrent tout, des vertes douces pour débuter aux quatre vraies noires, dont les tracés olympiques Rainbow tout en haut. La neige est essentiellement artificielle et damée chaque nuit, mais l'air sec et froid et l'altitude maintiennent une surface rapide et une saison honnête de fin novembre à mars. Le pied des pistes est un petit village piéton autonome: Dragon Plaza réunit hôtels, restaurants, spa, location de skis et parc aquatique couvert, le tout à pied. Le ski nocturne tourne jusqu'à 22h30 environ. L'accès est exceptionnellement simple: le KTX depuis Seoul Station rallie Jinbu en 90 minutes, et une navette gratuite couvre les 20 dernières minutes. La clientèle mêle familles séoulites, sorties d'universités coréennes et skieurs de Hong Kong, Singapour ou Taipei. L'été, les pistes deviennent un parcours de golf de championnat.",
+      "es": "Con 33 km de pistas servidas por 14 remontes y una cota máxima de 1458 m, Yongpyong es la mayor estación de esquí de Corea del Sur. La montaña se abre en un amplio circo, y los 18 trazados balizados van desde las suaves verdes para iniciados hasta cuatro auténticas negras, incluidas las pistas olímpicas Rainbow en la parte alta. La nieve es sobre todo artificial y se pisa cada noche, pero el aire seco y frío y la altitud mantienen una superficie rápida y una temporada honesta de finales de noviembre a marzo. La base es un pequeño pueblo peatonal autosuficiente: Dragon Plaza reúne hoteles, restaurantes, spa, alquiler de esquís y un parque acuático cubierto, todo a pie. El esquí nocturno funciona hasta las 22:30 aproximadamente. Llegar es excepcionalmente fácil: el KTX desde la estación de Seúl alcanza Jinbu en unos 90 minutos, y una lanzadera gratuita cubre los últimos 20 minutos hasta la base. El público mezcla familias seulitas, salidas universitarias coreanas y esquiadores de Hong Kong, Singapur o Taipéi. En verano las pistas se convierten en un campo de golf de campeonato.",
+      "pt": "Com 33 km de pistas servidas por 14 teleféricos e um cume a 1458 m, Yongpyong é a maior estância de esqui da Coreia do Sul. A montanha abre-se num amplo anfiteatro, e as 18 pistas balizadas vão das verdes suaves para iniciantes a quatro autênticas negras, incluindo as pistas olímpicas Rainbow no topo. A neve está sobretudo artificial e está pisada todas as noites, mas o ar seco e frio e a altitude mantêm uma superfície rápida e uma época honesta do final de novembro a março. A base é uma pequena aldeia pedonal autossuficiente: Dragon Plaza reúne hotéis, restaurantes, spa, aluguer de esquis e um parque aquático coberto, tudo a pé. O esqui noturno funciona até cerca das 22h30. Chegar é excecionalmente fácil: o KTX da estação de Seul alcança Jinbu em cerca de 90 minutos, e uma carrinha gratuita cobre os últimos 20 minutos até à base. O público mistura famílias da capital, saídas universitárias coreanas e esquiadores de Hong Kong, Singapura ou Taipé. No verão, as pistas transformam-se num campo de golfe de campeonato.",
+      "it": "Con 33 km di piste servite da 14 impianti e una vetta a 1458 m, Yongpyong è la più grande stazione sciistica della Corea del Sud. La montagna si apre in un'ampia conca, e i 18 tracciati segnalati vanno dalle verdi morbide per esordienti a quattro vere nere, comprese le piste olimpiche Rainbow in alto. La neve è soprattutto artificiale e battuta ogni notte, ma l'aria secca e fredda e la quota mantengono una superficie veloce e una stagione onesta da fine novembre a marzo. Ai piedi della montagna c'è un piccolo borgo pedonale autosufficiente: Dragon Plaza riunisce hotel, ristoranti, spa, noleggio sci e un parco acquatico coperto, tutto a piedi. Lo sci notturno arriva fino alle 22:30 circa. L'accesso è eccezionalmente semplice: il KTX dalla stazione di Seoul raggiunge Jinbu in circa 90 minuti, e una navetta gratuita copre gli ultimi 20 minuti fino alla base. La clientela mescola famiglie di Seoul, gite universitarie coreane e sciatori da Hong Kong, Singapore e Taipei. D'estate le piste diventano un campo da golf da campionato."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 9,
+      "red": 9,
+      "black": 4
+    }
+  },
+  {
+    "slug": "high1",
+    "name": "High1 Resort",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Taebaek Mountains",
+    "lat": 37.205,
+    "lng": 128.7567,
+    "altitudeBase": 855,
+    "altitudeSummit": 1345,
+    "pistesKm": 22,
+    "lifts": 18,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out at High1 means the Kangwon Land Hotel and the Hi1 Condominium and Valley Condominium blocks, all of which sit directly on the runs. Plenty of other lodging is a short shuttle away, but the slopeside cluster is real and well-built.",
+      "fr": "Le vrai ski-in/ski-out à High1, ce sont le Kangwon Land Hotel et les blocs Hi1 Condominium et Valley Condominium, tous posés directement sur les pistes. D'autres hébergements sont à courte navette, mais le cluster pied de pistes existe vraiment et il est bien fait.",
+      "es": "El verdadero ski-in/ski-out en High1 son el Kangwon Land Hotel y los bloques Hi1 Condominium y Valley Condominium, situados directamente sobre las pistas. Otros alojamientos quedan a corta lanzadera, pero el núcleo a pie de pistas existe de verdad y está bien resuelto.",
+      "pt": "O verdadeiro ski-in/ski-out em High1 está no Kangwon Land Hotel e nos blocos Hi1 Condominium e Valley Condominium, todos diretamente sobre as pistas. Outros alojamentos estão a curta carrinha, mas o núcleo ao pé das pistas existe mesmo e está bem feito.",
+      "it": "Il vero ski-in/ski-out a High1 sono il Kangwon Land Hotel e i blocchi Hi1 Condominium e Valley Condominium, tutti posati direttamente sulle piste. Altri alloggi sono a breve navetta, ma il nucleo ai piedi delle piste esiste davvero ed è ben fatto."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Mar 31",
+    "snowScore": 74,
+    "vibes": [
+      "big-domain",
+      "snow-sure",
+      "family",
+      "party",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "High1 sits high above the old coal valleys of Jeongseon, in eastern Gangwon, with a base at 855 m that already feels like the top of a mountain elsewhere. The runs are wide, the views are dramatic, and the resort has the easy, slightly resort-town feel of a place built around a casino complex and a cable car.",
+      "fr": "High1 domine les anciennes vallées minières de Jeongseon, dans l'est de Gangwon, avec un pied de pistes à 855 m qui ressemble déjà au sommet d'une montagne ailleurs. Les pistes sont larges, les panoramas sont théâtraux, et la station a cette atmosphère un peu détendue, un peu casino, d'un lieu bâti autour d'un complexe de jeu et d'un téléphérique.",
+      "es": "High1 se asienta en lo alto, sobre los antiguos valles mineros de Jeongseon, al este de Gangwon, con una base a 855 m que en otros sitios ya sería una cumbre. Las pistas son anchas, las vistas son teatrales y la estación tiene ese aire algo relajado y resortero de un lugar levantado en torno a un complejo de casino y un teleférico.",
+      "pt": "High1 está no alto, sobre os antigos vales mineiros de Jeongseon, no leste de Gangwon, com uma base a 855 m que noutros sítios já seria um cume. As pistas são largas, as vistas são teatrais e a estância tem aquele ar descontraído e meio de cidade de lazer, construída em torno de um complexo de casino e de um teleférico.",
+      "it": "High1 si trova in quota, sopra le vecchie valli minerarie di Jeongseon, nella Gangwon orientale, con una base a 855 m che altrove sarebbe già una vetta. Le piste sono ampie, i panorami sono teatrali e la stazione ha quell'atmosfera rilassata e un po' da resort di un luogo costruito intorno a un complesso casinò e a una funivia."
+    },
+    "longDescription": {
+      "en": "High1 is run by Kangwon Land, which also operates the only casino in Korea legally open to Korean nationals, and the resort is plugged into that ecosystem: long sweeping hotels, big buffet restaurants, an outlet mall and a convention centre stand a short shuttle from the base. The skiing itself is friendly. Across 18 lifts and 22 km of trails, the terrain leans toward broad blues and confident reds, with four blacks and a couple of properly steep racing pitches for variety. The high starting altitude and a summit at 1345 m mean the snow holds well into March, even in mild Korean winters, and snowmaking blankets almost every metre. The on-mountain Hi1 gondola feeds the main bowl, while smaller chair lifts split off into quieter zones with valley views over the old mining country, where slag heaps have been replanted and steam still drifts off the river in the cold. By car it is around 3 hours from Seoul. By KTX, Jeongseon-Gohan station is now close enough to chain a free shuttle. The crowd skews family on weekdays, party on weekends.",
+      "fr": "High1 est exploitée par Kangwon Land, qui gère aussi le seul casino de Corée légalement ouvert aux Coréens, et la station baigne dans cet écosystème: longs hôtels paquebot, grands restaurants en buffet, outlet mall et palais des congrès, à courte navette du pied des pistes. Le ski, lui, est accueillant. Sur 18 remontées et 22 km de tracés, le terrain penche vers les bleues larges et les rouges franches, avec quatre noires et quelques pentes de course bien raides pour varier. L'altitude de départ et le sommet à 1345 m tiennent la neige jusqu'en mars, même dans les hivers coréens doux, et l'enneigement de culture couvre presque tout. La télécabine Hi1 alimente le grand vallon, tandis que des télésièges plus petits ouvrent des zones plus calmes avec vue sur les vallées de l'ancien charbon, terrils reverdis et brume qui flotte sur la rivière. En voiture, comptez environ 3 heures depuis Séoul. En KTX, la gare de Jeongseon-Gohan se relie désormais par navette gratuite. Public familial en semaine, plus festif le week-end.",
+      "es": "High1 está gestionada por Kangwon Land, que también opera el único casino de Corea legalmente abierto a coreanos, y la estación está integrada en ese ecosistema: largos hoteles, grandes restaurantes de bufé, un outlet y un palacio de congresos a un corto trayecto de lanzadera de la base. El esquí, en cambio, es amable. Con 18 remontes y 22 km de trazados, el terreno se inclina hacia azules anchas y rojas francas, con cuatro negras y un par de pendientes de competición de verdad para variar. La cota de salida y la cumbre a 1345 m mantienen la nieve bien entrado marzo, incluso en inviernos coreanos suaves, y la innivación artificial cubre casi todo. La góndola Hi1 alimenta la cubeta principal, mientras telesillas más pequeños abren zonas tranquilas con vistas sobre los valles del antiguo carbón, escombreras revegetadas y vaho del río al frío. En coche, unas 3 horas desde Seúl. En KTX, la estación de Jeongseon-Gohan ya conecta con lanzadera gratuita. Público familiar entre semana, más festivo el fin de semana.",
+      "pt": "High1 está gerida pela Kangwon Land, que também opera o único casino da Coreia legalmente aberto a coreanos, e a estância está integrada nesse ecossistema: hotéis compridos, grandes restaurantes de buffet, um outlet e um centro de congressos a curta distância de carrinha da base. O esqui, esse, é acolhedor. Em 18 teleféricos e 22 km de pistas, o terreno pende para azuis largas e vermelhas francas, com quatro negras e algumas rampas de competição bem inclinadas para variar. A cota de partida e o cume a 1345 m seguram a neve bem dentro de março, mesmo nos invernos coreanos amenos, e a neve de cultura cobre quase tudo. O telecabine Hi1 alimenta o anfiteatro principal, enquanto cadeiras mais pequenas abrem zonas calmas com vistas sobre os vales do antigo carvão, escombreiras replantadas e vapor a sair do rio no frio. De carro, cerca de 3 horas desde Seul. De KTX, a estação de Jeongseon-Gohan já liga por carrinha gratuita. Público familiar à semana, mais festivo ao fim de semana.",
+      "it": "High1 è gestita da Kangwon Land, che opera anche l'unico casinò della Corea aperto legalmente ai coreani, e la stazione vive di quell'ecosistema: lunghi hotel a forma di nave, grandi ristoranti a buffet, un outlet e un centro congressi a una breve navetta dalla base. Lo sci invece è accogliente. Su 18 impianti e 22 km di tracciati, il terreno pende verso blu larghe e rosse decise, con quattro nere e qualche pendenza da gara davvero ripida per variare. La quota di partenza e la vetta a 1345 m tengono la neve fino a marzo inoltrato, anche nei miti inverni coreani, e l'innevamento programmato copre quasi tutto. La cabinovia Hi1 alimenta la conca principale, mentre seggiovie più piccole aprono zone tranquille con vista sulle valli del vecchio carbone, discariche minerarie rinverdite e vapore che sale dal fiume nel freddo. In auto, circa 3 ore da Seoul. In KTX, la stazione di Jeongseon-Gohan è collegata da una navetta gratuita. Pubblico familiare nei feriali, più festoso nel weekend."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 8,
+      "red": 6,
+      "black": 4
+    }
+  },
+  {
+    "slug": "phoenix-pyeongchang",
+    "name": "Phoenix Pyeongchang",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Taebaek Mountains",
+    "lat": 37.5908,
+    "lng": 128.4889,
+    "altitudeBase": 700,
+    "altitudeSummit": 1050,
+    "pistesKm": 22,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out at Phoenix means the Holiday Inn Resort Alpensia Phoenix and the on-base condominium blocks, all sitting where the green slope meets the village square. Off-snow accommodation a few minutes by shuttle is plentiful, but the slopeside core is real.",
+      "fr": "Le vrai ski-in/ski-out à Phoenix, c'est le Holiday Inn Resort Alpensia Phoenix et les copropriétés du pied des pistes, posées là où la piste verte rejoint la place du village. Beaucoup d'hébergements sont à quelques minutes de navette, mais le noyau pied de pistes existe pour de bon.",
+      "es": "El verdadero ski-in/ski-out en Phoenix son el Holiday Inn Resort Alpensia Phoenix y los condominios a pie de pistas, justo donde la verde llega a la plaza del pueblo. Hay mucho alojamiento a unos minutos en lanzadera, pero el núcleo a pie de pistas existe de verdad.",
+      "pt": "O verdadeiro ski-in/ski-out em Phoenix está no Holiday Inn Resort Alpensia Phoenix e nos condomínios ao pé das pistas, mesmo onde a verde encontra a praça da aldeia. Há muito alojamento a alguns minutos de carrinha, mas o núcleo ao pé das pistas é real.",
+      "it": "Il vero ski-in/ski-out a Phoenix sono l'Holiday Inn Resort Alpensia Phoenix e i condomini ai piedi delle piste, proprio dove la verde incontra la piazza del villaggio. C'è molta sistemazione a pochi minuti di navetta, ma il nucleo ai piedi delle piste è autentico."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Mar 23",
+    "snowScore": 70,
+    "vibes": [
+      "olympic",
+      "freestyle",
+      "family",
+      "night-ski"
+    ],
+    "intro": {
+      "en": "Phoenix Pyeongchang is the freestyle face of Korean skiing, built on the north flank of Mont Blanc peak at 1050 m. This is where the 2018 Olympics ran freestyle, snowboard cross and snowboard halfpipe, and the park culture has stuck: jibs, rails and a serious pipe sit alongside long, friendly cruisers.",
+      "fr": "Phoenix Pyeongchang est le visage freestyle du ski coréen, posé sur le versant nord du Mont Blanc local, à 1050 m. Les Jeux 2018 y ont disputé le freestyle, le snowboard cross et le halfpipe, et la culture park y est restée: jibs, rails et un vrai halfpipe cohabitent avec de longues pistes faciles et plaisantes.",
+      "es": "Phoenix Pyeongchang es la cara freestyle del esquí coreano, asentada en la vertiente norte del Mont Blanc local, a 1050 m. Allí se disputaron en 2018 el freestyle, el snowboard cross y el halfpipe, y la cultura park sigue viva: jibs, rails y un halfpipe en serio conviven con cruceros largos y amables.",
+      "pt": "Phoenix Pyeongchang é a cara freestyle do esqui coreano, na encosta norte do Mont Blanc local, a 1050 m. Foi aqui que em 2018 se disputaram o freestyle, o snowboard cross e o halfpipe, e a cultura de park ficou: jibs, rails e um halfpipe a sério convivem com pistas longas e simpáticas.",
+      "it": "Phoenix Pyeongchang è il volto freestyle dello sci coreano, sul versante nord del Mont Blanc locale, a 1050 m. Qui i Giochi 2018 hanno disputato freestyle, snowboard cross e halfpipe, e la cultura park è rimasta: jibs, rails e un vero halfpipe convivono con cruiser lunghi e accoglienti."
+    },
+    "longDescription": {
+      "en": "Phoenix spreads across 22 km of trails, 14 lifts and 22 runs that fan around the Mont Blanc summit. The north exposure is the resort's quiet trump card: cold air settles, manmade snow holds well, and the cruisers stay firm into March. There are four blacks for confident skiers, a dedicated competition slalom run, and one of the best terrain parks in East Asia, with a halfpipe used by Korean and Japanese national teams. Beginners get their own gentle plateau near the base, kept apart from the freestyle crowds. The base village is a tight cluster: a Holiday Inn hotel, condominium blocks, ski rentals, restaurants and an indoor pool, all walkable, plus a tubing slope and night skiing until 23:30. From Seoul, Phoenix is one of the easiest big resorts to reach. The KTX to Pyeongchang station drops you 30 minutes away by shuttle, and direct ski buses run on weekends. The audience skews young and urban, with seoul snowboarders making a long weekend of it.",
+      "fr": "Phoenix s'étire sur 22 km de tracés, 14 remontées et 22 pistes en éventail autour du sommet du Mont Blanc local. L'exposition nord est l'atout discret de la station: l'air froid stagne, la neige de culture tient bien, et les cruisers gardent une bonne tenue jusqu'en mars. Comptez quatre noires pour skieurs sûrs, une vraie piste de slalom de compétition et l'un des meilleurs snowparks d'Asie de l'Est, avec un halfpipe utilisé par les équipes nationales coréenne et japonaise. Les débutants disposent de leur propre plateau doux près du bas, à l'écart du flux freestyle. Le village au pied des pistes forme un noyau dense: hôtel Holiday Inn, copropriétés, location, restaurants et piscine couverte, le tout à pied, plus une piste de luge et du ski nocturne jusqu'à 23h30. Depuis Séoul, Phoenix est l'une des grandes stations les plus simples d'accès. Le KTX dépose à la gare de Pyeongchang à 30 minutes de navette, et des bus de ski directs roulent le week-end. Public jeune et urbain, snowboardeurs séoulites en goguette.",
+      "es": "Phoenix se extiende a lo largo de 22 km de trazados, 14 remontes y 22 pistas en abanico alrededor del Mont Blanc local. La exposición norte es la baza discreta de la estación: el aire frío se posa, la nieve artificial aguanta y los cruceros conservan firmeza hasta marzo. Hay cuatro negras para esquiadores seguros, una pista de eslalon de competición de verdad y uno de los mejores snowparks de Asia oriental, con un halfpipe utilizado por las selecciones nacionales coreana y japonesa. Los principiantes tienen su propio rellano suave cerca de la base, apartado del trasiego del freestyle. El pueblo a pie de pistas forma un núcleo denso: hotel Holiday Inn, condominios, alquiler, restaurantes y piscina cubierta, todo andando, además de una pista de tubing y esquí nocturno hasta las 23:30. Desde Seúl, Phoenix es una de las grandes estaciones más sencillas de alcanzar. El KTX deja en la estación de Pyeongchang a 30 minutos en lanzadera, y los fines de semana circulan autobuses esquí directos. Público joven y urbano, snowboarders seulitas de fin de semana.",
+      "pt": "Phoenix estende-se por 22 km de pistas, 14 teleféricos e 22 traçados em leque à volta do cume do Mont Blanc local. A exposição norte é o trunfo discreto da estância: o ar frio assenta, a neve de cultura aguenta, e os cruisers mantêm firmeza até março. Há quatro negras para esquiadores confiantes, uma pista de slalom de competição a sério e um dos melhores snowparks da Ásia Oriental, com um halfpipe utilizado pelas seleções nacionais coreana e japonesa. Os principiantes têm o seu próprio patamar suave perto da base, longe do bulício do freestyle. A aldeia ao pé das pistas forma um núcleo denso: hotel Holiday Inn, condomínios, aluguer, restaurantes e piscina coberta, tudo a pé, além de uma pista de tubing e esqui noturno até às 23h30. A partir de Seul, Phoenix está entre as grandes estâncias mais fáceis de alcançar. O KTX deixa na estação de Pyeongchang a 30 minutos de carrinha, e ao fim de semana há autocarros de esqui diretos. Público jovem e urbano, snowboarders da capital em fim de semana prolongado.",
+      "it": "Phoenix si distende su 22 km di tracciati, 14 impianti e 22 piste a ventaglio attorno alla vetta del Mont Blanc locale. L'esposizione nord è l'asso nella manica della stazione: l'aria fredda si deposita, la neve programmata regge, e i cruiser restano compatti fino a marzo. Ci sono quattro nere per sciatori sicuri, una vera pista di slalom da competizione e uno dei migliori snowpark dell'Asia orientale, con un halfpipe usato dalle nazionali coreana e giapponese. I principianti hanno un loro pianoro morbido vicino alla base, tenuto a distanza dal flusso freestyle. Il villaggio ai piedi delle piste è un nucleo compatto: hotel Holiday Inn, condomini, noleggio, ristoranti e piscina coperta, tutto a piedi, oltre a una pista di tubing e sci notturno fino alle 23:30. Da Seoul, Phoenix è tra le grandi stazioni più semplici da raggiungere. Il KTX scarica alla stazione di Pyeongchang a 30 minuti di navetta, e nei weekend ci sono ski-bus diretti. Pubblico giovane e urbano, snowboarder di Seoul in lungo weekend."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 7,
+      "red": 7,
+      "black": 4
+    }
+  },
+  {
+    "slug": "alpensia",
+    "name": "Alpensia",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Taebaek Mountains",
+    "lat": 37.6597,
+    "lng": 128.6731,
+    "altitudeBase": 750,
+    "altitudeSummit": 1438,
+    "pistesKm": 9,
+    "lifts": 6,
+    "skiInSkiOutNote": {
+      "en": "Genuine ski-in/ski-out at Alpensia is real: the InterContinental, the Holiday Inn Resort and the on-site condominium blocks all sit on or beside the runs, linked to the lifts by covered paths. Few Korean resorts make slopeside life this easy.",
+      "fr": "Le vrai ski-in/ski-out existe à Alpensia: l'InterContinental, le Holiday Inn Resort et les copropriétés sur site sont posés sur les pistes ou à côté, reliés aux remontées par des passages couverts. Peu de stations coréennes rendent la vie pied de pistes aussi simple.",
+      "es": "El verdadero ski-in/ski-out existe en Alpensia: el InterContinental, el Holiday Inn Resort y los condominios del recinto están sobre las pistas o pegados a ellas, conectados a los remontes por pasadizos cubiertos. Pocas estaciones coreanas hacen tan sencilla la vida a pie de pistas.",
+      "pt": "O verdadeiro ski-in/ski-out existe em Alpensia: o InterContinental, o Holiday Inn Resort e os condomínios no recinto estão sobre as pistas ou ao lado, ligados aos teleféricos por passagens cobertas. Poucas estâncias coreanas tornam a vida ao pé das pistas tão simples.",
+      "it": "Il vero ski-in/ski-out esiste ad Alpensia: l'InterContinental, l'Holiday Inn Resort e i condomini interni si trovano sulle piste o accanto, collegati agli impianti da passaggi coperti. Poche stazioni coreane rendono la vita ai piedi delle piste così semplice."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Mar 16",
+    "snowScore": 70,
+    "vibes": [
+      "olympic",
+      "family",
+      "value",
+      "night-ski"
+    ],
+    "intro": {
+      "en": "Alpensia is the calm, polished heart of the PyeongChang Olympic legacy. The ski jumps, the biathlon stadium and the sliding centre are right there on the skyline, but the resort itself is gentle: six lifts, nine kilometres of mostly easy trails and a relaxed, hotel-driven village vibe with a big focus on families.",
+      "fr": "Alpensia est le cœur calme et soigné de l'héritage olympique de PyeongChang. Les tremplins, le stade de biathlon et la piste de bob occupent l'horizon, mais la station, elle, est douce: six remontées, neuf kilomètres de pistes surtout faciles et un esprit de village hôtelier détendu, très tourné vers les familles.",
+      "es": "Alpensia es el corazón sereno y cuidado del legado olímpico de PyeongChang. Los trampolines, el estadio de biatlón y la pista de bobsleigh marcan el horizonte, pero la estación en sí es suave: seis remontes, nueve kilómetros de pistas en su mayoría fáciles y un ambiente de pueblo hotelero relajado, muy orientado a familias.",
+      "pt": "Alpensia é o coração calmo e cuidado do legado olímpico de PyeongChang. Os trampolins, o estádio de biatlo e a pista de bobsleigh marcam o horizonte, mas a estância em si está suave: seis teleféricos, nove quilómetros de pistas sobretudo fáceis e um ambiente de aldeia de hotéis descontraído, muito virado para famílias.",
+      "it": "Alpensia è il cuore calmo e curato dell'eredità olimpica di PyeongChang. I trampolini, lo stadio di biathlon e la pista da bob disegnano l'orizzonte, ma la stazione in sé è dolce: sei impianti, nove chilometri di piste perlopiù facili e un'aria di villaggio alberghiero rilassata, molto rivolta alle famiglie."
+    },
+    "longDescription": {
+      "en": "Built as the central cluster for the 2018 Winter Games, Alpensia mixes elite venues with a small, accessible ski area. The runs spread across six trails of mostly green and blue, with three reds and a single black for variety: this is a place to learn, to ease back into the sport, or to ski half a day and spend the rest at the spa, the indoor water park or on a guided tour of the sliding centre. The skiing closes around 22:30 most nights. The village is unusually walkable for Korea, anchored by the InterContinental Alpensia Pyeongchang, the Holiday Inn Resort Alpensia Pyeongchang and several condominium blocks, all linked by covered walkways and a free internal shuttle. Cross-country trails, biathlon experiences and Nordic ski jumping observation are all part of the offer. From Seoul, the KTX to Jinbu plus the Alpensia shuttle takes around two hours door to door. Best for families, mixed-ability groups, beginners and anyone who wants Olympic atmosphere without the elbows of a big resort weekend.",
+      "fr": "Conçue comme cluster central des Jeux 2018, Alpensia mêle équipements de haut niveau et petit domaine skiable accessible. Le ski s'étire sur six pistes surtout vertes et bleues, avec trois rouges et une seule noire pour varier: c'est un endroit pour apprendre, reprendre, ou skier une demi-journée puis passer le reste au spa, au parc aquatique couvert ou en visite guidée de la piste de bob. Les pistes ferment vers 22h30 la plupart des soirs. Le village est inhabituellement piétonnier pour la Corée, ancré par l'InterContinental Alpensia Pyeongchang, le Holiday Inn Resort Alpensia Pyeongchang et plusieurs blocs de copropriétés, reliés par des passerelles couvertes et une navette interne gratuite. Pistes de ski de fond, expériences biathlon et observation du saut nordique font partie de l'offre. Depuis Séoul, le KTX jusqu'à Jinbu plus la navette Alpensia, comptez environ deux heures porte à porte. Idéal familles, groupes de niveaux mixtes, débutants et amateurs d'ambiance olympique sans la foule d'un grand week-end.",
+      "es": "Concebida como núcleo central de los Juegos de 2018, Alpensia combina instalaciones de élite con un dominio esquiable pequeño y accesible. El esquí se reparte en seis pistas mayoritariamente verdes y azules, con tres rojas y una sola negra para variar: es un sitio para aprender, retomar el deporte o esquiar media jornada y dedicar el resto al spa, al parque acuático cubierto o a una visita guiada a la pista de bobsleigh. El cierre suele ser hacia las 22:30. El pueblo es inusualmente peatonal para Corea, anclado por el InterContinental Alpensia Pyeongchang, el Holiday Inn Resort Alpensia Pyeongchang y varios bloques de condominios, unidos por pasarelas cubiertas y una lanzadera interna gratuita. Esquí de fondo, experiencias de biatlón y observación del salto nórdico forman parte de la oferta. Desde Seúl, el KTX a Jinbu más la lanzadera Alpensia suman unas dos horas puerta a puerta. Ideal para familias, grupos de niveles mixtos, principiantes y quien busque atmósfera olímpica sin codos de gran fin de semana.",
+      "pt": "Pensada como núcleo central dos Jogos de 2018, Alpensia combina instalações de elite com um domínio esquiável pequeno e acessível. O esqui distribui-se por seis pistas sobretudo verdes e azuis, com três vermelhas e uma única negra para variar: é um lugar para aprender, regressar à modalidade ou esquiar meio dia e passar o resto no spa, no parque aquático coberto ou numa visita guiada à pista de bobsleigh. O encerramento está por volta das 22h30 na maioria das noites. A aldeia está invulgarmente pedonal para a Coreia, ancorada no InterContinental Alpensia Pyeongchang, no Holiday Inn Resort Alpensia Pyeongchang e em vários blocos de condomínios, ligados por passadiços cobertos e uma carrinha interna gratuita. Esqui de fundo, experiências de biatlo e observação do salto nórdico fazem parte da oferta. Desde Seul, o KTX até Jinbu mais a carrinha Alpensia leva cerca de duas horas porta a porta. Ideal para famílias, grupos de níveis mistos, iniciantes e quem queira atmosfera olímpica sem o aperto de um grande fim de semana.",
+      "it": "Pensata come cluster centrale dei Giochi 2018, Alpensia mescola impianti d'élite e un piccolo demanio sciistico accessibile. Lo sci si distribuisce su sei piste perlopiù verdi e blu, con tre rosse e una sola nera per variare: è un posto per imparare, riprendere lo sport, oppure sciare mezza giornata e dedicare il resto alla spa, al parco acquatico coperto o a una visita guidata della pista da bob. La chiusura è verso le 22:30 nella maggior parte delle sere. Il villaggio è insolitamente pedonale per la Corea, ancorato dall'InterContinental Alpensia Pyeongchang, dall'Holiday Inn Resort Alpensia Pyeongchang e da diversi blocchi di condomini, collegati da passerelle coperte e da una navetta interna gratuita. Sci di fondo, esperienze di biathlon e osservazione del salto nordico fanno parte dell'offerta. Da Seoul, il KTX fino a Jinbu più la navetta Alpensia richiedono circa due ore porta a porta. Ideale per famiglie, gruppi di livelli misti, principianti e chi cerca atmosfera olimpica senza la calca di un grande weekend."
+    },
+    "pisteCounts": {
+      "green": 2,
+      "blue": 3,
+      "red": 3,
+      "black": 1
+    }
+  },
+  {
+    "slug": "vivaldi-park",
+    "name": "Vivaldi Park",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Taebaek Mountains",
+    "lat": 37.6531,
+    "lng": 127.7619,
+    "altitudeBase": 350,
+    "altitudeSummit": 638,
+    "pistesKm": 13,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out at Vivaldi means the Sono Felice complex blocks that sit directly on the snow, with their own lift access. Ocean World and several condominium towers are a few minutes uphill by shuttle, close enough to feel slopeside without being literally on the runs.",
+      "fr": "Le vrai ski-in/ski-out à Vivaldi, ce sont les bâtiments du Sono Felice posés directement sur la neige, avec leur propre accès remontée. Ocean World et plusieurs tours de copropriété sont à quelques minutes de navette en montant, assez près pour donner le sentiment d'être au pied des pistes sans y être littéralement.",
+      "es": "El verdadero ski-in/ski-out en Vivaldi son los bloques del Sono Felice asentados directamente sobre la nieve, con su propio acceso al remonte. Ocean World y varias torres de condominios quedan a unos minutos en lanzadera cuesta arriba, lo bastante cerca para sentirse a pie de pistas sin estarlo literalmente.",
+      "pt": "O verdadeiro ski-in/ski-out em Vivaldi está nos blocos do Sono Felice assentes diretamente sobre a neve, com acesso próprio ao teleférico. O Ocean World e várias torres de condomínio ficam a poucos minutos de carrinha encosta acima, perto que chega para parecer ao pé das pistas sem o estar de facto.",
+      "it": "Il vero ski-in/ski-out a Vivaldi sono i blocchi del Sono Felice posati direttamente sulla neve, con accesso proprio all'impianto. Ocean World e diverse torri di condomini sono a pochi minuti di navetta in salita, abbastanza vicine da sembrare ai piedi delle piste senza esserlo davvero."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Mar 23",
+    "snowScore": 65,
+    "vibes": [
+      "party",
+      "night-ski",
+      "family",
+      "freestyle",
+      "city-access"
+    ],
+    "intro": {
+      "en": "Vivaldi Park is South Korea's busiest ski resort, the one Seoul fills on Friday night and empties at Sunday lunchtime. The lights stay on until 3 in the morning, the freestyle park draws the K-pop crowd, and the on-mountain Sono Felice hotel and water park complex turns a ski trip into a full weekend out.",
+      "fr": "Vivaldi Park est la station de ski la plus fréquentée de Corée du Sud, celle que Séoul remplit le vendredi soir et vide le dimanche midi. Les lumières restent allumées jusqu'à 3 heures du matin, le snowpark attire les fans de K-pop, et le complexe hôtelier Sono Felice et son parc aquatique au pied des pistes transforment un séjour ski en vrai week-end de sortie.",
+      "es": "Vivaldi Park es la estación de esquí más concurrida de Corea del Sur, la que Seúl llena el viernes por la noche y vacía el domingo a mediodía. Las luces siguen encendidas hasta las 3 de la madrugada, el snowpark atrae al público del K-pop y el complejo hotelero Sono Felice con su parque acuático al pie de pistas convierte un viaje de esquí en un fin de semana completo.",
+      "pt": "Vivaldi Park é a estância de esqui mais movimentada da Coreia do Sul, aquela que Seul enche na sexta à noite e esvazia ao almoço de domingo. As luzes ficam acesas até às 3 da manhã, o snowpark atrai o público do K-pop, e o complexo hoteleiro Sono Felice com o parque aquático ao pé das pistas transforma uma escapada de esqui num fim de semana completo.",
+      "it": "Vivaldi Park è la stazione sciistica più affollata della Corea del Sud, quella che Seoul riempie il venerdì sera e svuota a pranzo della domenica. Le luci restano accese fino alle 3 del mattino, lo snowpark attira il pubblico del K-pop, e il complesso alberghiero Sono Felice con il parco acquatico ai piedi delle piste trasforma un viaggio di sci in un weekend completo."
+    },
+    "longDescription": {
+      "en": "Vivaldi sits in Hongcheon, Gangwon, just 90 minutes from Seoul by car or shuttle. The mountain is small by alpine standards: a base at 350 m, a summit at 638 m, 13 km of trails spread over 13 named runs, and ten lifts including a fast gondola. What makes Vivaldi Vivaldi is intensity: stadium-grade lights flood the runs from late afternoon until 3am, snowmaking is industrial, and the slopes never really empty. Beginners get gentle greens at the base, intermediates lap wide blues and reds off the gondola, and freestylers head for one of Korea's most-Instagrammed terrain parks, with kickers, rails and a small superpipe. The base is dominated by the on-mountain Sono Felice resort: a sprawling hotel and condominium complex, an indoor and outdoor water park called Ocean World, restaurants, a karaoke floor and shopping arcades. The crowd is young, urban and unapologetically up late. Best for first-timers from Asia, snowboarders, party groups and anyone who wants a fast, easy Seoul-side ski break rather than a full mountain holiday.",
+      "fr": "Vivaldi est à Hongcheon, en Gangwon, à seulement 90 minutes de Séoul en voiture ou en navette. La montagne est petite à l'aune alpine: base à 350 m, sommet à 638 m, 13 km de tracés sur 13 pistes balisées et dix remontées dont une télécabine rapide. Ce qui fait Vivaldi, c'est l'intensité: des projecteurs de stade éclairent les pistes du milieu d'après-midi jusqu'à 3h du matin, l'enneigement de culture est industriel, et les pentes ne désemplissent jamais vraiment. Les débutants disposent de vertes douces près du bas, les intermédiaires enchaînent les bleues et les rouges depuis la télécabine, et les freestyleurs filent vers l'un des snowparks les plus instagrammés de Corée, avec kickers, rails et un petit superpipe. Le pied des pistes est dominé par le resort Sono Felice: vaste complexe hôtelier, parc aquatique intérieur et extérieur Ocean World, restaurants, étage karaoké et galeries marchandes. Public jeune, urbain, qui assume ses nuits tardives. Idéal premières fois venues d'Asie, snowboardeurs, groupes festifs et amateurs d'une escapade rapide depuis Séoul plutôt que d'un séjour montagne complet.",
+      "es": "Vivaldi se encuentra en Hongcheon, Gangwon, a solo 90 minutos de Seúl en coche o en lanzadera. La montaña es pequeña con criterios alpinos: base a 350 m, cumbre a 638 m, 13 km de trazados sobre 13 pistas balizadas y diez remontes, incluida una góndola rápida. Lo que hace de Vivaldi lo que es, es la intensidad: focos de estadio iluminan las pistas desde media tarde hasta las 3 de la madrugada, la innivación es industrial y las laderas nunca se vacían del todo. Los principiantes tienen verdes suaves en la base, los intermedios encadenan azules y rojas anchas desde la góndola, y los freestylers se dirigen a uno de los snowparks más instagrameados de Corea, con kickers, rails y un pequeño superpipe. El pie de pistas está dominado por el resort Sono Felice: amplio complejo hotelero, parque acuático cubierto y al aire libre Ocean World, restaurantes, planta de karaoke y galerías comerciales. Público joven, urbano y sin complejos para trasnochar. Ideal para iniciados llegados desde Asia, snowboarders, grupos festivos y quien quiera una escapada rápida desde Seúl más que unas vacaciones de montaña completas.",
+      "pt": "Vivaldi está em Hongcheon, Gangwon, a apenas 90 minutos de Seul de carro ou de carrinha. A montanha é pequena para padrões alpinos: base a 350 m, cume a 638 m, 13 km de pistas em 13 traçados balizados e dez teleféricos, incluindo um telecabine rápido. O que faz de Vivaldi o que é, está na intensidade: holofotes de estádio iluminam as pistas da tarde até às 3 da manhã, a inneveação está industrial e as encostas nunca esvaziam de verdade. Os principiantes têm verdes suaves na base, os intermédios encadeiam azuis e vermelhas largas a partir do telecabine, e os freestylers vão para um dos snowparks mais instagramados da Coreia, com kickers, rails e um pequeno superpipe. O pé das pistas está dominado pelo resort Sono Felice: amplo complexo hoteleiro, parque aquático coberto e ao ar livre Ocean World, restaurantes, piso de karaoke e galerias comerciais. Público jovem, urbano e sem culpa em virar a noite. Ideal para iniciantes vindos da Ásia, snowboarders, grupos festivos e quem queira uma escapada rápida desde Seul, mais do que umas férias completas de montanha.",
+      "it": "Vivaldi si trova a Hongcheon, in Gangwon, a soli 90 minuti da Seoul in auto o in navetta. La montagna è piccola secondo metro alpino: base a 350 m, vetta a 638 m, 13 km di tracciati su 13 piste segnalate e dieci impianti, compresa una cabinovia rapida. Ciò che rende Vivaldi tale è l'intensità: fari da stadio illuminano le piste dal tardo pomeriggio alle 3 del mattino, l'innevamento programmato è industriale, e i pendii non si svuotano mai davvero. I principianti hanno verdi morbide alla base, gli intermedi inanellano blu e rosse larghe dalla cabinovia, e i freestyler puntano a uno degli snowpark più instagrammati della Corea, con kicker, rail e un piccolo superpipe. La base è dominata dal resort Sono Felice: ampio complesso alberghiero, parco acquatico coperto e all'aperto Ocean World, ristoranti, piano karaoke e gallerie commerciali. Pubblico giovane, urbano e senza imbarazzi a tirar tardi. Ideale per esordienti arrivati dall'Asia, snowboarder, gruppi festaioli e chi vuole una fuga rapida da Seoul più che una vera vacanza di montagna."
+    },
+    "pisteCounts": {
+      "green": 3,
+      "blue": 4,
+      "red": 4,
+      "black": 2
+    }
+  },
+  {
+    "slug": "welli-hilli-park",
+    "name": "Welli Hilli Park",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Taebaek Mountains",
+    "lat": 37.4767,
+    "lng": 128.17,
+    "altitudeBase": 380,
+    "altitudeSummit": 933,
+    "pistesKm": 18,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "True ski-in ski-out lives at Sono Calm, where slope-side rooms drop you onto the lower lifts in a minute. Nearby condos are a short walk over packed snow, which is fine in the morning and a slog after a long day.",
+      "fr": "Le vrai ski au pied existe au Sono Calm, dont les chambres côté piste vous déposent en une minute sur les premières remontées. Les résidences proches demandent une courte marche sur neige tassée, agréable le matin, lourde après une longue journée.",
+      "es": "El verdadero ski-in ski-out vive en el Sono Calm, donde las habitaciones a pie de pista te dejan en los primeros remontes en un minuto. Los condominios cercanos quedan a un paseo corto sobre nieve compactada, cómodo por la mañana, pesado tras un día largo.",
+      "pt": "O verdadeiro ski-in ski-out vive no Sono Calm, onde os quartos à beira da pista o deixam nos primeiros remontes num minuto. Os condomínios próximos ficam a uma curta caminhada sobre neve compactada, agradável de manhã, pesado ao fim do dia.",
+      "it": "Il vero ski-in ski-out vive al Sono Calm, dove le camere sulla pista ti depositano sui primi impianti in un minuto. I condomini vicini richiedono una breve camminata su neve battuta, gradevole al mattino, faticosa a fine giornata."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Mar 16",
+    "snowScore": 67,
+    "vibes": [
+      "family",
+      "value",
+      "freestyle",
+      "authentic",
+      "night-ski"
+    ],
+    "intro": {
+      "en": "Ninety minutes from Seoul, Welli Hilli Park feels like the smart commuter's pick: family lanes, a freestyle park with real teeth, and night sessions that pack out under the floodlights. The Sono Calm hotel and condos sit right on the snow, so kids ski out the lobby door while parents linger over coffee.",
+      "fr": "À quatre-vingt-dix minutes de Séoul, Welli Hilli Park s'impose comme le choix malin du week-end : pistes familiales, snowpark qui a du mordant et sessions de nuit bondées sous les projecteurs. L'hôtel Sono Calm et ses résidences touchent la neige, les enfants partent skier dès le hall pendant que les parents traînent au café.",
+      "es": "A noventa minutos de Seúl, Welli Hilli Park es la apuesta lista del fin de semana: pistas para familias, un snowpark con carácter y nocturnos a tope bajo los focos. El hotel Sono Calm y los condominios pisan la nieve, los niños salen esquiando del recibidor mientras los padres se demoran con el café.",
+      "pt": "A noventa minutos de Seul, Welli Hilli Park é a escolha esperta para o fim de semana: pistas para famílias, um snowpark com garra e sessões noturnas cheias sob os holofotes. O hotel Sono Calm e os condomínios encostam na neve, as crianças saem a esquiar do lobby enquanto os pais demoram no café.",
+      "it": "A novanta minuti da Seul, Welli Hilli Park è la scelta furba del fine settimana: piste per famiglie, uno snowpark che morde davvero e sessioni notturne piene sotto i fari. L'hotel Sono Calm e i condomini poggiano sulla neve, i bambini partono a sciare dalla hall mentre i genitori indugiano al caffè."
+    },
+    "longDescription": {
+      "en": "Welli Hilli Park sits in Hoengseong, a quiet pocket of Gangwon province, and trades the crowds of Vivaldi Park for a slightly slower rhythm. The mountain is mid-size by Korean standards: eleven lifts, eighteen trails, base at 380 m and summit at 933 m. The layout favours wide blue and green pistes that intermediates can ride all afternoon, while the small but well-shaped freestyle park keeps Seoul's snowboard scene happy with rails, boxes and a jump line. Two short black runs along the upper ridge add bite when conditions are good. Snowmaking is heavy and reliable, the grooming is honest, and the night-ski programme runs almost every evening of the December to mid-March season. The on-snow Sono Calm complex anchors the village, with a hotel, condos, restaurants and a sizeable spa pool that becomes the after-ski ritual. Outside the resort gate, Hoengseong is famous for hanu beef and rustic pension stays, so dinner can easily mean a small wood-fired barbecue half an hour down the road. Welli Hilli suits families with mixed-age skiers, freestyle riders chasing affordable park time, and Seoulites who want a full weekend without the four-hour drive east to Pyeongchang.",
+      "fr": "Welli Hilli Park se niche à Hoengseong, dans un coin tranquille du Gangwon, et troque la foule de Vivaldi Park contre un tempo un peu plus posé. La montagne reste de taille moyenne à l'échelle coréenne : onze remontées, dix-huit pistes, base à 380 m, sommet à 933 m. Le tracé privilégie de larges bleues et vertes que les intermédiaires peuvent enchaîner tout l'après-midi, tandis que le snowpark, compact mais bien sculpté, ravit la scène snowboard séoulite avec ses rails, boxes et sa ligne de sauts. Deux noires courtes en crête haute apportent du mordant quand la neige répond. L'enneigement de culture tient bon, le damage est honnête et le ski de nuit tourne presque tous les soirs de décembre à mi-mars. Le complexe Sono Calm pose ses pieds dans la neige : hôtel, résidences, restaurants et un large bassin thermal qui devient le rituel d'après-ski. Côté village, Hoengseong est réputée pour son boeuf hanu et ses auberges rustiques, le dîner peut donc tourner autour d'un petit barbecue au feu de bois à trente minutes de route. Welli Hilli convient aux familles dont les niveaux divergent, aux freestylers qui cherchent du park à prix doux et aux Séoulites qui veulent un vrai week-end sans rouler quatre heures vers PyeongChang.",
+      "es": "Welli Hilli Park está en Hoengseong, un rincón tranquilo de la provincia de Gangwon, y cambia el bullicio de Vivaldi Park por un compás algo más sosegado. La montaña es de tamaño medio para la escala coreana: once remontes, dieciocho pistas, base a 380 m y cima a 933 m. El trazado favorece azules y verdes anchas que los intermedios encadenan toda la tarde, mientras el snowpark, pequeño pero bien moldeado, mantiene contenta a la escena snowboard de Seúl con rieles, cajones y una línea de saltos. Dos negras cortas en la cresta alta añaden mordiente cuando la nieve acompaña. La nieve de cultivo es abundante y fiable, el pisado es honesto y el esquí nocturno funciona casi todas las noches de diciembre a mediados de marzo. El complejo Sono Calm ancla la villa con hotel, apartamentos, restaurantes y una piscina termal amplia que se vuelve el ritual del après. Fuera del recinto, Hoengseong se conoce por la carne de res hanu y las pensiones rústicas, así que la cena puede acabar en una barbacoa de leña a media hora en coche. Welli Hilli encaja con familias de niveles dispares, freestylers que buscan park asequible y seulitas que quieren un fin de semana completo sin las cuatro horas hasta PyeongChang.",
+      "pt": "Welli Hilli Park fica em Hoengseong, um canto tranquilo da província de Gangwon, e troca o ajuntamento de Vivaldi Park por um compasso ligeiramente mais calmo. A montanha é de dimensão média na escala coreana: onze remontes, dezoito pistas, base a 380 m e cume a 933 m. O traçado favorece azuis e verdes largas que os intermédios encadeiam toda a tarde, enquanto o snowpark, pequeno mas bem esculpido, mantém feliz a cena snowboard de Seul com corrimãos, caixas e uma linha de saltos. Duas pretas curtas na crista alta dão mordida quando a neve responde. A neve de cultura é forte e fiável, a preparação é honesta e o esqui noturno funciona quase todas as noites de dezembro a meados de março. O complexo Sono Calm ancora a aldeia com hotel, apartamentos, restaurantes e uma piscina termal ampla que se torna o ritual do après. Fora do recinto, Hoengseong é célebre pela carne hanu e pelas pensões rústicas, pelo que o jantar pode acabar num pequeno churrasco de lenha a meia hora de carro. Welli Hilli serve famílias com níveis mistos, freestylers que procuram park acessível e seulitas que querem um fim de semana inteiro sem as quatro horas até PyeongChang.",
+      "it": "Welli Hilli Park sorge a Hoengseong, un angolo tranquillo della provincia di Gangwon, e scambia la folla di Vivaldi Park con un ritmo leggermente più rilassato. La montagna è di taglia media per la scala coreana: undici impianti, diciotto piste, base a 380 m e vetta a 933 m. Il tracciato premia blu e verdi larghe che gli intermedi possono incatenare per tutto il pomeriggio, mentre lo snowpark, piccolo ma ben modellato, tiene contenta la scena snowboard di Seul con rail, box e una linea di salti. Due nere brevi sul crinale alto aggiungono mordente quando la neve risponde. L'innevamento programmato è generoso e affidabile, la battitura è onesta e lo sci notturno gira quasi tutte le sere da dicembre a metà marzo. Il complesso Sono Calm ancora il villaggio con hotel, residenze, ristoranti e una grande piscina termale che diventa il rito dell'après. Fuori dal cancello del resort, Hoengseong è famosa per la carne di manzo hanu e per le pensioni rustiche, quindi la cena può finire in un piccolo barbecue a legna a mezz'ora di strada. Welli Hilli si addice alle famiglie con livelli diversi, ai freestyler in cerca di park economico e ai seulesi che vogliono un weekend intero senza quattro ore di guida fino a PyeongChang."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 6,
+      "red": 6,
+      "black": 2
+    }
+  },
+  {
+    "slug": "konjiam",
+    "name": "Konjiam Resort",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Seoul Capital Area",
+    "lat": 37.3678,
+    "lng": 127.2467,
+    "altitudeBase": 200,
+    "altitudeSummit": 538,
+    "pistesKm": 9,
+    "lifts": 6,
+    "skiInSkiOutNote": {
+      "en": "The Konjiam Resort Hotel offers true slope-side rooms within a minute of the main lifts, and a covered walkway links the lobby to the gondola base. The partner Lotte Hotel is a short shuttle away rather than ski-in.",
+      "fr": "Le Konjiam Resort Hotel offre de vraies chambres en bord de piste à une minute des remontées principales, et une passerelle couverte relie le hall à la base du télécabine. Le Lotte Hotel partenaire reste à quelques minutes de navette, pas au pied des pistes.",
+      "es": "El Konjiam Resort Hotel ofrece habitaciones de verdad a pie de pista a un minuto de los remontes principales, y un pasillo cubierto une el lobby con la base de la telecabina. El Lotte Hotel asociado queda a un corto traslado, no a pie de pistas.",
+      "pt": "O Konjiam Resort Hotel oferece quartos verdadeiros à beira da pista a um minuto dos remontes principais e uma passagem coberta liga o lobby à base da telecabina. O Lotte Hotel parceiro está a um curto shuttle, não a pé de pista.",
+      "it": "Il Konjiam Resort Hotel offre vere camere a bordo pista a un minuto dagli impianti principali, con una passerella coperta che collega la hall alla base della cabinovia. Il Lotte Hotel partner resta a una breve navetta, non a bordo pista."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Mar 9",
+    "snowScore": 62,
+    "vibes": [
+      "family",
+      "city-access",
+      "snow-sure",
+      "value",
+      "night-ski"
+    ],
+    "intro": {
+      "en": "Forty minutes from Gangnam, Konjiam is the Seoul commuter resort that refuses to feel like one. A strict daily skier cap keeps the lift queues short, the grooming sharp and the snow under your edges actually skiable. Run by LG and partnered with Lotte Hotel, it is Korea's polished take on day-trip skiing.",
+      "fr": "À quarante minutes de Gangnam, Konjiam est le domaine de proximité de Séoul qui refuse d'en avoir l'air. Un quota strict de skieurs maintient les files courtes, le damage net et la neige réellement skiable. Géré par LG et associé au Lotte Hotel, c'est la version coréenne soignée du ski à la journée.",
+      "es": "A cuarenta minutos de Gangnam, Konjiam es la estación de proximidad de Seúl que se niega a parecerlo. Un cupo diario estricto de esquiadores mantiene las colas cortas, el pisado nítido y la nieve realmente esquiable. Operada por LG y aliada con Lotte Hotel, es la versión coreana pulida del esquí de día.",
+      "pt": "A quarenta minutos de Gangnam, Konjiam é a estação de proximidade de Seul que se recusa a parecer uma. Um limite diário rigoroso de esquiadores mantém as filas curtas, a preparação nítida e a neve realmente esquiável. Operada pela LG e associada ao Lotte Hotel, é a versão coreana polida do esqui de um dia.",
+      "it": "A quaranta minuti da Gangnam, Konjiam è la stazione di prossimità di Seul che si rifiuta di sembrarlo. Un tetto giornaliero rigido di sciatori mantiene le code corte, la battitura precisa e la neve davvero sciabile. Gestita da LG e in partnership con Lotte Hotel, è la versione coreana raffinata dello sci giornaliero."
+    },
+    "longDescription": {
+      "en": "Konjiam Resort sits in Gwangju city, Gyeonggi province, less than an hour from central Seoul and arguably the most popular day-trip ski hill in Korea. The footprint is small: six lifts, nine kilometres of trails, a 200 m base climbing to a 538 m summit. What sets the place apart is the management philosophy. The resort caps daily skier numbers to a published quota, which in practice means you can ride lift to lift without queues and find machine-perfect corduroy almost into the afternoon. The trail mix is balanced for the day skier: two greens for beginners, three blues that work for families and intermediates, three reds along the central spine and a single short black for steeper laps. Snowmaking covers almost every inch and grooming is constant. The season is short, mid-December to early March, but the snow product on the ground feels far higher quality than the modest snowfall numbers suggest. Off-snow Konjiam runs hard with luxury: the LG-owned resort hotel is its own draw, the spa is serious, the food halls and Korean barbecue restaurants are excellent and a 9-hole golf course doubles as scenery. Add the partner Lotte Hotel a few minutes away and you have a polished weekend base for couples, families and Seoul professionals who refuse to spend Saturday morning in a lift line.",
+      "fr": "Konjiam Resort se trouve dans la ville de Gwangju, province de Gyeonggi, à moins d'une heure du centre de Séoul, et c'est sans doute la station d'excursion la plus populaire du pays. L'empreinte est modeste : six remontées, neuf kilomètres de pistes, une base à 200 m et un sommet à 538 m. Ce qui distingue l'endroit, c'est sa philosophie de gestion. Le domaine plafonne le nombre quotidien de skieurs selon un quota publié, ce qui signifie en pratique pas de files d'attente entre les remontées et un velours quasi parfait jusqu'en après-midi. Le panachage de pistes vise le skieur de la journée : deux vertes pour débutants, trois bleues qui parlent aux familles et intermédiaires, trois rouges sur l'arête centrale et une noire courte pour des descentes plus pentues. La neige de culture couvre quasiment tout et le damage tourne en continu. La saison est brève, de mi-décembre à début mars, mais la qualité de neige au sol semble bien supérieure aux chiffres modestes de chute. Hors piste, Konjiam joue le luxe avec sérieux : l'hôtel maison de LG est une destination en soi, le spa fait le travail, les food halls et les restaurants de barbecue coréen sont excellents et un parcours de golf de neuf trous sert de décor. Ajoutez le Lotte Hotel partenaire à quelques minutes et vous obtenez une base de week-end soignée pour couples, familles et cadres séoulites qui refusent de perdre leur samedi matin dans une file.",
+      "es": "Konjiam Resort está en la ciudad de Gwangju, provincia de Gyeonggi, a menos de una hora del centro de Seúl y posiblemente la estación más popular del país para esquiar por el día. La huella es modesta: seis remontes, nueve kilómetros de pistas, base a 200 m y cima a 538 m. Lo que distingue al lugar es la filosofía de gestión. El dominio limita el número diario de esquiadores con un cupo publicado, lo que en la práctica significa nada de colas entre remontes y pana perfecta hasta entrada la tarde. La mezcla de pistas apunta al esquiador de jornada: dos verdes para principiantes, tres azules para familias e intermedios, tres rojas sobre la espina central y una negra corta para vueltas más empinadas. La nieve artificial cubre casi todo y el pisado es continuo. La temporada es breve, de mediados de diciembre a principios de marzo, pero la calidad de la nieve sobre el terreno supera con creces las cifras modestas de precipitación. Fuera de pistas, Konjiam apuesta fuerte por el lujo: el hotel propio de LG es un destino en sí mismo, el spa va en serio, los food halls y los asadores coreanos son excelentes y un campo de golf de nueve hoyos hace de paisaje. Sume el Lotte Hotel asociado a pocos minutos y tendrá una base de fin de semana pulida para parejas, familias y profesionales de Seúl que se niegan a perder el sábado por la mañana en una cola.",
+      "pt": "Konjiam Resort fica na cidade de Gwangju, província de Gyeonggi, a menos de uma hora do centro de Seul e talvez a estação mais popular do país para esquiar num dia. A pegada é modesta: seis remontes, nove quilómetros de pistas, base a 200 m e cume a 538 m. O que distingue o sítio é a filosofia de gestão. O domínio limita o número diário de esquiadores por uma quota publicada, o que na prática significa nada de filas entre remontes e veludo quase perfeito até à tarde. A mistura de pistas aponta ao esquiador de um dia: duas verdes para iniciantes, três azuis para famílias e intermédios, três vermelhas sobre a espinha central e uma preta curta para descidas mais íngremes. A neve artificial cobre quase tudo e a preparação é constante. A temporada é breve, de meados de dezembro a princípios de março, mas a qualidade da neve no chão supera os números modestos de queda. Fora das pistas, Konjiam aposta a sério no luxo: o hotel próprio da LG é um destino em si, o spa é genuíno, os food halls e os churrascos coreanos são excelentes e um campo de golfe de nove buracos faz de cenário. Junte o Lotte Hotel parceiro a poucos minutos e tem uma base de fim de semana polida para casais, famílias e profissionais de Seul que se recusam a perder o sábado de manhã numa fila.",
+      "it": "Konjiam Resort si trova nella città di Gwangju, provincia di Gyeonggi, a meno di un'ora dal centro di Seul e probabilmente la stazione più popolare del paese per lo sci in giornata. L'impronta è modesta: sei impianti, nove chilometri di piste, base a 200 m e vetta a 538 m. Ciò che distingue il posto è la filosofia gestionale. Il comprensorio fissa un tetto quotidiano di sciatori secondo una quota dichiarata, il che in pratica significa nessuna coda fra gli impianti e velluto quasi perfetto fino al pomeriggio. Il mix di piste guarda allo sciatore della giornata: due verdi per principianti, tre blu per famiglie e intermedi, tre rosse sulla spina centrale e una nera breve per giri più ripidi. L'innevamento artificiale copre quasi tutto e la battitura è continua. La stagione è breve, da metà dicembre a inizio marzo, ma la qualità della neve a terra supera nettamente i numeri modesti di nevicata. Fuori dalle piste, Konjiam punta sul lusso con serietà: l'hotel di proprietà LG è una destinazione in sé, la spa fa sul serio, le food hall e i ristoranti di barbecue coreano sono eccellenti e un campo da golf da nove buche fa da scenografia. Aggiungete il Lotte Hotel partner a pochi minuti e avete una base da weekend curata per coppie, famiglie e professionisti di Seul che si rifiutano di sprecare il sabato mattina in coda."
+    },
+    "pisteCounts": {
+      "green": 2,
+      "blue": 3,
+      "red": 3,
+      "black": 1
+    }
+  },
+  {
+    "slug": "oak-valley",
+    "name": "Oak Valley",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Seoul Capital Area",
+    "lat": 37.3133,
+    "lng": 127.7919,
+    "altitudeBase": 220,
+    "altitudeSummit": 540,
+    "pistesKm": 9,
+    "lifts": 9,
+    "skiInSkiOutNote": {
+      "en": "The Hansol resort hotel sits directly above the base lift station, and condo blocks line the lower piste, so you can step into bindings within a few minutes. Outlying villas need a short shuttle ride to the slopes.",
+      "fr": "L'hôtel Hansol surplombe directement la station de remontée de la base et les résidences bordent la piste basse, on chausse les skis en quelques minutes. Les villas plus éloignées demandent une courte navette pour rejoindre les pistes.",
+      "es": "El hotel Hansol se asienta justo encima de la estación inferior del remonte y los bloques de condominios bordean la pista baja, así que se calzan los esquís en pocos minutos. Las villas más alejadas necesitan un traslado corto hasta las pistas.",
+      "pt": "O hotel Hansol assenta mesmo por cima da estação inferior do remonte e os blocos de condomínios ladeiam a pista baixa, calçam-se os esquis em poucos minutos. As villas mais afastadas exigem um curto shuttle até às pistas.",
+      "it": "L'hotel Hansol sorge proprio sopra la stazione di partenza dell'impianto e i condomini fiancheggiano la pista bassa, si calzano gli sci in pochi minuti. Le ville più distanti richiedono una breve navetta fino agli impianti."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Mar 9",
+    "snowScore": 60,
+    "vibes": [
+      "family",
+      "luxury",
+      "panoramic",
+      "value",
+      "elegance"
+    ],
+    "intro": {
+      "en": "Oak Valley in Wonju trades mass-market bustle for something quieter and more residential. Owned by Kolon Group with Hansol Hotels at the helm, it pairs upscale winter laps with a famous summer golf course. Expect manicured runs, panoramic lifts and the kind of after-ski where you actually hear the snow fall.",
+      "fr": "Oak Valley, à Wonju, troque l'agitation grand public contre un tempo plus feutré, presque résidentiel. Détenu par le groupe Kolon et orchestré par Hansol Hotels, il marie un ski d'hiver soigné à un golf d'été réputé. Pistes manucurées, télésièges panoramiques et après-ski où l'on entend vraiment tomber la neige.",
+      "es": "Oak Valley, en Wonju, cambia el bullicio masivo por un tempo más sereno, casi residencial. Propiedad del grupo Kolon y bajo la batuta de Hansol Hotels, marida esquí invernal cuidado con un campo de golf veraniego célebre. Pistas pulidas, sillas panorámicas y un après donde se oye caer la nieve.",
+      "pt": "Oak Valley, em Wonju, troca o burburinho de massa por um andamento mais sereno, quase residencial. Propriedade do grupo Kolon e sob a batuta da Hansol Hotels, casa esqui de inverno cuidado com um campo de golfe de verão famoso. Pistas pulidas, telecadeiras panorâmicas e um après onde se ouve cair a neve.",
+      "it": "Oak Valley, a Wonju, scambia il brusio di massa con un tempo più tranquillo, quasi residenziale. Di proprietà del gruppo Kolon e gestito da Hansol Hotels, sposa uno sci invernale curato a un celebre campo da golf estivo. Piste rifinite, seggiovie panoramiche e un après dove si sente cadere la neve."
+    },
+    "longDescription": {
+      "en": "Oak Valley sits in the hills outside Wonju in Gangwon, roughly ninety minutes from central Seoul and just off the Yeongdong expressway. The mountain is small but cleanly built: nine lifts feed nine trails across a 220 m base and 540 m summit, with two greens, three blues, three reds and one short black. Nothing here is intimidating, and that is the point. The trail layout is generous, the grooming consistent, and the slopes rarely feel busy even on weekends because Oak Valley draws members and golf-club regulars rather than the Seoul day-trip masses. Snowmaking is heavy and the season runs from early December to early March, with limited night skiing on selected weekend evenings rather than the every-night blast you find at Vivaldi or Welli Hilli. The base village is owned by Hansol and feels like a discreet country-club estate: a low-rise hotel, condo blocks tucked into pine slopes, a clubhouse-style restaurant, a quiet spa pool and the Sajik Country Club fairways resting under snow next door. Off-mountain you have Wonju city for proper Korean food and a glass-bottomed suspension bridge at Sogeumsan worth a half-day. Oak Valley suits couples who want a calm winter weekend with elegant rooms, families who prefer space to crowds and skiers who treat the slopes as part of a wider resort stay rather than the only reason to come.",
+      "fr": "Oak Valley se loge dans les collines près de Wonju, dans le Gangwon, à environ quatre-vingt-dix minutes du centre de Séoul, juste en lisière de l'autoroute Yeongdong. La montagne est modeste mais bâtie proprement : neuf remontées desservent neuf pistes entre une base à 220 m et un sommet à 540 m, avec deux vertes, trois bleues, trois rouges et une noire courte. Rien d'intimidant, et c'est l'idée. Les tracés sont généreux, le damage régulier et les pentes rarement bondées même le week-end, car Oak Valley attire des membres et habitués du golf plutôt que la masse des excursionnistes séoulites. La neige de culture est dense, la saison court de début décembre à début mars, et le ski de nuit reste limité à quelques soirées du week-end plutôt que la routine quotidienne. La base est exploitée par Hansol et respire le club privé discret : hôtel de faible hauteur, résidences nichées sous les pins, restaurant club-house, bassin thermal calme et fairways du Sajik Country Club enneigés juste à côté. Au-delà, Wonju offre une vraie table coréenne et le pont suspendu à fond verre de Sogeumsan vaut une demi-journée. Oak Valley convient aux couples qui veulent un week-end d'hiver paisible en chambres élégantes, aux familles qui préfèrent l'espace à la foule et aux skieurs qui voient les pistes comme une pièce du séjour, non comme la seule raison de venir.",
+      "es": "Oak Valley se sitúa en las colinas a las afueras de Wonju, en Gangwon, a unos noventa minutos del centro de Seúl y a un paso de la autopista Yeongdong. La montaña es pequeña pero está bien hecha: nueve remontes alimentan nueve pistas entre una base a 220 m y una cima a 540 m, con dos verdes, tres azules, tres rojas y una negra corta. Nada intimida aquí, y esa es la gracia. El trazado es generoso, el pisado constante y las pendientes rara vez se ven llenas incluso en fin de semana porque Oak Valley atrae a socios y habituales del golf, no a las masas que salen de Seúl por el día. La nieve de cultivo es abundante, la temporada va de principios de diciembre a principios de marzo, y el esquí nocturno se limita a algunas noches de fin de semana en lugar de ser la rutina diaria. La base la opera Hansol y respira club privado discreto: hotel de baja altura, condominios entre pinos, restaurante de aire club-house, una piscina termal serena y las calles del Sajik Country Club nevadas justo al lado. Más allá, Wonju ofrece comida coreana de verdad y el puente colgante de fondo de cristal de Sogeumsan merece media jornada. Oak Valley va bien para parejas que buscan un fin de semana invernal apacible con habitaciones elegantes, familias que prefieren espacio a multitud y esquiadores que entienden la pista como una parte de la estancia y no como el único motivo del viaje.",
+      "pt": "Oak Valley assenta nas colinas à saída de Wonju, em Gangwon, a cerca de noventa minutos do centro de Seul e mesmo à beira da autoestrada Yeongdong. A montanha é pequena mas bem construída: nove remontes alimentam nove pistas entre uma base a 220 m e um cume a 540 m, com duas verdes, três azuis, três vermelhas e uma preta curta. Nada aqui intimida, e essa é a graça. O traçado é generoso, a preparação constante e as encostas raramente se enchem mesmo ao fim de semana porque Oak Valley atrai sócios e frequentadores do golfe, não as massas de excursionistas de Seul. A neve de cultura é generosa, a temporada vai de princípios de dezembro a princípios de março, e o esqui noturno fica limitado a algumas noites de fim de semana em vez de ser rotina diária. A base é operada pela Hansol e respira clube privado discreto: hotel de baixa altura, condomínios entre os pinheiros, restaurante de ar club-house, uma piscina termal serena e os fairways do Sajik Country Club cobertos de neve mesmo ao lado. Além disso, Wonju oferece comida coreana a sério e a ponte suspensa de fundo de vidro em Sogeumsan vale meio dia. Oak Valley serve a casais que procuram um fim de semana invernal sossegado com quartos elegantes, a famílias que preferem espaço a multidão e a esquiadores que entendem a pista como uma parte da estadia e não como a única razão da viagem.",
+      "it": "Oak Valley sorge sulle colline appena fuori Wonju, in Gangwon, a circa novanta minuti dal centro di Seul e a pochi passi dall'autostrada Yeongdong. La montagna è piccola ma costruita con pulizia: nove impianti servono nove piste fra una base a 220 m e una vetta a 540 m, con due verdi, tre blu, tre rosse e una nera breve. Niente intimidisce qui, ed è proprio il punto. Il tracciato è generoso, la battitura costante e i pendii raramente affollati anche nei weekend, perché Oak Valley attira soci e habitué del golf, non le masse della gita giornaliera di Seul. L'innevamento programmato è abbondante, la stagione va da inizio dicembre a inizio marzo, e lo sci notturno resta limitato a poche sere del weekend invece di essere routine quotidiana. La base è gestita da Hansol e profuma di club privato discreto: hotel basso, residenze fra i pini, ristorante in stile club-house, una piscina termale tranquilla e i fairway del Sajik Country Club imbiancati proprio accanto. Oltre, Wonju offre cucina coreana vera e il ponte sospeso a fondo trasparente di Sogeumsan merita una mezza giornata. Oak Valley si adatta a coppie in cerca di un weekend invernale quieto in stanze eleganti, a famiglie che preferiscono spazio alla folla e a sciatori che leggono la pista come parte del soggiorno, non come unico motivo del viaggio."
+    },
+    "pisteCounts": {
+      "green": 2,
+      "blue": 3,
+      "red": 3,
+      "black": 1
+    }
+  },
+  {
+    "slug": "muju-deogyusan",
+    "name": "Muju Deogyusan",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Sobaek Mountains",
+    "lat": 35.8731,
+    "lng": 127.7642,
+    "altitudeBase": 730,
+    "altitudeSummit": 1614,
+    "pistesKm": 21,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "The base village condos and the Tirol Hotel sit a short walk from the gondola plaza, so you ski back to the village but usually walk a couple of minutes in boots to the morning lift. Outlying lodges run a free shuttle.",
+      "fr": "Les résidences de base et l'hôtel Tirol se trouvent à courte marche de la place de la télécabine, on rentre skis aux pieds mais on marche en général deux minutes en chaussures pour la première remontée du matin. Les lodges éloignés disposent d'une navette gratuite.",
+      "es": "Los condominios de la base y el hotel Tirol están a una corta caminata de la plaza de la telecabina, se vuelve esquiando al pueblo pero por la mañana se camina un par de minutos con botas hasta el primer remonte. Los lodges más lejanos cuentan con un servicio de shuttle gratuito.",
+      "pt": "Os condomínios da base e o hotel Tirol ficam a uma curta caminhada da praça da telecabina, regressa-se a esquiar à aldeia mas de manhã caminham-se uns dois minutos com botas até ao primeiro remonte. Os lodges mais distantes têm shuttle gratuito.",
+      "it": "Le residenze di base e l'hotel Tirol distano una breve camminata dalla piazza della cabinovia, si rientra in pista al villaggio ma al mattino si percorrono di solito due minuti in scarponi fino al primo impianto. I lodge più lontani dispongono di navetta gratuita."
+    },
+    "seasonStart": "Dec 5",
+    "seasonEnd": "Mar 9",
+    "snowScore": 75,
+    "vibes": [
+      "high-altitude",
+      "panoramic",
+      "family",
+      "national-park",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Muju Deogyusan rides higher than any ski peak in Korea. Set inside Deogyusan National Park, the gondola climbs toward Hyangjeokbong at 1614 m and unfurls views over forested ridges, Buddhist temples and the Sobaek range. It is the southerly resort with the most honest snow and the longest sight-lines on the country's map.",
+      "fr": "Muju Deogyusan culmine plus haut qu'aucun autre sommet skiable de Corée. Logée dans le parc national de Deogyusan, sa télécabine grimpe vers Hyangjeokbong à 1614 m et déploie des panoramas sur crêtes boisées, temples bouddhistes et chaîne du Sobaek. La station du sud à la neige la plus honnête et aux horizons les plus longs du pays.",
+      "es": "Muju Deogyusan se eleva más alto que cualquier otro pico esquiable de Corea. Enclavada en el parque nacional de Deogyusan, su telecabina sube hacia el Hyangjeokbong, a 1614 m, y despliega vistas sobre crestas boscosas, templos budistas y la cordillera Sobaek. La estación sureña con la nieve más honesta y los horizontes más largos del país.",
+      "pt": "Muju Deogyusan ergue-se mais alto do que qualquer outro cume esquiável da Coreia. Encaixada no parque nacional de Deogyusan, a telecabina sobe rumo ao Hyangjeokbong, a 1614 m, e desdobra vistas sobre cumeadas arborizadas, templos budistas e a cordilheira Sobaek. A estação sulista com a neve mais honesta e os horizontes mais longos do país.",
+      "it": "Muju Deogyusan si eleva più in alto di ogni altra cima sciabile della Corea. Incastonata nel parco nazionale di Deogyusan, la cabinovia sale verso lo Hyangjeokbong a 1614 m e spalanca panorami su crinali boscosi, templi buddisti e la catena del Sobaek. La stazione del sud con la neve più onesta e gli orizzonti più lunghi del paese."
+    },
+    "longDescription": {
+      "en": "Muju Deogyusan in North Jeolla province is Korea's outlier, the only major resort that sits inside a national park and the only one whose summit pushes past 1600 m. Fourteen lifts, twenty-one trails, base at 730 m, top station at 1614 m: a mix that mirrors a small European hill more than a Seoul day-trip resort. The piste tally splits across four greens, seven blues, six reds and four blacks, including the famous Raiders run that drops in a steep wide pitch from the upper gondola and gives advanced skiers something to brag about. The Tianggandyo gondola is the spine of the system, climbing nearly nine hundred metres of vertical from car park to ridge in a single ride. Snowfall numbers are the strongest in southern Korea thanks to the altitude and the moisture pulled off the Yellow Sea, so the season runs solidly from early December into March even when nearby resorts fade. The base village is a planned ski town built for the 1997 Winter Universiade, with a Maremons-style hotel, condos, a pedestrian plaza, restaurants and a sizeable spa pool. Off the snow, the Deogyusan National Park gives summer-stay value, Baengnyeonsa temple is a quiet ten-minute drive away and the bibimbap capital of Jeonju is just over an hour by car. Muju suits adventurous intermediates, advanced skiers chasing the country's longest verticals and travellers who want to pair skiing with a genuine cultural southern Korea itinerary.",
+      "fr": "Muju Deogyusan, dans la province de Jeolla du Nord, est l'outsider coréen, la seule grande station nichée dans un parc national et la seule dont le sommet dépasse 1600 m. Quatorze remontées, vingt et une pistes, base à 730 m, station haute à 1614 m : un dimensionnement plus proche d'une petite station européenne que d'un domaine d'excursion séoulite. Le décompte de pistes se répartit en quatre vertes, sept bleues, six rouges et quatre noires, dont la fameuse Raiders qui plonge en pente raide et large depuis la télécabine haute et offre aux skieurs confirmés de quoi raconter. La télécabine Tianggandyo est la colonne vertébrale, elle avale près de neuf cents mètres de dénivelé du parking à la crête d'une seule traite. Les chutes de neige sont les plus fortes du sud du pays grâce à l'altitude et à l'humidité tirée de la mer Jaune, la saison court franchement de début décembre à mars quand les voisines s'essoufflent déjà. La base est une station de ski planifiée pour l'Universiade d'hiver 1997 : hôtel d'inspiration Maremons, résidences, place piétonne, restaurants et un large bassin thermal. Hors ski, le parc national de Deogyusan donne de la valeur estivale, le temple Baengnyeonsa est à dix minutes de voiture et Jeonju, capitale du bibimbap, se trouve à un peu plus d'une heure. Muju va aux intermédiaires aventureux, aux skieurs confirmés qui veulent les plus longs dénivelés du pays et aux voyageurs qui aiment marier ski et itinéraire culturel dans le sud coréen.",
+      "es": "Muju Deogyusan, en la provincia de Jeolla del Norte, es la rareza coreana, la única gran estación encajada en un parque nacional y la única cuyo sumario rebasa los 1600 m. Catorce remontes, veintiún pistas, base a 730 m y estación alta a 1614 m: un dimensionado más cercano al de una estación europea pequeña que al de un dominio de día desde Seúl. El recuento se reparte entre cuatro verdes, siete azules, seis rojas y cuatro negras, incluida la famosa Raiders, que se descuelga en una pendiente empinada y ancha desde la telecabina alta y le da a los esquiadores avanzados algo que contar. La telecabina Tianggandyo es la columna vertebral, devora cerca de novecientos metros de desnivel desde el aparcamiento hasta la cresta en un solo viaje. Las cifras de nevada son las mejores del sur del país gracias a la altitud y a la humedad del mar Amarillo, así que la temporada va con solidez de principios de diciembre a marzo cuando las vecinas ya flaquean. La base es un pueblo de esquí planificado para la Universiada de Invierno de 1997, con un hotel de aire Maremons, condominios, una plaza peatonal, restaurantes y una amplia piscina termal. Fuera del esquí, el parque nacional de Deogyusan aporta valor en verano, el templo Baengnyeonsa queda a diez minutos en coche y Jeonju, capital del bibimbap, está a poco más de una hora. Muju encaja con intermedios aventureros, esquiadores avanzados que persiguen los desniveles más largos del país y viajeros que quieren combinar esquí con un itinerario cultural en el sur coreano.",
+      "pt": "Muju Deogyusan, na província de Jeolla do Norte, é a exceção coreana, a única grande estação encaixada num parque nacional e a única cujo cume passa dos 1600 m. Catorze remontes, vinte e uma pistas, base a 730 m e estação alta a 1614 m: um dimensionamento mais próximo de uma pequena estação europeia do que de um domínio de um dia a partir de Seul. O cômputo reparte-se por quatro verdes, sete azuis, seis vermelhas e quatro pretas, incluindo a famosa Raiders, que desce em rampa íngreme e larga a partir da telecabina alta e dá aos esquiadores avançados algo para contar. A telecabina Tianggandyo é a coluna vertebral, devora quase novecentos metros de desnível do parque ao cume numa só viagem. Os números de neve são os mais fortes do sul do país, graças à altitude e à humidade puxada do mar Amarelo, pelo que a temporada corre com solidez de princípios de dezembro a março, quando as vizinhas já fraquejam. A base é uma estância planeada para a Universíada de Inverno de 1997, com um hotel de inspiração Maremons, condomínios, uma praça pedonal, restaurantes e uma ampla piscina termal. Fora do esqui, o parque nacional de Deogyusan dá valor de verão, o templo Baengnyeonsa fica a dez minutos de carro e Jeonju, capital do bibimbap, está a pouco mais de uma hora. Muju serve a intermédios aventureiros, a esquiadores avançados em busca dos desníveis mais longos do país e a viajantes que querem casar esqui com um itinerário cultural no sul coreano.",
+      "it": "Muju Deogyusan, nella provincia di Jeolla del Nord, è il caso atipico coreano, l'unica grande stazione incastonata in un parco nazionale e l'unica la cui vetta supera i 1600 m. Quattordici impianti, ventuno piste, base a 730 m e stazione alta a 1614 m: un dimensionamento più vicino a una piccola stazione europea che a un comprensorio da gita di un giorno da Seul. Il conto si divide fra quattro verdi, sette blu, sei rosse e quattro nere, compresa la famosa Raiders, che si lascia cadere su una pendenza ripida e larga dalla cabinovia alta e regala agli sciatori esperti qualcosa da raccontare. La cabinovia Tianggandyo è la spina dorsale, divora quasi novecento metri di dislivello dal parcheggio al crinale in una sola corsa. Le nevicate sono le più generose del sud del paese grazie alla quota e all'umidità del mar Giallo, perciò la stagione tiene solida da inizio dicembre a marzo quando le vicine già cedono. La base è un villaggio sciistico pianificato per l'Universiade Invernale del 1997, con un hotel d'ispirazione Maremons, residenze, una piazza pedonale, ristoranti e un'ampia piscina termale. Fuori dallo sci, il parco nazionale di Deogyusan aggiunge valore estivo, il tempio Baengnyeonsa è a dieci minuti d'auto e Jeonju, capitale del bibimbap, dista poco più di un'ora. Muju si addice a intermedi avventurosi, sciatori esperti in cerca dei dislivelli più lunghi del paese e viaggiatori che vogliono unire lo sci a un itinerario culturale nel sud coreano."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 7,
+      "red": 6,
+      "black": 4
+    }
+  },
+  {
+    "slug": "eden-valley",
+    "name": "Eden Valley",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "flag": "🇰🇷",
+    "region": "Sobaek Mountains",
+    "lat": 35.4053,
+    "lng": 128.9817,
+    "altitudeBase": 220,
+    "altitudeSummit": 643,
+    "pistesKm": 7,
+    "lifts": 5,
+    "skiInSkiOutNote": {
+      "en": "The Eden Valley resort hotel and the adjoining condos sit at the base of the main lift, so you can clip in within a couple of minutes of the lobby. The forest park lodges further down the hill rely on a short shuttle to the snow.",
+      "fr": "L'hôtel Eden Valley et les résidences attenantes posent leurs pieds au pied de la remontée principale, on chausse les skis à deux minutes du hall. Les lodges du parc forêt en contrebas demandent une courte navette pour rejoindre la neige.",
+      "es": "El hotel Eden Valley y los condominios contiguos están a los pies del remonte principal, así que se calzan los esquís a dos minutos del lobby. Los lodges del parque forestal, más abajo, necesitan un breve shuttle hasta la nieve.",
+      "pt": "O hotel Eden Valley e os condomínios contíguos assentam ao pé do remonte principal, calçam-se os esquis a dois minutos do lobby. Os lodges do parque florestal, mais abaixo, dependem de um curto shuttle até à neve.",
+      "it": "L'hotel Eden Valley e i condomini adiacenti sorgono ai piedi dell'impianto principale, si calzano gli sci a un paio di minuti dalla hall. I lodge del parco forestale, più in basso, dipendono da una breve navetta per raggiungere la neve."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Feb 25",
+    "snowScore": 52,
+    "vibes": [
+      "value",
+      "family",
+      "night-ski",
+      "city-access",
+      "unique"
+    ],
+    "intro": {
+      "en": "Eden Valley is South Korea's southernmost ski resort, set in Yangsan, just an hour from the beaches of Busan. With a base at only 220 m, the slopes lean entirely on heavy snowmaking and a tight ten-week season. Come for the novelty of skiing in the morning and dipping toes in the East Sea by sundown.",
+      "fr": "Eden Valley est la station de ski la plus au sud de Corée, à Yangsan, à une heure des plages de Busan. La base est à seulement 220 m, les pistes reposent entièrement sur la neige de culture et une saison serrée de dix semaines. On vient pour la curiosité de skier le matin et tremper les pieds dans la mer du Japon au coucher du soleil.",
+      "es": "Eden Valley es la estación de esquí más al sur de Corea del Sur, en Yangsan, a una hora de las playas de Busan. Con base a solo 220 m, las pistas se sostienen entera sobre la nieve artificial y una temporada apretada de diez semanas. Se viene por la curiosidad de esquiar por la mañana y mojarse los pies en el mar del Japón al atardecer.",
+      "pt": "Eden Valley é a estação de esqui mais a sul da Coreia do Sul, em Yangsan, a uma hora das praias de Busan. Com a base a apenas 220 m, as pistas assentam inteiramente em neve artificial e numa temporada apertada de dez semanas. Vem-se pela curiosidade de esquiar de manhã e molhar os pés no mar do Japão ao pôr do sol.",
+      "it": "Eden Valley è la stazione sciistica più a sud della Corea del Sud, a Yangsan, a un'ora dalle spiagge di Busan. Con la base a soli 220 m, le piste si reggono interamente sull'innevamento artificiale e una stagione strettissima di dieci settimane. Si viene per la curiosità di sciare al mattino e bagnarsi i piedi nel mar del Giappone al tramonto."
+    },
+    "longDescription": {
+      "en": "Eden Valley Resort lies on Wonhyosan ridge near Yangsan, less than an hour by car from central Busan, which makes it a genuine curiosity on the Korean ski map: the country's southernmost lift-served slopes within striking distance of the open sea. The footprint is small, five lifts and seven trails over a 220 m base and 643 m summit, with one green, two blues, three reds and a single short black. The terrain is best read as a long after-work playground and weekend escape for the Busan and Ulsan populations rather than a destination week. Because the elevation is so low and the southern latitude unusually warm, almost every centimetre of the trail surface is machine-made, the season opens late around mid-December and closes by the end of February, and warm afternoons can soften the snow into slush by mid-March. Night skiing is run almost every evening of the operating window and is genuinely lively. The base village hugs the lower slopes, with a hotel, condos, restaurants, a children's play hall and the Eden Valley Forest theme park that stays open year-round. The novelty story is real: in the morning you carve a couple of runs, by mid-afternoon you can be eating raw fish at Jagalchi Market in Busan and watching neon flash on Haeundae beach. Eden Valley suits novelty-seeking travellers, families combining a coastal holiday with first ski turns and Busan residents who want a 60-minute escape into winter.",
+      "fr": "Eden Valley Resort s'étire sur la crête du Wonhyosan, près de Yangsan, à moins d'une heure de voiture du centre de Busan, ce qui en fait une vraie curiosité sur la carte du ski coréen : les pistes mécanisées les plus méridionales du pays, à portée de la mer ouverte. L'empreinte est modeste, cinq remontées et sept pistes entre une base à 220 m et un sommet à 643 m, soit une verte, deux bleues, trois rouges et une noire courte. Le terrain se lit comme un grand terrain de jeu d'après-travail et d'escapade de week-end pour les populations de Busan et d'Ulsan plutôt que comme une semaine de destination. L'altitude basse et la latitude sud étonnamment douce font que la quasi-totalité du revêtement est fabriqué, la saison ouvre tard, vers mi-décembre, et ferme fin février, les après-midi doux pouvant transformer la neige en soupe dès mi-mars. Le ski de nuit tourne presque chaque soir d'exploitation et l'ambiance est vraiment animée. La base épouse les pistes basses : hôtel, résidences, restaurants, salle de jeux pour enfants et le parc Eden Valley Forest ouvert toute l'année. Le récit de l'insolite est sincère : on enchaîne deux ou trois descentes le matin, en milieu d'après-midi on mange du poisson cru au marché Jagalchi de Busan et l'on regarde les néons s'allumer sur la plage de Haeundae. Eden Valley va aux voyageurs en quête d'insolite, aux familles qui marient séjour côtier et premiers virages, et aux résidents de Busan qui veulent une bouffée d'hiver à soixante minutes.",
+      "es": "Eden Valley Resort se extiende por la cresta del Wonhyosan, cerca de Yangsan, a menos de una hora en coche del centro de Busan, lo que lo convierte en una verdadera curiosidad del mapa esquiable coreano: las pistas mecanizadas más meridionales del país, a tiro de mar abierto. La huella es modesta, cinco remontes y siete pistas entre una base a 220 m y una cima a 643 m, con una verde, dos azules, tres rojas y una negra corta. El terreno se lee como un gran patio de recreo de aftework y escapada de fin de semana para las poblaciones de Busan y Ulsan, no como una semana de destino. La altitud baja y la latitud sur insólitamente cálida hacen que casi todo el firme sea de fabricación, la temporada abre tarde, hacia mediados de diciembre, y cierra a finales de febrero, y las tardes templadas pueden convertir la nieve en sopa ya a mediados de marzo. El esquí nocturno funciona casi cada noche del calendario y resulta realmente animado. La base abraza las pistas bajas con hotel, condominios, restaurantes, una sala de juegos infantil y el parque Eden Valley Forest abierto todo el año. La historia de lo insólito es de verdad: por la mañana se hacen un par de bajadas, a media tarde se puede estar comiendo pescado crudo en el mercado de Jagalchi de Busan y viendo encenderse los neones de la playa de Haeundae. Eden Valley va para viajeros en busca de lo curioso, familias que combinan vacaciones costeras con los primeros giros de esquí y residentes de Busan que quieren una escapada invernal de sesenta minutos.",
+      "pt": "Eden Valley Resort estende-se pela crista do Wonhyosan, perto de Yangsan, a menos de uma hora de carro do centro de Busan, o que o torna uma verdadeira curiosidade no mapa esquiável coreano: as pistas mecanizadas mais a sul do país, à distância do mar aberto. A pegada é modesta, cinco remontes e sete pistas entre uma base a 220 m e um cume a 643 m, com uma verde, duas azuis, três vermelhas e uma preta curta. O terreno lê-se como um grande recreio de fim de tarde e fuga de fim de semana para as populações de Busan e Ulsan, e não como uma semana de destino. A altitude baixa e a latitude sul invulgarmente amena fazem com que quase todo o piso seja fabricado, a temporada abre tarde, por meados de dezembro, e fecha em finais de fevereiro, e as tardes amenas podem amolecer a neve em meados de março. O esqui noturno funciona quase todas as noites do calendário e a atmosfera é genuinamente animada. A base abraça as pistas baixas com hotel, condomínios, restaurantes, uma sala de jogos infantis e o parque Eden Valley Forest aberto todo o ano. O enredo do insólito é a sério: de manhã traçam-se duas ou três descidas, a meio da tarde pode estar a comer peixe cru no mercado de Jagalchi em Busan e a ver acenderem-se os néones da praia de Haeundae. Eden Valley serve a viajantes que procuram o insólito, a famílias que casam férias na costa com os primeiros traços de esqui e a residentes de Busan que querem uma fuga invernal de sessenta minutos.",
+      "it": "Eden Valley Resort si estende sul crinale del Wonhyosan, vicino a Yangsan, a meno di un'ora di auto dal centro di Busan, e ciò lo rende una vera curiosità della mappa sciistica coreana: le piste meccanizzate più meridionali del paese, a portata di mare aperto. L'impronta è modesta, cinque impianti e sette piste fra una base a 220 m e una vetta a 643 m, con una verde, due blu, tre rosse e una nera breve. Il terreno si legge come un grande parco giochi del dopo-lavoro e fuga del weekend per le popolazioni di Busan e Ulsan, non come una settimana di destinazione. La quota bassa e la latitudine sud insolitamente mite fanno sì che quasi tutto il manto sia artificiale, la stagione apre tardi, verso metà dicembre, e chiude a fine febbraio, e i pomeriggi tiepidi possono trasformare la neve in zuppa già a metà marzo. Lo sci notturno gira quasi ogni sera del calendario e l'atmosfera è davvero vivace. La base abbraccia le piste basse con hotel, residenze, ristoranti, una sala giochi per bambini e il parco Eden Valley Forest aperto tutto l'anno. Il racconto dell'insolito è sincero: al mattino si tracciano un paio di discese, a metà pomeriggio si può essere a mangiare pesce crudo al mercato di Jagalchi a Busan e a vedere accendersi le insegne al neon della spiaggia di Haeundae. Eden Valley si adatta a viaggiatori in cerca dell'insolito, a famiglie che uniscono una vacanza in costa ai primi appoggi sugli sci e ai residenti di Busan in cerca di una fuga invernale di sessanta minuti."
+    },
+    "pisteCounts": {
+      "green": 1,
+      "blue": 2,
+      "red": 3,
+      "black": 1
+    }
+  },
+  {
+    "slug": "perisher",
+    "name": "Perisher",
+    "country": "Australia",
+    "countryCode": "AU",
+    "flag": "🇦🇺",
+    "region": "Australian Alps",
+    "lat": -36.4019,
+    "lng": 148.4067,
+    "altitudeBase": 1605,
+    "altitudeSummit": 2034,
+    "pistesKm": 70,
+    "lifts": 47,
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out is limited to a handful of lodges at Perisher Valley, Smiggin Holes and Guthega. Most visitors day-trip from Jindabyne or arrive by Skitube, so plan accordingly. The Perisher Valley Hotel and Man From Snowy River Hotel are the genuine on-snow options.",
+      "fr": "Le vrai ski-in/ski-out se limite à quelques lodges à Perisher Valley, Smiggin Holes et Guthega. La plupart des visiteurs montent à la journée depuis Jindabyne ou arrivent en Skitube. Le Perisher Valley Hotel et le Man From Snowy River Hotel sont les vraies options skis aux pieds.",
+      "es": "El verdadero ski-in/ski-out se limita a un puñado de lodges en Perisher Valley, Smiggin Holes y Guthega. La mayoría de visitantes sube en jornada desde Jindabyne o llega en Skitube. El Perisher Valley Hotel y el Man From Snowy River Hotel son las opciones reales a pie de pista.",
+      "pt": "O verdadeiro ski-in/ski-out resume-se a um punhado de alojamentos em Perisher Valley, Smiggin Holes e Guthega. A maioria dos visitantes sobe por um dia desde Jindabyne ou chega de Skitube. O Perisher Valley Hotel e o Man From Snowy River Hotel são as opções reais a pé de pista.",
+      "it": "Il vero ski-in/ski-out è limitato a pochi lodge a Perisher Valley, Smiggin Holes e Guthega. La maggior parte dei visitatori sale in giornata da Jindabyne o arriva con lo Skitube. Il Perisher Valley Hotel e il Man From Snowy River Hotel sono le vere opzioni sci ai piedi."
+    },
+    "seasonStart": "Jun 8",
+    "seasonEnd": "Sep 30",
+    "snowScore": 78,
+    "vibes": [
+      "southern-hemisphere",
+      "big-domain",
+      "family",
+      "freestyle",
+      "snow-sure"
+    ],
+    "intro": {
+      "en": "Perisher sprawls across four linked villages in Kosciuszko National Park, the largest ski resort in the Southern Hemisphere by lift count. Forty-seven lifts thread runs through ghostly snow gum forests, six hours from Sydney, two from Canberra. Modest peaks, big footprint, unmistakably Australian.",
+      "fr": "Perisher s'étend sur quatre villages reliés au cœur du parc national de Kosciuszko, plus grande station de l'hémisphère Sud en nombre de remontées. Quarante-sept appareils desservent des pistes serpentant entre les eucalyptus des neiges, à six heures de Sydney et deux de Canberra. Sommets modestes, domaine vaste, ambiance résolument australienne.",
+      "es": "Perisher se extiende por cuatro pueblos enlazados en el parque nacional de Kosciuszko, la mayor estación del hemisferio sur por número de remontes. Cuarenta y siete aparatos peinan pistas entre eucaliptos nivales, a seis horas de Sídney y dos de Canberra. Cumbres modestas, dominio enorme, sello australiano.",
+      "pt": "Perisher estende-se por quatro aldeias ligadas no parque nacional de Kosciuszko, a maior estância do hemisfério sul pelo número de teleféricos. Quarenta e sete aparelhos servem pistas entre eucaliptos nivais, a seis horas de Sydney e duas de Camberra. Cumes modestos, domínio vasto, identidade australiana.",
+      "it": "Perisher si estende su quattro villaggi collegati nel parco nazionale del Kosciuszko, la stazione più grande dell'emisfero sud per numero di impianti. Quarantasette risalite servono piste tra eucalipti delle nevi, a sei ore da Sydney e due da Canberra. Cime modeste, dominio immenso, anima australiana."
+    },
+    "longDescription": {
+      "en": "Perisher links four distinct villages: Perisher Valley at the heart, Smiggin Holes for beginners, Blue Cow reached by the Skitube alpine train from Bullocks Flat, and tucked-away Guthega. Together they form a single lift-linked domain of 47 lifts and around 70 km of marked runs in the Snowy Mountains of New South Wales. The vibe is family-first: wide blue cruisers under fast quads, dedicated learner zones at Smiggin Holes, and Blue Cow's higher elevation catching the best snow when the maritime weather turns. Terrain parks at Front Valley and Blue Cow draw a strong freestyle crowd. The character here is unmistakably Australian. Runs weave through skeletal snow gum eucalyptus forests, the bark mottled white and grey, a landscape you will not find anywhere else on a ski map. The season runs Queen's Birthday weekend in June through to the first week of October, with heavy snowmaking on lower elevations. Sydney sits six hours up the Hume Highway, Canberra just two, and many guests stay down the hill in Jindabyne and commute by Skitube. Best for families, intermediates building confidence, and freestyle riders.",
+      "fr": "Perisher relie quatre villages distincts: Perisher Valley en son cœur, Smiggin Holes pour les débutants, Blue Cow accessible par le train alpin Skitube depuis Bullocks Flat, et Guthega plus à l'écart. L'ensemble forme un seul domaine relié par 47 remontées et environ 70 km de pistes balisées dans les Snowy Mountains de Nouvelle-Galles du Sud. L'esprit y est familial: larges bleues sous des quads débrayables rapides, zones débutants soignées à Smiggin Holes, et l'altitude un peu supérieure de Blue Cow qui capte la meilleure neige quand le climat maritime se gâte. Les snowparks de Front Valley et Blue Cow attirent une scène freestyle solide. Le caractère est typiquement australien. Les pistes se faufilent entre les eucalyptus des neiges au tronc moucheté blanc et gris, un paysage qu'on ne croise nulle part ailleurs sur une carte de ski. La saison court de la fête de la Reine en juin à la première semaine d'octobre, avec une neige de culture massive en bas. Sydney est à six heures par la Hume Highway, Canberra à deux, et beaucoup logent en vallée à Jindabyne en empruntant le Skitube. Idéal pour les familles, les intermédiaires qui prennent de l'assurance et les amateurs de freestyle.",
+      "es": "Perisher enlaza cuatro pueblos: Perisher Valley en el centro, Smiggin Holes para principiantes, Blue Cow al que se accede en el tren alpino Skitube desde Bullocks Flat, y el apartado Guthega. Juntos forman un único dominio conectado por 47 remontes y unos 70 km de pistas balizadas en las Snowy Mountains de Nueva Gales del Sur. El ambiente es familiar: anchas azules bajo telesillas desembragables, zonas de aprendizaje en Smiggin Holes y la cota algo más alta de Blue Cow que recoge la mejor nieve cuando el tiempo marítimo se tuerce. Los snowparks de Front Valley y Blue Cow atraen a una escena freestyle sólida. El carácter es inconfundiblemente australiano. Las pistas se cuelan entre eucaliptos nivales de corteza moteada blanca y gris, un paisaje que no se encuentra en ningún otro mapa de esquí. La temporada arranca el fin de semana del cumpleaños de la Reina en junio y llega a la primera semana de octubre, con fuerte producción de nieve en cotas bajas. Sídney queda a seis horas por la Hume Highway, Canberra a dos, y muchos clientes se alojan abajo en Jindabyne y suben en Skitube. Ideal para familias, intermedios que ganan confianza y riders de freestyle.",
+      "pt": "Perisher liga quatro aldeias distintas: Perisher Valley no coração, Smiggin Holes para iniciantes, Blue Cow alcançado pelo comboio alpino Skitube a partir de Bullocks Flat, e o recatado Guthega. Em conjunto formam um único domínio ligado por 47 teleféricos e cerca de 70 km de pistas marcadas nas Snowy Mountains da Nova Gales do Sul. O ambiente é familiar: largas azuis sob telecadeiras desengatáveis rápidas, zonas de aprendizagem em Smiggin Holes e a cota um pouco superior de Blue Cow que apanha a melhor neve quando o tempo marítimo se desmancha. Os snowparks de Front Valley e Blue Cow atraem uma cena freestyle sólida. O carácter é inconfundivelmente australiano. As pistas serpenteiam por eucaliptos nivais de casca malhada branca e cinzenta, uma paisagem que não se encontra em mais nenhum mapa de esqui. A época vai do fim de semana do aniversário da Rainha em junho até à primeira semana de outubro, com forte produção de neve nas cotas baixas. Sydney fica a seis horas pela Hume Highway, Camberra a duas, e muitos hóspedes alojam-se em baixo em Jindabyne e sobem de Skitube. Ideal para famílias, intermédios que ganham confiança e adeptos do freestyle.",
+      "it": "Perisher collega quattro villaggi distinti: Perisher Valley al centro, Smiggin Holes per i principianti, Blue Cow raggiunto dal treno alpino Skitube da Bullocks Flat, e l'appartato Guthega. Insieme formano un unico dominio collegato da 47 impianti e circa 70 km di piste segnate nelle Snowy Mountains del Nuovo Galles del Sud. Lo spirito è familiare: larghe blu sotto seggiovie ad ammorsamento automatico, zone scuola curate a Smiggin Holes e la quota un po' più alta di Blue Cow che cattura la neve migliore quando il clima marittimo si guasta. Gli snowpark di Front Valley e Blue Cow richiamano una scena freestyle solida. Il carattere è tipicamente australiano. Le piste si infilano tra eucalipti delle nevi dalla corteccia chiazzata di bianco e grigio, un paesaggio che non si incontra in nessun'altra cartina sciistica. La stagione va dal weekend del compleanno della Regina a giugno fino alla prima settimana di ottobre, con forte innevamento programmato nelle quote basse. Sydney dista sei ore lungo la Hume Highway, Canberra solo due, e molti ospiti alloggiano a valle a Jindabyne salendo con lo Skitube. Ideale per famiglie, intermedi in crescita e rider freestyle."
+    },
+    "pisteCounts": {
+      "green": 22,
+      "blue": 60,
+      "red": 30,
+      "black": 14
+    }
+  },
+  {
+    "slug": "thredbo",
+    "name": "Thredbo",
+    "country": "Australia",
+    "countryCode": "AU",
+    "flag": "🇦🇺",
+    "region": "Australian Alps",
+    "lat": -36.5028,
+    "lng": 148.3014,
+    "altitudeBase": 1365,
+    "altitudeSummit": 2037,
+    "pistesKm": 50,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Thredbo's village is built into the slope, so true ski-in/ski-out exists but is concentrated in a few addresses near the Kosciuszko Express and Friday Flat. Lower-village lodges rely on the Village Bobsled chair. Book early for slopeside.",
+      "fr": "Le village de Thredbo s'accroche à la pente, donc le vrai ski-in/ski-out existe mais se concentre sur quelques adresses près du Kosciuszko Express et de Friday Flat. Les lodges du bas du village dépendent du télésiège Village Bobsled. Réservez tôt pour le pied des pistes.",
+      "es": "El pueblo de Thredbo está incrustado en la ladera, así que el ski-in/ski-out real existe pero se concentra en unas pocas direcciones cerca del Kosciuszko Express y Friday Flat. Los lodges de la parte baja dependen de la silla Village Bobsled. Reserve con antelación a pie de pista.",
+      "pt": "A aldeia de Thredbo está encaixada na encosta, pelo que o verdadeiro ski-in/ski-out existe mas concentra-se em poucas moradas perto do Kosciuszko Express e de Friday Flat. Os alojamentos da parte baixa dependem do telecadeira Village Bobsled. Reserve cedo para o pé de pista.",
+      "it": "Il villaggio di Thredbo è incastonato nel pendio, quindi il vero ski-in/ski-out esiste ma si concentra in pochi indirizzi vicino al Kosciuszko Express e a Friday Flat. I lodge in basso dipendono dalla seggiovia Village Bobsled. Prenotate per tempo le sistemazioni sulle piste."
+    },
+    "seasonStart": "Jun 8",
+    "seasonEnd": "Sep 30",
+    "snowScore": 80,
+    "vibes": [
+      "southern-hemisphere",
+      "iconic",
+      "freeride",
+      "racing",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Thredbo holds Australia's longest vertical drop at 672 metres and sits at the foot of Mt Kosciuszko, the continent's highest peak at 2228 metres. A pedestrian alpine village tumbles down terraced slopes, home of the Australian World Cup ski team and the country's most credible attempt at a European feel.",
+      "fr": "Thredbo détient le plus grand dénivelé d'Australie avec 672 mètres et s'étend au pied du Mont Kosciuszko, point culminant du continent à 2228 mètres. Le village alpin piéton s'étage en terrasses, fief de l'équipe australienne de Coupe du monde et tentative la plus crédible du pays d'une ambiance européenne.",
+      "es": "Thredbo presume del mayor desnivel de Australia con 672 metros y se asienta al pie del Mt Kosciuszko, techo del continente con 2228 metros. Un pueblo alpino peatonal desciende en terrazas, casa del equipo australiano de Copa del Mundo y el intento más creíble del país de aire europeo.",
+      "pt": "Thredbo detém o maior desnível da Austrália com 672 metros e estende-se ao sopé do Mt Kosciuszko, ponto mais alto do continente a 2228 metros. Uma aldeia alpina pedonal desce em socalcos, casa da equipa australiana da Taça do Mundo e a tentativa mais credível do país de um ambiente europeu.",
+      "it": "Thredbo vanta il maggior dislivello d'Australia con 672 metri e sorge ai piedi del Mt Kosciuszko, tetto del continente a 2228 metri. Un villaggio alpino pedonale digrada a terrazze, casa della nazionale australiana di Coppa del Mondo e il tentativo più credibile del Paese di un'aria europea."
+    },
+    "longDescription": {
+      "en": "Thredbo is the most cosmopolitan resort in the Snowy Mountains and the Australian benchmark for serious skiing. The Kosciuszko Express chair climbs to 2037 metres and serves the country's longest descent, a 5.9 km cruise down the Crackenback face. From the top, a summer walking track leads to Mt Kosciuszko itself at 2228 metres, the highest point on the Australian mainland. The pedestrian village is built on the south-facing slope of the Thredbo Valley, a stack of terraced lodges, bars and restaurants linked by stairways and the Village Bobsled chairlift. There is genuine alpine architecture here, by Australian standards, and a nightlife that runs from the Schuss Bar through to the live music at the Keller. Terrain skews intermediate to advanced. The Funnel Web and Golf Course Bowl reward strong skiers, while the Friday Flat learner area is one of the best dedicated beginner zones in the country. Thredbo runs the famous Easter Sales and the September spring carnival, both magnets for international visitors travelling off-season. Snow gum forests give the lower runs their identity, and snowmaking covers the spine of the mountain.",
+      "fr": "Thredbo est la station la plus cosmopolite des Snowy Mountains et la référence australienne du ski exigeant. Le télésiège Kosciuszko Express grimpe à 2037 mètres et donne accès à la plus longue descente du pays, une croisière de 5,9 km sur la face de Crackenback. Depuis le sommet, un sentier d'été mène au Mont Kosciuszko à 2228 mètres, point culminant de l'Australie continentale. Le village piéton est bâti sur le versant sud de la vallée de Thredbo, un empilement de lodges, bars et restaurants en terrasses, reliés par des escaliers et le télésiège Village Bobsled. On trouve ici une vraie architecture alpine, à l'échelle australienne, et une vie nocturne qui va du Schuss Bar aux concerts du Keller. Le terrain penche intermédiaire à confirmé. Funnel Web et Golf Course Bowl récompensent les bons skieurs, tandis que la zone débutants de Friday Flat est l'une des meilleures du pays. Thredbo organise les fameuses Easter Sales et le carnaval de printemps en septembre, aimants pour la clientèle internationale en intersaison. Les forêts d'eucalyptus des neiges signent les pistes basses, et la neige de culture couvre la colonne vertébrale du domaine.",
+      "es": "Thredbo es la estación más cosmopolita de las Snowy Mountains y la referencia australiana del esquí serio. La silla Kosciuszko Express sube a 2037 metros y abre la bajada más larga del país, un crucero de 5,9 km por la cara de Crackenback. Desde la cima, un sendero estival lleva al Mt Kosciuszko a 2228 metros, techo de la Australia continental. El pueblo peatonal se asienta en la vertiente sur del valle de Thredbo, una pila de lodges, bares y restaurantes en terrazas, unidos por escaleras y la silla Village Bobsled. Hay aquí una arquitectura alpina creíble, en clave australiana, y una vida nocturna que va del Schuss Bar a los conciertos del Keller. El terreno tira de intermedio a avanzado. Funnel Web y Golf Course Bowl premian al esquiador firme, mientras Friday Flat es una de las mejores zonas de aprendizaje del país. Thredbo organiza las famosas Easter Sales y el carnaval de primavera de septiembre, imanes para visitantes internacionales en temporada baja. Los bosques de eucaliptos nivales firman las pistas bajas, y la nieve producida cubre la espina dorsal de la montaña.",
+      "pt": "Thredbo é a estância mais cosmopolita das Snowy Mountains e a referência australiana do esqui exigente. O telecadeira Kosciuszko Express sobe aos 2037 metros e dá acesso à descida mais longa do país, um cruzeiro de 5,9 km pela face de Crackenback. Do cume, um trilho estival leva ao Mt Kosciuszko a 2228 metros, ponto mais alto da Austrália continental. A aldeia pedonal está implantada na vertente sul do vale de Thredbo, um empilhar de alojamentos, bares e restaurantes em socalcos, ligados por escadarias e pelo telecadeira Village Bobsled. Há aqui uma arquitectura alpina credível, à escala australiana, e uma vida nocturna que vai do Schuss Bar aos concertos do Keller. O terreno pende para intermédio e avançado. Funnel Web e Golf Course Bowl premeiam o esquiador firme, enquanto Friday Flat é uma das melhores zonas de aprendizagem do país. Thredbo realiza os famosos Easter Sales e o carnaval de primavera de setembro, ímanes para visitantes internacionais em época baixa. Os bosques de eucaliptos nivais assinam as pistas baixas e a neve produzida cobre a espinha dorsal da montanha.",
+      "it": "Thredbo è la stazione più cosmopolita delle Snowy Mountains e il riferimento australiano per lo sci impegnato. La seggiovia Kosciuszko Express sale a 2037 metri e apre la discesa più lunga del Paese, una crociera di 5,9 km lungo la parete del Crackenback. Dalla cima, un sentiero estivo porta al Mt Kosciuszko a 2228 metri, tetto dell'Australia continentale. Il villaggio pedonale è costruito sul versante sud della valle di Thredbo, una catasta di lodge, bar e ristoranti a terrazze, collegati da scalinate e dalla seggiovia Village Bobsled. C'è qui una vera architettura alpina, in chiave australiana, e una vita notturna che va dallo Schuss Bar ai concerti del Keller. Il terreno è da intermedio ad avanzato. Funnel Web e Golf Course Bowl premiano lo sciatore solido, mentre Friday Flat è una delle migliori zone scuola del Paese. Thredbo ospita i famosi Easter Sales e il carnevale di primavera a settembre, calamite per visitatori internazionali fuori stagione. I boschi di eucalipti delle nevi firmano le piste basse e l'innevamento programmato copre la spina dorsale della montagna."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 28,
+      "red": 14,
+      "black": 12
+    }
+  },
+  {
+    "slug": "falls-creek",
+    "name": "Falls Creek",
+    "country": "Australia",
+    "countryCode": "AU",
+    "flag": "🇦🇺",
+    "region": "Australian Alps",
+    "lat": -36.865,
+    "lng": 147.2782,
+    "altitudeBase": 1500,
+    "altitudeSummit": 1842,
+    "pistesKm": 55,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Falls Creek is the most reliable ski-in/ski-out resort in Australia. The pedestrian village runs along the slope, snowcats handle luggage from Slalom Plaza, and a majority of lodges open straight onto a trail or a beginner magic carpet.",
+      "fr": "Falls Creek est la station la plus fiable en ski-in/ski-out d'Australie. Le village piéton longe la pente, les dameuses gèrent les bagages depuis Slalom Plaza, et la majorité des lodges débouchent directement sur une piste ou un tapis débutants.",
+      "es": "Falls Creek es la estación más fiable de Australia en ski-in/ski-out. El pueblo peatonal recorre la ladera, los pisapistas se ocupan del equipaje desde Slalom Plaza y la mayoría de los lodges dan directamente a una pista o a una cinta de aprendizaje.",
+      "pt": "Falls Creek é a estância mais fiável da Austrália em ski-in/ski-out. A aldeia pedonal acompanha a encosta, as máquinas pisa-pistas tratam das bagagens a partir do Slalom Plaza e a maioria dos alojamentos abre directamente para uma pista ou para um tapete de aprendizagem.",
+      "it": "Falls Creek è la stazione più affidabile in Australia per lo ski-in/ski-out. Il villaggio pedonale corre lungo il pendio, i gatti delle nevi gestiscono i bagagli dallo Slalom Plaza e la maggior parte dei lodge si apre direttamente su una pista o su un tappeto per principianti."
+    },
+    "seasonStart": "Jun 8",
+    "seasonEnd": "Sep 30",
+    "snowScore": 78,
+    "vibes": [
+      "southern-hemisphere",
+      "big-domain",
+      "family",
+      "snow-sure",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Falls Creek is the only Victorian resort with a car-free pedestrian village, the kind of place where snowcats deliver your bags to ski-in lodges at the door. Ninety trails roll across a rounded high plateau in the Victorian Alps, with deep Nordic roots and the Mt McKay backcountry rising behind.",
+      "fr": "Falls Creek est la seule station du Victoria avec un village piéton sans voiture, ce genre d'endroit où des dameuses livrent vos bagages aux lodges skis aux pieds. Quatre-vingt-dix pistes ondulent sur un haut plateau arrondi des Alpes Victoriennes, avec une tradition nordique profonde et l'arrière-pays du Mont McKay qui se dresse en arrière.",
+      "es": "Falls Creek es la única estación de Victoria con pueblo peatonal sin coches, de esos sitios en los que las máquinas pisapistas dejan tu equipaje en la puerta del lodge. Noventa pistas ondulan por una meseta alta y redondeada de los Alpes Victorianos, con raíz nórdica profunda y el backcountry del Mt McKay alzándose detrás.",
+      "pt": "Falls Creek é a única estância de Vitória com aldeia pedonal sem carros, daqueles sítios em que as máquinas pisa-pistas deixam a bagagem à porta do alojamento. Noventa pistas ondulam num planalto alto e arredondado dos Alpes Vitorianos, com raiz nórdica profunda e o backcountry do Mt McKay a erguer-se atrás.",
+      "it": "Falls Creek è l'unica stazione del Victoria con villaggio pedonale senza auto, di quei posti in cui i gatti delle nevi consegnano i bagagli ai lodge sci ai piedi fino alla porta. Novanta piste ondulano su un altopiano arrotondato delle Alpi Vittoriane, con radice nordica profonda e il backcountry del Mt McKay che si alza alle spalle."
+    },
+    "longDescription": {
+      "en": "Falls Creek sits on the Bogong High Plains above the town of Mt Beauty, a four-hour drive north-east of Melbourne. The terrain spreads across a rolling plateau between 1500 and 1842 metres, served by 14 lifts and stitched together by 90 named trails. The pitch is generous rather than dramatic: long, sweeping intermediates through the Ruined Castle and Sun Valley, a strong learner zone at Wombats Ramble, and steeper black runs off Towers and the Summit. Above the lift system, Mt McKay opens up a serious backcountry zone, accessed by a snowcat shuttle, with wide open faces and snow gum gladed pitches. The pedestrian village is the real differentiator. Cars park below at Slalom Plaza, the main street is closed to traffic, and a string of lodges line the slopes so that most of them are genuinely ski-in/ski-out. Falls Creek also has the strongest cross-country tradition in Australia, host of the Kangaroo Hoppet each August, and a 65 km Nordic trail network running across the high plains. Suits families, intermediates and Nordic skiers above all, with a serious bonus for skiers chasing untracked backcountry lines.",
+      "fr": "Falls Creek est posé sur le haut plateau de Bogong au-dessus de la ville de Mt Beauty, à quatre heures de route au nord-est de Melbourne. Le terrain se déploie sur un plateau ondulé entre 1500 et 1842 mètres, desservi par 14 remontées et tissé par 90 pistes balisées. La pente est généreuse plus que vertigineuse: longues bleues amples par Ruined Castle et Sun Valley, belle zone débutants à Wombats Ramble, et noires plus raides depuis Towers et le sommet. Au-dessus du domaine, le Mont McKay ouvre un vrai secteur hors-piste, accessible par navette en dameuse, avec de larges faces ouvertes et des couloirs entre eucalyptus des neiges. Le village piéton fait toute la différence. Les voitures restent en bas à Slalom Plaza, la rue principale est interdite à la circulation et une ribambelle de lodges borde les pistes, presque tous vraiment skis aux pieds. Falls Creek possède aussi la plus forte tradition de ski de fond d'Australie, hôte du Kangaroo Hoppet chaque mois d'août, avec 65 km de pistes nordiques sur le haut plateau. Idéal pour familles, intermédiaires et fondeurs avant tout, avec un vrai bonus pour les amateurs de lignes vierges hors-piste.",
+      "es": "Falls Creek se asienta en las Bogong High Plains sobre la localidad de Mt Beauty, a cuatro horas de coche al noreste de Melbourne. El terreno se extiende por una meseta ondulada entre 1500 y 1842 metros, servida por 14 remontes y cosida por 90 pistas balizadas. La pendiente es generosa más que dramática: largas azules amplias por Ruined Castle y Sun Valley, una buena zona de aprendizaje en Wombats Ramble y negras más pronunciadas desde Towers y la cima. Por encima del dominio, el Mt McKay abre un serio sector de backcountry al que se llega en lanzadera de pisapistas, con anchas caras abiertas y canalones entre eucaliptos nivales. El pueblo peatonal marca la diferencia. Los coches quedan abajo en Slalom Plaza, la calle principal está cerrada al tráfico y una hilera de lodges bordea las pistas, casi todos de verdad a pie de pista. Falls Creek tiene además la tradición de fondo más fuerte de Australia, sede del Kangaroo Hoppet cada agosto y con 65 km de circuitos nórdicos sobre la meseta. Va sobre todo a familias, intermedios y fondistas, con un plus serio para quien busca líneas vírgenes fuera de pista.",
+      "pt": "Falls Creek assenta nas Bogong High Plains sobre a localidade de Mt Beauty, a quatro horas de carro a nordeste de Melbourne. O terreno estende-se por um planalto ondulado entre 1500 e 1842 metros, servido por 14 teleféricos e tecido por 90 pistas marcadas. O declive é generoso mais do que dramático: longas azuis amplas por Ruined Castle e Sun Valley, boa zona de aprendizagem em Wombats Ramble e negras mais inclinadas a partir de Towers e do cume. Acima do domínio, o Mt McKay abre um sério sector de backcountry, alcançado por carreira em pisa-pistas, com largas faces abertas e couloirs entre eucaliptos nivais. A aldeia pedonal marca a diferença. Os carros ficam em baixo no Slalom Plaza, a rua principal está fechada ao trânsito e uma fila de alojamentos margina as pistas, quase todos verdadeiramente a pé de pista. Falls Creek tem também a mais forte tradição de fundo da Austrália, sede do Kangaroo Hoppet em cada agosto, com 65 km de circuitos nórdicos sobre o planalto. Vai sobretudo a famílias, intermédios e fundistas, com um sério extra para quem persegue linhas virgens fora de pista.",
+      "it": "Falls Creek si trova sulle Bogong High Plains sopra la cittadina di Mt Beauty, quattro ore di auto a nord-est di Melbourne. Il terreno si distende su un altopiano ondulato tra 1500 e 1842 metri, servito da 14 impianti e cucito da 90 piste segnate. La pendenza è generosa più che drammatica: lunghe blu ampie su Ruined Castle e Sun Valley, una bella zona scuola a Wombats Ramble e nere più ripide da Towers e dalla cima. Sopra il dominio, il Mt McKay apre un serio settore di backcountry, raggiungibile in navetta con gatto delle nevi, con ampie facce aperte e canali tra eucalipti delle nevi. Il villaggio pedonale fa la differenza. Le auto restano in basso allo Slalom Plaza, la via principale è chiusa al traffico e una fila di lodge costeggia le piste, quasi tutti davvero sci ai piedi. Falls Creek vanta inoltre la più forte tradizione di fondo d'Australia, sede del Kangaroo Hoppet ogni agosto, con 65 km di anelli nordici sull'altopiano. Va soprattutto a famiglie, intermedi e fondisti, con un plus serio per chi cerca linee vergini fuori pista."
+    },
+    "pisteCounts": {
+      "green": 17,
+      "blue": 36,
+      "red": 19,
+      "black": 14
+    }
+  },
+  {
+    "slug": "mt-hotham",
+    "name": "Mt Hotham",
+    "country": "Australia",
+    "countryCode": "AU",
+    "flag": "🇦🇺",
+    "region": "Australian Alps",
+    "lat": -36.9789,
+    "lng": 147.1356,
+    "altitudeBase": 1480,
+    "altitudeSummit": 1861,
+    "pistesKm": 50,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Because the village runs along a ridge, lodges on the south side of the Great Alpine Road are usually true ski-in/ski-out into Big D or Heavenly Valley. The reverse-style layout means some addresses require a short uphill walk back at day's end.",
+      "fr": "Comme le village s'étire sur une crête, les lodges au sud de la Great Alpine Road sont en général skis aux pieds vers Big D ou Heavenly Valley. La configuration inversée fait que certaines adresses demandent une courte remontée à pied en fin de journée.",
+      "es": "Como el pueblo se alarga por una cresta, los lodges al sur de la Great Alpine Road suelen ser a pie de pista hacia Big D o Heavenly Valley. La disposición invertida hace que algunas direcciones requieran una corta subida andando al final de la jornada.",
+      "pt": "Como a aldeia se estende por uma cumeada, os alojamentos a sul da Great Alpine Road costumam ser verdadeiro ski-in/ski-out para Big D ou Heavenly Valley. A disposição invertida faz com que algumas moradas exijam uma curta subida a pé no final do dia.",
+      "it": "Poiché il villaggio si allunga su un crinale, i lodge a sud della Great Alpine Road sono di norma sci ai piedi verso Big D o Heavenly Valley. La disposizione invertita comporta che alcuni indirizzi richiedano una breve risalita a piedi a fine giornata."
+    },
+    "seasonStart": "Jun 8",
+    "seasonEnd": "Sep 30",
+    "snowScore": 82,
+    "vibes": [
+      "southern-hemisphere",
+      "powder",
+      "expert",
+      "high-altitude",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Mt Hotham is the Powder Capital of Australia, a ridgeline village strung along the Great Dividing Range above Bright and Harrietville. You arrive at the top and ski down into the resort, an inverted layout you will not find anywhere else in Australia.",
+      "fr": "Mt Hotham est la capitale australienne de la poudreuse, un village de crête aligné sur la Grande Cordillère de Partage au-dessus de Bright et Harrietville. On arrive par le haut et on skie vers le bas pour rejoindre la station, une configuration inversée unique en Australie.",
+      "es": "Mt Hotham es la capital del polvo de Australia, un pueblo de cresta tendido sobre la Gran Cordillera Divisoria por encima de Bright y Harrietville. Llegas arriba y bajas esquiando hasta la estación, una disposición invertida que no se ve en ninguna otra parte de Australia.",
+      "pt": "Mt Hotham é a capital do pó da Austrália, uma aldeia de cumeada estendida sobre a Grande Cordilheira Divisória, acima de Bright e Harrietville. Chega-se por cima e desce-se a esquiar até à estância, uma disposição invertida que não se vê em mais nenhum local da Austrália.",
+      "it": "Mt Hotham è la capitale della polvere d'Australia, un villaggio di crinale allungato sulla Great Dividing Range sopra Bright e Harrietville. Si arriva in alto e si scia verso il basso fino alla stazione, una disposizione invertita che non si trova altrove in Australia."
+    },
+    "longDescription": {
+      "en": "Mt Hotham sits at 1750 metres along a narrow ridge in the Victorian Alps, with the resort village strung out either side of the Great Alpine Road. The unusual layout means you park or step off the bus at the top, then drop in to ride a network of 13 lifts and around 50 km of pistes that fan down into Heavenly Valley, the Extreme Zone and Mary's Slide. The black-run count, 27 in total, is the highest in Australia by share of terrain, and the steep tree-skiing through snow gum stands gives Hotham its reputation for genuine expert pitches. Mary's Slide and Gotcha drop sharply off the front face, while the Heavenly Valley quad accesses long blues for intermediates. Beginners stick to Big D and the dedicated learner area at Summit. Hotham Airport, just down the road at Horsehair Plain, is the highest commercial airport in Australia and runs charter flights from Sydney during peak winter. The village itself is utilitarian rather than charming, but a tight cluster of bars, the Snowbird Hotel and the General Store give it a friendly, no-pretence atmosphere. Pair it with Dinner Plain, 10 km away, for a quieter alpine stay with a free shuttle.",
+      "fr": "Mt Hotham est perché à 1750 mètres sur une crête étroite des Alpes Victoriennes, le village de station s'étirant de part et d'autre de la Great Alpine Road. La configuration inhabituelle fait qu'on stationne ou qu'on descend du bus en haut, puis qu'on plonge vers le réseau de 13 remontées et environ 50 km de pistes qui se déploient dans Heavenly Valley, l'Extreme Zone et Mary's Slide. Le compteur de pistes noires, 27 au total, est le plus élevé d'Australie en proportion du terrain, et le ski raide entre les eucalyptus des neiges signe la réputation de Hotham pour ses vraies pentes expertes. Mary's Slide et Gotcha plongent sec depuis la face avant, tandis que le quad Heavenly Valley dessert de longues bleues pour les intermédiaires. Les débutants restent sur Big D et la zone école dédiée à Summit. L'aéroport de Hotham, en contrebas à Horsehair Plain, est le plus haut aéroport commercial d'Australie et accueille des vols charters depuis Sydney au cœur de l'hiver. Le village est utilitaire plutôt que pittoresque, mais une grappe serrée de bars, le Snowbird Hotel et le General Store lui donnent une atmosphère amicale et sans chichis. À combiner avec Dinner Plain, à 10 km, pour un séjour plus calme et une navette gratuite.",
+      "es": "Mt Hotham se asoma a 1750 metros sobre una cresta estrecha de los Alpes Victorianos, con el pueblo extendiéndose a ambos lados de la Great Alpine Road. La disposición inusual hace que aparques o bajes del bus arriba y te dejes caer hacia una red de 13 remontes y unos 50 km de pistas que se despliegan por Heavenly Valley, la Extreme Zone y Mary's Slide. El contador de pistas negras, 27 en total, es el más alto de Australia por proporción de terreno, y el esquí entre eucaliptos nivales firma la fama de Hotham por sus pendientes expertas reales. Mary's Slide y Gotcha caen secas desde la cara delantera, mientras la silla cuádruple de Heavenly Valley sirve azules largas para intermedios. Los principiantes se quedan en Big D y la zona escuela de Summit. El aeropuerto de Hotham, justo bajando en Horsehair Plain, es el comercial más alto de Australia y opera vuelos chárter desde Sídney en pleno invierno. El pueblo es funcional más que coqueto, pero una piña apretada de bares, el Snowbird Hotel y el General Store le dan un ambiente cercano y sin poses. Se combina bien con Dinner Plain, a 10 km, para alojarse con más calma y servicio gratuito de lanzadera.",
+      "pt": "Mt Hotham assoma-se a 1750 metros sobre uma cumeada estreita dos Alpes Vitorianos, com a aldeia da estância a estender-se de ambos os lados da Great Alpine Road. A disposição invulgar faz com que se estacione ou se saia do autocarro em cima, e depois se mergulhe para a rede de 13 teleféricos e cerca de 50 km de pistas que se desdobram por Heavenly Valley, pela Extreme Zone e por Mary's Slide. O contador de pistas negras, 27 no total, é o mais alto da Austrália por proporção de terreno, e o esqui entre eucaliptos nivais consagra a fama de Hotham pelas suas verdadeiras inclinações expertas. Mary's Slide e Gotcha caem secas desde a face frontal, enquanto o telecadeira Heavenly Valley serve longas azuis para intermédios. Os iniciantes ficam em Big D e na zona escola de Summit. O aeroporto de Hotham, logo abaixo em Horsehair Plain, é o comercial mais alto da Austrália e opera voos charter de Sydney em pleno inverno. A aldeia é utilitária mais do que pitoresca, mas um grupo cerrado de bares, o Snowbird Hotel e o General Store dão-lhe um ambiente acolhedor e sem pretensão. Combina-se bem com Dinner Plain, a 10 km, para uma estadia mais calma com carreira gratuita.",
+      "it": "Mt Hotham si affaccia a 1750 metri lungo un crinale stretto delle Alpi Vittoriane, con il villaggio della stazione che si allunga ai due lati della Great Alpine Road. La disposizione insolita fa sì che si parcheggi o si scenda dal bus in alto e ci si tuffi giù verso una rete di 13 impianti e circa 50 km di piste che si dispiega su Heavenly Valley, sulla Extreme Zone e su Mary's Slide. Il conteggio di piste nere, 27 in totale, è il più alto d'Australia in proporzione al terreno, e lo sci ripido tra gli eucalipti delle nevi consacra la fama di Hotham per le sue vere pendenze esperte. Mary's Slide e Gotcha precipitano dal fronte, mentre la quadriposto Heavenly Valley serve lunghe blu per gli intermedi. I principianti restano su Big D e sulla zona scuola di Summit. L'aeroporto di Hotham, poco più giù a Horsehair Plain, è il commerciale più alto d'Australia e opera voli charter da Sydney nel cuore dell'inverno. Il villaggio è utilitario più che pittoresco, ma un grappolo serrato di bar, lo Snowbird Hotel e il General Store gli danno un'atmosfera amichevole e senza pose. Si abbina bene con Dinner Plain, a 10 km, per un soggiorno più tranquillo con navetta gratuita."
+    },
+    "pisteCounts": {
+      "green": 14,
+      "blue": 22,
+      "red": 16,
+      "black": 27
+    }
+  },
+  {
+    "slug": "mt-buller",
+    "name": "Mt Buller",
+    "country": "Australia",
+    "countryCode": "AU",
+    "flag": "🇦🇺",
+    "region": "Australian Alps",
+    "lat": -37.1456,
+    "lng": 146.4406,
+    "altitudeBase": 1380,
+    "altitudeSummit": 1790,
+    "pistesKm": 80,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "Buller's village is genuinely on-snow: most lodges sit beside Bourke Street, Skyline or the Village run, with ski racks at the door. The cliffside layout means some properties involve stairs or a short cat track, so check vertical position before booking.",
+      "fr": "Le village de Buller est vraiment sur la neige: la plupart des lodges bordent Bourke Street, Skyline ou la piste du Village, avec râteliers à skis devant la porte. La configuration en falaise impose parfois des escaliers ou un court chemin damé, vérifiez bien l'étage avant de réserver.",
+      "es": "El pueblo de Buller está realmente sobre la nieve: la mayoría de los lodges flanquean Bourke Street, Skyline o la pista del Village, con perchas para esquís en la puerta. El trazado en acantilado impone a veces escaleras o un corto camino pisado, conviene comprobar la cota antes de reservar.",
+      "pt": "A aldeia de Buller está mesmo sobre a neve: a maioria dos alojamentos ladeia Bourke Street, Skyline ou a pista do Village, com porta-esquis à porta. A configuração em falésia impõe por vezes escadas ou um curto trilho batido, vale a pena verificar a cota antes de reservar.",
+      "it": "Il villaggio di Buller è davvero sulla neve: la maggior parte dei lodge fiancheggia Bourke Street, Skyline o la pista del Village, con porta-sci alla porta. La conformazione a strapiombo impone a volte scale o un breve raccordo battuto, verificate la quota prima di prenotare."
+    },
+    "seasonStart": "Jun 8",
+    "seasonEnd": "Sep 30",
+    "snowScore": 75,
+    "vibes": [
+      "southern-hemisphere",
+      "big-domain",
+      "family",
+      "city-access",
+      "night-ski"
+    ],
+    "intro": {
+      "en": "Mt Buller is the closest major resort to Melbourne, just three hours up the Hume and Maroondah Highway. A pedestrian village hangs off the cliffside above the Delatite Valley, with 22 lifts, 80 km of pistes and the most piste kilometres of any Australian resort.",
+      "fr": "Mt Buller est la grande station la plus proche de Melbourne, à trois heures par les autoroutes Hume et Maroondah. Le village piéton s'accroche à la falaise au-dessus de la vallée de la Delatite, avec 22 remontées, 80 km de pistes et le plus grand kilométrage damé de toute l'Australie.",
+      "es": "Mt Buller es la gran estación más cercana a Melbourne, a tan solo tres horas por las autopistas Hume y Maroondah. Un pueblo peatonal cuelga del acantilado sobre el valle del Delatite, con 22 remontes, 80 km de pistas y el mayor kilometraje balizado de cualquier estación australiana.",
+      "pt": "Mt Buller é a grande estância mais próxima de Melbourne, a apenas três horas pelas autoestradas Hume e Maroondah. Uma aldeia pedonal pendura-se sobre a falésia acima do vale do Delatite, com 22 teleféricos, 80 km de pistas e a maior quilometragem marcada de qualquer estância australiana.",
+      "it": "Mt Buller è la grande stazione più vicina a Melbourne, a sole tre ore lungo le autostrade Hume e Maroondah. Un villaggio pedonale si aggrappa alla parete sopra la valle del Delatite, con 22 impianti, 80 km di piste e il maggior chilometraggio battuto di qualsiasi stazione australiana."
+    },
+    "longDescription": {
+      "en": "Mt Buller is built into a steep north face above the Delatite River, rising from 1380 metres at Mirimbah to 1790 metres at the summit. The village clusters at 1600 metres on a series of stepped terraces cut into the cliffside, with 22 lifts radiating out to 80 km of marked runs. That total piste length is the longest of any Australian resort, and it shows in the variety: long groomed blues off the Bourke Street Bull Run, North Side bowls for intermediates chasing fresh corduroy, and Federation lift drops into the steep tree skiing of Chamois and Federation. The proximity to Melbourne shapes everything. Day skiers pour in via the chairlifts from the day visitor car parks at Horse Hill, and weekends fill the village with a young Melbourne crowd. The nightlife is lively by Australian ski standards, with the Kooroora Hotel and ABOM driving the scene, and there is regular night skiing on Bourke Street during peak season. Beginners get a dedicated zone at Bourke Street, intermediates the broadest spread of terrain in Victoria, and experts the Federation and Wombat traverses. The trade-off: low altitude means the resort leans heavily on snowmaking when the maritime weather turns mild.",
+      "fr": "Mt Buller est bâti sur une face nord raide au-dessus de la rivière Delatite, de 1380 mètres à Mirimbah jusqu'à 1790 mètres au sommet. Le village se regroupe à 1600 mètres sur des terrasses en escalier taillées dans la falaise, avec 22 remontées rayonnant sur 80 km de pistes balisées. Ce kilométrage est le plus long de toutes les stations d'Australie et cela se voit dans la variété: longues bleues damées par le Bourke Street Bull Run, combes North Side pour les intermédiaires en quête de corduroy frais, et le télésiège Federation qui plonge dans le ski entre arbres de Chamois et Federation. La proximité de Melbourne façonne tout. Les skieurs à la journée affluent par les télésièges depuis les parkings de Horse Hill, et les week-ends remplissent le village d'une clientèle jeune de Melbourne. La vie nocturne est animée à l'échelle du ski australien, le Kooroora Hotel et l'ABOM portent l'ambiance, et le ski nocturne tourne régulièrement sur Bourke Street en haute saison. Les débutants ont leur zone dédiée à Bourke Street, les intermédiaires la palette la plus large du Victoria, les experts les traversées Federation et Wombat. Contrepartie: l'altitude basse oblige la station à compter fortement sur la neige de culture quand le climat maritime se radoucit.",
+      "es": "Mt Buller se asienta en una cara norte empinada sobre el río Delatite, desde 1380 metros en Mirimbah hasta 1790 metros en la cima. El pueblo se agrupa a 1600 metros en terrazas escalonadas talladas en el acantilado, con 22 remontes que abren 80 km de pistas balizadas. Es el mayor kilometraje balizado de toda Australia y se nota en la variedad: largas azules pisadas por el Bourke Street Bull Run, cubetas en la North Side para intermedios en busca de corduroy fresco, y la silla Federation que lanza al esquí entre árboles de Chamois y Federation. La cercanía a Melbourne lo marca todo. Los esquiadores de jornada suben por las sillas desde los aparcamientos de Horse Hill, y los fines de semana llenan el pueblo de un público joven de Melbourne. La vida nocturna es animada según el baremo del esquí australiano, con el Kooroora Hotel y el ABOM marcando el pulso, y esquí nocturno regular en Bourke Street en plena temporada. Los principiantes tienen su zona en Bourke Street, los intermedios la mayor paleta de terreno de Victoria, los expertos las travesías Federation y Wombat. La contrapartida: la cota baja obliga a la estación a apoyarse mucho en la nieve producida cuando el tiempo marítimo se suaviza.",
+      "pt": "Mt Buller assenta numa face norte íngreme sobre o rio Delatite, dos 1380 metros em Mirimbah até aos 1790 metros no cume. A aldeia agrupa-se aos 1600 metros em socalcos escavados na falésia, com 22 teleféricos a abrir 80 km de pistas marcadas. É a maior quilometragem marcada de toda a Austrália e nota-se na variedade: longas azuis batidas pelo Bourke Street Bull Run, taças na North Side para intermédios em busca de corduroy fresco, e o telecadeira Federation que lança para o esqui entre árvores de Chamois e Federation. A proximidade a Melbourne molda tudo. Os esquiadores de um dia sobem pelos telecadeiras a partir dos parques de Horse Hill, e os fins de semana enchem a aldeia com um público jovem de Melbourne. A vida nocturna é animada para o padrão do esqui australiano, com o Kooroora Hotel e o ABOM a darem o tom, e há esqui nocturno regular em Bourke Street em plena época. Os iniciantes têm a sua zona em Bourke Street, os intermédios a mais ampla paleta de terreno de Vitória, os experts as travessias Federation e Wombat. A contrapartida: a cota baixa obriga a estância a apoiar-se muito na neve produzida quando o clima marítimo amolece.",
+      "it": "Mt Buller è costruita su una faccia nord ripida sopra il fiume Delatite, dai 1380 metri di Mirimbah ai 1790 metri della vetta. Il villaggio si raccoglie a 1600 metri su terrazze a gradinata scavate nella parete, con 22 impianti che aprono 80 km di piste segnate. È il maggior chilometraggio battuto di tutta l'Australia e si vede nella varietà: lunghe blu battute lungo il Bourke Street Bull Run, conche sul North Side per intermedi a caccia di corduroy fresco, e la seggiovia Federation che lancia sullo sci tra gli alberi di Chamois e Federation. La vicinanza a Melbourne plasma tutto. Gli sciatori in giornata salgono con le seggiovie dai parcheggi di Horse Hill, e i fine settimana riempiono il villaggio di un pubblico giovane di Melbourne. La vita notturna è vivace per lo standard sciistico australiano, con il Kooroora Hotel e l'ABOM a dare il ritmo, e c'è regolare sci notturno su Bourke Street in piena stagione. I principianti hanno la loro zona a Bourke Street, gli intermedi la più ampia tavolozza di terreno del Victoria, gli esperti le traversate Federation e Wombat. Il rovescio: la quota bassa costringe la stazione ad appoggiarsi molto all'innevamento programmato quando il clima marittimo si addolcisce."
+    },
+    "pisteCounts": {
+      "green": 24,
+      "blue": 40,
+      "red": 23,
+      "black": 13
+    }
+  },
+  {
+    "slug": "cardrona",
+    "name": "Cardrona",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "flag": "🇳🇿",
+    "region": "Southern Alps",
+    "lat": -44.8736,
+    "lng": 168.9492,
+    "altitudeBase": 1260,
+    "altitudeSummit": 1860,
+    "pistesKm": 50,
+    "lifts": 7,
+    "seasonStart": "Jun 13",
+    "seasonEnd": "Oct 12",
+    "snowScore": 82,
+    "vibes": [
+      "southern-hemisphere",
+      "family",
+      "freestyle",
+      "olympic",
+      "panoramic"
+    ],
+    "pisteCounts": {
+      "green": 13,
+      "blue": 21,
+      "red": 16,
+      "black": 11
+    },
+    "intro": {
+      "en": "Cardrona rises above Wanaka at the head of the Crown Range, a wide sunlit basin where families and freestylers share the same lift queues. The pub on the way up is a Kiwi institution, the McDougall's Express chair tops out at 1860 m, and the snow stays cold and predictable through a long Southern Alps winter.",
+      "fr": "Cardrona domine Wanaka au sommet de la Crown Range, un large cirque ensoleillé où familles et freestylers partagent les mêmes files d'attente. Le pub historique sur la route est une institution kiwie, le télésiège McDougall's Express culmine à 1860 m, et la neige reste froide tout au long du long hiver des Alpes du Sud.",
+      "es": "Cardrona se alza sobre Wanaka en lo alto de la Crown Range, un amplio circo soleado donde familias y freestylers comparten las mismas colas. El pub histórico de la subida es una institución kiwi, el telesilla McDougall's Express remata a 1860 m y la nieve se mantiene fría durante todo el largo invierno de los Alpes del Sur.",
+      "pt": "Cardrona ergue-se sobre Wanaka no topo da Crown Range, um vasto circo soalheiro onde famílias e freestylers partilham as mesmas filas. O pub histórico do caminho é uma instituição kiwi, o telecadeira McDougall's Express atinge os 1860 m e a neve mantém-se fria durante todo o longo Inverno dos Alpes do Sul.",
+      "it": "Cardrona si eleva sopra Wanaka in cima alla Crown Range, un'ampia conca soleggiata dove famiglie e freestyler condividono le stesse code agli impianti. Il pub storico sulla strada è un'istituzione kiwi, la seggiovia McDougall's Express raggiunge i 1860 m e la neve resta fredda per tutto il lungo inverno delle Alpi Meridionali."
+    },
+    "longDescription": {
+      "en": "Cardrona is the most family-friendly of the New Zealand commercial fields, an open, gentle bowl that rolls down from McDougall's Express at 1860 m to a base lodge perched well above the Crown Range Road. The terrain leans intermediate, with long, groomed cruisers across Captain's Basin and Whitestar, but the freestyle DNA runs deep: Cardrona has hosted FIS Freeski World Cup events, and the parks are a year-round training ground for Olympic athletes from across the Southern Hemisphere. Most visitors stay 40 minutes downhill in Wanaka, a relaxed lakeside town with strong food, brewing and gear-shop culture, and drive up each morning. The historic Cardrona Hotel, built in 1863, is the photo stop on the way and a fine apres pint on the way home. As the sister field to Treble Cone within the Cardrona Group, lift passes can be paired across both mountains, which suits mixed groups: cruisers on Cardrona one day, big vertical on TC the next.",
+      "fr": "Cardrona est la plus familiale des stations commerciales de Nouvelle-Zélande, un vaste cirque ouvert qui descend en pente douce depuis McDougall's Express à 1860 m jusqu'au front de neige perché au-dessus de la Crown Range Road. Le terrain penche vers l'intermédiaire, avec de longues pistes damées à travers Captain's Basin et Whitestar, mais l'ADN freestyle est profond : Cardrona a accueilli des étapes de Coupe du Monde FIS Freeski, et les snowparks servent de terrain d'entraînement toute l'année aux athlètes olympiques de l'hémisphère sud. La plupart des visiteurs logent 40 minutes plus bas à Wanaka, une ville lacustre détendue à la culture gastronomique, brassicole et outdoor solide, et remontent chaque matin. Le Cardrona Hotel, bâti en 1863, est l'arrêt photo sur la route et la bonne pinte d'apres au retour. Station sœur de Treble Cone au sein du Cardrona Group, le forfait peut couvrir les deux domaines, ce qui convient aux groupes mixtes : cruising à Cardrona un jour, gros dénivelé à TC le lendemain.",
+      "es": "Cardrona es la más familiar de las estaciones comerciales de Nueva Zelanda, un cuenco abierto y suave que baja desde McDougall's Express a 1860 m hasta una base situada muy por encima de la Crown Range Road. El terreno se inclina hacia el intermedio, con largas pistas pisadas por Captain's Basin y Whitestar, pero el ADN freestyle es profundo: Cardrona ha sido sede de pruebas de Copa del Mundo FIS Freeski y sus parques son campo de entrenamiento de los atletas olímpicos del hemisferio sur durante todo el año. La mayoría de los visitantes se alojan 40 minutos más abajo en Wanaka, una localidad lacustre relajada con cultura gastronómica, cervecera y outdoor sólida, y suben cada mañana. El Cardrona Hotel, de 1863, es la parada fotográfica en la subida y la pinta de après en la bajada. Como estación hermana de Treble Cone dentro del Cardrona Group, el forfait puede combinar ambos dominios, lo que conviene a grupos mixtos: cruising en Cardrona un día, gran desnivel en TC al siguiente.",
+      "pt": "Cardrona é a mais familiar das estâncias comerciais da Nova Zelândia, um circo aberto e suave que desce desde o McDougall's Express, a 1860 m, até uma base situada bem acima da Crown Range Road. O terreno tende para o intermédio, com longas pistas batidas por Captain's Basin e Whitestar, mas o ADN freestyle é profundo: Cardrona já recebeu provas da Taça do Mundo FIS Freeski e os snowparks são campo de treino, todo o ano, dos atletas olímpicos do hemisfério sul. A maioria dos visitantes fica 40 minutos abaixo, em Wanaka, uma vila lacustre descontraída com uma sólida cena gastronómica, cervejeira e de lojas de material, e sobe a estância cada manhã. O Cardrona Hotel, de 1863, é a paragem fotográfica do caminho e a boa caneca de après ao regresso. Como estância irmã de Treble Cone no Cardrona Group, o passe pode cobrir ambos os domínios, o que serve grupos mistos: cruising em Cardrona num dia, grande desnível em TC no seguinte.",
+      "it": "Cardrona è la più adatta alle famiglie tra le stazioni commerciali della Nuova Zelanda, un'ampia conca aperta che scende dolcemente dalla McDougall's Express a 1860 m fino a una base appollaiata ben sopra la Crown Range Road. Il terreno è di stampo intermedio, con lunghe piste battute lungo Captain's Basin e Whitestar, ma il DNA freestyle è profondo: Cardrona ha ospitato tappe di Coppa del Mondo FIS Freeski e gli snowpark sono terreno di allenamento per tutto l'anno per gli atleti olimpici dell'emisfero australe. La maggior parte dei visitatori alloggia 40 minuti più in basso a Wanaka, una rilassata cittadina sul lago con una solida cultura gastronomica, brassicola e di negozi outdoor, e risale ogni mattina. Il Cardrona Hotel, del 1863, è la sosta fotografica della salita e la pinta d'apres al ritorno. Come stazione sorella di Treble Cone nel Cardrona Group, lo skipass può coprire entrambi i domini, cosa che giova ai gruppi misti: cruising a Cardrona un giorno, grande dislivello a TC il successivo."
+    },
+    "skiInSkiOutNote": {
+      "en": "True ski-in/ski-out lodging does not exist at Cardrona. The base area has day facilities only, and the road is closed overnight. You stay in Wanaka and drive the Crown Range each morning, around 40 minutes if conditions are clear.",
+      "fr": "Le véritable ski aux pieds n'existe pas à Cardrona. Le front de neige n'offre que des services à la journée et la route ferme la nuit. On loge à Wanaka et on monte la Crown Range chaque matin, environ 40 minutes par temps clair.",
+      "es": "El ski-in/ski-out real no existe en Cardrona. La base solo ofrece servicios de día y la carretera cierra de noche. Te alojas en Wanaka y subes la Crown Range cada mañana, unos 40 minutos con tiempo despejado.",
+      "pt": "O verdadeiro ski-in/ski-out não existe em Cardrona. A base só tem serviços diurnos e a estrada fecha à noite. Fica-se em Wanaka e sobe-se a Crown Range cada manhã, cerca de 40 minutos com tempo limpo.",
+      "it": "Il vero ski-in/ski-out a Cardrona non esiste. La base offre solo servizi diurni e la strada chiude di notte. Si alloggia a Wanaka e si risale la Crown Range ogni mattina, circa 40 minuti col tempo sereno."
+    }
+  },
+  {
+    "slug": "treble-cone",
+    "name": "Treble Cone",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "flag": "🇳🇿",
+    "region": "Southern Alps",
+    "lat": -44.6342,
+    "lng": 168.8961,
+    "altitudeBase": 1250,
+    "altitudeSummit": 2088,
+    "pistesKm": 50,
+    "lifts": 4,
+    "seasonStart": "Jun 27",
+    "seasonEnd": "Sep 30",
+    "snowScore": 84,
+    "vibes": [
+      "southern-hemisphere",
+      "freeride",
+      "expert",
+      "panoramic",
+      "isolated"
+    ],
+    "pisteCounts": {
+      "green": 7,
+      "blue": 18,
+      "red": 18,
+      "black": 17
+    },
+    "intro": {
+      "en": "Treble Cone hangs above Lake Wanaka with the biggest vertical in the Queenstown Lakes, a quiet, expert-leaning mountain where the groomers run long and the off-piste keeps going long after they end. From the saddle you look straight across at Mount Aspiring, and the lift queues are a fraction of those across the lake.",
+      "fr": "Treble Cone surplombe le lac Wanaka avec le plus grand dénivelé du district de Queenstown Lakes, une montagne tranquille à dominante expert où les pistes damées s'étirent longtemps et le hors-piste se prolonge bien après. Du col, le regard porte droit sur le mont Aspiring, et les files d'attente ne sont qu'une fraction de celles d'en face du lac.",
+      "es": "Treble Cone se asoma sobre el lago Wanaka con el mayor desnivel del distrito de Queenstown Lakes, una montaña tranquila orientada al experto donde las pistas pisadas se estiran largas y el fuera de pista sigue mucho después. Desde el collado se mira de frente al monte Aspiring y las colas son una fracción de las del otro lado del lago.",
+      "pt": "Treble Cone debruça-se sobre o lago Wanaka com o maior desnível do distrito de Queenstown Lakes, uma montanha tranquila e vincadamente para peritos, onde as pistas batidas se prolongam e o fora de pista continua muito depois. Do colo, vê-se de frente o monte Aspiring e as filas são uma fracção das do outro lado do lago.",
+      "it": "Treble Cone si affaccia sul lago Wanaka con il maggior dislivello del distretto di Queenstown Lakes, una montagna tranquilla a vocazione esperta dove le piste battute corrono lunghe e il fuori pista continua ben oltre. Dal colle si guarda dritto al monte Aspiring e le code sono una frazione di quelle dall'altra parte del lago."
+    },
+    "longDescription": {
+      "en": "Treble Cone, sister field to Cardrona, is the connoisseur's choice above Wanaka. The mountain rises to 2088 m with a 700 m vertical drop, the largest in the Queenstown Lakes region, and the groomed pistes through Home Basin are among the longest in the South Island. The real story is what happens off the trails. Saddle Basin opens out into a vast, sustained off-piste bowl with natural lines for advanced riders, and the Motatapu side delivers serious ridge skiing for those who can read terrain. Treble Cone receives fewer visitors than Coronet and The Remarkables, so even on a holiday weekend the upper mountain feels uncrowded. Wanaka, 35 minutes down the lake road, is the base of choice: lakeside cafes, a strong climbing and trail-running scene in summer, and a quieter, less party-driven mood than Queenstown. The Cardrona Group ticket links Treble Cone with Cardrona, an ideal combination for mixed-ability groups who want both wide cruising and serious off-piste in one trip.",
+      "fr": "Treble Cone, station sœur de Cardrona, est le choix des connaisseurs au-dessus de Wanaka. Le sommet culmine à 2088 m pour 700 m de dénivelé, le plus important du district de Queenstown Lakes, et les pistes damées qui traversent Home Basin comptent parmi les plus longues de l'île du Sud. L'intérêt majeur est cependant hors trace. Saddle Basin s'ouvre sur un vaste cirque soutenu en hors-piste, avec des lignes naturelles pour skieurs avancés, et le versant Motatapu offre du ski d'arête sérieux pour qui sait lire le terrain. Treble Cone reçoit moins de visiteurs que Coronet ou The Remarkables, si bien que même un week-end férié, le haut de la montagne reste peu fréquenté. Wanaka, 35 minutes plus bas par la route du lac, est le camp de base naturel : cafés en bord d'eau, scène escalade et trail estivale solide, ambiance plus calme et moins festive qu'à Queenstown. Le forfait Cardrona Group relie Treble Cone à Cardrona, combinaison idéale pour des groupes mixtes recherchant à la fois grand cruising et vrai hors-piste sur un même séjour.",
+      "es": "Treble Cone, estación hermana de Cardrona, es la elección de los conocedores por encima de Wanaka. La montaña sube hasta 2088 m con 700 m de desnivel, el mayor del distrito de Queenstown Lakes, y las pistas pisadas de Home Basin figuran entre las más largas de la isla Sur. El verdadero atractivo está fuera de pista. Saddle Basin abre un vasto circo continuo de off-piste con líneas naturales para riders avanzados, y la cara Motatapu ofrece esquí de cresta serio para quien sabe leer el terreno. Treble Cone recibe menos visitantes que Coronet o The Remarkables, así que incluso en festivo la parte alta sigue despejada. Wanaka, 35 minutos abajo por la carretera del lago, es el campamento base lógico: cafés a la orilla, escena de escalada y trail veraniega potente, ambiente más tranquilo y menos fiestero que Queenstown. El forfait Cardrona Group enlaza Treble Cone con Cardrona, combinación ideal para grupos mixtos que buscan a la vez gran cruising y off-piste real en el mismo viaje.",
+      "pt": "Treble Cone, estância irmã de Cardrona, é a escolha dos conhecedores acima de Wanaka. A montanha chega aos 2088 m com 700 m de desnível, o maior do distrito de Queenstown Lakes, e as pistas batidas de Home Basin estão entre as mais longas da ilha Sul. O verdadeiro filão fica fora das pistas. Saddle Basin abre um vasto circo de fora de pista contínuo, com linhas naturais para esquiadores avançados, e a vertente Motatapu serve esqui de crista a sério para quem sabe ler o terreno. Treble Cone recebe menos visitantes do que Coronet ou The Remarkables, pelo que mesmo num fim-de-semana feriado a parte alta da montanha continua desafogada. Wanaka, 35 minutos abaixo pela estrada do lago, é o campo-base natural: cafés à beira de água, forte cena de escalada e trail no Verão, ambiente mais calmo e menos festivo do que Queenstown. O passe Cardrona Group liga Treble Cone a Cardrona, combinação ideal para grupos mistos que queiram, na mesma viagem, grande cruising e fora de pista a sério.",
+      "it": "Treble Cone, stazione sorella di Cardrona, è la scelta dei conoscitori sopra Wanaka. La montagna sale fino a 2088 m con 700 m di dislivello, il maggiore del distretto di Queenstown Lakes, e le piste battute di Home Basin sono fra le più lunghe dell'isola Sud. Il vero motivo per esserci sta fuori pista. Saddle Basin apre un ampio circo di fuori pista continuo, con linee naturali per rider avanzati, e il versante Motatapu offre seria sciata di cresta a chi sa leggere il terreno. Treble Cone riceve meno visitatori di Coronet e The Remarkables, così anche in un fine settimana di festa la parte alta resta poco affollata. Wanaka, 35 minuti più in basso lungo la strada del lago, è il campo base naturale: caffè a riva, forte scena di arrampicata e trail in estate, atmosfera più calma e meno festaiola di Queenstown. Lo skipass Cardrona Group collega Treble Cone a Cardrona, combinazione ideale per gruppi misti che cercano nello stesso viaggio sia grande cruising sia fuori pista vero."
+    },
+    "skiInSkiOutNote": {
+      "en": "There is no on-mountain accommodation at Treble Cone, only a base lodge for day use. The access road is steep, gravel in places, and closes at night. You stay in Wanaka and drive up each morning, roughly 35 to 45 minutes depending on conditions.",
+      "fr": "Il n'existe aucun hébergement en altitude à Treble Cone, seulement un chalet de base pour la journée. La piste d'accès est raide, partiellement en gravier, et ferme la nuit. On loge à Wanaka et on monte chaque matin, entre 35 et 45 minutes selon les conditions.",
+      "es": "No hay alojamiento en cota en Treble Cone, solo un edificio base para uso diurno. La pista de acceso es empinada, en parte en grava, y cierra de noche. Te alojas en Wanaka y subes cada mañana, entre 35 y 45 minutos según las condiciones.",
+      "pt": "Não há alojamento em altitude em Treble Cone, apenas um edifício-base para utilização diurna. A estrada de acesso é íngreme, em parte de gravilha, e fecha à noite. Fica-se em Wanaka e sobe-se cada manhã, entre 35 a 45 minutos consoante as condições.",
+      "it": "Non c'è alloggio in quota a Treble Cone, solo un edificio di base per uso giornaliero. La strada d'accesso è ripida, in parte in ghiaia, e chiude di notte. Si alloggia a Wanaka e si sale ogni mattina, fra 35 e 45 minuti a seconda delle condizioni."
+    }
+  },
+  {
+    "slug": "coronet-peak",
+    "name": "Coronet Peak",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "flag": "🇳🇿",
+    "region": "Southern Alps",
+    "lat": -44.9264,
+    "lng": 168.7361,
+    "altitudeBase": 1187,
+    "altitudeSummit": 1649,
+    "pistesKm": 28,
+    "lifts": 7,
+    "seasonStart": "Jun 13",
+    "seasonEnd": "Oct 12",
+    "snowScore": 75,
+    "vibes": [
+      "southern-hemisphere",
+      "party",
+      "city-access",
+      "night-ski",
+      "panoramic"
+    ],
+    "pisteCounts": {
+      "green": 8,
+      "blue": 12,
+      "red": 8,
+      "black": 6
+    },
+    "intro": {
+      "en": "Coronet Peak is the resort you ski straight after landing in Queenstown. Twenty minutes up a sealed and gritted road, the carpark opens onto Lake Wakatipu and The Remarkables across the water, and on Wednesday to Saturday nights the floodlights come on and the runs stay open until 9 pm.",
+      "fr": "Coronet Peak est la station que l'on skie au lendemain de l'atterrissage à Queenstown. À 20 minutes par une route goudronnée, le parking s'ouvre sur le lac Wakatipu et The Remarkables en face, et du mercredi au samedi soir, les projecteurs s'allument et les pistes rouvrent jusqu'à 21 h.",
+      "es": "Coronet Peak es la estación que se esquía al día siguiente de aterrizar en Queenstown. A 20 minutos por carretera asfaltada, el aparcamiento se abre sobre el lago Wakatipu y The Remarkables enfrente, y de miércoles a sábado por la noche los focos se encienden y las pistas reabren hasta las 21 h.",
+      "pt": "Coronet Peak é a estância que se esquia logo após aterrar em Queenstown. A 20 minutos por estrada alcatroada e tratada com gravilha, o estacionamento abre-se sobre o lago Wakatipu e as cristas de The Remarkables em frente, e de quarta a sábado à noite os focos acendem-se e as pistas mantêm-se abertas até às 21 h.",
+      "it": "Coronet Peak è la stazione che si scia il giorno dopo essere atterrati a Queenstown. A 20 minuti su strada asfaltata e salata, il parcheggio si apre sul lago Wakatipu e sulle creste di The Remarkables di fronte, e da mercoledì a sabato sera i fari si accendono e le piste restano aperte fino alle 21."
+    },
+    "longDescription": {
+      "en": "Coronet Peak is the closest commercial field to Queenstown and the most urban-feeling resort in New Zealand. The drive is 20 minutes on a sealed, gritted access road, so you can stay in town, ski half a day and be back at the lakefront for lunch. The terrain is wide, mostly intermediate and built for speed, with broad rolling faces under the Coronet Express and M1 Express that hold an edge thanks to a heavy snowmaking spine. The standout feature is night skiing, Wednesday to Saturday under floodlights, which suits travellers who arrive late or want to stretch a short trip. Queenstown itself does the rest of the work: bars, restaurants, hot pools, jet boats and a serious apres scene push Coronet into a party-leaning mood. Coronet Peak sits under the NZSki umbrella with The Remarkables and Mt Hutt, so a single lift product covers all three. For pure terrain, TC and Cardrona run deeper, but for the most efficient ski-and-stay base in the country, Queenstown plus Coronet is hard to beat.",
+      "fr": "Coronet Peak est la station commerciale la plus proche de Queenstown et la plus urbaine de Nouvelle-Zélande. La route, goudronnée et salée, se parcourt en 20 minutes, ce qui permet de loger en ville, de skier une demi-journée et de revenir déjeuner au bord du lac. Le terrain est large, à dominante intermédiaire et taillé pour la vitesse, avec de grandes faces vallonnées sous les Coronet Express et M1 Express qui tiennent l'arête grâce à un solide réseau d'enneigeurs. La signature, c'est le ski nocturne du mercredi au samedi sous projecteurs, idéal pour qui atterrit tard ou veut allonger un court séjour. Queenstown se charge du reste : bars, restaurants, bains chauds, jet boats et une vraie scène apres tirent Coronet vers une ambiance festive. La station est gérée par NZSki avec The Remarkables et Mt Hutt, et un seul forfait couvre les trois. Pour le pur terrain, TC et Cardrona vont plus loin, mais pour la base ski-séjour la plus efficace du pays, Queenstown plus Coronet est difficile à battre.",
+      "es": "Coronet Peak es la estación comercial más cercana a Queenstown y la más urbana de Nueva Zelanda. La carretera, asfaltada y salada, se hace en 20 minutos, así que puedes alojarte en la ciudad, esquiar media jornada y volver a comer al borde del lago. El terreno es amplio, mayoritariamente intermedio y pensado para la velocidad, con grandes laderas onduladas bajo los telesillas Coronet Express y M1 Express que mantienen el canto gracias a una potente red de cañones. La seña de identidad es el esquí nocturno de miércoles a sábado bajo focos, ideal para quien llega tarde o quiere alargar una escapada corta. Queenstown se ocupa del resto: bares, restaurantes, baños termales, jet boats y una escena après de verdad llevan a Coronet a un ambiente festivo. La estación pertenece al grupo NZSki con The Remarkables y Mt Hutt, y un único forfait cubre los tres. Para terreno puro, TC y Cardrona ofrecen más, pero como base esquí-estancia más eficiente del país, Queenstown más Coronet es difícil de batir.",
+      "pt": "Coronet Peak é a estância comercial mais próxima de Queenstown e a mais urbana da Nova Zelândia. A estrada, alcatroada e tratada, faz-se em 20 minutos, pelo que se pode dormir na vila, esquiar meio dia e voltar a almoçar à beira do lago. O terreno é amplo, sobretudo intermédio e desenhado para a velocidade, com grandes faces onduladas sob as telecadeiras Coronet Express e M1 Express, que mantêm o canto graças a uma robusta rede de canhões de neve. A assinatura é o esqui nocturno, de quarta a sábado, sob focos, ideal para quem chega tarde ou quer esticar uma viagem curta. Queenstown trata do resto: bares, restaurantes, banhos termais, jet boats e uma cena après a sério puxam Coronet para um ambiente festivo. A estância integra a NZSki, com The Remarkables e Mt Hutt, e um único passe cobre as três. Para terreno puro, TC e Cardrona oferecem mais, mas como base esqui-estadia mais eficiente do país, Queenstown mais Coronet é difícil de bater.",
+      "it": "Coronet Peak è la stazione commerciale più vicina a Queenstown e la più urbana della Nuova Zelanda. La strada, asfaltata e salata, si percorre in 20 minuti, così si può alloggiare in città, sciare mezza giornata e tornare a pranzare sulla riva del lago. Il terreno è ampio, prevalentemente intermedio e pensato per la velocità, con grandi pareti ondulate sotto le seggiovie Coronet Express e M1 Express, che reggono la lamina grazie a una solida dorsale di innevamento artificiale. La firma è lo sci notturno, dal mercoledì al sabato sotto i fari, ideale per chi atterra tardi o vuole allungare un viaggio breve. Queenstown si occupa del resto: bar, ristoranti, vasche calde, jet boat e una vera scena d'apres spingono Coronet verso un'atmosfera festaiola. La stazione fa parte del gruppo NZSki con The Remarkables e Mt Hutt, e un unico skipass copre tutte e tre. Per il terreno puro, TC e Cardrona offrono di più, ma come base sci-soggiorno più efficiente del Paese, Queenstown più Coronet è difficile da battere."
+    },
+    "skiInSkiOutNote": {
+      "en": "There is no slopeside lodging at Coronet Peak, only a day lodge at the base. The access road closes overnight outside the night-ski sessions. You stay in Queenstown, 20 minutes downhill, and benefit from frequent ski-bus shuttles in winter.",
+      "fr": "Il n'y a pas d'hébergement sur les pistes à Coronet Peak, seulement un chalet de base à la journée. La route d'accès ferme la nuit en dehors des sessions de ski nocturne. On loge à Queenstown, à 20 minutes plus bas, avec un service régulier de navettes ski-bus en hiver.",
+      "es": "No hay alojamiento a pie de pista en Coronet Peak, solo un edificio base de día. La carretera de acceso cierra de noche fuera de las sesiones de esquí nocturno. Te alojas en Queenstown, a 20 minutos abajo, con servicio regular de ski-bus en invierno.",
+      "pt": "Não há alojamento à beira da pista em Coronet Peak, apenas um edifício-base diurno. A estrada de acesso fecha à noite fora das sessões de esqui nocturno. Fica-se em Queenstown, a 20 minutos abaixo, com serviço regular de ski-bus no Inverno.",
+      "it": "Non c'è alloggio ai bordi delle piste a Coronet Peak, solo un edificio di base giornaliero. La strada d'accesso chiude di notte al di fuori delle sessioni di sci notturno. Si alloggia a Queenstown, a 20 minuti più in basso, con frequenti navette ski-bus in inverno."
+    }
+  },
+  {
+    "slug": "the-remarkables",
+    "name": "The Remarkables",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "flag": "🇳🇿",
+    "region": "Southern Alps",
+    "lat": -45.0608,
+    "lng": 168.8181,
+    "altitudeBase": 1610,
+    "altitudeSummit": 1957,
+    "pistesKm": 30,
+    "lifts": 7,
+    "seasonStart": "Jun 21",
+    "seasonEnd": "Oct 12",
+    "snowScore": 80,
+    "vibes": [
+      "southern-hemisphere",
+      "freestyle",
+      "panoramic",
+      "family",
+      "iconic"
+    ],
+    "pisteCounts": {
+      "green": 8,
+      "blue": 16,
+      "red": 10,
+      "black": 8
+    },
+    "intro": {
+      "en": "The Remarkables sit on the far side of Lake Wakatipu, a wall of jagged peaks visible from every Queenstown waterfront cafe. The lift system climbs into a high, cold bowl ringed by Single Cone, with one of the best freestyle parks in the Southern Hemisphere and family terrain steps from the base.",
+      "fr": "The Remarkables se dressent de l'autre côté du lac Wakatipu, un mur de cimes ciselées visible depuis chaque café du front de mer de Queenstown. Le réseau de remontées grimpe jusqu'à un cirque haut et froid, dominé par Single Cone, avec l'un des meilleurs snowparks de l'hémisphère sud et un terrain famille à deux pas du front de neige.",
+      "es": "The Remarkables se levantan al otro lado del lago Wakatipu, un muro de picos dentados visible desde cualquier café del paseo de Queenstown. Los remontes suben hasta un circo alto y frío coronado por Single Cone, con uno de los mejores snowparks del hemisferio sur y terreno familiar a pocos pasos de la base.",
+      "pt": "The Remarkables erguem-se do lado oposto do lago Wakatipu, uma muralha de cumes recortados visível de qualquer café da marginal de Queenstown. Os teleféricos sobem até um circo alto e frio dominado pelo Single Cone, com um dos melhores snowparks do hemisfério sul e terreno para famílias a poucos passos da base.",
+      "it": "The Remarkables si ergono dall'altra parte del lago Wakatipu, una muraglia di cime frastagliate visibile da qualunque caffè del lungolago di Queenstown. Gli impianti salgono in un'alta conca fredda dominata dal Single Cone, con uno dei migliori snowpark dell'emisfero australe e terreno per famiglie a due passi dalla base."
+    },
+    "longDescription": {
+      "en": "The Remarkables, named for the sawtooth ridge that rises straight from Lake Wakatipu, sit 40 minutes from Queenstown via the south-shore road and a switchback climb. The mountain centres on a wide, north-facing bowl above 1610 m, with the Sugar Bowl basin opening up shaded, snow-holding terrain that delivers some of the most reliable powder skiing of the NZSki group. The freestyle parks at Burton Stash and the Park Lane progression are rated among the best in the Southern Hemisphere, with a coaching culture that draws Olympic and World Cup riders in winter. Beginners and families have their own protected sector at the base with the Sundance carpets and gentle Shadow Basin runs, so a single trip can comfortably cover first turns, intermediate cruising and serious freestyle. Most visitors base in Queenstown, with its food, lake-edge bars and easy summer crossover. The NZSki triple-mountain pass also covers Coronet Peak and Mt Hutt, which makes the Queenstown winter holiday genuinely multi-mountain without changing hotels.",
+      "fr": "The Remarkables, baptisé d'après l'arête en dents de scie qui jaillit du lac Wakatipu, se trouvent à 40 minutes de Queenstown, par la route de la rive sud et une série de lacets. La station s'organise autour d'un large cirque exposé nord au-dessus de 1610 m, avec Sugar Bowl qui s'ouvre sur un terrain à l'ombre, retenant bien la neige et offrant l'une des poudreuses les plus régulières du groupe NZSki. Les parks freestyle de Burton Stash et la progression Park Lane sont classés parmi les meilleurs de l'hémisphère sud, portés par une culture de coaching qui attire en hiver des riders de Coupe du Monde et olympiques. Débutants et familles disposent de leur secteur protégé au front de neige, avec les tapis Sundance et les pistes douces de Shadow Basin, si bien qu'un seul séjour peut couvrir confortablement les premières courbes, le cruising intermédiaire et le freestyle sérieux. La plupart des visiteurs logent à Queenstown, avec son offre gastronomique, ses bars en bord de lac et son enchaînement facile vers l'été. Le forfait NZSki Tri-Mountain couvre aussi Coronet Peak et Mt Hutt, ce qui rend les vacances d'hiver à Queenstown réellement multi-stations sans changer d'hôtel.",
+      "es": "The Remarkables, bautizado por la cresta en dientes de sierra que asoma desde el lago Wakatipu, está a 40 minutos de Queenstown por la carretera de la orilla sur y una subida en zigzag. La estación gira en torno a un amplio circo orientado al norte por encima de 1610 m, con Sugar Bowl abriéndose sobre un terreno a la sombra que retiene bien la nieve y ofrece una de las polvos más fiables del grupo NZSki. Los parques freestyle de Burton Stash y la progresión Park Lane están entre los mejores del hemisferio sur, con una cultura de coaching que atrae en invierno a riders de Copa del Mundo y olímpicos. Principiantes y familias disponen de su sector protegido en la base, con las cintas Sundance y las suaves pistas de Shadow Basin, por lo que un solo viaje cubre cómodamente primeras curvas, cruising intermedio y freestyle serio. La mayoría se aloja en Queenstown, con su oferta gastronómica, bares a orilla de lago y fácil paso al verano. El forfait NZSki Tri-Mountain también incluye Coronet Peak y Mt Hutt, lo que convierte las vacaciones invernales en Queenstown en un viaje realmente multiestación sin cambiar de hotel.",
+      "pt": "The Remarkables, baptizada pela crista em dente-de-serra que se ergue do lago Wakatipu, fica a 40 minutos de Queenstown pela estrada da margem sul e uma subida em ziguezague. A estância organiza-se em torno de um amplo circo voltado a norte acima dos 1610 m, com o Sugar Bowl a abrir-se sobre terreno à sombra que segura bem a neve e oferece um dos pós mais fiáveis do grupo NZSki. Os parques freestyle do Burton Stash e a progressão Park Lane estão entre os melhores do hemisfério sul, com uma cultura de treino que no Inverno atrai atletas de Taça do Mundo e olímpicos. Principiantes e famílias têm o seu sector protegido na base, com as esteiras Sundance e as suaves pistas do Shadow Basin, pelo que uma única viagem cobre confortavelmente primeiras curvas, cruising intermédio e freestyle a sério. A maioria fica em Queenstown, com a sua oferta gastronómica, bares à beira de água e fácil ligação ao Verão. O passe NZSki Tri-Mountain abrange também Coronet Peak e Mt Hutt, tornando as férias de Inverno em Queenstown verdadeiramente multi-estância sem mudar de hotel.",
+      "it": "The Remarkables, battezzata per la cresta a denti di sega che si alza dal lago Wakatipu, dista 40 minuti da Queenstown lungo la strada della sponda sud e una salita a tornanti. La stazione ruota attorno a un ampio circo esposto a nord oltre i 1610 m, con il Sugar Bowl che si apre su terreno in ombra capace di trattenere la neve, offrendo una delle polveri più affidabili del gruppo NZSki. Gli snowpark del Burton Stash e la progressione Park Lane sono classificati fra i migliori dell'emisfero australe, con una cultura di coaching che in inverno attira rider di Coppa del Mondo e olimpici. Principianti e famiglie hanno il loro settore protetto alla base, con i tappeti Sundance e le morbide piste dello Shadow Basin, così un solo viaggio copre comodamente prime curve, cruising intermedio e freestyle serio. La maggior parte degli ospiti alloggia a Queenstown, con la sua offerta gastronomica, i bar sul lago e l'agevole passaggio all'estate. Lo skipass NZSki Tri-Mountain copre anche Coronet Peak e Mt Hutt, rendendo la vacanza invernale a Queenstown davvero multi-stazione senza cambiare hotel."
+    },
+    "skiInSkiOutNote": {
+      "en": "No on-mountain hotels operate at The Remarkables, only a day base. The access road is gravel in places, gated overnight and chains can be required mid-winter. You stay in Queenstown and drive or take the ski-bus, around 40 minutes each way in normal conditions.",
+      "fr": "Aucun hébergement n'opère sur le domaine de The Remarkables, seulement une base à la journée. La route d'accès, partiellement en gravier, ferme la nuit et les chaînes peuvent être imposées. On loge à Queenstown et on monte en voiture ou en ski-bus, environ 40 minutes par trajet.",
+      "es": "No hay alojamiento en cota en The Remarkables, solo una base diurna. La pista de acceso es de grava por tramos, cierra de noche y a veces se exigen cadenas. Te alojas en Queenstown y subes en coche o en ski-bus, unos 40 minutos por trayecto.",
+      "pt": "Não há alojamento em altitude em The Remarkables, apenas uma base diurna. A estrada de acesso é em parte de gravilha, fecha à noite e em pleno Inverno podem ser exigidas correntes. Fica-se em Queenstown e sobe-se de carro ou de ski-bus, cerca de 40 minutos por percurso.",
+      "it": "Non c'è alloggio in quota a The Remarkables, solo una base giornaliera. La strada d'accesso è in parte in ghiaia, sbarrata di notte e in pieno inverno possono essere richieste le catene. Si alloggia a Queenstown e si sale in auto o con lo ski-bus, circa 40 minuti per tratta."
+    }
+  },
+  {
+    "slug": "mt-hutt",
+    "name": "Mt Hutt",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "flag": "🇳🇿",
+    "region": "Southern Alps",
+    "lat": -43.4744,
+    "lng": 171.5481,
+    "altitudeBase": 1430,
+    "altitudeSummit": 2086,
+    "pistesKm": 30,
+    "lifts": 4,
+    "seasonStart": "Jun 1",
+    "seasonEnd": "Oct 26",
+    "snowScore": 85,
+    "vibes": [
+      "southern-hemisphere",
+      "snow-sure",
+      "panoramic",
+      "freeride",
+      "authentic"
+    ],
+    "pisteCounts": {
+      "green": 8,
+      "blue": 16,
+      "red": 12,
+      "black": 9
+    },
+    "intro": {
+      "en": "Mt Hutt rises straight from the Canterbury plains 90 minutes west of Christchurch, an exposed Pacific peak that takes the brunt of the Tasman storms and turns it into the deepest, longest season of the New Zealand commercial fields. The road climbs Pudding Hill and the town of Methven sits quietly at the foot.",
+      "fr": "Mt Hutt s'élève droit depuis les plaines de Canterbury, à 90 minutes à l'ouest de Christchurch, un sommet exposé au Pacifique qui encaisse les tempêtes de la mer de Tasman et les convertit en la saison la plus profonde et la plus longue des stations commerciales néo-zélandaises. La route grimpe Pudding Hill et la ville de Methven s'étend tranquillement au pied.",
+      "es": "Mt Hutt se eleva directamente desde las llanuras de Canterbury, a 90 minutos al oeste de Christchurch, una cumbre expuesta al Pacífico que recibe de lleno las tormentas del mar de Tasmania y las convierte en la temporada más profunda y larga de las estaciones comerciales de Nueva Zelanda. La carretera asciende Pudding Hill y el pueblo de Methven se extiende tranquilo al pie.",
+      "pt": "Mt Hutt sobe a direito a partir das planícies de Canterbury, a 90 minutos a oeste de Christchurch, um cume exposto ao Pacífico que apanha em cheio as tempestades do mar da Tasmânia e as transforma na temporada mais profunda e mais longa das estâncias comerciais da Nova Zelândia. A estrada sobe Pudding Hill e a vila de Methven estende-se tranquila ao sopé.",
+      "it": "Mt Hutt si alza dritto dalle pianure di Canterbury, a 90 minuti a ovest di Christchurch, una vetta esposta al Pacifico che incassa in pieno le tempeste del mar di Tasman e le trasforma nella stagione più profonda e più lunga delle stazioni commerciali della Nuova Zelanda. La strada risale Pudding Hill e la cittadina di Methven si distende tranquilla ai piedi."
+    },
+    "longDescription": {
+      "en": "Mt Hutt is the South Island's go-to resort outside Queenstown, a single, exposed face on the east edge of the Southern Alps that opens at the start of June and stays open into late October. Vertical drop is 683 m, the highest of the New Zealand commercial fields, and the terrain breaks into three distinct sections: long groomed cruisers below the summit chair, a true intermediate playground around the Quad chair, and steep, windblown chutes off the Towers and South Face for advanced and expert skiers willing to chase storms. The mountain takes a full hit from Pacific weather, which translates to heavy snowfall and frequent white-outs, but also to powder that holds well thanks to the cold, exposed aspect. Methven, the gateway town at the foot of Pudding Hill, is a quiet farming and ski community with friendly pubs, simple lodgings and none of the Queenstown party scene. Mt Hutt sits within the NZSki group with Coronet Peak and The Remarkables, but its character is entirely different: less city, more weather, and longer days on skis.",
+      "fr": "Mt Hutt est la station de référence de l'île du Sud en dehors de Queenstown, une face exposée et unique sur le bord oriental des Alpes du Sud, ouverte dès début juin et jusqu'à fin octobre. Le dénivelé atteint 683 m, le plus important des stations commerciales du pays, et le terrain se divise en trois zones bien distinctes : longues pistes damées sous le télésiège sommital, vrai terrain de jeu intermédiaire autour du Quad, et couloirs raides battus par le vent sous les Towers et South Face pour skieurs avancés et experts prêts à chasser les tempêtes. La montagne reçoit de plein fouet le temps pacifique, ce qui se traduit par d'abondantes chutes de neige et de fréquents jours blancs, mais aussi par une poudreuse qui tient grâce à l'exposition froide. Methven, la petite ville d'accès au pied de Pudding Hill, est une communauté agricole et ski tranquille, avec ses pubs accueillants, ses hébergements simples et aucune des soirées de Queenstown. Mt Hutt appartient au groupe NZSki avec Coronet Peak et The Remarkables, mais son caractère est tout autre : moins de ville, plus de météo, et davantage d'heures sur les skis.",
+      "es": "Mt Hutt es la estación de referencia de la isla Sur fuera de Queenstown, una cara expuesta y única en el borde oriental de los Alpes del Sur que abre a principios de junio y sigue activa hasta finales de octubre. El desnivel alcanza 683 m, el mayor de las estaciones comerciales del país, y el terreno se reparte en tres zonas bien diferenciadas: largas pistas pisadas bajo el telesilla cumbre, auténtico campo de juego intermedio alrededor del Quad, y corredores empinados, batidos por el viento, bajo Towers y South Face para esquiadores avanzados y expertos dispuestos a perseguir las tormentas. La montaña recibe de lleno el tiempo pacífico, lo que se traduce en fuertes nevadas y frecuentes jornadas en blanco, pero también en una nieve polvo que se mantiene gracias a la orientación fría. Methven, el pueblo de acceso al pie de Pudding Hill, es una comunidad agrícola y de esquí tranquila, con pubs acogedores, alojamientos sencillos y nada de la fiesta de Queenstown. Mt Hutt pertenece al grupo NZSki junto a Coronet Peak y The Remarkables, pero su carácter es totalmente distinto: menos ciudad, más meteorología y más horas sobre los esquís.",
+      "pt": "Mt Hutt é a estância de referência da ilha Sul fora de Queenstown, uma única vertente exposta no bordo oriental dos Alpes do Sul, que abre no início de Junho e se mantém em actividade até final de Outubro. O desnível chega aos 683 m, o maior das estâncias comerciais do país, e o terreno divide-se em três zonas bem distintas: longas pistas batidas sob a telecadeira do cume, um verdadeiro recreio intermédio em torno do Quad e corredores íngremes e fustigados pelo vento sob os Towers e a South Face, para esquiadores avançados e peritos dispostos a perseguir as tempestades. A montanha recebe em cheio o tempo pacífico, o que se traduz em nevões abundantes e frequentes dias de branco total, mas também em neve em pó que aguenta bem graças à exposição fria. Methven, a vila de acesso ao sopé de Pudding Hill, é uma comunidade agrícola e de esqui calma, com pubs acolhedores, alojamento simples e nada do bulício de Queenstown. Mt Hutt integra o grupo NZSki com Coronet Peak e The Remarkables, mas o carácter é totalmente diferente: menos cidade, mais tempo, mais horas sobre os esquis.",
+      "it": "Mt Hutt è la stazione di riferimento dell'isola Sud fuori da Queenstown, un'unica parete esposta sul lato orientale delle Alpi Meridionali, aperta dall'inizio di giugno fino a fine ottobre. Il dislivello arriva a 683 m, il maggiore delle stazioni commerciali del Paese, e il terreno si divide in tre zone ben distinte: lunghe piste battute sotto la seggiovia di vetta, un vero campo da gioco intermedio intorno alla Quad, e canali ripidi e ventati sotto le Towers e la South Face per sciatori avanzati ed esperti pronti a inseguire le tempeste. La montagna prende in pieno il tempo pacifico, il che si traduce in forti nevicate e frequenti giornate di white-out, ma anche in una polvere che tiene bene grazie all'esposizione fredda. Methven, la cittadina d'accesso ai piedi di Pudding Hill, è una tranquilla comunità agricola e di sci, con pub accoglienti, alloggi semplici e niente della movida di Queenstown. Mt Hutt fa parte del gruppo NZSki con Coronet Peak e The Remarkables, ma il carattere è totalmente diverso: meno città, più meteo, più ore sugli sci."
+    },
+    "skiInSkiOutNote": {
+      "en": "No on-mountain stay is available at Mt Hutt and the access road closes overnight, often early in heavy weather. You base in Methven, 35 to 45 minutes downhill, and drive up daily. Conditions can require chains, and a 4WD or AWD vehicle is strongly advised mid-winter.",
+      "fr": "Aucun hébergement en altitude à Mt Hutt et la piste d'accès ferme la nuit, parfois tôt en cas de gros temps. On loge à Methven, 35 à 45 minutes plus bas. Les chaînes peuvent être obligatoires, et un 4x4 ou AWD est fortement conseillé en plein hiver.",
+      "es": "No hay alojamiento en cota en Mt Hutt y la pista de acceso cierra de noche, a veces pronto si hay temporal. Te alojas en Methven, a 35 o 45 minutos abajo, y subes cada día. Pueden exigirse cadenas y se recomienda con fuerza un 4x4 o un vehículo AWD en pleno invierno.",
+      "pt": "Não há alojamento em altitude em Mt Hutt e a estrada de acesso fecha à noite, por vezes cedo se houver mau tempo. Fica-se em Methven, a 35 a 45 minutos abaixo. Podem ser exigidas correntes e, em pleno Inverno, recomenda-se um 4x4 ou um AWD.",
+      "it": "Non c'è alloggio in quota a Mt Hutt e la strada d'accesso chiude di notte, a volte presto in caso di maltempo. Si alloggia a Methven, a 35-45 minuti più in basso. Possono servire le catene e in pieno inverno è caldamente consigliato un 4x4 o un AWD."
+    }
   }
 ]

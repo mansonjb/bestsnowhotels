@@ -216,6 +216,41 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Laurentides',
     it: 'Laurentides',
   },
+  'Taebaek Mountains': {
+    en: 'Taebaek Mountains',
+    fr: 'Monts Taebaek',
+    es: 'Montañas Taebaek',
+    pt: 'Montanhas Taebaek',
+    it: 'Monti Taebaek',
+  },
+  'Seoul Capital Area': {
+    en: 'Seoul Capital Area',
+    fr: 'Région métropolitaine de Séoul',
+    es: 'Área Metropolitana de Seúl',
+    pt: 'Área Metropolitana de Seul',
+    it: 'Area metropolitana di Seoul',
+  },
+  'Sobaek Mountains': {
+    en: 'Sobaek Mountains',
+    fr: 'Monts Sobaek',
+    es: 'Montañas Sobaek',
+    pt: 'Montanhas Sobaek',
+    it: 'Monti Sobaek',
+  },
+  'Australian Alps': {
+    en: 'Australian Alps',
+    fr: 'Alpes australiennes',
+    es: 'Alpes australianos',
+    pt: 'Alpes australianos',
+    it: 'Alpi australiane',
+  },
+  'Southern Alps': {
+    en: 'Southern Alps',
+    fr: 'Alpes du Sud',
+    es: 'Alpes del Sur',
+    pt: 'Alpes do Sul',
+    it: 'Alpi del Sud',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {

@@ -57,6 +57,9 @@ const isJapan = (d: Destination) => d.countryCode === 'JP'
 const isUSA = (d: Destination) => d.countryCode === 'US'
 const isAfrica = (d: Destination) => AFRICA_COUNTRY_CODES.has(d.countryCode)
 const isCanada = (d: Destination) => d.countryCode === 'CA'
+const isSouthKorea = (d: Destination) => d.countryCode === 'KR'
+const isAustralia = (d: Destination) => d.countryCode === 'AU'
+const isNewZealand = (d: Destination) => d.countryCode === 'NZ'
 
 /** US powder-focused subset (snow + freeride + tree-skiing pedigree). */
 const USA_POWDER_RESORTS = new Set([
@@ -734,6 +737,90 @@ export const BEST_FOR_LISTS: BestForList[] = [
     filter: (d) => isCanada(d),
     sort: (d) => d.snowScore,
     limit: 12,
+  },
+  {
+    slug: 'south-korea',
+    heroSlug: 'yongpyong',
+    name: {
+      en: 'Best ski resorts in South Korea',
+      fr: 'Meilleures stations de ski en Corée du Sud',
+      es: 'Mejores estaciones de esquí de Corea del Sur',
+      pt: 'Melhores estâncias de esqui da Coreia do Sul',
+      it: 'Migliori località sciistiche della Corea del Sud',
+    },
+    intro: {
+      en: 'The PyeongChang 2018 Olympic legacy plus the Seoul day-trip resorts and the southern outlier: ten ski destinations that frame the Korean winter on one ranked list.',
+      fr: "L'héritage des Jeux olympiques de PyeongChang 2018, les stations de week-end de Séoul et l'outsider du Sud : dix destinations qui résument l'hiver coréen en une liste classée.",
+      es: 'El legado olímpico de PyeongChang 2018 más las estaciones de fin de semana cerca de Seúl y el atípico del sur: diez destinos que resumen el invierno coreano en una lista clasificada.',
+      pt: 'O legado olímpico de PyeongChang 2018 mais as estâncias de fim de semana perto de Seul e o atípico do sul: dez destinos que resumem o inverno coreano numa lista ordenada.',
+      it: 'Il lascito olimpico di PyeongChang 2018 più le località da weekend vicino a Seoul e l\'atipica del Sud: dieci destinazioni che riassumono l\'inverno coreano in una lista ordinata.',
+    },
+    description: {
+      en: 'South Korea\'s ski map is dominated by Gangwon Province, where PyeongChang hosted the 2018 Olympics. Yongpyong ran the alpine slalom + GS, Phoenix Pyeongchang the freestyle + snowboard, Alpensia the jumping + nordic + sliding. High1 in Jeongseon is the family-friendly mass-market giant. Closer to Seoul, Vivaldi Park, Konjiam and Oak Valley pack day-trippers in for night skiing under stadium lights, while Welli Hilli Park sits in between. Further south, Muju Deogyusan hides Korea\'s highest skiable peak at 1614 m, and Eden Valley above Busan rounds the list as the most southerly ski resort in the country. Heavy snowmaking, lifts into the small hours, KTX trains to the door.',
+      fr: "La carte du ski sud-coréen est dominée par le Gangwon, où PyeongChang a accueilli les Jeux 2018. Yongpyong a accueilli le slalom + GS, Phoenix Pyeongchang le freestyle + le snowboard, Alpensia le saut + nordique + sliding. High1 à Jeongseon est le géant familial. Plus près de Séoul, Vivaldi Park, Konjiam et Oak Valley remplissent leurs pistes d'excursionnistes pour le ski de nuit sous projecteurs de stade, Welli Hilli Park se trouve entre les deux. Plus au sud, Muju Deogyusan cache le plus haut sommet skiable de Corée à 1614 m, et Eden Valley au-dessus de Busan ferme la liste, plus méridional du pays. Forte neige de culture, remontées tard, KTX jusqu'à la porte.",
+      es: "El mapa del esquí surcoreano está dominado por la provincia de Gangwon, donde PyeongChang acogió los Juegos 2018. Yongpyong albergó el slalom + GS, Phoenix Pyeongchang el freestyle + snowboard, Alpensia los saltos + nórdico + sliding. High1 en Jeongseon es el gigante familiar. Más cerca de Seúl, Vivaldi Park, Konjiam y Oak Valley llenan sus pistas de visitantes de día para esquí nocturno bajo focos de estadio, Welli Hilli Park queda en medio. Más al sur, Muju Deogyusan esconde la cima esquiable más alta de Corea a 1614 m, y Eden Valley sobre Busan cierra la lista como la más austral del país. Producción de nieve intensa, remontes hasta tarde, KTX a la puerta.",
+      pt: "O mapa do esqui sul-coreano é dominado pela província de Gangwon, onde PyeongChang acolheu os Jogos 2018. Yongpyong recebeu o slalom + GS, Phoenix Pyeongchang o freestyle + snowboard, Alpensia os saltos + nórdico + sliding. O High1 em Jeongseon é o gigante familiar. Mais perto de Seul, Vivaldi Park, Konjiam e Oak Valley enchem-se de visitantes de dia para esqui noturno sob holofotes de estádio, Welli Hilli Park fica no meio. Mais a sul, Muju Deogyusan esconde o pico esquiável mais alto da Coreia a 1614 m, e Eden Valley sobre Busan fecha a lista como a mais a sul do país. Forte produção de neve artificial, teleféricos até tarde, KTX à porta.",
+      it: "La mappa dello sci sudcoreano è dominata dalla provincia di Gangwon, dove PyeongChang ha ospitato i Giochi 2018. Yongpyong ha ospitato lo slalom + GS, Phoenix Pyeongchang il freestyle + lo snowboard, Alpensia i salti + nordico + sliding. High1 a Jeongseon è il gigante familiare. Più vicino a Seoul, Vivaldi Park, Konjiam e Oak Valley si riempiono di visitatori giornalieri per lo sci notturno sotto luci da stadio, Welli Hilli Park sta nel mezzo. Più a sud, Muju Deogyusan nasconde la cima sciabile più alta di Corea a 1614 m, ed Eden Valley sopra Busan chiude la lista come la più meridionale del paese. Forte innevamento artificiale, impianti fino a tardi, KTX alla porta.",
+    },
+    filter: (d) => isSouthKorea(d),
+    sort: (d) => d.snowScore,
+    limit: 12,
+  },
+  {
+    slug: 'australia',
+    heroSlug: 'thredbo',
+    name: {
+      en: 'Best ski resorts in Australia',
+      fr: 'Meilleures stations de ski en Australie',
+      es: 'Mejores estaciones de esquí de Australia',
+      pt: 'Melhores estâncias de esqui da Austrália',
+      it: 'Migliori località sciistiche in Australia',
+    },
+    intro: {
+      en: 'The Snowy Mountains and the Victorian Alps: five resorts that frame Australian skiing on one ranked list, all Southern Hemisphere winter Jun-Sep.',
+      fr: "Les Snowy Mountains et les Alpes victoriennes : cinq stations qui résument le ski australien en une liste classée, toutes en hiver de l'hémisphère sud (juin à septembre).",
+      es: 'Las Snowy Mountains y los Alpes victorianos: cinco estaciones que resumen el esquí australiano en una lista clasificada, todas en invierno del hemisferio sur (junio a septiembre).',
+      pt: 'As Snowy Mountains e os Alpes Victorianos: cinco estâncias que resumem o esqui australiano numa lista ordenada, todas no inverno do hemisfério sul (junho a setembro).',
+      it: "Le Snowy Mountains e le Alpi Victoriane: cinque località che riassumono lo sci australiano in una lista ordinata, tutte nell'inverno dell'emisfero sud (da giugno a settembre).",
+    },
+    description: {
+      en: 'Perisher in NSW runs the largest lift fleet in the Southern Hemisphere (47 lifts across 4 linked villages). Thredbo offers Australia\'s biggest vertical (672 m) under Mt Kosciuszko. The Victorian Alps add Falls Creek (car-free pedestrian village, strong nordic), Mt Hotham ("Powder Capital of Australia," ski-down-to-village layout) and Mt Buller (closest major to Melbourne, 80 km of pistes). Snow gum eucalyptus forests give every run an identity unlike anywhere in the Northern Hemisphere.',
+      fr: "Perisher (Nouvelle-Galles du Sud) aligne le plus grand parc de remontées de l'hémisphère sud (47 remontées sur 4 villages reliés). Thredbo offre le plus grand dénivelé d'Australie (672 m) sous le Mt Kosciuszko. Les Alpes victoriennes ajoutent Falls Creek (village piéton sans voitures, fort en nordique), Mt Hotham (« capitale de la poudreuse australienne », village sur la crête où on skie vers le bas) et Mt Buller (le plus proche de Melbourne, 80 km de pistes). Les forêts de snow gum (eucalyptus) donnent à chaque piste une identité unique.",
+      es: 'Perisher (Nueva Gales del Sur) alinea la mayor flota de remontes del hemisferio sur (47 remontes sobre 4 pueblos enlazados). Thredbo ofrece el mayor desnivel de Australia (672 m) bajo el Mt Kosciuszko. Los Alpes victorianos suman Falls Creek (pueblo peatonal sin coches, fuerte en nórdico), Mt Hotham ("capital de la nieve polvo australiana," pueblo en la cresta donde se esquía hacia abajo) y Mt Buller (el más cercano a Melbourne, 80 km de pistas). Los bosques de snow gum (eucaliptos) dan a cada pista una identidad única.',
+      pt: "Perisher (Nova Gales do Sul) alinha a maior frota de teleféricos do hemisfério sul (47 teleféricos sobre 4 vilas ligadas). Thredbo oferece o maior desnível da Austrália (672 m) sob o Mt Kosciuszko. Os Alpes Victorianos somam Falls Creek (vila pedonal sem carros, forte em nórdico), Mt Hotham (\"capital da neve em pó australiana,\" vila na crista onde se esquia para baixo) e Mt Buller (o mais próximo de Melbourne, 80 km de pistas). As florestas de snow gum (eucaliptos) dão a cada pista uma identidade única.",
+      it: "Perisher (Nuovo Galles del Sud) schiera la maggior flotta di impianti dell'emisfero sud (47 impianti su 4 villaggi collegati). Thredbo offre il maggior dislivello d'Australia (672 m) sotto il Mt Kosciuszko. Le Alpi Victoriane aggiungono Falls Creek (borgo pedonale senza auto, forte sul nordico), Mt Hotham (\"capitale della polvere australiana,\" borgo sulla cresta dove si scia verso il basso) e Mt Buller (il più vicino a Melbourne, 80 km di piste). I boschi di snow gum (eucalipti) danno a ogni pista un'identità unica.",
+    },
+    filter: (d) => isAustralia(d),
+    sort: (d) => d.snowScore,
+    limit: 10,
+  },
+  {
+    slug: 'new-zealand',
+    heroSlug: 'treble-cone',
+    name: {
+      en: 'Best ski resorts in New Zealand',
+      fr: 'Meilleures stations de ski en Nouvelle-Zélande',
+      es: 'Mejores estaciones de esquí de Nueva Zelanda',
+      pt: 'Melhores estâncias de esqui da Nova Zelândia',
+      it: 'Migliori località sciistiche in Nuova Zelanda',
+    },
+    intro: {
+      en: 'The Southern Alps of South Island: five resorts above Wanaka, Queenstown and Methven, Southern Hemisphere season Jun-Oct, no on-mountain lodging.',
+      fr: "Les Alpes du Sud de l'île du Sud : cinq stations au-dessus de Wanaka, Queenstown et Methven, hiver de l'hémisphère sud de juin à octobre, sans hébergement sur le domaine.",
+      es: 'Los Alpes del Sur de la Isla Sur: cinco estaciones sobre Wanaka, Queenstown y Methven, invierno del hemisferio sur de junio a octubre, sin alojamiento en montaña.',
+      pt: 'Os Alpes do Sul da Ilha do Sul: cinco estâncias acima de Wanaka, Queenstown e Methven, inverno do hemisfério sul de junho a outubro, sem alojamento na montanha.',
+      it: "Le Alpi del Sud dell'Isola del Sud: cinque località sopra Wanaka, Queenstown e Methven, inverno dell'emisfero sud da giugno a ottobre, niente alloggio in quota.",
+    },
+    description: {
+      en: 'Around Wanaka, Cardrona is the family-friendly freestyle classic and Treble Cone the expert freeride mecca. Around Queenstown, Coronet Peak runs night skiing under floodlights and The Remarkables name themselves for the jagged Single Cone above Lake Wakatipu. North on South Island, Mt Hutt above Methven runs the longest commercial season in NZ (Jun to late Oct). Almost no resort has ski-in/ski-out lodging: you sleep in the lakeside towns and drive up daily.',
+      fr: "Autour de Wanaka, Cardrona est le classique freestyle familial et Treble Cone le repère du freeride expert. Autour de Queenstown, Coronet Peak ouvre le ski de nuit sous projecteurs, et les Remarkables portent leur nom des pics dentelés du Single Cone au-dessus du lac Wakatipu. Plus au nord sur l'île du Sud, Mt Hutt au-dessus de Methven tient la saison commerciale la plus longue de Nouvelle-Zélande (juin à fin octobre). Quasiment aucune station n'offre de ski-in/ski-out : on dort dans les villes au bord du lac et on monte chaque jour.",
+      es: "Cerca de Wanaka, Cardrona es el clásico freestyle familiar y Treble Cone la meca del freeride experto. Cerca de Queenstown, Coronet Peak abre el esquí nocturno bajo focos, y los Remarkables toman su nombre de los picos dentados del Single Cone sobre el lago Wakatipu. Más al norte en la Isla Sur, Mt Hutt sobre Methven mantiene la temporada comercial más larga de Nueva Zelanda (de junio a finales de octubre). Casi ninguna estación ofrece ski-in/ski-out: se duerme en los pueblos junto al lago y se sube cada día.",
+      pt: "Perto de Wanaka, Cardrona é o clássico freestyle familiar e Treble Cone a meca do freeride para experts. Perto de Queenstown, Coronet Peak abre o esqui noturno sob holofotes, e os Remarkables ganham o nome dos picos serrilhados do Single Cone sobre o lago Wakatipu. Mais a norte na Ilha do Sul, Mt Hutt acima de Methven tem a época comercial mais longa da Nova Zelândia (de junho a finais de outubro). Quase nenhuma estância oferece ski-in/ski-out: dorme-se nas vilas à beira-lago e sobe-se todos os dias.",
+      it: "Intorno a Wanaka, Cardrona è il classico freestyle familiare e Treble Cone la mecca del freeride da esperti. Intorno a Queenstown, Coronet Peak apre lo sci notturno sotto i fari, e i Remarkables prendono il nome dalle vette frastagliate del Single Cone sopra il lago Wakatipu. Più a nord sull'Isola del Sud, Mt Hutt sopra Methven tiene la stagione commerciale più lunga della Nuova Zelanda (da giugno a fine ottobre). Quasi nessuna località offre ski-in/ski-out: si dorme nei paesi sul lago e si sale ogni giorno.",
+    },
+    filter: (d) => isNewZealand(d),
+    sort: (d) => d.snowScore,
+    limit: 10,
   },
 ]
 

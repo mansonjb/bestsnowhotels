@@ -84,6 +84,7 @@ const VIBES: Record<string, Record<Locale, string>> = {
   indoor: { en: 'indoor', fr: 'indoor', es: 'cubierto', pt: 'indoor', it: 'indoor' },
   'year-round': { en: 'year-round', fr: "toute l'année", es: 'todo el año', pt: 'todo o ano', it: 'tutto l\'anno' },
   unique: { en: 'unique', fr: 'unique', es: 'único', pt: 'único', it: 'unica' },
+  'night-ski': { en: 'night skiing', fr: 'ski nocturne', es: 'esquí nocturno', pt: 'esqui noturno', it: 'sci notturno' },
 }
 
 export function localizeVibe(slug: string, locale: Locale): string {
