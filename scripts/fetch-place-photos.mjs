@@ -427,6 +427,9 @@ const TARGETS = [
   { slug: 'coronet-peak',         query: 'Coronet Peak ski resort Queenstown New Zealand night skiing Lake Wakatipu view winter snow' },
   { slug: 'the-remarkables',      query: 'The Remarkables ski resort Queenstown New Zealand Sugar Bowl jagged peaks Lake Wakatipu winter snow' },
   { slug: 'mt-hutt',              query: 'Mt Hutt ski area Methven Canterbury New Zealand South Island Christchurch longest season winter snow' },
+  { slug: 'valle-nevado',         query: 'Valle Nevado ski resort Andes Chile Santiago Tres Valles highest base modern winter snow' },
+  { slug: 'portillo',             query: 'Portillo ski resort Chile Hotel Portillo yellow Laguna del Inca Andes World Championships winter snow' },
+  { slug: 'la-parva',             query: 'La Parva ski resort Andes Chile Tres Valles Santiago El Colorado Valle Nevado winter snow' },
 ]
 
 async function searchPhoto(query, apiKey) {

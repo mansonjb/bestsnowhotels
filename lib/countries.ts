@@ -229,6 +229,19 @@ export const COUNTRIES: Country[] = [
     },
   },
   {
+    slug: 'chile',
+    name: 'Chile',
+    countryCode: 'CL',
+    flag: '🇨🇱',
+    intro: {
+      en: "Chile runs the Southern Hemisphere's biggest commercial ski day from the Andes around Santiago. Valle Nevado in the Three Valleys at 3025 m is the highest base in the country, with Tres Valles interconnect to El Colorado and La Parva. Portillo, two hours north, has hosted only Alpine World Championships in the Southern Hemisphere (1966) and trains US + European national teams every August on the cliffs above Laguna del Inca. Southern Hemisphere season runs June to October. The Andes do the work; Santiago is the gateway 1 to 3 hours below.",
+      fr: "Le Chili abrite la plus grosse journée de ski commerciale de l'hémisphère sud, dans les Andes autour de Santiago. Valle Nevado, dans les Tres Valles à 3025 m, a la base la plus haute du pays, avec l'interconnexion vers El Colorado et La Parva. Portillo, deux heures plus au nord, a accueilli les seuls Championnats du monde alpins jamais organisés dans l'hémisphère sud (1966) et entraîne chaque août les équipes nationales américaines et européennes sur les falaises au-dessus de la Laguna del Inca. Saison de juin à octobre. Les Andes font le travail ; Santiago est la porte 1 à 3 heures plus bas.",
+      es: "Chile aloja el mayor día de esquí comercial del hemisferio sur, en los Andes alrededor de Santiago. Valle Nevado, en los Tres Valles a 3025 m, es la base más alta del país, con interconexión Tres Valles hacia El Colorado y La Parva. Portillo, dos horas más al norte, acogió el único Campeonato Mundial Alpino jamás celebrado en el hemisferio sur (1966) y entrena cada agosto a los equipos nacionales de EE. UU. y Europa sobre los acantilados de la Laguna del Inca. Temporada de junio a octubre. Los Andes ponen el trabajo; Santiago es la puerta a 1 a 3 horas abajo.",
+      pt: "O Chile aloja o maior dia de esqui comercial do hemisfério sul, nos Andes em torno de Santiago. Valle Nevado, nos Tres Valles a 3025 m, é a base mais alta do país, com interligação Tres Valles para El Colorado e La Parva. Portillo, duas horas mais a norte, acolheu o único Campeonato Mundial Alpino alguma vez realizado no hemisfério sul (1966) e treina todos os agostos as equipas nacionais dos EUA e da Europa sobre as falésias da Laguna del Inca. Época de junho a outubro. Os Andes fazem o trabalho; Santiago é a porta a 1 a 3 horas abaixo.",
+      it: "Il Cile ospita la più grande giornata di sci commerciale dell'emisfero sud, sulle Ande attorno a Santiago. Valle Nevado, nei Tres Valles a 3025 m, è la base più alta del paese, con il collegamento Tres Valles verso El Colorado e La Parva. Portillo, due ore più a nord, ha ospitato gli unici Mondiali di sci alpino mai disputati nell'emisfero sud (1966) e ad agosto allena ogni anno le squadre nazionali di Stati Uniti ed Europa sulle pareti sopra la Laguna del Inca. Stagione da giugno a ottobre. Le Ande fanno il lavoro; Santiago è la porta 1 a 3 ore più in basso.",
+    },
+  },
+  {
     slug: 'australia',
     name: 'Australia',
     countryCode: 'AU',

@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Snowy Mountains. 399 hand-picked ski destinations across 21 countries and 5 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia and New Zealand. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Andes. 402 hand-picked ski destinations across 22 countries and 6 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia, New Zealand and Chile. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -43,7 +43,7 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 
 A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
 
-- /weather: index of all 399 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather: index of all 402 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
@@ -92,6 +92,9 @@ South Korea (Taebaek Olympic cluster + Seoul day-trip + Southern Korea):
 Oceania (Australian Alps + New Zealand Southern Alps):
 - Best ski resorts in Australia
 - Best ski resorts in New Zealand
+
+South America (Chilean Andes):
+- Best ski resorts in Chile
 
 Index: https://www.bestsnowhotels.com/en/best
 
@@ -142,6 +145,7 @@ Index: https://www.bestsnowhotels.com/en/when
 - South Korea (10): Yongpyong, High1, Phoenix Pyeongchang, Alpensia, Vivaldi Park, Welli Hilli Park (Taebaek Mountains / Gangwon Province — PyeongChang 2018 Olympic cluster); Konjiam, Oak Valley (Seoul Capital Area); Muju Deogyusan, Eden Valley (Sobaek Mountains / Southern Korea)
 - Australia (5): Perisher, Thredbo (Snowy Mountains, NSW); Falls Creek, Mt Hotham, Mt Buller (Victorian Alps) — Southern Hemisphere season Jun-Sep, snow gum eucalyptus forests
 - New Zealand (5): Cardrona, Treble Cone (Wanaka); Coronet Peak, The Remarkables (Queenstown); Mt Hutt (Canterbury / Methven) — Southern Hemisphere season Jun-Oct, no on-mountain lodging, you commute from lakeside towns
+- Chile (3): Valle Nevado (Tres Valles, highest base in Chile at 3025 m), Portillo (1966 Alpine World Championships, Hotel Portillo on Laguna del Inca), La Parva (Tres Valles, residential club, Santiago day-trip) — Andes range, Southern Hemisphere season Jun-Oct
 
 ## Languages
 

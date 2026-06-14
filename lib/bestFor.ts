@@ -60,6 +60,7 @@ const isCanada = (d: Destination) => d.countryCode === 'CA'
 const isSouthKorea = (d: Destination) => d.countryCode === 'KR'
 const isAustralia = (d: Destination) => d.countryCode === 'AU'
 const isNewZealand = (d: Destination) => d.countryCode === 'NZ'
+const isChile = (d: Destination) => d.countryCode === 'CL'
 
 /** US powder-focused subset (snow + freeride + tree-skiing pedigree). */
 const USA_POWDER_RESORTS = new Set([
@@ -819,6 +820,34 @@ export const BEST_FOR_LISTS: BestForList[] = [
       it: "Intorno a Wanaka, Cardrona è il classico freestyle familiare e Treble Cone la mecca del freeride da esperti. Intorno a Queenstown, Coronet Peak apre lo sci notturno sotto i fari, e i Remarkables prendono il nome dalle vette frastagliate del Single Cone sopra il lago Wakatipu. Più a nord sull'Isola del Sud, Mt Hutt sopra Methven tiene la stagione commerciale più lunga della Nuova Zelanda (da giugno a fine ottobre). Quasi nessuna località offre ski-in/ski-out: si dorme nei paesi sul lago e si sale ogni giorno.",
     },
     filter: (d) => isNewZealand(d),
+    sort: (d) => d.snowScore,
+    limit: 10,
+  },
+  {
+    slug: 'chile',
+    heroSlug: 'portillo',
+    name: {
+      en: 'Best ski resorts in Chile',
+      fr: 'Meilleures stations de ski au Chili',
+      es: 'Mejores estaciones de esquí de Chile',
+      pt: 'Melhores estâncias de esqui do Chile',
+      it: 'Migliori località sciistiche in Cile',
+    },
+    intro: {
+      en: 'The Andes around Santiago: three classics that frame Chilean skiing — Portillo on Laguna del Inca, Valle Nevado and La Parva in the Tres Valles cluster, Southern Hemisphere Jun-Oct.',
+      fr: "Les Andes autour de Santiago : trois classiques qui résument le ski chilien, Portillo sur la Laguna del Inca, Valle Nevado et La Parva dans la grappe des Tres Valles, hiver austral de juin à octobre.",
+      es: 'Los Andes alrededor de Santiago: tres clásicos que resumen el esquí chileno, Portillo sobre la Laguna del Inca, Valle Nevado y La Parva en el grupo Tres Valles, invierno austral de junio a octubre.',
+      pt: 'Os Andes em torno de Santiago: três clássicos que resumem o esqui chileno, Portillo sobre a Laguna del Inca, Valle Nevado e La Parva no cluster dos Tres Valles, inverno austral de junho a outubro.',
+      it: "Le Ande attorno a Santiago: tre classici che riassumono lo sci cileno, Portillo sulla Laguna del Inca, Valle Nevado e La Parva nel gruppo dei Tres Valles, inverno australe da giugno a ottobre.",
+    },
+    description: {
+      en: "Chile's three Andean classics each frame a different facet of South American skiing. Portillo (2 hours north of Santiago, base 2880 m) hosted the only Alpine World Championships ever held in the Southern Hemisphere (1966) and remains the August training base for US, Canadian and European national teams, with the iconic yellow Hotel Portillo on Laguna del Inca. Valle Nevado (1 hour 30 east of Santiago, base 3025 m, highest in Chile) runs modern Compagnie des Alpes design with a Three Valleys interconnect to El Colorado and La Parva. La Parva (Tres Valles too) leans residential and quieter, with Las Lomas alpine bowls and the Falsa Parva freeride hike-to. Southern Hemisphere season runs June to October. The Andes do the work; Santiago is the gateway 1 to 3 hours below.",
+      fr: "Les trois classiques andins du Chili résument chacun une facette du ski sud-américain. Portillo (2 h au nord de Santiago, base 2880 m) a accueilli les seuls Championnats du monde alpins jamais organisés dans l'hémisphère sud (1966) et reste le camp d'entraînement d'août pour les équipes nationales américaines, canadiennes et européennes, avec l'emblématique Hotel Portillo jaune sur la Laguna del Inca. Valle Nevado (1 h 30 à l'est de Santiago, base 3025 m, la plus haute du Chili) propose un design moderne signé Compagnie des Alpes avec une interconnexion Tres Valles vers El Colorado et La Parva. La Parva (Tres Valles aussi) joue la carte résidentielle et plus calme, avec les bowls alpins de Las Lomas et le freeride hike-to de Falsa Parva. Saison de juin à octobre.",
+      es: "Los tres clásicos andinos de Chile marcan cada uno una faceta del esquí sudamericano. Portillo (2 h al norte de Santiago, base 2880 m) acogió los únicos Campeonatos del Mundo alpinos jamás celebrados en el hemisferio sur (1966) y sigue siendo el campamento de agosto de los equipos nacionales de EE. UU., Canadá y Europa, con el icónico Hotel Portillo amarillo sobre la Laguna del Inca. Valle Nevado (1 h 30 al este de Santiago, base 3025 m, la más alta de Chile) propone diseño moderno de la Compagnie des Alpes con interconexión Tres Valles hacia El Colorado y La Parva. La Parva (Tres Valles también) apuesta por lo residencial y tranquilo, con los bowls alpinos de Las Lomas y el freeride hike-to de Falsa Parva. Temporada de junio a octubre.",
+      pt: "Os três clássicos andinos do Chile retratam cada um uma faceta do esqui sul-americano. Portillo (2 h a norte de Santiago, base 2880 m) acolheu os únicos Campeonatos do Mundo alpinos jamais realizados no hemisfério sul (1966) e continua a ser o campo de agosto das equipas nacionais dos EUA, Canadá e Europa, com o icónico Hotel Portillo amarelo sobre a Laguna del Inca. Valle Nevado (1 h 30 a leste de Santiago, base 3025 m, a mais alta do Chile) propõe design moderno da Compagnie des Alpes com interligação Tres Valles para El Colorado e La Parva. La Parva (Tres Valles também) joga a carta residencial e mais calma, com os bowls alpinos de Las Lomas e o freeride hike-to de Falsa Parva. Época de junho a outubro.",
+      it: "I tre classici andini del Cile dipingono ciascuno una faccia dello sci sudamericano. Portillo (2 ore a nord di Santiago, base 2880 m) ha ospitato gli unici Mondiali di sci alpino mai disputati nell'emisfero sud (1966) e resta il campo di allenamento di agosto delle nazionali statunitense, canadese ed europea, con l'iconico Hotel Portillo giallo sulla Laguna del Inca. Valle Nevado (1 h 30 a est di Santiago, base 3025 m, la più alta del Cile) propone design moderno della Compagnie des Alpes con collegamento Tres Valles verso El Colorado e La Parva. La Parva (anche Tres Valles) gioca la carta residenziale e tranquilla, con le conche alpine di Las Lomas e il freeride hike-to di Falsa Parva. Stagione da giugno a ottobre.",
+    },
+    filter: (d) => isChile(d),
     sort: (d) => d.snowScore,
     limit: 10,
   },

@@ -407,6 +407,9 @@ const RESORT_SITES: Record<string, string> = {
   'coronet-peak': 'https://www.coronetpeak.co.nz',
   'the-remarkables': 'https://www.theremarkables.co.nz',
   'mt-hutt': 'https://www.mthutt.co.nz',
+  'valle-nevado': 'https://vallenevado.com',
+  portillo: 'https://www.skiportillo.com',
+  'la-parva': 'https://www.laparva.cl',
 }
 
 export function resortSite(slug: string): string | null {

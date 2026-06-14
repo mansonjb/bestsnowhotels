@@ -19644,5 +19644,157 @@
       "pt": "Não há alojamento em altitude em Mt Hutt e a estrada de acesso fecha à noite, por vezes cedo se houver mau tempo. Fica-se em Methven, a 35 a 45 minutos abaixo. Podem ser exigidas correntes e, em pleno Inverno, recomenda-se um 4x4 ou um AWD.",
       "it": "Non c'è alloggio in quota a Mt Hutt e la strada d'accesso chiude di notte, a volte presto in caso di maltempo. Si alloggia a Methven, a 35-45 minuti più in basso. Possono servire le catene e in pieno inverno è caldamente consigliato un 4x4 o un AWD."
     }
+  },
+  {
+    "slug": "valle-nevado",
+    "name": "Valle Nevado",
+    "country": "Chile",
+    "countryCode": "CL",
+    "flag": "🇨🇱",
+    "region": "Andes",
+    "lat": -33.3536,
+    "lng": -70.2522,
+    "altitudeBase": 3025,
+    "altitudeSummit": 3670,
+    "pistesKm": 37,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "All three village hotels sit directly on the snow, so genuine ski-in ski-out is the rule rather than the exception. Boots come off at the door of the Valle Nevado, Tres Puntas and Puerta del Sol; lifts are a short walk across the plaza.",
+      "fr": "Les trois hôtels du village ouvrent directement sur la neige : le vrai ski aux pieds est la norme. On déchausse à l'entrée du Valle Nevado, du Tres Puntas et du Puerta del Sol, et les remontées sont à quelques pas, de l'autre côté de la placette.",
+      "es": "Los tres hoteles del pueblo dan directo a la nieve, así que el verdadero ski-in ski-out es la regla. Uno se descalza en la puerta del Valle Nevado, el Tres Puntas y el Puerta del Sol, y los andariveles quedan a pocos pasos por la plaza.",
+      "pt": "Os três hotéis da aldeia abrem diretamente para a neve, pelo que o verdadeiro ski-in ski-out é a regra. Descalçam-se as botas à porta do Valle Nevado, do Tres Puntas e do Puerta del Sol, e os teleféricos ficam a poucos passos pela praça.",
+      "it": "I tre hotel del villaggio si affacciano direttamente sulla neve: il vero ski-in ski-out è la norma. Si tolgono gli scarponi all'ingresso del Valle Nevado, del Tres Puntas e del Puerta del Sol, e gli impianti sono a pochi passi attraverso la piazzetta."
+    },
+    "seasonStart": "Jun 27",
+    "seasonEnd": "Oct 5",
+    "snowScore": 85,
+    "vibes": [
+      "southern-hemisphere",
+      "high-altitude",
+      "big-domain",
+      "snow-sure",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Valle Nevado sits at 3,025 metres above the Andes, a sleek purpose-built resort 60 km east of Santiago. Born in 1988 from a French Compagnie des Alpes vision, it offers Chile's highest base, dependable powder from late June to early October, and panoramic terrain that opens onto the Tres Valles interconnect.",
+      "fr": "Valle Nevado se dresse à 3 025 mètres dans les Andes, station intégrée à 60 km à l'est de Santiago. Née en 1988 d'un projet de la Compagnie des Alpes, elle offre l'altitude de base la plus élevée du Chili, un enneigement fiable de fin juin à début octobre et un domaine panoramique connecté aux Tres Valles.",
+      "es": "Valle Nevado se alza a 3.025 metros en plena cordillera andina, a 60 km al oriente de Santiago. Inaugurado en 1988 con diseño de la Compagnie des Alpes, ofrece la base más alta de Chile, nieve segura desde fines de junio hasta principios de octubre y un dominio panorámico conectado al Tres Valles.",
+      "pt": "Valle Nevado fica a 3025 metros nos Andes, uma estância integrada a 60 km a leste de Santiago. Nascida em 1988 de um projeto da Compagnie des Alpes, oferece a cota de base mais alta do Chile, neve segura do fim de junho ao início de outubro e um domínio panorâmico ligado ao Tres Valles.",
+      "it": "Valle Nevado sorge a 3.025 metri sulle Ande, stazione integrata a 60 km a est di Santiago. Nata nel 1988 da un progetto della Compagnie des Alpes, vanta la quota di base più alta del Cile, neve sicura da fine giugno a inizio ottobre e un dominio panoramico collegato al Tres Valles."
+    },
+    "longDescription": {
+      "en": "Reached by the Camino Internacional and the legendary switchbacks of Curva 40, Valle Nevado feels like a slice of the high Alps transplanted to the Southern Hemisphere. Opened in 1988 with French engineering and a tight, walkable village layout, the resort delivers 37 km of marked pistes across a sun-drenched bowl that climbs to 3,670 metres. Long blue cruisers like El Prado suit families and intermediates, while the upper reaches of Tres Puntas and the off-piste fingers off Andes Express reward strong skiers with steep, dry-snow descents. A single ticket can extend the day across to El Colorado and La Parva via the Tres Valles link, opening up one of the biggest ski areas in South America. Valle Nevado also runs the continent's most established heliski operation, lifting guests onto pristine 4,000-metre peaks. Off the snow, the village clusters three hotels around a sunny plaza, with pisco bars, an outdoor pool and views that stretch toward the Pacific on clear days. Compact, high, modern and reliably snowy, it suits anyone who wants serious Andean skiing in July or August without the rugged isolation of more remote Chilean resorts.",
+      "fr": "On y accède par le Camino Internacional et les épingles légendaires de la Curva 40. Valle Nevado évoque un fragment des Alpes transposé dans l'hémisphère sud. Ouverte en 1988 avec une ingénierie française et un village compact, la station déroule 37 km de pistes balisées dans un grand cirque ensoleillé qui culmine à 3 670 mètres. Les longues bleues comme El Prado conviennent aux familles et aux skieurs intermédiaires, tandis que les hauts de Tres Puntas et le hors-piste sous Andes Express récompensent les bons skieurs avec des pentes raides et de la neige sèche. Le forfait Tres Valles permet de basculer sur El Colorado et La Parva pour explorer l'un des plus vastes domaines d'Amérique du Sud. La station abrite aussi l'opérateur d'héliski le plus établi du continent, qui pose ses clients sur des sommets vierges à 4 000 mètres. Le village réunit trois hôtels autour d'une placette ensoleillée, avec bars à pisco, piscine extérieure et vues parfois jusqu'au Pacifique. Compacte, haute, moderne et fiable côté neige, elle convient à qui cherche du ski andin sérieux en juillet ou août sans l'isolement des stations plus reculées du Chili.",
+      "es": "Se llega por el Camino Internacional y las míticas curvas de la Curva 40. Valle Nevado tiene aire de Alpes trasplantados al hemisferio sur. Inaugurado en 1988 con ingeniería francesa y un caserío peatonal compacto, el centro despliega 37 km de pistas balizadas en un anfiteatro soleado que culmina a 3.670 metros. Las largas bajadas azules tipo El Prado son perfectas para familias e intermedios, mientras que las cumbres de Tres Puntas y el fuera de pista bajo Andes Express premian al esquiador avanzado con pendientes empinadas y nieve seca. El ticket Tres Valles abre el paso a El Colorado y La Parva, configurando uno de los mayores dominios esquiables de Sudamérica. Valle Nevado opera además el heliski más consolidado del continente, con descensos en cumbres vírgenes sobre los 4.000 metros. El pueblo reúne tres hoteles en torno a una plaza soleada, con bares de pisco, piscina al aire libre y, en días despejados, vistas hacia el Pacífico. Compacta, alta, moderna y de nieve fiable, calza con quien busque esquí andino serio en julio o agosto sin el aislamiento de centros más remotos.",
+      "pt": "Chega-se por el Camino Internacional e pelas míticas curvas da Curva 40. Valle Nevado parece um pedaço dos Alpes transplantado para o hemisfério sul. Inaugurada em 1988 com engenharia francesa e uma aldeia compacta e pedonal, a estância oferece 37 km de pistas marcadas num grande anfiteatro soalheiro que culmina aos 3670 metros. As longas azuis como El Prado servem famílias e esquiadores intermédios, enquanto os cumes de Tres Puntas e o fora de pista por baixo do Andes Express recompensam os mais técnicos com declives íngremes e neve seca. O bilhete Tres Valles abre passagem para El Colorado e La Parva, formando um dos maiores domínios esquiáveis da América do Sul. Valle Nevado opera também o heliski mais consolidado do continente, com lançamentos em cumes virgens acima dos 4000 metros. A aldeia reúne três hotéis em torno de uma praça soalheira, com bares de pisco, piscina exterior e, em dias limpos, vistas até ao Pacífico. Compacta, alta, moderna e de neve fiável, encaixa em quem procura esqui andino sério em julho ou agosto sem o isolamento de estâncias mais remotas.",
+      "it": "Vi si accede dal Camino Internacional e dai mitici tornanti della Curva 40. Valle Nevado sembra un frammento di Alpi trapiantato nell'emisfero australe. Inaugurata nel 1988 con ingegneria francese e un villaggio pedonale compatto, la stazione offre 37 km di piste segnalate in un grande anfiteatro soleggiato che culmina a 3.670 metri. Le lunghe blu come El Prado piacciono a famiglie e intermedi, mentre le creste di Tres Puntas e il fuoripista sotto l'Andes Express premiano gli sciatori esperti con pendii ripidi e neve asciutta. Il pass Tres Valles permette di sconfinare verso El Colorado e La Parva, configurando uno dei più ampi domini sciabili del Sudamerica. Valle Nevado gestisce inoltre il più consolidato operatore di eliski del continente, con sbarchi su cime vergini oltre i 4.000 metri. Il villaggio raccoglie tre hotel intorno a una piazzetta soleggiata, con bar di pisco, piscina all'aperto e, nelle giornate limpide, scorci fino al Pacifico. Compatta, alta, moderna e con neve affidabile, è perfetta per chi cerca uno sci andino serio in luglio o agosto senza l'isolamento delle stazioni più remote."
+    },
+    "pisteCounts": {
+      "green": 9,
+      "blue": 17,
+      "red": 12,
+      "black": 6
+    }
+  },
+  {
+    "slug": "portillo",
+    "name": "Portillo",
+    "country": "Chile",
+    "countryCode": "CL",
+    "flag": "🇨🇱",
+    "region": "Andes",
+    "lat": -32.8419,
+    "lng": -70.1289,
+    "altitudeBase": 2880,
+    "altitudeSummit": 3322,
+    "pistesKm": 35,
+    "lifts": 7,
+    "skiInSkiOutNote": {
+      "en": "Portillo is the truest ski-in ski-out in the Americas: the yellow Hotel Portillo, the Octagon Lodge and the Inca Lodge all sit on the snow, with lifts loading just steps from the door. You walk out in boots, you walk back in for lunch.",
+      "fr": "Portillo offre le ski aux pieds le plus pur des Amériques : l'Hotel Portillo jaune, l'Octagon Lodge et l'Inca Lodge sont posés sur la neige, les remontées embarquent à quelques pas. On sort en chaussures, on revient déjeuner sans avoir quitté les skis.",
+      "es": "Portillo es el ski-in ski-out más puro de América: el Hotel Portillo amarillo, el Octagon Lodge y el Inca Lodge están sobre la nieve, con andariveles que cargan a pasos de la puerta. Uno sale con las botas puestas y vuelve a almorzar sin perder turno.",
+      "pt": "Portillo oferece o ski-in ski-out mais puro das Américas: o Hotel Portillo amarelo, o Octagon Lodge e o Inca Lodge estão sobre a neve, com teleféricos a embarcar a poucos passos da porta. Sai-se de botas calçadas e volta-se para almoçar sem perder ritmo.",
+      "it": "Portillo offre lo ski-in ski-out più autentico delle Americhe: l'Hotel Portillo giallo, l'Octagon Lodge e l'Inca Lodge poggiano sulla neve, con impianti che caricano a pochi passi dalla porta. Si esce con gli scarponi e si rientra a pranzo senza staccare gli sci."
+    },
+    "seasonStart": "Jun 20",
+    "seasonEnd": "Sep 30",
+    "snowScore": 87,
+    "vibes": [
+      "southern-hemisphere",
+      "iconic",
+      "racing",
+      "isolated",
+      "historic"
+    ],
+    "intro": {
+      "en": "Portillo is South American skiing in its purest form: a single bright-yellow hotel on the shore of Laguna del Inca, 145 km north of Santiago and 2,880 metres up the Andes. Host of the 1966 World Championships, it still runs on its original Saturday-to-Saturday rhythm, with seven lifts and almost no day-trippers.",
+      "fr": "Portillo, c'est l'essence du ski sud-américain : un seul hôtel jaune vif posé au bord de la Laguna del Inca, à 145 km au nord de Santiago et 2 880 mètres dans les Andes. Hôte des Championnats du monde 1966, la station vit toujours au rythme samedi-samedi, avec sept remontées et presque aucun skieur à la journée.",
+      "es": "Portillo es el esquí sudamericano en estado puro: un único hotel amarillo brillante a orillas de la Laguna del Inca, a 145 km al norte de Santiago y 2.880 metros sobre los Andes. Sede del Mundial de 1966, sigue funcionando con su ritmo original de sábado a sábado, con siete medios de elevación y casi sin esquiadores de día.",
+      "pt": "Portillo é o esqui sul-americano em estado puro: um único hotel amarelo vivo à beira da Laguna del Inca, a 145 km a norte de Santiago e 2880 metros nos Andes. Anfitriã do Mundial de 1966, mantém o ritmo original de sábado a sábado, com sete teleféricos e quase nenhum esquiador à jorna.",
+      "it": "Portillo è lo sci sudamericano allo stato puro: un solo hotel giallo brillante sulle rive della Laguna del Inca, a 145 km a nord di Santiago e 2.880 metri sulle Ande. Sede dei Mondiali del 1966, vive ancora del suo ritmo originale sabato-sabato, con sette impianti e quasi nessuno sciatore in giornata."
+    },
+    "longDescription": {
+      "en": "Almost nothing about Portillo is conventional. There is no town, no condos, no day pass: you book a week at Hotel Portillo, you ski Saturday to Saturday, and you share the mountain with around 450 other guests. The drive from Santiago takes roughly two hours up through fruit valleys and into the Los Libertadores tunnel that crosses into Argentina, with the resort appearing just before the border, framed by the jagged Aconcagua range. The 1966 Alpine World Championships, the only ones ever held in the Southern Hemisphere, gave Portillo runs like Roca Jack, Garganta and Plateau, still legendary today for their steep, sustained pitch and the quirky Va et Vient slingshot lifts that fire skiers up impossibly tight couloirs. The US, Austrian and other national ski teams come for July-August summer training, which means you often share lifts with Olympians. Beyond the lift-served terrain lies a vast playground of high alpine ridges and powder bowls. Evenings are unmistakably retro: cocktails in the Bar de la Cumbre, four-course dinners in the dining room, movies and dancing at the disco. There is no other ski week quite like it on Earth.",
+      "fr": "Presque rien à Portillo n'est conventionnel. Pas de village, pas de copropriétés, pas de forfait à la journée : on réserve une semaine à l'Hotel Portillo, on skie du samedi au samedi et on partage la montagne avec environ 450 autres clients. Depuis Santiago, deux heures de route à travers les vallées fruitières mènent au tunnel des Los Libertadores qui franchit la frontière argentine, la station apparaissant juste avant, encadrée par les arêtes de l'Aconcagua. Les Championnats du monde 1966, les seuls jamais organisés dans l'hémisphère sud, ont laissé en héritage Roca Jack, Garganta et Plateau, pistes raides et tendues toujours mythiques, ainsi que les improbables téléskis Va et Vient qui catapultent les skieurs dans des couloirs serrés. Les équipes nationales américaine, autrichienne et d'autres pays viennent s'entraîner en juillet-août : il n'est pas rare de partager un siège avec un olympien. Hors des pistes s'ouvrent de vastes croupes alpines et des combes à poudreuse. Les soirées restent délicieusement rétro : cocktails au Bar de la Cumbre, dîner en quatre services, cinéma et bal à la discothèque. Aucune autre semaine de ski au monde ne ressemble à celle-ci.",
+      "es": "Casi nada en Portillo es convencional. No hay pueblo, no hay departamentos, no hay ticket por día: uno reserva una semana en el Hotel Portillo, esquía de sábado a sábado y comparte la montaña con unos 450 huéspedes. Desde Santiago son cerca de dos horas por los valles frutícolas hasta el túnel de Los Libertadores, que cruza a Argentina, y el centro aparece justo antes, enmarcado por las aristas del Aconcagua. El Mundial Alpino de 1966, el único jamás disputado en el hemisferio sur, dejó como herencia Roca Jack, Garganta y Plateau, bajadas de pendiente sostenida y aún míticas, además de los curiosos andariveles Va et Vient que disparan a los esquiadores por couloirs apretados. Los equipos de Estados Unidos, Austria y otros países llegan para sus campamentos de julio-agosto, así que es común compartir telesilla con un olímpico. Más allá del lift se abren amplios filos alpinos y cuencas de polvo. Las noches conservan un aire deliciosamente retro: tragos en el Bar de la Cumbre, cena de cuatro tiempos, cine y baile en la disco. No existe otra semana de esquí igual en el mundo.",
+      "pt": "Quase nada em Portillo é convencional. Não há aldeia, não há apartamentos, não há passe diário: reserva-se uma semana no Hotel Portillo, esquia-se de sábado a sábado e partilha-se a montanha com cerca de 450 hóspedes. De Santiago são umas duas horas pelos vales frutícolas até ao túnel de Los Libertadores, que atravessa para a Argentina, com a estância a aparecer logo antes, emoldurada pelas cristas do Aconcágua. O Mundial Alpino de 1966, o único alguma vez disputado no hemisfério sul, deixou em herança Roca Jack, Garganta e Plateau, descidas de declive sustentado e ainda míticas, bem como os curiosos teleskis Va et Vient que catapultam os esquiadores por couloirs apertados. As seleções dos Estados Unidos, da Áustria e de outros países instalam-se para estágios em julho e agosto, pelo que é frequente partilhar telecadeira com um olímpico. Para lá dos teleféricos abrem-se largas cumeadas alpinas e bacias de pó. As noites mantêm um ar deliciosamente retro: cocktails no Bar de la Cumbre, jantar de quatro pratos, cinema e baile na discoteca. Não há outra semana de esqui igual no mundo.",
+      "it": "Quasi nulla a Portillo è convenzionale. Niente paese, niente residence, niente skipass giornaliero: si prenota una settimana all'Hotel Portillo, si scia da sabato a sabato e si condivide la montagna con circa 450 ospiti. Da Santiago sono due ore di strada attraverso valli di frutteti fino al tunnel di Los Libertadores che valica verso l'Argentina, con la stazione che compare poco prima, incorniciata dalle creste dell'Aconcagua. I Mondiali alpini del 1966, gli unici mai disputati nell'emisfero australe, hanno lasciato in eredità Roca Jack, Garganta e Plateau, discese di pendenza sostenuta tuttora leggendarie, oltre ai curiosi skilift Va et Vient che catapultano gli sciatori in couloir strettissimi. Le squadre nazionali statunitense, austriaca e altre arrivano per i raduni di luglio e agosto: capita spesso di condividere la seggiovia con un olimpionico. Oltre gli impianti si aprono ampie creste alpine e conche di polvere. Le serate conservano un'atmosfera deliziosamente retrò: cocktail al Bar de la Cumbre, cena di quattro portate, cinema e ballo in discoteca. Non esiste un'altra settimana di sci uguale al mondo."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 5,
+      "red": 3,
+      "black": 2
+    }
+  },
+  {
+    "slug": "la-parva",
+    "name": "La Parva",
+    "country": "Chile",
+    "countryCode": "CL",
+    "flag": "🇨🇱",
+    "region": "Andes",
+    "lat": -33.3433,
+    "lng": -70.2864,
+    "altitudeBase": 2662,
+    "altitudeSummit": 3630,
+    "pistesKm": 28,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "Most lodging in La Parva is private chalets and apartments rather than hotels, and ski-in ski-out depends on which terrace you book. The upper buildings along Las Aguilas put you on the snow; lower addresses can mean a short shuttle or boot walk to the lifts.",
+      "fr": "L'hébergement à La Parva se compose surtout de chalets et d'appartements privés plutôt que d'hôtels, et le ski aux pieds dépend de la terrasse réservée. Les bâtiments hauts du secteur Las Aguilas posent les skieurs sur la neige ; plus bas, il faut compter une navette ou un court trajet à pied.",
+      "es": "El alojamiento en La Parva es sobre todo de cabañas y departamentos particulares más que hoteles, y el ski-in ski-out depende de la terraza elegida. Los edificios altos del sector Las Águilas dejan al esquiador en la nieve; abajo puede tocar una van corta o caminata con botas.",
+      "pt": "O alojamento em La Parva é sobretudo de chalés e apartamentos particulares e não hotéis, e o ski-in ski-out depende do terraço escolhido. Os edifícios altos do setor Las Águilas deixam os hóspedes sobre a neve; mais abaixo pode ser preciso uma carrinha curta ou uma caminhada de botas.",
+      "it": "A La Parva l'alloggio è soprattutto in chalet e appartamenti privati più che in hotel, e lo ski-in ski-out dipende dalla terrazza prenotata. Gli edifici alti del settore Las Águilas mettono lo sciatore direttamente sulla neve; più in basso può servire una navetta breve o una camminata con gli scarponi."
+    },
+    "seasonStart": "Jun 21",
+    "seasonEnd": "Oct 5",
+    "snowScore": 80,
+    "vibes": [
+      "southern-hemisphere",
+      "high-altitude",
+      "family",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "La Parva is Santiago's weekend mountain: closest of the Tres Valles trio, just 90 minutes up the Camino del Cajón, with chalets clinging to a sun-drenched ridge between 2,662 and 3,630 metres. Long the favourite of Santiago families, it pairs gentle groomers with surprisingly serious alpine terrain above.",
+      "fr": "La Parva, c'est la montagne de Santiago : la plus proche du trio Tres Valles, à 1 h 30 du centre par le Camino del Cajón, avec ses chalets accrochés à une arête ensoleillée entre 2 662 et 3 630 mètres. Adoptée de longue date par les familles santiagueñas, elle combine douces pistes damées et terrain alpin étonnamment sérieux en altitude.",
+      "es": "La Parva es la montaña santiaguina por excelencia: la más cercana del trío Tres Valles, a 1 h 30 del centro por el Camino del Cajón, con cabañas colgadas de una cuerda soleada entre los 2.662 y los 3.630 metros. Predilecta de las familias capitalinas, combina suaves pistas pisadas con terreno alpino sorprendentemente serio en lo alto.",
+      "pt": "La Parva é a montanha de fim de semana de Santiago: a mais próxima do trio Tres Valles, a 1h30 do centro pelo Camino del Cajón, com chalés pendurados numa crista soalheira entre os 2662 e os 3630 metros. Querida das famílias santiaguinas, combina pistas pisadas suaves com terreno alpino surpreendentemente sério nas alturas.",
+      "it": "La Parva è la montagna del fine settimana di Santiago: la più vicina del trio Tres Valles, a 1 ora e mezza dal centro lungo il Camino del Cajón, con chalet aggrappati a un crinale soleggiato fra i 2.662 e i 3.630 metri. Da sempre amata dalle famiglie santiaghine, abbina dolci piste battute a un terreno alpino sorprendentemente serio in quota."
+    },
+    "longDescription": {
+      "en": "La Parva grew up as a residential and private-club resort, and that DNA still defines it: clusters of chalets and apartments stack up the hillside, the lifts open onto largely uncrowded slopes, and the social heartbeat happens around pool decks and family terraces rather than big international hotels. The lift network reaches 16, which is generous for 28 km of marked pistes, meaning short queues and quick laps. Beginners and intermediates get long, mellow blues winding through the lower mountain, ideal for kids learning their first turns at altitude. Stronger skiers head to the Las Lomas sector, where wide alpine bowls and steep faces open up above 3,300 metres, and to the hike-to lines off Falsa Parva for genuine freeride. A short traverse links you into El Colorado and on to Valle Nevado, all under the shared Tres Valles ticket, so you can effectively ski one of the biggest connected areas in South America from a quieter base. The vibe is distinctly Chilean: empanadas at lunch, pisco sours at sunset, a friendly weekend crowd that thins on Mondays. For travellers wanting Andean altitude with easy Santiago access and a more local feel than Valle Nevado, La Parva is the natural pick.",
+      "fr": "La Parva s'est développée comme un domaine résidentiel et de club privé, et cet ADN la définit toujours : grappes de chalets et d'appartements étagés à flanc, remontées débouchant sur des pistes peu fréquentées, vie sociale concentrée autour des terrasses et des piscines familiales plutôt que de grands hôtels internationaux. Le réseau atteint 16 remontées, ce qui est généreux pour 28 km de pistes balisées : files courtes, rotations rapides. Débutants et intermédiaires profitent de longues bleues douces qui serpentent dans le bas du domaine, parfaites pour les enfants qui apprennent leurs premiers virages en altitude. Les bons skieurs filent vers Las Lomas, où de larges combes alpines et des faces raides s'ouvrent au-dessus de 3 300 mètres, et vers les itinéraires de Falsa Parva pour du vrai freeride hors-piste. Une traversée courte conduit à El Colorado puis à Valle Nevado, sous le forfait commun Tres Valles : on skie ainsi l'un des plus vastes domaines reliés d'Amérique du Sud depuis une base plus calme. L'ambiance est typiquement chilienne : empanadas à midi, pisco sour au coucher du soleil, foule sympathique en fin de semaine et tranquillité retrouvée dès le lundi. Pour qui veut l'altitude andine, l'accès facile à Santiago et un esprit plus local que Valle Nevado, La Parva s'impose.",
+      "es": "La Parva creció como centro residencial y de club, y ese ADN sigue marcando su carácter: racimos de cabañas y departamentos escalonados en la ladera, andariveles que abren sobre pistas poco saturadas y una vida social que late en torno a piscinas y terrazas familiares más que a grandes hoteles. La red llega a 16 medios de elevación, generosa para 28 km de pistas balizadas, lo que se traduce en colas cortas y vueltas rápidas. Principiantes e intermedios disfrutan de azules largas y mansas en la parte baja, perfectas para que los niños aprendan en altura. Los esquiadores avanzados parten al sector Las Lomas, donde anchas cuencas alpinas y caras empinadas se abren sobre los 3.300 metros, y a las líneas con caminata hacia Falsa Parva, freeride en estado puro. Una travesía corta conecta con El Colorado y luego con Valle Nevado bajo el ticket común Tres Valles, así que se esquía uno de los mayores dominios enlazados de Sudamérica desde una base más tranquila. La onda es bien chilena: empanadas al almuerzo, pisco sour al atardecer, ambiente familiar de fin de semana que se vacía el lunes. Para quien busca altura andina, fácil acceso desde Santiago y un aire más local que Valle Nevado, La Parva es la elección natural.",
+      "pt": "La Parva cresceu como estância residencial e de clube privado, e esse ADN continua a defini-la: grupos de chalés e apartamentos escalonados na encosta, teleféricos que abrem para pistas pouco saturadas e uma vida social que pulsa em torno de piscinas e terraços familiares mais do que de grandes hotéis. A rede chega aos 16 teleféricos, generosa para 28 km de pistas marcadas, o que se traduz em filas curtas e voltas rápidas. Principiantes e intermédios encontram longas azuis mansas na parte baixa, ideais para crianças que aprendem em altitude. Os esquiadores avançados rumam ao setor Las Lomas, onde amplas bacias alpinas e faces íngremes se abrem acima dos 3300 metros, e às linhas de caminhada por Falsa Parva, freeride no estado puro. Uma travessia curta liga a El Colorado e depois a Valle Nevado pelo bilhete comum Tres Valles, pelo que se esquia um dos maiores domínios ligados da América do Sul a partir de uma base mais sossegada. O ambiente é tipicamente chileno: empanadas ao almoço, pisco sour ao pôr do sol, alegria familiar ao fim de semana e calma renovada à segunda-feira. Para quem procura altitude andina, acesso fácil a Santiago e um espírito mais local do que Valle Nevado, La Parva é a escolha natural.",
+      "it": "La Parva è nata come stazione residenziale e di club privato, e quel DNA la definisce ancora: grappoli di chalet e appartamenti scalano il versante, gli impianti aprono su piste poco affollate e la vita sociale pulsa attorno alle piscine e alle terrazze di famiglia più che ai grandi hotel internazionali. La rete arriva a 16 impianti, generosa per 28 km di piste segnalate, il che si traduce in code corte e tanti giri. Principianti e intermedi trovano lunghe blu morbide nella parte bassa, ideali per i bambini che imparano in quota. Gli sciatori più tecnici puntano al settore Las Lomas, dove ampie conche alpine e pareti ripide si aprono oltre i 3.300 metri, e alle linee da risalire a piedi su Falsa Parva, freeride puro. Una breve traversata collega a El Colorado e poi a Valle Nevado con lo skipass condiviso Tres Valles: si scia così uno dei più estesi domini collegati del Sudamerica partendo da una base più tranquilla. L'atmosfera è tipicamente cilena: empanadas a pranzo, pisco sour al tramonto, frequentazione familiare nel fine settimana e quiete ritrovata il lunedì. Per chi cerca quota andina, accesso facile a Santiago e un'aria più locale rispetto a Valle Nevado, La Parva è la scelta naturale."
+    },
+    "pisteCounts": {
+      "green": 7,
+      "blue": 12,
+      "red": 8,
+      "black": 3
+    }
   }
 ]

@@ -251,6 +251,13 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Alpes do Sul',
     it: 'Alpi del Sud',
   },
+  'Andes': {
+    en: 'Andes',
+    fr: 'Andes',
+    es: 'Andes',
+    pt: 'Andes',
+    it: 'Ande',
+  },
 }
 
 export function localizeRegion(englishName: string, locale: Locale): string {
