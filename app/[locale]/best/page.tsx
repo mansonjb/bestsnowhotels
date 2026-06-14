@@ -25,7 +25,7 @@ export async function generateMetadata({
     description: dict.best.subtitle,
     alternates: {
       canonical: `${SITE_URL}/${l}/best`,
-      languages: Object.fromEntries(locales.map((x) => [x, `${SITE_URL}/${x}/best`])),
+      languages: { ...Object.fromEntries(locales.map((x) => [x, `${SITE_URL}/${x}/best`])), "x-default": `${SITE_URL}/en/best` },
     },
   }
 }

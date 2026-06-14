@@ -51,7 +51,7 @@ export async function generateMetadata({
     description: g.intro[l],
     alternates: {
       canonical: `${SITE_URL}/${l}/when/${period}`,
-      languages: Object.fromEntries(locales.map((x) => [x, `${SITE_URL}/${x}/when/${period}`])),
+      languages: { ...Object.fromEntries(locales.map((x) => [x, `${SITE_URL}/${x}/when/${period}`])), "x-default": `${SITE_URL}/en/when/${period}` },
     },
   }
 }

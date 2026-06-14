@@ -117,7 +117,7 @@ export async function generateMetadata({
     description: p.intro[l],
     alternates: {
       canonical: `${SITE_URL}/${l}/compare/${pair}`,
-      languages: Object.fromEntries(locales.map((x) => [x, `${SITE_URL}/${x}/compare/${pair}`])),
+      languages: { ...Object.fromEntries(locales.map((x) => [x, `${SITE_URL}/${x}/compare/${pair}`])), "x-default": `${SITE_URL}/en/compare/${pair}` },
     },
   }
 }
