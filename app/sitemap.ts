@@ -4,6 +4,8 @@ import { destinations } from '@/lib/destinations'
 import { COUNTRIES } from '@/lib/countries'
 import { SKI_AREAS } from '@/lib/skiAreas'
 import { BEST_FOR_LISTS } from '@/lib/bestFor'
+import { COMPARE_PAIRS } from '@/lib/compare'
+import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -158,6 +160,50 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: Object.fromEntries(
             locales.map((l) => [l, `${SITE_URL}/${l}/weather/${d.slug}`]),
           ),
+        },
+      })
+    }
+
+    // Compare index + pairs
+    entries.push({
+      url: `${SITE_URL}/${locale}/compare`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      alternates: {
+        languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/compare`])),
+      },
+    })
+    for (const p of COMPARE_PAIRS) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/compare/${p.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: {
+          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/compare/${p.slug}`])),
+        },
+      })
+    }
+
+    // When index + seasonal guides
+    entries.push({
+      url: `${SITE_URL}/${locale}/when`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: {
+        languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/when`])),
+      },
+    })
+    for (const g of SEASONAL_GUIDES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/when/${g.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.75,
+        alternates: {
+          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/when/${g.slug}`])),
         },
       })
     }
