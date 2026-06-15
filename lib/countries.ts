@@ -1,4 +1,5 @@
 import type { Locale } from '@/app/[locale]/dictionaries'
+import type { Destination } from './destinations'
 
 export interface Country {
   slug: string
@@ -18,6 +19,61 @@ export function countrySlug(country: string): string {
     .replace(/[^a-z0-9\s-]/g, '')
     .replace(/\s+/g, '-')
 }
+
+/**
+ * Continent + hemisphere taxonomy keyed by ISO-2 countryCode. This is the
+ * single source of truth: every place that classifies a destination by
+ * continent (best-for lists, llms.txt) or by hemisphere (seasonal guides)
+ * derives from this map.
+ *
+ * When a new country wave ships, add ONE row here and the seasonal guides,
+ * best-for filters, and country predicates all stay consistent.
+ */
+export type Continent = 'europe' | 'asia' | 'north-america' | 'africa' | 'oceania' | 'south-america'
+export type Hemisphere = 'north' | 'south'
+
+export const COUNTRY_META: Record<string, { continent: Continent; hemisphere: Hemisphere }> = {
+  // Europe
+  FR: { continent: 'europe', hemisphere: 'north' },
+  CH: { continent: 'europe', hemisphere: 'north' },
+  IT: { continent: 'europe', hemisphere: 'north' },
+  AT: { continent: 'europe', hemisphere: 'north' },
+  ES: { continent: 'europe', hemisphere: 'north' },
+  AD: { continent: 'europe', hemisphere: 'north' },
+  DE: { continent: 'europe', hemisphere: 'north' },
+  NO: { continent: 'europe', hemisphere: 'north' },
+  SE: { continent: 'europe', hemisphere: 'north' },
+  FI: { continent: 'europe', hemisphere: 'north' },
+  // Asia
+  JP: { continent: 'asia', hemisphere: 'north' },
+  KR: { continent: 'asia', hemisphere: 'north' },
+  // North America
+  US: { continent: 'north-america', hemisphere: 'north' },
+  CA: { continent: 'north-america', hemisphere: 'north' },
+  // Africa (LS + ZA sit south of the equator)
+  MA: { continent: 'africa', hemisphere: 'north' },
+  DZ: { continent: 'africa', hemisphere: 'north' },
+  EG: { continent: 'africa', hemisphere: 'north' },
+  LS: { continent: 'africa', hemisphere: 'south' },
+  ZA: { continent: 'africa', hemisphere: 'south' },
+  // Oceania
+  AU: { continent: 'oceania', hemisphere: 'south' },
+  NZ: { continent: 'oceania', hemisphere: 'south' },
+  // South America
+  CL: { continent: 'south-america', hemisphere: 'south' },
+}
+
+export const isInContinent = (d: Destination, c: Continent) => COUNTRY_META[d.countryCode]?.continent === c
+export const isSouthernHemisphere = (d: Destination) => COUNTRY_META[d.countryCode]?.hemisphere === 'south'
+export const isEurope = (d: Destination) => isInContinent(d, 'europe')
+export const isJapan = (d: Destination) => d.countryCode === 'JP'
+export const isUSA = (d: Destination) => d.countryCode === 'US'
+export const isCanada = (d: Destination) => d.countryCode === 'CA'
+export const isSouthKorea = (d: Destination) => d.countryCode === 'KR'
+export const isAustralia = (d: Destination) => d.countryCode === 'AU'
+export const isNewZealand = (d: Destination) => d.countryCode === 'NZ'
+export const isChile = (d: Destination) => d.countryCode === 'CL'
+export const isAfrica = (d: Destination) => isInContinent(d, 'africa')
 
 export const COUNTRIES: Country[] = [
   {

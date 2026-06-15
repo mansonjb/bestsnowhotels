@@ -28,7 +28,11 @@ export function proxy(request: NextRequest) {
 
   const locale = getLocale(request)
   request.nextUrl.pathname = `/${locale}${pathname}`
-  return NextResponse.redirect(request.nextUrl, 308)
+  // 307 (temporary), not 308: the target depends on Accept-Language, so
+  // browsers + CDNs must not cache the redirect as permanent — otherwise a
+  // shared device or shared CDN edge serves the first user's locale to
+  // everyone after.
+  return NextResponse.redirect(request.nextUrl, 307)
 }
 
 export const config = {

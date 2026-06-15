@@ -85,7 +85,7 @@ export default async function WhenPeriodPage({
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: dict.nav.home, item: `${SITE_URL}/${l}` },
-        { '@type': 'ListItem', position: 2, name: 'When', item: `${SITE_URL}/${l}/when` },
+        { '@type': 'ListItem', position: 2, name: dict.nav.when, item: `${SITE_URL}/${l}/when` },
         { '@type': 'ListItem', position: 3, name: g.name[l], item: `${SITE_URL}/${l}/when/${period}` },
       ],
     },
@@ -124,7 +124,7 @@ export default async function WhenPeriodPage({
               <nav className="text-xs text-white/80 mb-3 flex items-center gap-2">
                 <Link href={`/${l}`} className="hover:text-white">{dict.nav.home}</Link>
                 <span aria-hidden>/</span>
-                <Link href={`/${l}/when`} className="hover:text-white">When</Link>
+                <Link href={`/${l}/when`} className="hover:text-white">{dict.nav.when}</Link>
               </nav>
               <h1 className="text-3xl sm:text-5xl font-bold text-white tracking-tight drop-shadow">{g.name[l]}</h1>
               <p className="mt-3 text-base sm:text-lg text-white/90 max-w-3xl drop-shadow">{g.intro[l]}</p>

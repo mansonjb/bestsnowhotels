@@ -111,7 +111,8 @@ export async function generateMetadata({
   const p = getComparePair(pair)
   if (!p) return {}
   const l = (hasLocale(locale) ? locale : 'en') as Locale
-  const title = `${p.slugA.replace(/-/g, ' ')} vs ${p.slugB.replace(/-/g, ' ')}`
+  const { a, b } = getComparisonDestinations(p)
+  const title = a && b ? `${a.name} vs ${b.name}` : `${p.slugA.replace(/-/g, ' ')} vs ${p.slugB.replace(/-/g, ' ')}`
   return {
     title: `${title} | BestSnowHotels`,
     description: p.intro[l],
@@ -144,7 +145,7 @@ export default async function ComparePairPage({
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: dict.nav.home, item: `${SITE_URL}/${l}` },
-        { '@type': 'ListItem', position: 2, name: 'Compare', item: `${SITE_URL}/${l}/compare` },
+        { '@type': 'ListItem', position: 2, name: dict.nav.compare, item: `${SITE_URL}/${l}/compare` },
         {
           '@type': 'ListItem',
           position: 3,
@@ -223,7 +224,7 @@ export default async function ComparePairPage({
               <nav className="text-xs text-white/80 mb-3 flex items-center gap-2">
                 <Link href={`/${l}`} className="hover:text-white">{dict.nav.home}</Link>
                 <span aria-hidden>/</span>
-                <Link href={`/${l}/compare`} className="hover:text-white">Compare</Link>
+                <Link href={`/${l}/compare`} className="hover:text-white">{dict.nav.compare}</Link>
               </nav>
               <h1 className="text-3xl sm:text-5xl font-bold text-white tracking-tight drop-shadow">
                 {a.name} <span className="text-white/75 font-normal">vs</span> {b.name}

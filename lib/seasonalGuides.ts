@@ -1,6 +1,7 @@
 import type { Locale } from '@/app/[locale]/dictionaries'
 import { destinations } from './destinations'
 import type { Destination } from './destinations'
+import { isSouthernHemisphere } from './countries'
 import seasonalContent from '@/data/seasonalGuides.json'
 
 /**
@@ -29,7 +30,30 @@ interface SeasonalContent {
 
 const CONTENT = seasonalContent as Record<string, SeasonalContent>
 
-const SH_CODES = new Set(['AU', 'NZ', 'LS', 'ZA'])
+/**
+ * A destination's season window covers a given month if its seasonStart →
+ * seasonEnd range (which may wrap around the year, e.g. "Jul 12" → "Apr 21"
+ * for Saas-Fee) includes the month. Used to filter out summer-only glaciers
+ * from northern-hemisphere winter guides.
+ */
+const MONTH_IDX: Record<string, number> = {
+  Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6,
+  Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12,
+}
+function seasonCoversMonth(d: Destination, month: number): boolean {
+  const start = MONTH_IDX[d.seasonStart.slice(0, 3)] ?? 1
+  const end = MONTH_IDX[d.seasonEnd.slice(0, 3)] ?? 12
+  return start <= end ? month >= start && month <= end : month >= start || month <= end
+}
+
+const LOCALES: Locale[] = ['en', 'fr', 'es', 'pt', 'it']
+function assertLocaleParity(slug: string, c: SeasonalContent) {
+  for (const field of ['intro', 'picks', 'description'] as const) {
+    for (const l of LOCALES) {
+      if (!c[field]?.[l]) throw new Error(`Missing locale '${l}' for seasonal guide '${slug}' field '${field}'`)
+    }
+  }
+}
 
 function guide(
   slug: string,
@@ -41,8 +65,14 @@ function guide(
 ): SeasonalGuide {
   const c = CONTENT[slug]
   if (!c) throw new Error(`Missing seasonal content for ${slug}`)
+  assertLocaleParity(slug, c)
   return { slug, heroSlug, name, intro: c.intro, picks: c.picks, description: c.description, filter, sort, limit }
 }
+
+/** Northern-hemisphere monthly guide: not in the Southern Hemisphere AND the resort's
+ *  season actually covers the target month. Extra dispatch on snow/altitude/size. */
+const nhMonth = (month: number, extra: (d: Destination) => boolean) => (d: Destination) =>
+  !isSouthernHemisphere(d) && seasonCoversMonth(d, month) && extra(d)
 
 export const SEASONAL_GUIDES: SeasonalGuide[] = [
   guide(
@@ -55,7 +85,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
       pt: 'Onde esquiar em dezembro de 2026',
       it: 'Dove sciare a dicembre 2026',
     },
-    (d) => !SH_CODES.has(d.countryCode) && (d.altitudeBase >= 1800 || d.vibes.includes('glacier') || d.vibes.includes('snow-sure')),
+    nhMonth(12, (d) => d.altitudeBase >= 1800 || d.vibes.includes('glacier') || d.vibes.includes('snow-sure')),
     (d) => d.snowScore + d.altitudeBase / 100,
     24,
   ),
@@ -69,7 +99,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
       pt: 'Onde esquiar em janeiro de 2027',
       it: 'Dove sciare a gennaio 2027',
     },
-    (d) => !SH_CODES.has(d.countryCode) && d.snowScore >= 80,
+    nhMonth(1, (d) => d.snowScore >= 80),
     (d) => d.snowScore,
     24,
   ),
@@ -83,7 +113,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
       pt: 'Onde esquiar em fevereiro de 2027',
       it: 'Dove sciare a febbraio 2027',
     },
-    (d) => !SH_CODES.has(d.countryCode) && d.snowScore >= 78,
+    nhMonth(2, (d) => d.snowScore >= 78),
     (d) => d.snowScore,
     24,
   ),
@@ -97,7 +127,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
       pt: 'Onde esquiar em março de 2027',
       it: 'Dove sciare a marzo 2027',
     },
-    (d) => !SH_CODES.has(d.countryCode) && d.pistesKm >= 80 && d.snowScore >= 75,
+    nhMonth(3, (d) => d.pistesKm >= 80 && d.snowScore >= 75),
     (d) => d.snowScore + Math.min(d.pistesKm, 300) / 10,
     24,
   ),
@@ -111,7 +141,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
       pt: 'Onde esquiar em abril de 2027',
       it: 'Dove sciare ad aprile 2027',
     },
-    (d) => !SH_CODES.has(d.countryCode) && (d.altitudeBase >= 1800 || d.vibes.includes('glacier') || d.vibes.includes('summer-ski')),
+    nhMonth(4, (d) => d.altitudeBase >= 1800 || d.vibes.includes('glacier') || d.vibes.includes('summer-ski')),
     (d) => d.altitudeBase + d.snowScore * 10,
     24,
   ),
@@ -125,7 +155,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
       pt: 'Onde esquiar no inverno austral de 2027',
       it: "Dove sciare nell'inverno australe 2027",
     },
-    (d) => SH_CODES.has(d.countryCode),
+    (d) => isSouthernHemisphere(d),
     (d) => d.snowScore,
     20,
   ),

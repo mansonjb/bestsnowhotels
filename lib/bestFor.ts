@@ -1,5 +1,16 @@
 import type { Locale } from '@/app/[locale]/dictionaries'
 import type { Destination } from './destinations'
+import {
+  isEurope,
+  isJapan,
+  isUSA,
+  isCanada,
+  isSouthKorea,
+  isAustralia,
+  isNewZealand,
+  isChile,
+  isAfrica,
+} from './countries'
 
 /**
  * Curated "Best for ..." lists for programmatic SEO. Each list is a localised
@@ -49,18 +60,8 @@ const CITIES = {
   barcelona: { lat: 41.3851, lng: 2.1734, radiusKm: 300 },
 }
 
-/** Continent helpers used to keep each best-for list scoped to a region. */
-const EUROPE_COUNTRY_CODES = new Set(['FR', 'CH', 'IT', 'AT', 'ES', 'AD', 'DE', 'NO', 'SE', 'FI'])
-const AFRICA_COUNTRY_CODES = new Set(['MA', 'DZ', 'LS', 'ZA', 'EG'])
-const isEurope = (d: Destination) => EUROPE_COUNTRY_CODES.has(d.countryCode)
-const isJapan = (d: Destination) => d.countryCode === 'JP'
-const isUSA = (d: Destination) => d.countryCode === 'US'
-const isAfrica = (d: Destination) => AFRICA_COUNTRY_CODES.has(d.countryCode)
-const isCanada = (d: Destination) => d.countryCode === 'CA'
-const isSouthKorea = (d: Destination) => d.countryCode === 'KR'
-const isAustralia = (d: Destination) => d.countryCode === 'AU'
-const isNewZealand = (d: Destination) => d.countryCode === 'NZ'
-const isChile = (d: Destination) => d.countryCode === 'CL'
+// Continent / country helpers now live in lib/countries.ts as the single
+// source of truth (COUNTRY_META + derived predicates). See the imports above.
 
 /** US powder-focused subset (snow + freeride + tree-skiing pedigree). */
 const USA_POWDER_RESORTS = new Set([

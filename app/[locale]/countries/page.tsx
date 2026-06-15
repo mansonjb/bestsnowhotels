@@ -19,8 +19,14 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params
   return {
-    title: `Ski countries: where to ski in Europe | BestSnowHotels`,
-    alternates: { canonical: `${SITE_URL}/${locale}/countries` },
+    title: `Ski countries: where to ski worldwide | BestSnowHotels`,
+    alternates: {
+      canonical: `${SITE_URL}/${locale}/countries`,
+      languages: {
+        ...Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/countries`])),
+        'x-default': `${SITE_URL}/en/countries`,
+      },
+    },
   }
 }
 

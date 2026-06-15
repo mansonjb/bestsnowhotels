@@ -6,7 +6,9 @@
     "skiAreas": "Dominios esquiables",
     "best": "Top estaciones",
     "weather": "Parte de nieve",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "compare": "Comparativas",
+    "when": "Cuándo esquiar en 2027"
   },
   "hero": {
     "badge": "Hoteles ski-in/ski-out por el mundo, de los Alpes al Atlas",
@@ -179,5 +181,13 @@
     "howStep3Text": "Cada enlace compara Booking, Expedia y Hotels.com. Recibimos una pequeña comisión, nunca de tu bolsillo.",
     "trustTitle": "Por qué existe este sitio",
     "trustText": "Booking.com no puede decirte si un hotel es realmente ski-in/ski-out. Los sitios de las estaciones no comparan precios. BestSnowHotels hace ambas cosas, y solo eso."
+  },
+  "compare": {
+    "title": "Comparativas",
+    "subtitle": "Seis enfrentamientos entre estaciones: dónde gana cada una y a quién le conviene cada cual."
+  },
+  "when": {
+    "title": "Cuándo esquiar en 2027",
+    "subtitle": "Seis guías que eligen la estación adecuada para cada mes de la temporada 2026-2027, más el invierno austral."
   }
 }

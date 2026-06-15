@@ -6,7 +6,9 @@
     "skiAreas": "Comprensori sciistici",
     "best": "Top località",
     "weather": "Bollettino neve",
-    "about": "Chi siamo"
+    "about": "Chi siamo",
+    "compare": "Confronti",
+    "when": "Quando sciare nel 2027"
   },
   "hero": {
     "badge": "Hotel ski-in/ski-out nel mondo, dalle Alpi all'Atlante",
@@ -179,5 +181,13 @@
     "howStep3Text": "Ogni link confronta Booking, Expedia e Hotels.com. Riceviamo una piccola commissione, mai dalle tue tasche.",
     "trustTitle": "Perché esiste questo sito",
     "trustText": "Booking.com non sa dirti se un hotel è davvero ski-in/ski-out. I siti delle località non confrontano i prezzi. BestSnowHotels fa entrambe le cose, e solo quelle."
+  },
+  "compare": {
+    "title": "Confronti",
+    "subtitle": "Sei confronti tra località: dove vince ciascuna e a chi conviene quale."
+  },
+  "when": {
+    "title": "Quando sciare nel 2027",
+    "subtitle": "Sei guide che scelgono la località giusta per ogni mese della stagione 2026-2027, più l'inverno australe."
   }
 }

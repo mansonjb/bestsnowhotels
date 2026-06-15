@@ -84,7 +84,12 @@ async function pingBatch(urls, key) {
 
 async function main() {
   const args = process.argv.slice(2)
-  const filter = args.find((a) => a.startsWith('--filter='))?.split('=')[1]
+  // Accept both `--filter=foo` and `--filter foo` (space-separated, as the
+  // usage docstring shows).
+  const filterEq = args.find((a) => a.startsWith('--filter='))?.split('=')[1]
+  const filterIdx = args.indexOf('--filter')
+  const filterSpace = filterIdx >= 0 && filterIdx < args.length - 1 ? args[filterIdx + 1] : undefined
+  const filter = filterEq ?? filterSpace
   const onlyNew = args.includes('--new')
 
   const key = await loadKey()
@@ -93,11 +98,9 @@ async function main() {
   let urls = await listSitemapUrls()
   console.log(`Sitemap URLs: ${urls.length}`)
 
-  if (filter) {
-    urls = urls.filter((u) => u.includes(filter))
-    console.log(`Filtered to "${filter}": ${urls.length}`)
-  }
-
+  // Persist the FULL sitemap as the seen set BEFORE filtering — otherwise a
+  // run with `--new --filter=compare` would record only compare URLs and the
+  // next `--new` (no filter) would re-submit every non-compare URL as "new".
   if (onlyNew) {
     const stateFile = path.join(ROOT, '.next', 'indexnow-state.json')
     let seen = []
@@ -105,11 +108,15 @@ async function main() {
       seen = JSON.parse(await readFile(stateFile, 'utf8'))
     } catch {}
     const seenSet = new Set(seen)
-    const fresh = urls.filter((u) => !seenSet.has(u))
-    console.log(`New since last run: ${fresh.length}`)
     await mkdir(path.dirname(stateFile), { recursive: true })
     await writeFile(stateFile, JSON.stringify(urls))
-    urls = fresh
+    urls = urls.filter((u) => !seenSet.has(u))
+    console.log(`New since last run: ${urls.length}`)
+  }
+
+  if (filter) {
+    urls = urls.filter((u) => u.includes(filter))
+    console.log(`Filtered to "${filter}": ${urls.length}`)
   }
 
   if (urls.length === 0) {

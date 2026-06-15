@@ -113,12 +113,12 @@ Index: https://www.bestsnowhotels.com/en/compare
 ## Where to ski in 2027 (month-by-month)
 
 Seasonal guides for the 2026-2027 season, each with curated resort picks:
-- /when/ski-december-2026 (pre-season + Christmas: high-altitude + glaciers)
-- /when/ski-january-2027 (midwinter coldest, best powder window)
-- /when/ski-february-2027 (peak crowds, half-term planning)
-- /when/ski-march-2027 (peak season, longer days)
-- /when/ski-april-2027 (spring skiing, high altitude only)
-- /when/ski-southern-hemisphere-2027 (Australia + New Zealand + Lesotho + South Africa, Jun-Oct)
+- /when/december-2026 (pre-season + Christmas: high-altitude + glaciers)
+- /when/january-2027 (midwinter coldest, best powder window)
+- /when/february-2027 (peak crowds, half-term planning)
+- /when/march-2027 (peak season, longer days)
+- /when/april-2027 (spring skiing, high altitude only)
+- /when/southern-hemisphere-winter-2027 (Australia + New Zealand + Lesotho + South Africa + Chile, Jun-Oct)
 
 Index: https://www.bestsnowhotels.com/en/when
 

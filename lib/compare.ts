@@ -25,10 +25,20 @@ interface ComparisonContent {
 }
 
 const CONTENT = comparisonsContent as Record<string, ComparisonContent>
+const LOCALES: Locale[] = ['en', 'fr', 'es', 'pt', 'it']
+
+function assertLocaleParity(slug: string, c: ComparisonContent) {
+  for (const field of ['intro', 'verdict', 'description'] as const) {
+    for (const l of LOCALES) {
+      if (!c[field]?.[l]) throw new Error(`Missing locale '${l}' for comparison '${slug}' field '${field}'`)
+    }
+  }
+}
 
 function pair(slug: string, slugA: string, slugB: string, heroSlug: string): ComparePair {
   const c = CONTENT[slug]
   if (!c) throw new Error(`Missing comparison content for ${slug}`)
+  assertLocaleParity(slug, c)
   return { slug, slugA, slugB, heroSlug, intro: c.intro, verdict: c.verdict, description: c.description }
 }
 

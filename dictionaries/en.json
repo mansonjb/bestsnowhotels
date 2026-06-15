@@ -6,7 +6,9 @@
     "skiAreas": "Ski areas",
     "best": "Best for",
     "weather": "Snow report",
-    "about": "About"
+    "about": "About",
+    "compare": "Ski resort comparisons",
+    "when": "Where to ski in 2027"
   },
   "hero": {
     "badge": "Ski-in/ski-out hotels worldwide, from the Alps to the Atlas",
@@ -179,5 +181,13 @@
     "howStep3Text": "Every link price-checks Booking, Expedia and Hotels.com. We earn a small commission, never from your wallet.",
     "trustTitle": "Why this site exists",
     "trustText": "Booking.com cannot tell you whether a hotel is really ski-in/ski-out. Resort websites do not compare prices. BestSnowHotels does both, and only that."
+  },
+  "compare": {
+    "title": "Ski resort comparisons",
+    "subtitle": "Six side-by-side ski resort matchups: where each one wins and who should pick which."
+  },
+  "when": {
+    "title": "Where to ski in 2027",
+    "subtitle": "Six guides that pick the right resort for each month of the 2026-2027 season, plus the Southern Hemisphere winter."
   }
 }
