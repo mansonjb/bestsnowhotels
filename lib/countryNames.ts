@@ -42,60 +42,25 @@ export function localizeCountry(englishName: string, locale: Locale): string {
 export function inCountry(englishName: string, locale: Locale): string {
   const name = localizeCountry(englishName, locale)
   if (locale === 'en') return `in ${name}`
-  if (locale === 'fr') {
-    // EN names: Switzerland, Italy, Spain, France, Austria, Andorra → "en" (feminine)
-    // Masculine singular country → "au" (Japon, Maroc, Lesotho, Canada)
-    // Plural masculine → "aux" (États-Unis)
-    if (
-      englishName === 'Japan' ||
-      englishName === 'Morocco' ||
-      englishName === 'Lesotho' ||
-      englishName === 'Canada' ||
-      englishName === 'Chile'
-    )
-      return `au ${name}`
-    if (englishName === 'United States') return `aux ${name}`
-    return `en ${name}`
+  // Per-country preposition maps. Default to the per-locale fallback below.
+  // Adding a country becomes one row in NAMES + (optionally) one row here per
+  // locale that needs a non-default preposition.
+  const PREP_FR: Record<string, string> = {
+    Japan: 'au', Morocco: 'au', Lesotho: 'au', Canada: 'au', Chile: 'au',
+    'United States': 'aux',
   }
-  if (locale === 'es') {
-    return `en ${name}`
+  const PREP_PT: Record<string, string> = {
+    Japan: 'no', Lesotho: 'no', Egypt: 'no', Canada: 'no', Chile: 'no',
+    'United States': 'nos',
+    Switzerland: 'na', Austria: 'na', Germany: 'na', Norway: 'na', Sweden: 'na',
+    Algeria: 'na', 'South Africa': 'na', 'South Korea': 'na', Australia: 'na', 'New Zealand': 'na',
   }
-  if (locale === 'pt') {
-    // PT-PT rule: "em" before names without article (França, Itália, Espanha, Andorra, Finlândia, Marrocos),
-    // "na" before feminine names with article (Suíça, Áustria, Alemanha, Noruega, Suécia, Argélia, África do Sul),
-    // "no" before masculine singular with article (Japão, Lesoto, Egito),
-    // "nos" before masculine plural with article (Estados Unidos).
-    if (
-      englishName === 'Japan' ||
-      englishName === 'Lesotho' ||
-      englishName === 'Egypt' ||
-      englishName === 'Canada' ||
-      englishName === 'Chile'
-    )
-      return `no ${name}`
-    if (englishName === 'United States') return `nos ${name}`
-    if (
-      englishName === 'Algeria' ||
-      englishName === 'South Africa' ||
-      englishName === 'South Korea' ||
-      englishName === 'Australia' ||
-      englishName === 'New Zealand'
-    )
-      return `na ${name}`
-    if (
-      englishName === 'Switzerland' ||
-      englishName === 'Austria' ||
-      englishName === 'Germany' ||
-      englishName === 'Norway' ||
-      englishName === 'Sweden'
-    )
-      return `na ${name}`
-    return `em ${name}`
+  const PREP_IT: Record<string, string> = {
+    'United States': 'negli',
   }
-  if (locale === 'it') {
-    // Italian: most countries take "in" + name. Plural masculine takes "negli" (Stati Uniti).
-    if (englishName === 'United States') return `negli ${name}`
-    return `in ${name}`
-  }
+  if (locale === 'fr') return `${PREP_FR[englishName] ?? 'en'} ${name}`
+  if (locale === 'es') return `en ${name}`
+  if (locale === 'pt') return `${PREP_PT[englishName] ?? 'em'} ${name}`
+  if (locale === 'it') return `${PREP_IT[englishName] ?? 'in'} ${name}`
   return name
 }

@@ -1,6 +1,27 @@
 export const SITE_URL = 'https://www.bestsnowhotels.com'
 export const SITE_NAME = 'BestSnowHotels'
 
+const LOCALES = ['en', 'fr', 'es', 'pt', 'it'] as const
+
+/**
+ * Build the `alternates.languages` map for a given site-relative path,
+ * including the `x-default` hreflang pointing at the English variant.
+ * One place to update if the locale set or default ever changes.
+ *
+ * Usage:
+ *   alternates: {
+ *     canonical: `${SITE_URL}/${locale}/best`,
+ *     languages: hreflangFor('/best'),
+ *   }
+ */
+export function hreflangFor(path: string): Record<string, string> {
+  const p = path.startsWith('/') ? path : `/${path}`
+  const out: Record<string, string> = {}
+  for (const l of LOCALES) out[l] = `${SITE_URL}/${l}${p}`
+  out['x-default'] = `${SITE_URL}/en${p}`
+  return out
+}
+
 /** Stay22 partner ID used for the letmeallez script, map embed and Allez deep links. */
 export const STAY22_ID = '6a172a3725eb5f0f8532400c'
 

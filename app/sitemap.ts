@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, hreflangFor } from '@/lib/site'
 import { destinations } from '@/lib/destinations'
 import { COUNTRIES } from '@/lib/countries'
 import { SKI_AREAS } from '@/lib/skiAreas'
@@ -20,9 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
       alternates: {
-        languages: Object.fromEntries(
-          locales.map((l) => [l, `${SITE_URL}/${l}`]),
-        ),
+        languages: hreflangFor(``),
       },
     })
 
@@ -33,9 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 0.9,
       alternates: {
-        languages: Object.fromEntries(
-          locales.map((l) => [l, `${SITE_URL}/${l}/destinations`]),
-        ),
+        languages: hreflangFor(`/destinations`),
       },
     })
 
@@ -47,9 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'weekly',
         priority: 0.8,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${SITE_URL}/${l}/destinations/${d.slug}`]),
-          ),
+          languages: hreflangFor(`/destinations/${d.slug}`),
         },
       })
     }
@@ -61,9 +55,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
       alternates: {
-        languages: Object.fromEntries(
-          locales.map((l) => [l, `${SITE_URL}/${l}/countries`]),
-        ),
+        languages: hreflangFor(`/countries`),
       },
     })
 
@@ -75,9 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${SITE_URL}/${l}/countries/${c.slug}`]),
-          ),
+          languages: hreflangFor(`/countries/${c.slug}`),
         },
       })
     }
@@ -89,9 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
       alternates: {
-        languages: Object.fromEntries(
-          locales.map((l) => [l, `${SITE_URL}/${l}/ski-areas`]),
-        ),
+        languages: hreflangFor(`/ski-areas`),
       },
     })
 
@@ -103,9 +91,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${SITE_URL}/${l}/ski-areas/${a.slug}`]),
-          ),
+          languages: hreflangFor(`/ski-areas/${a.slug}`),
         },
       })
     }
@@ -117,7 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
       alternates: {
-        languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/best`])),
+        languages: hreflangFor(`/best`),
       },
     })
 
@@ -129,7 +115,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.75,
         alternates: {
-          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/best/${b.slug}`])),
+          languages: hreflangFor(`/best/${b.slug}`),
         },
       })
     }
@@ -142,9 +128,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'hourly',
         priority: 0.8,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${SITE_URL}/${l}/${path}`]),
-          ),
+          languages: hreflangFor(`/${path}`),
         },
       })
     }
@@ -157,9 +141,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'hourly',
         priority: 0.75,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${SITE_URL}/${l}/weather/${d.slug}`]),
-          ),
+          languages: hreflangFor(`/weather/${d.slug}`),
         },
       })
     }
@@ -171,7 +153,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.7,
       alternates: {
-        languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/compare`])),
+        languages: hreflangFor(`/compare`),
       },
     })
     for (const p of COMPARE_PAIRS) {
@@ -181,7 +163,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
         alternates: {
-          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/compare/${p.slug}`])),
+          languages: hreflangFor(`/compare/${p.slug}`),
         },
       })
     }
@@ -193,7 +175,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
       alternates: {
-        languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/when`])),
+        languages: hreflangFor(`/when`),
       },
     })
     for (const g of SEASONAL_GUIDES) {
@@ -203,7 +185,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.75,
         alternates: {
-          languages: Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}/when/${g.slug}`])),
+          languages: hreflangFor(`/when/${g.slug}`),
         },
       })
     }
