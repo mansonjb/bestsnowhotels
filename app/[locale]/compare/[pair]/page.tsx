@@ -268,7 +268,7 @@ export default async function ComparePairPage({
       {/* Verdict */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
         <h2 className="text-2xl font-bold text-slate-deep">{HEADINGS.verdict[l]}</h2>
-        <p className="mt-3 text-lg text-ice-800/90 leading-relaxed max-w-4xl">{p.verdict[l]}</p>
+        <p className="mt-3 text-lg text-ice-800/90 leading-relaxed max-w-4xl whitespace-pre-line">{p.verdict[l]}</p>
       </section>
 
       {/* Description */}
