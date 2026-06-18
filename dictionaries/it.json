@@ -100,7 +100,8 @@
     "faq4Q": "Quanto è grande il comprensorio di {name}?",
     "faq4A": "{name} conta {pistesKm} km di piste segnalate servite da {lifts} impianti, tra {altitudeBase} m e {altitudeSummit} m di quota.",
     "faq5Q": "{name} è più per principianti o per esperti?",
-    "faq5A": "{name} ha circa {totalRuns} piste segnalate in totale. La distribuzione per colore qui sopra mostra come si dividono per difficoltà, un buon riferimento per capire se la località fa per il tuo livello."
+    "faq5A": "{name} ha circa {totalRuns} piste segnalate in totale. La distribuzione per colore qui sopra mostra come si dividono per difficoltà, un buon riferimento per capire se la località fa per il tuo livello.",
+    "goodToKnow": "Da sapere"
   },
   "best": {
     "title": "Le migliori località sciistiche: liste per gusto",
@@ -164,7 +165,10 @@
     "privacy": "Privacy",
     "contact": "Contatti",
     "disclosureText": "Questo sito contiene link di affiliazione. Riceviamo una commissione sulle prenotazioni effettuate tramite i nostri link partner, senza costi aggiuntivi per te. È ciò che permette a BestSnowHotels di restare gratuito.",
-    "copyright": "© 2026 BestSnowHotels. Tutti i diritti riservati."
+    "copyright": "© 2026 BestSnowHotels. Tutti i diritti riservati.",
+    "network": "Anche dal nostro team:",
+    "networkHoneymoon": "hotel per la luna di miele",
+    "networkPets": "hotel che accettano animali"
   },
   "home": {
     "topTitle": "Top destinazioni sci",

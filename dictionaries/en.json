@@ -100,7 +100,8 @@
     "faq4Q": "How big is the {name} ski area?",
     "faq4A": "{name} has {pistesKm} km of marked pistes served by {lifts} lifts, between {altitudeBase} m and {altitudeSummit} m of altitude.",
     "faq5Q": "Is {name} more for beginners or experts?",
-    "faq5A": "{name} counts about {totalRuns} marked runs in total. The colour breakdown above shows how they split by difficulty, a good guide to whether the resort fits your level."
+    "faq5A": "{name} counts about {totalRuns} marked runs in total. The colour breakdown above shows how they split by difficulty, a good guide to whether the resort fits your level.",
+    "goodToKnow": "Good to know"
   },
   "best": {
     "title": "Best ski resorts: curated lists by intent",
@@ -164,7 +165,10 @@
     "privacy": "Privacy",
     "contact": "Contact",
     "disclosureText": "This site contains affiliate links. We may earn a commission when you book through us, at no extra cost to you. It keeps BestSnowHotels free.",
-    "copyright": "© 2026 BestSnowHotels. All rights reserved."
+    "copyright": "© 2026 BestSnowHotels. All rights reserved.",
+    "network": "Also from our team:",
+    "networkHoneymoon": "honeymoon hotels",
+    "networkPets": "pet-friendly hotels"
   },
   "home": {
     "topTitle": "Top ski destinations",

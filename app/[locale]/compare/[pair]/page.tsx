@@ -9,7 +9,9 @@ import { COMPARE_PAIRS, getComparePair, getComparisonDestinations } from '@/lib/
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { formatSeasonRange } from '@/lib/dates'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, buildAllezHotelLink } from '@/lib/site'
+import { getHotels } from '@/lib/hotels'
+import HotelCard from '@/components/HotelCard'
 
 const HEADINGS = {
   verdict: {
@@ -96,6 +98,13 @@ const HEADINGS = {
     pt: 'Outros comparativos',
     it: 'Altri confronti',
   } as Record<Locale, string>,
+  whereToStay: {
+    en: 'Where to stay in each',
+    fr: 'Où dormir dans chacune',
+    es: 'Dónde alojarse en cada una',
+    pt: 'Onde ficar em cada uma',
+    it: 'Dove dormire in ciascuna',
+  } as Record<Locale, string>,
 }
 
 export async function generateStaticParams() {
@@ -138,6 +147,18 @@ export default async function ComparePairPage({
   if (!a || !b) notFound()
 
   const otherPairs = COMPARE_PAIRS.filter((x) => x.slug !== p.slug)
+
+  // Top 2 hotels from each compared resort, reusing the destination hotel data.
+  const hotelsA = getHotels(p.slugA).slice(0, 2)
+  const hotelsB = getHotels(p.slugB).slice(0, 2)
+  const hasHotels = hotelsA.length > 0 || hotelsB.length > 0
+  const hotelLabels = {
+    reviews: dict.destination.reviews,
+    checkAvailability: dict.destination.checkAvailability,
+    toSlopes: dict.destination.toSlopes,
+    from: dict.destination.from,
+    perNight: dict.destination.perNight,
+  }
 
   const jsonLd = [
     {
@@ -254,6 +275,47 @@ export default async function ComparePairPage({
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
         <p className="text-base text-ice-800/85 leading-relaxed max-w-4xl whitespace-pre-line">{p.description[l]}</p>
       </section>
+
+      {/* Where to stay in each resort */}
+      {hasHotels && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14">
+          <h2 className="text-2xl font-bold text-slate-deep">{HEADINGS.whereToStay[l]}</h2>
+          <div className="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-6">
+            {[
+              { dest: a, hotels: hotelsA },
+              { dest: b, hotels: hotelsB },
+            ].map(({ dest, hotels }) =>
+              hotels.length > 0 ? (
+                <div key={dest.slug}>
+                  <Link
+                    href={`/${l}/destinations/${dest.slug}`}
+                    className="group inline-flex items-baseline gap-2 mb-4"
+                  >
+                    <span className="text-lg font-bold text-slate-deep group-hover:text-alpenglow-700">
+                      {dest.name}
+                    </span>
+                    <span className="text-sm text-ice-600 group-hover:text-alpenglow-700">
+                      {dict.destination.whereToStay} →
+                    </span>
+                  </Link>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    {hotels.map((h) => (
+                      <HotelCard
+                        key={h.id}
+                        hotel={h}
+                        bookHref={buildAllezHotelLink(h.name, dest.name, dest.country, 'compare', 7)}
+                        resortName={dest.name}
+                        locale={l}
+                        labels={hotelLabels}
+                      />
+                    ))}
+                  </div>
+                </div>
+              ) : null,
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Other comparisons */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-12">

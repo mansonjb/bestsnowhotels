@@ -20,6 +20,7 @@ import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
 import Image from 'next/image'
 import { getHotels } from '@/lib/hotels'
 import { getGallery } from '@/lib/galleries'
+import { resortFacts } from '@/lib/resortFacts'
 import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
 import { getSkiAreaForResort } from '@/lib/skiAreas'
 import { localizeCountry } from '@/lib/countryNames'
@@ -455,6 +456,22 @@ export default async function DestinationDetailPage({
         <p className="text-lg text-ice-800/80 leading-relaxed">
           {d.longDescription[l]}
         </p>
+
+        {/* Good to know: data-driven facts, unique per resort */}
+        <div className="mt-8 rounded-2xl border border-ice-100 bg-ice-50/60 p-6">
+          <h3 className="text-sm font-bold uppercase tracking-wide text-ice-700 mb-4">
+            {dict.destination.goodToKnow}
+          </h3>
+          <ul className="space-y-3">
+            {resortFacts(d, l).map((fact, i) => (
+              <li key={i} className="flex gap-3 text-[15px] text-ice-800/90 leading-relaxed">
+                <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ice-400" />
+                <span>{fact}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         {gallery.length > 0 && (
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5">
             {gallery.map((file) => (

@@ -100,7 +100,8 @@
     "faq4Q": "¿Qué tamaño tiene el dominio esquiable de {name}?",
     "faq4A": "{name} tiene {pistesKm} km de pistas balizadas servidas por {lifts} remontes, entre {altitudeBase} m y {altitudeSummit} m de altitud.",
     "faq5Q": "¿{name} es más para principiantes o para expertos?",
-    "faq5A": "{name} cuenta con unas {totalRuns} pistas señalizadas en total. El reparto por color de arriba muestra cómo se distribuyen por dificultad, una buena guía para saber si la estación se ajusta a tu nivel."
+    "faq5A": "{name} cuenta con unas {totalRuns} pistas señalizadas en total. El reparto por color de arriba muestra cómo se distribuyen por dificultad, una buena guía para saber si la estación se ajusta a tu nivel.",
+    "goodToKnow": "Bueno saber"
   },
   "best": {
     "title": "Las mejores estaciones de esquí: listas por intención",
@@ -164,7 +165,10 @@
     "privacy": "Privacidad",
     "contact": "Contacto",
     "disclosureText": "Este sitio contiene enlaces de afiliación. Recibimos una comisión por las reservas efectuadas a través de nuestros enlaces socios, sin coste adicional para ti. Es lo que permite que BestSnowHotels siga siendo gratuito.",
-    "copyright": "© 2026 BestSnowHotels. Todos los derechos reservados."
+    "copyright": "© 2026 BestSnowHotels. Todos los derechos reservados.",
+    "network": "También de nuestro equipo:",
+    "networkHoneymoon": "hoteles para luna de miel",
+    "networkPets": "hoteles que admiten mascotas"
   },
   "home": {
     "topTitle": "Top destinos de esquí",

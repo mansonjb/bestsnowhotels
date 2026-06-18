@@ -62,9 +62,6 @@ export default function Header({ locale, dict }: HeaderProps) {
             <Link href={`/${locale}/weather`} className="hover:text-slate-deep transition">
               {dict.nav.weather}
             </Link>
-            <Link href={`/${locale}/about`} className="hover:text-slate-deep transition">
-              {dict.nav.about}
-            </Link>
 
             <div className="flex items-center gap-1 ml-2 border-l border-ice-200 pl-4">
               {allLocales.map((l) => (
@@ -132,13 +129,6 @@ export default function Header({ locale, dict }: HeaderProps) {
               className="block py-2 text-sm font-medium text-ice-800"
             >
               {dict.nav.weather}
-            </Link>
-            <Link
-              href={`/${locale}/about`}
-              onClick={() => setOpen(false)}
-              className="block py-2 text-sm font-medium text-ice-800"
-            >
-              {dict.nav.about}
             </Link>
             <div className="flex items-center gap-2 pt-2 border-t border-ice-100">
               {allLocales.map((l) => (

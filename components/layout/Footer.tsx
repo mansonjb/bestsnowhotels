@@ -14,6 +14,9 @@ interface FooterProps {
       contact: string
       disclosureText: string
       copyright: string
+      network: string
+      networkHoneymoon: string
+      networkPets: string
     }
     nav: { destinations: string; countries: string; skiAreas: string; best: string; weather: string }
   }
@@ -97,8 +100,28 @@ export default function Footer({ locale, dict }: FooterProps) {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-ice-200 text-xs text-ice-700/70 text-center">
-          {dict.footer.copyright}
+        <div className="mt-10 pt-6 border-t border-ice-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ice-700/70">
+          <span>{dict.footer.copyright}</span>
+          <span className="text-ice-500/80">
+            {dict.footer.network}{' '}
+            <a
+              href="https://www.myhoneymoonhotel.com"
+              target="_blank"
+              rel="noopener"
+              className="hover:text-ice-700 underline-offset-2 hover:underline"
+            >
+              {dict.footer.networkHoneymoon}
+            </a>
+            {' · '}
+            <a
+              href="https://www.hotelswithpets.com"
+              target="_blank"
+              rel="noopener"
+              className="hover:text-ice-700 underline-offset-2 hover:underline"
+            >
+              {dict.footer.networkPets}
+            </a>
+          </span>
         </div>
       </div>
     </footer>

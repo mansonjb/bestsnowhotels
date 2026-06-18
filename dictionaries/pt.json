@@ -100,7 +100,8 @@
     "faq4Q": "Qual é a dimensão do domínio esquiável de {name}?",
     "faq4A": "{name} tem {pistesKm} km de pistas balizadas servidas por {lifts} teleféricos, entre {altitudeBase} m e {altitudeSummit} m de altitude.",
     "faq5Q": "{name} é mais para principiantes ou para experientes?",
-    "faq5A": "{name} conta com cerca de {totalRuns} pistas sinalizadas no total. A repartição por cor acima mostra como se distribuem por dificuldade, um bom indicador para saber se a estância se adapta ao seu nível."
+    "faq5A": "{name} conta com cerca de {totalRuns} pistas sinalizadas no total. A repartição por cor acima mostra como se distribuem por dificuldade, um bom indicador para saber se a estância se adapta ao seu nível.",
+    "goodToKnow": "Bom saber"
   },
   "best": {
     "title": "As melhores estâncias de esqui: listas por intenção",
@@ -164,7 +165,10 @@
     "privacy": "Privacidade",
     "contact": "Contacto",
     "disclosureText": "Este site contém ligações de afiliação. Recebemos uma comissão sobre as reservas efetuadas através dos nossos parceiros, sem custo adicional para si. É o que permite que o BestSnowHotels continue gratuito.",
-    "copyright": "© 2026 BestSnowHotels. Todos os direitos reservados."
+    "copyright": "© 2026 BestSnowHotels. Todos os direitos reservados.",
+    "network": "Também da nossa equipa:",
+    "networkHoneymoon": "hotéis para lua de mel",
+    "networkPets": "hotéis que aceitam animais"
   },
   "home": {
     "topTitle": "Top destinos de esqui",
