@@ -48,6 +48,10 @@ A live snow + 7-day forecast section sits at /weather, refreshed every 30 minute
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
 
+## Ski season opening dates
+
+- /opening-dates: resorts grouped by typical opening window (year-round glaciers, autumn glacier openers, October / November / December openers, spring + summer skiing, Southern Hemisphere June-October). Indicative windows from recent seasons, not confirmed 2026-2027 dates; each resort links to its official site to confirm.
+
 ## Best-for lists (curated)
 
 Curated lists for travellers shopping by intent rather than by name. Europe lists scope to the 10 European countries; Japan and USA each get their own.
@@ -152,12 +156,12 @@ Index: https://www.bestsnowhotels.com/en/when
 - Algeria (3): Chréa (Atlas Blidéen, near Algiers); Tikjda, Tala-Guilef (Djurdjura, Kabylia)
 - Lesotho (1): Afriski Mountain Resort (Maluti, highest ski base in Africa at 3050 m, southern-hemisphere season Jun-Aug)
 - South Africa (1): Tiffindell (Eastern Cape Drakensberg, southern-hemisphere season Jun-Aug)
-- Egypt (1): Ski Egypt (Mall of Egypt, Cairo — the only indoor ski slope in Africa, year-round)
+- Egypt (1): Ski Egypt (Mall of Egypt, Cairo, the only indoor ski slope in Africa, year-round)
 - Canada (10): Whistler Blackcomb (Coast Mountains, BC); Banff Sunshine, Lake Louise, Marmot Basin (Canadian Rockies, Alberta); Revelstoke, Big White, Sun Peaks, Kicking Horse (BC Interior); Tremblant, Mont-Sainte-Anne (Laurentides, Quebec)
-- South Korea (10): Yongpyong, High1, Phoenix Pyeongchang, Alpensia, Vivaldi Park, Welli Hilli Park (Taebaek Mountains / Gangwon Province — PyeongChang 2018 Olympic cluster); Konjiam, Oak Valley (Seoul Capital Area); Muju Deogyusan, Eden Valley (Sobaek Mountains / Southern Korea)
-- Australia (5): Perisher, Thredbo (Snowy Mountains, NSW); Falls Creek, Mt Hotham, Mt Buller (Victorian Alps) — Southern Hemisphere season Jun-Sep, snow gum eucalyptus forests
-- New Zealand (5): Cardrona, Treble Cone (Wanaka); Coronet Peak, The Remarkables (Queenstown); Mt Hutt (Canterbury / Methven) — Southern Hemisphere season Jun-Oct, no on-mountain lodging, you commute from lakeside towns
-- Chile (3): Valle Nevado (Tres Valles, highest base in Chile at 3025 m), Portillo (1966 Alpine World Championships, Hotel Portillo on Laguna del Inca), La Parva (Tres Valles, residential club, Santiago day-trip) — Andes range, Southern Hemisphere season Jun-Oct
+- South Korea (10): Yongpyong, High1, Phoenix Pyeongchang, Alpensia, Vivaldi Park, Welli Hilli Park (Taebaek Mountains / Gangwon Province, PyeongChang 2018 Olympic cluster); Konjiam, Oak Valley (Seoul Capital Area); Muju Deogyusan, Eden Valley (Sobaek Mountains / Southern Korea)
+- Australia (5): Perisher, Thredbo (Snowy Mountains, NSW); Falls Creek, Mt Hotham, Mt Buller (Victorian Alps), Southern Hemisphere season Jun-Sep, snow gum eucalyptus forests
+- New Zealand (5): Cardrona, Treble Cone (Wanaka); Coronet Peak, The Remarkables (Queenstown); Mt Hutt (Canterbury / Methven), Southern Hemisphere season Jun-Oct, no on-mountain lodging, you commute from lakeside towns
+- Chile (3): Valle Nevado (Tres Valles, highest base in Chile at 3025 m), Portillo (1966 Alpine World Championships, Hotel Portillo on Laguna del Inca), La Parva (Tres Valles, residential club, Santiago day-trip), Andes range, Southern Hemisphere season Jun-Oct
 
 ## Languages
 

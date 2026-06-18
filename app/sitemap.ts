@@ -168,6 +168,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
     }
 
+    // Opening dates (typical season windows)
+    entries.push({
+      url: `${SITE_URL}/${locale}/opening-dates`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.75,
+      alternates: {
+        languages: hreflangFor(`/opening-dates`),
+      },
+    })
+
     // When index + seasonal guides
     entries.push({
       url: `${SITE_URL}/${locale}/when`,
