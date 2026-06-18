@@ -941,6 +941,16 @@ export const BEST_FOR_LISTS: BestForList[] = [
     sort: (d) => d.snowScore + (d.vibes.some((v) => LUX_VIBES.has(v)) ? 10 : 0),
     limit: 16,
   },
+  {
+    slug: 'highest-world',
+    heroSlug: 'zermatt',
+    ...x('highest-world'),
+    // Worldwide, ranked by the highest lift-served point. Per-resort summit
+    // altitude (not a shared linked-domain figure), so the ranking is clean.
+    filter: () => true,
+    sort: (d) => d.altitudeSummit,
+    limit: 24,
+  },
 ]
 
 export function getBestForList(slug: string): BestForList | undefined {
