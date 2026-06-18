@@ -49,6 +49,11 @@ export const COMPARE_PAIRS: ComparePair[] = [
   pair('niseko-vs-hakuba-happo-one', 'niseko', 'hakuba-happo-one', 'niseko'),
   pair('chamonix-vs-zermatt', 'chamonix', 'zermatt', 'chamonix'),
   pair('aspen-snowmass-vs-vail', 'aspen-snowmass', 'vail', 'aspen-snowmass'),
+  pair('val-d-isere-vs-tignes', 'val-d-isere', 'tignes', 'val-d-isere'),
+  pair('courchevel-vs-meribel', 'courchevel', 'meribel', 'courchevel'),
+  pair('les-arcs-vs-la-plagne', 'les-arcs', 'la-plagne', 'les-arcs'),
+  pair('saalbach-vs-st-anton', 'saalbach', 'st-anton', 'st-anton'),
+  pair('jackson-hole-vs-big-sky', 'jackson-hole', 'big-sky', 'jackson-hole'),
 ]
 
 export function getComparePair(slug: string): ComparePair | undefined {

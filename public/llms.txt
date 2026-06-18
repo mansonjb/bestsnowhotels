@@ -107,6 +107,18 @@ Side-by-side editorial comparisons with side-by-side stats and clear verdicts:
 - /compare/niseko-vs-hakuba-happo-one (Japan: powder vs Olympic legacy)
 - /compare/chamonix-vs-zermatt (Mont Blanc vs Matterhorn)
 - /compare/aspen-snowmass-vs-vail (Colorado old-money rivals)
+- /compare/val-d-isere-vs-tignes (Espace Killy duo: stone village vs purpose-built lake)
+- /compare/courchevel-vs-meribel (Trois Vallées siblings)
+- /compare/les-arcs-vs-la-plagne (Paradiski rivals)
+- /compare/saalbach-vs-st-anton (Austria: Skicircus vs Arlberg birthplace)
+- /compare/jackson-hole-vs-big-sky (US Northern Rockies expert duel)
+
+Travel-intent best-for lists (high search volume):
+- /best/cheap-ski (budget Europe: Bansko, Borovets, Sierra Nevada, Andorra, Italian East)
+- /best/ski-near-paris (TGV + drive: French Alps, Pyrenees)
+- /best/ski-near-london (Geneva / Salzburg flight + drive, Japan)
+- /best/spring-skiing (April + May glaciers and high-altitude)
+- /best/ski-honeymoon (luxury romantic: St. Moritz, Gstaad, Aspen, Niseko)
 
 Index: https://www.bestsnowhotels.com/en/compare
 

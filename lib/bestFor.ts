@@ -11,6 +11,19 @@ import {
   isChile,
   isAfrica,
 } from './countries'
+import bestForExtra from '@/data/bestForExtra.json'
+
+interface ExtraContent {
+  name: Record<Locale, string>
+  intro: Record<Locale, string>
+  description: Record<Locale, string>
+}
+const EXTRA = bestForExtra as Record<string, ExtraContent>
+const x = (slug: string): ExtraContent => {
+  const c = EXTRA[slug]
+  if (!c) throw new Error(`Missing best-for extra content for ${slug}`)
+  return c
+}
 
 /**
  * Curated "Best for ..." lists for programmatic SEO. Each list is a localised
@@ -58,7 +71,35 @@ const CITIES = {
   lyon: { lat: 45.764, lng: 4.8357, radiusKm: 250 },
   munich: { lat: 48.1351, lng: 11.582, radiusKm: 300 },
   barcelona: { lat: 41.3851, lng: 2.1734, radiusKm: 300 },
+  paris: { lat: 48.8566, lng: 2.3522, radiusKm: 850 },
 }
+
+/** Resorts London-based skiers reach by flight + drive (Geneva / Salzburg / Sapporo gateways). */
+const NEAR_LONDON_SLUGS = new Set([
+  'chamonix', 'val-thorens', 'meribel', 'courchevel', 'tignes', 'val-d-isere',
+  'verbier', 'zermatt', 'st-anton', 'ischgl', 'saalbach',
+  'kitzbuhel', 'mayrhofen', 'solden', 'avoriaz', 'morzine',
+  'hakuba-happo-one', 'niseko', 'whistler-blackcomb',
+])
+
+/** Curated romantic / luxury / quiet resorts that work for a honeymoon. */
+const HONEYMOON_SLUGS = new Set([
+  'st-moritz', 'gstaad', 'megeve', 'courchevel', 'zermatt', 'cortina-d-ampezzo',
+  'lech-zurs', 'aspen-snowmass', 'beaver-creek', 'niseko', 'tomamu',
+  'deer-valley', 'telluride', 'verbier', 'saint-luc',
+])
+
+/** Curated value resorts: low base price, accessible Europe + Andorra. */
+const CHEAP_SKI_SLUGS = new Set([
+  'la-molina', 'masella', 'cerler', 'astun', 'candanchu', 'panticosa',
+  'port-aine', 'espot', 'vallter-2000', 'port-del-comte',
+  'grandvalira', 'vallnord-pal-arinsal', 'ordino-arcalis',
+  'aprica', 'foppolo', 'piancavallo', 'forni-di-sopra', 'sappada',
+  'ponte-di-legno', 'tarvisio', 'limone-piemonte', 'sella-nevea',
+  'cervinia', 'andalo', 'folgaria',
+  'praz-de-lys-sommand', 'porte-puymorens', 'ax-3-domaines', 'formiguères',
+  'luchon-superbagneres', 'piau-engaly', 'guzet', 'gourette',
+])
 
 // Continent / country helpers now live in lib/countries.ts as the single
 // source of truth (COUNTRY_META + derived predicates). See the imports above.
@@ -851,6 +892,54 @@ export const BEST_FOR_LISTS: BestForList[] = [
     filter: (d) => isChile(d),
     sort: (d) => d.snowScore,
     limit: 10,
+  },
+  // ---------- Wave 15: high-intent SEO traffic pages ----------
+  {
+    slug: 'cheap-ski',
+    heroSlug: 'cervinia',
+    ...x('cheap-ski'),
+    filter: (d) =>
+      isEurope(d) &&
+      (CHEAP_SKI_SLUGS.has(d.slug) || d.vibes.includes('value')),
+    sort: (d) => (d.vibes.includes('value') ? 5 : 0) + d.snowScore / 20 + d.pistesKm / 100,
+    limit: 24,
+  },
+  {
+    slug: 'ski-near-paris',
+    heroSlug: 'tignes',
+    ...x('ski-near-paris'),
+    filter: (d) =>
+      distanceKm(CITIES.paris.lat, CITIES.paris.lng, d.lat, d.lng) <= CITIES.paris.radiusKm,
+    sort: (d) => d.snowScore + d.pistesKm / 50,
+    limit: 24,
+  },
+  {
+    slug: 'ski-near-london',
+    heroSlug: 'chamonix',
+    ...x('ski-near-london'),
+    filter: (d) => NEAR_LONDON_SLUGS.has(d.slug),
+    sort: (d) => d.snowScore + d.pistesKm / 50,
+    limit: 20,
+  },
+  {
+    slug: 'spring-skiing',
+    heroSlug: 'saas-fee',
+    ...x('spring-skiing'),
+    filter: (d) =>
+      d.altitudeBase >= 2000 ||
+      d.vibes.includes('glacier') ||
+      d.vibes.includes('summer-ski') ||
+      d.vibes.includes('snow-sure'),
+    sort: (d) => d.altitudeBase / 100 + d.snowScore,
+    limit: 24,
+  },
+  {
+    slug: 'ski-honeymoon',
+    heroSlug: 'zermatt',
+    ...x('ski-honeymoon'),
+    filter: (d) => HONEYMOON_SLUGS.has(d.slug),
+    sort: (d) => d.snowScore + (d.vibes.some((v) => LUX_VIBES.has(v)) ? 10 : 0),
+    limit: 16,
   },
 ]
 
