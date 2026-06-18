@@ -876,7 +876,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       it: 'Migliori località sciistiche in Cile',
     },
     intro: {
-      en: 'The Andes around Santiago: three classics that frame Chilean skiing — Portillo on Laguna del Inca, Valle Nevado and La Parva in the Tres Valles cluster, Southern Hemisphere Jun-Oct.',
+      en: 'The Andes around Santiago: three classics that frame Chilean skiing, Portillo on Laguna del Inca, Valle Nevado and La Parva in the Tres Valles cluster, Southern Hemisphere Jun-Oct.',
       fr: "Les Andes autour de Santiago : trois classiques qui résument le ski chilien, Portillo sur la Laguna del Inca, Valle Nevado et La Parva dans la grappe des Tres Valles, hiver austral de juin à octobre.",
       es: 'Los Andes alrededor de Santiago: tres clásicos que resumen el esquí chileno, Portillo sobre la Laguna del Inca, Valle Nevado y La Parva en el grupo Tres Valles, invierno austral de junio a octubre.',
       pt: 'Os Andes em torno de Santiago: três clássicos que resumem o esqui chileno, Portillo sobre a Laguna del Inca, Valle Nevado e La Parva no cluster dos Tres Valles, inverno austral de junho a outubro.',
