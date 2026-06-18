@@ -133,11 +133,11 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     it: 'Monti Wasatch',
   },
   'Sierra Nevada': {
-    en: 'Sierra Nevada',
-    fr: 'Sierra Nevada',
-    es: 'Sierra Nevada',
-    pt: 'Serra Nevada',
-    it: 'Sierra Nevada',
+    en: 'Sierra Nevada (California)',
+    fr: 'Sierra Nevada (Californie)',
+    es: 'Sierra Nevada (California)',
+    pt: 'Sierra Nevada (Califórnia)',
+    it: 'Sierra Nevada (California)',
   },
   'Northern Rockies': {
     en: 'Northern Rockies',
@@ -245,11 +245,11 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     it: 'Alpi australiane',
   },
   'Southern Alps': {
-    en: 'Southern Alps',
-    fr: 'Alpes du Sud',
-    es: 'Alpes del Sur',
-    pt: 'Alpes do Sul',
-    it: 'Alpi del Sud',
+    en: 'Southern Alps (NZ)',
+    fr: 'Alpes du Sud (Nouvelle-Zélande)',
+    es: 'Alpes del Sur (Nueva Zelanda)',
+    pt: 'Alpes do Sul (Nova Zelândia)',
+    it: 'Alpi del Sud (Nuova Zelanda)',
   },
   'Andes': {
     en: 'Andes',

@@ -41,8 +41,11 @@ const MONTH_IDX: Record<string, number> = {
   Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12,
 }
 function seasonCoversMonth(d: Destination, month: number): boolean {
-  const start = MONTH_IDX[d.seasonStart.slice(0, 3)] ?? 1
-  const end = MONTH_IDX[d.seasonEnd.slice(0, 3)] ?? 12
+  // Year-round resorts (indoor, glacier-365) — explicit pass.
+  if (d.seasonStart === 'All year' || d.seasonEnd === 'All year') return true
+  const start = MONTH_IDX[d.seasonStart.slice(0, 3)]
+  const end = MONTH_IDX[d.seasonEnd.slice(0, 3)]
+  if (!start || !end) return true // unknown season string — be permissive rather than silently dropping
   return start <= end ? month >= start && month <= end : month >= start || month <= end
 }
 
