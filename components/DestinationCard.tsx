@@ -42,7 +42,7 @@ export default function DestinationCard({
           <span>{localizeCountry(d.country, locale)}</span>
         </div>
         <div className="absolute top-3 right-3 bg-slate-deep/90 text-white rounded-full px-3 py-1 text-xs font-bold tabular-nums">
-          {d.altitudeSummit.toLocaleString()} m
+          {d.altitudeSummit} m
         </div>
         <div className="absolute bottom-3 left-4 right-4">
           <h3 className="text-2xl font-bold text-white drop-shadow-md">{d.name}</h3>
@@ -57,7 +57,7 @@ export default function DestinationCard({
               {labels.altitude}
             </div>
             <div className="text-slate-deep font-semibold tabular-nums">
-              {d.altitudeBase.toLocaleString()} - {d.altitudeSummit.toLocaleString()} m
+              {d.altitudeBase} - {d.altitudeSummit} m
             </div>
           </div>
           <div>

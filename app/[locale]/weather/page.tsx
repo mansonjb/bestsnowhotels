@@ -211,7 +211,7 @@ export default async function WeatherIndexPage({
                         </span>
                       </div>
                       <div className="col-span-3 sm:col-span-3 text-ice-700 tabular-nums text-xs sm:text-sm">
-                        {d.altitudeBase.toLocaleString()} - {d.altitudeSummit.toLocaleString()} m
+                        {d.altitudeBase} - {d.altitudeSummit} m
                       </div>
                       <div className="col-span-2 sm:col-span-2 font-bold text-slate-deep tabular-nums text-right">
                         {formatSnowCm(depth ?? null, l)}

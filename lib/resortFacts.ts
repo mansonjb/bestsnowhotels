@@ -60,6 +60,10 @@ function sizeBand(d: Destination): Size {
   return 'compact'
 }
 
+// Altitudes (<=4 digits) read clearly without a thousands separator, which also
+// avoids "2,300" being read as a decimal in fr/es/pt/it (matches resortGuide.ts).
+const km = (n: number) => String(n)
+
 /* Localised fragment tables. Each sentence template is a function of the
  * resort so we can interpolate numbers and pick the right categorical clause. */
 
@@ -89,32 +93,32 @@ const TERRAIN: Record<Profile, Record<Locale, (d: Destination) => string>> = {
 
 const SNOW: Record<Snow, Record<Locale, (d: Destination) => string>> = {
   elite: {
-    en: (d) => `With a base at ${d.altitudeBase.toLocaleString()} m climbing to ${d.altitudeSummit.toLocaleString()} m, snow reliability is among the best on our index (score ${d.snowScore}/100).`,
-    fr: (d) => `Avec une base à ${d.altitudeBase.toLocaleString()} m qui grimpe jusqu'à ${d.altitudeSummit.toLocaleString()} m, la fiabilité de l'enneigement compte parmi les meilleures de notre index (score ${d.snowScore}/100).`,
-    es: (d) => `Con una base a ${d.altitudeBase.toLocaleString()} m que sube hasta ${d.altitudeSummit.toLocaleString()} m, la fiabilidad de la nieve está entre las mejores de nuestro índice (puntuación ${d.snowScore}/100).`,
-    pt: (d) => `Com uma base a ${d.altitudeBase.toLocaleString()} m que sobe até ${d.altitudeSummit.toLocaleString()} m, a fiabilidade da neve está entre as melhores do nosso índice (pontuação ${d.snowScore}/100).`,
-    it: (d) => `Con una base a ${d.altitudeBase.toLocaleString()} m che sale fino a ${d.altitudeSummit.toLocaleString()} m, l'affidabilità della neve è tra le migliori del nostro indice (punteggio ${d.snowScore}/100).`,
+    en: (d) => `With a base at ${km(d.altitudeBase)} m climbing to ${km(d.altitudeSummit)} m, snow reliability is among the best on our index (score ${d.snowScore}/100).`,
+    fr: (d) => `Avec une base à ${km(d.altitudeBase)} m qui grimpe jusqu'à ${km(d.altitudeSummit)} m, la fiabilité de l'enneigement compte parmi les meilleures de notre index (score ${d.snowScore}/100).`,
+    es: (d) => `Con una base a ${km(d.altitudeBase)} m que sube hasta ${km(d.altitudeSummit)} m, la fiabilidad de la nieve está entre las mejores de nuestro índice (puntuación ${d.snowScore}/100).`,
+    pt: (d) => `Com uma base a ${km(d.altitudeBase)} m que sobe até ${km(d.altitudeSummit)} m, a fiabilidade da neve está entre as melhores do nosso índice (pontuação ${d.snowScore}/100).`,
+    it: (d) => `Con una base a ${km(d.altitudeBase)} m che sale fino a ${km(d.altitudeSummit)} m, l'affidabilità della neve è tra le migliori del nostro indice (punteggio ${d.snowScore}/100).`,
   },
   reliable: {
-    en: (d) => `The base sits at ${d.altitudeBase.toLocaleString()} m and the top reaches ${d.altitudeSummit.toLocaleString()} m, a profile that holds snow well across a normal winter (score ${d.snowScore}/100).`,
-    fr: (d) => `La base est à ${d.altitudeBase.toLocaleString()} m et le sommet atteint ${d.altitudeSummit.toLocaleString()} m, un profil qui tient bien la neige sur un hiver normal (score ${d.snowScore}/100).`,
-    es: (d) => `La base está a ${d.altitudeBase.toLocaleString()} m y la cima llega a ${d.altitudeSummit.toLocaleString()} m, un perfil que aguanta bien la nieve en un invierno normal (puntuación ${d.snowScore}/100).`,
-    pt: (d) => `A base fica a ${d.altitudeBase.toLocaleString()} m e o topo chega a ${d.altitudeSummit.toLocaleString()} m, um perfil que segura bem a neve num inverno normal (pontuação ${d.snowScore}/100).`,
-    it: (d) => `La base è a ${d.altitudeBase.toLocaleString()} m e la cima raggiunge ${d.altitudeSummit.toLocaleString()} m, un profilo che tiene bene la neve in un inverno normale (punteggio ${d.snowScore}/100).`,
+    en: (d) => `The base sits at ${km(d.altitudeBase)} m and the top reaches ${km(d.altitudeSummit)} m, a profile that holds snow well across a normal winter (score ${d.snowScore}/100).`,
+    fr: (d) => `La base est à ${km(d.altitudeBase)} m et le sommet atteint ${km(d.altitudeSummit)} m, un profil qui tient bien la neige sur un hiver normal (score ${d.snowScore}/100).`,
+    es: (d) => `La base está a ${km(d.altitudeBase)} m y la cima llega a ${km(d.altitudeSummit)} m, un perfil que aguanta bien la nieve en un invierno normal (puntuación ${d.snowScore}/100).`,
+    pt: (d) => `A base fica a ${km(d.altitudeBase)} m e o topo chega a ${km(d.altitudeSummit)} m, um perfil que segura bem a neve num inverno normal (pontuação ${d.snowScore}/100).`,
+    it: (d) => `La base è a ${km(d.altitudeBase)} m e la cima raggiunge ${km(d.altitudeSummit)} m, un profilo che tiene bene la neve in un inverno normale (punteggio ${d.snowScore}/100).`,
   },
   decent: {
-    en: (d) => `From ${d.altitudeBase.toLocaleString()} m at the base to ${d.altitudeSummit.toLocaleString()} m up top, the resort leans on grooming and snowmaking in lean spells (score ${d.snowScore}/100).`,
-    fr: (d) => `De ${d.altitudeBase.toLocaleString()} m en bas à ${d.altitudeSummit.toLocaleString()} m en haut, la station s'appuie sur le damage et la neige de culture lors des passages maigres (score ${d.snowScore}/100).`,
-    es: (d) => `De ${d.altitudeBase.toLocaleString()} m en la base a ${d.altitudeSummit.toLocaleString()} m arriba, la estación se apoya en el pisado y la nieve de cultivo en los tramos flojos (puntuación ${d.snowScore}/100).`,
-    pt: (d) => `De ${d.altitudeBase.toLocaleString()} m na base a ${d.altitudeSummit.toLocaleString()} m no topo, a estância apoia-se no pisão e na neve artificial nos períodos fracos (pontuação ${d.snowScore}/100).`,
-    it: (d) => `Da ${d.altitudeBase.toLocaleString()} m alla base a ${d.altitudeSummit.toLocaleString()} m in cima, la località si appoggia su battitura e neve programmata nei periodi magri (punteggio ${d.snowScore}/100).`,
+    en: (d) => `From ${km(d.altitudeBase)} m at the base to ${km(d.altitudeSummit)} m up top, the resort leans on grooming and snowmaking in lean spells (score ${d.snowScore}/100).`,
+    fr: (d) => `De ${km(d.altitudeBase)} m en bas à ${km(d.altitudeSummit)} m en haut, la station s'appuie sur le damage et la neige de culture lors des passages maigres (score ${d.snowScore}/100).`,
+    es: (d) => `De ${km(d.altitudeBase)} m en la base a ${km(d.altitudeSummit)} m arriba, la estación se apoya en el pisado y la nieve de cultivo en los tramos flojos (puntuación ${d.snowScore}/100).`,
+    pt: (d) => `De ${km(d.altitudeBase)} m na base a ${km(d.altitudeSummit)} m no topo, a estância apoia-se no pisão e na neve artificial nos períodos fracos (pontuação ${d.snowScore}/100).`,
+    it: (d) => `Da ${km(d.altitudeBase)} m alla base a ${km(d.altitudeSummit)} m in cima, la località si appoggia su battitura e neve programmata nei periodi magri (punteggio ${d.snowScore}/100).`,
   },
   low: {
-    en: (d) => `At ${d.altitudeBase.toLocaleString()} m to ${d.altitudeSummit.toLocaleString()} m this is a lower-altitude resort, so check conditions before you book and lean on the live snow report (score ${d.snowScore}/100).`,
-    fr: (d) => `Entre ${d.altitudeBase.toLocaleString()} m et ${d.altitudeSummit.toLocaleString()} m, c'est une station de plus basse altitude : vérifiez les conditions avant de réserver et fiez-vous au bulletin neige en direct (score ${d.snowScore}/100).`,
-    es: (d) => `Entre ${d.altitudeBase.toLocaleString()} m y ${d.altitudeSummit.toLocaleString()} m es una estación de menor altitud: comprueba las condiciones antes de reservar y apóyate en el parte de nieve en directo (puntuación ${d.snowScore}/100).`,
-    pt: (d) => `Entre ${d.altitudeBase.toLocaleString()} m e ${d.altitudeSummit.toLocaleString()} m é uma estância de menor altitude: verifique as condições antes de reservar e confie no boletim de neve em direto (pontuação ${d.snowScore}/100).`,
-    it: (d) => `Tra ${d.altitudeBase.toLocaleString()} m e ${d.altitudeSummit.toLocaleString()} m è una località di quota più bassa: controlla le condizioni prima di prenotare e affidati al bollettino neve in tempo reale (punteggio ${d.snowScore}/100).`,
+    en: (d) => `At ${km(d.altitudeBase)} m to ${km(d.altitudeSummit)} m this is a lower-altitude resort, so check conditions before you book and lean on the live snow report (score ${d.snowScore}/100).`,
+    fr: (d) => `Entre ${km(d.altitudeBase)} m et ${km(d.altitudeSummit)} m, c'est une station de plus basse altitude : vérifiez les conditions avant de réserver et fiez-vous au bulletin neige en direct (score ${d.snowScore}/100).`,
+    es: (d) => `Entre ${km(d.altitudeBase)} m y ${km(d.altitudeSummit)} m es una estación de menor altitud: comprueba las condiciones antes de reservar y apóyate en el parte de nieve en directo (puntuación ${d.snowScore}/100).`,
+    pt: (d) => `Entre ${km(d.altitudeBase)} m e ${km(d.altitudeSummit)} m é uma estância de menor altitude: verifique as condições antes de reservar e confie no boletim de neve em direto (pontuação ${d.snowScore}/100).`,
+    it: (d) => `Tra ${km(d.altitudeBase)} m e ${km(d.altitudeSummit)} m è una località di quota più bassa: controlla le condizioni prima di prenotare e affidati al bollettino neve in tempo reale (punteggio ${d.snowScore}/100).`,
   },
 }
 

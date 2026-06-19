@@ -106,11 +106,11 @@ export default async function SkiAreaPage({
         it: `Quanto è grande il comprensorio di ${area.name}?`,
       } as Record<Locale, string>,
       a: {
-        en: `${area.name} offers ${area.pistesKm} km of marked piste and about ${area.lifts} lifts, rising to ${area.topAltitude.toLocaleString()} m.`,
-        fr: `${area.name} propose ${area.pistesKm} km de pistes balisées et environ ${area.lifts} remontées, jusqu'à ${area.topAltitude.toLocaleString()} m.`,
-        es: `${area.name} ofrece ${area.pistesKm} km de pistas balizadas y unos ${area.lifts} remontes, hasta los ${area.topAltitude.toLocaleString()} m.`,
-        pt: `${area.name} oferece ${area.pistesKm} km de pistas balizadas e cerca de ${area.lifts} teleféricos, até aos ${area.topAltitude.toLocaleString()} m.`,
-        it: `${area.name} offre ${area.pistesKm} km di piste segnalate e circa ${area.lifts} impianti, fino a ${area.topAltitude.toLocaleString()} m.`,
+        en: `${area.name} offers ${area.pistesKm} km of marked piste and about ${area.lifts} lifts, rising to ${area.topAltitude} m.`,
+        fr: `${area.name} propose ${area.pistesKm} km de pistes balisées et environ ${area.lifts} remontées, jusqu'à ${area.topAltitude} m.`,
+        es: `${area.name} ofrece ${area.pistesKm} km de pistas balizadas y unos ${area.lifts} remontes, hasta los ${area.topAltitude} m.`,
+        pt: `${area.name} oferece ${area.pistesKm} km de pistas balizadas e cerca de ${area.lifts} teleféricos, até aos ${area.topAltitude} m.`,
+        it: `${area.name} offre ${area.pistesKm} km di piste segnalate e circa ${area.lifts} impianti, fino a ${area.topAltitude} m.`,
       } as Record<Locale, string>,
     },
   ]
@@ -197,7 +197,7 @@ export default async function SkiAreaPage({
             <Stat value={`${area.members.length}`} label={dict.destinations.resorts} />
             <Stat value={`${area.pistesKm} km`} label={dict.destination.pistesKm} />
             <Stat value={`${area.lifts}`} label={dict.destination.lifts} />
-            <Stat value={`${area.topAltitude.toLocaleString()} m`} label={dict.destination.altitudeSummit} />
+            <Stat value={`${area.topAltitude} m`} label={dict.destination.altitudeSummit} />
           </div>
         </div>
       </section>

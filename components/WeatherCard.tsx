@@ -68,7 +68,7 @@ export default function WeatherCard({
         <div className="absolute bottom-3 left-4 right-4">
           <h3 className="text-2xl font-bold text-white drop-shadow-md">{d.name}</h3>
           <p className="text-sm text-white/90 drop-shadow tabular-nums">
-            {d.altitudeBase.toLocaleString()} - {d.altitudeSummit.toLocaleString()} m
+            {d.altitudeBase} - {d.altitudeSummit} m
           </p>
         </div>
       </div>

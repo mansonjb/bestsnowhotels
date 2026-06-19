@@ -178,8 +178,8 @@ export default async function DestinationDetailPage({
       .replace('{name}', d.name)
       .replace('{pistesKm}', String(d.pistesKm))
       .replace('{lifts}', String(d.lifts))
-      .replace('{altitudeBase}', d.altitudeBase.toLocaleString())
-      .replace('{altitudeSummit}', d.altitudeSummit.toLocaleString())
+      .replace('{altitudeBase}', String(d.altitudeBase))
+      .replace('{altitudeSummit}', String(d.altitudeSummit))
       .replace('{seasonStart}', formatSeasonDate(d.seasonStart, l))
       .replace('{seasonEnd}', formatSeasonDate(d.seasonEnd, l))
       .replace('{snowScore}', String(d.snowScore))
@@ -304,8 +304,8 @@ export default async function DestinationDetailPage({
           {/* Key stats, above the fold */}
           <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-px bg-ice-100 rounded-2xl overflow-hidden shadow-2xl shadow-slate-deep/40">
             {[
-              { label: dict.destinations.altitude, value: `${d.altitudeBase.toLocaleString()} - ${d.altitudeSummit.toLocaleString()} m` },
-              { label: dict.destination.verticalDrop, value: `${verticalDrop.toLocaleString()} m` },
+              { label: dict.destinations.altitude, value: `${d.altitudeBase} - ${d.altitudeSummit} m` },
+              { label: dict.destination.verticalDrop, value: `${verticalDrop} m` },
               { label: dict.destination.pistesKm, value: `${d.pistesKm} km` },
               { label: dict.destination.lifts, value: `${d.lifts}` },
               { label: dict.destinations.snowScore, value: `${d.snowScore}/100` },

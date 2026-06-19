@@ -102,7 +102,7 @@ export default function DestinationFilters({
             <label className="flex justify-between text-xs font-semibold uppercase tracking-wide text-ice-700 mb-1.5">
               <span>{uiLabels.minAltitude}</span>
               <span className="tabular-nums text-slate-deep">
-                {minAltitude.toLocaleString()} m
+                {minAltitude} m
               </span>
             </label>
             <input

@@ -98,7 +98,7 @@ async function main() {
   let urls = await listSitemapUrls()
   console.log(`Sitemap URLs: ${urls.length}`)
 
-  // Persist the FULL sitemap as the seen set BEFORE filtering — otherwise a
+  // Persist the FULL sitemap as the seen set BEFORE filtering; otherwise a
   // run with `--new --filter=compare` would record only compare URLs and the
   // next `--new` (no filter) would re-submit every non-compare URL as "new".
   if (onlyNew) {
