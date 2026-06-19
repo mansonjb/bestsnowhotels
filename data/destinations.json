@@ -20042,5 +20042,201 @@
       "red": 9,
       "black": 6
     }
+  },
+  {
+    "slug": "winter-park",
+    "name": "Winter Park",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Colorado Rockies",
+    "lat": 39.88694,
+    "lng": -105.7625,
+    "altitudeBase": 2743,
+    "altitudeSummit": 3676,
+    "pistesKm": 143,
+    "lifts": 23,
+    "skiInSkiOutNote": {
+      "en": "There is some genuine slopeside lodging at the base, mainly in the Village at Winter Park, so true ski-in ski-out is possible. Most visitors, however, stay in the nearby towns of Winter Park and Fraser and ride a short shuttle or drive to the lifts.",
+      "fr": "On trouve quelques hébergements réellement skis aux pieds au pied des pistes, surtout dans le Village at Winter Park, donc le vrai ski-in ski-out existe. La plupart des visiteurs logent cependant dans les villes voisines de Winter Park et Fraser et rejoignent les remontées en navette ou en voiture.",
+      "es": "Existe algún alojamiento realmente a pie de pista en la base, sobre todo en el Village at Winter Park, así que el ski-in ski-out auténtico es posible. Aun así, la mayoría de los visitantes se hospedan en los cercanos pueblos de Winter Park y Fraser y llegan a los remontes en una breve lanzadera o en coche.",
+      "pt": "Existe algum alojamento realmente à beira das pistas na base, sobretudo no Village at Winter Park, pelo que o verdadeiro ski-in ski-out é possível. Ainda assim, a maioria dos visitantes fica nas vilas vizinhas de Winter Park e Fraser e chega aos teleféricos num curto transfer ou de carro.",
+      "it": "Alla base esiste qualche alloggio davvero ai piedi delle piste, soprattutto nel Village at Winter Park, quindi il vero ski-in ski-out è possibile. La maggior parte dei visitatori, però, alloggia nei vicini paesi di Winter Park e Fraser e raggiunge gli impianti con una breve navetta o in auto."
+    },
+    "seasonStart": "Nov 15",
+    "seasonEnd": "Apr 20",
+    "snowScore": 88,
+    "vibes": [
+      "family",
+      "tree-skiing",
+      "powder"
+    ],
+    "intro": {
+      "en": "Winter Park is the closest big mountain to Denver, reached in well under two hours by car or aboard the seasonal ski train straight from the city. It pairs the famous Mary Jane side, a bump and tree skier's rite of passage, with the gentler Winter Park base, all served by reliable high Colorado snow.",
+      "fr": "Winter Park est la grande station la plus proche de Denver, accessible en bien moins de deux heures en voiture ou à bord du train de ski saisonnier qui part directement de la ville. Elle associe le célèbre versant Mary Jane, un passage obligé pour les amateurs de bosses et de glades, au domaine plus doux de la base de Winter Park, le tout porté par une neige du Colorado d'altitude réputée fiable.",
+      "es": "Winter Park es la gran estación más cercana a Denver, a la que se llega en bastante menos de dos horas en coche o a bordo del tren de esquí de temporada que sale directo desde la ciudad. Combina la famosa cara de Mary Jane, todo un rito de paso para los amantes de los baches y los árboles, con la zona más suave de la base de Winter Park, siempre con la fiable nieve de altura de Colorado.",
+      "pt": "Winter Park é a grande estância mais próxima de Denver, alcançada em bem menos de duas horas de carro ou a bordo do comboio de esqui sazonal que parte diretamente da cidade. Junta o famoso setor de Mary Jane, um rito de passagem para quem adora moguls e árvores, à zona mais suave da base de Winter Park, sempre com a fiável neve de altitude do Colorado.",
+      "it": "Winter Park è il grande comprensorio più vicino a Denver, raggiungibile in molto meno di due ore in auto o a bordo del treno della neve stagionale che parte direttamente dalla città. Unisce il celebre versante di Mary Jane, un rito di passaggio per gli amanti delle gobbe e dei boschi, alla zona più dolce della base di Winter Park, il tutto servito dalla affidabile neve d'alta quota del Colorado."
+    },
+    "longDescription": {
+      "en": "The resort splits naturally in two: the Mary Jane side is built on legendary mogul runs and tight tree skiing that reward strong intermediates and experts, while the original Winter Park base offers wide, forgiving slopes ideal for families and learners. Getting here is easy, about an hour and a quarter to an hour and a half from Denver on Interstate 70 and US 40, which makes it a favourite for both weekend trips and longer stays.",
+      "fr": "La station se divise naturellement en deux : le versant Mary Jane repose sur des pistes à bosses légendaires et un ski entre les arbres serré qui récompensent les bons skieurs intermédiaires et les experts, tandis que la base historique de Winter Park propose des pentes larges et indulgentes, idéales pour les familles et les débutants. L'accès est facile, environ une heure et quart à une heure et demie depuis Denver par l'Interstate 70 et la US 40, ce qui en fait une destination prisée aussi bien pour un week-end que pour un séjour plus long.",
+      "es": "La estación se divide de forma natural en dos: la cara de Mary Jane se asienta sobre legendarias pistas de baches y un esquí entre árboles muy cerrado que recompensa a los buenos intermedios y a los expertos, mientras que la base original de Winter Park ofrece pendientes anchas y benévolas, ideales para familias y principiantes. Llegar es sencillo, alrededor de una hora y cuarto a una hora y media desde Denver por la Interestatal 70 y la US 40, lo que la convierte en una favorita tanto para escapadas de fin de semana como para estancias más largas.",
+      "pt": "A estância divide-se naturalmente em duas: o setor de Mary Jane assenta em lendárias pistas de moguls e num esqui entre árvores muito cerrado que recompensa os bons intermédios e os experientes, ao passo que a base original de Winter Park oferece encostas largas e tolerantes, ideais para famílias e principiantes. Chegar é simples, cerca de uma hora e um quarto a uma hora e meia a partir de Denver pela Interestadual 70 e pela US 40, o que faz dela uma favorita tanto para escapadelas de fim de semana como para estadias mais longas.",
+      "it": "Il comprensorio si divide naturalmente in due: il versante di Mary Jane si fonda su leggendarie piste di gobbe e su uno sci tra gli alberi molto fitto che premiano i buoni intermedi e gli esperti, mentre la base originaria di Winter Park offre pendii ampi e clementi, ideali per famiglie e principianti. Arrivarci è facile, circa un'ora e un quarto, un'ora e mezza da Denver lungo la Interstate 70 e la US 40, il che ne fa una meta amata sia per le gite del fine settimana sia per soggiorni più lunghi."
+    },
+    "pisteCounts": {
+      "green": 13,
+      "blue": 30,
+      "red": 32,
+      "black": 92
+    }
+  },
+  {
+    "slug": "crested-butte",
+    "name": "Crested Butte",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Colorado Rockies",
+    "lat": 38.8997,
+    "lng": -106.965,
+    "altitudeBase": 2858,
+    "altitudeSummit": 3707,
+    "pistesKm": 80,
+    "lifts": 15,
+    "skiInSkiOutNote": {
+      "en": "The base village at Mt. Crested Butte has genuine slopeside lodging, with ski-in/ski-out condos and hotels right at the lifts. The historic town of Crested Butte sits about 3 miles below the mountain and is linked to the base by a free shuttle.",
+      "fr": "Le village au pied du Mt. Crested Butte propose un hébergement vraiment skis aux pieds, avec des condos et des hôtels au départ des remontées. La ville historique de Crested Butte se trouve à environ 5 km en contrebas et reste reliée à la station par une navette gratuite.",
+      "es": "El pueblo a pie de pista de Mt. Crested Butte ofrece alojamiento realmente a pie de pista, con apartamentos y hoteles junto a los remontes. El histórico pueblo de Crested Butte queda unos 5 km más abajo y se conecta con la base mediante un autobús lanzadera gratuito.",
+      "pt": "A aldeia na base de Mt. Crested Butte oferece alojamento verdadeiramente ski-in/ski-out, com apartamentos e hotéis junto aos teleféricos. A vila histórica de Crested Butte fica cerca de 5 km mais abaixo e está ligada à base por um autocarro gratuito.",
+      "it": "Il villaggio ai piedi di Mt. Crested Butte offre un alloggio davvero sulle piste, con residence e hotel proprio accanto agli impianti. Lo storico paese di Crested Butte si trova circa 5 km più in basso ed è collegato alla base da una navetta gratuita."
+    },
+    "seasonStart": "Nov 26",
+    "seasonEnd": "Apr 5",
+    "snowScore": 86,
+    "vibes": [
+      "expert",
+      "freeride",
+      "historic"
+    ],
+    "intro": {
+      "en": "Crested Butte is one of America's legendary destinations for steep and extreme skiing, home to the fearsome Extreme Limits and a maze of chutes that test even the strongest skiers. Below the mountain lies a beautifully preserved Victorian mining town, capping an end-of-the-road sense of remoteness deep in the Colorado Rockies.",
+      "fr": "Crested Butte est l'une des destinations mythiques du ski raide et extrême aux États-Unis, avec ses redoutables Extreme Limits et un dédale de couloirs qui mettent à l'épreuve les meilleurs skieurs. Au pied de la montagne s'étend une ancienne ville minière victorienne admirablement préservée, qui renforce ce sentiment de bout du monde au coeur des Rocheuses du Colorado.",
+      "es": "Crested Butte es uno de los destinos legendarios del esquí empinado y extremo de Estados Unidos, hogar de los temibles Extreme Limits y de un laberinto de canales que pone a prueba incluso a los esquiadores más fuertes. A los pies de la montaña se conserva un precioso pueblo minero victoriano, que acentúa esa sensación de lugar remoto y aislado en pleno corazón de las Rocosas de Colorado.",
+      "pt": "Crested Butte é um dos destinos lendários do esqui íngreme e extremo dos Estados Unidos, lar dos temíveis Extreme Limits e de um labirinto de corredores que põe à prova até os esquiadores mais fortes. Aos pés da montanha encontra-se uma vila mineira vitoriana lindamente preservada, que reforça a sensação de fim de mundo no coração das Montanhas Rochosas do Colorado.",
+      "it": "Crested Butte è una delle destinazioni leggendarie dello sci ripido ed estremo negli Stati Uniti, patria dei temibili Extreme Limits e di un dedalo di canaloni che mette alla prova anche gli sciatori più forti. Ai piedi della montagna sorge una bellissima cittadina mineraria vittoriana perfettamente conservata, che accentua quel senso di luogo remoto e isolato nel cuore delle Montagne Rocciose del Colorado."
+    },
+    "longDescription": {
+      "en": "Strong skiers come for the steeps, but Crested Butte also keeps plenty of gentle, rolling terrain for families and those still finding their feet. The historic town of Crested Butte sits a few miles below the mountain base, a colourful main street of old saloons, galleries and restaurants, while getting here means flying into Gunnison airport, about 30 miles to the south.",
+      "fr": "Les bons skieurs viennent pour les pentes raides, mais Crested Butte garde aussi de larges espaces doux et vallonnés pour les familles et celles et ceux qui débutent. La ville historique de Crested Butte se trouve à quelques kilomètres en contrebas du pied des pistes, avec une grand-rue haute en couleur de vieux saloons, de galeries et de restaurants, tandis que l'accès se fait par l'aéroport de Gunnison, à une cinquantaine de kilomètres au sud.",
+      "es": "Los buenos esquiadores vienen por las pendientes fuertes, pero Crested Butte también reserva amplias zonas suaves y onduladas para las familias y para quienes están aprendiendo. El histórico pueblo de Crested Butte se encuentra a pocos kilómetros por debajo de la base de la montaña, con una calle principal llena de color de antiguos saloons, galerías y restaurantes, mientras que para llegar hay que volar al aeropuerto de Gunnison, a unos 50 km al sur.",
+      "pt": "Os bons esquiadores procuram as encostas mais inclinadas, mas Crested Butte guarda também muitos espaços suaves e ondulados para famílias e para quem ainda está a dar os primeiros passos. A vila histórica de Crested Butte fica a poucos quilómetros abaixo da base da montanha, com uma rua principal cheia de cor, de antigos saloons, galerias e restaurantes, sendo que chegar aqui implica voar até ao aeroporto de Gunnison, cerca de 50 km a sul.",
+      "it": "Gli sciatori esperti vengono per i pendii ripidi, ma Crested Butte conserva anche ampi spazi dolci e ondulati per le famiglie e per chi sta ancora imparando. Lo storico paese di Crested Butte si trova a pochi chilometri sotto la base della montagna, con una pittoresca via principale di vecchi saloon, gallerie e ristoranti, mentre per arrivare occorre volare all'aeroporto di Gunnison, a circa 50 km a sud."
+    },
+    "pisteCounts": {
+      "green": 17,
+      "blue": 29,
+      "red": 30,
+      "black": 45
+    }
+  },
+  {
+    "slug": "fernie",
+    "name": "Fernie",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "BC Interior",
+    "lat": 49.4625,
+    "lng": -115.0869,
+    "altitudeBase": 1068,
+    "altitudeSummit": 2149,
+    "pistesKm": 145,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Fernie Alpine Resort has a compact slopeside base with a handful of true ski-in, ski-out lodges and condos right by the lifts. The historic town of Fernie sits about 5 km away, so most visitors who stay in town rely on a short drive or the shuttle to reach the snow.",
+      "fr": "Fernie Alpine Resort dispose d'un pied de pistes compact avec quelques rares chalets et appartements vraiment ski aux pieds, juste à côté des remontées. La ville historique de Fernie se trouve à environ 5 km, si bien que la plupart des visiteurs logés en ville prennent un court trajet en voiture ou la navette pour rejoindre la neige.",
+      "es": "Fernie Alpine Resort cuenta con una base compacta a pie de pista y un puñado de alojamientos y apartamentos realmente a pie de pista, junto a los remontes. El histórico pueblo de Fernie queda a unos 5 km, por lo que la mayoría de quienes se alojan en él dependen de un breve trayecto en coche o de la lanzadera para llegar a la nieve.",
+      "pt": "A Fernie Alpine Resort tem uma base compacta junto às pistas, com um punhado de alojamentos e apartamentos verdadeiramente ski-in, ski-out, mesmo ao lado dos teleféricos. A histórica vila de Fernie fica a cerca de 5 km, pelo que a maioria de quem se hospeda na vila depende de uma curta viagem de carro ou do autocarro de ligação para chegar à neve.",
+      "it": "Il Fernie Alpine Resort dispone di un fronte neve compatto con una manciata di veri alloggi e appartamenti ski-in, ski-out proprio accanto agli impianti. La storica cittadina di Fernie si trova a circa 5 km, quindi chi alloggia in paese di solito conta su un breve tragitto in auto o sulla navetta per raggiungere la neve."
+    },
+    "seasonStart": "Dec 1",
+    "seasonEnd": "Apr 15",
+    "snowScore": 90,
+    "vibes": [
+      "powder",
+      "freeride",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Fernie is one of the snowiest resorts in the Canadian Rockies, buried each winter under roughly nine metres of light, dry powder. Five legendary alpine bowls fan out from the jagged Lizard Range, feeding into some of the deepest tree skiing in British Columbia. Add a characterful old coal town at its feet and you have a true powder pilgrimage.",
+      "fr": "Fernie est l'une des stations les plus enneigées des Rocheuses canadiennes, ensevelie chaque hiver sous près de neuf mètres de poudreuse légère et sèche. Cinq cuvettes d'altitude mythiques s'ouvrent depuis la crête déchiquetée de la Lizard Range et alimentent l'un des plus beaux ski en forêt de Colombie-Britannique. Ajoutez à cela une vieille ville minière pleine de caractère au pied des pistes et vous tenez un véritable pèlerinage à poudreuse.",
+      "es": "Fernie es una de las estaciones con más nieve de las Rocosas canadienses, sepultada cada invierno bajo unos nueve metros de polvo ligero y seco. Cinco circos alpinos legendarios se abren desde la dentada cordillera de Lizard Range y dan paso a uno de los mejores esquís entre árboles de la Columbia Británica. Súmale un viejo pueblo minero con carácter a sus pies y tendrás una auténtica peregrinación en busca de polvo.",
+      "pt": "Fernie é uma das estâncias com mais neve das Montanhas Rochosas canadianas, soterrada todos os invernos sob cerca de nove metros de pó leve e seco. Cinco circos alpinos lendários abrem-se a partir da crista recortada da Lizard Range e dão acesso a um dos melhores esquis entre árvores da Colúmbia Britânica. Junte-lhe uma antiga vila mineira cheia de carácter aos pés das pistas e tem uma verdadeira peregrinação à neve fresca.",
+      "it": "Fernie è una delle località più nevose delle Montagne Rocciose canadesi, sepolta ogni inverno sotto circa nove metri di polvere leggera e asciutta. Cinque conche d'alta quota leggendarie si aprono dalla frastagliata Lizard Range e alimentano alcune delle più belle discese tra gli alberi della Columbia Britannica. Aggiungete una vecchia città mineraria piena di carattere ai piedi delle piste e avrete un autentico pellegrinaggio per gli amanti della neve fresca."
+    },
+    "longDescription": {
+      "en": "Fernie is made for powder hounds and confident skiers, with vast bowls, steep chutes and endless gladed trees that hold light snow for days, though there is plenty of well groomed terrain for everyone else too. The five bowls, Cedar, Lizard, Currie, Timber and Siberia, define the experience, while the historic town of Fernie sits a few kilometres from the hill with its brick main street, pubs and breweries. Getting here is straightforward: Calgary is about three hours away by road, making it an easy add-on to a Rockies road trip.",
+      "fr": "Fernie est faite pour les amateurs de poudreuse et les skieurs sûrs d'eux, avec ses vastes cuvettes, ses couloirs raides et ses interminables sous-bois qui conservent la neige légère pendant des jours, même s'il y a aussi de belles pistes damées pour les autres. Les cinq cuvettes, Cedar, Lizard, Currie, Timber et Siberia, font tout le sel de l'expérience, tandis que la ville historique de Fernie se trouve à quelques kilomètres du domaine, avec sa rue principale en briques, ses pubs et ses brasseries. L'accès est simple : Calgary est à environ trois heures de route, ce qui en fait une étape facile lors d'un road trip dans les Rocheuses.",
+      "es": "Fernie está pensada para los amantes del polvo y los esquiadores seguros, con amplios circos, canales empinados e interminables bosques esquiables que retienen la nieve ligera durante días, aunque también hay mucho terreno bien pisado para el resto. Los cinco circos, Cedar, Lizard, Currie, Timber y Siberia, definen la experiencia, mientras que el histórico pueblo de Fernie queda a pocos kilómetros de la montaña, con su calle principal de ladrillo, sus pubs y sus cervecerías. Llegar es sencillo: Calgary está a unas tres horas por carretera, lo que lo convierte en una parada fácil dentro de una ruta por las Rocosas.",
+      "pt": "Fernie foi feita para os apaixonados por neve fresca e para esquiadores seguros, com vastos circos, corredores íngremes e intermináveis bosques esquiáveis que mantêm a neve leve durante dias, embora haja também muito terreno bem pisado para os restantes. Os cinco circos, Cedar, Lizard, Currie, Timber e Siberia, definem a experiência, enquanto a histórica vila de Fernie fica a poucos quilómetros da montanha, com a sua rua principal de tijolo, os seus pubs e as suas cervejeiras. Chegar é simples: Calgary fica a cerca de três horas de carro, o que faz dela uma paragem fácil numa viagem pelas Rochosas.",
+      "it": "Fernie è fatta per gli amanti della neve fresca e per gli sciatori sicuri di sé, con ampie conche, ripidi canaloni e infiniti boschi sciabili che trattengono la neve leggera per giorni, anche se non manca terreno ben battuto per tutti gli altri. Le cinque conche, Cedar, Lizard, Currie, Timber e Siberia, definiscono l'esperienza, mentre la storica cittadina di Fernie si trova a pochi chilometri dal comprensorio, con la sua via principale in mattoni, i suoi pub e i suoi birrifici. Arrivare è semplice: Calgary dista circa tre ore di auto, il che la rende una tappa facile durante un viaggio on the road tra le Montagne Rocciose."
+    },
+    "pisteCounts": {
+      "green": 19,
+      "blue": 43,
+      "red": 46,
+      "black": 37
+    }
+  },
+  {
+    "slug": "panorama",
+    "name": "Panorama",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "BC Interior",
+    "lat": 50.46028,
+    "lng": -116.23833,
+    "altitudeBase": 1150,
+    "altitudeSummit": 2450,
+    "pistesKm": 135,
+    "lifts": 10,
+    "skiInSkiOutNote": {
+      "en": "Panorama is genuinely ski-in/ski-out: most of the lodging sits in a compact slopeside village right at the base of the lifts. You can click in at your door in the morning and ski back to it at the end of the day.",
+      "fr": "Panorama est vraiment ski aux pieds : la plupart des hébergements se trouvent dans un village compact au pied des remontées. Vous chaussez devant votre porte le matin et vous redescendez jusqu'à elle en fin de journée.",
+      "es": "Panorama es realmente esquí a pie de pista: la mayor parte del alojamiento se encuentra en un pueblo compacto justo al pie de los remontes. Te calzas los esquís en la puerta por la mañana y vuelves esquiando hasta ella al final del día.",
+      "pt": "Panorama é verdadeiramente ski-in/ski-out: a maior parte do alojamento fica numa aldeia compacta mesmo junto à base dos teleféricos. De manhã calça os esquis à porta e ao fim do dia regressa a ela a esquiar.",
+      "it": "Panorama è davvero sci ai piedi: gran parte degli alloggi si trova in un villaggio compatto proprio alla base degli impianti. La mattina ti allacci gli sci sulla porta e a fine giornata torni sciando fino a casa."
+    },
+    "seasonStart": "Dec 5",
+    "seasonEnd": "Apr 12",
+    "snowScore": 82,
+    "vibes": [
+      "family",
+      "village",
+      "thermal"
+    ],
+    "intro": {
+      "en": "Panorama is a purpose-built ski-in/ski-out village tucked into the quiet Purcell Mountains above Invermere, in British Columbia's Columbia Valley. With one of the biggest top-to-bottom vertical drops in North America and a cluster of slopeside hot pools at the base, it pairs serious mountain stats with an easy, self-contained resort feel.",
+      "fr": "Panorama est un village construit de toutes pièces, ski aux pieds, niché dans les paisibles montagnes Purcell au-dessus d'Invermere, dans la Columbia Valley de Colombie-Britannique. Avec l'un des plus grands dénivelés d'Amérique du Nord et un ensemble de bassins d'eau chaude au pied des pistes, il marie de vrais atouts de montagne à une ambiance de station simple et autonome.",
+      "es": "Panorama es un pueblo de esquí a pie de pista construido a propósito, encajado en las tranquilas montañas Purcell sobre Invermere, en el valle del Columbia de la Columbia Británica. Con uno de los mayores desniveles de Norteamérica y un conjunto de piscinas termales junto a las pistas, combina cifras de montaña de primer nivel con un ambiente de estación cómodo y autosuficiente.",
+      "pt": "Panorama é uma aldeia ski-in/ski-out construída de raiz, encaixada nas tranquilas montanhas Purcell acima de Invermere, no vale do Columbia, na Colúmbia Britânica. Com um dos maiores desníveis da América do Norte e um conjunto de piscinas termais junto às pistas, alia números de montanha sérios a um ambiente de estação cómodo e autossuficiente.",
+      "it": "Panorama è un villaggio sci ai piedi costruito appositamente, incastonato nelle tranquille montagne Purcell sopra Invermere, nella Columbia Valley della Columbia Britannica. Con uno dei dislivelli più ampi del Nord America e una serie di piscine termali ai piedi delle piste, unisce numeri di montagna di tutto rispetto a un'atmosfera di stazione comoda e autonoma."
+    },
+    "longDescription": {
+      "en": "Panorama suits families and intermediates particularly well, with long fall-line cruisers and gentle learning zones, while stronger skiers head up to the steeper Taynton Bowl for proper black and double-black terrain. The lodging, lifts, restaurants and pools are gathered in one walkable village, so days run smoothly without a car. Most visitors fly into Calgary and drive in, about 3 to 3.5 hours away.",
+      "fr": "Panorama convient particulièrement aux familles et aux skieurs intermédiaires, avec de longues pistes dans la pente et des zones d'apprentissage faciles, tandis que les plus aguerris montent vers le Taynton Bowl, plus raide, pour du vrai terrain noir et double noir. Hébergements, remontées, restaurants et bassins se regroupent dans un seul village où l'on circule à pied, et les journées s'enchaînent sans voiture. La plupart des visiteurs atterrissent à Calgary puis prennent la route, à environ 3 à 3,5 heures.",
+      "es": "Panorama va especialmente bien para familias y esquiadores intermedios, con largas pistas de caída y suaves zonas de aprendizaje, mientras que los más expertos suben al Taynton Bowl, más empinado, en busca de auténtico terreno negro y doble negro. El alojamiento, los remontes, los restaurantes y las piscinas se concentran en un único pueblo peatonal, así que los días fluyen sin necesidad de coche. La mayoría de los visitantes vuela a Calgary y llega en coche, a unas 3 a 3,5 horas.",
+      "pt": "Panorama adequa-se sobretudo a famílias e esquiadores intermédios, com longas descidas em queda e zonas de aprendizagem suaves, enquanto os mais experientes sobem ao Taynton Bowl, mais inclinado, à procura de verdadeiro terreno negro e duplo negro. O alojamento, os teleféricos, os restaurantes e as piscinas concentram-se numa única aldeia pedonal, pelo que os dias correm bem sem carro. A maioria dos visitantes voa para Calgary e segue de carro, a cerca de 3 a 3,5 horas.",
+      "it": "Panorama si adatta in particolare a famiglie e sciatori intermedi, con lunghe piste in caduta di linea e dolci aree per imparare, mentre i più esperti salgono al Taynton Bowl, più ripido, per affrontare vero terreno nero e doppio nero. Alloggi, impianti, ristoranti e piscine sono raccolti in un unico villaggio percorribile a piedi, così le giornate filano lisce senza auto. La maggior parte dei visitatori atterra a Calgary e prosegue in auto, a circa 3 o 3,5 ore di distanza."
+    },
+    "pisteCounts": {
+      "green": 19,
+      "blue": 45,
+      "red": 26,
+      "black": 39
+    }
   }
 ]
