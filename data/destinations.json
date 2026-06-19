@@ -19796,5 +19796,251 @@
       "red": 8,
       "black": 3
     }
+  },
+  {
+    "slug": "cerro-catedral",
+    "name": "Cerro Catedral",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "flag": "🇦🇷",
+    "region": "Andes",
+    "lat": -41.167,
+    "lng": -71.443,
+    "altitudeBase": 1030,
+    "altitudeSummit": 2388,
+    "pistesKm": 120,
+    "lifts": 39,
+    "skiInSkiOutNote": {
+      "en": "There is some genuine slopeside lodging at the Villa Catedral base, so a handful of hotels and apartments do put you steps from a lift. Most visitors, though, stay in Bariloche town about 20 minutes away and drive up each morning, so true ski-in, ski-out is the exception here rather than the rule.",
+      "fr": "On trouve quelques hébergements vraiment au pied des pistes à la base de Villa Catedral, et une poignée d'hôtels et d'appartements vous placent donc à deux pas d'une remontée. La plupart des visiteurs logent toutefois en ville à Bariloche, à environ 20 minutes, et montent en voiture chaque matin : le vrai ski aux pieds reste donc l'exception plutôt que la règle.",
+      "es": "En la base de Villa Catedral hay algunos alojamientos realmente a pie de pista, así que unos pocos hoteles y departamentos te dejan a pasos de un medio de elevación. Aun así, la mayoría de los visitantes se hospeda en el centro de Bariloche, a unos 20 minutos, y sube en auto cada mañana, de modo que el verdadero esquí a pie de pista es aquí la excepción y no la regla.",
+      "pt": "Na base de Villa Catedral existe algum alojamento mesmo junto às pistas, pelo que alguns hotéis e apartamentos o deixam a poucos passos de um teleférico. Ainda assim, a maioria dos visitantes fica na cidade de Bariloche, a cerca de 20 minutos, e sobe de carro todas as manhãs, por isso o verdadeiro ski-in, ski-out é aqui a exceção e não a regra.",
+      "it": "Alla base di Villa Catedral c'è qualche sistemazione davvero a bordo pista, e una manciata di hotel e appartamenti ti lascia quindi a pochi passi da un impianto. La maggior parte dei visitatori, però, alloggia in città a Bariloche, a circa 20 minuti, e sale in auto ogni mattina: il vero sci ai piedi resta qui l'eccezione e non la regola."
+    },
+    "seasonStart": "Jun 18",
+    "seasonEnd": "Oct 5",
+    "snowScore": 78,
+    "vibes": [
+      "big-domain",
+      "tree-skiing",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Cerro Catedral is the largest ski resort in South America, a sprawling network of bowls and ridges that drops toward the deep blue of Lago Nahuel Huapi. Rising just outside Bariloche, it pairs serious mileage with the kind of view that stops you mid-run, the lake and the surrounding peaks laid out below the lifts.",
+      "fr": "Cerro Catedral est la plus grande station de ski d'Amérique du Sud, un vaste réseau de combes et de crêtes qui plonge vers le bleu profond du lac Nahuel Huapi. Dressée juste à la sortie de Bariloche, elle marie un domaine généreux et une vue qui vous arrête en pleine descente, le lac et les sommets alentour déployés sous les remontées.",
+      "es": "Cerro Catedral es el centro de esquí más grande de Sudamérica, una red extensa de cubetas y filos que cae hacia el azul profundo del lago Nahuel Huapi. Apenas a las afueras de Bariloche, combina muchos kilómetros de pista con una vista que te detiene a mitad de bajada, con el lago y los cerros vecinos extendidos bajo los medios de elevación.",
+      "pt": "O Cerro Catedral é a maior estância de esqui da América do Sul, uma rede ampla de bacias e cumeadas que desce em direção ao azul profundo do lago Nahuel Huapi. Mesmo à saída de Bariloche, junta muitos quilómetros de pista a uma vista que o faz parar a meio da descida, com o lago e os picos em redor estendidos sob os teleféricos.",
+      "it": "Il Cerro Catedral è il comprensorio sciistico più grande del Sudamerica, una rete estesa di conche e creste che precipita verso il blu profondo del lago Nahuel Huapi. Sorge appena fuori Bariloche e unisce tanti chilometri di pista a un panorama che ti ferma a metà discesa, con il lago e le cime intorno distesi sotto gli impianti."
+    },
+    "longDescription": {
+      "en": "Catedral suits intermediates and advanced skiers best, with broad cruising runs, plenty of off-piste between the rocky spires, and stands of native lenga forest to duck into on a low-visibility day. The base at Villa Catedral is a busy little village of hotels, rental shops, cafes, and bars that fills up at lunch and stays lively into the afternoon. Reaching it is easy: it sits about 20 minutes by road from Bariloche, with regular buses, taxis, and transfers running up the valley all season.",
+      "fr": "Catedral convient avant tout aux skieurs intermédiaires et confirmés, avec de larges pistes roulantes, beaucoup de hors-piste entre les aiguilles rocheuses et des bosquets de lenga, la forêt locale, où se réfugier les jours de faible visibilité. La base de Villa Catedral est un petit village animé d'hôtels, de loueurs, de cafés et de bars, qui se remplit au déjeuner et reste vivant l'après-midi. On y accède facilement : à environ 20 minutes de route de Bariloche, avec bus réguliers, taxis et navettes qui remontent la vallée toute la saison.",
+      "es": "Catedral es ideal sobre todo para esquiadores intermedios y avanzados, con pistas anchas y rodadoras, mucho fuera de pista entre las agujas de roca y bosques de lenga, el árbol nativo, donde meterse los días de poca visibilidad. La base de Villa Catedral es un pueblito animado de hoteles, alquiler de equipos, cafés y bares, que se llena al mediodía y sigue movido por la tarde. Llegar es sencillo: queda a unos 20 minutos en auto de Bariloche, con colectivos, taxis y transfers que suben el valle durante toda la temporada.",
+      "pt": "O Catedral é mais indicado para esquiadores intermédios e avançados, com pistas largas e fáceis de percorrer, muito fora de pista entre as agulhas de rocha e manchas de lenga, a árvore nativa, onde entrar nos dias de pouca visibilidade. A base de Villa Catedral é uma pequena aldeia animada de hotéis, lojas de aluguer, cafés e bares, que enche ao almoço e se mantém viva pela tarde. Chegar é fácil: fica a cerca de 20 minutos de carro de Bariloche, com autocarros regulares, táxis e transferes a subir o vale durante toda a época.",
+      "it": "Il Catedral è più indicato per sciatori intermedi e avanzati, con ampie piste scorrevoli, tanto fuoripista tra le guglie di roccia e boschi di lenga, l'albero locale, in cui infilarsi nelle giornate di scarsa visibilità. La base di Villa Catedral è un piccolo borgo vivace di hotel, noleggi, caffè e bar, che si riempie a pranzo e resta animato nel pomeriggio. Raggiungerla è semplice: dista circa 20 minuti di strada da Bariloche, con autobus regolari, taxi e transfer che salgono la valle per tutta la stagione."
+    },
+    "pisteCounts": {
+      "green": 15,
+      "blue": 25,
+      "red": 12,
+      "black": 6
+    }
+  },
+  {
+    "slug": "las-lenas",
+    "name": "Las Leñas",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "flag": "🇦🇷",
+    "region": "Andes",
+    "lat": -35.1469,
+    "lng": -70.0811,
+    "altitudeBase": 2240,
+    "altitudeSummit": 3430,
+    "pistesKm": 29,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Las Leñas is built around a genuine slopeside base village, so most of its hotels sit right at the foot of the lifts with true ski-in, ski-out access. You can step out of your room, click in, and ride straight onto the snow.",
+      "fr": "Las Leñas s'organise autour d'un véritable village au pied des pistes, si bien que la plupart de ses hôtels se trouvent juste au départ des remontées, avec un accès skis aux pieds authentique. Vous sortez de votre chambre, chaussez vos skis et vous voilà directement sur la neige.",
+      "es": "Las Leñas se organiza en torno a una auténtica villa a pie de pista, por lo que la mayoría de sus hoteles están justo al pie de los medios de elevación, con verdadero acceso ski-in, ski-out. Sales de la habitación, te calzas los esquís y ya estás sobre la nieve.",
+      "pt": "Las Leñas desenvolve-se à volta de uma autêntica aldeia ao pé das pistas, pelo que a maioria dos seus hotéis fica mesmo junto à base dos teleféricos, com verdadeiro acesso ski-in, ski-out. Sai do quarto, calça os esquis e segue diretamente para a neve.",
+      "it": "Las Leñas è costruita attorno a un vero villaggio ai piedi delle piste, perciò la maggior parte dei suoi hotel si trova proprio alla partenza degli impianti, con autentico accesso ski-in, ski-out. Esci dalla camera, allacci gli sci e sei subito sulla neve."
+    },
+    "seasonStart": "Jun 21",
+    "seasonEnd": "Sep 24",
+    "snowScore": 86,
+    "vibes": [
+      "high-altitude",
+      "freeride",
+      "expert"
+    ],
+    "intro": {
+      "en": "Perched high in the Argentine Andes, Las Leñas is a name spoken with reverence by serious skiers, thanks to the legendary steep off-piste that fans out beneath the Marte chair. Its lofty altitude keeps the snow cold and reliable deep into the southern winter, while a compact base village hums with energy after the lifts close.",
+      "fr": "Perchée tout en haut des Andes argentines, Las Leñas est un nom prononcé avec respect par les skieurs aguerris, grâce au légendaire hors-piste raide qui se déploie sous le télésiège Marte. Son altitude élevée garde une neige froide et fiable jusqu'au cœur de l'hiver austral, tandis qu'un petit village au pied des pistes s'anime dès la fermeture des remontées.",
+      "es": "Encaramada en lo alto de los Andes argentinos, Las Leñas es un nombre que los esquiadores experimentados pronuncian con respeto, gracias al legendario fuera de pista empinado que se abre bajo la silla Marte. Su gran altura mantiene la nieve fría y fiable hasta bien entrado el invierno austral, mientras una villa compacta a pie de pista se llena de ambiente en cuanto cierran los medios.",
+      "pt": "Empoleirada no alto dos Andes argentinos, Las Leñas é um nome que os esquiadores experientes pronunciam com respeito, graças ao lendário fora de pista íngreme que se abre por baixo do teleférico Marte. A sua grande altitude mantém a neve fria e fiável até ao pleno inverno austral, enquanto uma aldeia compacta ao pé das pistas se anima logo que os teleféricos fecham.",
+      "it": "Arroccata in alto sulle Ande argentine, Las Leñas è un nome pronunciato con rispetto dagli sciatori esperti, grazie al leggendario fuoripista ripido che si apre sotto la seggiovia Marte. La sua quota elevata mantiene la neve fredda e affidabile fin nel cuore dell'inverno australe, mentre un raccolto villaggio ai piedi delle piste si anima non appena gli impianti chiudono."
+    },
+    "longDescription": {
+      "en": "Las Leñas rewards strong skiers and freeriders above all: the upper mountain is a vast, exposed playground of couloirs, bowls and open faces, much of it reached by traversing out from the Marte chair. The base is a purpose-built resort village set on its own at the head of the valley, with the nearest town, Malargüe, roughly 70 km away, which gives the place a focused, faraway feel. Lower down there are gentler runs for cruising, but the mountain's character is unmistakably advanced and remote.",
+      "fr": "Las Leñas récompense avant tout les bons skieurs et les freeriders : la partie haute du domaine est un vaste terrain de jeu exposé fait de couloirs, de cuvettes et de faces ouvertes, dont une grande part s'atteint en traversant depuis le télésiège Marte. La base est un village de station conçu de toutes pièces, isolé en tête de vallée, la ville la plus proche, Malargüe, se trouvant à environ 70 km, ce qui donne au lieu une atmosphère recentrée et lointaine. Plus bas, quelques pistes plus douces invitent à la balade, mais le caractère de la montagne reste résolument expert et reculé.",
+      "es": "Las Leñas premia ante todo a los buenos esquiadores y a los freeriders: la parte alta de la montaña es un vasto terreno de juego expuesto, hecho de couloirs, cuencas y caras abiertas, gran parte del cual se alcanza atravesando desde la silla Marte. La base es una villa de montaña construida a propósito, aislada en la cabecera del valle, con el pueblo más cercano, Malargüe, a unos 70 km, lo que da al lugar una sensación concentrada y remota. Más abajo hay pistas más suaves para pasear, pero el carácter de la montaña es inconfundiblemente avanzado y apartado.",
+      "pt": "Las Leñas recompensa sobretudo os bons esquiadores e os freeriders: a parte alta da montanha é um vasto recreio exposto, feito de corredores, bacias e encostas abertas, grande parte do qual se alcança atravessando a partir do teleférico Marte. A base é uma aldeia de estância construída de raiz, isolada no cimo do vale, com a localidade mais próxima, Malargüe, a cerca de 70 km, o que confere ao lugar uma atmosfera concentrada e distante. Mais abaixo há pistas mais suaves para passear, mas o carácter da montanha é inconfundivelmente avançado e remoto.",
+      "it": "Las Leñas premia soprattutto gli sciatori forti e i freerider: la parte alta della montagna è un vasto terreno di gioco esposto, fatto di canaloni, conche e pareti aperte, gran parte del quale si raggiunge traversando dalla seggiovia Marte. La base è un villaggio di stazione costruito appositamente, isolato in testa alla valle, con il paese più vicino, Malargüe, a circa 70 km, il che dona al luogo un'atmosfera raccolta e remota. Più in basso si trovano piste più dolci per girovagare, ma il carattere della montagna è inconfondibilmente esperto e isolato."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 18,
+      "red": 14,
+      "black": 2
+    }
+  },
+  {
+    "slug": "chapelco",
+    "name": "Chapelco",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "flag": "🇦🇷",
+    "region": "Andes",
+    "lat": -40.167,
+    "lng": -71.333,
+    "altitudeBase": 1250,
+    "altitudeSummit": 1980,
+    "pistesKm": 24.6,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "Chapelco is not a ski-in, ski-out resort: it has only a base lodge and a few mountain restaurants, with no slopeside village or hotels. Visitors stay down in San Martin de los Andes and drive or take a shuttle up to the mountain each morning.",
+      "fr": "Chapelco n'est pas une station ski aux pieds: la montagne ne compte qu'un chalet d'accueil et quelques restaurants d'altitude, sans village ni hotel au pied des pistes. On loge en bas, a San Martin de los Andes, et l'on monte chaque matin en voiture ou en navette.",
+      "es": "Chapelco no es un centro con esqui a pie de pista: en el cerro solo hay una base de servicios y algunos restaurantes de altura, sin pueblo ni hoteles junto a las pistas. El visitante se aloja abajo, en San Martin de los Andes, y sube cada manana en auto o en transfer.",
+      "pt": "Chapelco nao e uma estancia com esqui a porta: na montanha existe apenas a base de servicos e alguns restaurantes de altitude, sem aldeia nem hoteis junto as pistas. Quem visita fica em baixo, em San Martin de los Andes, e sobe todas as manhas de carro ou de transfer.",
+      "it": "Chapelco non e una localita ski-in, ski-out: sulla montagna ci sono solo la base servizi e qualche ristorante in quota, senza un villaggio o alberghi ai piedi delle piste. Si alloggia a valle, a San Martin de los Andes, e ogni mattina si sale in auto o con la navetta."
+    },
+    "seasonStart": "Jun 20",
+    "seasonEnd": "Sep 27",
+    "snowScore": 74,
+    "vibes": [
+      "family",
+      "scenic",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Rising above the lakeside town of San Martin de los Andes, Chapelco is one of Patagonia's most scenic and welcoming ski areas. Its runs thread through native lenga forest before opening onto wide upper slopes, with sweeping views of the snow-capped Lanin volcano and the deep blue of Lago Lacar.",
+      "fr": "Dressee au-dessus de la ville lacustre de San Martin de los Andes, Chapelco est l'une des stations les plus belles et accueillantes de Patagonie. Ses pistes se faufilent dans la foret de lengas avant de s'ouvrir sur de larges pentes sommitales, face au volcan enneige Lanin et au bleu profond du lac Lacar.",
+      "es": "Por encima de la ciudad lacustre de San Martin de los Andes, Chapelco es uno de los centros de esqui mas escenicos y acogedores de la Patagonia. Sus pistas se internan en el bosque nativo de lengas antes de abrirse a amplias laderas altas, con vistas al nevado volcan Lanin y al azul profundo del lago Lacar.",
+      "pt": "Erguendo-se acima da cidade lacustre de San Martin de los Andes, Chapelco e uma das estancias de esqui mais cenicas e acolhedoras da Patagonia. As suas pistas serpenteiam pela floresta nativa de lengas antes de se abrirem para amplas encostas no alto, com vistas para o nevado vulcao Lanin e para o azul profundo do lago Lacar.",
+      "it": "Affacciata sulla cittadina lacustre di San Martin de los Andes, Chapelco e una delle aree sciistiche piu suggestive e accoglienti della Patagonia. Le sue piste si snodano nella foresta nativa di lenga prima di aprirsi su ampi pendii in quota, con vista sul vulcano innevato Lanin e sul blu profondo del lago Lacar."
+    },
+    "longDescription": {
+      "en": "With nearly 25 km of well-balanced runs served by a gondola and a spread of chairs and surface lifts, Chapelco suits families and intermediate skiers especially well, while its forest glades reward those who like to play among the trees. The mountain has a single, well-organised base area with rentals, a ski school and mountain restaurants, and sits about 20 km from San Martin de los Andes, an easy drive or shuttle ride up a paved access road.",
+      "fr": "Avec pres de 25 km de pistes equilibrees desservies par une telecabine et un ensemble de telesieges et de remontees de surface, Chapelco convient particulierement aux familles et aux skieurs intermediaires, tandis que ses clairieres boisees raviront les amateurs de glisse entre les arbres. La montagne dispose d'un unique secteur d'accueil bien organise, avec location, ecole de ski et restaurants d'altitude, a environ 20 km de San Martin de los Andes, accessibles en voiture ou en navette par une route asphaltee.",
+      "es": "Con casi 25 km de pistas bien equilibradas servidas por una telecabina y un conjunto de telesillas y medios de superficie, Chapelco resulta ideal para familias y esquiadores intermedios, mientras que sus claros de bosque premian a quienes disfrutan de bajar entre los arboles. El cerro tiene una unica base de servicios bien organizada, con alquiler, escuela de esqui y restaurantes de altura, y se encuentra a unos 20 km de San Martin de los Andes, a un comodo trayecto en auto o transfer por un camino de acceso asfaltado.",
+      "pt": "Com quase 25 km de pistas bem equilibradas servidas por um teleferico e um conjunto de telecadeiras e teleskis, Chapelco e ideal para familias e esquiadores intermedios, ao passo que as suas clareiras na floresta recompensam quem gosta de descer por entre as arvores. A montanha tem uma unica base de servicos bem organizada, com aluguer, escola de esqui e restaurantes de altitude, e fica a cerca de 20 km de San Martin de los Andes, a um percurso comodo de carro ou transfer por uma estrada de acesso asfaltada.",
+      "it": "Con quasi 25 km di piste ben bilanciate servite da una cabinovia e da un insieme di seggiovie e impianti di superficie, Chapelco e ideale per le famiglie e gli sciatori intermedi, mentre le sue radure nel bosco premiano chi ama scendere tra gli alberi. La montagna ha un unico settore di base ben organizzato, con noleggio, scuola di sci e ristoranti in quota, e dista circa 20 km da San Martin de los Andes, raggiungibile comodamente in auto o con la navetta lungo una strada asfaltata."
+    },
+    "pisteCounts": {
+      "green": 9,
+      "blue": 5,
+      "red": 12,
+      "black": 3
+    }
+  },
+  {
+    "slug": "cerro-castor",
+    "name": "Cerro Castor",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "flag": "🇦🇷",
+    "region": "Andes",
+    "lat": -54.7239,
+    "lng": -68.017,
+    "altitudeBase": 195,
+    "altitudeSummit": 1057,
+    "pistesKm": 34,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Cerro Castor is a day resort with base lodges, rentals and restaurants, but it has no slopeside hotels, so it is not ski-in, ski-out. Skiers stay in Ushuaia, about 26 km away, and drive or take a shuttle to the mountain each morning.",
+      "fr": "Cerro Castor est une station de journee dotee de batiments d'accueil, de location et de restaurants au pied des pistes, mais sans hotel sur les pistes : ce n'est donc pas du ski aux pieds. Les skieurs logent a Ushuaia, a environ 26 km, et rejoignent la montagne en voiture ou en navette chaque matin.",
+      "es": "Cerro Castor es un centro de esqui de dia, con bases de servicios, alquiler y restaurantes, pero sin hoteles a pie de pista, por lo que no es ski-in, ski-out. Los esquiadores se alojan en Ushuaia, a unos 26 km, y suben a la montana en auto o en transfer cada manana.",
+      "pt": "Cerro Castor e uma estancia de dia, com edificios de apoio, aluguer e restaurantes na base, mas sem hoteis junto as pistas, pelo que nao e ski-in, ski-out. Os esquiadores ficam em Ushuaia, a cerca de 26 km, e sobem a montanha de carro ou de transfer todas as manhas.",
+      "it": "Cerro Castor e una stazione per gite in giornata, con strutture di base, noleggio e ristoranti, ma senza hotel sulle piste: non e quindi uno ski-in, ski-out. Gli sciatori alloggiano a Ushuaia, a circa 26 km, e raggiungono la montagna in auto o con la navetta ogni mattina."
+    },
+    "seasonStart": "Jun 15",
+    "seasonEnd": "Oct 5",
+    "snowScore": 82,
+    "vibes": [
+      "southern-hemisphere",
+      "isolated",
+      "snow-sure",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Cerro Castor is the southernmost ski resort on earth, set just 26 km from Ushuaia at the very end of the Andes and the Americas. Its low base altitude is offset by an extreme southern latitude, so the cold stays reliable and the runs wind through forests of native lenga. The season is one of the longest in the Southern Hemisphere, stretching from mid-June into early October.",
+      "fr": "Cerro Castor est la station de ski la plus australe du monde, a seulement 26 km d'Ushuaia, tout au bout des Andes et du continent americain. Son altitude de base modeste est compensee par une latitude extreme, qui maintient un froid fiable et fait serpenter les pistes a travers les forets de lengas. La saison est l'une des plus longues de l'hemisphere sud, de la mi-juin au debut octobre.",
+      "es": "Cerro Castor es el centro de esqui mas austral del planeta, a solo 26 km de Ushuaia, en el extremo final de los Andes y del continente americano. Su baja altitud de base se compensa con una latitud extrema, que mantiene el frio confiable y hace que las pistas serpenteen entre bosques de lenga nativa. La temporada es una de las mas largas del hemisferio sur, de mediados de junio a principios de octubre.",
+      "pt": "Cerro Castor e a estancia de esqui mais a sul do planeta, a apenas 26 km de Ushuaia, no extremo final dos Andes e do continente americano. A sua baixa altitude de base e compensada por uma latitude extrema, que mantem o frio fiavel e faz com que as pistas serpenteiem por florestas de lenga nativa. A epoca e uma das mais longas do hemisferio sul, de meados de junho ate ao inicio de outubro.",
+      "it": "Cerro Castor e la stazione sciistica piu meridionale del pianeta, a soli 26 km da Ushuaia, all'estremita delle Ande e del continente americano. La bassa quota di base e compensata da una latitudine estrema, che mantiene un freddo affidabile e fa snodare le piste tra le foreste di lenga autoctona. La stagione e una delle piu lunghe dell'emisfero australe, da meta giugno fino ai primi di ottobre."
+    },
+    "longDescription": {
+      "en": "Cerro Castor suits beginners and intermediates above all, with gentle, well groomed runs through the lenga forest and a friendly snow park, plus a handful of steeper black pitches for stronger skiers. Thanks to its far southern position the cold is dependable and the season runs unusually long, often from mid-June well into October. Getting there is simple: it sits about 26 km east of Ushuaia along National Route 3, a short drive or organised shuttle from town.",
+      "fr": "Cerro Castor convient avant tout aux debutants et aux intermediaires, avec des pistes douces et bien damees au coeur de la foret de lengas et un snowpark accueillant, complete par quelques pentes noires plus raides pour les bons skieurs. Grace a sa position tres australe, le froid est fiable et la saison s'etire de facon inhabituelle, souvent de la mi-juin jusqu'en octobre. L'acces est simple : la station se trouve a environ 26 km a l'est d'Ushuaia le long de la Route nationale 3, a quelques minutes en voiture ou en navette depuis la ville.",
+      "es": "Cerro Castor es ideal sobre todo para principiantes e intermedios, con pistas suaves y bien preparadas entre el bosque de lenga y un snowpark amigable, mas algunas bajadas negras de mayor pendiente para los esquiadores avanzados. Gracias a su ubicacion austral, el frio es confiable y la temporada se extiende de forma inusual, a menudo desde mediados de junio hasta bien entrado octubre. Llegar es sencillo: esta a unos 26 km al este de Ushuaia por la Ruta Nacional 3, a pocos minutos en auto o en transfer desde la ciudad.",
+      "pt": "Cerro Castor e ideal sobretudo para principiantes e intermedios, com pistas suaves e bem preparadas entre a floresta de lenga e um snowpark acolhedor, alem de algumas descidas negras mais inclinadas para os esquiadores avancados. Gracas a sua posicao muito a sul, o frio e fiavel e a epoca prolonga-se de forma invulgar, muitas vezes de meados de junho ate bem dentro de outubro. Chegar e simples: fica a cerca de 26 km a leste de Ushuaia pela Estrada Nacional 3, a poucos minutos de carro ou de transfer a partir da cidade.",
+      "it": "Cerro Castor e adatta soprattutto a principianti e intermedi, con piste dolci e ben battute tra la foresta di lenga e uno snowpark accogliente, oltre a qualche discesa nera piu ripida per gli sciatori esperti. Grazie alla sua posizione estremamente meridionale il freddo e affidabile e la stagione si prolunga in modo insolito, spesso da meta giugno fino a ottobre inoltrato. Arrivarci e semplice: si trova a circa 26 km a est di Ushuaia lungo la Strada Nazionale 3, a pochi minuti in auto o con la navetta dalla citta."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 5,
+      "red": 8,
+      "black": 4
+    }
+  },
+  {
+    "slug": "cerro-bayo",
+    "name": "Cerro Bayo",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "flag": "🇦🇷",
+    "region": "Andes",
+    "lat": -40.75,
+    "lng": -71.6,
+    "altitudeBase": 1050,
+    "altitudeSummit": 1782,
+    "pistesKm": 14,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "Cerro Bayo is not a ski-in, ski-out resort. The mountain has a base area with a cafe, rental shop and ski school, but there is no lodging on the slopes: visitors stay down in Villa La Angostura and drive the short road up to the base each morning.",
+      "fr": "Cerro Bayo n'est pas une station ski aux pieds. La montagne dispose d'un front de neige avec cafe, location et ecole de ski, mais aucun hebergement sur les pistes : les visiteurs logent en bas, a Villa La Angostura, et montent en voiture jusqu'a la base chaque matin.",
+      "es": "Cerro Bayo no es un centro con esqui a pie de pista. La montana cuenta con una base con cafeteria, alquiler y escuela de esqui, pero no hay alojamiento en las pistas: los visitantes se hospedan en Villa La Angostura y suben en auto hasta la base cada manana.",
+      "pt": "Cerro Bayo nao e uma estancia com esqui a porta. A montanha tem uma base com cafetaria, aluguer e escola de esqui, mas nao existe alojamento nas pistas: os visitantes ficam em baixo, na Villa La Angostura, e sobem de carro ate a base todas as manhas.",
+      "it": "Cerro Bayo non e una localita ski-in ski-out. La montagna ha un'area di base con bar, noleggio e scuola di sci, ma non ci sono alloggi sulle piste: gli ospiti dormono a valle, a Villa La Angostura, e salgono in auto fino alla base ogni mattina."
+    },
+    "seasonStart": "Jun 21",
+    "seasonEnd": "Sep 21",
+    "snowScore": 72,
+    "vibes": [
+      "scenic",
+      "panoramic",
+      "family"
+    ],
+    "intro": {
+      "en": "Cerro Bayo rises just above the lakeside town of Villa La Angostura, offering some of the most beautiful views in Patagonia across the vast waters of Lago Nahuel Huapi. It is a small, relaxed resort where the slopes stay refreshingly uncrowded and the scenery does as much work as the skiing.",
+      "fr": "Cerro Bayo domine la petite ville lacustre de Villa La Angostura et offre quelques unes des plus belles vues de Patagonie sur les eaux immenses du Lago Nahuel Huapi. C'est une station intime et detendue, ou les pistes restent agreablement peu frequentees et ou le panorama compte autant que le ski.",
+      "es": "Cerro Bayo se eleva justo por encima del pueblo lacustre de Villa La Angostura y regala algunas de las vistas mas hermosas de la Patagonia sobre las aguas inmensas del Lago Nahuel Huapi. Es un centro pequeno y tranquilo, donde las pistas se mantienen poco concurridas y el paisaje vale tanto como el esqui.",
+      "pt": "O Cerro Bayo ergue-se mesmo por cima da vila ribeirinha de Villa La Angostura e oferece algumas das vistas mais bonitas da Patagonia sobre as aguas imensas do Lago Nahuel Huapi. E uma estancia pequena e descontraida, onde as pistas se mantem pouco concorridas e a paisagem conta tanto como o esqui.",
+      "it": "Il Cerro Bayo si erge proprio sopra il paese lacustre di Villa La Angostura e regala alcuni dei panorami piu belli della Patagonia sulle acque sterminate del Lago Nahuel Huapi. E una localita piccola e rilassata, dove le piste restano piacevolmente poco affollate e il paesaggio vale quanto la sciata."
+    },
+    "longDescription": {
+      "en": "With gentle, well groomed pistes and short lift lines, Cerro Bayo suits families and intermediate skiers far more than thrill seekers, and it is ideal for anyone after a quiet, scenic day on the snow. The skiable terrain spreads across open slopes high above the lake, with a handful of steeper runs and off piste for stronger legs. Getting there is easy: it sits about 9 km from Villa La Angostura, a short drive up Provincial Route 66, so most people base themselves in town and head up for the day.",
+      "fr": "Avec ses pistes douces et bien damees et ses files d'attente courtes, Cerro Bayo convient bien plus aux familles et aux skieurs intermediaires qu'aux amateurs de sensations, et il est ideal pour qui cherche une journee tranquille et panoramique sur la neige. Le domaine s'etend sur des pentes ouvertes en surplomb du lac, avec quelques descentes plus raides et du hors piste pour les jambes solides. L'acces est simple : la station se trouve a environ 9 km de Villa La Angostura, par une courte montee sur la Route Provinciale 66, et la plupart des skieurs logent au village et montent a la journee.",
+      "es": "Con pistas suaves y bien preparadas y colas cortas, Cerro Bayo se adapta mucho mas a familias y esquiadores intermedios que a los buscadores de adrenalina, y es ideal para quien quiere un dia tranquilo y panoramico sobre la nieve. El terreno esquiable se extiende por laderas abiertas muy por encima del lago, con algunas bajadas mas empinadas y fuera de pista para piernas mas experimentadas. Llegar es facil: esta a unos 9 km de Villa La Angostura, una corta subida por la Ruta Provincial 66, asi que la mayoria se aloja en el pueblo y sube a pasar el dia.",
+      "pt": "Com pistas suaves e bem preparadas e filas curtas, o Cerro Bayo adapta-se muito mais a familias e a esquiadores intermedios do que a quem procura adrenalina, e e ideal para quem quer um dia tranquilo e panoramico sobre a neve. O terreno esquiavel estende-se por encostas abertas bem acima do lago, com algumas descidas mais inclinadas e fora de pista para pernas mais experientes. Chegar e facil: fica a cerca de 9 km de Villa La Angostura, uma curta subida pela Estrada Provincial 66, por isso a maioria fica na vila e sobe para passar o dia.",
+      "it": "Con piste dolci e ben battute e code brevi, il Cerro Bayo si adatta molto piu alle famiglie e agli sciatori intermedi che agli amanti del brivido, ed e ideale per chi cerca una giornata tranquilla e panoramica sulla neve. Il comprensorio si estende su pendii aperti molto sopra il lago, con qualche discesa piu ripida e del fuoripista per le gambe piu allenate. Arrivarci e semplice: dista circa 9 km da Villa La Angostura, una breve salita lungo la Strada Provinciale 66, percio la maggior parte degli sciatori alloggia in paese e sale per la giornata."
+    },
+    "pisteCounts": {
+      "green": 3,
+      "blue": 7,
+      "red": 9,
+      "black": 6
+    }
   }
 ]

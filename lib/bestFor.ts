@@ -9,6 +9,7 @@ import {
   isAustralia,
   isNewZealand,
   isChile,
+  isArgentina,
   isAfrica,
 } from './countries'
 import bestForExtra from '@/data/bestForExtra.json'
@@ -890,6 +891,34 @@ export const BEST_FOR_LISTS: BestForList[] = [
       it: "I tre classici andini del Cile dipingono ciascuno una faccia dello sci sudamericano. Portillo (2 ore a nord di Santiago, base 2880 m) ha ospitato gli unici Mondiali di sci alpino mai disputati nell'emisfero sud (1966) e resta il campo di allenamento di agosto delle nazionali statunitense, canadese ed europea, con l'iconico Hotel Portillo giallo sulla Laguna del Inca. Valle Nevado (1 h 30 a est di Santiago, base 3025 m, la più alta del Cile) propone design moderno della Compagnie des Alpes con collegamento Tres Valles verso El Colorado e La Parva. La Parva (anche Tres Valles) gioca la carta residenziale e tranquilla, con le conche alpine di Las Lomas e il freeride hike-to di Falsa Parva. Stagione da giugno a ottobre.",
     },
     filter: (d) => isChile(d),
+    sort: (d) => d.snowScore,
+    limit: 10,
+  },
+  {
+    slug: 'argentina',
+    heroSlug: 'cerro-catedral',
+    name: {
+      en: 'Best ski resorts in Argentina',
+      fr: 'Meilleures stations de ski en Argentine',
+      es: 'Mejores estaciones de esquí de Argentina',
+      pt: 'Melhores estâncias de esqui da Argentina',
+      it: 'Migliori località sciistiche in Argentina',
+    },
+    intro: {
+      en: 'From the Patagonian lakes to the high Mendoza Andes and the far south of Tierra del Fuego, the pick of Argentine skiing, Southern Hemisphere Jun to Oct.',
+      fr: "Des lacs de Patagonie aux hautes Andes de Mendoza jusqu'au grand sud de la Terre de Feu, le meilleur du ski argentin, hiver austral de juin à octobre.",
+      es: 'De los lagos patagónicos a los altos Andes de Mendoza y el extremo sur de Tierra del Fuego, lo mejor del esquí argentino, invierno austral de junio a octubre.',
+      pt: 'Dos lagos patagónicos aos altos Andes de Mendoza e ao extremo sul da Terra do Fogo, o melhor do esqui argentino, inverno austral de junho a outubro.',
+      it: "Dai laghi della Patagonia alle alte Ande di Mendoza fino all'estremo sud della Terra del Fuoco, il meglio dello sci argentino, inverno australe da giugno a ottobre.",
+    },
+    description: {
+      en: "Argentina spreads its skiing across the Andes from north to south. Cerro Catedral, above Bariloche and Lago Nahuel Huapi, is the largest ski area in South America, with lift-served terrain through lenga forest and a lively base. Las Leñas, high in Mendoza, is the continent's reference for steep, snow-sure off-piste off the Marte chair, built around a genuine slopeside base village. Chapelco (above San Martin de los Andes) and Cerro Bayo (above Villa La Angostura) are the scenic, family-friendly resorts of the Patagonian lake district. Far to the south, Cerro Castor near Ushuaia is the southernmost ski resort on earth, with one of the longest seasons going. Southern Hemisphere season runs June to October.",
+      fr: "L'Argentine étire son ski le long des Andes, du nord au sud. Cerro Catedral, au-dessus de Bariloche et du Lago Nahuel Huapi, est le plus grand domaine d'Amérique du Sud, avec un terrain desservi par les remontées à travers la forêt de lengas et une station animée. Las Leñas, haut dans les Andes de Mendoza, est la référence du continent pour le hors-piste raide et bien enneigé au départ du télésiège Marte, autour d'un vrai village au pied des pistes. Chapelco (au-dessus de San Martin de los Andes) et Cerro Bayo (au-dessus de Villa La Angostura) sont les stations panoramiques et familiales de la région des lacs de Patagonie. Tout au sud, Cerro Castor, près d'Ushuaia, est la station la plus australe du monde, avec l'une des plus longues saisons qui soient. Saison de l'hémisphère sud de juin à octobre.",
+      es: "Argentina despliega su esquí por los Andes de norte a sur. Cerro Catedral, sobre Bariloche y el Lago Nahuel Huapi, es el mayor dominio esquiable de Sudamérica, con terreno servido por remontes a través del bosque de lengas y una base animada. Las Leñas, en lo alto de los Andes de Mendoza, es la referencia del continente para el fuera de pista empinado y seguro de nieve desde el telesilla Marte, en torno a un auténtico pueblo a pie de pista. Chapelco (sobre San Martín de los Andes) y Cerro Bayo (sobre Villa La Angostura) son las estaciones panorámicas y familiares de la región de los lagos patagónicos. En el extremo sur, Cerro Castor, cerca de Ushuaia, es la estación más austral del mundo, con una de las temporadas más largas que existen. Temporada del hemisferio sur de junio a octubre.",
+      pt: "A Argentina estende o seu esqui ao longo dos Andes, de norte a sul. O Cerro Catedral, acima de Bariloche e do Lago Nahuel Huapi, é o maior domínio esquiável da América do Sul, com terreno servido por teleféricos através da floresta de lengas e uma base animada. Las Leñas, no alto dos Andes de Mendoza, é a referência do continente para o fora de pista íngreme e com neve garantida a partir do teleassento Marte, em torno de uma autêntica aldeia à beira da pista. Chapelco (acima de San Martin de los Andes) e Cerro Bayo (acima de Villa La Angostura) são as estâncias panorâmicas e familiares da região dos lagos da Patagónia. Bem a sul, o Cerro Castor, perto de Ushuaia, é a estância mais austral do mundo, com uma das épocas mais longas que há. Época do hemisfério sul de junho a outubro.",
+      it: "L'Argentina distribuisce il suo sci lungo le Ande, da nord a sud. Il Cerro Catedral, sopra Bariloche e il Lago Nahuel Huapi, è il più grande comprensorio del Sud America, con terreno servito dagli impianti attraverso la foresta di lenga e una base vivace. Las Leñas, in alto sulle Ande di Mendoza, è il riferimento del continente per il fuoripista ripido e sicuro di neve dalla seggiovia Marte, attorno a un vero paese sulle piste. Chapelco (sopra San Martin de los Andes) e Cerro Bayo (sopra Villa La Angostura) sono le località panoramiche e adatte alle famiglie della regione dei laghi della Patagonia. Nell'estremo sud, il Cerro Castor, vicino a Ushuaia, è la località più australe del mondo, con una delle stagioni più lunghe in assoluto. Stagione dell'emisfero sud da giugno a ottobre.",
+    },
+    filter: (d) => isArgentina(d),
     sort: (d) => d.snowScore,
     limit: 10,
   },

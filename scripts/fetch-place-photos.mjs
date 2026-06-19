@@ -28,6 +28,11 @@ async function loadApiKey() {
 
 // Targeted queries: each picks a ski-iconic landmark to avoid summer-only results.
 const TARGETS = [
+  { slug: 'cerro-catedral',       query: 'Cerro Catedral ski resort Bariloche Patagonia Argentina Lago Nahuel Huapi panorama winter snow' },
+  { slug: 'las-lenas',            query: 'Las Lenas ski resort Mendoza Argentina Andes panorama winter snow' },
+  { slug: 'chapelco',             query: 'Chapelco ski resort San Martin de los Andes Patagonia Argentina panorama winter snow' },
+  { slug: 'cerro-castor',         query: 'Cerro Castor ski resort Ushuaia Tierra del Fuego Argentina panorama winter snow' },
+  { slug: 'cerro-bayo',           query: 'Cerro Bayo ski resort Villa La Angostura Patagonia Argentina lake panorama winter snow' },
   { slug: 'val-thorens',          query: 'Val Thorens ski resort French Alps highest village panorama winter snow' },
   { slug: 'val-d-isere',          query: 'Val d\'Isere ski resort Espace Killy Bellevarde panorama winter snow Alps' },
   { slug: 'courchevel',           query: 'Courchevel ski village French Alps winter snow chalets' },

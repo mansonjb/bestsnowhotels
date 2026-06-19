@@ -29,6 +29,7 @@ const NAMES: Record<string, Record<Locale, string>> = {
   Australia: { en: 'Australia', fr: 'Australie', es: 'Australia', pt: 'Austrália', it: 'Australia' },
   'New Zealand': { en: 'New Zealand', fr: 'Nouvelle-Zélande', es: 'Nueva Zelanda', pt: 'Nova Zelândia', it: 'Nuova Zelanda' },
   Chile: { en: 'Chile', fr: 'Chili', es: 'Chile', pt: 'Chile', it: 'Cile' },
+  Argentina: { en: 'Argentina', fr: 'Argentine', es: 'Argentina', pt: 'Argentina', it: 'Argentina' },
 }
 
 export function localizeCountry(englishName: string, locale: Locale): string {
@@ -54,6 +55,7 @@ export function inCountry(englishName: string, locale: Locale): string {
     'United States': 'nos',
     Switzerland: 'na', Austria: 'na', Germany: 'na', Norway: 'na', Sweden: 'na',
     Algeria: 'na', 'South Africa': 'na', 'South Korea': 'na', Australia: 'na', 'New Zealand': 'na',
+    Argentina: 'na',
   }
   const PREP_IT: Record<string, string> = {
     'United States': 'negli',

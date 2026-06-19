@@ -61,6 +61,7 @@ export const COUNTRY_META: Record<string, { continent: Continent; hemisphere: He
   NZ: { continent: 'oceania', hemisphere: 'south' },
   // South America
   CL: { continent: 'south-america', hemisphere: 'south' },
+  AR: { continent: 'south-america', hemisphere: 'south' },
 }
 
 export const isInContinent = (d: Destination, c: Continent) => COUNTRY_META[d.countryCode]?.continent === c
@@ -73,6 +74,7 @@ export const isSouthKorea = (d: Destination) => d.countryCode === 'KR'
 export const isAustralia = (d: Destination) => d.countryCode === 'AU'
 export const isNewZealand = (d: Destination) => d.countryCode === 'NZ'
 export const isChile = (d: Destination) => d.countryCode === 'CL'
+export const isArgentina = (d: Destination) => d.countryCode === 'AR'
 export const isAfrica = (d: Destination) => isInContinent(d, 'africa')
 
 export const COUNTRIES: Country[] = [
@@ -295,6 +297,19 @@ export const COUNTRIES: Country[] = [
       es: "Chile aloja el mayor día de esquí comercial del hemisferio sur, en los Andes alrededor de Santiago. Valle Nevado, en los Tres Valles a 3025 m, es la base más alta del país, con interconexión Tres Valles hacia El Colorado y La Parva. Portillo, dos horas más al norte, acogió el único Campeonato Mundial Alpino jamás celebrado en el hemisferio sur (1966) y entrena cada agosto a los equipos nacionales de EE. UU. y Europa sobre los acantilados de la Laguna del Inca. Temporada de junio a octubre. Los Andes ponen el trabajo; Santiago es la puerta a 1 a 3 horas abajo.",
       pt: "O Chile aloja o maior dia de esqui comercial do hemisfério sul, nos Andes em torno de Santiago. Valle Nevado, nos Tres Valles a 3025 m, é a base mais alta do país, com interligação Tres Valles para El Colorado e La Parva. Portillo, duas horas mais a norte, acolheu o único Campeonato Mundial Alpino alguma vez realizado no hemisfério sul (1966) e treina todos os agostos as equipas nacionais dos EUA e da Europa sobre as falésias da Laguna del Inca. Época de junho a outubro. Os Andes fazem o trabalho; Santiago é a porta a 1 a 3 horas abaixo.",
       it: "Il Cile ospita la più grande giornata di sci commerciale dell'emisfero sud, sulle Ande attorno a Santiago. Valle Nevado, nei Tres Valles a 3025 m, è la base più alta del paese, con il collegamento Tres Valles verso El Colorado e La Parva. Portillo, due ore più a nord, ha ospitato gli unici Mondiali di sci alpino mai disputati nell'emisfero sud (1966) e ad agosto allena ogni anno le squadre nazionali di Stati Uniti ed Europa sulle pareti sopra la Laguna del Inca. Stagione da giugno a ottobre. Le Ande fanno il lavoro; Santiago è la porta 1 a 3 ore più in basso.",
+    },
+  },
+  {
+    slug: 'argentina',
+    name: 'Argentina',
+    countryCode: 'AR',
+    flag: '🇦🇷',
+    intro: {
+      en: "Argentina's ski resorts run down the Andes from Mendoza to the far south of Patagonia. Cerro Catedral, above Bariloche and Lago Nahuel Huapi, is the largest ski area in South America, while Las Leñas in Mendoza is the continent's reference for steep, high-altitude off-piste. Far to the south, Cerro Castor near Ushuaia is the southernmost ski resort on earth, with one of the longest seasons going. The Southern Hemisphere season runs roughly June to October.",
+      fr: "Les stations argentines descendent les Andes, de Mendoza jusqu'au grand sud de la Patagonie. Cerro Catedral, au-dessus de Bariloche et du Lago Nahuel Huapi, est le plus grand domaine d'Amérique du Sud, tandis que Las Leñas, à Mendoza, est la référence du continent pour le hors-piste raide et d'altitude. Tout au sud, Cerro Castor, près d'Ushuaia, est la station la plus australe du monde, avec l'une des plus longues saisons qui soient. La saison de l'hémisphère sud va environ de juin à octobre.",
+      es: "Las estaciones argentinas bajan por los Andes, de Mendoza hasta el extremo sur de la Patagonia. Cerro Catedral, sobre Bariloche y el Lago Nahuel Huapi, es el mayor dominio esquiable de Sudamérica, mientras que Las Leñas, en Mendoza, es la referencia del continente para el fuera de pista empinado y de altura. En el extremo sur, Cerro Castor, cerca de Ushuaia, es la estación más austral del mundo, con una de las temporadas más largas que existen. La temporada del hemisferio sur va aproximadamente de junio a octubre.",
+      pt: "As estâncias argentinas descem os Andes, de Mendoza até ao extremo sul da Patagónia. O Cerro Catedral, acima de Bariloche e do Lago Nahuel Huapi, é o maior domínio esquiável da América do Sul, enquanto Las Leñas, em Mendoza, é a referência do continente para o fora de pista íngreme e de altitude. Bem a sul, o Cerro Castor, perto de Ushuaia, é a estância mais austral do mundo, com uma das épocas mais longas que há. A época do hemisfério sul vai sensivelmente de junho a outubro.",
+      it: "Le località argentine scendono lungo le Ande, da Mendoza fino all'estremo sud della Patagonia. Il Cerro Catedral, sopra Bariloche e il Lago Nahuel Huapi, è il più grande comprensorio del Sud America, mentre Las Leñas, a Mendoza, è il riferimento del continente per il fuoripista ripido e d'alta quota. Nell'estremo sud, il Cerro Castor, vicino a Ushuaia, è la località più australe del mondo, con una delle stagioni più lunghe in assoluto. La stagione dell'emisfero sud va all'incirca da giugno a ottobre.",
     },
   },
   {
