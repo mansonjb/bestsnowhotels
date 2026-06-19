@@ -4,6 +4,7 @@ import { destinations } from './destinations'
 import { skiInSkiOutTier, isCarFree } from './skiInSkiOut'
 import { isSouthernHemisphere } from './countries'
 import { formatSeasonDate } from './dates'
+import { getSkiAreaForResort } from './skiAreas'
 
 /**
  * "Things to know before you go" guide content, generated 100% from each
@@ -12,21 +13,12 @@ import { formatSeasonDate } from './dates'
  * invented facts: every answer is something we can stand behind. Returns a set
  * of question/answer points (also emitted as FAQPage JSON-LD on the page).
  *
- * Pilot scope: the flagship resorts below. Adding a slug here publishes its
- * guide automatically (the resort must exist in destinations.json with hotels).
+ * Coverage: every resort in the dataset gets a guide. Ordered by snow score so
+ * the hub leads with the strongest names.
  */
-export const GUIDE_SLUGS = [
-  'val-thorens',
-  'chamonix',
-  'courchevel',
-  'val-d-isere',
-  'zermatt',
-  'verbier',
-  'st-moritz',
-  'st-anton',
-  'niseko',
-  'whistler-blackcomb',
-] as const
+export const GUIDE_SLUGS: string[] = [...destinations]
+  .sort((a, b) => b.snowScore - a.snowScore)
+  .map((d) => d.slug)
 
 export interface GuidePoint {
   q: string
@@ -336,9 +328,136 @@ export function resortGuide(d: Destination, locale: Locale): GuidePoint[] {
 const GUIDE_SET = new Set<string>(GUIDE_SLUGS)
 export const isGuide = (slug: string): boolean => GUIDE_SET.has(slug)
 
-/** Pilot resorts, in the order declared above (used for the hub + static params). */
+/** All resorts, snow score first (used for the hub + static params). */
 export function getGuideDestinations(): Destination[] {
-  return GUIDE_SLUGS.map((s) => destinations.find((d) => d.slug === s)).filter(
-    (d): d is Destination => Boolean(d),
-  )
+  return [...destinations].sort((a, b) => b.snowScore - a.snowScore)
+}
+
+/* ---- extra FAQ: distinct angles from the 5 points (vertical, linked domain,
+ *      beginners, glacier) so the page adds new information, not repetition. ---- */
+
+const FAQ_Q = {
+  vertical: {
+    en: (d: Destination) => `How much vertical drop does ${d.name} have?`,
+    fr: (d: Destination) => `Quel est le dénivelé de ${d.name} ?`,
+    es: (d: Destination) => `¿Cuánto desnivel tiene ${d.name}?`,
+    pt: (d: Destination) => `Qual é o desnível de ${d.name}?`,
+    it: (d: Destination) => `Qual è il dislivello di ${d.name}?`,
+  } as Record<Locale, (d: Destination) => string>,
+  domain: {
+    en: (d: Destination) => `Is ${d.name} part of a larger ski area?`,
+    fr: (d: Destination) => `${d.name} fait-elle partie d'un grand domaine ?`,
+    es: (d: Destination) => `¿${d.name} forma parte de un dominio mayor?`,
+    pt: (d: Destination) => `${d.name} faz parte de um domínio maior?`,
+    it: (d: Destination) => `${d.name} fa parte di un comprensorio più ampio?`,
+  } as Record<Locale, (d: Destination) => string>,
+  beginners: {
+    en: (d: Destination) => `Is ${d.name} good for beginners?`,
+    fr: (d: Destination) => `${d.name} est-elle adaptée aux débutants ?`,
+    es: (d: Destination) => `¿${d.name} es buena para principiantes?`,
+    pt: (d: Destination) => `${d.name} é boa para principiantes?`,
+    it: (d: Destination) => `${d.name} è adatta ai principianti?`,
+  } as Record<Locale, (d: Destination) => string>,
+  glacier: {
+    en: () => `Can you ski on a glacier here?`,
+    fr: () => `Peut-on skier sur un glacier ici ?`,
+    es: () => `¿Se puede esquiar en glaciar aquí?`,
+    pt: () => `Pode esquiar-se num glaciar aqui?`,
+    it: () => `Si può sciare su un ghiacciaio qui?`,
+  } as Record<Locale, () => string>,
+}
+
+function verticalAnswer(d: Destination, locale: Locale): string {
+  const v = d.altitudeSummit - d.altitudeBase
+  const t: Record<Locale, string> = {
+    en: `About ${v} m of vertical, from a ${d.altitudeBase} m base to ${d.altitudeSummit} m at the top.`,
+    fr: `Environ ${v} m de dénivelé, d'une base à ${d.altitudeBase} m jusqu'à ${d.altitudeSummit} m au sommet.`,
+    es: `Unos ${v} m de desnivel, de una base a ${d.altitudeBase} m hasta ${d.altitudeSummit} m en lo alto.`,
+    pt: `Cerca de ${v} m de desnível, de uma base a ${d.altitudeBase} m até ${d.altitudeSummit} m no topo.`,
+    it: `Circa ${v} m di dislivello, da una base di ${d.altitudeBase} m fino a ${d.altitudeSummit} m in cima.`,
+  }
+  return t[locale]
+}
+
+function domainAnswer(d: Destination, locale: Locale): string {
+  const area = getSkiAreaForResort(d.slug)
+  if (area) {
+    const t: Record<Locale, string> = {
+      en: `Yes. ${d.name} is part of the ${area.name} ski area, one of the big linked domains, so a single lift pass opens the whole thing.`,
+      fr: `Oui. ${d.name} fait partie du domaine ${area.name}, l'un des grands domaines reliés : un seul forfait ouvre tout l'ensemble.`,
+      es: `Sí. ${d.name} forma parte del dominio ${area.name}, uno de los grandes dominios conectados, así que un solo forfait abre todo el conjunto.`,
+      pt: `Sim. ${d.name} faz parte do domínio ${area.name}, um dos grandes domínios ligados, por isso um único passe abre todo o conjunto.`,
+      it: `Sì. ${d.name} fa parte del comprensorio ${area.name}, uno dei grandi comprensori collegati: un solo skipass apre l'intero comprensorio.`,
+    }
+    return t[locale]
+  }
+  const t: Record<Locale, string> = {
+    en: `No, it is a self-contained resort with its own ${d.pistesKm} km of piste rather than part of a linked domain.`,
+    fr: `Non, c'est une station autonome avec ses ${d.pistesKm} km de pistes, pas un domaine relié.`,
+    es: `No, es una estación independiente con sus ${d.pistesKm} km de pistas, no parte de un dominio conectado.`,
+    pt: `Não, é uma estância autónoma com os seus ${d.pistesKm} km de pistas, não parte de um domínio ligado.`,
+    it: `No, è una località a sé con i suoi ${d.pistesKm} km di piste, non parte di un comprensorio collegato.`,
+  }
+  return t[locale]
+}
+
+function beginnersAnswer(d: Destination, locale: Locale): string {
+  const c = d.pisteCounts
+  const total = c.green + c.blue + c.red + c.black || 1
+  const share = (c.green + c.blue) / total
+  const tier: 'good' | 'ok' | 'limited' =
+    share >= 0.55 || c.green >= 8 ? 'good' : share >= 0.4 ? 'ok' : 'limited'
+  const A: Record<typeof tier, Record<Locale, string>> = {
+    good: {
+      en: `Yes. With ${c.green} green and ${c.blue} blue runs, there is plenty of gentle terrain to learn on.`,
+      fr: `Oui. Avec ${c.green} pistes vertes et ${c.blue} bleues, le terrain doux ne manque pas pour apprendre.`,
+      es: `Sí. Con ${c.green} pistas verdes y ${c.blue} azules, hay terreno suave de sobra para aprender.`,
+      pt: `Sim. Com ${c.green} pistas verdes e ${c.blue} azuis, há terreno suave de sobra para aprender.`,
+      it: `Sì. Con ${c.green} piste verdi e ${c.blue} blu, c'è terreno facile in abbondanza per imparare.`,
+    },
+    ok: {
+      en: `It can work: ${c.green} green and ${c.blue} blue runs are enough to start, though the area rewards skiers who can already link turns.`,
+      fr: `Cela peut convenir : ${c.green} vertes et ${c.blue} bleues suffisent pour débuter, même si le domaine récompense ceux qui enchaînent déjà les virages.`,
+      es: `Puede funcionar: ${c.green} verdes y ${c.blue} azules bastan para empezar, aunque el dominio premia a quienes ya encadenan giros.`,
+      pt: `Pode funcionar: ${c.green} verdes e ${c.blue} azuis chegam para começar, embora o domínio recompense quem já encadeia curvas.`,
+      it: `Può andare: ${c.green} verdi e ${c.blue} blu bastano per iniziare, anche se il comprensorio premia chi sa già collegare le curve.`,
+    },
+    limited: {
+      en: `Less so: the terrain leans intermediate and advanced (${c.green} green, ${c.blue} blue), so committed beginners are better off starting elsewhere.`,
+      fr: `Moins : le terrain penche vers l'intermédiaire et l'expert (${c.green} vertes, ${c.blue} bleues), les vrais débutants ont intérêt à commencer ailleurs.`,
+      es: `Menos: el terreno tira a intermedio y avanzado (${c.green} verdes, ${c.blue} azules), así que los principiantes puros harán mejor en empezar en otro sitio.`,
+      pt: `Menos: o terreno pende para intermédio e avançado (${c.green} verdes, ${c.blue} azuis), por isso principiantes a sério é melhor começarem noutro lado.`,
+      it: `Meno: il terreno pende verso intermedio e avanzato (${c.green} verdi, ${c.blue} blu), quindi i veri principianti fanno meglio a iniziare altrove.`,
+    },
+  }
+  return A[tier][locale]
+}
+
+function glacierAnswer(locale: Locale): string {
+  const t: Record<Locale, string> = {
+    en: `Yes, there is glacier skiing up high, which stretches the season and helps in lean snow years.`,
+    fr: `Oui, il y a du ski de glacier en altitude, ce qui allonge la saison et aide les années peu enneigées.`,
+    es: `Sí, hay esquí en glaciar en altura, lo que alarga la temporada y ayuda en años de poca nieve.`,
+    pt: `Sim, há esqui em glaciar nas alturas, o que prolonga a época e ajuda em anos de pouca neve.`,
+    it: `Sì, c'è sci su ghiacciaio in quota, il che allunga la stagione e aiuta nelle annate con poca neve.`,
+  }
+  return t[locale]
+}
+
+/** 3 to 4 extra FAQ entries, all derived from data and distinct from the 5 points. */
+export function resortFaq(d: Destination, locale: Locale): GuidePoint[] {
+  const c = d.pisteCounts
+  const hasPisteData = c.green + c.blue + c.red + c.black > 0
+  const out: GuidePoint[] = []
+  if (d.altitudeSummit > d.altitudeBase) {
+    out.push({ q: FAQ_Q.vertical[locale](d), a: verticalAnswer(d, locale) })
+  }
+  out.push({ q: FAQ_Q.domain[locale](d), a: domainAnswer(d, locale) })
+  if (hasPisteData) {
+    out.push({ q: FAQ_Q.beginners[locale](d), a: beginnersAnswer(d, locale) })
+  }
+  if (d.vibes.includes('glacier')) {
+    out.push({ q: FAQ_Q.glacier[locale](), a: glacierAnswer(locale) })
+  }
+  return out
 }

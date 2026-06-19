@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import { getDestination } from '@/lib/destinations'
-import { GUIDE_SLUGS, resortGuide, isGuide } from '@/lib/resortGuide'
+import { GUIDE_SLUGS, resortGuide, resortFaq, isGuide } from '@/lib/resortGuide'
 import { getHotels } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 import Stay22Map from '@/components/Stay22Map'
@@ -42,6 +42,30 @@ const T = {
   } as Record<Locale, string>,
   fullGuide: {
     en: 'Full resort guide', fr: 'Guide complet de la station', es: 'Guía completa de la estación', pt: 'Guia completo da estância', it: 'Guida completa della località',
+  } as Record<Locale, string>,
+  ctaTitle: {
+    en: (name: string) => `The full ${name} guide`,
+    fr: (name: string) => `Le guide complet de ${name}`,
+    es: (name: string) => `La guía completa de ${name}`,
+    pt: (name: string) => `O guia completo de ${name}`,
+    it: (name: string) => `La guida completa di ${name}`,
+  } as Record<Locale, (name: string) => string>,
+  ctaSub: {
+    en: 'Hotels, piste breakdown, snow month by month, lift and rental info, map and more.',
+    fr: 'Hôtels, détail des pistes, neige mois par mois, forfait et location, carte et plus encore.',
+    es: 'Hoteles, desglose de pistas, nieve mes a mes, forfait y alquiler, mapa y mucho más.',
+    pt: 'Hotéis, detalhe das pistas, neve mês a mês, passe e aluguer, mapa e muito mais.',
+    it: 'Hotel, dettaglio delle piste, neve mese per mese, skipass e noleggio, mappa e altro.',
+  } as Record<Locale, string>,
+  ctaButton: {
+    en: (name: string) => `See the full ${name} guide`,
+    fr: (name: string) => `Voir le guide complet de ${name}`,
+    es: (name: string) => `Ver la guía completa de ${name}`,
+    pt: (name: string) => `Ver o guia completo de ${name}`,
+    it: (name: string) => `Vedi la guida completa di ${name}`,
+  } as Record<Locale, (name: string) => string>,
+  faqHeading: {
+    en: 'More questions, answered', fr: 'Plus de questions, des réponses', es: 'Más preguntas, respondidas', pt: 'Mais perguntas, respondidas', it: 'Altre domande, con risposta',
   } as Record<Locale, string>,
   snowReport: {
     en: 'Live snow report', fr: 'Bulletin neige en direct', es: 'Parte de nieve en directo', pt: 'Boletim de neve em direto', it: 'Bollettino neve in tempo reale',
@@ -97,6 +121,7 @@ export default async function GuidePage({
 
   const dict = await getDictionary(l)
   const points = resortGuide(d, l)
+  const faq = resortFaq(d, l)
   const hotels = getHotels(slug).slice(0, 4)
   const hotelLabels = {
     reviews: dict.destination.reviews,
@@ -110,7 +135,7 @@ export default async function GuidePage({
     {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: points.map((p) => ({
+      mainEntity: [...points, ...faq].map((p) => ({
         '@type': 'Question',
         name: p.q,
         acceptedAnswer: { '@type': 'Answer', text: p.a },
@@ -177,6 +202,37 @@ export default async function GuidePage({
         ))}
       </section>
 
+      {/* Prominent full-resort-guide CTA */}
+      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="rounded-2xl bg-slate-deep text-white p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center gap-5">
+          <div className="flex-1">
+            <h2 className="text-xl sm:text-2xl font-bold">{T.ctaTitle[l](d.name)}</h2>
+            <p className="mt-1 text-white/80 text-sm">{T.ctaSub[l]}</p>
+          </div>
+          <Link
+            href={`/${l}/destinations/${slug}`}
+            className="shrink-0 inline-flex items-center justify-center bg-white text-slate-deep font-semibold px-6 py-3.5 rounded-full hover:bg-ice-50 transition shadow-lg"
+          >
+            {T.ctaButton[l](d.name)} →
+          </Link>
+        </div>
+      </section>
+
+      {/* Extra FAQ (distinct, data-driven questions) */}
+      {faq.length > 0 && (
+        <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <h2 className="text-2xl font-bold text-slate-deep mb-5">{T.faqHeading[l]}</h2>
+          <dl className="space-y-5">
+            {faq.map((p, i) => (
+              <div key={i} className="bg-ice-50 rounded-2xl p-5">
+                <dt className="font-semibold text-slate-deep">{p.q}</dt>
+                <dd className="mt-1.5 text-ice-800/85 leading-relaxed">{p.a}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
+
       {/* Where to stay (hotel CTAs) */}
       {hotels.length > 0 && (
         <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -227,9 +283,6 @@ export default async function GuidePage({
 
       {/* Cross-links */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 flex flex-wrap gap-3 text-sm">
-        <Link href={`/${l}/destinations/${slug}`} className="rounded-full border border-ice-200 px-4 py-2 hover:bg-ice-50 transition">
-          {T.fullGuide[l]}
-        </Link>
         <Link href={`/${l}/weather/${slug}`} className="rounded-full border border-ice-200 px-4 py-2 hover:bg-ice-50 transition">
           {T.snowReport[l]}
         </Link>
