@@ -6,6 +6,7 @@ import { SKI_AREAS } from '@/lib/skiAreas'
 import { BEST_FOR_LISTS } from '@/lib/bestFor'
 import { COMPARE_PAIRS } from '@/lib/compare'
 import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
+import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -197,6 +198,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.75,
         alternates: {
           languages: hreflangFor(`/when/${g.slug}`),
+        },
+      })
+    }
+
+    // Ski-in/ski-out hub + per-country
+    entries.push({
+      url: `${SITE_URL}/${locale}/ski-in-ski-out`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: {
+        languages: hreflangFor(`/ski-in-ski-out`),
+      },
+    })
+    for (const c of skiInSkiOutByCountry()) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/ski-in-ski-out/${c.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.75,
+        alternates: {
+          languages: hreflangFor(`/ski-in-ski-out/${c.slug}`),
         },
       })
     }

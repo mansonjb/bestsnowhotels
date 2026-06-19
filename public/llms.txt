@@ -52,6 +52,29 @@ A live snow + 7-day forecast section sits at /weather, refreshed every 30 minute
 
 - /opening-dates: resorts grouped by typical opening window (year-round glaciers, autumn glacier openers, October / November / December openers, spring + summer skiing, Southern Hemisphere June-October). Indicative windows from recent seasons, not confirmed 2026-2027 dates; each resort links to its official site to confirm.
 
+## Ski-in/ski-out by country
+
+Each resort is classified from our own editorial note into "ski to your door" (most of the village is genuinely on the snow) or "ski-in/ski-out addresses" (specific hotels or sectors only). Resorts where ski-in/ski-out is rare or shuttle-dependent are excluded, so listings are defensible rather than marketing. Counts below are qualifying resorts (genuine ski-to-door in brackets).
+
+- /ski-in-ski-out: hub, 15 countries
+- /ski-in-ski-out/france: 74 resorts (28 ski-to-door)
+- /ski-in-ski-out/italy: 29 resorts (8 ski-to-door)
+- /ski-in-ski-out/austria: 25 resorts (7 ski-to-door)
+- /ski-in-ski-out/united-states: 20 resorts (6 ski-to-door)
+- /ski-in-ski-out/switzerland: 20 resorts (3 ski-to-door)
+- /ski-in-ski-out/south-korea: 10 resorts (2 ski-to-door)
+- /ski-in-ski-out/spain: 9 resorts (6 ski-to-door)
+- /ski-in-ski-out/sweden: 9 resorts (6 ski-to-door)
+- /ski-in-ski-out/norway: 9 resorts (1 ski-to-door)
+- /ski-in-ski-out/japan: 8 resorts (2 ski-to-door)
+- /ski-in-ski-out/finland: 7 resorts (4 ski-to-door)
+- /ski-in-ski-out/canada: 7 resorts (2 ski-to-door)
+- /ski-in-ski-out/australia: 5 resorts (2 ski-to-door)
+- /ski-in-ski-out/chile: 3 resorts (2 ski-to-door)
+- /ski-in-ski-out/germany: 3 resorts
+
+Index: https://www.bestsnowhotels.com/en/ski-in-ski-out
+
 ## Best-for lists (curated)
 
 Curated lists for travellers shopping by intent rather than by name. Europe lists scope to the 10 European countries; Japan and USA each get their own.
