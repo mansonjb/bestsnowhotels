@@ -75,6 +75,24 @@ Each resort is classified from our own editorial note into "ski to your door" (m
 
 Index: https://www.bestsnowhotels.com/en/ski-in-ski-out
 
+## Resort guides: things to know before you go
+
+Short, practical "things to know" briefings per resort: snow reliability, getting there and ski-in/ski-out access, ski-area size and level mix, the vibe, and when to go. Every point is generated from our own structured data (altitude, snow score, season window, piste mix, ski-in/ski-out classification), with no prices or specific dates we cannot verify. Built as question and answer, useful for direct answers and citations.
+
+- /guides: hub, 10 flagship resorts
+- /guides/val-thorens (France)
+- /guides/chamonix (France)
+- /guides/courchevel (France)
+- /guides/val-d-isere (France)
+- /guides/zermatt (Switzerland)
+- /guides/verbier (Switzerland)
+- /guides/st-moritz (Switzerland)
+- /guides/st-anton (Austria)
+- /guides/niseko (Japan)
+- /guides/whistler-blackcomb (Canada)
+
+Index: https://www.bestsnowhotels.com/en/guides
+
 ## Best-for lists (curated)
 
 Curated lists for travellers shopping by intent rather than by name. Europe lists scope to the 10 European countries; Japan and USA each get their own.

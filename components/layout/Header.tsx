@@ -17,6 +17,7 @@ interface HeaderProps {
       weather: string
       about: string
       skiInSkiOut: string
+      guides: string
     }
   }
 }
@@ -56,6 +57,9 @@ export default function Header({ locale, dict }: HeaderProps) {
             </Link>
             <Link href={`/${locale}/ski-areas`} className="hover:text-slate-deep transition">
               {dict.nav.skiAreas}
+            </Link>
+            <Link href={`/${locale}/guides`} className="hover:text-slate-deep transition">
+              {dict.nav.guides}
             </Link>
             <Link href={`/${locale}/best`} className="hover:text-slate-deep transition">
               {dict.nav.best}
@@ -119,6 +123,13 @@ export default function Header({ locale, dict }: HeaderProps) {
               className="block py-2 text-sm font-medium text-ice-800"
             >
               {dict.nav.skiAreas}
+            </Link>
+            <Link
+              href={`/${locale}/guides`}
+              onClick={() => setOpen(false)}
+              className="block py-2 text-sm font-medium text-ice-800"
+            >
+              {dict.nav.guides}
             </Link>
             <Link
               href={`/${locale}/best`}

@@ -7,6 +7,7 @@ import { BEST_FOR_LISTS } from '@/lib/bestFor'
 import { COMPARE_PAIRS } from '@/lib/compare'
 import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
+import { GUIDE_SLUGS } from '@/lib/resortGuide'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -220,6 +221,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.75,
         alternates: {
           languages: hreflangFor(`/ski-in-ski-out/${c.slug}`),
+        },
+      })
+    }
+
+    // Resort guides hub + per-resort "things to know"
+    entries.push({
+      url: `${SITE_URL}/${locale}/guides`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: {
+        languages: hreflangFor(`/guides`),
+      },
+    })
+    for (const slug of GUIDE_SLUGS) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/guides/${slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.75,
+        alternates: {
+          languages: hreflangFor(`/guides/${slug}`),
         },
       })
     }
