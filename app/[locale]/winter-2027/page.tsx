@@ -9,11 +9,11 @@ import { SITE_URL, hreflangFor } from '@/lib/site'
 
 const T = {
   title: {
-    en: 'Where to ski for the 2027 winter holidays, by domain',
-    fr: "Où partir au ski pour les vacances d'hiver 2027, par domaine",
-    es: 'Dónde esquiar en las vacaciones de invierno 2027, por dominio',
-    pt: 'Onde esquiar nas férias de inverno de 2027, por domínio',
-    it: 'Dove sciare per le vacanze invernali 2027, per comprensorio',
+    en: 'Where to ski for the 2027 winter holidays?',
+    fr: "Où partir au ski pour les vacances d'hiver 2027 ?",
+    es: '¿Dónde esquiar en las vacaciones de invierno 2027?',
+    pt: 'Onde esquiar nas férias de inverno de 2027?',
+    it: 'Dove sciare per le vacanze invernali 2027?',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Planning the 2027 winter holidays? Here is why each big linked domain is worth a week, with one pass, real piste numbers and where to base yourself. No marketing, just our data.',
@@ -68,7 +68,7 @@ export default async function WinterHubPage({
           <span>{T.title[l]}</span>
         </nav>
         <h1 className="text-4xl sm:text-5xl font-bold text-slate-deep tracking-tight">{T.title[l]}</h1>
-        <p className="mt-4 text-lg text-ice-800/80 max-w-3xl">{T.subtitle[l]}</p>
+        <p className="mt-4 text-lg text-ice-800/80 max-w-4xl">{T.subtitle[l]}</p>
       </section>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

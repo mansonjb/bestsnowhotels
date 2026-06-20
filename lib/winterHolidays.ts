@@ -79,13 +79,47 @@ function joinNames(names: string[], locale: Locale): string {
 
 export function winterTitle(area: SkiArea, locale: Locale): string {
   const t: Record<Locale, string> = {
-    en: `Why ski ${area.name} for the ${SEASON_YEAR} winter holidays`,
-    fr: `Pourquoi partir à ${area.name} pour les vacances d'hiver ${SEASON_YEAR}`,
-    es: `Por qué esquiar en ${area.name} en las vacaciones de invierno ${SEASON_YEAR}`,
-    pt: `Porque esquiar em ${area.name} nas férias de inverno de ${SEASON_YEAR}`,
-    it: `Perché sciare a ${area.name} per le vacanze invernali ${SEASON_YEAR}`,
+    en: `Why ski ${area.name} for the ${SEASON_YEAR} winter holidays?`,
+    fr: `Pourquoi partir à ${area.name} pour les vacances d'hiver ${SEASON_YEAR} ?`,
+    es: `¿Por qué esquiar en ${area.name} en las vacaciones de invierno ${SEASON_YEAR}?`,
+    pt: `Porque esquiar em ${area.name} nas férias de inverno de ${SEASON_YEAR}?`,
+    it: `Perché sciare a ${area.name} per le vacanze invernali ${SEASON_YEAR}?`,
   }
   return t[locale]
+}
+
+export interface WinterStats {
+  km: number
+  lifts: number
+  topAlt: number
+  resorts: number
+  vertical: number
+  mix: { green: number; blue: number; red: number; black: number }
+  flagship: Destination | undefined
+}
+
+/** At-a-glance numbers for the domain, aggregated from its member resorts. */
+export function winterStats(area: SkiArea): WinterStats {
+  const members = winterMembers(area)
+  const mix = { green: 0, blue: 0, red: 0, black: 0 }
+  let minBase = Infinity
+  for (const m of members) {
+    mix.green += m.pisteCounts.green
+    mix.blue += m.pisteCounts.blue
+    mix.red += m.pisteCounts.red
+    mix.black += m.pisteCounts.black
+    if (m.altitudeBase < minBase) minBase = m.altitudeBase
+  }
+  const vertical = Number.isFinite(minBase) ? Math.max(0, area.topAltitude - minBase) : 0
+  return {
+    km: area.pistesKm,
+    lifts: area.lifts,
+    topAlt: area.topAltitude,
+    resorts: members.length,
+    vertical,
+    mix,
+    flagship: members[0],
+  }
 }
 
 export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
@@ -148,6 +182,24 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
       it: `Sistematevi a ${list}: ognuna si apre sullo stesso terreno collegato con un solo skipass, così scegliete il paese giusto per il vostro gruppo e sciate tutto il comprensorio.`,
     }
     out.push({ title: r3t, body: r3b[locale] })
+  }
+
+  // R5: terrain for every level (aggregate piste mix across members)
+  const mix = { green: 0, blue: 0, red: 0, black: 0 }
+  for (const m of members) {
+    mix.green += m.pisteCounts.green; mix.blue += m.pisteCounts.blue
+    mix.red += m.pisteCounts.red; mix.black += m.pisteCounts.black
+  }
+  if (mix.green + mix.blue + mix.red + mix.black > 0) {
+    const r5t = { en: 'Terrain for every level', fr: 'Du terrain pour tous les niveaux', es: 'Terreno para todos los niveles', pt: 'Terreno para todos os níveis', it: 'Terreno per ogni livello' }[locale]
+    const r5b: Record<Locale, string> = {
+      en: `Across the domain there are ${mix.green} green and ${mix.blue} blue runs against ${mix.red} red and ${mix.black} black, so beginners, intermediates and experts share the same lift pass without anyone running out of terrain.`,
+      fr: `Sur l'ensemble du domaine, on compte ${mix.green} pistes vertes et ${mix.blue} bleues face à ${mix.red} rouges et ${mix.black} noires : débutants, intermédiaires et experts partagent le même forfait sans jamais manquer de terrain.`,
+      es: `En todo el dominio hay ${mix.green} pistas verdes y ${mix.blue} azules frente a ${mix.red} rojas y ${mix.black} negras, así que principiantes, intermedios y expertos comparten el mismo forfait sin quedarse sin terreno.`,
+      pt: `Em todo o domínio há ${mix.green} pistas verdes e ${mix.blue} azuis contra ${mix.red} vermelhas e ${mix.black} pretas, por isso principiantes, intermédios e experts partilham o mesmo passe sem ficar sem terreno.`,
+      it: `Su tutto il comprensorio ci sono ${mix.green} piste verdi e ${mix.blue} blu contro ${mix.red} rosse e ${mix.black} nere, quindi principianti, intermedi ed esperti condividono lo stesso skipass senza restare mai senza terreno.`,
+    }
+    out.push({ title: r5t, body: r5b[locale] })
   }
 
   // R4: when to go (indicative season window)

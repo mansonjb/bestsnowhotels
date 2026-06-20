@@ -175,7 +175,7 @@ export default async function GuidePage({
             <span aria-hidden>/</span>
             <span>{d.name}</span>
           </nav>
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight max-w-3xl">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight max-w-4xl">
             {T.h1[l](d.name, points.length)}
           </h1>
           <p className="mt-2 text-white/85 text-sm">
@@ -185,12 +185,12 @@ export default async function GuidePage({
       </section>
 
       {/* Intro */}
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
         <p className="text-lg text-ice-800/85 leading-relaxed">{d.intro[l]}</p>
       </section>
 
       {/* The points */}
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
         {points.map((p, i) => (
           <div key={i} className="border-l-4 border-ice-400 pl-5">
             <h2 className="text-xl font-bold text-slate-deep flex gap-3">
@@ -203,7 +203,7 @@ export default async function GuidePage({
       </section>
 
       {/* Prominent full-resort-guide CTA */}
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="rounded-2xl bg-slate-deep text-white p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center gap-5">
           <div className="flex-1">
             <h2 className="text-xl sm:text-2xl font-bold">{T.ctaTitle[l](d.name)}</h2>
@@ -220,7 +220,7 @@ export default async function GuidePage({
 
       {/* Extra FAQ (distinct, data-driven questions) */}
       {faq.length > 0 && (
-        <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <h2 className="text-2xl font-bold text-slate-deep mb-5">{T.faqHeading[l]}</h2>
           <dl className="space-y-5">
             {faq.map((p, i) => (

@@ -4,10 +4,12 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
-import { getWinterAreas, getWinterArea, isWinterArea, winterReasons, winterTitle, winterMembers } from '@/lib/winterHolidays'
+import { getWinterAreas, getWinterArea, isWinterArea, winterReasons, winterTitle, winterMembers, winterStats } from '@/lib/winterHolidays'
 import { localizeRegion } from '@/lib/regions'
 import { localizeCountry } from '@/lib/countryNames'
 import Stay22Map from '@/components/Stay22Map'
+import SnowByMonth from '@/components/SnowByMonth'
+import { snowByMonth } from '@/lib/snow'
 import { SITE_URL, hreflangFor, buildAllezDestLink } from '@/lib/site'
 
 const T = {
@@ -39,6 +41,25 @@ const T = {
   hub: {
     en: 'All domains', fr: 'Tous les domaines', es: 'Todos los dominios', pt: 'Todos os domínios', it: 'Tutti i comprensori',
   } as Record<Locale, string>,
+  statPiste: { en: 'of piste', fr: 'de pistes', es: 'de pistas', pt: 'de pistas', it: 'di piste' } as Record<Locale, string>,
+  statLifts: { en: 'lifts', fr: 'remontées', es: 'remontes', pt: 'teleféricos', it: 'impianti' } as Record<Locale, string>,
+  statTop: { en: 'top altitude', fr: 'point culminant', es: 'cota máxima', pt: 'cota máxima', it: 'quota massima' } as Record<Locale, string>,
+  statVert: { en: 'vertical', fr: 'dénivelé', es: 'desnivel', pt: 'desnível', it: 'dislivello' } as Record<Locale, string>,
+  statResorts: { en: 'linked resorts', fr: 'stations reliées', es: 'estaciones enlazadas', pt: 'estâncias ligadas', it: 'località collegate' } as Record<Locale, string>,
+  pisteMix: { en: 'Piste mix across the domain', fr: 'Répartition des pistes du domaine', es: 'Reparto de pistas del dominio', pt: 'Repartição das pistas do domínio', it: 'Ripartizione delle piste del comprensorio' } as Record<Locale, string>,
+  green: { en: 'green', fr: 'vertes', es: 'verdes', pt: 'verdes', it: 'verdi' } as Record<Locale, string>,
+  blue: { en: 'blue', fr: 'bleues', es: 'azules', pt: 'azuis', it: 'blu' } as Record<Locale, string>,
+  red: { en: 'red', fr: 'rouges', es: 'rojas', pt: 'vermelhas', it: 'rosse' } as Record<Locale, string>,
+  black: { en: 'black', fr: 'noires', es: 'negras', pt: 'pretas', it: 'nere' } as Record<Locale, string>,
+  snowHeading: { en: 'Snow through the season', fr: 'La neige au fil de la saison', es: 'La nieve a lo largo de la temporada', pt: 'A neve ao longo da época', it: 'La neve nel corso della stagione' } as Record<Locale, string>,
+  snowSub: {
+    en: (name: string) => `Indicative average snow depth on the slopes at ${name}, the domain's snowiest base.`,
+    fr: (name: string) => `Hauteur de neige moyenne indicative sur les pistes à ${name}, la base la plus enneigée du domaine.`,
+    es: (name: string) => `Espesor medio indicativo de nieve en las pistas de ${name}, la base más nevada del dominio.`,
+    pt: (name: string) => `Espessura média indicativa de neve nas pistas de ${name}, a base mais nevada do domínio.`,
+    it: (name: string) => `Spessore medio indicativo della neve sulle piste a ${name}, la base più nevosa del comprensorio.`,
+  } as Record<Locale, (name: string) => string>,
+  liveSnow: { en: 'Live snow report', fr: 'Bulletin neige en direct', es: 'Parte de nieve en directo', pt: 'Boletim de neve em direto', it: 'Bollettino neve in tempo reale' } as Record<Locale, string>,
 }
 
 export function generateStaticParams() {
@@ -81,6 +102,15 @@ export default async function WinterAreaPage({
   const reasons = winterReasons(a, l)
   const members = winterMembers(a)
   const heroSlug = members[0]?.slug ?? a.members[0]
+  const stats = winterStats(a)
+  const snow = stats.flagship ? snowByMonth(stats.flagship) : null
+  const mixTotal = stats.mix.green + stats.mix.blue + stats.mix.red + stats.mix.black
+  const mixBar = [
+    { key: 'green', n: stats.mix.green, cls: 'bg-emerald-500' },
+    { key: 'blue', n: stats.mix.blue, cls: 'bg-sky-500' },
+    { key: 'red', n: stats.mix.red, cls: 'bg-rose-500' },
+    { key: 'black', n: stats.mix.black, cls: 'bg-slate-800' },
+  ] as const
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -116,14 +146,52 @@ export default async function WinterAreaPage({
       </section>
 
       {/* Intro */}
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
-        <p className="text-lg text-ice-800/85 leading-relaxed">{a.intro[l]}</p>
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+        <p className="text-lg text-ice-800/85 leading-relaxed max-w-4xl">{a.intro[l]}</p>
+      </section>
+
+      {/* Stats strip */}
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+        <dl className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+          {[
+            { v: `${stats.km} km`, k: T.statPiste[l] },
+            { v: stats.lifts, k: T.statLifts[l] },
+            { v: `${stats.topAlt} m`, k: T.statTop[l] },
+            { v: `${stats.vertical} m`, k: T.statVert[l] },
+            { v: stats.resorts, k: T.statResorts[l] },
+          ].map((s, i) => (
+            <div key={i} className="bg-white rounded-2xl border border-ice-100 px-4 py-3 text-center">
+              <dd className="text-2xl font-bold text-slate-deep tabular-nums">{s.v}</dd>
+              <dt className="mt-0.5 text-xs text-ice-800/70">{s.k}</dt>
+            </div>
+          ))}
+        </dl>
+
+        {/* Piste mix bar */}
+        {mixTotal > 0 && (
+          <div className="mt-4 bg-white rounded-2xl border border-ice-100 p-5">
+            <div className="text-sm font-semibold text-slate-deep mb-3">{T.pisteMix[l]}</div>
+            <div className="flex h-3 w-full overflow-hidden rounded-full">
+              {mixBar.filter((s) => s.n > 0).map((s) => (
+                <div key={s.key} className={s.cls} style={{ width: `${(s.n / mixTotal) * 100}%` }} />
+              ))}
+            </div>
+            <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-xs text-ice-800/75 tabular-nums">
+              {mixBar.map((s) => (
+                <span key={s.key} className="inline-flex items-center gap-1.5">
+                  <span className={`inline-block h-2.5 w-2.5 rounded-full ${s.cls}`} />
+                  {s.n} {T[s.key][l]}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
       </section>
 
       {/* Reasons */}
-      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h2 className="text-2xl font-bold text-slate-deep mb-6">{T.whyHeading[l]}</h2>
-        <div className="space-y-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {reasons.map((r, i) => (
             <div key={i} className="bg-white rounded-2xl border border-ice-100 p-5">
               <h3 className="font-bold text-slate-deep">{r.title}</h3>
@@ -132,6 +200,22 @@ export default async function WinterAreaPage({
           ))}
         </div>
       </section>
+
+      {/* Snow through the season */}
+      {snow && stats.flagship && (
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <h2 className="text-2xl font-bold text-slate-deep">{T.snowHeading[l]}</h2>
+          <p className="mt-2 text-ice-800/80 mb-5">{T.snowSub[l](stats.flagship.name)}</p>
+          <div className="bg-white rounded-2xl border border-ice-100 p-5">
+            <SnowByMonth data={snow} locale={l} />
+          </div>
+          <div className="mt-4">
+            <Link href={`/${l}/weather/${stats.flagship.slug}`} className="inline-flex items-center gap-2 text-sm font-semibold text-ice-700 hover:text-slate-deep transition">
+              {T.liveSnow[l]} →
+            </Link>
+          </div>
+        </section>
+      )}
 
       {/* Where to base */}
       {members.length > 0 && (
