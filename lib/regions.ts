@@ -48,6 +48,27 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Pirenéus franceses',
     it: 'Pirenei francesi',
   },
+  Vosges: {
+    en: 'Vosges',
+    fr: 'Vosges',
+    es: 'Vosgos',
+    pt: 'Vosgos',
+    it: 'Vosgi',
+  },
+  Jura: {
+    en: 'Jura',
+    fr: 'Jura',
+    es: 'Jura',
+    pt: 'Jura',
+    it: 'Giura',
+  },
+  'Massif Central': {
+    en: 'Massif Central',
+    fr: 'Massif central',
+    es: 'Macizo Central',
+    pt: 'Maciço Central',
+    it: 'Massiccio Centrale',
+  },
   'Andorran Pyrenees': {
     en: 'Andorran Pyrenees',
     fr: 'Pyrénées andorranes',

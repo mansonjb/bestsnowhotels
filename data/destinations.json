@@ -20238,5 +20238,152 @@
       "red": 26,
       "black": 39
     }
+  },
+  {
+    "slug": "gerardmer",
+    "name": "Gérardmer",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "Vosges",
+    "lat": 48.0589,
+    "lng": 6.8913,
+    "altitudeBase": 770,
+    "altitudeSummit": 1140,
+    "pistesKm": 40,
+    "lifts": 19,
+    "skiInSkiOutNote": {
+      "en": "Gérardmer is a lake town, and the slopes at La Mauselaine sit just outside it, so this is not a ski-in, ski-out resort. You stay in town and reach the lifts with a short drive or walk of a few minutes.",
+      "fr": "Gérardmer est une ville au bord du lac, et les pistes de La Mauselaine se trouvent juste à l'extérieur, ce n'est donc pas une station skis aux pieds. On loge en ville et on rejoint les remontées en voiture ou à pied, en quelques minutes.",
+      "es": "Gérardmer es un pueblo a orillas del lago, y las pistas de La Mauselaine quedan justo a las afueras, así que no es una estación con acceso directo a pista. Te alojas en el pueblo y llegas a los remontes con un trayecto corto en coche o a pie de unos minutos.",
+      "pt": "Gérardmer é uma vila à beira do lago, e as pistas da Mauselaine ficam mesmo nos arredores, pelo que não é uma estância com acesso direto à pista. Fica alojado na vila e chega aos teleféricos com uma curta deslocação de carro ou a pé, de alguns minutos.",
+      "it": "Gérardmer è una cittadina sul lago, e le piste della Mauselaine si trovano appena fuori, quindi non è una località con accesso diretto agli impianti. Si alloggia in paese e si raggiungono gli impianti con un breve tragitto in auto o a piedi di pochi minuti."
+    },
+    "seasonStart": "Dec 20",
+    "seasonEnd": "Mar 10",
+    "snowScore": 50,
+    "vibes": [
+      "family",
+      "value",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Gérardmer is a charming lake town in the Vosges and one of the best known resorts in eastern France. It is a popular weekend and family destination at modest altitude, with forest runs above the town rather than a high alpine domain. The snow can be variable here, so this is a place for the lake, the woods, and the atmosphere as much as for the skiing.",
+      "fr": "Gérardmer est une charmante ville au bord du lac dans les Vosges et l'une des stations les plus connues de l'est de la France. C'est une destination familiale et de week-end à altitude modeste, avec des pistes en forêt au-dessus de la ville plutôt qu'un grand domaine alpin. La neige y est variable, on vient donc autant pour le lac, les bois et l'ambiance que pour le ski.",
+      "es": "Gérardmer es un encantador pueblo a orillas del lago en los Vosgos y una de las estaciones más conocidas del este de Francia. Es un destino familiar y de fin de semana a altitud modesta, con pistas entre bosques sobre el pueblo más que un gran dominio alpino. La nieve aquí es variable, así que se viene tanto por el lago, los bosques y el ambiente como por el esquí.",
+      "pt": "Gérardmer é uma encantadora vila à beira do lago nos Vosges e uma das estâncias mais conhecidas do leste de França. É um destino familiar e de fim de semana a altitude modesta, com pistas em floresta acima da vila e não um grande domínio alpino. A neve aqui é variável, por isso vem-se tanto pelo lago, pelos bosques e pelo ambiente como pelo esqui.",
+      "it": "Gérardmer è un'incantevole cittadina sul lago nei Vosgi e una delle località più note della Francia orientale. È una meta per famiglie e per il fine settimana a quota modesta, con piste nel bosco sopra il paese più che un grande comprensorio alpino. La neve qui è variabile, quindi si viene tanto per il lago, i boschi e l'atmosfera quanto per lo sci."
+    },
+    "longDescription": {
+      "en": "Gérardmer suits families, beginners, and weekenders driving up from Nancy, Strasbourg, Luxembourg, or just over the German border. The skiing centres on the small La Mauselaine area, with gentle forest runs and a good network of cross-country trails, all backed by the easygoing feel of a lake town with shops, restaurants, and lakeside walks. Bear in mind that the altitude is low and snow cover can be patchy, so the season leans heavily on snowmaking.",
+      "fr": "Gérardmer convient aux familles, aux débutants et aux amateurs de week-end venus de Nancy, Strasbourg, Luxembourg ou tout juste de l'autre côté de la frontière allemande. Le ski se concentre sur le petit domaine de La Mauselaine, avec des pistes douces en forêt et un bon réseau de fond, le tout porté par l'atmosphère détendue d'une ville au bord du lac, ses boutiques, ses restaurants et ses promenades au fil de l'eau. Gardez à l'esprit que l'altitude est basse et l'enneigement parfois inégal, la saison repose donc largement sur la neige de culture.",
+      "es": "Gérardmer encaja con familias, principiantes y viajeros de fin de semana que llegan desde Nancy, Estrasburgo, Luxemburgo o justo al otro lado de la frontera alemana. El esquí se concentra en el pequeño dominio de La Mauselaine, con suaves pistas entre bosques y una buena red de fondo, todo arropado por el ambiente relajado de un pueblo lacustre con tiendas, restaurantes y paseos junto al agua. Ten en cuenta que la altitud es baja y la nieve puede ser irregular, así que la temporada depende en gran medida de la nieve artificial.",
+      "pt": "Gérardmer agrada a famílias, principiantes e viajantes de fim de semana que sobem desde Nancy, Estrasburgo, Luxemburgo ou logo do outro lado da fronteira alemã. O esqui concentra-se no pequeno domínio da Mauselaine, com pistas suaves em floresta e uma boa rede de fundo, tudo envolto na atmosfera descontraída de uma vila à beira do lago, com lojas, restaurantes e passeios junto à água. Tenha presente que a altitude é baixa e a neve pode ser irregular, pelo que a época depende muito da neve artificial.",
+      "it": "Gérardmer è adatta a famiglie, principianti e a chi viaggia nel fine settimana arrivando da Nancy, Strasburgo, Lussemburgo o appena oltre il confine tedesco. Lo sci si concentra nel piccolo comprensorio della Mauselaine, con dolci piste nel bosco e una buona rete di fondo, il tutto sostenuto dall'atmosfera rilassata di una cittadina sul lago, con negozi, ristoranti e passeggiate lungo l'acqua. Tieni presente che la quota è bassa e l'innevamento può essere incostante, perciò la stagione si appoggia molto sulla neve artificiale."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 3,
+      "red": 8,
+      "black": 2
+    }
+  },
+  {
+    "slug": "super-besse",
+    "name": "Super-Besse",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "Massif Central",
+    "lat": 45.5107,
+    "lng": 2.8568,
+    "altitudeBase": 1350,
+    "altitudeSummit": 1800,
+    "pistesKm": 43,
+    "lifts": 23,
+    "skiInSkiOutNote": {
+      "en": "Super-Besse is a purpose-built resort, so a good share of its apartments and hotels sit right at the foot of the slopes, with genuine ski-in, ski-out options at the resort itself. For more character, the old village of Besse lies a few kilometres downhill and is linked by a regular shuttle.",
+      "fr": "Super-Besse est une station construite au pied des pistes, ce qui place une bonne partie des appartements et des hôtels juste au départ des remontées, avec de vraies possibilités de skis aux pieds sur la station. Pour plus de charme, le vieux bourg de Besse se trouve quelques kilomètres plus bas et reste relié par une navette régulière.",
+      "es": "Super-Besse es una estación construida a pie de pistas, por lo que buena parte de sus apartamentos y hoteles se encuentran justo al pie de los remontes, con opciones reales de esquí en la propia estación. Para algo con más encanto, el casco antiguo de Besse queda unos kilómetros más abajo y está conectado por un servicio regular de lanzadera.",
+      "pt": "Super-Besse é uma estação construída junto às pistas, pelo que boa parte dos apartamentos e hotéis fica mesmo ao pé dos teleféricos, com opções reais de esqui à porta na própria estação. Para algo com mais carácter, a vila antiga de Besse situa-se uns quilómetros mais abaixo e está ligada por um transfer regular.",
+      "it": "Super-Besse è una stazione costruita ai piedi delle piste, quindi buona parte degli appartamenti e degli hotel si trova proprio alla partenza degli impianti, con vere opzioni sci ai piedi nella stazione stessa. Per qualcosa di piu caratteristico, il vecchio borgo di Besse si trova qualche chilometro piu a valle ed è collegato da una navetta regolare."
+    },
+    "seasonStart": "Dec 18",
+    "seasonEnd": "Mar 28",
+    "snowScore": 55,
+    "vibes": [
+      "family",
+      "value",
+      "national-park"
+    ],
+    "intro": {
+      "en": "Super-Besse is the main ski resort of the Auvergne volcanoes, set on the flanks of the Puy de Sancy in the Massif Central. It is a purpose-built family station with wide, gentle slopes and striking volcanic scenery, though the snow here is more modest and changeable than in the high Alps.",
+      "fr": "Super-Besse est la principale station de ski des volcans d'Auvergne, installée sur les pentes du Puy de Sancy, dans le Massif Central. C'est une station familiale construite au pied des pistes, avec des pentes larges et douces et des paysages volcaniques saisissants, même si l'enneigement y reste plus modeste et plus capricieux que dans les hautes Alpes.",
+      "es": "Super-Besse es la principal estación de esquí de los volcanes de Auvernia, en las laderas del Puy de Sancy, en el Macizo Central. Es una estación familiar construida a pie de pistas, con laderas amplias y suaves y un paisaje volcánico imponente, aunque la nieve es aquí más modesta y variable que en los Alpes altos.",
+      "pt": "Super-Besse é a principal estação de esqui dos vulcões da Auvérnia, instalada nas encostas do Puy de Sancy, no Maciço Central. É uma estação familiar construída junto às pistas, com encostas largas e suaves e uma paisagem vulcânica impressionante, ainda que a neve seja aqui mais modesta e variável do que nos Alpes altos.",
+      "it": "Super-Besse è la principale stazione sciistica dei vulcani dell'Alvernia, sui fianchi del Puy de Sancy, nel Massiccio Centrale. È una stazione familiare costruita ai piedi delle piste, con pendii ampi e dolci e paesaggi vulcanici suggestivi, anche se la neve qui è piu modesta e variabile rispetto alle Alpi alte."
+    },
+    "longDescription": {
+      "en": "Super-Besse suits families, improving intermediates and Clermont-Ferrand weekenders looking for an easy escape close to home. Its runs spread across the Sancy massif and link toward Le Mont-Dore, all within the Auvergne Volcanoes regional nature park, where domed peaks replace the usual jagged ridgelines. At this mid-low altitude the snow is variable from one winter to the next, so the resort leans heavily on snowmaking to hold its lower slopes together.",
+      "fr": "Super-Besse convient aux familles, aux skieurs intermédiaires en progression et aux Clermontois en quête d'une escapade facile près de chez eux. Ses pistes s'étendent sur le massif du Sancy et rejoignent Le Mont-Dore, au cœur du parc naturel régional des Volcans d'Auvergne, où les sommets arrondis remplacent les crêtes acérées habituelles. À cette altitude moyenne, l'enneigement varie d'un hiver à l'autre, et la station s'appuie largement sur la neige de culture pour tenir ses pentes basses.",
+      "es": "Super-Besse encaja con familias, esquiadores intermedios que progresan y habitantes de Clermont-Ferrand que buscan una escapada fácil cerca de casa. Sus pistas se reparten por el macizo del Sancy y enlazan hacia Le Mont-Dore, dentro del parque natural regional de los Volcanes de Auvernia, donde las cumbres redondeadas sustituyen a las crestas afiladas habituales. A esta altitud media-baja la nieve varía de un invierno a otro, así que la estación recurre mucho a la nieve producida para mantener sus pistas más bajas.",
+      "pt": "Super-Besse adequa-se a famílias, esquiadores intermédios em progressão e habitantes de Clermont-Ferrand à procura de uma escapadinha fácil perto de casa. As suas pistas estendem-se pelo maciço do Sancy e ligam-se a Le Mont-Dore, dentro do parque natural regional dos Vulcões da Auvérnia, onde os cumes arredondados substituem as cristas afiadas habituais. A esta altitude média-baixa, a neve varia de inverno para inverno, pelo que a estação recorre bastante à neve artificial para manter as pistas mais baixas.",
+      "it": "Super-Besse è adatta alle famiglie, agli sciatori intermedi in crescita e agli abitanti di Clermont-Ferrand in cerca di una fuga facile vicino a casa. Le sue piste si estendono sul massiccio del Sancy e si collegano verso Le Mont-Dore, all'interno del parco naturale regionale dei Vulcani dell'Alvernia, dove le cime arrotondate sostituiscono le solite creste frastagliate. A questa quota medio-bassa la neve varia da un inverno all'altro, perciò la stazione si affida molto all'innevamento artificiale per tenere insieme le piste piu basse."
+    },
+    "pisteCounts": {
+      "green": 5,
+      "blue": 9,
+      "red": 9,
+      "black": 4
+    }
+  },
+  {
+    "slug": "metabief",
+    "name": "Métabief",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "Jura",
+    "lat": 46.7702,
+    "lng": 6.3531,
+    "altitudeBase": 1000,
+    "altitudeSummit": 1430,
+    "pistesKm": 37,
+    "lifts": 19,
+    "skiInSkiOutNote": {
+      "en": "Métabief is not a ski-in, ski-out resort: it is a cluster of small villages sitting below the lifts on the flanks of the Mont d'Or. You stay in Métabief itself or a neighbouring hamlet and walk or drive the short distance to the slopes each morning.",
+      "fr": "Métabief n'est pas une station ski aux pieds: c'est un chapelet de petits villages installés sous les remontées, sur les flancs du Mont d'Or. On loge à Métabief même ou dans un hameau voisin, puis on rejoint les pistes à pied ou en voiture, sur une courte distance.",
+      "es": "Métabief no es una estación con acceso directo a pista: es un grupo de pueblos pequeños situados por debajo de los remontes, en las laderas del Mont d'Or. Te alojas en el propio Métabief o en una aldea cercana y vas a las pistas andando o en coche, una distancia corta.",
+      "pt": "Métabief não é uma estância com acesso direto à pista: é um conjunto de pequenas aldeias situadas por baixo dos teleféricos, nas encostas do Mont d'Or. Fica alojado na própria Métabief ou numa aldeia vizinha e desloca-se às pistas a pé ou de carro, uma distância curta.",
+      "it": "Métabief non è una località con accesso diretto alle piste: è un insieme di piccoli villaggi posti sotto gli impianti, sui versanti del Mont d'Or. Si alloggia a Métabief stessa o in una frazione vicina e si raggiungono le piste a piedi o in auto, per una breve distanza."
+    },
+    "seasonStart": "Dec 20",
+    "seasonEnd": "Mar 10",
+    "snowScore": 46,
+    "vibes": [
+      "family",
+      "value",
+      "cross-border"
+    ],
+    "intro": {
+      "en": "Métabief is the main downhill ski resort of the French Jura, spread across the slopes of the Mont d'Or close to the Swiss border and the Lake Geneva region. It sits at modest altitude, between roughly 1000 and 1430 metres, but on clear days the panorama stretches all the way to the Alps and the white wall of Mont Blanc. The snow here is variable and weather dependent, so come for the views and the easy-going atmosphere as much as for the skiing.",
+      "fr": "Métabief est la principale station de ski alpin du Jura français, étalée sur les pentes du Mont d'Or, tout près de la frontière suisse et du Léman. Son altitude reste modeste, entre 1000 et 1430 mètres environ, mais par temps clair le panorama file jusqu'aux Alpes et au mur blanc du Mont Blanc. L'enneigement y est variable et dépend beaucoup de la météo: on vient autant pour la vue et l'ambiance bon enfant que pour le ski.",
+      "es": "Métabief es la principal estación de esquí alpino del Jura francés, repartida por las laderas del Mont d'Or, muy cerca de la frontera suiza y de la región del lago Lemán. Su altitud es modesta, entre unos 1000 y 1430 metros, pero en días despejados el panorama llega hasta los Alpes y el muro blanco del Mont Blanc. La nieve es variable y depende mucho del tiempo, así que se viene tanto por las vistas y el ambiente tranquilo como por el esquí.",
+      "pt": "Métabief é a principal estância de esqui alpino do Jura francês, espalhada pelas encostas do Mont d'Or, muito perto da fronteira suíça e da região do lago Lemano. Fica a uma altitude modesta, entre cerca de 1000 e 1430 metros, mas em dias limpos o panorama estende-se até aos Alpes e à parede branca do Mont Blanc. A neve é variável e muito dependente do tempo, por isso vem-se tanto pelas vistas e pelo ambiente descontraído como pelo esqui.",
+      "it": "Métabief è la principale località di sci alpino del Giura francese, distesa sui versanti del Mont d'Or, vicinissima al confine svizzero e alla regione del Lago di Ginevra. L'altitudine è modesta, tra i 1000 e i 1430 metri circa, ma nelle giornate limpide il panorama arriva fino alle Alpi e alla parete bianca del Monte Bianco. La neve è variabile e molto legata al meteo, quindi si viene tanto per i panorami e l'atmosfera rilassata quanto per lo sci."
+    },
+    "longDescription": {
+      "en": "This is a resort for families, beginners and weekenders coming up from Besançon, Dijon or the Swiss shores of Lake Geneva, rather than for hardened Alpine skiers. The downhill area is small and friendly, but it is paired with a vast cross-country network of more than fifty kilometres that is often the real draw. Be honest with yourself about conditions: the low altitude makes snow cover patchy and increasingly fragile from one winter to the next, and snowmaking does much of the heavy lifting.",
+      "fr": "C'est une station pour les familles, les débutants et les amateurs d'un week-end qui montent de Besançon, de Dijon ou des rives suisses du Léman, plus que pour les skieurs alpins aguerris. Le domaine alpin est petit et accueillant, mais il s'accompagne d'un vaste réseau de ski de fond de plus de cinquante kilomètres, qui est souvent le vrai atout. Restez lucide sur les conditions: la basse altitude rend l'enneigement irrégulier et de plus en plus fragile d'un hiver à l'autre, et la neige de culture fait une grande partie du travail.",
+      "es": "Es una estación para familias, principiantes y quienes suben un fin de semana desde Besanzón, Dijon o las orillas suizas del lago Lemán, más que para esquiadores alpinos curtidos. El dominio alpino es pequeño y acogedor, pero se completa con una amplia red de esquí de fondo de más de cincuenta kilómetros, que a menudo es el verdadero reclamo. Sé realista con las condiciones: la baja altitud hace que la nieve sea irregular y cada vez más frágil de un invierno a otro, y la nieve artificial hace buena parte del trabajo.",
+      "pt": "É uma estância para famílias, principiantes e quem sobe num fim de semana a partir de Besançon, Dijon ou das margens suíças do lago Lemano, mais do que para esquiadores alpinos experientes. O domínio alpino é pequeno e acolhedor, mas junta-se a uma vasta rede de esqui de fundo de mais de cinquenta quilómetros, que é muitas vezes o verdadeiro atrativo. Seja realista quanto às condições: a baixa altitude torna a cobertura de neve irregular e cada vez mais frágil de inverno para inverno, e a neve artificial faz grande parte do trabalho.",
+      "it": "È una località per famiglie, principianti e chi sale per un fine settimana da Besançon, Digione o dalle rive svizzere del Lago di Ginevra, più che per sciatori alpini esperti. Il comprensorio alpino è piccolo e accogliente, ma si affianca a un'ampia rete di sci di fondo di oltre cinquanta chilometri, che è spesso il vero richiamo. Siate onesti sulle condizioni: la bassa quota rende l'innevamento discontinuo e sempre più fragile di inverno in inverno, e la neve artificiale fa gran parte del lavoro."
+    },
+    "pisteCounts": {
+      "green": 10,
+      "blue": 13,
+      "red": 12,
+      "black": 6
+    }
   }
 ]
