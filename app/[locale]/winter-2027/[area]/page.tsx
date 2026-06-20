@@ -4,7 +4,7 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
-import { getWinterAreas, getWinterArea, isWinterArea, winterReasons, winterTitle, winterMembers, winterStats } from '@/lib/winterHolidays'
+import { getWinterAreas, getWinterArea, isWinterArea, winterReasons, winterTitle, winterMembers, winterStats, winterFaq } from '@/lib/winterHolidays'
 import { localizeRegion } from '@/lib/regions'
 import { localizeCountry } from '@/lib/countryNames'
 import Stay22Map from '@/components/Stay22Map'
@@ -60,6 +60,7 @@ const T = {
     it: (name: string) => `Spessore medio indicativo della neve sulle piste a ${name}, la base più nevosa del comprensorio.`,
   } as Record<Locale, (name: string) => string>,
   liveSnow: { en: 'Live snow report', fr: 'Bulletin neige en direct', es: 'Parte de nieve en directo', pt: 'Boletim de neve em direto', it: 'Bollettino neve in tempo reale' } as Record<Locale, string>,
+  faqHeading: { en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti' } as Record<Locale, string>,
 }
 
 export function generateStaticParams() {
@@ -112,15 +113,25 @@ export default async function WinterAreaPage({
     { key: 'black', n: stats.mix.black, cls: 'bg-slate-800' },
   ] as const
 
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: dict.nav.home, item: `${SITE_URL}/${l}` },
-      { '@type': 'ListItem', position: 2, name: dict.skiAreas?.title ?? 'Ski areas', item: `${SITE_URL}/${l}/ski-areas` },
-      { '@type': 'ListItem', position: 3, name: winterTitle(a, l), item: `${SITE_URL}/${l}/winter-2027/${area}` },
-    ],
-  }
+  const faq = winterFaq(a, l)
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: dict.nav.home, item: `${SITE_URL}/${l}` },
+        { '@type': 'ListItem', position: 2, name: dict.skiAreas?.title ?? 'Ski areas', item: `${SITE_URL}/${l}/ski-areas` },
+        { '@type': 'ListItem', position: 3, name: winterTitle(a, l), item: `${SITE_URL}/${l}/winter-2027/${area}` },
+      ],
+    },
+    ...(faq.length
+      ? [{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.title, acceptedAnswer: { '@type': 'Answer', text: f.body } })),
+        }]
+      : []),
+  ]
 
   return (
     <>
@@ -180,7 +191,7 @@ export default async function WinterAreaPage({
               {mixBar.map((s) => (
                 <span key={s.key} className="inline-flex items-center gap-1.5">
                   <span className={`inline-block h-2.5 w-2.5 rounded-full ${s.cls}`} />
-                  {s.n} {T[s.key][l]}
+                  {Math.round((s.n / mixTotal) * 100)}% {T[s.key][l]}
                 </span>
               ))}
             </div>
@@ -250,6 +261,21 @@ export default async function WinterAreaPage({
           </a>
         </div>
       </section>
+
+      {/* FAQ */}
+      {faq.length > 0 && (
+        <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <h2 className="text-2xl font-bold text-slate-deep mb-5">{T.faqHeading[l]}</h2>
+          <dl className="space-y-4">
+            {faq.map((f, i) => (
+              <div key={i} className="bg-white rounded-2xl border border-ice-100 p-5">
+                <dt className="font-semibold text-slate-deep">{f.title}</dt>
+                <dd className="mt-1.5 text-ice-800/85 leading-relaxed">{f.body}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      )}
 
       {/* Cross-links */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 flex flex-wrap gap-3 text-sm">

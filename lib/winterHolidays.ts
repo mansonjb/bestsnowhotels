@@ -4,6 +4,7 @@ import { getDestination } from './destinations'
 import { SKI_AREAS, getSkiArea } from './skiAreas'
 import type { SkiArea } from './skiAreas'
 import { formatSeasonDate } from './dates'
+import { localizeCountry, inCountry } from './countryNames'
 
 /**
  * "Why ski [domain] for the 2027 winter holidays" content, generated from each
@@ -122,6 +123,103 @@ export function winterStats(area: SkiArea): WinterStats {
   }
 }
 
+/** Data-backed FAQ for the domain (rendered visibly + as FAQPage JSON-LD). */
+export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
+  const members = winterMembers(area)
+  const n = members.length
+  const out: Reason[] = []
+  const top3 = members.slice(0, 3).map((m) => m.name)
+
+  // Q1: resorts on one pass
+  if (n > 0) {
+    const q = { en: `How many resorts can you ski in ${area.name} on one pass?`, fr: `Combien de stations peut-on skier à ${area.name} avec un seul forfait ?`, es: `¿Cuántas estaciones se pueden esquiar en ${area.name} con un forfait?`, pt: `Quantas estâncias se podem esquiar em ${area.name} com um passe?`, it: `Quante località si possono sciare a ${area.name} con un solo skipass?` }[locale]
+    const list = joinNames(top3, locale)
+    const a: Record<Locale, string> = {
+      en: `${n} linked resorts share the ${area.pass} pass, including ${list}, for ${area.pistesKm} km of piste in total.`,
+      fr: `${n} stations reliées partagent le forfait ${area.pass}, dont ${list}, pour ${area.pistesKm} km de pistes au total.`,
+      es: `${n} estaciones enlazadas comparten el forfait ${area.pass}, entre ellas ${list}, con ${area.pistesKm} km de pistas en total.`,
+      pt: `${n} estâncias ligadas partilham o passe ${area.pass}, incluindo ${list}, num total de ${area.pistesKm} km de pistas.`,
+      it: `${n} località collegate condividono lo skipass ${area.pass}, tra cui ${list}, per ${area.pistesKm} km di piste in totale.`,
+    }
+    out.push({ title: q, body: a[locale] })
+  }
+
+  // Q2: beginners / families
+  const mix = { green: 0, blue: 0, red: 0, black: 0 }
+  for (const m of members) { mix.green += m.pisteCounts.green; mix.blue += m.pisteCounts.blue; mix.red += m.pisteCounts.red; mix.black += m.pisteCounts.black }
+  const tot = mix.green + mix.blue + mix.red + mix.black
+  if (tot > 0) {
+    const easy = Math.round(((mix.green + mix.blue) / tot) * 100)
+    const tier: 'good' | 'ok' | 'less' = easy >= 50 ? 'good' : easy >= 35 ? 'ok' : 'less'
+    const q = { en: `Is ${area.name} good for beginners and families?`, fr: `${area.name} est-elle adaptée aux débutants et aux familles ?`, es: `¿${area.name} es buena para principiantes y familias?`, pt: `${area.name} é boa para principiantes e famílias?`, it: `${area.name} è adatta a principianti e famiglie?` }[locale]
+    const A: Record<typeof tier, Record<Locale, string>> = {
+      good: {
+        en: `Yes. Around ${easy}% of the domain's runs are green or blue, so beginners and families have plenty of gentle terrain on the same pass as stronger skiers.`,
+        fr: `Oui. Environ ${easy}% des pistes du domaine sont vertes ou bleues, donc débutants et familles ont largement de quoi progresser, sur le même forfait que les bons skieurs.`,
+        es: `Sí. Cerca del ${easy}% de las pistas del dominio son verdes o azules, así que principiantes y familias tienen terreno suave de sobra, en el mismo forfait que los esquiadores fuertes.`,
+        pt: `Sim. Cerca de ${easy}% das pistas do domínio são verdes ou azuis, por isso principiantes e famílias têm terreno suave de sobra, no mesmo passe dos esquiadores fortes.`,
+        it: `Sì. Circa il ${easy}% delle piste del comprensorio è verde o blu, quindi principianti e famiglie hanno terreno facile in abbondanza, sullo stesso skipass degli sciatori esperti.`,
+      },
+      ok: {
+        en: `It works: about ${easy}% of the runs are green or blue to learn on, though the domain leans intermediate and above overall, so pick the gentler resorts to start.`,
+        fr: `Cela convient : environ ${easy}% des pistes sont vertes ou bleues pour débuter, même si le domaine penche globalement vers l'intermédiaire et plus, donc visez les stations les plus douces au départ.`,
+        es: `Funciona: cerca del ${easy}% de las pistas son verdes o azules para empezar, aunque el dominio tiende a intermedio y superior, así que elige las estaciones más suaves al principio.`,
+        pt: `Funciona: cerca de ${easy}% das pistas são verdes ou azuis para começar, embora o domínio tenda para intermédio e acima, por isso escolha as estâncias mais suaves ao início.`,
+        it: `Va bene: circa il ${easy}% delle piste è verde o blu per iniziare, anche se il comprensorio tende all'intermedio e oltre, quindi scegli le località più dolci all'inizio.`,
+      },
+      less: {
+        en: `Less so: only about ${easy}% of the runs are green or blue, so the domain skews intermediate and expert and committed beginners should choose the resort and sector with care.`,
+        fr: `Moins : seulement ${easy}% environ des pistes sont vertes ou bleues, le domaine penche vers l'intermédiaire et l'expert, donc les vrais débutants ont intérêt à bien choisir leur station et leur secteur.`,
+        es: `Menos: solo cerca del ${easy}% de las pistas son verdes o azules, el dominio tiende a intermedio y experto, así que los principiantes deben elegir bien la estación y el sector.`,
+        pt: `Menos: só cerca de ${easy}% das pistas são verdes ou azuis, o domínio tende a intermédio e experiente, por isso principiantes a sério devem escolher bem a estância e o setor.`,
+        it: `Meno: solo circa il ${easy}% delle piste è verde o blu, il comprensorio tende all'intermedio ed esperto, quindi i principianti dovrebbero scegliere con cura località e settore.`,
+      },
+    }
+    out.push({ title: q, body: A[tier][locale] })
+  }
+
+  // Q3: which countries
+  const countries = [...new Set(members.map((m) => m.country))]
+  if (countries.length) {
+    const q = { en: `Which country is ${area.name} in?`, fr: `Dans quel pays se trouve ${area.name} ?`, es: `¿En qué país está ${area.name}?`, pt: `Em que país fica ${area.name}?`, it: `In quale paese si trova ${area.name}?` }[locale]
+    const names = joinNames(countries.map((c) => localizeCountry(c, locale)), locale)
+    const a: Record<Locale, string> = countries.length > 1
+      ? {
+          en: `${area.name} spans ${names}, all skiable on one pass.`,
+          fr: `${area.name} s'étend sur ${names}, le tout skiable avec un seul forfait.`,
+          es: `${area.name} se extiende por ${names}, todo esquiable con un forfait.`,
+          pt: `${area.name} estende-se por ${names}, tudo esquiável com um passe.`,
+          it: `${area.name} si estende su ${names}, tutto sciabile con un solo skipass.`,
+        }
+      : {
+          en: `${area.name} is in ${names}.`,
+          fr: `${area.name} se trouve ${inCountry(countries[0], locale)}.`,
+          es: `${area.name} está en ${names}.`,
+          pt: `${area.name} fica ${inCountry(countries[0], locale)}.`,
+          it: `${area.name} si trova ${inCountry(countries[0], locale)}.`,
+        }
+    out.push({ title: q, body: a[locale] })
+  }
+
+  // Q4: season dates
+  const win = seasonWindow(members)
+  const q4 = { en: `When does the ${area.name} ski season run in ${SEASON_YEAR}?`, fr: `Quand a lieu la saison de ski à ${area.name} en ${SEASON_YEAR} ?`, es: `¿Cuándo es la temporada de esquí en ${area.name} en ${SEASON_YEAR}?`, pt: `Quando decorre a época de esqui em ${area.name} em ${SEASON_YEAR}?`, it: `Quando va la stagione sciistica a ${area.name} nel ${SEASON_YEAR}?` }[locale]
+  if (win) {
+    const start = formatSeasonDate(win.start, locale)
+    const end = formatSeasonDate(win.end, locale).replace(/\.$/, '')
+    const a: Record<Locale, string> = {
+      en: `Indicatively from ${start} to ${end}. The Christmas and February school-holiday weeks are busiest; mid-January and mid-March give the same snow with fewer crowds.`,
+      fr: `Indicativement de ${start} à ${end}. Les semaines de Noël et de février sont les plus chargées ; mi-janvier et mi-mars offrent la même neige avec moins de monde.`,
+      es: `Indicativamente de ${start} a ${end}. Las semanas de Navidad y febrero son las más concurridas; mediados de enero y mediados de marzo dan la misma nieve con menos gente.`,
+      pt: `Indicativamente de ${start} a ${end}. As semanas de Natal e de fevereiro são as mais cheias; meados de janeiro e meados de março dão a mesma neve com menos gente.`,
+      it: `Indicativamente da ${start} a ${end}. Le settimane di Natale e febbraio sono le più affollate; metà gennaio e metà marzo offrono la stessa neve con meno folla.`,
+    }
+    out.push({ title: q4, body: a[locale] })
+  }
+
+  return out
+}
+
 export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
   const members = winterMembers(area)
   const n = members.length
@@ -190,14 +288,18 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
     mix.green += m.pisteCounts.green; mix.blue += m.pisteCounts.blue
     mix.red += m.pisteCounts.red; mix.black += m.pisteCounts.black
   }
-  if (mix.green + mix.blue + mix.red + mix.black > 0) {
+  const mixTot = mix.green + mix.blue + mix.red + mix.black
+  if (mixTot > 0) {
+    const easy = Math.round(((mix.green + mix.blue) / mixTot) * 100)
+    const red = Math.round((mix.red / mixTot) * 100)
+    const black = Math.max(0, 100 - easy - red)
     const r5t = { en: 'Terrain for every level', fr: 'Du terrain pour tous les niveaux', es: 'Terreno para todos los niveles', pt: 'Terreno para todos os níveis', it: 'Terreno per ogni livello' }[locale]
     const r5b: Record<Locale, string> = {
-      en: `Across the domain there are ${mix.green} green and ${mix.blue} blue runs against ${mix.red} red and ${mix.black} black, so beginners, intermediates and experts share the same lift pass without anyone running out of terrain.`,
-      fr: `Sur l'ensemble du domaine, on compte ${mix.green} pistes vertes et ${mix.blue} bleues face à ${mix.red} rouges et ${mix.black} noires : débutants, intermédiaires et experts partagent le même forfait sans jamais manquer de terrain.`,
-      es: `En todo el dominio hay ${mix.green} pistas verdes y ${mix.blue} azules frente a ${mix.red} rojas y ${mix.black} negras, así que principiantes, intermedios y expertos comparten el mismo forfait sin quedarse sin terreno.`,
-      pt: `Em todo o domínio há ${mix.green} pistas verdes e ${mix.blue} azuis contra ${mix.red} vermelhas e ${mix.black} pretas, por isso principiantes, intermédios e experts partilham o mesmo passe sem ficar sem terreno.`,
-      it: `Su tutto il comprensorio ci sono ${mix.green} piste verdi e ${mix.blue} blu contro ${mix.red} rosse e ${mix.black} nere, quindi principianti, intermedi ed esperti condividono lo stesso skipass senza restare mai senza terreno.`,
+      en: `Across the domain about ${easy}% of the runs are green or blue, ${red}% red and ${black}% black, so beginners, intermediates and experts share the same lift pass without anyone running out of terrain.`,
+      fr: `Sur l'ensemble du domaine, environ ${easy}% des pistes sont vertes ou bleues, ${red}% rouges et ${black}% noires : débutants, intermédiaires et experts partagent le même forfait sans jamais manquer de terrain.`,
+      es: `En todo el dominio cerca del ${easy}% de las pistas son verdes o azules, ${red}% rojas y ${black}% negras, así que principiantes, intermedios y expertos comparten el mismo forfait sin quedarse sin terreno.`,
+      pt: `Em todo o domínio cerca de ${easy}% das pistas são verdes ou azuis, ${red}% vermelhas e ${black}% pretas, por isso principiantes, intermédios e experts partilham o mesmo passe sem ficar sem terreno.`,
+      it: `Su tutto il comprensorio circa il ${easy}% delle piste è verde o blu, il ${red}% rosso e il ${black}% nero, quindi principianti, intermedi ed esperti condividono lo stesso skipass senza restare mai senza terreno.`,
     }
     out.push({ title: r5t, body: r5b[locale] })
   }
