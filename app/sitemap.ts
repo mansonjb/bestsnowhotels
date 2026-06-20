@@ -8,6 +8,7 @@ import { COMPARE_PAIRS } from '@/lib/compare'
 import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
 import { GUIDE_SLUGS } from '@/lib/resortGuide'
+import { getWinterAreas } from '@/lib/winterHolidays'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -244,6 +245,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: hreflangFor(`/guides/${slug}`),
         },
+      })
+    }
+
+    // Winter holidays 2027 hub + per-domain
+    entries.push({
+      url: `${SITE_URL}/${locale}/winter-2027`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: { languages: hreflangFor(`/winter-2027`) },
+    })
+    for (const a of getWinterAreas()) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/winter-2027/${a.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: { languages: hreflangFor(`/winter-2027/${a.slug}`) },
       })
     }
 

@@ -208,6 +208,12 @@ export default async function SkiAreaPage({
         <p className="mt-4 text-lg text-ice-800/90 leading-relaxed max-w-4xl">
           {area.description[l]}
         </p>
+        <Link
+          href={`/${l}/winter-2027/${area.slug}`}
+          className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-ice-700 hover:text-slate-deep transition"
+        >
+          {({ en: `Why ${area.name} for the 2027 winter holidays`, fr: `Pourquoi ${area.name} pour les vacances d'hiver 2027`, es: `Por qué ${area.name} en las vacaciones de invierno 2027`, pt: `Porquê ${area.name} nas férias de inverno de 2027`, it: `Perché ${area.name} per le vacanze invernali 2027` } as Record<Locale, string>)[l]} →
+        </Link>
       </section>
 
       {/* Resorts in this ski area */}
