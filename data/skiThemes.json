@@ -1,0 +1,221 @@
+{
+  "ski-spa-resorts": {
+    "title": {
+      "en": "Ski resorts with thermal spas and hot springs",
+      "fr": "Stations de ski avec spas thermaux et sources chaudes",
+      "es": "Estaciones de esquí con balnearios termales y aguas termales",
+      "pt": "Estâncias de esqui com termas e fontes de água quente",
+      "it": "Località sciistiche con terme e sorgenti calde"
+    },
+    "intro": {
+      "en": "Ski hard all day, then sink into naturally heated thermal water as the snow keeps falling. These are the resorts where the slopes and the springs share the same valley.",
+      "fr": "Skiez à fond toute la journée, puis plongez dans une eau thermale naturellement chaude pendant que la neige continue de tomber. Voici les stations où les pistes et les sources partagent la même vallée.",
+      "es": "Esquía a tope todo el día y luego sumérgete en agua termal naturalmente caliente mientras sigue nevando. Estas son las estaciones donde las pistas y los manantiales comparten el mismo valle.",
+      "pt": "Esquie a fundo durante todo o dia e depois mergulhe em água termal naturalmente quente enquanto a neve continua a cair. Estas são as estâncias onde as pistas e as nascentes partilham o mesmo vale.",
+      "it": "Sciate intensamente tutto il giorno, poi immergetevi nell'acqua termale naturalmente calda mentre la neve continua a cadere. Queste sono le località dove le piste e le sorgenti condividono la stessa valle."
+    },
+    "body": {
+      "en": "There is a particular kind of luxury in skiing a resort built on real thermal springs. Your aching legs go straight from cold chairlifts into mineral water that the earth heats for you, no electric jacuzzi required. Switzerland leads the way: Leukerbad is the largest thermal spa village in the Alps, while Scuol, Davos and Crans-Montana pair high skiing with serious wellness culture. Across the border, the Gastein valley in Austria, Bad Gastein, Bad Hofgastein and Bad Kleinkirchheim, is famous for its radon-rich thermal waters that have drawn bathers for centuries.\n\nWhat to expect is simple: ski first, soak second. In Italy, Bormio sends you down long pistes and then into baths the Romans already knew about. France makes a strong case too, with Saint-Gervais and Saint-Lary blending downhill terrain and dedicated thermal centres, plus Serre Chevalier, Brides-les-Bains, Ax 3 Domaines and Luchon-Superbagneres in the Pyrenees and the Alps. Even Panorama in Canada offers hot-pool soaking after a day on the snow. Wherever you go, the ritual is the same: earn the heat on the mountain, then let the thermal water do the rest.",
+      "fr": "Il y a un luxe particulier à skier dans une station bâtie sur de vraies sources thermales. Vos jambes fatiguées passent directement des télésièges glacés à une eau minérale que la terre chauffe pour vous, sans jacuzzi électrique. La Suisse ouvre la voie : Leukerbad est le plus grand village thermal des Alpes, tandis que Scuol, Davos et Crans-Montana associent ski d'altitude et vraie culture du bien-être. De l'autre côté de la frontière, la vallée de Gastein en Autriche, Bad Gastein, Bad Hofgastein et Bad Kleinkirchheim, est célèbre pour ses eaux thermales riches en radon qui attirent les baigneurs depuis des siècles.\n\nLe principe est simple : on skie d'abord, on se baigne ensuite. En Italie, Bormio vous fait dévaler de longues pistes avant de vous plonger dans des bains que les Romains connaissaient déjà. La France a aussi de solides arguments, avec Saint-Gervais et Saint-Lary qui mêlent domaine skiable et centres thermaux dédiés, sans oublier Serre Chevalier, Brides-les-Bains, Ax 3 Domaines et Luchon-Superbagneres dans les Pyrénées et les Alpes. Même Panorama, au Canada, propose ses bassins chauds après une journée sur la neige. Où que vous alliez, le rituel reste le même : méritez la chaleur sur la montagne, puis laissez l'eau thermale faire le reste.",
+      "es": "Hay un lujo especial en esquiar en una estación construida sobre auténticas fuentes termales. Tus piernas cansadas pasan directamente de los telesillas helados al agua mineral que la tierra calienta por ti, sin necesidad de un jacuzzi eléctrico. Suiza marca el camino: Leukerbad es el mayor pueblo termal de los Alpes, mientras que Scuol, Davos y Crans-Montana combinan esquí de altura con una verdadera cultura del bienestar. Al otro lado de la frontera, el valle de Gastein en Austria, Bad Gastein, Bad Hofgastein y Bad Kleinkirchheim, es famoso por sus aguas termales ricas en radón que han atraído a los bañistas durante siglos.\n\nLo que puedes esperar es sencillo: primero esquiar, después un buen baño. En Italia, Bormio te lanza por largas pistas y luego a unos baños que ya conocían los romanos. Francia también tiene mucho que ofrecer, con Saint-Gervais y Saint-Lary, que unen dominio esquiable y centros termales propios, además de Serre Chevalier, Brides-les-Bains, Ax 3 Domaines y Luchon-Superbagneres en los Pirineos y los Alpes. Incluso Panorama, en Canadá, ofrece sus piscinas calientes tras un día en la nieve. Vayas donde vayas, el ritual es el mismo: gánate el calor en la montaña y deja que el agua termal haga el resto.",
+      "pt": "Há um luxo muito particular em esquiar numa estância construída sobre verdadeiras nascentes termais. As pernas cansadas passam diretamente dos teleféricos gelados para a água mineral que a terra aquece por si, sem precisar de jacúzi elétrico. A Suíça lidera o caminho: Leukerbad é a maior aldeia termal dos Alpes, enquanto Scuol, Davos e Crans-Montana juntam esqui de altitude a uma autêntica cultura de bem-estar. Do outro lado da fronteira, o vale de Gastein, na Áustria, Bad Gastein, Bad Hofgastein e Bad Kleinkirchheim, é célebre pelas suas águas termais ricas em rádon, que atraem banhistas há séculos.\n\nO que pode esperar é simples: primeiro esquiar, depois mergulhar. Em Itália, Bormio leva-o por longas pistas e, a seguir, para banhos que os romanos já conheciam. A França também tem muito a oferecer, com Saint-Gervais e Saint-Lary a combinarem domínio esquiável e centros termais próprios, além de Serre Chevalier, Brides-les-Bains, Ax 3 Domaines e Luchon-Superbagneres nos Pirenéus e nos Alpes. Até Panorama, no Canadá, oferece piscinas quentes depois de um dia na neve. Para onde quer que vá, o ritual é o mesmo: conquiste o calor na montanha e deixe que a água termal faça o resto.",
+      "it": "C'è un lusso tutto particolare nello sciare in una località costruita su vere sorgenti termali. Le gambe affaticate passano direttamente dalle seggiovie gelate all'acqua minerale che la terra riscalda per voi, senza bisogno di vasche idromassaggio elettriche. La Svizzera fa da apripista: Leukerbad è il più grande villaggio termale delle Alpi, mentre Scuol, Davos e Crans-Montana uniscono lo sci d'alta quota a una vera cultura del benessere. Oltre confine, la valle di Gastein in Austria, Bad Gastein, Bad Hofgastein e Bad Kleinkirchheim, è celebre per le sue acque termali ricche di radon, che attirano i bagnanti da secoli.\n\nCosa aspettarsi è semplice: prima si scia, poi ci si immerge. In Italia, Bormio vi fa scendere lungo piste interminabili per poi accogliervi in bagni che già i Romani conoscevano. Anche la Francia ha molto da offrire, con Saint-Gervais e Saint-Lary che uniscono comprensorio sciistico e centri termali dedicati, oltre a Serre Chevalier, Brides-les-Bains, Ax 3 Domaines e Luchon-Superbagneres tra Pirenei e Alpi. Persino Panorama, in Canada, propone le sue piscine calde dopo una giornata sulla neve. Ovunque andiate, il rito è lo stesso: guadagnatevi il calore in montagna, poi lasciate che sia l'acqua termale a fare il resto."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Which ski resorts have the best thermal spas?",
+          "fr": "Quelles stations de ski ont les meilleurs spas thermaux ?",
+          "es": "¿Qué estaciones de esquí tienen los mejores balnearios termales?",
+          "pt": "Que estâncias de esqui têm as melhores termas?",
+          "it": "Quali località sciistiche hanno le terme migliori?"
+        },
+        "a": {
+          "en": "For genuine thermal water, Leukerbad and Scuol in Switzerland and the Gastein valley in Austria, Bad Gastein and Bad Hofgastein, are among the best. Bormio in Italy and Saint-Gervais and Saint-Lary in France are also strong choices for skiing and soaking in the same trip.",
+          "fr": "Pour de l'eau thermale authentique, Leukerbad et Scuol en Suisse et la vallée de Gastein en Autriche, Bad Gastein et Bad Hofgastein, comptent parmi les meilleures. Bormio en Italie ainsi que Saint-Gervais et Saint-Lary en France sont aussi d'excellents choix pour skier et se baigner lors du même séjour.",
+          "es": "Para agua termal auténtica, Leukerbad y Scuol en Suiza y el valle de Gastein en Austria, Bad Gastein y Bad Hofgastein, están entre las mejores. Bormio en Italia y Saint-Gervais y Saint-Lary en Francia también son grandes opciones para esquiar y darse un baño en el mismo viaje.",
+          "pt": "Para água termal autêntica, Leukerbad e Scuol na Suíça e o vale de Gastein na Áustria, Bad Gastein e Bad Hofgastein, estão entre as melhores. Bormio em Itália e Saint-Gervais e Saint-Lary em França são também excelentes opções para esquiar e mergulhar na mesma viagem.",
+          "it": "Per acqua termale autentica, Leukerbad e Scuol in Svizzera e la valle di Gastein in Austria, Bad Gastein e Bad Hofgastein, sono tra le migliori. Bormio in Italia e Saint-Gervais e Saint-Lary in Francia sono altrettanto ottime per sciare e immergersi nello stesso viaggio."
+        }
+      },
+      {
+        "q": {
+          "en": "Can you ski and use thermal baths on the same day?",
+          "fr": "Peut-on skier et profiter des bains thermaux le même jour ?",
+          "es": "¿Se puede esquiar y usar las aguas termales el mismo día?",
+          "pt": "É possível esquiar e usar as termas no mesmo dia?",
+          "it": "Si può sciare e usare le terme nello stesso giorno?"
+        },
+        "a": {
+          "en": "Yes, and that is exactly the appeal. In resorts like Leukerbad, Bormio or Bad Hofgastein the thermal baths sit right in or beside the ski village, so you can ski in the morning and be in the warm water by mid-afternoon.",
+          "fr": "Oui, et c'est précisément tout l'intérêt. Dans des stations comme Leukerbad, Bormio ou Bad Hofgastein, les bains thermaux se trouvent au cœur ou juste à côté du village skiable : vous pouvez skier le matin et être dans l'eau chaude en milieu d'après-midi.",
+          "es": "Sí, y ahí está justo el atractivo. En estaciones como Leukerbad, Bormio o Bad Hofgastein las aguas termales están en el propio pueblo de esquí o junto a él, así que puedes esquiar por la mañana y estar en el agua caliente a media tarde.",
+          "pt": "Sim, e é precisamente esse o encanto. Em estâncias como Leukerbad, Bormio ou Bad Hofgastein as termas ficam mesmo dentro ou ao lado da aldeia de esqui, por isso pode esquiar de manhã e estar na água quente a meio da tarde.",
+          "it": "Sì, ed è proprio questo il bello. In località come Leukerbad, Bormio o Bad Hofgastein le terme si trovano dentro o accanto al paese sciistico, così potete sciare la mattina ed essere nell'acqua calda nel primo pomeriggio."
+        }
+      },
+      {
+        "q": {
+          "en": "Are thermal spas good after skiing?",
+          "fr": "Les spas thermaux sont-ils bénéfiques après le ski ?",
+          "es": "¿Son buenos los balnearios termales después de esquiar?",
+          "pt": "As termas fazem bem depois de esquiar?",
+          "it": "Le terme fanno bene dopo lo sci?"
+        },
+        "a": {
+          "en": "Many skiers find that warm mineral water helps tired, cold muscles relax after a long day on the slopes. It is a soothing way to wind down, which is why historic thermal towns like Bad Gastein and Leukerbad built their reputation around bathing long before ski lifts arrived.",
+          "fr": "De nombreux skieurs trouvent que l'eau minérale chaude aide les muscles fatigués et refroidis à se détendre après une longue journée sur les pistes. C'est une façon apaisante de décompresser, et c'est pourquoi des villes thermales historiques comme Bad Gastein et Leukerbad ont bâti leur réputation sur les bains bien avant l'arrivée des remontées mécaniques.",
+          "es": "Muchos esquiadores notan que el agua mineral caliente ayuda a relajar los músculos cansados y fríos tras un largo día en las pistas. Es una forma reconfortante de desconectar, y por eso ciudades termales históricas como Bad Gastein y Leukerbad forjaron su fama en torno a los baños mucho antes de que llegaran los remontes.",
+          "pt": "Muitos esquiadores acham que a água mineral quente ajuda a relaxar os músculos cansados e arrefecidos após um longo dia nas pistas. É uma forma reconfortante de descontrair e foi por isso que cidades termais históricas como Bad Gastein e Leukerbad construíram a sua fama em torno dos banhos muito antes de existirem teleféricos.",
+          "it": "Molti sciatori trovano che l'acqua minerale calda aiuti a rilassare i muscoli stanchi e infreddoliti dopo una lunga giornata sulle piste. È un modo piacevole per staccare, ed è per questo che città termali storiche come Bad Gastein e Leukerbad hanno costruito la loro fama sui bagni molto prima che arrivassero gli impianti di risalita."
+        }
+      }
+    ]
+  },
+  "apres-ski-resorts": {
+    "title": {
+      "en": "The best apres-ski resorts",
+      "fr": "Les meilleures stations pour l'apres-ski",
+      "es": "Las mejores estaciones para el apres-ski",
+      "pt": "As melhores estancias para o apres-ski",
+      "it": "Le migliori localita per l'apres-ski"
+    },
+    "intro": {
+      "en": "When the lifts close, the real fun begins. These are the resorts where the music starts at the bottom of the last run and keeps going long after dark.",
+      "fr": "Quand les remontees ferment, la fete commence vraiment. Voici les stations ou la musique demarre au pied de la derniere piste et ne s'arrete plus une fois la nuit tombee.",
+      "es": "Cuando cierran los remontes, empieza la verdadera diversion. Estas son las estaciones donde la musica arranca al pie de la ultima bajada y sigue mucho despues del anochecer.",
+      "pt": "Quando os telefericos fecham, comeca a verdadeira diversao. Estas sao as estancias onde a musica arranca ao fundo da ultima descida e prossegue muito depois de cair a noite.",
+      "it": "Quando gli impianti chiudono, comincia il vero divertimento. Queste sono le localita dove la musica parte ai piedi dell'ultima pista e continua fino a notte fonda."
+    },
+    "body": {
+      "en": "Great apres-ski comes in two flavours. There are the slopeside umbrella bars where you ski straight in, boots still on, for a drink and a dance before the last descent: St. Anton am Arlberg built its legend on places like the Mooserwirt, and Solden, Obertauern and Soll keep the tradition very much alive. Then there is the resort that turns into a full town party after dark, with Ischgl famous for its big concerts and Saalbach Hinterglemm packing its main street every evening.\n\nFrance and Switzerland have their own icons. Val Thorens, the highest resort in Europe, mixes huge open-air terraces with late nightclubs, while Verbier draws an international crowd that dances on the tables. Les Deux Alpes leans young and loud, and beyond the Alps the energy travels well: Sauze d'Oulx in Italy, Are in Sweden and Hemsedal in Norway all know how to celebrate, while Aspen Snowmass, Breckenridge, Park City and Heavenly bring an easygoing American spin to the after-ski hours.",
+      "fr": "Un bon apres-ski se decline en deux ambiances. Il y a les bars au pied des pistes ou l'on arrive ski aux pieds, chaussures encore serrees, pour boire un verre et danser avant la derniere descente : St. Anton am Arlberg a bati sa legende sur des adresses comme le Mooserwirt, et Solden, Obertauern et Soll perpetuent cette tradition. Et puis il y a la station qui se transforme en grande fete des la nuit tombee, avec Ischgl, celebre pour ses concerts, et Saalbach Hinterglemm qui remplit sa rue principale chaque soir.\n\nLa France et la Suisse ont leurs propres references. Val Thorens, la plus haute station d'Europe, mele immenses terrasses en plein air et clubs ouverts tard, tandis que Verbier attire une clientele internationale qui danse sur les tables. Les Deux Alpes joue la carte jeune et festive, et au-dela des Alpes l'energie voyage tres bien : Sauze d'Oulx en Italie, Are en Suede et Hemsedal en Norvege savent faire la fete, pendant qu'Aspen Snowmass, Breckenridge, Park City et Heavenly apportent une touche americaine plus decontractee aux heures qui suivent le ski.",
+      "es": "Un buen apres-ski tiene dos estilos. Estan los bares a pie de pista a los que se llega esquiando, con las botas todavia puestas, para tomar una copa y bailar antes de la ultima bajada: St. Anton am Arlberg cimento su leyenda en locales como el Mooserwirt, y Solden, Obertauern y Soll mantienen viva esa tradicion. Y luego esta la estacion que se convierte en una gran fiesta al caer la noche, con Ischgl, famosa por sus grandes conciertos, y Saalbach Hinterglemm, que llena su calle principal cada tarde.\n\nFrancia y Suiza tienen sus propios iconos. Val Thorens, la estacion mas alta de Europa, combina enormes terrazas al aire libre con discotecas hasta altas horas, mientras que Verbier atrae a un publico internacional que baila sobre las mesas. Les Deux Alpes apuesta por un ambiente joven y marchoso, y mas alla de los Alpes la energia viaja muy bien: Sauze d'Oulx en Italia, Are en Suecia y Hemsedal en Noruega saben celebrar, mientras que Aspen Snowmass, Breckenridge, Park City y Heavenly aportan un toque americano mas relajado a las horas posteriores al esqui.",
+      "pt": "Um bom apres-ski tem dois estilos. Ha os bares ao pe das pistas, aonde se chega de esquis, ainda com as botas calcadas, para beber um copo e dancar antes da ultima descida: St. Anton am Arlberg construiu a sua lenda em espacos como o Mooserwirt, e Solden, Obertauern e Soll mantem viva essa tradicao. Depois ha a estancia que se transforma numa grande festa ao cair da noite, com Ischgl, famosa pelos seus grandes concertos, e Saalbach Hinterglemm, que enche a rua principal todas as noites.\n\nA Franca e a Suica tem os seus proprios icones. Val Thorens, a estancia mais alta da Europa, combina enormes esplanadas ao ar livre com discotecas ate tarde, enquanto Verbier atrai um publico internacional que danca em cima das mesas. Les Deux Alpes aposta num ambiente jovem e animado, e para la dos Alpes a energia viaja muito bem: Sauze d'Oulx em Italia, Are na Suecia e Hemsedal na Noruega sabem festejar, ao passo que Aspen Snowmass, Breckenridge, Park City e Heavenly trazem um toque americano mais descontraido as horas a seguir ao esqui.",
+      "it": "Un buon apres-ski ha due anime. Ci sono i bar ai piedi delle piste, dove si arriva con gli sci, scarponi ancora ai piedi, per bere qualcosa e ballare prima dell'ultima discesa: St. Anton am Arlberg ha costruito la sua leggenda su locali come il Mooserwirt, e Solden, Obertauern e Soll tengono viva questa tradizione. Poi c'e la localita che si trasforma in una grande festa al calar della notte, con Ischgl, celebre per i suoi grandi concerti, e Saalbach Hinterglemm, che riempie la via principale ogni sera.\n\nFrancia e Svizzera hanno le loro icone. Val Thorens, la localita piu alta d'Europa, unisce enormi terrazze all'aperto a discoteche aperte fino a tardi, mentre Verbier attira un pubblico internazionale che balla sui tavoli. Les Deux Alpes punta su un'atmosfera giovane e scatenata, e oltre le Alpi l'energia viaggia benissimo: Sauze d'Oulx in Italia, Are in Svezia e Hemsedal in Norvegia sanno far festa, mentre Aspen Snowmass, Breckenridge, Park City e Heavenly portano un tocco americano piu rilassato alle ore dopo lo sci."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Which resort has the best apres-ski?",
+          "fr": "Quelle station offre le meilleur apres-ski ?",
+          "es": "Que estacion tiene el mejor apres-ski?",
+          "pt": "Qual a estancia com o melhor apres-ski?",
+          "it": "Quale localita ha il miglior apres-ski?"
+        },
+        "a": {
+          "en": "It depends on the style you want, but St. Anton am Arlberg and Ischgl are widely seen as the benchmarks in Austria, with Val Thorens and Verbier leading the way for big terraces and late nightlife.",
+          "fr": "Cela depend de l'ambiance recherchee, mais St. Anton am Arlberg et Ischgl sont souvent cites comme les references en Autriche, tandis que Val Thorens et Verbier dominent pour les grandes terrasses et les nuits qui s'eternisent.",
+          "es": "Depende del estilo que busques, pero St. Anton am Arlberg e Ischgl suelen considerarse las referencias en Austria, con Val Thorens y Verbier a la cabeza en terrazas grandes y vida nocturna hasta tarde.",
+          "pt": "Depende do estilo que procuras, mas St. Anton am Arlberg e Ischgl sao muitas vezes apontadas como as referencias na Austria, com Val Thorens e Verbier a liderar nas grandes esplanadas e na vida noturna ate tarde.",
+          "it": "Dipende dallo stile che cerchi, ma St. Anton am Arlberg e Ischgl sono spesso considerate i punti di riferimento in Austria, con Val Thorens e Verbier in testa per le grandi terrazze e la vita notturna fino a tardi."
+        }
+      },
+      {
+        "q": {
+          "en": "What is apres-ski?",
+          "fr": "Qu'est-ce que l'apres-ski ?",
+          "es": "Que es el apres-ski?",
+          "pt": "O que e o apres-ski?",
+          "it": "Cos'e l'apres-ski?"
+        },
+        "a": {
+          "en": "Apres-ski is the social scene that follows a day on the slopes, from a drink at a slopeside bar to dancing in town. In resorts like Saalbach Hinterglemm or Solden it often starts in ski boots in the afternoon and rolls straight into the evening.",
+          "fr": "L'apres-ski designe les moments festifs qui suivent une journee sur les pistes, du verre pris dans un bar au pied des pistes a la soiree dansante en ville. Dans des stations comme Saalbach Hinterglemm ou Solden, il commence souvent chaussures aux pieds des l'apres-midi et se prolonge dans la soiree.",
+          "es": "El apres-ski es el ambiente social que sigue a un dia en las pistas, desde una copa en un bar a pie de pista hasta el baile en el pueblo. En estaciones como Saalbach Hinterglemm o Solden suele empezar con las botas puestas por la tarde y enlazar con la noche.",
+          "pt": "O apres-ski e o convivio que se segue a um dia nas pistas, desde um copo num bar ao pe das pistas ate a danca na vila. Em estancias como Saalbach Hinterglemm ou Solden costuma comecar de botas calcadas a tarde e prolongar-se pela noite.",
+          "it": "L'apres-ski e la vita sociale che segue una giornata sulle piste, da un drink in un bar a bordo pista al ballo in paese. In localita come Saalbach Hinterglemm o Solden spesso inizia con gli scarponi nel pomeriggio e prosegue dritto fino a sera."
+        }
+      },
+      {
+        "q": {
+          "en": "Where is the best ski nightlife in Europe?",
+          "fr": "Ou trouver les meilleures nuits au ski en Europe ?",
+          "es": "Donde esta la mejor vida nocturna de esqui en Europa?",
+          "pt": "Onde fica a melhor vida noturna de esqui na Europa?",
+          "it": "Dove si trova la migliore vita notturna sugli sci in Europa?"
+        },
+        "a": {
+          "en": "For full nightclubs and late nights, Ischgl, Val Thorens and Verbier are hard to beat, while St. Anton am Arlberg pairs legendary slopeside bars with a buzzing town. Andorra's Grandvalira is also a strong pick for a lively, good-value scene.",
+          "fr": "Pour les vraies boites de nuit et les soirees tardives, Ischgl, Val Thorens et Verbier sont difficiles a battre, tandis que St. Anton am Arlberg associe des bars de legende au pied des pistes a un village tres anime. Grandvalira, en Andorre, est aussi une excellente option pour une ambiance festive et abordable.",
+          "es": "Para discotecas de verdad y noches largas, Ischgl, Val Thorens y Verbier son dificiles de superar, mientras que St. Anton am Arlberg combina bares legendarios a pie de pista con un pueblo muy animado. Grandvalira, en Andorra, tambien es una gran opcion para un ambiente festivo y asequible.",
+          "pt": "Para discotecas a serio e noites longas, Ischgl, Val Thorens e Verbier sao dificeis de superar, enquanto St. Anton am Arlberg junta bares lendarios ao pe das pistas a uma vila muito animada. Grandvalira, em Andorra, e tambem uma otima escolha para um ambiente festivo e acessivel.",
+          "it": "Per discoteche vere e nottate lunghe, Ischgl, Val Thorens e Verbier sono difficili da battere, mentre St. Anton am Arlberg unisce bar leggendari a bordo pista a un paese molto vivace. Anche Grandvalira, in Andorra, e un'ottima scelta per un'atmosfera festosa e conveniente."
+        }
+      }
+    ]
+  },
+  "luxury-ski-hotels": {
+    "title": {
+      "en": "The most luxurious ski hotels",
+      "fr": "Les hotels de ski les plus luxueux",
+      "es": "Los hoteles de esqui mas lujosos",
+      "pt": "Os hoteis de esqui mais luxuosos",
+      "it": "Gli hotel sciistici piu lussuosi"
+    },
+    "intro": {
+      "en": "Step straight from your suite onto the snow, then unwind in a spa and dine at the chef's table. These are the most luxurious ski hotels in the world's great alpine resorts.",
+      "fr": "Quittez votre suite pour rejoindre directement les pistes, puis detendez-vous au spa avant de savourer une table gastronomique. Voici les hotels de ski les plus luxueux des plus grandes stations alpines.",
+      "es": "Sal directamente de tu suite a la nieve, relajate despues en un spa y disfruta de una mesa de alta cocina. Estos son los hoteles de esqui mas lujosos de las grandes estaciones alpinas.",
+      "pt": "Saia diretamente da sua suite para a neve, descontraia depois num spa e delicie-se com uma mesa de alta cozinha. Estes sao os hoteis de esqui mais luxuosos das grandes estancias alpinas.",
+      "it": "Esci direttamente dalla tua suite sulla neve, rilassati poi in una spa e concediti la tavola dello chef. Questi sono gli hotel sciistici piu lussuosi delle grandi localita alpine."
+    },
+    "body": {
+      "en": "A truly luxurious ski hotel begins with its location on the snow: ski-in, ski-out access so the slopes are your front door. Add a spa worthy of a destination in its own right, refined gastronomy from breakfast to the late dinner service, and a level of personal service that anticipates every need. You will find these addresses in the most renowned luxury resorts, from Courchevel, Megeve and Val d'Isere in France to Zermatt, St. Moritz, Verbier and Crans-Montana in Switzerland. Lech and Kitzbuhel in Austria, Cortina d'Ampezzo in Italy, Aspen Snowmass in the United States and Niseko in Japan round out this exclusive map. Every hotel listed below has been selected for its high guest ratings, drawn from real reviews left by travellers who have stayed there. The result is a shortlist where genuine guest satisfaction, not marketing, points the way to the finest stays on the mountain.",
+      "fr": "Un hotel de ski vraiment luxueux commence par son emplacement sur la neige : un acces ski aux pieds, pistes au pas de la porte. Ajoutez un spa qui vaut a lui seul le voyage, une gastronomie raffinee du petit-dejeuner au service du soir, et un service personnalise qui devance chaque envie. On trouve ces adresses dans les stations de luxe les plus reputees, de Courchevel, Megeve et Val d'Isere en France a Zermatt, Saint-Moritz, Verbier et Crans-Montana en Suisse. Lech et Kitzbuhel en Autriche, Cortina d'Ampezzo en Italie, Aspen Snowmass aux Etats-Unis et Niseko au Japon completent cette carte exclusive. Chaque hotel presente ci-dessous a ete selectionne pour ses excellentes notes clients, issues des avis reels laisses par les voyageurs qui y ont sejourne. Le resultat est une selection ou la satisfaction sincere des clients, et non le marketing, indique le chemin vers les plus beaux sejours en montagne.",
+      "es": "Un hotel de esqui verdaderamente lujoso empieza por su ubicacion sobre la nieve: acceso ski-in, ski-out con las pistas a la puerta. Anade un spa que justifica por si solo el viaje, una gastronomia refinada desde el desayuno hasta la cena, y un servicio personalizado que se adelanta a cada deseo. Encontraras estas direcciones en las estaciones de lujo mas reconocidas, desde Courchevel, Megeve y Val d'Isere en Francia hasta Zermatt, St. Moritz, Verbier y Crans-Montana en Suiza. Lech y Kitzbuhel en Austria, Cortina d'Ampezzo en Italia, Aspen Snowmass en Estados Unidos y Niseko en Japon completan este mapa exclusivo. Cada hotel de la lista siguiente ha sido seleccionado por sus altas valoraciones, basadas en resenas reales de viajeros que se han alojado en el. El resultado es una seleccion donde la satisfaccion autentica de los huespedes, y no el marketing, marca el camino hacia las mejores estancias en la montana.",
+      "pt": "Um hotel de esqui verdadeiramente luxuoso comeca pela sua localizacao sobre a neve: acesso ski-in, ski-out, com as pistas a porta. Junte um spa que so por si justifica a viagem, uma gastronomia requintada do pequeno-almoco ao jantar, e um servico personalizado que se antecipa a cada desejo. Encontra estes enderecos nas estancias de luxo mais conceituadas, de Courchevel, Megeve e Val d'Isere em Franca a Zermatt, St. Moritz, Verbier e Crans-Montana na Suica. Lech e Kitzbuhel na Austria, Cortina d'Ampezzo em Italia, Aspen Snowmass nos Estados Unidos e Niseko no Japao completam este mapa exclusivo. Cada hotel apresentado abaixo foi selecionado pelas suas elevadas avaliacoes, baseadas em comentarios reais de viajantes que la ficaram. O resultado e uma selecao onde a satisfacao genuina dos hospedes, e nao o marketing, aponta o caminho para as melhores estadias na montanha.",
+      "it": "Un hotel sciistico davvero lussuoso parte dalla sua posizione sulla neve: accesso ski-in, ski-out, con le piste sull'uscio di casa. Aggiungi una spa che da sola vale il viaggio, una gastronomia raffinata dalla colazione alla cena, e un servizio personalizzato che anticipa ogni desiderio. Trovi questi indirizzi nelle localita di lusso piu rinomate, da Courchevel, Megeve e Val d'Isere in Francia a Zermatt, St. Moritz, Verbier e Crans-Montana in Svizzera. Lech e Kitzbuhel in Austria, Cortina d'Ampezzo in Italia, Aspen Snowmass negli Stati Uniti e Niseko in Giappone completano questa mappa esclusiva. Ogni hotel elencato qui sotto e stato scelto per le sue alte valutazioni, ricavate dalle recensioni reali lasciate dai viaggiatori che vi hanno soggiornato. Il risultato e una selezione in cui la soddisfazione autentica degli ospiti, e non il marketing, indica la strada verso i soggiorni migliori in montagna."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Which ski resorts have the most luxurious hotels?",
+          "fr": "Quelles stations de ski abritent les hotels les plus luxueux ?",
+          "es": "Que estaciones de esqui tienen los hoteles mas lujosos?",
+          "pt": "Que estancias de esqui tem os hoteis mais luxuosos?",
+          "it": "Quali localita sciistiche hanno gli hotel piu lussuosi?"
+        },
+        "a": {
+          "en": "The greatest concentration is found in resorts like Courchevel, Megeve and Val d'Isere in France, Zermatt, St. Moritz, Verbier and Crans-Montana in Switzerland, and Lech and Kitzbuhel in Austria. Cortina d'Ampezzo in Italy, Aspen Snowmass in the United States and Niseko in Japan are also home to exceptional addresses.",
+          "fr": "La plus forte concentration se trouve dans des stations comme Courchevel, Megeve et Val d'Isere en France, Zermatt, Saint-Moritz, Verbier et Crans-Montana en Suisse, ainsi que Lech et Kitzbuhel en Autriche. Cortina d'Ampezzo en Italie, Aspen Snowmass aux Etats-Unis et Niseko au Japon comptent aussi des adresses exceptionnelles.",
+          "es": "La mayor concentracion se encuentra en estaciones como Courchevel, Megeve y Val d'Isere en Francia, Zermatt, St. Moritz, Verbier y Crans-Montana en Suiza, y Lech y Kitzbuhel en Austria. Cortina d'Ampezzo en Italia, Aspen Snowmass en Estados Unidos y Niseko en Japon tambien albergan direcciones excepcionales.",
+          "pt": "A maior concentracao encontra-se em estancias como Courchevel, Megeve e Val d'Isere em Franca, Zermatt, St. Moritz, Verbier e Crans-Montana na Suica, e Lech e Kitzbuhel na Austria. Cortina d'Ampezzo em Italia, Aspen Snowmass nos Estados Unidos e Niseko no Japao tambem acolhem enderecos excecionais.",
+          "it": "La maggiore concentrazione si trova in localita come Courchevel, Megeve e Val d'Isere in Francia, Zermatt, St. Moritz, Verbier e Crans-Montana in Svizzera, e Lech e Kitzbuhel in Austria. Anche Cortina d'Ampezzo in Italia, Aspen Snowmass negli Stati Uniti e Niseko in Giappone ospitano indirizzi eccezionali."
+        }
+      },
+      {
+        "q": {
+          "en": "What makes a ski hotel luxurious?",
+          "fr": "Qu'est-ce qui rend un hotel de ski luxueux ?",
+          "es": "Que hace que un hotel de esqui sea lujoso?",
+          "pt": "O que torna um hotel de esqui luxuoso?",
+          "it": "Cosa rende lussuoso un hotel sciistico?"
+        },
+        "a": {
+          "en": "Luxury combines a prime location on the slopes, a spa and wellness area, fine dining, and attentive, personal service. The hotels here stand out above all for their consistently high guest ratings from real reviews, so the quality is confirmed by the travellers who have stayed there.",
+          "fr": "Le luxe associe un emplacement de premier ordre sur les pistes, un espace spa et bien-etre, une cuisine gastronomique et un service attentif et personnalise. Les hotels presentes ici se distinguent surtout par leurs excellentes notes clients issues d'avis reels, une qualite confirmee par les voyageurs qui y ont sejourne.",
+          "es": "El lujo combina una ubicacion privilegiada en las pistas, una zona de spa y bienestar, alta cocina y un servicio atento y personalizado. Los hoteles que aqui se muestran destacan sobre todo por sus altas valoraciones procedentes de resenas reales, asi que la calidad la confirman los viajeros que se han alojado en ellos.",
+          "pt": "O luxo combina uma localizacao privilegiada nas pistas, uma zona de spa e bem-estar, alta cozinha e um servico atento e personalizado. Os hoteis aqui apresentados destacam-se sobretudo pelas suas elevadas avaliacoes provenientes de comentarios reais, pelo que a qualidade e confirmada pelos viajantes que la ficaram.",
+          "it": "Il lusso unisce una posizione privilegiata sulle piste, un'area spa e benessere, un'ottima cucina e un servizio attento e personalizzato. Gli hotel qui presentati si distinguono soprattutto per le loro alte valutazioni provenienti da recensioni reali, quindi la qualita e confermata dai viaggiatori che vi hanno soggiornato."
+        }
+      },
+      {
+        "q": {
+          "en": "Are luxury ski hotels ski-in, ski-out?",
+          "fr": "Les hotels de ski de luxe sont-ils ski aux pieds ?",
+          "es": "Son los hoteles de esqui de lujo ski-in, ski-out?",
+          "pt": "Os hoteis de esqui de luxo sao ski-in, ski-out?",
+          "it": "Gli hotel sciistici di lusso sono ski-in, ski-out?"
+        },
+        "a": {
+          "en": "Many of them are, with direct ski-in, ski-out access to the slopes, which is one of the hallmarks of the category. Others sit in the heart of a resort such as Zermatt or St. Moritz, a short walk or shuttle from the lifts, so it is always worth checking each hotel's exact position.",
+          "fr": "Beaucoup le sont, avec un acces ski aux pieds directement sur les pistes, l'une des marques de fabrique de cette categorie. D'autres se situent au coeur d'une station comme Zermatt ou Saint-Moritz, a quelques pas ou une navette des remontees, il vaut donc toujours mieux verifier l'emplacement exact de chaque hotel.",
+          "es": "Muchos lo son, con acceso directo ski-in, ski-out a las pistas, uno de los sellos de esta categoria. Otros se situan en el corazon de una estacion como Zermatt o St. Moritz, a pocos pasos o en lanzadera de los remontes, asi que conviene comprobar siempre la ubicacion exacta de cada hotel.",
+          "pt": "Muitos sao, com acesso direto ski-in, ski-out as pistas, uma das marcas desta categoria. Outros situam-se no coracao de uma estancia como Zermatt ou St. Moritz, a poucos passos ou a uma curta viagem de transfer dos telefericos, pelo que convem verificar sempre a localizacao exata de cada hotel.",
+          "it": "Molti lo sono, con accesso diretto ski-in, ski-out alle piste, uno dei tratti distintivi della categoria. Altri si trovano nel cuore di una localita come Zermatt o St. Moritz, a pochi passi o a una breve navetta dagli impianti, quindi conviene sempre verificare la posizione esatta di ogni hotel."
+        }
+      }
+    ]
+  }
+}

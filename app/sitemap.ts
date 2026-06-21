@@ -9,6 +9,7 @@ import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
 import { GUIDE_SLUGS } from '@/lib/resortGuide'
 import { getWinterAreas } from '@/lib/winterHolidays'
+import { getThemes } from '@/lib/skiThemes'
 import { locales } from './[locale]/dictionaries'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -263,6 +264,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
         alternates: { languages: hreflangFor(`/winter-2027/${a.slug}`) },
+      })
+    }
+
+    // Ski guides (thematic) hub + each
+    entries.push({
+      url: `${SITE_URL}/${locale}/ski-guides`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.75,
+      alternates: { languages: hreflangFor(`/ski-guides`) },
+    })
+    for (const t of getThemes()) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/ski-guides/${t.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: { languages: hreflangFor(`/ski-guides/${t.slug}`) },
       })
     }
 

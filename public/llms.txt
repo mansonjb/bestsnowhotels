@@ -93,6 +93,15 @@ Short, practical "things to know" briefings per resort: snow reliability, gettin
 
 Index: https://www.bestsnowhotels.com/en/guides
 
+## Thematic ski guides
+
+Long-tail editorial guides built around one idea, with resorts or hotels chosen from our own data (no invented facts):
+- /ski-guides/ski-spa-resorts: ski resorts with thermal spas and hot springs (Leukerbad, the Gastein valley, Bormio, Bad Kleinkirchheim, Serre Chevalier, Scuol...)
+- /ski-guides/apres-ski-resorts: the best apres-ski and ski nightlife resorts (St. Anton, Ischgl, Val Thorens, Verbier, Solden, Saalbach...)
+- /ski-guides/luxury-ski-hotels: the most luxurious, top-rated hotels in the great luxury ski resorts (Courchevel, Zermatt, St. Moritz, Verbier, Val d'Isere, Lech...)
+
+Index: https://www.bestsnowhotels.com/en/ski-guides
+
 ## Best-for lists (curated)
 
 Curated lists for travellers shopping by intent rather than by name. Europe lists scope to the 10 European countries; Japan and USA each get their own.

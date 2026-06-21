@@ -29,6 +29,7 @@ const PLAN = {
   heading: { en: 'Plan your trip', fr: 'Préparer son séjour', es: 'Planifica tu viaje', pt: 'Planeie a viagem', it: 'Pianifica il viaggio' } as Record<Locale, string>,
   winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<Locale, string>,
   opening: { en: 'Opening dates', fr: "Dates d'ouverture", es: 'Fechas de apertura', pt: 'Datas de abertura', it: 'Date di apertura' } as Record<Locale, string>,
+  themes: { en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías por tema', pt: 'Guias por tema', it: 'Guide per tema' } as Record<Locale, string>,
 }
 
 export default function Footer({ locale, dict }: FooterProps) {
@@ -107,6 +108,9 @@ export default function Footer({ locale, dict }: FooterProps) {
               </li>
               <li>
                 <Link href={`/${locale}/opening-dates`} className="hover:text-slate-deep">{PLAN.opening[locale]}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/ski-guides`} className="hover:text-slate-deep">{PLAN.themes[locale]}</Link>
               </li>
             </ul>
           </div>
