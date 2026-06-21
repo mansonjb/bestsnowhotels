@@ -20385,5 +20385,152 @@
       "red": 12,
       "black": 6
     }
+  },
+  {
+    "slug": "leukerbad",
+    "name": "Leukerbad",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.3793,
+    "lng": 7.6267,
+    "altitudeBase": 1411,
+    "altitudeSummit": 2610,
+    "pistesKm": 47.5,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Leukerbad is a thermal spa village with the lifts rising straight from it, so you base yourself in the village and ride up to the Torrent slopes. It is not a true ski-in/ski-out resort, but the gondola and cable car are an easy walk from most hotels.",
+      "fr": "Leukerbad est un village thermal d'où les remontées s'élèvent directement, donc on loge dans le village et on prend la télécabine pour rejoindre les pistes du Torrent. Ce n'est pas une vraie station skis aux pieds, mais le départ se trouve à quelques minutes de marche de la plupart des hôtels.",
+      "es": "Leukerbad es un pueblo termal del que los remontes parten directamente, así que te alojas en el pueblo y subes en telecabina hasta las pistas del Torrent. No es una estación con esquí a pie de pista propiamente dicha, pero la salida queda a pocos minutos a pie de la mayoría de los hoteles.",
+      "pt": "Leukerbad é uma aldeia termal de onde os teleféricos partem diretamente, por isso fica alojado na aldeia e sobe de telecabina até às pistas do Torrent. Não é propriamente uma estância com esqui à porta, mas a partida fica a poucos minutos a pé da maioria dos hotéis.",
+      "it": "Leukerbad è un villaggio termale da cui gli impianti salgono direttamente, quindi si alloggia in paese e si prende la cabinovia per raggiungere le piste del Torrent. Non è una vera località con sci ai piedi, ma la partenza è a pochi minuti a piedi dalla maggior parte degli hotel."
+    },
+    "seasonStart": "Dec 15",
+    "seasonEnd": "Apr 15",
+    "snowScore": 66,
+    "vibes": [
+      "thermal",
+      "wellness",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Leukerbad is a ski resort wrapped around the largest thermal spa complex in the Alps, set in a dramatic Valais cirque beneath the soaring cliffs of the Gemmi pass. You ski the Torrent slopes by day, then sink into the steaming thermal baths once the lifts close. Few places pair high mountain scenery with this much hot water.",
+      "fr": "Leukerbad est une station de ski blottie autour du plus grand complexe thermal des Alpes, dans un cirque valaisan spectaculaire au pied des falaises vertigineuses du col de la Gemmi. On skie sur les pistes du Torrent la journée, puis on se laisse glisser dans les bains thermaux fumants dès la fermeture des remontées. Rares sont les endroits qui marient un tel décor de haute montagne à autant d'eau chaude.",
+      "es": "Leukerbad es una estación de esquí que rodea el mayor complejo termal de los Alpes, en un espectacular circo del Valais a los pies de los imponentes acantilados del puerto de la Gemmi. De día esquías en las pistas del Torrent y, cuando cierran los remontes, te sumerges en los humeantes baños termales. Pocos lugares combinan un paisaje de alta montaña con tanta agua caliente.",
+      "pt": "Leukerbad é uma estância de esqui que envolve o maior complexo termal dos Alpes, num cenário dramático do Valais, ao pé das imponentes falésias do desfiladeiro da Gemmi. De dia esquia nas pistas do Torrent e, quando os teleféricos fecham, mergulha nas termas fumegantes. Poucos lugares juntam uma paisagem de alta montanha a tanta água quente.",
+      "it": "Leukerbad è una località sciistica che avvolge il più grande complesso termale delle Alpi, in uno spettacolare circo del Vallese ai piedi delle vertiginose pareti del passo della Gemmi. Di giorno si scia sulle piste del Torrent, poi ci si immerge nelle fumanti terme appena chiudono gli impianti. Pochi posti uniscono uno scenario di alta montagna a tutta quest'acqua calda."
+    },
+    "longDescription": {
+      "en": "Leukerbad suits families and anyone who wants their skiing matched with serious wellness, rather than hardcore vertical above all else. The Torrent ski area offers sunny, mostly intermediate runs with long descents back toward the village, while the thermal baths fed by the local springs are the real reason most people come. Reaching it is straightforward: it sits at the head of a side valley off the main Valais corridor, a short drive or post bus ride up from Leuk on the Rhone valley railway.",
+      "fr": "Leukerbad convient aux familles et à tous ceux qui veulent associer le ski à un vrai moment de bien-être, plutôt que de chercher avant tout le dénivelé extrême. Le domaine du Torrent propose des pistes ensoleillées, en majorité rouges, avec de longues descentes qui ramènent vers le village, mais ce sont les bains thermaux alimentés par les sources locales qui attirent la plupart des visiteurs. L'accès est simple : la station se trouve au fond d'une vallée latérale du Valais, à quelques minutes en voiture ou en car postal au-dessus de Loèche, sur la ligne ferroviaire de la vallée du Rhône.",
+      "es": "Leukerbad es ideal para familias y para quien quiera combinar el esquí con un auténtico plan de bienestar, en lugar de buscar ante todo el desnivel más exigente. El dominio del Torrent ofrece pistas soleadas, en su mayoría rojas, con largos descensos de vuelta hacia el pueblo, aunque son los baños termales alimentados por los manantiales locales el verdadero motivo de la visita para la mayoría. Llegar es sencillo: está al fondo de un valle lateral del Valais, a pocos minutos en coche o en autobús postal subiendo desde Leuk, en la línea de tren del valle del Ródano.",
+      "pt": "Leukerbad é ideal para famílias e para quem quer aliar o esqui a um verdadeiro programa de bem-estar, em vez de procurar sobretudo o desnível mais exigente. O domínio do Torrent oferece pistas soalheiras, na sua maioria vermelhas, com longas descidas de regresso à aldeia, mas são as termas alimentadas pelas nascentes locais o verdadeiro motivo da visita para a maioria. Chegar é simples: fica no fundo de um vale lateral do Valais, a poucos minutos de carro ou de autocarro postal a subir de Leuk, na linha ferroviária do vale do Ródano.",
+      "it": "Leukerbad è adatta alle famiglie e a chiunque voglia abbinare lo sci a un vero momento di benessere, più che cercare anzitutto il dislivello più impegnativo. Il comprensorio del Torrent propone piste soleggiate, in prevalenza rosse, con lunghe discese che riportano verso il paese, ma sono le terme alimentate dalle sorgenti locali il vero motivo per cui la maggior parte delle persone arriva. Raggiungerla è semplice: si trova in fondo a una valle laterale del Vallese, a pochi minuti in auto o in autopostale salendo da Leuk, sulla linea ferroviaria della valle del Rodano."
+    },
+    "pisteCounts": {
+      "green": 2,
+      "blue": 2,
+      "red": 8,
+      "black": 7
+    }
+  },
+  {
+    "slug": "zell-am-ziller",
+    "name": "Zell am Ziller",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.23306,
+    "lng": 11.88194,
+    "altitudeBase": 580,
+    "altitudeSummit": 2500,
+    "pistesKm": 150,
+    "lifts": 52,
+    "skiInSkiOutNote": {
+      "en": "Zell am Ziller sits in the valley, so true ski-in, ski-out lodging is rare. Most guests stay in the village and ride the gondola up into the Zillertal Arena each morning, then come down the long valley run or take the lift back at the end of the day.",
+      "fr": "Zell am Ziller se trouve dans la vallée, si bien que les hébergements skis aux pieds y sont rares. La plupart des visiteurs logent au village et empruntent chaque matin la télécabine pour rejoindre le domaine de la Zillertal Arena, avant de redescendre par la grande piste de vallée ou de reprendre la remontée en fin de journée.",
+      "es": "Zell am Ziller se encuentra en el fondo del valle, por lo que el alojamiento a pie de pista es poco habitual. La mayoría de los visitantes se hospeda en el pueblo y sube cada mañana en telecabina al dominio de la Zillertal Arena, para luego bajar por la larga pista del valle o regresar en el remonte al final de la jornada.",
+      "pt": "Zell am Ziller fica no fundo do vale, pelo que o alojamento com acesso direto às pistas é raro. A maioria dos visitantes fica na vila e sobe todas as manhãs de telecabine até ao domínio da Zillertal Arena, descendo depois pela longa pista do vale ou regressando no teleférico ao fim do dia.",
+      "it": "Zell am Ziller si trova nel fondovalle, quindi gli alloggi proprio sulle piste sono rari. La maggior parte degli ospiti soggiorna in paese e ogni mattina sale in cabinovia verso il comprensorio della Zillertal Arena, per poi scendere lungo la lunga pista di valle o riprendere l'impianto a fine giornata."
+    },
+    "seasonStart": "Nov 25",
+    "seasonEnd": "Apr 21",
+    "snowScore": 75,
+    "vibes": [
+      "big-domain",
+      "family",
+      "party"
+    ],
+    "intro": {
+      "en": "Zell am Ziller is the lively gateway town of the Zillertal Arena, one of the largest linked ski areas in Tyrol's Zillertal valley. With around 150 km of mostly cruising terrain and a buzzing après-ski scene, it draws families and intermediates in equal measure.",
+      "fr": "Zell am Ziller est la porte d'entrée animée de la Zillertal Arena, l'un des plus vastes domaines reliés de la vallée du Zillertal, au Tyrol. Avec environ 150 km de pistes faciles à parcourir et une après-ski très vivante, la station séduit autant les familles que les skieurs intermédiaires.",
+      "es": "Zell am Ziller es la animada localidad de acceso a la Zillertal Arena, uno de los mayores dominios enlazados del valle del Zillertal, en el Tirol. Con unos 150 km de pistas en su mayoría para esquiar a gusto y un ambiente de après-ski muy vivo, atrae por igual a familias y a esquiadores intermedios.",
+      "pt": "Zell am Ziller é a animada vila de acesso à Zillertal Arena, um dos maiores domínios interligados do vale do Zillertal, no Tirol. Com cerca de 150 km de pistas, na sua maioria fáceis de percorrer, e um ambiente de après-ski muito vivo, atrai tanto famílias como esquiadores intermédios.",
+      "it": "Zell am Ziller è la vivace cittadina che fa da porta d'accesso alla Zillertal Arena, uno dei più estesi comprensori collegati della valle dello Zillertal, in Tirolo. Con circa 150 km di piste perlopiù scorrevoli e un dopo sci molto animato, richiama in egual misura famiglie e sciatori di livello intermedio."
+    },
+    "longDescription": {
+      "en": "The Zillertal Arena links Zell am Ziller with Gerlos, Königsleiten and Hochkrimml, offering wide, well-groomed runs that are ideal for families and confident intermediates, topping out around 2,500 m for reliable snow. The valley setting is easy to reach: Innsbruck is roughly an hour away by car, and the train runs right up the Zillertal. Add in some of the best après-ski in the Alps, and Zell makes a natural base for a sociable week on the snow.",
+      "fr": "La Zillertal Arena relie Zell am Ziller à Gerlos, Königsleiten et Hochkrimml, avec de larges pistes bien damées, idéales pour les familles et les intermédiaires sûrs d'eux, culminant vers 2 500 m pour un enneigement fiable. La vallée est facile d'accès : Innsbruck est à environ une heure de route et le train remonte tout le Zillertal. Ajoutez l'une des meilleures après-ski des Alpes et Zell devient un camp de base tout trouvé pour une semaine conviviale sur les pistes.",
+      "es": "La Zillertal Arena conecta Zell am Ziller con Gerlos, Königsleiten y Hochkrimml, con pistas anchas y bien pisadas, ideales para familias y esquiadores intermedios con soltura, y alcanza unos 2.500 m para garantizar buena nieve. El valle es de fácil acceso: Innsbruck queda a cosa de una hora en coche y el tren sube por todo el Zillertal. Si a esto se suma uno de los mejores ambientes de après-ski de los Alpes, Zell se convierte en una base natural para una semana animada en la nieve.",
+      "pt": "A Zillertal Arena liga Zell am Ziller a Gerlos, Königsleiten e Hochkrimml, com pistas largas e bem preparadas, ideais para famílias e esquiadores intermédios confiantes, atingindo cerca de 2.500 m para garantir boa neve. O vale é de fácil acesso: Innsbruck fica a cerca de uma hora de carro e o comboio sobe por todo o Zillertal. Junte a isso um dos melhores ambientes de après-ski dos Alpes e Zell torna-se uma base natural para uma semana animada na neve.",
+      "it": "La Zillertal Arena collega Zell am Ziller con Gerlos, Königsleiten e Hochkrimml, con piste ampie e ben battute, ideali per famiglie e sciatori intermedi sicuri, e arriva fino a circa 2.500 m per garantire neve affidabile. La valle è facile da raggiungere: Innsbruck dista circa un'ora d'auto e il treno risale tutto lo Zillertal. Se a questo si aggiunge uno dei migliori dopo sci delle Alpi, Zell diventa una base naturale per una settimana in compagnia sulla neve."
+    },
+    "pisteCounts": {
+      "green": 8,
+      "blue": 18,
+      "red": 50,
+      "black": 7
+    }
+  },
+  {
+    "slug": "silver-star",
+    "name": "Silver Star",
+    "country": "Canada",
+    "countryCode": "CA",
+    "flag": "🇨🇦",
+    "region": "BC Interior",
+    "lat": 50.3598,
+    "lng": -119.061,
+    "altitudeBase": 1155,
+    "altitudeSummit": 1915,
+    "pistesKm": 115,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Silver Star is genuinely ski-in/ski-out. The compact pedestrian village sits right at the lifts, so from most lodging you can click in at the door in the morning and ski straight back to it at the end of the day.",
+      "fr": "Silver Star est authentiquement ski aux pieds. Le petit village piéton se trouve juste au pied des remontées : depuis la plupart des hébergements, vous chaussez devant la porte le matin et rentrez skis aux pieds le soir.",
+      "es": "Silver Star es realmente esquí a pie de pista. El compacto pueblo peatonal está justo junto a los remontes, así que desde la mayoría de los alojamientos sales esquiando desde la puerta por la mañana y regresas esquiando al final del día.",
+      "pt": "O Silver Star é genuinamente ski-in/ski-out. A pequena aldeia pedonal fica mesmo junto aos teleféricos, por isso, a partir da maioria dos alojamentos, calça os esquis à porta de manhã e regressa a esquiar ao fim do dia.",
+      "it": "Silver Star è davvero sci ai piedi. Il piccolo villaggio pedonale sorge proprio accanto agli impianti, così dalla maggior parte degli alloggi puoi allacciare gli sci sulla porta la mattina e rientrare sciando a fine giornata."
+    },
+    "seasonStart": "Nov 28",
+    "seasonEnd": "Apr 15",
+    "snowScore": 84,
+    "vibes": [
+      "village",
+      "family",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Silver Star is one of the few resorts where the village really is the lift base: a car-free cluster of buildings painted in bright Victorian colours, sitting straight on the snow. It pairs the dry, light powder of the BC Interior with one of the largest cross-country networks in North America right alongside the downhill terrain.",
+      "fr": "Silver Star est l'une des rares stations où le village se confond avec le départ des pistes : un ensemble piéton de bâtiments peints aux couleurs vives de l'époque victorienne, posé directement sur la neige. Elle réunit la poudreuse sèche et légère de l'intérieur de la Colombie-Britannique et l'un des plus vastes réseaux de ski de fond d'Amérique du Nord, juste à côté du domaine alpin.",
+      "es": "Silver Star es una de las pocas estaciones donde el pueblo es de verdad el pie de pista: un conjunto peatonal de edificios pintados con los vivos colores de la época victoriana, situado directamente sobre la nieve. Combina la nieve polvo seca y ligera del interior de la Columbia Británica con una de las mayores redes de esquí de fondo de Norteamérica, justo al lado del dominio alpino.",
+      "pt": "O Silver Star é uma das poucas estâncias onde a aldeia é mesmo a base dos teleféricos: um conjunto pedonal de edifícios pintados com as cores vivas da era vitoriana, assente diretamente sobre a neve. Reúne a neve em pó seca e leve do interior da Colúmbia Britânica e uma das maiores redes de esqui de fundo da América do Norte, mesmo ao lado do domínio alpino.",
+      "it": "Silver Star è una delle poche località dove il villaggio coincide davvero con la partenza degli impianti: un nucleo pedonale di edifici dipinti con i colori vivaci dell'epoca vittoriana, posato direttamente sulla neve. Unisce la neve farinosa, secca e leggera dell'entroterra della Columbia Britannica a una delle più estese reti di sci di fondo del Nord America, proprio accanto al comprensorio alpino."
+    },
+    "longDescription": {
+      "en": "Silver Star suits families and intermediates especially well, with long groomers on the front side and gentle, well-spaced glades that make it a fine place to learn to ski the trees. The slopeside village means days start and finish on snow, while the high, dry Interior climate keeps the cover light and reliable. The usual approach is to fly into Kelowna International Airport and drive up in about an hour and a half, passing through Vernon, which sits roughly twenty minutes below the resort.",
+      "fr": "Silver Star convient particulièrement aux familles et aux skieurs intermédiaires, avec de longues pistes damées sur le versant principal et des sous-bois doux et aérés, idéals pour s'initier au ski entre les arbres. Le village au pied des pistes permet de commencer et de finir la journée sur la neige, tandis que le climat sec et d'altitude de l'intérieur garde un manteau léger et fiable. On rejoint en général la station en arrivant à l'aéroport international de Kelowna, puis en roulant environ une heure et demie en passant par Vernon, à une vingtaine de minutes en contrebas.",
+      "es": "Silver Star resulta especialmente adecuada para familias y esquiadores intermedios, con largas pistas pisadas en la vertiente principal y bosques suaves y espaciados, ideales para aprender a esquiar entre los árboles. El pueblo a pie de pista permite empezar y terminar el día sobre la nieve, mientras que el clima seco y de altura del interior mantiene un manto ligero y fiable. Lo habitual es volar al Aeropuerto Internacional de Kelowna y subir en aproximadamente una hora y media, pasando por Vernon, que queda unos veinte minutos más abajo.",
+      "pt": "O Silver Star é especialmente indicado para famílias e esquiadores intermédios, com longas pistas pisadas na vertente principal e bosques suaves e espaçados, ideais para aprender a esquiar entre as árvores. A aldeia junto às pistas permite começar e terminar o dia sobre a neve, enquanto o clima seco e de altitude do interior mantém um manto leve e fiável. O habitual é aterrar no Aeroporto Internacional de Kelowna e subir em cerca de hora e meia, passando por Vernon, que fica uns vinte minutos abaixo da estância.",
+      "it": "Silver Star è particolarmente adatta a famiglie e sciatori intermedi, con lunghe piste battute sul versante principale e boschi morbidi e ben distanziati, ideali per imparare a sciare tra gli alberi. Il villaggio a bordo pista permette di iniziare e finire la giornata sulla neve, mentre il clima secco e d'alta quota dell'entroterra mantiene un manto leggero e affidabile. Di solito si atterra all'Aeroporto Internazionale di Kelowna e si sale in circa un'ora e mezza, passando per Vernon, che si trova una ventina di minuti più in basso."
+    },
+    "pisteCounts": {
+      "green": 20,
+      "blue": 53,
+      "red": 46,
+      "black": 13
+    }
   }
 ]

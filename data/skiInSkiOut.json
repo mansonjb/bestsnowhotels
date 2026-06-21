@@ -200,6 +200,7 @@
   "les-orres": "strong",
   "les-saisies": "partial",
   "les-sybelles": "partial",
+  "leukerbad": "limited",
   "levi": "strong",
   "leysin": "partial",
   "limone-piemonte": "partial",
@@ -335,6 +336,7 @@
   "serre-chevalier": "partial",
   "sestriere": "strong",
   "shiga-kogen": "partial",
+  "silver-star": "strong",
   "sixt-fer-a-cheval": "limited",
   "skeikampen": "partial",
   "ski-egypt": "limited",
@@ -412,5 +414,6 @@
   "yongpyong": "strong",
   "zao-onsen": "limited",
   "zell-am-see": "limited",
+  "zell-am-ziller": "limited",
   "zermatt": "partial"
 }

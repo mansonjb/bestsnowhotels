@@ -30,6 +30,7 @@ const DRY = process.argv.includes('--dry')
 // high enough to stay credible.
 const TARGETS = [
   { slug: 'panorama',       query: 'lodging in Panorama Mountain Village BC',                    maxDist: 9000,  minReviews: 10 },
+  { slug: 'silver-star',    query: 'Silver Star Mountain Vernon BC hotels lodge accommodation',   maxDist: 8000,  minReviews: 40 },
   { slug: 'cerro-catedral', query: 'hotels San Carlos de Bariloche Argentina',                  maxDist: 26000, minReviews: 30 },
   { slug: 'chapelco',       query: 'hotels San Martin de los Andes Argentina',                  maxDist: 28000, minReviews: 25 },
   { slug: 'cerro-bayo',     query: 'hotels Villa La Angostura Argentina',                       maxDist: 16000, minReviews: 15 },
