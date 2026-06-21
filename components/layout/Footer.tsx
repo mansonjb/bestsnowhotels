@@ -18,16 +18,25 @@ interface FooterProps {
       networkHoneymoon: string
       networkPets: string
     }
-    nav: { destinations: string; countries: string; skiAreas: string; best: string; weather: string }
+    nav: {
+      destinations: string; countries: string; skiAreas: string; best: string; weather: string
+      guides: string; skiInSkiOut: string; compare: string; when: string
+    }
   }
+}
+
+const PLAN = {
+  heading: { en: 'Plan your trip', fr: 'Préparer son séjour', es: 'Planifica tu viaje', pt: 'Planeie a viagem', it: 'Pianifica il viaggio' } as Record<Locale, string>,
+  winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<Locale, string>,
+  opening: { en: 'Opening dates', fr: "Dates d'ouverture", es: 'Fechas de apertura', pt: 'Datas de abertura', it: 'Date di apertura' } as Record<Locale, string>,
 }
 
 export default function Footer({ locale, dict }: FooterProps) {
   return (
     <footer className="mt-24 border-t border-ice-100 bg-ice-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          <div className="md:col-span-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
+          <div className="sm:col-span-2">
             <Link
               href={`/${locale}`}
               className="flex items-center gap-2 font-bold text-lg text-slate-deep"
@@ -72,6 +81,32 @@ export default function Footer({ locale, dict }: FooterProps) {
                 <Link href={`/${locale}/weather`} className="hover:text-slate-deep">
                   {dict.nav.weather}
                 </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-slate-deep text-sm mb-3 uppercase tracking-wide">
+              {PLAN.heading[locale]}
+            </h4>
+            <ul className="space-y-2 text-sm text-ice-800/90">
+              <li>
+                <Link href={`/${locale}/guides`} className="hover:text-slate-deep">{dict.nav.guides}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/winter-2027`} className="hover:text-slate-deep">{PLAN.winter[locale]}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/ski-in-ski-out`} className="hover:text-slate-deep">{dict.nav.skiInSkiOut}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/compare`} className="hover:text-slate-deep">{dict.nav.compare}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/when`} className="hover:text-slate-deep">{dict.nav.when}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/opening-dates`} className="hover:text-slate-deep">{PLAN.opening[locale]}</Link>
               </li>
             </ul>
           </div>

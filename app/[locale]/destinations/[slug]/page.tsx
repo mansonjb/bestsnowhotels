@@ -23,6 +23,8 @@ import { getGallery } from '@/lib/galleries'
 import { resortFacts } from '@/lib/resortFacts'
 import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
 import { getSkiAreaForResort } from '@/lib/skiAreas'
+import { countrySlug } from '@/lib/countries'
+import { getSioCountry } from '@/lib/skiInSkiOut'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { localizeVibe } from '@/lib/vibes'
@@ -106,6 +108,14 @@ export default async function DestinationDetailPage({
   const dict = await getDictionary(l)
   const related = getRelatedDestinations(slug, 4)
   const skiArea = getSkiAreaForResort(slug)
+  const cSlug = countrySlug(d.country)
+  const sioCountry = getSioCountry(cSlug)
+  const relatedLinks: { href: string; label: string }[] = [
+    { href: `/${l}/guides/${slug}`, label: ({ en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere' } as Record<typeof l, string>)[l] },
+    ...(skiArea ? [{ href: `/${l}/winter-2027/${skiArea.slug}`, label: ({ en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<typeof l, string>)[l] }] : []),
+    ...(sioCountry ? [{ href: `/${l}/ski-in-ski-out/${cSlug}`, label: `${({ en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'Ski-in/ski-out', pt: 'Ski-in/ski-out', it: 'Ski-in/ski-out' } as Record<typeof l, string>)[l]}: ${localizeCountry(d.country, l)}` }] : []),
+    { href: `/${l}/countries/${cSlug}`, label: localizeCountry(d.country, l) },
+  ]
   const allezLink = buildAllezDestLink(d.name, d.country, 'destination', 7)
   const hotels = getHotels(slug)
   const hotelLabels = {
@@ -543,6 +553,13 @@ export default async function DestinationDetailPage({
             <div className="font-bold text-slate-deep">{dict.destination.skiRental}</div>
             <p className="mt-1 text-sm text-ice-600">{dict.destination.skiRentalHint}</p>
           </a>
+        </div>
+        <div className="mt-6 flex flex-wrap gap-3 text-sm">
+          {relatedLinks.map((r) => (
+            <Link key={r.href} href={r.href} className="rounded-full border border-ice-200 px-4 py-2 text-slate-deep hover:bg-ice-50 transition">
+              {r.label}
+            </Link>
+          ))}
         </div>
       </section>
 

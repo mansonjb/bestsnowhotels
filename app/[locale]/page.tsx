@@ -149,6 +149,28 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* Explore by theme (internal hubs) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-slate-deep mb-6">
+          {({ en: 'Explore by theme', fr: 'Explorer par thème', es: 'Explora por tema', pt: 'Explore por tema', it: 'Esplora per tema' } as Record<Locale, string>)[locale]}
+        </h2>
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { href: `/${locale}/guides`, label: dict.nav.guides, emoji: '📋' },
+            { href: `/${locale}/winter-2027`, label: ({ en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<Locale, string>)[locale], emoji: '🗓️' },
+            { href: `/${locale}/ski-in-ski-out`, label: dict.nav.skiInSkiOut, emoji: '🎿' },
+            { href: `/${locale}/best`, label: dict.nav.best, emoji: '🏆' },
+            { href: `/${locale}/compare`, label: dict.nav.compare, emoji: '⚖️' },
+            { href: `/${locale}/when`, label: dict.nav.when, emoji: '❄️' },
+          ].map((h) => (
+            <Link key={h.href} href={h.href} className="card-hover flex items-center gap-3 bg-white rounded-2xl border border-ice-100 px-5 py-4 font-semibold text-slate-deep">
+              <span className="text-xl" aria-hidden>{h.emoji}</span>
+              <span>{h.label}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* By country */}
       <section className="bg-ice-50 border-y border-ice-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
