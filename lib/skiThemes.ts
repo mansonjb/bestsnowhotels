@@ -65,6 +65,26 @@ export interface ThemeHotel {
   resort: Destination
 }
 
+/**
+ * Important criteria that apply to a hotel pick, each derived from data we can
+ * stand behind: the resort's editorial vibes, the hotel's distance to the
+ * slopes, the hotel's own name (many advertise a spa), and its guest rating.
+ * Returns criterion keys; the page maps them to localised labels + icons.
+ */
+export type HotelCriterion = 'ski' | 'spa' | 'dining' | 'apres' | 'family' | 'scenery' | 'topRated'
+export function hotelCriteria(resort: Destination, hotel: Hotel): HotelCriterion[] {
+  const v = resort.vibes
+  const out: HotelCriterion[] = []
+  if (hotel.distanceToSlopesM != null && hotel.distanceToSlopesM <= 400) out.push('ski')
+  if (/spa|wellness|therm/i.test(hotel.name) || v.includes('thermal') || v.includes('wellness')) out.push('spa')
+  if (v.includes('gastronomy') || /restaurant|gastronom|cuisine/i.test(hotel.name)) out.push('dining')
+  if (v.includes('party')) out.push('apres')
+  if (v.includes('family')) out.push('family')
+  if (v.includes('scenic') || v.includes('panoramic') || v.includes('iconic')) out.push('scenery')
+  if (hotel.rating >= 4.7) out.push('topRated')
+  return out
+}
+
 /** Top-rated hotels in the great luxury ski resorts (max 2 per resort for variety). */
 export function themeHotels(slug: string): ThemeHotel[] {
   if (slug !== 'luxury-ski-hotels') return []

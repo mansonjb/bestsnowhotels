@@ -4,7 +4,8 @@ import Image from 'next/image'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
-import { getThemes, getTheme, themeContent, themeResorts, themeHotels } from '@/lib/skiThemes'
+import { getThemes, getTheme, themeContent, themeResorts, themeHotels, hotelCriteria } from '@/lib/skiThemes'
+import type { HotelCriterion } from '@/lib/skiThemes'
 import DestinationCard from '@/components/DestinationCard'
 import HotelCard from '@/components/HotelCard'
 import { localizeRegion } from '@/lib/regions'
@@ -25,7 +26,19 @@ const T = {
     it: 'Valutazioni da Google Places. Potremmo guadagnare una commissione sulle prenotazioni.',
   } as Record<Locale, string>,
   allGuides: { en: 'All ski guides', fr: 'Tous les guides ski', es: 'Todas las guías', pt: 'Todos os guias', it: 'Tutte le guide' } as Record<Locale, string>,
+  critTitle: { en: 'What we look at', fr: 'Nos critères', es: 'Nuestros criterios', pt: 'Os nossos critérios', it: 'I nostri criteri' } as Record<Locale, string>,
 }
+
+const CRIT: Record<HotelCriterion, { icon: string; label: Record<Locale, string> }> = {
+  ski: { icon: '🎿', label: { en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'A pie de pista', pt: 'Ski-in/ski-out', it: 'Sci ai piedi' } },
+  spa: { icon: '🧖', label: { en: 'Spa & wellness', fr: 'Spa et bien-être', es: 'Spa y bienestar', pt: 'Spa e bem-estar', it: 'Spa e benessere' } },
+  dining: { icon: '🍽️', label: { en: 'Fine dining', fr: 'Gastronomie', es: 'Gastronomía', pt: 'Gastronomia', it: 'Alta cucina' } },
+  apres: { icon: '🍸', label: { en: 'Après-ski', fr: 'Après-ski', es: 'Après-ski', pt: 'Après-ski', it: 'Après-ski' } },
+  family: { icon: '👨‍👩‍👧', label: { en: 'Family-friendly', fr: 'Familles', es: 'Familias', pt: 'Famílias', it: 'Famiglie' } },
+  scenery: { icon: '🏔️', label: { en: 'Scenery', fr: 'Panorama', es: 'Paisaje', pt: 'Paisagem', it: 'Panorama' } },
+  topRated: { icon: '⭐', label: { en: 'Top-rated', fr: 'Très bien noté', es: 'Muy valorado', pt: 'Muito bem avaliado', it: 'Molto valutato' } },
+}
+const CRIT_ORDER: HotelCriterion[] = ['ski', 'spa', 'dining', 'apres', 'family', 'scenery', 'topRated']
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = []
@@ -153,7 +166,15 @@ export default async function SkiGuidePage({
 
       {theme.kind === 'hotels' && hotelGroups.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <h2 className="text-2xl font-bold text-slate-deep mb-8">{T.picksHotels[l]}</h2>
+          <h2 className="text-2xl font-bold text-slate-deep mb-3">{T.picksHotels[l]}</h2>
+          <div className="mb-8 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-ice-700">
+            <span className="font-semibold uppercase tracking-wide text-ice-800">{T.critTitle[l]}</span>
+            {CRIT_ORDER.map((k) => (
+              <span key={k} className="inline-flex items-center gap-1">
+                <span aria-hidden>{CRIT[k].icon}</span> {CRIT[k].label[l]}
+              </span>
+            ))}
+          </div>
           <div className="space-y-12">
             {hotelGroups.map((g) => (
               <div key={g.resort.slug}>
@@ -181,6 +202,13 @@ export default async function SkiGuidePage({
                         <span className="font-semibold text-slate-deep">{whyWeLikeLabel(l)} </span>
                         {hotelReason(hotel, resort.name, l)}
                       </p>
+                      <div className="mt-2 flex flex-wrap gap-1.5">
+                        {hotelCriteria(resort, hotel).map((k) => (
+                          <span key={k} className="inline-flex items-center gap-1 rounded-full bg-ice-50 border border-ice-100 px-2.5 py-1 text-xs text-ice-800">
+                            <span aria-hidden>{CRIT[k].icon}</span> {CRIT[k].label[l]}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   ))}
                 </div>
