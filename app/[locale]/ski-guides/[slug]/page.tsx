@@ -29,16 +29,30 @@ const T = {
   critTitle: { en: 'What we look at', fr: 'Nos critères', es: 'Nuestros criterios', pt: 'Os nossos critérios', it: 'I nostri criteri' } as Record<Locale, string>,
 }
 
-const CRIT: Record<HotelCriterion, { icon: string; label: Record<Locale, string> }> = {
-  ski: { icon: '🎿', label: { en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'A pie de pista', pt: 'Ski-in/ski-out', it: 'Sci ai piedi' } },
-  spa: { icon: '🧖', label: { en: 'Spa & wellness', fr: 'Spa et bien-être', es: 'Spa y bienestar', pt: 'Spa e bem-estar', it: 'Spa e benessere' } },
-  dining: { icon: '🍽️', label: { en: 'Fine dining', fr: 'Gastronomie', es: 'Gastronomía', pt: 'Gastronomia', it: 'Alta cucina' } },
-  apres: { icon: '🍸', label: { en: 'Après-ski', fr: 'Après-ski', es: 'Après-ski', pt: 'Après-ski', it: 'Après-ski' } },
-  family: { icon: '👨‍👩‍👧', label: { en: 'Family-friendly', fr: 'Familles', es: 'Familias', pt: 'Famílias', it: 'Famiglie' } },
-  scenery: { icon: '🏔️', label: { en: 'Scenery', fr: 'Panorama', es: 'Paisaje', pt: 'Paisagem', it: 'Panorama' } },
-  topRated: { icon: '⭐', label: { en: 'Top-rated', fr: 'Très bien noté', es: 'Muy valorado', pt: 'Muito bem avaliado', it: 'Molto valutato' } },
+const CRIT: Record<HotelCriterion, { icon: string; tint: string; label: Record<Locale, string> }> = {
+  ski: { icon: '🎿', tint: 'bg-ice-50 text-ice-700 border-ice-200', label: { en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'A pie de pista', pt: 'Ski-in/ski-out', it: 'Sci ai piedi' } },
+  spa: { icon: '🧖', tint: 'bg-teal-50 text-teal-700 border-teal-200', label: { en: 'Spa & wellness', fr: 'Spa et bien-être', es: 'Spa y bienestar', pt: 'Spa e bem-estar', it: 'Spa e benessere' } },
+  dining: { icon: '🍽️', tint: 'bg-orange-50 text-orange-700 border-orange-200', label: { en: 'Fine dining', fr: 'Gastronomie', es: 'Gastronomía', pt: 'Gastronomia', it: 'Alta cucina' } },
+  apres: { icon: '🍸', tint: 'bg-rose-50 text-rose-700 border-rose-200', label: { en: 'Après-ski', fr: 'Après-ski', es: 'Après-ski', pt: 'Après-ski', it: 'Après-ski' } },
+  family: { icon: '👨‍👩‍👧', tint: 'bg-violet-50 text-violet-700 border-violet-200', label: { en: 'Family-friendly', fr: 'Familles', es: 'Familias', pt: 'Famílias', it: 'Famiglie' } },
+  scenery: { icon: '🏔️', tint: 'bg-cyan-50 text-cyan-700 border-cyan-200', label: { en: 'Scenery', fr: 'Panorama', es: 'Paisaje', pt: 'Paisagem', it: 'Panorama' } },
+  topRated: { icon: '⭐', tint: 'bg-amber-50 text-amber-700 border-amber-200', label: { en: 'Top-rated', fr: 'Très bien noté', es: 'Muy valorado', pt: 'Muito bem avaliado', it: 'Molto valutato' } },
 }
 const CRIT_ORDER: HotelCriterion[] = ['ski', 'spa', 'dining', 'apres', 'family', 'scenery', 'topRated']
+
+/** Small reusable snow-gradient underline accent under a heading. */
+function Underline() {
+  return <div className="mt-2 h-1 w-16 rounded-full bg-gradient-to-r from-ice-400 to-alpenglow-400" />
+}
+
+/** Faint decorative snowflake for section corners. */
+function Snowflake({ className = '' }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" aria-hidden>
+      <path d="M12 2v20M2 12h20M4.5 4.5l15 15M19.5 4.5l-15 15M12 5l-2.2 2.2M12 5l2.2 2.2M12 19l-2.2-2.2M12 19l2.2-2.2M5 12l2.2-2.2M5 12l2.2 2.2M19 12l-2.2-2.2M19 12l-2.2 2.2" />
+    </svg>
+  )
+}
 
 export function generateStaticParams() {
   const params: { locale: string; slug: string }[] = []
@@ -155,8 +169,9 @@ export default async function SkiGuidePage({
       {/* Picks */}
       {theme.kind === 'resorts' && resorts.length > 0 && (
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <h2 className="text-2xl font-bold text-slate-deep mb-6">{T.picksResorts[l]}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <h2 className="text-2xl font-bold text-slate-deep">{T.picksResorts[l]}</h2>
+          <Underline />
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
             {resorts.map((d) => (
               <DestinationCard key={d.slug} destination={d} locale={l} labels={cardLabels} />
             ))}
@@ -166,14 +181,25 @@ export default async function SkiGuidePage({
 
       {theme.kind === 'hotels' && hotelGroups.length > 0 && (
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          <h2 className="text-2xl font-bold text-slate-deep mb-3">{T.picksHotels[l]}</h2>
-          <div className="mb-8 flex flex-wrap items-center gap-x-4 gap-y-1.5 text-xs text-ice-700">
-            <span className="font-semibold uppercase tracking-wide text-ice-800">{T.critTitle[l]}</span>
-            {CRIT_ORDER.map((k) => (
-              <span key={k} className="inline-flex items-center gap-1">
-                <span aria-hidden>{CRIT[k].icon}</span> {CRIT[k].label[l]}
-              </span>
-            ))}
+          <h2 className="text-2xl font-bold text-slate-deep">{T.picksHotels[l]}</h2>
+          <Underline />
+          {/* Criteria panel: snow-textured, colour-coded chips */}
+          <div className="relative overflow-hidden rounded-3xl border border-ice-100 bg-gradient-to-br from-ice-50 via-frost to-white p-6 mt-6 mb-10 shadow-sm">
+            <div className="absolute inset-0 bg-snow-grain opacity-50 pointer-events-none" />
+            <Snowflake className="absolute -right-5 -top-5 w-28 h-28 text-ice-200/70 pointer-events-none" />
+            <div className="relative">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-lg" aria-hidden>❄</span>
+                <h3 className="text-sm font-bold uppercase tracking-wider text-ice-800">{T.critTitle[l]}</h3>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {CRIT_ORDER.map((k) => (
+                  <span key={k} className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium ${CRIT[k].tint}`}>
+                    <span aria-hidden>{CRIT[k].icon}</span> {CRIT[k].label[l]}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
           <div className="space-y-12">
             {hotelGroups.map((g) => (
@@ -204,7 +230,7 @@ export default async function SkiGuidePage({
                       </p>
                       <div className="mt-2 flex flex-wrap gap-1.5">
                         {hotelCriteria(resort, hotel).map((k) => (
-                          <span key={k} className="inline-flex items-center gap-1 rounded-full bg-ice-50 border border-ice-100 px-2.5 py-1 text-xs text-ice-800">
+                          <span key={k} className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-medium ${CRIT[k].tint}`}>
                             <span aria-hidden>{CRIT[k].icon}</span> {CRIT[k].label[l]}
                           </span>
                         ))}
@@ -221,10 +247,11 @@ export default async function SkiGuidePage({
 
       {/* FAQ */}
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 className="text-2xl font-bold text-slate-deep mb-5">{T.faqHeading[l]}</h2>
-        <dl className="space-y-4">
+        <h2 className="text-2xl font-bold text-slate-deep">{T.faqHeading[l]}</h2>
+        <Underline />
+        <dl className="mt-6 space-y-4">
           {c.faq.map((f, i) => (
-            <div key={i} className="bg-white rounded-2xl border border-ice-100 p-5">
+            <div key={i} className="bg-white rounded-2xl border border-ice-100 p-5 border-l-4 border-l-ice-300">
               <dt className="font-semibold text-slate-deep">{f.q[l]}</dt>
               <dd className="mt-1.5 text-ice-800/85 leading-relaxed">{f.a[l]}</dd>
             </div>
