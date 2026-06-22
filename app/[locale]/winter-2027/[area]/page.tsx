@@ -10,7 +10,7 @@ import { localizeCountry } from '@/lib/countryNames'
 import Stay22Map from '@/components/Stay22Map'
 import SnowByMonth from '@/components/SnowByMonth'
 import { snowByMonth } from '@/lib/snow'
-import { SITE_URL, hreflangFor, buildAllezDestLink } from '@/lib/site'
+import { SITE_URL, hreflangFor, buildAllezDestLink, jsonLdGraph } from '@/lib/site'
 
 const T = {
   whyHeading: {
@@ -135,7 +135,7 @@ export default async function WinterAreaPage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }} />
 
       {/* Hero */}
       <section className="relative h-[44vh] min-h-[340px] w-full overflow-hidden">

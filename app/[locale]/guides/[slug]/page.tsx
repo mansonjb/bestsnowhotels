@@ -13,7 +13,7 @@ import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { countrySlug } from '@/lib/countries'
 import { skiInSkiOutTier } from '@/lib/skiInSkiOut'
-import { SITE_URL, hreflangFor, buildAllezHotelLink, buildAllezDestLink } from '@/lib/site'
+import { SITE_URL, hreflangFor, buildAllezHotelLink, buildAllezDestLink, jsonLdGraph } from '@/lib/site'
 
 const T = {
   h1: {
@@ -154,7 +154,7 @@ export default async function GuidePage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }} />
 
       {/* Hero */}
       <section className="relative h-[42vh] min-h-[320px] w-full overflow-hidden">

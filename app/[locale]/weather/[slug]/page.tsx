@@ -14,7 +14,7 @@ import { compareToSeasonalAvg, formatSnowCm, formatTempC, formatWindKmh } from '
 import { weatherGlyph, weatherLabel } from '@/lib/weatherCodes'
 import Forecast7Day from '@/components/Forecast7Day'
 import WeatherCard from '@/components/WeatherCard'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, jsonLdGraph } from '@/lib/site'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { getSkiAreaForResort } from '@/lib/skiAreas'
@@ -160,7 +160,7 @@ export default async function ResortWeatherPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }}
       />
 
       {/* Hero with photo */}

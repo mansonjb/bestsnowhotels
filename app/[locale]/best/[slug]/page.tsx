@@ -6,7 +6,7 @@ import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import { BEST_FOR_LISTS, getBestForList } from '@/lib/bestFor'
 import { destinations } from '@/lib/destinations'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, jsonLdGraph } from '@/lib/site'
 import DestinationCard from '@/components/DestinationCard'
 
 export async function generateStaticParams() {
@@ -87,7 +87,7 @@ export default async function BestForListPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }}
       />
 
       {/* Hero */}

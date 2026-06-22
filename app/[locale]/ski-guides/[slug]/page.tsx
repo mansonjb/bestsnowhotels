@@ -11,7 +11,7 @@ import HotelCard from '@/components/HotelCard'
 import { localizeRegion } from '@/lib/regions'
 import { localizeCountry } from '@/lib/countryNames'
 import { hotelReason, whyWeLikeLabel } from '@/lib/hotelContent'
-import { SITE_URL, hreflangFor, buildAllezHotelLink } from '@/lib/site'
+import { SITE_URL, hreflangFor, buildAllezHotelLink, jsonLdGraph } from '@/lib/site'
 
 const T = {
   picksResorts: { en: 'Our picks', fr: 'Notre sélection', es: 'Nuestra selección', pt: 'A nossa seleção', it: 'La nostra selezione' } as Record<Locale, string>,
@@ -124,7 +124,7 @@ export default async function SkiGuidePage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }} />
 
       {/* Hero */}
       <section className="relative h-[42vh] min-h-[320px] w-full overflow-hidden">

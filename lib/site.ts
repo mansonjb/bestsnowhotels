@@ -22,6 +22,21 @@ export function hreflangFor(path: string): Record<string, string> {
   return out
 }
 
+/**
+ * Serialise one or more JSON-LD nodes for a single <script type="application/ld+json">.
+ * A single node is emitted as-is. Multiple nodes are wrapped in a top-level
+ * object with "@context" + "@graph" rather than a bare array: a top-level array
+ * has no "@context", which makes naive consumers crash on data["@context"].
+ */
+export function jsonLdGraph(data: object | object[]): string {
+  if (!Array.isArray(data)) return JSON.stringify(data)
+  const graph = data.map((node) => {
+    const { ['@context']: _ctx, ...rest } = node as Record<string, unknown>
+    return rest
+  })
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })
+}
+
 /** Stay22 partner ID used for the letmeallez script, map embed and Allez deep links. */
 export const STAY22_ID = '6a172a3725eb5f0f8532400c'
 

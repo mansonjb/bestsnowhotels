@@ -9,7 +9,7 @@ import { COMPARE_PAIRS, getComparePair, getComparisonDestinations } from '@/lib/
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { formatSeasonRange } from '@/lib/dates'
-import { SITE_URL, buildAllezHotelLink } from '@/lib/site'
+import { SITE_URL, buildAllezHotelLink, jsonLdGraph } from '@/lib/site'
 import { getHotels } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 
@@ -226,7 +226,7 @@ export default async function ComparePairPage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }} />
 
       {/* Hero */}
       <section className="relative">

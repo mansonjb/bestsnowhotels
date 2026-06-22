@@ -6,7 +6,7 @@ import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import { SEASONAL_GUIDES, getSeasonalGuide } from '@/lib/seasonalGuides'
 import { destinations } from '@/lib/destinations'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, jsonLdGraph } from '@/lib/site'
 import DestinationCard from '@/components/DestinationCard'
 
 const T = {
@@ -105,7 +105,7 @@ export default async function WhenPeriodPage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }} />
 
       {/* Hero */}
       <section className="relative">

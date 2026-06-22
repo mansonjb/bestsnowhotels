@@ -6,7 +6,7 @@ import type { Locale } from '../../dictionaries'
 import { destinations } from '@/lib/destinations'
 import { fetchManyWeather, freshSnowScore } from '@/lib/weather'
 import WeatherCard from '@/components/WeatherCard'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, jsonLdGraph } from '@/lib/site'
 
 export const revalidate = 1800
 
@@ -88,7 +88,7 @@ export default async function FreshPowderPage({
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }} />
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-6">
         <nav className="text-sm text-ice-700 mb-4">

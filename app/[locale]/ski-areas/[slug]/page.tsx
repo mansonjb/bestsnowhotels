@@ -6,7 +6,7 @@ import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import { SKI_AREAS, getSkiArea } from '@/lib/skiAreas'
 import { getDestination } from '@/lib/destinations'
-import { SITE_URL } from '@/lib/site'
+import { SITE_URL, jsonLdGraph } from '@/lib/site'
 import DestinationCard from '@/components/DestinationCard'
 import Stay22Map from '@/components/Stay22Map'
 
@@ -153,7 +153,7 @@ export default async function SkiAreaPage({
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdGraph(jsonLd) }}
       />
 
       {/* Hero */}
