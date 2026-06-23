@@ -20532,5 +20532,299 @@
       "red": 46,
       "black": 13
     }
+  },
+  {
+    "slug": "keystone",
+    "name": "Keystone",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Colorado Rockies",
+    "lat": 39.605,
+    "lng": -105.9542,
+    "altitudeBase": 2829,
+    "altitudeSummit": 3782,
+    "pistesKm": 217,
+    "lifts": 21,
+    "skiInSkiOutNote": {
+      "en": "Keystone has genuine slopeside lodging in the River Run and Mountain House base villages, so some hotels and condos really are true ski-in/ski-out. Others sit a little further back and rely on a short, free resort shuttle, so check the exact location before you book.",
+      "fr": "Keystone propose de vrais hébergements au pied des pistes dans les villages de River Run et de Mountain House, si bien que certains hôtels et appartements sont réellement skis aux pieds. D'autres se trouvent un peu en retrait et dépendent d'une courte navette gratuite de la station, alors vérifiez bien l'emplacement exact avant de réserver.",
+      "es": "Keystone cuenta con auténtico alojamiento a pie de pista en los pueblos base de River Run y Mountain House, por lo que algunos hoteles y apartamentos son de verdad ski-in/ski-out. Otros quedan un poco más apartados y dependen de un corto autobús gratuito de la estación, así que conviene comprobar la ubicación exacta antes de reservar.",
+      "pt": "Keystone tem verdadeiro alojamento junto às pistas nas aldeias base de River Run e Mountain House, pelo que alguns hotéis e apartamentos são mesmo ski-in/ski-out. Outros ficam um pouco mais afastados e dependem de um curto autocarro gratuito da estância, por isso confirme a localização exata antes de reservar.",
+      "it": "Keystone offre veri alloggi ai piedi delle piste nei villaggi base di River Run e Mountain House, quindi alcuni hotel e appartamenti sono davvero ski-in/ski-out. Altri si trovano un po' più indietro e dipendono da una breve navetta gratuita della stazione, perciò controlla la posizione esatta prima di prenotare."
+    },
+    "seasonStart": "Oct 25",
+    "seasonEnd": "Apr 5",
+    "snowScore": 88,
+    "vibes": [
+      "family",
+      "night-ski",
+      "high-altitude"
+    ],
+    "intro": {
+      "en": "Keystone is the closest to Denver of Summit County's big resorts, spread across three peaks above the River Run base village. It is squarely aimed at families, and it runs the largest night-skiing operation in Colorado, with lit trails turning evenings into extra time on the snow.",
+      "fr": "Keystone est la plus proche de Denver parmi les grandes stations du Summit County, déployée sur trois sommets au-dessus du village de River Run. Elle s'adresse clairement aux familles et exploite le plus grand domaine de ski nocturne du Colorado, avec des pistes éclairées qui transforment les soirées en temps de glisse supplémentaire.",
+      "es": "Keystone es la más cercana a Denver de las grandes estaciones del condado de Summit, repartida por tres picos sobre el pueblo base de River Run. Está pensada claramente para las familias y gestiona la mayor operación de esquí nocturno de Colorado, con pistas iluminadas que convierten las tardes en tiempo extra sobre la nieve.",
+      "pt": "Keystone é a mais próxima de Denver entre as grandes estâncias do condado de Summit, distribuída por três picos acima da aldeia base de River Run. Está claramente vocacionada para famílias e tem a maior operação de esqui noturno do Colorado, com pistas iluminadas que transformam o fim da tarde em tempo extra na neve.",
+      "it": "Keystone è la più vicina a Denver tra le grandi stazioni della contea di Summit, distribuita su tre vette sopra il villaggio base di River Run. È pensata chiaramente per le famiglie e gestisce il più grande comprensorio di sci notturno del Colorado, con piste illuminate che trasformano le sere in tempo extra sulla neve."
+    },
+    "longDescription": {
+      "en": "This is a resort for families and mixed-ability groups who want plenty of cruising terrain, with steeper runs and gladed bowls higher up for those who want them. The lively River Run base village sits right at the gondola, packed with lodging, restaurants and shops, and the resort is on the Epic Pass. Denver is only about an hour and a half away, which makes Keystone one of the easiest big mountains in Colorado to reach.",
+      "fr": "C'est une station pour les familles et les groupes de niveaux mélangés qui veulent beaucoup de pistes faciles à enchaîner, avec des descentes plus raides et des combes boisées en altitude pour ceux qui les recherchent. L'animé village de River Run se trouve juste au pied de la télécabine, plein d'hébergements, de restaurants et de boutiques, et la station fait partie de l'Epic Pass. Denver n'est qu'à environ une heure et demie, ce qui fait de Keystone l'un des grands domaines les plus faciles d'accès du Colorado.",
+      "es": "Es una estación para familias y grupos de niveles variados que buscan mucho terreno cómodo para encadenar bajadas, con pistas más inclinadas y cuencas arboladas en lo alto para quien las quiera. El animado pueblo base de River Run está justo al pie de la góndola, lleno de alojamiento, restaurantes y tiendas, y la estación forma parte del Epic Pass. Denver queda a solo una hora y media aproximadamente, lo que convierte a Keystone en una de las grandes montañas más fáciles de alcanzar de Colorado.",
+      "pt": "Esta é uma estância para famílias e grupos de níveis variados que procuram muito terreno fácil de encadear, com descidas mais inclinadas e tigelas arborizadas no alto para quem as quiser. A animada aldeia base de River Run fica mesmo junto ao teleférico, cheia de alojamento, restaurantes e lojas, e a estância faz parte do Epic Pass. Denver fica a cerca de hora e meia apenas, o que torna Keystone uma das grandes montanhas mais fáceis de alcançar do Colorado.",
+      "it": "È una stazione per famiglie e gruppi di livelli misti che cercano tanto terreno facile da percorrere, con discese più ripide e canaloni tra gli alberi in quota per chi li desidera. Il vivace villaggio base di River Run si trova proprio ai piedi della cabinovia, ricco di alloggi, ristoranti e negozi, e la stazione fa parte dell'Epic Pass. Denver dista solo circa un'ora e mezza, il che rende Keystone una delle grandi montagne più facili da raggiungere del Colorado."
+    },
+    "pisteCounts": {
+      "green": 27,
+      "blue": 45,
+      "red": 39,
+      "black": 29
+    }
+  },
+  {
+    "slug": "copper-mountain",
+    "name": "Copper Mountain",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Colorado Rockies",
+    "lat": 39.5017,
+    "lng": -106.1564,
+    "altitudeBase": 2960,
+    "altitudeSummit": 3753,
+    "pistesKm": 235,
+    "lifts": 23,
+    "skiInSkiOutNote": {
+      "en": "Copper Mountain has a compact slopeside base village split into Center Village, East Village, and Union Creek, with genuine ski-in, ski-out lodging. You can step out of many properties and ride straight to a lift, then ski back to your door at the end of the day.",
+      "fr": "Copper Mountain dispose d'un village de pied de pistes compact, réparti entre Center Village, East Village et Union Creek, avec de vrais hébergements skis aux pieds. Vous sortez de nombreux établissements pour rejoindre directement une remontée, puis vous rentrez en skiant jusqu'à votre porte en fin de journée.",
+      "es": "Copper Mountain cuenta con un pueblo compacto a pie de pista dividido en Center Village, East Village y Union Creek, con alojamientos a pie de pista reales. Puedes salir de muchos establecimientos directamente hacia un remonte y luego regresar esquiando hasta tu puerta al final del día.",
+      "pt": "A Copper Mountain tem uma aldeia compacta junto às pistas, dividida em Center Village, East Village e Union Creek, com alojamento ski in, ski out genuíno. Pode sair de muitos estabelecimentos directamente para um teleférico e depois regressar a esquiar até à sua porta ao fim do dia.",
+      "it": "Copper Mountain dispone di un villaggio compatto ai piedi delle piste, suddiviso in Center Village, East Village e Union Creek, con veri alloggi sci ai piedi. Da molte strutture puoi uscire e raggiungere subito un impianto, per poi tornare sciando fino alla tua porta a fine giornata."
+    },
+    "seasonStart": "Nov 8",
+    "seasonEnd": "May 3",
+    "snowScore": 88,
+    "vibes": [
+      "family",
+      "village",
+      "high-altitude"
+    ],
+    "intro": {
+      "en": "Copper Mountain is a naturally divided mountain in Colorado's Summit County, where the terrain falls into place from left to right, easy on the west, harder to the east. Set high in the Rockies with a base above 2,960 metres and a summit near 3,753 metres, it holds snow well across a long season. A compact slopeside village sits right at the foot of the lifts.",
+      "fr": "Copper Mountain est une montagne naturellement divisée dans le comté de Summit, dans le Colorado, où le terrain s'organise de gauche à droite, facile à l'ouest, plus difficile à l'est. Perchée dans les Rocheuses avec une base au-dessus de 2 960 mètres et un sommet proche de 3 753 mètres, elle conserve bien la neige tout au long d'une saison étendue. Un village compact se trouve directement au pied des remontées.",
+      "es": "Copper Mountain es una montaña dividida de forma natural en el condado de Summit, en Colorado, donde el terreno se ordena de izquierda a derecha, fácil al oeste y más exigente al este. Situada en lo alto de las Rocosas, con una base por encima de los 2.960 metros y una cima cercana a los 3.753 metros, conserva bien la nieve durante una temporada larga. Un pueblo compacto se encuentra justo al pie de los remontes.",
+      "pt": "A Copper Mountain é uma montanha naturalmente dividida no condado de Summit, no Colorado, onde o terreno se organiza da esquerda para a direita, fácil a oeste e mais difícil a este. Situada no alto das Montanhas Rochosas, com uma base acima dos 2960 metros e um cume perto dos 3753 metros, retém bem a neve ao longo de uma época longa. Uma aldeia compacta fica mesmo ao pé dos teleféricos.",
+      "it": "Copper Mountain è una montagna naturalmente divisa nella contea di Summit, in Colorado, dove il terreno si dispone da sinistra a destra, facile a ovest e più impegnativo a est. Situata in alta quota sulle Montagne Rocciose, con una base oltre i 2.960 metri e una cima vicina ai 3.753 metri, trattiene bene la neve lungo una stagione estesa. Un villaggio compatto sorge proprio ai piedi degli impianti."
+    },
+    "longDescription": {
+      "en": "Copper suits mixed groups and families who want to split up by ability and meet for lunch, thanks to a layout that runs from gentle greens on the west to flowing blues in the centre and steep blacks and high bowls on the east. The slopeside village, spread across Center Village, East Village, and Union Creek, keeps lodging, lifts, and dining within walking distance. The resort is on the Ikon Pass and sits about 1 hour 30 from Denver, which makes it an easy drive for a weekend or a longer stay.",
+      "fr": "Copper convient aux groupes mixtes et aux familles qui veulent se répartir selon le niveau puis se retrouver pour déjeuner, grâce à une disposition qui va des pentes douces vertes à l'ouest aux bleues fluides au centre, puis aux noires raides et aux combes d'altitude à l'est. Le village au pied des pistes, réparti entre Center Village, East Village et Union Creek, garde hébergements, remontées et restaurants à distance de marche. La station fait partie du forfait Ikon Pass et se trouve à environ 1 h 30 de Denver, ce qui en fait une destination facile d'accès pour un week-end ou un séjour plus long.",
+      "es": "Copper es ideal para grupos mixtos y familias que quieren separarse por nivel y reunirse para comer, gracias a un trazado que va de las suaves pistas verdes al oeste a las azules fluidas en el centro y a las negras empinadas y los circos de altura al este. El pueblo a pie de pista, repartido entre Center Village, East Village y Union Creek, mantiene alojamiento, remontes y restaurantes a poca distancia a pie. La estación está en el Ikon Pass y se encuentra a aproximadamente 1 hora 30 de Denver, lo que la convierte en un destino cómodo para un fin de semana o una estancia más larga.",
+      "pt": "A Copper é ideal para grupos mistos e famílias que querem dividir-se por nível e juntar-se para almoçar, graças a um traçado que vai das suaves pistas verdes a oeste às azuis fluidas ao centro e às negras íngremes e aos circos de altitude a este. A aldeia junto às pistas, repartida por Center Village, East Village e Union Creek, mantém alojamento, teleféricos e restaurantes a curta distância a pé. A estância faz parte do Ikon Pass e fica a cerca de 1 hora e 30 de Denver, o que a torna um destino de fácil acesso para um fim de semana ou uma estadia mais longa.",
+      "it": "Copper è adatta a gruppi misti e famiglie che vogliono dividersi per livello e ritrovarsi per pranzo, grazie a un tracciato che va dalle dolci piste verdi a ovest alle blu scorrevoli al centro, fino alle nere ripide e ai canaloni d'alta quota a est. Il villaggio ai piedi delle piste, distribuito tra Center Village, East Village e Union Creek, tiene alloggi, impianti e ristoranti a distanza pedonale. La località fa parte dell'Ikon Pass e si trova a circa 1 ora e 30 da Denver, il che la rende una meta comoda per un fine settimana o un soggiorno più lungo."
+    },
+    "pisteCounts": {
+      "green": 32,
+      "blue": 37,
+      "red": 54,
+      "black": 27
+    }
+  },
+  {
+    "slug": "snowbasin",
+    "name": "Snowbasin",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Wasatch Mountains",
+    "lat": 41.2072,
+    "lng": -111.8512,
+    "altitudeBase": 1948,
+    "altitudeSummit": 2850,
+    "pistesKm": 64,
+    "lifts": 11,
+    "skiInSkiOutNote": {
+      "en": "Snowbasin is a day resort with grand base lodges but no slopeside hotels, so it is not ski in, ski out. Visitors stay in Ogden, Huntsville or Salt Lake City and drive up for the day.",
+      "fr": "Snowbasin est une station de journee dotee de grands chalets de depart mais sans hotel au pied des pistes, elle n'est donc pas ski aux pieds. Les visiteurs logent a Ogden, Huntsville ou Salt Lake City et montent pour la journee.",
+      "es": "Snowbasin es una estacion de dia con grandes refugios en la base pero sin hoteles a pie de pista, por lo que no es ski in, ski out. Los visitantes se alojan en Ogden, Huntsville o Salt Lake City y suben durante el dia.",
+      "pt": "Snowbasin e uma estancia de dia com grandes refugios na base mas sem hoteis junto as pistas, pelo que nao e ski in, ski out. Os visitantes ficam em Ogden, Huntsville ou Salt Lake City e sobem durante o dia.",
+      "it": "Snowbasin e una stazione giornaliera con ampie baite alla base ma senza hotel sulle piste, quindi non e ski in, ski out. I visitatori alloggiano a Ogden, Huntsville o Salt Lake City e salgono per la giornata."
+    },
+    "seasonStart": "Nov 29",
+    "seasonEnd": "Apr 13",
+    "snowScore": 90,
+    "vibes": [
+      "olympic",
+      "powder",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Snowbasin hosted the 2002 Olympic downhill and super-G, and it remains one of Utah's quietest mountains. Its lavish base lodges feel like grand hotels, while the famously dry Wasatch powder falls on uncrowded slopes.",
+      "fr": "Snowbasin a accueilli la descente et le super-G olympiques de 2002, et reste l'une des montagnes les plus calmes de l'Utah. Ses somptueux chalets de depart ressemblent a de grands hotels, tandis que la celebre poudreuse seche du Wasatch tombe sur des pistes peu frequentees.",
+      "es": "Snowbasin acogio el descenso y el super-G olimpicos de 2002, y sigue siendo una de las montanas mas tranquilas de Utah. Sus lujosos refugios de base parecen grandes hoteles, mientras la famosa nieve polvo seca del Wasatch cae sobre pistas poco concurridas.",
+      "pt": "Snowbasin acolheu a descida e o super-G olimpicos de 2002, e continua a ser uma das montanhas mais tranquilas do Utah. Os seus luxuosos refugios de base parecem grandes hoteis, enquanto a famosa neve po seca do Wasatch cai sobre pistas pouco frequentadas.",
+      "it": "Snowbasin ha ospitato la discesa libera e il super-G olimpici del 2002, e resta una delle montagne piu tranquille dello Utah. Le sue sontuose baite alla base sembrano grandi hotel, mentre la celebre neve polverosa e asciutta del Wasatch cade su piste poco affollate."
+    },
+    "longDescription": {
+      "en": "With wide open bowls, steep tree lined runs and gentle cruisers, Snowbasin suits everyone from confident families to expert skiers chasing fresh tracks. There is no base village, so the resort works best as a day trip: it sits about 30 minutes from Ogden and roughly 1 hour from Salt Lake City by car.",
+      "fr": "Avec ses larges combes, ses pistes pentues bordees d'arbres et ses descentes douces, Snowbasin convient a tous, des familles confiantes aux skieurs experts en quete de traces fraiches. Il n'y a pas de village au pied des pistes, la station se prete donc surtout a une sortie a la journee: elle se trouve a environ 30 minutes d'Ogden et a a peu pres 1 heure de Salt Lake City en voiture.",
+      "es": "Con amplios circos, pistas empinadas bordeadas de arboles y descensos suaves, Snowbasin se adapta a todos, desde familias seguras hasta esquiadores expertos en busca de nieve virgen. No hay pueblo en la base, por lo que la estacion funciona mejor como excursion de un dia: esta a unos 30 minutos de Ogden y a aproximadamente 1 hora de Salt Lake City en coche.",
+      "pt": "Com amplos circos, pistas ingremes ladeadas de arvores e descidas suaves, Snowbasin agrada a todos, das familias confiantes aos esquiadores experientes a procura de neve intacta. Nao ha aldeia na base, pelo que a estancia funciona melhor como passeio de um dia: fica a cerca de 30 minutos de Ogden e a aproximadamente 1 hora de Salt Lake City de carro.",
+      "it": "Con ampi canaloni, piste ripide costeggiate da alberi e discese morbide, Snowbasin si adatta a tutti, dalle famiglie sicure agli sciatori esperti in cerca di neve fresca. Non c'e un villaggio alla base, quindi la stazione e ideale per una gita in giornata: si trova a circa 30 minuti da Ogden e a circa 1 ora da Salt Lake City in auto."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 35,
+      "red": 40,
+      "black": 28
+    }
+  },
+  {
+    "slug": "northstar",
+    "name": "Northstar",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Sierra Nevada",
+    "lat": 39.2733,
+    "lng": -120.1025,
+    "altitudeBase": 1929,
+    "altitudeSummit": 2624,
+    "pistesKm": 80,
+    "lifts": 20,
+    "skiInSkiOutNote": {
+      "en": "Northstar has a genuine ski-in, ski-out pedestrian village at the base, with a gondola that carries you from the village square up to the slopes. As a result, much of the lodging here lets you ski straight to and from the door.",
+      "fr": "Northstar dispose d'un vrai village piéton ski aux pieds au pied des pistes, avec une télécabine qui vous mène de la place du village jusqu'aux pistes. De ce fait, une grande partie des hébergements vous permet de skier directement depuis et vers la porte.",
+      "es": "Northstar cuenta con un autentico pueblo peatonal a pie de pistas, con una telecabina que te lleva desde la plaza del pueblo hasta las pistas. Por ello, gran parte del alojamiento te permite esquiar directamente desde y hasta la puerta.",
+      "pt": "Northstar tem uma autentica aldeia pedonal com acesso direto as pistas na base, com um telecabine que o leva da praca da aldeia ate as pistas. Por isso, grande parte do alojamento permite esquiar diretamente para fora e para dentro da porta.",
+      "it": "Northstar dispone di un autentico villaggio pedonale ski-in, ski-out alla base, con una cabinovia che vi porta dalla piazza del villaggio fino alle piste. Di conseguenza, gran parte degli alloggi vi permette di sciare direttamente da e verso la porta."
+    },
+    "seasonStart": "Dec 6",
+    "seasonEnd": "Apr 15",
+    "snowScore": 84,
+    "vibes": [
+      "family",
+      "village",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Northstar is a polished Lake Tahoe resort built around a pedestrian village near Truckee, in California's Sierra Nevada. Its sheltered, tree lined runs hold their snow well and stay friendly when the wind picks up higher peaks. With gentle terrain, careful grooming, and a relaxed pace, it is one of the most family focused mountains in the region.",
+      "fr": "Northstar est une station soignee du lac Tahoe, organisee autour d'un village pieton pres de Truckee, dans la Sierra Nevada californienne. Ses pistes abritees et bordees d'arbres conservent bien la neige et restent agreables quand le vent se leve sur les sommets plus exposes. Avec un terrain doux, un damage soigne et un rythme detendu, c'est l'une des montagnes les plus tournees vers les familles de la region.",
+      "es": "Northstar es una estacion cuidada del lago Tahoe, organizada en torno a un pueblo peatonal cerca de Truckee, en la Sierra Nevada de California. Sus pistas resguardadas y bordeadas de arboles conservan bien la nieve y siguen siendo agradables cuando el viento arrecia en las cumbres mas expuestas. Con un terreno suave, un pisado cuidado y un ritmo tranquilo, es una de las montanas mas orientadas a las familias de la region.",
+      "pt": "Northstar e uma estancia requintada do lago Tahoe, organizada em torno de uma aldeia pedonal perto de Truckee, na Serra Nevada da California. As suas pistas abrigadas e ladeadas de arvores conservam bem a neve e mantem-se agradaveis quando o vento aperta nos cumes mais expostos. Com um terreno suave, uma preparacao cuidada e um ritmo tranquilo, e uma das montanhas mais voltadas para as familias da regiao.",
+      "it": "Northstar e una stazione raffinata del lago Tahoe, organizzata attorno a un villaggio pedonale vicino a Truckee, nella Sierra Nevada californiana. Le sue piste riparate e fiancheggiate da alberi trattengono bene la neve e restano piacevoli quando il vento si alza sulle vette piu esposte. Con un terreno dolce, una battitura curata e un ritmo rilassato, e una delle montagne piu orientate alle famiglie della regione."
+    },
+    "longDescription": {
+      "en": "Northstar suits families, beginners, and intermediates above all, with broad blue cruisers, well spaced tree skiing, and a small share of steeper terrain for stronger skiers. At its heart sits a pedestrian village with an ice rink, shops, and casual restaurants, and gondolas lift you from the square up to the slopes. The resort is on the Epic Pass and sits close to Truckee and the north shore of Lake Tahoe, making it an easy base for a wider Tahoe trip.",
+      "fr": "Northstar convient avant tout aux familles, aux debutants et aux skieurs intermediaires, avec de larges pistes bleues, du ski entre les arbres bien espace et une petite part de terrain plus raide pour les skieurs aguerris. En son coeur se trouve un village pieton avec une patinoire, des boutiques et des restaurants decontractes, et des telecabines vous montent de la place jusqu'aux pistes. La station fait partie de l'Epic Pass et se situe pres de Truckee et de la rive nord du lac Tahoe, ce qui en fait un point de depart commode pour un sejour plus large autour du Tahoe.",
+      "es": "Northstar es ideal sobre todo para familias, principiantes e intermedios, con amplias pistas azules, esqui entre arboles bien espaciado y una pequena parte de terreno mas inclinado para los esquiadores mas fuertes. En su corazon se encuentra un pueblo peatonal con una pista de hielo, tiendas y restaurantes informales, y unas telecabinas te suben desde la plaza hasta las pistas. La estacion forma parte del Epic Pass y esta cerca de Truckee y de la orilla norte del lago Tahoe, lo que la convierte en una base comoda para un viaje mas amplio por el Tahoe.",
+      "pt": "Northstar e ideal sobretudo para familias, principiantes e intermedios, com amplas pistas azuis, esqui entre arvores bem espacado e uma pequena parte de terreno mais inclinado para os esquiadores mais fortes. No seu centro fica uma aldeia pedonal com um ringue de gelo, lojas e restaurantes informais, e uns telecabines levam-no da praca ate as pistas. A estancia faz parte do Epic Pass e fica perto de Truckee e da margem norte do lago Tahoe, o que a torna uma base comoda para uma viagem mais ampla pelo Tahoe.",
+      "it": "Northstar e adatta soprattutto a famiglie, principianti e sciatori intermedi, con ampie piste blu, sci tra gli alberi ben distanziato e una piccola parte di terreno piu ripido per gli sciatori piu esperti. Nel suo cuore si trova un villaggio pedonale con una pista di pattinaggio, negozi e ristoranti informali, e alcune cabinovie vi portano dalla piazza fino alle piste. La stazione fa parte dell'Epic Pass e si trova vicino a Truckee e alla sponda nord del lago Tahoe, il che ne fa una base comoda per un viaggio piu ampio nella zona del Tahoe."
+    },
+    "pisteCounts": {
+      "green": 13,
+      "blue": 40,
+      "red": 20,
+      "black": 27
+    }
+  },
+  {
+    "slug": "mt-bachelor",
+    "name": "Mt Bachelor",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Cascades",
+    "lat": 44.0033,
+    "lng": -121.6788,
+    "altitudeBase": 1737,
+    "altitudeSummit": 2763,
+    "pistesKm": 88,
+    "lifts": 12,
+    "skiInSkiOutNote": {
+      "en": "Mt Bachelor is a day resort with base lodges but no slopeside hotels, so it is not ski in, ski out. Visitors stay in Bend and drive up to the mountain each day.",
+      "fr": "Mt Bachelor est une station de journée avec des chalets au pied des pistes mais aucun hôtel sur les pistes, donc ce n'est pas du ski aux pieds. Les visiteurs logent à Bend et montent à la montagne chaque jour.",
+      "es": "Mt Bachelor es una estación de día con refugios en la base pero sin hoteles a pie de pista, por lo que no es esquí a pie de pista. Los visitantes se alojan en Bend y suben a la montaña cada día.",
+      "pt": "Mt Bachelor é uma estância de dia com refúgios na base mas sem hotéis junto às pistas, por isso não é ski in, ski out. Os visitantes ficam em Bend e sobem à montanha todos os dias.",
+      "it": "Mt Bachelor è una stazione giornaliera con rifugi alla base ma senza hotel sulle piste, quindi non è ski in, ski out. I visitatori alloggiano a Bend e salgono in montagna ogni giorno."
+    },
+    "seasonStart": "Nov 28",
+    "seasonEnd": "May 26",
+    "snowScore": 88,
+    "vibes": [
+      "big-domain",
+      "powder",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Mt Bachelor is the largest ski resort in the Pacific Northwest, a stratovolcano you can ski 360 degrees around from the summit. Huge Cascade snowfall feeds one of the longest seasons in the United States, often running from late November well into May, and the mountain sits just outside Bend in central Oregon.",
+      "fr": "Mt Bachelor est la plus grande station de ski du Pacifique Nord Ouest, un stratovolcan que vous pouvez skier sur 360 degrés depuis le sommet. Les énormes chutes de neige des Cascades alimentent l'une des plus longues saisons des États Unis, souvent de fin novembre jusqu'en mai, et la montagne se trouve juste à côté de Bend, dans le centre de l'Oregon.",
+      "es": "Mt Bachelor es la mayor estación de esquí del Pacífico Noroeste, un estratovolcán que puedes esquiar 360 grados alrededor desde la cima. Las enormes nevadas de las Cascadas alimentan una de las temporadas más largas de Estados Unidos, a menudo desde finales de noviembre hasta bien entrado mayo, y la montaña se encuentra justo a las afueras de Bend, en el centro de Oregón.",
+      "pt": "Mt Bachelor é a maior estância de esqui do Noroeste do Pacífico, um estratovulcão que pode esquiar 360 graus em redor a partir do cume. A enorme queda de neve das Cascadas alimenta uma das temporadas mais longas dos Estados Unidos, muitas vezes do final de novembro até bem dentro de maio, e a montanha fica mesmo à saída de Bend, no centro do Oregon.",
+      "it": "Mt Bachelor è la più grande stazione sciistica del Pacifico nordoccidentale, uno stratovulcano che puoi sciare per 360 gradi tutto intorno dalla cima. Le enormi nevicate delle Cascade alimentano una delle stagioni più lunghe degli Stati Uniti, spesso da fine novembre fino a maggio inoltrato, e la montagna si trova appena fuori Bend, nell'Oregon centrale."
+    },
+    "longDescription": {
+      "en": "Mt Bachelor suits skiers and riders who want a big, varied mountain with reliable snow and few crowds, from beginners on the lower slopes to experts chasing the open cone. The cone shaped summit gives terrain in every direction, so you can follow the sun and the wind around the volcano all day, and the long season stretches the skiing far beyond most resorts. There is no base village, so you reach the lifts in about 30 minutes by car from Bend, where you find the hotels, restaurants, and breweries.",
+      "fr": "Mt Bachelor convient aux skieurs et aux riders qui veulent une grande montagne variée, avec une neige fiable et peu de monde, des débutants sur les pentes basses aux experts qui cherchent le cône ouvert. Le sommet en forme de cône offre du terrain dans toutes les directions, vous pouvez donc suivre le soleil et le vent autour du volcan toute la journée, et la longue saison prolonge le ski bien au delà de la plupart des stations. Il n'y a pas de village au pied des pistes, vous rejoignez les remontées en environ 30 minutes en voiture depuis Bend, où vous trouvez les hôtels, les restaurants et les brasseries.",
+      "es": "Mt Bachelor es ideal para esquiadores y riders que buscan una montaña grande y variada, con nieve fiable y poca gente, desde principiantes en las pistas bajas hasta expertos que persiguen el cono abierto. La cima en forma de cono ofrece terreno en todas las direcciones, así que puedes seguir el sol y el viento alrededor del volcán todo el día, y la larga temporada prolonga el esquí mucho más allá de la mayoría de estaciones. No hay pueblo a pie de pista, por lo que llegas a los remontes en unos 30 minutos en coche desde Bend, donde encuentras los hoteles, los restaurantes y las cervecerías.",
+      "pt": "Mt Bachelor é ideal para esquiadores e riders que querem uma montanha grande e variada, com neve fiável e pouca gente, dos principiantes nas encostas mais baixas aos experientes que procuram o cone aberto. O cume em forma de cone oferece terreno em todas as direções, por isso pode seguir o sol e o vento à volta do vulcão durante todo o dia, e a longa temporada prolonga o esqui muito para além da maioria das estâncias. Não há aldeia junto às pistas, por isso chega aos teleféricos em cerca de 30 minutos de carro a partir de Bend, onde encontra os hotéis, os restaurantes e as cervejarias.",
+      "it": "Mt Bachelor è adatto a sciatori e rider che vogliono una montagna grande e varia, con neve affidabile e poca gente, dai principianti sulle piste più basse agli esperti che cercano il cono aperto. La cima a forma di cono offre terreno in ogni direzione, così puoi seguire il sole e il vento intorno al vulcano per tutto il giorno, e la lunga stagione prolunga lo sci ben oltre la maggior parte delle stazioni. Non c'è un villaggio ai piedi delle piste, quindi raggiungi gli impianti in circa 30 minuti di auto da Bend, dove trovi gli hotel, i ristoranti e i birrifici."
+    },
+    "pisteCounts": {
+      "green": 19,
+      "blue": 43,
+      "red": 37,
+      "black": 25
+    }
+  },
+  {
+    "slug": "sugarloaf",
+    "name": "Sugarloaf",
+    "country": "United States",
+    "countryCode": "US",
+    "flag": "🇺🇸",
+    "region": "Appalachians",
+    "lat": 45.0314,
+    "lng": -70.3131,
+    "altitudeBase": 432,
+    "altitudeSummit": 1291,
+    "pistesKm": 90,
+    "lifts": 15,
+    "skiInSkiOutNote": {
+      "en": "Sugarloaf has a genuine slopeside village at the base, with hotels, condos, and inns that put you right on the snow. Ski-in, ski-out lodging is real here, and you can step out of your door and onto the trails.",
+      "fr": "Sugarloaf possede un vrai village au pied des pistes, avec des hotels, des appartements et des auberges installes directement sur la neige. L'hebergement skis aux pieds existe bel et bien ici, et vous sortez de votre porte directement sur les pistes.",
+      "es": "Sugarloaf cuenta con un autentico pueblo al pie de las pistas, con hoteles, apartamentos y posadas situados justo sobre la nieve. El alojamiento con acceso directo a las pistas es real aqui, y puedes salir de tu puerta directamente a las pistas.",
+      "pt": "Sugarloaf tem uma autentica aldeia junto as pistas, com hoteis, apartamentos e estalagens situados mesmo sobre a neve. O alojamento com acesso direto as pistas existe mesmo aqui, e pode sair da sua porta diretamente para as pistas.",
+      "it": "Sugarloaf dispone di un autentico villaggio ai piedi delle piste, con hotel, appartamenti e locande situati proprio sulla neve. L'alloggio con accesso diretto alle piste qui esiste davvero, e si puo uscire dalla propria porta direttamente sulle piste."
+    },
+    "seasonStart": "Nov 15",
+    "seasonEnd": "May 5",
+    "snowScore": 75,
+    "vibes": [
+      "big-domain",
+      "village",
+      "panoramic"
+    ],
+    "intro": {
+      "en": "Sugarloaf is one of the biggest ski resorts in the Eastern United States and the only place in the East with lift-served terrain above the treeline. A true slopeside village sits at its base, deep in remote western Maine, where cold, reliable winters keep the snow coming.",
+      "fr": "Sugarloaf est l'une des plus grandes stations de ski de l'est des Etats-Unis et le seul endroit de l'Est dote d'un domaine au-dessus de la limite des arbres accessible par remontee. Un veritable village au pied des pistes occupe sa base, au coeur du Maine occidental isole, ou des hivers froids et fiables entretiennent la neige.",
+      "es": "Sugarloaf es una de las mayores estaciones de esqui del este de Estados Unidos y el unico lugar del Este con terreno por encima del limite arboreo accesible mediante remonte. Un autentico pueblo al pie de las pistas se asienta en su base, en lo profundo del remoto Maine occidental, donde los inviernos frios y fiables mantienen la nieve.",
+      "pt": "Sugarloaf e uma das maiores estancias de esqui do leste dos Estados Unidos e o unico lugar do Leste com terreno acima do limite das arvores acessivel por teleferico. Uma autentica aldeia junto as pistas situa-se na sua base, no interior do remoto Maine ocidental, onde os invernos frios e fiaveis mantem a neve.",
+      "it": "Sugarloaf e una delle piu grandi stazioni sciistiche degli Stati Uniti orientali e l'unico luogo dell'Est con un terreno oltre il limite degli alberi servito da impianti di risalita. Un autentico villaggio ai piedi delle piste sorge alla sua base, nel profondo del remoto Maine occidentale, dove inverni freddi e affidabili alimentano la neve."
+    },
+    "longDescription": {
+      "en": "Sugarloaf suits confident intermediates and advanced skiers who want a big mountain with serious terrain, but its wide beginner trails and slopeside village also make it work for families. The open snowfields near the summit offer rare above-treeline skiing, while glades and tree runs lace the lower flanks, and the ski-in, ski-out village means you can be on the snow within minutes. Set deep in western Maine, it is a remote destination that rewards the journey with quiet slopes and genuine wilderness.",
+      "fr": "Sugarloaf convient aux bons skieurs intermediaires et confirmes qui recherchent une grande montagne au terrain exigeant, mais ses larges pistes pour debutants et son village au pied des pistes la rendent aussi adaptee aux familles. Les vastes snowfields pres du sommet offrent un ski rare au-dessus de la limite des arbres, tandis que les sous-bois et les couloirs boises parcourent les flancs inferieurs, et le village skis aux pieds vous met sur la neige en quelques minutes. Niche au coeur du Maine occidental, c'est une destination isolee qui recompense le voyage par des pentes tranquilles et une nature authentique.",
+      "es": "Sugarloaf es ideal para esquiadores intermedios solidos y avanzados que buscan una gran montana con terreno exigente, pero sus amplias pistas para principiantes y su pueblo al pie de las pistas tambien la hacen apta para familias. Los abiertos snowfields cerca de la cima ofrecen un esqui poco habitual por encima del limite arboreo, mientras que los bosques y los corredores arbolados recorren las laderas inferiores, y el pueblo con acceso directo a las pistas te pone sobre la nieve en minutos. Situada en lo profundo del Maine occidental, es un destino remoto que recompensa el viaje con laderas tranquilas y naturaleza autentica.",
+      "pt": "Sugarloaf e ideal para esquiadores intermedios solidos e avancados que procuram uma grande montanha com terreno exigente, mas as suas largas pistas para principiantes e a aldeia junto as pistas tornam-na tambem adequada para familias. Os amplos snowfields perto do cume oferecem um esqui pouco habitual acima do limite das arvores, enquanto os bosques e os corredores arborizados percorrem as encostas inferiores, e a aldeia com acesso direto as pistas coloca-o sobre a neve em minutos. Situada no interior do Maine ocidental, e um destino remoto que recompensa a viagem com encostas tranquilas e natureza autentica.",
+      "it": "Sugarloaf e ideale per sciatori intermedi sicuri e avanzati che cercano una grande montagna con un terreno impegnativo, ma le sue ampie piste per principianti e il villaggio ai piedi delle piste la rendono adatta anche alle famiglie. Gli aperti snowfields vicino alla vetta offrono uno sci raro oltre il limite degli alberi, mentre i boschi e i canali alberati attraversano i versanti inferiori, e il villaggio con accesso diretto alle piste vi mette sulla neve in pochi minuti. Situata nel profondo del Maine occidentale, e una destinazione remota che ricompensa il viaggio con pendii tranquilli e una natura autentica."
+    },
+    "pisteCounts": {
+      "green": 40,
+      "blue": 55,
+      "red": 44,
+      "black": 37
+    }
   }
 ]

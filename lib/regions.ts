@@ -69,6 +69,20 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Maciço Central',
     it: 'Massiccio Centrale',
   },
+  Cascades: {
+    en: 'Cascades',
+    fr: 'Cascades',
+    es: 'Cascadas',
+    pt: 'Cascades',
+    it: 'Cascade',
+  },
+  Appalachians: {
+    en: 'Appalachians',
+    fr: 'Appalaches',
+    es: 'Apalaches',
+    pt: 'Apalaches',
+    it: 'Appalachi',
+  },
   'Andorran Pyrenees': {
     en: 'Andorran Pyrenees',
     fr: 'Pyrénées andorranes',

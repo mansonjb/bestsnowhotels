@@ -31,6 +31,10 @@ const DRY = process.argv.includes('--dry')
 const TARGETS = [
   { slug: 'panorama',       query: 'lodging in Panorama Mountain Village BC',                    maxDist: 9000,  minReviews: 10 },
   { slug: 'silver-star',    query: 'Silver Star Mountain Vernon BC hotels lodge accommodation',   maxDist: 8000,  minReviews: 40 },
+  { slug: 'copper-mountain', query: 'Copper Mountain Colorado resort village lodging hotel',       maxDist: 8000,  minReviews: 30 },
+  { slug: 'sugarloaf',      query: 'Sugarloaf Maine ski resort village lodging hotel inn',         maxDist: 9000,  minReviews: 20 },
+  { slug: 'snowbasin',      query: 'hotels Ogden Utah near Snowbasin',                             maxDist: 35000, minReviews: 200 },
+  { slug: 'mt-bachelor',    query: 'hotels Bend Oregon',                                           maxDist: 35000, minReviews: 300 },
   { slug: 'cerro-catedral', query: 'hotels San Carlos de Bariloche Argentina',                  maxDist: 26000, minReviews: 30 },
   { slug: 'chapelco',       query: 'hotels San Martin de los Andes Argentina',                  maxDist: 28000, minReviews: 25 },
   { slug: 'cerro-bayo',     query: 'hotels Villa La Angostura Argentina',                       maxDist: 16000, minReviews: 15 },

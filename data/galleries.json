@@ -1666,5 +1666,29 @@
   "silver-star": [
     "silver-star-2.jpg",
     "silver-star-3.jpg"
+  ],
+  "keystone": [
+    "keystone-2.jpg",
+    "keystone-3.jpg"
+  ],
+  "copper-mountain": [
+    "copper-mountain-2.jpg",
+    "copper-mountain-3.jpg"
+  ],
+  "snowbasin": [
+    "snowbasin-2.jpg",
+    "snowbasin-3.jpg"
+  ],
+  "northstar": [
+    "northstar-2.jpg",
+    "northstar-3.jpg"
+  ],
+  "mt-bachelor": [
+    "mt-bachelor-2.jpg",
+    "mt-bachelor-3.jpg"
+  ],
+  "sugarloaf": [
+    "sugarloaf-2.jpg",
+    "sugarloaf-3.jpg"
   ]
 }
