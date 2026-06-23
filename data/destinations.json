@@ -20826,5 +20826,152 @@
       "red": 44,
       "black": 37
     }
+  },
+  {
+    "slug": "innsbruck",
+    "name": "Innsbruck",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.2627,
+    "lng": 11.3945,
+    "altitudeBase": 574,
+    "altitudeSummit": 3210,
+    "pistesKm": 300,
+    "lifts": 107,
+    "skiInSkiOutNote": {
+      "en": "Innsbruck is a city base, not a ski-in, ski-out resort. You stay in town and ride the funicular and cable car up the Nordkette, or hop on the ski bus to the surrounding areas.",
+      "fr": "Innsbruck est une base urbaine, pas une station skis aux pieds. Vous logez en ville et montez sur la Nordkette par le funiculaire et le téléphérique, ou vous prenez la navette ski vers les domaines voisins.",
+      "es": "Innsbruck es una base urbana, no un resort a pie de pista. Te alojas en la ciudad y subes al Nordkette en funicular y teleférico, o tomas el bus de esquí hacia las áreas de los alrededores.",
+      "pt": "Innsbruck é uma base citadina, não uma estância à beira das pistas. Fica na cidade e sobe ao Nordkette de funicular e teleférico, ou apanha o autocarro de esqui para as áreas em redor.",
+      "it": "Innsbruck è una base cittadina, non una località con piste sotto l'hotel. Si alloggia in città e si sale sulla Nordkette con la funicolare e la funivia, oppure si prende lo skibus verso i comprensori vicini."
+    },
+    "seasonStart": "Nov 1",
+    "seasonEnd": "May 31",
+    "snowScore": 82,
+    "vibes": [
+      "city-access",
+      "iconic",
+      "glacier"
+    ],
+    "intro": {
+      "en": "Innsbruck is the Olympic alpine city, where the Nordkette range rises straight from the old town and a funicular carries you above the rooftops in minutes. One pass, the Ski plus City pass Stubai Innsbruck, opens around thirteen ski areas spread around the city, from the city peaks to the Stubai Glacier at 3210 metres.",
+      "fr": "Innsbruck est la ville alpine olympique, où la chaîne de la Nordkette s'élève juste au dessus de la vieille ville et où un funiculaire vous porte au dessus des toits en quelques minutes. Un seul forfait, le Ski plus City pass Stubai Innsbruck, ouvre près de treize domaines répartis autour de la ville, des sommets urbains au glacier du Stubai à 3210 mètres.",
+      "es": "Innsbruck es la ciudad alpina olímpica, donde la cordillera del Nordkette se alza justo desde el casco antiguo y un funicular te lleva por encima de los tejados en pocos minutos. Un solo forfait, el Ski plus City pass Stubai Innsbruck, abre cerca de trece áreas de esquí repartidas alrededor de la ciudad, desde las cumbres urbanas hasta el glaciar de Stubai a 3210 metros.",
+      "pt": "Innsbruck é a cidade alpina olímpica, onde a serra do Nordkette se ergue mesmo a partir da cidade velha e um funicular o leva acima dos telhados em poucos minutos. Um só passe, o Ski plus City pass Stubai Innsbruck, abre cerca de treze áreas de esqui espalhadas em redor da cidade, dos cumes citadinos ao glaciar do Stubai a 3210 metros.",
+      "it": "Innsbruck è la città alpina olimpica, dove la catena della Nordkette si alza proprio dal centro storico e una funicolare ti porta sopra i tetti in pochi minuti. Un solo skipass, lo Ski plus City pass Stubai Innsbruck, apre circa tredici comprensori sparsi intorno alla città, dalle vette cittadine al ghiacciaio dello Stubai a 3210 metri."
+    },
+    "longDescription": {
+      "en": "Innsbruck suits skiers who want a real city alongside their slopes, from culture and shopping to a lively dining scene. The linked areas, including Nordkette, Patscherkofel, Axamer Lizum and the Stubai Glacier, are reached by free ski bus, so you can pick a different mountain each day, then come home to a city that has twice hosted the Winter Olympics and keeps centuries of history in its arcaded streets. Access is easy, with an airport on the edge of town and fast trains from Munich, Vienna and across the Alps.",
+      "fr": "Innsbruck convient aux skieurs qui veulent une vraie ville à côté de leurs pistes, entre culture, shopping et une scène gastronomique animée. Les domaines reliés, dont la Nordkette, le Patscherkofel, l'Axamer Lizum et le glacier du Stubai, se rejoignent par navette ski gratuite, vous pouvez donc choisir une montagne différente chaque jour, puis rentrer dans une ville qui a accueilli deux fois les Jeux olympiques d'hiver et conserve des siècles d'histoire dans ses rues à arcades. L'accès est facile, avec un aéroport en bordure de ville et des trains rapides depuis Munich, Vienne et à travers les Alpes.",
+      "es": "Innsbruck es ideal para esquiadores que quieren una ciudad de verdad junto a sus pistas, con cultura, compras y una animada escena gastronómica. Las áreas conectadas, entre ellas Nordkette, Patscherkofel, Axamer Lizum y el glaciar de Stubai, se alcanzan en bus de esquí gratuito, así que puedes elegir una montaña distinta cada día y luego volver a una ciudad que ha acogido dos veces los Juegos Olímpicos de invierno y guarda siglos de historia en sus calles porticadas. El acceso es fácil, con un aeropuerto al borde de la ciudad y trenes rápidos desde Múnich, Viena y por todos los Alpes.",
+      "pt": "Innsbruck é ideal para esquiadores que querem uma cidade a sério ao lado das suas pistas, com cultura, compras e uma animada cena gastronómica. As áreas ligadas, entre elas Nordkette, Patscherkofel, Axamer Lizum e o glaciar do Stubai, alcançam-se de autocarro de esqui gratuito, por isso pode escolher uma montanha diferente a cada dia e depois regressar a uma cidade que acolheu duas vezes os Jogos Olímpicos de inverno e guarda séculos de história nas suas ruas com arcadas. O acesso é fácil, com um aeroporto à beira da cidade e comboios rápidos vindos de Munique, Viena e de todos os Alpes.",
+      "it": "Innsbruck è perfetta per gli sciatori che vogliono una vera città accanto alle piste, tra cultura, shopping e una scena gastronomica vivace. I comprensori collegati, tra cui Nordkette, Patscherkofel, Axamer Lizum e il ghiacciaio dello Stubai, si raggiungono con lo skibus gratuito, così puoi scegliere una montagna diversa ogni giorno e poi tornare in una città che ha ospitato due volte i Giochi olimpici invernali e custodisce secoli di storia tra i suoi portici. L'accesso è semplice, con un aeroporto ai margini della città e treni veloci da Monaco, Vienna e da tutte le Alpi."
+    },
+    "pisteCounts": {
+      "green": 25,
+      "blue": 55,
+      "red": 60,
+      "black": 20
+    }
+  },
+  {
+    "slug": "interlaken",
+    "name": "Interlaken",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.6863,
+    "lng": 7.8632,
+    "altitudeBase": 568,
+    "altitudeSummit": 2970,
+    "pistesKm": 210,
+    "lifts": 50,
+    "skiInSkiOutNote": {
+      "en": "Interlaken is a valley town base, not a ski-in, ski-out resort. You stay in town and take the train up to Grindelwald, Wengen or Murren to reach the slopes.",
+      "fr": "Interlaken est une ville de fond de vallee, pas une station skis aux pieds. Vous logez en ville et prenez le train pour monter a Grindelwald, Wengen ou Murren afin de rejoindre les pistes.",
+      "es": "Interlaken es una poblacion en el fondo del valle, no un complejo a pie de pista. Te alojas en la ciudad y tomas el tren para subir a Grindelwald, Wengen o Murren y llegar a las pistas.",
+      "pt": "Interlaken e uma vila no fundo do vale, nao uma estancia com acesso direto as pistas. Fica na cidade e apanha o comboio para subir a Grindelwald, Wengen ou Murren e chegar as pistas.",
+      "it": "Interlaken e una cittadina di fondovalle, non una localita con piste ai piedi. Si alloggia in citta e si prende il treno per salire a Grindelwald, Wengen o Murren e raggiungere le piste."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 13",
+    "snowScore": 84,
+    "vibes": [
+      "scenic",
+      "panoramic",
+      "city-access"
+    ],
+    "intro": {
+      "en": "Interlaken is the classic lake town set between Lake Thun and Lake Brienz, beneath the famous trio of the Eiger, Monch and Jungfrau. It is the gateway base for the Jungfrau Ski Region, with frequent train connections climbing up to Grindelwald, Wengen and Murren. From the town you reach three linked ski areas without ever needing a car.",
+      "fr": "Interlaken est la ville lacustre classique nichee entre le lac de Thoune et le lac de Brienz, au pied du celebre trio de l'Eiger, du Monch et de la Jungfrau. C'est le camp de base par excellence de la region de ski de la Jungfrau, avec des liaisons ferroviaires frequentes qui montent vers Grindelwald, Wengen et Murren. Depuis la ville, vous rejoignez trois domaines relies sans jamais avoir besoin d'une voiture.",
+      "es": "Interlaken es la clasica poblacion lacustre situada entre el lago Thun y el lago Brienz, bajo el famoso trio del Eiger, el Monch y el Jungfrau. Es la base de acceso a la region de esqui del Jungfrau, con frecuentes conexiones de tren que suben hasta Grindelwald, Wengen y Murren. Desde la ciudad llegas a tres zonas de esqui conectadas sin necesidad de coche.",
+      "pt": "Interlaken e a classica vila junto aos lagos, situada entre o lago de Thun e o lago de Brienz, ao pe do famoso trio do Eiger, do Monch e do Jungfrau. E a base de acesso a regiao de esqui do Jungfrau, com ligacoes frequentes de comboio que sobem ate Grindelwald, Wengen e Murren. A partir da vila chega a tres areas de esqui ligadas entre si sem precisar de carro.",
+      "it": "Interlaken e la classica cittadina lacustre incastonata tra il lago di Thun e il lago di Brienz, ai piedi del celebre trio dell'Eiger, del Monch e della Jungfrau. E la base di accesso al comprensorio sciistico della Jungfrau, con frequenti collegamenti ferroviari che salgono verso Grindelwald, Wengen e Murren. Dalla citta si raggiungono tre aree sciistiche collegate senza bisogno dell'auto."
+    },
+    "longDescription": {
+      "en": "Interlaken suits skiers who want a lively town base with restaurants, shops and lake views rather than a quiet slopeside hamlet. From here you reach the three linked ski areas of the Jungfrau region by train: Grindelwald and Wengen below the Eiger, and the high Murren and Schilthorn sector. The scenery is among the most dramatic in the Alps, and the easy rail access makes it simple to switch areas from one day to the next.",
+      "fr": "Interlaken convient aux skieurs qui recherchent une ville animee avec restaurants, boutiques et vues sur les lacs plutot qu'un hameau tranquille au bord des pistes. De la, vous rejoignez en train les trois domaines relies de la region de la Jungfrau : Grindelwald et Wengen sous l'Eiger, ainsi que le secteur eleve de Murren et du Schilthorn. Les paysages comptent parmi les plus spectaculaires des Alpes, et l'acces ferroviaire facile permet de changer de domaine d'un jour a l'autre.",
+      "es": "Interlaken es ideal para esquiadores que prefieren una base urbana animada, con restaurantes, tiendas y vistas a los lagos, antes que una aldea tranquila a pie de pista. Desde aqui llegas en tren a las tres zonas conectadas de la region del Jungfrau: Grindelwald y Wengen bajo el Eiger, y el sector elevado de Murren y el Schilthorn. El paisaje es de los mas espectaculares de los Alpes, y el comodo acceso ferroviario permite cambiar de zona de un dia para otro.",
+      "pt": "Interlaken e ideal para esquiadores que preferem uma base citadina animada, com restaurantes, lojas e vistas para os lagos, em vez de uma aldeia tranquila junto as pistas. Daqui chega de comboio as tres areas ligadas da regiao do Jungfrau: Grindelwald e Wengen ao pe do Eiger, e o sector elevado de Murren e do Schilthorn. A paisagem e das mais impressionantes dos Alpes, e o acesso facil de comboio permite mudar de area de um dia para o outro.",
+      "it": "Interlaken e perfetta per gli sciatori che preferiscono una base cittadina vivace, con ristoranti, negozi e vista sui laghi, piuttosto che un tranquillo borgo ai piedi delle piste. Da qui si raggiungono in treno le tre aree collegate della regione della Jungfrau: Grindelwald e Wengen sotto l'Eiger, e il settore in quota di Murren e dello Schilthorn. I panorami sono tra i piu spettacolari delle Alpi e il comodo accesso ferroviario permette di cambiare area da un giorno all'altro."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 18,
+      "red": 28,
+      "black": 8
+    }
+  },
+  {
+    "slug": "queenstown",
+    "name": "Queenstown",
+    "country": "New Zealand",
+    "countryCode": "NZ",
+    "flag": "🇳🇿",
+    "region": "Southern Alps",
+    "lat": -45.0312,
+    "lng": 168.6626,
+    "altitudeBase": 310,
+    "altitudeSummit": 1943,
+    "pistesKm": 75,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "Queenstown is a lakeside town base, not a ski-in, ski-out resort. You stay in town and drive or take the ski shuttle up to Coronet Peak or The Remarkables, both around 20 to 45 minutes away.",
+      "fr": "Queenstown est une ville au bord du lac qui sert de camp de base, pas une station ski aux pieds. Vous logez en ville et vous montez en voiture ou en navette de ski jusqu'a Coronet Peak ou The Remarkables, tous deux a environ 20 a 45 minutes.",
+      "es": "Queenstown es una localidad a orillas del lago que sirve de base, no un complejo a pie de pista. Te alojas en el pueblo y subes en coche o en el bus de esqui hasta Coronet Peak o The Remarkables, ambos a unos 20 a 45 minutos.",
+      "pt": "Queenstown e uma vila a beira do lago que serve de base, nao uma estancia com acesso direto as pistas. Fica alojado na vila e sobe de carro ou no autocarro de esqui ate Coronet Peak ou The Remarkables, ambos a cerca de 20 a 45 minutos.",
+      "it": "Queenstown e una cittadina sul lago che fa da base, non una localita con piste ai piedi. Si alloggia in citta e si sale in auto o con la navetta da sci fino a Coronet Peak o The Remarkables, entrambi a circa 20 a 45 minuti."
+    },
+    "seasonStart": "Jun 13",
+    "seasonEnd": "Oct 11",
+    "snowScore": 77,
+    "vibes": [
+      "scenic",
+      "party",
+      "southern-hemisphere"
+    ],
+    "intro": {
+      "en": "Queenstown is the Southern Hemisphere's adventure capital, set on the shore of Lake Wakatipu beneath dramatic alpine peaks. It is the lively base town for two ski areas, Coronet Peak and The Remarkables, and is famous for its nightlife and scenery. The Southern Hemisphere winter means you can ski here from June to October.",
+      "fr": "Queenstown est la capitale de l'aventure de l'hemisphere sud, posee au bord du lac Wakatipu sous des sommets alpins spectaculaires. C'est la ville de base animee de deux domaines skiables, Coronet Peak et The Remarkables, et elle est reputee pour sa vie nocturne et ses paysages. L'hiver de l'hemisphere sud permet d'y skier de juin a octobre.",
+      "es": "Queenstown es la capital de la aventura del hemisferio sur, a orillas del lago Wakatipu bajo imponentes cumbres alpinas. Es la animada localidad base de dos estaciones de esqui, Coronet Peak y The Remarkables, y es famosa por su vida nocturna y sus paisajes. El invierno del hemisferio sur permite esquiar aqui de junio a octubre.",
+      "pt": "Queenstown e a capital da aventura do hemisferio sul, junto ao lago Wakatipu, sob picos alpinos imponentes. E a animada vila base de duas estancias de esqui, Coronet Peak e The Remarkables, e e famosa pela vida noturna e pela paisagem. O inverno do hemisferio sul permite esquiar aqui de junho a outubro.",
+      "it": "Queenstown e la capitale dell'avventura dell'emisfero australe, affacciata sul lago Wakatipu sotto vette alpine spettacolari. E la vivace cittadina di base di due comprensori sciistici, Coronet Peak e The Remarkables, ed e famosa per la vita notturna e i panorami. L'inverno dell'emisfero australe permette di sciare qui da giugno a ottobre."
+    },
+    "longDescription": {
+      "en": "Queenstown suits skiers who want a real town with bars, restaurants and energy rather than a quiet slopeside village, and it works just as well for non-skiing partners. The two nearby ski areas, Coronet Peak and The Remarkables, are reached by road and offer varied terrain for every level, from gentle beginner runs to steep advanced lines. After the lifts close, the town's restaurants and famous nightlife take over, and getting there is easy thanks to Queenstown airport, with direct flights from across New Zealand and Australia.",
+      "fr": "Queenstown convient aux skieurs qui veulent une vraie ville avec des bars, des restaurants et de l'ambiance plutot qu'un petit village au pied des pistes, et elle plait tout autant aux accompagnants qui ne skient pas. Les deux domaines voisins, Coronet Peak et The Remarkables, se rejoignent par la route et offrent des terrains varies pour tous les niveaux, des pentes douces pour debutants aux lignes raides pour confirmes. Une fois les remontees fermees, les restaurants et la vie nocturne reputee de la ville prennent le relais, et l'acces est facile grace a l'aeroport de Queenstown, avec des vols directs depuis toute la Nouvelle-Zelande et l'Australie.",
+      "es": "Queenstown es ideal para esquiadores que prefieren un pueblo de verdad, con bares, restaurantes y ambiente, antes que una tranquila aldea a pie de pista, y funciona igual de bien para acompanantes que no esquian. Las dos estaciones cercanas, Coronet Peak y The Remarkables, se alcanzan por carretera y ofrecen terreno variado para todos los niveles, desde pistas suaves para principiantes hasta lineas empinadas para avanzados. Cuando cierran los remontes, los restaurantes y la famosa vida nocturna del pueblo toman el relevo, y llegar es facil gracias al aeropuerto de Queenstown, con vuelos directos desde toda Nueva Zelanda y Australia.",
+      "pt": "Queenstown e ideal para esquiadores que querem uma vila a serio, com bares, restaurantes e animacao, em vez de uma aldeia tranquila junto as pistas, e funciona igualmente bem para acompanhantes que nao esquiam. As duas estancias proximas, Coronet Peak e The Remarkables, alcancam-se por estrada e oferecem terreno variado para todos os niveis, desde pistas suaves para principiantes ate descidas ingremes para avancados. Quando os telefericos fecham, os restaurantes e a famosa vida noturna da vila assumem o protagonismo, e chegar e facil gracas ao aeroporto de Queenstown, com voos diretos de toda a Nova Zelandia e da Australia.",
+      "it": "Queenstown e perfetta per gli sciatori che vogliono una vera citta, con bar, ristoranti ed energia, piuttosto che un tranquillo villaggio ai piedi delle piste, e va benissimo anche per chi non scia. I due comprensori vicini, Coronet Peak e The Remarkables, si raggiungono su strada e offrono terreni vari per ogni livello, dalle dolci piste per principianti alle linee ripide per esperti. Quando gli impianti chiudono, i ristoranti e la celebre vita notturna della citta prendono il sopravvento, e arrivarci e facile grazie all'aeroporto di Queenstown, con voli diretti da tutta la Nuova Zelanda e dall'Australia."
+    },
+    "pisteCounts": {
+      "green": 12,
+      "blue": 18,
+      "red": 14,
+      "black": 8
+    }
   }
 ]

@@ -241,6 +241,20 @@
       "hasPhoto": true
     },
     {
+      "id": "val-d-isere-hotel-le-yule",
+      "name": "Hôtel Le Yule",
+      "slug": "hotel-le-yule",
+      "rating": 4.2,
+      "reviewCount": 251,
+      "priceLevel": null,
+      "priceFrom": 165,
+      "address": "Rue du Parc des Sports, 73150 Val-d'Isère, France",
+      "lat": 45.4476486,
+      "lng": 6.9790135,
+      "distanceToSlopesM": 150,
+      "hasPhoto": true
+    },
+    {
       "id": "val-d-isere-airelles-val-d-isere",
       "name": "Airelles Val d'Isère",
       "slug": "airelles-val-d-isere",
@@ -266,20 +280,6 @@
       "lat": 45.4461669,
       "lng": 6.9848089,
       "distanceToSlopesM": 500,
-      "hasPhoto": true
-    },
-    {
-      "id": "val-d-isere-hotel-ormelune",
-      "name": "Hotel Ormelune",
-      "slug": "hotel-ormelune",
-      "rating": 4.6,
-      "reviewCount": 87,
-      "priceLevel": null,
-      "priceFrom": 190,
-      "address": "Rue Noël Machet, 73150 Val-d'Isère, France",
-      "lat": 45.4481989,
-      "lng": 6.9791647999999995,
-      "distanceToSlopesM": 100,
       "hasPhoto": true
     }
   ],
@@ -1463,17 +1463,17 @@
       "hasPhoto": true
     },
     {
-      "id": "zermatt-la-couronne-hotel-spa",
-      "name": "la couronne Hotel & Spa",
-      "slug": "la-couronne-hotel-spa",
-      "rating": 4.8,
-      "reviewCount": 662,
+      "id": "zermatt-hotel-butterfly",
+      "name": "Hotel Butterfly",
+      "slug": "hotel-butterfly",
+      "rating": 4.5,
+      "reviewCount": 907,
       "priceLevel": null,
-      "priceFrom": 345,
-      "address": "Kirchstrasse 17, 3920 Zermatt, Switzerland",
-      "lat": 46.018930399999995,
-      "lng": 7.748501699999999,
-      "distanceToSlopesM": 200,
+      "priceFrom": 310,
+      "address": "Bodmenstrasse 21, 3920 Zermatt, Switzerland",
+      "lat": 46.023227,
+      "lng": 7.746429,
+      "distanceToSlopesM": 350,
       "hasPhoto": true
     },
     {
@@ -1602,6 +1602,20 @@
       "lat": 46.0982163,
       "lng": 7.223768199999999,
       "distanceToSlopesM": 450,
+      "hasPhoto": true
+    },
+    {
+      "id": "verbier-hotel-montpelier",
+      "name": "Hôtel Montpelier",
+      "slug": "hotel-montpelier",
+      "rating": 4.5,
+      "reviewCount": 246,
+      "priceLevel": null,
+      "priceFrom": 270,
+      "address": "Rue du Ctre sportif 37, 1936 Verbier, Switzerland",
+      "lat": 46.0974168,
+      "lng": 7.2195775,
+      "distanceToSlopesM": 700,
       "hasPhoto": true
     },
     {
@@ -2287,20 +2301,6 @@
       "hasPhoto": true
     },
     {
-      "id": "st-anton-hotel-garni-rundeck",
-      "name": "Hotel Garni Rundeck",
-      "slug": "hotel-garni-rundeck",
-      "rating": 4.9,
-      "reviewCount": 157,
-      "priceLevel": null,
-      "priceFrom": 160,
-      "address": "Arlbergstraße 59, 6580 St. Anton am Arlberg, Austria",
-      "lat": 47.1279907,
-      "lng": 10.265975899999999,
-      "distanceToSlopesM": 100,
-      "hasPhoto": true
-    },
-    {
       "id": "st-anton-hotel-alte-post-st-anton",
       "name": "Hotel Alte Post St. Anton",
       "slug": "hotel-alte-post-st-anton",
@@ -2312,6 +2312,20 @@
       "lat": 47.1284076,
       "lng": 10.265230299999999,
       "distanceToSlopesM": 50,
+      "hasPhoto": true
+    },
+    {
+      "id": "st-anton-hotel-die-arlbergerin",
+      "name": "Hotel die Arlbergerin",
+      "slug": "hotel-die-arlbergerin",
+      "rating": 4.8,
+      "reviewCount": 157,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "St. Jakober Dorfstraße 11, 6580 St. Anton am Arlberg, Austria",
+      "lat": 47.138692,
+      "lng": 10.280441999999999,
+      "distanceToSlopesM": 1650,
       "hasPhoto": true
     }
   ],
@@ -2517,20 +2531,6 @@
   ],
   "mayrhofen": [
     {
-      "id": "mayrhofen-hotel-neue-post",
-      "name": "Hotel Neue Post",
-      "slug": "hotel-neue-post",
-      "rating": 4.6,
-      "reviewCount": 1460,
-      "priceLevel": null,
-      "priceFrom": 150,
-      "address": "Hauptstraße 400, 6290 Mayrhofen, Austria",
-      "lat": 47.1691218,
-      "lng": 11.8647319,
-      "distanceToSlopesM": 450,
-      "hasPhoto": true
-    },
-    {
       "id": "mayrhofen-zillergrundrock-luxury-mountain-resort",
       "name": "ZillergrundRock Luxury Mountain Resort",
       "slug": "zillergrundrock-luxury-mountain-resort",
@@ -2573,6 +2573,20 @@
       "hasPhoto": true
     },
     {
+      "id": "mayrhofen-alpine-hideaway-zillertalerhof",
+      "name": "Alpine Hideaway ZILLERTALERHOF",
+      "slug": "alpine-hideaway-zillertalerhof",
+      "rating": 4.6,
+      "reviewCount": 605,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "Am Marienbrunnen 341, 6290 Mayrhofen, Austria",
+      "lat": 47.1676649,
+      "lng": 11.8660462,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
       "id": "mayrhofen-elisabethhotel-premium-private-retreat-adults-only",
       "name": "ElisabethHotel Premium Private Retreat- Adults only",
       "slug": "elisabethhotel-premium-private-retreat-adults-only",
@@ -2607,7 +2621,7 @@
       "name": "Schlosshotel Kitzbühel",
       "slug": "schlosshotel-kitzbuhel",
       "rating": 4.7,
-      "reviewCount": 2008,
+      "reviewCount": 2009,
       "priceLevel": null,
       "priceFrom": 235,
       "address": "Ried Kaps 7, 6370 Kitzbühel, Austria",
@@ -3213,48 +3227,6 @@
       "hasPhoto": true
     },
     {
-      "id": "livigno-alpino-lodge-bivio-hotel-restaurant",
-      "name": "Alpino Lodge Bivio Hotel & Restaurant",
-      "slug": "alpino-lodge-bivio-hotel-restaurant",
-      "rating": 4.5,
-      "reviewCount": 1334,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "Via, SS301, 23041 Livigno SO, Italy",
-      "lat": 46.538220599999995,
-      "lng": 10.1664687,
-      "distanceToSlopesM": 2350,
-      "hasPhoto": true
-    },
-    {
-      "id": "livigno-hotel-margherita",
-      "name": "Hotel Margherita",
-      "slug": "hotel-margherita",
-      "rating": 4.5,
-      "reviewCount": 1206,
-      "priceLevel": null,
-      "priceFrom": 110,
-      "address": "Via Teola, 65, 23041 Livigno SO, Italy",
-      "lat": 46.5296617,
-      "lng": 10.1375703,
-      "distanceToSlopesM": 900,
-      "hasPhoto": true
-    },
-    {
-      "id": "livigno-hotel-bucaneve",
-      "name": "Hotel Bucaneve",
-      "slug": "hotel-bucaneve",
-      "rating": 4.6,
-      "reviewCount": 995,
-      "priceLevel": null,
-      "priceFrom": 105,
-      "address": "SS301, 194, 23030 Livigno SO, Italy",
-      "lat": 46.534828999999995,
-      "lng": 10.140206,
-      "distanceToSlopesM": 500,
-      "hasPhoto": true
-    },
-    {
       "id": "livigno-hotel-sporting-family-hospitality",
       "name": "Hotel Sporting Family Hospitality",
       "slug": "hotel-sporting-family-hospitality",
@@ -3266,20 +3238,6 @@
       "lat": 46.520827399999995,
       "lng": 10.125165299999999,
       "distanceToSlopesM": 2050,
-      "hasPhoto": true
-    },
-    {
-      "id": "livigno-hotel-amerikan-livigno",
-      "name": "Hotel Amerikan Livigno",
-      "slug": "hotel-amerikan-livigno",
-      "rating": 4.5,
-      "reviewCount": 863,
-      "priceLevel": null,
-      "priceFrom": 105,
-      "address": "Via Florin, 77/93, 23041 Livigno SO, Italy",
-      "lat": 46.5167608,
-      "lng": 10.1225822,
-      "distanceToSlopesM": 2550,
       "hasPhoto": true
     },
     {
@@ -3322,20 +3280,6 @@
       "lat": 46.5326263,
       "lng": 10.1407831,
       "distanceToSlopesM": 700,
-      "hasPhoto": true
-    },
-    {
-      "id": "livigno-hotel-astoria",
-      "name": "Hotel Astoria",
-      "slug": "hotel-astoria",
-      "rating": 4.6,
-      "reviewCount": 459,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Via Saroch, 1116, 23041 Livigno SO, Italy",
-      "lat": 46.5220499,
-      "lng": 10.125454999999999,
-      "distanceToSlopesM": 1900,
       "hasPhoto": true
     }
   ],
@@ -4121,20 +4065,6 @@
       "hasPhoto": true
     },
     {
-      "id": "formigal-hotel-tirol",
-      "name": "Hotel Tirol",
-      "slug": "hotel-tirol",
-      "rating": 4.6,
-      "reviewCount": 144,
-      "priceLevel": null,
-      "priceFrom": 95,
-      "address": "C. Sallent, s/n, 22640 Formigal, Huesca, Spain",
-      "lat": 42.7732333,
-      "lng": -0.3603919,
-      "distanceToSlopesM": 2050,
-      "hasPhoto": true
-    },
-    {
       "id": "formigal-hotel-sno-aragon-hills",
       "name": "Hotel Snö Aragón Hills",
       "slug": "hotel-sno-aragon-hills",
@@ -4220,6 +4150,20 @@
       "lat": 42.5326278,
       "lng": 1.7011111,
       "distanceToSlopesM": 3350,
+      "hasPhoto": true
+    },
+    {
+      "id": "grandvalira-lodge-park-hotel-spa",
+      "name": "Lodge Park Hotel & Spa",
+      "slug": "lodge-park-hotel-spa",
+      "rating": 4.6,
+      "reviewCount": 1035,
+      "priceLevel": null,
+      "priceFrom": 90,
+      "address": "Carretera General 2, n.19, AD100 Soldeu, Andorra",
+      "lat": 42.5779025,
+      "lng": 1.6641650000000001,
+      "distanceToSlopesM": 4450,
       "hasPhoto": true
     }
   ],
@@ -5877,6 +5821,20 @@
       "hasPhoto": true
     },
     {
+      "id": "les-deux-alpes-the-people-les-2-alpes",
+      "name": "The People - Les 2 Alpes",
+      "slug": "the-people-les-2-alpes",
+      "rating": 4.2,
+      "reviewCount": 433,
+      "priceLevel": null,
+      "priceFrom": 95,
+      "address": "1 Rte de Champame, 38860 Les Deux Alpes, France",
+      "lat": 45.0171403,
+      "lng": 6.1255486,
+      "distanceToSlopesM": 750,
+      "hasPhoto": true
+    },
+    {
       "id": "les-deux-alpes-hotel-les-lutins",
       "name": "Hôtel Les Lutins",
       "slug": "hotel-les-lutins",
@@ -5905,31 +5863,45 @@
       "hasPhoto": true
     },
     {
-      "id": "les-deux-alpes-hotel-les-melezes",
-      "name": "Hôtel Les Mélèzes",
-      "slug": "hotel-les-melezes",
-      "rating": 4.3,
-      "reviewCount": 211,
+      "id": "les-deux-alpes-hotel-de-la-valentin",
+      "name": "Hôtel de la Valentin",
+      "slug": "hotel-de-la-valentin",
+      "rating": 4.5,
+      "reviewCount": 215,
       "priceLevel": null,
-      "priceFrom": 105,
-      "address": "17 Rue des Vikings, 38860 Les Deux Alpes, France",
-      "lat": 45.0064036,
-      "lng": 6.124003399999999,
+      "priceFrom": 110,
+      "address": "40 Av. de la Muzelle, 38860 Les Deux Alpes, France",
+      "lat": 45.0142874,
+      "lng": 6.1252476,
       "distanceToSlopesM": 450,
       "hasPhoto": true
     },
     {
-      "id": "les-deux-alpes-residence-l-alpeggio-les-2-alpes-by-my-mountain-re",
-      "name": "Résidence l'Alpeggio Les 2 alpes **** by My Mountain Resort",
-      "slug": "residence-l-alpeggio-les-2-alpes-by-my-mountain-re",
-      "rating": 4.7,
-      "reviewCount": 32,
+      "id": "les-deux-alpes-belambra-hotel-l-oree-des-pistes",
+      "name": "Belambra Hôtel \"L'Orée des Pistes\"",
+      "slug": "belambra-hotel-l-oree-des-pistes",
+      "rating": 3.9,
+      "reviewCount": 478,
       "priceLevel": null,
-      "priceFrom": 120,
-      "address": "18 Av. de la Muzelle, 38860 Les Deux Alpes, France",
-      "lat": 45.0186182,
-      "lng": 6.1246903999999995,
-      "distanceToSlopesM": 950,
+      "priceFrom": 110,
+      "address": "5 Place des 2 Alpes, 38860 Les Deux Alpes, France",
+      "lat": 45.010571999999996,
+      "lng": 6.124944,
+      "distanceToSlopesM": 50,
+      "hasPhoto": true
+    },
+    {
+      "id": "les-deux-alpes-hotel-turan",
+      "name": "Hotel Turan",
+      "slug": "hotel-turan",
+      "rating": 4.2,
+      "reviewCount": 276,
+      "priceLevel": null,
+      "priceFrom": 95,
+      "address": "8 Ham. de la Meije, 38860 Les Deux Alpes, France",
+      "lat": 45.018460499999996,
+      "lng": 6.1299177,
+      "distanceToSlopesM": 1000,
       "hasPhoto": true
     }
   ],
@@ -6002,6 +5974,20 @@
       "lat": 45.6252687,
       "lng": 6.862882,
       "distanceToSlopesM": 950,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-rosiere-cgh-residences-spas-residence-boutique-le-lodge-he",
+      "name": "CGH Résidences & Spas - Résidence Boutique Le Lodge Hemera",
+      "slug": "cgh-residences-spas-residence-boutique-le-lodge-he",
+      "rating": 4.5,
+      "reviewCount": 108,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "39 Rue de l'école, 73700 Montvalezan, France",
+      "lat": 45.6270642,
+      "lng": 6.8493471999999995,
+      "distanceToSlopesM": 600,
       "hasPhoto": true
     }
   ],
@@ -6177,6 +6163,34 @@
       "hasPhoto": true
     },
     {
+      "id": "samoens-hotel-gai-soleil",
+      "name": "Hôtel Gai Soleil",
+      "slug": "hotel-gai-soleil",
+      "rating": 4.6,
+      "reviewCount": 229,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "26 Rte de Taninges, 74340 Samoëns, France",
+      "lat": 46.0844707,
+      "lng": 6.722416399999999,
+      "distanceToSlopesM": 200,
+      "hasPhoto": true
+    },
+    {
+      "id": "samoens-logis-hotel-la-boule-de-neige",
+      "name": "Logis Hôtel la Boule de Neige",
+      "slug": "logis-hotel-la-boule-de-neige",
+      "rating": 4.5,
+      "reviewCount": 205,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "220 chemin Des Bolus-Vercland, 74340 Samoëns, France",
+      "lat": 46.073057899999995,
+      "lng": 6.7018059,
+      "distanceToSlopesM": 2200,
+      "hasPhoto": true
+    },
+    {
       "id": "samoens-cgh-residences-spas-la-reine-des-pres",
       "name": "CGH Résidences & Spas - La Reine des Prés",
       "slug": "cgh-residences-spas-la-reine-des-pres",
@@ -6189,9 +6203,79 @@
       "lng": 6.7260121999999996,
       "distanceToSlopesM": 500,
       "hasPhoto": true
+    },
+    {
+      "id": "samoens-club-med-grand-massif-appartements-chalets",
+      "name": "Club Med Grand Massif Appartements Chalets",
+      "slug": "club-med-grand-massif-appartements-chalets",
+      "rating": 4.8,
+      "reviewCount": 16,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "Route du Plateau des Saix, 74340 Samoëns, France",
+      "lat": 46.055615,
+      "lng": 6.7027784,
+      "distanceToSlopesM": 3650,
+      "hasPhoto": true
     }
   ],
   "chatel": [
+    {
+      "id": "chatel-les-cornettes-resort-spa",
+      "name": "Les Cornettes Resort & SPA",
+      "slug": "les-cornettes-resort-spa",
+      "rating": 4.6,
+      "reviewCount": 1402,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Les Cornettes, 43 Rte des Frasses, 74360 La Chapelle-d'Abondance, France",
+      "lat": 46.2954729,
+      "lng": 6.7891056,
+      "distanceToSlopesM": 5150,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-hotel-l-escale-super-chatel",
+      "name": "Hôtel L' Escale, Super-Châtel",
+      "slug": "hotel-l-escale-super-chatel",
+      "rating": 4.5,
+      "reviewCount": 553,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Super Châtel Arrivée de la télécabine, 74390 Châtel, France",
+      "lat": 46.2678375,
+      "lng": 6.8572551,
+      "distanceToSlopesM": 1450,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-residence-goelia-le-grand-lodge",
+      "name": "Résidence Goélia Le Grand Lodge",
+      "slug": "residence-goelia-le-grand-lodge",
+      "rating": 4,
+      "reviewCount": 1208,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "41 Chem. de Vonnes, 74390 Châtel, France",
+      "lat": 46.2595563,
+      "lng": 6.8396085,
+      "distanceToSlopesM": 550,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-fleur-de-neige",
+      "name": "Fleur de Neige",
+      "slug": "fleur-de-neige",
+      "rating": 4.5,
+      "reviewCount": 534,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "564 Rte de Vonnes, 74390 Châtel, France",
+      "lat": 46.2622314,
+      "lng": 6.840661099999999,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
     {
       "id": "chatel-hotel-macchi-restaurant-spa",
       "name": "Hôtel Macchi Restaurant & Spa",
@@ -6207,6 +6291,34 @@
       "hasPhoto": true
     },
     {
+      "id": "chatel-residence-cgh-les-chalets-d-angele",
+      "name": "Résidence CGH Les Chalets d'Angèle",
+      "slug": "residence-cgh-les-chalets-d-angele",
+      "rating": 4.3,
+      "reviewCount": 398,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "1003 Rte de la Bechigne, 74390 Châtel, France",
+      "lat": 46.2690341,
+      "lng": 6.8366449,
+      "distanceToSlopesM": 500,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-residence-odalys-les-fermes-de-chatel",
+      "name": "Résidence Odalys Les Fermes de Chatel",
+      "slug": "residence-odalys-les-fermes-de-chatel",
+      "rating": 4.3,
+      "reviewCount": 394,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Chem. de sous le Crêt, 74390 Châtel, France",
+      "lat": 46.2664577,
+      "lng": 6.8420146,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
+    {
       "id": "chatel-le-castellan",
       "name": "Le Castellan",
       "slug": "le-castellan",
@@ -6218,6 +6330,62 @@
       "lat": 46.2696943,
       "lng": 6.839282600000001,
       "distanceToSlopesM": 550,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-hotel-le-roitelet",
+      "name": "Hôtel le Roitelet",
+      "slug": "hotel-le-roitelet",
+      "rating": 4.5,
+      "reviewCount": 180,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "731 Rte de Thonon, 74390 Châtel, France",
+      "lat": 46.272982299999995,
+      "lng": 6.837612099999999,
+      "distanceToSlopesM": 950,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-logis-hotel-le-kandahar",
+      "name": "Logis Hôtel le Kandahar",
+      "slug": "logis-hotel-le-kandahar",
+      "rating": 4.6,
+      "reviewCount": 158,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "1620 Rte de la Dranse, 74390 Châtel, France",
+      "lat": 46.2685251,
+      "lng": 6.8339057,
+      "distanceToSlopesM": 550,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-hotel-au-bois-de-lune",
+      "name": "HOTEL AU BOIS DE LUNE",
+      "slug": "hotel-au-bois-de-lune",
+      "rating": 4.8,
+      "reviewCount": 94,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "1725 Rte de la Dranse, 74390 Châtel, France",
+      "lat": 46.2692737,
+      "lng": 6.8331124999999995,
+      "distanceToSlopesM": 700,
+      "hasPhoto": true
+    },
+    {
+      "id": "chatel-sci-la-fleche-d-or",
+      "name": "SCI LA FLECHE D'OR",
+      "slug": "sci-la-fleche-d-or",
+      "rating": 4.6,
+      "reviewCount": 106,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "973 Rte de Vonnes, 74390 Châtel, France",
+      "lat": 46.2584942,
+      "lng": 6.840932899999999,
+      "distanceToSlopesM": 700,
       "hasPhoto": true
     }
   ],
@@ -6446,6 +6614,20 @@
       "lat": 44.934510800000005,
       "lng": 6.7285156,
       "distanceToSlopesM": 650,
+      "hasPhoto": true
+    },
+    {
+      "id": "montgenevre-hotel-vtf-le-grand-hotel",
+      "name": "Hôtel VTF Le Grand Hôtel",
+      "slug": "hotel-vtf-le-grand-hotel",
+      "rating": 4,
+      "reviewCount": 195,
+      "priceLevel": null,
+      "priceFrom": 95,
+      "address": "5102 Rue Chante le Vent, 05100 Montgenèvre, France",
+      "lat": 44.931464399999996,
+      "lng": 6.7199089,
+      "distanceToSlopesM": 100,
       "hasPhoto": true
     }
   ],
@@ -6769,7 +6951,7 @@
       "name": "La Clé des Champs",
       "slug": "la-cle-des-champs",
       "rating": 4.7,
-      "reviewCount": 137,
+      "reviewCount": 138,
       "priceLevel": null,
       "priceFrom": 135,
       "address": "hameau des champs, 73480 Val-Cenis, France",
@@ -8007,6 +8189,20 @@
       "lng": 6.327134999999999,
       "distanceToSlopesM": 250,
       "hasPhoto": true
+    },
+    {
+      "id": "orcieres-merlette-le-chalet-d-orcieres-merlette",
+      "name": "Le Chalet d'Orcières Merlette",
+      "slug": "le-chalet-d-orcieres-merlette",
+      "rating": 4.7,
+      "reviewCount": 46,
+      "priceLevel": null,
+      "priceFrom": 150,
+      "address": "Résidence le Chalet d'Orcières, Orcières 05170, 05170 Orcières, France",
+      "lat": 44.6973762,
+      "lng": 6.327553699999999,
+      "distanceToSlopesM": 200,
+      "hasPhoto": true
     }
   ],
   "les-orres": [
@@ -8092,20 +8288,6 @@
       "lat": 44.497743,
       "lng": 6.5554179999999995,
       "distanceToSlopesM": 1200,
-      "hasPhoto": true
-    },
-    {
-      "id": "les-orres-residence-les-terrasses-du-soleil-d-or",
-      "name": "Résidence les Terrasses du Soleil d'Or",
-      "slug": "residence-les-terrasses-du-soleil-d-or",
-      "rating": 3.9,
-      "reviewCount": 270,
-      "priceLevel": null,
-      "priceFrom": 105,
-      "address": "5 Imp. des Gentianes, 05200 Les Orres, France",
-      "lat": 44.4831849,
-      "lng": 6.5534162,
-      "distanceToSlopesM": 2600,
       "hasPhoto": true
     }
   ],
@@ -8240,20 +8422,6 @@
     }
   ],
   "piau-engaly": [
-    {
-      "id": "piau-engaly-azureva-65170",
-      "name": "AZUREVA - 65170",
-      "slug": "azureva-65170",
-      "rating": 4.4,
-      "reviewCount": 175,
-      "priceLevel": null,
-      "priceFrom": 125,
-      "address": "4 CHE L'ENGALY, 65170 Aragnouet, France",
-      "lat": 42.7854501,
-      "lng": 0.1565731,
-      "distanceToSlopesM": 600,
-      "hasPhoto": true
-    },
     {
       "id": "piau-engaly-hotel-des-4-ours",
       "name": "Hotel Des 4 Ours",
@@ -8646,6 +8814,34 @@
       "lat": 44.0953445,
       "lng": 6.9281787,
       "distanceToSlopesM": 150,
+      "hasPhoto": true
+    },
+    {
+      "id": "valberg-hotel-le-blanche-neige",
+      "name": "Hotel Le Blanche Neige",
+      "slug": "hotel-le-blanche-neige",
+      "rating": 4.1,
+      "reviewCount": 298,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "10 Av. de Valberg, 06470 Péone, France",
+      "lat": 44.094544,
+      "lng": 6.931721,
+      "distanceToSlopesM": 150,
+      "hasPhoto": true
+    },
+    {
+      "id": "valberg-le-chalet-suisse-hotel-restaurant",
+      "name": "Le Chalet Suisse Hotel Restaurant",
+      "slug": "le-chalet-suisse-hotel-restaurant",
+      "rating": 3.8,
+      "reviewCount": 324,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "4 Av. de Valberg, 06470 Péone, France",
+      "lat": 44.0950127,
+      "lng": 6.9301267,
+      "distanceToSlopesM": 0,
       "hasPhoto": true
     }
   ],
@@ -9374,20 +9570,6 @@
       "hasPhoto": true
     },
     {
-      "id": "valmeinier-hotel-spa-les-carrettes",
-      "name": "Hôtel & Spa Les Carrettes",
-      "slug": "hotel-spa-les-carrettes",
-      "rating": 4.1,
-      "reviewCount": 199,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "275 Rue des Casses, 73450 Valmeinier, France",
-      "lat": 45.1732983,
-      "lng": 6.493953299999999,
-      "distanceToSlopesM": 500,
-      "hasPhoto": true
-    },
-    {
       "id": "valmeinier-hotel-l-aigle-valmeinier-1800",
       "name": "Hotel L'Aigle, Valmeinier 1800",
       "slug": "hotel-l-aigle-valmeinier-1800",
@@ -9400,6 +9582,20 @@
       "lng": 6.493126999999999,
       "distanceToSlopesM": 500,
       "hasPhoto": true
+    },
+    {
+      "id": "valmeinier-hotel-spa-les-carrettes",
+      "name": "Hôtel & Spa Les Carrettes",
+      "slug": "hotel-spa-les-carrettes",
+      "rating": 4.1,
+      "reviewCount": 199,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "275 Rue des Casses, 73450 Valmeinier, France",
+      "lat": 45.1732983,
+      "lng": 6.493953299999999,
+      "distanceToSlopesM": 500,
+      "hasPhoto": true
     }
   ],
   "areches-beaufort": [
@@ -9408,7 +9604,7 @@
       "name": "Hotel Restaurant du Grand-Mont",
       "slug": "hotel-restaurant-du-grand-mont",
       "rating": 4.7,
-      "reviewCount": 637,
+      "reviewCount": 638,
       "priceLevel": null,
       "priceFrom": 150,
       "address": "4 Pl. de l'Église, 73270 Beaufort, France",
@@ -9422,7 +9618,7 @@
       "name": "MAISON DORON - Le petit hôtel qui bouge !",
       "slug": "maison-doron-le-petit-hotel-qui-bouge",
       "rating": 4.6,
-      "reviewCount": 474,
+      "reviewCount": 475,
       "priceLevel": null,
       "priceFrom": 130,
       "address": "20 Pl. de l'Église, 73270 Beaufort, France",
@@ -9514,23 +9710,65 @@
       "lng": 6.567303900000001,
       "distanceToSlopesM": 1750,
       "hasPhoto": true
-    },
-    {
-      "id": "areches-beaufort-auberge-viallet",
-      "name": "Auberge Viallet",
-      "slug": "auberge-viallet",
-      "rating": 4.6,
-      "reviewCount": 51,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "73270 Beaufort, France",
-      "lat": 45.7073913,
-      "lng": 6.5784731999999995,
-      "distanceToSlopesM": 850,
-      "hasPhoto": true
     }
   ],
   "la-norma": [
+    {
+      "id": "la-norma-auberge-la-cascade",
+      "name": "Auberge La Cascade",
+      "slug": "auberge-la-cascade",
+      "rating": 4.8,
+      "reviewCount": 210,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "57 Rue du Passour, 73500 Avrieux, France",
+      "lat": 45.2147997,
+      "lng": 6.7223916,
+      "distanceToSlopesM": 1850,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-fleurs-et-neige-village-vacances-club-cap-france",
+      "name": "Fleurs et Neige Village Vacances Club - Cap France",
+      "slug": "fleurs-et-neige-village-vacances-club-cap-france",
+      "rating": 4.6,
+      "reviewCount": 243,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "34 Rue Saint-Nicolas, 73500 Aussois, France",
+      "lat": 45.229158899999995,
+      "lng": 6.743353099999999,
+      "distanceToSlopesM": 3550,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-residence-vacanceole-la-turra",
+      "name": "Résidence Vacancéole - La Turra",
+      "slug": "residence-vacanceole-la-turra",
+      "rating": 3.7,
+      "reviewCount": 784,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "310 Rue du Cheval-Blanc, 73500 Modane, France",
+      "lat": 45.1761039,
+      "lng": 6.656731499999999,
+      "distanceToSlopesM": 5950,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-hotel-le-commerce",
+      "name": "Hôtel Le Commerce",
+      "slug": "hotel-le-commerce",
+      "rating": 4.3,
+      "reviewCount": 219,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "20 Pl. Sommeiller, 73500 Modane, France",
+      "lat": 45.1940078,
+      "lng": 6.6590373,
+      "distanceToSlopesM": 4300,
+      "hasPhoto": true
+    },
     {
       "id": "la-norma-residence-goelia-les-balcons-d-anais",
       "name": "Résidence Goélia Les Balcons d'Anaïs",
@@ -9543,6 +9781,76 @@
       "lat": 45.200502799999995,
       "lng": 6.6945809999999994,
       "distanceToSlopesM": 2200,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-residence-plein-soleil",
+      "name": "Résidence Plein Soleil",
+      "slug": "residence-plein-soleil",
+      "rating": 4.2,
+      "reviewCount": 205,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "229 Rue de la Scolette, 73500 Avrieux, France",
+      "lat": 45.2175734,
+      "lng": 6.7205318,
+      "distanceToSlopesM": 1650,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-alpina-lodge-vanoise",
+      "name": "Alpina Lodge Vanoise",
+      "slug": "alpina-lodge-vanoise",
+      "rating": 4.3,
+      "reviewCount": 136,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "15 Rue de l'Église, 73500 Aussois, France",
+      "lat": 45.227795,
+      "lng": 6.742001,
+      "distanceToSlopesM": 3400,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-hotel-de-la-gare",
+      "name": "hotel de la Gare",
+      "slug": "hotel-de-la-gare",
+      "rating": 4,
+      "reviewCount": 193,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "2 Rue Jean Jaurès, 73500 Modane, France",
+      "lat": 45.194377599999996,
+      "lng": 6.6597225,
+      "distanceToSlopesM": 4250,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-hotel-le-perce-neige",
+      "name": "Hôtel le Perce-Neige",
+      "slug": "hotel-le-perce-neige",
+      "rating": 3.2,
+      "reviewCount": 90,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "14 Rue Jean Jaurès, 73500 Modane, France",
+      "lat": 45.194922,
+      "lng": 6.6605419999999995,
+      "distanceToSlopesM": 4150,
+      "hasPhoto": true
+    },
+    {
+      "id": "la-norma-hotel-bellevue",
+      "name": "Hotel Bellevue",
+      "slug": "hotel-bellevue",
+      "rating": 3.3,
+      "reviewCount": 50,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "15 Rue du Replat, 73500 Fourneaux, France",
+      "lat": 45.1900183,
+      "lng": 6.6523882,
+      "distanceToSlopesM": 5000,
       "hasPhoto": true
     }
   ],
@@ -9953,20 +10261,6 @@
       "hasPhoto": true
     },
     {
-      "id": "grindelwald-aspen-alpin-lifestyle-hotel",
-      "name": "Aspen alpin lifestyle hotel",
-      "slug": "aspen-alpin-lifestyle-hotel",
-      "rating": 4.6,
-      "reviewCount": 883,
-      "priceLevel": null,
-      "priceFrom": 225,
-      "address": "Aspen 1, 3818 Grindelwald, Switzerland",
-      "lat": 46.619239300000004,
-      "lng": 8.005545999999999,
-      "distanceToSlopesM": 2250,
-      "hasPhoto": true
-    },
-    {
       "id": "grindelwald-hotel-spinne",
       "name": "Hotel Spinne",
       "slug": "hotel-spinne",
@@ -9978,20 +10272,6 @@
       "lat": 46.623194999999996,
       "lng": 8.038451,
       "distanceToSlopesM": 350,
-      "hasPhoto": true
-    },
-    {
-      "id": "grindelwald-hotel-restaurant-fiescherblick",
-      "name": "Hotel Restaurant Fiescherblick",
-      "slug": "hotel-restaurant-fiescherblick",
-      "rating": 4.9,
-      "reviewCount": 535,
-      "priceLevel": null,
-      "priceFrom": 225,
-      "address": "Dorfstrasse 203, 3818 Grindelwald, Switzerland",
-      "lat": 46.625315,
-      "lng": 8.0459933,
-      "distanceToSlopesM": 950,
       "hasPhoto": true
     },
     {
@@ -10051,6 +10331,20 @@
       "hasPhoto": true
     },
     {
+      "id": "grindelwald-hotel-grindelwalderhof",
+      "name": "Hotel Grindelwalderhof",
+      "slug": "hotel-grindelwalderhof",
+      "rating": 4.3,
+      "reviewCount": 552,
+      "priceLevel": null,
+      "priceFrom": 170,
+      "address": "Dorfstrasse 155, 3818 Grindelwald, Switzerland",
+      "lat": 46.623529399999995,
+      "lng": 8.0390064,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
       "id": "grindelwald-parkhotel-schoenegg",
       "name": "Parkhotel Schoenegg",
       "slug": "parkhotel-schoenegg",
@@ -10065,17 +10359,31 @@
       "hasPhoto": true
     },
     {
-      "id": "grindelwald-jungfrau-lodge-swiss-mountain-hotel",
-      "name": "Jungfrau Lodge, Swiss Mountain Hotel",
-      "slug": "jungfrau-lodge-swiss-mountain-hotel",
-      "rating": 4.1,
-      "reviewCount": 716,
+      "id": "grindelwald-romantik-hotel-schweizerhof-grindelwald",
+      "name": "Romantik Hotel Schweizerhof Grindelwald",
+      "slug": "romantik-hotel-schweizerhof-grindelwald",
+      "rating": 4.3,
+      "reviewCount": 514,
       "priceLevel": null,
       "priceFrom": 150,
-      "address": "Dorfstrasse 49, 3818 Grindelwald, Switzerland",
-      "lat": 46.625360099999995,
-      "lng": 8.029007199999999,
-      "distanceToSlopesM": 400,
+      "address": "Swiss Alp Resort 1, 3818 Grindelwald, Switzerland",
+      "lat": 46.625600299999995,
+      "lng": 8.0317825,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
+    },
+    {
+      "id": "grindelwald-hotel-alpenblick-grindelwald",
+      "name": "Hotel Alpenblick - Grindelwald",
+      "slug": "hotel-alpenblick-grindelwald",
+      "rating": 4.3,
+      "reviewCount": 485,
+      "priceLevel": null,
+      "priceFrom": 180,
+      "address": "Obere Gletscherstrasse 16, 3818 Grindelwald, Switzerland",
+      "lat": 46.626943,
+      "lng": 8.048418999999999,
+      "distanceToSlopesM": 1150,
       "hasPhoto": true
     }
   ],
@@ -10141,7 +10449,7 @@
       "name": "Grand Hotel Belvedere, Wengen, a Beaumier Hotel",
       "slug": "grand-hotel-belvedere-wengen-a-beaumier-hotel",
       "rating": 4.7,
-      "reviewCount": 448,
+      "reviewCount": 449,
       "priceLevel": null,
       "priceFrom": 195,
       "address": "Galliweidli 1440E, 3823 Wengen BE, Switzerland",
@@ -11479,20 +11787,6 @@
   ],
   "obertauern": [
     {
-      "id": "obertauern-places-obertauern-by-valamar",
-      "name": "[PLACES] Obertauern by Valamar",
-      "slug": "places-obertauern-by-valamar",
-      "rating": 4.7,
-      "reviewCount": 1012,
-      "priceLevel": null,
-      "priceFrom": 160,
-      "address": "Ringstraße 8, 5562 Obertauern, Austria",
-      "lat": 47.250354099999996,
-      "lng": 13.5546636,
-      "distanceToSlopesM": 200,
-      "hasPhoto": true
-    },
-    {
       "id": "obertauern-hotel-4-sterne-superior-panorama",
       "name": "Hotel 4-Sterne Superior Panorama",
       "slug": "hotel-4-sterne-superior-panorama",
@@ -11521,34 +11815,6 @@
       "hasPhoto": true
     },
     {
-      "id": "obertauern-hotel-steiner",
-      "name": "Hotel Steiner",
-      "slug": "hotel-steiner",
-      "rating": 4.8,
-      "reviewCount": 465,
-      "priceLevel": null,
-      "priceFrom": 150,
-      "address": "Römerstraße 45, 5562 Obertauern, Austria",
-      "lat": 47.250076199999995,
-      "lng": 13.5536575,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
-      "id": "obertauern-hotel-das-seekarhaus",
-      "name": "Hotel Das Seekarhaus",
-      "slug": "hotel-das-seekarhaus",
-      "rating": 4.7,
-      "reviewCount": 478,
-      "priceLevel": null,
-      "priceFrom": 150,
-      "address": "Seekarstraße 32, 5562 Obertauern, Austria",
-      "lat": 47.2642339,
-      "lng": 13.5648206,
-      "distanceToSlopesM": 1500,
-      "hasPhoto": true
-    },
-    {
       "id": "obertauern-hotel-das-kohlmayr",
       "name": "Hotel Das Kohlmayr",
       "slug": "hotel-das-kohlmayr",
@@ -11560,48 +11826,6 @@
       "lat": 47.2505035,
       "lng": 13.5542764,
       "distanceToSlopesM": 200,
-      "hasPhoto": true
-    },
-    {
-      "id": "obertauern-hotel-alpina",
-      "name": "Hotel Alpina",
-      "slug": "hotel-alpina",
-      "rating": 4.6,
-      "reviewCount": 264,
-      "priceLevel": null,
-      "priceFrom": 150,
-      "address": "Römerstraße 53, 5562 Obertauern, Austria",
-      "lat": 47.248996399999996,
-      "lng": 13.5570533,
-      "distanceToSlopesM": 350,
-      "hasPhoto": true
-    },
-    {
-      "id": "obertauern-hotel-enzian",
-      "name": "Hotel Enzian",
-      "slug": "hotel-enzian",
-      "rating": 4.8,
-      "reviewCount": 176,
-      "priceLevel": null,
-      "priceFrom": 160,
-      "address": "Gamsleitenstraße 7, 5562 Obertauern, Austria",
-      "lat": 47.245503,
-      "lng": 13.56348,
-      "distanceToSlopesM": 900,
-      "hasPhoto": true
-    },
-    {
-      "id": "obertauern-hotel-romerhof",
-      "name": "Hotel Römerhof",
-      "slug": "hotel-romerhof",
-      "rating": 4.7,
-      "reviewCount": 177,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "Römerstraße 41, 5562 Obertauern, Austria",
-      "lat": 47.250672599999994,
-      "lng": 13.5513224,
-      "distanceToSlopesM": 400,
       "hasPhoto": true
     }
   ],
@@ -11749,6 +11973,48 @@
       "hasPhoto": true
     },
     {
+      "id": "bad-gastein-hapimag-resort-bad-gastein",
+      "name": "Hapimag Resort Bad Gastein",
+      "slug": "hapimag-resort-bad-gastein",
+      "rating": 4.7,
+      "reviewCount": 754,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "Kaiserhofstraße 6, 5640 Bad Gastein, Austria",
+      "lat": 47.120176,
+      "lng": 13.1409709,
+      "distanceToSlopesM": 850,
+      "hasPhoto": true
+    },
+    {
+      "id": "bad-gastein-hotel-salzburger-hof-bad-gastein",
+      "name": "Hotel Salzburger Hof Bad Gastein",
+      "slug": "hotel-salzburger-hof-bad-gastein",
+      "rating": 4.6,
+      "reviewCount": 685,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "Grillparzerstraße 1, 5640 Bad Gastein, Austria",
+      "lat": 47.11332840000001,
+      "lng": 13.1332031,
+      "distanceToSlopesM": 100,
+      "hasPhoto": true
+    },
+    {
+      "id": "bad-gastein-the-comodo",
+      "name": "the cōmodo",
+      "slug": "the-comodo",
+      "rating": 4.7,
+      "reviewCount": 581,
+      "priceLevel": null,
+      "priceFrom": 160,
+      "address": "Kaiserhofstraße 18, 5640 Bad Gastein, Austria",
+      "lat": 47.1235694,
+      "lng": 13.1444578,
+      "distanceToSlopesM": 1350,
+      "hasPhoto": true
+    },
+    {
       "id": "bad-gastein-hotel-sonngastein",
       "name": "Hotel Sonngastein",
       "slug": "hotel-sonngastein",
@@ -11760,6 +12026,62 @@
       "lat": 47.1335777,
       "lng": 13.1371428,
       "distanceToSlopesM": 2200,
+      "hasPhoto": true
+    },
+    {
+      "id": "bad-gastein-europaischer-hof-bad-gastein",
+      "name": "EUROPÄISCHER HOF Bad Gastein",
+      "slug": "europaischer-hof-bad-gastein",
+      "rating": 4.4,
+      "reviewCount": 684,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "Miesbichlstraße 20, 5640 Bad Gastein, Austria",
+      "lat": 47.129249699999995,
+      "lng": 13.137777999999999,
+      "distanceToSlopesM": 1700,
+      "hasPhoto": true
+    },
+    {
+      "id": "bad-gastein-hotel-alpenblick",
+      "name": "Hotel Alpenblick",
+      "slug": "hotel-alpenblick",
+      "rating": 4.7,
+      "reviewCount": 373,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "Kötschachtaler Str. 17, 5640 Bad Gastein, Austria",
+      "lat": 47.118311000000006,
+      "lng": 13.141599,
+      "distanceToSlopesM": 750,
+      "hasPhoto": true
+    },
+    {
+      "id": "bad-gastein-a-rosa-collection-straubinger-grand-hotel-bad-gast",
+      "name": "A-ROSA Collection Straubinger Grand Hotel Bad Gastein",
+      "slug": "a-rosa-collection-straubinger-grand-hotel-bad-gast",
+      "rating": 4.7,
+      "reviewCount": 303,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "Straubingerpl. 2, 5640 Bad Gastein, Austria",
+      "lat": 47.1145299,
+      "lng": 13.1370978,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
+    },
+    {
+      "id": "bad-gastein-urban-nature-bad-gastein",
+      "name": "Urban Nature Bad Gastein",
+      "slug": "urban-nature-bad-gastein",
+      "rating": 4.5,
+      "reviewCount": 347,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Straubingerpl. 4, 5640 Bad Gastein, Austria",
+      "lat": 47.1139945,
+      "lng": 13.1369949,
+      "distanceToSlopesM": 250,
       "hasPhoto": true
     }
   ],
@@ -11821,6 +12143,20 @@
       "hasPhoto": true
     },
     {
+      "id": "bad-hofgastein-hotel-bismarck",
+      "name": "Hotel Bismarck",
+      "slug": "hotel-bismarck",
+      "rating": 4.9,
+      "reviewCount": 546,
+      "priceLevel": null,
+      "priceFrom": 175,
+      "address": "Alpenstraße 6, 5630 Bad Hofgastein, Austria",
+      "lat": 47.1678128,
+      "lng": 13.1093163,
+      "distanceToSlopesM": 650,
+      "hasPhoto": true
+    },
+    {
       "id": "bad-hofgastein-hotel-palace-bad-hofgastein",
       "name": "Hotel PALACE Bad Hofgastein",
       "slug": "hotel-palace-bad-hofgastein",
@@ -11863,17 +12199,17 @@
       "hasPhoto": true
     },
     {
-      "id": "bad-hofgastein-impuls-hotel-tirol",
-      "name": "Impuls Hotel Tirol",
-      "slug": "impuls-hotel-tirol",
-      "rating": 4.8,
-      "reviewCount": 372,
+      "id": "bad-hofgastein-sendlhofer-s",
+      "name": "Sendlhofer's",
+      "slug": "sendlhofer-s",
+      "rating": 4.6,
+      "reviewCount": 393,
       "priceLevel": null,
-      "priceFrom": 135,
-      "address": "Grünlandstraße 5, 5630 Bad Hofgastein, Austria",
-      "lat": 47.1749,
-      "lng": 13.1054,
-      "distanceToSlopesM": 650,
+      "priceFrom": 150,
+      "address": "Pyrkerstraße 34, 5630 Bad Hofgastein, Austria",
+      "lat": 47.168039,
+      "lng": 13.110643,
+      "distanceToSlopesM": 750,
       "hasPhoto": true
     },
     {
@@ -12049,20 +12385,6 @@
       "hasPhoto": true
     },
     {
-      "id": "kaprun-bergdorf-hotel-zaglgut-kaprun",
-      "name": "Bergdorf Hotel Zaglgut Kaprun",
-      "slug": "bergdorf-hotel-zaglgut-kaprun",
-      "rating": 4.7,
-      "reviewCount": 265,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Zaglweg 10, 5710 Kaprun, Austria",
-      "lat": 47.27265,
-      "lng": 12.741842199999999,
-      "distanceToSlopesM": 1100,
-      "hasPhoto": true
-    },
-    {
       "id": "kaprun-carpe-solem-kaprun-by-alps-resorts",
       "name": "Carpe Solem Kaprun by ALPS RESORTS",
       "slug": "carpe-solem-kaprun-by-alps-resorts",
@@ -12193,6 +12515,20 @@
   ],
   "serfaus-fiss-ladis": [
     {
+      "id": "serfaus-fiss-ladis-romantik-spa-alpen-herz",
+      "name": "Romantik & Spa Alpen-Herz",
+      "slug": "romantik-spa-alpen-herz",
+      "rating": 4.9,
+      "reviewCount": 665,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Dorfstraße 40, 6532 Ladis, Austria",
+      "lat": 47.0713118,
+      "lng": 10.6454677,
+      "distanceToSlopesM": 4400,
+      "hasPhoto": true
+    },
+    {
       "id": "serfaus-fiss-ladis-hotel-lowe-leading-family-hotel-resort",
       "name": "Hotel Löwe - Leading Family Hotel & Resort",
       "slug": "hotel-lowe-leading-family-hotel-resort",
@@ -12246,34 +12582,6 @@
       "lat": 47.055735999999996,
       "lng": 10.6171701,
       "distanceToSlopesM": 1700,
-      "hasPhoto": true
-    },
-    {
-      "id": "serfaus-fiss-ladis-baby-kinder-hotel-laurentius",
-      "name": "Baby- & Kinder Hotel Laurentius",
-      "slug": "baby-kinder-hotel-laurentius",
-      "rating": 4.8,
-      "reviewCount": 400,
-      "priceLevel": null,
-      "priceFrom": 165,
-      "address": "Leiteweg 26, 6533 Fiss, Austria",
-      "lat": 47.0543157,
-      "lng": 10.6116177,
-      "distanceToSlopesM": 1300,
-      "hasPhoto": true
-    },
-    {
-      "id": "serfaus-fiss-ladis-hotel-bar",
-      "name": "Hotel Bär",
-      "slug": "hotel-bar",
-      "rating": 4.6,
-      "reviewCount": 461,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Herrenanger 9, 6534 Serfaus, Austria",
-      "lat": 47.039629999999995,
-      "lng": 10.6087259,
-      "distanceToSlopesM": 650,
       "hasPhoto": true
     },
     {
@@ -12333,17 +12641,17 @@
       "hasPhoto": true
     },
     {
-      "id": "serfaus-fiss-ladis-wellnessresidenz-schalber",
-      "name": "Wellnessresidenz Schalber",
-      "slug": "wellnessresidenz-schalber",
-      "rating": 4.8,
-      "reviewCount": 259,
+      "id": "serfaus-fiss-ladis-hotel-gebhard",
+      "name": "Hotel GEBHARD",
+      "slug": "hotel-gebhard",
+      "rating": 4.9,
+      "reviewCount": 229,
       "priceLevel": null,
-      "priceFrom": 150,
-      "address": "Dorfbahnstraße 15, 6534 Serfaus, Austria",
-      "lat": 47.037741399999994,
-      "lng": 10.6121485,
-      "distanceToSlopesM": 1000,
+      "priceFrom": 155,
+      "address": "Via-Claudia-Augusta 36, 6533 Fiss, Austria",
+      "lat": 47.0557781,
+      "lng": 10.6182724,
+      "distanceToSlopesM": 1750,
       "hasPhoto": true
     },
     {
@@ -12358,6 +12666,20 @@
       "lat": 47.0577718,
       "lng": 10.617815199999999,
       "distanceToSlopesM": 1900,
+      "hasPhoto": true
+    },
+    {
+      "id": "serfaus-fiss-ladis-hotel-dreisonnen",
+      "name": "Hotel DreiSonnen",
+      "slug": "hotel-dreisonnen",
+      "rating": 4.8,
+      "reviewCount": 223,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "u. Dorfstraße 17, 6534 Serfaus, Austria",
+      "lat": 47.037292099999995,
+      "lng": 10.6069631,
+      "distanceToSlopesM": 800,
       "hasPhoto": true
     }
   ],
@@ -12688,17 +13010,17 @@
       "hasPhoto": true
     },
     {
-      "id": "kuhtai-hotel-lisl-alpine-comfort",
-      "name": "Hotel Lisl - Alpine Comfort",
-      "slug": "hotel-lisl-alpine-comfort",
-      "rating": 5,
-      "reviewCount": 37,
+      "id": "kuhtai-hotel-edelweiss",
+      "name": "Hotel Edelweiss",
+      "slug": "hotel-edelweiss",
+      "rating": 4.3,
+      "reviewCount": 117,
       "priceLevel": null,
-      "priceFrom": 175,
-      "address": "Kühtai 43, 6183 Kühtai, Austria",
-      "lat": 47.2142106,
-      "lng": 11.0246001,
-      "distanceToSlopesM": 1250,
+      "priceFrom": 115,
+      "address": "Kühtai 32, 6183 Kühtai, Austria",
+      "lat": 47.2130477,
+      "lng": 11.021879499999999,
+      "distanceToSlopesM": 1050,
       "hasPhoto": true
     }
   ],
@@ -12743,20 +13065,6 @@
       "lat": 47.521636,
       "lng": 12.19178,
       "distanceToSlopesM": 2650,
-      "hasPhoto": true
-    },
-    {
-      "id": "soll-alpengasthof-gruberhof",
-      "name": "Alpengasthof Gruberhof",
-      "slug": "alpengasthof-gruberhof",
-      "rating": 4.6,
-      "reviewCount": 790,
-      "priceLevel": null,
-      "priceFrom": 145,
-      "address": "Bromberg 22, 6306 Söll, Austria",
-      "lat": 47.4881278,
-      "lng": 12.218093099999999,
-      "distanceToSlopesM": 1600,
       "hasPhoto": true
     },
     {
@@ -12816,48 +13124,6 @@
       "hasPhoto": true
     },
     {
-      "id": "soll-genusslandhotel-hochfilzer",
-      "name": "Genusslandhotel Hochfilzer",
-      "slug": "genusslandhotel-hochfilzer",
-      "rating": 4.7,
-      "reviewCount": 227,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Reit 1, 6306 Söll, Austria",
-      "lat": 47.503823,
-      "lng": 12.172738899999999,
-      "distanceToSlopesM": 2950,
-      "hasPhoto": true
-    },
-    {
-      "id": "soll-der-greil-wein-gourmethotel",
-      "name": "DER GREIL Wein & Gourmethotel",
-      "slug": "der-greil-wein-gourmethotel",
-      "rating": 4.8,
-      "reviewCount": 158,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "Pirchmoos 26, 6306 Söll, Austria",
-      "lat": 47.504761699999996,
-      "lng": 12.185768399999999,
-      "distanceToSlopesM": 2000,
-      "hasPhoto": true
-    },
-    {
-      "id": "soll-hotel-eggerwirt-betriebs-gmbh",
-      "name": "Hotel Eggerwirt Betriebs GmbH",
-      "slug": "hotel-eggerwirt-betriebs-gmbh",
-      "rating": 4.7,
-      "reviewCount": 169,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "Dorf 14, 6306 Söll, Austria",
-      "lat": 47.5041667,
-      "lng": 12.1941667,
-      "distanceToSlopesM": 1350,
-      "hasPhoto": true
-    },
-    {
       "id": "soll-hotel-gansleit-kg",
       "name": "Hotel Gänsleit KG",
       "slug": "hotel-gansleit-kg",
@@ -12869,6 +13135,48 @@
       "lat": 47.5044444,
       "lng": 12.1980556,
       "distanceToSlopesM": 1100,
+      "hasPhoto": true
+    },
+    {
+      "id": "soll-hotel-berghof",
+      "name": "Hotel Berghof",
+      "slug": "hotel-berghof",
+      "rating": 3.5,
+      "reviewCount": 629,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Stockach 33, 6306 Söll, Austria",
+      "lat": 47.5180618,
+      "lng": 12.201931799999999,
+      "distanceToSlopesM": 1950,
+      "hasPhoto": true
+    },
+    {
+      "id": "soll-pension-sonnenhof",
+      "name": "Pension Sonnenhof",
+      "slug": "pension-sonnenhof",
+      "rating": 5,
+      "reviewCount": 78,
+      "priceLevel": null,
+      "priceFrom": 180,
+      "address": "Pirchmoos 21, 6306 Söll, Austria",
+      "lat": 47.505205,
+      "lng": 12.183508999999999,
+      "distanceToSlopesM": 2150,
+      "hasPhoto": true
+    },
+    {
+      "id": "soll-hotel-alpenpanorama",
+      "name": "Hotel Alpenpanorama",
+      "slug": "hotel-alpenpanorama",
+      "rating": 4.6,
+      "reviewCount": 118,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "Sonnbichl 18, 6306 Söll, Austria",
+      "lat": 47.5088042,
+      "lng": 12.1948887,
+      "distanceToSlopesM": 1500,
       "hasPhoto": true
     }
   ],
@@ -13172,6 +13480,20 @@
       "hasPhoto": true
     },
     {
+      "id": "gerlos-hotel-innertalerhof",
+      "name": "Hotel Innertalerhof",
+      "slug": "hotel-innertalerhof",
+      "rating": 4.7,
+      "reviewCount": 171,
+      "priceLevel": null,
+      "priceFrom": 150,
+      "address": "Gerlos 320, 6281 Gerlos, Austria",
+      "lat": 47.2319335,
+      "lng": 12.0513043,
+      "distanceToSlopesM": 2500,
+      "hasPhoto": true
+    },
+    {
       "id": "gerlos-hotel-central",
       "name": "Hotel Central",
       "slug": "hotel-central",
@@ -13373,20 +13695,6 @@
     }
   ],
   "canazei": [
-    {
-      "id": "canazei-hotel-lupo-bianco-wellness-walking",
-      "name": "Hotel Lupo Bianco Wellness & Walking",
-      "slug": "hotel-lupo-bianco-wellness-walking",
-      "rating": 4.4,
-      "reviewCount": 1143,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "Strada Dolomites, 5, 38032 Canazei TN, Italy",
-      "lat": 46.490826999999996,
-      "lng": 11.781372,
-      "distanceToSlopesM": 1850,
-      "hasPhoto": true
-    },
     {
       "id": "canazei-hotel-la-perla-wellness-beauty",
       "name": "Hotel La Perla Wellness & Beauty",
@@ -14442,6 +14750,20 @@
   ],
   "gressoney": [
     {
+      "id": "gressoney-gran-baita-hotel-e-ristorante",
+      "name": "Gran Baita Hotel e ristorante",
+      "slug": "gran-baita-hotel-e-ristorante",
+      "rating": 4.4,
+      "reviewCount": 343,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Strada Castello Savoia, 26, 11025 Gressoney-Saint-Jean AO, Italy",
+      "lat": 45.7695313,
+      "lng": 7.8263419999999995,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
       "id": "gressoney-hotel-gressoney",
       "name": "Hotel Gressoney",
       "slug": "hotel-gressoney",
@@ -14510,20 +14832,6 @@
       "address": "Str. Valiares, 44, 39030 S. Vigilio BZ, Italy",
       "lat": 46.6990488,
       "lng": 11.9273616,
-      "distanceToSlopesM": 4700,
-      "hasPhoto": true
-    },
-    {
-      "id": "kronplatz-hotel-rudolf",
-      "name": "Hotel Rudolf",
-      "slug": "hotel-rudolf",
-      "rating": 4.8,
-      "reviewCount": 825,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "Via Riscone, 33, 39031 Brunico BZ, Italy",
-      "lat": 46.778726,
-      "lng": 11.9441322,
       "distanceToSlopesM": 4700,
       "hasPhoto": true
     },
@@ -14612,17 +14920,17 @@
       "hasPhoto": true
     },
     {
-      "id": "kronplatz-hotel-mareo-dolomites",
-      "name": "Hotel Mareo Dolomites",
-      "slug": "hotel-mareo-dolomites",
+      "id": "kronplatz-bio-alpine-hotel-gran-foda-biohotels",
+      "name": "Bio Alpine Hotel Gran Foda' - BIOHotels",
+      "slug": "bio-alpine-hotel-gran-foda-biohotels",
       "rating": 4.8,
-      "reviewCount": 389,
+      "reviewCount": 200,
       "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Str. al Plan Dessora, 17, 39030 S. Vigilio BZ, Italy",
-      "lat": 46.69945140000001,
-      "lng": 11.9363881,
-      "distanceToSlopesM": 4400,
+      "priceFrom": 135,
+      "address": "Strada Furcia, 23, 39030 S. Vigilio BZ, Italy",
+      "lat": 46.7249007,
+      "lng": 11.9613395,
+      "distanceToSlopesM": 1450,
       "hasPhoto": true
     }
   ],
@@ -14642,6 +14950,20 @@
       "hasPhoto": true
     },
     {
+      "id": "san-martino-di-castrozza-residence-lastei",
+      "name": "Residence Lastei",
+      "slug": "residence-lastei",
+      "rating": 4.5,
+      "reviewCount": 653,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "V. Hermann Panzer, 3, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.2610744,
+      "lng": 11.7979834,
+      "distanceToSlopesM": 150,
+      "hasPhoto": true
+    },
+    {
       "id": "san-martino-di-castrozza-hotel-san-martino",
       "name": "Hotel San Martino",
       "slug": "hotel-san-martino",
@@ -14653,6 +14975,76 @@
       "lat": 46.266325699999996,
       "lng": 11.8026071,
       "distanceToSlopesM": 550,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-martino-di-castrozza-hotel-letizia-feel-at-home-in-the-dolomites",
+      "name": "Hotel Letizia \"Feel at Home in the Dolomites\"",
+      "slug": "hotel-letizia-feel-at-home-in-the-dolomites",
+      "rating": 4.8,
+      "reviewCount": 382,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Via Colbricon, 6, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.2629182,
+      "lng": 11.8023705,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-martino-di-castrozza-hotel-belvedere",
+      "name": "Hotel Belvedere",
+      "slug": "hotel-belvedere",
+      "rating": 4.5,
+      "reviewCount": 476,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Via Passo Rolle, 247, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.2642638,
+      "lng": 11.801541499999999,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-martino-di-castrozza-park-hotel-miramonti",
+      "name": "Park Hotel Miramonti",
+      "slug": "park-hotel-miramonti",
+      "rating": 4.6,
+      "reviewCount": 401,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "V. Hermann Panzer, 2, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.2617974,
+      "lng": 11.7986965,
+      "distanceToSlopesM": 50,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-martino-di-castrozza-family-hotel-panorama",
+      "name": "Family Hotel Panorama",
+      "slug": "family-hotel-panorama",
+      "rating": 4.7,
+      "reviewCount": 305,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Via Cavallazza, 14, 38058 San Martino di Castrozza TN, Italy",
+      "lat": 46.2628213,
+      "lng": 11.7991618,
+      "distanceToSlopesM": 100,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-martino-di-castrozza-stalon-hotel-alpine-chic",
+      "name": "Stalon Hotel Alpine Chic",
+      "slug": "stalon-hotel-alpine-chic",
+      "rating": 4.7,
+      "reviewCount": 293,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "Via Pezgaiart, 21, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.261338300000006,
+      "lng": 11.8066631,
+      "distanceToSlopesM": 600,
       "hasPhoto": true
     },
     {
@@ -14670,17 +15062,45 @@
       "hasPhoto": true
     },
     {
-      "id": "san-martino-di-castrozza-albergo-sayonara",
-      "name": "Albergo Sayonara",
-      "slug": "albergo-sayonara",
-      "rating": 4.6,
-      "reviewCount": 278,
+      "id": "san-martino-di-castrozza-hotel-cima-rosetta-worldhotels-distinctive",
+      "name": "Hotel Cima Rosetta, WorldHotels Distinctive",
+      "slug": "hotel-cima-rosetta-worldhotels-distinctive",
+      "rating": 4.3,
+      "reviewCount": 454,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Via Passo Rolle, 151, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.262007200000006,
+      "lng": 11.8015723,
+      "distanceToSlopesM": 200,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-martino-di-castrozza-hotel-cristallo-orsingher-san-martino-di-castrozza",
+      "name": "Hotel Cristallo & Orsingher-San Martino di Castrozza",
+      "slug": "hotel-cristallo-orsingher-san-martino-di-castrozza",
+      "rating": 4.5,
+      "reviewCount": 340,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Via Passo Rolle, 55, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.258609799999995,
+      "lng": 11.802188899999999,
+      "distanceToSlopesM": 450,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-martino-di-castrozza-aparthotel-sporting",
+      "name": "Aparthotel SPORTING",
+      "slug": "aparthotel-sporting",
+      "rating": 4.2,
+      "reviewCount": 512,
       "priceLevel": null,
       "priceFrom": 105,
-      "address": "Via Passo Rolle, 35, 38054 San Martino di Castrozza TN, Italy",
-      "lat": 46.257492,
-      "lng": 11.802023799999999,
-      "distanceToSlopesM": 550,
+      "address": "Via Fontanelle, 15, 38054 San Martino di Castrozza TN, Italy",
+      "lat": 46.2615597,
+      "lng": 11.804476699999999,
+      "distanceToSlopesM": 400,
       "hasPhoto": true
     }
   ],
@@ -14800,20 +15220,6 @@
       "hasPhoto": true
     },
     {
-      "id": "passo-tonale-grand-hotel-miramonti",
-      "name": "Grand Hotel Miramonti",
-      "slug": "grand-hotel-miramonti",
-      "rating": 4.1,
-      "reviewCount": 830,
-      "priceLevel": null,
-      "priceFrom": 85,
-      "address": "V. Nazionale, 4, 38029 Passo del Tonale TN, Italy",
-      "lat": 46.2585793,
-      "lng": 10.583509399999999,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
       "id": "passo-tonale-sport-hotel-vittoria-passo-del-tonale",
       "name": "Sport Hotel Vittoria - Passo del Tonale",
       "slug": "sport-hotel-vittoria-passo-del-tonale",
@@ -14928,17 +15334,17 @@
       "hasPhoto": true
     },
     {
-      "id": "folgarida-marilleva-hotel-derby",
-      "name": "Hotel Derby",
-      "slug": "hotel-derby",
-      "rating": 4.7,
-      "reviewCount": 591,
+      "id": "folgarida-marilleva-ravelli-sporting-family-hotel",
+      "name": "Ravelli Sporting Family Hotel",
+      "slug": "ravelli-sporting-family-hotel",
+      "rating": 4.6,
+      "reviewCount": 717,
       "priceLevel": null,
-      "priceFrom": 115,
-      "address": "Via Campiglio, 212, 38025 Dimaro Folgarida TN, Italy",
-      "lat": 46.306320199999995,
-      "lng": 10.8636255,
-      "distanceToSlopesM": 850,
+      "priceFrom": 120,
+      "address": "Via Marilleva, 1, 38020 Marilleva TN, Italy",
+      "lat": 46.3147354,
+      "lng": 10.811969699999999,
+      "distanceToSlopesM": 4050,
       "hasPhoto": true
     },
     {
@@ -14953,6 +15359,34 @@
       "lat": 46.299793099999995,
       "lng": 10.8671747,
       "distanceToSlopesM": 1600,
+      "hasPhoto": true
+    },
+    {
+      "id": "folgarida-marilleva-luna-wellness-hotel",
+      "name": "Luna Wellness Hotel",
+      "slug": "luna-wellness-hotel",
+      "rating": 4.5,
+      "reviewCount": 545,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Str. dei Brenzi, 32, 38025 Folgarida TN, Italy",
+      "lat": 46.3051198,
+      "lng": 10.862861899999999,
+      "distanceToSlopesM": 1000,
+      "hasPhoto": true
+    },
+    {
+      "id": "folgarida-marilleva-hotel-negritella",
+      "name": "Hotel Negritella",
+      "slug": "hotel-negritella",
+      "rating": 4.8,
+      "reviewCount": 330,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "Piazzale Belvedere, 28, 38025 Folgarida TN, Italy",
+      "lat": 46.3000827,
+      "lng": 10.8671729,
+      "distanceToSlopesM": 1550,
       "hasPhoto": true
     },
     {
@@ -15009,20 +15443,6 @@
       "lat": 46.3051971,
       "lng": 10.8630964,
       "distanceToSlopesM": 1000,
-      "hasPhoto": true
-    },
-    {
-      "id": "folgarida-marilleva-nivis-hotel",
-      "name": "Nivis Hotel",
-      "slug": "nivis-hotel",
-      "rating": 4.9,
-      "reviewCount": 111,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Str. del Roccolo, 39, 38025 Folgarida TN, Italy",
-      "lat": 46.3019093,
-      "lng": 10.8664566,
-      "distanceToSlopesM": 1350,
       "hasPhoto": true
     }
   ],
@@ -15216,20 +15636,6 @@
   ],
   "praz-sur-arly": [
     {
-      "id": "praz-sur-arly-belambra-clubs-l-alisier",
-      "name": "Belambra Clubs \"L'Alisier\"",
-      "slug": "belambra-clubs-l-alisier",
-      "rating": 3.7,
-      "reviewCount": 768,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "476 Rte du Val d'Arly, 74120 Praz-sur-Arly, France",
-      "lat": 45.836161999999995,
-      "lng": 6.565811999999999,
-      "distanceToSlopesM": 500,
-      "hasPhoto": true
-    },
-    {
       "id": "praz-sur-arly-hotel-spa-la-griyotire",
       "name": "Hôtel Spa La Griyotire",
       "slug": "hotel-spa-la-griyotire",
@@ -15376,6 +15782,34 @@
       "hasPhoto": true
     },
     {
+      "id": "saint-pierre-de-chartreuse-au-chalet-du-planolet",
+      "name": "Au Chalet Du Planolet",
+      "slug": "au-chalet-du-planolet",
+      "rating": 4.5,
+      "reviewCount": 156,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "518 Le Souillet, 38380 Saint-Pierre-d'Entremont, France",
+      "lat": 45.367672,
+      "lng": 5.841355,
+      "distanceToSlopesM": 4950,
+      "hasPhoto": true
+    },
+    {
+      "id": "saint-pierre-de-chartreuse-les-ateliers-du-cucheron-chambres-d-hotes-spa",
+      "name": "Les Ateliers du Cucheron - chambres d'hôtes & spa",
+      "slug": "les-ateliers-du-cucheron-chambres-d-hotes-spa",
+      "rating": 4.8,
+      "reviewCount": 94,
+      "priceLevel": null,
+      "priceFrom": 160,
+      "address": "Col du Cucheron, 7750 Rte du Cucheron, 38380 Saint-Pierre-d'Entremont, France",
+      "lat": 45.365381,
+      "lng": 5.8341259999999995,
+      "distanceToSlopesM": 4350,
+      "hasPhoto": true
+    },
+    {
       "id": "saint-pierre-de-chartreuse-le-valombre",
       "name": "Le ValOmbré",
       "slug": "le-valombre",
@@ -15387,6 +15821,20 @@
       "lat": 45.3376877,
       "lng": 5.802667,
       "distanceToSlopesM": 500,
+      "hasPhoto": true
+    },
+    {
+      "id": "saint-pierre-de-chartreuse-les-chalets-saint-hugues",
+      "name": "Les Chalets Saint-Hugues",
+      "slug": "les-chalets-saint-hugues",
+      "rating": 4.3,
+      "reviewCount": 105,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "137 route de Chamechaude, 38380 Saint-Pierre-de-Chartreuse, France",
+      "lat": 45.3219032,
+      "lng": 5.8046798,
+      "distanceToSlopesM": 1700,
       "hasPhoto": true
     },
     {
@@ -15548,20 +15996,6 @@
       "hasPhoto": true
     },
     {
-      "id": "santa-caterina-valfurva-hotel-cevedale",
-      "name": "Hotel Cevedale",
-      "slug": "hotel-cevedale",
-      "rating": 4.6,
-      "reviewCount": 189,
-      "priceLevel": null,
-      "priceFrom": 110,
-      "address": "Via Magliaga, 15, 23030 Santa Caterina SO, Italy",
-      "lat": 46.4068866,
-      "lng": 10.5021284,
-      "distanceToSlopesM": 1600,
-      "hasPhoto": true
-    },
-    {
       "id": "santa-caterina-valfurva-hotel-baita-fiorita",
       "name": "Hotel Baita Fiorita",
       "slug": "hotel-baita-fiorita",
@@ -15573,6 +16007,20 @@
       "lat": 46.4123357,
       "lng": 10.4950995,
       "distanceToSlopesM": 850,
+      "hasPhoto": true
+    },
+    {
+      "id": "santa-caterina-valfurva-hotel-cevedale",
+      "name": "Hotel Cevedale",
+      "slug": "hotel-cevedale",
+      "rating": 4.6,
+      "reviewCount": 189,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Via Magliaga, 15, 23030 Santa Caterina SO, Italy",
+      "lat": 46.4068866,
+      "lng": 10.5021284,
+      "distanceToSlopesM": 1600,
       "hasPhoto": true
     },
     {
@@ -15836,6 +16284,34 @@
       "hasPhoto": true
     },
     {
+      "id": "andalo-astoria-comfort-hotel-andalo",
+      "name": "Astoria Comfort Hotel - Andalo",
+      "slug": "astoria-comfort-hotel-andalo",
+      "rating": 4.8,
+      "reviewCount": 439,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Via Crosare, 7, 38010 Andalo TN, Italy",
+      "lat": 46.166236,
+      "lng": 11.002367,
+      "distanceToSlopesM": 750,
+      "hasPhoto": true
+    },
+    {
+      "id": "andalo-il-piccolo-dolomiti-resort",
+      "name": "Il Piccolo Dolomiti Resort",
+      "slug": "il-piccolo-dolomiti-resort",
+      "rating": 4.9,
+      "reviewCount": 311,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "Via Pegorar, 2, 38010 Andalo TN, Italy",
+      "lat": 46.167041499999996,
+      "lng": 10.999312,
+      "distanceToSlopesM": 1000,
+      "hasPhoto": true
+    },
+    {
       "id": "andalo-corona-dolomites-hotel-andalo",
       "name": "Corona Dolomites Hotel Andalo",
       "slug": "corona-dolomites-hotel-andalo",
@@ -15850,6 +16326,20 @@
       "hasPhoto": true
     },
     {
+      "id": "andalo-hotel-la-baita",
+      "name": "Hotel La Baita",
+      "slug": "hotel-la-baita",
+      "rating": 4.6,
+      "reviewCount": 356,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Via Monego, 1, 38010 Andalo TN, Italy",
+      "lat": 46.1627047,
+      "lng": 11.0082621,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
       "id": "andalo-hotel-eden-andalo-mountain-lifestyle",
       "name": "Hotel Eden Andalo - Mountain Lifestyle",
       "slug": "hotel-eden-andalo-mountain-lifestyle",
@@ -15860,6 +16350,20 @@
       "address": "Via Paganella, 25, 38010 Andalo TN, Italy",
       "lat": 46.1668215,
       "lng": 11.0071438,
+      "distanceToSlopesM": 450,
+      "hasPhoto": true
+    },
+    {
+      "id": "andalo-hotel-andalo",
+      "name": "Hotel Andalo",
+      "slug": "hotel-andalo",
+      "rating": 4.2,
+      "reviewCount": 311,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Piazzale Paganella, 7, 38010 Andalo TN, Italy",
+      "lat": 46.1643748,
+      "lng": 11.006186900000001,
       "distanceToSlopesM": 450,
       "hasPhoto": true
     }
@@ -15996,90 +16500,6 @@
   ],
   "brides-les-bains": [
     {
-      "id": "brides-les-bains-b-b-home-brides-les-bains-les-3-vallees",
-      "name": "B&B HOME Brides-les-Bains Les 3 Vallées",
-      "slug": "b-b-home-brides-les-bains-les-3-vallees",
-      "rating": 3.7,
-      "reviewCount": 768,
-      "priceLevel": null,
-      "priceFrom": 115,
-      "address": "1 Allée du Parc, 73570 Brides-les-Bains, France",
-      "lat": 45.4520717,
-      "lng": 6.5683622999999995,
-      "distanceToSlopesM": 250,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-golf-hotel",
-      "name": "Golf Hôtel",
-      "slug": "golf-hotel",
-      "rating": 4.4,
-      "reviewCount": 239,
-      "priceLevel": null,
-      "priceFrom": 125,
-      "address": "20 Av. du Comte Greyfié de Bellecombe, 73570 Brides-les-Bains, France",
-      "lat": 45.452923999999996,
-      "lng": 6.5642347999999995,
-      "distanceToSlopesM": 400,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-altis-restaurant-le-val-vert",
-      "name": "Hôtel Altis - Restaurant Le Val Vert",
-      "slug": "hotel-altis-restaurant-le-val-vert",
-      "rating": 4.5,
-      "reviewCount": 203,
-      "priceLevel": null,
-      "priceFrom": 115,
-      "address": "Quartier de l'Olympe, 73571 Brides-les-Bains, France",
-      "lat": 45.4516667,
-      "lng": 6.5675,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-le-centre",
-      "name": "Hotel Le Centre",
-      "slug": "hotel-le-centre",
-      "rating": 4.3,
-      "reviewCount": 227,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "Rue Aristide Briand BP 05, 73571 Brides-les-Bains, France",
-      "lat": 45.4524626,
-      "lng": 6.566217,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-logis-hotel-amelie-restaurant-les-cerisiers",
-      "name": "Logis Hôtel Amélie Restaurant les Cerisiers",
-      "slug": "logis-hotel-amelie-restaurant-les-cerisiers",
-      "rating": 4.3,
-      "reviewCount": 184,
-      "priceLevel": null,
-      "priceFrom": 110,
-      "address": "Rue Emile Machet, 73570 Brides-les-Bains, France",
-      "lat": 45.4522133,
-      "lng": 6.5667035,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-l-hermitage-brides-les-bains",
-      "name": "Hôtel l'Hermitage Brides-les-Bains",
-      "slug": "hotel-l-hermitage-brides-les-bains",
-      "rating": 4.7,
-      "reviewCount": 92,
-      "priceLevel": null,
-      "priceFrom": 125,
-      "address": "32 Rue Emile Machet, 73570 Brides-les-Bains, France",
-      "lat": 45.451852099999996,
-      "lng": 6.5677571,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
       "id": "brides-les-bains-hotel-les-chalets",
       "name": "Hôtel Les Chalets",
       "slug": "hotel-les-chalets",
@@ -16091,76 +16511,6 @@
       "lat": 45.451344999999996,
       "lng": 6.5653383000000005,
       "distanceToSlopesM": 450,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-le-verseau",
-      "name": "Hôtel Le Verseau",
-      "slug": "hotel-le-verseau",
-      "rating": 4.3,
-      "reviewCount": 140,
-      "priceLevel": null,
-      "priceFrom": 125,
-      "address": "Rue du 8 Mai 1945, 73570 Brides-les-Bains, France",
-      "lat": 45.4508438,
-      "lng": 6.5691733,
-      "distanceToSlopesM": 400,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-les-alpes",
-      "name": "Hôtel les Alpes",
-      "slug": "hotel-les-alpes",
-      "rating": 4.5,
-      "reviewCount": 70,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "15 Rue du Dr Paul Mathieu, 73570 Brides-les-Bains, France",
-      "lat": 45.4511252,
-      "lng": 6.567081700000001,
-      "distanceToSlopesM": 400,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-les-bains",
-      "name": "Hôtel Les Bains",
-      "slug": "hotel-les-bains",
-      "rating": 4.2,
-      "reviewCount": 99,
-      "priceLevel": null,
-      "priceFrom": 115,
-      "address": "Rue Joseph Fontanet, 73570 Brides-les-Bains, France",
-      "lat": 45.451950599999996,
-      "lng": 6.5724449,
-      "distanceToSlopesM": 400,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-la-vanoise-1825-brides-les-bains",
-      "name": "Hôtel La Vanoise 1825 Brides-les-Bains",
-      "slug": "hotel-la-vanoise-1825-brides-les-bains",
-      "rating": 4.4,
-      "reviewCount": 68,
-      "priceLevel": null,
-      "priceFrom": 115,
-      "address": "Rue Emile Machet, 73570 Brides-les-Bains, France",
-      "lat": 45.4522155,
-      "lng": 6.566857499999999,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
-      "id": "brides-les-bains-hotel-le-belvedere",
-      "name": "Hôtel Le Belvédère",
-      "slug": "hotel-le-belvedere",
-      "rating": 3.9,
-      "reviewCount": 98,
-      "priceLevel": null,
-      "priceFrom": 95,
-      "address": "2 Rue du 8 Mai 1945, 73570 Brides-les-Bains, France",
-      "lat": 45.4512508,
-      "lng": 6.5692904,
-      "distanceToSlopesM": 350,
       "hasPhoto": true
     }
   ],
@@ -16382,20 +16732,6 @@
       "hasPhoto": true
     },
     {
-      "id": "chiesa-in-valmalenco-hotel-la-lanterna",
-      "name": "Hotel La Lanterna",
-      "slug": "hotel-la-lanterna",
-      "rating": 4.4,
-      "reviewCount": 139,
-      "priceLevel": null,
-      "priceFrom": 110,
-      "address": "Via Bernina, 88, 23023 Chiesa In Valmalenco SO, Italy",
-      "lat": 46.2729072,
-      "lng": 9.8499937,
-      "distanceToSlopesM": 1400,
-      "hasPhoto": true
-    },
-    {
       "id": "chiesa-in-valmalenco-meuble-la-betulla",
       "name": "Meublè la Betulla",
       "slug": "meuble-la-betulla",
@@ -16524,58 +16860,16 @@
       "hasPhoto": true
     },
     {
-      "id": "aprica-albergo-ginepro",
-      "name": "Albergo \"Ginepro\"",
-      "slug": "albergo-ginepro",
-      "rating": 4.2,
-      "reviewCount": 208,
+      "id": "aprica-serenella",
+      "name": "Serenella",
+      "slug": "serenella",
+      "rating": 4.5,
+      "reviewCount": 89,
       "priceLevel": null,
       "priceFrom": 105,
-      "address": "Via Adamello, 27, 23031 Aprica BS, Italy",
-      "lat": 46.1529294,
-      "lng": 10.156855,
-      "distanceToSlopesM": 300,
-      "hasPhoto": true
-    },
-    {
-      "id": "aprica-hotel-posta",
-      "name": "Hotel Posta",
-      "slug": "hotel-posta",
-      "rating": 3.9,
-      "reviewCount": 284,
-      "priceLevel": null,
-      "priceFrom": 105,
-      "address": "Corso Roma, 16, 23031 Aprica SO, Italy",
-      "lat": 46.1532753,
-      "lng": 10.1476812,
-      "distanceToSlopesM": 500,
-      "hasPhoto": true
-    },
-    {
-      "id": "aprica-residence-hotel-biancaneve",
-      "name": "Residence Hotel Biancaneve",
-      "slug": "residence-hotel-biancaneve",
-      "rating": 4.3,
-      "reviewCount": 163,
-      "priceLevel": null,
-      "priceFrom": 90,
-      "address": "Via Italia, 33, 23031 Aprica SO, Italy",
-      "lat": 46.152084599999995,
-      "lng": 10.146744799999999,
-      "distanceToSlopesM": 600,
-      "hasPhoto": true
-    },
-    {
-      "id": "aprica-park-hotel-bozzi",
-      "name": "Park Hotel Bozzi",
-      "slug": "park-hotel-bozzi",
-      "rating": 4,
-      "reviewCount": 183,
-      "priceLevel": null,
-      "priceFrom": 85,
-      "address": "Via Europa, 40, 23031 Aprica SO, Italy",
-      "lat": 46.1518283,
-      "lng": 10.152813799999999,
+      "address": "Via Europa, 142, 23031 Aprica SO, Italy",
+      "lat": 46.1541816,
+      "lng": 10.1584454,
       "distanceToSlopesM": 350,
       "hasPhoto": true
     }
@@ -16849,6 +17143,20 @@
       "lat": 46.2957843,
       "lng": 7.3967035999999995,
       "distanceToSlopesM": 750,
+      "hasPhoto": true
+    },
+    {
+      "id": "anzere-hotel-zodiaque",
+      "name": "Hôtel Zodiaque",
+      "slug": "hotel-zodiaque",
+      "rating": 4.2,
+      "reviewCount": 220,
+      "priceLevel": null,
+      "priceFrom": 175,
+      "address": "Pl. du Village 8, 1972 Anzère, Switzerland",
+      "lat": 46.2974002,
+      "lng": 7.400162600000001,
+      "distanceToSlopesM": 500,
       "hasPhoto": true
     }
   ],
@@ -17252,17 +17560,31 @@
       "hasPhoto": true
     },
     {
-      "id": "lermoos-aparthotel-ansitz-felsenheim",
-      "name": "Aparthotel Ansitz Felsenheim",
-      "slug": "aparthotel-ansitz-felsenheim",
-      "rating": 4.9,
-      "reviewCount": 122,
+      "id": "lermoos-hotel-restaurant-grieserhof",
+      "name": "Hotel Restaurant Grieserhof",
+      "slug": "hotel-restaurant-grieserhof",
+      "rating": 4.2,
+      "reviewCount": 524,
       "priceLevel": null,
-      "priceFrom": 165,
-      "address": "Mösle 1, 6631 Lermoos, Austria",
-      "lat": 47.3964553,
-      "lng": 10.887501799999999,
-      "distanceToSlopesM": 1400,
+      "priceFrom": 125,
+      "address": "Gries 18, 6631 Lermoos, Austria",
+      "lat": 47.4072126,
+      "lng": 10.8684812,
+      "distanceToSlopesM": 900,
+      "hasPhoto": true
+    },
+    {
+      "id": "lermoos-hotel-rustika-lermoos",
+      "name": "Hotel Rustika - Lermoos",
+      "slug": "hotel-rustika-lermoos",
+      "rating": 4.5,
+      "reviewCount": 284,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "Oberdorf 16, 6631 Lermoos, Austria",
+      "lat": 47.397607,
+      "lng": 10.884877,
+      "distanceToSlopesM": 1250,
       "hasPhoto": true
     },
     {
@@ -17280,17 +17602,31 @@
       "hasPhoto": true
     },
     {
-      "id": "lermoos-pur-suites-chalets",
-      "name": "PUR. Suites & Chalets",
-      "slug": "pur-suites-chalets",
-      "rating": 4.6,
-      "reviewCount": 136,
+      "id": "lermoos-lermooser",
+      "name": "LERMOOSER",
+      "slug": "lermooser",
+      "rating": 5,
+      "reviewCount": 106,
       "priceLevel": null,
-      "priceFrom": 140,
-      "address": "Silbergasse 1, 6631 Lermoos, Austria",
-      "lat": 47.398694,
-      "lng": 10.8881109,
-      "distanceToSlopesM": 1200,
+      "priceFrom": 180,
+      "address": "Danielstraße 23, 6631 Lermoos, Austria",
+      "lat": 47.4051798,
+      "lng": 10.8788467,
+      "distanceToSlopesM": 350,
+      "hasPhoto": true
+    },
+    {
+      "id": "lermoos-hotel-garni-alpenhof-lermoos-ihre-fruhstuckspensio",
+      "name": "Hotel Garni Alpenhof Lermoos - Ihre Frühstückspension in Lermoos",
+      "slug": "hotel-garni-alpenhof-lermoos-ihre-fruhstuckspensio",
+      "rating": 4.8,
+      "reviewCount": 104,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "Innsbrucker Str. 28, 6631 Lermoos, Austria",
+      "lat": 47.3968194,
+      "lng": 10.8873159,
+      "distanceToSlopesM": 1350,
       "hasPhoto": true
     }
   ],
@@ -17310,20 +17646,6 @@
       "hasPhoto": true
     },
     {
-      "id": "bessans-le-petit-bonheur",
-      "name": "Le Petit Bonheur",
-      "slug": "le-petit-bonheur",
-      "rating": 4.7,
-      "reviewCount": 163,
-      "priceLevel": null,
-      "priceFrom": 155,
-      "address": "170 Rue des Conchettes, 73480 Bessans, France",
-      "lat": 45.3220299,
-      "lng": 6.9996718,
-      "distanceToSlopesM": 1000,
-      "hasPhoto": true
-    },
-    {
       "id": "bessans-hotel-restaurant-la-vanoise",
       "name": "Hotel Restaurant La Vanoise",
       "slug": "hotel-restaurant-la-vanoise",
@@ -17335,20 +17657,6 @@
       "lat": 45.320291100000006,
       "lng": 6.9899774,
       "distanceToSlopesM": 700,
-      "hasPhoto": true
-    },
-    {
-      "id": "bessans-chez-mamie-anna",
-      "name": "Chez Mamie Anna",
-      "slug": "chez-mamie-anna",
-      "rating": 4.9,
-      "reviewCount": 87,
-      "priceLevel": null,
-      "priceFrom": 165,
-      "address": "233 Rue de Saint-Etienne, 73480 Bessans, France",
-      "lat": 45.322978,
-      "lng": 6.998606499999999,
-      "distanceToSlopesM": 1050,
       "hasPhoto": true
     }
   ],
@@ -17452,20 +17760,6 @@
       "hasPhoto": true
     },
     {
-      "id": "la-chapelle-d-abondance-costa-nuova",
-      "name": "COSTA NUOVA",
-      "slug": "costa-nuova",
-      "rating": 4,
-      "reviewCount": 111,
-      "priceLevel": null,
-      "priceFrom": 95,
-      "address": "bp 15 vers l'eglise 646 route de, 74360 La Chapelle-d'Abondance, France",
-      "lat": 46.2957262,
-      "lng": 6.7798057,
-      "distanceToSlopesM": 2250,
-      "hasPhoto": true
-    },
-    {
       "id": "la-chapelle-d-abondance-oasis-les-portes-du-soleil-mountain-resort",
       "name": "Oasis Les Portes du Soleil Mountain Resort",
       "slug": "oasis-les-portes-du-soleil-mountain-resort",
@@ -17512,6 +17806,20 @@
   ],
   "limone-piemonte": [
     {
+      "id": "limone-piemonte-albergo-ristorante-edelweiss",
+      "name": "Albergo Ristorante Edelweiss",
+      "slug": "albergo-ristorante-edelweiss",
+      "rating": 4.3,
+      "reviewCount": 459,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Frazione Panice Sottana, 10, 12015 Limone Piemonte CN, Italy",
+      "lat": 44.179189,
+      "lng": 7.5670386999999995,
+      "distanceToSlopesM": 2000,
+      "hasPhoto": true
+    },
+    {
       "id": "limone-piemonte-grand-hotel-principe",
       "name": "Grand Hotel Principe",
       "slug": "grand-hotel-principe",
@@ -17554,6 +17862,20 @@
       "hasPhoto": true
     },
     {
+      "id": "limone-piemonte-hotel-l-artisin",
+      "name": "Hotel L'Artisin",
+      "slug": "hotel-l-artisin",
+      "rating": 4.4,
+      "reviewCount": 175,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Via Almellina, 26, 12015 Limone Piemonte CN, Italy",
+      "lat": 44.1993103,
+      "lng": 7.5887364999999996,
+      "distanceToSlopesM": 950,
+      "hasPhoto": true
+    },
+    {
       "id": "limone-piemonte-chalet-bragard-boutique-chalet-spa",
       "name": "CHALET BRAGARD-Boutique Chalet & Spa",
       "slug": "chalet-bragard-boutique-chalet-spa",
@@ -17582,6 +17904,34 @@
       "hasPhoto": true
     },
     {
+      "id": "limone-piemonte-petit-meuble",
+      "name": "Petit Meuble",
+      "slug": "petit-meuble",
+      "rating": 4.6,
+      "reviewCount": 107,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Via Genova, 59, 12015 Limone Piemonte CN, Italy",
+      "lat": 44.1987495,
+      "lng": 7.5816626,
+      "distanceToSlopesM": 450,
+      "hasPhoto": true
+    },
+    {
+      "id": "limone-piemonte-limone-palace-hotel",
+      "name": "Limone Palace Hotel",
+      "slug": "limone-palace-hotel",
+      "rating": 4.2,
+      "reviewCount": 146,
+      "priceLevel": null,
+      "priceFrom": 95,
+      "address": "Piazza Risorgimento, 10, 12015 Limone Piemonte CN, Italy",
+      "lat": 44.2032471,
+      "lng": 7.5773191,
+      "distanceToSlopesM": 850,
+      "hasPhoto": true
+    },
+    {
       "id": "limone-piemonte-chalet-morel",
       "name": "Chalet Morel",
       "slug": "chalet-morel",
@@ -17593,6 +17943,20 @@
       "lat": 44.1666039,
       "lng": 7.561166900000001,
       "distanceToSlopesM": 3500,
+      "hasPhoto": true
+    },
+    {
+      "id": "limone-piemonte-borgo-fantino-srl",
+      "name": "Borgo Fantino Srl",
+      "slug": "borgo-fantino-srl",
+      "rating": 4.1,
+      "reviewCount": 119,
+      "priceLevel": null,
+      "priceFrom": 95,
+      "address": "Corso Nizza, 54, 12015 Limone Piemonte CN, Italy",
+      "lat": 44.1912689,
+      "lng": 7.5685687,
+      "distanceToSlopesM": 900,
       "hasPhoto": true
     },
     {
@@ -17725,6 +18089,20 @@
       "lat": 46.0437248,
       "lng": 9.7517619,
       "distanceToSlopesM": 3500,
+      "hasPhoto": true
+    },
+    {
+      "id": "foppolo-hotel-crystal-venfra-ltd",
+      "name": "HOTEL CRYSTAL VENFRA Ltd.",
+      "slug": "hotel-crystal-venfra-ltd",
+      "rating": 3.5,
+      "reviewCount": 139,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "53, V. Ronchi, 24010 Foppolo BG, Italy",
+      "lat": 46.042340599999996,
+      "lng": 9.7572821,
+      "distanceToSlopesM": 3300,
       "hasPhoto": true
     }
   ],
@@ -18344,6 +18722,34 @@
       "hasPhoto": true
     },
     {
+      "id": "nassfeld-almhotel-karnten-am-nassfeld",
+      "name": "Almhotel Kärnten am Nassfeld",
+      "slug": "almhotel-karnten-am-nassfeld",
+      "rating": 4.5,
+      "reviewCount": 480,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Sonnenalpe Nassfeld 91, 9620 Sonnenalpe Nassfeld, Austria",
+      "lat": 46.565911,
+      "lng": 13.2802452,
+      "distanceToSlopesM": 2450,
+      "hasPhoto": true
+    },
+    {
+      "id": "nassfeld-hotel-spa-wulfenia",
+      "name": "Hotel & SPA Wulfenia",
+      "slug": "hotel-spa-wulfenia",
+      "rating": 4.6,
+      "reviewCount": 285,
+      "priceLevel": null,
+      "priceFrom": 150,
+      "address": "Sonnenalpe Nassfeld 7, 9620 Sonnenalpe Nassfeld, Austria",
+      "lat": 46.5636111,
+      "lng": 13.2733333,
+      "distanceToSlopesM": 2350,
+      "hasPhoto": true
+    },
+    {
       "id": "nassfeld-hotel-nassfeld-restaurant",
       "name": "Hotel Nassfeld & Restaurant",
       "slug": "hotel-nassfeld-restaurant",
@@ -18778,20 +19184,6 @@
   ],
   "brauneck-lenggries": [
     {
-      "id": "brauneck-lenggries-quengeralm",
-      "name": "Quengeralm",
-      "slug": "quengeralm",
-      "rating": 4.8,
-      "reviewCount": 330,
-      "priceLevel": null,
-      "priceFrom": 125,
-      "address": "Quenger Alm 4, 83661 Lenggries, Germany",
-      "lat": 47.6579421,
-      "lng": 11.5151863,
-      "distanceToSlopesM": 5700,
-      "hasPhoto": true
-    },
-    {
       "id": "brauneck-lenggries-brauneck-gipfelhaus",
       "name": "Brauneck-Gipfelhaus",
       "slug": "brauneck-gipfelhaus",
@@ -18834,17 +19226,31 @@
       "hasPhoto": true
     },
     {
-      "id": "brauneck-lenggries-kotalm",
-      "name": "Kotalm",
-      "slug": "kotalm",
-      "rating": 4.2,
-      "reviewCount": 371,
+      "id": "brauneck-lenggries-gastehaus-sonnleit-n",
+      "name": "Gästehaus Sonnleit'n",
+      "slug": "gastehaus-sonnleit-n",
+      "rating": 4.8,
+      "reviewCount": 137,
       "priceLevel": null,
-      "priceFrom": 105,
-      "address": "Kotalm 1, 83661 Lenggries, Germany",
-      "lat": 47.6627958,
-      "lng": 11.538680099999999,
-      "distanceToSlopesM": 3850,
+      "priceFrom": 135,
+      "address": "Sonnleitenstraße 9, 83661 Lenggries, Germany",
+      "lat": 47.688420799999996,
+      "lng": 11.5755957,
+      "distanceToSlopesM": 2500,
+      "hasPhoto": true
+    },
+    {
+      "id": "brauneck-lenggries-lenggrieser-hof",
+      "name": "Lenggrieser Hof",
+      "slug": "lenggrieser-hof",
+      "rating": 3.9,
+      "reviewCount": 358,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Münchner Str. 3, 83661 Lenggries, Germany",
+      "lat": 47.6830139,
+      "lng": 11.573272699999999,
+      "distanceToSlopesM": 2100,
       "hasPhoto": true
     },
     {
@@ -19078,6 +19484,20 @@
       "hasPhoto": true
     },
     {
+      "id": "oberammergau-ammergauer-hof",
+      "name": "Ammergauer Hof",
+      "slug": "ammergauer-hof",
+      "rating": 4.7,
+      "reviewCount": 272,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Bahnhofstraße 3, 82487 Oberammergau, Germany",
+      "lat": 47.599132499999996,
+      "lng": 11.057929,
+      "distanceToSlopesM": 950,
+      "hasPhoto": true
+    },
+    {
       "id": "oberammergau-hotel-maximilian",
       "name": "Hotel Maximilian",
       "slug": "hotel-maximilian",
@@ -19102,6 +19522,20 @@
       "address": "Ludwig-Lang-Straße 21, 82487 Oberammergau, Germany",
       "lat": 47.5973435,
       "lng": 11.0765178,
+      "distanceToSlopesM": 500,
+      "hasPhoto": true
+    },
+    {
+      "id": "oberammergau-enzianhof-hotel-oberammergau",
+      "name": "Enzianhof Hotel Oberammergau",
+      "slug": "enzianhof-hotel-oberammergau",
+      "rating": 4.7,
+      "reviewCount": 173,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Ettaler Str. 33, 82487 Oberammergau, Germany",
+      "lat": 47.5929176,
+      "lng": 11.0687649,
       "distanceToSlopesM": 500,
       "hasPhoto": true
     }
@@ -19148,20 +19582,6 @@
       "lat": 47.5699207,
       "lng": 10.5512579,
       "distanceToSlopesM": 900,
-      "hasPhoto": true
-    },
-    {
-      "id": "pfronten-hotel-berghof",
-      "name": "Hotel Berghof",
-      "slug": "hotel-berghof",
-      "rating": 4,
-      "reviewCount": 220,
-      "priceLevel": null,
-      "priceFrom": 105,
-      "address": "Falkensteinweg 13, 87459 Pfronten-Meilingen, Germany",
-      "lat": 47.5822639,
-      "lng": 10.569521900000002,
-      "distanceToSlopesM": 2050,
       "hasPhoto": true
     }
   ],
@@ -19220,20 +19640,6 @@
       "lat": 47.5165667,
       "lng": 10.4044578,
       "distanceToSlopesM": 1350,
-      "hasPhoto": true
-    },
-    {
-      "id": "hindelang-oberjoch-bergzeit-hotel-appartements",
-      "name": "Bergzeit - Hotel & Appartements",
-      "slug": "bergzeit-hotel-appartements",
-      "rating": 4.7,
-      "reviewCount": 81,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Iselerstraße 8, 87541 Bad Hindelang, Germany",
-      "lat": 47.5137341,
-      "lng": 10.4073599,
-      "distanceToSlopesM": 1000,
       "hasPhoto": true
     },
     {
@@ -20168,20 +20574,6 @@
       "hasPhoto": true
     },
     {
-      "id": "cavalese-hotel-san-valier",
-      "name": "Hotel San Valier",
-      "slug": "hotel-san-valier",
-      "rating": 4.1,
-      "reviewCount": 447,
-      "priceLevel": null,
-      "priceFrom": 90,
-      "address": "Via Guglielmo Marconi, 1, 38033 Cavalese TN, Italy",
-      "lat": 46.2883338,
-      "lng": 11.4620132,
-      "distanceToSlopesM": 500,
-      "hasPhoto": true
-    },
-    {
       "id": "cavalese-alpuris-hotel",
       "name": "ALPURIS HOTEL",
       "slug": "alpuris-hotel",
@@ -20397,20 +20789,6 @@
       "lat": 46.105801,
       "lng": 12.514125199999999,
       "distanceToSlopesM": 650,
-      "hasPhoto": true
-    },
-    {
-      "id": "piancavallo-hotel-bella-italia-piancavallo",
-      "name": "Hotel Bella Italia Piancavallo",
-      "slug": "hotel-bella-italia-piancavallo",
-      "rating": 3.5,
-      "reviewCount": 250,
-      "priceLevel": null,
-      "priceFrom": 95,
-      "address": "Via Barcis, 24, 33081 Aviano PN, Italy",
-      "lat": 46.1125816,
-      "lng": 12.5198676,
-      "distanceToSlopesM": 1550,
       "hasPhoto": true
     }
   ],
@@ -20755,20 +21133,6 @@
       "lat": 46.8132613,
       "lng": 13.7754889,
       "distanceToSlopesM": 1650,
-      "hasPhoto": true
-    },
-    {
-      "id": "bad-kleinkirchheim-ferienhotel-kolmhof",
-      "name": "Ferienhotel Kolmhof",
-      "slug": "ferienhotel-kolmhof",
-      "rating": 4.5,
-      "reviewCount": 489,
-      "priceLevel": null,
-      "priceFrom": 130,
-      "address": "Dorfstraße 26, 9546 Bad Kleinkirchheim, Austria",
-      "lat": 46.8122222,
-      "lng": 13.7777778,
-      "distanceToSlopesM": 1500,
       "hasPhoto": true
     },
     {
@@ -21458,20 +21822,6 @@
       "lng": 9.882952999999999,
       "distanceToSlopesM": 350,
       "hasPhoto": true
-    },
-    {
-      "id": "mellau-hotel-hubertus-mellau-gmbh",
-      "name": "Hotel Hubertus Mellau GmbH",
-      "slug": "hotel-hubertus-mellau-gmbh",
-      "rating": 4.7,
-      "reviewCount": 132,
-      "priceLevel": null,
-      "priceFrom": 150,
-      "address": "Hinterbündt 315, 6881 Mellau, Austria",
-      "lat": 47.346531,
-      "lng": 9.885311999999999,
-      "distanceToSlopesM": 650,
-      "hasPhoto": true
     }
   ],
   "hopfgarten": [
@@ -21660,17 +22010,17 @@
       "hasPhoto": true
     },
     {
-      "id": "samnaun-hotel-astoria-garni",
-      "name": "Hotel Astoria Garni",
-      "slug": "hotel-astoria-garni",
+      "id": "samnaun-appartement-panorama",
+      "name": "Appartement Panorama",
+      "slug": "appartement-panorama",
       "rating": 4.8,
-      "reviewCount": 111,
+      "reviewCount": 93,
       "priceLevel": null,
-      "priceFrom": 220,
-      "address": "Talstrasse 66, 7563 Samnaun, Switzerland",
-      "lat": 46.950202399999995,
-      "lng": 10.3709607,
-      "distanceToSlopesM": 1300,
+      "priceFrom": 215,
+      "address": "Dorfstrasse 41, 7563 Samnaun, Switzerland",
+      "lat": 46.9422735,
+      "lng": 10.358935599999999,
+      "distanceToSlopesM": 100,
       "hasPhoto": true
     }
   ],
@@ -21901,6 +22251,20 @@
       "lat": 46.595485499999995,
       "lng": 9.5945542,
       "distanceToSlopesM": 800,
+      "hasPhoto": true
+    },
+    {
+      "id": "savognin-b-b-la-tgamona",
+      "name": "B&B La Tgamona",
+      "slug": "b-b-la-tgamona",
+      "rating": 4.3,
+      "reviewCount": 93,
+      "priceLevel": null,
+      "priceFrom": 190,
+      "address": "Stradung 5, 7460 Savognin, Switzerland",
+      "lat": 46.5984099,
+      "lng": 9.596400899999999,
+      "distanceToSlopesM": 450,
       "hasPhoto": true
     }
   ],
@@ -22134,20 +22498,6 @@
       "hasPhoto": true
     },
     {
-      "id": "spluegen-hotel-bodenhaus-splugen",
-      "name": "Hôtel Bodenhaus Splügen",
-      "slug": "hotel-bodenhaus-splugen",
-      "rating": 4.5,
-      "reviewCount": 337,
-      "priceLevel": null,
-      "priceFrom": 175,
-      "address": "Bodaweg 2, 7435 Splügen, Switzerland",
-      "lat": 46.5535269,
-      "lng": 9.3240953,
-      "distanceToSlopesM": 250,
-      "hasPhoto": true
-    },
-    {
       "id": "spluegen-speluca-brauerei-genusshotel",
       "name": "Speluca Brauerei & Genusshotel",
       "slug": "speluca-brauerei-genusshotel",
@@ -22159,20 +22509,6 @@
       "lat": 46.553456499999996,
       "lng": 9.3252578,
       "distanceToSlopesM": 350,
-      "hasPhoto": true
-    },
-    {
-      "id": "spluegen-hotel-weiss-kreuz",
-      "name": "Hotel Weiss Kreuz",
-      "slug": "hotel-weiss-kreuz",
-      "rating": 4.1,
-      "reviewCount": 133,
-      "priceLevel": null,
-      "priceFrom": 160,
-      "address": "Oberdorf 38, 7435 Splügen, Switzerland",
-      "lat": 46.5535469,
-      "lng": 9.3223819,
-      "distanceToSlopesM": 200,
       "hasPhoto": true
     }
   ],
@@ -22237,6 +22573,20 @@
       "hasPhoto": true
     },
     {
+      "id": "wallberg-tegernsee-leeberghof",
+      "name": "Leeberghof",
+      "slug": "leeberghof",
+      "rating": 4.5,
+      "reviewCount": 702,
+      "priceLevel": 3,
+      "priceFrom": 130,
+      "address": "Ellingerstraße 10, 83684 Tegernsee, Germany",
+      "lat": 47.703078999999995,
+      "lng": 11.76661,
+      "distanceToSlopesM": 5800,
+      "hasPhoto": true
+    },
+    {
       "id": "wallberg-tegernsee-berghotel-altes-wallberghaus-gmbh",
       "name": "Berghotel Altes Wallberghaus GmbH",
       "slug": "berghotel-altes-wallberghaus-gmbh",
@@ -22292,6 +22642,20 @@
       "lat": 47.6154631,
       "lng": 12.976728,
       "distanceToSlopesM": 4150,
+      "hasPhoto": true
+    },
+    {
+      "id": "goetschen-bischofswiesen-hotel-alpinaros",
+      "name": "Hotel AlpinaRos",
+      "slug": "hotel-alpinaros",
+      "rating": 4.5,
+      "reviewCount": 799,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "Sunklergäßchen 2, 83471 Berchtesgaden, Germany",
+      "lat": 47.629827999999996,
+      "lng": 13.003089,
+      "distanceToSlopesM": 4250,
       "hasPhoto": true
     },
     {
@@ -22424,20 +22788,6 @@
       "hasPhoto": true
     },
     {
-      "id": "pralognan-la-vanoise-lagrange-vacances-les-hauts-de-la-vanoise",
-      "name": "Lagrange Vacances - Les Hauts de la Vanoise",
-      "slug": "lagrange-vacances-les-hauts-de-la-vanoise",
-      "rating": 4.3,
-      "reviewCount": 329,
-      "priceLevel": null,
-      "priceFrom": 115,
-      "address": "132 Rte des Teppes, 73710 Pralognan-la-Vanoise, France",
-      "lat": 45.388599299999996,
-      "lng": 6.719258000000001,
-      "distanceToSlopesM": 1150,
-      "hasPhoto": true
-    },
-    {
       "id": "pralognan-la-vanoise-ternelia-le-telemark",
       "name": "Ternelia Le Telemark",
       "slug": "ternelia-le-telemark",
@@ -22452,6 +22802,20 @@
       "hasPhoto": true
     },
     {
+      "id": "pralognan-la-vanoise-igesa-pralognan",
+      "name": "Igesa Pralognan",
+      "slug": "igesa-pralognan",
+      "rating": 4.4,
+      "reviewCount": 212,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Av. de Chasseforet, 73710 Pralognan-la-Vanoise, France",
+      "lat": 45.3815514,
+      "lng": 6.7208621,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
       "id": "pralognan-la-vanoise-hotel-le-grand-bec",
       "name": "Hôtel Le Grand Bec",
       "slug": "hotel-le-grand-bec",
@@ -22463,6 +22827,20 @@
       "lat": 45.382999399999996,
       "lng": 6.7163407,
       "distanceToSlopesM": 800,
+      "hasPhoto": true
+    },
+    {
+      "id": "pralognan-la-vanoise-hotel-a",
+      "name": "HÔTEL A +",
+      "slug": "hotel-a",
+      "rating": 3.6,
+      "reviewCount": 66,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "357 Av. de la Grande Casse, 73710 Pralognan-la-Vanoise, France",
+      "lat": 45.3831491,
+      "lng": 6.7156066999999995,
+      "distanceToSlopesM": 850,
       "hasPhoto": true
     }
   ],
@@ -22799,6 +23177,20 @@
       "lat": 46.4336372,
       "lng": 11.998105299999999,
       "distanceToSlopesM": 2900,
+      "hasPhoto": true
+    },
+    {
+      "id": "alleghe-civetta-hotel-centrale",
+      "name": "Hotel Centrale",
+      "slug": "hotel-centrale",
+      "rating": 4.5,
+      "reviewCount": 192,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Piazza Kennedy, 1, 32022 Alleghe BL, Italy",
+      "lat": 46.406223999999995,
+      "lng": 12.020748,
+      "distanceToSlopesM": 1000,
       "hasPhoto": true
     },
     {
@@ -23263,6 +23655,20 @@
   ],
   "pontresina": [
     {
+      "id": "pontresina-relais-chateaux-hotel-walther-pontresina",
+      "name": "Relais & Châteaux Hotel Walther Pontresina",
+      "slug": "relais-chateaux-hotel-walther-pontresina",
+      "rating": 4.9,
+      "reviewCount": 484,
+      "priceLevel": null,
+      "priceFrom": 225,
+      "address": "Via Maistra 215, 7504 Pontresina, Switzerland",
+      "lat": 46.4877374,
+      "lng": 9.907590599999999,
+      "distanceToSlopesM": 1050,
+      "hasPhoto": true
+    },
+    {
       "id": "pontresina-grand-hotel-kronenhof-pontresina",
       "name": "Grand Hotel Kronenhof Pontresina",
       "slug": "grand-hotel-kronenhof-pontresina",
@@ -23451,6 +23857,20 @@
       "hasPhoto": true
     },
     {
+      "id": "wildhaus-hotel-restaurant-schonau",
+      "name": "Hotel Restaurant Schönau",
+      "slug": "hotel-restaurant-schonau",
+      "rating": 4.6,
+      "reviewCount": 272,
+      "priceLevel": null,
+      "priceFrom": 205,
+      "address": "Hauptstrasse 29, 9658 Wildhaus, Switzerland",
+      "lat": 47.20046,
+      "lng": 9.3265142,
+      "distanceToSlopesM": 1800,
+      "hasPhoto": true
+    },
+    {
       "id": "wildhaus-hotel-hirschen-betriebs-ag",
       "name": "Hotel Hirschen Betriebs AG",
       "slug": "hotel-hirschen-betriebs-ag",
@@ -23479,17 +23899,17 @@
       "hasPhoto": true
     },
     {
-      "id": "wildhaus-panorama-und-gamplut-zentrum-wildhaus",
-      "name": "Panorama und Gamplüt Zentrum Wildhaus",
-      "slug": "panorama-und-gamplut-zentrum-wildhaus",
+      "id": "wildhaus-hirschen-guesthouse-village-hotel",
+      "name": "Hirschen Guesthouse - Village Hotel",
+      "slug": "hirschen-guesthouse-village-hotel",
       "rating": 4.2,
-      "reviewCount": 65,
+      "reviewCount": 17,
       "priceLevel": null,
-      "priceFrom": 165,
-      "address": "Steinrütistrasse 5, 9658 Wildhaus, Switzerland",
-      "lat": 47.204338,
-      "lng": 9.350219,
-      "distanceToSlopesM": 300,
+      "priceFrom": 150,
+      "address": "Dorf 228, 9658 Wildhaus, Switzerland",
+      "lat": 47.203613499999996,
+      "lng": 9.3499425,
+      "distanceToSlopesM": 200,
       "hasPhoto": true
     }
   ],
@@ -24485,6 +24905,34 @@
       "lng": 12.205535999999999,
       "distanceToSlopesM": 100,
       "hasPhoto": true
+    },
+    {
+      "id": "san-vito-di-cadore-locanda-montana",
+      "name": "Locanda Montana",
+      "slug": "locanda-montana",
+      "rating": 4.7,
+      "reviewCount": 111,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "Via al Lago, 6, 32046 San Vito di Cadore BL, Italy",
+      "lat": 46.470664899999996,
+      "lng": 12.2042884,
+      "distanceToSlopesM": 1600,
+      "hasPhoto": true
+    },
+    {
+      "id": "san-vito-di-cadore-hotel-alemagna",
+      "name": "Hotel Alemagna",
+      "slug": "hotel-alemagna",
+      "rating": 4.2,
+      "reviewCount": 194,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Corso Italia, 58, 32046 San Vito di Cadore BL, Italy",
+      "lat": 46.461219799999995,
+      "lng": 12.204582499999999,
+      "distanceToSlopesM": 550,
+      "hasPhoto": true
     }
   ],
   "leogang": [
@@ -24857,6 +25305,76 @@
       "hasPhoto": true
     },
     {
+      "id": "ramsau-am-dachstein-hotel-rosslhof",
+      "name": "Hotel Rösslhof",
+      "slug": "hotel-rosslhof",
+      "rating": 4.9,
+      "reviewCount": 185,
+      "priceLevel": null,
+      "priceFrom": 160,
+      "address": "Ramsau 214, 8972 Ramsau am Dachstein, Austria",
+      "lat": 47.42511,
+      "lng": 13.645026999999999,
+      "distanceToSlopesM": 1500,
+      "hasPhoto": true
+    },
+    {
+      "id": "ramsau-am-dachstein-hotel-stierer",
+      "name": "Hotel Stierer",
+      "slug": "hotel-stierer",
+      "rating": 4.2,
+      "reviewCount": 351,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Ramsau 90, 8972 Ramsau am Dachstein, Austria",
+      "lat": 47.421073899999996,
+      "lng": 13.6682615,
+      "distanceToSlopesM": 2150,
+      "hasPhoto": true
+    },
+    {
+      "id": "ramsau-am-dachstein-landhaus-ramsau",
+      "name": "Landhaus Ramsau",
+      "slug": "landhaus-ramsau",
+      "rating": 4.8,
+      "reviewCount": 160,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "Schildlehen 36, 8972 Ramsau am Dachstein, Austria",
+      "lat": 47.426677299999994,
+      "lng": 13.6262022,
+      "distanceToSlopesM": 2050,
+      "hasPhoto": true
+    },
+    {
+      "id": "ramsau-am-dachstein-hotel-jagdhof",
+      "name": "Hotel Jagdhof",
+      "slug": "hotel-jagdhof",
+      "rating": 4.8,
+      "reviewCount": 142,
+      "priceLevel": null,
+      "priceFrom": 160,
+      "address": "4-Sterne-Hotel, Schildlehen 85, 8972 Ramsau am Dachstein, Austria",
+      "lat": 47.426364799999995,
+      "lng": 13.627913399999999,
+      "distanceToSlopesM": 1950,
+      "hasPhoto": true
+    },
+    {
+      "id": "ramsau-am-dachstein-hotel-ramsauer-alm",
+      "name": "Hotel Ramsauer Alm",
+      "slug": "hotel-ramsauer-alm",
+      "rating": 4.8,
+      "reviewCount": 127,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "Vorberg 357, 8972 Ramsau am Dachstein, Austria",
+      "lat": 47.417257,
+      "lng": 13.636006,
+      "distanceToSlopesM": 800,
+      "hasPhoto": true
+    },
+    {
       "id": "ramsau-am-dachstein-pehab-dachstein-spa",
       "name": "Pehab Dachstein Spa",
       "slug": "pehab-dachstein-spa",
@@ -24868,6 +25386,20 @@
       "lat": 47.422117899999996,
       "lng": 13.654807199999999,
       "distanceToSlopesM": 1450,
+      "hasPhoto": true
+    },
+    {
+      "id": "ramsau-am-dachstein-hotel-ramsauhof",
+      "name": "Hotel Ramsauhof",
+      "slug": "hotel-ramsauhof",
+      "rating": 4.4,
+      "reviewCount": 143,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Ramsau 220, 8972 Ramsau am Dachstein, Austria",
+      "lat": 47.425385399999996,
+      "lng": 13.662007599999999,
+      "distanceToSlopesM": 2100,
       "hasPhoto": true
     }
   ],
@@ -25213,20 +25745,6 @@
       "address": "Talstation Gondelbahn, Station Gaffia, 7323 Vilters-Wangs, Switzerland",
       "lat": 46.9948914,
       "lng": 9.4141321,
-      "distanceToSlopesM": 5150,
-      "hasPhoto": true
-    },
-    {
-      "id": "pizol-berghotel-alpina",
-      "name": "Berghotel Alpina",
-      "slug": "berghotel-alpina",
-      "rating": 4,
-      "reviewCount": 115,
-      "priceLevel": null,
-      "priceFrom": 170,
-      "address": "7323 Vilters-Wangs, Switzerland",
-      "lat": 47.0017618,
-      "lng": 9.4207512,
       "distanceToSlopesM": 5150,
       "hasPhoto": true
     }
@@ -25706,34 +26224,6 @@
       "lng": 13.070748000000002,
       "distanceToSlopesM": 4950,
       "hasPhoto": true
-    },
-    {
-      "id": "grosser-arber-natura-hotel-bodenmais",
-      "name": "natura Hotel Bodenmais",
-      "slug": "natura-hotel-bodenmais",
-      "rating": 4.8,
-      "reviewCount": 729,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "Scharebenstraße 31, 94249 Bodenmais-Unterlohwies, Germany",
-      "lat": 49.07317,
-      "lng": 13.0930601,
-      "distanceToSlopesM": 5400,
-      "hasPhoto": true
-    },
-    {
-      "id": "grosser-arber-maiers-hotel",
-      "name": "Maiers Hotel",
-      "slug": "maiers-hotel",
-      "rating": 4.7,
-      "reviewCount": 255,
-      "priceLevel": null,
-      "priceFrom": 145,
-      "address": "Brennesstraße 23, 94252 Bayerisch Eisenstein, Germany",
-      "lat": 49.125791199999995,
-      "lng": 13.189061899999999,
-      "distanceToSlopesM": 4150,
-      "hasPhoto": true
     }
   ],
   "trysil": [
@@ -26111,6 +26601,20 @@
       "lng": 9.6928497,
       "distanceToSlopesM": 350,
       "hasPhoto": true
+    },
+    {
+      "id": "oppdal-oppdal-gjestetun-hotell",
+      "name": "Oppdal Gjestetun Hotell",
+      "slug": "oppdal-gjestetun-hotell",
+      "rating": 4,
+      "reviewCount": 305,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Ola Setroms Veg 39, 7340 Oppdal, Norway",
+      "lat": 62.59247299999999,
+      "lng": 9.687467999999999,
+      "distanceToSlopesM": 200,
+      "hasPhoto": true
     }
   ],
   "beitostolen": [
@@ -26469,20 +26973,6 @@
   ],
   "funasdalen": [
     {
-      "id": "funasdalen-eriksgardens-fjallhotell-funasdalen",
-      "name": "Eriksgårdens Fjällhotell Funäsdalen",
-      "slug": "eriksgardens-fjallhotell-funasdalen",
-      "rating": 4.5,
-      "reviewCount": 378,
-      "priceLevel": null,
-      "priceFrom": 145,
-      "address": "Vintergatan 3, 846 72 Funäsdalen, Sweden",
-      "lat": 62.550801199999995,
-      "lng": 12.528219199999999,
-      "distanceToSlopesM": 1050,
-      "hasPhoto": true
-    },
-    {
       "id": "funasdalen-hotell-funasdalen",
       "name": "Hotell Funäsdalen",
       "slug": "hotell-funasdalen",
@@ -26642,6 +27132,20 @@
       "lat": 67.8083343,
       "lng": 24.8097229,
       "distanceToSlopesM": 950,
+      "hasPhoto": true
+    },
+    {
+      "id": "levi-levi-foxfires",
+      "name": "Levi Foxfires",
+      "slug": "levi-foxfires",
+      "rating": 4.9,
+      "reviewCount": 222,
+      "priceLevel": null,
+      "priceFrom": 180,
+      "address": "Kaakkoisrinteentie 1, 99130 levi, Finland",
+      "lat": 67.77855339999999,
+      "lng": 24.910097999999998,
+      "distanceToSlopesM": 4900,
       "hasPhoto": true
     },
     {
@@ -26903,6 +27407,20 @@
   ],
   "saariselka": [
     {
+      "id": "saariselka-northern-lights-village-saariselka",
+      "name": "Northern Lights Village Saariselkä",
+      "slug": "northern-lights-village-saariselka",
+      "rating": 4.6,
+      "reviewCount": 1781,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "Rovaniementie 3222E, 99830 Saariselkä, Finland",
+      "lat": 68.4240083,
+      "lng": 27.402669699999997,
+      "distanceToSlopesM": 600,
+      "hasPhoto": true
+    },
+    {
       "id": "saariselka-holiday-club-saariselka",
       "name": "Holiday Club Saariselkä",
       "slug": "holiday-club-saariselka",
@@ -26928,6 +27446,34 @@
       "lat": 68.4326547,
       "lng": 27.4382043,
       "distanceToSlopesM": 2000,
+      "hasPhoto": true
+    },
+    {
+      "id": "saariselka-lapland-hotels-riekonlinna",
+      "name": "Lapland Hotels Riekonlinna",
+      "slug": "lapland-hotels-riekonlinna",
+      "rating": 4.1,
+      "reviewCount": 1171,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "Saariseläntie 13, 99830 Saariselkä, Finland",
+      "lat": 68.4215291,
+      "lng": 27.425800000000002,
+      "distanceToSlopesM": 850,
+      "hasPhoto": true
+    },
+    {
+      "id": "saariselka-santa-s-hotel-tunturi",
+      "name": "Santa's Hotel Tunturi",
+      "slug": "santa-s-hotel-tunturi",
+      "rating": 4,
+      "reviewCount": 1103,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "Lutontie 16, 99830 Saariselkä, Finland",
+      "lat": 68.4213338,
+      "lng": 27.4276401,
+      "distanceToSlopesM": 900,
       "hasPhoto": true
     }
   ],
@@ -27028,6 +27574,20 @@
       "lat": 67.01786799999999,
       "lng": 27.2391643,
       "distanceToSlopesM": 850,
+      "hasPhoto": true
+    },
+    {
+      "id": "pyha-luosto-ski-inn-pyhasuites-apartments",
+      "name": "SKI-INN PyhäSuites Apartments",
+      "slug": "ski-inn-pyhasuites-apartments",
+      "rating": 4.2,
+      "reviewCount": 55,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "Kallunkuja 4, 98530 Pelkosenniemi, Finland",
+      "lat": 67.02179699999999,
+      "lng": 27.2392151,
+      "distanceToSlopesM": 1300,
       "hasPhoto": true
     }
   ],
@@ -27664,20 +28224,6 @@
       "hasPhoto": true
     },
     {
-      "id": "hakuba-goryu-hakuba-yamano-hotel",
-      "name": "Hakuba Yamano Hotel",
-      "slug": "hakuba-yamano-hotel",
-      "rating": 4.6,
-      "reviewCount": 187,
-      "priceLevel": null,
-      "priceFrom": 165,
-      "address": "Japan, 〒399-9301 Nagano, Kitaazumi District, 北安曇郡Hokujō, 白馬村北城３４７７",
-      "lat": 36.6941267,
-      "lng": 137.8381678,
-      "distanceToSlopesM": 3800,
-      "hasPhoto": true
-    },
-    {
       "id": "hakuba-goryu-ember-lodge-hakuba",
       "name": "Ember Lodge Hakuba エンバーロッジ",
       "slug": "ember-lodge-hakuba",
@@ -27760,6 +28306,20 @@
       "lng": 137.84502369999998,
       "distanceToSlopesM": 3550,
       "hasPhoto": true
+    },
+    {
+      "id": "hakuba-goryu-the-ridge-hotel-apartments",
+      "name": "The Ridge Hotel & Apartments",
+      "slug": "the-ridge-hotel-apartments",
+      "rating": 4.8,
+      "reviewCount": 42,
+      "priceLevel": null,
+      "priceFrom": 175,
+      "address": "4608 Hokujō, Hakuba, Kitaazumi District, Nagano 399-9301, Japan",
+      "lat": 36.705818,
+      "lng": 137.83736399999998,
+      "distanceToSlopesM": 5100,
+      "hasPhoto": true
     }
   ],
   "shiga-kogen": [
@@ -27792,17 +28352,31 @@
       "hasPhoto": true
     },
     {
-      "id": "shiga-kogen-hotel-ichinose",
-      "name": "Hotel Ichinose",
-      "slug": "hotel-ichinose",
-      "rating": 4.2,
-      "reviewCount": 218,
+      "id": "shiga-kogen-shigakogen-prince-hotel-south-building",
+      "name": "Shigakogen Prince Hotel South Building",
+      "slug": "shigakogen-prince-hotel-south-building",
+      "rating": 3.7,
+      "reviewCount": 544,
       "priceLevel": null,
       "priceFrom": 145,
-      "address": "7149 Hirao, Yamanouchi, Shimotakai District, Nagano 381-0401, Japan",
-      "lat": 36.7360143,
-      "lng": 138.513204,
-      "distanceToSlopesM": 2700,
+      "address": "Japan, 〒381-0401 Nagano, Shimotakai District, Yamanouchi, 下高井郡山ノ内町 志賀高原焼額山",
+      "lat": 36.7469755,
+      "lng": 138.52475189999998,
+      "distanceToSlopesM": 4300,
+      "hasPhoto": true
+    },
+    {
+      "id": "shiga-kogen-shigakogen-milky-hot-spring-keikoku",
+      "name": "Shigakogen milky hot spring Keikoku",
+      "slug": "shigakogen-milky-hot-spring-keikoku",
+      "rating": 4.4,
+      "reviewCount": 160,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "7148 Hirao, Yamanouchi, Shimotakai District, Nagano 381-0401, Japan",
+      "lat": 36.720992599999995,
+      "lng": 138.4964352,
+      "distanceToSlopesM": 450,
       "hasPhoto": true
     },
     {
@@ -27916,20 +28490,6 @@
       "lng": 138.51332349999998,
       "distanceToSlopesM": 2650,
       "hasPhoto": true
-    },
-    {
-      "id": "shiga-kogen-hotel-khuls-shigakogen",
-      "name": "Hotel Khuls Shigakogen",
-      "slug": "hotel-khuls-shigakogen",
-      "rating": 3.9,
-      "reviewCount": 151,
-      "priceLevel": null,
-      "priceFrom": 120,
-      "address": "Japan, 〒381-0401 Nagano, Shimotakai District, Yamanouchi, Hirao, 志賀高原 一の瀬",
-      "lat": 36.7365845,
-      "lng": 138.5135154,
-      "distanceToSlopesM": 2750,
-      "hasPhoto": true
     }
   ],
   "nozawa-onsen": [
@@ -27948,6 +28508,20 @@
       "hasPhoto": true
     },
     {
+      "id": "nozawa-onsen-nozawa-grand-hotel",
+      "name": "Nozawa Grand Hotel",
+      "slug": "nozawa-grand-hotel",
+      "rating": 4.1,
+      "reviewCount": 352,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "8888 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
+      "lat": 36.925475899999995,
+      "lng": 138.4449763,
+      "distanceToSlopesM": 450,
+      "hasPhoto": true
+    },
+    {
       "id": "nozawa-onsen-sumiyosiya",
       "name": "Sumiyosiya",
       "slug": "sumiyosiya",
@@ -27962,31 +28536,17 @@
       "hasPhoto": true
     },
     {
-      "id": "nozawa-onsen-hotel-haus-st-anton",
-      "name": "Hotel Haus St Anton",
-      "slug": "hotel-haus-st-anton",
-      "rating": 4.7,
-      "reviewCount": 154,
+      "id": "nozawa-onsen-schanze-nozawa",
+      "name": "Schanze Nozawa",
+      "slug": "schanze-nozawa",
+      "rating": 4.9,
+      "reviewCount": 109,
       "priceLevel": null,
-      "priceFrom": 155,
-      "address": "9515 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
-      "lat": 36.9227816,
-      "lng": 138.44763369999998,
-      "distanceToSlopesM": 200,
-      "hasPhoto": true
-    },
-    {
-      "id": "nozawa-onsen-nozowaonsen-hotel",
-      "name": "Nozowaonsen Hotel",
-      "slug": "nozowaonsen-hotel",
-      "rating": 3.8,
-      "reviewCount": 390,
-      "priceLevel": null,
-      "priceFrom": 125,
-      "address": "7923-3 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
-      "lat": 36.9226913,
-      "lng": 138.4498792,
-      "distanceToSlopesM": 100,
+      "priceFrom": 160,
+      "address": "Japan, 〒389-2502 Nagano, Shimotakai District, Nozawaonsen, Toyosato, 秋葉６９７４−１",
+      "lat": 36.9197431,
+      "lng": 138.450102,
+      "distanceToSlopesM": 450,
       "hasPhoto": true
     },
     {
@@ -28046,58 +28606,16 @@
       "hasPhoto": true
     },
     {
-      "id": "nozawa-onsen-tanuki-nozawa",
-      "name": "狸 tanuki nozawa",
-      "slug": "tanuki-nozawa",
-      "rating": 4.5,
-      "reviewCount": 81,
-      "priceLevel": null,
-      "priceFrom": 145,
-      "address": "9285 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
-      "lat": 36.923317399999995,
-      "lng": 138.4480276,
-      "distanceToSlopesM": 150,
-      "hasPhoto": true
-    },
-    {
-      "id": "nozawa-onsen-kawamotoya",
-      "name": "Kawamotoya",
-      "slug": "kawamotoya",
-      "rating": 4.7,
-      "reviewCount": 55,
+      "id": "nozawa-onsen-alpine-villa-nozawa",
+      "name": "Alpine Villa Nozawa",
+      "slug": "alpine-villa-nozawa",
+      "rating": 4.6,
+      "reviewCount": 46,
       "priceLevel": null,
       "priceFrom": 160,
-      "address": "8955 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
-      "lat": 36.9242171,
-      "lng": 138.4444325,
-      "distanceToSlopesM": 500,
-      "hasPhoto": true
-    },
-    {
-      "id": "nozawa-onsen-altitude-nozawa",
-      "name": "Altitude Nozawa",
-      "slug": "altitude-nozawa",
-      "rating": 4.5,
-      "reviewCount": 63,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "4998-1 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
-      "lat": 36.9135513,
-      "lng": 138.44009979999998,
-      "distanceToSlopesM": 1400,
-      "hasPhoto": true
-    },
-    {
-      "id": "nozawa-onsen-shinazawa-lodge",
-      "name": "Shinazawa Lodge",
-      "slug": "shinazawa-lodge",
-      "rating": 4.6,
-      "reviewCount": 52,
-      "priceLevel": null,
-      "priceFrom": 165,
-      "address": "6650-1 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
-      "lat": 36.917573999999995,
-      "lng": 138.44237859999998,
+      "address": "6631 Toyosato, Nozawaonsen, Shimotakai District, Nagano 389-2502, Japan",
+      "lat": 36.9171362,
+      "lng": 138.4433688,
       "distanceToSlopesM": 950,
       "hasPhoto": true
     }
@@ -28878,17 +29396,17 @@
       "hasPhoto": true
     },
     {
-      "id": "deer-valley-stag-lodge",
-      "name": "Stag Lodge",
-      "slug": "stag-lodge",
-      "rating": 4.7,
-      "reviewCount": 57,
+      "id": "deer-valley-black-diamond-lodge",
+      "name": "Black Diamond Lodge",
+      "slug": "black-diamond-lodge",
+      "rating": 4.8,
+      "reviewCount": 42,
       "priceLevel": null,
-      "priceFrom": 280,
-      "address": "8200 Royal St, Park City, UT 84060, USA",
-      "lat": 40.6287027,
-      "lng": -111.4865576,
-      "distanceToSlopesM": 1100,
+      "priceFrom": 330,
+      "address": "2280 Deer Valley Dr E, Park City, UT 84060, USA",
+      "lat": 40.636440199999996,
+      "lng": -111.4776807,
+      "distanceToSlopesM": 50,
       "hasPhoto": true
     }
   ],
@@ -28919,20 +29437,6 @@
       "lat": 40.5826035,
       "lng": -111.6542087,
       "distanceToSlopesM": 200,
-      "hasPhoto": true
-    },
-    {
-      "id": "snowbird-the-iron-blosam",
-      "name": "The Iron Blosam",
-      "slug": "the-iron-blosam",
-      "rating": 4.5,
-      "reviewCount": 867,
-      "priceLevel": null,
-      "priceFrom": 170,
-      "address": "9121 Snowbird Ctr Dr, Snowbird, UT 84092, USA",
-      "lat": 40.580702099999996,
-      "lng": -111.6617868,
-      "distanceToSlopesM": 500,
       "hasPhoto": true
     },
     {
@@ -29210,6 +29714,20 @@
       "hasPhoto": true
     },
     {
+      "id": "heavenly-bally-s-lake-tahoe",
+      "name": "Bally's Lake Tahoe",
+      "slug": "bally-s-lake-tahoe",
+      "rating": 3.8,
+      "reviewCount": 6724,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "55 US-50, Stateline, NV 89449, USA",
+      "lat": 38.961543999999996,
+      "lng": -119.939331,
+      "distanceToSlopesM": 2900,
+      "hasPhoto": true
+    },
+    {
       "id": "heavenly-hilton-vacation-club-lake-tahoe-resort-south",
       "name": "Hilton Vacation Club Lake Tahoe Resort South",
       "slug": "hilton-vacation-club-lake-tahoe-resort-south",
@@ -29221,6 +29739,118 @@
       "lat": 38.9498331,
       "lng": -119.9571228,
       "distanceToSlopesM": 2200,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-margaritaville-resort-lake-tahoe",
+      "name": "Margaritaville Resort Lake Tahoe",
+      "slug": "margaritaville-resort-lake-tahoe",
+      "rating": 3.9,
+      "reviewCount": 3742,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "4130 Lake Tahoe Blvd, South Lake Tahoe, CA 96150, USA",
+      "lat": 38.9582553,
+      "lng": -119.9412583,
+      "distanceToSlopesM": 2550,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-holiday-inn-club-vacations-tahoe-ridge-resort",
+      "name": "Holiday Inn Club Vacations Tahoe Ridge Resort",
+      "slug": "holiday-inn-club-vacations-tahoe-ridge-resort",
+      "rating": 4,
+      "reviewCount": 2476,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "400 Ridge Club Dr, Stateline, NV 89449, USA",
+      "lat": 38.9608621,
+      "lng": -119.88392,
+      "distanceToSlopesM": 5600,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-marriott-grand-residence-club-lake-tahoe",
+      "name": "Marriott Grand Residence Club, Lake Tahoe",
+      "slug": "marriott-grand-residence-club-lake-tahoe",
+      "rating": 4.5,
+      "reviewCount": 1011,
+      "priceLevel": null,
+      "priceFrom": 175,
+      "address": "1001 Heavenly Village Way, South Lake Tahoe, CA 96150, USA",
+      "lat": 38.955945,
+      "lng": -119.94356099999997,
+      "distanceToSlopesM": 2300,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-hilton-vacation-club-tahoe-seasons-lake-tahoe",
+      "name": "Hilton Vacation Club Tahoe Seasons Lake Tahoe",
+      "slug": "hilton-vacation-club-tahoe-seasons-lake-tahoe",
+      "rating": 4.2,
+      "reviewCount": 1418,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "3901 Saddle Rd, South Lake Tahoe, CA 96150, USA",
+      "lat": 38.9386176,
+      "lng": -119.9382502,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-forest-suites-resort",
+      "name": "Forest Suites Resort",
+      "slug": "forest-suites-resort",
+      "rating": 4,
+      "reviewCount": 1353,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "1 Lake Pkwy, South Lake Tahoe, CA 96150, USA",
+      "lat": 38.9559624,
+      "lng": -119.94070040000001,
+      "distanceToSlopesM": 2300,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-heavenly-stagecoach-lodge",
+      "name": "Heavenly Stagecoach Lodge",
+      "slug": "heavenly-stagecoach-lodge",
+      "rating": 4.5,
+      "reviewCount": 468,
+      "priceLevel": null,
+      "priceFrom": 180,
+      "address": "375 Quaking Aspen Ln, Stateline, NV 89449, USA",
+      "lat": 38.961120199999996,
+      "lng": -119.8856486,
+      "distanceToSlopesM": 5500,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-black-bear-lodge",
+      "name": "Black Bear Lodge",
+      "slug": "black-bear-lodge",
+      "rating": 4.7,
+      "reviewCount": 225,
+      "priceLevel": null,
+      "priceFrom": 220,
+      "address": "1202 Ski Run Blvd, South Lake Tahoe, CA 96150, USA",
+      "lat": 38.9422223,
+      "lng": -119.95344229999998,
+      "distanceToSlopesM": 1400,
+      "hasPhoto": true
+    },
+    {
+      "id": "heavenly-deerfield-lodge-at-heavenly",
+      "name": "Deerfield Lodge At Heavenly",
+      "slug": "deerfield-lodge-at-heavenly",
+      "rating": 4.8,
+      "reviewCount": 174,
+      "priceLevel": null,
+      "priceFrom": 220,
+      "address": "1200 Ski Run Blvd, South Lake Tahoe, CA 96150, USA",
+      "lat": 38.94255,
+      "lng": -119.95389439999998,
+      "distanceToSlopesM": 1450,
       "hasPhoto": true
     },
     {
@@ -30314,6 +30944,20 @@
       "hasPhoto": true
     },
     {
+      "id": "sun-peaks-pinnacle-lodge",
+      "name": "Pinnacle Lodge",
+      "slug": "pinnacle-lodge",
+      "rating": 4.7,
+      "reviewCount": 187,
+      "priceLevel": null,
+      "priceFrom": 170,
+      "address": "2503 Eagle Ct, Sun Peaks, BC V0E 5N0, Canada",
+      "lat": 50.8813872,
+      "lng": -119.8892494,
+      "distanceToSlopesM": 500,
+      "hasPhoto": true
+    },
+    {
       "id": "sun-peaks-sundance-lodge",
       "name": "Sundance Lodge",
       "slug": "sundance-lodge",
@@ -30370,17 +31014,17 @@
       "hasPhoto": true
     },
     {
-      "id": "sun-peaks-the-burfield",
-      "name": "The Burfield",
-      "slug": "the-burfield",
-      "rating": 4.5,
-      "reviewCount": 68,
+      "id": "sun-peaks-hearthstone-lodge",
+      "name": "Hearthstone Lodge",
+      "slug": "hearthstone-lodge",
+      "rating": 4,
+      "reviewCount": 98,
       "priceLevel": null,
-      "priceFrom": 145,
-      "address": "1140 Sun Peaks Rd, Sun Peaks, BC V0E 5N0, Canada",
-      "lat": 50.875947599999996,
-      "lng": -119.91186060000001,
-      "distanceToSlopesM": 2200,
+      "priceFrom": 140,
+      "address": "3170 Creekside Way, Sun Peaks, BC V0E 5N0, Canada",
+      "lat": 50.884226299999995,
+      "lng": -119.88392379999999,
+      "distanceToSlopesM": 0,
       "hasPhoto": true
     },
     {
@@ -31154,20 +31798,6 @@
       "hasPhoto": true
     },
     {
-      "id": "falls-creek-nelse-lodge",
-      "name": "Nelse Lodge",
-      "slug": "nelse-lodge",
-      "rating": 4.7,
-      "reviewCount": 66,
-      "priceLevel": null,
-      "priceFrom": 175,
-      "address": "17 Slalom St, Falls Creek VIC 3699, Australia",
-      "lat": -36.8644721,
-      "lng": 147.2793099,
-      "distanceToSlopesM": 100,
-      "hasPhoto": true
-    },
-    {
       "id": "falls-creek-pretty-valley-alpine-lodge",
       "name": "Pretty Valley Alpine Lodge",
       "slug": "pretty-valley-alpine-lodge",
@@ -31221,6 +31851,20 @@
       "lat": -36.8642323,
       "lng": 147.2782418,
       "distanceToSlopesM": 100,
+      "hasPhoto": true
+    },
+    {
+      "id": "falls-creek-cooroona-alpine-lodge",
+      "name": "Cooroona Alpine Lodge",
+      "slug": "cooroona-alpine-lodge",
+      "rating": 4,
+      "reviewCount": 106,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "24 Slalom St, Falls Creek VIC 3699, Australia",
+      "lat": -36.8634071,
+      "lng": 147.27815239999998,
+      "distanceToSlopesM": 200,
       "hasPhoto": true
     }
   ],
@@ -31662,6 +32306,20 @@
       "hasPhoto": true
     },
     {
+      "id": "cerro-catedral-peninsula-petit-hotel",
+      "name": "Península Petit Hotel",
+      "slug": "peninsula-petit-hotel",
+      "rating": 4.9,
+      "reviewCount": 865,
+      "priceLevel": null,
+      "priceFrom": 130,
+      "address": "Av. del Campanario 493, R8400 Villa Campanario, Río Negro, Argentina",
+      "lat": -41.055321,
+      "lng": -71.48161689999999,
+      "distanceToSlopesM": 12850,
+      "hasPhoto": true
+    },
+    {
       "id": "cerro-catedral-villa-sofia-apart-hotel-spa",
       "name": "Villa Sofia Apart Hotel & Spa",
       "slug": "villa-sofia-apart-hotel-spa",
@@ -31690,45 +32348,45 @@
       "hasPhoto": true
     },
     {
-      "id": "cerro-catedral-soft-bariloche",
-      "name": "Soft Bariloche",
-      "slug": "soft-bariloche",
+      "id": "cerro-catedral-hotel-cambria",
+      "name": "Hotel Cambria",
+      "slug": "hotel-cambria",
+      "rating": 4.3,
+      "reviewCount": 1658,
+      "priceLevel": null,
+      "priceFrom": 80,
+      "address": "Ada María Elflein 183, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "lat": -41.1360686,
+      "lng": -71.3077472,
+      "distanceToSlopesM": 11850,
+      "hasPhoto": true
+    },
+    {
+      "id": "cerro-catedral-hospedaje-penthouse-1004",
+      "name": "Hospedaje Penthouse 1004",
+      "slug": "hospedaje-penthouse-1004",
+      "rating": 4.8,
+      "reviewCount": 658,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "EDIFICIO BARILOCHE CENTER, San Martín 127 Piso 10 Dpto. 1004, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "lat": -41.1340851,
+      "lng": -71.3115833,
+      "distanceToSlopesM": 11600,
+      "hasPhoto": true
+    },
+    {
+      "id": "cerro-catedral-hotel-nevada",
+      "name": "Hotel Nevada",
+      "slug": "hotel-nevada",
       "rating": 4.1,
-      "reviewCount": 2240,
+      "reviewCount": 1770,
       "priceLevel": null,
       "priceFrom": 75,
-      "address": "Mitre 685, R8400 San Carlos de Bariloche, Río Negro, Argentina",
-      "lat": -41.1347275,
-      "lng": -71.3000564,
-      "distanceToSlopesM": 12500,
-      "hasPhoto": true
-    },
-    {
-      "id": "cerro-catedral-aspen-ski-hotel",
-      "name": "Aspen Ski Hotel",
-      "slug": "aspen-ski-hotel",
-      "rating": 4.5,
-      "reviewCount": 971,
-      "priceLevel": null,
-      "priceFrom": 100,
-      "address": "Mitre 651, R8400 San Carlos de Bariloche, Río Negro, Argentina",
-      "lat": -41.134687799999995,
-      "lng": -71.30021119999999,
-      "distanceToSlopesM": 12500,
-      "hasPhoto": true
-    },
-    {
-      "id": "cerro-catedral-monasterio-hotel-boutique",
-      "name": "Monasterio Hotel boutique",
-      "slug": "monasterio-hotel-boutique",
-      "rating": 4.6,
-      "reviewCount": 677,
-      "priceLevel": null,
-      "priceFrom": 105,
-      "address": "EYL, Jorge Luis Borges 4910, R8402 San Carlos de Bariloche, Río Negro, Argentina",
-      "lat": -41.1317546,
-      "lng": -71.3688279,
-      "distanceToSlopesM": 7350,
+      "address": "Rolando 250, R8400 San Carlos de Bariloche, Río Negro, Argentina",
+      "lat": -41.134374699999995,
+      "lng": -71.3054363,
+      "distanceToSlopesM": 12100,
       "hasPhoto": true
     },
     {
@@ -31743,20 +32401,6 @@
       "lat": -41.136727,
       "lng": -71.33493899999999,
       "distanceToSlopesM": 9650,
-      "hasPhoto": true
-    },
-    {
-      "id": "cerro-catedral-kenton-palace-hotel",
-      "name": "Kenton Palace Hotel",
-      "slug": "kenton-palace-hotel",
-      "rating": 3.9,
-      "reviewCount": 1948,
-      "priceLevel": null,
-      "priceFrom": 80,
-      "address": "Morales 338, R8400 San Carlos de Bariloche, Río Negro, Argentina",
-      "lat": -41.1349924,
-      "lng": -71.3098633,
-      "distanceToSlopesM": 11700,
       "hasPhoto": true
     },
     {
@@ -31890,20 +32534,6 @@
       "hasPhoto": true
     },
     {
-      "id": "chapelco-la-fontaine-hotel-y-apart",
-      "name": "La Fontaine Hotel y Apart",
-      "slug": "la-fontaine-hotel-y-apart",
-      "rating": 4.6,
-      "reviewCount": 1577,
-      "priceLevel": null,
-      "priceFrom": 115,
-      "address": "Los Cipreses 1840, Q8370 San Martín de los Andes, Neuquén, Argentina",
-      "lat": -40.152721299999996,
-      "lng": -71.3374468,
-      "distanceToSlopesM": 1650,
-      "hasPhoto": true
-    },
-    {
       "id": "chapelco-rotui-apart-hotel",
       "name": "Rotuí - Apart Hotel",
       "slug": "rotui-apart-hotel",
@@ -31929,20 +32559,6 @@
       "lat": -40.115696799999995,
       "lng": -71.20602889999999,
       "distanceToSlopesM": 12200,
-      "hasPhoto": true
-    },
-    {
-      "id": "chapelco-apart-hotel-del-pellin",
-      "name": "Apart Hotel del Pellin",
-      "slug": "apart-hotel-del-pellin",
-      "rating": 4.4,
-      "reviewCount": 992,
-      "priceLevel": null,
-      "priceFrom": 95,
-      "address": "Los Notros 188, Q8370 San Martín de los Andes, Neuquén, Argentina",
-      "lat": -40.1521896,
-      "lng": -71.3402366,
-      "distanceToSlopesM": 1750,
       "hasPhoto": true
     },
     {
@@ -32016,31 +32632,59 @@
       "hasPhoto": true
     },
     {
-      "id": "chapelco-apart-hotel-cascadas",
-      "name": "Apart Hotel Cascadas",
-      "slug": "apart-hotel-cascadas",
-      "rating": 4.3,
-      "reviewCount": 699,
+      "id": "chapelco-del-sauco-apart-spa",
+      "name": "Del Sauco Apart & Spa",
+      "slug": "del-sauco-apart-spa",
+      "rating": 4.5,
+      "reviewCount": 565,
       "priceLevel": null,
-      "priceFrom": 100,
-      "address": "Gabriel Obeid 859, Q8370 San Martín de los Andes, Neuquén, Argentina",
-      "lat": -40.1588701,
-      "lng": -71.3491686,
-      "distanceToSlopesM": 1650,
+      "priceFrom": 105,
+      "address": "José Calderón 364, San Martín de los Andes, Neuquén, Argentina",
+      "lat": -40.154742899999995,
+      "lng": -71.3592827,
+      "distanceToSlopesM": 2600,
       "hasPhoto": true
     },
     {
-      "id": "chapelco-posada-quinen-hosteria-y-cabanas-alojamiento-en-sa",
-      "name": "Posada Quinen - Hostería y Cabañas - Alojamiento en San Martín de los Andes",
-      "slug": "posada-quinen-hosteria-y-cabanas-alojamiento-en-sa",
-      "rating": 4.5,
-      "reviewCount": 499,
+      "id": "chapelco-latitud-cuarenta",
+      "name": "Latitud Cuarenta",
+      "slug": "latitud-cuarenta",
+      "rating": 4.7,
+      "reviewCount": 378,
       "priceLevel": null,
-      "priceFrom": 100,
-      "address": "RN40 65,5, Q8370 San Martín de los Andes, Neuquén, Argentina",
-      "lat": -40.1363118,
-      "lng": -71.285309,
-      "distanceToSlopesM": 5300,
+      "priceFrom": 115,
+      "address": "Cap. Drury 841, Q8370 San Martín de los Andes, Neuquén, Argentina",
+      "lat": -40.1575669,
+      "lng": -71.3509093,
+      "distanceToSlopesM": 1850,
+      "hasPhoto": true
+    },
+    {
+      "id": "chapelco-le-chatelet-hotel",
+      "name": "Le Chatelet Hotel",
+      "slug": "le-chatelet-hotel",
+      "rating": 4.3,
+      "reviewCount": 632,
+      "priceLevel": null,
+      "priceFrom": 85,
+      "address": "Gral. Villegas 650, Q8370 San Martín de los Andes, Neuquén, Argentina",
+      "lat": -40.1585184,
+      "lng": -71.35243369999999,
+      "distanceToSlopesM": 1900,
+      "hasPhoto": true
+    },
+    {
+      "id": "chapelco-el-oasis-apart-hotel",
+      "name": "El Oasis Apart Hotel",
+      "slug": "el-oasis-apart-hotel",
+      "rating": 4.2,
+      "reviewCount": 707,
+      "priceLevel": null,
+      "priceFrom": 90,
+      "address": "El Oasis 450, Q8370 San Martín de los Andes, Neuquén, Argentina",
+      "lat": -40.1533653,
+      "lng": -71.32345339999999,
+      "distanceToSlopesM": 1700,
       "hasPhoto": true
     }
   ],
@@ -32050,7 +32694,7 @@
       "name": "Arakur Ushuaia Resort & Spa",
       "slug": "arakur-ushuaia-resort-spa",
       "rating": 4.7,
-      "reviewCount": 4577,
+      "reviewCount": 4578,
       "priceLevel": null,
       "priceFrom": 120,
       "address": "Cerro Alarkén N° 1(Acceso por Av, Héroes de Malvinas 2617, V9410 Ushuaia, Tierra del Fuego, Argentina",
@@ -32088,20 +32732,6 @@
       "hasPhoto": true
     },
     {
-      "id": "cerro-castor-las-lengas-hotel",
-      "name": "Las Lengas Hotel",
-      "slug": "las-lengas-hotel",
-      "rating": 4.4,
-      "reviewCount": 3055,
-      "priceLevel": null,
-      "priceFrom": 90,
-      "address": "Goleta Florencia 1722, V9410BHB Ushuaia, Tierra del Fuego, Argentina",
-      "lat": -54.8114766,
-      "lng": -68.3228701,
-      "distanceToSlopesM": 21900,
-      "hasPhoto": true
-    },
-    {
       "id": "cerro-castor-los-acebos-ushuaia-hotel",
       "name": "Los Acebos Ushuaia Hotel",
       "slug": "los-acebos-ushuaia-hotel",
@@ -32113,20 +32743,6 @@
       "lat": -54.805931799999996,
       "lng": -68.35221059999999,
       "distanceToSlopesM": 23350,
-      "hasPhoto": true
-    },
-    {
-      "id": "cerro-castor-tolkeyen-ushuaia-hotel",
-      "name": "Tolkeyén Ushuaia Hotel",
-      "slug": "tolkeyen-ushuaia-hotel",
-      "rating": 4.5,
-      "reviewCount": 1506,
-      "priceLevel": null,
-      "priceFrom": 90,
-      "address": "Del Tolkeyen 2391, V9410 Ushuaia, Tierra del Fuego, Argentina",
-      "lat": -54.836809599999995,
-      "lng": -68.35088180000001,
-      "distanceToSlopesM": 24800,
       "hasPhoto": true
     },
     {
@@ -32155,20 +32771,6 @@
       "lat": -54.808664699999994,
       "lng": -68.34575199999999,
       "distanceToSlopesM": 23100,
-      "hasPhoto": true
-    },
-    {
-      "id": "cerro-castor-canal-de-beagle",
-      "name": "Canal de Beagle",
-      "slug": "canal-de-beagle",
-      "rating": 4.4,
-      "reviewCount": 1657,
-      "priceLevel": null,
-      "priceFrom": 105,
-      "address": "Av. Maipú 547, V9410 Ushuaia, Tierra del Fuego, Argentina",
-      "lat": -54.8073331,
-      "lng": -68.3056405,
-      "distanceToSlopesM": 20700,
       "hasPhoto": true
     },
     {
@@ -32211,6 +32813,48 @@
       "lat": -54.8097523,
       "lng": -68.3176058,
       "distanceToSlopesM": 21500,
+      "hasPhoto": true
+    },
+    {
+      "id": "cerro-castor-hotel-lennox-ushuaia",
+      "name": "Hotel Lennox Ushuaia",
+      "slug": "hotel-lennox-ushuaia",
+      "rating": 4.3,
+      "reviewCount": 1215,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "BFU, Av. San Martín 776, V9410 Ushuaia, Tierra del Fuego, Argentina",
+      "lat": -54.8074811,
+      "lng": -68.3086123,
+      "distanceToSlopesM": 20900,
+      "hasPhoto": true
+    },
+    {
+      "id": "cerro-castor-hotel-tierra-del-fuego",
+      "name": "Hotel Tierra del Fuego",
+      "slug": "hotel-tierra-del-fuego",
+      "rating": 4.5,
+      "reviewCount": 732,
+      "priceLevel": null,
+      "priceFrom": 90,
+      "address": "Gdor. Deloqui 198, V9410 Ushuaia, Tierra del Fuego, Argentina",
+      "lat": -54.804736,
+      "lng": -68.3014687,
+      "distanceToSlopesM": 20350,
+      "hasPhoto": true
+    },
+    {
+      "id": "cerro-castor-mil-810-ushuaia-hotel",
+      "name": "Mil 810 Ushuaia Hotel",
+      "slug": "mil-810-ushuaia-hotel",
+      "rating": 4.3,
+      "reviewCount": 914,
+      "priceLevel": null,
+      "priceFrom": 80,
+      "address": "25 de Mayo 245, V9410DFE Ushuaia, Tierra del Fuego, Argentina",
+      "lat": -54.8056395,
+      "lng": -68.3071161,
+      "distanceToSlopesM": 20700,
       "hasPhoto": true
     }
   ],
@@ -32370,17 +33014,17 @@
       "hasPhoto": true
     },
     {
-      "id": "cerro-bayo-hosteria-traunco",
-      "name": "Hosteria Traunco",
-      "slug": "hosteria-traunco",
-      "rating": 4.3,
-      "reviewCount": 538,
+      "id": "cerro-bayo-alma-andina-hosteria",
+      "name": "Alma Andina Hosteria",
+      "slug": "alma-andina-hosteria",
+      "rating": 4.7,
+      "reviewCount": 310,
       "priceLevel": null,
-      "priceFrom": 95,
-      "address": "Las Frambuesas 52, Q8407 Villa La Angostura, Neuquén, Argentina",
-      "lat": -40.7632682,
-      "lng": -71.6467895,
-      "distanceToSlopesM": 4200,
+      "priceFrom": 115,
+      "address": "Cacique Valetin Sayhueque 363, Q8407 Villa La Angostura, Neuquén, Argentina",
+      "lat": -40.759055000000004,
+      "lng": -71.6421946,
+      "distanceToSlopesM": 3700,
       "hasPhoto": true
     }
   ],
@@ -32528,6 +33172,20 @@
       "hasPhoto": true
     },
     {
+      "id": "crested-butte-westwall-lodge",
+      "name": "Westwall Lodge",
+      "slug": "westwall-lodge",
+      "rating": 4.7,
+      "reviewCount": 32,
+      "priceLevel": null,
+      "priceFrom": 180,
+      "address": "14 Hunter Hill Rd, Crested Butte, CO 81225, USA",
+      "lat": 38.8958246,
+      "lng": -106.9674154,
+      "distanceToSlopesM": 500,
+      "hasPhoto": true
+    },
+    {
       "id": "crested-butte-eleven-scarp-ridge-lodge",
       "name": "Eleven Scarp Ridge Lodge",
       "slug": "eleven-scarp-ridge-lodge",
@@ -32628,6 +33286,20 @@
       "hasPhoto": true
     },
     {
+      "id": "fernie-raging-elk-adventure-lodging",
+      "name": "Raging Elk Adventure Lodging",
+      "slug": "raging-elk-adventure-lodging",
+      "rating": 4.1,
+      "reviewCount": 258,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Box 160, 892 6th Ave, Fernie, BC V0B 1M0, Canada",
+      "lat": 49.5079699,
+      "lng": -115.06269599999999,
+      "distanceToSlopesM": 5350,
+      "hasPhoto": true
+    },
+    {
       "id": "fernie-powder-mountain-lodge",
       "name": "Powder Mountain Lodge",
       "slug": "powder-mountain-lodge",
@@ -32695,20 +33367,6 @@
       "lat": 49.466899999999995,
       "lng": -115.08999999999999,
       "distanceToSlopesM": 550,
-      "hasPhoto": true
-    },
-    {
-      "id": "fernie-cornerstone-lodge",
-      "name": "Cornerstone Lodge",
-      "slug": "cornerstone-lodge",
-      "rating": 4.4,
-      "reviewCount": 21,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "5343 Fernie Ski Hill Rd, Fernie, BC V0B 1M6, Canada",
-      "lat": 49.463498,
-      "lng": -115.0872691,
-      "distanceToSlopesM": 100,
       "hasPhoto": true
     }
   ],
@@ -33484,6 +34142,20 @@
   ],
   "keystone": [
     {
+      "id": "keystone-summitcove-vacation-lodging",
+      "name": "SummitCove Vacation Lodging",
+      "slug": "summitcove-vacation-lodging",
+      "rating": 4.6,
+      "reviewCount": 926,
+      "priceLevel": null,
+      "priceFrom": 200,
+      "address": "23110 US-6, Keystone, CO 80435, USA",
+      "lat": 39.608761,
+      "lng": -105.948782,
+      "distanceToSlopesM": 600,
+      "hasPhoto": true
+    },
+    {
       "id": "keystone-keystone-lodge-spa-a-vail-resorts-property",
       "name": "Keystone Lodge & Spa, A Vail Resorts Property",
       "slug": "keystone-lodge-spa-a-vail-resorts-property",
@@ -33526,6 +34198,20 @@
       "hasPhoto": true
     },
     {
+      "id": "keystone-tenderfoot-lodge",
+      "name": "Tenderfoot Lodge",
+      "slug": "tenderfoot-lodge",
+      "rating": 4.6,
+      "reviewCount": 121,
+      "priceLevel": null,
+      "priceFrom": 195,
+      "address": "22784 US-6, Keystone, CO 80435, USA",
+      "lat": 39.6075,
+      "lng": -105.9568,
+      "distanceToSlopesM": 350,
+      "hasPhoto": true
+    },
+    {
       "id": "keystone-gateway-mountain-lodge",
       "name": "Gateway Mountain Lodge",
       "slug": "gateway-mountain-lodge",
@@ -33551,6 +34237,34 @@
       "lat": 39.6061913,
       "lng": -105.9415766,
       "distanceToSlopesM": 1100,
+      "hasPhoto": true
+    },
+    {
+      "id": "keystone-expedition-station-condominiums-by-keystone-resort",
+      "name": "Expedition Station Condominiums by Keystone Resort",
+      "slug": "expedition-station-condominiums-by-keystone-resort",
+      "rating": 4.3,
+      "reviewCount": 32,
+      "priceLevel": null,
+      "priceFrom": 160,
+      "address": "135 Dercum Dr, Keystone, CO 80435, USA",
+      "lat": 39.6070743,
+      "lng": -105.9450463,
+      "distanceToSlopesM": 800,
+      "hasPhoto": true
+    },
+    {
+      "id": "keystone-river-run-village-by-keystone-resort",
+      "name": "River Run Village by Keystone Resort",
+      "slug": "river-run-village-by-keystone-resort",
+      "rating": 4.1,
+      "reviewCount": 17,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "21996 US-6, Keystone, CO 80435, USA",
+      "lat": 39.607160799999996,
+      "lng": -105.94298099999999,
+      "distanceToSlopesM": 1000,
       "hasPhoto": true
     }
   ],
@@ -33628,17 +34342,17 @@
   ],
   "snowbasin": [
     {
-      "id": "snowbasin-comfort-suites-ogden-conference-center",
-      "name": "Comfort Suites Ogden Conference Center",
-      "slug": "comfort-suites-ogden-conference-center",
-      "rating": 4.3,
-      "reviewCount": 1683,
+      "id": "snowbasin-best-western-plus-layton-park-hotel",
+      "name": "Best Western Plus Layton Park Hotel",
+      "slug": "best-western-plus-layton-park-hotel",
+      "rating": 4.5,
+      "reviewCount": 1129,
       "priceLevel": null,
-      "priceFrom": 145,
-      "address": "2250 S 1200 W, Ogden, UT 84401, USA",
-      "lat": 41.225639,
-      "lng": -112.01001699999999,
-      "distanceToSlopesM": 13450,
+      "priceFrom": 200,
+      "address": "798 W 1425 N, Layton, UT 84041, USA",
+      "lat": 41.0818152,
+      "lng": -111.9807029,
+      "distanceToSlopesM": 17650,
       "hasPhoto": true
     },
     {
@@ -33726,20 +34440,6 @@
       "hasPhoto": true
     },
     {
-      "id": "snowbasin-super-8-by-wyndham-ogden",
-      "name": "Super 8 by Wyndham Ogden",
-      "slug": "super-8-by-wyndham-ogden",
-      "rating": 3.9,
-      "reviewCount": 1391,
-      "priceLevel": null,
-      "priceFrom": 140,
-      "address": "1508 W 2100 S St, Ogden, UT 84401, USA",
-      "lat": 41.2302404,
-      "lng": -112.01610529999999,
-      "distanceToSlopesM": 14050,
-      "hasPhoto": true
-    },
-    {
       "id": "snowbasin-the-valley-house-inn",
       "name": "The Valley House Inn",
       "slug": "the-valley-house-inn",
@@ -33782,11 +34482,11 @@
       "hasPhoto": true
     },
     {
-      "id": "snowbasin-tru-by-hilton-ogden",
-      "name": "Tru by Hilton Ogden",
-      "slug": "tru-by-hilton-ogden",
+      "id": "snowbasin-home2-suites-by-hilton-ogden",
+      "name": "Home2 Suites by Hilton Ogden",
+      "slug": "home2-suites-by-hilton-ogden",
       "rating": 4.3,
-      "reviewCount": 372,
+      "reviewCount": 314,
       "priceLevel": null,
       "priceFrom": 170,
       "address": "2405 Lincoln Ave, Ogden, UT 84401, USA",
@@ -34051,6 +34751,432 @@
       "lat": 45.0571421,
       "lng": -70.3075206,
       "distanceToSlopesM": 2900,
+      "hasPhoto": true
+    }
+  ],
+  "innsbruck": [
+    {
+      "id": "innsbruck-hotel-das-innsbruck",
+      "name": "Hotel Das Innsbruck",
+      "slug": "hotel-das-innsbruck",
+      "rating": 4.6,
+      "reviewCount": 2371,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "Innrain 3, 6020 Innsbruck, Austria",
+      "lat": 47.2678377,
+      "lng": 11.3913686,
+      "distanceToSlopesM": 600,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-adlers-hotel",
+      "name": "Adlers Hotel",
+      "slug": "adlers-hotel",
+      "rating": 4.4,
+      "reviewCount": 2679,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Brunecker Str. 1, 6020 Innsbruck, Austria",
+      "lat": 47.266102599999996,
+      "lng": 11.401223499999999,
+      "distanceToSlopesM": 650,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-hotel-grauer-bar",
+      "name": "Hotel Grauer Bär",
+      "slug": "hotel-grauer-bar",
+      "rating": 4.4,
+      "reviewCount": 2611,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Universitätsstraße 5-7, 6020 Innsbruck, Austria",
+      "lat": 47.2689454,
+      "lng": 11.397509099999999,
+      "distanceToSlopesM": 750,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-nala-individuellhotel",
+      "name": "NALA individuellhotel",
+      "slug": "nala-individuellhotel",
+      "rating": 4.7,
+      "reviewCount": 1345,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "Müllerstraße 15, 6020 Innsbruck, Austria",
+      "lat": 47.261258999999995,
+      "lng": 11.3924335,
+      "distanceToSlopesM": 200,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-altstadthotel-weisses-kreuz",
+      "name": "Altstadthotel Weisses Kreuz",
+      "slug": "altstadthotel-weisses-kreuz",
+      "rating": 4.7,
+      "reviewCount": 1259,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Herzog-Friedrich-Straße 31, 6020 Innsbruck, Austria",
+      "lat": 47.2677038,
+      "lng": 11.393602600000001,
+      "distanceToSlopesM": 550,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-leipziger-hof-innsbruck",
+      "name": "Leipziger Hof Innsbruck",
+      "slug": "leipziger-hof-innsbruck",
+      "rating": 4.6,
+      "reviewCount": 1172,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "Defreggerstraße 13, 6020 Innsbruck, Austria",
+      "lat": 47.2648124,
+      "lng": 11.4081792,
+      "distanceToSlopesM": 1050,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-the-penz-hotel",
+      "name": "The Penz Hotel",
+      "slug": "the-penz-hotel",
+      "rating": 4.6,
+      "reviewCount": 1078,
+      "priceLevel": null,
+      "priceFrom": 150,
+      "address": "Adolf-Pichler-Platz 3, 6020 Innsbruck, Austria",
+      "lat": 47.2660774,
+      "lng": 11.3922355,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-hotel-sailer",
+      "name": "Hotel Sailer",
+      "slug": "hotel-sailer",
+      "rating": 4.4,
+      "reviewCount": 1462,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "Adamgasse 8, 6020 Innsbruck, Austria",
+      "lat": 47.2635314,
+      "lng": 11.3979263,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-hotel-motel-one-innsbruck",
+      "name": "Hotel Motel One Innsbruck",
+      "slug": "hotel-motel-one-innsbruck",
+      "rating": 4.4,
+      "reviewCount": 1251,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Südbahnstraße 1, 6020 Innsbruck, Austria",
+      "lat": 47.2615518,
+      "lng": 11.399835399999999,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-hotel-central-innsbruck",
+      "name": "Hotel Central - Innsbruck",
+      "slug": "hotel-central-innsbruck",
+      "rating": 4.2,
+      "reviewCount": 1745,
+      "priceLevel": null,
+      "priceFrom": 100,
+      "address": "Gilmstraße 5, 6020 Innsbruck, Austria",
+      "lat": 47.2658948,
+      "lng": 11.3965683,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-hotel-bierwirt",
+      "name": "Hotel Bierwirt",
+      "slug": "hotel-bierwirt",
+      "rating": 4.4,
+      "reviewCount": 1211,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "Bichlweg 2, 6020 Innsbruck, Austria",
+      "lat": 47.2587589,
+      "lng": 11.4307713,
+      "distanceToSlopesM": 2750,
+      "hasPhoto": true
+    },
+    {
+      "id": "innsbruck-hotel-maximilian-stadthaus-penz",
+      "name": "Hotel Maximilian Stadthaus Penz",
+      "slug": "hotel-maximilian-stadthaus-penz",
+      "rating": 4.6,
+      "reviewCount": 668,
+      "priceLevel": null,
+      "priceFrom": 135,
+      "address": "Marktgraben 7/9, 6020 Innsbruck, Austria",
+      "lat": 47.2673,
+      "lng": 11.3918,
+      "distanceToSlopesM": 550,
+      "hasPhoto": true
+    }
+  ],
+  "interlaken": [
+    {
+      "id": "interlaken-victoria-jungfrau-grand-hotel-spa",
+      "name": "Victoria-Jungfrau Grand Hotel & Spa",
+      "slug": "victoria-jungfrau-grand-hotel-spa",
+      "rating": 4.6,
+      "reviewCount": 2850,
+      "priceLevel": null,
+      "priceFrom": 185,
+      "address": "Höheweg 41, 3800 Interlaken, Switzerland",
+      "lat": 46.6866541,
+      "lng": 7.8573855,
+      "distanceToSlopesM": 450,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-hotel-royal-st-georges-interlaken-mgallery-collect",
+      "name": "Hotel Royal St. Georges Interlaken - MGallery Collection",
+      "slug": "hotel-royal-st-georges-interlaken-mgallery-collect",
+      "rating": 4.6,
+      "reviewCount": 2456,
+      "priceLevel": null,
+      "priceFrom": 190,
+      "address": "Höheweg 139, 3800 Interlaken, Switzerland",
+      "lat": 46.6887617,
+      "lng": 7.862708400000001,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-backpackers-villa-sonnenhof-hostel-interlaken",
+      "name": "Backpackers Villa Sonnenhof - Hostel Interlaken",
+      "slug": "backpackers-villa-sonnenhof-hostel-interlaken",
+      "rating": 4.7,
+      "reviewCount": 1439,
+      "priceLevel": null,
+      "priceFrom": 180,
+      "address": "Alpenstrasse 16, 3800 Interlaken, Switzerland",
+      "lat": 46.684461600000006,
+      "lng": 7.8616996,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-hotel-rossli-interlaken",
+      "name": "Hotel Rössli Interlaken",
+      "slug": "hotel-rossli-interlaken",
+      "rating": 4.7,
+      "reviewCount": 1310,
+      "priceLevel": null,
+      "priceFrom": 210,
+      "address": "Hauptstrasse 10, 3800 Unterseen, Switzerland",
+      "lat": 46.685846999999995,
+      "lng": 7.848954999999999,
+      "distanceToSlopesM": 1100,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-hotel-interlaken",
+      "name": "Hotel Interlaken",
+      "slug": "hotel-interlaken",
+      "rating": 4.5,
+      "reviewCount": 1334,
+      "priceLevel": null,
+      "priceFrom": 175,
+      "address": "Höheweg 74, 3800 Interlaken, Switzerland",
+      "lat": 46.6884995,
+      "lng": 7.863377099999999,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-hapimag-resort-interlaken",
+      "name": "Hapimag Resort Interlaken",
+      "slug": "hapimag-resort-interlaken",
+      "rating": 4.5,
+      "reviewCount": 1325,
+      "priceLevel": null,
+      "priceFrom": 180,
+      "address": "Höheweg 95, 3800 Interlaken, Switzerland",
+      "lat": 46.6878731,
+      "lng": 7.8600317,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-salzano",
+      "name": "Salzano",
+      "slug": "salzano",
+      "rating": 4.5,
+      "reviewCount": 1144,
+      "priceLevel": null,
+      "priceFrom": 185,
+      "address": "Seestrasse 108, 3800 Interlaken, Switzerland",
+      "lat": 46.6811089,
+      "lng": 7.828276300000001,
+      "distanceToSlopesM": 2750,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-grand-hotel-beau-rivage",
+      "name": "Grand Hotel Beau-Rivage",
+      "slug": "grand-hotel-beau-rivage",
+      "rating": 4.1,
+      "reviewCount": 1362,
+      "priceLevel": null,
+      "priceFrom": 155,
+      "address": "Höheweg 211, 3800 Interlaken, Switzerland",
+      "lat": 46.689637,
+      "lng": 7.8645957,
+      "distanceToSlopesM": 400,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-adventure-hostel-interlaken",
+      "name": "Adventure Hostel Interlaken",
+      "slug": "adventure-hostel-interlaken",
+      "rating": 4.6,
+      "reviewCount": 424,
+      "priceLevel": null,
+      "priceFrom": 205,
+      "address": "Seestrasse 44, 3800 Interlaken, Switzerland",
+      "lat": 46.683045899999996,
+      "lng": 7.8433607,
+      "distanceToSlopesM": 1550,
+      "hasPhoto": true
+    },
+    {
+      "id": "interlaken-funny-farm-backpackers",
+      "name": "Funny Farm Backpackers",
+      "slug": "funny-farm-backpackers",
+      "rating": 4,
+      "reviewCount": 589,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "Hauptstrasse 36, 3800 Matten bei Interlaken, Switzerland",
+      "lat": 46.679475,
+      "lng": 7.8644639,
+      "distanceToSlopesM": 750,
+      "hasPhoto": true
+    }
+  ],
+  "queenstown": [
+    {
+      "id": "queenstown-hilton-queenstown-resort-spa",
+      "name": "Hilton Queenstown Resort & Spa",
+      "slug": "hilton-queenstown-resort-spa",
+      "rating": 4.3,
+      "reviewCount": 3134,
+      "priceLevel": null,
+      "priceFrom": 105,
+      "address": "79 Peninsula Road, Kawarau Heights, Queenstown 9300, New Zealand",
+      "lat": -45.028768199999995,
+      "lng": 168.7283052,
+      "distanceToSlopesM": 5150,
+      "hasPhoto": true
+    },
+    {
+      "id": "queenstown-novotel-queenstown-lakeside",
+      "name": "Novotel Queenstown Lakeside",
+      "slug": "novotel-queenstown-lakeside",
+      "rating": 4.3,
+      "reviewCount": 2691,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "Cnr Earl St, Marine Parade, And, Queenstown 9300, New Zealand",
+      "lat": -45.0334633,
+      "lng": 168.6627703,
+      "distanceToSlopesM": 250,
+      "hasPhoto": true
+    },
+    {
+      "id": "queenstown-mercure-queenstown-resort",
+      "name": "Mercure Queenstown Resort",
+      "slug": "mercure-queenstown-resort",
+      "rating": 4.2,
+      "reviewCount": 1696,
+      "priceLevel": null,
+      "priceFrom": 115,
+      "address": "21 Sainsbury Road, Fernhill, Queenstown 9300, New Zealand",
+      "lat": -45.0390668,
+      "lng": 168.63845329999998,
+      "distanceToSlopesM": 2100,
+      "hasPhoto": true
+    },
+    {
+      "id": "queenstown-kamana-lakehouse",
+      "name": "Kamana Lakehouse",
+      "slug": "kamana-lakehouse",
+      "rating": 4.4,
+      "reviewCount": 1011,
+      "priceLevel": null,
+      "priceFrom": 110,
+      "address": "139 Fernhill Road, Fernhill, Queenstown 9300, New Zealand",
+      "lat": -45.038818299999996,
+      "lng": 168.63375069999998,
+      "distanceToSlopesM": 2400,
+      "hasPhoto": true
+    },
+    {
+      "id": "queenstown-sofitel-queenstown-hotel-and-spa",
+      "name": "Sofitel Queenstown Hotel and Spa",
+      "slug": "sofitel-queenstown-hotel-and-spa",
+      "rating": 4.5,
+      "reviewCount": 745,
+      "priceLevel": null,
+      "priceFrom": 140,
+      "address": "8 Duke Street, Queenstown 9300, New Zealand",
+      "lat": -45.0309489,
+      "lng": 168.65907049999998,
+      "distanceToSlopesM": 300,
+      "hasPhoto": true
+    },
+    {
+      "id": "queenstown-qt-queenstown",
+      "name": "QT Queenstown",
+      "slug": "qt-queenstown",
+      "rating": 4.5,
+      "reviewCount": 657,
+      "priceLevel": null,
+      "priceFrom": 120,
+      "address": "38/54 Lake Esplanade, Queenstown 9300, New Zealand",
+      "lat": -45.0351521,
+      "lng": 168.652252,
+      "distanceToSlopesM": 900,
+      "hasPhoto": true
+    },
+    {
+      "id": "queenstown-doubletree-by-hilton-hotel-queenstown",
+      "name": "DoubleTree by Hilton Hotel Queenstown",
+      "slug": "doubletree-by-hilton-hotel-queenstown",
+      "rating": 4.2,
+      "reviewCount": 971,
+      "priceLevel": null,
+      "priceFrom": 125,
+      "address": "79 Peninsula Road, Kawarau Village, Kawarau Falls 9300, New Zealand",
+      "lat": -45.028552399999995,
+      "lng": 168.7292757,
+      "distanceToSlopesM": 5250,
+      "hasPhoto": true
+    },
+    {
+      "id": "queenstown-queenstown-park-boutique-hotel",
+      "name": "Queenstown Park Boutique Hotel",
+      "slug": "queenstown-park-boutique-hotel",
+      "rating": 4.8,
+      "reviewCount": 281,
+      "priceLevel": null,
+      "priceFrom": 145,
+      "address": "21 Robins Road, Queenstown 9300, New Zealand",
+      "lat": -45.0279993,
+      "lng": 168.6599139,
+      "distanceToSlopesM": 400,
       "hasPhoto": true
     }
   ]

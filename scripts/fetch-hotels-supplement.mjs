@@ -35,6 +35,7 @@ const TARGETS = [
   { slug: 'sugarloaf',      query: 'Sugarloaf Maine ski resort village lodging hotel inn',         maxDist: 9000,  minReviews: 20 },
   { slug: 'snowbasin',      query: 'hotels Ogden Utah near Snowbasin',                             maxDist: 35000, minReviews: 200 },
   { slug: 'mt-bachelor',    query: 'hotels Bend Oregon',                                           maxDist: 35000, minReviews: 300 },
+  { slug: 'innsbruck',      query: 'hotels Innsbruck Austria old town',                            maxDist: 6000,  minReviews: 150 },
   { slug: 'cerro-catedral', query: 'hotels San Carlos de Bariloche Argentina',                  maxDist: 26000, minReviews: 30 },
   { slug: 'chapelco',       query: 'hotels San Martin de los Andes Argentina',                  maxDist: 28000, minReviews: 25 },
   { slug: 'cerro-bayo',     query: 'hotels Villa La Angostura Argentina',                       maxDist: 16000, minReviews: 15 },
