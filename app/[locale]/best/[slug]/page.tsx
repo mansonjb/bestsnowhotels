@@ -6,8 +6,26 @@ import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import { BEST_FOR_LISTS, getBestForList } from '@/lib/bestFor'
 import { destinations } from '@/lib/destinations'
-import { SITE_URL, jsonLdGraph } from '@/lib/site'
+import type { Destination } from '@/lib/destinations'
+import { SITE_URL, jsonLdGraph, buildAllezHotelLink } from '@/lib/site'
+import { getHotels } from '@/lib/hotels'
 import DestinationCard from '@/components/DestinationCard'
+import HotelCard from '@/components/HotelCard'
+
+const HOTEL_HEADING = {
+  en: 'Where to stay',
+  fr: 'Où dormir',
+  es: 'Dónde alojarse',
+  pt: 'Onde ficar',
+  it: 'Dove dormire',
+} as Record<Locale, string>
+const HOTEL_SUB = {
+  en: 'A standout hotel in each of the top resorts on this list, with live prices.',
+  fr: 'Un hôtel marquant dans chacune des meilleures stations de cette liste, avec les prix en direct.',
+  es: 'Un hotel destacado en cada una de las mejores estaciones de esta lista, con precios en directo.',
+  pt: 'Um hotel de destaque em cada uma das melhores estâncias desta lista, com preços em direto.',
+  it: 'Un hotel di spicco in ciascuna delle migliori località di questa lista, con prezzi in tempo reale.',
+} as Record<Locale, string>
 
 export async function generateStaticParams() {
   return locales.flatMap((locale) => BEST_FOR_LISTS.map((b) => ({ locale, slug: b.slug })))
@@ -58,6 +76,20 @@ export default async function BestForListPage({
   }
 
   const otherLists = BEST_FOR_LISTS.filter((x) => x.slug !== b.slug).slice(0, 6)
+
+  // Featured hotels: the standout hotel from each of the top resorts on the
+  // list, so every "best for" page carries concrete, bookable examples.
+  const featured = matched
+    .map((d) => ({ dest: d, hotel: getHotels(d.slug)[0] }))
+    .filter((x): x is { dest: Destination; hotel: NonNullable<typeof x.hotel> } => Boolean(x.hotel))
+    .slice(0, 6)
+  const hotelLabels = {
+    reviews: dict.destination.reviews,
+    checkAvailability: dict.destination.checkAvailability,
+    toSlopes: dict.destination.toSlopes,
+    from: dict.destination.from,
+    perNight: dict.destination.perNight,
+  }
 
   const jsonLd = [
     {
@@ -135,6 +167,35 @@ export default async function BestForListPage({
           ))}
         </div>
       </section>
+
+      {/* Where to stay: a standout hotel in each of the top resorts */}
+      {featured.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+          <h2 className="text-2xl font-bold text-slate-deep">{HOTEL_HEADING[l]}</h2>
+          <p className="mt-2 text-ice-800/80 max-w-3xl">{HOTEL_SUB[l]}</p>
+          <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {featured.map(({ dest, hotel }) => (
+              <div key={dest.slug}>
+                <Link
+                  href={`/${l}/destinations/${dest.slug}`}
+                  className="group inline-flex items-baseline gap-2 mb-3"
+                >
+                  <span className="text-sm font-bold uppercase tracking-wide text-ice-700 group-hover:text-alpenglow-700">
+                    {dest.name}
+                  </span>
+                </Link>
+                <HotelCard
+                  hotel={hotel}
+                  bookHref={buildAllezHotelLink(hotel.name, dest.name, dest.country, 'best', 7)}
+                  resortName={dest.name}
+                  locale={l}
+                  labels={hotelLabels}
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Other lists (maillage) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8">

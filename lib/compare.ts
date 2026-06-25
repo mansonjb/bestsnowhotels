@@ -54,6 +54,18 @@ export const COMPARE_PAIRS: ComparePair[] = [
   pair('les-arcs-vs-la-plagne', 'les-arcs', 'la-plagne', 'les-arcs'),
   pair('saalbach-vs-st-anton', 'saalbach', 'st-anton', 'st-anton'),
   pair('jackson-hole-vs-big-sky', 'jackson-hole', 'big-sky', 'jackson-hole'),
+  // Wave 24: high-intent rivalry queries (FR "ou", EN "vs", NA "vs").
+  pair('avoriaz-vs-morzine', 'avoriaz', 'morzine', 'avoriaz'),
+  pair('les-menuires-vs-val-thorens', 'les-menuires', 'val-thorens', 'val-thorens'),
+  pair('alpe-d-huez-vs-les-deux-alpes', 'alpe-d-huez', 'les-deux-alpes', 'alpe-d-huez'),
+  pair('verbier-vs-zermatt', 'verbier', 'zermatt', 'zermatt'),
+  pair('verbier-vs-courchevel', 'verbier', 'courchevel', 'verbier'),
+  pair('st-anton-vs-lech-zurs', 'st-anton', 'lech-zurs', 'st-anton'),
+  pair('ischgl-vs-st-anton', 'ischgl', 'st-anton', 'st-anton'),
+  pair('park-city-vs-deer-valley', 'park-city', 'deer-valley', 'deer-valley'),
+  pair('park-city-vs-vail', 'park-city', 'vail', 'vail'),
+  pair('breckenridge-vs-vail', 'breckenridge', 'vail', 'vail'),
+  pair('whistler-blackcomb-vs-lake-louise', 'whistler-blackcomb', 'lake-louise', 'whistler-blackcomb'),
 ]
 
 export function getComparePair(slug: string): ComparePair | undefined {

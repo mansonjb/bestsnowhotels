@@ -170,6 +170,17 @@ Side-by-side editorial comparisons with side-by-side stats and clear verdicts:
 - /compare/les-arcs-vs-la-plagne (Paradiski rivals)
 - /compare/saalbach-vs-st-anton (Austria: Skicircus vs Arlberg birthplace)
 - /compare/jackson-hole-vs-big-sky (US Northern Rockies expert duel)
+- /compare/avoriaz-vs-morzine (Portes du Soleil: car-free high vs traditional town)
+- /compare/les-menuires-vs-val-thorens (Three Valleys: value vs highest in Europe)
+- /compare/alpe-d-huez-vs-les-deux-alpes (Oisans rivals: sunny domain vs glacier)
+- /compare/verbier-vs-zermatt (Switzerland: freeride and party vs Matterhorn snow-sure)
+- /compare/verbier-vs-courchevel (understated chalet luxury vs showcase luxury)
+- /compare/st-anton-vs-lech-zurs (Arlberg: steep and wild vs discreet luxury)
+- /compare/ischgl-vs-st-anton (Austria party legends: snow-sure cruising vs expert terrain)
+- /compare/park-city-vs-deer-valley (adjacent Utah: vast and lively vs ski-only and groomed)
+- /compare/park-city-vs-vail (biggest US area vs Colorado Back Bowls)
+- /compare/breckenridge-vs-vail (high lively town vs bigger upscale Back Bowls)
+- /compare/whistler-blackcomb-vs-lake-louise (vast coastal giant vs Banff Rockies scenery)
 
 Travel-intent best-for lists (high search volume):
 - /best/cheap-ski (budget Europe: Bansko, Borovets, Sierra Nevada, Andorra, Italian East)
@@ -177,6 +188,9 @@ Travel-intent best-for lists (high search volume):
 - /best/ski-near-london (Geneva / Salzburg flight + drive, Japan)
 - /best/spring-skiing (April + May glaciers and high-altitude)
 - /best/ski-honeymoon (luxury romantic: St. Moritz, Gstaad, Aspen, Niseko)
+- /best/apres-ski (nightlife and party: St. Anton, Ischgl, Val Thorens, Verbier, Whistler)
+- /best/non-skiers (real towns, spas, scenic trains: Chamonix, Zermatt, St. Moritz, Queenstown)
+- /best/snowboard (parks and powder: Laax, Avoriaz, Niseko, Whistler, Mayrhofen)
 
 Index: https://www.bestsnowhotels.com/en/compare
 

@@ -103,6 +103,23 @@ const CHEAP_SKI_SLUGS = new Set([
   'luchon-superbagneres', 'piau-engaly', 'guzet', 'gourette',
 ])
 
+/** Resorts that work for non-skiers: real towns with off-slope life (spas,
+ *  scenic trains, walks, shopping, sightseeing), worldwide. */
+const NON_SKIER_SLUGS = new Set([
+  'chamonix', 'zermatt', 'st-moritz', 'davos', 'cortina-d-ampezzo', 'innsbruck',
+  'megeve', 'kitzbuhel', 'morzine', 'queenstown', 'lake-louise', 'aspen-snowmass',
+  'garmisch-partenkirchen', 'bad-gastein', 'are', 'saalbach', 'wengen', 'grindelwald',
+])
+
+/** Snowboard-friendly resorts: great parks, powder, few flat traverses,
+ *  strong board culture, worldwide. */
+const SNOWBOARD_SLUGS = new Set([
+  'laax', 'avoriaz', 'morzine', 'mayrhofen', 'saalbach', 'livigno', 'niseko',
+  'whistler-blackcomb', 'stubai', 'kaprun', 'val-thorens', 'les-deux-alpes',
+  'flachau', 'ischgl', 'madonna-di-campiglio', 'engelberg', 'davos', 'solden',
+  'les-arcs', 'tignes',
+])
+
 // Continent / country helpers now live in lib/countries.ts as the single
 // source of truth (COUNTRY_META + derived predicates). See the imports above.
 
@@ -979,6 +996,31 @@ export const BEST_FOR_LISTS: BestForList[] = [
     // altitude (not a shared linked-domain figure), so the ranking is clean.
     filter: () => true,
     sort: (d) => d.altitudeSummit,
+    limit: 24,
+  },
+  // ---------- Wave 24: intent lists (worldwide) ----------
+  {
+    slug: 'apres-ski',
+    heroSlug: 'st-anton',
+    ...x('apres-ski'),
+    filter: (d) => d.vibes.includes('party'),
+    sort: (d) => d.snowScore,
+    limit: 24,
+  },
+  {
+    slug: 'non-skiers',
+    heroSlug: 'chamonix',
+    ...x('non-skiers'),
+    filter: (d) => NON_SKIER_SLUGS.has(d.slug),
+    sort: (d) => d.snowScore,
+    limit: 24,
+  },
+  {
+    slug: 'snowboard',
+    heroSlug: 'laax',
+    ...x('snowboard'),
+    filter: (d) => SNOWBOARD_SLUGS.has(d.slug),
+    sort: (d) => d.snowScore,
     limit: 24,
   },
 ]
