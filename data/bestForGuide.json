@@ -1,0 +1,521 @@
+{
+  "snowboard": {
+    "longIntro": {
+      "en": "Choosing a ski resort as a snowboarder is a different exercise than picking one for skiers. You want world-class snowparks and pipes, reliable powder, and terrain that flows without forcing you to scoot across long flat traverses or sit on slow draglifts that punish a single fixed binding. Park-focused riders gravitate to Laax in Switzerland and Avoriaz in France, two benchmarks for kickers, jibs, and superpipes maintained to competition standard. For deep snow, Niseko in Japan delivers some of the lightest, most consistent powder on the planet, while Whistler in Canada pairs huge vertical with serious freeride lines.\n\nLift systems matter more than people expect. Gondolas and fast chairs let you ride strapped out comfortably, so resorts like Mayrhofen and Saalbach in Austria, Val Thorens and Les Deux Alpes in France, and Livigno in Italy reward boarders with modern access and minimal dragging. Strong board culture, dedicated schools, and a welcoming scene round out the picture. The best mountain for you balances park, powder, and easy movement, so you spend the day riding rather than walking, poling, or waiting in a lift queue you cannot avoid.",
+      "fr": "Choisir une station quand on est snowboardeur n'a rien à voir avec le choix d'un skieur. Vous voulez des snowparks et des half-pipes de classe mondiale, de la poudreuse fiable et un terrain qui s'enchaîne sans vous forcer à pousser sur de longues traversées plates ou à subir des téléskis lents qui malmènent un fixage figé. Les amateurs de park se tournent vers Laax en Suisse et Avoriaz en France, deux références pour les kickers, les modules et les superpipes entretenus au niveau compétition. Pour la neige profonde, Niseko au Japon offre l'une des poudreuses les plus légères et les plus régulières de la planète, tandis que Whistler au Canada associe un dénivelé énorme à de vraies lignes de freeride.\n\nLes remontées comptent plus qu'on ne le croit. Les télécabines et les télésièges rapides permettent de rester chaussé confortablement, si bien que des stations comme Mayrhofen et Saalbach en Autriche, Val Thorens et Les Deux Alpes en France, et Livigno en Italie récompensent les boarders par un accès moderne et un minimum de portage. Une vraie culture du snowboard, des écoles dédiées et une ambiance accueillante complètent le tableau. La meilleure montagne pour vous équilibre park, poudreuse et facilité de déplacement, pour que vous passiez la journée à rider plutôt qu'à marcher, pousser sur les bras ou attendre dans une file que vous ne pouvez pas éviter.",
+      "es": "Elegir una estación siendo snowboarder es un ejercicio distinto al de un esquiador. Quieres snowparks y half-pipes de clase mundial, nieve polvo fiable y un terreno que fluya sin obligarte a empujar por largas travesías llanas ni a sufrir telesquís lentos que castigan una fijación fija. Los aficionados al park se decantan por Laax en Suiza y Avoriaz en Francia, dos referencias en kickers, módulos y superpipes mantenidos a nivel de competición. Para la nieve profunda, Niseko en Japón ofrece una de las nieves polvo más ligeras y constantes del planeta, mientras que Whistler en Canadá combina un desnivel enorme con auténticas líneas de freeride.\n\nLos remontes importan más de lo que se piensa. Las telecabinas y telesillas rápidas te permiten ir cómodamente con la tabla puesta, así que estaciones como Mayrhofen y Saalbach en Austria, Val Thorens y Les Deux Alpes en Francia, y Livigno en Italia recompensan a los riders con accesos modernos y un mínimo de arrastre. Una sólida cultura del snowboard, escuelas especializadas y un ambiente acogedor completan el cuadro. La mejor montaña para ti equilibra park, nieve polvo y facilidad de movimiento, para que pases el día rodando en lugar de caminar, remar con los brazos o esperar en una cola de remonte que no puedes evitar.",
+      "pt": "Escolher uma estância sendo snowboarder é um exercício diferente do de um esquiador. Quer snowparks e half-pipes de classe mundial, neve fresca fiável e um terreno que se encadeia sem o obrigar a empurrar por longas travessias planas nem a aturar teleskis lentos que maltratam uma fixação fixa. Os adeptos do park inclinam-se para Laax na Suíça e Avoriaz em França, duas referências em kickers, módulos e superpipes mantidos a nível de competição. Para a neve profunda, Niseko no Japão oferece uma das neves frescas mais leves e constantes do planeta, enquanto Whistler no Canadá junta um desnível enorme a verdadeiras linhas de freeride.\n\nOs remontes contam mais do que se pensa. As telecabines e telecadeiras rápidas deixam andar comodamente com a prancha presa, por isso estâncias como Mayrhofen e Saalbach na Áustria, Val Thorens e Les Deux Alpes em França, e Livigno em Itália recompensam os riders com acessos modernos e um mínimo de arrasto. Uma cultura de snowboard forte, escolas dedicadas e um ambiente acolhedor completam o quadro. A melhor montanha para si equilibra park, neve fresca e facilidade de movimento, para que passe o dia a andar em vez de caminhar, remar com os braços ou esperar numa fila de remonte que não consegue evitar.",
+      "it": "Scegliere una località da snowboarder è un esercizio diverso da quello di uno sciatore. Vuoi snowpark e half-pipe di livello mondiale, neve fresca affidabile e un terreno che si concatena senza costringerti a spingere su lunghe traversate piatte o a subire skilift lenti che penalizzano un attacco fisso. Gli appassionati di park si orientano verso Laax in Svizzera e Avoriaz in Francia, due riferimenti per kicker, moduli e superpipe curati a livello di gara. Per la neve profonda, Niseko in Giappone offre una delle nevi fresche più leggere e costanti del pianeta, mentre Whistler in Canada unisce un dislivello enorme a vere linee di freeride.\n\nGli impianti contano più di quanto si pensi. Le cabinovie e le seggiovie veloci permettono di restare agganciati comodamente, così località come Mayrhofen e Saalbach in Austria, Val Thorens e Les Deux Alpes in Francia, e Livigno in Italia premiano i rider con accessi moderni e il minimo di trasporto a piedi. Una solida cultura dello snowboard, scuole dedicate e un'atmosfera accogliente completano il quadro. La montagna migliore per te bilancia park, neve fresca e facilità di movimento, così passi la giornata a cavalcare la tavola invece di camminare, spingerti con le braccia o aspettare in una coda all'impianto che non puoi evitare."
+    },
+    "criteria": [
+      {
+        "title": {
+          "en": "Snowpark quality",
+          "fr": "Qualité du snowpark",
+          "es": "Calidad del snowpark",
+          "pt": "Qualidade do snowpark",
+          "it": "Qualità dello snowpark"
+        },
+        "text": {
+          "en": "Look for well-shaped lines with progression, from beginner boxes to large jumps and a real pipe. Laax and Avoriaz set the standard, with parks groomed and rebuilt daily.",
+          "fr": "Recherchez des modules bien façonnés avec une vraie progression, des box débutants aux gros sauts et au half-pipe. Laax et Avoriaz font référence, avec des parks retravaillés chaque jour.",
+          "es": "Busca líneas bien diseñadas con progresión, desde cajones para principiantes hasta grandes saltos y un buen half-pipe. Laax y Avoriaz marcan la pauta, con parks remodelados a diario.",
+          "pt": "Procure linhas bem desenhadas com progressão, desde caixas para iniciantes até saltos grandes e um half-pipe a sério. Laax e Avoriaz são a referência, com parks reconstruídos todos os dias.",
+          "it": "Cerca linee ben modellate con progressione, dai box per principianti ai salti grandi e a un vero half-pipe. Laax e Avoriaz fanno scuola, con park rifatti ogni giorno."
+        }
+      },
+      {
+        "title": {
+          "en": "Powder and freeride terrain",
+          "fr": "Poudreuse et terrain de freeride",
+          "es": "Nieve polvo y terreno freeride",
+          "pt": "Neve fresca e terreno de freeride",
+          "it": "Neve fresca e terreno freeride"
+        },
+        "text": {
+          "en": "Frequent snowfall, tree runs, and open faces let you carve fresh lines for days. Niseko in Japan and Whistler in Canada are world leaders, while Val Thorens offers reliable high-altitude snow.",
+          "fr": "Des chutes de neige fréquentes, des forêts et de grandes faces permettent de tracer du frais pendant des jours. Niseko au Japon et Whistler au Canada sont en tête, tandis que Val Thorens offre une neige d'altitude fiable.",
+          "es": "Las nevadas frecuentes, los bosques y las caras abiertas te permiten trazar líneas nuevas durante días. Niseko en Japón y Whistler en Canadá lideran, mientras Val Thorens ofrece nieve fiable de altura.",
+          "pt": "Quedas de neve frequentes, descidas pela floresta e encostas abertas deixam traçar linhas novas durante dias. Niseko no Japão e Whistler no Canadá lideram, enquanto Val Thorens garante neve fiável de altitude.",
+          "it": "Nevicate frequenti, boschi e ampie pareti ti fanno tracciare linee fresche per giorni. Niseko in Giappone e Whistler in Canada sono al vertice, mentre Val Thorens offre neve d'alta quota affidabile."
+        }
+      },
+      {
+        "title": {
+          "en": "Few flat traverses and draglifts",
+          "fr": "Peu de traversées plates et de téléskis",
+          "es": "Pocas travesías llanas y telesquís",
+          "pt": "Poucas travessias planas e teleskis",
+          "it": "Poche traversate piatte e skilift"
+        },
+        "text": {
+          "en": "Flat cat tracks and long draglifts are the snowboarder's worst enemy, forcing you to unstrap and push. Resorts built around gondolas and chairs, such as Avoriaz and Saalbach, keep you riding instead of walking.",
+          "fr": "Les chemins plats et les longs téléskis sont l'ennemi du snowboardeur, vous obligeant à déchausser et à pousser. Les stations pensées autour des télécabines et télésièges, comme Avoriaz et Saalbach, vous gardent en mouvement.",
+          "es": "Los caminos llanos y los telesquís largos son el peor enemigo del rider, ya que te obligan a soltarte y empujar. Estaciones organizadas en torno a telecabinas y telesillas, como Avoriaz y Saalbach, te mantienen rodando.",
+          "pt": "Os caminhos planos e os teleskis longos são o pior inimigo do snowboarder, pois obrigam a soltar a prancha e a empurrar. Estâncias pensadas à volta de telecabines e telecadeiras, como Avoriaz e Saalbach, mantêm-no em andamento.",
+          "it": "I tratti piatti e i lunghi skilift sono il peggior nemico dello snowboarder, perché ti costringono a slacciarti e spingere. Le località costruite attorno a cabinovie e seggiovie, come Avoriaz e Saalbach, ti tengono in movimento."
+        }
+      },
+      {
+        "title": {
+          "en": "Board schools and culture",
+          "fr": "Écoles et culture du snowboard",
+          "es": "Escuelas y cultura del snowboard",
+          "pt": "Escolas e cultura do snowboard",
+          "it": "Scuole e cultura dello snowboard"
+        },
+        "text": {
+          "en": "A strong board scene means dedicated instructors, shaper crews, events, and a welcoming vibe. Mayrhofen in Austria and Livigno in Italy are known for lively snowboard communities and quality coaching.",
+          "fr": "Une vraie scène snowboard, c'est des moniteurs dédiés, des shapers, des événements et une ambiance accueillante. Mayrhofen en Autriche et Livigno en Italie sont réputés pour leurs communautés actives et leur encadrement de qualité.",
+          "es": "Una buena escena del snowboard significa monitores especializados, shapers, eventos y un ambiente acogedor. Mayrhofen en Austria y Livigno en Italia destacan por sus comunidades activas y su enseñanza de calidad.",
+          "pt": "Uma boa cena de snowboard significa instrutores dedicados, equipas de shapers, eventos e um ambiente acolhedor. Mayrhofen na Áustria e Livigno em Itália são conhecidos pelas comunidades ativas e pelo ensino de qualidade.",
+          "it": "Una scena snowboard forte significa istruttori dedicati, squadre di shaper, eventi e un'atmosfera accogliente. Mayrhofen in Austria e Livigno in Italia sono note per le comunità vivaci e l'insegnamento di qualità."
+        }
+      },
+      {
+        "title": {
+          "en": "Lift system and access",
+          "fr": "Remontées et accès",
+          "es": "Remontes y acceso",
+          "pt": "Remontes e acesso",
+          "it": "Impianti e accesso"
+        },
+        "text": {
+          "en": "Fast, modern gondolas and chairlifts cut queues and make long days comfortable for boarders. Large connected areas like Saalbach and Val Thorens give you huge mileage without relying on awkward surface lifts.",
+          "fr": "Des télécabines et télésièges rapides et modernes réduisent les files et rendent les longues journées confortables. De grands domaines reliés comme Saalbach et Val Thorens offrent un kilométrage énorme sans dépendre de téléskis pénibles.",
+          "es": "Telecabinas y telesillas rápidas y modernas reducen las colas y hacen cómodas las jornadas largas. Grandes dominios conectados como Saalbach y Val Thorens ofrecen muchísimos kilómetros sin depender de remontes de superficie incómodos.",
+          "pt": "Telecabines e telecadeiras rápidas e modernas reduzem as filas e tornam confortáveis os dias longos. Grandes áreas ligadas como Saalbach e Val Thorens dão imensos quilómetros sem depender de remontes de superfície incómodos.",
+          "it": "Cabinovie e seggiovie veloci e moderne riducono le code e rendono comode le lunghe giornate. Ampi comprensori collegati come Saalbach e Val Thorens offrono tantissimi chilometri senza dipendere da scomodi impianti di superficie."
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Which resort is best for a beginner snowboarder?",
+          "fr": "Quelle station est la meilleure pour un snowboardeur débutant ?",
+          "es": "¿Qué estación es la mejor para un snowboarder principiante?",
+          "pt": "Qual é a melhor estância para um snowboarder iniciante?",
+          "it": "Quale località è la migliore per uno snowboarder principiante?"
+        },
+        "a": {
+          "en": "Beginners do best where the green and blue runs are wide and gently pitched, with gondola or chairlift access instead of draglifts. Avoriaz in France is a classic choice thanks to its boarder-friendly layout and strong schools, and Saalbach in Austria offers rolling, forgiving terrain. Mayrhofen also has dedicated beginner zones and excellent instruction.",
+          "fr": "Les débutants progressent mieux là où les pistes vertes et bleues sont larges et peu pentues, avec un accès en télécabine ou télésiège plutôt qu'en téléski. Avoriaz en France est un choix classique grâce à son agencement adapté et ses bonnes écoles, et Saalbach en Autriche offre un terrain doux et tolérant. Mayrhofen propose aussi des zones débutants dédiées et un excellent enseignement.",
+          "es": "Los principiantes avanzan mejor donde las pistas verdes y azules son anchas y de pendiente suave, con acceso en telecabina o telesilla en lugar de telesquí. Avoriaz en Francia es una opción clásica por su trazado cómodo para riders y sus buenas escuelas, y Saalbach en Austria ofrece terreno suave y tolerante. Mayrhofen también tiene zonas de iniciación y una enseñanza excelente.",
+          "pt": "Os iniciantes evoluem melhor onde as pistas verdes e azuis são largas e de inclinação suave, com acesso por telecabine ou telecadeira em vez de teleski. Avoriaz em França é uma escolha clássica pelo traçado amigo dos riders e pelas boas escolas, e Saalbach na Áustria oferece terreno suave e tolerante. Mayrhofen tem também zonas de iniciação dedicadas e um ensino excelente.",
+          "it": "I principianti progrediscono meglio dove le piste verdi e blu sono ampie e poco ripide, con accesso in cabinovia o seggiovia invece che in skilift. Avoriaz in Francia è una scelta classica per il suo tracciato adatto ai rider e le sue buone scuole, e Saalbach in Austria offre terreno dolce e indulgente. Anche Mayrhofen ha zone dedicate ai principianti e un'ottima didattica."
+        }
+      },
+      {
+        "q": {
+          "en": "What is the best resort for snowparks and pipes?",
+          "fr": "Quelle est la meilleure station pour les snowparks et half-pipes ?",
+          "es": "¿Cuál es la mejor estación para snowparks y half-pipes?",
+          "pt": "Qual é a melhor estância para snowparks e half-pipes?",
+          "it": "Qual è la migliore località per snowpark e half-pipe?"
+        },
+        "a": {
+          "en": "For pure park riding, Laax in Switzerland is widely regarded as one of the best in the world, with several lines, multiple pipes, and an indoor freestyle hall for training. Avoriaz in France is another top pick, with parks spread across its Snowzone. Les Deux Alpes is also strong, especially for summer park sessions on the glacier.",
+          "fr": "Pour le park pur, Laax en Suisse est souvent considéré comme l'un des meilleurs au monde, avec plusieurs lignes, plusieurs pipes et une halle freestyle indoor pour s'entraîner. Avoriaz en France est un autre choix de premier plan, avec des parks répartis dans sa Snowzone. Les Deux Alpes excelle aussi, surtout pour le park d'été sur le glacier.",
+          "es": "Para park puro, Laax en Suiza está considerada una de las mejores del mundo, con varias líneas, varios pipes y una sala de freestyle cubierta para entrenar. Avoriaz en Francia es otra opción de primer nivel, con parks repartidos por su Snowzone. Les Deux Alpes también destaca, sobre todo para sesiones de park veraniego en el glaciar.",
+          "pt": "Para park puro, Laax na Suíça é considerada uma das melhores do mundo, com várias linhas, vários pipes e um pavilhão de freestyle coberto para treinar. Avoriaz em França é outra escolha de topo, com parks espalhados pela sua Snowzone. Les Deux Alpes também se destaca, sobretudo para sessões de park de verão no glaciar.",
+          "it": "Per il park puro, Laax in Svizzera è considerata una delle migliori al mondo, con diverse linee, più pipe e una sala freestyle indoor per allenarsi. Avoriaz in Francia è un'altra scelta di primo piano, con park distribuiti nella sua Snowzone. Anche Les Deux Alpes è ottima, soprattutto per le sessioni di park estivo sul ghiacciaio."
+        }
+      },
+      {
+        "q": {
+          "en": "Where should I go for the best powder?",
+          "fr": "Où aller pour la meilleure poudreuse ?",
+          "es": "¿Adónde ir para la mejor nieve polvo?",
+          "pt": "Para onde ir pela melhor neve fresca?",
+          "it": "Dove andare per la migliore neve fresca?"
+        },
+        "a": {
+          "en": "Japan is famous for powder, and Niseko on Hokkaido gets enormous, light, dry snowfalls all winter, making it a bucket-list destination. In North America, Whistler in Canada combines big terrain with frequent dumps and excellent tree riding. In Europe, high resorts like Val Thorens and the wider Three Valleys hold snow well, and storm days at Avoriaz can be superb.",
+          "fr": "Le Japon est célèbre pour sa poudreuse, et Niseko, à Hokkaido, reçoit tout l'hiver des chutes énormes, légères et sèches, ce qui en fait une destination incontournable. En Amérique du Nord, Whistler au Canada associe grand terrain, chutes fréquentes et excellent ride en forêt. En Europe, les stations d'altitude comme Val Thorens et l'ensemble des Trois Vallées tiennent bien la neige, et les jours de tempête à Avoriaz peuvent être superbes.",
+          "es": "Japón es famoso por su nieve polvo, y Niseko, en Hokkaido, recibe todo el invierno nevadas enormes, ligeras y secas, lo que lo convierte en un destino de ensueño. En Norteamérica, Whistler en Canadá combina gran terreno, nevadas frecuentes y un excelente ride entre árboles. En Europa, estaciones altas como Val Thorens y el conjunto de los Tres Valles conservan bien la nieve, y los días de tormenta en Avoriaz pueden ser magníficos.",
+          "pt": "O Japão é famoso pela neve fresca, e Niseko, em Hokkaido, recebe todo o inverno quedas enormes, leves e secas, o que faz dele um destino de sonho. Na América do Norte, Whistler no Canadá junta grande terreno, quedas frequentes e excelente descida pela floresta. Na Europa, estâncias altas como Val Thorens e o conjunto dos Três Vales seguram bem a neve, e os dias de tempestade em Avoriaz podem ser soberbos.",
+          "it": "Il Giappone è famoso per la neve fresca, e Niseko, sull'Hokkaido, riceve per tutto l'inverno nevicate enormi, leggere e asciutte, il che lo rende una meta dei sogni. In Nord America, Whistler in Canada unisce grande terreno, nevicate frequenti e ottimo ride tra gli alberi. In Europa, le località d'alta quota come Val Thorens e l'intero comprensorio delle Tre Valli tengono bene la neve, e le giornate di tempesta ad Avoriaz possono essere splendide."
+        }
+      },
+      {
+        "q": {
+          "en": "Which resorts have annoying flat sections for snowboarders?",
+          "fr": "Quelles stations ont des sections plates pénibles pour les snowboardeurs ?",
+          "es": "¿Qué estaciones tienen tramos llanos molestos para los snowboarders?",
+          "pt": "Que estâncias têm secções planas chatas para os snowboarders?",
+          "it": "Quali località hanno fastidiose sezioni piatte per gli snowboarder?"
+        },
+        "a": {
+          "en": "Very large linked areas often include connector tracks and traverses that turn flat, which can mean unstrapping and pushing. The Portes du Soleil and the Three Valleys both have a few such links, though good planning lets you avoid most of them. As a rule, compact resorts built around gondolas and chairs, like Laax, keep flat sections to a minimum, so check a piste map for cat tracks before you go.",
+          "fr": "Les très grands domaines reliés comportent souvent des liaisons et des traversées qui deviennent plates, ce qui peut obliger à déchausser et à pousser. Les Portes du Soleil et les Trois Vallées en ont quelques-unes, même si une bonne planification permet d'en éviter la plupart. En règle générale, les stations compactes pensées autour des télécabines et télésièges, comme Laax, réduisent les plats au minimum, alors vérifiez le plan des pistes avant de partir.",
+          "es": "Los dominios enlazados muy grandes suelen incluir enlaces y travesías que se vuelven llanas, lo que puede obligar a soltarse y empujar. Los Portes du Soleil y los Tres Valles tienen algunos de estos enlaces, aunque planificando bien se evitan casi todos. Por norma, las estaciones compactas organizadas en torno a telecabinas y telesillas, como Laax, reducen los llanos al mínimo, así que revisa el mapa de pistas antes de ir.",
+          "pt": "As áreas ligadas muito grandes incluem muitas vezes ligações e travessias que ficam planas, o que pode obrigar a soltar a prancha e a empurrar. As Portes du Soleil e os Três Vales têm algumas destas ligações, embora um bom planeamento permita evitar quase todas. Por regra, as estâncias compactas pensadas à volta de telecabines e telecadeiras, como Laax, reduzem os planos ao mínimo, por isso consulte o mapa de pistas antes de ir.",
+          "it": "I comprensori collegati molto grandi includono spesso raccordi e traversate che diventano piatti, il che può costringere a slacciarsi e spingere. Le Portes du Soleil e le Tre Valli hanno alcuni di questi collegamenti, anche se una buona pianificazione permette di evitarne la maggior parte. In genere, le località compatte costruite attorno a cabinovie e seggiovie, come Laax, riducono al minimo i tratti piatti, quindi controlla la mappa delle piste prima di partire."
+        }
+      },
+      {
+        "q": {
+          "en": "Should I snowboard in Europe or Japan?",
+          "fr": "Faut-il faire du snowboard en Europe ou au Japon ?",
+          "es": "¿Hacer snowboard en Europa o en Japón?",
+          "pt": "Fazer snowboard na Europa ou no Japão?",
+          "it": "Meglio fare snowboard in Europa o in Giappone?"
+        },
+        "a": {
+          "en": "It depends on what you want. Japan, led by Niseko, is unbeatable for deep, frequent powder and tree riding, but its parks are smaller and the trip is longer for most travelers. Europe offers huge variety in one trip, from the park temples of Laax and Avoriaz to the high snow-sure slopes of Val Thorens and the lively scenes at Mayrhofen, Saalbach, and Livigno. For a first big snowboard trip, Europe is easier to reach and more versatile, while Japan is the dream for committed powder hunters.",
+          "fr": "Tout dépend de ce que vous cherchez. Le Japon, mené par Niseko, est imbattable pour la poudreuse profonde et fréquente et le ride en forêt, mais ses parks sont plus petits et le voyage plus long pour la plupart. L'Europe offre une grande variété en un seul séjour, des temples du park que sont Laax et Avoriaz aux pentes d'altitude assurées en neige de Val Thorens, en passant par les scènes animées de Mayrhofen, Saalbach et Livigno. Pour un premier grand voyage en snowboard, l'Europe est plus accessible et plus polyvalente, tandis que le Japon est le rêve des chasseurs de poudreuse convaincus.",
+          "es": "Depende de lo que busques. Japón, con Niseko a la cabeza, es imbatible para la nieve polvo profunda y frecuente y el ride entre árboles, pero sus parks son más pequeños y el viaje más largo para la mayoría. Europa ofrece muchísima variedad en un solo viaje, desde los templos del park que son Laax y Avoriaz hasta las pistas altas y aseguradas de Val Thorens, pasando por el ambiente animado de Mayrhofen, Saalbach y Livigno. Para un primer gran viaje de snowboard, Europa es más accesible y versátil, mientras que Japón es el sueño de los cazadores de polvo convencidos.",
+          "pt": "Depende do que procura. O Japão, com Niseko à cabeça, é imbatível na neve fresca profunda e frequente e na descida pela floresta, mas os seus parks são mais pequenos e a viagem é mais longa para a maioria. A Europa oferece imensa variedade numa só viagem, desde os templos do park que são Laax e Avoriaz até às encostas altas e garantidas de neve de Val Thorens, passando pelo ambiente animado de Mayrhofen, Saalbach e Livigno. Para uma primeira grande viagem de snowboard, a Europa é mais acessível e versátil, enquanto o Japão é o sonho dos caçadores de neve fresca dedicados.",
+          "it": "Dipende da cosa cerchi. Il Giappone, con Niseko in testa, è imbattibile per la neve fresca profonda e frequente e il ride tra gli alberi, ma i suoi park sono più piccoli e il viaggio è più lungo per la maggior parte. L'Europa offre tantissima varietà in un solo viaggio, dai templi del park come Laax e Avoriaz alle pendii alti e sicuri di neve di Val Thorens, fino alle scene vivaci di Mayrhofen, Saalbach e Livigno. Per un primo grande viaggio in snowboard, l'Europa è più facile da raggiungere e più versatile, mentre il Giappone è il sogno dei cacciatori di neve fresca più appassionati."
+        }
+      }
+    ]
+  },
+  "apres-ski": {
+    "longIntro": {
+      "en": "Apres-ski is its own reason to travel. The phrase covers a whole spectrum, from the slope-side umbrella bar that erupts the moment the lifts close, music spilling across the snow while people dance in ski boots, to the late club where the night runs until the small hours. The good news for anyone who wants both deep powder and a real party is that the two often live in the same place. The legends are Austrian. St. Anton and Ischgl built their reputations on huge snow and even bigger after-ski energy, and they remain the benchmark.\n\nThe style of the night shifts with the country. France leans into high-altitude marathons at Val Thorens and the younger, looser scene at Les Deux Alpes. Switzerland gives you Verbier, glamorous and steep in equal measure. For a relaxed but lively mix, Mayrhofen and Saalbach in Austria are hard to beat. Across the Atlantic, Whistler in British Columbia and Breckenridge in Colorado trade Tyrolean umbrella bars for breweries, live bands, and walkable main streets. Pick the resort that matches the night you actually want, then let the snow do the rest.",
+      "fr": "L'apres-ski est une raison de voyage a part entiere. Le terme couvre tout un spectre, du bar a parasol au pied des pistes qui s'enflamme des la fermeture des remontees, la musique se repandant sur la neige pendant qu'on danse en chaussures de ski, jusqu'au club ou la nuit se prolonge jusqu'au petit matin. La bonne nouvelle, pour qui veut a la fois de la poudreuse et une vraie fete, c'est que les deux cohabitent souvent au meme endroit. Les legendes sont autrichiennes. St. Anton et Ischgl ont bati leur reputation sur une neige abondante et une energie d'apres-ski plus grande encore, et ils restent la reference.\n\nLe style de la soiree change selon le pays. La France mise sur les marathons d'altitude a Val Thorens et sur la scene plus jeune et decontractee des Deux Alpes. La Suisse offre Verbier, aussi glamour que raide. Pour un melange detendu mais anime, Mayrhofen et Saalbach en Autriche sont difficiles a battre. De l'autre cote de l'Atlantique, Whistler en Colombie-Britannique et Breckenridge dans le Colorado troquent les bars tyroliens contre des brasseries, des concerts et des rues principales ou tout se fait a pied. Choisissez la station qui correspond a la nuit que vous voulez vraiment, puis laissez la neige faire le reste.",
+      "es": "El apres-ski es un motivo de viaje por si mismo. El termino abarca todo un espectro, desde el bar de sombrillas al pie de pista que estalla en cuanto cierran los remontes, con la musica extendiendose sobre la nieve mientras la gente baila con las botas de esqui puestas, hasta el club donde la noche se alarga hasta la madrugada. La buena noticia para quien quiere a la vez nieve polvo y verdadera fiesta es que ambas cosas suelen convivir en el mismo sitio. Las leyendas son austriacas. St. Anton e Ischgl construyeron su fama sobre mucha nieve y una energia de apres-ski aun mayor, y siguen siendo la referencia.\n\nEl estilo de la noche cambia segun el pais. Francia apuesta por los maratones de altura en Val Thorens y por el ambiente mas joven y relajado de Les Deux Alpes. Suiza ofrece Verbier, tan glamuroso como empinado. Para una mezcla tranquila pero animada, Mayrhofen y Saalbach en Austria son dificiles de superar. Al otro lado del Atlantico, Whistler en la Columbia Britanica y Breckenridge en Colorado cambian los bares tiroleses por cervecerias, bandas en directo y calles principales que se recorren a pie. Elige la estacion que se ajuste a la noche que de verdad quieres y deja que la nieve haga el resto.",
+      "pt": "O apres-ski e, por si so, um motivo de viagem. A expressao cobre todo um espectro, desde o bar de chapeus de sol junto as pistas que se anima assim que os teleski fecham, com a musica a espalhar-se pela neve enquanto as pessoas dancam de botas de esqui calcadas, ate a discoteca onde a noite se prolonga pela madrugada. A boa noticia, para quem quer ao mesmo tempo neve fresca e uma festa a serio, e que as duas coisas costumam viver no mesmo sitio. As lendas sao austriacas. St. Anton e Ischgl construiram a sua fama com muita neve e uma energia de apres-ski ainda maior, e continuam a ser a referencia.\n\nO estilo da noite muda consoante o pais. A Franca aposta nas maratonas de altitude em Val Thorens e no ambiente mais jovem e descontraido de Les Deux Alpes. A Suica oferece Verbier, tao glamorosa quanto ingreme. Para uma mistura tranquila mas animada, Mayrhofen e Saalbach, na Austria, sao dificeis de bater. Do outro lado do Atlantico, Whistler, na Colombia Britanica, e Breckenridge, no Colorado, trocam os bares tiroleses por cervejarias, bandas ao vivo e ruas principais que se percorrem a pe. Escolha a estancia que combina com a noite que realmente quer e deixe a neve fazer o resto.",
+      "it": "L'apres-ski e di per se una ragione per partire. Il termine copre un intero spettro, dal bar con gli ombrelloni ai piedi delle piste che esplode nel momento in cui chiudono gli impianti, con la musica che si spande sulla neve mentre la gente balla con gli scarponi ai piedi, fino al club dove la notte va avanti fino alle ore piccole. La buona notizia, per chi vuole insieme neve fresca e una vera festa, e che le due cose spesso convivono nello stesso posto. Le leggende sono austriache. St. Anton e Ischgl hanno costruito la loro fama su tanta neve e su un'energia di apres-ski ancora piu grande, e restano il punto di riferimento.\n\nLo stile della serata cambia da paese a paese. La Francia punta sulle maratone d'alta quota a Val Thorens e sull'ambiente piu giovane e disinvolto di Les Deux Alpes. La Svizzera offre Verbier, tanto glamour quanto ripida. Per un mix rilassato ma vivace, Mayrhofen e Saalbach in Austria sono difficili da battere. Dall'altra parte dell'Atlantico, Whistler nella Columbia Britannica e Breckenridge in Colorado scambiano i bar tirolesi con birrifici, gruppi dal vivo e vie principali tutte da percorrere a piedi. Scegli la localita che corrisponde alla notte che vuoi davvero, poi lascia che alla neve pensi il resto."
+    },
+    "criteria": [
+      {
+        "title": {
+          "en": "Slope-side after-ski bars",
+          "fr": "Bars d'apres-ski au pied des pistes",
+          "es": "Bares de apres-ski a pie de pista",
+          "pt": "Bares de apres-ski junto as pistas",
+          "it": "Bar d'apres-ski ai piedi delle piste"
+        },
+        "text": {
+          "en": "The first test is what happens the second the lifts close. The best resorts have bars right on the snow where the party starts in ski boots, before anyone has even changed.",
+          "fr": "Le premier critere, c'est ce qui se passe a la seconde ou les remontees ferment. Les meilleures stations ont des bars a meme la neige ou la fete commence en chaussures de ski, avant meme que personne ne se soit change.",
+          "es": "La primera prueba es lo que ocurre justo cuando cierran los remontes. Las mejores estaciones tienen bares sobre la propia nieve donde la fiesta empieza con las botas de esqui, antes de que nadie se haya cambiado.",
+          "pt": "O primeiro teste e o que acontece no momento em que os teleski fecham. As melhores estancias tem bares mesmo sobre a neve, onde a festa comeca de botas de esqui calcadas, antes de alguem se ter mudado.",
+          "it": "Il primo test e cio che succede nell'istante in cui chiudono gli impianti. Le localita migliori hanno bar proprio sulla neve, dove la festa comincia con gli scarponi ai piedi, prima ancora che qualcuno si sia cambiato."
+        }
+      },
+      {
+        "title": {
+          "en": "Late-night clubs",
+          "fr": "Clubs jusqu'au bout de la nuit",
+          "es": "Discotecas hasta altas horas",
+          "pt": "Discotecas pela noite dentro",
+          "it": "Locali fino a tarda notte"
+        },
+        "text": {
+          "en": "When the afternoon crowd fades, does the night keep going? Look for real clubs and DJ bars that run late, so the evening does not end the moment dinner is over.",
+          "fr": "Quand la foule de l'apres-midi se disperse, la nuit continue-t-elle ? Cherchez de vrais clubs et des bars a DJ ouverts tard, pour que la soiree ne s'arrete pas des la fin du diner.",
+          "es": "Cuando se dispersa el ambiente de la tarde, sigue la noche? Busca discotecas de verdad y bares con DJ que cierren tarde, para que la velada no termine en cuanto acaba la cena.",
+          "pt": "Quando o ambiente da tarde se desfaz, a noite continua? Procure discotecas a serio e bares com DJ que fechem tarde, para que a noite nao acabe assim que termina o jantar.",
+          "it": "Quando la folla del pomeriggio si dirada, la notte va avanti? Cerca veri club e bar con DJ aperti fino a tardi, cosi che la serata non finisca appena terminata la cena."
+        }
+      },
+      {
+        "title": {
+          "en": "Live music and events",
+          "fr": "Musique live et evenements",
+          "es": "Musica en directo y eventos",
+          "pt": "Musica ao vivo e eventos",
+          "it": "Musica dal vivo ed eventi"
+        },
+        "text": {
+          "en": "Live bands, concert weekends, and themed festivals turn a good week into a memorable one. Resorts that program music and events give every night its own character.",
+          "fr": "Concerts, week-ends musicaux et festivals a theme transforment une bonne semaine en semaine inoubliable. Les stations qui programment musique et evenements donnent a chaque soiree son caractere propre.",
+          "es": "Las bandas en directo, los fines de semana de conciertos y los festivales tematicos convierten una buena semana en una inolvidable. Las estaciones que programan musica y eventos dan a cada noche su propio caracter.",
+          "pt": "Bandas ao vivo, fins de semana de concertos e festivais tematicos transformam uma boa semana numa semana inesquecivel. As estancias que programam musica e eventos dao a cada noite o seu proprio caracter.",
+          "it": "Gruppi dal vivo, weekend di concerti e festival a tema trasformano una bella settimana in una indimenticabile. Le localita che programmano musica ed eventi danno a ogni sera un carattere tutto suo."
+        }
+      },
+      {
+        "title": {
+          "en": "Walkable, lively village",
+          "fr": "Village anime et a echelle pietonne",
+          "es": "Pueblo animado y peatonal",
+          "pt": "Aldeia animada e percorrivel a pe",
+          "it": "Paese vivace e percorribile a piedi"
+        },
+        "text": {
+          "en": "A great party town lets you stroll from bar to bar without a car or a taxi. A compact, walkable center keeps the energy high and the night easy.",
+          "fr": "Une bonne ville de fete permet de passer d'un bar a l'autre a pied, sans voiture ni taxi. Un centre compact et pietonnier maintient l'energie et facilite la nuit.",
+          "es": "Un buen pueblo de fiesta permite ir de bar en bar a pie, sin coche ni taxi. Un centro compacto y peatonal mantiene la energia alta y facilita la noche.",
+          "pt": "Uma boa terra de festa permite ir de bar em bar a pe, sem carro nem taxi. Um centro compacto e pedonal mantem a energia em alta e torna a noite facil.",
+          "it": "Un buon paese da festa permette di passare da un bar all'altro a piedi, senza auto ne taxi. Un centro compatto e pedonale tiene alta l'energia e rende la notte semplice."
+        }
+      },
+      {
+        "title": {
+          "en": "Balance of snow and scene",
+          "fr": "Equilibre entre neige et ambiance",
+          "es": "Equilibrio entre nieve y ambiente",
+          "pt": "Equilibrio entre neve e ambiente",
+          "it": "Equilibrio tra neve e atmosfera"
+        },
+        "text": {
+          "en": "The best party resorts are also serious mountains. A big, snow-sure ski area means you can ride hard all day and still have the legs, and the reason, to celebrate at night.",
+          "fr": "Les meilleures stations festives sont aussi de vraies montagnes. Un grand domaine a l'enneigement fiable permet de skier fort toute la journee tout en gardant les jambes, et l'envie, de faire la fete le soir.",
+          "es": "Las mejores estaciones de fiesta son tambien montanas serias. Un dominio amplio y con nieve garantizada permite esquiar fuerte todo el dia y conservar las piernas, y el motivo, para celebrar por la noche.",
+          "pt": "As melhores estancias de festa sao tambem montanhas a serio. Um dominio amplo e com neve garantida permite esquiar com intensidade todo o dia e ainda ter pernas, e motivo, para festejar a noite.",
+          "it": "Le migliori localita da festa sono anche montagne serie. Un comprensorio ampio e con neve garantita permette di sciare con intensita tutto il giorno e avere ancora le gambe, e il motivo, per festeggiare la sera."
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "What is the best apres-ski resort in the Alps?",
+          "fr": "Quelle est la meilleure station d'apres-ski des Alpes ?",
+          "es": "Cual es la mejor estacion de apres-ski de los Alpes?",
+          "pt": "Qual e a melhor estancia de apres-ski dos Alpes?",
+          "it": "Qual e la migliore localita di apres-ski delle Alpi?"
+        },
+        "a": {
+          "en": "St. Anton and Ischgl in Austria are the two names most people put at the top, and both pair legendary nightlife with genuinely great skiing. Ischgl is famous for its big-name season concerts, while St. Anton's Mooserwirt and KrazyKanguruh are institutions of slope-side after-ski. In France, Val Thorens runs a similar high-altitude party, and in Switzerland, Verbier brings a more glamorous edge.",
+          "fr": "St. Anton et Ischgl en Autriche sont les deux noms que la plupart placent en tete, et tous deux associent une vie nocturne legendaire a un ski reellement excellent. Ischgl est celebre pour ses concerts de stars en saison, tandis que le Mooserwirt et le KrazyKanguruh de St. Anton sont des institutions de l'apres-ski au pied des pistes. En France, Val Thorens propose une fete d'altitude comparable, et en Suisse, Verbier ajoute une touche plus glamour.",
+          "es": "St. Anton e Ischgl, en Austria, son los dos nombres que la mayoria pone en lo mas alto, y ambos combinan una vida nocturna legendaria con un esqui realmente bueno. Ischgl es famosa por sus conciertos de grandes artistas en temporada, mientras que el Mooserwirt y el KrazyKanguruh de St. Anton son instituciones del apres-ski a pie de pista. En Francia, Val Thorens ofrece una fiesta de altura parecida, y en Suiza, Verbier aporta un aire mas glamuroso.",
+          "pt": "St. Anton e Ischgl, na Austria, sao os dois nomes que a maioria coloca no topo, e ambos juntam uma vida noturna lendaria a um esqui realmente otimo. Ischgl e famosa pelos seus concertos de grandes nomes durante a epoca, enquanto o Mooserwirt e o KrazyKanguruh de St. Anton sao instituicoes do apres-ski junto as pistas. Em Franca, Val Thorens oferece uma festa de altitude semelhante e, na Suica, Verbier traz um toque mais glamoroso.",
+          "it": "St. Anton e Ischgl, in Austria, sono i due nomi che la maggior parte delle persone mette in cima, ed entrambi uniscono una vita notturna leggendaria a uno sci davvero ottimo. Ischgl e famosa per i suoi concerti di grandi nomi durante la stagione, mentre il Mooserwirt e il KrazyKanguruh di St. Anton sono istituzioni dell'apres-ski ai piedi delle piste. In Francia, Val Thorens propone una festa d'alta quota simile e, in Svizzera, Verbier aggiunge un tocco piu glamour."
+        }
+      },
+      {
+        "q": {
+          "en": "Which ski resort is best for a young crowd?",
+          "fr": "Quelle station convient le mieux a un public jeune ?",
+          "es": "Que estacion de esqui es mejor para un publico joven?",
+          "pt": "Qual a melhor estancia de esqui para um publico jovem?",
+          "it": "Quale localita sciistica e la migliore per un pubblico giovane?"
+        },
+        "a": {
+          "en": "Les Deux Alpes in France has long drawn a young, budget-conscious crowd thanks to its loose, all-night scene and high glacier skiing. In Austria, Saalbach and Mayrhofen are big favorites for groups in their twenties, with packed bars and an easy, sociable feel. Ischgl skews a little older and flashier, but still draws a strong party crowd.",
+          "fr": "Les Deux Alpes en France attire depuis longtemps un public jeune et soucieux de son budget, grace a son ambiance decontractee jusqu'au bout de la nuit et a son ski de glacier en altitude. En Autriche, Saalbach et Mayrhofen sont tres prises des groupes de vingtenaires, avec des bars bondes et une atmosphere conviviale et detendue. Ischgl vise un public un peu plus age et tape-a-l'oeil, mais attire toujours une solide foule de fetards.",
+          "es": "Les Deux Alpes, en Francia, atrae desde hace tiempo a un publico joven y atento al presupuesto, gracias a su ambiente desenfadado hasta el amanecer y a su esqui de glaciar en altura. En Austria, Saalbach y Mayrhofen son grandes favoritas para grupos de veinteaneros, con bares llenos y un ambiente facil y sociable. Ischgl tira hacia un publico algo mayor y mas ostentoso, pero sigue atrayendo a mucha gente de fiesta.",
+          "pt": "Les Deux Alpes, em Franca, atrai ha muito um publico jovem e atento ao orcamento, gracas ao seu ambiente descontraido pela noite dentro e ao esqui de glaciar em altitude. Na Austria, Saalbach e Mayrhofen sao grandes favoritas para grupos na casa dos vinte anos, com bares cheios e um ambiente facil e sociavel. Ischgl puxa para um publico um pouco mais velho e vistoso, mas continua a atrair muita gente de festa.",
+          "it": "Les Deux Alpes, in Francia, attira da tempo un pubblico giovane e attento al budget, grazie alla sua atmosfera disinvolta che dura tutta la notte e allo sci sul ghiacciaio ad alta quota. In Austria, Saalbach e Mayrhofen sono grandi favorite per i gruppi di ventenni, con bar affollati e un'atmosfera facile e socievole. Ischgl punta a un pubblico un po' piu adulto e appariscente, ma continua ad attirare molta gente in cerca di festa."
+        }
+      },
+      {
+        "q": {
+          "en": "Where does apres-ski start right on the slopes?",
+          "fr": "Ou l'apres-ski commence-t-il directement sur les pistes ?",
+          "es": "Donde empieza el apres-ski directamente en las pistas?",
+          "pt": "Onde e que o apres-ski comeca logo nas pistas?",
+          "it": "Dove inizia l'apres-ski direttamente sulle piste?"
+        },
+        "a": {
+          "en": "Austria is the home of on-snow after-ski. At St. Anton, bars like the Mooserwirt and KrazyKanguruh sit on the last run down, so the party starts in ski boots before you reach the village. Saalbach and Ischgl have the same tradition of slope-side umbrella bars. In France, Val Thorens and the Folie Douce bars bring a similar open-air, mid-mountain party to the Alps.",
+          "fr": "L'Autriche est la patrie de l'apres-ski sur neige. A St. Anton, des bars comme le Mooserwirt et le KrazyKanguruh se trouvent sur la derniere descente, si bien que la fete commence en chaussures de ski avant meme d'atteindre le village. Saalbach et Ischgl perpetuent la meme tradition de bars a parasol au bord des pistes. En France, Val Thorens et les bars la Folie Douce apportent aux Alpes une fete comparable, en plein air et en milieu de montagne.",
+          "es": "Austria es la cuna del apres-ski sobre la nieve. En St. Anton, bares como el Mooserwirt y el KrazyKanguruh estan en la ultima bajada, asi que la fiesta empieza con las botas de esqui antes de llegar al pueblo. Saalbach e Ischgl mantienen la misma tradicion de bares de sombrillas a pie de pista. En Francia, Val Thorens y los bares la Folie Douce llevan a los Alpes una fiesta parecida, al aire libre y a media montana.",
+          "pt": "A Austria e a casa do apres-ski sobre a neve. Em St. Anton, bares como o Mooserwirt e o KrazyKanguruh ficam na ultima descida, por isso a festa comeca de botas de esqui antes de chegar a aldeia. Saalbach e Ischgl mantem a mesma tradicao de bares de chapeus de sol junto as pistas. Em Franca, Val Thorens e os bares la Folie Douce trazem aos Alpes uma festa semelhante, ao ar livre e a meia montanha.",
+          "it": "L'Austria e la patria dell'apres-ski sulla neve. A St. Anton, bar come il Mooserwirt e il KrazyKanguruh si trovano sull'ultima discesa, cosi la festa comincia con gli scarponi ai piedi prima ancora di arrivare in paese. Saalbach e Ischgl mantengono la stessa tradizione di bar con gli ombrelloni ai bordi delle piste. In Francia, Val Thorens e i bar la Folie Douce portano sulle Alpi una festa simile, all'aperto e a mezza montagna."
+        }
+      },
+      {
+        "q": {
+          "en": "Which party resort also has great snow?",
+          "fr": "Quelle station festive offre aussi une excellente neige ?",
+          "es": "Que estacion de fiesta tiene tambien buena nieve?",
+          "pt": "Que estancia de festa tem tambem boa neve?",
+          "it": "Quale localita da festa ha anche ottima neve?"
+        },
+        "a": {
+          "en": "You do not have to choose. St. Anton is one of the most serious ski areas in the Alps and one of the wildest for nightlife. Verbier in Switzerland combines steep, expert terrain with a famous party scene, and Val Thorens, the highest resort in Europe, offers snow-sure slopes alongside its all-night bars. All three let you ride hard by day and celebrate by night.",
+          "fr": "Vous n'avez pas a choisir. St. Anton est l'un des domaines les plus exigeants des Alpes et l'un des plus dechaines pour la vie nocturne. Verbier en Suisse allie un terrain raide pour experts a une scene festive reputee, et Val Thorens, la station la plus haute d'Europe, offre des pistes a l'enneigement garanti en plus de ses bars ouverts toute la nuit. Les trois permettent de skier fort le jour et de faire la fete la nuit.",
+          "es": "No hace falta elegir. St. Anton es uno de los dominios mas exigentes de los Alpes y uno de los mas desenfrenados para la vida nocturna. Verbier, en Suiza, combina terreno empinado para expertos con un ambiente de fiesta famoso, y Val Thorens, la estacion mas alta de Europa, ofrece pistas con nieve garantizada junto a sus bares de toda la noche. Las tres permiten esquiar fuerte de dia y celebrar de noche.",
+          "pt": "Nao e preciso escolher. St. Anton e um dos dominios mais exigentes dos Alpes e um dos mais desenfreados para a vida noturna. Verbier, na Suica, combina terreno ingreme para peritos com um ambiente de festa famoso, e Val Thorens, a estancia mais alta da Europa, oferece pistas com neve garantida a par dos seus bares que vao pela noite dentro. As tres permitem esquiar com intensidade de dia e festejar a noite.",
+          "it": "Non devi scegliere. St. Anton e uno dei comprensori piu impegnativi delle Alpi e uno dei piu scatenati per la vita notturna. Verbier, in Svizzera, unisce terreno ripido per esperti a un ambiente da festa famoso, e Val Thorens, la localita piu alta d'Europa, offre piste con neve garantita oltre ai suoi bar aperti tutta la notte. Tutte e tre permettono di sciare con intensita di giorno e festeggiare di notte."
+        }
+      },
+      {
+        "q": {
+          "en": "Where is the best ski nightlife in North America?",
+          "fr": "Ou trouve-t-on la meilleure vie nocturne au ski en Amerique du Nord ?",
+          "es": "Donde esta la mejor vida nocturna de esqui en Norteamerica?",
+          "pt": "Onde esta a melhor vida noturna de esqui na America do Norte?",
+          "it": "Dove si trova la migliore vita notturna sugli sci in Nord America?"
+        },
+        "a": {
+          "en": "North American nightlife looks different from the Alps, built around bars, breweries, and live music rather than slope-side umbrella clubs. Whistler in British Columbia has the busiest, most varied scene, with a large pedestrian village full of bars and venues. In Colorado, Breckenridge offers a lively, walkable Main Street with breweries and bands, making it one of the best party towns in the United States.",
+          "fr": "La vie nocturne nord-americaine differe de celle des Alpes : elle s'organise autour des bars, des brasseries et de la musique live plutot que des clubs a parasol au pied des pistes. Whistler en Colombie-Britannique propose la scene la plus animee et la plus variee, avec un vaste village pietonnier rempli de bars et de salles. Au Colorado, Breckenridge offre une Main Street animee et pietonne, avec brasseries et concerts, ce qui en fait l'une des meilleures villes de fete des Etats-Unis.",
+          "es": "La vida nocturna norteamericana es distinta de la de los Alpes: se organiza en torno a bares, cervecerias y musica en directo, mas que a discotecas de sombrillas a pie de pista. Whistler, en la Columbia Britanica, tiene el ambiente mas animado y variado, con un gran pueblo peatonal lleno de bares y salas. En Colorado, Breckenridge ofrece una Main Street animada y peatonal, con cervecerias y bandas, lo que la convierte en uno de los mejores pueblos de fiesta de Estados Unidos.",
+          "pt": "A vida noturna norte-americana e diferente da dos Alpes: organiza-se em torno de bares, cervejarias e musica ao vivo, mais do que de discotecas de chapeus de sol junto as pistas. Whistler, na Colombia Britanica, tem o ambiente mais animado e variado, com uma grande aldeia pedonal cheia de bares e salas. No Colorado, Breckenridge oferece uma Main Street animada e percorrivel a pe, com cervejarias e bandas, o que a torna uma das melhores terras de festa dos Estados Unidos.",
+          "it": "La vita notturna nordamericana e diversa da quella delle Alpi: ruota attorno a bar, birrifici e musica dal vivo piu che ai locali con gli ombrelloni ai piedi delle piste. Whistler, nella Columbia Britannica, ha l'ambiente piu vivace e variegato, con un grande paese pedonale pieno di bar e locali. In Colorado, Breckenridge offre una Main Street vivace e percorribile a piedi, con birrifici e gruppi dal vivo, il che la rende uno dei migliori paesi da festa degli Stati Uniti."
+        }
+      }
+    ]
+  },
+  "non-skiers": {
+    "longIntro": {
+      "en": "Not everyone who loves a mountain holiday wants to spend the day on a pair of skis. Maybe you are travelling with a partner who would rather browse the shops, a parent who prefers a long lunch with a view, or you simply want a relaxed week in the snow without the lift queues. The good news is that the best Alpine and beyond destinations are real towns with plenty of life beyond the slopes.\n\nResorts like Chamonix and Megeve in France, Zermatt, St. Moritz and Davos in Switzerland, and Cortina d'Ampezzo in the Italian Dolomites pair their pistes with thermal baths, scenic gondolas open to foot passengers, winter walking trails and excellent restaurants. In Austria, Innsbruck blends a historic city centre with the surrounding peaks, while Kitzbuhel and Bad Gastein add medieval streets and famous spa waters. Even Queenstown in New Zealand offers lakeside dining and sightseeing for those who never clip in.\n\nWhen you choose with the non-skier in mind, the whole group wins: snowshoeing, sledging, ice skating, shopping and spa afternoons turn a ski trip into a proper mountain holiday for everyone.",
+      "fr": "Tout le monde n'a pas envie de passer ses vacances a la montagne sur une paire de skis. Peut-etre voyagez-vous avec un conjoint qui prefere flaner dans les boutiques, un parent qui aime mieux un long dejeuner avec vue, ou souhaitez-vous simplement une semaine tranquille a la neige sans les files d'attente. La bonne nouvelle, c'est que les meilleures destinations des Alpes et d'ailleurs sont de vraies villes ou la vie ne s'arrete pas au pied des pistes.\n\nDes stations comme Chamonix et Megeve en France, Zermatt, Saint-Moritz et Davos en Suisse, ou Cortina d'Ampezzo dans les Dolomites italiennes associent leurs pistes a des bains thermaux, des telecabines panoramiques ouvertes aux pietons, des sentiers de promenade hivernale et d'excellents restaurants. En Autriche, Innsbruck marie un centre historique aux sommets environnants, tandis que Kitzbuhel et Bad Gastein ajoutent ruelles medievales et eaux thermales reputees. Meme Queenstown, en Nouvelle-Zelande, propose tables au bord du lac et visites pour celles et ceux qui ne chaussent jamais.\n\nQuand on choisit en pensant a celui qui ne skie pas, tout le groupe y gagne: raquettes, luge, patinage, shopping et apres-midi spa transforment un sejour ski en vraies vacances a la montagne pour chacun.",
+      "es": "No todo el mundo que ama las vacaciones en la montana quiere pasar el dia sobre unos esquis. Quiza viajas con una pareja que prefiere recorrer las tiendas, un padre o una madre que disfruta mas de un almuerzo largo con vistas, o simplemente buscas una semana tranquila en la nieve sin colas en los remontes. La buena noticia es que los mejores destinos de los Alpes y mas alla son pueblos de verdad, con mucha vida mas alla de las pistas.\n\nEstaciones como Chamonix y Megeve en Francia, Zermatt, St. Moritz y Davos en Suiza, o Cortina d'Ampezzo en los Dolomitas italianos combinan sus pistas con banos termales, telecabinas panoramicas abiertas a los peatones, senderos para caminar en invierno y excelentes restaurantes. En Austria, Innsbruck une un centro historico con las cumbres que la rodean, mientras que Kitzbuhel y Bad Gastein anaden calles medievales y famosas aguas termales. Incluso Queenstown, en Nueva Zelanda, ofrece restaurantes junto al lago y visitas para quienes nunca se calzan los esquis.\n\nCuando eliges pensando en quien no esquia, gana todo el grupo: raquetas, trineo, patinaje, compras y tardes de spa convierten un viaje de esqui en unas autenticas vacaciones de montana para todos.",
+      "pt": "Nem toda a gente que adora ferias na montanha quer passar o dia em cima de uns esquis. Talvez viaje com um companheiro que prefere passear pelas lojas, um pai ou uma mae que gosta mais de um almoco demorado com vista, ou simplesmente queira uma semana tranquila na neve sem filas nos telefericos. A boa noticia e que os melhores destinos dos Alpes e nao so sao vilas a serio, com muita vida para alem das pistas.\n\nEstancias como Chamonix e Megeve, em Franca, Zermatt, St. Moritz e Davos, na Suica, ou Cortina d'Ampezzo, nas Dolomitas italianas, juntam as suas pistas a banhos termais, telecabinas panoramicas abertas a peoes, trilhos para caminhar no inverno e otimos restaurantes. Na Austria, Innsbruck combina um centro historico com os picos em redor, enquanto Kitzbuhel e Bad Gastein acrescentam ruas medievais e aguas termais famosas. Ate Queenstown, na Nova Zelandia, oferece restaurantes a beira do lago e visitas para quem nunca calca os esquis.\n\nQuando escolhe a pensar em quem nao esquia, ganha o grupo inteiro: raquetes de neve, tobogan, patinagem, compras e tardes de spa transformam uma viagem de esqui numas verdadeiras ferias de montanha para todos.",
+      "it": "Non tutti coloro che amano una vacanza in montagna vogliono passare la giornata su un paio di sci. Forse viaggi con un partner che preferisce girare per i negozi, un genitore che ama di piu un lungo pranzo con vista, o semplicemente desideri una settimana rilassata sulla neve senza le code agli impianti. La buona notizia e che le migliori destinazioni delle Alpi e oltre sono paesi veri, con tanta vita al di la delle piste.\n\nLocalita come Chamonix e Megeve in Francia, Zermatt, St. Moritz e Davos in Svizzera, o Cortina d'Ampezzo nelle Dolomiti italiane abbinano le loro piste a bagni termali, cabinovie panoramiche aperte ai pedoni, sentieri per camminare in inverno e ottimi ristoranti. In Austria, Innsbruck unisce un centro storico alle vette circostanti, mentre Kitzbuhel e Bad Gastein aggiungono vie medievali e celebri acque termali. Persino Queenstown, in Nuova Zelanda, offre ristoranti in riva al lago e visite per chi non mette mai gli sci.\n\nQuando scegli pensando a chi non scia, vince tutto il gruppo: ciaspole, slittino, pattinaggio, shopping e pomeriggi alla spa trasformano un viaggio sugli sci in una vera vacanza di montagna per tutti."
+    },
+    "criteria": [
+      {
+        "title": {
+          "en": "A real town to walk around",
+          "fr": "Une vraie ville ou se promener",
+          "es": "Un pueblo de verdad para pasear",
+          "pt": "Uma vila a serio para passear",
+          "it": "Un paese vero in cui passeggiare"
+        },
+        "text": {
+          "en": "Look for resorts with a lived-in centre rather than a purpose-built car park, places like Chamonix, Cortina d'Ampezzo, Kitzbuhel or Innsbruck where you can stroll, sit in a cafe and feel the local life. A walkable village keeps a non-skier happily occupied all day.",
+          "fr": "Privilegiez les stations avec un centre habite plutot qu'un parking sorti de terre, comme Chamonix, Cortina d'Ampezzo, Kitzbuhel ou Innsbruck, ou l'on peut flaner, s'attabler a un cafe et sentir la vie locale. Un village a taille de pieton occupe agreablement le non-skieur toute la journee.",
+          "es": "Busca estaciones con un centro vivo y no un aparcamiento de nueva planta, lugares como Chamonix, Cortina d'Ampezzo, Kitzbuhel o Innsbruck, donde puedes pasear, sentarte en un cafe y notar la vida local. Un pueblo caminable mantiene entretenido a quien no esquia todo el dia.",
+          "pt": "Procure estancias com um centro com vida e nao um parque de estacionamento de raiz, lugares como Chamonix, Cortina d'Ampezzo, Kitzbuhel ou Innsbruck, onde pode passear, sentar-se num cafe e sentir a vida local. Uma vila para andar a pe mantem quem nao esquia entretido o dia todo.",
+          "it": "Cerca localita con un centro vissuto e non un parcheggio costruito a tavolino, posti come Chamonix, Cortina d'Ampezzo, Kitzbuhel o Innsbruck, dove si puo passeggiare, sedersi al bar e sentire la vita locale. Un paese percorribile a piedi tiene impegnato volentieri chi non scia tutto il giorno."
+        }
+      },
+      {
+        "title": {
+          "en": "Spas and thermal baths",
+          "fr": "Spas et bains thermaux",
+          "es": "Spas y banos termales",
+          "pt": "Spas e banhos termais",
+          "it": "Spa e bagni termali"
+        },
+        "text": {
+          "en": "A great spa turns a snow day into a treat. Bad Gastein in Austria is built around its thermal springs, while St. Moritz and Davos in Switzerland and many hotels in Zermatt offer pools, saunas and treatments with mountain views.",
+          "fr": "Un beau spa transforme une journee de neige en plaisir. Bad Gastein, en Autriche, s'est construite autour de ses sources thermales, tandis que Saint-Moritz et Davos en Suisse, comme de nombreux hotels de Zermatt, proposent piscines, saunas et soins avec vue sur les sommets.",
+          "es": "Un buen spa convierte un dia de nieve en un placer. Bad Gastein, en Austria, esta construido en torno a sus fuentes termales, mientras que St. Moritz y Davos en Suiza, y muchos hoteles de Zermatt, ofrecen piscinas, saunas y tratamientos con vistas a la montana.",
+          "pt": "Um bom spa transforma um dia de neve num miminho. Bad Gastein, na Austria, cresceu em torno das suas nascentes termais, enquanto St. Moritz e Davos, na Suica, e muitos hoteis de Zermatt oferecem piscinas, saunas e tratamentos com vista para a montanha.",
+          "it": "Una bella spa trasforma una giornata di neve in un piacere. Bad Gastein, in Austria, e nata attorno alle sue sorgenti termali, mentre St. Moritz e Davos in Svizzera, e molti hotel di Zermatt, offrono piscine, saune e trattamenti con vista sulle montagne."
+        }
+      },
+      {
+        "title": {
+          "en": "Gondolas and trains for foot passengers",
+          "fr": "Telecabines et trains pour pietons",
+          "es": "Telecabinas y trenes para peatones",
+          "pt": "Telecabinas e comboios para peoes",
+          "it": "Cabinovie e treni per pedoni"
+        },
+        "text": {
+          "en": "You do not need skis to reach the best views. Pedestrian tickets on the gondolas of Zermatt and Chamonix, or scenic mountain railways around St. Moritz and Davos, let a non-skier ride up for lunch and panoramas and come back down the same way.",
+          "fr": "Pas besoin de skis pour atteindre les plus belles vues. Les billets pietons sur les telecabines de Zermatt et Chamonix, ou les trains de montagne panoramiques autour de Saint-Moritz et Davos, permettent au non-skieur de monter dejeuner, admirer le panorama et redescendre par le meme chemin.",
+          "es": "No necesitas esquis para llegar a las mejores vistas. Los billetes para peatones en las telecabinas de Zermatt y Chamonix, o los trenes de montana panoramicos cerca de St. Moritz y Davos, permiten a quien no esquia subir a comer y disfrutar de las panoramicas y bajar por el mismo camino.",
+          "pt": "Nao precisa de esquis para chegar as melhores vistas. Os bilhetes para peoes nas telecabinas de Zermatt e Chamonix, ou os comboios de montanha panoramicos perto de St. Moritz e Davos, permitem a quem nao esquia subir para almocar, apreciar os panoramas e descer pelo mesmo caminho.",
+          "it": "Non servono gli sci per raggiungere i panorami migliori. I biglietti pedonali sulle cabinovie di Zermatt e Chamonix, o i trenini di montagna panoramici intorno a St. Moritz e Davos, permettono a chi non scia di salire per pranzo e vedute e di ridiscendere allo stesso modo."
+        }
+      },
+      {
+        "title": {
+          "en": "Winter activities off the snow",
+          "fr": "Activites hivernales hors des pistes",
+          "es": "Actividades de invierno fuera de la nieve",
+          "pt": "Atividades de inverno fora da neve",
+          "it": "Attivita invernali fuori dalle piste"
+        },
+        "text": {
+          "en": "Snowshoeing, winter walking trails, sledging runs and ice rinks fill the day without a single piste. Megeve, Cortina d'Ampezzo and Queenstown are especially well set up for visitors who want to be outdoors in the snow but off the skis.",
+          "fr": "Raquettes, sentiers de promenade hivernale, pistes de luge et patinoires remplissent la journee sans la moindre piste de ski. Megeve, Cortina d'Ampezzo et Queenstown sont particulierement bien equipees pour ceux qui veulent profiter de la neige en plein air, mais sans skis.",
+          "es": "Raquetas, senderos para caminar en invierno, pistas de trineo y patinaderos llenan el dia sin una sola pista de esqui. Megeve, Cortina d'Ampezzo y Queenstown estan especialmente bien preparadas para quienes quieren estar al aire libre en la nieve, pero sin esquis.",
+          "pt": "Raquetes de neve, trilhos para caminhar no inverno, pistas de tobogan e ringues de gelo preenchem o dia sem uma unica pista de esqui. Megeve, Cortina d'Ampezzo e Queenstown estao especialmente bem preparadas para quem quer estar ao ar livre na neve, mas sem esquis.",
+          "it": "Ciaspole, sentieri per camminare in inverno, piste da slittino e piste di pattinaggio riempiono la giornata senza una sola pista da sci. Megeve, Cortina d'Ampezzo e Queenstown sono particolarmente attrezzate per chi vuole stare all'aperto sulla neve, ma senza sci."
+        }
+      },
+      {
+        "title": {
+          "en": "Restaurants and shopping",
+          "fr": "Restaurants et shopping",
+          "es": "Restaurantes y compras",
+          "pt": "Restaurantes e compras",
+          "it": "Ristoranti e shopping"
+        },
+        "text": {
+          "en": "Good food and a few smart boutiques make the off-snow hours a pleasure. St. Moritz and Kitzbuhel are known for stylish shopping and fine dining, while Innsbruck, Chamonix and Megeve mix cosy mountain restaurants with proper town-centre variety.",
+          "fr": "Une bonne table et quelques jolies boutiques rendent les heures hors des pistes agreables. Saint-Moritz et Kitzbuhel sont reputees pour leur shopping chic et leur gastronomie, tandis qu'Innsbruck, Chamonix et Megeve melent restaurants de montagne chaleureux et vraie diversite de centre-ville.",
+          "es": "La buena mesa y unas cuantas boutiques con encanto hacen agradables las horas fuera de la nieve. St. Moritz y Kitzbuhel son conocidas por sus compras con estilo y su alta cocina, mientras que Innsbruck, Chamonix y Megeve combinan acogedores restaurantes de montana con la variedad de un autentico centro urbano.",
+          "pt": "A boa mesa e algumas lojas com charme tornam agradaveis as horas fora da neve. St. Moritz e Kitzbuhel sao conhecidas pelas compras com estilo e pela alta cozinha, enquanto Innsbruck, Chamonix e Megeve juntam restaurantes de montanha acolhedores a variedade de um verdadeiro centro de cidade.",
+          "it": "Una buona cucina e qualche bella boutique rendono piacevoli le ore fuori dalla neve. St. Moritz e Kitzbuhel sono note per lo shopping di classe e l'alta cucina, mentre Innsbruck, Chamonix e Megeve uniscono accoglienti ristoranti di montagna alla varieta di un vero centro cittadino."
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "What is the best ski resort for non-skiers in the Alps?",
+          "fr": "Quelle est la meilleure station de ski pour les non-skieurs dans les Alpes?",
+          "es": "Cual es la mejor estacion de esqui para quienes no esquian en los Alpes?",
+          "pt": "Qual e a melhor estancia de esqui para quem nao esquia nos Alpes?",
+          "it": "Qual e la migliore localita sciistica per chi non scia sulle Alpi?"
+        },
+        "a": {
+          "en": "Chamonix in France and Cortina d'Ampezzo in Italy are top choices because both are real towns with shops, restaurants and pedestrian gondolas, so there is always something to do off the slopes. St. Moritz and Davos in Switzerland add famous spas and scenic mountain railways. For a city feel, Innsbruck in Austria puts a historic centre right beside the peaks.",
+          "fr": "Chamonix en France et Cortina d'Ampezzo en Italie sont des choix de premier ordre, car ce sont de vraies villes avec boutiques, restaurants et telecabines accessibles aux pietons: il y a toujours de quoi faire hors des pistes. Saint-Moritz et Davos en Suisse y ajoutent des spas reputes et des trains de montagne panoramiques. Pour une ambiance de ville, Innsbruck en Autriche place un centre historique juste au pied des sommets.",
+          "es": "Chamonix en Francia y Cortina d'Ampezzo en Italia son opciones de primer nivel, porque ambas son pueblos de verdad con tiendas, restaurantes y telecabinas para peatones, asi que siempre hay algo que hacer fuera de las pistas. St. Moritz y Davos en Suiza anaden spas famosos y trenes de montana panoramicos. Para un ambiente urbano, Innsbruck en Austria coloca un centro historico justo al lado de las cumbres.",
+          "pt": "Chamonix, em Franca, e Cortina d'Ampezzo, em Italia, sao escolhas de topo, porque ambas sao vilas a serio com lojas, restaurantes e telecabinas para peoes, por isso ha sempre algo para fazer fora das pistas. St. Moritz e Davos, na Suica, acrescentam spas famosos e comboios de montanha panoramicos. Para um ambiente de cidade, Innsbruck, na Austria, coloca um centro historico mesmo ao lado dos picos.",
+          "it": "Chamonix in Francia e Cortina d'Ampezzo in Italia sono scelte di primo piano, perche entrambe sono paesi veri con negozi, ristoranti e cabinovie aperte ai pedoni, quindi c'e sempre qualcosa da fare fuori dalle piste. St. Moritz e Davos in Svizzera aggiungono spa famose e trenini di montagna panoramici. Per un'atmosfera da citta, Innsbruck in Austria mette un centro storico proprio accanto alle vette."
+        }
+      },
+      {
+        "q": {
+          "en": "What is there to do at a ski resort if you do not ski?",
+          "fr": "Que faire dans une station de ski quand on ne skie pas?",
+          "es": "Que se puede hacer en una estacion de esqui si no esquias?",
+          "pt": "O que ha para fazer numa estancia de esqui se nao esquia?",
+          "it": "Cosa si puo fare in una localita sciistica se non si scia?"
+        },
+        "a": {
+          "en": "Plenty. You can snowshoe or follow prepared winter walking trails, go sledging, skate on an outdoor rink, relax in a spa or thermal bath, and ride a gondola up for lunch with a view. Towns like Megeve, Kitzbuhel and Queenstown also offer shopping, museums and lakeside or village strolls, so a non-skier can fill every day easily.",
+          "fr": "Beaucoup de choses. On peut faire des raquettes ou suivre des sentiers de promenade hivernale balises, faire de la luge, patiner sur une patinoire de plein air, se detendre dans un spa ou un bain thermal, et prendre une telecabine pour dejeuner avec vue. Des villes comme Megeve, Kitzbuhel et Queenstown offrent aussi shopping, musees et balades au bord du lac ou dans le village: un non-skieur remplit facilement chaque journee.",
+          "es": "Muchas cosas. Puedes hacer raquetas o seguir senderos preparados para caminar en invierno, tirarte en trineo, patinar en una pista al aire libre, relajarte en un spa o bano termal y subir en telecabina a comer con vistas. Pueblos como Megeve, Kitzbuhel y Queenstown ofrecen ademas compras, museos y paseos junto al lago o por el pueblo, asi que quien no esquia llena cada dia con facilidad.",
+          "pt": "Muita coisa. Pode fazer raquetes de neve ou seguir trilhos preparados para caminhar no inverno, andar de tobogan, patinar num ringue ao ar livre, relaxar num spa ou banho termal e subir de telecabina para almocar com vista. Vilas como Megeve, Kitzbuhel e Queenstown oferecem ainda compras, museus e passeios a beira do lago ou pela vila, por isso quem nao esquia preenche cada dia com facilidade.",
+          "it": "Tantissimo. Puoi fare ciaspolate o seguire sentieri preparati per camminare in inverno, andare in slittino, pattinare su una pista all'aperto, rilassarti in una spa o in un bagno termale e salire in cabinovia per pranzo con vista. Paesi come Megeve, Kitzbuhel e Queenstown offrono anche shopping, musei e passeggiate in riva al lago o nel borgo, cosi chi non scia riempie ogni giornata senza problemi."
+        }
+      },
+      {
+        "q": {
+          "en": "Which ski resorts have the best spas and thermal baths?",
+          "fr": "Quelles stations de ski ont les meilleurs spas et bains thermaux?",
+          "es": "Que estaciones de esqui tienen los mejores spas y banos termales?",
+          "pt": "Quais as estancias de esqui com os melhores spas e banhos termais?",
+          "it": "Quali localita sciistiche hanno le migliori spa e bagni termali?"
+        },
+        "a": {
+          "en": "Bad Gastein in Austria is the classic choice, a spa town built around natural thermal springs right in the mountains. In Switzerland, St. Moritz and Davos are known for high-end wellness, and Zermatt has many hotels with pools and saunas facing the Matterhorn. If a spa afternoon is a priority, these resorts are hard to beat.",
+          "fr": "Bad Gastein, en Autriche, est le choix classique: une ville thermale construite autour de sources naturelles, en pleine montagne. En Suisse, Saint-Moritz et Davos sont reputees pour leur bien-etre haut de gamme, et Zermatt compte de nombreux hotels avec piscines et saunas face au Cervin. Si l'apres-midi spa est une priorite, ces stations sont difficiles a surpasser.",
+          "es": "Bad Gastein, en Austria, es la opcion clasica: un pueblo balneario construido en torno a fuentes termales naturales, en plena montana. En Suiza, St. Moritz y Davos son conocidas por su bienestar de alta gama, y Zermatt tiene muchos hoteles con piscinas y saunas frente al Cervino. Si una tarde de spa es prioritaria, estas estaciones son dificiles de superar.",
+          "pt": "Bad Gastein, na Austria, e a escolha classica: uma vila termal construida em torno de nascentes naturais, em plena montanha. Na Suica, St. Moritz e Davos sao conhecidas pelo bem-estar de alta gama, e Zermatt tem muitos hoteis com piscinas e saunas virados para o Matterhorn. Se uma tarde de spa e prioridade, estas estancias sao dificeis de bater.",
+          "it": "Bad Gastein, in Austria, e la scelta classica: una citta termale nata attorno a sorgenti naturali, in piena montagna. In Svizzera, St. Moritz e Davos sono note per il benessere di alto livello, e Zermatt ha molti hotel con piscine e saune di fronte al Cervino. Se un pomeriggio alla spa e una priorita, queste localita sono difficili da battere."
+        }
+      },
+      {
+        "q": {
+          "en": "Can a non-skier still ride up the mountain for lunch and views?",
+          "fr": "Un non-skieur peut-il quand meme monter en montagne pour dejeuner et profiter de la vue?",
+          "es": "Puede quien no esquia subir a la montana para comer y disfrutar de las vistas?",
+          "pt": "Quem nao esquia pode na mesma subir a montanha para almocar e ver a paisagem?",
+          "it": "Chi non scia puo comunque salire in montagna per pranzo e panorami?"
+        },
+        "a": {
+          "en": "Yes. Most major resorts sell pedestrian tickets on their gondolas and cable cars, so foot passengers can ride up, eat at a mountain restaurant and enjoy the panorama. Zermatt, Chamonix and St. Moritz are excellent for this, and scenic mountain trains around Davos and St. Moritz add another easy way up. Just check the lift is rated for foot passengers when you buy.",
+          "fr": "Oui. La plupart des grandes stations vendent des billets pietons sur leurs telecabines et telepheriques: on monte a pied, on dejeune dans un restaurant d'altitude et on profite du panorama. Zermatt, Chamonix et Saint-Moritz s'y pretent tres bien, et les trains de montagne panoramiques autour de Davos et Saint-Moritz offrent une autre montee facile. Verifiez simplement, a l'achat, que la remontee accepte les pietons.",
+          "es": "Si. La mayoria de las grandes estaciones venden billetes para peatones en sus telecabinas y telefericos, asi que puedes subir a pie, comer en un restaurante de montana y disfrutar del panorama. Zermatt, Chamonix y St. Moritz son excelentes para esto, y los trenes de montana panoramicos cerca de Davos y St. Moritz anaden otra forma facil de subir. Solo comprueba al comprar que el remonte admite peatones.",
+          "pt": "Sim. A maioria das grandes estancias vende bilhetes para peoes nas telecabinas e telefericos, por isso pode subir a pe, comer num restaurante de montanha e apreciar o panorama. Zermatt, Chamonix e St. Moritz sao otimas para isto, e os comboios de montanha panoramicos perto de Davos e St. Moritz acrescentam outra forma facil de subir. Confirme apenas, na compra, que o teleferico aceita peoes.",
+          "it": "Si. La maggior parte delle grandi localita vende biglietti pedonali sulle cabinovie e funivie, cosi i pedoni possono salire, mangiare in un ristorante di montagna e godersi il panorama. Zermatt, Chamonix e St. Moritz sono ottime per questo, e i trenini di montagna panoramici intorno a Davos e St. Moritz offrono un altro modo comodo per salire. Controlla solo, all'acquisto, che l'impianto sia abilitato ai pedoni."
+        }
+      },
+      {
+        "q": {
+          "en": "Which resort is best for a mixed group of skiers and non-skiers?",
+          "fr": "Quelle station convient le mieux a un groupe mixte de skieurs et de non-skieurs?",
+          "es": "Que estacion es mejor para un grupo mixto de esquiadores y no esquiadores?",
+          "pt": "Qual a melhor estancia para um grupo misto de esquiadores e nao esquiadores?",
+          "it": "Quale localita e la migliore per un gruppo misto di sciatori e non sciatori?"
+        },
+        "a": {
+          "en": "Choose a resort where the slopes and the town sit close together, so the group can split up and meet for lunch. Chamonix, Megeve, Cortina d'Ampezzo and Innsbruck all work well because skiers reach the lifts easily while non-skiers have a real centre, spas and pedestrian gondolas nearby. Zermatt is another strong pick, car-free and compact with plenty to do at the base.",
+          "fr": "Choisissez une station ou les pistes et la ville sont proches, afin que le groupe puisse se separer puis se retrouver pour dejeuner. Chamonix, Megeve, Cortina d'Ampezzo et Innsbruck fonctionnent tres bien, car les skieurs rejoignent facilement les remontees tandis que les non-skieurs ont un vrai centre, des spas et des telecabines pietonnes a proximite. Zermatt est un autre excellent choix, sans voiture et compacte, avec de quoi faire au pied des pistes.",
+          "es": "Elige una estacion donde las pistas y el pueblo esten cerca, para que el grupo pueda separarse y reunirse a comer. Chamonix, Megeve, Cortina d'Ampezzo e Innsbruck funcionan muy bien, porque los esquiadores llegan facilmente a los remontes mientras que quienes no esquian tienen un centro de verdad, spas y telecabinas para peatones cerca. Zermatt es otra gran opcion, sin coches y compacta, con mucho que hacer al pie de las pistas.",
+          "pt": "Escolha uma estancia onde as pistas e a vila estejam perto, para que o grupo se possa separar e voltar a juntar para almocar. Chamonix, Megeve, Cortina d'Ampezzo e Innsbruck funcionam muito bem, porque os esquiadores chegam facilmente aos telefericos enquanto quem nao esquia tem um centro a serio, spas e telecabinas para peoes ali perto. Zermatt e outra otima escolha, sem carros e compacta, com muito para fazer na base.",
+          "it": "Scegli una localita dove le piste e il paese siano vicini, cosi il gruppo puo dividersi e ritrovarsi per pranzo. Chamonix, Megeve, Cortina d'Ampezzo e Innsbruck funzionano benissimo, perche gli sciatori raggiungono facilmente gli impianti mentre chi non scia ha un vero centro, spa e cabinovie pedonali nelle vicinanze. Zermatt e un'altra ottima scelta, senza auto e compatta, con tanto da fare a valle."
+        }
+      }
+    ]
+  }
+}
