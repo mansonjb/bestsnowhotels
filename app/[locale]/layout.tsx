@@ -37,6 +37,15 @@ export async function generateMetadata({
   }
   const l = hasLocale(locale) ? locale : 'en'
 
+  // Google Search Console "HTML tag" verification. Paste the token from the
+  // GSC verification screen into the GOOGLE_SITE_VERIFICATION env var on Vercel
+  // and redeploy; Next renders <meta name="google-site-verification" ...> on
+  // every page. Left undefined (and omitted) when the env var is not set, so
+  // it is a no-op until you actually need it. The simplest path is usually the
+  // Google Analytics method instead (GA4 is already installed) which needs no
+  // token at all; see GSC-SETUP.md.
+  const googleVerification = process.env.GOOGLE_SITE_VERIFICATION?.trim()
+
   return {
     metadataBase: new URL(SITE_URL),
     title: { default: titles[l], template: '%s' },
@@ -46,6 +55,7 @@ export async function generateMetadata({
     publisher: 'BestSnowHotels',
     applicationName: 'BestSnowHotels',
     category: 'travel',
+    verification: googleVerification ? { google: googleVerification } : undefined,
     openGraph: {
       siteName: 'BestSnowHotels',
       type: 'website',
