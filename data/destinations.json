@@ -20973,5 +20973,153 @@
       "red": 14,
       "black": 8
     }
+  },
+  {
+    "slug": "bansko",
+    "name": "Bansko",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "flag": "🇧🇬",
+    "region": "Pirin",
+    "lat": 41.8383,
+    "lng": 23.4885,
+    "altitudeBase": 990,
+    "altitudeSummit": 2600,
+    "pistesKm": 75,
+    "lifts": 14,
+    "skiInSkiOutNote": {
+      "en": "Bansko is a town at the foot of the mountain, not a slopeside resort, so you stay in town and ride the gondola up to the slopes each morning. A handful of hotels sit close to the gondola base, which shortens the walk on busy mornings.",
+      "fr": "Bansko est une ville au pied de la montagne, et non une station sur les pistes, donc vous logez en ville et prenez la télécabine pour monter sur les pistes chaque matin. Quelques hôtels se trouvent près du départ de la télécabine, ce qui raccourcit le trajet les matins de forte affluence.",
+      "es": "Bansko es un pueblo al pie de la montaña, no una estación a pie de pista, así que te alojas en el pueblo y subes a las pistas en telecabina cada mañana. Unos pocos hoteles están cerca de la base de la telecabina, lo que acorta el trayecto en las mañanas con más gente.",
+      "pt": "Bansko é uma vila ao fundo da montanha, e não uma estância junto às pistas, por isso fica alojado na vila e sobe de teleférico para as pistas todas as manhãs. Alguns hotéis ficam perto da base do teleférico, o que encurta o percurso nas manhãs de maior movimento.",
+      "it": "Bansko è una cittadina ai piedi della montagna, non una località direttamente sulle piste, quindi si alloggia in paese e si sale ogni mattina sulle piste con la cabinovia. Qualche hotel si trova vicino alla partenza della cabinovia, il che accorcia il tragitto nelle mattine più affollate."
+    },
+    "seasonStart": "Dec 15",
+    "seasonEnd": "Apr 15",
+    "snowScore": 76,
+    "vibes": [
+      "value",
+      "party",
+      "scenic"
+    ],
+    "intro": {
+      "en": "Bansko is Bulgaria's biggest and most modern ski resort, widely regarded as the best value skiing in Europe. A long gondola climbs from the cobbled old town into Pirin National Park, while the bars and Mehana taverns keep the nightlife lively well after the lifts close.",
+      "fr": "Bansko est la plus grande et la plus moderne des stations de ski de Bulgarie, souvent considérée comme le meilleur rapport qualité prix de toute l'Europe. Une longue télécabine s'élève depuis la vieille ville pavée jusqu'au parc national du Pirin, tandis que les bars et les tavernes Mehana animent les soirées bien après la fermeture des remontées.",
+      "es": "Bansko es la estación de esquí más grande y moderna de Bulgaria, considerada por muchos como la mejor relación calidad precio de toda Europa. Una larga telecabina sube desde el casco antiguo empedrado hasta el Parque Nacional del Pirin, mientras los bares y las tabernas Mehana mantienen el ambiente nocturno animado mucho después de que cierren los remontes.",
+      "pt": "Bansko é a maior e mais moderna estância de esqui da Bulgária, considerada por muitos a melhor relação qualidade preço de toda a Europa. Um longo teleférico sobe da velha vila de ruas empedradas até ao Parque Nacional do Pirin, enquanto os bares e as tabernas Mehana mantêm a vida noturna animada muito depois de os teleféricos fecharem.",
+      "it": "Bansko è la più grande e moderna località sciistica della Bulgaria, considerata da molti il miglior rapporto qualità prezzo di tutta Europa. Una lunga cabinovia sale dal centro storico acciottolato fino al Parco Nazionale del Pirin, mentre i bar e le taverne Mehana tengono viva la vita notturna ben oltre la chiusura degli impianti."
+    },
+    "longDescription": {
+      "en": "Bansko suits beginners and intermediates looking for a fun, affordable week, with wide pistes that climb above the tree line into the high Pirin peaks. The historic town below is full of Mehana taverns serving grilled meats and local wine at budget prices, and the gondola from the centre carries you straight up to the slopes. You reach it from Sofia in about 2 hours and 30 minutes, or from Plovdiv as an alternative gateway.",
+      "fr": "Bansko convient aux débutants et aux skieurs intermédiaires en quête d'une semaine conviviale et abordable, avec de larges pistes qui s'élèvent au dessus de la limite des arbres jusqu'aux hauts sommets du Pirin. La vieille ville en contrebas regorge de tavernes Mehana qui servent grillades et vin local à petits prix, et la télécabine du centre vous emmène directement vers les pistes. Vous y accédez depuis Sofia en environ 2 heures et 30 minutes, ou depuis Plovdiv comme autre porte d'entrée.",
+      "es": "Bansko es ideal para principiantes e intermedios que buscan una semana divertida y económica, con pistas anchas que ascienden por encima del límite del bosque hasta las altas cumbres del Pirin. El casco histórico, a los pies de la montaña, está lleno de tabernas Mehana que sirven carnes a la brasa y vino local a precios muy ajustados, y la telecabina del centro te lleva directamente a las pistas. Se llega desde Sofía en unas 2 horas y 30 minutos, o desde Plovdiv como puerta de entrada alternativa.",
+      "pt": "Bansko é ideal para principiantes e esquiadores intermédios à procura de uma semana divertida e acessível, com pistas largas que sobem acima da linha das árvores até aos altos cumes do Pirin. A vila histórica, ao fundo da montanha, está cheia de tabernas Mehana que servem carnes grelhadas e vinho local a preços muito acessíveis, e o teleférico do centro leva-o diretamente para as pistas. Chega-se a partir de Sófia em cerca de 2 horas e 30 minutos, ou a partir de Plovdiv como porta de entrada alternativa.",
+      "it": "Bansko è perfetta per principianti e sciatori intermedi in cerca di una settimana divertente ed economica, con piste ampie che salgono oltre il limite degli alberi fino alle alte cime del Pirin. La cittadina storica ai piedi della montagna è ricca di taverne Mehana che servono carni alla griglia e vino locale a prezzi contenuti, e la cabinovia dal centro vi porta direttamente sulle piste. Si raggiunge da Sofia in circa 2 ore e 30 minuti, oppure da Plovdiv come porta d'accesso alternativa."
+    },
+    "pisteCounts": {
+      "green": 2,
+      "blue": 6,
+      "red": 11,
+      "black": 2
+    }
+  },
+  {
+    "slug": "borovets",
+    "name": "Borovets",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "flag": "🇧🇬",
+    "region": "Rila",
+    "lat": 42.2586,
+    "lng": 23.6042,
+    "altitudeBase": 1350,
+    "altitudeSummit": 2560,
+    "pistesKm": 58,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Borovets is a compact resort village built right at the foot of the slopes, so a good number of hotels sit genuinely close to the lifts and the Yastrebets gondola, often within a short walk. It is not a sprawling purpose built ski-in ski-out station, but several central properties let you reach the snow on foot in a few minutes.",
+      "fr": "Borovets est un village de station compact construit au pied même des pistes, si bien qu'un bon nombre d'hôtels se trouvent réellement à proximité des remontées et de la télécabine Yastrebets, souvent à quelques minutes à pied. Ce n'est pas une grande station ski aux pieds conçue de toutes pièces, mais plusieurs adresses centrales permettent de rejoindre la neige à pied en quelques minutes.",
+      "es": "Borovets es un pueblo de estación compacto construido justo al pie de las pistas, de modo que un buen número de hoteles quedan realmente cerca de los remontes y de la telecabina Yastrebets, a menudo a pocos minutos a pie. No es una gran estación de esquí a pie de pistas creada desde cero, pero varios alojamientos céntricos permiten llegar a la nieve caminando en pocos minutos.",
+      "pt": "Borovets é uma aldeia de estância compacta construída mesmo ao pé das pistas, pelo que um bom número de hotéis fica realmente perto dos teleféricos e da telecabina Yastrebets, muitas vezes a poucos minutos a pé. Não é uma grande estância concebida de raiz com acesso direto às pistas, mas vários alojamentos centrais permitem chegar à neve a pé em poucos minutos.",
+      "it": "Borovets è un compatto villaggio di stazione costruito proprio ai piedi delle piste, perciò un buon numero di hotel si trova davvero vicino agli impianti e alla cabinovia Yastrebets, spesso a pochi minuti a piedi. Non è una grande stazione sci ai piedi costruita a tavolino, ma diverse strutture centrali permettono di raggiungere la neve a piedi in pochi minuti."
+    },
+    "seasonStart": "Dec 15",
+    "seasonEnd": "Apr 15",
+    "snowScore": 74,
+    "vibes": [
+      "value",
+      "historic",
+      "tree-skiing"
+    ],
+    "intro": {
+      "en": "Borovets is Bulgaria's oldest ski resort, a former royal hunting retreat tucked into the pine forests of the Rila Mountains below Musala, the highest peak in the Balkans. Its tree-lined runs and famously good value make it one of Europe's most affordable winter escapes, and it sits close to Sofia.",
+      "fr": "Borovets est la plus ancienne station de ski de Bulgarie, ancien pavillon de chasse royal niché dans les forêts de pins du massif du Rila, au pied du Musala, le plus haut sommet des Balkans. Ses pistes bordées d'arbres et son rapport qualité-prix réputé en font l'une des escapades hivernales les plus abordables d'Europe, et elle se trouve tout près de Sofia.",
+      "es": "Borovets es la estación de esquí más antigua de Bulgaria, un antiguo pabellón de caza real escondido entre los bosques de pinos del macizo de Rila, a los pies del Musala, la cumbre más alta de los Balcanes. Sus pistas bordeadas de árboles y su célebre buena relación calidad-precio la convierten en una de las escapadas invernales más económicas de Europa, y queda cerca de Sofía.",
+      "pt": "Borovets é a estância de esqui mais antiga da Bulgária, um antigo pavilhão de caça real escondido nas florestas de pinheiros do maciço de Rila, aos pés do Musala, o pico mais alto dos Balcãs. As suas pistas ladeadas de árvores e a sua reconhecida boa relação qualidade-preço fazem dela uma das escapadelas de inverno mais acessíveis da Europa, e fica perto de Sófia.",
+      "it": "Borovets è la più antica stazione sciistica della Bulgaria, un'ex riserva di caccia reale immersa nelle pinete del massiccio del Rila, ai piedi del Musala, la vetta più alta dei Balcani. Le sue piste contornate da alberi e il suo celebre rapporto qualità-prezzo ne fanno una delle fughe invernali più convenienti d'Europa, e si trova vicino a Sofia."
+    },
+    "longDescription": {
+      "en": "Borovets suits beginners, families and intermediates looking for sheltered, scenic skiing without the high prices of the Alps. The Yastrebets gondola climbs to the upper slopes, the tree-lined runs are forgiving in poor visibility, and the lively base packs in budget hotels, bars and ski hire. Reaching it from Sofia takes around 1 to 1.5 hours by road, which makes Borovets the closest big resort to the Bulgarian capital.",
+      "fr": "Borovets convient aux débutants, aux familles et aux skieurs intermédiaires en quête d'un ski abrité et pittoresque sans les tarifs élevés des Alpes. La télécabine Yastrebets monte vers les pistes supérieures, les descentes bordées d'arbres restent praticables par mauvaise visibilité, et le pied des pistes animé concentre hôtels économiques, bars et location de matériel. Depuis Sofia, il faut compter environ 1 h à 1 h 30 de route, ce qui fait de Borovets la grande station la plus proche de la capitale bulgare.",
+      "es": "Borovets es ideal para principiantes, familias y esquiadores intermedios que buscan un esquí resguardado y pintoresco sin los precios elevados de los Alpes. La telecabina Yastrebets sube hasta las pistas altas, las bajadas bordeadas de árboles resultan llevaderas con mala visibilidad y la animada base concentra hoteles económicos, bares y alquiler de equipo. Desde Sofía se tarda en torno a 1 a 1,5 horas por carretera, lo que convierte a Borovets en la gran estación más cercana a la capital búlgara.",
+      "pt": "Borovets é ideal para principiantes, famílias e esquiadores intermédios que procuram um esqui abrigado e pitoresco sem os preços elevados dos Alpes. A telecabina Yastrebets sobe até às pistas superiores, as descidas ladeadas de árvores mantêm-se acessíveis com má visibilidade, e a animada base concentra hotéis económicos, bares e aluguer de equipamento. A partir de Sófia demora cerca de 1 a 1,5 horas de carro, o que faz de Borovets a grande estância mais próxima da capital búlgara.",
+      "it": "Borovets è adatta a principianti, famiglie e sciatori intermedi in cerca di uno sci riparato e panoramico senza i prezzi elevati delle Alpi. La cabinovia Yastrebets sale verso le piste più alte, le discese contornate da alberi restano gestibili anche con scarsa visibilità e l'animata base raccoglie hotel economici, bar e noleggio attrezzatura. Da Sofia ci vogliono circa 1 o 1,5 ore di auto, il che rende Borovets la grande stazione più vicina alla capitale bulgara."
+    },
+    "pisteCounts": {
+      "green": 4,
+      "blue": 3,
+      "red": 5,
+      "black": 2
+    }
+  },
+  {
+    "slug": "pamporovo",
+    "name": "Pamporovo",
+    "country": "Bulgaria",
+    "countryCode": "BG",
+    "flag": "🇧🇬",
+    "region": "Rhodope Mountains",
+    "lat": 41.6553,
+    "lng": 24.6933,
+    "altitudeBase": 1450,
+    "altitudeSummit": 1937,
+    "pistesKm": 37,
+    "lifts": 18,
+    "skiInSkiOutNote": {
+      "en": "Pamporovo is a purpose-built resort, so its hotels are spread through the pine forest near the slopes rather than lined up along one piste. Some lodges sit just a short walk from the lifts, while a free ski bus shuttles guests from the others, so true ski in, ski out is the exception rather than the rule.",
+      "fr": "Pamporovo est une station construite de toutes pièces, et ses hôtels sont répartis dans la forêt de pins près des pistes plutôt qu'alignés le long d'une seule descente. Certains établissements se trouvent à quelques minutes à pied des remontées, tandis qu'une navette gratuite dessert les autres, si bien que le ski aux pieds reste l'exception plutôt que la règle.",
+      "es": "Pamporovo es una estación construida desde cero, así que sus hoteles se reparten por el bosque de pinos cerca de las pistas en lugar de alinearse junto a una sola bajada. Algunos alojamientos quedan a pocos pasos de los remontes, mientras que un autobús de esquí gratuito conecta el resto, por lo que el verdadero ski in, ski out es la excepción y no la norma.",
+      "pt": "Pamporovo é uma estância construída de raiz, pelo que os seus hotéis estão espalhados pela floresta de pinheiros junto às pistas e não alinhados ao longo de uma única descida. Alguns alojamentos ficam a poucos passos dos teleféricos, enquanto um autocarro de esqui gratuito liga os restantes, pelo que o verdadeiro ski in, ski out é a excepção e não a regra.",
+      "it": "Pamporovo è una località costruita appositamente, quindi i suoi hotel sono distribuiti nella pineta vicino alle piste anziché allineati lungo un'unica discesa. Alcune strutture si trovano a pochi passi dagli impianti, mentre uno skibus gratuito collega le altre, perciò il vero ski in, ski out è l'eccezione più che la regola."
+    },
+    "seasonStart": "Dec 15",
+    "seasonEnd": "Apr 10",
+    "snowScore": 65,
+    "vibes": [
+      "value",
+      "family",
+      "sunny",
+      "beginner"
+    ],
+    "intro": {
+      "en": "Pamporovo is the southernmost major ski resort in Europe and one of the sunniest, with gentle, pine-lined runs that make it a top pick for beginners and families. Set high in Bulgaria's Rhodope Mountains, it pairs easy slopes and friendly ski schools with genuinely good value. From the slopes, the famous Snezhanka tower offers sweeping panoramic views across the wooded ranges.",
+      "fr": "Pamporovo est la station de ski majeure la plus au sud d'Europe et l'une des plus ensoleillées, avec des pistes douces bordées de pins qui en font un choix de premier ordre pour les débutants et les familles. Perchée dans les montagnes du Rhodope, en Bulgarie, elle associe des pentes faciles et des écoles de ski accueillantes à un rapport qualité prix vraiment intéressant. Depuis les pistes, la célèbre tour de Snezhanka offre de larges vues panoramiques sur les massifs boisés.",
+      "es": "Pamporovo es la estación de esquí importante más meridional de Europa y una de las más soleadas, con pistas suaves bordeadas de pinos que la convierten en una opción ideal para principiantes y familias. Situada en lo alto de los montes Ródope de Bulgaria, combina laderas fáciles y escuelas de esquí cercanas con una relación calidad precio realmente buena. Desde las pistas, la famosa torre de Snezhanka brinda amplias vistas panorámicas sobre las sierras boscosas.",
+      "pt": "Pamporovo é a maior estância de esqui mais a sul da Europa e uma das mais soalheiras, com pistas suaves rodeadas de pinheiros que a tornam uma escolha de eleição para principiantes e famílias. Situada no alto das montanhas Ródope, na Bulgária, alia encostas fáceis e escolas de esqui acolhedoras a uma relação qualidade preço verdadeiramente boa. A partir das pistas, a famosa torre de Snezhanka oferece amplas vistas panorâmicas sobre as serras arborizadas.",
+      "it": "Pamporovo è la più meridionale fra le grandi località sciistiche d'Europa e una delle più soleggiate, con piste dolci circondate dai pini che la rendono una scelta ideale per principianti e famiglie. Situata in alto sui monti Rodopi, in Bulgaria, unisce pendii facili e scuole di sci cordiali a un rapporto qualità prezzo davvero conveniente. Dalle piste, la celebre torre di Snezhanka regala ampie vedute panoramiche sulle catene boscose."
+    },
+    "longDescription": {
+      "en": "Pamporovo suits beginners, families and relaxed intermediates far more than thrill seekers, with most of its terrain made up of wide, forgiving runs that weave between the pines. The southern sunshine, the gentle gradients and the budget prices are the big draws, and the tree-sheltered slopes feel welcoming even on busier days. Getting there is easy too, about 1.5 hours by road from Plovdiv, or roughly three hours from Sofia.",
+      "fr": "Pamporovo convient bien plus aux débutants, aux familles et aux skieurs intermédiaires tranquilles qu'aux amateurs de sensations fortes, l'essentiel du domaine étant composé de pistes larges et indulgentes qui serpentent entre les pins. Le soleil du sud, les pentes douces et les prix abordables sont ses grands atouts, et les pistes abritées par les arbres restent accueillantes même les jours de forte affluence. L'accès est facile aussi, à environ 1h30 de route de Plovdiv, ou à peu près trois heures de Sofia.",
+      "es": "Pamporovo conviene mucho más a principiantes, familias e intermedios tranquilos que a los amantes de las emociones fuertes, ya que la mayor parte de su dominio se compone de pistas anchas e indulgentes que serpentean entre los pinos. El sol del sur, los desniveles suaves y los precios ajustados son sus grandes reclamos, y las pistas resguardadas por los árboles resultan acogedoras incluso los días de más gente. Llegar es fácil, a alrededor de 1,5 horas por carretera desde Plovdiv, o unas tres horas desde Sofía.",
+      "pt": "Pamporovo agrada muito mais a principiantes, famílias e esquiadores intermédios tranquilos do que a quem procura emoções fortes, já que a maior parte do domínio é feita de pistas largas e tolerantes que serpenteiam por entre os pinheiros. O sol do sul, os declives suaves e os preços acessíveis são os grandes atractivos, e as pistas abrigadas pelas árvores são acolhedoras mesmo nos dias de maior movimento. Chegar também é fácil, a cerca de 1,5 horas de carro a partir de Plovdiv, ou aproximadamente três horas de Sófia.",
+      "it": "Pamporovo si addice molto più ai principianti, alle famiglie e agli intermedi tranquilli che agli amanti del brivido, poiché gran parte del comprensorio è fatta di piste ampie e indulgenti che si snodano tra i pini. Il sole del sud, le pendenze dolci e i prezzi contenuti sono le grandi attrattive, e le piste riparate dagli alberi risultano accoglienti anche nei giorni più affollati. Arrivarci è semplice, a circa 1,5 ore di strada da Plovdiv, oppure intorno alle tre ore da Sofia."
+    },
+    "pisteCounts": {
+      "green": 6,
+      "blue": 8,
+      "red": 6,
+      "black": 2
+    }
   }
 ]

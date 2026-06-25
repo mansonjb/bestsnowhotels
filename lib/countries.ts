@@ -44,6 +44,7 @@ export const COUNTRY_META: Record<string, { continent: Continent; hemisphere: He
   NO: { continent: 'europe', hemisphere: 'north' },
   SE: { continent: 'europe', hemisphere: 'north' },
   FI: { continent: 'europe', hemisphere: 'north' },
+  BG: { continent: 'europe', hemisphere: 'north' },
   // Asia
   JP: { continent: 'asia', hemisphere: 'north' },
   KR: { continent: 'asia', hemisphere: 'north' },
@@ -75,6 +76,7 @@ export const isAustralia = (d: Destination) => d.countryCode === 'AU'
 export const isNewZealand = (d: Destination) => d.countryCode === 'NZ'
 export const isChile = (d: Destination) => d.countryCode === 'CL'
 export const isArgentina = (d: Destination) => d.countryCode === 'AR'
+export const isBulgaria = (d: Destination) => d.countryCode === 'BG'
 export const isAfrica = (d: Destination) => isInContinent(d, 'africa')
 
 export const COUNTRIES: Country[] = [
@@ -297,6 +299,19 @@ export const COUNTRIES: Country[] = [
       es: "Chile aloja el mayor día de esquí comercial del hemisferio sur, en los Andes alrededor de Santiago. Valle Nevado, en los Tres Valles a 3025 m, es la base más alta del país, con interconexión Tres Valles hacia El Colorado y La Parva. Portillo, dos horas más al norte, acogió el único Campeonato Mundial Alpino jamás celebrado en el hemisferio sur (1966) y entrena cada agosto a los equipos nacionales de EE. UU. y Europa sobre los acantilados de la Laguna del Inca. Temporada de junio a octubre. Los Andes ponen el trabajo; Santiago es la puerta a 1 a 3 horas abajo.",
       pt: "O Chile aloja o maior dia de esqui comercial do hemisfério sul, nos Andes em torno de Santiago. Valle Nevado, nos Tres Valles a 3025 m, é a base mais alta do país, com interligação Tres Valles para El Colorado e La Parva. Portillo, duas horas mais a norte, acolheu o único Campeonato Mundial Alpino alguma vez realizado no hemisfério sul (1966) e treina todos os agostos as equipas nacionais dos EUA e da Europa sobre as falésias da Laguna del Inca. Época de junho a outubro. Os Andes fazem o trabalho; Santiago é a porta a 1 a 3 horas abaixo.",
       it: "Il Cile ospita la più grande giornata di sci commerciale dell'emisfero sud, sulle Ande attorno a Santiago. Valle Nevado, nei Tres Valles a 3025 m, è la base più alta del paese, con il collegamento Tres Valles verso El Colorado e La Parva. Portillo, due ore più a nord, ha ospitato gli unici Mondiali di sci alpino mai disputati nell'emisfero sud (1966) e ad agosto allena ogni anno le squadre nazionali di Stati Uniti ed Europa sulle pareti sopra la Laguna del Inca. Stagione da giugno a ottobre. Le Ande fanno il lavoro; Santiago è la porta 1 a 3 ore più in basso.",
+    },
+  },
+  {
+    slug: 'bulgaria',
+    name: 'Bulgaria',
+    countryCode: 'BG',
+    flag: '🇧🇬',
+    intro: {
+      en: "Bulgaria is Europe's best value for skiing: three resorts in three mountain ranges, at a fraction of Alpine prices. Bansko, in the Pirin Mountains, is the biggest and most modern, with a long gondola from a historic town and lively nightlife. Borovets, the country's oldest resort, sits below Musala in the Rila Mountains, an easy trip from Sofia. Pamporovo, the sunniest and most southerly major resort in Europe, has gentle pine-lined runs ideal for beginners. The season runs roughly December to April.",
+      fr: "La Bulgarie offre le meilleur rapport qualité-prix du ski en Europe : trois stations dans trois massifs, à une fraction des tarifs alpins. Bansko, dans le Pirin, est la plus grande et la plus moderne, avec une longue télécabine au départ d'une vieille ville et une vie nocturne animée. Borovets, la plus ancienne station du pays, se niche sous le Musala dans le Rila, tout près de Sofia. Pamporovo, la station majeure la plus ensoleillée et la plus méridionale d'Europe, déroule des pistes douces entre les pins, idéales pour débuter. Saison de décembre à avril environ.",
+      es: "Bulgaria ofrece la mejor relación calidad-precio para esquiar en Europa: tres estaciones en tres macizos, a una fracción de los precios alpinos. Bansko, en los montes Pirin, es la más grande y moderna, con una larga telecabina desde un casco antiguo y vida nocturna animada. Borovets, la estación más antigua del país, se asienta bajo el Musala en los montes Rila, muy cerca de Sofía. Pamporovo, la estación importante más soleada y meridional de Europa, ofrece pistas suaves entre pinos, ideales para principiantes. La temporada va de diciembre a abril aproximadamente.",
+      pt: "A Bulgária oferece a melhor relação qualidade-preço para esquiar na Europa: três estâncias em três maciços, por uma fração dos preços alpinos. Bansko, nos montes Pirin, é a maior e mais moderna, com um longo teleférico a partir de uma cidade histórica e vida noturna animada. Borovets, a estância mais antiga do país, fica sob o Musala nos montes Rila, muito perto de Sófia. Pamporovo, a maior estância mais soalheira e meridional da Europa, tem pistas suaves entre pinheiros, ideais para principiantes. A época vai sensivelmente de dezembro a abril.",
+      it: "La Bulgaria offre il miglior rapporto qualità-prezzo per sciare in Europa: tre località in tre catene montuose, a una frazione dei prezzi alpini. Bansko, nei monti Pirin, è la più grande e moderna, con una lunga cabinovia da una città storica e una vivace vita notturna. Borovets, la località più antica del paese, sorge sotto il Musala nei monti Rila, a due passi da Sofia. Pamporovo, la principale località più soleggiata e meridionale d'Europa, offre piste dolci tra i pini, ideali per principianti. La stagione va all'incirca da dicembre ad aprile.",
     },
   },
   {

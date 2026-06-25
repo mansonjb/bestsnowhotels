@@ -83,6 +83,27 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Apalaches',
     it: 'Appalachi',
   },
+  Pirin: {
+    en: 'Pirin Mountains',
+    fr: 'Pirin',
+    es: 'Montes Pirin',
+    pt: 'Montes Pirin',
+    it: 'Monti Pirin',
+  },
+  Rila: {
+    en: 'Rila Mountains',
+    fr: 'Rila',
+    es: 'Montes Rila',
+    pt: 'Montes Rila',
+    it: 'Monti Rila',
+  },
+  'Rhodope Mountains': {
+    en: 'Rhodope Mountains',
+    fr: 'Rhodopes',
+    es: 'Montes Ródope',
+    pt: 'Montes Ródope',
+    it: 'Monti Rodope',
+  },
   'Andorran Pyrenees': {
     en: 'Andorran Pyrenees',
     fr: 'Pyrénées andorranes',

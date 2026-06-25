@@ -92,6 +92,7 @@ const HONEYMOON_SLUGS = new Set([
 
 /** Curated value resorts: low base price, accessible Europe + Andorra. */
 const CHEAP_SKI_SLUGS = new Set([
+  'bansko', 'borovets', 'pamporovo',
   'la-molina', 'masella', 'cerler', 'astun', 'candanchu', 'panticosa',
   'port-aine', 'espot', 'vallter-2000', 'port-del-comte',
   'grandvalira', 'vallnord-pal-arinsal', 'ordino-arcalis',
