@@ -427,5 +427,11 @@
   "zao-onsen": "limited",
   "zell-am-see": "limited",
   "zell-am-ziller": "limited",
-  "zermatt": "partial"
+  "zermatt": "partial",
+  "arapahoe-basin": "limited",
+  "grand-targhee": "partial",
+  "powder-mountain": "limited",
+  "crystal-mountain": "partial",
+  "kirkwood": "partial",
+  "stratton": "strong"
 }

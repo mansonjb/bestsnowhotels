@@ -74,6 +74,7 @@ const VIBES: Record<string, Record<Locale, string>> = {
   'back-bowls': { en: 'back bowls', fr: 'bowls de poudreuse', es: 'cuencos de polvo', pt: 'bowls de neve', it: 'conche di polvere' },
   powder: { en: 'powder', fr: 'poudreuse', es: 'nieve polvo', pt: 'neve em pó', it: 'neve fresca' },
   'east-coast': { en: 'East Coast', fr: 'côte Est', es: 'costa Este', pt: 'costa Leste', it: 'costa orientale' },
+  charming: { en: 'charming', fr: 'charmant', es: 'con encanto', pt: 'encantador', it: 'incantevole' },
   vintage: { en: 'vintage', fr: 'rétro chic', es: 'vintage', pt: 'vintage', it: 'vintage' },
   tram: { en: 'tram-access', fr: 'téléphérique-roi', es: 'teleférico estrella', pt: 'teleférico ícone', it: 'funivia regina' },
   isolated: { en: 'isolated', fr: 'isolée', es: 'aislada', pt: 'isolada', it: 'isolata' },
