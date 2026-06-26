@@ -87,6 +87,22 @@
           "pt": "Telecabines e telecadeiras rápidas e modernas reduzem as filas e tornam confortáveis os dias longos. Grandes áreas ligadas como Saalbach e Val Thorens dão imensos quilómetros sem depender de remontes de superfície incómodos.",
           "it": "Cabinovie e seggiovie veloci e moderne riducono le code e rendono comode le lunghe giornate. Ampi comprensori collegati come Saalbach e Val Thorens offrono tantissimi chilometri senza dipendere da scomodi impianti di superficie."
         }
+      },
+      {
+        "title": {
+          "en": "Long season and spring park",
+          "fr": "Longue saison et park de printemps",
+          "es": "Temporada larga y park de primavera",
+          "pt": "Epoca longa e park de primavera",
+          "it": "Stagione lunga e park primaverile"
+        },
+        "text": {
+          "en": "Some parks keep running long after others close, thanks to altitude or a glacier. Val Thorens and Les Deux Alpes hold snow late into spring, while Hintertux and Saas-Fee let you session a glacier park even outside the main winter.",
+          "fr": "Certains parks tournent encore bien apres la fermeture des autres, grace a l'altitude ou a un glacier. Val Thorens et Les Deux Alpes gardent la neige tard au printemps, tandis que Hintertux et Saas-Fee permettent de rider un park sur glacier meme hors plein hiver.",
+          "es": "Algunos parks siguen abiertos mucho despues de que cierren los demas, gracias a la altitud o a un glaciar. Val Thorens y Les Deux Alpes conservan la nieve hasta bien entrada la primavera, mientras que Hintertux y Saas-Fee permiten rodar un park en glaciar incluso fuera del pleno invierno.",
+          "pt": "Alguns parks continuam a funcionar muito depois de os outros fecharem, gracas a altitude ou a um glaciar. Val Thorens e Les Deux Alpes mantem a neve ate ao fim da primavera, enquanto Hintertux e Saas-Fee permitem andar num park de glaciar mesmo fora do pleno inverno.",
+          "it": "Alcuni park restano aperti molto dopo la chiusura degli altri, grazie alla quota o a un ghiacciaio. Val Thorens e Les Deux Alpes tengono la neve fino a primavera inoltrata, mentre Hintertux e Saas-Fee permettono di girare un park sul ghiacciaio anche fuori dal pieno inverno."
+        }
       }
     ],
     "faq": [
@@ -260,6 +276,22 @@
           "pt": "As melhores estancias de festa sao tambem montanhas a serio. Um dominio amplo e com neve garantida permite esquiar com intensidade todo o dia e ainda ter pernas, e motivo, para festejar a noite.",
           "it": "Le migliori localita da festa sono anche montagne serie. Un comprensorio ampio e con neve garantita permette di sciare con intensita tutto il giorno e avere ancora le gambe, e il motivo, per festeggiare la sera."
         }
+      },
+      {
+        "title": {
+          "en": "Sleep close to the action",
+          "fr": "Dormez au coeur de l'animation",
+          "es": "Duerme cerca de la accion",
+          "pt": "Durma perto da animacao",
+          "it": "Dormi vicino al divertimento"
+        },
+        "text": {
+          "en": "The best nights end with a short stroll home, not a taxi ride. Look for a hotel right in the lively centre, within walking distance of the bars and clubs, so you can stay out late and still roll into bed in a few minutes.",
+          "fr": "Les meilleures soirees se terminent par une courte marche jusqu'a l'hotel, pas par un taxi. Choisissez un hotel en plein centre anime, a distance de marche des bars et des clubs, pour profiter tard et rentrer vous coucher en quelques minutes.",
+          "es": "Las mejores noches terminan con un paseo corto hasta el hotel, no con un taxi. Busca un hotel en pleno centro animado, a poca distancia a pie de los bares y las discotecas, para salir hasta tarde y meterte en la cama en unos minutos.",
+          "pt": "As melhores noites acabam com um passeio curto ate ao hotel, nao com um taxi. Procure um hotel mesmo no centro animado, a distancia de caminhada dos bares e das discotecas, para sair ate tarde e ir para a cama em poucos minutos.",
+          "it": "Le serate migliori finiscono con due passi fino in hotel, non con un taxi. Cerca un hotel proprio nel centro animato, a pochi minuti a piedi da bar e locali, cosi puoi fare tardi e infilarti a letto in pochi minuti."
+        }
       }
     ],
     "faq": [
@@ -432,6 +464,22 @@
           "es": "La buena mesa y unas cuantas boutiques con encanto hacen agradables las horas fuera de la nieve. St. Moritz y Kitzbuhel son conocidas por sus compras con estilo y su alta cocina, mientras que Innsbruck, Chamonix y Megeve combinan acogedores restaurantes de montana con la variedad de un autentico centro urbano.",
           "pt": "A boa mesa e algumas lojas com charme tornam agradaveis as horas fora da neve. St. Moritz e Kitzbuhel sao conhecidas pelas compras com estilo e pela alta cozinha, enquanto Innsbruck, Chamonix e Megeve juntam restaurantes de montanha acolhedores a variedade de um verdadeiro centro de cidade.",
           "it": "Una buona cucina e qualche bella boutique rendono piacevoli le ore fuori dalla neve. St. Moritz e Kitzbuhel sono note per lo shopping di classe e l'alta cucina, mentre Innsbruck, Chamonix e Megeve uniscono accoglienti ristoranti di montagna alla varieta di un vero centro cittadino."
+        }
+      },
+      {
+        "title": {
+          "en": "Easy, often car-free access",
+          "fr": "Acces facile, souvent sans voiture",
+          "es": "Acceso facil, a menudo sin coche",
+          "pt": "Acesso facil, muitas vezes sem carro",
+          "it": "Accesso facile, spesso senza auto"
+        },
+        "text": {
+          "en": "A resort you can reach by train and move around on foot makes life simple when you are not skiing. Zermatt and Wengen are car-free and arrive straight by rail, while St. Moritz and Davos are easy to reach by train and walkable once you are there.",
+          "fr": "Une station accessible en train et que l'on parcourt a pied facilite la vie quand on ne skie pas. Zermatt et Wengen sont sans voiture et se rejoignent directement par le rail, tandis que St-Moritz et Davos sont faciles d'acces en train et agreables a parcourir a pied une fois sur place.",
+          "es": "Una estacion a la que se llega en tren y que se recorre a pie facilita la vida cuando no esquias. Zermatt y Wengen no admiten coches y se alcanzan directamente por ferrocarril, mientras que St. Moritz y Davos son faciles de llegar en tren y comodos para caminar una vez alli.",
+          "pt": "Uma estancia a que se chega de comboio e que se percorre a pe torna tudo mais simples quando nao se esquia. Zermatt e Wengen nao tem carros e chegam-se diretamente por via ferrea, enquanto St. Moritz e Davos sao faceis de alcancar de comboio e agradaveis de percorrer a pe quando se chega.",
+          "it": "Una localita raggiungibile in treno e percorribile a piedi semplifica la vita quando non si scia. Zermatt e Wengen sono senza auto e si raggiungono direttamente in treno, mentre St. Moritz e Davos sono comode da raggiungere in treno e piacevoli da girare a piedi una volta arrivati."
         }
       }
     ],

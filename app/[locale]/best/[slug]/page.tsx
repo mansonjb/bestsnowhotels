@@ -246,7 +246,7 @@ export default async function BestForListPage({
         <h2 className="text-2xl font-bold text-slate-deep">{T.rundownTitle[l]}</h2>
         <div className="mt-6 space-y-8">
           {ranked.map((d, i) => {
-            const hotel = getHotels(d.slug)[0]
+            const hotels = getHotels(d.slug).slice(0, 2)
             return (
               <article
                 key={d.slug}
@@ -285,7 +285,7 @@ export default async function BestForListPage({
                     <div className="mt-4 flex flex-wrap gap-3">
                       <Link
                         href={`/${l}/destinations/${d.slug}`}
-                        className="inline-flex items-center gap-1.5 text-sm font-semibold text-ice-800 hover:text-alpenglow-700"
+                        className="inline-flex items-center gap-1.5 rounded-full bg-ice-600 hover:bg-ice-700 text-white text-sm font-semibold px-4 py-1.5 transition"
                       >
                         {T.fullGuide[l]} →
                       </Link>
@@ -300,19 +300,22 @@ export default async function BestForListPage({
                     </div>
                   </div>
                 </div>
-                {hotel && (
+                {hotels.length > 0 && (
                   <div className="border-t border-ice-100 bg-ice-50/40 p-6">
                     <div className="text-sm font-bold uppercase tracking-wide text-ice-700 mb-3">
                       {T.whereToStay[l]} · {d.name}
                     </div>
-                    <div className="max-w-md">
-                      <HotelCard
-                        hotel={hotel}
-                        bookHref={buildAllezHotelLink(hotel.name, d.name, d.country, 'best', 7)}
-                        resortName={d.name}
-                        locale={l}
-                        labels={hotelLabels}
-                      />
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                      {hotels.map((h) => (
+                        <HotelCard
+                          key={h.id}
+                          hotel={h}
+                          bookHref={buildAllezHotelLink(h.name, d.name, d.country, 'best', 7)}
+                          resortName={d.name}
+                          locale={l}
+                          labels={hotelLabels}
+                        />
+                      ))}
                     </div>
                   </div>
                 )}
