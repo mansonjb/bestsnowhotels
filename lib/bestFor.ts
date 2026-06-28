@@ -129,8 +129,8 @@ const USA_POWDER_RESORTS = new Set([
   'mammoth-mountain', 'whitefish', 'taos-ski-valley',
 ])
 
-/** US East Coast resorts (Green Mountains today, room to expand). */
-const USA_EAST_SLUGS = new Set(['stowe', 'killington'])
+/** US East Coast resorts (Green Mountains + Maine). */
+const USA_EAST_SLUGS = new Set(['stowe', 'killington', 'stratton', 'sugarbush', 'sugarloaf'])
 /** Colorado Rockies cluster. */
 const USA_COLORADO_SLUGS = new Set([
   'vail', 'aspen-snowmass', 'beaver-creek', 'breckenridge', 'telluride', 'steamboat',

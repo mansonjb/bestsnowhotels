@@ -54,6 +54,7 @@ const filterArg = (() => {
 const TARGETS = [
   { slug: 'stubai', query: 'hotels Neustift im Stubaital Fulpmes Stubaital Austria', maxDist: 18000, minReviews: 20 },
   { slug: 'saint-lary', query: 'hotels Saint-Lary-Soulan France', maxDist: 12000, minReviews: 12 },
+  { slug: 'sugarbush', query: 'hotels Warren Waitsfield Mad River Valley Vermont', maxDist: 16000, minReviews: 8 },
 ]
 
 async function loadToken() {

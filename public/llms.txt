@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Andes. 435 hand-picked ski destinations across 24 countries and 6 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia, New Zealand, Chile, Argentina and Bulgaria. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Andes. 436 hand-picked ski destinations across 24 countries and 6 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia, New Zealand, Chile, Argentina and Bulgaria. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -43,7 +43,7 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 
 A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
 
-- /weather: index of all 435 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather: index of all 436 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
@@ -225,7 +225,7 @@ Index: https://www.bestsnowhotels.com/en/winter-2027
 - Sweden (10): Åre, Sälen, Vemdalen, Idre Fjäll, Riksgränsen, Funäsdalen, Lofsdalen, Hemavan, Branäs, Tärnaby
 - Finland (7): Levi, Ylläs, Ruka, Saariselkä, Pyhä-Luosto, Iso-Syöte, Salla
 - Japan (12): Niseko, Rusutsu, Furano, Kiroro, Sapporo Teine, Tomamu (Hokkaido); Hakuba Happo-One, Hakuba Goryu & 47, Shiga Kogen, Nozawa Onsen, Myoko Akakura (Japanese Alps / Nagano-Niigata); Zao Onsen (Tohoku)
-- United States (34, selected): Vail, Aspen Snowmass, Beaver Creek, Breckenridge, Keystone, Telluride, Steamboat, Crested Butte, Winter Park, Arapahoe Basin (Colorado Rockies); Park City, Deer Valley, Snowbird, Alta, Powder Mountain, Snowbasin (Wasatch / Utah); Mammoth Mountain, Palisades Tahoe, Heavenly, Northstar, Kirkwood (Sierra Nevada / California); Jackson Hole, Grand Targhee (Wyoming), Big Sky (Montana), Sun Valley (Idaho), Whitefish Mountain (Montana) (Northern Rockies); Crystal Mountain (Washington), Mt Bachelor (Oregon) (Cascades); Stowe, Killington, Stratton (Green Mountains / Vermont); Sugarloaf (Maine); Taos Ski Valley (Sangre de Cristo / New Mexico)
+- United States (35, selected): Vail, Aspen Snowmass, Beaver Creek, Breckenridge, Keystone, Telluride, Steamboat, Crested Butte, Winter Park, Arapahoe Basin (Colorado Rockies); Park City, Deer Valley, Snowbird, Alta, Powder Mountain, Snowbasin (Wasatch / Utah); Mammoth Mountain, Palisades Tahoe, Heavenly, Northstar, Kirkwood (Sierra Nevada / California); Jackson Hole, Grand Targhee (Wyoming), Big Sky (Montana), Sun Valley (Idaho), Whitefish Mountain (Montana) (Northern Rockies); Crystal Mountain (Washington), Mt Bachelor (Oregon) (Cascades); Stowe, Killington, Stratton, Sugarbush (Green Mountains / Vermont); Sugarloaf (Maine); Taos Ski Valley (Sangre de Cristo / New Mexico)
 - Morocco (4): Oukaïmeden (High Atlas, near Marrakech); Mischliffen, Jbel Habri, Jbel Bou Iblane (Middle Atlas)
 - Algeria (3): Chréa (Atlas Blidéen, near Algiers); Tikjda, Tala-Guilef (Djurdjura, Kabylia)
 - Lesotho (1): Afriski Mountain Resort (Maluti, highest ski base in Africa at 3050 m, southern-hemisphere season Jun-Aug)
