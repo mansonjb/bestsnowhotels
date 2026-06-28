@@ -125,7 +125,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // Weather index + curated lists (live data; high change frequency)
-    for (const path of ['weather', 'weather/best-snow', 'weather/fresh-powder']) {
+    for (const path of ['weather', 'weather/best-snow', 'weather/fresh-powder', 'weather/snowing-now']) {
       entries.push({
         url: `${SITE_URL}/${locale}/${path}`,
         lastModified: now,

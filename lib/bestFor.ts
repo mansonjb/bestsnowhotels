@@ -13,6 +13,19 @@ import {
   isAfrica,
 } from './countries'
 import bestForExtra from '@/data/bestForExtra.json'
+import { skiInSkiOutTier } from './skiInSkiOut'
+
+/** True when a resort is a genuine ski-in/ski-out address (strong or partial). */
+const isSio = (d: Destination) => {
+  const t = skiInSkiOutTier(d.slug)
+  return t === 'strong' || t === 'partial'
+}
+/** Upscale ranking for "luxury ski-in/ski-out" lists: glamour-tagged first,
+ *  then big snowy slope-side resorts. */
+const luxScore = (d: Destination) =>
+  (d.vibes.some((v) => LUX_VIBES.has(v)) ? 1000 : 0) +
+  (d.vibes.some((v) => ['gastronomy', 'elegance', 'old-money', 'iconic'].includes(v)) ? 400 : 0) +
+  d.snowScore + d.pistesKm / 50
 
 interface ExtraContent {
   name: Record<Locale, string>
@@ -1022,6 +1035,39 @@ export const BEST_FOR_LISTS: BestForList[] = [
     filter: (d) => SNOWBOARD_SLUGS.has(d.slug),
     sort: (d) => d.snowScore,
     limit: 24,
+  },
+  // ---------- Qualified ski-in/ski-out intent pages (GSC high-intent) ----------
+  {
+    slug: 'luxury-ski-in-ski-out-france',
+    heroSlug: 'courchevel',
+    ...x('luxury-ski-in-ski-out-france'),
+    filter: (d) => d.countryCode === 'FR' && isSio(d),
+    sort: luxScore,
+    limit: 12,
+  },
+  {
+    slug: 'luxury-ski-in-ski-out-italy',
+    heroSlug: 'cortina-d-ampezzo',
+    ...x('luxury-ski-in-ski-out-italy'),
+    filter: (d) => d.countryCode === 'IT' && isSio(d),
+    sort: luxScore,
+    limit: 12,
+  },
+  {
+    slug: 'family-ski-in-ski-out-france',
+    heroSlug: 'avoriaz',
+    ...x('family-ski-in-ski-out-france'),
+    filter: (d) => d.countryCode === 'FR' && isSio(d) && d.vibes.includes('family'),
+    sort: (d) => d.snowScore,
+    limit: 18,
+  },
+  {
+    slug: 'family-ski-in-ski-out-austria',
+    heroSlug: 'serfaus-fiss-ladis',
+    ...x('family-ski-in-ski-out-austria'),
+    filter: (d) => d.countryCode === 'AT' && isSio(d) && d.vibes.includes('family'),
+    sort: (d) => d.snowScore,
+    limit: 18,
   },
 ]
 

@@ -47,6 +47,7 @@ A live snow + 7-day forecast section sits at /weather, refreshed every 30 minute
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week
+- /weather/snowing-now: direct answer to "where is it snowing right now in the world", a live ranking of the resorts with the most fresh snow on the slopes this minute
 
 ## Ski season opening dates
 
@@ -191,6 +192,10 @@ Travel-intent best-for lists (high search volume):
 - /best/apres-ski (nightlife and party: St. Anton, Ischgl, Val Thorens, Verbier, Whistler)
 - /best/non-skiers (real towns, spas, scenic trains: Chamonix, Zermatt, St. Moritz, Queenstown)
 - /best/snowboard (parks and powder: Laax, Avoriaz, Niseko, Whistler, Mayrhofen)
+- /best/luxury-ski-in-ski-out-france (premium slope-side: Courchevel, Val d'Isere, Megeve, Meribel)
+- /best/luxury-ski-in-ski-out-italy (premium slope-side: Cortina d'Ampezzo, Corvara, San Cassiano, Madonna di Campiglio)
+- /best/family-ski-in-ski-out-france (ski to the door with kids: Les Arcs, La Plagne, Avoriaz, Flaine, Les Menuires)
+- /best/family-ski-in-ski-out-austria (kids and slope-side: Serfaus-Fiss-Ladis, Saalbach, Wagrain, Obergurgl)
 
 Index: https://www.bestsnowhotels.com/en/compare
 

@@ -129,6 +129,12 @@ export default async function WeatherIndexPage({
           >
             🌨️ {t.freshPowderTitle}
           </Link>
+          <Link
+            href={`/${l}/weather/snowing-now`}
+            className="inline-flex items-center gap-2 bg-white border border-ice-200 text-slate-deep font-semibold px-5 py-2.5 rounded-full hover:border-ice-400 transition text-sm"
+          >
+            🌍 {({ en: 'Where is it snowing now?', fr: 'Où neige-t-il en ce moment ?', es: '¿Dónde está nevando ahora?', pt: 'Onde está a nevar agora?', it: 'Dove sta nevicando ora?' } as Record<Locale, string>)[l]}
+          </Link>
         </div>
       </section>
 
