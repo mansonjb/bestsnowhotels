@@ -1,0 +1,73 @@
+{
+  "intro": {
+    "en": "This page explains how BestSnowHotels rates and classifies the 436 ski resorts it covers. We do it transparently, so that both travelers and the numbers we publish can be trusted.",
+    "fr": "Cette page explique comment BestSnowHotels note et classe les 436 stations de ski qu'il couvre. Nous le faisons en toute transparence, pour que les voyageurs comme les chiffres que nous publions méritent votre confiance.",
+    "es": "Esta página explica cómo BestSnowHotels puntúa y clasifica las 436 estaciones de esquí que cubre. Lo hacemos con total transparencia, para que tanto los viajeros como las cifras que publicamos sean dignos de confianza.",
+    "pt": "Esta página explica como o BestSnowHotels avalia e classifica as 436 estâncias de esqui que abrange. Fazemo-lo de forma transparente, para que tanto os viajantes como os números que publicamos sejam de confiança.",
+    "it": "Questa pagina spiega come BestSnowHotels valuta e classifica le 436 località sciistiche che copre. Lo facciamo in modo trasparente, affinché sia i viaggiatori sia i dati che pubblichiamo siano degni di fiducia."
+  },
+  "snowScore": {
+    "title": {
+      "en": "The Snow Score",
+      "fr": "Le Snow Score",
+      "es": "El Snow Score",
+      "pt": "O Snow Score",
+      "it": "Lo Snow Score"
+    },
+    "body": {
+      "en": "The BestSnowHotels Snow Score is a comparative index from 0 to 100 that reflects how reliable a resort's snow tends to be. It combines base and summit altitude, the resort's historical snow record, and slope aspect and exposure. It is a relative way to compare resorts against each other, not a live forecast. For current conditions, see our weather pages.",
+      "fr": "Le Snow Score de BestSnowHotels est un indice comparatif de 0 à 100 qui reflète la fiabilité habituelle de l'enneigement d'une station. Il combine l'altitude du bas et du sommet des pistes, l'historique d'enneigement de la station, ainsi que l'orientation et l'exposition des pentes. C'est une façon relative de comparer les stations entre elles, et non une prévision en temps réel. Pour les conditions actuelles, consultez nos pages météo.",
+      "es": "El Snow Score de BestSnowHotels es un índice comparativo de 0 a 100 que refleja lo fiable que suele ser la nieve de una estación. Combina la altitud de base y de cima, el historial de nieve de la estación, y la orientación y exposición de las pistas. Es una forma relativa de comparar estaciones entre sí, no un pronóstico en directo. Para las condiciones actuales, consulta nuestras páginas de meteorología.",
+      "pt": "O Snow Score do BestSnowHotels é um índice comparativo de 0 a 100 que reflete a fiabilidade habitual da neve de uma estância. Combina a altitude da base e do cume, o histórico de neve da estância e a orientação e exposição das encostas. É uma forma relativa de comparar estâncias entre si, e não uma previsão em tempo real. Para as condições atuais, consulte as nossas páginas de meteorologia.",
+      "it": "Lo Snow Score di BestSnowHotels è un indice comparativo da 0 a 100 che riflette quanto sia generalmente affidabile la neve di una località. Combina l'altitudine di base e di vetta, lo storico di innevamento della località e l'orientamento ed esposizione dei pendii. È un modo relativo per confrontare le località tra loro, non una previsione in tempo reale. Per le condizioni attuali, consulta le nostre pagine meteo."
+    }
+  },
+  "skiInSkiOut": {
+    "title": {
+      "en": "The ski-in/ski-out classification",
+      "fr": "Le classement ski aux pieds",
+      "es": "La clasificación ski-in/ski-out",
+      "pt": "A classificação ski-in/ski-out",
+      "it": "La classificazione ski-in/ski-out"
+    },
+    "body": {
+      "en": "Every resort is classified from our own editorial assessment into three honest tiers, against the marketing spin. \"Ski to your door\" (strong) means most of the village is genuinely on the snow. \"Ski-in/ski-out addresses\" (partial) means only specific hotels or sectors are truly on the piste. \"Limited\", or stay nearby, means lodging is in a town and you travel to the lifts. We would rather say a resort is not really ski-in/ski-out than oversell it.",
+      "fr": "Chaque station est classée, à partir de notre propre évaluation éditoriale, en trois niveaux honnêtes, à contre-courant du discours marketing. \"Ski aux pieds\" (fort) signifie que l'essentiel du village est réellement sur la neige. \"Adresses ski aux pieds\" (partiel) signifie que seuls certains hôtels ou secteurs sont vraiment sur la piste. \"Limité\", ou logez à proximité, signifie que l'hébergement est en ville et que vous rejoignez les remontées. Nous préférons dire qu'une station n'est pas vraiment ski aux pieds plutôt que de la survendre.",
+      "es": "Cada estación se clasifica, a partir de nuestra propia valoración editorial, en tres niveles honestos, frente al lenguaje del marketing. \"Esquía hasta tu puerta\" (fuerte) significa que la mayor parte del pueblo está realmente sobre la nieve. \"Direcciones ski-in/ski-out\" (parcial) significa que solo determinados hoteles o sectores están de verdad sobre la pista. \"Limitado\", o alójate cerca, significa que el alojamiento está en un pueblo y te desplazas a los remontes. Preferimos decir que una estación no es realmente ski-in/ski-out antes que exagerar sus virtudes.",
+      "pt": "Cada estância é classificada, a partir da nossa própria avaliação editorial, em três níveis honestos, ao contrário do discurso do marketing. \"Esqui até à porta\" (forte) significa que a maior parte da aldeia está realmente sobre a neve. \"Endereços ski-in/ski-out\" (parcial) significa que apenas certos hotéis ou setores estão verdadeiramente sobre a pista. \"Limitado\", ou fique nas proximidades, significa que o alojamento fica numa vila e tem de se deslocar até aos teleféricos. Preferimos dizer que uma estância não é verdadeiramente ski-in/ski-out a exagerar as suas qualidades.",
+      "it": "Ogni località è classificata, a partire dalla nostra valutazione editoriale, in tre livelli onesti, in contrasto con il linguaggio del marketing. \"Sci ai piedi\" (forte) significa che gran parte del paese è davvero sulla neve. \"Indirizzi ski-in/ski-out\" (parziale) significa che solo determinati hotel o settori sono realmente sulla pista. \"Limitato\", oppure alloggia nelle vicinanze, significa che l'alloggio si trova in un paese e bisogna raggiungere gli impianti. Preferiamo dire che una località non è davvero ski-in/ski-out piuttosto che esagerarne i pregi."
+    }
+  },
+  "data": {
+    "title": {
+      "en": "Our data and sources",
+      "fr": "Nos données et nos sources",
+      "es": "Nuestros datos y fuentes",
+      "pt": "Os nossos dados e fontes",
+      "it": "I nostri dati e le nostre fonti"
+    },
+    "body": {
+      "en": "Altitudes, piste kilometres, lift counts and typical season windows come from resort data that we compile and cross-check. Live snow and 7-day forecasts come from the Open-Meteo aggregated model (ECMWF, Meteo France, DWD, Met Norway), refreshed regularly. The example hotels are real listings with their genuine ratings and review counts, along with an honest distance to the slopes.",
+      "fr": "Les altitudes, les kilomètres de pistes, le nombre de remontées et les périodes d'ouverture habituelles proviennent de données de stations que nous compilons et recoupons. L'enneigement en direct et les prévisions à 7 jours proviennent du modèle agrégé Open-Meteo (ECMWF, Météo France, DWD, Met Norway), actualisé régulièrement. Les hôtels donnés en exemple sont de vraies offres, avec leurs notes et leur nombre d'avis réels, ainsi qu'une distance honnête jusqu'aux pistes.",
+      "es": "Las altitudes, los kilómetros de pistas, el número de remontes y las temporadas habituales proceden de datos de las estaciones que recopilamos y contrastamos. La nieve en directo y los pronósticos a 7 días proceden del modelo agregado de Open-Meteo (ECMWF, Meteo France, DWD, Met Norway), que se actualiza con regularidad. Los hoteles de ejemplo son anuncios reales, con sus valoraciones y su número de reseñas auténticos, junto con una distancia honesta a las pistas.",
+      "pt": "As altitudes, os quilómetros de pistas, o número de teleféricos e os períodos habituais de época provêm de dados das estâncias que compilamos e cruzamos. A neve em direto e as previsões a 7 dias provêm do modelo agregado Open-Meteo (ECMWF, Meteo France, DWD, Met Norway), atualizado regularmente. Os hotéis dados como exemplo são anúncios reais, com as suas avaliações e o seu número de comentários genuínos, bem como uma distância honesta até às pistas.",
+      "it": "Le altitudini, i chilometri di piste, il numero di impianti e i periodi tipici di stagione provengono da dati delle località che raccogliamo e verifichiamo in modo incrociato. La neve in tempo reale e le previsioni a 7 giorni provengono dal modello aggregato Open-Meteo (ECMWF, Meteo France, DWD, Met Norway), aggiornato regolarmente. Gli hotel proposti come esempio sono annunci reali, con le loro valutazioni e il loro numero di recensioni autentici, insieme a una distanza onesta dalle piste."
+    }
+  },
+  "honesty": {
+    "title": {
+      "en": "Our honesty pledge",
+      "fr": "Notre engagement d'honnêteté",
+      "es": "Nuestro compromiso de honestidad",
+      "pt": "O nosso compromisso de honestidade",
+      "it": "Il nostro impegno di onestà"
+    },
+    "body": {
+      "en": "We do not fabricate numbers or invent dates we cannot verify. Indicative season windows link to the resort's official site so you can confirm them, and ski-in/ski-out is called as it really is. When we advise you on a trip, accuracy comes first.",
+      "fr": "Nous n'inventons pas de chiffres ni de dates que nous ne pouvons pas vérifier. Les périodes d'ouverture indicatives renvoient vers le site officiel de la station pour que vous puissiez les confirmer, et le ski aux pieds est qualifié tel qu'il est réellement. Lorsque nous vous conseillons pour un séjour, l'exactitude passe avant tout.",
+      "es": "No inventamos cifras ni fechas que no podamos verificar. Las temporadas orientativas enlazan con el sitio oficial de la estación para que puedas confirmarlas, y el ski-in/ski-out se describe tal como es en realidad. Cuando te aconsejamos sobre un viaje, la exactitud es lo primero.",
+      "pt": "Não inventamos números nem datas que não possamos verificar. Os períodos de época indicativos remetem para o site oficial da estância, para que os possa confirmar, e o ski-in/ski-out é descrito tal como é na realidade. Quando o aconselhamos sobre uma viagem, o rigor vem em primeiro lugar.",
+      "it": "Non inventiamo dati né date che non possiamo verificare. I periodi di stagione indicativi rimandano al sito ufficiale della località, così da poterli confermare, e lo ski-in/ski-out viene descritto per quello che è realmente. Quando ti consigliamo per un viaggio, la precisione viene prima di tutto."
+    }
+  }
+}

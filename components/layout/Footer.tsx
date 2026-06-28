@@ -126,6 +126,11 @@ export default function Footer({ locale, dict }: FooterProps) {
                 </Link>
               </li>
               <li>
+                <Link href={`/${locale}/methodology`} className="hover:text-slate-deep">
+                  {({ en: 'How we score resorts', fr: 'Notre méthodologie', es: 'Nuestra metodología', pt: 'A nossa metodologia', it: 'La nostra metodologia' } as Record<string, string>)[locale] ?? 'Methodology'}
+                </Link>
+              </li>
+              <li>
                 <Link href={`/${locale}/disclosure`} className="hover:text-slate-deep">
                   {dict.footer.disclosure}
                 </Link>

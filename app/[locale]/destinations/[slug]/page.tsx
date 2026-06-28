@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import Stay22Map from '@/components/Stay22Map'
+import { directAnswer } from '@/lib/directAnswer'
 import DestinationCard from '@/components/DestinationCard'
 import {
   destinations,
@@ -332,6 +333,19 @@ export default async function DestinationDetailPage({
             ))}
           </div>
         </div>
+      </section>
+
+      {/* Direct answer (GEO: one extractable, data-built statement for AI engines) */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+        <p className="text-lg sm:text-xl text-slate-deep leading-relaxed font-medium">
+          {directAnswer(d, l)}
+        </p>
+        <Link
+          href={`/${l}/methodology`}
+          className="mt-2 inline-block text-sm text-ice-600 hover:text-alpenglow-700 underline decoration-ice-300 underline-offset-2"
+        >
+          {({ en: 'How we score and classify resorts', fr: 'Comment on note et classe les stations', es: 'Cómo puntuamos y clasificamos las estaciones', pt: 'Como pontuamos e classificamos as estâncias', it: 'Come valutiamo e classifichiamo le località' } as Record<Locale, string>)[l]}
+        </Link>
       </section>
 
       {/* Part of a ski area (maillage) */}

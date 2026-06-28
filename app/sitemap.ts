@@ -286,7 +286,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // Static pages
-    for (const path of ['about', 'disclosure', 'privacy']) {
+    for (const path of ['about', 'disclosure', 'privacy', 'methodology']) {
       entries.push({
         url: `${SITE_URL}/${locale}/${path}`,
         lastModified: now,
