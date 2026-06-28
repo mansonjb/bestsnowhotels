@@ -33,9 +33,9 @@ const ROOT = path.join(__dirname, '..')
 const IMG_DIR = path.join(ROOT, 'public', 'images', 'hotels')
 const OUT = path.join(ROOT, 'data', 'hotels.json')
 const HOTELS_PER_RESORT = 12
-const MIN_RATING = 3.8
-const DEFAULT_MAX_DIST = 9000
-const DEFAULT_MIN_REVIEWS = 30
+const MIN_RATING = 3.6
+const DEFAULT_MAX_DIST = 15000
+const DEFAULT_MIN_REVIEWS = 10
 const ACTOR = (process.env.APIFY_ACTOR || 'compass~crawler-google-places').replace('/', '~')
 
 const argv = process.argv.slice(2)
@@ -48,8 +48,12 @@ const filterArg = (() => {
 
 // Per-resort config. maxDist reaches the town where people actually stay;
 // minReviews stays high enough to stay credible. country is filled per resort.
+// Most resorts work with the default locationQuery ("<name>, <country>", which
+// the actor geocodes). List here only the ones whose short name geocodes badly
+// and need a full search string (query) or wider radius.
 const TARGETS = [
   { slug: 'stubai', query: 'hotels Neustift im Stubaital Fulpmes Stubaital Austria', maxDist: 18000, minReviews: 20 },
+  { slug: 'saint-lary', query: 'hotels Saint-Lary-Soulan France', maxDist: 12000, minReviews: 12 },
 ]
 
 async function loadToken() {
@@ -95,15 +99,18 @@ function priceLevelFrom(price) {
   return sym >= 1 && sym <= 4 ? sym : null
 }
 
-async function runActor(query, token) {
+async function runActor({ searchString, locationQuery }, token) {
   const url = `https://api.apify.com/v2/acts/${ACTOR}/run-sync-get-dataset-items?token=${token}`
   const input = {
-    searchStringsArray: [query],
+    searchStringsArray: [searchString || 'hotel'],
     maxCrawledPlacesPerSearch: 25,
     language: 'en',
     skipClosedPlaces: true,
     scrapePlaceDetailPage: false,
   }
+  // Letting the actor geocode the resort via locationQuery is far more reliable
+  // than putting the (often partial) resort name inside the search string.
+  if (locationQuery) input.locationQuery = locationQuery
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -155,9 +162,10 @@ async function main() {
   if (filterArg) {
     work = filterArg.map((slug) => TARGETS.find((t) => t.slug === slug) || { slug })
   } else if (MISSING) {
+    const bySlug = Object.fromEntries(TARGETS.map((t) => [t.slug, t]))
     work = destinations
       .filter((d) => (hotels[d.slug] || []).length < 2)
-      .map((d) => ({ slug: d.slug }))
+      .map((d) => bySlug[d.slug] || { slug: d.slug })
     console.log(`--missing: ${work.length} resorts with < 2 hotels`)
   }
 
@@ -165,13 +173,16 @@ async function main() {
     const dest = destinations.find((d) => d.slug === cfg.slug)
     if (!dest) { console.error(`! ${cfg.slug}: not in destinations.json`); continue }
     const country = dest.country
-    const query = cfg.query || `hotels in ${dest.name}, ${country}`
     const maxDist = cfg.maxDist ?? DEFAULT_MAX_DIST
     const minReviews = cfg.minReviews ?? DEFAULT_MIN_REVIEWS
     const resortLuxury = (dest.vibes ?? []).some((v) => LUXURY_VIBES.includes(v))
+    const runArgs = cfg.query
+      ? { searchString: cfg.query }
+      : { searchString: 'hotel', locationQuery: `${dest.name}, ${country}` }
+    const queryLabel = cfg.query || `hotel @ ${dest.name}, ${country}`
 
     let raw
-    try { raw = await runActor(query, token) }
+    try { raw = await runActor(runArgs, token) }
     catch (e) { console.error(`! ${cfg.slug}: ${e.message}`); continue }
 
     const ranked = raw
@@ -182,7 +193,7 @@ async function main() {
       .sort((a, b) => b.rating * Math.log10(Number(b.reviewCount) + 10) - a.rating * Math.log10(Number(a.reviewCount) + 10))
       .slice(0, HOTELS_PER_RESORT)
 
-    console.log(`\n${cfg.slug}: ${ranked.length} candidates (was ${(hotels[cfg.slug] || []).length}) via "${query}"`)
+    console.log(`\n${cfg.slug}: ${ranked.length} candidates (was ${(hotels[cfg.slug] || []).length}) via "${queryLabel}"`)
     const out = []
     const seen = new Set()
     for (const h of ranked) {
@@ -209,7 +220,11 @@ async function main() {
         distanceToSlopesM: Math.round(d / 50) * 50, hasPhoto,
       })
     }
-    if (!DRY && out.length) hotels[cfg.slug] = out
+    if (!DRY && out.length) {
+      hotels[cfg.slug] = out
+      // Persist after every resort so a long background run never loses work.
+      await writeFile(OUT, JSON.stringify(hotels, null, 2) + '\n')
+    }
   }
 
   if (!DRY) { await writeFile(OUT, JSON.stringify(hotels, null, 2) + '\n'); console.log('\nwrote data/hotels.json') }
