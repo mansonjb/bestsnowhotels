@@ -111,6 +111,20 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Pirenéus andorranos',
     it: 'Pirenei andorrani',
   },
+  'Sierra Nevada (Spain)': {
+    en: 'Sierra Nevada (Spain)',
+    fr: 'Sierra Nevada (Espagne)',
+    es: 'Sierra Nevada (España)',
+    pt: 'Sierra Nevada (Espanha)',
+    it: 'Sierra Nevada (Spagna)',
+  },
+  'Cantabrian Mountains': {
+    en: 'Cantabrian Mountains',
+    fr: 'Monts Cantabriques',
+    es: 'Cordillera Cantábrica',
+    pt: 'Cordilheira Cantábrica',
+    it: 'Monti Cantabrici',
+  },
   'Bavarian Alps': {
     en: 'Bavarian Alps',
     fr: 'Alpes bavaroises',

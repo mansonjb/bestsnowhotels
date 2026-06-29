@@ -5,6 +5,25 @@ import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
 import Stay22Map from '@/components/Stay22Map'
 import { directAnswer } from '@/lib/directAnswer'
+import { partnerLinksFor } from '@/lib/partnerLinks'
+
+const PARTNER_LABEL = {
+  heading: {
+    en: 'Planning your trip to {name}?',
+    fr: 'Vous préparez votre voyage à {name} ?',
+    es: '¿Preparas tu viaje a {name}?',
+    pt: 'A planear a sua viagem a {name}?',
+    it: 'Stai organizzando il tuo viaggio a {name}?',
+  } as Record<Locale, string>,
+  sub: {
+    en: 'A few of our sister sites cover this destination too.',
+    fr: "Quelques-uns de nos sites partenaires couvrent aussi cette destination.",
+    es: 'Algunos de nuestros sitios hermanos también cubren este destino.',
+    pt: 'Alguns dos nossos sites parceiros também cobrem este destino.',
+    it: 'Alcuni dei nostri siti partner coprono anche questa destinazione.',
+  } as Record<Locale, string>,
+  visit: { en: 'Visit', fr: 'Voir', es: 'Ver', pt: 'Ver', it: 'Vai a' } as Record<Locale, string>,
+}
 import DestinationCard from '@/components/DestinationCard'
 import {
   destinations,
@@ -597,6 +616,33 @@ export default async function DestinationDetailPage({
           ))}
         </div>
       </section>
+
+      {/* Sister sites: contextual cross-links, only on resorts they also cover */}
+      {partnerLinksFor(d.slug, d.name, l).length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+          <h2 className="text-2xl font-bold text-slate-deep">
+            {PARTNER_LABEL.heading[l].replace('{name}', d.name)}
+          </h2>
+          <p className="mt-1 text-ice-800/75">{PARTNER_LABEL.sub[l]}</p>
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-5">
+            {partnerLinksFor(d.slug, d.name, l).map((p) => (
+              <a
+                key={p.id}
+                href={p.href}
+                target="_blank"
+                rel="noopener"
+                className="block rounded-2xl border border-ice-100 bg-white p-5 hover:border-ice-300 hover:shadow-sm transition"
+              >
+                <div className="text-sm font-bold uppercase tracking-wide text-ice-700">{p.name}</div>
+                <p className="mt-2 text-sm text-ice-800/85 leading-relaxed">{p.blurb}</p>
+                <span className="mt-3 inline-block text-sm font-semibold text-alpenglow-700">
+                  {PARTNER_LABEL.visit[l]} {p.name} →
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Related */}
       {related.length > 0 && (
