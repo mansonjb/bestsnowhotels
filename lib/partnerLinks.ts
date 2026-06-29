@@ -12,6 +12,10 @@ import type { Locale } from '@/app/[locale]/dictionaries'
  * - MyHoneymoonHotel (myhoneymoonhotel.com): honeymoon hotels by region, no
  *   locale prefix, URL /destinations/<region>. Maps Dolomites, Lapland and
  *   Banff resorts to that region's page.
+ * - RaceWeekStays (raceweekstays.com): accommodation for F1/MotoGP race
+ *   weekends, locales en/fr/nl/de/it/es, URL /<loc>/<circuit>. Only Schladming
+ *   has a credible nearby circuit (the Red Bull Ring at Spielberg, ~1h, same
+ *   Styria region), and RaceWeekStays already links the other way.
  */
 export interface PartnerLink {
   id: string
@@ -37,8 +41,13 @@ const REGION_LABEL: Record<string, Record<Locale, string>> = {
   banff: { en: 'in Banff', fr: 'à Banff', es: 'en Banff', pt: 'em Banff', it: 'a Banff' },
 }
 
+// RaceWeekStays slug is the circuit, not the resort. Schladming is a known base
+// for a weekend at the Red Bull Ring (Austrian F1 + MotoGP GP) in the same region.
+const RWS_CIRCUIT: Record<string, string> = { schladming: 'spielberg' }
+
 const hwpLoc = (l: Locale) => (['en', 'fr', 'es'] as string[]).includes(l) ? l : 'en'
 const sttLoc = (l: Locale) => (['en', 'fr', 'es', 'it'] as string[]).includes(l) ? l : 'en'
+const rwsLoc = (l: Locale) => (['en', 'fr', 'es', 'it'] as string[]).includes(l) ? l : 'en'
 
 function hwpBlurb(name: string, l: Locale): string {
   return {
@@ -68,6 +77,16 @@ function mhhBlurb(regionPhrase: string, l: Locale): string {
   }[l]
 }
 
+function rwsBlurb(l: Locale): string {
+  return {
+    en: `Here for a race weekend at the nearby Red Bull Ring? RaceWeekStays finds accommodation for the Austrian Grand Prix.`,
+    fr: `Vous venez pour un week-end de course au Red Bull Ring tout proche ? RaceWeekStays trouve un hébergement pour le Grand Prix d'Autriche.`,
+    es: `¿Vienes por un fin de semana de carreras en el cercano Red Bull Ring? RaceWeekStays encuentra alojamiento para el Gran Premio de Austria.`,
+    pt: `Vem para um fim de semana de corridas no Red Bull Ring, ali perto? O RaceWeekStays encontra alojamento para o Grande Prémio da Áustria.`,
+    it: `Sei qui per un weekend di gara al vicino Red Bull Ring? RaceWeekStays trova alloggi per il Gran Premio d'Austria.`,
+  }[l]
+}
+
 export function partnerLinksFor(slug: string, name: string, l: Locale): PartnerLink[] {
   const out: PartnerLink[] = []
   if (HWP_SLUGS.has(slug)) {
@@ -79,6 +98,10 @@ export function partnerLinksFor(slug: string, name: string, l: Locale): PartnerL
   const region = HONEYMOON_REGION[slug]
   if (region) {
     out.push({ id: 'myhoneymoonhotel', name: 'MyHoneymoonHotel', href: `https://myhoneymoonhotel.com/destinations/${region}`, blurb: mhhBlurb(REGION_LABEL[region][l], l) })
+  }
+  const circuit = RWS_CIRCUIT[slug]
+  if (circuit) {
+    out.push({ id: 'raceweekstays', name: 'RaceWeekStays', href: `https://raceweekstays.com/${rwsLoc(l)}/${circuit}`, blurb: rwsBlurb(l) })
   }
   return out
 }
