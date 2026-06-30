@@ -24,11 +24,14 @@ const PARTNER_LABEL = {
   } as Record<Locale, string>,
   visit: { en: 'Visit', fr: 'Voir', es: 'Ver', pt: 'Ver', it: 'Vai a' } as Record<Locale, string>,
 }
-import DestinationCard from '@/components/DestinationCard'
+import RelatedBridges from '@/components/RelatedBridges'
+import HubChips from '@/components/HubChips'
+import { linkifyProse } from '@/lib/textLinks'
+import { nearbyResorts, similarResorts, hubLinksFor } from '@/lib/related'
+import { regionSlug } from '@/lib/regionPages'
 import {
   destinations,
   getDestination,
-  getRelatedDestinations,
 } from '@/lib/destinations'
 import HotelCard from '@/components/HotelCard'
 import PisteBreakdown from '@/components/PisteBreakdown'
@@ -126,15 +129,25 @@ export default async function DestinationDetailPage({
 
   const l = locale as Locale
   const dict = await getDictionary(l)
-  const related = getRelatedDestinations(slug, 4)
+  const near = nearbyResorts(slug, 4)
+  const similar = similarResorts(slug, 4, near.map((n) => n.slug))
   const skiArea = getSkiAreaForResort(slug)
   const cSlug = countrySlug(d.country)
-  const sioCountry = getSioCountry(cSlug)
-  const relatedLinks: { href: string; label: string }[] = [
-    { href: `/${l}/guides/${slug}`, label: ({ en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere' } as Record<typeof l, string>)[l] },
-    ...(skiArea ? [{ href: `/${l}/winter-2027/${skiArea.slug}`, label: ({ en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<typeof l, string>)[l] }] : []),
-    ...(sioCountry ? [{ href: `/${l}/ski-in-ski-out/${cSlug}`, label: `${({ en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'Ski-in/ski-out', pt: 'Ski-in/ski-out', it: 'Ski-in/ski-out' } as Record<typeof l, string>)[l]}: ${localizeCountry(d.country, l)}` }] : []),
-    { href: `/${l}/countries/${cSlug}`, label: localizeCountry(d.country, l) },
+  const regionLabel = localizeRegion(d.region, l)
+  const countryLabel = localizeCountry(d.country, l)
+  const hubGroups = hubLinksFor(d, l, regionLabel, countryLabel)
+  // Localised copy for the maillage sections (chip cloud + bridges).
+  const cocoon = {
+    hubHeading: ({ en: 'Keep exploring from here', fr: 'Continuer à explorer', es: 'Sigue explorando desde aquí', pt: 'Continue a explorar a partir daqui', it: 'Continua a esplorare da qui' } as Record<Locale, string>)[l],
+    hubSub: ({ en: `Everything on our site connected to ${d.name}: its area, the lists it makes, head-to-heads and trip guides.`, fr: `Tout ce qui, sur le site, est lié à ${d.name} : sa région, les sélections où elle figure, les comparatifs et les guides pratiques.`, es: `Todo lo de nuestra web conectado con ${d.name}: su zona, las listas en las que aparece, los duelos y las guías de viaje.`, pt: `Tudo no nosso site ligado a ${d.name}: a sua zona, as listas em que aparece, os duelos e os guias de viagem.`, it: `Tutto ciò che sul sito è collegato a ${d.name}: la sua zona, le liste in cui compare, i confronti e le guide di viaggio.` } as Record<Locale, string>)[l],
+    nearTitle: ({ en: `Ski resorts near ${d.name}`, fr: `Stations de ski près de ${d.name}`, es: `Estaciones de esquí cerca de ${d.name}`, pt: `Estâncias de esqui perto de ${d.name}`, it: `Località sciistiche vicino a ${d.name}` } as Record<Locale, string>)[l],
+    nearSub: ({ en: 'The closest alternatives, an easy switch if dates or hotels are tight.', fr: 'Les alternatives les plus proches, faciles à substituer si les dates ou les hôtels coincent.', es: 'Las alternativas más cercanas, fáciles de cambiar si las fechas o los hoteles aprietan.', pt: 'As alternativas mais próximas, fáceis de trocar se as datas ou os hotéis apertarem.', it: 'Le alternative più vicine, facili da scegliere se date o hotel scarseggiano.' } as Record<Locale, string>)[l],
+    simTitle: ({ en: `If you like ${d.name}, try these`, fr: `Si vous aimez ${d.name}, essayez`, es: `Si te gusta ${d.name}, prueba estas`, pt: `Se gosta de ${d.name}, experimente estas`, it: `Se ti piace ${d.name}, prova queste` } as Record<Locale, string>)[l],
+    simSub: ({ en: 'Resorts with a similar feel, snow record and size.', fr: 'Des stations à l\'ambiance, l\'enneigement et la taille comparables.', es: 'Estaciones con un ambiente, una nieve y un tamaño parecidos.', pt: 'Estâncias com ambiente, neve e dimensão semelhantes.', it: 'Località con atmosfera, innevamento e dimensioni simili.' } as Record<Locale, string>)[l],
+  }
+  const bridges = [
+    { key: 'near', title: cocoon.nearTitle, sub: cocoon.nearSub, items: near, accent: 'ice' as const },
+    { key: 'similar', title: cocoon.simTitle, sub: cocoon.simSub, items: similar, accent: 'alpenglow' as const },
   ]
   const allezLink = buildAllezDestLink(d.name, d.country, 'destination', 7)
   const hotels = getHotels(slug)
@@ -294,9 +307,12 @@ export default async function DestinationDetailPage({
             <span className="text-3xl" aria-hidden>
               {d.flag}
             </span>
-            <span className="text-sm font-semibold text-white/85 uppercase tracking-wide">
+            <Link
+              href={`/${l}/regions/${regionSlug(d.region)}`}
+              className="text-sm font-semibold text-white/85 uppercase tracking-wide hover:text-white underline decoration-white/30 underline-offset-4 hover:decoration-white transition"
+            >
               {localizeRegion(d.region, l)}
-            </span>
+            </Link>
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white tracking-tight drop-shadow-sm">
             {d.name}
@@ -497,7 +513,7 @@ export default async function DestinationDetailPage({
           {dict.destination.aboutTitle}
         </h2>
         <p className="text-lg text-ice-800/80 leading-relaxed">
-          {d.longDescription[l]}
+          {linkifyProse(d.longDescription[l], d, l)}
         </p>
 
         {/* Good to know: data-driven facts, unique per resort */}
@@ -587,14 +603,10 @@ export default async function DestinationDetailPage({
             <p className="mt-1 text-sm text-ice-600">{dict.destination.skiRentalHint}</p>
           </a>
         </div>
-        <div className="mt-6 flex flex-wrap gap-3 text-sm">
-          {relatedLinks.map((r) => (
-            <Link key={r.href} href={r.href} className="rounded-full border border-ice-200 px-4 py-2 text-slate-deep hover:bg-ice-50 transition">
-              {r.label}
-            </Link>
-          ))}
-        </div>
       </section>
+
+      {/* Semantic cocoon: coloured chip cloud of every connected page (maillage) */}
+      <HubChips groups={hubGroups} heading={cocoon.hubHeading} sub={cocoon.hubSub} />
 
       {/* FAQ */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -644,29 +656,8 @@ export default async function DestinationDetailPage({
         </section>
       )}
 
-      {/* Related */}
-      {related.length > 0 && (
-        <section className="bg-ice-50 border-t border-ice-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-            <h2 className="text-2xl font-bold text-slate-deep mb-1">
-              {dict.destination.relatedTitle}
-            </h2>
-            <p className="text-ice-800/80 mb-6">
-              {dict.destination.relatedSubtitle}
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-              {related.map((r) => (
-                <DestinationCard
-                  key={r.slug}
-                  destination={r}
-                  locale={l}
-                  labels={cardLabels}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
+      {/* Related: similar-resort bridges (nearest by geography + same character) */}
+      <RelatedBridges buckets={bridges} locale={l} cardLabels={cardLabels} />
     </>
   )
 }

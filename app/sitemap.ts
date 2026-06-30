@@ -5,12 +5,15 @@ import { COUNTRIES } from '@/lib/countries'
 import { SKI_AREAS } from '@/lib/skiAreas'
 import { BEST_FOR_LISTS } from '@/lib/bestFor'
 import { COMPARE_PAIRS } from '@/lib/compare'
+import { getRegionHubs } from '@/lib/regionPages'
 import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
 import { GUIDE_SLUGS } from '@/lib/resortGuide'
 import { getWinterAreas } from '@/lib/winterHolidays'
 import { getThemes } from '@/lib/skiThemes'
 import { locales } from './[locale]/dictionaries'
+
+const REGION_HUBS = getRegionHubs()
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -72,6 +75,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
         alternates: {
           languages: hreflangFor(`/countries/${c.slug}`),
+        },
+      })
+    }
+
+    // Regions index
+    entries.push({
+      url: `${SITE_URL}/${locale}/regions`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      alternates: {
+        languages: hreflangFor(`/regions`),
+      },
+    })
+
+    // Each region
+    for (const h of REGION_HUBS) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/regions/${h.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: {
+          languages: hreflangFor(`/regions/${h.slug}`),
         },
       })
     }

@@ -261,5 +261,6 @@ Site available in English (en), French (fr), Spanish (es), Portuguese (pt) and I
 - All destinations: https://www.bestsnowhotels.com/en/destinations
 - Ski areas (linked domains): https://www.bestsnowhotels.com/en/ski-areas
 - Countries: https://www.bestsnowhotels.com/en/countries
+- Ski regions (46 massifs, French Alps to the Andes): https://www.bestsnowhotels.com/en/regions
 - Live snow report: https://www.bestsnowhotels.com/en/weather
 - Sitemap: https://www.bestsnowhotels.com/sitemap.xml

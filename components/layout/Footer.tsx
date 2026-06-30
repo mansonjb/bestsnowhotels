@@ -25,6 +25,8 @@ interface FooterProps {
   }
 }
 
+const REGIONS_LABEL = { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche' } as Record<Locale, string>
+
 const PLAN = {
   heading: { en: 'Plan your trip', fr: 'Préparer son séjour', es: 'Planifica tu viaje', pt: 'Planeie a viagem', it: 'Pianifica il viaggio' } as Record<Locale, string>,
   winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<Locale, string>,
@@ -66,6 +68,11 @@ export default function Footer({ locale, dict }: FooterProps) {
               <li>
                 <Link href={`/${locale}/countries`} className="hover:text-slate-deep">
                   {dict.nav.countries}
+                </Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/regions`} className="hover:text-slate-deep">
+                  {REGIONS_LABEL[locale]}
                 </Link>
               </li>
               <li>
