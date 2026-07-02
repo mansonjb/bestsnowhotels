@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from './SafeImage'
 import type { Destination } from '@/lib/destinations'
 import type { WeatherSnapshot } from '@/lib/weather'
 import type { Locale } from '@/app/[locale]/dictionaries'
@@ -44,7 +44,7 @@ export default function WeatherCard({
       className="group card-hover block bg-white rounded-2xl border border-ice-100 overflow-hidden"
     >
       <div className="relative h-44 overflow-hidden">
-        <Image
+        <SafeImage
           src={`/images/destinations/${d.slug}.jpg`}
           alt={d.name}
           fill

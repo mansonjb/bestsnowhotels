@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../dictionaries'
 import type { Locale } from '../dictionaries'
@@ -83,7 +83,7 @@ export default async function SkiInSkiOutHubPage({
             className="group card-hover block bg-white rounded-2xl border border-ice-100 overflow-hidden"
           >
             <div className="relative h-40 overflow-hidden">
-              <Image
+              <SafeImage
                 src={`/images/destinations/${c.resorts[0].slug}.jpg`}
                 alt={localizeCountry(c.country, l)}
                 fill

@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
@@ -110,7 +110,7 @@ export default async function WhenPeriodPage({
       {/* Hero */}
       <section className="relative">
         <div className="relative h-[36vh] min-h-[260px] w-full overflow-hidden">
-          <Image
+          <SafeImage
             src={`/images/destinations/${g.heroSlug}.jpg`}
             alt={g.name[l]}
             fill

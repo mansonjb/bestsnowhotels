@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../dictionaries'
 import type { Locale } from '../dictionaries'
@@ -77,7 +77,7 @@ export default async function WinterHubPage({
           return (
             <Link key={a.slug} href={`/${l}/winter-2027/${a.slug}`} className="group card-hover block bg-white rounded-2xl border border-ice-100 overflow-hidden">
               <div className="relative h-44 overflow-hidden">
-                <Image src={`/images/destinations/${hero}.jpg`} alt={a.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                <SafeImage src={`/images/destinations/${hero}.jpg`} alt={a.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-deep/85 via-slate-deep/30 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-4 flex items-end justify-between">
                   <span className="text-white text-xl font-bold leading-tight">{a.name}</span>

@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import SafeImage from './SafeImage'
 import type { Hotel } from '@/lib/hotels'
 import type { Locale } from '@/app/[locale]/dictionaries'
 import {
@@ -63,7 +63,7 @@ function HotelImage({ hotel }: { hotel: Hotel }) {
     )
   }
   return (
-    <Image
+    <SafeImage
       src={`/images/hotels/${hotel.id}.jpg`}
       alt={hotel.name}
       fill

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from './SafeImage'
 import type { Destination } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
 import { localizeCountry } from '@/lib/countryNames'
@@ -28,7 +28,7 @@ export default function DestinationCard({
       className="group card-hover block bg-white rounded-2xl border border-ice-100 overflow-hidden"
     >
       <div className="relative h-48 overflow-hidden">
-        <Image
+        <SafeImage
           src={`/images/destinations/${d.slug}.jpg`}
           alt={`${d.name}, ${localizeRegion(d.region, locale)}`}
           fill

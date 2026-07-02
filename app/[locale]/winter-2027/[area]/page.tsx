@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
@@ -139,7 +139,7 @@ export default async function WinterAreaPage({
 
       {/* Hero */}
       <section className="relative h-[44vh] min-h-[340px] w-full overflow-hidden">
-        <Image src={`/images/destinations/${heroSlug}.jpg`} alt={a.name} fill priority sizes="100vw" className="object-cover" />
+        <SafeImage src={`/images/destinations/${heroSlug}.jpg`} alt={a.name} fill priority sizes="100vw" className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-deep/90 via-slate-deep/40 to-slate-deep/15" />
         <div className="absolute inset-x-0 bottom-0 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
           <nav className="text-xs text-white/80 mb-3 flex items-center gap-2 flex-wrap">
@@ -237,7 +237,7 @@ export default async function WinterAreaPage({
             {members.map((m) => (
               <Link key={m.slug} href={`/${l}/destinations/${m.slug}`} className="group card-hover block bg-white rounded-2xl border border-ice-100 overflow-hidden">
                 <div className="relative h-36 overflow-hidden">
-                  <Image src={`/images/destinations/${m.slug}.jpg`} alt={m.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <SafeImage src={`/images/destinations/${m.slug}.jpg`} alt={m.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-deep/80 to-transparent" />
                   <div className="absolute inset-x-0 bottom-0 p-3">
                     <span className="text-white font-bold">{m.name}</span>

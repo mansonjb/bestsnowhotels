@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
@@ -158,7 +158,7 @@ export default async function GuidePage({
 
       {/* Hero */}
       <section className="relative h-[42vh] min-h-[320px] w-full overflow-hidden">
-        <Image
+        <SafeImage
           src={`/images/destinations/${slug}.jpg`}
           alt={`${d.name}, ${localizeRegion(d.region, l)}`}
           fill

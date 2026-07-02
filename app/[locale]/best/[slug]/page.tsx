@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
@@ -162,7 +162,7 @@ export default async function BestForListPage({
       {/* Hero */}
       <section className="relative">
         <div className="relative h-[42vh] min-h-[300px] w-full overflow-hidden">
-          <Image
+          <SafeImage
             src={`/images/destinations/${b.heroSlug}.jpg`}
             alt={b.name[l]}
             fill
@@ -255,7 +255,7 @@ export default async function BestForListPage({
               >
                 <div className="grid grid-cols-1 lg:grid-cols-5">
                   <div className="relative h-52 lg:h-auto lg:col-span-2">
-                    <Image
+                    <SafeImage
                       src={`/images/destinations/${d.slug}.jpg`}
                       alt={d.name}
                       fill

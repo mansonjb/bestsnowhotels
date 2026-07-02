@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
@@ -142,7 +142,7 @@ export default async function SkiGuidePage({
 
       {/* Hero */}
       <section className="relative h-[42vh] min-h-[320px] w-full overflow-hidden">
-        <Image src={`/images/destinations/${theme.heroSlug}.jpg`} alt={c.title[l]} fill priority sizes="100vw" className="object-cover" />
+        <SafeImage src={`/images/destinations/${theme.heroSlug}.jpg`} alt={c.title[l]} fill priority sizes="100vw" className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-deep/90 via-slate-deep/40 to-slate-deep/15" />
         <div className="absolute inset-x-0 bottom-0 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
           <nav className="text-xs text-white/80 mb-3 flex items-center gap-2 flex-wrap">

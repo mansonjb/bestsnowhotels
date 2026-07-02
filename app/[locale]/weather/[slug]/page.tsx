@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
 import type { Locale } from '../../dictionaries'
@@ -165,7 +165,7 @@ export default async function ResortWeatherPage({
 
       {/* Hero with photo */}
       <section className="relative overflow-hidden border-b border-ice-100">
-        <Image
+        <SafeImage
           src={`/images/destinations/${d.slug}.jpg`}
           alt={`${d.name}, ${localizeRegion(d.region, l)}`}
           fill

@@ -40,7 +40,7 @@ import { snowByMonth } from '@/lib/snow'
 // SnowScoreBar no longer used: snow score now shown in the hero stats strip.
 import { getSkiTypes } from '@/lib/skiTypes'
 import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
-import Image from 'next/image'
+import SafeImage from '@/components/SafeImage'
 import { getHotels } from '@/lib/hotels'
 import { getGallery } from '@/lib/galleries'
 import { resortFacts } from '@/lib/resortFacts'
@@ -281,7 +281,7 @@ export default async function DestinationDetailPage({
 
       {/* Hero, photo background */}
       <section className="relative overflow-hidden border-b border-ice-100">
-        <Image
+        <SafeImage
           src={`/images/destinations/${d.slug}.jpg`}
           alt={`${d.name}, ${localizeRegion(d.region, l)}`}
           fill
@@ -538,7 +538,7 @@ export default async function DestinationDetailPage({
                 key={file}
                 className="relative aspect-[3/2] rounded-2xl overflow-hidden border border-ice-100"
               >
-                <Image
+                <SafeImage
                   src={`/images/destinations/${file}`}
                   alt={`${d.name}, ${localizeRegion(d.region, l)}`}
                   fill
