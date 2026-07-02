@@ -6,6 +6,7 @@ import { SKI_AREAS } from '@/lib/skiAreas'
 import { BEST_FOR_LISTS } from '@/lib/bestFor'
 import { COMPARE_PAIRS } from '@/lib/compare'
 import { getRegionHubs } from '@/lib/regionPages'
+import { getFamilyCountries } from '@/lib/familyCountries'
 import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
 import { GUIDE_SLUGS } from '@/lib/resortGuide'
@@ -14,6 +15,7 @@ import { getThemes } from '@/lib/skiThemes'
 import { locales } from './[locale]/dictionaries'
 
 const REGION_HUBS = getRegionHubs()
+const FAMILY_COUNTRIES = getFamilyCountries()
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -100,6 +102,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: hreflangFor(`/regions/${h.slug}`),
         },
+      })
+    }
+
+    // Family skiing by country: index + each country
+    entries.push({
+      url: `${SITE_URL}/${locale}/family-ski`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      alternates: { languages: hreflangFor(`/family-ski`) },
+    })
+    for (const h of FAMILY_COUNTRIES) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/family-ski/${h.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: { languages: hreflangFor(`/family-ski/${h.slug}`) },
       })
     }
 

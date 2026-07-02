@@ -32,6 +32,7 @@ const PLAN = {
   winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<Locale, string>,
   opening: { en: 'Opening dates', fr: "Dates d'ouverture", es: 'Fechas de apertura', pt: 'Datas de abertura', it: 'Date di apertura' } as Record<Locale, string>,
   themes: { en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías por tema', pt: 'Guias por tema', it: 'Guide per tema' } as Record<Locale, string>,
+  family: { en: 'Family skiing by country', fr: 'Ski en famille par pays', es: 'Esquí en familia por país', pt: 'Esqui em família por país', it: 'Sci in famiglia per paese' } as Record<Locale, string>,
 }
 
 export default function Footer({ locale, dict }: FooterProps) {
@@ -100,6 +101,9 @@ export default function Footer({ locale, dict }: FooterProps) {
             <ul className="space-y-2 text-sm text-ice-800/90">
               <li>
                 <Link href={`/${locale}/guides`} className="hover:text-slate-deep">{dict.nav.guides}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/family-ski`} className="hover:text-slate-deep">{PLAN.family[locale]}</Link>
               </li>
               <li>
                 <Link href={`/${locale}/winter-2027`} className="hover:text-slate-deep">{PLAN.winter[locale]}</Link>

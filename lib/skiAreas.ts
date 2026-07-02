@@ -38,7 +38,7 @@ export const SKI_AREAS: SkiArea[] = [
     name: 'Les 3 Vallées',
     countryCodes: ['FR'],
     flags: ['🇫🇷'],
-    members: ['val-thorens', 'courchevel', 'meribel', 'les-menuires', 'saint-martin-de-belleville', 'brides-les-bains'],
+    members: ['val-thorens', 'courchevel', 'la-tania', 'meribel', 'les-menuires', 'saint-martin-de-belleville', 'brides-les-bains'],
     lat: 45.35,
     lng: 6.58,
     zoom: 11,

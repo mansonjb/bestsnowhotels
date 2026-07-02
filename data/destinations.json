@@ -21991,5 +21991,104 @@
       "red": 8,
       "black": 7
     }
+  },
+  {
+    "slug": "la-tania",
+    "name": "La Tania",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.4356,
+    "lng": 6.6047,
+    "altitudeBase": 1400,
+    "altitudeSummit": 2738,
+    "pistesKm": 600,
+    "lifts": 161,
+    "skiInSkiOutNote": {
+      "en": "Most of La Tania's chalets and apartments sit on or beside the piste that runs down to the gondola, so plenty of addresses are genuinely ski-in/ski-out. The village is compact and largely pedestrian, so even where you cannot ski to the door it is a short, flat walk in ski boots.",
+      "fr": "La plupart des chalets et appartements de La Tania bordent la piste qui redescend à la télécabine : de nombreuses adresses sont vraiment ski au pied. Le village est compact et surtout piéton, si bien que là où l'on ne chausse pas devant la porte, il ne reste qu'une courte marche à plat en chaussures.",
+      "es": "La mayoría de los chalés y apartamentos de La Tania dan a la pista que baja a la telecabina, así que muchas direcciones son de verdad a pie de pista. El pueblo es compacto y sobre todo peatonal, de modo que donde no puedes esquiar hasta la puerta solo queda un paseo corto y llano con las botas.",
+      "pt": "A maioria dos chalés e apartamentos de La Tania fica na pista que desce até ao teleférico, por isso muitas moradas são mesmo à beira das pistas. A aldeia é compacta e sobretudo pedonal, de modo que onde não se esquia até à porta resta apenas uma curta caminhada plana de botas.",
+      "it": "La maggior parte degli chalet e degli appartamenti di La Tania si affaccia sulla pista che scende alla cabinovia, quindi molti indirizzi sono davvero sugli sci. Il paese è compatto e soprattutto pedonale, così dove non si scia fino alla porta resta solo una breve camminata in piano con gli scarponi."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 21",
+    "snowScore": 86,
+    "vibes": [
+      "family",
+      "charming",
+      "scenic"
+    ],
+    "pisteCounts": {
+      "green": 18,
+      "blue": 30,
+      "red": 28,
+      "black": 10
+    },
+    "intro": {
+      "en": "A car-light forest village between Courchevel and Méribel, La Tania drops you straight into Les 3 Vallées yet keeps a calm, family pace back at the chalets.",
+      "fr": "Village forestier apaisé entre Courchevel et Méribel, La Tania ouvre en grand sur Les 3 Vallées tout en gardant, au pied des chalets, un rythme familial tranquille.",
+      "es": "Aldea forestal y tranquila entre Courchevel y Méribel, La Tania te mete de lleno en Les 3 Vallées sin perder, junto a los chalés, un ritmo familiar sosegado.",
+      "pt": "Aldeia florestal e tranquila entre Courchevel e Méribel, La Tania abre-te Les 3 Vallées sem perder, junto aos chalés, um ritmo familiar sereno.",
+      "it": "Villaggio immerso nel bosco tra Courchevel e Méribel, La Tania ti proietta in Les 3 Vallées mantenendo, tra gli chalet, un ritmo familiare tranquillo."
+    },
+    "longDescription": {
+      "en": "Built for the 1992 Olympics below Courchevel, La Tania grew into one of the friendliest doors into Les 3 Vallées, the largest linked ski area in the world. A gondola lifts you out of the pines to Praz Juget, where blue runs fan out towards Courchevel and Méribel and the whole 600 km domain opens up on one pass. Down in the village, the pedestrian snow front, ski school meeting point and gentle nursery slopes sit a snowball's throw from the chalets, which is why families keep coming back. Evenings are quiet rather than glitzy, a handful of bars and restaurants with the tall trees muffling everything. It is Les 3 Vallées without the Courchevel price tag or bustle.",
+      "fr": "Née pour les Jeux de 1992 en contrebas de Courchevel, La Tania est devenue l'une des portes les plus accueillantes des 3 Vallées, le plus grand domaine relié du monde. Une télécabine vous sort des sapins jusqu'au Praz Juget, d'où les pistes bleues s'étirent vers Courchevel et Méribel et où les 600 km s'ouvrent sur un seul forfait. En bas, le front de neige piéton, le point de rendez-vous de l'ESF et les pentes douces du jardin des neiges sont à deux pas des chalets : c'est pour ça que les familles reviennent. Les soirées sont calmes plutôt que clinquantes, quelques bars et restaurants, et les grands arbres qui feutrent tout. Les 3 Vallées sans le prix ni l'agitation de Courchevel.",
+      "es": "Nacida para los Juegos de 1992 bajo Courchevel, La Tania se ha convertido en una de las puertas más acogedoras de Les 3 Vallées, el mayor dominio enlazado del mundo. Una telecabina te saca de los pinos hasta Praz Juget, desde donde las pistas azules se abren hacia Courchevel y Méribel y los 600 km se despliegan con un solo forfait. Abajo, el frente de nieve peatonal, el punto de encuentro de la escuela y las suaves pistas de debutantes quedan a un paso de los chalés: por eso las familias repiten. Las tardes son tranquilas más que ostentosas, un puñado de bares y restaurantes y los altos árboles que lo amortiguan todo. Les 3 Vallées sin el precio ni el bullicio de Courchevel.",
+      "pt": "Nascida para os Jogos de 1992 abaixo de Courchevel, La Tania tornou-se uma das portas mais acolhedoras de Les 3 Vallées, o maior domínio ligado do mundo. Um teleférico tira-te dos pinheiros até Praz Juget, de onde as pistas azuis se abrem para Courchevel e Méribel e os 600 km se estendem com um só passe. Em baixo, a frente de neve pedonal, o ponto de encontro da escola e as suaves pistas de iniciação ficam a dois passos dos chalés: é por isso que as famílias voltam. As noites são calmas em vez de espalhafatosas, meia dúzia de bares e restaurantes e as árvores altas a abafar tudo. Les 3 Vallées sem o preço nem a agitação de Courchevel.",
+      "it": "Nata per le Olimpiadi del 1992 sotto Courchevel, La Tania è diventata una delle porte più accoglienti di Les 3 Vallées, il più grande comprensorio collegato al mondo. Una cabinovia ti porta fuori dai pini fino a Praz Juget, da dove le piste blu si aprono verso Courchevel e Méribel e i 600 km si dispiegano con un solo skipass. In basso, il fronte neve pedonale, il punto di ritrovo della scuola e i dolci campi scuola sono a due passi dagli chalet: per questo le famiglie tornano. Le serate sono tranquille più che scintillanti, pochi bar e ristoranti e gli alberi alti che attutiscono tutto. Les 3 Vallées senza il prezzo né la ressa di Courchevel."
+    }
+  },
+  {
+    "slug": "grimentz",
+    "name": "Grimentz",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.1785,
+    "lng": 7.573,
+    "altitudeBase": 1570,
+    "altitudeSummit": 2900,
+    "pistesKm": 120,
+    "lifts": 22,
+    "skiInSkiOutNote": {
+      "en": "Grimentz is a traditional village rather than a slope-side resort, so most hotels sit in the old centre and you ride the gondola up each morning. A few chalets and apartments near the Bendolla lift station come closest to ski-in/ski-out; otherwise the free village bus and short walks keep things easy.",
+      "fr": "Grimentz est un vrai village plutôt qu'une station sur les pistes : la plupart des hôtels sont dans le vieux centre et l'on prend la télécabine chaque matin. Quelques chalets et appartements près de la gare de Bendolla s'approchent le plus du ski au pied ; sinon, la navette gratuite et de courtes marches simplifient tout.",
+      "es": "Grimentz es un pueblo de verdad más que una estación sobre las pistas: la mayoría de los hoteles están en el casco antiguo y cada mañana subes en telecabina. Algunos chalés y apartamentos junto a la estación de Bendolla son lo más parecido a estar a pie de pista; si no, el autobús gratuito del pueblo y paseos cortos lo dejan todo fácil.",
+      "pt": "Grimentz é uma aldeia a sério mais do que uma estância sobre as pistas: a maioria dos hotéis fica no centro antigo e sobe-se de teleférico cada manhã. Alguns chalés e apartamentos junto à estação de Bendolla são o mais parecido com estar à beira das pistas; caso contrário, o autocarro gratuito da aldeia e curtas caminhadas facilitam tudo.",
+      "it": "Grimentz è un vero villaggio più che una località sulle piste: la maggior parte degli hotel è nel centro storico e ogni mattina si sale con la cabinovia. Qualche chalet e appartamento vicino alla stazione di Bendolla è ciò che più si avvicina allo sci ai piedi; altrimenti il bus gratuito del paese e brevi camminate rendono tutto semplice."
+    },
+    "seasonStart": "Nov 30",
+    "seasonEnd": "Apr 21",
+    "snowScore": 84,
+    "vibes": [
+      "authentic",
+      "scenic",
+      "family",
+      "panoramic"
+    ],
+    "pisteCounts": {
+      "green": 6,
+      "blue": 13,
+      "red": 16,
+      "black": 6
+    },
+    "intro": {
+      "en": "A dark-timber Valais village of flowered chalets, Grimentz links over the ridge to Zinal for high, sunny, snow-sure skiing above the Val d'Anniviers.",
+      "fr": "Village valaisan de chalets brunis et fleuris, Grimentz bascule par la crête vers Zinal pour un ski haut, ensoleillé et bien enneigé au-dessus du Val d'Anniviers.",
+      "es": "Pueblo valesano de chalés de madera oscura y flores, Grimentz enlaza por la cresta con Zinal para un esquí alto, soleado y con nieve segura sobre el Val d'Anniviers.",
+      "pt": "Aldeia valesana de chalés de madeira escura e flores, Grimentz liga-se pela crista a Zinal para um esqui alto, solarengo e com neve segura sobre o Val d'Anniviers.",
+      "it": "Villaggio vallesano di chalet in legno scuro e fiori, Grimentz si collega oltre la cresta a Zinal per uno sci alto, soleggiato e sicuro di neve sopra la Val d'Anniviers."
+    },
+    "longDescription": {
+      "en": "Grimentz is the picture-book side of Swiss skiing: a preserved Valais village of sunburnt timber and geranium boxes at the quiet head of the Val d'Anniviers. Above it, a lift network climbs to Bendolla and over the shoulder to Corne de Sorebois, linking with neighbouring Zinal into a single high area that tops out near 2900 m and holds its snow late thanks to altitude and a north-leaning aspect. The pistes are broad and often empty, with the famously steep Piste du Chamois for stronger legs and long cruising blues for everyone else. It is a family and connoisseur's mountain rather than a party one: real Swiss cheese in the mountain huts, a small ski school, and evenings that end early under a big sky. Sierre and the Rhône valley are a scenic postbus ride below.",
+      "fr": "Grimentz, c'est la Suisse du ski en carte postale : village valaisan préservé, bois roussi par le soleil et bacs de géraniums, au bout tranquille du Val d'Anniviers. Au-dessus, les remontées grimpent à Bendolla puis basculent vers la Corne de Sorebois pour rejoindre Zinal en un seul grand domaine d'altitude qui culmine près de 2900 m et tient la neige tard, grâce à l'altitude et à une exposition nord. Les pistes sont larges et souvent désertes, avec la fameuse et raide Piste du Chamois pour les bonnes jambes et de longues bleues faciles pour les autres. Une montagne de familles et de connaisseurs plutôt que de fête : vrai fromage suisse dans les buvettes, petite école de ski, et des soirées qui finissent tôt sous un grand ciel. Sierre et la vallée du Rhône se rejoignent par un joli car postal en contrebas.",
+      "es": "Grimentz es la Suiza del esquí de postal: un pueblo valesano conservado, madera tostada por el sol y jardineras de geranios, en la cabecera tranquila del Val d'Anniviers. Por encima, los remontes suben a Bendolla y cruzan hacia la Corne de Sorebois para unirse con Zinal en un único dominio de altura que roza los 2900 m y aguanta la nieve hasta tarde, por la altitud y una orientación al norte. Las pistas son anchas y a menudo vacías, con la famosa y empinada Piste du Chamois para las buenas piernas y largas azules fáciles para el resto. Una montaña de familias y entendidos más que de fiesta: queso suizo de verdad en las cabañas, una pequeña escuela de esquí y tardes que acaban pronto bajo un cielo enorme. Sierre y el valle del Ródano quedan abajo, a un bonito viaje en autopostal.",
+      "pt": "Grimentz é a Suíça do esqui de postal: uma aldeia valesana preservada, madeira tostada pelo sol e floreiras de gerânios, na cabeceira tranquila do Val d'Anniviers. Por cima, os teleféricos sobem a Bendolla e passam para a Corne de Sorebois para se unirem a Zinal num único domínio de altitude que chega perto dos 2900 m e segura a neve até tarde, pela altitude e por uma exposição a norte. As pistas são largas e muitas vezes vazias, com a famosa e íngreme Piste du Chamois para as boas pernas e longas azuis fáceis para os restantes. Uma montanha de famílias e apreciadores mais do que de festa: queijo suíço a sério nas cabanas, uma pequena escola de esqui e noites que acabam cedo sob um céu imenso. Sierre e o vale do Ródano ficam em baixo, a uma bonita viagem de autocarro-correio.",
+      "it": "Grimentz è la Svizzera dello sci da cartolina: un villaggio vallesano preservato, legno bruciato dal sole e cassette di gerani, in fondo alla tranquilla Val d'Anniviers. Sopra, gli impianti salgono a Bendolla e scollinano verso la Corne de Sorebois per collegarsi a Zinal in un unico comprensorio d'alta quota che sfiora i 2900 m e tiene la neve a lungo, grazie all'altitudine e a un'esposizione a nord. Le piste sono ampie e spesso deserte, con la famosa e ripida Piste du Chamois per le gambe buone e lunghe blu facili per tutti gli altri. Una montagna da famiglie e intenditori più che da festa: vero formaggio svizzero nelle baite, una piccola scuola di sci e serate che finiscono presto sotto un cielo immenso. Sierre e la valle del Rodano sono più in basso, a un bel viaggio in autopostale."
+    }
   }
 ]
