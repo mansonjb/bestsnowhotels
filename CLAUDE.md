@@ -7,14 +7,14 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 - **TypeScript** strict mode
 - **Tailwind CSS 4** (no `tailwind.config.js`, uses `@theme` in `app/globals.css`)
 - **next-intl**-style locale routing via Next.js 16 proxy (custom, no `next-intl` package; see `proxy.ts`)
-- **4 languages**: en / fr / es / pt
+- **5 languages**: en / fr / es / pt / it
 - **Stay22 LetMeAllez** for affiliate (lmaID `6a172a3725eb5f0f8532400c`)
-- **No DB**, 68 destinations in `data/destinations.json`
+- **No DB**, 402 destinations in `data/destinations.json`
 
 ## Routing
 - All pages live under `app/[locale]/...`
 - `proxy.ts` (Next.js 16, replaces the deprecated `middleware.ts` convention) redirects bare `/path` to `/en/path` etc.
-- Available locales: `en`, `fr`, `es`, `pt` (see `app/[locale]/dictionaries.ts`)
+- Available locales: `en`, `fr`, `es`, `pt`, `it` (see `app/[locale]/dictionaries.ts`)
 
 ## Affiliate
 - Stay22 lmaID is in `lib/site.ts` as `STAY22_ID`
@@ -30,11 +30,11 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 
 ## Adding a destination
 1. Add an entry to `data/destinations.json` with the full schema (see `lib/destinations.ts` for the `Destination` type)
-2. Provide `intro` in all 4 languages
+2. Provide `intro` in all 5 languages
 3. Rebuild, and pages, sitemap and OG images regenerate automatically
 
 ## SEO
-- Every page has `generateMetadata` with hreflang to all 4 locales
+- Every page has `generateMetadata` with hreflang to all 5 locales
 - JSON-LD on home (`WebSite`), destinations index (`ItemList`), destination detail (`TouristAttraction` + `BreadcrumbList` + `FAQPage`)
 - `robots.txt` explicitly allows GPTBot, ClaudeBot, PerplexityBot, Google-Extended
 - `/llms.txt` lists priority pages for AI crawlers
@@ -42,4 +42,4 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 ## DO NOT
 - Do not introduce a database. Keep `data/destinations.json` as source of truth
 - Do not add tracking pixels other than what's in the locale layout
-- Do not break the 4-locale parity (every page must exist in en/fr/es/pt or fall back gracefully)
+- Do not break the 5-locale parity (every page must exist in en/fr/es/pt/it or fall back gracefully)
