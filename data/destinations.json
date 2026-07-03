@@ -22090,5 +22090,103 @@
       "pt": "Grimentz é a Suíça do esqui de postal: uma aldeia valesana preservada, madeira tostada pelo sol e floreiras de gerânios, na cabeceira tranquila do Val d'Anniviers. Por cima, os teleféricos sobem a Bendolla e passam para a Corne de Sorebois para se unirem a Zinal num único domínio de altitude que chega perto dos 2900 m e segura a neve até tarde, pela altitude e por uma exposição a norte. As pistas são largas e muitas vezes vazias, com a famosa e íngreme Piste du Chamois para as boas pernas e longas azuis fáceis para os restantes. Uma montanha de famílias e apreciadores mais do que de festa: queijo suíço a sério nas cabanas, uma pequena escola de esqui e noites que acabam cedo sob um céu imenso. Sierre e o vale do Ródano ficam em baixo, a uma bonita viagem de autocarro-correio.",
       "it": "Grimentz è la Svizzera dello sci da cartolina: un villaggio vallesano preservato, legno bruciato dal sole e cassette di gerani, in fondo alla tranquilla Val d'Anniviers. Sopra, gli impianti salgono a Bendolla e scollinano verso la Corne de Sorebois per collegarsi a Zinal in un unico comprensorio d'alta quota che sfiora i 2900 m e tiene la neve a lungo, grazie all'altitudine e a un'esposizione a nord. Le piste sono ampie e spesso deserte, con la famosa e ripida Piste du Chamois per le gambe buone e lunghe blu facili per tutti gli altri. Una montagna da famiglie e intenditori più che da festa: vero formaggio svizzero nelle baite, una piccola scuola di sci e serate che finiscono presto sotto un cielo immenso. Sierre e la valle del Rodano sono più in basso, a un bel viaggio in autopostale."
     }
+  },
+  {
+    "slug": "grachen",
+    "name": "Grächen",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "flag": "🇨🇭",
+    "region": "Swiss Alps",
+    "lat": 46.1953,
+    "lng": 7.8372,
+    "altitudeBase": 1619,
+    "altitudeSummit": 2868,
+    "pistesKm": 44,
+    "lifts": 13,
+    "skiInSkiOutNote": {
+      "en": "Grächen is a compact plateau village, so a good number of hotels and chalets sit right on or beside the nursery slopes and the main pistes back to the base. It is not a purpose-built ski-in/ski-out resort, but the short, level layout means most addresses are only a minute or two from the snow.",
+      "fr": "Grächen est un village-plateau compact : bon nombre d'hôtels et de chalets se trouvent juste au bord des pistes débutants et des pistes de retour. Ce n'est pas une station ski au pied conçue comme telle, mais l'agencement court et plat fait que la plupart des adresses sont à une ou deux minutes de la neige.",
+      "es": "Grächen es un compacto pueblo-meseta: bastantes hoteles y chalés están justo al borde de las pistas de debutantes y de las de regreso a la base. No es una estación a pie de pista construida como tal, pero su trazado corto y llano hace que la mayoría de las direcciones queden a uno o dos minutos de la nieve.",
+      "pt": "Grächen é uma compacta aldeia-planalto: bastantes hotéis e chalés ficam mesmo à beira das pistas de iniciação e das de regresso à base. Não é uma estância à beira das pistas concebida como tal, mas o traçado curto e plano faz com que a maioria das moradas fique a um ou dois minutos da neve.",
+      "it": "Grächen è un compatto paese-altopiano: parecchi hotel e chalet si trovano proprio a bordo dei campi scuola e delle piste di rientro alla base. Non è una località sugli sci costruita come tale, ma la disposizione corta e pianeggiante fa sì che la maggior parte degli indirizzi sia a uno o due minuti dalla neve."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 13",
+    "snowScore": 80,
+    "vibes": [
+      "family",
+      "sunny",
+      "panoramic"
+    ],
+    "pisteCounts": {
+      "green": 5,
+      "blue": 12,
+      "red": 14,
+      "black": 3
+    },
+    "intro": {
+      "en": "A sunny, family-first plateau high above the Mattertal, Grächen sits across the valley from Zermatt with wide nursery slopes and one of Switzerland's gentlest learning areas.",
+      "fr": "Plateau ensoleillé et familial haut au-dessus du Mattertal, Grächen fait face à Zermatt de l'autre côté de la vallée, avec de larges pistes débutants et l'un des domaines d'apprentissage les plus doux de Suisse.",
+      "es": "Una soleada meseta familiar en lo alto del Mattertal, Grächen queda frente a Zermatt al otro lado del valle, con amplias pistas de debutantes y una de las zonas de aprendizaje más suaves de Suiza.",
+      "pt": "Um planalto solarengo e familiar bem acima do Mattertal, Grächen fica em frente a Zermatt do outro lado do vale, com largas pistas de iniciação e uma das zonas de aprendizagem mais suaves da Suíça.",
+      "it": "Un altopiano soleggiato e a misura di famiglia in alto sopra il Mattertal, Grächen si trova di fronte a Zermatt sull'altro lato della valle, con ampie piste per principianti e una delle aree di apprendimento più dolci della Svizzera."
+    },
+    "longDescription": {
+      "en": "Grächen has quietly been one of Switzerland's best family resorts for decades. Perched on a sun-soaked shelf at 1620 m above St. Niklaus, it looks straight across the Mattertal to the peaks around Zermatt yet keeps its own calm, traffic-limited village and a compact, unintimidating ski area. The nursery slopes and the Ravensburger themed play trails sit right by the base, lifts are short, and the pistes stay broad and sunny, which is exactly what small children and nervous beginners need. Stronger skiers still get long red descents from the Seetalhorn and Hannigalp and some genuinely quiet off-piste, but nobody comes here for a party scene. It is skiing at child pace, with big Valais views thrown in.",
+      "fr": "Grächen est, discrètement, l'une des meilleures stations familiales de Suisse depuis des décennies. Perchée sur une terrasse ensoleillée à 1620 m au-dessus de St. Niklaus, elle regarde le Mattertal droit vers les sommets de Zermatt tout en gardant son village calme et à circulation limitée, et un domaine compact et rassurant. Les pistes débutants et les sentiers ludiques Ravensburger sont juste au pied, les remontées sont courtes, et les pistes restent larges et ensoleillées : exactement ce qu'il faut aux petits et aux débutants inquiets. Les bons skieurs ont tout de même de longues rouges depuis le Seetalhorn et la Hannigalp et un hors-piste vraiment tranquille, mais personne ne vient ici pour faire la fête. Du ski au rythme des enfants, avec les grandes vues valaisannes en prime.",
+      "es": "Grächen lleva décadas siendo, discretamente, una de las mejores estaciones familiares de Suiza. Encaramada en una terraza soleada a 1620 m sobre St. Niklaus, mira el Mattertal de frente hacia las cumbres de Zermatt pero conserva su pueblo tranquilo y de tráfico limitado y un dominio compacto y nada intimidante. Las pistas de debutantes y los senderos temáticos Ravensburger están al pie, los remontes son cortos y las pistas se mantienen anchas y soleadas: justo lo que necesitan los pequeños y los principiantes nerviosos. Los buenos esquiadores tienen igualmente largas rojas desde el Seetalhorn y la Hannigalp y un fuera de pista muy tranquilo, pero nadie viene aquí de fiesta. Esquí al ritmo de los niños, con las grandes vistas del Valais de regalo.",
+      "pt": "Grächen é, discretamente, uma das melhores estâncias familiares da Suíça há décadas. Empoleirada num terraço soalheiro a 1620 m acima de St. Niklaus, olha o Mattertal em frente para os cumes de Zermatt, mas mantém a sua aldeia calma e de trânsito limitado e um domínio compacto e nada intimidante. As pistas de iniciação e os trilhos temáticos Ravensburger ficam ao pé, os teleféricos são curtos e as pistas mantêm-se largas e solarengas: exatamente o que precisam os pequenos e os principiantes nervosos. Os bons esquiadores têm na mesma longas vermelhas desde o Seetalhorn e a Hannigalp e um fora de pista bem tranquilo, mas ninguém vem aqui para a festa. Esqui ao ritmo das crianças, com as grandes vistas do Valais de oferta.",
+      "it": "Grächen è, in silenzio, una delle migliori località per famiglie della Svizzera da decenni. Appollaiata su una terrazza baciata dal sole a 1620 m sopra St. Niklaus, guarda il Mattertal dritto verso le cime di Zermatt ma conserva il suo paese tranquillo e a traffico limitato e un comprensorio compatto e per nulla intimidatorio. I campi scuola e i sentieri a tema Ravensburger sono proprio alla base, gli impianti sono corti e le piste restano ampie e soleggiate: esattamente ciò che serve ai piccoli e ai principianti timorosi. Chi scia bene ha comunque lunghe rosse dal Seetalhorn e dalla Hannigalp e del fuoripista davvero tranquillo, ma nessuno viene qui per far festa. Sci al ritmo dei bambini, con le grandi vedute vallesane in omaggio."
+    }
+  },
+  {
+    "slug": "katschberg",
+    "name": "Katschberg",
+    "country": "Austria",
+    "countryCode": "AT",
+    "flag": "🇦🇹",
+    "region": "Austrian Alps",
+    "lat": 47.0472,
+    "lng": 13.6217,
+    "altitudeBase": 1640,
+    "altitudeSummit": 2220,
+    "pistesKm": 70,
+    "lifts": 16,
+    "skiInSkiOutNote": {
+      "en": "Katschberg is about as genuinely ski-in/ski-out as Austria gets: the hotels line the pass-top plateau right beside the pistes, so most guests clip in at the door and ski back to it. With small children this is the whole point, no shuttles, no walking in ski boots, just straight onto the snow.",
+      "fr": "Katschberg est à peu près aussi authentiquement ski au pied que possible en Autriche : les hôtels bordent le plateau du col juste au bord des pistes, si bien que la plupart des clients chaussent devant la porte et y reviennent skis aux pieds. Avec de jeunes enfants, c'est tout l'intérêt : pas de navette, pas de marche en chaussures, directement sur la neige.",
+      "es": "Katschberg es de lo más auténticamente a pie de pista que hay en Austria: los hoteles bordean la meseta del puerto justo al lado de las pistas, así que la mayoría de los clientes se calzan en la puerta y regresan esquiando. Con niños pequeños ese es todo el sentido: sin lanzaderas, sin caminar con las botas, directos a la nieve.",
+      "pt": "Katschberg é do mais autenticamente à beira das pistas que há na Áustria: os hotéis ladeiam o planalto do colo mesmo ao lado das pistas, por isso a maioria dos hóspedes calça os esquis à porta e regressa a esquiar. Com crianças pequenas é esse todo o objetivo: sem transferes, sem andar de botas, diretos para a neve.",
+      "it": "Katschberg è tra i posti più autenticamente sugli sci dell'Austria: gli hotel costeggiano l'altopiano del passo proprio a bordo delle piste, così la maggior parte degli ospiti allaccia gli sci davanti alla porta e vi torna sciando. Con bambini piccoli è tutto qui: niente navette, niente camminate con gli scarponi, dritti sulla neve."
+    },
+    "seasonStart": "Dec 7",
+    "seasonEnd": "Apr 6",
+    "snowScore": 79,
+    "vibes": [
+      "family",
+      "sunny",
+      "panoramic"
+    ],
+    "pisteCounts": {
+      "green": 4,
+      "blue": 20,
+      "red": 14,
+      "black": 2
+    },
+    "intro": {
+      "en": "A sunny, snow-sure pass-top village where the hotels open straight onto wide blue runs, Katschberg is built for families, with Katschi's kids' world at the heart of it.",
+      "fr": "Village de col ensoleillé et bien enneigé où les hôtels ouvrent directement sur de larges pistes bleues, Katschberg est pensé pour les familles, avec le monde des enfants Katschi en son cœur.",
+      "es": "Un soleado pueblo en lo alto de un puerto, con nieve segura, donde los hoteles dan directamente a anchas pistas azules, Katschberg está pensado para las familias, con el mundo infantil de Katschi en su centro.",
+      "pt": "Uma soalheira aldeia no alto de um colo, com neve segura, onde os hotéis abrem diretamente para largas pistas azuis, Katschberg foi pensado para as famílias, com o mundo infantil do Katschi no centro.",
+      "it": "Un soleggiato villaggio in cima a un passo, sicuro di neve, dove gli hotel si aprono direttamente su ampie piste blu: Katschberg è pensato per le famiglie, con il mondo dei bambini di Katschi al centro."
+    },
+    "longDescription": {
+      "en": "Katschberg straddles the pass between Carinthia and Salzburg at 1640 m, and almost the entire village sits directly on the snow: you step out of the hotel and onto a wide, sunny blue. That layout, plus the huge Katschi's Kinderwelt learning area, a tubing run and a toboggan track, has made it one of Austria's favourite resorts for families with young children. The 70 km of piste are overwhelmingly gentle blues and easy reds, ideal for building confidence, with the Aineck at 2220 m giving a bit more for improving skiers and lovely views over the Nockberge. It is snow-sure for its modest altitude thanks to a north-leaning aspect and good grooming, and evenings are calm and family-paced rather than raucous. Small, sunny and reassuring, it is a first-week-on-skis kind of mountain.",
+      "fr": "Katschberg s'étire sur le col entre Carinthie et Salzbourg à 1640 m, et presque tout le village est directement sur la neige : on sort de l'hôtel et on est sur une large bleue ensoleillée. Cet agencement, plus l'immense espace d'apprentissage Katschi's Kinderwelt, une piste de tubing et une piste de luge, en ont fait l'une des stations préférées des familles autrichiennes avec de jeunes enfants. Les 70 km de pistes sont en grande majorité des bleues douces et des rouges faciles, parfaites pour prendre confiance, l'Aineck à 2220 m offrant un peu plus aux skieurs en progrès et de belles vues sur les Nockberge. Bien enneigée pour son altitude modeste grâce à une exposition nord et un bon damage, elle a des soirées calmes, au rythme des familles plutôt que bruyantes. Petite, ensoleillée et rassurante : une montagne de première semaine à skis.",
+      "es": "Katschberg se extiende sobre el puerto entre Carintia y Salzburgo a 1640 m, y casi todo el pueblo está directamente sobre la nieve: sales del hotel y ya estás en una ancha azul soleada. Ese trazado, más la enorme zona de aprendizaje Katschi's Kinderwelt, una pista de tubing y una de trineo, lo han convertido en una de las estaciones favoritas de las familias austriacas con niños pequeños. Los 70 km de pistas son en su mayoría azules suaves y rojas fáciles, ideales para ganar confianza, con el Aineck a 2220 m dando algo más a los que progresan y bonitas vistas de los Nockberge. Tiene nieve segura para su altitud modesta gracias a una orientación al norte y un buen pisado, y las tardes son tranquilas, al ritmo de las familias más que ruidosas. Pequeña, soleada y tranquilizadora: una montaña de primera semana con esquís.",
+      "pt": "Katschberg estende-se sobre o colo entre a Caríntia e Salzburgo a 1640 m, e quase toda a aldeia está diretamente sobre a neve: sais do hotel e já estás numa larga azul solarenga. Esse traçado, mais a enorme zona de aprendizagem Katschi's Kinderwelt, uma pista de tubing e uma de trenó, tornaram-no uma das estâncias preferidas das famílias austríacas com crianças pequenas. Os 70 km de pistas são na maioria azuis suaves e vermelhas fáceis, ideais para ganhar confiança, com o Aineck a 2220 m a dar algo mais a quem progride e belas vistas dos Nockberge. Tem neve segura para a sua altitude modesta graças a uma exposição a norte e a uma boa preparação, e as noites são calmas, ao ritmo das famílias e não ruidosas. Pequena, solarenga e tranquilizadora: uma montanha de primeira semana de esquis.",
+      "it": "Katschberg si distende sul passo tra Carinzia e Salisburghese a 1640 m, e quasi tutto il paese è direttamente sulla neve: esci dall'hotel e sei su un'ampia blu soleggiata. Questa disposizione, insieme all'enorme area di apprendimento Katschi's Kinderwelt, a una pista di tubing e a una di slittino, ne ha fatto una delle località preferite dalle famiglie austriache con bambini piccoli. I 70 km di piste sono in gran parte blu dolci e rosse facili, ideali per prendere confidenza, con l'Aineck a 2220 m che offre qualcosa in più a chi migliora e belle vedute sui Nockberge. È sicuro di neve per la sua quota modesta grazie a un'esposizione a nord e a una buona battitura, e le serate sono tranquille, al ritmo delle famiglie più che chiassose. Piccola, soleggiata e rassicurante: una montagna da prima settimana sugli sci."
+    }
   }
 ]

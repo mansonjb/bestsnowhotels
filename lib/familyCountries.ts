@@ -16,11 +16,11 @@ export const FAMILY_CHAMPIONS = new Set<string>([
   'avoriaz', 'les-arcs', 'la-plagne', 'la-rosiere', 'les-menuires', 'saint-lary',
   'saint-gervais', 'courchevel', 'les-saisies', 'flaine', 'valmorel', 'les-gets', 'peisey-vallandry',
   // Austria (Kinderland champions)
-  'serfaus-fiss-ladis', 'soll', 'wagrain', 'obergurgl', 'nauders', 'alpbach', 'zell-am-see',
+  'serfaus-fiss-ladis', 'soll', 'wagrain', 'obergurgl', 'nauders', 'alpbach', 'zell-am-see', 'katschberg',
   // Italy (Dolomites family)
   'alta-badia', 'corvara', 'san-cassiano', 'kronplatz', 'andalo', 'livigno', 'la-thuile', 'san-martino-di-castrozza',
   // Switzerland (car-free + kids)
-  'saas-fee', 'wengen', 'grindelwald', 'murren', 'nendaz',
+  'saas-fee', 'wengen', 'grindelwald', 'murren', 'nendaz', 'grachen',
   // USA
   'keystone', 'northstar', 'beaver-creek', 'steamboat', 'park-city',
   // Spain

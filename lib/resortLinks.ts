@@ -14,6 +14,8 @@ const RESORT_SITES: Record<string, string> = {
   'la-tania': 'https://www.latania.com',
   meribel: 'https://www.meribel.net',
   grimentz: 'https://www.valdanniviers.ch',
+  grachen: 'https://www.graechen.ch',
+  katschberg: 'https://www.katschberg.at',
   chamonix: 'https://www.chamonix.com',
   'les-arcs': 'https://www.lesarcs.com',
   'la-plagne': 'https://www.la-plagne.com',
