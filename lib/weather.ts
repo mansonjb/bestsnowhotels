@@ -84,8 +84,12 @@ export async function fetchWeather(d: Destination): Promise<WeatherSnapshot | nu
   })
 
   try {
+    // Hard timeout: a slow Open-Meteo response must never hang a static build
+    // past the platform's per-page limit. On timeout we abort and fall through
+    // to the null path (a "no live data" page), which ISR refreshes later.
     const res = await fetch(`${ENDPOINT}?${params.toString()}`, {
       next: { revalidate: REVALIDATE_SECONDS },
+      signal: AbortSignal.timeout(6000),
     })
     if (!res.ok) return null
 
@@ -159,7 +163,10 @@ export async function fetchManyWeather(
   destinations: Destination[],
 ): Promise<Map<string, WeatherSnapshot | null>> {
   const out = new Map<string, WeatherSnapshot | null>()
-  const CHUNK = 25
+  // Larger batches keep the whole-directory pages (snowing-now, best-snow) well
+  // under the platform's per-page build limit even in the worst case where every
+  // request hits the 6s timeout: ~6 batches x 6s rather than ~18 x 60s.
+  const CHUNK = 75
   for (let i = 0; i < destinations.length; i += CHUNK) {
     const batch = destinations.slice(i, i + CHUNK)
     const results = await Promise.all(batch.map((d) => fetchWeather(d)))
