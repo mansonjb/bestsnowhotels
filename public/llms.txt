@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Andes. 450 hand-picked ski destinations across 24 countries and 6 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia, New Zealand, Chile, Argentina and Bulgaria. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Andes. 452 hand-picked ski destinations across 24 countries and 6 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia, New Zealand, Chile, Argentina and Bulgaria. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
 
 ## What we cover
 
@@ -20,7 +20,7 @@ Each destination page lists:
 
 ## How we score and classify (methodology)
 
-/methodology explains, transparently, how we rate and classify the 450 resorts:
+/methodology explains, transparently, how we rate and classify the 452 resorts:
 - The BestSnowHotels Snow Score (0 to 100): a comparative index of snow reliability combining base and summit altitude, the resort's historical snow record, and slope aspect. It is a way to compare resorts, not a live forecast.
 - The ski-in/ski-out classification, three honest tiers against marketing: "ski to your door" (most of the village is on the snow), "ski-in/ski-out addresses" (only specific hotels or sectors), and stay-nearby (lodging in a town, you travel to the lifts).
 - Sources: altitudes, piste km, lift counts and season windows are compiled and cross-checked; live snow comes from the Open-Meteo aggregated model; hotels are real listings with genuine ratings and honest distance to the slopes. We do not fabricate numbers or unverifiable dates.
@@ -50,7 +50,7 @@ We also publish ski-area pages that group the resorts sharing one big linked dom
 
 A live snow + 7-day forecast section sits at /weather, refreshed every 30 minutes from the Open-Meteo aggregated model (ECMWF, MeteoFrance, DWD, Met Norway):
 
-- /weather: index of all 450 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
+- /weather: index of all 452 resorts, sorted by current snow depth on the slopes, with quick links to the curated lists below
 - /weather/[resort-slug]: per-resort snow report with live conditions, 7-day forecast, comparison to seasonal average and FAQ
 - /weather/best-snow: top 24 resorts by deepest measured snow on the slopes today
 - /weather/fresh-powder: top 24 resorts by most fresh snow over the last 24 hours and strongest snowfall forecast for the next week

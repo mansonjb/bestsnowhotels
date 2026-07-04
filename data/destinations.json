@@ -22188,5 +22188,103 @@
       "pt": "Katschberg estende-se sobre o colo entre a Caríntia e Salzburgo a 1640 m, e quase toda a aldeia está diretamente sobre a neve: sais do hotel e já estás numa larga azul solarenga. Esse traçado, mais a enorme zona de aprendizagem Katschi's Kinderwelt, uma pista de tubing e uma de trenó, tornaram-no uma das estâncias preferidas das famílias austríacas com crianças pequenas. Os 70 km de pistas são na maioria azuis suaves e vermelhas fáceis, ideais para ganhar confiança, com o Aineck a 2220 m a dar algo mais a quem progride e belas vistas dos Nockberge. Tem neve segura para a sua altitude modesta graças a uma exposição a norte e a uma boa preparação, e as noites são calmas, ao ritmo das famílias e não ruidosas. Pequena, solarenga e tranquilizadora: uma montanha de primeira semana de esquis.",
       "it": "Katschberg si distende sul passo tra Carinzia e Salisburghese a 1640 m, e quasi tutto il paese è direttamente sulla neve: esci dall'hotel e sei su un'ampia blu soleggiata. Questa disposizione, insieme all'enorme area di apprendimento Katschi's Kinderwelt, a una pista di tubing e a una di slittino, ne ha fatto una delle località preferite dalle famiglie austriache con bambini piccoli. I 70 km di piste sono in gran parte blu dolci e rosse facili, ideali per prendere confidenza, con l'Aineck a 2220 m che offre qualcosa in più a chi migliora e belle vedute sui Nockberge. È sicuro di neve per la sua quota modesta grazie a un'esposizione a nord e a una buona battitura, e le serate sono tranquille, al ritmo delle famiglie più che chiassose. Piccola, soleggiata e rassicurante: una montagna da prima settimana sugli sci."
     }
+  },
+  {
+    "slug": "orelle",
+    "name": "Orelle",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.2094,
+    "lng": 6.5533,
+    "altitudeBase": 900,
+    "altitudeSummit": 3230,
+    "pistesKm": 600,
+    "lifts": 161,
+    "skiInSkiOutNote": {
+      "en": "Orelle is a valley village, not a slope-side resort: you ride the gondola up to the skiing each morning and back down at the end of the day. A few apartments sit near the gondola base, but genuine ski-in/ski-out is up at the Val Thorens end of the link, not in Orelle itself. Come here for the price and the access, not to clip in at your door.",
+      "fr": "Orelle est un village de vallée, pas une station sur les pistes : on prend la télécabine pour monter skier le matin et redescendre le soir. Quelques appartements bordent le départ de la télécabine, mais le vrai ski au pied se trouve du côté de Val Thorens, au sommet de la liaison, pas à Orelle même. On vient ici pour le prix et l'accès, pas pour chausser devant sa porte.",
+      "es": "Orelle es un pueblo de valle, no una estación sobre las pistas: cada mañana subes en telecabina a esquiar y bajas al final del día. Algunos apartamentos quedan junto a la base de la telecabina, pero el verdadero a pie de pista está del lado de Val Thorens, arriba en el enlace, no en Orelle. Se viene aquí por el precio y el acceso, no por calzarse en la puerta.",
+      "pt": "Orelle é uma aldeia de vale, não uma estância sobre as pistas: cada manhã sobes de teleférico para esquiar e desces ao fim do dia. Alguns apartamentos ficam junto à base do teleférico, mas o verdadeiro à beira das pistas está do lado de Val Thorens, no topo da ligação, não em Orelle. Vem-se aqui pelo preço e pelo acesso, não para calçar os esquis à porta.",
+      "it": "Orelle è un villaggio di valle, non una località sulle piste: ogni mattina si sale con la cabinovia a sciare e si scende a fine giornata. Qualche appartamento si trova vicino alla base della cabinovia, ma il vero sci ai piedi è dal lato di Val Thorens, in cima al collegamento, non a Orelle stessa. Si viene qui per il prezzo e l'accesso, non per allacciare gli sci davanti alla porta."
+    },
+    "seasonStart": "Nov 30",
+    "seasonEnd": "May 4",
+    "snowScore": 91,
+    "vibes": [
+      "value",
+      "authentic",
+      "panoramic"
+    ],
+    "pisteCounts": {
+      "green": 15,
+      "blue": 45,
+      "red": 50,
+      "black": 22
+    },
+    "intro": {
+      "en": "The quiet, high-value gateway to Les 3 Vallees: from the Maurienne village of Orelle a gondola lifts you to Cime Caron at 3200 m and the whole 600 km domain.",
+      "fr": "La porte tranquille et maligne des 3 Vallées : depuis le village mauriennais d'Orelle, une télécabine file à la Cime Caron à 3200 m et ouvre les 600 km du domaine.",
+      "es": "La puerta tranquila y económica a Les 3 Vallées: desde el pueblo de Orelle, en la Maurienne, una telecabina sube a la Cime Caron a 3200 m y abre los 600 km del dominio.",
+      "pt": "A porta tranquila e económica para Les 3 Vallées: da aldeia de Orelle, na Maurienne, um teleférico sobe até à Cime Caron a 3200 m e abre os 600 km do domínio.",
+      "it": "La porta tranquilla e conveniente per Les 3 Vallées: dal villaggio di Orelle, in Maurienne, una cabinovia sale alla Cime Caron a 3200 m e apre i 600 km del comprensorio."
+    },
+    "longDescription": {
+      "en": "Orelle is the fourth valley of Les 3 Vallees, and its best-kept secret. Down in the Maurienne, well away from the glitz of Courchevel and the crowds of Val Thorens, the little village sends a gondola climbing to Cime Caron at over 3200 m, one of the highest and most snow-sure points in the whole region. From there the entire 600 km domain unfolds on a single pass. The Orelle side itself is quiet and steep, with long cruising reds and serious off-piste, and prices at the base are a fraction of the famous resorts on the other side of the ridge. It is not a chocolate-box village and the nightlife is minimal, but for skiers who want the biggest linked area in the world at a Maurienne price, with near-guaranteed snow up top, Orelle is hard to beat.",
+      "fr": "Orelle est la quatrième vallée des 3 Vallées, et son secret le mieux gardé. En Maurienne, loin du clinquant de Courchevel et de la foule de Val Thorens, le petit village envoie une télécabine grimper à la Cime Caron, à plus de 3200 m, l'un des points les plus hauts et les plus sûrs en neige de toute la région. De là, les 600 km du domaine s'ouvrent sur un seul forfait. Le versant d'Orelle est tranquille et raide, avec de longues rouges à parcourir et un vrai hors-piste, et les prix au pied sont une fraction de ceux des stations célèbres de l'autre côté de la crête. Ce n'est pas un village carte postale et la vie nocturne est minime, mais pour qui veut le plus grand domaine relié du monde à un tarif maurianais, avec de la neige quasi garantie en altitude, Orelle est difficile à battre.",
+      "es": "Orelle es el cuarto valle de Les 3 Vallées, y su secreto mejor guardado. En la Maurienne, lejos del brillo de Courchevel y de las multitudes de Val Thorens, el pueblecito lanza una telecabina que sube a la Cime Caron, a más de 3200 m, uno de los puntos más altos y con nieve más segura de toda la región. Desde allí, los 600 km del dominio se abren con un solo forfait. La vertiente de Orelle es tranquila y empinada, con largas rojas para recorrer y un fuera de pista de verdad, y los precios en la base son una fracción de los de las estaciones famosas del otro lado de la cresta. No es un pueblo de postal y la vida nocturna es mínima, pero para quien quiere el mayor dominio enlazado del mundo a precio de Maurienne, con nieve casi garantizada arriba, Orelle es difícil de superar.",
+      "pt": "Orelle é o quarto vale de Les 3 Vallées, e o seu segredo mais bem guardado. Na Maurienne, longe do brilho de Courchevel e das multidões de Val Thorens, a pequena aldeia lança um teleférico que sobe à Cime Caron, a mais de 3200 m, um dos pontos mais altos e com neve mais segura de toda a região. Dali, os 600 km do domínio abrem-se com um só passe. A vertente de Orelle é tranquila e íngreme, com longas vermelhas para percorrer e um verdadeiro fora de pista, e os preços na base são uma fração dos das estâncias famosas do outro lado da crista. Não é uma aldeia de postal e a vida noturna é mínima, mas para quem quer o maior domínio ligado do mundo a preço de Maurienne, com neve quase garantida no alto, Orelle é difícil de bater.",
+      "it": "Orelle è la quarta valle di Les 3 Vallées, e il suo segreto meglio custodito. In Maurienne, lontano dallo sfarzo di Courchevel e dalla folla di Val Thorens, il piccolo villaggio manda una cabinovia a salire alla Cime Caron, a oltre 3200 m, uno dei punti più alti e sicuri di neve di tutta la regione. Da lì i 600 km del comprensorio si aprono con un solo skipass. Il versante di Orelle è tranquillo e ripido, con lunghe rosse da percorrere e un vero fuoripista, e i prezzi alla base sono una frazione di quelli delle località famose dall'altra parte della cresta. Non è un villaggio da cartolina e la vita notturna è minima, ma per chi vuole il più grande comprensorio collegato al mondo a prezzo di Maurienne, con neve quasi garantita in alto, Orelle è difficile da battere."
+    }
+  },
+  {
+    "slug": "montchavin",
+    "name": "Montchavin-Les Coches",
+    "country": "France",
+    "countryCode": "FR",
+    "flag": "🇫🇷",
+    "region": "French Alps",
+    "lat": 45.5533,
+    "lng": 6.7686,
+    "altitudeBase": 1250,
+    "altitudeSummit": 3250,
+    "pistesKm": 425,
+    "lifts": 132,
+    "skiInSkiOutNote": {
+      "en": "Both Montchavin and Les Coches are compact ski villages where a good share of the chalets and apartments sit right on the snow front or a short, gentle run from it. It is not as wall-to-wall ski-in/ski-out as the high-rise stations above, but with young children the villages are the point: you can ski back to most doors, and where you cannot it is a flat, easy walk.",
+      "fr": "Montchavin comme Les Coches sont des villages-stations compacts où une bonne part des chalets et appartements donnent directement sur le front de neige ou à une courte piste douce. Ce n'est pas le ski au pied intégral des stations-tours au-dessus, mais avec de jeunes enfants, ce sont justement les villages qui comptent : on rentre skis aux pieds jusqu'à la plupart des portes, et là où l'on ne peut pas, la marche est plate et facile.",
+      "es": "Tanto Montchavin como Les Coches son pueblos-estación compactos donde buena parte de los chalés y apartamentos dan directamente al frente de nieve o a una corta pista suave. No es el a pie de pista total de las estaciones-torre de arriba, pero con niños pequeños son justo los pueblos lo que cuenta: se regresa esquiando hasta la mayoría de las puertas, y donde no, el paseo es llano y fácil.",
+      "pt": "Tanto Montchavin como Les Coches são aldeias-estância compactas onde boa parte dos chalés e apartamentos dão diretamente para a frente de neve ou a uma curta pista suave. Não é o à beira das pistas total das estâncias-torre lá em cima, mas com crianças pequenas são precisamente as aldeias que contam: regressa-se a esquiar até à maioria das portas, e onde não se pode, a caminhada é plana e fácil.",
+      "it": "Sia Montchavin sia Les Coches sono villaggi-località compatti dove buona parte degli chalet e appartamenti si affaccia direttamente sul fronte neve o a una breve pista dolce. Non è lo sci ai piedi totale delle località-torre più in alto, ma con bambini piccoli sono proprio i villaggi a contare: si torna sugli sci fino alla maggior parte delle porte, e dove non si può, la camminata è piana e facile."
+    },
+    "seasonStart": "Dec 14",
+    "seasonEnd": "Apr 28",
+    "snowScore": 86,
+    "vibes": [
+      "family",
+      "authentic",
+      "charming"
+    ],
+    "pisteCounts": {
+      "green": 30,
+      "blue": 52,
+      "red": 40,
+      "black": 16
+    },
+    "intro": {
+      "en": "Two restored old hamlets on the wooded edge of La Plagne, Montchavin and Les Coches are a calm, family-first way into the huge Paradiski area.",
+      "fr": "Deux vieux hameaux restaurés en lisière boisée de La Plagne, Montchavin et Les Coches offrent une entrée calme et familiale dans le vaste domaine de Paradiski.",
+      "es": "Dos antiguas aldeas restauradas en el borde boscoso de La Plagne, Montchavin y Les Coches son una entrada tranquila y familiar al enorme dominio de Paradiski.",
+      "pt": "Duas antigas aldeias restauradas na orla arborizada de La Plagne, Montchavin e Les Coches são uma entrada calma e familiar no enorme domínio de Paradiski.",
+      "it": "Due antichi borghi restaurati ai margini boschivi di La Plagne, Montchavin e Les Coches sono un ingresso tranquillo e familiare nell'immenso comprensorio di Paradiski."
+    },
+    "longDescription": {
+      "en": "Montchavin and its neighbour Les Coches sit on the sunny, tree-lined western shoulder of La Plagne, and they are among the most genuinely family-friendly corners of the French Alps. Montchavin grew out of a real farming hamlet, its old stone-and-wood houses restored rather than bulldozed, so it keeps a warmth the purpose-built stations above it lack. The nursery slopes and kids' areas sit right in the villages, the runs home are gentle and wooded, and a single Paradiski pass opens 425 km of piste linking La Plagne to Les Arcs by the double-decker Vanoise Express cable car high over the valley. Strong skiers reach the Bellecote glacier and long descents to the Ponthurin valley, but the heart of the place is easy, sheltered tree skiing at a pace that suits small children. It is La Plagne without the concrete, and Paradiski without the price.",
+      "fr": "Montchavin et sa voisine Les Coches occupent l'épaule ouest, ensoleillée et boisée, de La Plagne, et comptent parmi les coins les plus authentiquement familiaux des Alpes françaises. Montchavin est né d'un vrai hameau agricole, ses vieilles maisons de pierre et de bois restaurées plutôt que rasées, et garde une chaleur qui manque aux stations construites au-dessus. Les jardins des neiges et espaces enfants sont au coeur des villages, les retours skis aux pieds sont doux et boisés, et un seul forfait Paradiski ouvre 425 km de pistes reliant La Plagne aux Arcs par le téléphérique à deux étages Vanoise Express, très haut au-dessus de la vallée. Les bons skieurs rejoignent le glacier de Bellecôte et de longues descentes vers le Ponthurin, mais le coeur du lieu, c'est le ski en forêt facile et abrité, à un rythme qui convient aux petits. La Plagne sans le béton, Paradiski sans le prix.",
+      "es": "Montchavin y su vecina Les Coches ocupan el hombro oeste, soleado y boscoso, de La Plagne, y están entre los rincones más auténticamente familiares de los Alpes franceses. Montchavin nació de una verdadera aldea agrícola, con sus viejas casas de piedra y madera restauradas en lugar de derribadas, y conserva una calidez que les falta a las estaciones construidas más arriba. Las zonas de debutantes e infantiles están en el corazón de los pueblos, los regresos esquiando son suaves y boscosos, y un solo forfait Paradiski abre 425 km de pistas que enlazan La Plagne con Les Arcs mediante el teleférico de dos pisos Vanoise Express, muy por encima del valle. Los buenos esquiadores alcanzan el glaciar de Bellecôte y largas bajadas hacia el Ponthurin, pero el corazón del lugar es el esquí en bosque fácil y resguardado, a un ritmo que conviene a los pequeños. La Plagne sin el hormigón, Paradiski sin el precio.",
+      "pt": "Montchavin e a vizinha Les Coches ocupam o ombro oeste, solarengo e arborizado, de La Plagne, e estão entre os cantos mais autenticamente familiares dos Alpes franceses. Montchavin nasceu de uma verdadeira aldeia agrícola, com as suas velhas casas de pedra e madeira restauradas em vez de demolidas, e conserva um calor que falta às estâncias construídas mais acima. As zonas de iniciação e infantis ficam no coração das aldeias, os regressos a esquiar são suaves e arborizados, e um só passe Paradiski abre 425 km de pistas que ligam La Plagne a Les Arcs pelo teleférico de dois andares Vanoise Express, bem acima do vale. Os bons esquiadores alcançam o glaciar de Bellecôte e longas descidas para o Ponthurin, mas o coração do lugar é o esqui na floresta fácil e abrigado, a um ritmo que convém aos pequenos. La Plagne sem o betão, Paradiski sem o preço.",
+      "it": "Montchavin e la vicina Les Coches occupano la spalla ovest, soleggiata e boscosa, di La Plagne, e sono tra gli angoli più autenticamente familiari delle Alpi francesi. Montchavin è nato da un vero borgo agricolo, con le vecchie case in pietra e legno restaurate anziché abbattute, e conserva un calore che manca alle località costruite più in alto. I campi scuola e le aree bimbi sono nel cuore dei villaggi, i rientri sugli sci sono dolci e boscosi, e un solo skipass Paradiski apre 425 km di piste che collegano La Plagne a Les Arcs con la funivia a due piani Vanoise Express, altissima sopra la valle. Chi scia bene raggiunge il ghiacciaio della Bellecote e lunghe discese verso il Ponthurin, ma il cuore del posto è lo sci tra i boschi, facile e riparato, a un ritmo adatto ai bambini. La Plagne senza il cemento, Paradiski senza il prezzo."
+    }
   }
 ]

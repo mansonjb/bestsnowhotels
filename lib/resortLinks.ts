@@ -19,6 +19,8 @@ const RESORT_SITES: Record<string, string> = {
   chamonix: 'https://www.chamonix.com',
   'les-arcs': 'https://www.lesarcs.com',
   'la-plagne': 'https://www.la-plagne.com',
+  orelle: 'https://www.orelle.net',
+  montchavin: 'https://www.montchavin-lescoches.com',
   tignes: 'https://www.tignes.net',
   'alpe-d-huez': 'https://www.alpedhuez.com',
   'serre-chevalier': 'https://www.serre-chevalier.com',

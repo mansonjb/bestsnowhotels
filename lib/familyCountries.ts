@@ -14,7 +14,7 @@ import { skiInSkiOutTier } from './skiInSkiOut'
 export const FAMILY_CHAMPIONS = new Set<string>([
   // France (Famille Plus)
   'avoriaz', 'les-arcs', 'la-plagne', 'la-rosiere', 'les-menuires', 'saint-lary',
-  'saint-gervais', 'courchevel', 'les-saisies', 'flaine', 'valmorel', 'les-gets', 'peisey-vallandry',
+  'saint-gervais', 'courchevel', 'les-saisies', 'flaine', 'valmorel', 'les-gets', 'peisey-vallandry', 'montchavin',
   // Austria (Kinderland champions)
   'serfaus-fiss-ladis', 'soll', 'wagrain', 'obergurgl', 'nauders', 'alpbach', 'zell-am-see', 'katschberg',
   // Italy (Dolomites family)
