@@ -263,5 +263,6 @@ Site available in English (en), French (fr), Spanish (es), Portuguese (pt) and I
 - Countries: https://www.bestsnowhotels.com/en/countries
 - Ski regions (46 massifs, French Alps to the Andes): https://www.bestsnowhotels.com/en/regions
 - Best family ski resorts by country (ranked for kids): https://www.bestsnowhotels.com/en/family-ski
+- Ski resorts near an airport (19 gateways, ranked by distance): https://www.bestsnowhotels.com/en/ski-near
 - Live snow report: https://www.bestsnowhotels.com/en/weather
 - Sitemap: https://www.bestsnowhotels.com/sitemap.xml

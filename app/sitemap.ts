@@ -7,6 +7,7 @@ import { BEST_FOR_LISTS } from '@/lib/bestFor'
 import { COMPARE_PAIRS } from '@/lib/compare'
 import { getRegionHubs } from '@/lib/regionPages'
 import { getFamilyCountries } from '@/lib/familyCountries'
+import { getGateways } from '@/lib/gateways'
 import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
 import { GUIDE_SLUGS } from '@/lib/resortGuide'
@@ -16,6 +17,7 @@ import { locales } from './[locale]/dictionaries'
 
 const REGION_HUBS = getRegionHubs()
 const FAMILY_COUNTRIES = getFamilyCountries()
+const GATEWAYS = getGateways()
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -102,6 +104,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: {
           languages: hreflangFor(`/regions/${h.slug}`),
         },
+      })
+    }
+
+    // Ski resorts near an airport: index + each gateway
+    entries.push({
+      url: `${SITE_URL}/${locale}/ski-near`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      alternates: { languages: hreflangFor(`/ski-near`) },
+    })
+    for (const g of GATEWAYS) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/ski-near/${g.slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+        alternates: { languages: hreflangFor(`/ski-near/${g.slug}`) },
       })
     }
 
