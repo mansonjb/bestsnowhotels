@@ -329,7 +329,23 @@ export const SH_COPY = {
     pt: "Continue a planear",
     it: "Continua a pianificare",
   } as Record<Locale, string>,
+  compareTitle: {
+    en: "Head to head",
+    fr: "Face à face",
+    es: "Cara a cara",
+    pt: "Frente a frente",
+    it: "Testa a testa",
+  } as Record<Locale, string>,
 }
+
+/** SH comparison pair slugs surfaced on the hub for internal linking. */
+export const SH_COMPARE_SLUGS = [
+  'valle-nevado-vs-portillo',
+  'valle-nevado-vs-cerro-catedral',
+  'cerro-catedral-vs-las-lenas',
+  'perisher-vs-thredbo',
+  'coronet-peak-vs-the-remarkables',
+]
 
 /** Dev-time parity guard: every localized field must have all 5 locales. */
 export function assertShParity(): void {

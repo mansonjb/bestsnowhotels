@@ -66,6 +66,13 @@ export const COMPARE_PAIRS: ComparePair[] = [
   pair('park-city-vs-vail', 'park-city', 'vail', 'vail'),
   pair('breckenridge-vs-vail', 'breckenridge', 'vail', 'vail'),
   pair('whistler-blackcomb-vs-lake-louise', 'whistler-blackcomb', 'lake-louise', 'whistler-blackcomb'),
+  // Wave 25: Southern Hemisphere head-to-heads (in-season June to October, our
+  // page-1 LATAM / Oceania markets). One high-intent rivalry per SH region.
+  pair('valle-nevado-vs-portillo', 'valle-nevado', 'portillo', 'valle-nevado'),
+  pair('valle-nevado-vs-cerro-catedral', 'valle-nevado', 'cerro-catedral', 'valle-nevado'),
+  pair('cerro-catedral-vs-las-lenas', 'cerro-catedral', 'las-lenas', 'cerro-catedral'),
+  pair('perisher-vs-thredbo', 'perisher', 'thredbo', 'thredbo'),
+  pair('coronet-peak-vs-the-remarkables', 'coronet-peak', 'the-remarkables', 'the-remarkables'),
 ]
 
 export function getComparePair(slug: string): ComparePair | undefined {

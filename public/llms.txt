@@ -191,6 +191,11 @@ Side-by-side editorial comparisons with side-by-side stats and clear verdicts:
 - /compare/park-city-vs-vail (biggest US area vs Colorado Back Bowls)
 - /compare/breckenridge-vs-vail (high lively town vs bigger upscale Back Bowls)
 - /compare/whistler-blackcomb-vs-lake-louise (vast coastal giant vs Banff Rockies scenery)
+- /compare/valle-nevado-vs-portillo (Chile: modern linked ski-machine vs iconic all-inclusive hotel)
+- /compare/valle-nevado-vs-cerro-catedral (Chile vs Argentina: altitude and snow vs size and Bariloche)
+- /compare/cerro-catedral-vs-las-lenas (Argentina: biggest and all-levels vs steep expert freeride)
+- /compare/perisher-vs-thredbo (Australia: largest lift network vs longest vertical and best village)
+- /compare/coronet-peak-vs-the-remarkables (Queenstown NZ: night skiing and access vs snow and parks)
 
 Travel-intent best-for lists (high search volume):
 - /best/cheap-ski (budget Europe: Bansko, Borovets, Sierra Nevada, Andorra, Italian East)

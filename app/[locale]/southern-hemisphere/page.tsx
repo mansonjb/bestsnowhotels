@@ -9,7 +9,7 @@ import type { Locale } from '../dictionaries'
 import { destinations } from '@/lib/destinations'
 import { isSouthernHemisphere, countrySlug } from '@/lib/countries'
 import { SITE_URL, hreflangFor, jsonLdGraph, buildAllezDestLink } from '@/lib/site'
-import { SH_SECTIONS, SH_COPY, assertShParity } from '@/lib/southernHemisphere'
+import { SH_SECTIONS, SH_COPY, SH_COMPARE_SLUGS, assertShParity } from '@/lib/southernHemisphere'
 
 const HERO_SLUG = 'valle-nevado'
 
@@ -262,6 +262,31 @@ export default async function SouthernHemispherePage({
           </section>
         )
       })}
+
+      {/* Head to head comparisons */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+        <h2 className="text-2xl font-bold text-slate-deep">{SH_COPY.compareTitle[l]}</h2>
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {SH_COMPARE_SLUGS.map((slug) => {
+            const [aSlug, bSlug] = slug.split('-vs-')
+            const a = destinations.find((d) => d.slug === aSlug)
+            const b = destinations.find((d) => d.slug === bSlug)
+            if (!a || !b) return null
+            return (
+              <Link
+                key={slug}
+                href={`/${l}/compare/${slug}`}
+                className="group flex items-center justify-between gap-3 rounded-2xl border border-ice-200 bg-white p-5 hover:border-ice-400 hover:shadow-md transition"
+              >
+                <span className="font-semibold text-slate-deep">
+                  {a.flag} {a.name} <span className="text-ice-500">vs</span> {b.flag} {b.name}
+                </span>
+                <span className="text-ice-700 font-semibold group-hover:translate-x-0.5 transition" aria-hidden>→</span>
+              </Link>
+            )
+          })}
+        </div>
+      </section>
 
       {/* FAQ */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
