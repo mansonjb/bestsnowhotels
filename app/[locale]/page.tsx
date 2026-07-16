@@ -117,6 +117,31 @@ export default async function HomePage({
 
       <Hero locale={locale as Locale} dict={dict} />
 
+      {/* Seasonal bridge: Southern Hemisphere (evergreen, peaks every northern summer) */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+        <Link
+          href={`/${locale}/southern-hemisphere`}
+          className="group block rounded-2xl overflow-hidden border border-ice-200 bg-gradient-to-r from-slate-deep to-ice-800 text-white p-6 sm:p-7 shadow-sm hover:shadow-md transition"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-4">
+              <span className="text-4xl" aria-hidden>🌏❄️</span>
+              <div>
+                <p className="text-lg sm:text-xl font-bold">
+                  {({ en: 'Summer up north? Ski down south.', fr: "L'été chez vous ? Skiez au sud.", es: '¿Verano en el norte? Esquía en el sur.', pt: 'Verão a norte? Esquie a sul.', it: 'Estate a nord? Sciate a sud.' } as Record<Locale, string>)[locale]}
+                </p>
+                <p className="mt-1 text-sm text-white/80">
+                  {({ en: 'Ski July, August and September across the Andes, New Zealand and Australia.', fr: 'Skiez en juillet, août et septembre dans les Andes, en Nouvelle-Zélande et en Australie.', es: 'Esquía en julio, agosto y septiembre en los Andes, Nueva Zelanda y Australia.', pt: 'Esquie em julho, agosto e setembro nos Andes, na Nova Zelândia e na Austrália.', it: 'Sciate a luglio, agosto e settembre sulle Ande, in Nuova Zelanda e in Australia.' } as Record<Locale, string>)[locale]}
+                </p>
+              </div>
+            </div>
+            <span className="inline-block bg-white text-slate-deep font-semibold text-sm px-5 py-2.5 rounded-full group-hover:bg-ice-50 transition whitespace-nowrap">
+              {({ en: 'See where to ski now →', fr: 'Voir où skier maintenant →', es: 'Ver dónde esquiar ahora →', pt: 'Ver onde esquiar agora →', it: 'Scopri dove sciare ora →' } as Record<Locale, string>)[locale]}
+            </span>
+          </div>
+        </Link>
+      </section>
+
       {/* Top destinations */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-3xl mb-10">
@@ -162,6 +187,7 @@ export default async function HomePage({
             { href: `/${locale}/best`, label: dict.nav.best, emoji: '🏆' },
             { href: `/${locale}/compare`, label: dict.nav.compare, emoji: '⚖️' },
             { href: `/${locale}/when`, label: dict.nav.when, emoji: '❄️' },
+            { href: `/${locale}/southern-hemisphere`, label: ({ en: 'Ski in July & August', fr: 'Skier en juillet et août', es: 'Esquiar en julio y agosto', pt: 'Esquiar em julho e agosto', it: 'Sciare a luglio e agosto' } as Record<Locale, string>)[locale], emoji: '🌏' },
           ].map((h) => (
             <Link key={h.href} href={h.href} className="card-hover flex items-center gap-3 bg-white rounded-2xl border border-ice-100 px-5 py-4 font-semibold text-slate-deep">
               <span className="text-xl" aria-hidden>{h.emoji}</span>

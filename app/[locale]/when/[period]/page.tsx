@@ -8,8 +8,23 @@ import { SEASONAL_GUIDES, getSeasonalGuide } from '@/lib/seasonalGuides'
 import { destinations } from '@/lib/destinations'
 import { SITE_URL, jsonLdGraph } from '@/lib/site'
 import DestinationCard from '@/components/DestinationCard'
+import Stay22Map from '@/components/Stay22Map'
 
 const T = {
+  hotelsNear: {
+    en: 'Hotels near',
+    fr: 'Hôtels près de',
+    es: 'Hoteles cerca de',
+    pt: 'Hotéis perto de',
+    it: 'Hotel vicino a',
+  } as Record<Locale, string>,
+  shHub: {
+    en: 'Full Southern Hemisphere guide: where to ski in July, August and September',
+    fr: "Guide complet de l'hémisphère sud : où skier en juillet, août et septembre",
+    es: 'Guía completa del hemisferio sur: dónde esquiar en julio, agosto y septiembre',
+    pt: 'Guia completo do hemisfério sul: onde esquiar em julho, agosto e setembro',
+    it: "Guida completa all'emisfero sud: dove sciare a luglio, agosto e settembre",
+  } as Record<Locale, string>,
   picks: {
     en: 'Top picks for this period',
     fr: 'Notre sélection pour cette période',
@@ -144,6 +159,22 @@ export default async function WhenPeriodPage({
         <p className="text-base text-ice-800/85 leading-relaxed max-w-4xl whitespace-pre-line">{g.description[l]}</p>
       </section>
 
+      {/* Bridge to the evergreen Southern Hemisphere hub */}
+      {g.slug === 'southern-hemisphere-winter-2027' && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+          <Link
+            href={`/${l}/southern-hemisphere`}
+            className="group flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-ice-200 bg-gradient-to-r from-ice-50 to-white p-5 hover:border-ice-400 hover:shadow-md transition"
+          >
+            <span className="font-semibold text-slate-deep flex items-center gap-3">
+              <span aria-hidden className="text-2xl">🌏❄️</span>
+              {T.shHub[l]}
+            </span>
+            <span className="text-ice-700 font-semibold group-hover:translate-x-0.5 transition" aria-hidden>→</span>
+          </Link>
+        </section>
+      )}
+
       {/* Resort grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12">
         <h2 className="text-2xl font-bold text-slate-deep">{T.matched[l]}</h2>
@@ -153,6 +184,16 @@ export default async function WhenPeriodPage({
           ))}
         </div>
       </section>
+
+      {/* Hotel map centered on the top pick */}
+      {matched[0] && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+          <h2 className="text-base font-bold text-slate-deep mb-3">
+            {T.hotelsNear[l]} <span className="text-ice-700">{matched[0].name}</span>
+          </h2>
+          <Stay22Map lat={matched[0].lat} lng={matched[0].lng} destName={matched[0].name} zoom={10} height={420} />
+        </section>
+      )}
 
       {/* Other guides */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-12">

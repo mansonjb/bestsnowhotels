@@ -15,11 +15,11 @@
   "hero": {
     "badge": "Hotel ski-in/ski-out nel mondo, dalle Alpi all'Atlante",
     "title": "I migliori hotel di neve, dove gli impianti partono dalla porta",
-    "subtitle": "402 località scelte una per una tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone, Stati Uniti, Marocco, Algeria, Lesotho, Sudafrica, Egitto, Canada, Corea del Sud, Australia, Nuova Zelanda e Cile. Quote vere, ski-in/ski-out sul serio, miglior prezzo tra Booking, Expedia e Hotels.com.",
+    "subtitle": "452 località scelte una per una tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone, Stati Uniti, Marocco, Algeria, Lesotho, Sudafrica, Egitto, Canada, Corea del Sud, Australia, Nuova Zelanda, Cile, Argentina e Bulgaria. Quote vere, ski-in/ski-out sul serio, miglior prezzo tra Booking, Expedia e Hotels.com.",
     "cta": "Vedi le destinazioni",
-    "stat1Value": "402",
+    "stat1Value": "452",
     "stat1Label": "Destinazioni sci",
-    "stat2Value": "22",
+    "stat2Value": "24",
     "stat2Label": "Paesi",
     "stat3Value": "100 %",
     "stat3Label": "Gratis"
@@ -107,7 +107,7 @@
   },
   "best": {
     "title": "Le migliori località sciistiche: liste per gusto",
-    "subtitle": "Selezioni delle località più innevate, più grandi, più chic e con il miglior rapporto qualità-prezzo del nostro database, tutte scelte sui dati reali delle 402 destinazioni.",
+    "subtitle": "Selezioni delle località più innevate, più grandi, più chic e con il miglior rapporto qualità-prezzo del nostro database, tutte scelte sui dati reali delle 452 destinazioni.",
     "howRanked": "Come abbiamo scelto",
     "exploreList": "Scopri la selezione"
   },
@@ -124,7 +124,7 @@
   },
   "weather": {
     "title": "Bollettino neve in tempo reale nel mondo",
-    "subtitle": "Altezza neve, temperature e previsioni a 7 giorni per le 402 località del nostro database, aggiornate ogni 30 minuti.",
+    "subtitle": "Altezza neve, temperature e previsioni a 7 giorni per le 452 località del nostro database, aggiornate ogni 30 minuti.",
     "pageTitleResort": "Bollettino neve",
     "asOf": "Aggiornato",
     "livePill": "Live",
@@ -179,7 +179,7 @@
     "byCountrySubtitle": "Scegli il tuo massiccio.",
     "howTitle": "Come funziona BestSnowHotels",
     "stepLabel": "PASSO",
-    "howStep1Title": "Scopri 402 località",
+    "howStep1Title": "Scopri 452 località",
     "howStep1Text": "Ogni pagina mostra quote reali, chilometri di piste e una nota ski-in/ski-out trasparente. Niente fumo.",
     "howStep2Title": "Vedi gli hotel sulla mappa",
     "howStep2Text": "Le mappe Stay22 mostrano in tempo reale hotel e appartamenti attorno agli impianti, con i prezzi in diretta dei principali operatori.",

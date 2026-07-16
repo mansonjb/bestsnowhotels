@@ -34,6 +34,7 @@ const PLAN = {
   themes: { en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías por tema', pt: 'Guias por tema', it: 'Guide per tema' } as Record<Locale, string>,
   family: { en: 'Family skiing by country', fr: 'Ski en famille par pays', es: 'Esquí en familia por país', pt: 'Esqui em família por país', it: 'Sci in famiglia per paese' } as Record<Locale, string>,
   nearAirport: { en: 'Ski resorts near an airport', fr: "Stations près d'un aéroport", es: 'Estaciones cerca de un aeropuerto', pt: 'Estâncias perto de um aeroporto', it: 'Località vicino a un aeroporto' } as Record<Locale, string>,
+  southern: { en: 'Ski in July & August', fr: 'Skier en juillet et août', es: 'Esquiar en julio y agosto', pt: 'Esquiar em julho e agosto', it: 'Sciare a luglio e agosto' } as Record<Locale, string>,
 }
 
 export default function Footer({ locale, dict }: FooterProps) {
@@ -108,6 +109,9 @@ export default function Footer({ locale, dict }: FooterProps) {
               </li>
               <li>
                 <Link href={`/${locale}/ski-near`} className="hover:text-slate-deep">{PLAN.nearAirport[locale]}</Link>
+              </li>
+              <li>
+                <Link href={`/${locale}/southern-hemisphere`} className="hover:text-slate-deep">{PLAN.southern[locale]}</Link>
               </li>
               <li>
                 <Link href={`/${locale}/winter-2027`} className="hover:text-slate-deep">{PLAN.winter[locale]}</Link>

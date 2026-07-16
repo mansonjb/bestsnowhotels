@@ -15,11 +15,11 @@
   "hero": {
     "badge": "Ski-in/ski-out hotels worldwide, from the Alps to the Atlas",
     "title": "The best snow hotels, where the lift starts at your door",
-    "subtitle": "402 hand-picked resorts in France, Switzerland, Austria, Italy, Spain, Andorra, Germany, Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt, Canada, South Korea, Australia, New Zealand and Chile. Real altitudes, real ski-in/ski-out, best price across Booking, Expedia and Hotels.com.",
+    "subtitle": "452 hand-picked resorts in France, Switzerland, Austria, Italy, Spain, Andorra, Germany, Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt, Canada, South Korea, Australia, New Zealand, Chile, Argentina and Bulgaria. Real altitudes, real ski-in/ski-out, best price across Booking, Expedia and Hotels.com.",
     "cta": "Browse destinations",
-    "stat1Value": "402",
+    "stat1Value": "452",
     "stat1Label": "Ski destinations",
-    "stat2Value": "22",
+    "stat2Value": "24",
     "stat2Label": "Countries",
     "stat3Value": "100%",
     "stat3Label": "Free to use"
@@ -107,7 +107,7 @@
   },
   "best": {
     "title": "Best ski resorts: curated lists by intent",
-    "subtitle": "Curated lists of the snowiest, biggest, most luxurious and best-value resorts in our database, all picked from real data on 402 destinations.",
+    "subtitle": "Curated lists of the snowiest, biggest, most luxurious and best-value resorts in our database, all picked from real data on 452 destinations.",
     "howRanked": "How we picked",
     "exploreList": "Explore the list"
   },
@@ -124,7 +124,7 @@
   },
   "weather": {
     "title": "Live snow report worldwide",
-    "subtitle": "Real snow depth, temperature and a 7-day forecast for the 402 resorts in our database, updated every 30 minutes.",
+    "subtitle": "Real snow depth, temperature and a 7-day forecast for the 452 resorts in our database, updated every 30 minutes.",
     "pageTitleResort": "Snow report",
     "asOf": "Updated",
     "livePill": "Live",
@@ -179,7 +179,7 @@
     "byCountrySubtitle": "Pick your mountain range.",
     "howTitle": "How BestSnowHotels works",
     "stepLabel": "STEP",
-    "howStep1Title": "Browse 402 resorts",
+    "howStep1Title": "Browse 452 resorts",
     "howStep1Text": "Each page lists real altitudes, piste kilometres and a transparent ski-in/ski-out note, with no guesswork.",
     "howStep2Title": "See live hotels on the map",
     "howStep2Text": "Stay22 maps show hotels and apartments around the lifts in real time, with live prices from the major operators.",

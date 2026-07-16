@@ -61,9 +61,11 @@ const TARGETS = [
   { slug: 'ordino-arcalis', query: 'hotels Ordino El Serrat Andorra', maxDist: 12000, minReviews: 12 },
   { slug: 'soldeu', query: 'hotels Soldeu El Tarter Andorra', maxDist: 8000, minReviews: 15 },
   { slug: 'pas-de-la-casa', query: 'hotels Pas de la Casa Andorra', maxDist: 7000, minReviews: 12 },
-  { slug: 'el-colorado', query: 'hoteles Farellones El Colorado La Parva Chile', maxDist: 14000, minReviews: 4 },
+  { slug: 'el-colorado', query: 'hoteles Farellones El Colorado Lo Barnechea Santiago Chile', maxDist: 18000, minReviews: 2 },
+  { slug: 'valle-nevado', query: 'hoteles Valle Nevado Farellones Lo Barnechea Santiago Chile', maxDist: 20000, minReviews: 3 },
+  { slug: 'portillo', query: 'hoteles Portillo Los Andes Ski Portillo Chile', maxDist: 60000, minReviews: 3 },
   { slug: 'nevados-de-chillan', query: 'hoteles Las Trancas Nevados de Chillan Chile', maxDist: 16000, minReviews: 8 },
-  { slug: 'corralco', query: 'hoteles Malalcahuello Corralco Araucania Chile', maxDist: 22000, minReviews: 6 },
+  { slug: 'corralco', query: 'hoteles Corralco Malalcahuello Curacautin Araucania Chile', maxDist: 32000, minReviews: 3 },
   { slug: 'los-penitentes', query: 'hoteles Penitentes Uspallata Potrerillos Mendoza Argentina', maxDist: 55000, minReviews: 3 },
   { slug: 'la-hoya', query: 'hoteles Esquel Chubut Argentina', maxDist: 18000, minReviews: 10 },
   // Full-coverage pass: town-aware queries for the remaining thin resorts.
@@ -89,11 +91,14 @@ const TARGETS = [
   { slug: 'treble-cone', query: 'hotels Wanaka New Zealand', maxDist: 32000, minReviews: 25 },
   { slug: 'mt-hutt', query: 'hotels Methven Canterbury New Zealand', maxDist: 25000, minReviews: 12 },
   { slug: 'coronet-peak', query: 'hotels Queenstown New Zealand', maxDist: 20000, minReviews: 40 },
+  { slug: 'cardrona', query: 'hotels Wanaka Cardrona Otago New Zealand', maxDist: 30000, minReviews: 15 },
+  { slug: 'thredbo', query: 'hotels Jindabyne NSW Australia', maxDist: 40000, minReviews: 8 },
+  { slug: 'mt-hotham', query: 'hotels Mount Hotham Dinner Plain Bright Victoria Australia', maxDist: 35000, minReviews: 5 },
   { slug: 'ski-egypt', query: 'hotels Mall of Egypt 6th of October City Cairo Egypt', maxDist: 16000, minReviews: 25 },
   { slug: 'mischliffen', query: 'hotels Ifrane Michlifen Morocco', maxDist: 22000, minReviews: 8 },
   { slug: 'jbel-habri', query: 'hotels Ifrane Azrou Morocco', maxDist: 28000, minReviews: 6 },
-  { slug: 'afriski', query: 'AfriSki Mountain Resort lodge Lesotho', maxDist: 9000, minReviews: 4 },
-  { slug: 'tiffindell', query: 'Tiffindell ski resort lodge Barkly East Eastern Cape South Africa', maxDist: 12000, minReviews: 3 },
+  { slug: 'afriski', query: 'AfriSki Mountain Resort lodge Lesotho', maxDist: 12000, minReviews: 2 },
+  { slug: 'tiffindell', query: 'Tiffindell ski resort lodge Barkly East Eastern Cape South Africa', maxDist: 16000, minReviews: 2 },
 ]
 
 async function loadToken() {

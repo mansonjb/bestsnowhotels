@@ -143,6 +143,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
     }
 
+    // Southern Hemisphere hub (evergreen: ski in July/August/September)
+    entries.push({
+      url: `${SITE_URL}/${locale}/southern-hemisphere`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+      alternates: { languages: hreflangFor(`/southern-hemisphere`) },
+    })
+
     // Ski areas index
     entries.push({
       url: `${SITE_URL}/${locale}/ski-areas`,
