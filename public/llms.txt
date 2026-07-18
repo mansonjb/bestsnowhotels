@@ -143,6 +143,7 @@ United States (Rockies, Wasatch, Sierra, Tetons, Cascades, East Coast):
 - Best ski resorts in the Colorado Rockies
 - Best ski resorts in the Utah Wasatch
 - Best ski resorts on the US East Coast
+- /best/luxury-usa: most luxurious ski resorts in the USA (Aspen, Vail, Beaver Creek, Deer Valley, Telluride, Park City, Sun Valley, Stowe)
 
 Africa (Atlas, Djurdjura, Maluti, Drakensberg, indoor Cairo):
 - Ski resorts in Africa

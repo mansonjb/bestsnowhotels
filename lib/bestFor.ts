@@ -234,6 +234,33 @@ export const BEST_FOR_LISTS: BestForList[] = [
     sort: (d) => d.snowScore,
   },
   {
+    slug: 'luxury-usa',
+    heroSlug: 'aspen-snowmass',
+    name: {
+      en: 'Most luxurious ski resorts in the USA',
+      fr: "Stations de ski les plus luxueuses des États-Unis",
+      es: 'Estaciones de esquí más lujosas de Estados Unidos',
+      pt: 'Estâncias de esqui mais luxuosas dos Estados Unidos',
+      it: "Le località sciistiche più lussuose degli Stati Uniti",
+    },
+    intro: {
+      en: "America's most glamorous mountains, where five-star hotels, ski valets and world-class dining meet the deep, dry snow of the Rockies and the Wasatch.",
+      fr: "Les montagnes les plus glamour d'Amérique, où hôtels cinq étoiles, voituriers à skis et grande gastronomie rencontrent la neige profonde et sèche des Rocheuses et du Wasatch.",
+      es: "Las montañas más glamurosas de Estados Unidos, donde los hoteles de cinco estrellas, el servicio de esquís y la alta gastronomía se unen a la nieve profunda y seca de las Rocosas y el Wasatch.",
+      pt: "As montanhas mais glamorosas dos Estados Unidos, onde hotéis de cinco estrelas, serviço de esquis e alta gastronomia se juntam à neve profunda e seca das Montanhas Rochosas e do Wasatch.",
+      it: "Le montagne più glamour d'America, dove hotel a cinque stelle, servizio sci e alta cucina incontrano la neve profonda e asciutta delle Montagne Rocciose e del Wasatch.",
+    },
+    description: {
+      en: "This is the top end of American skiing. Aspen and Vail set the tone with designer boutiques, private clubs and slope-side five-star hotels, while Beaver Creek greets you with warm cookies at the base and Deer Valley bans snowboards and caps daily lift tickets to keep the pistes empty and groomed. Add Telluride's box-canyon glamour, Park City's Main Street heritage and the old-money elegance of Sun Valley and Stowe, and you have the resorts where the lift really does start at the door of your suite.",
+      fr: "C'est le haut du panier du ski américain. Aspen et Vail donnent le ton avec boutiques de créateurs, clubs privés et hôtels cinq étoiles au pied des pistes, tandis que Beaver Creek vous accueille avec des cookies chauds au départ et que Deer Valley interdit le snowboard et limite les forfaits pour garder des pistes vides et damées. Ajoutez le glamour de Telluride au fond de son canyon, l'héritage de Main Street à Park City et l'élégance old money de Sun Valley et Stowe, et vous obtenez les stations où la remontée démarre vraiment à la porte de votre suite.",
+      es: "Es la cúspide del esquí estadounidense. Aspen y Vail marcan el tono con boutiques de diseño, clubes privados y hoteles de cinco estrellas a pie de pista, mientras que Beaver Creek te recibe con galletas calientes en la base y Deer Valley prohíbe el snowboard y limita los forfaits diarios para mantener las pistas vacías y pisadas. Añade el glamour de Telluride al fondo de su cañón, el patrimonio de Main Street en Park City y la elegancia old money de Sun Valley y Stowe, y tienes las estaciones donde el remonte arranca de verdad en la puerta de tu suite.",
+      pt: "É o topo do esqui norte-americano. Aspen e Vail dão o tom com boutiques de autor, clubes privados e hotéis de cinco estrelas à beira das pistas, enquanto Beaver Creek o recebe com bolachas quentes na base e Deer Valley proíbe o snowboard e limita os passes diários para manter as pistas vazias e pisadas. Junte o glamour de Telluride no fundo do seu desfiladeiro, o património da Main Street em Park City e a elegância old money de Sun Valley e Stowe, e tem as estâncias onde o teleférico começa mesmo à porta da sua suíte.",
+      it: "È il vertice dello sci americano. Aspen e Vail danno il tono con boutique d'autore, club privati e hotel a cinque stelle sulle piste, mentre Beaver Creek ti accoglie con biscotti caldi alla base e Deer Valley vieta lo snowboard e limita gli skipass giornalieri per tenere le piste vuote e battute. Aggiungi il glamour di Telluride in fondo al suo canyon, il patrimonio della Main Street a Park City e l'eleganza old money di Sun Valley e Stowe, e hai le località dove la seggiovia parte davvero dalla porta della tua suite.",
+    },
+    filter: (d) => isUSA(d) && d.vibes.some((v) => LUX_VIBES.has(v)),
+    sort: luxScore,
+  },
+  {
     slug: 'glacier',
     heroSlug: 'hintertux',
     name: {
