@@ -436,5 +436,224 @@
         }
       }
     ]
+  },
+  "spanish-pyrenees": {
+    "title": {
+      "en": "Best ski resorts in the Spanish Pyrenees",
+      "fr": "Meilleures stations de ski des Pyrénées espagnoles",
+      "es": "Mejores estaciones de esquí del Pirineo español",
+      "pt": "Melhores estâncias de esqui dos Pirenéus espanhóis",
+      "it": "Migliori località sciistiche dei Pirenei spagnoli"
+    },
+    "intro": {
+      "en": "Spain's mountains deliver more than most expect: high, snow-sure terrain, long sunny days and prices well below the Alps. From royal Baqueira to the buzzing Aragon valleys, here is where to ski in the Spanish Pyrenees.",
+      "fr": "Les montagnes espagnoles offrent plus qu'on ne croit : de l'altitude, une neige fiable, de longues journées ensoleillées et des prix bien en dessous des Alpes. De l'exclusive Baqueira aux vallées animées d'Aragon, voici où skier dans les Pyrénées espagnoles.",
+      "es": "Las montañas de España dan más de lo que muchos esperan: cotas altas, nieve fiable, días largos y soleados y precios muy por debajo de los Alpes. De la exclusiva Baqueira a los animados valles aragoneses, aquí tienes dónde esquiar en el Pirineo.",
+      "pt": "As montanhas de Espanha dão mais do que muitos esperam: cotas altas, neve fiável, dias longos e soalheiros e preços bem abaixo dos Alpes. Da exclusiva Baqueira aos animados vales aragoneses, eis onde esquiar nos Pirenéus espanhóis.",
+      "it": "Le montagne spagnole offrono più di quanto molti si aspettino: quote alte, neve affidabile, giornate lunghe e soleggiate e prezzi ben sotto le Alpi. Dall'esclusiva Baqueira alle vivaci valli aragonesi, ecco dove sciare nei Pirenei spagnoli."
+    },
+    "body": {
+      "en": "The Spanish Pyrenees split into two worlds. In Catalonia, Baqueira Beret is the crown, the largest ski area in Spain and the resort where the royal family takes its holidays, all fine dining and Val d'Aran charm. Nearby, La Molina and Masella join up as Alp 2500 in the sunny Cerdanya, while Boí Taüll sits at the highest base in the Pyrenees for the most reliable snow of all.\n\nIn Aragon, the valleys above Huesca are the heartland. Formigal is one of the biggest and liveliest resorts in the country, Cerler climbs highest above the Benasque valley, and the Canfranc pair of Candanchú and Astún deliver classic, no-nonsense skiing right on the French border.\n\nWhat ties them together is value and sunshine. Lift passes, ski school and slope-side apartments cost a fraction of the Alps, the pistes are gentle enough for families and beginners, and the famous Spanish sun means long bluebird days on the snow. Base yourself in a valley town and the lifts are a short drive away.",
+      "fr": "Les Pyrénées espagnoles se partagent en deux mondes. En Catalogne, Baqueira Beret est la couronne, le plus grand domaine d'Espagne et la station où la famille royale passe ses vacances, entre grande table et charme du Val d'Aran. Tout près, La Molina et Masella se relient sous le nom d'Alp 2500 dans la Cerdagne ensoleillée, tandis que Boí Taüll, au pied le plus haut des Pyrénées, offre la neige la plus fiable.\n\nEn Aragon, les vallées au-dessus de Huesca forment le cœur historique. Formigal est l'une des plus grandes et des plus animées du pays, Cerler grimpe le plus haut au-dessus de la vallée de Benasque, et le duo de Canfranc, Candanchú et Astún, propose un ski classique et sans chichis, juste à la frontière française.\n\nCe qui les réunit, c'est le rapport qualité-prix et le soleil. Forfaits, école de ski et appartements au pied des pistes coûtent une fraction des prix alpins, les pistes sont assez douces pour les familles et les débutants, et le fameux soleil espagnol offre de longues journées bleues sur la neige. Installez-vous dans une ville de vallée et les remontées sont à quelques minutes.",
+      "es": "El Pirineo español se divide en dos mundos. En Cataluña, Baqueira Beret es la corona, la mayor estación de España y el lugar donde veranea, o mejor dicho invernea, la familia real, entre alta gastronomía y encanto del Valle de Arán. Cerca, La Molina y Masella se unen como Alp 2500 en la soleada Cerdaña, mientras que Boí Taüll, la cota base más alta del Pirineo, ofrece la nieve más fiable.\n\nEn Aragón, los valles sobre Huesca son el corazón. Formigal es una de las más grandes y animadas del país, Cerler sube más alto sobre el valle de Benasque, y el dúo de Canfranc, Candanchú y Astún, brinda un esquí clásico y sin artificios, junto a la frontera francesa.\n\nLo que las une es la relación calidad-precio y el sol. Forfaits, escuela de esquí y apartamentos a pie de pista cuestan una fracción de los Alpes, las pistas son suaves para familias y principiantes, y el famoso sol español regala largos días azules sobre la nieve. Alójate en un pueblo del valle y los remontes quedan a pocos minutos.",
+      "pt": "Os Pirenéus espanhóis dividem-se em dois mundos. Na Catalunha, Baqueira Beret é a coroa, a maior estância de Espanha e o lugar onde a família real passa as férias, entre alta gastronomia e o encanto do Vale de Arão. Perto, La Molina e Masella juntam-se como Alp 2500 na soalheira Cerdanha, enquanto Boí Taüll, a cota base mais alta dos Pirenéus, oferece a neve mais fiável.\n\nEm Aragão, os vales acima de Huesca são o coração. Formigal é uma das maiores e mais animadas do país, Cerler sobe mais alto sobre o vale de Benasque, e a dupla de Canfranc, Candanchú e Astún, oferece um esqui clássico e sem artifícios, mesmo junto à fronteira francesa.\n\nO que as une é a relação qualidade-preço e o sol. Passes, escola de esqui e apartamentos à beira das pistas custam uma fração dos Alpes, as pistas são suaves para famílias e principiantes, e o famoso sol espanhol oferece longos dias azuis sobre a neve. Fique numa vila do vale e os teleféricos ficam a poucos minutos.",
+      "it": "I Pirenei spagnoli si dividono in due mondi. In Catalogna, Baqueira Beret è la corona, il comprensorio più grande di Spagna e la località dove la famiglia reale trascorre le vacanze, tra alta cucina e fascino della Val d'Aran. Vicino, La Molina e Masella si uniscono come Alp 2500 nella soleggiata Cerdanya, mentre Boí Taüll, la quota base più alta dei Pirenei, offre la neve più affidabile.\n\nIn Aragona, le valli sopra Huesca sono il cuore. Formigal è una delle più grandi e vivaci del paese, Cerler sale più in alto sulla valle di Benasque, e la coppia di Canfranc, Candanchú e Astún, regala uno sci classico e senza fronzoli, proprio sul confine francese.\n\nCiò che le unisce è il rapporto qualità-prezzo e il sole. Skipass, scuola di sci e appartamenti sulle piste costano una frazione delle Alpi, le piste sono dolci per famiglie e principianti, e il famoso sole spagnolo regala lunghe giornate azzurre sulla neve. Alloggia in un paese di valle e gli impianti sono a pochi minuti."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Which is the best ski resort in the Spanish Pyrenees?",
+          "fr": "Quelle est la meilleure station des Pyrénées espagnoles ?",
+          "es": "¿Cuál es la mejor estación de esquí del Pirineo español?",
+          "pt": "Qual é a melhor estância de esqui dos Pirenéus espanhóis?",
+          "it": "Qual è la migliore località sciistica dei Pirenei spagnoli?"
+        },
+        "a": {
+          "en": "Baqueira Beret is the biggest and most complete, with the widest terrain and the best dining. For lively value skiing, Formigal in Aragon is the standout.",
+          "fr": "Baqueira Beret est la plus grande et la plus complète, avec le domaine le plus vaste et la meilleure table. Pour un ski animé et abordable, Formigal en Aragon se détache.",
+          "es": "Baqueira Beret es la más grande y completa, con el mayor dominio y la mejor gastronomía. Para un esquí animado y económico, Formigal en Aragón es la referencia.",
+          "pt": "Baqueira Beret é a maior e mais completa, com o maior domínio e a melhor gastronomia. Para um esqui animado e económico, Formigal em Aragão destaca-se.",
+          "it": "Baqueira Beret è la più grande e completa, con il comprensorio più ampio e la migliore cucina. Per uno sci vivace ed economico, Formigal in Aragona è il riferimento."
+        }
+      },
+      {
+        "q": {
+          "en": "Is skiing in Spain cheaper than the Alps?",
+          "fr": "Skier en Espagne coûte-t-il moins cher que dans les Alpes ?",
+          "es": "¿Esquiar en España es más barato que en los Alpes?",
+          "pt": "Esquiar em Espanha é mais barato do que nos Alpes?",
+          "it": "Sciare in Spagna costa meno che sulle Alpi?"
+        },
+        "a": {
+          "en": "Generally yes. Lift passes, ski school and slope-side lodging in the Spanish Pyrenees usually cost well below equivalent resorts in France, Switzerland or Austria.",
+          "fr": "En général oui. Forfaits, école de ski et hébergement au pied des pistes dans les Pyrénées espagnoles coûtent d'ordinaire bien moins que dans les stations équivalentes des Alpes.",
+          "es": "Por lo general sí. Los forfaits, la escuela de esquí y el alojamiento a pie de pista en el Pirineo suelen costar bastante menos que en estaciones equivalentes de los Alpes.",
+          "pt": "Em geral sim. Passes, escola de esqui e alojamento à beira das pistas nos Pirenéus espanhóis costumam custar bastante menos do que em estâncias equivalentes dos Alpes.",
+          "it": "In genere sì. Skipass, scuola di sci e alloggio sulle piste nei Pirenei spagnoli costano di solito ben meno rispetto a località equivalenti delle Alpi."
+        }
+      },
+      {
+        "q": {
+          "en": "When is the ski season in the Spanish Pyrenees?",
+          "fr": "Quand a lieu la saison de ski dans les Pyrénées espagnoles ?",
+          "es": "¿Cuándo es la temporada de esquí en el Pirineo español?",
+          "pt": "Quando é a época de esqui nos Pirenéus espanhóis?",
+          "it": "Quando è la stagione sciistica nei Pirenei spagnoli?"
+        },
+        "a": {
+          "en": "Roughly December to April, with the most reliable snow from January to March. High-base resorts like Boí Taüll hold their season the longest.",
+          "fr": "Grosso modo de décembre à avril, avec la neige la plus fiable de janvier à mars. Les stations au pied élevé comme Boí Taüll prolongent le plus la saison.",
+          "es": "Aproximadamente de diciembre a abril, con la nieve más fiable de enero a marzo. Las estaciones de cota alta como Boí Taüll alargan más la temporada.",
+          "pt": "Sensivelmente de dezembro a abril, com a neve mais fiável de janeiro a março. As estâncias de cota alta como Boí Taüll prolongam mais a época.",
+          "it": "All'incirca da dicembre ad aprile, con la neve più affidabile da gennaio a marzo. Le località a quota base alta come Boí Taüll prolungano di più la stagione."
+        }
+      }
+    ]
+  },
+  "value-spain": {
+    "title": {
+      "en": "Best affordable ski resorts in Spain",
+      "fr": "Meilleures stations de ski économiques d'Espagne",
+      "es": "Mejores estaciones de esquí económicas de España",
+      "pt": "Melhores estâncias de esqui económicas de Espanha",
+      "it": "Migliori località sciistiche economiche di Spagna"
+    },
+    "intro": {
+      "en": "Spain is the budget way to ski in Western Europe: high sunny mountains, gentle pistes and lift passes that undercut the Alps. These are the resorts that give you the most snow for your money.",
+      "fr": "L'Espagne est la façon économique de skier en Europe de l'Ouest : des montagnes hautes et ensoleillées, des pistes douces et des forfaits qui cassent les prix alpins. Voici les stations qui offrent le plus de neige pour votre budget.",
+      "es": "España es la forma económica de esquiar en Europa Occidental: montañas altas y soleadas, pistas suaves y forfaits que bajan los precios de los Alpes. Estas son las estaciones que dan más nieve por tu dinero.",
+      "pt": "Espanha é a forma económica de esquiar na Europa Ocidental: montanhas altas e soalheiras, pistas suaves e passes que ficam abaixo dos Alpes. Estas são as estâncias que dão mais neve pelo seu dinheiro.",
+      "it": "La Spagna è il modo economico di sciare nell'Europa occidentale: montagne alte e soleggiate, piste dolci e skipass che battono le Alpi. Ecco le località che offrono più neve per il tuo budget."
+    },
+    "body": {
+      "en": "Spain has long been the value corner of the Alpine map. In the Aragon Pyrenees, Formigal packs a big, lively ski area into holiday-club prices, while Candanchú and Astún share the Canfranc valley with honest, no-frills skiing that locals have loved for decades. Over in Catalonia, Masella and its Alp 2500 pistes are a byword for family-friendly value.\n\nThe further you get from the marquee names, the more your money stretches. Panticosa is a quiet spa-town base with skiing above, and Alto Campoo in the Cantabrian Mountains is about as no-frills and cheap as lift-served skiing gets in Spain.\n\nThen there is Sierra Nevada, the one that breaks every rule: Europe's southernmost major resort, high above Granada, where you can ski in the morning and reach the Mediterranean coast the same afternoon. Wherever you go, expect sunshine, gentle learning terrain and a bill that leaves room for tapas.",
+      "fr": "L'Espagne est depuis longtemps le bon plan de la carte alpine. Dans les Pyrénées aragonaises, Formigal glisse un grand domaine animé dans des tarifs de club de vacances, tandis que Candanchú et Astún se partagent la vallée de Canfranc avec un ski franc et sans chichis que les locaux adorent depuis des décennies. Côté Catalogne, Masella et ses pistes d'Alp 2500 sont synonymes de bon rapport qualité-prix en famille.\n\nPlus on s'éloigne des grands noms, plus le budget s'étire. Panticosa est un tranquille village thermal avec le ski au-dessus, et Alto Campoo, dans les monts Cantabriques, est à peu près ce qui se fait de plus simple et de moins cher en ski avec remontées en Espagne.\n\nEt puis il y a la Sierra Nevada, celle qui casse toutes les règles : la station majeure la plus au sud d'Europe, au-dessus de Grenade, où l'on skie le matin et rejoint la Méditerranée l'après-midi même. Où que vous alliez, attendez-vous à du soleil, des pentes douces pour apprendre et une addition qui laisse de la place pour les tapas.",
+      "es": "España es desde hace tiempo el rincón asequible del mapa alpino. En el Pirineo aragonés, Formigal mete un dominio grande y animado en precios de club de vacaciones, mientras que Candanchú y Astún comparten el valle de Canfranc con un esquí honesto y sin artificios que los locales adoran desde hace décadas. En Cataluña, Masella y sus pistas de Alp 2500 son sinónimo de buena relación calidad-precio en familia.\n\nCuanto más te alejas de los grandes nombres, más cunde el dinero. Panticosa es un tranquilo pueblo balneario con el esquí arriba, y Alto Campoo, en la Cordillera Cantábrica, es casi lo más sencillo y barato del esquí con remontes en España.\n\nY luego está Sierra Nevada, la que rompe todas las reglas: la mayor estación más al sur de Europa, sobre Granada, donde puedes esquiar por la mañana y llegar al Mediterráneo esa misma tarde. Vayas donde vayas, cuenta con sol, terreno suave para aprender y una cuenta que deja sitio para las tapas.",
+      "pt": "Espanha é há muito o canto acessível do mapa alpino. No Pirenéu aragonês, Formigal mete um domínio grande e animado em preços de clube de férias, enquanto Candanchú e Astún partilham o vale de Canfranc com um esqui honesto e sem artifícios que os locais adoram há décadas. Na Catalunha, Masella e as suas pistas de Alp 2500 são sinónimo de boa relação qualidade-preço em família.\n\nQuanto mais se afasta dos grandes nomes, mais o dinheiro rende. Panticosa é uma tranquila vila termal com o esqui por cima, e Alto Campoo, na Cordilheira Cantábrica, é quase o mais simples e barato do esqui com teleféricos em Espanha.\n\nE depois há a Serra Nevada, a que quebra todas as regras: a maior estância mais a sul da Europa, sobre Granada, onde pode esquiar de manhã e chegar ao Mediterrâneo nessa mesma tarde. Onde quer que vá, conte com sol, terreno suave para aprender e uma conta que deixa espaço para as tapas.",
+      "it": "La Spagna è da tempo l'angolo conveniente della mappa alpina. Nei Pirenei aragonesi, Formigal infila un comprensorio grande e vivace in prezzi da villaggio vacanze, mentre Candanchú e Astún si dividono la valle di Canfranc con uno sci onesto e senza fronzoli che la gente del posto ama da decenni. In Catalogna, Masella e le sue piste di Alp 2500 sono sinonimo di buon rapporto qualità-prezzo in famiglia.\n\nPiù ti allontani dai grandi nomi, più il budget si allunga. Panticosa è un tranquillo paese termale con lo sci sopra, e Alto Campoo, nella Cordigliera Cantabrica, è quanto di più semplice ed economico offra lo sci con impianti in Spagna.\n\nE poi c'è la Sierra Nevada, quella che rompe ogni regola: la più grande località più a sud d'Europa, sopra Granada, dove puoi sciare al mattino e raggiungere il Mediterraneo nello stesso pomeriggio. Ovunque tu vada, aspettati sole, pendii dolci per imparare e un conto che lascia spazio per le tapas."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Where can you ski cheaply in Spain?",
+          "fr": "Où skier pas cher en Espagne ?",
+          "es": "¿Dónde se puede esquiar barato en España?",
+          "pt": "Onde se pode esquiar barato em Espanha?",
+          "it": "Dove si può sciare a poco prezzo in Spagna?"
+        },
+        "a": {
+          "en": "Formigal, Astún and Candanchú in Aragon and Masella in Catalonia offer big, sunny skiing at friendly prices, while Alto Campoo and Panticosa are cheaper still.",
+          "fr": "Formigal, Astún et Candanchú en Aragon et Masella en Catalogne offrent un grand ski ensoleillé à prix doux, tandis qu'Alto Campoo et Panticosa sont moins chers encore.",
+          "es": "Formigal, Astún y Candanchú en Aragón y Masella en Cataluña ofrecen un gran esquí soleado a precios amables, mientras que Alto Campoo y Panticosa salen aún más baratos.",
+          "pt": "Formigal, Astún e Candanchú em Aragão e Masella na Catalunha oferecem um grande esqui soalheiro a preços amigáveis, enquanto Alto Campoo e Panticosa saem ainda mais baratos.",
+          "it": "Formigal, Astún e Candanchú in Aragona e Masella in Catalogna offrono un grande sci soleggiato a prezzi accessibili, mentre Alto Campoo e Panticosa costano ancora meno."
+        }
+      },
+      {
+        "q": {
+          "en": "Can you really ski and hit the beach the same day in Spain?",
+          "fr": "Peut-on vraiment skier et aller à la plage le même jour en Espagne ?",
+          "es": "¿De verdad se puede esquiar y ir a la playa el mismo día en España?",
+          "pt": "É mesmo possível esquiar e ir à praia no mesmo dia em Espanha?",
+          "it": "Si può davvero sciare e andare in spiaggia lo stesso giorno in Spagna?"
+        },
+        "a": {
+          "en": "At Sierra Nevada, yes. The resort sits above Granada in the south, close enough to the Mediterranean coast that a morning on the snow and an afternoon by the sea is a genuine day out.",
+          "fr": "À la Sierra Nevada, oui. La station domine Grenade, dans le sud, assez près de la côte méditerranéenne pour enchaîner une matinée sur la neige et un après-midi au bord de l'eau.",
+          "es": "En Sierra Nevada, sí. La estación se alza sobre Granada, en el sur, lo bastante cerca del Mediterráneo como para encadenar una mañana de nieve y una tarde de playa.",
+          "pt": "Na Serra Nevada, sim. A estância ergue-se sobre Granada, no sul, perto o suficiente do Mediterrâneo para juntar uma manhã na neve e uma tarde à beira-mar.",
+          "it": "Alla Sierra Nevada, sì. La località domina Granada, nel sud, abbastanza vicina alla costa mediterranea da unire una mattina sulla neve e un pomeriggio al mare."
+        }
+      },
+      {
+        "q": {
+          "en": "Is Spain good for a first ski trip?",
+          "fr": "L'Espagne est-elle bien pour un premier séjour au ski ?",
+          "es": "¿España es buena para un primer viaje de esquí?",
+          "pt": "Espanha é boa para uma primeira viagem de esqui?",
+          "it": "La Spagna è adatta a una prima settimana bianca?"
+        },
+        "a": {
+          "en": "Very. Gentle sunny pistes, well-priced ski schools and lower overall costs make the Spanish resorts an easy, low-pressure place to learn.",
+          "fr": "Tout à fait. Des pistes douces et ensoleillées, des écoles de ski au bon prix et des coûts globaux plus bas font des stations espagnoles un endroit facile et sans pression pour apprendre.",
+          "es": "Mucho. Pistas suaves y soleadas, escuelas de esquí a buen precio y costes más bajos hacen de las estaciones españolas un lugar fácil y sin presión para aprender.",
+          "pt": "Muito. Pistas suaves e soalheiras, escolas de esqui a bom preço e custos mais baixos fazem das estâncias espanholas um lugar fácil e sem pressão para aprender.",
+          "it": "Molto. Piste dolci e soleggiate, scuole di sci a buon prezzo e costi complessivi più bassi rendono le località spagnole un posto facile e senza pressioni per imparare."
+        }
+      }
+    ]
+  },
+  "family-spain": {
+    "title": {
+      "en": "Best family ski resorts in Spain",
+      "fr": "Meilleures stations de ski en famille en Espagne",
+      "es": "Mejores estaciones de esquí para familias en España",
+      "pt": "Melhores estâncias de esqui para famílias em Espanha",
+      "it": "Migliori località sciistiche per famiglie in Spagna"
+    },
+    "intro": {
+      "en": "Sunny, gentle and easy on the wallet, Spain is one of Europe's most relaxed places to ski with children. These resorts pair broad beginner slopes and good ski schools with prices that keep a family holiday sane.",
+      "fr": "Ensoleillée, douce et légère pour le portefeuille, l'Espagne est l'un des endroits les plus tranquilles d'Europe pour skier avec des enfants. Ces stations associent de larges pistes débutants et de bonnes écoles de ski à des prix qui gardent le budget famille raisonnable.",
+      "es": "Soleada, suave y amable con el bolsillo, España es uno de los lugares más tranquilos de Europa para esquiar con niños. Estas estaciones combinan amplias pistas de principiantes y buenas escuelas de esquí con precios que mantienen cuerdo el presupuesto familiar.",
+      "pt": "Soalheira, suave e amiga da carteira, Espanha é um dos lugares mais tranquilos da Europa para esquiar com crianças. Estas estâncias juntam amplas pistas de principiantes e boas escolas de esqui a preços que mantêm o orçamento familiar são.",
+      "it": "Soleggiata, dolce e leggera per il portafoglio, la Spagna è uno dei posti più rilassati d'Europa per sciare con i bambini. Queste località uniscono ampie piste per principianti e buone scuole di sci a prezzi che tengono in salute il budget di famiglia."
+    },
+    "body": {
+      "en": "Spanish skiing was practically built for families. In the Catalan Cerdanya, La Molina is the country's oldest resort and still one of its friendliest for children, with a dedicated learning area and an easy train link, while neighbouring Masella adds sunny, gentle pistes on the same Alp 2500 lift pass.\n\nAcross the Pyrenees the story repeats: Astún and Port Ainé, Espot and Panticosa all offer broad nursery slopes, ski schools used to first-timers and compact bases where you are never far from the kids. Prices for lessons, gear hire and family lodging stay refreshingly down to earth.\n\nFor something different, Sierra Nevada above Granada is a brilliant family week: a purpose-built pedestrian village, tons of sun, a big beginner zone and the novelty of a city and the coast within reach. And for a quiet, low-cost weekend, Alto Campoo in the Cantabrian mountains is as unfussy as it gets.",
+      "fr": "Le ski espagnol semble pensé pour les familles. Dans la Cerdagne catalane, La Molina est la plus ancienne station du pays et reste l'une des plus accueillantes pour les enfants, avec un espace d'apprentissage dédié et un accès facile en train, tandis que Masella, voisine, ajoute des pistes douces et ensoleillées sur le même forfait Alp 2500.\n\nD'un bout à l'autre des Pyrénées, l'histoire se répète : Astún et Port Ainé, Espot et Panticosa offrent de larges zones débutants, des écoles de ski habituées aux premières fois et des bases compactes où l'on n'est jamais loin des enfants. Les prix des cours, de la location et de l'hébergement famille restent agréablement raisonnables.\n\nPour changer, la Sierra Nevada au-dessus de Grenade fait une superbe semaine en famille : un village piéton conçu pour ça, du soleil à revendre, une grande zone débutants et le plaisir d'avoir une ville et la côte à portée de main. Et pour un week-end tranquille et bon marché, Alto Campoo, dans les monts Cantabriques, est le plus simple qui soit.",
+      "es": "El esquí español parece hecho para las familias. En la Cerdaña catalana, La Molina es la estación más antigua del país y sigue siendo una de las más acogedoras para los niños, con una zona de aprendizaje propia y un cómodo acceso en tren, mientras que la vecina Masella suma pistas suaves y soleadas con el mismo forfait de Alp 2500.\n\nDe punta a punta del Pirineo la historia se repite: Astún y Port Ainé, Espot y Panticosa ofrecen amplias zonas de debutantes, escuelas de esquí acostumbradas a los que empiezan y bases compactas donde nunca estás lejos de los niños. Los precios de clases, alquiler y alojamiento familiar se mantienen agradablemente sensatos.\n\nPara algo distinto, Sierra Nevada sobre Granada es una semana familiar estupenda: un pueblo peatonal hecho a propósito, sol a raudales, una gran zona de principiantes y el aliciente de tener una ciudad y la costa cerca. Y para un fin de semana tranquilo y barato, Alto Campoo, en la Cordillera Cantábrica, es lo más sencillo que hay.",
+      "pt": "O esqui espanhol parece feito para as famílias. Na Cerdanha catalã, La Molina é a estância mais antiga do país e continua a ser uma das mais acolhedoras para as crianças, com uma zona de aprendizagem própria e um cómodo acesso de comboio, enquanto a vizinha Masella soma pistas suaves e soalheiras com o mesmo passe de Alp 2500.\n\nDe ponta a ponta dos Pirenéus a história repete-se: Astún e Port Ainé, Espot e Panticosa oferecem amplas zonas de principiantes, escolas de esqui habituadas a quem começa e bases compactas onde nunca se está longe das crianças. Os preços de aulas, aluguer e alojamento familiar mantêm-se agradavelmente sensatos.\n\nPara algo diferente, a Serra Nevada sobre Granada é uma ótima semana em família: uma aldeia pedonal feita de propósito, sol em abundância, uma grande zona de principiantes e o encanto de ter uma cidade e a costa por perto. E para um fim de semana tranquilo e barato, Alto Campoo, na Cordilheira Cantábrica, é o mais simples que há.",
+      "it": "Lo sci spagnolo sembra fatto per le famiglie. Nella Cerdanya catalana, La Molina è la località più antica del paese e resta una delle più accoglienti per i bambini, con un'area apprendimento dedicata e un comodo collegamento in treno, mentre la vicina Masella aggiunge piste dolci e soleggiate con lo stesso skipass di Alp 2500.\n\nDa un capo all'altro dei Pirenei la storia si ripete: Astún e Port Ainé, Espot e Panticosa offrono ampie zone per principianti, scuole di sci abituate ai neofiti e basi compatte dove non sei mai lontano dai bambini. I prezzi di lezioni, noleggio e alloggio per famiglie restano piacevolmente ragionevoli.\n\nPer qualcosa di diverso, la Sierra Nevada sopra Granada è una splendida settimana in famiglia: un villaggio pedonale costruito apposta, sole in abbondanza, una grande zona per principianti e il piacere di avere una città e la costa a portata di mano. E per un fine settimana tranquillo ed economico, Alto Campoo, nei monti Cantabrici, è il più semplice che ci sia."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Which Spanish ski resort is best for families?",
+          "fr": "Quelle station espagnole est la meilleure en famille ?",
+          "es": "¿Qué estación de esquí española es la mejor para familias?",
+          "pt": "Que estância de esqui espanhola é a melhor para famílias?",
+          "it": "Quale località sciistica spagnola è la migliore per le famiglie?"
+        },
+        "a": {
+          "en": "La Molina and neighbouring Masella are the classic family pick, with wide learning slopes and a shared lift pass. Sierra Nevada and Astún are also excellent for children.",
+          "fr": "La Molina et Masella, voisines, sont le choix famille classique, avec de larges pentes d'apprentissage et un forfait commun. Sierra Nevada et Astún sont aussi excellentes pour les enfants.",
+          "es": "La Molina y la vecina Masella son la elección familiar clásica, con amplias pistas de aprendizaje y un forfait compartido. Sierra Nevada y Astún también son excelentes para los niños.",
+          "pt": "La Molina e a vizinha Masella são a escolha familiar clássica, com amplas pistas de aprendizagem e um passe partilhado. Serra Nevada e Astún também são excelentes para as crianças.",
+          "it": "La Molina e la vicina Masella sono la scelta di famiglia classica, con ampie piste per imparare e uno skipass condiviso. Sierra Nevada e Astún sono ottime anche per i bambini."
+        }
+      },
+      {
+        "q": {
+          "en": "Do Spanish resorts have ski schools for children?",
+          "fr": "Les stations espagnoles ont-elles des écoles de ski pour enfants ?",
+          "es": "¿Las estaciones españolas tienen escuelas de esquí para niños?",
+          "pt": "As estâncias espanholas têm escolas de esqui para crianças?",
+          "it": "Le località spagnole hanno scuole di sci per bambini?"
+        },
+        "a": {
+          "en": "Yes. Every resort here runs ski schools with children's groups and private lessons, usually at prices below the big Alpine names, plus dedicated beginner and snow-garden areas.",
+          "fr": "Oui. Chacune de ces stations dispose d'écoles de ski avec cours enfants collectifs et particuliers, en général moins chers que dans les grands noms alpins, plus des espaces débutants et jardins des neiges.",
+          "es": "Sí. Todas estas estaciones tienen escuelas de esquí con grupos infantiles y clases particulares, normalmente más baratas que en los grandes nombres alpinos, además de zonas de debutantes y jardines de nieve.",
+          "pt": "Sim. Todas estas estâncias têm escolas de esqui com grupos infantis e aulas particulares, normalmente mais baratas do que nos grandes nomes alpinos, além de zonas de principiantes e jardins de neve.",
+          "it": "Sì. Ognuna di queste località ha scuole di sci con corsi per bambini, di gruppo e privati, di solito a prezzi inferiori ai grandi nomi alpini, oltre ad aree per principianti e giardini di neve."
+        }
+      },
+      {
+        "q": {
+          "en": "Is Sierra Nevada good for a family ski holiday?",
+          "fr": "La Sierra Nevada est-elle bien pour des vacances au ski en famille ?",
+          "es": "¿Sierra Nevada es buena para unas vacaciones de esquí en familia?",
+          "pt": "A Serra Nevada é boa para umas férias de esqui em família?",
+          "it": "La Sierra Nevada è adatta a una vacanza sugli sci in famiglia?"
+        },
+        "a": {
+          "en": "Very. It has a car-free village you can walk end to end, a large sunny beginner zone, reliable snow at altitude and the bonus of Granada and the coast nearby for days off the snow.",
+          "fr": "Tout à fait. Elle offre un village piéton que l'on traverse à pied, une grande zone débutants ensoleillée, une neige fiable en altitude et le bonus de Grenade et de la côte tout près pour les jours sans ski.",
+          "es": "Mucho. Tiene un pueblo peatonal que se recorre a pie, una gran zona de principiantes soleada, nieve fiable en altura y el aliciente de Granada y la costa cerca para los días sin esquí.",
+          "pt": "Muito. Tem uma aldeia pedonal que se percorre a pé, uma grande zona de principiantes soalheira, neve fiável em altitude e o bónus de Granada e da costa por perto para os dias sem esqui.",
+          "it": "Molto. Ha un villaggio pedonale che si attraversa a piedi, una grande zona per principianti soleggiata, neve affidabile in quota e il vantaggio di Granada e della costa vicine per i giorni senza sci."
+        }
+      }
+    ]
   }
 }

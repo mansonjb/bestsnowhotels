@@ -37,6 +37,11 @@ export const SKI_THEMES: SkiTheme[] = [
   { slug: 'french-alps', heroSlug: 'val-thorens', kind: 'resorts' },
   { slug: 'french-pyrenees', heroSlug: 'saint-lary', kind: 'resorts' },
   { slug: 'value-france', heroSlug: 'les-menuires', kind: 'resorts' },
+  // Spain focus: the Pyrenees range + the two angles that are Spain's identity
+  // (affordable and family), all data-driven selections.
+  { slug: 'spanish-pyrenees', heroSlug: 'baqueira-beret', kind: 'resorts' },
+  { slug: 'value-spain', heroSlug: 'formigal', kind: 'resorts' },
+  { slug: 'family-spain', heroSlug: 'la-molina', kind: 'resorts' },
 ]
 
 export const getThemes = (): SkiTheme[] => SKI_THEMES
@@ -63,8 +68,11 @@ export function themeResorts(slug: string): Destination[] {
   else if (slug === 'french-alps') list = destinations.filter((d) => d.region === 'French Alps')
   else if (slug === 'french-pyrenees') list = destinations.filter((d) => d.region === 'French Pyrenees')
   else if (slug === 'value-france') list = destinations.filter((d) => d.countryCode === 'FR' && d.vibes.includes('value'))
+  else if (slug === 'spanish-pyrenees') list = destinations.filter((d) => d.region === 'Spanish Pyrenees')
+  else if (slug === 'value-spain') list = destinations.filter((d) => d.countryCode === 'ES' && d.vibes.includes('value'))
+  else if (slug === 'family-spain') list = destinations.filter((d) => d.countryCode === 'ES' && d.vibes.includes('family'))
   // Cap the big French Alps and value lists to the top 24 by snow score; the
-  // Pyrenees list (18) shows in full.
+  // Pyrenees lists and the Spain lists (all under 24) show in full.
   const capped = slug === 'french-alps' || slug === 'value-france'
   const sorted = list.sort((a, b) => b.snowScore - a.snowScore)
   return capped ? sorted.slice(0, 24) : sorted

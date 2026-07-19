@@ -112,6 +112,9 @@ Long-tail editorial guides built around one idea, with resorts or hotels chosen 
 - /ski-guides/french-alps: best ski resorts in the French Alps (Val Thorens, Tignes, Val d'Isere, Les Arcs, Courchevel, Chamonix, the Three Valleys and Paradiski)
 - /ski-guides/french-pyrenees: best ski resorts in the French Pyrenees, France's best-value range (Saint-Lary, Grand Tourmalet, Peyragudes, Cauterets, Piau-Engaly, Font-Romeu)
 - /ski-guides/value-france: best value ski resorts in France (Les Menuires, Orelle, Valmorel, Les Sybelles: same mountains as the marquee names for a fraction of the price)
+- /ski-guides/spanish-pyrenees: best ski resorts in the Spanish Pyrenees (Baqueira Beret, Formigal, Cerler, Boi Taull, La Molina, Masella, Candanchu, Astun)
+- /ski-guides/value-spain: best affordable ski resorts in Spain, Western Europe's budget skiing (Formigal, Astun, Candanchu, Masella, Panticosa, Sierra Nevada, Alto Campoo)
+- /ski-guides/family-spain: best family ski resorts in Spain (La Molina, Masella, Astun, Port Aine, Espot, Panticosa, Sierra Nevada, Alto Campoo)
 
 Index: https://www.bestsnowhotels.com/en/ski-guides
 
