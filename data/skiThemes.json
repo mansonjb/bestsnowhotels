@@ -217,5 +217,224 @@
         }
       }
     ]
+  },
+  "french-alps": {
+    "title": {
+      "en": "Best ski resorts in the French Alps",
+      "fr": "Meilleures stations de ski des Alpes françaises",
+      "es": "Mejores estaciones de esquí de los Alpes franceses",
+      "pt": "Melhores estâncias de esqui dos Alpes franceses",
+      "it": "Migliori località sciistiche delle Alpi francesi"
+    },
+    "intro": {
+      "en": "The French Alps are the beating heart of European skiing: the biggest linked domains on earth, high-altitude snow you can count on, and a resort for every budget and level. Here are the ones worth the trip.",
+      "fr": "Les Alpes françaises sont le cœur battant du ski européen : les plus grands domaines reliés au monde, une neige d'altitude fiable et une station pour chaque budget et chaque niveau. Voici celles qui valent le voyage.",
+      "es": "Los Alpes franceses son el corazón del esquí europeo: los mayores dominios enlazados del mundo, nieve de altura fiable y una estación para cada presupuesto y nivel. Estas son las que merecen el viaje.",
+      "pt": "Os Alpes franceses são o coração do esqui europeu: os maiores domínios ligados do mundo, neve de altitude fiável e uma estância para cada orçamento e nível. Estas são as que valem a viagem.",
+      "it": "Le Alpi francesi sono il cuore pulsante dello sci europeo: i comprensori collegati più grandi al mondo, neve d'alta quota affidabile e una località per ogni budget e livello. Ecco quelle che valgono il viaggio."
+    },
+    "body": {
+      "en": "No mountain range packs in more world-class skiing than the French Alps. From the Tarentaise valley, where Val Thorens, Tignes, Val d'Isere, Les Arcs, La Plagne and the Three Valleys stack up altitude and piste kilometres, to the Mont Blanc massif around Chamonix and Megeve, this is where the sport goes big.\n\nAltitude is the trump card. Val Thorens (Europe's highest village at 2300 m), Tignes and Val d'Isere sit high enough to hold cold, dry snow from late November into May, several plugged into a glacier for good measure. Lower down, Morzine, Avoriaz and the Portes du Soleil trade a little snow-sureness for tree-lined runs and cross-border charm.\n\nSize is the other. The Three Valleys, Paradiski and the Espace Killy rank among the largest lift-linked areas in the world, so you can ski a week without repeating a run. Whatever your level, from a first green run to the couloirs of Chamonix, there is a French Alpine resort built for it.",
+      "fr": "Aucun massif ne concentre autant de ski de classe mondiale que les Alpes françaises. De la vallée de la Tarentaise, où Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne et les Trois Vallées empilent altitude et kilomètres de pistes, jusqu'au massif du Mont-Blanc autour de Chamonix et Megève, c'est ici que le ski voit grand.\n\nL'altitude est l'atout maître. Val Thorens (plus haut village d'Europe à 2300 m), Tignes et Val d'Isère culminent assez haut pour garder une neige froide et sèche de fin novembre à mai, plusieurs prolongés par un glacier. Plus bas, Morzine, Avoriaz et les Portes du Soleil échangent un peu d'enneigement garanti contre des pistes en forêt et un charme transfrontalier.\n\nLa taille est l'autre. Les Trois Vallées, Paradiski et l'Espace Killy comptent parmi les plus grands domaines reliés au monde : on skie une semaine sans refaire deux fois la même piste. Quel que soit votre niveau, de la première piste verte aux couloirs de Chamonix, il existe une station des Alpes françaises taillée pour vous.",
+      "es": "Ninguna cordillera concentra tanto esquí de primer nivel como los Alpes franceses. Del valle de la Tarentaise, donde Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne y los Tres Valles acumulan altura y kilómetros de pistas, al macizo del Mont Blanc en torno a Chamonix y Megève, aquí el esquí se hace a lo grande.\n\nLa altura es la baza principal. Val Thorens (el pueblo más alto de Europa, a 2300 m), Tignes y Val d'Isère se alzan lo bastante para conservar nieve fría y seca de finales de noviembre a mayo, varios rematados por un glaciar. Más abajo, Morzine, Avoriaz y los Portes du Soleil cambian algo de garantía de nieve por pistas entre árboles y encanto transfronterizo.\n\nEl tamaño es la otra. Los Tres Valles, Paradiski y el Espace Killy figuran entre los mayores dominios enlazados del mundo: se esquía una semana sin repetir pista. Sea cual sea tu nivel, de la primera pista verde a los corredores de Chamonix, hay una estación de los Alpes franceses hecha para ti.",
+      "pt": "Nenhuma cordilheira concentra tanto esqui de topo como os Alpes franceses. Do vale da Tarentaise, onde Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne e os Três Vales acumulam altitude e quilómetros de pistas, ao maciço do Monte Branco em torno de Chamonix e Megève, é aqui que o esqui se faz em grande.\n\nA altitude é o trunfo maior. Val Thorens (a aldeia mais alta da Europa, a 2300 m), Tignes e Val d'Isère erguem-se o suficiente para manter neve fria e seca de finais de novembro a maio, vários prolongados por um glaciar. Mais abaixo, Morzine, Avoriaz e os Portes du Soleil trocam alguma garantia de neve por pistas na floresta e charme transfronteiriço.\n\nO tamanho é o outro. Os Três Vales, Paradiski e o Espace Killy estão entre os maiores domínios ligados do mundo: esquia-se uma semana sem repetir pista. Seja qual for o seu nível, da primeira pista verde aos corredores de Chamonix, há uma estância dos Alpes franceses feita para si.",
+      "it": "Nessuna catena concentra tanto sci di livello mondiale come le Alpi francesi. Dalla valle della Tarentaise, dove Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne e le Tre Valli accumulano quota e chilometri di piste, al massiccio del Monte Bianco attorno a Chamonix e Megève, è qui che lo sci si fa in grande.\n\nLa quota è l'asso nella manica. Val Thorens (il paese più alto d'Europa a 2300 m), Tignes e Val d'Isère sono abbastanza in alto da mantenere neve fredda e asciutta da fine novembre a maggio, molti prolungati da un ghiacciaio. Più in basso, Morzine, Avoriaz e i Portes du Soleil scambiano un po' di garanzia di neve con piste nel bosco e fascino transfrontaliero.\n\nLe dimensioni sono l'altro. Le Tre Valli, Paradiski e l'Espace Killy figurano tra i comprensori collegati più grandi al mondo: si scia una settimana senza ripetere una pista. Qualunque sia il tuo livello, dalla prima pista verde ai canali di Chamonix, c'è una località delle Alpi francesi fatta apposta."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Which French Alps resort has the most reliable snow?",
+          "fr": "Quelle station des Alpes françaises a la neige la plus fiable ?",
+          "es": "¿Qué estación de los Alpes franceses tiene la nieve más fiable?",
+          "pt": "Que estância dos Alpes franceses tem a neve mais fiável?",
+          "it": "Quale località delle Alpi francesi ha la neve più affidabile?"
+        },
+        "a": {
+          "en": "The high Tarentaise resorts, Val Thorens, Tignes and Val d'Isere, sit above 1800 m and hold snow from late November into May, several with glacier skiing on top.",
+          "fr": "Les stations de haute Tarentaise, Val Thorens, Tignes et Val d'Isère, dépassent 1800 m et gardent la neige de fin novembre à mai, plusieurs avec du ski sur glacier en prime.",
+          "es": "Las estaciones de la alta Tarentaise, Val Thorens, Tignes y Val d'Isère, superan los 1800 m y conservan la nieve de finales de noviembre a mayo, varias con esquí en glaciar.",
+          "pt": "As estâncias da alta Tarentaise, Val Thorens, Tignes e Val d'Isère, ultrapassam os 1800 m e mantêm a neve de finais de novembro a maio, várias com esqui em glaciar.",
+          "it": "Le località dell'alta Tarentaise, Val Thorens, Tignes e Val d'Isère, superano i 1800 m e mantengono la neve da fine novembre a maggio, diverse con sci sul ghiacciaio."
+        }
+      },
+      {
+        "q": {
+          "en": "What is the biggest ski area in the French Alps?",
+          "fr": "Quel est le plus grand domaine skiable des Alpes françaises ?",
+          "es": "¿Cuál es el mayor dominio esquiable de los Alpes franceses?",
+          "pt": "Qual é o maior domínio esquiável dos Alpes franceses?",
+          "it": "Qual è il comprensorio più grande delle Alpi francesi?"
+        },
+        "a": {
+          "en": "The Three Valleys, linking Val Thorens, Meribel, Courchevel, Les Menuires and Orelle, is the largest lift-linked ski area in the world, followed by Paradiski (Les Arcs and La Plagne).",
+          "fr": "Les Trois Vallées, qui relient Val Thorens, Méribel, Courchevel, Les Menuires et Orelle, forment le plus grand domaine relié au monde, devant Paradiski (Les Arcs et La Plagne).",
+          "es": "Los Tres Valles, que enlazan Val Thorens, Méribel, Courchevel, Les Menuires y Orelle, forman el mayor dominio enlazado del mundo, por delante de Paradiski (Les Arcs y La Plagne).",
+          "pt": "Os Três Vales, que ligam Val Thorens, Méribel, Courchevel, Les Menuires e Orelle, formam o maior domínio ligado do mundo, à frente de Paradiski (Les Arcs e La Plagne).",
+          "it": "Le Tre Valli, che collegano Val Thorens, Méribel, Courchevel, Les Menuires e Orelle, formano il comprensorio collegato più grande al mondo, davanti a Paradiski (Les Arcs e La Plagne)."
+        }
+      },
+      {
+        "q": {
+          "en": "When is the French Alps ski season?",
+          "fr": "Quand a lieu la saison de ski dans les Alpes françaises ?",
+          "es": "¿Cuándo es la temporada de esquí en los Alpes franceses?",
+          "pt": "Quando é a época de esqui nos Alpes franceses?",
+          "it": "Quando è la stagione sciistica nelle Alpi francesi?"
+        },
+        "a": {
+          "en": "Roughly early December to late April, with the high-altitude resorts opening in late November and closing in early May. Christmas and the February half-term are the busiest and priciest weeks.",
+          "fr": "Grosso modo de début décembre à fin avril, les stations d'altitude ouvrant fin novembre et fermant début mai. Noël et les vacances de février sont les semaines les plus chargées et les plus chères.",
+          "es": "Aproximadamente de principios de diciembre a finales de abril, con las estaciones de altura abriendo a finales de noviembre y cerrando a principios de mayo. Navidad y las vacaciones de febrero son las semanas más concurridas y caras.",
+          "pt": "Sensivelmente de início de dezembro a fim de abril, com as estâncias de altitude a abrir no fim de novembro e a fechar no início de maio. O Natal e as férias de fevereiro são as semanas mais cheias e caras.",
+          "it": "All'incirca da inizio dicembre a fine aprile, con le località d'alta quota che aprono a fine novembre e chiudono a inizio maggio. Natale e le vacanze di febbraio sono le settimane più affollate e care."
+        }
+      }
+    ]
+  },
+  "french-pyrenees": {
+    "title": {
+      "en": "Best ski resorts in the French Pyrenees",
+      "fr": "Meilleures stations de ski des Pyrénées françaises",
+      "es": "Mejores estaciones de esquí de los Pirineos franceses",
+      "pt": "Melhores estâncias de esqui dos Pirenéus franceses",
+      "it": "Migliori località sciistiche dei Pirenei francesi"
+    },
+    "intro": {
+      "en": "Wilder, sunnier and far kinder on the wallet than the Alps, the French Pyrenees are France's best-value mountains, with big-sky views over the Spanish border and genuine local character.",
+      "fr": "Plus sauvages, plus ensoleillées et bien plus douces pour le portefeuille que les Alpes, les Pyrénées françaises sont les montagnes du meilleur rapport qualité-prix, avec de grands horizons vers l'Espagne et un vrai caractère local.",
+      "es": "Más salvajes, más soleados y mucho más suaves con el bolsillo que los Alpes, los Pirineos franceses son las montañas de mejor relación calidad-precio, con grandes horizontes hacia España y auténtico carácter local.",
+      "pt": "Mais selvagens, mais soalheiros e muito mais suaves para a carteira do que os Alpes, os Pirenéus franceses são as montanhas de melhor relação qualidade-preço, com grandes horizontes sobre Espanha e autêntico carácter local.",
+      "it": "Più selvaggi, più soleggiati e molto più leggeri per il portafoglio delle Alpi, i Pirenei francesi sono le montagne dal miglior rapporto qualità-prezzo, con ampi orizzonti verso la Spagna e autentico carattere locale."
+    },
+    "body": {
+      "en": "Running along the Spanish frontier from the Atlantic to the Mediterranean, the French Pyrenees are the country's friendliest ski country. Saint-Lary, Grand Tourmalet (Bareges and La Mongie), Peyragudes, Cauterets and Piau-Engaly lead on size and snow, while Font-Romeu and Les Angles bring Catalan sunshine to the eastern end.\n\nWhat you give up in sheer scale you get back in value and atmosphere. Lift passes and lodging cost a fraction of the Tarentaise, the crowds are thinner, and many resorts pair skiing with thermal spas (Cauterets, Saint-Lary, Bareges) for tired legs. Piau-Engaly and Grand Tourmalet top out high enough for dependable snow.\n\nIt is a family stronghold too: gentle nursery areas, ski schools used to teaching in the sun, and villages where the apres is a plate of garbure rather than a nightclub. For a first ski trip or a budget-savvy week, the Pyrenees are hard to beat.",
+      "fr": "Le long de la frontière espagnole, de l'Atlantique à la Méditerranée, les Pyrénées françaises sont la montagne la plus accueillante du pays. Saint-Lary, le Grand Tourmalet (Barèges et La Mongie), Peyragudes, Cauterets et Piau-Engaly mènent sur la taille et la neige, tandis que Font-Romeu et Les Angles apportent le soleil catalan à l'est.\n\nCe que l'on perd en démesure, on le récupère en prix et en ambiance. Forfaits et hébergement coûtent une fraction de la Tarentaise, il y a moins de monde, et beaucoup de stations associent le ski aux thermes (Cauterets, Saint-Lary, Barèges) pour les jambes fatiguées. Piau-Engaly et le Grand Tourmalet montent assez haut pour une neige fiable.\n\nC'est aussi un fief familial : espaces débutants doux, écoles de ski habituées à enseigner au soleil, et villages où l'après-ski est une assiette de garbure plutôt qu'une boîte de nuit. Pour un premier séjour ou une semaine maligne côté budget, les Pyrénées sont difficiles à battre.",
+      "es": "A lo largo de la frontera española, del Atlántico al Mediterráneo, los Pirineos franceses son la montaña más acogedora del país. Saint-Lary, Grand Tourmalet (Barèges y La Mongie), Peyragudes, Cauterets y Piau-Engaly lideran en tamaño y nieve, mientras que Font-Romeu y Les Angles aportan el sol catalán al este.\n\nLo que se pierde en dimensiones se recupera en precio y ambiente. Los forfaits y el alojamiento cuestan una fracción de la Tarentaise, hay menos gente, y muchas estaciones combinan el esquí con termas (Cauterets, Saint-Lary, Barèges) para las piernas cansadas. Piau-Engaly y Grand Tourmalet suben lo bastante para una nieve fiable.\n\nTambién es un feudo familiar: zonas de debutantes suaves, escuelas de esquí acostumbradas a enseñar al sol y pueblos donde el apres es un plato de garbure y no una discoteca. Para un primer viaje o una semana con buen criterio de gasto, los Pirineos son difíciles de superar.",
+      "pt": "Ao longo da fronteira espanhola, do Atlântico ao Mediterrâneo, os Pirenéus franceses são a montanha mais acolhedora do país. Saint-Lary, Grand Tourmalet (Barèges e La Mongie), Peyragudes, Cauterets e Piau-Engaly lideram em tamanho e neve, enquanto Font-Romeu e Les Angles trazem o sol catalão a leste.\n\nO que se perde em dimensão recupera-se em preço e ambiente. Os passes e o alojamento custam uma fração da Tarentaise, há menos gente, e muitas estâncias juntam o esqui a termas (Cauterets, Saint-Lary, Barèges) para as pernas cansadas. Piau-Engaly e Grand Tourmalet sobem o suficiente para uma neve fiável.\n\nÉ também um reduto de família: zonas de iniciação suaves, escolas de esqui habituadas a ensinar ao sol e aldeias onde o apres é um prato de garbure e não uma discoteca. Para uma primeira viagem ou uma semana esperta no orçamento, os Pirenéus são difíceis de bater.",
+      "it": "Lungo il confine spagnolo, dall'Atlantico al Mediterraneo, i Pirenei francesi sono la montagna più accogliente del paese. Saint-Lary, Grand Tourmalet (Barèges e La Mongie), Peyragudes, Cauterets e Piau-Engaly guidano per dimensioni e neve, mentre Font-Romeu e Les Angles portano il sole catalano a est.\n\nQuello che si perde in scala si recupera in prezzo e atmosfera. Skipass e alloggio costano una frazione della Tarentaise, c'è meno folla e molte località abbinano lo sci alle terme (Cauterets, Saint-Lary, Barèges) per le gambe stanche. Piau-Engaly e Grand Tourmalet salgono abbastanza da garantire neve affidabile.\n\nÈ anche una roccaforte per famiglie: campi scuola dolci, maestri abituati a insegnare al sole e paesi dove l'apres è un piatto di garbure e non una discoteca. Per un primo viaggio o una settimana attenta al budget, i Pirenei sono difficili da battere."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Are the French Pyrenees cheaper than the Alps?",
+          "fr": "Les Pyrénées françaises sont-elles moins chères que les Alpes ?",
+          "es": "¿Son los Pirineos franceses más baratos que los Alpes?",
+          "pt": "Os Pirenéus franceses são mais baratos do que os Alpes?",
+          "it": "I Pirenei francesi costano meno delle Alpi?"
+        },
+        "a": {
+          "en": "Yes, noticeably. Lift passes, lessons and accommodation usually cost far less than in the Tarentaise, which makes the Pyrenees France's top choice for value and family ski trips.",
+          "fr": "Oui, nettement. Forfaits, cours et hébergement coûtent en général bien moins qu'en Tarentaise, ce qui fait des Pyrénées le premier choix français pour un séjour malin ou en famille.",
+          "es": "Sí, claramente. Forfaits, clases y alojamiento suelen costar mucho menos que en la Tarentaise, lo que convierte a los Pirineos en la primera opción francesa para un viaje económico o en familia.",
+          "pt": "Sim, claramente. Passes, aulas e alojamento costumam custar muito menos do que na Tarentaise, o que faz dos Pirenéus a primeira escolha francesa para uma viagem económica ou em família.",
+          "it": "Sì, nettamente. Skipass, lezioni e alloggio costano di solito molto meno che in Tarentaise, il che rende i Pirenei la prima scelta francese per un viaggio conveniente o in famiglia."
+        }
+      },
+      {
+        "q": {
+          "en": "Which is the biggest resort in the French Pyrenees?",
+          "fr": "Quelle est la plus grande station des Pyrénées françaises ?",
+          "es": "¿Cuál es la mayor estación de los Pirineos franceses?",
+          "pt": "Qual é a maior estância dos Pirenéus franceses?",
+          "it": "Qual è la località più grande dei Pirenei francesi?"
+        },
+        "a": {
+          "en": "Grand Tourmalet (Bareges and La Mongie) and Saint-Lary are the largest, each with more than 60 km of pistes, followed by Peyragudes and Piau-Engaly.",
+          "fr": "Le Grand Tourmalet (Barèges et La Mongie) et Saint-Lary sont les plus grandes, avec chacune plus de 60 km de pistes, devant Peyragudes et Piau-Engaly.",
+          "es": "Grand Tourmalet (Barèges y La Mongie) y Saint-Lary son las mayores, cada una con más de 60 km de pistas, seguidas de Peyragudes y Piau-Engaly.",
+          "pt": "Grand Tourmalet (Barèges e La Mongie) e Saint-Lary são as maiores, cada uma com mais de 60 km de pistas, seguidas de Peyragudes e Piau-Engaly.",
+          "it": "Grand Tourmalet (Barèges e La Mongie) e Saint-Lary sono le più grandi, ciascuna con oltre 60 km di piste, seguite da Peyragudes e Piau-Engaly."
+        }
+      },
+      {
+        "q": {
+          "en": "Do Pyrenean resorts have good snow?",
+          "fr": "Les stations pyrénéennes ont-elles une bonne neige ?",
+          "es": "¿Tienen buena nieve las estaciones pirenaicas?",
+          "pt": "As estâncias pirenaicas têm boa neve?",
+          "it": "Le località dei Pirenei hanno buona neve?"
+        },
+        "a": {
+          "en": "The higher resorts, Piau-Engaly, Grand Tourmalet, Peyragudes and Cauterets, hold snow well thanks to altitude and snowmaking, though the range is sunnier and a touch lower than the high Alps.",
+          "fr": "Les stations les plus hautes, Piau-Engaly, Grand Tourmalet, Peyragudes et Cauterets, tiennent bien la neige grâce à l'altitude et à la neige de culture, même si le massif est plus ensoleillé et un peu plus bas que les hautes Alpes.",
+          "es": "Las estaciones más altas, Piau-Engaly, Grand Tourmalet, Peyragudes y Cauterets, conservan bien la nieve gracias a la altura y la nieve producida, aunque la cordillera es más soleada y algo más baja que los altos Alpes.",
+          "pt": "As estâncias mais altas, Piau-Engaly, Grand Tourmalet, Peyragudes e Cauterets, mantêm bem a neve graças à altitude e à neve produzida, embora a cordilheira seja mais soalheira e um pouco mais baixa do que os altos Alpes.",
+          "it": "Le località più alte, Piau-Engaly, Grand Tourmalet, Peyragudes e Cauterets, tengono bene la neve grazie alla quota e all'innevamento programmato, anche se la catena è più soleggiata e un po' più bassa delle Alpi alte."
+        }
+      }
+    ]
+  },
+  "value-france": {
+    "title": {
+      "en": "Best value ski resorts in France",
+      "fr": "Stations de ski au meilleur rapport qualité-prix en France",
+      "es": "Estaciones de esquí con mejor relación calidad-precio de Francia",
+      "pt": "Estâncias de esqui com melhor relação qualidade-preço de França",
+      "it": "Località sciistiche col miglior rapporto qualità-prezzo in Francia"
+    },
+    "intro": {
+      "en": "You do not need a Courchevel budget to ski France well. These resorts deliver big terrain, real snow and slope-side lodging for a fraction of the marquee-name price.",
+      "fr": "Pas besoin d'un budget Courchevel pour bien skier en France. Ces stations offrent de grands domaines, de la vraie neige et un logement au pied des pistes pour une fraction du prix des noms prestigieux.",
+      "es": "No hace falta un presupuesto de Courchevel para esquiar bien en Francia. Estas estaciones ofrecen grandes dominios, nieve de verdad y alojamiento a pie de pista por una fracción del precio de los nombres famosos.",
+      "pt": "Não é preciso um orçamento de Courchevel para esquiar bem em França. Estas estâncias oferecem grandes domínios, neve a sério e alojamento à beira das pistas por uma fração do preço dos nomes famosos.",
+      "it": "Non serve un budget da Courchevel per sciare bene in Francia. Queste località offrono grandi comprensori, neve vera e alloggio sulle piste a una frazione del prezzo dei nomi blasonati."
+    },
+    "body": {
+      "en": "France's best value hides in plain sight, often one lift from a famous name. Les Menuires and Orelle open the door to the Three Valleys at a fraction of Courchevel's prices; Valmorel, Valmeinier, La Norma and Saint-Francois-Longchamp give you proper Savoie skiing without the resort-town markup; and Les Sybelles is one of the biggest linked areas in the Alps that almost nobody talks about.\n\nValue here does not mean small. Many are purpose-built at altitude, so the snow is reliable and you walk to the lifts, and their apartments and family passes are priced for real budgets. Over in the Pyrenees, Luz-Ardiden and the local hills come cheaper still.\n\nThe trick is to trade a prestigious postcode for the same mountain. Base yourself in Les Menuires and you ski the identical Three Valleys pistes as Courchevel guests; pick Orelle and you are on the Val Thorens side by mid-morning. Same snow, smaller bill.",
+      "fr": "Le meilleur rapport qualité-prix français se cache en pleine lumière, souvent à une remontée d'un nom célèbre. Les Menuires et Orelle ouvrent les Trois Vallées pour une fraction des prix de Courchevel ; Valmorel, Valmeinier, La Norma et Saint-François-Longchamp offrent du vrai ski de Savoie sans la surcote des stations vitrines ; et Les Sybelles est l'un des plus grands domaines reliés des Alpes dont presque personne ne parle.\n\nBon marché ne veut pas dire petit. Beaucoup sont des stations d'altitude construites au pied des pistes : la neige est fiable, on rejoint les remontées à pied, et les appartements comme les forfaits famille sont pensés pour de vrais budgets. Côté Pyrénées, Luz-Ardiden et les stations locales sont moins chères encore.\n\nL'astuce : échanger une adresse prestigieuse contre la même montagne. Basez-vous aux Menuires et vous skiez exactement les mêmes pistes des Trois Vallées que les clients de Courchevel ; choisissez Orelle et vous êtes côté Val Thorens en milieu de matinée. Même neige, addition plus légère.",
+      "es": "La mejor relación calidad-precio de Francia se esconde a plena vista, a menudo a un remonte de un nombre famoso. Les Menuires y Orelle abren los Tres Valles por una fracción de los precios de Courchevel; Valmorel, Valmeinier, La Norma y Saint-François-Longchamp ofrecen auténtico esquí de Saboya sin el recargo de las estaciones escaparate; y Les Sybelles es uno de los mayores dominios enlazados de los Alpes del que casi nadie habla.\n\nBarato no significa pequeño. Muchas son estaciones de altura construidas a pie de pista: la nieve es fiable, se llega a los remontes andando, y sus apartamentos y forfaits familiares están pensados para presupuestos reales. En los Pirineos, Luz-Ardiden y las estaciones locales salen aún más baratas.\n\nEl truco es cambiar una dirección prestigiosa por la misma montaña. Alójate en Les Menuires y esquiarás las mismas pistas de los Tres Valles que los clientes de Courchevel; elige Orelle y estarás en la vertiente de Val Thorens a media mañana. La misma nieve, una cuenta más baja.",
+      "pt": "A melhor relação qualidade-preço de França esconde-se à vista, muitas vezes a um teleférico de um nome famoso. Les Menuires e Orelle abrem os Três Vales por uma fração dos preços de Courchevel; Valmorel, Valmeinier, La Norma e Saint-François-Longchamp oferecem verdadeiro esqui da Saboia sem o agravamento das estâncias-montra; e Les Sybelles é um dos maiores domínios ligados dos Alpes de que quase ninguém fala.\n\nBarato não quer dizer pequeno. Muitas são estâncias de altitude construídas à beira das pistas: a neve é fiável, chega-se aos teleféricos a pé, e os apartamentos e passes de família têm preços para orçamentos reais. Nos Pirenéus, Luz-Ardiden e as estâncias locais saem ainda mais baratas.\n\nO truque é trocar uma morada prestigiada pela mesma montanha. Fique em Les Menuires e esquia as mesmas pistas dos Três Vales que os clientes de Courchevel; escolha Orelle e está do lado de Val Thorens a meio da manhã. A mesma neve, uma conta mais leve.",
+      "it": "Il miglior rapporto qualità-prezzo francese si nasconde in piena vista, spesso a un impianto da un nome famoso. Les Menuires e Orelle aprono le Tre Valli a una frazione dei prezzi di Courchevel; Valmorel, Valmeinier, La Norma e Saint-François-Longchamp offrono vero sci della Savoia senza il sovrapprezzo delle località vetrina; e Les Sybelles è uno dei comprensori collegati più grandi delle Alpi di cui quasi nessuno parla.\n\nConveniente non vuol dire piccolo. Molte sono località d'alta quota costruite sulle piste: la neve è affidabile, si raggiungono gli impianti a piedi, e gli appartamenti e gli skipass famiglia hanno prezzi per budget reali. Sui Pirenei, Luz-Ardiden e le stazioni locali costano ancora meno.\n\nIl trucco è scambiare un indirizzo prestigioso con la stessa montagna. Alloggia a Les Menuires e sci sulle stesse piste delle Tre Valli dei clienti di Courchevel; scegli Orelle e sei sul versante di Val Thorens a metà mattina. Stessa neve, conto più leggero."
+    },
+    "faq": [
+      {
+        "q": {
+          "en": "Which is the best-value ski resort in France?",
+          "fr": "Quelle est la station de ski au meilleur rapport qualité-prix en France ?",
+          "es": "¿Cuál es la estación de esquí con mejor relación calidad-precio de Francia?",
+          "pt": "Qual é a estância de esqui com melhor relação qualidade-preço de França?",
+          "it": "Qual è la località sciistica col miglior rapporto qualità-prezzo in Francia?"
+        },
+        "a": {
+          "en": "Les Menuires and Orelle are the classic picks: both give full access to the Three Valleys, the world's largest ski area, at a fraction of the price of Courchevel or Meribel.",
+          "fr": "Les Menuires et Orelle sont les valeurs sûres : les deux donnent un accès complet aux Trois Vallées, le plus grand domaine du monde, pour une fraction du prix de Courchevel ou Méribel.",
+          "es": "Les Menuires y Orelle son las apuestas clásicas: ambas dan acceso completo a los Tres Valles, el mayor dominio del mundo, por una fracción del precio de Courchevel o Méribel.",
+          "pt": "Les Menuires e Orelle são as apostas clássicas: ambas dão acesso completo aos Três Vales, o maior domínio do mundo, por uma fração do preço de Courchevel ou Méribel.",
+          "it": "Les Menuires e Orelle sono le scelte classiche: entrambe danno accesso completo alle Tre Valli, il comprensorio più grande al mondo, a una frazione del prezzo di Courchevel o Méribel."
+        }
+      },
+      {
+        "q": {
+          "en": "How can I ski France on a budget?",
+          "fr": "Comment skier en France avec un petit budget ?",
+          "es": "¿Cómo esquiar en Francia con poco presupuesto?",
+          "pt": "Como esquiar em França com pouco orçamento?",
+          "it": "Come sciare in Francia con un budget ridotto?"
+        },
+        "a": {
+          "en": "Base yourself in a purpose-built or satellite resort (Les Menuires, Orelle, Valmorel, Les Sybelles), book an apartment with a kitchen, travel outside the Christmas and February peaks, and buy area passes rather than daily tickets.",
+          "fr": "Logez dans une station d'altitude ou satellite (Les Menuires, Orelle, Valmorel, Les Sybelles), réservez un appartement avec cuisine, partez hors des pics de Noël et février, et prenez des forfaits domaine plutôt que des tickets journée.",
+          "es": "Alójate en una estación de altura o satélite (Les Menuires, Orelle, Valmorel, Les Sybelles), reserva un apartamento con cocina, viaja fuera de los picos de Navidad y febrero, y compra forfaits de dominio en vez de tickets de día.",
+          "pt": "Fique numa estância de altitude ou satélite (Les Menuires, Orelle, Valmorel, Les Sybelles), reserve um apartamento com cozinha, viaje fora dos picos do Natal e de fevereiro, e compre passes de domínio em vez de bilhetes diários.",
+          "it": "Alloggia in una località d'alta quota o satellite (Les Menuires, Orelle, Valmorel, Les Sybelles), prenota un appartamento con cucina, viaggia fuori dai picchi di Natale e febbraio, e compra skipass di comprensorio invece dei giornalieri."
+        }
+      },
+      {
+        "q": {
+          "en": "Are cheaper French resorts still good for beginners?",
+          "fr": "Les stations françaises bon marché conviennent-elles aux débutants ?",
+          "es": "¿Las estaciones francesas económicas sirven para principiantes?",
+          "pt": "As estâncias francesas económicas servem para principiantes?",
+          "it": "Le località francesi economiche vanno bene per i principianti?"
+        },
+        "a": {
+          "en": "Very much so. Value resorts like Valmorel, Les Menuires and the Pyrenean hills have wide, gentle nursery slopes and affordable ski schools, which makes them ideal for first-timers and families.",
+          "fr": "Tout à fait. Des stations comme Valmorel, Les Menuires et les petites stations pyrénéennes ont de larges espaces débutants faciles et des écoles de ski abordables, idéales pour une première fois et pour les familles.",
+          "es": "Desde luego. Estaciones como Valmorel, Les Menuires y las pequeñas pirenaicas tienen amplias zonas de debutantes suaves y escuelas de esquí asequibles, ideales para principiantes y familias.",
+          "pt": "Claro que sim. Estâncias como Valmorel, Les Menuires e as pequenas dos Pirenéus têm amplas zonas de iniciação suaves e escolas de esqui acessíveis, ideais para principiantes e famílias.",
+          "it": "Assolutamente. Località come Valmorel, Les Menuires e le piccole dei Pirenei hanno ampi campi scuola dolci e scuole di sci accessibili, ideali per chi inizia e per le famiglie."
+        }
+      }
+    ]
   }
 }

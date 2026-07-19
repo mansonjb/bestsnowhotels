@@ -33,6 +33,10 @@ export const SKI_THEMES: SkiTheme[] = [
   { slug: 'ski-spa-resorts', heroSlug: 'leukerbad', kind: 'resorts' },
   { slug: 'apres-ski-resorts', heroSlug: 'st-anton', kind: 'resorts' },
   { slug: 'luxury-ski-hotels', heroSlug: 'courchevel', kind: 'hotels' },
+  // France focus: geographic (Alps, Pyrenees) + value, all data-driven selections.
+  { slug: 'french-alps', heroSlug: 'val-thorens', kind: 'resorts' },
+  { slug: 'french-pyrenees', heroSlug: 'saint-lary', kind: 'resorts' },
+  { slug: 'value-france', heroSlug: 'les-menuires', kind: 'resorts' },
 ]
 
 export const getThemes = (): SkiTheme[] => SKI_THEMES
@@ -56,7 +60,14 @@ export function themeResorts(slug: string): Destination[] {
   let list: Destination[] = []
   if (slug === 'ski-spa-resorts') list = destinations.filter((d) => hasVibe(d, 'thermal', 'wellness'))
   else if (slug === 'apres-ski-resorts') list = destinations.filter((d) => hasVibe(d, 'party'))
-  return list.sort((a, b) => b.snowScore - a.snowScore)
+  else if (slug === 'french-alps') list = destinations.filter((d) => d.region === 'French Alps')
+  else if (slug === 'french-pyrenees') list = destinations.filter((d) => d.region === 'French Pyrenees')
+  else if (slug === 'value-france') list = destinations.filter((d) => d.countryCode === 'FR' && d.vibes.includes('value'))
+  // Cap the big French Alps and value lists to the top 24 by snow score; the
+  // Pyrenees list (18) shows in full.
+  const capped = slug === 'french-alps' || slug === 'value-france'
+  const sorted = list.sort((a, b) => b.snowScore - a.snowScore)
+  return capped ? sorted.slice(0, 24) : sorted
 }
 
 /* ---- hotel selection for 'hotels' guides ---- */
