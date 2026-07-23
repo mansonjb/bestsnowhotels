@@ -115,6 +115,9 @@ Long-tail editorial guides built around one idea, with resorts or hotels chosen 
 - /ski-guides/spanish-pyrenees: best ski resorts in the Spanish Pyrenees (Baqueira Beret, Formigal, Cerler, Boi Taull, La Molina, Masella, Candanchu, Astun)
 - /ski-guides/value-spain: best affordable ski resorts in Spain, Western Europe's budget skiing (Formigal, Astun, Candanchu, Masella, Panticosa, Sierra Nevada, Alto Campoo)
 - /ski-guides/family-spain: best family ski resorts in Spain (La Molina, Masella, Astun, Port Aine, Espot, Panticosa, Sierra Nevada, Alto Campoo)
+- /ski-guides/february-school-holidays: skiing in the February 2027 school holidays, with the French zone A/B/C dates, the high-capacity resorts that absorb the crowds, and the quietest weeks
+- /ski-guides/christmas-new-year-ski: Christmas and New Year skiing 2026, the high-altitude and glacier resorts where late-December snow is a safe bet
+- /ski-guides/ski-in-november: where to ski in November 2026, the Alpine glaciers (Zermatt, Saas-Fee, Tignes, Solden, Hintertux) and Lapland early openers (Ruka, Levi)
 
 Index: https://www.bestsnowhotels.com/en/ski-guides
 
