@@ -2,6 +2,7 @@
 
 import Image, { type ImageProps } from 'next/image'
 import { useState } from 'react'
+import imageLoader from '@/lib/image-loader'
 
 /**
  * A resilient drop-in for next/image. If Vercel's image optimizer hiccups
@@ -29,11 +30,12 @@ export default function SafeImage(props: ImageProps) {
   }
 
   if (stage === 1) {
-    // Bypass the optimizer and serve the committed static file directly.
+    // Bypass the optimizer and fetch straight from the R2 CDN (public/images
+    // no longer ships in the deploy, so the raw local path would 404).
     // eslint-disable-next-line @next/next/no-img-element
     return (
       <img
-        src={srcStr}
+        src={imageLoader.toCdnUrl(srcStr)}
         alt={typeof alt === 'string' ? alt : ''}
         className={className}
         onError={() => setStage(2)}
