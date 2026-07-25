@@ -342,6 +342,7 @@ const RESORT_SITES: Record<string, string> = {
   'iso-syote': 'https://www.isosyote.fi',
   salla: 'https://www.skisalla.fi',
   niseko: 'https://www.niseko.ne.jp/en/',
+  'appi-kogen': 'https://www.appi.co.jp/en',
   rusutsu: 'https://rusutsu.com/en/',
   furano: 'https://www.snowfurano.com/english/',
   kiroro: 'https://www.kiroro.co.jp/en/winter/',
