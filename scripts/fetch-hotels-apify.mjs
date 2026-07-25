@@ -66,6 +66,7 @@ const TARGETS = [
   { slug: 'portillo', query: 'hoteles Portillo Los Andes Ski Portillo Chile', maxDist: 60000, minReviews: 3 },
   { slug: 'nevados-de-chillan', query: 'hoteles Las Trancas Nevados de Chillan Chile', maxDist: 16000, minReviews: 8 },
   { slug: 'corralco', query: 'hoteles Corralco Malalcahuello Curacautin Araucania Chile', maxDist: 32000, minReviews: 3 },
+  { slug: 'villarrica-pucon', query: 'hoteles Pucon Villarrica Araucania Chile', maxDist: 26000, minReviews: 15 },
   { slug: 'los-penitentes', query: 'hoteles Penitentes Uspallata Potrerillos Mendoza Argentina', maxDist: 55000, minReviews: 3 },
   { slug: 'la-hoya', query: 'hoteles Esquel Chubut Argentina', maxDist: 18000, minReviews: 10 },
   // Full-coverage pass: town-aware queries for the remaining thin resorts.

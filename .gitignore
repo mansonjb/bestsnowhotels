@@ -44,3 +44,6 @@ yarn-error.log*
 .gsc-service-account.json
 gsc-service-account.json
 *-service-account.json
+
+# Images live on Cloudflare R2 (see lib/image-loader.js), not in the deploy
+/public/images/
