@@ -34,6 +34,13 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     pt: 'Alpes italianos',
     it: 'Alpi italiane',
   },
+  Apennines: {
+    en: 'Apennines',
+    fr: 'Apennins',
+    es: 'Apeninos',
+    pt: 'Apeninos',
+    it: 'Appennini',
+  },
   'Spanish Pyrenees': {
     en: 'Spanish Pyrenees',
     fr: 'Pyrénées espagnoles',
