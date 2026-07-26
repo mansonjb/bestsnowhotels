@@ -18,9 +18,11 @@ const nextConfig: NextConfig = {
   // Any straggling literal /images/... URL (cached HTML, external inbound
   // links) 301s to the R2 CDN now that the files no longer ship in the
   // deploy. next/image goes through lib/image-loader.js and never hits this.
+  // The CDN domain is hardcoded as a fallback so images never break if the
+  // NEXT_PUBLIC_IMAGE_CDN env var is missing on a build (it is a public domain,
+  // not a secret); set the env var to override.
   async redirects() {
-    const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN
-    if (!CDN) return []
+    const CDN = process.env.NEXT_PUBLIC_IMAGE_CDN || 'https://snow.samnogroup.com'
     return [{ source: '/images/:path*', destination: `${CDN}/images/:path*`, permanent: true }]
   },
   images: {
