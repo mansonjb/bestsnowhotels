@@ -13,6 +13,7 @@ import { SITE_URL, hreflangFor, jsonLdGraph, buildAllezDestLink, buildAllezHotel
 import { getHotels } from '@/lib/hotels'
 import HotelCard from '@/components/HotelCard'
 import Stay22Map from '@/components/Stay22Map'
+import { cityBreakForGateway, cityBreakUrl } from '@/lib/cityBreak'
 
 const T = {
   h1: (airport: string, l: Locale) => ({
@@ -51,6 +52,27 @@ const T = {
   mapTitle: { en: 'Hotels around', fr: 'Hôtels autour de', es: 'Hoteles en torno a', pt: 'Hotéis em redor de', it: 'Hotel intorno a' } as Record<Locale, string>,
   allGateways: { en: 'Ski resorts near an airport', fr: "Stations près d'un aéroport", es: 'Estaciones cerca de un aeropuerto', pt: 'Estâncias perto de um aeroporto', it: "Località vicino a un aeroporto" } as Record<Locale, string>,
   faqTitle: { en: 'Getting there', fr: 'Y aller', es: 'Cómo llegar', pt: 'Como chegar', it: 'Come arrivare' } as Record<Locale, string>,
+  cbTitle: (city: string, l: Locale) => ({
+    en: `Turn it into a ${city} city break`,
+    fr: `Prolongez par un city break à ${city}`,
+    es: `Conviértelo en una escapada a ${city}`,
+    pt: `Transforme numa escapadinha a ${city}`,
+    it: `Trasformalo in una city break a ${city}`,
+  }[l]),
+  cbBody: (city: string, l: Locale) => ({
+    en: `You are already flying into ${city}. Before or after the mountains, give the city a night or two: our sister site perfectcitybreak.com has where to stay and what to do.`,
+    fr: `Vous atterrissez déjà à ${city}. Avant ou après la montagne, offrez-vous une nuit ou deux en ville : notre site frère perfectcitybreak.com vous dit où loger et quoi faire.`,
+    es: `Ya vuelas a ${city}. Antes o después de la montaña, dedícale una noche o dos a la ciudad: nuestro sitio hermano perfectcitybreak.com te dice dónde alojarte y qué hacer.`,
+    pt: `Já voa para ${city}. Antes ou depois da montanha, dedique uma noite ou duas à cidade: o nosso site irmão perfectcitybreak.com diz-lhe onde ficar e o que fazer.`,
+    it: `Atterri già a ${city}. Prima o dopo la montagna, concedi alla città una notte o due: il nostro sito gemello perfectcitybreak.com ti dice dove alloggiare e cosa fare.`,
+  }[l]),
+  cbCta: (city: string, l: Locale) => ({
+    en: `Plan a ${city} city break`,
+    fr: `Préparer un city break à ${city}`,
+    es: `Planear una escapada a ${city}`,
+    pt: `Planear uma escapadinha a ${city}`,
+    it: `Organizza una city break a ${city}`,
+  }[l]),
 }
 
 const easyPct = (green: number, blue: number, red: number, black: number) => {
@@ -225,6 +247,33 @@ export default async function GatewayPage({
           ))}
         </div>
       </section>
+
+      {(() => {
+        const cb = cityBreakForGateway(g.slug)
+        if (!cb) return null
+        return (
+          <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="rounded-2xl border border-alpenglow-400/40 bg-gradient-to-br from-alpenglow-400/10 to-white p-6 sm:p-7">
+              <div className="flex flex-wrap items-center justify-between gap-4">
+                <div className="max-w-2xl">
+                  <h2 className="text-xl font-bold text-slate-deep flex items-center gap-2">
+                    <span aria-hidden>🏙️</span> {T.cbTitle(cb.name, l)}
+                  </h2>
+                  <p className="mt-2 text-ice-800/85 leading-relaxed">{T.cbBody(cb.name, l)}</p>
+                </div>
+                <a
+                  href={cityBreakUrl(cb, l)}
+                  target="_blank"
+                  rel="noopener"
+                  className="inline-block bg-slate-deep text-white font-semibold text-sm px-6 py-3 rounded-full hover:bg-ice-800 transition whitespace-nowrap"
+                >
+                  {T.cbCta(cb.name, l)} →
+                </a>
+              </div>
+            </div>
+          </section>
+        )
+      })()}
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <Link href={`/${l}/ski-near`} className="inline-block rounded-full border border-ice-200 bg-white px-5 py-2.5 text-sm font-semibold text-slate-deep hover:bg-ice-50 transition">← {T.allGateways[l]}</Link>
