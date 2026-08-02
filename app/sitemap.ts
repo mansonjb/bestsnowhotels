@@ -152,6 +152,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       alternates: { languages: hreflangFor(`/southern-hemisphere`) },
     })
 
+    // Andes 2026 last-weeks conversion page (in-season booking push)
+    entries.push({
+      url: `${SITE_URL}/${locale}/andes-2026`,
+      lastModified: now,
+      changeFrequency: 'daily',
+      priority: 0.9,
+      alternates: { languages: hreflangFor(`/andes-2026`) },
+    })
+
     // Ski areas index
     entries.push({
       url: `${SITE_URL}/${locale}/ski-areas`,

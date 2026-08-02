@@ -176,6 +176,20 @@ export default async function SouthernHemispherePage({
         </div>
       </section>
 
+      {/* Conversion push: last weeks of the Andes 2026 season */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-5">
+        <Link
+          href={`/${l}/andes-2026`}
+          className="group flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-alpenglow-400/40 bg-gradient-to-r from-alpenglow-400/15 to-white p-5 hover:shadow-md transition"
+        >
+          <span className="font-semibold text-slate-deep flex items-center gap-3">
+            <span aria-hidden className="text-2xl">⏳</span>
+            {({ en: 'The 2026 Andes season is ending. Book the last weeks of snow.', fr: 'La saison 2026 des Andes se termine. Reservez les dernieres semaines de neige.', es: 'La temporada 2026 en los Andes cierra pronto. Reserva las ultimas semanas de nieve.', pt: 'A temporada 2026 nos Andes fecha em breve. Reserve as ultimas semanas de neve.', it: 'La stagione 2026 sulle Ande sta finendo. Prenota le ultime settimane di neve.' } as Record<Locale, string>)[l]}
+          </span>
+          <span className="text-alpenglow-600 font-bold group-hover:translate-x-0.5 transition" aria-hidden>→</span>
+        </Link>
+      </section>
+
       {/* GEO quick answer */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
         <div className="rounded-2xl border border-ice-200 bg-gradient-to-br from-ice-50 to-white p-6 sm:p-8 shadow-sm">
