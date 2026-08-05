@@ -49,6 +49,46 @@ const T = {
     pt: 'Sem grandes quedas de neve no mundo neste momento. A neve mais profunda atualmente nas pistas é em',
     it: 'Nessuna grande nevicata nel mondo in questo momento. La neve più profonda attualmente sulle piste è a',
   } as Record<Locale, string>,
+  // Secondary phrasings people search, surfaced in the meta description and FAQ
+  // so the page matches "which country", "where in the world", etc.
+  metaExtra: {
+    en: "See which country and which ski resort is getting snow this minute, ranked live.",
+    es: "Descubre en qué país y en qué estación de esquí está nevando ahora mismo, en un ranking en directo.",
+    fr: "Voyez dans quel pays et dans quelle station il neige en ce moment, dans un classement en direct.",
+    pt: "Veja em que país e em que estância está a nevar neste momento, num ranking em direto.",
+    it: "Scopri in quale paese e in quale località sta nevicando in questo momento, in una classifica dal vivo.",
+  } as Record<Locale, string>,
+  freshLabel: {
+    en: "fresh in 24h", es: "de nieve en 24 h", fr: "de neige fraîche en 24 h", pt: "de neve em 24 h", it: "di neve fresca in 24 h",
+  } as Record<Locale, string>,
+  faqWhichCountryQ: {
+    en: "Which country is it snowing in right now?",
+    es: "¿En qué país está nevando ahora mismo?",
+    fr: "Dans quel pays neige-t-il en ce moment ?",
+    pt: "Em que país está a nevar neste momento?",
+    it: "In quale paese sta nevicando in questo momento?",
+  } as Record<Locale, string>,
+  faqWhereWorldQ: {
+    en: "Where in the world is it snowing right now?",
+    es: "¿Dónde está nevando en el mundo ahora mismo?",
+    fr: "Où neige-t-il dans le monde en ce moment ?",
+    pt: "Onde está a nevar no mundo neste momento?",
+    it: "Dove sta nevicando nel mondo in questo momento?",
+  } as Record<Locale, string>,
+  faqAnywhereQ: {
+    en: "Is it snowing anywhere in the world right now?",
+    es: "¿Está nevando en algún lugar del mundo ahora mismo?",
+    fr: "Neige-t-il quelque part dans le monde en ce moment ?",
+    pt: "Está a nevar em algum lugar do mundo neste momento?",
+    it: "Sta nevicando da qualche parte nel mondo in questo momento?",
+  } as Record<Locale, string>,
+  faqAnywhereA: {
+    en: "Almost always, yes. In the northern winter (roughly November to May) it is usually snowing somewhere in the Alps, the Rockies or Japan, and from June to October the snow flips to the Andes, New Zealand and Australia. This page ranks the resorts with the most fresh snow on the slopes right now, updated every 30 minutes.",
+    es: "Casi siempre, sí. En el invierno del norte (de noviembre a mayo aproximadamente) suele estar nevando en algún punto de los Alpes, las Rocosas o Japón, y de junio a octubre la nieve pasa a los Andes, Nueva Zelanda y Australia. Esta página ordena las estaciones con más nieve fresca en las pistas ahora mismo, actualizada cada 30 minutos.",
+    fr: "Presque toujours, oui. En hiver dans le nord (de novembre à mai environ), il neige d'ordinaire quelque part dans les Alpes, les Rocheuses ou au Japon, et de juin à octobre la neige bascule vers les Andes, la Nouvelle-Zélande et l'Australie. Cette page classe les stations avec le plus de neige fraîche sur les pistes en ce moment, mise à jour toutes les 30 minutes.",
+    pt: "Quase sempre, sim. No inverno do norte (de novembro a maio, aproximadamente) costuma estar a nevar algures nos Alpes, nas Montanhas Rochosas ou no Japão, e de junho a outubro a neve passa para os Andes, a Nova Zelândia e a Austrália. Esta página ordena as estâncias com mais neve fresca nas pistas neste momento, atualizada a cada 30 minutos.",
+    it: "Quasi sempre, sì. Nell'inverno del nord (all'incirca da novembre a maggio) di solito nevica da qualche parte sulle Alpi, sulle Montagne Rocciose o in Giappone, e da giugno a ottobre la neve si sposta sulle Ande, in Nuova Zelanda e in Australia. Questa pagina ordina le località con più neve fresca sulle piste in questo momento, aggiornata ogni 30 minuti.",
+  } as Record<Locale, string>,
 } as const
 
 export async function generateStaticParams() {
@@ -65,7 +105,7 @@ export async function generateMetadata({
   const l = locale as Locale
   return {
     title: `${T.title[l]} | BestSnowHotels`,
-    description: T.subtitle[l],
+    description: `${T.subtitle[l]} ${T.metaExtra[l]}`,
     alternates: {
       canonical: `${SITE_URL}/${l}/weather/snowing-now`,
       languages: Object.fromEntries([
@@ -99,6 +139,23 @@ export default async function SnowingNowPage({
     ? `${T.answerSnowing[l]} ${namesList}${T.answerSnowingTail[l]}.`
     : `${T.answerCalm[l]} ${namesList}.`
 
+  // Live numbered ranking (featured-snippet friendly) and country-first answer.
+  const top5 = top.slice(0, 5)
+  const freshCm = (slug: string) => Math.round(Math.max(0, snapshots.get(slug)?.past24h?.snowfallCm ?? 0))
+  const countryPrefix: Record<Locale, string> = {
+    en: 'Right now, fresh snow is falling in',
+    es: 'Ahora mismo está nevando sobre todo en',
+    fr: 'En ce moment, il neige surtout en',
+    pt: 'Neste momento, está a nevar sobretudo em',
+    it: 'In questo momento sta nevicando soprattutto in',
+  }
+  const topCountries = [...new Set(top3.map((d) => localizeCountry(d.country, l)))].join(', ')
+  const faq = [
+    { q: T.faqWhichCountryQ[l], a: isSnowing ? `${countryPrefix[l]} ${topCountries}.` : `${T.answerCalm[l]} ${namesList}.` },
+    { q: T.faqWhereWorldQ[l], a: answer },
+    { q: T.faqAnywhereQ[l], a: T.faqAnywhereA[l] },
+  ]
+
   const cardLabels = {
     snowDepth: t.snowDepth,
     freshSnow24h: t.freshSnow24h,
@@ -130,6 +187,15 @@ export default async function SnowingNowPage({
         name: d.name,
       })),
     },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faq.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    },
   ]
 
   return (
@@ -157,6 +223,23 @@ export default async function SnowingNowPage({
         {/* Direct answer (GEO snippet), computed live from the top 3 */}
         <div className="mt-5 rounded-2xl bg-gradient-to-br from-ice-50 to-white border border-ice-200 p-5 shadow-sm max-w-3xl">
           <p className="text-lg text-slate-deep leading-relaxed">{answer}</p>
+          {/* Live numbered ranking, liftable as a featured snippet */}
+          <ol className="mt-4 space-y-1.5">
+            {top5.map((d, i) => (
+              <li key={d.slug} className="flex items-baseline gap-2 text-slate-deep">
+                <span className="font-bold text-ice-700 tabular-nums w-5 shrink-0">{i + 1}.</span>
+                <Link href={`/${l}/weather/${d.slug}`} className="font-semibold hover:text-ice-700 transition">
+                  {d.name}
+                </Link>
+                <span className="text-ice-700/70 text-sm">{localizeCountry(d.country, l)}</span>
+                {freshCm(d.slug) > 0 && (
+                  <span className="ml-auto text-sm font-semibold text-ice-700 tabular-nums whitespace-nowrap">
+                    +{freshCm(d.slug)} cm {T.freshLabel[l]}
+                  </span>
+                )}
+              </li>
+            ))}
+          </ol>
         </div>
       </section>
 
@@ -171,6 +254,26 @@ export default async function SnowingNowPage({
               labels={cardLabels}
               highlight="fresh24h"
             />
+          ))}
+        </div>
+      </section>
+
+      <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+        <h2 className="text-2xl font-bold text-slate-deep mb-4">FAQ</h2>
+        <div className="space-y-3">
+          {faq.map((f) => (
+            <details
+              key={f.q}
+              className="group rounded-2xl border border-ice-200 bg-white p-4 open:shadow-sm"
+            >
+              <summary className="cursor-pointer font-semibold text-slate-deep list-none flex items-center justify-between gap-3">
+                {f.q}
+                <span className="text-ice-500 group-open:rotate-180 transition shrink-0" aria-hidden>
+                  ▾
+                </span>
+              </summary>
+              <p className="mt-3 text-ice-800/90 leading-relaxed">{f.a}</p>
+            </details>
           ))}
         </div>
       </section>

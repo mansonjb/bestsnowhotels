@@ -49,11 +49,11 @@ export async function generateMetadata({
   const countryIt = localizeCountry(d.country, 'it')
 
   const titles: Record<Locale, string> = {
-    en: `${d.name} snow report and 7-day weather forecast (${countryEn}) | BestSnowHotels`,
-    fr: `Bulletin neige et prévisions 7 jours à ${d.name} (${countryFr}) | BestSnowHotels`,
-    es: `Parte de nieve y previsión 7 días en ${d.name} (${countryEs}) | BestSnowHotels`,
-    pt: `Boletim de neve e previsão a 7 dias em ${d.name} (${countryPt}) | BestSnowHotels`,
-    it: `Bollettino neve e previsioni a 7 giorni a ${d.name} (${countryIt}) | BestSnowHotels`,
+    en: `${d.name} snow report today and 7-day forecast (${countryEn}) | BestSnowHotels`,
+    fr: `${d.name} : neige du jour et prévisions 7 jours (${countryFr}) | BestSnowHotels`,
+    es: `${d.name}: parte de nieve hoy y previsión 7 días (${countryEs}) | BestSnowHotels`,
+    pt: `${d.name}: boletim de neve hoje e previsão 7 dias (${countryPt}) | BestSnowHotels`,
+    it: `${d.name}: bollettino neve di oggi e previsioni 7 giorni (${countryIt}) | BestSnowHotels`,
   }
   const descriptions: Record<Locale, string> = {
     en: `Live snow report for ${d.name}: current snow depth, fresh snow over the last 24 hours and a 7-day forecast. Updated every 30 minutes.`,
