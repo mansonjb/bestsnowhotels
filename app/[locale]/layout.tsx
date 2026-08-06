@@ -6,6 +6,7 @@ import { getDictionary, hasLocale, locales } from './dictionaries'
 import type { Locale } from './dictionaries'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import Analytics from '@/components/Analytics'
 import { STAY22_ID, SITE_URL } from '@/lib/site'
 import { notFound } from 'next/navigation'
 
@@ -102,31 +103,11 @@ export default async function LocaleLayout({
           }}
         />
 
-        {/* Google Analytics 4. Loaded after interactive so it does not block LCP. */}
-        <Script
-          id="ga4-loader"
-          strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-L8WQTP6VZ8"
-        />
-        <Script
-          id="ga4-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-L8WQTP6VZ8');`,
-          }}
-        />
-
-        {/* Microsoft Clarity. Session recordings + heatmaps, async loaded. */}
-        <Script
-          id="ms-clarity"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "x1fb3rw1u5");`,
-          }}
-        />
+        {/* Google Analytics 4 + Microsoft Clarity, injected client-side and gated
+            on the geo-suppression cookie (see components/Analytics.tsx and
+            proxy.ts). Singapore datacenter bots never fire these tags, so they
+            stop polluting analytics, while real SG visitors still browse + book. */}
+        <Analytics />
       </body>
     </html>
   )
