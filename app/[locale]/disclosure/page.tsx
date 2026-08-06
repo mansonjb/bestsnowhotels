@@ -51,6 +51,12 @@ const COPY: Record<Locale, { paragraphs: string[] }> = {
       'Non accettiamo pagamenti per coperture editoriali. La selezione delle località e le note ski-in/ski-out sono redatte a partire da dati pubblici e dalle nostre ricerche.',
     ],
   },
+  nl: {
+    paragraphs: [
+      'BestSnowHotels werkt met Stay22, dat boekingslinks doorstuurt naar Booking.com, Expedia, Hotels.com en enkele andere aanbieders. Wanneer je doorklikt en boekt, betaalt de aanbieder een kleine affiliatecommissie. Je betaalt dezelfde prijs, of je nu via BestSnowHotels komt of rechtstreeks boekt.',
+      'We accepteren geen betaling voor redactionele aandacht. De selectie van skigebieden en de ski-in/ski-out notities zijn geschreven op basis van openbare gegevens en ons eigen onderzoek.',
+    ],
+  },
 }
 
 export default async function DisclosurePage({

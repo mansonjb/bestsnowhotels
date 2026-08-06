@@ -17,6 +17,7 @@ const T = {
     es: 'Hoteles cerca de',
     pt: 'Hotéis perto de',
     it: 'Hotel vicino a',
+    nl: 'Hotels bij',
   } as Record<Locale, string>,
   shHub: {
     en: 'Full Southern Hemisphere guide: where to ski in July, August and September',
@@ -24,6 +25,7 @@ const T = {
     es: 'Guía completa del hemisferio sur: dónde esquiar en julio, agosto y septiembre',
     pt: 'Guia completo do hemisfério sul: onde esquiar em julho, agosto e setembro',
     it: "Guida completa all'emisfero sud: dove sciare a luglio, agosto e settembre",
+    nl: 'Volledige gids voor het zuidelijk halfrond: waar skiën in juli, augustus en september',
   } as Record<Locale, string>,
   picks: {
     en: 'Top picks for this period',
@@ -31,6 +33,7 @@ const T = {
     es: 'Nuestra selección para este periodo',
     pt: 'A nossa seleção para este período',
     it: 'La nostra selezione per questo periodo',
+    nl: 'Onze topkeuzes voor deze periode',
   } as Record<Locale, string>,
   other: {
     en: 'Other periods',
@@ -38,6 +41,7 @@ const T = {
     es: 'Otros periodos',
     pt: 'Outros períodos',
     it: 'Altri periodi',
+    nl: 'Andere periodes',
   } as Record<Locale, string>,
   matched: {
     en: 'Resorts matching this period',
@@ -45,6 +49,7 @@ const T = {
     es: 'Estaciones que cuadran con este periodo',
     pt: 'Estâncias que encaixam neste período',
     it: 'Località adatte a questo periodo',
+    nl: 'Skigebieden die bij deze periode passen',
   } as Record<Locale, string>,
 }
 

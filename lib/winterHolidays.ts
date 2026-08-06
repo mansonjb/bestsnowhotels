@@ -69,11 +69,11 @@ function seasonWindow(members: Destination[]): { start: string; end: string } | 
 }
 
 const NOUN = {
-  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località' },
+  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'resorts' },
 } as const
 
 function joinNames(names: string[], locale: Locale): string {
-  const and = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e' }[locale]
+  const and = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e', nl: 'en' }[locale]
   if (names.length <= 1) return names.join('')
   return `${names.slice(0, -1).join(', ')} ${and} ${names[names.length - 1]}`
 }
@@ -85,6 +85,7 @@ export function winterTitle(area: SkiArea, locale: Locale): string {
     es: `¿Por qué esquiar en ${area.name} en las vacaciones de invierno ${SEASON_YEAR}?`,
     pt: `Porque esquiar em ${area.name} nas férias de inverno de ${SEASON_YEAR}?`,
     it: `Perché sciare a ${area.name} per le vacanze invernali ${SEASON_YEAR}?`,
+    nl: `Waarom skiën in ${area.name} tijdens de wintervakantie van ${SEASON_YEAR}?`,
   }
   return t[locale]
 }
@@ -132,7 +133,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
 
   // Q1: resorts on one pass
   if (n > 0) {
-    const q = { en: `How many resorts can you ski in ${area.name} on one pass?`, fr: `Combien de stations peut-on skier à ${area.name} avec un seul forfait ?`, es: `¿Cuántas estaciones se pueden esquiar en ${area.name} con un forfait?`, pt: `Quantas estâncias se podem esquiar em ${area.name} com um passe?`, it: `Quante località si possono sciare a ${area.name} con un solo skipass?` }[locale]
+    const q = { en: `How many resorts can you ski in ${area.name} on one pass?`, fr: `Combien de stations peut-on skier à ${area.name} avec un seul forfait ?`, es: `¿Cuántas estaciones se pueden esquiar en ${area.name} con un forfait?`, pt: `Quantas estâncias se podem esquiar em ${area.name} com um passe?`, it: `Quante località si possono sciare a ${area.name} con un solo skipass?`, nl: `Hoeveel resorts kun je in ${area.name} skiën met één liftpas?` }[locale]
     const list = joinNames(top3, locale)
     const a: Record<Locale, string> = {
       en: `${n} linked resorts share the ${area.pass} pass, including ${list}, for ${area.pistesKm} km of piste in total.`,
@@ -140,6 +141,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
       es: `${n} estaciones enlazadas comparten el forfait ${area.pass}, entre ellas ${list}, con ${area.pistesKm} km de pistas en total.`,
       pt: `${n} estâncias ligadas partilham o passe ${area.pass}, incluindo ${list}, num total de ${area.pistesKm} km de pistas.`,
       it: `${n} località collegate condividono lo skipass ${area.pass}, tra cui ${list}, per ${area.pistesKm} km di piste in totale.`,
+      nl: `${n} verbonden resorts delen de liftpas ${area.pass}, waaronder ${list}, voor in totaal ${area.pistesKm} km piste.`,
     }
     out.push({ title: q, body: a[locale] })
   }
@@ -151,7 +153,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
   if (tot > 0) {
     const easy = Math.round(((mix.green + mix.blue) / tot) * 100)
     const tier: 'good' | 'ok' | 'less' = easy >= 50 ? 'good' : easy >= 35 ? 'ok' : 'less'
-    const q = { en: `Is ${area.name} good for beginners and families?`, fr: `${area.name} est-elle adaptée aux débutants et aux familles ?`, es: `¿${area.name} es buena para principiantes y familias?`, pt: `${area.name} é boa para principiantes e famílias?`, it: `${area.name} è adatta a principianti e famiglie?` }[locale]
+    const q = { en: `Is ${area.name} good for beginners and families?`, fr: `${area.name} est-elle adaptée aux débutants et aux familles ?`, es: `¿${area.name} es buena para principiantes y familias?`, pt: `${area.name} é boa para principiantes e famílias?`, it: `${area.name} è adatta a principianti e famiglie?`, nl: `Is ${area.name} geschikt voor beginners en gezinnen?` }[locale]
     const A: Record<typeof tier, Record<Locale, string>> = {
       good: {
         en: `Yes. Around ${easy}% of the domain's runs are green or blue, so beginners and families have plenty of gentle terrain on the same pass as stronger skiers.`,
@@ -159,6 +161,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
         es: `Sí. Cerca del ${easy}% de las pistas del dominio son verdes o azules, así que principiantes y familias tienen terreno suave de sobra, en el mismo forfait que los esquiadores fuertes.`,
         pt: `Sim. Cerca de ${easy}% das pistas do domínio são verdes ou azuis, por isso principiantes e famílias têm terreno suave de sobra, no mesmo passe dos esquiadores fortes.`,
         it: `Sì. Circa il ${easy}% delle piste del comprensorio è verde o blu, quindi principianti e famiglie hanno terreno facile in abbondanza, sullo stesso skipass degli sciatori esperti.`,
+        nl: `Ja. Ongeveer ${easy}% van de pistes in het gebied is groen of blauw, dus beginners en gezinnen hebben volop rustig terrein, op dezelfde liftpas als de sterkere skiërs.`,
       },
       ok: {
         en: `It works: about ${easy}% of the runs are green or blue to learn on, though the domain leans intermediate and above overall, so pick the gentler resorts to start.`,
@@ -166,6 +169,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
         es: `Funciona: cerca del ${easy}% de las pistas son verdes o azules para empezar, aunque el dominio tiende a intermedio y superior, así que elige las estaciones más suaves al principio.`,
         pt: `Funciona: cerca de ${easy}% das pistas são verdes ou azuis para começar, embora o domínio tenda para intermédio e acima, por isso escolha as estâncias mais suaves ao início.`,
         it: `Va bene: circa il ${easy}% delle piste è verde o blu per iniziare, anche se il comprensorio tende all'intermedio e oltre, quindi scegli le località più dolci all'inizio.`,
+        nl: `Het kan zeker: ongeveer ${easy}% van de pistes is groen of blauw om op te leren, al leunt het gebied als geheel meer naar gevorderd, dus kies om te beginnen de rustigere resorts.`,
       },
       less: {
         en: `Less so: only about ${easy}% of the runs are green or blue, so the domain skews intermediate and expert and committed beginners should choose the resort and sector with care.`,
@@ -173,6 +177,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
         es: `Menos: solo cerca del ${easy}% de las pistas son verdes o azules, el dominio tiende a intermedio y experto, así que los principiantes deben elegir bien la estación y el sector.`,
         pt: `Menos: só cerca de ${easy}% das pistas são verdes ou azuis, o domínio tende a intermédio e experiente, por isso principiantes a sério devem escolher bem a estância e o setor.`,
         it: `Meno: solo circa il ${easy}% delle piste è verde o blu, il comprensorio tende all'intermedio ed esperto, quindi i principianti dovrebbero scegliere con cura località e settore.`,
+        nl: `Minder: slechts ongeveer ${easy}% van de pistes is groen of blauw, het gebied leunt naar gevorderd en expert, dus vastberaden beginners kiezen best zorgvuldig hun resort en sector.`,
       },
     }
     out.push({ title: q, body: A[tier][locale] })
@@ -181,7 +186,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
   // Q3: which countries
   const countries = [...new Set(members.map((m) => m.country))]
   if (countries.length) {
-    const q = { en: `Which country is ${area.name} in?`, fr: `Dans quel pays se trouve ${area.name} ?`, es: `¿En qué país está ${area.name}?`, pt: `Em que país fica ${area.name}?`, it: `In quale paese si trova ${area.name}?` }[locale]
+    const q = { en: `Which country is ${area.name} in?`, fr: `Dans quel pays se trouve ${area.name} ?`, es: `¿En qué país está ${area.name}?`, pt: `Em que país fica ${area.name}?`, it: `In quale paese si trova ${area.name}?`, nl: `In welk land ligt ${area.name}?` }[locale]
     const names = joinNames(countries.map((c) => localizeCountry(c, locale)), locale)
     const a: Record<Locale, string> = countries.length > 1
       ? {
@@ -190,6 +195,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
           es: `${area.name} se extiende por ${names}, todo esquiable con un forfait.`,
           pt: `${area.name} estende-se por ${names}, tudo esquiável com um passe.`,
           it: `${area.name} si estende su ${names}, tutto sciabile con un solo skipass.`,
+          nl: `${area.name} beslaat ${names}, allemaal te skiën met één liftpas.`,
         }
       : {
           en: `${area.name} is in ${names}.`,
@@ -197,13 +203,14 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
           es: `${area.name} está en ${names}.`,
           pt: `${area.name} fica ${inCountry(countries[0], locale)}.`,
           it: `${area.name} si trova ${inCountry(countries[0], locale)}.`,
+          nl: `${area.name} ligt ${inCountry(countries[0], locale)}.`,
         }
     out.push({ title: q, body: a[locale] })
   }
 
   // Q4: season dates
   const win = seasonWindow(members)
-  const q4 = { en: `When does the ${area.name} ski season run in ${SEASON_YEAR}?`, fr: `Quand a lieu la saison de ski à ${area.name} en ${SEASON_YEAR} ?`, es: `¿Cuándo es la temporada de esquí en ${area.name} en ${SEASON_YEAR}?`, pt: `Quando decorre a época de esqui em ${area.name} em ${SEASON_YEAR}?`, it: `Quando va la stagione sciistica a ${area.name} nel ${SEASON_YEAR}?` }[locale]
+  const q4 = { en: `When does the ${area.name} ski season run in ${SEASON_YEAR}?`, fr: `Quand a lieu la saison de ski à ${area.name} en ${SEASON_YEAR} ?`, es: `¿Cuándo es la temporada de esquí en ${area.name} en ${SEASON_YEAR}?`, pt: `Quando decorre a época de esqui em ${area.name} em ${SEASON_YEAR}?`, it: `Quando va la stagione sciistica a ${area.name} nel ${SEASON_YEAR}?`, nl: `Wanneer loopt het skiseizoen in ${area.name} in ${SEASON_YEAR}?` }[locale]
   if (win) {
     const start = formatSeasonDate(win.start, locale)
     const end = formatSeasonDate(win.end, locale).replace(/\.$/, '')
@@ -213,6 +220,7 @@ export function winterFaq(area: SkiArea, locale: Locale): Reason[] {
       es: `Indicativamente de ${start} a ${end}. Las semanas de Navidad y febrero son las más concurridas; mediados de enero y mediados de marzo dan la misma nieve con menos gente.`,
       pt: `Indicativamente de ${start} a ${end}. As semanas de Natal e de fevereiro são as mais cheias; meados de janeiro e meados de março dão a mesma neve com menos gente.`,
       it: `Indicativamente da ${start} a ${end}. Le settimane di Natale e febbraio sono le più affollate; metà gennaio e metà marzo offrono la stessa neve con meno folla.`,
+      nl: `Indicatief van ${start} tot ${end}. De kerstvakantie en de februarivakantie zijn het drukst; half januari en half maart bieden dezelfde sneeuw met minder drukte.`,
     }
     out.push({ title: q4, body: a[locale] })
   }
@@ -229,19 +237,20 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
   const out: Reason[] = []
 
   // R1: one pass, size
-  const r1t = { en: 'One pass, one huge playground', fr: 'Un forfait, un immense terrain de jeu', es: 'Un forfait, un enorme parque de juego', pt: 'Um passe, um enorme parque de jogo', it: 'Uno skipass, un enorme parco giochi' }[locale]
+  const r1t = { en: 'One pass, one huge playground', fr: 'Un forfait, un immense terrain de jeu', es: 'Un forfait, un enorme parque de juego', pt: 'Um passe, um enorme parque de jogo', it: 'Uno skipass, un enorme parco giochi', nl: 'Eén liftpas, één enorme speeltuin' }[locale]
   const r1b: Record<Locale, string> = {
     en: `${area.name} links ${n} ${NOUN.resorts.en} on a single lift pass: ${km} km of piste and ${lifts} lifts, enough that a week of the ${SEASON_YEAR} holidays never skis the same run twice.`,
     fr: `${area.name} relie ${n} ${NOUN.resorts.fr} sur un seul forfait : ${km} km de pistes et ${lifts} remontées, de quoi ne jamais refaire deux fois la même piste sur une semaine de vacances ${SEASON_YEAR}.`,
     es: `${area.name} conecta ${n} ${NOUN.resorts.es} con un solo forfait: ${km} km de pistas y ${lifts} remontes, suficiente para que una semana de vacaciones ${SEASON_YEAR} no repita pista.`,
     pt: `${area.name} liga ${n} ${NOUN.resorts.pt} num único passe: ${km} km de pistas e ${lifts} teleféricos, o suficiente para que uma semana de férias de ${SEASON_YEAR} nunca repita a mesma pista.`,
     it: `${area.name} collega ${n} ${NOUN.resorts.it} con un solo skipass: ${km} km di piste e ${lifts} impianti, abbastanza perché una settimana di vacanze ${SEASON_YEAR} non ripeta mai la stessa pista.`,
+    nl: `${area.name} verbindt ${n} ${NOUN.resorts.nl} met één liftpas: ${km} km piste en ${lifts} liften, genoeg om in een vakantieweek in ${SEASON_YEAR} nooit dezelfde piste twee keer te skiën.`,
   }
   out.push({ title: r1t, body: r1b[locale] })
 
   // R2: snow / altitude band
   const band: 'high' | 'mid' | 'low' = top >= 2800 ? 'high' : top >= 2000 ? 'mid' : 'low'
-  const r2t = { en: 'Snow you can plan a holiday around', fr: 'Une neige sur laquelle planifier ses vacances', es: 'Nieve sobre la que planificar las vacaciones', pt: 'Neve para planear as férias', it: 'Neve su cui pianificare le vacanze' }[locale]
+  const r2t = { en: 'Snow you can plan a holiday around', fr: 'Une neige sur laquelle planifier ses vacances', es: 'Nieve sobre la que planificar las vacaciones', pt: 'Neve para planear as férias', it: 'Neve su cui pianificare le vacanze', nl: 'Sneeuw waar je een vakantie op kunt plannen' }[locale]
   const r2: Record<typeof band, Record<Locale, string>> = {
     high: {
       en: `The domain climbs to ${top} m, so snow holds reliably right through the Christmas and February holiday weeks of winter ${SEASON_YEAR}.`,
@@ -249,6 +258,7 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
       es: `El dominio sube hasta ${top} m, así que la nieve aguanta de forma fiable durante las semanas de Navidad y febrero del invierno ${SEASON_YEAR}.`,
       pt: `O domínio sobe até ${top} m, por isso a neve aguenta de forma fiável durante as semanas de Natal e de fevereiro do inverno de ${SEASON_YEAR}.`,
       it: `Il comprensorio sale fino a ${top} m, quindi la neve tiene in modo affidabile per tutte le settimane di Natale e febbraio dell'inverno ${SEASON_YEAR}.`,
+      nl: `Het gebied loopt op tot ${top} m, dus de sneeuw blijft betrouwbaar liggen tijdens de kerstvakantie en de februarivakantie van de winter van ${SEASON_YEAR}.`,
     },
     mid: {
       en: `Topping out at ${top} m and backed by serious snowmaking, the cover holds well across a normal winter ${SEASON_YEAR}.`,
@@ -256,6 +266,7 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
       es: `Con cima a ${top} m y respaldado por una sólida nieve de cultivo, la cobertura aguanta bien en un invierno ${SEASON_YEAR} normal.`,
       pt: `Com topo a ${top} m e apoiado por forte neve artificial, a cobertura aguenta bem num inverno ${SEASON_YEAR} normal.`,
       it: `Con la cima a ${top} m e una solida neve programmata, l'innevamento tiene bene in un inverno ${SEASON_YEAR} normale.`,
+      nl: `Met een top van ${top} m en stevige sneeuwkanonnen in de rug houdt de sneeuwlaag goed stand in een normale winter ${SEASON_YEAR}.`,
     },
     low: {
       en: `At ${top} m up top this is a lower domain, so check the live snow report when you fix your winter ${SEASON_YEAR} dates and keep them flexible.`,
@@ -263,6 +274,7 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
       es: `Con ${top} m arriba es un dominio de menor altitud: consulta el parte de nieve en directo al fijar tus fechas de invierno ${SEASON_YEAR} y mantén flexibilidad.`,
       pt: `Com ${top} m no topo é um domínio de menor altitude: consulte o boletim de neve em direto ao marcar as suas datas de inverno ${SEASON_YEAR} e mantenha flexibilidade.`,
       it: `Con ${top} m in cima è un comprensorio di quota più bassa: controlla il bollettino neve in tempo reale quando fissi le date d'inverno ${SEASON_YEAR} e tienile flessibili.`,
+      nl: `Met ${top} m aan de top is dit een lager gelegen gebied, dus check het actuele sneeuwbericht bij het plannen van je winterdata in ${SEASON_YEAR} en houd ze flexibel.`,
     },
   }
   out.push({ title: r2t, body: r2[band][locale] })
@@ -270,7 +282,7 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
   // R3: where to base
   const bases = members.slice(0, 3).map((m) => m.name)
   if (bases.length) {
-    const r3t = { en: 'Choose your base', fr: 'Choisissez votre camp de base', es: 'Elige tu base', pt: 'Escolha a sua base', it: 'Scegli la tua base' }[locale]
+    const r3t = { en: 'Choose your base', fr: 'Choisissez votre camp de base', es: 'Elige tu base', pt: 'Escolha a sua base', it: 'Scegli la tua base', nl: 'Kies je uitvalsbasis' }[locale]
     const list = joinNames(bases, locale)
     const r3b: Record<Locale, string> = {
       en: `Base yourself in ${list}: each opens onto the same linked terrain on one pass, so you pick the village that fits your group and still ski the whole domain.`,
@@ -278,6 +290,7 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
       es: `Alójate en ${list}: cada una da al mismo terreno enlazado con un forfait, así eliges el pueblo que encaja con tu grupo y esquías todo el dominio.`,
       pt: `Fique em ${list}: cada uma abre para o mesmo terreno ligado com um passe, por isso escolhe a aldeia que encaixa no seu grupo e esquia o domínio inteiro.`,
       it: `Sistematevi a ${list}: ognuna si apre sullo stesso terreno collegato con un solo skipass, così scegliete il paese giusto per il vostro gruppo e sciate tutto il comprensorio.`,
+      nl: `Kies je basis in ${list}: elk dorp geeft toegang tot hetzelfde verbonden gebied met één liftpas, dus je kiest het dorp dat bij je groep past en skiet toch het hele gebied.`,
     }
     out.push({ title: r3t, body: r3b[locale] })
   }
@@ -293,20 +306,21 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
     const easy = Math.round(((mix.green + mix.blue) / mixTot) * 100)
     const red = Math.round((mix.red / mixTot) * 100)
     const black = Math.max(0, 100 - easy - red)
-    const r5t = { en: 'Terrain for every level', fr: 'Du terrain pour tous les niveaux', es: 'Terreno para todos los niveles', pt: 'Terreno para todos os níveis', it: 'Terreno per ogni livello' }[locale]
+    const r5t = { en: 'Terrain for every level', fr: 'Du terrain pour tous les niveaux', es: 'Terreno para todos los niveles', pt: 'Terreno para todos os níveis', it: 'Terreno per ogni livello', nl: 'Terrein voor elk niveau' }[locale]
     const r5b: Record<Locale, string> = {
       en: `Across the domain about ${easy}% of the runs are green or blue, ${red}% red and ${black}% black, so beginners, intermediates and experts share the same lift pass without anyone running out of terrain.`,
       fr: `Sur l'ensemble du domaine, environ ${easy}% des pistes sont vertes ou bleues, ${red}% rouges et ${black}% noires : débutants, intermédiaires et experts partagent le même forfait sans jamais manquer de terrain.`,
       es: `En todo el dominio cerca del ${easy}% de las pistas son verdes o azules, ${red}% rojas y ${black}% negras, así que principiantes, intermedios y expertos comparten el mismo forfait sin quedarse sin terreno.`,
       pt: `Em todo o domínio cerca de ${easy}% das pistas são verdes ou azuis, ${red}% vermelhas e ${black}% pretas, por isso principiantes, intermédios e experts partilham o mesmo passe sem ficar sem terreno.`,
       it: `Su tutto il comprensorio circa il ${easy}% delle piste è verde o blu, il ${red}% rosso e il ${black}% nero, quindi principianti, intermedi ed esperti condividono lo stesso skipass senza restare mai senza terreno.`,
+      nl: `In het hele gebied is ongeveer ${easy}% van de pistes groen of blauw, ${red}% rood en ${black}% zwart, dus beginners, gevorderden en experts delen dezelfde liftpas zonder ooit terrein tekort te komen.`,
     }
     out.push({ title: r5t, body: r5b[locale] })
   }
 
   // R4: when to go (indicative season window)
   const win = seasonWindow(members)
-  const r4t = { en: `When to go in ${SEASON_YEAR}`, fr: `Quand y aller en ${SEASON_YEAR}`, es: `Cuándo ir en ${SEASON_YEAR}`, pt: `Quando ir em ${SEASON_YEAR}`, it: `Quando andare nel ${SEASON_YEAR}` }[locale]
+  const r4t = { en: `When to go in ${SEASON_YEAR}`, fr: `Quand y aller en ${SEASON_YEAR}`, es: `Cuándo ir en ${SEASON_YEAR}`, pt: `Quando ir em ${SEASON_YEAR}`, it: `Quando andare nel ${SEASON_YEAR}`, nl: `Wanneer je moet gaan in ${SEASON_YEAR}` }[locale]
   let r4b: string
   if (win) {
     const start = formatSeasonDate(win.start, locale)
@@ -319,6 +333,7 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
       es: `Los remontes funcionan normalmente de ${start} a ${end}. Las semanas de Navidad y febrero son los picos animados; para la misma nieve con menos gente, mediados de enero y mediados de marzo son las ventanas inteligentes de ${SEASON_YEAR}.`,
       pt: `Os teleféricos funcionam normalmente de ${start} a ${end}. As semanas de Natal e de fevereiro são os picos animados; para a mesma neve com menos gente, meados de janeiro e meados de março são as janelas espertas de ${SEASON_YEAR}.`,
       it: `Gli impianti girano di solito da ${start} a ${end}. Le settimane di Natale e febbraio sono i picchi vivaci; per la stessa neve con meno folla, metà gennaio e metà marzo sono le finestre furbe del ${SEASON_YEAR}.`,
+      nl: `De liften draaien meestal van ${start} tot ${end}. De kerstvakantie en de februarivakantie zijn de drukste piekperiodes; voor dezelfde sneeuw met minder drukte zijn half januari en half maart de slimme momenten in ${SEASON_YEAR}.`,
     }
     r4b = t[locale]
   } else {
@@ -328,6 +343,7 @@ export function winterReasons(area: SkiArea, locale: Locale): Reason[] {
       es: `Apunta al pleno invierno: las semanas de Navidad y febrero son las más concurridas, mientras que mediados de enero y mediados de marzo dan nieve fiable con menos gente en ${SEASON_YEAR}.`,
       pt: `Aponte para o pleno inverno: as semanas de Natal e de fevereiro são as mais cheias, enquanto meados de janeiro e meados de março dão neve fiável com menos gente em ${SEASON_YEAR}.`,
       it: `Punta al pieno inverno: le settimane di Natale e febbraio sono le più affollate, mentre metà gennaio e metà marzo offrono neve affidabile con meno folla nel ${SEASON_YEAR}.`,
+      nl: `Plan rond het hart van de winter: de kerstvakantie en de februarivakantie zijn het drukst, terwijl half januari en half maart betrouwbare sneeuw geven met minder drukte in ${SEASON_YEAR}.`,
     }
     r4b = t[locale]
   }

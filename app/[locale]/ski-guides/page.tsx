@@ -9,7 +9,7 @@ import { SITE_URL, hreflangFor } from '@/lib/site'
 
 const T = {
   title: {
-    en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías de esquí por tema', pt: 'Guias de esqui por tema', it: 'Guide allo sci per tema',
+    en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías de esquí por tema', pt: 'Guias de esqui por tema', it: 'Guide allo sci per tema', nl: 'Skigidsen per thema',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Hand-picked guides around one idea: spa skiing, the liveliest après-ski, the most luxurious hotels. Resorts and hotels chosen from our own data.',
@@ -17,6 +17,7 @@ const T = {
     es: 'Guías seleccionadas en torno a una idea: esquí y spa, el après-ski más animado, los hoteles más lujosos. Estaciones y hoteles elegidos con nuestros propios datos.',
     pt: 'Guias escolhidos à volta de uma ideia: esqui e termas, o après-ski mais animado, os hotéis mais luxuosos. Estâncias e hotéis escolhidos a partir dos nossos dados.',
     it: "Guide scelte attorno a un'idea: sci e terme, l'après-ski più vivace, gli hotel più lussuosi. Località e hotel scelti dai nostri dati.",
+    nl: 'Zorgvuldig samengestelde gidsen rond één idee: wellness en ski, de levendigste après-ski, de meest luxueuze hotels. Skigebieden en hotels gekozen op basis van onze eigen data.',
   } as Record<Locale, string>,
 }
 

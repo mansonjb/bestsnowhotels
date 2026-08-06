@@ -24,6 +24,7 @@ const T = {
     es: "Ultimas semanas para esquiar en los Andes 2026: reserva ahora",
     pt: "Ultimas semanas para esquiar nos Andes 2026: reserve agora",
     it: "Ultime settimane per sciare sulle Ande nel 2026: prenota ora",
+    nl: "De laatste weken om in de Andes te skien in 2026: boek nu",
   } as Record<Locale, string>,
   kicker: {
     en: "Southern Hemisphere, 2026 season",
@@ -31,6 +32,7 @@ const T = {
     es: "Hemisferio sur, temporada 2026",
     pt: "Hemisferio sul, temporada 2026",
     it: "Emisfero sud, stagione 2026",
+    nl: "Zuidelijk halfrond, seizoen 2026",
   } as Record<Locale, string>,
   title: {
     en: "The last weeks of Andes snow",
@@ -38,6 +40,7 @@ const T = {
     es: "Ultimas semanas de nieve en los Andes",
     pt: "Ultimas semanas de neve nos Andes",
     it: "Ultime settimane di neve sulle Ande",
+    nl: "De laatste weken sneeuw in de Andes",
   } as Record<Locale, string>,
   intro: {
     en: "The 2026 Andes season closes between late September and late October. There is still deep snow up high in Chile and Argentina. Here are the resorts staying open longest with the best snow, and where to book a hotel before it ends.",
@@ -45,6 +48,7 @@ const T = {
     es: "La temporada 2026 en los Andes cierra entre finales de septiembre y finales de octubre. Todavia hay nieve profunda en altura, en Chile y Argentina. Estas son las estaciones abiertas mas tiempo y con mejor nieve, y donde reservar hotel antes de que termine.",
     pt: "A temporada 2026 nos Andes fecha entre o fim de setembro e o fim de outubro. Ainda ha neve profunda em altitude, no Chile e na Argentina. Estas sao as estancias abertas por mais tempo e com melhor neve, e onde reservar hotel antes que acabe.",
     it: "La stagione 2026 sulle Ande chiude tra fine settembre e fine ottobre. In quota, in Cile e Argentina, c'e ancora neve abbondante. Ecco le localita aperte piu a lungo e con la neve migliore, e dove prenotare un hotel prima che finisca.",
+    nl: "Het Andes-seizoen 2026 sluit tussen eind september en eind oktober. Hoog in de bergen ligt in Chili en Argentina nog diepe sneeuw. Dit zijn de skigebieden die het langst open blijven met de beste sneeuw, en waar je een hotel boekt voordat het seizoen eindigt.",
   } as Record<Locale, string>,
   urgency: {
     en: "Book now: Portillo and Las Leñas close first, at the end of September. The high resorts, Valle Nevado, Nevados de Chillan, Corralco and Pucon, hold snow into October.",
@@ -52,34 +56,36 @@ const T = {
     es: "Reserva ahora: Portillo y Las Leñas cierran primero, a finales de septiembre. Las estaciones de altura, Valle Nevado, Nevados de Chillan, Corralco y Pucon, mantienen nieve hasta octubre.",
     pt: "Reserve agora: Portillo e Las Leñas fecham primeiro, no fim de setembro. As estancias de altitude, Valle Nevado, Nevados de Chillan, Corralco e Pucon, mantem neve ate outubro.",
     it: "Prenota ora: Portillo e Las Leñas chiudono per prime, a fine settembre. Le localita d'alta quota, Valle Nevado, Nevados de Chillan, Corralco e Pucon, tengono la neve fino a ottobre.",
+    nl: "Boek nu: Portillo en Las Leñas sluiten als eerste, eind september. De hooggelegen skigebieden, Valle Nevado, Nevados de Chillan, Corralco en Pucon, houden de sneeuw tot in oktober.",
   } as Record<Locale, string>,
   openUntil: {
-    en: "Open until", fr: "Ouvert jusqu'au", es: "Abierto hasta", pt: "Aberto ate", it: "Aperto fino al",
+    en: "Open until", fr: "Ouvert jusqu'au", es: "Abierto hasta", pt: "Aberto ate", it: "Aperto fino al", nl: "Open tot",
   } as Record<Locale, string>,
-  book: { en: "Book hotels", fr: "Reserver un hotel", es: "Reservar hoteles", pt: "Reservar hoteis", it: "Prenota hotel" } as Record<Locale, string>,
-  report: { en: "Snow report", fr: "Bulletin neige", es: "Parte de nieve", pt: "Boletim de neve", it: "Bollettino neve" } as Record<Locale, string>,
+  book: { en: "Book hotels", fr: "Reserver un hotel", es: "Reservar hoteles", pt: "Reservar hoteis", it: "Prenota hotel", nl: "Boek hotels" } as Record<Locale, string>,
+  report: { en: "Snow report", fr: "Bulletin neige", es: "Parte de nieve", pt: "Boletim de neve", it: "Bollettino neve", nl: "Sneeuwbericht" } as Record<Locale, string>,
   resortsTitle: {
     en: "Where the snow is still deep",
     fr: "Ou la neige est encore profonde",
     es: "Donde la nieve sigue siendo profunda",
     pt: "Onde a neve ainda e profunda",
     it: "Dove la neve e ancora abbondante",
+    nl: "Waar de sneeuw nog diep ligt",
   } as Record<Locale, string>,
-  mapChile: { en: "Book a hotel in the Chilean Andes", fr: "Reserver un hotel dans les Andes chiliennes", es: "Reserva un hotel en los Andes chilenos", pt: "Reserve um hotel nos Andes chilenos", it: "Prenota un hotel sulle Ande cilene" } as Record<Locale, string>,
-  mapArg: { en: "Book a hotel in the Argentine Andes", fr: "Reserver un hotel dans les Andes argentines", es: "Reserva un hotel en los Andes argentinos", pt: "Reserve um hotel nos Andes argentinos", it: "Prenota un hotel sulle Ande argentine" } as Record<Locale, string>,
-  faqTitle: { en: "Late-season Andes skiing: questions", fr: "Ski de fin de saison dans les Andes", es: "Esqui de fin de temporada en los Andes", pt: "Esqui de fim de temporada nos Andes", it: "Sci di fine stagione sulle Ande" } as Record<Locale, string>,
+  mapChile: { en: "Book a hotel in the Chilean Andes", fr: "Reserver un hotel dans les Andes chiliennes", es: "Reserva un hotel en los Andes chilenos", pt: "Reserve um hotel nos Andes chilenos", it: "Prenota un hotel sulle Ande cilene", nl: "Boek een hotel in de Chileense Andes" } as Record<Locale, string>,
+  mapArg: { en: "Book a hotel in the Argentine Andes", fr: "Reserver un hotel dans les Andes argentines", es: "Reserva un hotel en los Andes argentinos", pt: "Reserve um hotel nos Andes argentinos", it: "Prenota un hotel sulle Ande argentine", nl: "Boek een hotel in de Argentijnse Andes" } as Record<Locale, string>,
+  faqTitle: { en: "Late-season Andes skiing: questions", fr: "Ski de fin de saison dans les Andes", es: "Esqui de fin de temporada en los Andes", pt: "Esqui de fim de temporada nos Andes", it: "Sci di fine stagione sulle Ande", nl: "Laat-seizoen skien in de Andes: vragen" } as Record<Locale, string>,
   faq: [
     {
-      q: { en: "When does the Andes ski season end in 2026?", fr: "Quand se termine la saison de ski dans les Andes en 2026 ?", es: "¿Cuando termina la temporada de esqui en los Andes en 2026?", pt: "Quando termina a temporada de esqui nos Andes em 2026?", it: "Quando finisce la stagione sciistica sulle Ande nel 2026?" },
-      a: { en: "Roughly between late September and late October. Portillo and Las Leñas close first, while high resorts like Valle Nevado and Nevados de Chillan, plus Villarrica-Pucon, run into late October.", fr: "Grosso modo entre fin septembre et fin octobre. Portillo et Las Leñas ferment en premier, tandis que les stations d'altitude comme Valle Nevado et Nevados de Chillan, ainsi que Villarrica-Pucon, tiennent jusqu'a fin octobre.", es: "Aproximadamente entre finales de septiembre y finales de octubre. Portillo y Las Leñas cierran primero, mientras que estaciones de altura como Valle Nevado y Nevados de Chillan, y Villarrica-Pucon, llegan hasta finales de octubre.", pt: "Sensivelmente entre o fim de setembro e o fim de outubro. Portillo e Las Leñas fecham primeiro, enquanto estancias de altitude como Valle Nevado e Nevados de Chillan, e Villarrica-Pucon, chegam ao fim de outubro.", it: "All'incirca tra fine settembre e fine ottobre. Portillo e Las Leñas chiudono per prime, mentre le localita d'alta quota come Valle Nevado e Nevados de Chillan, e Villarrica-Pucon, arrivano a fine ottobre." },
+      q: { en: "When does the Andes ski season end in 2026?", fr: "Quand se termine la saison de ski dans les Andes en 2026 ?", es: "¿Cuando termina la temporada de esqui en los Andes en 2026?", pt: "Quando termina a temporada de esqui nos Andes em 2026?", it: "Quando finisce la stagione sciistica sulle Ande nel 2026?", nl: "Wanneer eindigt het skiseizoen in de Andes in 2026?" },
+      a: { en: "Roughly between late September and late October. Portillo and Las Leñas close first, while high resorts like Valle Nevado and Nevados de Chillan, plus Villarrica-Pucon, run into late October.", fr: "Grosso modo entre fin septembre et fin octobre. Portillo et Las Leñas ferment en premier, tandis que les stations d'altitude comme Valle Nevado et Nevados de Chillan, ainsi que Villarrica-Pucon, tiennent jusqu'a fin octobre.", es: "Aproximadamente entre finales de septiembre y finales de octubre. Portillo y Las Leñas cierran primero, mientras que estaciones de altura como Valle Nevado y Nevados de Chillan, y Villarrica-Pucon, llegan hasta finales de octubre.", pt: "Sensivelmente entre o fim de setembro e o fim de outubro. Portillo e Las Leñas fecham primeiro, enquanto estancias de altitude como Valle Nevado e Nevados de Chillan, e Villarrica-Pucon, chegam ao fim de outubro.", it: "All'incirca tra fine settembre e fine ottobre. Portillo e Las Leñas chiudono per prime, mentre le localita d'alta quota come Valle Nevado e Nevados de Chillan, e Villarrica-Pucon, arrivano a fine ottobre.", nl: "Ruwweg tussen eind september en eind oktober. Portillo en Las Leñas sluiten als eerste, terwijl hooggelegen skigebieden zoals Valle Nevado en Nevados de Chillan, en Villarrica-Pucon, tot eind oktober doorgaan." },
     },
     {
-      q: { en: "Is it worth skiing the Andes in September or October?", fr: "Skier les Andes en septembre ou octobre, ca vaut le coup ?", es: "¿Vale la pena esquiar los Andes en septiembre u octubre?", pt: "Vale a pena esquiar nos Andes em setembro ou outubro?", it: "Vale la pena sciare sulle Ande a settembre o ottobre?" },
-      a: { en: "Yes. Late season means long sunny days, spring snow up high, fewer crowds and lower hotel prices. Stick to the high-altitude resorts and check the live snow report before you book.", fr: "Oui. La fin de saison, ce sont de longues journees ensoleillees, de la neige de printemps en altitude, moins de monde et des hotels moins chers. Visez les stations d'altitude et verifiez le bulletin neige avant de reserver.", es: "Si. El fin de temporada trae dias largos y soleados, nieve primaveral en altura, menos gente y hoteles mas baratos. Apunta a las estaciones de altura y mira el parte de nieve antes de reservar.", pt: "Sim. O fim de temporada traz dias longos e soalheiros, neve primaveril em altitude, menos gente e hoteis mais baratos. Aposte nas estancias de altitude e veja o boletim de neve antes de reservar.", it: "Si. La fine stagione porta giornate lunghe e soleggiate, neve primaverile in quota, meno folla e hotel piu economici. Punta sulle localita d'alta quota e controlla il bollettino neve prima di prenotare." },
+      q: { en: "Is it worth skiing the Andes in September or October?", fr: "Skier les Andes en septembre ou octobre, ca vaut le coup ?", es: "¿Vale la pena esquiar los Andes en septiembre u octubre?", pt: "Vale a pena esquiar nos Andes em setembro ou outubro?", it: "Vale la pena sciare sulle Ande a settembre o ottobre?", nl: "Is het de moeite waard om in september of oktober in de Andes te skien?" },
+      a: { en: "Yes. Late season means long sunny days, spring snow up high, fewer crowds and lower hotel prices. Stick to the high-altitude resorts and check the live snow report before you book.", fr: "Oui. La fin de saison, ce sont de longues journees ensoleillees, de la neige de printemps en altitude, moins de monde et des hotels moins chers. Visez les stations d'altitude et verifiez le bulletin neige avant de reserver.", es: "Si. El fin de temporada trae dias largos y soleados, nieve primaveral en altura, menos gente y hoteles mas baratos. Apunta a las estaciones de altura y mira el parte de nieve antes de reservar.", pt: "Sim. O fim de temporada traz dias longos e soalheiros, neve primaveril em altitude, menos gente e hoteis mais baratos. Aposte nas estancias de altitude e veja o boletim de neve antes de reservar.", it: "Si. La fine stagione porta giornate lunghe e soleggiate, neve primaverile in quota, meno folla e hotel piu economici. Punta sulle localita d'alta quota e controlla il bollettino neve prima di prenotare.", nl: "Ja. Het einde van het seizoen betekent lange zonnige dagen, lentesneeuw hoog in de bergen, minder drukte en goedkopere hotels. Kies de hooggelegen skigebieden en bekijk het sneeuwbericht voordat je boekt." },
     },
     {
-      q: { en: "Which Andes resort has the best snow right now?", fr: "Quelle station des Andes a la meilleure neige en ce moment ?", es: "¿Que estacion de los Andes tiene mejor nieve ahora mismo?", pt: "Que estancia dos Andes tem a melhor neve agora?", it: "Quale localita delle Ande ha la neve migliore in questo momento?" },
-      a: { en: "By our snow score, Corralco, Portillo and Nevados de Chillan lead, followed by Las Leñas, Valle Nevado and La Hoya. Check each resort's live snow report for today's conditions.", fr: "Selon notre score neige, Corralco, Portillo et Nevados de Chillan menent, devant Las Leñas, Valle Nevado et La Hoya. Consultez le bulletin neige de chaque station pour les conditions du jour.", es: "Segun nuestra puntuacion de nieve, encabezan Corralco, Portillo y Nevados de Chillan, seguidos de Las Leñas, Valle Nevado y La Hoya. Mira el parte de nieve de cada estacion para las condiciones de hoy.", pt: "Pela nossa pontuacao de neve, lideram Corralco, Portillo e Nevados de Chillan, seguidos de Las Leñas, Valle Nevado e La Hoya. Veja o boletim de neve de cada estancia para as condicoes de hoje.", it: "Secondo il nostro punteggio neve, in testa ci sono Corralco, Portillo e Nevados de Chillan, seguiti da Las Leñas, Valle Nevado e La Hoya. Controlla il bollettino neve di ogni localita per le condizioni di oggi." },
+      q: { en: "Which Andes resort has the best snow right now?", fr: "Quelle station des Andes a la meilleure neige en ce moment ?", es: "¿Que estacion de los Andes tiene mejor nieve ahora mismo?", pt: "Que estancia dos Andes tem a melhor neve agora?", it: "Quale localita delle Ande ha la neve migliore in questo momento?", nl: "Welk skigebied in de Andes heeft nu de beste sneeuw?" },
+      a: { en: "By our snow score, Corralco, Portillo and Nevados de Chillan lead, followed by Las Leñas, Valle Nevado and La Hoya. Check each resort's live snow report for today's conditions.", fr: "Selon notre score neige, Corralco, Portillo et Nevados de Chillan menent, devant Las Leñas, Valle Nevado et La Hoya. Consultez le bulletin neige de chaque station pour les conditions du jour.", es: "Segun nuestra puntuacion de nieve, encabezan Corralco, Portillo y Nevados de Chillan, seguidos de Las Leñas, Valle Nevado y La Hoya. Mira el parte de nieve de cada estacion para las condiciones de hoy.", pt: "Pela nossa pontuacao de neve, lideram Corralco, Portillo e Nevados de Chillan, seguidos de Las Leñas, Valle Nevado e La Hoya. Veja o boletim de neve de cada estancia para as condicoes de hoje.", it: "Secondo il nostro punteggio neve, in testa ci sono Corralco, Portillo e Nevados de Chillan, seguiti da Las Leñas, Valle Nevado e La Hoya. Controlla il bollettino neve di ogni localita per le condizioni di oggi.", nl: "Volgens onze sneeuwscore staan Corralco, Portillo en Nevados de Chillan bovenaan, gevolgd door Las Leñas, Valle Nevado en La Hoya. Bekijk het sneeuwbericht van elk skigebied voor de actuele omstandigheden." },
     },
   ] as { q: Record<Locale, string>; a: Record<Locale, string> }[],
 }

@@ -27,6 +27,7 @@ export async function generateMetadata({
     es: 'Hoteles ski-in/ski-out : las 455 mejores estaciones de esquí de Europa | BestSnowHotels',
     pt: 'Hotéis ski-in/ski-out: as 455 melhores estâncias de esqui da Europa | BestSnowHotels',
     it: 'Hotel ski-in/ski-out: le 455 migliori località sciistiche d\'Europa | BestSnowHotels',
+    nl: 'Ski-in/ski-out hotels: de 455 beste skigebieden van Europa | BestSnowHotels',
   }
   const descriptions: Record<Locale, string> = {
     en: 'Browse 455 hand-picked ski resorts in the Alps and Pyrenees with verified ski-in/ski-out hotels. Live maps powered by Stay22 and the best prices across Booking, Expedia and Hotels.com.',
@@ -34,6 +35,7 @@ export async function generateMetadata({
     es: 'Explora 455 estaciones de esquí cuidadosamente seleccionadas en los Alpes y los Pirineos, con hoteles ski-in/ski-out verificados. Mapas en directo gracias a Stay22 y los mejores precios en Booking, Expedia y Hotels.com.',
     pt: 'Percorra 455 estâncias de esqui cuidadosamente escolhidas nos Alpes e nos Pirenéus, com hotéis ski-in/ski-out verificados. Mapas em directo graças à Stay22 e os melhores preços no Booking, na Expedia e no Hotels.com.',
     it: 'Esplora 455 località sciistiche scelte sulle Alpi e sui Pirenei, con hotel ski-in/ski-out verificati. Mappe in tempo reale con Stay22 e i migliori prezzi tra Booking, Expedia e Hotels.com.',
+    nl: 'Ontdek 455 zorgvuldig geselecteerde skigebieden in de Alpen en de Pyreneeën met geverifieerde ski-in/ski-out hotels. Live kaarten via Stay22 en de beste prijzen op Booking, Expedia en Hotels.com.',
   }
 
   return {
@@ -53,6 +55,7 @@ export async function generateMetadata({
         es: `${SITE_URL}/es`,
         pt: `${SITE_URL}/pt`,
         it: `${SITE_URL}/it`,
+        nl: `${SITE_URL}/nl`,
         'x-default': `${SITE_URL}/en`,
       },
     },
@@ -104,7 +107,7 @@ export default async function HomePage({
     alternateName: 'BestSnowHotels.com',
     url: SITE_URL,
     description: '455 ski-in/ski-out resorts in the Alps and Pyrenees with verified altitudes, snow data and best-price hotel maps.',
-    inLanguage: ['en', 'fr', 'es', 'pt', 'it'],
+    inLanguage: ['en', 'fr', 'es', 'pt', 'it', 'nl'],
     publisher: { '@type': 'Organization', name: 'BestSnowHotels', url: SITE_URL },
   }
 
@@ -128,15 +131,15 @@ export default async function HomePage({
               <span className="text-4xl" aria-hidden>🌏❄️</span>
               <div>
                 <p className="text-lg sm:text-xl font-bold">
-                  {({ en: 'Summer up north? Ski down south.', fr: "L'été chez vous ? Skiez au sud.", es: '¿Verano en el norte? Esquía en el sur.', pt: 'Verão a norte? Esquie a sul.', it: 'Estate a nord? Sciate a sud.' } as Record<Locale, string>)[locale]}
+                  {({ en: 'Summer up north? Ski down south.', fr: "L'été chez vous ? Skiez au sud.", es: '¿Verano en el norte? Esquía en el sur.', pt: 'Verão a norte? Esquie a sul.', it: 'Estate a nord? Sciate a sud.', nl: 'Zomer in het noorden? Ski in het zuiden.' } as Record<Locale, string>)[locale]}
                 </p>
                 <p className="mt-1 text-sm text-white/80">
-                  {({ en: 'Ski July, August and September across the Andes, New Zealand and Australia.', fr: 'Skiez en juillet, août et septembre dans les Andes, en Nouvelle-Zélande et en Australie.', es: 'Esquía en julio, agosto y septiembre en los Andes, Nueva Zelanda y Australia.', pt: 'Esquie em julho, agosto e setembro nos Andes, na Nova Zelândia e na Austrália.', it: 'Sciate a luglio, agosto e settembre sulle Ande, in Nuova Zelanda e in Australia.' } as Record<Locale, string>)[locale]}
+                  {({ en: 'Ski July, August and September across the Andes, New Zealand and Australia.', fr: 'Skiez en juillet, août et septembre dans les Andes, en Nouvelle-Zélande et en Australie.', es: 'Esquía en julio, agosto y septiembre en los Andes, Nueva Zelanda y Australia.', pt: 'Esquie em julho, agosto e setembro nos Andes, na Nova Zelândia e na Austrália.', it: 'Sciate a luglio, agosto e settembre sulle Ande, in Nuova Zelanda e in Australia.', nl: 'Ski in juli, augustus en september in de Andes, Nieuw-Zeeland en Australië.' } as Record<Locale, string>)[locale]}
                 </p>
               </div>
             </div>
             <span className="inline-block bg-white text-slate-deep font-semibold text-sm px-5 py-2.5 rounded-full group-hover:bg-ice-50 transition whitespace-nowrap">
-              {({ en: 'See where to ski now →', fr: 'Voir où skier maintenant →', es: 'Ver dónde esquiar ahora →', pt: 'Ver onde esquiar agora →', it: 'Scopri dove sciare ora →' } as Record<Locale, string>)[locale]}
+              {({ en: 'See where to ski now →', fr: 'Voir où skier maintenant →', es: 'Ver dónde esquiar ahora →', pt: 'Ver onde esquiar agora →', it: 'Scopri dove sciare ora →', nl: 'Bekijk waar je nu kunt skien →' } as Record<Locale, string>)[locale]}
             </span>
           </div>
         </Link>
@@ -177,17 +180,17 @@ export default async function HomePage({
       {/* Explore by theme (internal hubs) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-slate-deep mb-6">
-          {({ en: 'Explore by theme', fr: 'Explorer par thème', es: 'Explora por tema', pt: 'Explore por tema', it: 'Esplora per tema' } as Record<Locale, string>)[locale]}
+          {({ en: 'Explore by theme', fr: 'Explorer par thème', es: 'Explora por tema', pt: 'Explore por tema', it: 'Esplora per tema', nl: 'Verken per thema' } as Record<Locale, string>)[locale]}
         </h2>
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
           {[
             { href: `/${locale}/guides`, label: dict.nav.guides, emoji: '📋' },
-            { href: `/${locale}/winter-2027`, label: ({ en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<Locale, string>)[locale], emoji: '🗓️' },
+            { href: `/${locale}/winter-2027`, label: ({ en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027', nl: 'Winter 2027' } as Record<Locale, string>)[locale], emoji: '🗓️' },
             { href: `/${locale}/ski-in-ski-out`, label: dict.nav.skiInSkiOut, emoji: '🎿' },
             { href: `/${locale}/best`, label: dict.nav.best, emoji: '🏆' },
             { href: `/${locale}/compare`, label: dict.nav.compare, emoji: '⚖️' },
             { href: `/${locale}/when`, label: dict.nav.when, emoji: '❄️' },
-            { href: `/${locale}/southern-hemisphere`, label: ({ en: 'Ski in July & August', fr: 'Skier en juillet et août', es: 'Esquiar en julio y agosto', pt: 'Esquiar em julho e agosto', it: 'Sciare a luglio e agosto' } as Record<Locale, string>)[locale], emoji: '🌏' },
+            { href: `/${locale}/southern-hemisphere`, label: ({ en: 'Ski in July & August', fr: 'Skier en juillet et août', es: 'Esquiar en julio y agosto', pt: 'Esquiar em julho e agosto', it: 'Sciare a luglio e agosto', nl: 'Skien in juli en augustus' } as Record<Locale, string>)[locale], emoji: '🌏' },
           ].map((h) => (
             <Link key={h.href} href={h.href} className="card-hover flex items-center gap-3 bg-white rounded-2xl border border-ice-100 px-5 py-4 font-semibold text-slate-deep">
               <span className="text-xl" aria-hidden>{h.emoji}</span>

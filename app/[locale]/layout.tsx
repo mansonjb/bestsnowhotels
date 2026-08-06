@@ -28,6 +28,7 @@ export async function generateMetadata({
     es: 'BestSnowHotels : hoteles ski-in/ski-out en los Alpes y los Pirineos',
     pt: 'BestSnowHotels: hotéis ski-in/ski-out nos Alpes e nos Pirenéus',
     it: 'BestSnowHotels: hotel ski-in/ski-out sulle Alpi e sui Pirenei',
+    nl: 'BestSnowHotels: ski-in/ski-out hotels in de Alpen en de Pyreneeën',
   }
   const descriptions: Record<Locale, string> = {
     en: 'Find ski-in/ski-out hotels across 455 resorts in France, Switzerland, Austria, Italy, Spain, Andorra, Germany, Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt, Canada, South Korea, Australia, New Zealand and Chile. Real altitudes, real snow data, best prices.',
@@ -35,6 +36,7 @@ export async function generateMetadata({
     es: 'Encuentra hoteles ski-in/ski-out en 455 estaciones de Francia, Suiza, Austria, Italia, España, Andorra, Alemania, Noruega, Suecia, Finlandia, Japón, Estados Unidos, Marruecos, Argelia, Lesoto, Sudáfrica, Egipto, Canadá, Corea del Sur, Australia, Nueva Zelanda y Chile. Altitudes reales, datos de nieve, los mejores precios.',
     pt: 'Encontre hotéis ski-in/ski-out em 455 estâncias em França, na Suíça, na Áustria, em Itália, em Espanha, em Andorra, na Alemanha, na Noruega, na Suécia, na Finlândia, no Japão, nos Estados Unidos, em Marrocos, na Argélia, no Lesoto, na África do Sul, no Egito, no Canadá, na Coreia do Sul, na Austrália, na Nova Zelândia e no Chile. Altitudes reais, dados de neve, os melhores preços.',
     it: 'Trova hotel ski-in/ski-out in 455 località tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone, Stati Uniti, Marocco, Algeria, Lesotho, Sudafrica, Egitto, Canada, Corea del Sud, Australia, Nuova Zelanda e Cile. Quote reali, dati neve veri, prezzi migliori.',
+    nl: 'Vind ski-in/ski-out hotels in 455 skigebieden in Frankrijk, Zwitserland, Oostenrijk, Italië, Spanje, Andorra, Duitsland, Noorwegen, Zweden, Finland, Japan, de Verenigde Staten, Marokko, Algerije, Lesotho, Zuid-Afrika, Egypte, Canada, Zuid-Korea, Australië, Nieuw-Zeeland en Chili. Echte hoogtes, echte sneeuwdata, de beste prijzen.',
   }
   const l = hasLocale(locale) ? locale : 'en'
 
@@ -61,7 +63,7 @@ export async function generateMetadata({
       siteName: 'BestSnowHotels',
       type: 'website',
       locale:
-        l === 'fr' ? 'fr_FR' : l === 'es' ? 'es_ES' : l === 'pt' ? 'pt_PT' : l === 'it' ? 'it_IT' : 'en_GB',
+        l === 'fr' ? 'fr_FR' : l === 'es' ? 'es_ES' : l === 'pt' ? 'pt_PT' : l === 'it' ? 'it_IT' : l === 'nl' ? 'nl_NL' : 'en_GB',
     },
     twitter: {
       card: 'summary_large_image',

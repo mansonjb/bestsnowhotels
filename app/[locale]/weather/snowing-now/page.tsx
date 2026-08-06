@@ -20,6 +20,7 @@ const T = {
     es: '¿Dónde está nevando ahora mismo?',
     pt: 'Onde está a nevar neste momento?',
     it: 'Dove sta nevicando in questo momento?',
+    nl: 'Waar sneeuwt het nu?',
   } as Record<Locale, string>,
   subtitle: {
     en: 'A live look at which ski resorts in the world have the most fresh snow on the slopes right now, ranked from real conditions and updated every 30 minutes.',
@@ -27,6 +28,7 @@ const T = {
     es: 'Una mirada en directo a las estaciones de esquí del mundo con más nieve fresca en las pistas ahora mismo, ordenadas según las condiciones reales y actualizadas cada 30 minutos.',
     pt: 'Uma vista em direto das estâncias de esqui do mundo com mais neve fresca nas pistas neste momento, ordenadas pelas condições reais e atualizadas a cada 30 minutos.',
     it: 'Uno sguardo in tempo reale alle località sciistiche del mondo con più neve fresca sulle piste in questo momento, ordinate in base alle condizioni reali e aggiornate ogni 30 minuti.',
+    nl: 'Een actueel overzicht van welke skigebieden ter wereld nu de meeste verse sneeuw op de piste hebben, gerangschikt op basis van actuele omstandigheden en elke 30 minuten bijgewerkt.',
   } as Record<Locale, string>,
   answerSnowing: {
     en: 'Right now, the most fresh snow is falling at',
@@ -34,6 +36,7 @@ const T = {
     es: 'Ahora mismo, la mayor nevada cae en',
     pt: 'Neste momento, a maior queda de neve fresca é em',
     it: 'In questo momento, la maggiore nevicata fresca è a',
+    nl: 'Op dit moment valt de meeste verse sneeuw bij',
   } as Record<Locale, string>,
   answerSnowingTail: {
     en: '',
@@ -41,6 +44,7 @@ const T = {
     es: '',
     pt: '',
     it: '',
+    nl: '',
   } as Record<Locale, string>,
   answerCalm: {
     en: 'No major snowfall worldwide right now. The deepest snow currently on the slopes is at',
@@ -48,6 +52,7 @@ const T = {
     es: 'Sin grandes nevadas en el mundo ahora mismo. La nieve más profunda actualmente en las pistas está en',
     pt: 'Sem grandes quedas de neve no mundo neste momento. A neve mais profunda atualmente nas pistas é em',
     it: 'Nessuna grande nevicata nel mondo in questo momento. La neve più profonda attualmente sulle piste è a',
+    nl: 'Nergens ter wereld valt nu veel sneeuw. De diepste sneeuw op de piste ligt op dit moment bij',
   } as Record<Locale, string>,
   // Secondary phrasings people search, surfaced in the meta description and FAQ
   // so the page matches "which country", "where in the world", etc.
@@ -57,9 +62,10 @@ const T = {
     fr: "Voyez dans quel pays et dans quelle station il neige en ce moment, dans un classement en direct.",
     pt: "Veja em que país e em que estância está a nevar neste momento, num ranking em direto.",
     it: "Scopri in quale paese e in quale località sta nevicando in questo momento, in una classifica dal vivo.",
+    nl: "Ontdek in welk land en in welk skigebied het nu sneeuwt, in een live ranglijst.",
   } as Record<Locale, string>,
   freshLabel: {
-    en: "fresh in 24h", es: "de nieve en 24 h", fr: "de neige fraîche en 24 h", pt: "de neve em 24 h", it: "di neve fresca in 24 h",
+    en: "fresh in 24h", es: "de nieve en 24 h", fr: "de neige fraîche en 24 h", pt: "de neve em 24 h", it: "di neve fresca in 24 h", nl: "verse sneeuw in 24 u",
   } as Record<Locale, string>,
   faqWhichCountryQ: {
     en: "Which country is it snowing in right now?",
@@ -67,6 +73,7 @@ const T = {
     fr: "Dans quel pays neige-t-il en ce moment ?",
     pt: "Em que país está a nevar neste momento?",
     it: "In quale paese sta nevicando in questo momento?",
+    nl: "In welk land sneeuwt het nu?",
   } as Record<Locale, string>,
   faqWhereWorldQ: {
     en: "Where in the world is it snowing right now?",
@@ -74,6 +81,7 @@ const T = {
     fr: "Où neige-t-il dans le monde en ce moment ?",
     pt: "Onde está a nevar no mundo neste momento?",
     it: "Dove sta nevicando nel mondo in questo momento?",
+    nl: "Waar ter wereld sneeuwt het nu?",
   } as Record<Locale, string>,
   faqAnywhereQ: {
     en: "Is it snowing anywhere in the world right now?",
@@ -81,6 +89,7 @@ const T = {
     fr: "Neige-t-il quelque part dans le monde en ce moment ?",
     pt: "Está a nevar em algum lugar do mundo neste momento?",
     it: "Sta nevicando da qualche parte nel mondo in questo momento?",
+    nl: "Sneeuwt het nu ergens ter wereld?",
   } as Record<Locale, string>,
   faqAnywhereA: {
     en: "Almost always, yes. In the northern winter (roughly November to May) it is usually snowing somewhere in the Alps, the Rockies or Japan, and from June to October the snow flips to the Andes, New Zealand and Australia. This page ranks the resorts with the most fresh snow on the slopes right now, updated every 30 minutes.",
@@ -88,6 +97,7 @@ const T = {
     fr: "Presque toujours, oui. En hiver dans le nord (de novembre à mai environ), il neige d'ordinaire quelque part dans les Alpes, les Rocheuses ou au Japon, et de juin à octobre la neige bascule vers les Andes, la Nouvelle-Zélande et l'Australie. Cette page classe les stations avec le plus de neige fraîche sur les pistes en ce moment, mise à jour toutes les 30 minutes.",
     pt: "Quase sempre, sim. No inverno do norte (de novembro a maio, aproximadamente) costuma estar a nevar algures nos Alpes, nas Montanhas Rochosas ou no Japão, e de junho a outubro a neve passa para os Andes, a Nova Zelândia e a Austrália. Esta página ordena as estâncias com mais neve fresca nas pistas neste momento, atualizada a cada 30 minutos.",
     it: "Quasi sempre, sì. Nell'inverno del nord (all'incirca da novembre a maggio) di solito nevica da qualche parte sulle Alpi, sulle Montagne Rocciose o in Giappone, e da giugno a ottobre la neve si sposta sulle Ande, in Nuova Zelanda e in Australia. Questa pagina ordina le località con più neve fresca sulle piste in questo momento, aggiornata ogni 30 minuti.",
+    nl: "Bijna altijd wel, ja. In de winter op het noordelijk halfrond (ruwweg november tot mei) sneeuwt het meestal ergens in de Alpen, de Rocky Mountains of Japan, en van juni tot oktober verschuift de sneeuw naar de Andes, Nieuw-Zeeland en Australië. Deze pagina rangschikt de skigebieden met nu de meeste verse sneeuw op de piste, elke 30 minuten bijgewerkt.",
   } as Record<Locale, string>,
 } as const
 
@@ -148,6 +158,7 @@ export default async function SnowingNowPage({
     fr: 'En ce moment, il neige surtout en',
     pt: 'Neste momento, está a nevar sobretudo em',
     it: 'In questo momento sta nevicando soprattutto in',
+    nl: 'Op dit moment valt er vooral sneeuw in',
   }
   const topCountries = [...new Set(top3.map((d) => localizeCountry(d.country, l)))].join(', ')
   const faq = [

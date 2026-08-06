@@ -26,16 +26,16 @@ interface FooterProps {
   }
 }
 
-const REGIONS_LABEL = { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche' } as Record<Locale, string>
+const REGIONS_LABEL = { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: "Skiregio's" } as Record<Locale, string>
 
 const PLAN = {
-  heading: { en: 'Plan your trip', fr: 'Préparer son séjour', es: 'Planifica tu viaje', pt: 'Planeie a viagem', it: 'Pianifica il viaggio' } as Record<Locale, string>,
-  winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' } as Record<Locale, string>,
-  opening: { en: 'Opening dates', fr: "Dates d'ouverture", es: 'Fechas de apertura', pt: 'Datas de abertura', it: 'Date di apertura' } as Record<Locale, string>,
-  themes: { en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías por tema', pt: 'Guias por tema', it: 'Guide per tema' } as Record<Locale, string>,
-  family: { en: 'Family skiing by country', fr: 'Ski en famille par pays', es: 'Esquí en familia por país', pt: 'Esqui em família por país', it: 'Sci in famiglia per paese' } as Record<Locale, string>,
-  nearAirport: { en: 'Ski resorts near an airport', fr: "Stations près d'un aéroport", es: 'Estaciones cerca de un aeropuerto', pt: 'Estâncias perto de um aeroporto', it: 'Località vicino a un aeroporto' } as Record<Locale, string>,
-  southern: { en: 'Ski in July & August', fr: 'Skier en juillet et août', es: 'Esquiar en julio y agosto', pt: 'Esquiar em julho e agosto', it: 'Sciare a luglio e agosto' } as Record<Locale, string>,
+  heading: { en: 'Plan your trip', fr: 'Préparer son séjour', es: 'Planifica tu viaje', pt: 'Planeie a viagem', it: 'Pianifica il viaggio', nl: 'Je reis plannen' } as Record<Locale, string>,
+  winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027', nl: 'Winter 2027' } as Record<Locale, string>,
+  opening: { en: 'Opening dates', fr: "Dates d'ouverture", es: 'Fechas de apertura', pt: 'Datas de abertura', it: 'Date di apertura', nl: 'Openingsdata' } as Record<Locale, string>,
+  themes: { en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías por tema', pt: 'Guias por tema', it: 'Guide per tema', nl: 'Skigidsen per thema' } as Record<Locale, string>,
+  family: { en: 'Family skiing by country', fr: 'Ski en famille par pays', es: 'Esquí en familia por país', pt: 'Esqui em família por país', it: 'Sci in famiglia per paese', nl: 'Skiën met het gezin per land' } as Record<Locale, string>,
+  nearAirport: { en: 'Ski resorts near an airport', fr: "Stations près d'un aéroport", es: 'Estaciones cerca de un aeropuerto', pt: 'Estâncias perto de um aeroporto', it: 'Località vicino a un aeroporto', nl: 'Skigebieden bij een luchthaven' } as Record<Locale, string>,
+  southern: { en: 'Ski in July & August', fr: 'Skier en juillet et août', es: 'Esquiar en julio y agosto', pt: 'Esquiar em julho e agosto', it: 'Sciare a luglio e agosto', nl: 'Skiën in juli en augustus' } as Record<Locale, string>,
 }
 
 export default function Footer({ locale, dict }: FooterProps) {
@@ -147,7 +147,7 @@ export default function Footer({ locale, dict }: FooterProps) {
               </li>
               <li>
                 <Link href={`/${locale}/methodology`} className="hover:text-slate-deep">
-                  {({ en: 'How we score resorts', fr: 'Notre méthodologie', es: 'Nuestra metodología', pt: 'A nossa metodologia', it: 'La nostra metodologia' } as Record<string, string>)[locale] ?? 'Methodology'}
+                  {({ en: 'How we score resorts', fr: 'Notre méthodologie', es: 'Nuestra metodología', pt: 'A nossa metodologia', it: 'La nostra metodologia', nl: 'Zo beoordelen we skigebieden' } as Record<string, string>)[locale] ?? 'Methodology'}
                 </Link>
               </li>
               <li>

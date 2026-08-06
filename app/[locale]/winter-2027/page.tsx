@@ -14,6 +14,7 @@ const T = {
     es: '¿Dónde esquiar en las vacaciones de invierno 2027?',
     pt: 'Onde esquiar nas férias de inverno de 2027?',
     it: 'Dove sciare per le vacanze invernali 2027?',
+    nl: 'Waar skiën tijdens de wintervakantie 2027?',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Planning the 2027 winter holidays? Here is why each big linked domain is worth a week, with one pass, real piste numbers and where to base yourself. No marketing, just our data.',
@@ -21,9 +22,10 @@ const T = {
     es: '¿Planeando las vacaciones de invierno 2027? Aquí tienes por qué cada gran dominio enlazado merece una semana, con un forfait, cifras reales de pistas y dónde alojarse. Sin marketing, solo nuestros datos.',
     pt: 'A planear as férias de inverno de 2027? Eis porque cada grande domínio ligado merece uma semana, com um passe, números reais de pistas e onde ficar. Sem marketing, só os nossos dados.',
     it: 'State pianificando le vacanze invernali 2027? Ecco perché ogni grande comprensorio collegato vale una settimana, con un solo skipass, numeri reali delle piste e dove sistemarsi. Niente marketing, solo i nostri dati.',
+    nl: 'Plant u de wintervakantie 2027? Hier leest u waarom elk groot verbonden skigebied een week waard is, met één skipas, echte pistecijfers en waar u het beste kunt verblijven. Geen marketing, alleen onze data.',
   } as Record<Locale, string>,
   resortsWord: {
-    en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località',
+    en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden',
   } as Record<Locale, string>,
 }
 

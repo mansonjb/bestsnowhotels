@@ -9,16 +9,17 @@ import { localizeRegion } from '@/lib/regions'
 import { SITE_URL } from '@/lib/site'
 
 const LBL = {
-  title: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche' } as Record<Locale, string>,
+  title: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: 'Berggebieden' } as Record<Locale, string>,
   intro: {
     en: 'Every massif and mountain range in our guide, from the French Alps to the Andes. Pick a region to see all its resorts and their ski-in/ski-out hotels.',
     fr: 'Tous les massifs de notre guide, des Alpes françaises aux Andes. Choisissez une région pour voir toutes ses stations et leurs hôtels ski au pied.',
     es: 'Todos los macizos de nuestra guía, de los Alpes franceses a los Andes. Elige una región para ver todas sus estaciones y sus hoteles a pie de pista.',
     pt: 'Todos os maciços do nosso guia, dos Alpes franceses aos Andes. Escolha uma região para ver todas as suas estâncias e os hotéis à beira das pistas.',
     it: 'Tutti i massicci della nostra guida, dalle Alpi francesi alle Ande. Scegli una regione per vedere tutte le sue località e gli hotel sugli sci.',
+    nl: 'Elk massief en gebergte in onze gids, van de Franse Alpen tot de Andes. Kies een regio om alle skigebieden en hun ski-in/ski-out hotels te zien.',
   } as Record<Locale, string>,
-  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località' } as Record<Locale, string>,
-  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località' } as Record<Locale, string>,
+  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden' } as Record<Locale, string>,
+  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località', nl: 'skigebied' } as Record<Locale, string>,
 }
 
 export async function generateMetadata({

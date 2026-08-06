@@ -25,6 +25,7 @@ export function directAnswer(d: Destination, l: Locale): string {
     es: tier === 'strong' ? 'estación a pie de pista (la mayor parte del pueblo está sobre la nieve)' : tier === 'partial' ? 'estación con hoteles a pie de pista de verdad' : 'estación de esquí',
     pt: tier === 'strong' ? 'estância ski-in/ski-out (a maior parte da aldeia está sobre a neve)' : tier === 'partial' ? 'estância com hotéis ski-in/ski-out a sério' : 'estância de esqui',
     it: tier === 'strong' ? 'località sci ai piedi (gran parte del paese è davvero sulla neve)' : tier === 'partial' ? 'località con veri hotel sci ai piedi' : 'località sciistica',
+    nl: tier === 'strong' ? 'ski-in/ski-out skigebied (het grootste deel van het dorp ligt echt aan de piste)' : tier === 'partial' ? 'skigebied met echte ski-in/ski-out hotels' : 'skigebied',
   }[l]
 
   switch (l) {
@@ -36,6 +37,8 @@ export function directAnswer(d: Destination, l: Locale): string {
       return `${d.name} é uma ${sio} ${inC}, em ${region}. A aldeia está a ${d.altitudeBase} m e os teleféricos sobem até ${d.altitudeSummit} m, com ${d.pistesKm} km de pistas e ${d.lifts} teleféricos. A sua pontuação de neve BestSnowHotels é ${d.snowScore}/100, e a época vai normalmente de ${season}.`
     case 'it':
       return `${d.name} è una ${sio} ${inC}, nel comprensorio ${region}. Il paese è a ${d.altitudeBase} m e gli impianti salgono a ${d.altitudeSummit} m, con ${d.pistesKm} km di piste e ${d.lifts} impianti. Il suo punteggio neve BestSnowHotels è ${d.snowScore}/100, e la stagione va di solito da ${season}.`
+    case 'nl':
+      return `${d.name} is een ${sio} ${inC}, in de regio ${region}. Het dorp ligt op ${d.altitudeBase} m en de liften reiken tot ${d.altitudeSummit} m, met ${d.pistesKm} km piste en ${d.lifts} liften. De BestSnowHotels sneeuwscore is ${d.snowScore}/100, en het seizoen loopt meestal van ${season}.`
     default:
       return `${d.name} is a ${sio} ${inC}, in the ${region}. The village sits at ${d.altitudeBase} m and the lifts top out at ${d.altitudeSummit} m, with ${d.pistesKm} km of pistes and ${d.lifts} lifts. Its BestSnowHotels snow score is ${d.snowScore}/100, and the season usually runs ${season}.`
   }

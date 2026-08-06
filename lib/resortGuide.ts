@@ -85,6 +85,7 @@ const Q = {
     es: (d: Destination) => `¿La nieve es fiable en ${d.name}?`,
     pt: (d: Destination) => `A neve é fiável em ${d.name}?`,
     it: (d: Destination) => `La neve è affidabile a ${d.name}?`,
+    nl: (d: Destination) => `Is de sneeuw betrouwbaar in ${d.name}?`,
   },
   access: {
     en: () => `Do you need a car, or can you ski in and out?`,
@@ -92,6 +93,7 @@ const Q = {
     es: () => `¿Hace falta coche o se puede esquiar a pie de pista?`,
     pt: () => `É preciso carro ou pode esquiar à porta?`,
     it: () => `Serve l'auto o si scia ai piedi?`,
+    nl: () => `Heb je een auto nodig, of kun je ski-in/ski-out?`,
   },
   mountain: {
     en: () => `How big is the ski area, and who is it for?`,
@@ -99,6 +101,7 @@ const Q = {
     es: () => `¿Cómo de grande es el dominio y para quién es?`,
     pt: () => `Qual o tamanho do domínio e para quem é?`,
     it: () => `Quanto è grande il comprensorio e per chi è?`,
+    nl: () => `Hoe groot is het skigebied, en voor wie is het geschikt?`,
   },
   vibe: {
     en: () => `What is the resort like?`,
@@ -106,6 +109,7 @@ const Q = {
     es: () => `¿Cómo es el ambiente de la estación?`,
     pt: () => `Qual é o ambiente da estância?`,
     it: () => `Com'è l'atmosfera della località?`,
+    nl: () => `Wat is de sfeer in het resort?`,
   },
   when: {
     en: () => `When is the best time to go?`,
@@ -113,6 +117,7 @@ const Q = {
     es: () => `¿Cuál es la mejor época para ir?`,
     pt: () => `Qual é a melhor altura para ir?`,
     it: () => `Qual è il periodo migliore per andare?`,
+    nl: () => `Wat is de beste periode om te gaan?`,
   },
 }
 
@@ -125,6 +130,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Sí. La base está a ${km(d.altitudeBase)} m y la cima llega a ${km(d.altitudeSummit)} m, lo que sitúa la fiabilidad de la nieve entre las mejores de nuestro índice (puntuación ${d.snowScore}/100).`,
     pt: (d) => `Sim. A base fica a ${km(d.altitudeBase)} m e o topo chega a ${km(d.altitudeSummit)} m, o que coloca a fiabilidade da neve entre as melhores do nosso índice (pontuação ${d.snowScore}/100).`,
     it: (d) => `Sì. La base è a ${km(d.altitudeBase)} m e la cima raggiunge ${km(d.altitudeSummit)} m, il che mette l'affidabilità della neve tra le migliori del nostro indice (punteggio ${d.snowScore}/100).`,
+    nl: (d) => `Ja. De basis ligt op ${km(d.altitudeBase)} m en de top reikt tot ${km(d.altitudeSummit)} m, waarmee de sneeuwzekerheid tot de beste van onze index behoort (score ${d.snowScore}/100).`,
   },
   reliable: {
     en: (d) => `Generally yes. From ${km(d.altitudeBase)} m at the base to ${km(d.altitudeSummit)} m up top, the profile holds snow well across a normal winter (score ${d.snowScore}/100).`,
@@ -132,6 +138,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `En general sí. De ${km(d.altitudeBase)} m en la base a ${km(d.altitudeSummit)} m arriba, el perfil aguanta bien la nieve en un invierno normal (puntuación ${d.snowScore}/100).`,
     pt: (d) => `Em geral sim. De ${km(d.altitudeBase)} m na base a ${km(d.altitudeSummit)} m no topo, o perfil segura bem a neve num inverno normal (pontuação ${d.snowScore}/100).`,
     it: (d) => `In genere sì. Da ${km(d.altitudeBase)} m alla base a ${km(d.altitudeSummit)} m in cima, il profilo tiene bene la neve in un inverno normale (punteggio ${d.snowScore}/100).`,
+    nl: (d) => `Over het algemeen wel. Van ${km(d.altitudeBase)} m bij de basis tot ${km(d.altitudeSummit)} m boven houdt dit profiel de sneeuw goed vast in een normale winter (score ${d.snowScore}/100).`,
   },
   decent: {
     en: (d) => `Usually, with help. From ${km(d.altitudeBase)} m to ${km(d.altitudeSummit)} m the resort leans on grooming and snowmaking in lean spells, so check the live report before booking early or late dates (score ${d.snowScore}/100).`,
@@ -139,6 +146,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Casi siempre, con ayuda. De ${km(d.altitudeBase)} m a ${km(d.altitudeSummit)} m la estación se apoya en el pisado y la nieve de cultivo en los tramos flojos; consulta el parte en directo para fechas tempranas o tardías (puntuación ${d.snowScore}/100).`,
     pt: (d) => `Quase sempre, com ajuda. De ${km(d.altitudeBase)} m a ${km(d.altitudeSummit)} m a estância apoia-se no pisão e na neve artificial nos períodos fracos; veja o boletim em direto para datas no início ou fim da época (pontuação ${d.snowScore}/100).`,
     it: (d) => `Quasi sempre, con un aiuto. Da ${km(d.altitudeBase)} m a ${km(d.altitudeSummit)} m la località si appoggia su battitura e neve programmata nei periodi magri; controlla il bollettino in tempo reale per date a inizio o fine stagione (punteggio ${d.snowScore}/100).`,
+    nl: (d) => `Meestal wel, met een handje hulp. Van ${km(d.altitudeBase)} m tot ${km(d.altitudeSummit)} m leunt het resort in magere periodes op pistebewerking en sneeuwkanonnen; check het actuele sneeuwbericht voor data vroeg of laat in het seizoen (score ${d.snowScore}/100).`,
   },
   low: {
     en: (d) => `It depends on conditions. At ${km(d.altitudeBase)} m to ${km(d.altitudeSummit)} m this is a lower-altitude resort, so lean on the live snow report and stay flexible on dates (score ${d.snowScore}/100).`,
@@ -146,6 +154,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Depende de las condiciones. Entre ${km(d.altitudeBase)} m y ${km(d.altitudeSummit)} m es una estación de menor altitud: apóyate en el parte de nieve en directo y mantén flexibilidad en las fechas (puntuación ${d.snowScore}/100).`,
     pt: (d) => `Depende das condições. Entre ${km(d.altitudeBase)} m e ${km(d.altitudeSummit)} m é uma estância de menor altitude: confie no boletim de neve em direto e mantenha flexibilidade nas datas (pontuação ${d.snowScore}/100).`,
     it: (d) => `Dipende dalle condizioni. Tra ${km(d.altitudeBase)} m e ${km(d.altitudeSummit)} m è una località di quota più bassa: affidati al bollettino neve in tempo reale e resta flessibile sulle date (punteggio ${d.snowScore}/100).`,
+    nl: (d) => `Dat hangt van de omstandigheden af. Met ${km(d.altitudeBase)} m tot ${km(d.altitudeSummit)} m is dit een resort op lagere hoogte, dus vertrouw op het actuele sneeuwbericht en blijf flexibel met je data (score ${d.snowScore}/100).`,
   },
 }
 
@@ -156,6 +165,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Es uno de los dominios grandes del sitio: ${km(d.pistesKm)} km de pistas en ${d.lifts} remontes, suficiente para esquiar un sector distinto cada día.`,
     pt: (d) => `É um dos grandes domínios do site: ${km(d.pistesKm)} km de pistas em ${d.lifts} teleféricos, suficiente para esquiar um setor diferente por dia.`,
     it: (d) => `È uno dei grandi comprensori del sito: ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, abbastanza per sciare un settore diverso ogni giorno.`,
+    nl: (d) => `Dit is een van de grotere skigebieden op de site: ${km(d.pistesKm)} km piste over ${d.lifts} liften, genoeg om elke dag van de week een ander deel te skiën.`,
   },
   big: {
     en: (d) => `At ${km(d.pistesKm)} km of piste on ${d.lifts} lifts, it is a substantial mountain that rewards a multi-day stay.`,
@@ -163,6 +173,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Con ${km(d.pistesKm)} km de pistas en ${d.lifts} remontes, es una montaña de peso que justifica una estancia de varios días.`,
     pt: (d) => `Com ${km(d.pistesKm)} km de pistas em ${d.lifts} teleféricos, é uma montanha consistente que justifica uma estadia de vários dias.`,
     it: (d) => `Con ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, è una montagna sostanziosa che merita un soggiorno di più giorni.`,
+    nl: (d) => `Met ${km(d.pistesKm)} km piste over ${d.lifts} liften is dit een flinke berg die een verblijf van meerdere dagen beloont.`,
   },
   mid: {
     en: (d) => `With ${km(d.pistesKm)} km of piste on ${d.lifts} lifts, it is a mid-size area, easy to get to know over a long weekend.`,
@@ -170,6 +181,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Con ${km(d.pistesKm)} km de pistas en ${d.lifts} remontes, es un dominio de tamaño medio, fácil de conocer en un fin de semana largo.`,
     pt: (d) => `Com ${km(d.pistesKm)} km de pistas em ${d.lifts} teleféricos, é um domínio de tamanho médio, fácil de conhecer num fim de semana prolongado.`,
     it: (d) => `Con ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, è un comprensorio di media taglia, facile da conoscere in un weekend lungo.`,
+    nl: (d) => `Met ${km(d.pistesKm)} km piste over ${d.lifts} liften is dit een middelgroot skigebied, gemakkelijk te leren kennen in een lang weekend.`,
   },
   compact: {
     en: (d) => `It is a compact area, ${km(d.pistesKm)} km of piste on ${d.lifts} lifts, best for a short break or a focused trip rather than a full week.`,
@@ -177,6 +189,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Es un dominio compacto, ${km(d.pistesKm)} km de pistas en ${d.lifts} remontes, mejor para una escapada corta o un viaje específico que para una semana entera.`,
     pt: (d) => `É um domínio compacto, ${km(d.pistesKm)} km de pistas em ${d.lifts} teleféricos, melhor para uma escapadela curta ou uma viagem focada do que para uma semana inteira.`,
     it: (d) => `È un comprensorio compatto, ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, meglio per una breve fuga o un viaggio mirato che per una settimana intera.`,
+    nl: (d) => `Dit is een compact skigebied, ${km(d.pistesKm)} km piste over ${d.lifts} liften, meer geschikt voor een korte break of een gerichte trip dan voor een hele week.`,
   },
 }
 
@@ -187,6 +200,7 @@ const TERRAIN_A: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `La mezcla de pistas tira hacia lo suave (${d.pisteCounts.green} verdes, ${d.pisteCounts.blue} azules, ${d.pisteCounts.red} rojas, ${d.pisteCounts.black} negras), así que principiantes e intermedios iniciales están bien servidos.`,
     pt: (d) => `A mistura de pistas pende para o suave (${d.pisteCounts.green} verdes, ${d.pisteCounts.blue} azuis, ${d.pisteCounts.red} vermelhas, ${d.pisteCounts.black} pretas), por isso principiantes e intermédios iniciais ficam bem servidos.`,
     it: (d) => `Il mix di piste pende verso il facile (${d.pisteCounts.green} verdi, ${d.pisteCounts.blue} blu, ${d.pisteCounts.red} rosse, ${d.pisteCounts.black} nere), quindi principianti e primi intermedi sono ben serviti.`,
+    nl: (d) => `De pistemix leunt naar gemakkelijk (${d.pisteCounts.green} groen, ${d.pisteCounts.blue} blauw, ${d.pisteCounts.red} rood, ${d.pisteCounts.black} zwart), dus beginners en beginnende gevorderden zijn hier goed bediend.`,
   },
   balanced: {
     en: (d) => `The terrain is balanced (${d.pisteCounts.green} green, ${d.pisteCounts.blue} blue, ${d.pisteCounts.red} red, ${d.pisteCounts.black} black), which suits a mixed-level group skiing together.`,
@@ -194,6 +208,7 @@ const TERRAIN_A: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `El terreno está equilibrado (${d.pisteCounts.green} verdes, ${d.pisteCounts.blue} azules, ${d.pisteCounts.red} rojas, ${d.pisteCounts.black} negras), ideal para un grupo de niveles distintos.`,
     pt: (d) => `O terreno é equilibrado (${d.pisteCounts.green} verdes, ${d.pisteCounts.blue} azuis, ${d.pisteCounts.red} vermelhas, ${d.pisteCounts.black} pretas), perfeito para um grupo de níveis diferentes.`,
     it: (d) => `Il terreno è bilanciato (${d.pisteCounts.green} verdi, ${d.pisteCounts.blue} blu, ${d.pisteCounts.red} rosse, ${d.pisteCounts.black} nere), ideale per un gruppo di livelli diversi.`,
+    nl: (d) => `Het terrein is in balans (${d.pisteCounts.green} groen, ${d.pisteCounts.blue} blauw, ${d.pisteCounts.red} rood, ${d.pisteCounts.black} zwart), ideaal voor een groep met verschillende niveaus die samen skiet.`,
   },
   expert: {
     en: (d) => `It leans toward strong skiers (${d.pisteCounts.black} black and ${d.pisteCounts.red} red, with ${d.pisteCounts.green} green and ${d.pisteCounts.blue} blue to warm up), so confident skiers get the most from it.`,
@@ -201,6 +216,7 @@ const TERRAIN_A: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     es: (d) => `Tira hacia esquiadores fuertes (${d.pisteCounts.black} negras y ${d.pisteCounts.red} rojas, con ${d.pisteCounts.green} verdes y ${d.pisteCounts.blue} azules para calentar), así que los esquiadores seguros le sacan más partido.`,
     pt: (d) => `Pende para esquiadores fortes (${d.pisteCounts.black} pretas e ${d.pisteCounts.red} vermelhas, com ${d.pisteCounts.green} verdes e ${d.pisteCounts.blue} azuis para aquecer), por isso esquiadores confiantes aproveitam-no mais.`,
     it: (d) => `Pende verso sciatori forti (${d.pisteCounts.black} nere e ${d.pisteCounts.red} rosse, con ${d.pisteCounts.green} verdi e ${d.pisteCounts.blue} blu per scaldarsi), quindi gli sciatori sicuri ne traggono di più.`,
+    nl: (d) => `Het terrein leunt naar sterke skiërs (${d.pisteCounts.black} zwart en ${d.pisteCounts.red} rood, met ${d.pisteCounts.green} groen en ${d.pisteCounts.blue} blauw om op te warmen), dus zelfverzekerde skiërs halen hier het meeste uit.`,
   },
 }
 
@@ -211,6 +227,7 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     es: (d) => `${d.name} es peatonal. Se aparca a la entrada de la estación y se llega al pueblo sin coche; la mayoría del alojamiento da directamente a la nieve, así que el coche puede quedarse aparcado toda la semana.`,
     pt: (d) => `${d.name} é sem carros. Estaciona-se à entrada da estância e chega-se à aldeia sem carro; a maioria do alojamento dá diretamente para a neve, por isso o carro pode ficar parado a semana toda.`,
     it: (d) => `${d.name} è senza auto. Si parcheggia all'ingresso della località e si raggiunge il paese senza auto; gran parte degli alloggi si apre poi direttamente sulla neve, quindi l'auto può restare ferma tutta la settimana.`,
+    nl: (d) => `${d.name} is autovrij. Je parkeert bij de ingang van het resort en bereikt het dorp zonder auto; de meeste accommodaties openen daarna direct op de sneeuw, dus de auto kan de hele week blijven staan.`,
   },
   strong: {
     en: () => `Most hotels sit right on the snow front, so this is genuine ski-in/ski-out: park once on arrival and ski from the door, with no daily driving or shuttle.`,
@@ -218,6 +235,7 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     es: () => `La mayoría de los hoteles están sobre el frente de nieve: es ski-in/ski-out de verdad. Se aparca al llegar y se esquía desde la puerta, sin coche ni lanzadera a diario.`,
     pt: () => `A maioria dos hotéis fica sobre a frente de neve: é ski-in/ski-out a sério. Estaciona-se à chegada e esquia-se à porta, sem carro nem transfer diário.`,
     it: () => `La maggior parte degli hotel è proprio sul fronte neve: è vero ski-in/ski-out. Si parcheggia all'arrivo e si scia dalla porta, senza auto né navetta quotidiana.`,
+    nl: () => `De meeste hotels liggen recht aan de piste, dit is dus echt ski-in/ski-out: je parkeert eenmalig bij aankomst en skiet vanaf de deur, zonder dagelijks rijden of pendelbus.`,
   },
   partial: {
     en: () => `Ski-in/ski-out depends on the address here: some hotels are on the snow, others need a short walk or shuttle. Pick a slopeside address if skiing from the door matters to you.`,
@@ -225,6 +243,7 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     es: () => `El ski-in/ski-out depende aquí de la dirección: algunos hoteles están sobre la nieve, otros requieren un paseo corto o lanzadera. Elige una dirección a pie de pista si esquiar desde la puerta te importa.`,
     pt: () => `O ski-in/ski-out depende aqui da morada: alguns hotéis ficam sobre a neve, outros exigem uma curta caminhada ou transfer. Escolha uma morada à beira da pista se esquiar à porta lhe importa.`,
     it: () => `Lo ski-in/ski-out qui dipende dall'indirizzo: alcuni hotel sono sulla neve, altri richiedono una breve camminata o navetta. Scegli un indirizzo sulle piste se sciare dalla porta è importante per te.`,
+    nl: () => `Ski-in/ski-out hangt hier af van het adres: sommige hotels liggen aan de sneeuw, andere vragen een kort stukje lopen of een pendelbus. Kies een adres aan de piste als skiën vanaf de deur belangrijk voor je is.`,
   },
   limited: {
     en: () => `This is more of a valley base than a slopeside village, so expect a lift, train or shuttle to the snow each morning. Staying central, near the main lift, saves the most time.`,
@@ -232,28 +251,29 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     es: () => `Es más una base de valle que un pueblo a pie de pista, así que cuenta con un remonte, tren o lanzadera hasta la nieve cada mañana. Alojarse en el centro, cerca del remonte principal, ahorra más tiempo.`,
     pt: () => `É mais uma base de vale do que uma aldeia à beira da pista, por isso conte com um teleférico, comboio ou transfer até à neve cada manhã. Ficar no centro, perto do teleférico principal, poupa mais tempo.`,
     it: () => `È più una base a fondovalle che un paese sulle piste, quindi metti in conto un impianto, un treno o una navetta per la neve ogni mattina. Alloggiare in centro, vicino all'impianto principale, fa risparmiare più tempo.`,
+    nl: () => `Dit is meer een basis in de vallei dan een dorp aan de piste, dus reken op een lift, trein of pendelbus naar de sneeuw elke ochtend. Centraal overnachten, dicht bij de hoofdlift, bespaart de meeste tijd.`,
   },
 }
 
 /* vibe fragments: short descriptive clauses, composed into one sentence */
 const VIBE_FRAG: Partial<Record<string, Record<Locale, string>>> = {
-  luxury: { en: 'a polished, high-end scene', fr: 'une ambiance chic et haut de gamme', es: 'un ambiente cuidado y de alta gama', pt: 'um ambiente requintado e de alta gama', it: "un'atmosfera curata e di alto livello" },
-  party: { en: 'lively après-ski', fr: 'un après-ski animé', es: 'un après-ski animado', pt: 'um après-ski animado', it: 'un après-ski vivace' },
-  freeride: { en: 'serious off-piste and freeride terrain', fr: 'du hors-piste et du freeride sérieux', es: 'fuera de pista y freeride serios', pt: 'fora de pista e freeride a sério', it: 'fuoripista e freeride seri' },
-  family: { en: 'a family-friendly setup', fr: 'un cadre adapté aux familles', es: 'un entorno apto para familias', pt: 'um ambiente adequado a famílias', it: 'un contesto adatto alle famiglie' },
-  gastronomy: { en: 'a strong dining scene', fr: 'une belle scène gastronomique', es: 'una notable escena gastronómica', pt: 'uma forte cena gastronómica', it: 'una solida scena gastronomica' },
-  glacier: { en: 'glacier skiing up high', fr: 'du ski de glacier en altitude', es: 'esquí en glaciar en altura', pt: 'esqui em glaciar nas alturas', it: 'sci su ghiacciaio in quota' },
-  'high-altitude': { en: 'snow-sure high-altitude slopes', fr: "des pentes d'altitude à l'enneigement fiable", es: 'pistas de gran altitud con nieve segura', pt: 'pistas de grande altitude com neve fiável', it: "piste d'alta quota con neve sicura" },
-  iconic: { en: 'a genuinely iconic name', fr: 'un nom véritablement iconique', es: 'un nombre realmente icónico', pt: 'um nome verdadeiramente icónico', it: 'un nome davvero iconico' },
-  japow: { en: 'the famous dry Japanese powder', fr: 'la fameuse poudreuse japonaise', es: 'la famosa nieve polvo japonesa', pt: 'a famosa neve pó japonesa', it: 'la famosa neve farinosa giapponese' },
-  mountaineering: { en: 'big-mountain and mountaineering terrain', fr: "un terrain de haute montagne et d'alpinisme", es: 'terreno de alta montaña y alpinismo', pt: 'terreno de alta montanha e alpinismo', it: "terreno d'alta montagna e alpinismo" },
-  racing: { en: 'a racing and competition pedigree', fr: 'une tradition de course et de compétition', es: 'una tradición de competición', pt: 'uma tradição de competição', it: 'una tradizione di gare e competizione' },
-  'winter-sports': { en: 'a broad winter-sports offering beyond skiing', fr: "une offre de sports d'hiver large au-delà du ski", es: 'una amplia oferta de deportes de invierno más allá del esquí', pt: 'uma ampla oferta de desportos de inverno além do esqui', it: "un'ampia offerta di sport invernali oltre allo sci" },
-  'big-domain': { en: 'a vast, multi-sector domain', fr: 'un domaine vaste à plusieurs secteurs', es: 'un dominio enorme de varios sectores', pt: 'um domínio vasto de vários setores', it: 'un comprensorio vasto a più settori' },
-  expert: { en: 'demanding terrain for strong skiers', fr: 'un terrain exigeant pour bons skieurs', es: 'terreno exigente para esquiadores fuertes', pt: 'terreno exigente para esquiadores fortes', it: 'terreno impegnativo per sciatori forti' },
+  luxury: { en: 'a polished, high-end scene', fr: 'une ambiance chic et haut de gamme', es: 'un ambiente cuidado y de alta gama', pt: 'um ambiente requintado e de alta gama', it: "un'atmosfera curata e di alto livello", nl: "een verzorgde, hoogwaardige sfeer" },
+  party: { en: 'lively après-ski', fr: 'un après-ski animé', es: 'un après-ski animado', pt: 'um après-ski animado', it: 'un après-ski vivace', nl: 'levendige après-ski' },
+  freeride: { en: 'serious off-piste and freeride terrain', fr: 'du hors-piste et du freeride sérieux', es: 'fuera de pista y freeride serios', pt: 'fora de pista e freeride a sério', it: 'fuoripista e freeride seri', nl: 'serieus off-piste en freerideterrein' },
+  family: { en: 'a family-friendly setup', fr: 'un cadre adapté aux familles', es: 'un entorno apto para familias', pt: 'um ambiente adequado a famílias', it: 'un contesto adatto alle famiglie', nl: 'een gezinsvriendelijke opzet' },
+  gastronomy: { en: 'a strong dining scene', fr: 'une belle scène gastronomique', es: 'una notable escena gastronómica', pt: 'uma forte cena gastronómica', it: 'una solida scena gastronomica', nl: 'een sterk culinair aanbod' },
+  glacier: { en: 'glacier skiing up high', fr: 'du ski de glacier en altitude', es: 'esquí en glaciar en altura', pt: 'esqui em glaciar nas alturas', it: 'sci su ghiacciaio in quota', nl: 'gletsjerskiën op grote hoogte' },
+  'high-altitude': { en: 'snow-sure high-altitude slopes', fr: "des pentes d'altitude à l'enneigement fiable", es: 'pistas de gran altitud con nieve segura', pt: 'pistas de grande altitude com neve fiável', it: "piste d'alta quota con neve sicura", nl: "hooggelegen pistes met sneeuwzekerheid" },
+  iconic: { en: 'a genuinely iconic name', fr: 'un nom véritablement iconique', es: 'un nombre realmente icónico', pt: 'um nome verdadeiramente icónico', it: 'un nome davvero iconico', nl: 'een echt iconische naam' },
+  japow: { en: 'the famous dry Japanese powder', fr: 'la fameuse poudreuse japonaise', es: 'la famosa nieve polvo japonesa', pt: 'a famosa neve pó japonesa', it: 'la famosa neve farinosa giapponese', nl: 'de beroemde droge Japanse poeder' },
+  mountaineering: { en: 'big-mountain and mountaineering terrain', fr: "un terrain de haute montagne et d'alpinisme", es: 'terreno de alta montaña y alpinismo', pt: 'terreno de alta montanha e alpinismo', it: "terreno d'alta montagna e alpinismo", nl: "terrein voor hooggebergte en alpinisme" },
+  racing: { en: 'a racing and competition pedigree', fr: 'une tradition de course et de compétition', es: 'una tradición de competición', pt: 'uma tradição de competição', it: 'una tradizione di gare e competizione', nl: 'een traditie van wedstrijden en competitie' },
+  'winter-sports': { en: 'a broad winter-sports offering beyond skiing', fr: "une offre de sports d'hiver large au-delà du ski", es: 'una amplia oferta de deportes de invierno más allá del esquí', pt: 'uma ampla oferta de desportos de inverno além do esqui', it: "un'ampia offerta di sport invernali oltre allo sci", nl: "een breed aanbod aan wintersporten naast skiën" },
+  'big-domain': { en: 'a vast, multi-sector domain', fr: 'un domaine vaste à plusieurs secteurs', es: 'un dominio enorme de varios sectores', pt: 'um domínio vasto de vários setores', it: 'un comprensorio vasto a più settori', nl: 'een uitgestrekt skigebied met meerdere sectoren' },
+  expert: { en: 'demanding terrain for strong skiers', fr: 'un terrain exigeant pour bons skieurs', es: 'terreno exigente para esquiadores fuertes', pt: 'terreno exigente para esquiadores fortes', it: 'terreno impegnativo per sciatori forti', nl: 'veeleisend terrein voor sterke skiërs' },
 }
 
-const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e' }
+const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e', nl: 'en' }
 function joinList(items: string[], locale: Locale): string {
   if (items.length <= 1) return items.join('')
   return `${items.slice(0, -1).join(', ')} ${AND[locale]} ${items[items.length - 1]}`
@@ -264,6 +284,7 @@ const VIBE_LEAD: Record<Locale, (name: string, list: string) => string> = {
   es: (n, l) => `${n} destaca por ${l}.`,
   pt: (n, l) => `${n} destaca-se por ${l}.`,
   it: (n, l) => `${n} si distingue per ${l}.`,
+  nl: (n, l) => `${n} onderscheidt zich door ${l}.`,
 }
 function vibeAnswer(d: Destination, locale: Locale): string {
   const frags = d.vibes.map((v) => VIBE_FRAG[v]?.[locale]).filter((x): x is string => Boolean(x)).slice(0, 3)
@@ -280,6 +301,7 @@ function whenAnswer(d: Destination, locale: Locale): string {
       es: `Aquí la nieve aguanta todo el año, así que se esquía mucho más allá de la ventana invernal habitual, incluido el glaciar en verano.`,
       pt: `Aqui a neve mantém-se todo o ano, por isso esquia-se muito além da janela de inverno habitual, incluindo o glaciar no verão.`,
       it: `Qui la neve resiste tutto l'anno, quindi si scia ben oltre la solita finestra invernale, ghiacciaio estivo compreso.`,
+      nl: `Hier ligt het hele jaar sneeuw, dus je kunt hier ver buiten het gebruikelijke winterseizoen skiën, inclusief zomerse gletsjerrondjes.`,
     }
     return yr[locale]
   }
@@ -293,18 +315,20 @@ function whenAnswer(d: Destination, locale: Locale): string {
       es: `En el hemisferio sur la temporada va de ${start} a ${end} aproximadamente (el invierno local), siendo julio y agosto los más fiables.`,
       pt: `No hemisfério sul a época vai sensivelmente de ${start} a ${end} (o inverno local), sendo julho e agosto os mais fiáveis.`,
       it: `Nell'emisfero sud la stagione va all'incirca da ${start} a ${end} (l'inverno locale), con luglio e agosto i più affidabili.`,
+      nl: `Op het zuidelijk halfrond loopt het seizoen ruwweg van ${start} tot ${end} (de lokale winter), met juli en augustus als de meest betrouwbare maanden.`,
     }
     return t[locale]
   }
   const tail: Record<Locale, string> = high
-    ? { en: ` The altitude also holds spring snow, so late-season skiing stays good well into spring.`, fr: ` L'altitude tient aussi la neige de printemps : le ski de fin de saison reste bon tard au printemps.`, es: ` La altitud también aguanta la nieve de primavera, así que el final de temporada se mantiene bueno entrada la primavera.`, pt: ` A altitude também segura a neve de primavera, por isso o fim de época mantém-se bom já dentro da primavera.`, it: ` La quota tiene anche la neve di primavera, quindi il fine stagione resta buono fino a primavera inoltrata.` }
-    : { en: ` Conditions soften as spring arrives, so earlier in the window is the safer call.`, fr: ` Les conditions s'adoucissent à l'approche du printemps : viser le début de la fenêtre est plus sûr.`, es: ` Las condiciones se ablandan al llegar la primavera, así que el principio de la ventana es más seguro.`, pt: ` As condições amolecem com a chegada da primavera, por isso o início da janela é mais seguro.`, it: ` Le condizioni si ammorbidiscono con l'arrivo della primavera, quindi l'inizio della finestra è la scelta più sicura.` }
+    ? { en: ` The altitude also holds spring snow, so late-season skiing stays good well into spring.`, fr: ` L'altitude tient aussi la neige de printemps : le ski de fin de saison reste bon tard au printemps.`, es: ` La altitud también aguanta la nieve de primavera, así que el final de temporada se mantiene bueno entrada la primavera.`, pt: ` A altitude também segura a neve de primavera, por isso o fim de época mantém-se bom já dentro da primavera.`, it: ` La quota tiene anche la neve di primavera, quindi il fine stagione resta buono fino a primavera inoltrata.`, nl: ` De hoogte houdt ook de lentesneeuw vast, dus blijft skiën laat in het seizoen goed tot ver in de lente.` }
+    : { en: ` Conditions soften as spring arrives, so earlier in the window is the safer call.`, fr: ` Les conditions s'adoucissent à l'approche du printemps : viser le début de la fenêtre est plus sûr.`, es: ` Las condiciones se ablandan al llegar la primavera, así que el principio de la ventana es más seguro.`, pt: ` As condições amolecem com a chegada da primavera, por isso o início da janela é mais seguro.`, it: ` Le condizioni si ammorbidiscono con l'arrivo della primavera, quindi l'inizio della finestra è la scelta più sicura.`, nl: ` De omstandigheden worden zachter zodra de lente aanbreekt, dus vroeg in het seizoen is de veiligere keuze.` }
   const base: Record<Locale, string> = {
     en: `The season usually runs ${start} to ${end} (about ${weeks} weeks). For the most dependable cover, the deep-winter window of January to February is the safe bet.`,
     fr: `La saison va en général de ${start} à ${end} (environ ${weeks} semaines). Pour l'enneigement le plus sûr, la fenêtre de plein hiver de janvier à février est la valeur sûre.`,
     es: `La temporada suele ir de ${start} a ${end} (unas ${weeks} semanas). Para la nieve más fiable, la ventana de pleno invierno de enero a febrero es la apuesta segura.`,
     pt: `A época vai normalmente de ${start} a ${end} (cerca de ${weeks} semanas). Para a neve mais fiável, a janela de pleno inverno de janeiro a fevereiro é a aposta segura.`,
     it: `La stagione va di solito da ${start} a ${end} (circa ${weeks} settimane). Per l'innevamento più affidabile, la finestra di pieno inverno tra gennaio e febbraio è la scelta sicura.`,
+    nl: `Het seizoen loopt meestal van ${start} tot ${end} (ongeveer ${weeks} weken). Voor de betrouwbaarste sneeuw is het hart van de winter, van januari tot februari, de veilige keuze.`,
   }
   return base[locale] + tail[locale]
 }
@@ -343,6 +367,7 @@ const FAQ_Q = {
     es: (d: Destination) => `¿Cuánto desnivel tiene ${d.name}?`,
     pt: (d: Destination) => `Qual é o desnível de ${d.name}?`,
     it: (d: Destination) => `Qual è il dislivello di ${d.name}?`,
+    nl: (d: Destination) => `Hoeveel hoogteverschil heeft ${d.name}?`,
   } as Record<Locale, (d: Destination) => string>,
   domain: {
     en: (d: Destination) => `Is ${d.name} part of a larger ski area?`,
@@ -350,6 +375,7 @@ const FAQ_Q = {
     es: (d: Destination) => `¿${d.name} forma parte de un dominio mayor?`,
     pt: (d: Destination) => `${d.name} faz parte de um domínio maior?`,
     it: (d: Destination) => `${d.name} fa parte di un comprensorio più ampio?`,
+    nl: (d: Destination) => `Maakt ${d.name} deel uit van een groter skigebied?`,
   } as Record<Locale, (d: Destination) => string>,
   beginners: {
     en: (d: Destination) => `Is ${d.name} good for beginners?`,
@@ -357,6 +383,7 @@ const FAQ_Q = {
     es: (d: Destination) => `¿${d.name} es buena para principiantes?`,
     pt: (d: Destination) => `${d.name} é boa para principiantes?`,
     it: (d: Destination) => `${d.name} è adatta ai principianti?`,
+    nl: (d: Destination) => `Is ${d.name} geschikt voor beginners?`,
   } as Record<Locale, (d: Destination) => string>,
   glacier: {
     en: () => `Can you ski on a glacier here?`,
@@ -364,6 +391,7 @@ const FAQ_Q = {
     es: () => `¿Se puede esquiar en glaciar aquí?`,
     pt: () => `Pode esquiar-se num glaciar aqui?`,
     it: () => `Si può sciare su un ghiacciaio qui?`,
+    nl: () => `Kun je hier op een gletsjer skiën?`,
   } as Record<Locale, () => string>,
 }
 
@@ -375,6 +403,7 @@ function verticalAnswer(d: Destination, locale: Locale): string {
     es: `Unos ${v} m de desnivel, de una base a ${d.altitudeBase} m hasta ${d.altitudeSummit} m en lo alto.`,
     pt: `Cerca de ${v} m de desnível, de uma base a ${d.altitudeBase} m até ${d.altitudeSummit} m no topo.`,
     it: `Circa ${v} m di dislivello, da una base di ${d.altitudeBase} m fino a ${d.altitudeSummit} m in cima.`,
+    nl: `Ongeveer ${v} m hoogteverschil, van een basis op ${d.altitudeBase} m tot ${d.altitudeSummit} m boven.`,
   }
   return t[locale]
 }
@@ -388,6 +417,7 @@ function domainAnswer(d: Destination, locale: Locale): string {
       es: `Sí. ${d.name} forma parte del dominio ${area.name}, uno de los grandes dominios conectados, así que un solo forfait abre todo el conjunto.`,
       pt: `Sim. ${d.name} faz parte do domínio ${area.name}, um dos grandes domínios ligados, por isso um único passe abre todo o conjunto.`,
       it: `Sì. ${d.name} fa parte del comprensorio ${area.name}, uno dei grandi comprensori collegati: un solo skipass apre l'intero comprensorio.`,
+      nl: `Ja. ${d.name} maakt deel uit van het skigebied ${area.name}, een van de grote gekoppelde gebieden, dus met één liftpas heb je toegang tot het geheel.`,
     }
     return t[locale]
   }
@@ -397,6 +427,7 @@ function domainAnswer(d: Destination, locale: Locale): string {
     es: `No, es una estación independiente con sus ${d.pistesKm} km de pistas, no parte de un dominio conectado.`,
     pt: `Não, é uma estância autónoma com os seus ${d.pistesKm} km de pistas, não parte de um domínio ligado.`,
     it: `No, è una località a sé con i suoi ${d.pistesKm} km di piste, non parte di un comprensorio collegato.`,
+    nl: `Nee, dit is een op zichzelf staand resort met eigen ${d.pistesKm} km piste, geen onderdeel van een gekoppeld skigebied.`,
   }
   return t[locale]
 }
@@ -414,6 +445,7 @@ function beginnersAnswer(d: Destination, locale: Locale): string {
       es: `Sí. Con ${c.green} pistas verdes y ${c.blue} azules, hay terreno suave de sobra para aprender.`,
       pt: `Sim. Com ${c.green} pistas verdes e ${c.blue} azuis, há terreno suave de sobra para aprender.`,
       it: `Sì. Con ${c.green} piste verdi e ${c.blue} blu, c'è terreno facile in abbondanza per imparare.`,
+      nl: `Ja. Met ${c.green} groene en ${c.blue} blauwe pistes is er volop rustig terrein om op te leren.`,
     },
     ok: {
       en: `It can work: ${c.green} green and ${c.blue} blue runs are enough to start, though the area rewards skiers who can already link turns.`,
@@ -421,6 +453,7 @@ function beginnersAnswer(d: Destination, locale: Locale): string {
       es: `Puede funcionar: ${c.green} verdes y ${c.blue} azules bastan para empezar, aunque el dominio premia a quienes ya encadenan giros.`,
       pt: `Pode funcionar: ${c.green} verdes e ${c.blue} azuis chegam para começar, embora o domínio recompense quem já encadeia curvas.`,
       it: `Può andare: ${c.green} verdi e ${c.blue} blu bastano per iniziare, anche se il comprensorio premia chi sa già collegare le curve.`,
+      nl: `Het kan lukken: ${c.green} groene en ${c.blue} blauwe pistes zijn genoeg om te beginnen, al beloont het gebied skiërs die al bochten kunnen koppelen.`,
     },
     limited: {
       en: `Less so: the terrain leans intermediate and advanced (${c.green} green, ${c.blue} blue), so committed beginners are better off starting elsewhere.`,
@@ -428,6 +461,7 @@ function beginnersAnswer(d: Destination, locale: Locale): string {
       es: `Menos: el terreno tira a intermedio y avanzado (${c.green} verdes, ${c.blue} azules), así que los principiantes puros harán mejor en empezar en otro sitio.`,
       pt: `Menos: o terreno pende para intermédio e avançado (${c.green} verdes, ${c.blue} azuis), por isso principiantes a sério é melhor começarem noutro lado.`,
       it: `Meno: il terreno pende verso intermedio e avanzato (${c.green} verdi, ${c.blue} blu), quindi i veri principianti fanno meglio a iniziare altrove.`,
+      nl: `Minder: het terrein leunt naar gevorderd en ervaren (${c.green} groen, ${c.blue} blauw), dus serieuze beginners kunnen beter elders starten.`,
     },
   }
   return A[tier][locale]
@@ -440,6 +474,7 @@ function glacierAnswer(locale: Locale): string {
     es: `Sí, hay esquí en glaciar en altura, lo que alarga la temporada y ayuda en años de poca nieve.`,
     pt: `Sim, há esqui em glaciar nas alturas, o que prolonga a época e ajuda em anos de pouca neve.`,
     it: `Sì, c'è sci su ghiacciaio in quota, il che allunga la stagione e aiuta nelle annate con poca neve.`,
+    nl: `Ja, er is gletsjerskiën op grote hoogte, wat het seizoen verlengt en helpt in jaren met weinig sneeuw.`,
   }
   return t[locale]
 }

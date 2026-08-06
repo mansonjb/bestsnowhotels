@@ -101,5 +101,8 @@ export function regionIntro(h: RegionHub, l: Locale): string {
   const it = single
     ? `${r} ha una località sciistica nella nostra guida, ${s.topName}, che arriva a ${s.maxSummit} m. Qui sotto trovi i suoi hotel sugli sci, l'innevamento e i link utili.`
     : `${r} riunisce ${s.count} località sciistiche nella nostra guida, fino a ${s.maxSummit} m nel punto più alto. ${s.topName} ottiene qui il punteggio neve più alto e ${s.biggestName} è la più estesa, con ${s.biggestKm} km di piste. Confrontale tutte qui sotto, ciascuna con i suoi hotel sugli sci.`
-  return { en, fr, es, pt, it }[l]
+  const nl = single
+    ? `${r} heeft een skigebied in onze gids, ${s.topName}, dat oploopt tot ${s.maxSummit} m. Hieronder vind je de ski-in/ski-out hotels, het sneeuwverleden en de reislinks.`
+    : `${r} telt ${s.count} skigebieden in onze gids, tot ${s.maxSummit} m op het hoogste punt. ${s.topName} heeft hier de hoogste sneeuwscore en ${s.biggestName} is het grootst met ${s.biggestKm} km piste. Vergelijk ze allemaal hieronder, elk met ski-in/ski-out hotels.`
+  return { en, fr, es, pt, it, nl }[l]
 }

@@ -59,6 +59,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
     label: {
       en: 'Open year-round', fr: "Ouvert toute l'année", es: 'Abierto todo el año',
       pt: 'Aberto todo o ano', it: "Aperto tutto l'anno",
+      nl: "Het hele jaar open",
     },
     blurb: {
       en: 'Glacier and indoor slopes that run in every month.',
@@ -66,12 +67,14 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       es: 'Glaciares y pistas cubiertas que funcionan todos los meses.',
       pt: 'Glaciares e pistas cobertas que funcionam todos os meses.',
       it: 'Ghiacciai e piste coperte aperti ogni mese.',
+      nl: 'Gletsjers en overdekte pistes die het hele jaar open zijn.',
     },
   },
   'autumn-glacier': {
     label: {
       en: 'Autumn openers (glaciers)', fr: "Ouvertures d'automne (glaciers)", es: 'Aperturas de otoño (glaciares)',
       pt: 'Aberturas de outono (glaciares)', it: "Aperture d'autunno (ghiacciai)",
+      nl: "Herfstopeningen (gletsjers)",
     },
     blurb: {
       en: 'High glacier sectors that usually spin up in September or October.',
@@ -79,12 +82,14 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       es: 'Sectores glaciares altos que suelen arrancar en septiembre u octubre.',
       pt: 'Setores glaciares altos que costumam arrancar em setembro ou outubro.',
       it: 'Settori glaciali alti che di solito aprono a settembre o ottobre.',
+      nl: 'Hooggelegen gletsjersectoren die meestal in september of oktober opengaan.',
     },
   },
   october: {
     label: {
       en: 'Typically open in October', fr: 'Ouvrent en général en octobre', es: 'Abren normalmente en octubre',
       pt: 'Abrem normalmente em outubro', it: 'Aprono di solito a ottobre',
+      nl: 'Meestal open in oktober',
     },
     blurb: {
       en: 'Early-season resorts, often the Nordic long-season fields and high-altitude names.',
@@ -92,12 +97,14 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       es: 'Estaciones de inicio de temporada, a menudo los dominios nórdicos de larga temporada y los nombres de altura.',
       pt: 'Estâncias de início de época, muitas vezes os domínios nórdicos de longa época e os nomes de altitude.',
       it: 'Località di inizio stagione, spesso i comprensori nordici a stagione lunga e i nomi d\'alta quota.',
+      nl: 'Vroege skigebieden, vaak de Noordse gebieden met een lang seizoen en de namen op grote hoogte.',
     },
   },
   november: {
     label: {
       en: 'Typically open in November', fr: 'Ouvrent en général en novembre', es: 'Abren normalmente en noviembre',
       pt: 'Abrem normalmente em novembro', it: 'Aprono di solito a novembre',
+      nl: 'Meestal open in november',
     },
     blurb: {
       en: 'The big high-altitude Alpine and North American names that lead the season.',
@@ -105,12 +112,14 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       es: 'Los grandes nombres alpinos y norteamericanos de altura que abren la temporada.',
       pt: 'Os grandes nomes alpinos e norte-americanos de altitude que lançam a época.',
       it: 'I grandi nomi alpini e nordamericani d\'alta quota che aprono la stagione.',
+      nl: 'De grote namen uit de Alpen en Noord-Amerika op grote hoogte die het seizoen openen.',
     },
   },
   december: {
     label: {
       en: 'Typically open in December', fr: 'Ouvrent en général en décembre', es: 'Abren normalmente en diciembre',
       pt: 'Abrem normalmente em dezembro', it: 'Aprono di solito a dicembre',
+      nl: 'Meestal open in december',
     },
     blurb: {
       en: 'The bulk of resorts, aiming to be fully open for the Christmas holidays.',
@@ -118,12 +127,14 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       es: 'La mayoría de las estaciones, que apuntan a abrir del todo para las fiestas de Navidad.',
       pt: 'A maioria das estâncias, que apontam a abrir por completo para as festas de Natal.',
       it: 'La maggior parte delle località, che puntano ad aprire del tutto per le feste di Natale.',
+      nl: 'Het merendeel van de skigebieden, met als doel volledig open te zijn voor de kerstvakantie.',
     },
   },
   'spring-summer': {
     label: {
       en: 'Spring and summer skiing', fr: 'Ski de printemps et d\'été', es: 'Esquí de primavera y verano',
       pt: 'Esqui de primavera e verão', it: 'Sci di primavera ed estate',
+      nl: 'Skiën in voorjaar en zomer',
     },
     blurb: {
       en: 'Rare fields that ski the warm months on lingering high-altitude snow.',
@@ -131,12 +142,14 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       es: 'Raros dominios que esquían los meses cálidos sobre nieve de altura persistente.',
       pt: 'Raros domínios que esquiam os meses quentes sobre neve de altitude persistente.',
       it: 'Rari comprensori che sciano nei mesi caldi su neve d\'alta quota persistente.',
+      nl: 'Zeldzame gebieden waar in de warme maanden wordt geskied op lang liggende sneeuw op grote hoogte.',
     },
   },
   'southern-hemisphere': {
     label: {
       en: 'Southern Hemisphere (June to October)', fr: 'Hémisphère sud (juin à octobre)', es: 'Hemisferio sur (junio a octubre)',
       pt: 'Hemisfério sul (junho a outubro)', it: 'Emisfero sud (da giugno a ottobre)',
+      nl: 'Zuidelijk halfrond (juni tot oktober)',
     },
     blurb: {
       en: 'Australia, New Zealand, Chile, Lesotho and South Africa, in season while the Alps sleep.',
@@ -144,6 +157,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       es: 'Australia, Nueva Zelanda, Chile, Lesoto y Sudáfrica, en temporada mientras los Alpes duermen.',
       pt: 'Austrália, Nova Zelândia, Chile, Lesoto e África do Sul, em época enquanto os Alpes dormem.',
       it: 'Australia, Nuova Zelanda, Cile, Lesotho e Sudafrica, in stagione mentre le Alpi dormono.',
+      nl: 'Australië, Nieuw-Zeeland, Chili, Lesotho en Zuid-Afrika, in seizoen terwijl de Alpen slapen.',
     },
   },
 }

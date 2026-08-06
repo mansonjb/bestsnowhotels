@@ -9,10 +9,10 @@ import type { Hotel } from './hotels'
  */
 
 const RATING_WORD: Record<string, Record<Locale, string>> = {
-  excellent: { en: 'Excellent', fr: 'Excellent', es: 'Excelente', pt: 'Excelente', it: 'Eccellente' },
-  veryGood: { en: 'Very good', fr: 'Très bien', es: 'Muy bien', pt: 'Muito bom', it: 'Molto buono' },
-  great: { en: 'Great', fr: 'Très bon', es: 'Muy bueno', pt: 'Muito bom', it: 'Ottimo' },
-  good: { en: 'Good', fr: 'Bien', es: 'Bien', pt: 'Bom', it: 'Buono' },
+  excellent: { en: 'Excellent', fr: 'Excellent', es: 'Excelente', pt: 'Excelente', it: 'Eccellente', nl: 'Uitstekend' },
+  veryGood: { en: 'Very good', fr: 'Très bien', es: 'Muy bien', pt: 'Muito bom', it: 'Molto buono', nl: 'Zeer goed' },
+  great: { en: 'Great', fr: 'Très bon', es: 'Muy bueno', pt: 'Muito bom', it: 'Ottimo', nl: 'Erg goed' },
+  good: { en: 'Good', fr: 'Bien', es: 'Bien', pt: 'Bom', it: 'Buono', nl: 'Goed' },
 }
 
 function ratingKey(r: number): string {
@@ -28,18 +28,18 @@ export function hotelRatingWord(rating: number, locale: Locale): string {
 
 /** Capitalised price-tier label, used as a chip. */
 const PRICE_CAP: Record<string, Record<Locale, string>> = {
-  budget: { en: 'Budget-friendly', fr: 'Économique', es: 'Económico', pt: 'Económico', it: 'Economico' },
-  mid: { en: 'Mid-range', fr: 'Milieu de gamme', es: 'Gama media', pt: 'Gama média', it: 'Fascia media' },
-  upper: { en: 'Upper-scale', fr: 'Haut de gamme', es: 'Gama alta', pt: 'Gama alta', it: 'Alta gamma' },
-  luxury: { en: 'Luxury', fr: 'Luxe', es: 'Lujo', pt: 'Luxo', it: 'Lusso' },
+  budget: { en: 'Budget-friendly', fr: 'Économique', es: 'Económico', pt: 'Económico', it: 'Economico', nl: 'Voordelig' },
+  mid: { en: 'Mid-range', fr: 'Milieu de gamme', es: 'Gama media', pt: 'Gama média', it: 'Fascia media', nl: 'Middenklasse' },
+  upper: { en: 'Upper-scale', fr: 'Haut de gamme', es: 'Gama alta', pt: 'Gama alta', it: 'Alta gamma', nl: 'Hogere klasse' },
+  luxury: { en: 'Luxury', fr: 'Luxe', es: 'Lujo', pt: 'Luxo', it: 'Lusso', nl: 'Luxe' },
 }
 
 /** Lower-case price-tier phrase, used inside the blurb sentence. */
 const PRICE_PHRASE: Record<string, Record<Locale, string>> = {
-  budget: { en: 'budget-friendly', fr: 'économique', es: 'económica', pt: 'económica', it: 'economica' },
-  mid: { en: 'mid-range', fr: 'de milieu de gamme', es: 'de gama media', pt: 'de gama média', it: 'di fascia media' },
-  upper: { en: 'upper-scale', fr: 'haut de gamme', es: 'de gama alta', pt: 'de gama alta', it: 'di alta gamma' },
-  luxury: { en: 'luxury', fr: 'de luxe', es: 'de lujo', pt: 'de luxo', it: 'di lusso' },
+  budget: { en: 'budget-friendly', fr: 'économique', es: 'económica', pt: 'económica', it: 'economica', nl: 'voordelige' },
+  mid: { en: 'mid-range', fr: 'de milieu de gamme', es: 'de gama media', pt: 'de gama média', it: 'di fascia media', nl: 'gemiddeld geprijsde' },
+  upper: { en: 'upper-scale', fr: 'haut de gamme', es: 'de gama alta', pt: 'de gama alta', it: 'di alta gamma', nl: 'exclusieve' },
+  luxury: { en: 'luxury', fr: 'de luxe', es: 'de lujo', pt: 'de luxo', it: 'di lusso', nl: 'luxueuze' },
 }
 
 function priceKey(p: number): string {
@@ -64,6 +64,7 @@ const GOOD_TO_KNOW: Record<Locale, string> = {
   es: 'Bueno saber',
   pt: 'Bom saber',
   it: 'Buono a sapersi',
+  nl: 'Goed om te weten',
 }
 
 export function goodToKnowLabel(locale: Locale): string {
@@ -76,6 +77,7 @@ const WHY_WE_LIKE: Record<Locale, string> = {
   es: 'Por qué nos gusta',
   pt: 'Porque gostamos',
   it: 'Perché ci piace',
+  nl: 'Waarom we dit aanbevelen',
 }
 export function whyWeLikeLabel(locale: Locale): string {
   return WHY_WE_LIKE[locale]
@@ -87,6 +89,7 @@ const TOP_PICK: Record<Locale, string> = {
   es: 'Nuestra preferida',
   pt: 'A nossa preferida',
   it: 'La nostra preferita',
+  nl: 'Onze favoriet',
 }
 export function topPickLabel(locale: Locale): string {
   return TOP_PICK[locale]
@@ -118,6 +121,7 @@ export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): s
       es: `A pocos pasos de los remontes en ${resortName}: vuelves esquiando hasta la puerta y te ahorras las colas de la mañana.`,
       pt: `A poucos passos dos teleféricos em ${resortName}: regressa a esquiar até à porta e evita as filas da manhã.`,
       it: `A pochi passi dagli impianti di ${resortName}: si rientra sci ai piedi e si saltano le code del mattino.`,
+      nl: `Op loopafstand van de liften in ${resortName}, dus je skiet zo naar de voordeur en slaat de ochtendrijen over.`,
     },
     topRated: {
       en: `One of the highest-rated places to stay in ${resortName}, with guests singling out the service and comfort.`,
@@ -125,6 +129,7 @@ export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): s
       es: `Uno de los alojamientos mejor valorados de ${resortName}, donde los huéspedes destacan el trato y el confort.`,
       pt: `Um dos alojamentos mais bem avaliados de ${resortName}, onde os hóspedes destacam o atendimento e o conforto.`,
       it: `Uno degli alloggi più amati a ${resortName}, dove gli ospiti elogiano servizio e comfort.`,
+      nl: `Een van de best beoordeelde verblijven in ${resortName}, waar gasten de service en het comfort prijzen.`,
     },
     luxury: {
       en: `A polished, high-end base for ${resortName} when you want to be properly looked after after a day on the snow.`,
@@ -132,6 +137,7 @@ export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): s
       es: `Una dirección de alta gama y cuidada en ${resortName}, para que te mimen tras un día en la nieve.`,
       pt: `Uma morada de alta gama e cuidada em ${resortName}, para se deixar mimar depois de um dia na neve.`,
       it: `Un indirizzo di alta gamma e curato a ${resortName}, per farsi coccolare dopo una giornata sulla neve.`,
+      nl: `Een verzorgd, hoogwaardig adres in ${resortName}, waar je na een dag in de sneeuw in de watten wordt gelegd.`,
     },
     value: {
       en: `Strong value for ${resortName}, with a high guest rating that punches above its nightly price.`,
@@ -139,6 +145,7 @@ export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): s
       es: `Una gran relación calidad-precio en ${resortName}, con una nota de huéspedes alta para su precio por noche.`,
       pt: `Uma ótima relação qualidade-preço em ${resortName}, com uma nota de hóspedes alta para o preço por noite.`,
       it: `Ottimo rapporto qualità-prezzo a ${resortName}, con un voto degli ospiti alto per il prezzo a notte.`,
+      nl: `Uitstekende prijs-kwaliteitverhouding in ${resortName}, met een hoge gastenbeoordeling voor een redelijke prijs per nacht.`,
     },
     popular: {
       en: `A long-standing favourite in ${resortName}, trusted by thousands of guests before you.`,
@@ -146,6 +153,7 @@ export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): s
       es: `Un favorito de siempre en ${resortName}, avalado por miles de huéspedes antes que tú.`,
       pt: `Um favorito de longa data em ${resortName}, recomendado por milhares de hóspedes antes de si.`,
       it: `Un classico di ${resortName}, scelto da migliaia di ospiti prima di te.`,
+      nl: `Al jarenlang een favoriet in ${resortName}, vertrouwd door duizenden gasten voor jou.`,
     },
     reliable: {
       en: `A dependable, well-reviewed choice for a stay in ${resortName}.`,
@@ -153,6 +161,7 @@ export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): s
       es: `Una opción fiable y bien valorada para alojarse en ${resortName}.`,
       pt: `Uma opção fiável e bem avaliada para ficar em ${resortName}.`,
       it: `Una scelta affidabile e ben recensita per un soggiorno a ${resortName}.`,
+      nl: `Een betrouwbare keuze met goede beoordelingen voor een verblijf in ${resortName}.`,
     },
   }
   return R[kind][locale]

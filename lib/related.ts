@@ -85,26 +85,26 @@ export interface ChipGroup {
 }
 
 const GROUP_TITLES: Record<ChipGroup['key'], Record<Locale, string>> = {
-  explore: { en: 'Explore the area', fr: 'Explorer la région', es: 'Explora la zona', pt: 'Explorar a zona', it: 'Esplora la zona' },
-  bestFor: { en: 'This resort is on our lists', fr: 'Cette station est dans nos sélections', es: 'Esta estación está en nuestras listas', pt: 'Esta estância está nas nossas listas', it: 'Questa località è nelle nostre liste' },
-  compare: { en: 'Compare it', fr: 'La comparer', es: 'Compárala', pt: 'Compará-la', it: 'Confrontala' },
-  plan: { en: 'Plan your trip', fr: 'Préparer le voyage', es: 'Planifica tu viaje', pt: 'Planeie a viagem', it: 'Pianifica il viaggio' },
+  explore: { en: 'Explore the area', fr: 'Explorer la région', es: 'Explora la zona', pt: 'Explorar a zona', it: 'Esplora la zona', nl: 'Verken de omgeving' },
+  bestFor: { en: 'This resort is on our lists', fr: 'Cette station est dans nos sélections', es: 'Esta estación está en nuestras listas', pt: 'Esta estância está nas nossas listas', it: 'Questa località è nelle nostre liste', nl: 'Deze bestemming staat op onze lijsten' },
+  compare: { en: 'Compare it', fr: 'La comparer', es: 'Compárala', pt: 'Compará-la', it: 'Confrontala', nl: 'Vergelijk het' },
+  plan: { en: 'Plan your trip', fr: 'Préparer le voyage', es: 'Planifica tu viaje', pt: 'Planeie a viagem', it: 'Pianifica il viaggio', nl: 'Plan je reis' },
 }
 
 const T = {
-  region: { en: 'in', fr: 'dans', es: 'en', pt: 'em', it: 'in' },
-  allIn: { en: 'All resorts in', fr: 'Toutes les stations de', es: 'Todas las estaciones de', pt: 'Todas as estâncias de', it: 'Tutte le località di' },
-  vs: { en: 'vs', fr: 'ou', es: 'vs', pt: 'vs', it: 'vs' },
-  skiArea: { en: 'Ski area', fr: 'Domaine skiable', es: 'Dominio esquiable', pt: 'Domínio esquiável', it: 'Comprensorio' },
-  sio: { en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'A pie de pista', pt: 'À beira das pistas', it: 'Sugli sci' },
-  winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027' },
-  weather: { en: 'Snow & weather', fr: 'Neige et météo', es: 'Nieve y tiempo', pt: 'Neve e tempo', it: 'Neve e meteo' },
-  guide: { en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere' },
+  region: { en: 'in', fr: 'dans', es: 'en', pt: 'em', it: 'in', nl: 'in' },
+  allIn: { en: 'All resorts in', fr: 'Toutes les stations de', es: 'Todas las estaciones de', pt: 'Todas as estâncias de', it: 'Tutte le località di', nl: 'Alle bestemmingen in' },
+  vs: { en: 'vs', fr: 'ou', es: 'vs', pt: 'vs', it: 'vs', nl: 'vs' },
+  skiArea: { en: 'Ski area', fr: 'Domaine skiable', es: 'Dominio esquiable', pt: 'Domínio esquiável', it: 'Comprensorio', nl: 'Skigebied' },
+  sio: { en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'A pie de pista', pt: 'À beira das pistas', it: 'Sugli sci', nl: 'Aan de piste' },
+  winter: { en: 'Winter 2027', fr: 'Hiver 2027', es: 'Invierno 2027', pt: 'Inverno 2027', it: 'Inverno 2027', nl: 'Winter 2027' },
+  weather: { en: 'Snow & weather', fr: 'Neige et météo', es: 'Nieve y tiempo', pt: 'Neve e tempo', it: 'Neve e meteo', nl: 'Sneeuw en weer' },
+  guide: { en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere', nl: 'Wat te weten' },
 } satisfies Record<string, Record<Locale, string>>
 
 const THEME_LABELS: Record<string, Record<Locale, string>> = {
-  'ski-spa-resorts': { en: 'Ski & spa resorts', fr: 'Stations ski et spa', es: 'Estaciones de esquí y spa', pt: 'Estâncias de esqui e spa', it: 'Località sci e spa' },
-  'apres-ski-resorts': { en: 'Best apres-ski', fr: 'Meilleur après-ski', es: 'Mejor apres-ski', pt: 'Melhor apres-ski', it: 'Miglior apres-ski' },
+  'ski-spa-resorts': { en: 'Ski & spa resorts', fr: 'Stations ski et spa', es: 'Estaciones de esquí y spa', pt: 'Estâncias de esqui e spa', it: 'Località sci e spa', nl: 'Ski- en spabestemmingen' },
+  'apres-ski-resorts': { en: 'Best apres-ski', fr: 'Meilleur après-ski', es: 'Mejor apres-ski', pt: 'Melhor apres-ski', it: 'Miglior apres-ski', nl: 'Beste après-ski' },
 }
 
 /**

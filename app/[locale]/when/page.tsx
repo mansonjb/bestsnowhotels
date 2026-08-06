@@ -14,6 +14,7 @@ const T = {
     es: 'Dónde esquiar en 2027: guía mes a mes',
     pt: 'Onde esquiar em 2027: guia mês a mês',
     it: 'Dove sciare nel 2027: guida mese per mese',
+    nl: 'Waar skiën in 2027: maand-voor-maand gids',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Six guides that pick the right resort for each month of the 2026-2027 season, plus the Southern Hemisphere winter.',
@@ -21,6 +22,7 @@ const T = {
     es: 'Seis guías que eligen la estación adecuada para cada mes de la temporada 2026-2027, más el invierno austral.',
     pt: 'Seis guias que escolhem a estância certa para cada mês da época 2026-2027, mais o inverno austral.',
     it: "Sei guide che scelgono la località giusta per ogni mese della stagione 2026-2027, più l'inverno australe.",
+    nl: 'Zes gidsen die voor elke maand van het seizoen 2026-2027 het juiste skigebied kiezen, plus de winter op het zuidelijk halfrond.',
   } as Record<Locale, string>,
 }
 

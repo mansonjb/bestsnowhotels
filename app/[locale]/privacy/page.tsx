@@ -56,6 +56,13 @@ const COPY: Record<Locale, { paragraphs: string[] }> = {
       'Potremmo impostare alcuni cookie per l\'attribuzione delle commissioni di affiliazione. Puoi disattivare i cookie nel tuo browser, e questo non ti impedirà di consultare BestSnowHotels.',
     ],
   },
+  nl: {
+    paragraphs: [
+      'BestSnowHotels verzamelt niet rechtstreeks persoonlijke gegevens. We gebruiken lichte analytics (aantal paginaweergaven, gegevens op landniveau) om te begrijpen welke bestemmingen onze lezers het meest interesseren.',
+      'Boekingspartners (Stay22, Booking, Expedia, Hotels.com) werken onder hun eigen privacybeleid. Zodra je naar hen doorklikt, gelden hun voorwaarden.',
+      'We plaatsen mogelijk een klein aantal cookies voor affiliate-attributie. Je kunt cookies in je browser uitschakelen, en dat weerhoudt je er niet van om BestSnowHotels te bekijken.',
+    ],
+  },
 }
 
 export default async function PrivacyPage({

@@ -61,6 +61,14 @@ const COPY: Record<Locale, { title: string; paragraphs: string[] }> = {
       'Riceviamo una piccola commissione quando prenoti tramite i nostri link. Quella commissione non ti costa nulla in più. Serve a finanziare il sito, e niente altro.',
     ],
   },
+  nl: {
+    title: 'Over BestSnowHotels',
+    paragraphs: [
+      'BestSnowHotels is een klein redactioneel project met een doel: skiërs helpen om echte ski-in/ski-out hotels in de Alpen en de Pyreneeën te vinden, zonder eindeloos te zoeken op algemene boekingssites.',
+      'We bestrijken 455 skigebieden in Frankrijk, Zwitserland, Oostenrijk, Italië, Spanje, Andorra, Duitsland, Noorwegen, Zweden, Finland, Japan, de Verenigde Staten, Marokko, Algerije, Lesotho, Zuid-Afrika, Egypte, Canada, Zuid-Korea, Australië, Nieuw-Zeeland en Chili. Voor elk gebied vermelden we geverifieerde hoogtes, pistekilometers, seizoensdata en een transparante ski-in/ski-out notitie. De interactieve kaart op elke bestemmingspagina draait op Stay22. Die vergelijkt Booking, Expedia en Hotels.com in realtime, zodat je altijd de beste prijs ziet.',
+      'We ontvangen een kleine commissie wanneer je via onze links boekt. Die commissie kost jou niets extra. Ze financiert de site, meer niet.',
+    ],
+  },
 }
 
 export default async function AboutPage({

@@ -161,6 +161,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones con nieve garantizada de Europa',
       pt: 'Melhores estâncias com neve garantida da Europa',
       it: "Migliori località con neve sicura d'Europa",
+      nl: "Beste sneeuwzekere skigebieden van Europa",
     },
     intro: {
       en: 'The Alps and Pyrenees resorts most likely to deliver real snow, picked by our 0 to 100 snow score and high-altitude pedigree.',
@@ -168,6 +169,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Las estaciones de los Alpes y los Pirineos con la nieve más fiable, ordenadas por nuestra puntuación de 0 a 100 y su altitud.",
       pt: "As estâncias dos Alpes e dos Pirenéus com a neve mais fiável, ordenadas pela nossa pontuação de 0 a 100 e pela altitude.",
       it: "Le località delle Alpi e dei Pirenei più affidabili sulla neve, ordinate per il nostro punteggio da 0 a 100 e per la quota.",
+      nl: "De skigebieden in de Alpen en Pyreneeën die het meest kans bieden op echte sneeuw, geselecteerd op basis van onze sneeuwscore van 0 tot 100 en hun hoogteligging.",
     },
     description: {
       en: 'Snow is the whole point of a ski trip, and these resorts have the altitude and aspect to deliver it more reliably than the rest. We rank by our snow score, a 0 to 100 measure combining base and summit altitude, historical snow record and aspect. Expect resorts that open early, close late and survive lean winters when lower neighbours close.',
@@ -175,6 +177,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "La nieve es lo que se busca en un viaje de esquí, y estas estaciones tienen la altitud y la orientación para garantizarla mejor que el resto. Las ordenamos por nuestra puntuación de nieve, una medida de 0 a 100 que combina altitudes de base y cima, histórico de nieve y orientación. Espera estaciones que abren pronto, cierran tarde y resisten los inviernos flojos cuando las vecinas más bajas tiran la toalla.",
       pt: "A neve é o objetivo de uma viagem de esqui, e estas estâncias têm a altitude e a exposição para a garantir melhor do que as outras. Ordenamo-las pela nossa pontuação de neve, uma medida de 0 a 100 que combina altitudes de base e cume, histórico de neve e exposição. Espere estâncias que abrem cedo, fecham tarde e resistem aos invernos fracos quando as vizinhas mais baixas desistem.",
       it: "La neve è il senso di un viaggio sulla neve, e queste località hanno la quota e l'esposizione per garantirla meglio delle altre. Le ordiniamo per il nostro punteggio neve, una misura da 0 a 100 che combina quote di base e di cima, storico dell'innevamento ed esposizione. Aspettati località che aprono presto, chiudono tardi e sopravvivono agli inverni magri quando le vicine più basse abbassano la saracinesca.",
+      nl: "Sneeuw is de kern van een skivakantie, en deze skigebieden hebben de hoogte en ligging om dat betrouwbaarder waar te maken dan de rest. We rangschikken op onze sneeuwscore, een maat van 0 tot 100 die basis- en tophoogte, historische sneeuwval en ligging combineert. Verwacht skigebieden die vroeg openen, laat sluiten en magere winters overleven wanneer lager gelegen buren moeten sluiten.",
     },
     filter: (d) => isEurope(d) && d.snowScore >= 85,
     sort: (d) => d.snowScore,
@@ -188,6 +191,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí familiares de Europa',
       pt: 'Melhores estâncias de esqui familiares da Europa',
       it: "Migliori località sciistiche per famiglie d'Europa",
+      nl: "Beste skigebieden voor gezinnen in Europa",
     },
     intro: {
       en: 'Wide, gentle slopes, traffic-free villages and dedicated kids\' areas: the resorts that get parents and children right.',
@@ -195,6 +199,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Laderas amplias y suaves, pueblos sin tráfico y zonas infantiles dedicadas: las estaciones que aciertan con padres e hijos.",
       pt: "Encostas amplas e suaves, aldeias sem trânsito e zonas infantis dedicadas: as estâncias que acertam com pais e filhos.",
       it: "Pendii ampi e dolci, borghi senza traffico e aree bimbi dedicate: le località che fanno felici genitori e figli.",
+      nl: "Brede, glooiende pistes, autovrije dorpen en speciale kindergebieden: de skigebieden die het voor gezinnen helemaal goed voor elkaar hebben.",
     },
     description: {
       en: 'A great family resort needs more than a good kids\' club: it wants gentle gradients, easy lift-served beginner zones, a safe village to walk around in and plenty of indoor backup for snowy days. These resorts tick all the boxes, from car-free Wengen and the underground-train Serfaus-Fiss-Ladis to slope-side Avoriaz. They are still proper mountains, but they are kid-friendly first.',
@@ -202,6 +207,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Una gran estación familiar es más que un buen club infantil: hacen falta pendientes suaves, zonas de debutantes con remontes, un pueblo seguro para pasear y planes bajo techo para días de nieve. Estas estaciones marcan todas las casillas, de la sin coches Wengen al metro subterráneo de Serfaus-Fiss-Ladis o la Avoriaz a pie de pista. Auténticas montañas, pero pensadas primero para los niños.",
       pt: "Uma grande estância familiar é mais do que um bom clube infantil: precisa de pendentes suaves, zonas de iniciação com teleféricos, uma aldeia segura para passear e atividades de interior para dias de neve. Estas estâncias têm tudo, da sem-carros Wengen ao metro subterrâneo de Serfaus-Fiss-Ladis ou à Avoriaz no sopé das pistas. Verdadeiras montanhas, mas pensadas primeiro para as crianças.",
       it: "Una grande località per famiglie è molto più di un buon mini club: servono pendenze morbide, aree per chi inizia servite da impianti, un borgo sicuro dove camminare e attività al coperto per le giornate di neve. Queste località mettono insieme tutto, dalla senza-auto Wengen al metro sotterraneo di Serfaus-Fiss-Ladis fino ad Avoriaz ai piedi delle piste. Vere montagne, ma pensate prima per i bambini.",
+      nl: "Een goed skigebied voor gezinnen heeft meer nodig dan een goede kinderclub: het wil glooiende hellingen, makkelijk toegankelijke beginnerszones met lift, een veilig dorp om doorheen te wandelen en genoeg binnenactiviteiten voor sneeuwdagen. Deze skigebieden voldoen aan alle eisen, van het autovrije Wengen en het ondergrondse treintje van Serfaus-Fiss-Ladis tot het pistegelegen Avoriaz. Het zijn nog altijd echte bergen, maar wel op de eerste plaats geschikt voor kinderen.",
     },
     filter: (d) => isEurope(d) && d.vibes.includes('family'),
     sort: (d) => d.snowScore,
@@ -215,6 +221,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estaciones de esquí más lujosas de Europa',
       pt: 'Estâncias de esqui mais luxuosas da Europa',
       it: "Le località sciistiche più lussuose d'Europa",
+      nl: "Meest luxueuze skigebieden van Europa",
     },
     intro: {
       en: 'The most polished, high-end addresses in the Alps and Pyrenees, where Michelin stars and ski-in concierge come standard.',
@@ -222,6 +229,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Las direcciones más chic de los Alpes y los Pirineos, donde estrellas Michelin y conserjería ski-in son lo normal.",
       pt: "As moradas mais chiques dos Alpes e dos Pirenéus, onde estrelas Michelin e conciergerie ski-in são o normal.",
       it: "Gli indirizzi più chic delle Alpi e dei Pirenei, dove le stelle Michelin e la concierge ski-in sono di serie.",
+      nl: "De meest verfijnde, exclusieve adressen in de Alpen en de Pyreneeën, waar Michelinsterren en ski-in conciërgeservice standaard zijn.",
     },
     description: {
       en: 'Cosy, intimate or just outright glamorous, these are the resorts where the local high street looks more like Bond Street and the chalet bath is the size of your bedroom. From Courchevel and Megève in France to Gstaad, Zermatt and St. Moritz in Switzerland and Cortina in Italy, the lifestyle and the grooming are equally curated.',
@@ -229,6 +237,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Acogedoras, íntimas o francamente glamurosas, son las estaciones donde la calle principal parece Bond Street y la bañera del chalet tiene el tamaño de tu habitación. De Courchevel y Megève en Francia a Gstaad, Zermatt y St. Moritz en Suiza, pasando por Cortina en Italia, el estilo de vida y el pisado están igualmente cuidados.",
       pt: "Acolhedoras, íntimas ou abertamente glamorosas, são as estâncias onde a rua principal parece a Bond Street e a banheira do chalé tem o tamanho do seu quarto. De Courchevel e Megève em França a Gstaad, Zermatt e St. Moritz na Suíça, passando por Cortina em Itália, o estilo de vida e o pisado são igualmente cuidados.",
       it: "Accoglienti, intime o apertamente glamour, sono le località dove la via principale somiglia a Bond Street e la vasca dello chalet ha le dimensioni della tua camera. Da Courchevel e Megève in Francia a Gstaad, Zermatt e St. Moritz in Svizzera, passando per Cortina in Italia, lo stile di vita e la battitura sono altrettanto curati.",
+      nl: "Knus, intiem of ronduit glamoureus: dit zijn de skigebieden waar de lokale hoofdstraat meer op Bond Street lijkt en het bad in het chalet zo groot is als je slaapkamer. Van Courchevel en Megève in Frankrijk tot Gstaad, Zermatt en St. Moritz in Zwitserland en Cortina in Italië: levensstijl en pistebeheer zijn er even zorgvuldig verzorgd.",
     },
     filter: (d) => isEurope(d) && d.vibes.some((v) => LUX_VIBES.has(v)),
     sort: (d) => d.snowScore,
@@ -242,6 +251,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estaciones de esquí más lujosas de Estados Unidos',
       pt: 'Estâncias de esqui mais luxuosas dos Estados Unidos',
       it: "Le località sciistiche più lussuose degli Stati Uniti",
+      nl: "Meest luxueuze skigebieden in de VS",
     },
     intro: {
       en: "America's most glamorous mountains, where five-star hotels, ski valets and world-class dining meet the deep, dry snow of the Rockies and the Wasatch.",
@@ -249,6 +259,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Las montañas más glamurosas de Estados Unidos, donde los hoteles de cinco estrellas, el servicio de esquís y la alta gastronomía se unen a la nieve profunda y seca de las Rocosas y el Wasatch.",
       pt: "As montanhas mais glamorosas dos Estados Unidos, onde hotéis de cinco estrelas, serviço de esquis e alta gastronomia se juntam à neve profunda e seca das Montanhas Rochosas e do Wasatch.",
       it: "Le montagne più glamour d'America, dove hotel a cinque stelle, servizio sci e alta cucina incontrano la neve profonda e asciutta delle Montagne Rocciose e del Wasatch.",
+      nl: "Amerika's meest glamoureuze bergen, waar vijfsterrenhotels, ski valets en gastronomie van wereldklasse de diepe, droge sneeuw van de Rockies en de Wasatch ontmoeten.",
     },
     description: {
       en: "This is the top end of American skiing. Aspen and Vail set the tone with designer boutiques, private clubs and slope-side five-star hotels, while Beaver Creek greets you with warm cookies at the base and Deer Valley bans snowboards and caps daily lift tickets to keep the pistes empty and groomed. Add Telluride's box-canyon glamour, Park City's Main Street heritage and the old-money elegance of Sun Valley and Stowe, and you have the resorts where the lift really does start at the door of your suite.",
@@ -256,6 +267,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Es la cúspide del esquí estadounidense. Aspen y Vail marcan el tono con boutiques de diseño, clubes privados y hoteles de cinco estrellas a pie de pista, mientras que Beaver Creek te recibe con galletas calientes en la base y Deer Valley prohíbe el snowboard y limita los forfaits diarios para mantener las pistas vacías y pisadas. Añade el glamour de Telluride al fondo de su cañón, el patrimonio de Main Street en Park City y la elegancia old money de Sun Valley y Stowe, y tienes las estaciones donde el remonte arranca de verdad en la puerta de tu suite.",
       pt: "É o topo do esqui norte-americano. Aspen e Vail dão o tom com boutiques de autor, clubes privados e hotéis de cinco estrelas à beira das pistas, enquanto Beaver Creek o recebe com bolachas quentes na base e Deer Valley proíbe o snowboard e limita os passes diários para manter as pistas vazias e pisadas. Junte o glamour de Telluride no fundo do seu desfiladeiro, o património da Main Street em Park City e a elegância old money de Sun Valley e Stowe, e tem as estâncias onde o teleférico começa mesmo à porta da sua suíte.",
       it: "È il vertice dello sci americano. Aspen e Vail danno il tono con boutique d'autore, club privati e hotel a cinque stelle sulle piste, mentre Beaver Creek ti accoglie con biscotti caldi alla base e Deer Valley vieta lo snowboard e limita gli skipass giornalieri per tenere le piste vuote e battute. Aggiungi il glamour di Telluride in fondo al suo canyon, il patrimonio della Main Street a Park City e l'eleganza old money di Sun Valley e Stowe, e hai le località dove la seggiovia parte davvero dalla porta della tua suite.",
+      nl: "Dit is de top van het Amerikaanse skiën. Aspen en Vail zetten de toon met designerboetieks, privéclubs en vijfsterrenhotels aan de piste, terwijl Beaver Creek je verwelkomt met warme koekjes aan de voet van de berg en Deer Valley snowboards verbiedt en het aantal dagpassen beperkt om de pistes leeg en goed geprepareerd te houden. Voeg daar de canyonglamour van Telluride, het Main Street erfgoed van Park City en de old-money elegantie van Sun Valley en Stowe aan toe, en je hebt de skigebieden waar de lift echt bij de deur van je suite begint.",
     },
     filter: (d) => isUSA(d) && d.vibes.some((v) => LUX_VIBES.has(v)),
     sort: luxScore,
@@ -269,6 +281,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí con glaciar',
       pt: 'Melhores estâncias de esqui com glaciar',
       it: 'Migliori località sciistiche con ghiacciaio',
+      nl: 'Beste skigebieden met een gletsjer',
     },
     intro: {
       en: 'Resorts with year-round or autumn-opening glacier skiing, where the snow keeps coming when the rest of the Alps run out.',
@@ -276,6 +289,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Estaciones con glaciar abierto todo el año o desde el otoño, donde la nieve sigue cuando el resto de los Alpes se queda sin ella.",
       pt: "Estâncias com glaciar aberto todo o ano ou desde o outono, onde a neve continua quando o resto dos Alpes fica sem ela.",
       it: "Località con un ghiacciaio aperto tutto l'anno o già in autunno, dove la neve continua quando il resto delle Alpi resta a secco.",
+      nl: "Skigebieden met gletsjerskiën dat het hele jaar of al in de herfst opengaat, waar de sneeuw blijft komen wanneer de rest van de Alpen zonder komt te zitten.",
     },
     description: {
       en: 'When a glacier is part of the ski area, the season runs longer, the snow is more reliable and you can usually find a few runs whatever the weather. From the famously 365-days-a-year Hintertux to Tignes, Saas-Fee, Les Deux Alpes, Kitzsteinhorn and the Stubai, these are the resorts where high-altitude ice does the heavy lifting.',
@@ -283,6 +297,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Cuando un glaciar forma parte del dominio, la temporada se alarga, la nieve es más fiable y casi siempre se encuentran algunas pistas, haga el tiempo que haga. Del famoso Hintertux abierto los 365 días del año a Tignes, Saas-Fee, Les Deux Alpes, Kitzsteinhorn y el Stubai, son las estaciones donde el hielo de altura hace todo el trabajo.",
       pt: "Quando um glaciar faz parte do domínio, a época alonga-se, a neve é mais fiável e quase sempre se encontram algumas pistas, faça o tempo que fizer. Do famoso Hintertux aberto 365 dias por ano a Tignes, Saas-Fee, Les Deux Alpes, Kitzsteinhorn e ao Stubai, são as estâncias onde o gelo de altitude faz todo o trabalho.",
       it: "Quando un ghiacciaio fa parte del comprensorio, la stagione si allunga, la neve è più affidabile e si trovano quasi sempre alcune piste, qualunque sia il meteo. Dal famoso Hintertux aperto 365 giorni l'anno a Tignes, Saas-Fee, Les Deux Alpes, Kitzsteinhorn e allo Stubai, sono le località dove il ghiaccio d'alta quota fa tutto il lavoro.",
+      nl: "Wanneer een gletsjer deel uitmaakt van het skigebied, duurt het seizoen langer, is de sneeuw betrouwbaarder en vind je meestal wel een paar pistes, wat het weer ook doet. Van het beroemde Hintertux, 365 dagen per jaar open, tot Tignes, Saas-Fee, Les Deux Alpes, Kitzsteinhorn en de Stubai: dit zijn de skigebieden waar ijs op grote hoogte het zware werk doet.",
     },
     filter: (d) => isEurope(d) && d.vibes.includes('glacier'),
     sort: (d) => d.altitudeSummit,
@@ -296,6 +311,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mayores dominios esquiables de Europa',
       pt: 'Maiores domínios esquiáveis da Europa',
       it: "I più grandi comprensori sciistici d'Europa",
+      nl: "Grootste skigebieden van Europa",
     },
     intro: {
       en: 'The biggest connected ski domains in Europe by lift-served piste kilometres, for skiers who want somewhere different every day.',
@@ -303,6 +319,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Los mayores dominios enlazados de Europa por kilómetros de pista, para esquiadores que quieren un sitio distinto cada día.",
       pt: "Os maiores domínios ligados da Europa por quilómetros de pista, para esquiadores que querem um sítio diferente todos os dias.",
       it: "I più grandi comprensori collegati d'Europa per chilometri di piste servite dagli impianti, per chi vuole un posto diverso ogni giorno.",
+      nl: "De grootste aaneengesloten skigebieden van Europa, gemeten in liftgebonden pistekilometers, voor skiërs die elke dag iets anders willen.",
     },
     description: {
       en: 'These resorts are huge: each links into 200 km or more of piste on one lift pass, from the giant Trois Vallées and Paradiski to the cross-border Portes du Soleil and the Italian Dolomiti Superski. A week here barely scratches the surface, and seven days in you can still ski a piste you have not tried yet.',
@@ -310,6 +327,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Estas estaciones son enormes: cada una se conecta con 200 km o más de pistas con un solo forfait, de las Trois Vallées y Paradiski al transfronterizo Portes du Soleil y al Dolomiti Superski italiano. Una semana apenas rasca la superficie, y al séptimo día todavía quedan pistas sin probar.",
       pt: "Estas estâncias são enormes: cada uma liga-se a 200 km ou mais de pistas num só passe, das Trois Vallées e Paradiski ao transfronteiriço Portes du Soleil e ao Dolomiti Superski italiano. Uma semana mal arranha a superfície, e ao sétimo dia ainda há pistas por experimentar.",
       it: "Queste località sono enormi: ognuna si collega a 200 km o più di piste con un solo skipass, dalle gigantesche Trois Vallées e Paradiski al transfrontaliero Portes du Soleil e all'italiano Dolomiti Superski. Una settimana qui basta appena, e al settimo giorno restano ancora piste da provare.",
+      nl: "Deze skigebieden zijn enorm: elk biedt 200 km piste of meer op één liftpas, van de gigantische Trois Vallées en Paradiski tot de grensoverschrijdende Portes du Soleil en het Italiaanse Dolomiti Superski. Een week hier is amper genoeg om kennis te maken, en na zeven dagen kun je nog steeds een piste skiën die je nog niet hebt geprobeerd.",
     },
     filter: (d) => isEurope(d) && d.pistesKm >= 200,
     sort: (d) => d.pistesKm,
@@ -323,6 +341,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estaciones de esquí con mejor relación calidad-precio de Europa',
       pt: 'Estâncias de esqui com melhor relação qualidade-preço da Europa',
       it: "Località sciistiche con il miglior rapporto qualità-prezzo d'Europa",
+      nl: "Skigebieden met de beste prijs-kwaliteitverhouding van Europa",
     },
     intro: {
       en: 'Big mountains, low prices: where lift passes, hotels and lunches all run cheaper than the headline names.',
@@ -330,6 +349,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Grandes montañas, precios bajos: donde forfaits, hoteles y comidas siguen siendo más baratos que en los grandes nombres.",
       pt: "Grandes montanhas, preços baixos: onde passes, hotéis e almoços continuam mais baratos do que nos grandes nomes.",
       it: "Grandi montagne, prezzi piccoli: dove skipass, hotel e pranzi restano più economici dei grandi nomi.",
+      nl: "Grote bergen, lage prijzen: waar liftpassen, hotels en lunches allemaal goedkoper zijn dan bij de bekende grote namen.",
     },
     description: {
       en: 'Skiing in the Alps does not have to mean Courchevel prices. These resorts, from Italy\'s Bormio and Sauze d\'Oulx to the Spanish Pyrenees and the southern French Alps, deliver real mountain skiing at notably gentler prices. Same snow, half the bill.',
@@ -337,6 +357,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Esquiar en los Alpes no es pagar Courchevel. Estas estaciones, de Bormio y Sauze d'Oulx en Italia a los Pirineos españoles y los Alpes del Sur franceses, brindan esquí de montaña de verdad a precios notablemente más suaves. Misma nieve, la mitad de la cuenta.",
       pt: "Esquiar nos Alpes não é pagar Courchevel. Estas estâncias, de Bormio e Sauze d'Oulx em Itália aos Pirenéus espanhóis e aos Alpes do Sul franceses, dão esqui de montanha a sério a preços notavelmente mais suaves. Mesma neve, metade da conta.",
       it: "Sciare sulle Alpi non significa pagare Courchevel. Queste località, da Bormio e Sauze d'Oulx in Italia ai Pirenei spagnoli e alle Alpi del Sud francesi, regalano vero sci di montagna a prezzi nettamente più morbidi. Stessa neve, metà del conto.",
+      nl: "Skiën in de Alpen hoeft niet Courchevel-prijzen te betekenen. Deze skigebieden, van het Italiaanse Bormio en Sauze d'Oulx tot de Spaanse Pyreneeën en de Zuid-Franse Alpen, bieden echt bergskiën tegen merkbaar zachtere prijzen. Dezelfde sneeuw, de helft van de rekening.",
     },
     filter: (d) => isEurope(d) && d.vibes.includes('value'),
     sort: (d) => d.snowScore,
@@ -350,6 +371,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí para freeride',
       pt: 'Melhores estâncias de esqui para freeride',
       it: 'Migliori località sciistiche per il freeride',
+      nl: 'Beste skigebieden voor freeride',
     },
     intro: {
       en: 'Where the off-piste is the point: lift-served descents, big terrain and the snow culture to back it up.',
@@ -357,6 +379,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Donde el fuera de pista es lo que cuenta: bajadas con remontes, gran terreno y cultura de la nieve que lo respalda.",
       pt: "Onde o fora-de-pista é o que conta: descidas com teleféricos, grande terreno e cultura da neve a apoiar.",
       it: "Dove il fuori pista è la sostanza: discese servite da impianti, grandi spazi e la cultura della neve a supporto.",
+      nl: "Waar de off-piste het hele punt is: afdalingen bereikbaar met de lift, uitgestrekt terrein en een sneeuwcultuur die er helemaal bij past.",
     },
     description: {
       en: 'Freeride means leaving the groomed runs behind, and these resorts are built for it: north-facing slopes, long off-piste descents, easy heli access and a serious safety culture. From Engelberg and Alagna in legend to Sainte-Foy, Ordino-Arcalís and Fieberbrunn, this is where powder hounds book their weeks first.',
@@ -364,6 +387,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "El freeride es dejar las pistas pisadas atrás, y estas estaciones están hechas para ello: laderas orientadas al norte, largos descensos fuera de pista, fácil acceso al helicóptero y cultura seria de seguridad. De Engelberg y Alagna, leyendas del género, a Sainte-Foy, Ordino-Arcalís y Fieberbrunn, aquí es donde los cazadores de polvo reservan sus semanas primero.",
       pt: "O freeride é deixar para trás as pistas pisadas, e estas estâncias foram feitas para isso: encostas viradas a norte, longas descidas fora-de-pista, acesso fácil ao helicóptero e cultura séria de segurança. De Engelberg e Alagna, lendas do género, a Sainte-Foy, Ordino-Arcalís e Fieberbrunn, é aqui que os caçadores de neve pó reservam as suas semanas primeiro.",
       it: "Il freeride significa lasciarsi alle spalle le piste battute, e queste località sono fatte apposta: versanti esposti a nord, lunghe discese fuori pista, accesso facile all'eliski e una seria cultura della sicurezza. Da Engelberg e Alagna, leggende del genere, a Sainte-Foy, Ordino-Arcalís e Fieberbrunn, è qui che i cacciatori di neve fresca prenotano per primi le settimane.",
+      nl: "Freeride betekent de geprepareerde pistes achter je laten, en deze skigebieden zijn er speciaal op gebouwd: noordgerichte hellingen, lange off-pisteafdalingen, makkelijke heli-toegang en een serieuze veiligheidscultuur. Van legendes als Engelberg en Alagna tot Sainte-Foy, Ordino-Arcalís en Fieberbrunn: hier boeken poederjagers hun weken het eerst.",
     },
     filter: (d) => isEurope(d) && d.vibes.includes('freeride'),
     sort: (d) => d.snowScore,
@@ -377,6 +401,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí para principiantes',
       pt: 'Melhores estâncias de esqui para principiantes',
       it: 'Migliori località sciistiche per principianti',
+      nl: 'Beste skigebieden voor beginners',
     },
     intro: {
       en: 'Resorts with the biggest beginner areas and the gentlest slopes, so first-time skiers can find their feet without fear.',
@@ -384,6 +409,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Estaciones con las mayores zonas de debutantes y las pendientes más suaves, para aprender a esquiar sin miedo.",
       pt: "Estâncias com as maiores zonas de iniciação e as pendentes mais suaves, para aprender a esquiar sem medo.",
       it: "Località con le più grandi aree per principianti e le pendenze più dolci, per imparare a sciare senza paura.",
+      nl: "Skigebieden met de grootste beginnersgebieden en de zachtste hellingen, zodat wie voor het eerst skiet zonder angst zijn draai kan vinden.",
     },
     description: {
       en: 'Learning to ski is a different sport from cruising blue runs, and the right resort matters: dedicated nursery slopes, magic carpets, a friendly ski school and easy access to long gentle pistes. These resorts have all of that, and our pick favours French, Spanish and Andorran domains where the marked green run system gives beginners safe terrain they can read.',
@@ -391,6 +417,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Aprender a esquiar es otro deporte que bajar azules, y la estación elegida importa: zonas de debutantes dedicadas, alfombras mágicas, una escuela de esquí cercana y acceso fácil a largas pistas suaves. Estas estaciones cumplen todo, y nuestra selección prioriza dominios franceses, españoles y andorranos, donde las verdes balizadas dan a los debutantes un terreno seguro y legible.",
       pt: "Aprender a esquiar é um desporto diferente de descer azuis, e a estância escolhida conta: zonas de iniciação dedicadas, tapetes mágicos, uma escola de esqui acolhedora e acesso fácil a longas pistas suaves. Estas estâncias têm tudo, e a nossa seleção privilegia domínios franceses, espanhóis e andorranos, onde as verdes balizadas dão aos principiantes um terreno seguro e fácil de ler.",
       it: "Imparare a sciare è un altro sport rispetto al filare sulle blu, e la scelta della località conta: campi scuola dedicati, tappeti magici, una scuola sci accogliente e accesso facile a lunghe piste dolci. Queste località fanno tutto, e la nostra selezione privilegia i comprensori francesi, spagnoli e andorrani, dove le piste verdi segnalate offrono ai principianti un terreno sicuro e leggibile.",
+      nl: "Leren skiën is een andere sport dan over blauwe pistes cruisen, en de juiste keuze van skigebied maakt verschil: speciale oefenhellingen, lopende tapijten, een vriendelijke skischool en makkelijke toegang tot lange, zachte pistes. Deze skigebieden hebben dat allemaal, en onze selectie geeft de voorkeur aan Franse, Spaanse en Andorrese domeinen, waar het gemarkeerde systeem van groene pistes beginners veilig en overzichtelijk terrein biedt.",
     },
     filter: (d) => isEurope(d) && d.pisteCounts.green >= 10,
     sort: (d) => d.pisteCounts.green,
@@ -404,6 +431,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estaciones de esquí más altas de Europa',
       pt: 'Estâncias de esqui mais altas da Europa',
       it: "Le località sciistiche più alte d'Europa",
+      nl: "Hoogstgelegen skigebieden van Europa",
     },
     intro: {
       en: 'Where the village itself sits high: the resorts with the loftiest base altitudes in the Alps and Pyrenees.',
@@ -411,6 +439,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Donde el propio pueblo está alto: las estaciones con la mayor altitud de base de los Alpes y los Pirineos.",
       pt: "Onde a própria aldeia está alta: as estâncias com a maior altitude de base dos Alpes e dos Pirenéus.",
       it: "Dove il borgo stesso è in quota: le località con la più alta quota di base delle Alpi e dei Pirenei.",
+      nl: "Waar het dorp zelf al hoog ligt: de skigebieden met de hoogste basishoogte in de Alpen en de Pyreneeën.",
     },
     description: {
       en: 'High village altitude is the simplest snow-insurance you can buy. These are the resorts where the bed is already at 1800 m or above, so the snow on the doorstep almost always works even in lean winters, from Val Thorens at 2300 m to Tignes, Val d\'Isère, Avoriaz and Kühtai.',
@@ -418,6 +447,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Una altitud de pueblo elevada es el seguro de nieve más simple que se puede comprar. Son las estaciones donde la cama ya está a 1800 m o más, así que la nieve a la puerta funciona casi siempre, incluso en inviernos flojos, de Val Thorens a 2300 m a Tignes, Val d'Isère, Avoriaz y Kühtai.",
       pt: "Uma altitude de aldeia elevada é o seguro de neve mais simples que se pode comprar. São as estâncias onde a cama já está a 1800 m ou mais, por isso a neve à porta funciona quase sempre, mesmo em invernos fracos, de Val Thorens a 2300 m a Tignes, Val d'Isère, Avoriaz e Kühtai.",
       it: "Una quota di paese elevata è la più semplice assicurazione neve che si possa comprare. Sono le località dove il letto è già a 1800 m o più, così la neve sulla porta funziona quasi sempre, anche negli inverni magri, da Val Thorens a 2.300 m a Tignes, Val d'Isère, Avoriaz e Kühtai.",
+      nl: "Een hoog gelegen dorp is de eenvoudigste sneeuwverzekering die je kunt kopen. Dit zijn de skigebieden waar je bed al op 1800 m of hoger ligt, zodat de sneeuw voor de deur bijna altijd goed zit, zelfs in magere winters, van Val Thorens op 2300 m tot Tignes, Val d'Isère, Avoriaz en Kühtai.",
     },
     filter: (d) => isEurope(d) && d.altitudeBase >= 1800,
     sort: (d) => d.altitudeBase,
@@ -431,6 +461,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estaciones de esquí sin coches en Europa',
       pt: 'Estâncias de esqui sem carros na Europa',
       it: 'Località sciistiche senza auto in Europa',
+      nl: 'Autovrije skigebieden in Europa',
     },
     intro: {
       en: 'Resorts where the village itself bans cars, with horse-drawn sleighs and electric taxis instead.',
@@ -438,6 +469,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Estaciones donde el propio pueblo prohíbe los coches, con trineos tirados por caballos y taxis eléctricos en su lugar.",
       pt: "Estâncias onde a própria aldeia proíbe carros, com trenós puxados por cavalos e táxis elétricos no seu lugar.",
       it: "Località dove il borgo stesso vieta le auto, con slitte a cavalli e taxi elettrici al loro posto.",
+      nl: "Skigebieden waar het dorp zelf auto's verbiedt, met paardensleeën en elektrische taxi's in de plaats.",
     },
     description: {
       en: 'A car-free village is one of the great quiet luxuries of skiing, with the only sounds the clip-clop of horses and skis on the snow. From Zermatt, Wengen and Mürren in Switzerland to Avoriaz and Vaujany in France, these are the resorts where you leave the car at the valley and let the railway, gondola or sleigh take you up.',
@@ -445,6 +477,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Un pueblo sin coches es uno de los grandes lujos tranquilos del esquí: solo suenan los cascos de los caballos y los esquís sobre la nieve. De Zermatt, Wengen y Mürren en Suiza a Avoriaz y Vaujany en Francia, son las estaciones donde dejas el coche en el valle y el tren, la telecabina o el trineo se encargan del resto.",
       pt: "Uma aldeia sem carros é um dos grandes luxos tranquilos do esqui: só se ouvem os cascos dos cavalos e os esquis sobre a neve. De Zermatt, Wengen e Mürren na Suíça a Avoriaz e Vaujany em França, são as estâncias onde se deixa o carro no vale e o comboio, o telecabine ou o trenó se encarregam do resto.",
       it: "Un borgo senza auto è uno dei grandi lussi silenziosi dello sci: si sentono solo gli zoccoli dei cavalli e gli sci sulla neve. Da Zermatt, Wengen e Mürren in Svizzera ad Avoriaz e Vaujany in Francia, sono le località dove si lascia l'auto a valle e il treno, la cabinovia o la slitta si occupano del resto.",
+      nl: "Een autovrij dorp is een van de grote, stille luxes van het skiën, waar je alleen het geklepper van paardenhoeven en ski's op de sneeuw hoort. Van Zermatt, Wengen en Mürren in Zwitserland tot Avoriaz en Vaujany in Frankrijk: dit zijn de skigebieden waar je de auto in het dal laat staan en de trein, de gondel of de slee je naar boven laat brengen.",
     },
     filter: (d) => isEurope(d) && d.vibes.includes('car-free'),
     sort: (d) => d.snowScore,
@@ -458,6 +491,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí para freestyle y snowparks',
       pt: 'Melhores estâncias de esqui para freestyle e snowparks',
       it: 'Migliori località sciistiche per freestyle e snowpark',
+      nl: 'Beste skigebieden voor freestyle en snowparks',
     },
     intro: {
       en: 'Resorts with the biggest, best-shaped snowparks in Europe, for skiers and snowboarders who came for the kickers.',
@@ -465,6 +499,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Las estaciones con los snowparks más grandes y mejor moldeados de Europa, para esquiadores y snowboarders que vienen por los saltos.',
       pt: 'As estâncias com os snowparks maiores e mais bem moldados da Europa, para esquiadores e snowboarders que vêm pelos saltos.',
       it: "Le località con i snowpark più grandi e meglio modellati d'Europa, per chi scia e fa snowboard ed è venuto per i salti.",
+      nl: "Skigebieden met de grootste en best geshapete snowparks van Europa, voor skiërs en snowboarders die voor de kickers komen.",
     },
     description: {
       en: 'These resorts treat the snowpark as the main attraction, not an afterthought. Laax in Switzerland sets the bar for park shaping; Mayrhofen, Saalbach, Livigno, Madonna di Campiglio, Avoriaz and Grandvalira keep it high. Expect multiple park lines, regular contests, dedicated terrain crews and an after-park culture to match.',
@@ -472,6 +507,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estas estaciones tratan el snowpark como atracción principal, no como complemento. Laax en Suiza marca el listón del shaping; Mayrhofen, Saalbach, Livigno, Madonna di Campiglio, Avoriaz y Grandvalira lo mantienen alto. Varias líneas de park, contests regulares, equipos de shape dedicados y una cultura after-park acorde.',
       pt: 'Estas estâncias tratam o snowpark como atração principal, não como acessório. Laax na Suíça põe a fasquia do shaping; Mayrhofen, Saalbach, Livigno, Madonna di Campiglio, Avoriaz e Grandvalira mantêm-na alta. Várias linhas de park, contests regulares, equipas de shape dedicadas e uma cultura after-park à altura.',
       it: "Queste località trattano lo snowpark come l'attrazione principale, non come un accessorio. Laax in Svizzera fissa l'asticella dello shaping; Mayrhofen, Saalbach, Livigno, Madonna di Campiglio, Avoriaz e Grandvalira la tengono alta. Più linee di park, contest regolari, squadre shape dedicate e una cultura after-park all'altezza.",
+      nl: "Deze skigebieden behandelen het snowpark als hoofdattractie, niet als bijzaak. Laax in Zwitserland legt de lat voor park shaping; Mayrhofen, Saalbach, Livigno, Madonna di Campiglio, Avoriaz en Grandvalira houden hem hoog. Verwacht meerdere parklijnen, regelmatige wedstrijden, vaste terreinploegen en een bijpassende after-parkcultuur.",
     },
     filter: (d) => isEurope(d) && FREESTYLE_RESORTS.has(d.slug),
     sort: (d) => d.snowScore,
@@ -485,6 +521,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí cerca de Ginebra',
       pt: 'Melhores estâncias de esqui perto de Genebra',
       it: 'Migliori località sciistiche vicino a Ginevra',
+      nl: 'Beste skigebieden bij Genève',
     },
     intro: {
       en: 'Resorts within ~2 hours of Geneva airport, perfect for a long weekend or a one-flight ski week.',
@@ -492,6 +529,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estaciones a unas 2 horas del aeropuerto de Ginebra, perfectas para un fin de semana largo o una semana de esquí con un solo vuelo.',
       pt: "Estâncias a cerca de 2 horas do aeroporto de Genebra, perfeitas para um fim de semana prolongado ou uma semana de esqui num só voo.",
       it: "Località a circa 2 ore dall'aeroporto di Ginevra, perfette per un weekend lungo o una settimana sulla neve con un solo volo.",
+      nl: "Skigebieden binnen ongeveer 2 uur van de luchthaven van Genève, perfect voor een lang weekend of een skiweek met één vlucht.",
     },
     description: {
       en: 'Geneva sits in the middle of the most concentrated ski region in Europe, with the French Northern Alps to the east, Portes du Soleil to the south, and the Swiss Vaud and Valais resorts north and east. From Megève and Chamonix to Avoriaz, Verbier and Crans-Montana, this is the shortlist of resorts you can reach within roughly 200 km of the city, sorted by snow reliability.',
@@ -499,6 +537,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Ginebra está en el centro de la región de esquí más densa de Europa: Alpes del Norte al este, Portes du Soleil al sur, estaciones del Vaud y Valais al norte y al este. De Megève y Chamonix a Avoriaz, Verbier y Crans-Montana, esta es la lista de estaciones a unos 200 km de la ciudad, ordenadas por fiabilidad de la nieve.',
       pt: 'Genebra fica no centro da região de esqui mais densa da Europa: Alpes do Norte a leste, Portes du Soleil a sul, estâncias do Vaud e Valais a norte e a leste. De Megève e Chamonix a Avoriaz, Verbier e Crans-Montana, esta é a lista de estâncias a cerca de 200 km da cidade, ordenadas pela fiabilidade da neve.',
       it: "Ginevra è al centro della regione sciistica più densa d'Europa: Alpi del Nord a est, Portes du Soleil a sud, località del Vaud e del Vallese a nord ed est. Da Megève e Chamonix ad Avoriaz, Verbier e Crans-Montana, ecco la lista delle località raggiungibili entro 200 km dalla città, ordinate per affidabilità della neve.",
+      nl: "Genève ligt midden in de meest geconcentreerde skiregio van Europa, met de Franse Noordelijke Alpen in het oosten, de Portes du Soleil in het zuiden, en de Zwitserse skigebieden van Vaud en Wallis in het noorden en oosten. Van Megève en Chamonix tot Avoriaz, Verbier en Crans-Montana: dit is de shortlist van skigebieden die je binnen ongeveer 200 km van de stad kunt bereiken, gesorteerd op sneeuwzekerheid.",
     },
     filter: (d) => distanceKm(CITIES.geneva.lat, CITIES.geneva.lng, d.lat, d.lng) <= CITIES.geneva.radiusKm,
     sort: (d) => d.snowScore,
@@ -513,6 +552,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí cerca de Lyon',
       pt: 'Melhores estâncias de esqui perto de Lyon',
       it: 'Migliori località sciistiche vicino a Lione',
+      nl: 'Beste skigebieden bij Lyon',
     },
     intro: {
       en: 'The French Alps from Lyon: resorts within driving range for a long weekend, picked by snow reliability and lift size.',
@@ -520,6 +560,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Los Alpes franceses desde Lyon: estaciones accesibles en coche para un fin de semana largo, ordenadas por fiabilidad de la nieve y tamaño del dominio.',
       pt: 'Os Alpes franceses a partir de Lyon: estâncias acessíveis de carro para um fim de semana prolongado, ordenadas pela fiabilidade da neve e tamanho do domínio.',
       it: 'Le Alpi francesi da Lione: località raggiungibili in auto per un weekend lungo, ordinate per affidabilità della neve e dimensione del comprensorio.',
+      nl: 'De Franse Alpen vanuit Lyon: skigebieden binnen rijafstand voor een lang weekend, geselecteerd op sneeuwzekerheid en omvang van het liftnetwerk.',
     },
     description: {
       en: 'Lyon is the natural gateway to the Tarentaise and Maurienne giants, and the southern French Alps come into easy reach too. From Alpe d\'Huez and Les Deux Alpes in the Isère to Val Thorens, Tignes and Les Arcs further east, these are the resorts within roughly 250 km of the city, ranked by snow score.',
@@ -527,6 +568,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Lyon es la puerta natural a los gigantes de la Tarentaise y la Maurienne, y los Alpes del Sur también quedan cerca. De Alpe d'Huez y Les 2 Alpes en Isère a Val Thorens, Tignes y Les Arcs más al este, son las estaciones a unos 250 km de la ciudad, ordenadas por puntuación de nieve.",
       pt: "Lyon é a porta natural para os gigantes da Tarentaise e da Maurienne, e os Alpes do Sul também ficam ao alcance. De Alpe d'Huez e Les 2 Alpes em Isère a Val Thorens, Tignes e Les Arcs mais a leste, são as estâncias a cerca de 250 km da cidade, ordenadas pela pontuação de neve.",
       it: "Lione è la porta naturale verso i giganti della Tarentaise e della Maurienne, e anche le Alpi del Sud sono a portata. Da Alpe d'Huez e Les 2 Alpes in Isère a Val Thorens, Tignes e Les Arcs più a est, ecco le località entro circa 250 km dalla città, ordinate per punteggio neve.",
+      nl: "Lyon is de natuurlijke toegangspoort tot de reuzen van de Tarentaise en de Maurienne, en ook de Zuid-Franse Alpen liggen binnen makkelijk bereik. Van Alpe d'Huez en Les Deux Alpes in de Isère tot Val Thorens, Tignes en Les Arcs verder naar het oosten: dit zijn de skigebieden binnen ongeveer 250 km van de stad, gerangschikt op sneeuwscore.",
     },
     filter: (d) => distanceKm(CITIES.lyon.lat, CITIES.lyon.lng, d.lat, d.lng) <= CITIES.lyon.radiusKm,
     sort: (d) => d.snowScore,
@@ -541,6 +583,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí cerca de Múnich',
       pt: 'Melhores estâncias de esqui perto de Munique',
       it: 'Migliori località sciistiche vicino a Monaco di Baviera',
+      nl: 'Beste skigebieden bij München',
     },
     intro: {
       en: 'The Austrian Alps from Munich: easy weekend resorts for park, party and Tirolean cruising, with snow you can count on.',
@@ -548,6 +591,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Los Alpes austriacos desde Múnich: estaciones perfectas para un fin de semana de park, fiesta y cruising tirolés, con nieve fiable.',
       pt: 'Os Alpes austríacos a partir de Munique: estâncias perfeitas para um fim de semana de park, festa e cruising tirolês, com neve fiável.',
       it: 'Le Alpi austriache da Monaco: località perfette per un weekend di park, festa e cruising tirolese, con neve su cui contare.',
+      nl: 'De Oostenrijkse Alpen vanuit München: makkelijk bereikbare weekendbestemmingen voor park, feest en Tiroolse cruising, met sneeuw waar je op kunt rekenen.',
     },
     description: {
       en: 'Munich is just a couple of hours from the heart of the Tirol and a short drive from Salzburg and the Salzburger Land. Kitzbühel, Sölden, Ischgl, the Zillertal hubs of Mayrhofen, Hintertux and Gerlos, plus the Stubai glacier and the Kühtai, all line up within 300 km of the city. Snow-sure, après-loud and famously efficient.',
@@ -555,6 +599,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Múnich está a solo un par de horas del corazón del Tirol y muy cerca de Salzburgo y el Salzburger Land. Kitzbühel, Sölden, Ischgl, los polos del Zillertal (Mayrhofen, Hintertux, Gerlos), más el glaciar del Stubai y el Kühtai, se alinean en un radio de 300 km de la ciudad. Nieve garantizada, après ruidoso y eficiencia legendaria.',
       pt: 'Munique está a apenas algumas horas do coração do Tirol e bem perto de Salzburgo e do Salzburger Land. Kitzbühel, Sölden, Ischgl, os polos do Zillertal (Mayrhofen, Hintertux, Gerlos), mais o glaciar do Stubai e o Kühtai, alinham-se num raio de 300 km da cidade. Neve garantida, après barulhento e eficiência lendária.',
       it: "Monaco è a poche ore dal cuore del Tirolo e a un soffio da Salisburgo e dal Salzburger Land. Kitzbühel, Sölden, Ischgl, i poli dello Zillertal (Mayrhofen, Hintertux, Gerlos), più il ghiacciaio dello Stubai e il Kühtai, si allineano entro 300 km dalla città. Neve sicura, après chiassoso, efficienza leggendaria.",
+      nl: "München ligt maar een paar uur van het hart van Tirol en op korte afstand van Salzburg en het Salzburger Land. Kitzbühel, Sölden, Ischgl, de Zillertal-kernen Mayrhofen, Hintertux en Gerlos, plus de Stubai-gletsjer en de Kühtai, liggen allemaal binnen 300 km van de stad. Sneeuwzeker, luidruchtig na de piste en beroemd efficiënt.",
     },
     filter: (d) => distanceKm(CITIES.munich.lat, CITIES.munich.lng, d.lat, d.lng) <= CITIES.munich.radiusKm,
     sort: (d) => d.snowScore,
@@ -569,6 +614,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí cerca de Barcelona',
       pt: 'Melhores estâncias de esqui perto de Barcelona',
       it: 'Migliori località sciistiche vicino a Barcellona',
+      nl: 'Beste skigebieden bij Barcelona',
     },
     intro: {
       en: 'The Spanish, Andorran and Catalan Pyrenees on a short drive from Barcelona, all on the same side of the mountain as the sun.',
@@ -576,6 +622,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Los Pirineos españoles, andorranos y catalanes a poca distancia en coche de Barcelona, todos en la cara soleada de la montaña.',
       pt: 'Os Pirenéus espanhóis, andorranos e catalães a pouca distância de carro de Barcelona, todos no lado soalheiro da montanha.',
       it: 'I Pirenei spagnoli, andorrani e catalani a breve distanza in auto da Barcellona, tutti sul versante soleggiato della montagna.',
+      nl: 'De Spaanse, Andorrese en Catalaanse Pyreneeën op korte afstand van Barcelona, allemaal aan de zonnige kant van de berg.',
     },
     description: {
       en: 'Barcelona is the easiest big-city base for the southern Pyrenees: Baqueira-Beret, Grandvalira and Vallnord in Andorra, La Molina and Masella on the Catalan side, plus the smaller Aragonese resorts further west. Within 300 km of the city you can chase late sun on Spanish piste or cross into Andorra for duty-free beers, all on one weekend.',
@@ -583,6 +630,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Barcelona es la base de gran ciudad más fácil para el Pirineo sur: Baqueira-Beret, Grandvalira y Vallnord en Andorra, La Molina y Masella del lado catalán, más las estaciones aragonesas más al oeste. En un radio de 300 km de la ciudad puedes perseguir el sol tardío en pistas españolas o cruzar a Andorra para cervezas libres de impuestos, todo en un fin de semana.',
       pt: "Barcelona é a base de cidade grande mais fácil para os Pirenéus do Sul: Baqueira-Beret, Grandvalira e Vallnord em Andorra, La Molina e Masella do lado catalão, mais as estâncias aragonesas mais a oeste. Num raio de 300 km da cidade pode-se perseguir o sol tardio em pistas espanholas ou atravessar para Andorra por cervejas duty-free, tudo num fim de semana.",
       it: "Barcellona è la base di grande città più semplice per i Pirenei del Sud: Baqueira-Beret, Grandvalira e Vallnord in Andorra, La Molina e Masella sul versante catalano, più le piccole località aragonesi più a ovest. Entro 300 km dalla città si insegue il sole tardo sulle piste spagnole o si passa in Andorra per birre duty-free, il tutto in un weekend.",
+      nl: "Barcelona is de handigste uitvalsbasis in een grote stad voor de zuidelijke Pyreneeën: Baqueira-Beret, Grandvalira en Vallnord in Andorra, La Molina en Masella aan Catalaanse zijde, plus de kleinere Aragonese skigebieden verder naar het westen. Binnen 300 km van de stad jaag je op laat zonlicht op Spaanse piste of steek je de grens over naar Andorra voor taxvrij bier, allemaal in één weekend.",
     },
     filter: (d) => distanceKm(CITIES.barcelona.lat, CITIES.barcelona.lng, d.lat, d.lng) <= CITIES.barcelona.radiusKm,
     sort: (d) => d.snowScore,
@@ -597,6 +645,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Japón',
       pt: 'Melhores estâncias de esqui do Japão',
       it: "Migliori località sciistiche in Giappone",
+      nl: "Beste skigebieden in Japan",
     },
     intro: {
       en: 'Japow on tap: the Hokkaido + Honshu resorts that earn Japan its powder-skiing reputation, ranked by snow score.',
@@ -604,6 +653,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Japow a discreción: las estaciones de Hokkaido y Honshu que han hecho la fama de Japón en nieve polvo, ordenadas por puntuación de nieve.',
       pt: 'Japow sem limites: as estâncias de Hokkaido e Honshu que fizeram a fama do Japão em neve fresca, ordenadas pela pontuação de neve.',
       it: "Japow a fiumi: le località di Hokkaido e Honshu che hanno fatto la fama del Giappone in polvere, ordinate per punteggio neve.",
+      nl: "Japow uit de kraan: de skigebieden op Hokkaido en Honshu die Japan zijn reputatie op het gebied van poedersneeuw bezorgen, gerangschikt op sneeuwscore.",
     },
     description: {
       en: 'A Siberian airmass crossing the Sea of Japan dumps the world\'s driest, deepest snow on Hokkaido and the Japanese Alps from December into March. These twelve resorts span the powder bowls of Niseko and Kiroro, the tree-skiing of Rusutsu and Furano, the historic onsen ski-towns of Nozawa, Myoko and Zao, and the Olympic terrain of Hakuba. Add ryokan stays, hot-spring soaks at the end of every day, and a service standard the Alps cannot match.',
@@ -611,6 +661,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Una masa de aire siberiano cruza el Mar de Japón y deja la nieve más seca y profunda del planeta sobre Hokkaido y los Alpes japoneses, de diciembre a marzo. Estas doce estaciones abarcan los cuencos de polvo de Niseko y Kiroro, el esquí en bosque de Rusutsu y Furano, los pueblos onsen históricos de Nozawa, Myoko y Zao, y el terreno olímpico de Hakuba. Suma los ryokan, los baños termales al final del día y un nivel de servicio que los Alpes no alcanzan.",
       pt: "Uma massa de ar siberiana atravessa o Mar do Japão e deixa a neve mais seca e profunda do planeta sobre Hokkaido e os Alpes japoneses, de dezembro a março. Estas doze estâncias cobrem os bowls de Niseko e Kiroro, o esqui em floresta de Rusutsu e Furano, as aldeias onsen históricas de Nozawa, Myoko e Zao, e o terreno olímpico de Hakuba. Junte os ryokan, os banhos termais ao fim do dia e um nível de serviço que os Alpes não conseguem igualar.",
       it: "Una massa d'aria siberiana attraversa il Mar del Giappone e scarica la neve più asciutta e profonda del pianeta su Hokkaido e sulle Alpi giapponesi, da dicembre a marzo. Queste dodici località coprono le conche di Niseko e Kiroro, lo sci tra i boschi di Rusutsu e Furano, i borghi onsen storici di Nozawa, Myoko e Zao, e il terreno olimpico di Hakuba. Aggiungi i ryokan, i bagni termali a fine giornata e uno standard di servizio che le Alpi non sanno eguagliare.",
+      nl: "Een Siberische luchtmassa die de Japanse Zee oversteekt, dumpt van december tot maart 's werelds droogste en diepste sneeuw op Hokkaido en de Japanse Alpen. Deze twaalf skigebieden omvatten de poederkommen van Niseko en Kiroro, het skiën tussen de bomen van Rusutsu en Furano, de historische onsen-skidorpen Nozawa, Myoko en Zao, en het olympische terrein van Hakuba. Voeg daar verblijven in een ryokan, warmwaterbronnen aan het eind van elke dag en een serviceniveau aan toe dat de Alpen niet kunnen evenaren.",
     },
     filter: (d) => isJapan(d),
     sort: (d) => d.snowScore,
@@ -625,6 +676,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de nieve polvo de Japón',
       pt: 'Melhores estâncias de neve fresca do Japão',
       it: 'Migliori località per la polvere in Giappone',
+      nl: 'Beste poederskigebieden van Japan',
     },
     intro: {
       en: 'The Japanese resorts that earn the japow nickname every winter: ridiculous snowfall, light dry flakes, and trees made for it.',
@@ -632,6 +684,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Las estaciones japonesas que ganan su apodo de japow cada invierno: nieve delirante, copos ligeros y secos, y bosques hechos para ello.',
       pt: 'As estâncias japonesas que merecem a alcunha de japow todos os invernos: nevadas delirantes, flocos leves e secos, e florestas feitas para isso.',
       it: 'Le località giapponesi che si guadagnano il soprannome japow ogni inverno: nevicate folli, fiocchi leggeri e asciutti, e foreschi fatti apposta.',
+      nl: 'De Japanse skigebieden die elke winter de bijnaam japow verdienen: absurde sneeuwval, lichte droge vlokken en bossen die er speciaal voor gemaakt lijken.',
     },
     description: {
       en: 'Niseko, Rusutsu, Kiroro and Furano on Hokkaido catch the heaviest deliveries, with 14 to 21 m of annual snowfall on a base that rarely freezes. Honshu adds Myoko Akakura, where 13 m a year falls on traditional onsen-town terrain. We pick by snow score, japow vibe and tree-skiing tradition: powder-day breakfasts before sunrise, then chairlifts through birch glades until the lifts close.',
@@ -639,6 +692,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Niseko, Rusutsu, Kiroro y Furano en Hokkaido reciben las descargas más generosas, con 14 a 21 m de nieve al año sobre una base que casi nunca se congela. Honshu suma Myoko Akakura, donde caen 13 m anuales sobre terreno tradicional de onsen. Selección por puntuación de nieve, vibe japow y tradición del esquí en bosque: desayunos de día de polvo antes del amanecer, luego telesillas entre abedules hasta el cierre.",
       pt: "Niseko, Rusutsu, Kiroro e Furano em Hokkaido recebem as cargas mais generosas, com 14 a 21 m de neve por ano sobre uma base que quase nunca congela. Honshu acrescenta Myoko Akakura, onde caem 13 m anuais sobre terreno tradicional de onsen. Seleção pela pontuação de neve, vibe japow e tradição de esqui em floresta: pequenos-almoços antes do nascer do sol nos dias de pó, depois teleféricos entre bétulas até ao fecho.",
       it: "Niseko, Rusutsu, Kiroro e Furano in Hokkaido prendono le consegne più generose, con 14, 21 m di neve all'anno su un manto che quasi non gela mai. Honshu aggiunge Myoko Akakura, dove cadono 13 m all'anno su terreno tradizionale di onsen. Selezione per punteggio neve, vibe japow e tradizione dello sci tra i boschi: colazioni prima dell'alba nei powder day, poi seggiovie tra le betulle fino alla chiusura.",
+      nl: "Niseko, Rusutsu, Kiroro en Furano op Hokkaido krijgen de zwaarste ladingen, met 14 tot 21 m sneeuw per jaar op een basis die zelden bevriest. Honshu voegt daar Myoko Akakura aan toe, waar 13 m per jaar valt op traditioneel onsen-dorpsterrein. We selecteren op sneeuwscore, japow-sfeer en traditie van skiën tussen de bomen: ontbijt vóór zonsopgang op poederdagen, gevolgd door stoeltjesliften door berkenbossen tot de liften sluiten.",
     },
     filter: (d) => isJapan(d) && (d.vibes.includes('japow') || d.vibes.includes('powder')),
     sort: (d) => d.snowScore,
@@ -653,6 +707,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Estados Unidos',
       pt: 'Melhores estâncias de esqui dos Estados Unidos',
       it: 'Migliori località sciistiche degli Stati Uniti',
+      nl: 'Beste skigebieden in de Verenigde Staten',
     },
     intro: {
       en: 'The crown jewels of US skiing across the Rockies, the Wasatch, the Sierra Nevada, the Tetons and the East Coast: twenty resorts ranked by snow and terrain.',
@@ -660,6 +715,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Las joyas del esquí estadounidense en las Rocosas, el Wasatch, la Sierra Nevada, los Tetons y la costa Este: veinte estaciones ordenadas por nieve y terreno.',
       pt: 'As joias do esqui americano nas Rochosas, no Wasatch, na Serra Nevada, nos Tetons e na costa Leste: vinte estâncias ordenadas pela neve e pelo terreno.',
       it: "I gioielli dello sci americano sulle Rocciose, sul Wasatch, sulla Sierra Nevada, sui Teton e sulla costa orientale: venti località ordinate per neve e terreno.",
+      nl: "De kroonjuwelen van het Amerikaanse skiën, verspreid over de Rockies, de Wasatch, de Sierra Nevada, de Tetons en de oostkust: twintig skigebieden gerangschikt op sneeuw en terrein.",
     },
     description: {
       en: 'America runs the world\'s biggest ski market and the variety is the point: Colorado\'s high-altitude Rockies (Vail, Aspen, Breckenridge, Telluride, Steamboat), Utah\'s powder-hammered Wasatch (Snowbird, Alta, Park City), California\'s Sierra Nevada (Mammoth, Palisades Tahoe, Heavenly), the wild expert terrain of Jackson Hole and Big Sky, and the rugged charm of Stowe and Killington back East. Sun Valley vintage, Taos\' desert powder and Whitefish value round out the season.',
@@ -667,6 +723,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Estados Unidos lidera el mayor mercado de esquí del mundo, y la variedad es el punto: las Rocosas de altura del Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), el Wasatch de Utah martilleado por la nieve polvo (Snowbird, Alta, Park City), la Sierra Nevada de California (Mammoth, Palisades Tahoe, Heavenly), el terreno salvaje y experto de Jackson Hole y Big Sky, y el encanto rudo de Stowe y Killington en el Este. Sun Valley vintage, Taos con su nieve de desierto y Whitefish como buen plan completan la temporada.",
       pt: "Os Estados Unidos lideram o maior mercado de esqui do mundo, e a variedade é o ponto: as Rochosas de altitude do Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), o Wasatch do Utah martelado pela neve em pó (Snowbird, Alta, Park City), a Serra Nevada californiana (Mammoth, Palisades Tahoe, Heavenly), o terreno selvagem de Jackson Hole e Big Sky, e o charme rude de Stowe e Killington a Leste. Sun Valley vintage, Taos com a sua neve de deserto e Whitefish como bom preço fecham a época.",
       it: "Gli Stati Uniti guidano il più grande mercato sciistico al mondo, e la varietà è il punto: le Rocciose d'alta quota del Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), il Wasatch dello Utah martellato dalla polvere (Snowbird, Alta, Park City), la Sierra Nevada californiana (Mammoth, Palisades Tahoe, Heavenly), il terreno selvaggio di Jackson Hole e Big Sky, e il fascino ruvido di Stowe e Killington sulla costa orientale. Sun Valley vintage, Taos con la sua polvere del deserto e Whitefish dal buon prezzo chiudono la stagione.",
+      nl: "Amerika heeft de grootste skimarkt ter wereld, en variatie is precies het punt: de hooggelegen Rockies van Colorado (Vail, Aspen, Breckenridge, Telluride, Steamboat), de door poedersneeuw geteisterde Wasatch van Utah (Snowbird, Alta, Park City), de Sierra Nevada van Californië (Mammoth, Palisades Tahoe, Heavenly), het wilde expertterrein van Jackson Hole en Big Sky, en de ruige charme van Stowe en Killington aan de oostkust. Het vintage Sun Valley, de woestijnpoeder van Taos en de scherpe prijzen van Whitefish maken het seizoen compleet.",
     },
     filter: (d) => isUSA(d),
     sort: (d) => d.snowScore,
@@ -681,6 +738,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de nieve polvo de Estados Unidos',
       pt: 'Melhores estâncias de neve em pó dos Estados Unidos',
       it: 'Migliori località per la polvere degli Stati Uniti',
+      nl: 'Beste poederskigebieden van de Verenigde Staten',
     },
     intro: {
       en: 'Where North American skiers chase the goods: the resorts with the highest snowfall and the steepest in-bounds terrain in the Lower 48.',
@@ -688,6 +746,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Donde los esquiadores norteamericanos persiguen la nieve: las estaciones con más nevadas y terreno más empinado de los Estados Unidos continentales.',
       pt: 'Onde os esquiadores norte-americanos perseguem a neve: as estâncias com mais nevadas e terreno mais íngreme dos Estados Unidos continentais.',
       it: "Dove gli sciatori nordamericani cercano la roba buona: le località con più neve e il terreno più ripido degli Stati Uniti continentali.",
+      nl: "Waar Noord-Amerikaanse skiërs de beste sneeuw najagen: de skigebieden met de meeste sneeuwval en het steilste terrein binnen de pistegrenzen van de Lower 48.",
     },
     description: {
       en: 'Utah\'s Little Cottonwood Canyon delivers 14 m+ of snow a year onto Snowbird and Alta, two of the snowiest mountains in the Lower 48. Jackson Hole turns the same air into expert lines. Steamboat\'s Champagne Powder, Big Sky\'s Lone Peak, Whitefish\'s Big Mountain, Mammoth\'s Eastern Sierra storms and Taos\' high-desert deliveries round out the list. These are the resorts to plan a powder trip around, not just visit.',
@@ -695,6 +754,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "El Little Cottonwood Canyon de Utah deposita más de 14 m de nieve al año en Snowbird y Alta, dos de las montañas más nevadas de los Estados Unidos continentales. Jackson Hole convierte ese mismo aire en líneas expertas. El Champagne Powder de Steamboat, el Lone Peak de Big Sky, la Big Mountain de Whitefish, las tormentas de Mammoth en la Sierra y la nieve de altura de Taos completan la lista. Estaciones para planificar un viaje de polvo, no solo para visitar.",
       pt: "O Little Cottonwood Canyon do Utah deposita mais de 14 m de neve por ano em Snowbird e Alta, duas das montanhas mais nevadas dos Estados Unidos continentais. Jackson Hole transforma esse ar em linhas para experts. O Champagne Powder de Steamboat, o Lone Peak de Big Sky, a Big Mountain de Whitefish, as tempestades de Mammoth na Serra e a neve de altitude de Taos fecham a lista. Estâncias para planear uma viagem de pó, não apenas para visitar.",
       it: "Il Little Cottonwood Canyon dello Utah deposita oltre 14 m di neve all'anno su Snowbird e Alta, due delle montagne più innevate degli Stati Uniti continentali. Jackson Hole trasforma quell'aria in linee da esperti. La Champagne Powder di Steamboat, il Lone Peak di Big Sky, la Big Mountain di Whitefish, le tempeste del Mammoth sulla Sierra e la polvere d'alta quota di Taos chiudono la lista. Località su cui pianificare un viaggio di polvere, non solo da visitare.",
+      nl: "Little Cottonwood Canyon in Utah levert meer dan 14 m sneeuw per jaar op Snowbird en Alta, twee van de sneeuwrijkste bergen van de Lower 48. Jackson Hole zet diezelfde lucht om in terrein voor experts. De Champagne Powder van Steamboat, de Lone Peak van Big Sky, de Big Mountain van Whitefish, de stormen uit de Eastern Sierra bij Mammoth en de sneeuw uit de hoogwoestijn van Taos maken de lijst compleet. Dit zijn skigebieden om een poederreis omheen te plannen, niet zomaar te bezoeken.",
     },
     filter: (d) => isUSA(d) && USA_POWDER_RESORTS.has(d.slug),
     sort: (d) => d.snowScore,
@@ -709,6 +769,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de las Rocosas de Colorado',
       pt: 'Melhores estâncias de esqui das Rochosas do Colorado',
       it: 'Migliori località sciistiche delle Montagne Rocciose del Colorado',
+      nl: 'Beste skigebieden in de Colorado Rockies',
     },
     intro: {
       en: 'The Colorado classics: high-altitude Rockies skiing from Vail and Aspen to Telluride, Breckenridge and Steamboat, all reachable from Denver or Eagle.',
@@ -716,6 +777,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Los clásicos de Colorado: esquí de altura en las Rocosas, de Vail y Aspen a Telluride, Breckenridge y Steamboat, accesibles desde Denver o Eagle.',
       pt: 'Os clássicos do Colorado: esqui de altitude nas Rochosas, de Vail e Aspen a Telluride, Breckenridge e Steamboat, acessíveis a partir de Denver ou Eagle.',
       it: "I classici del Colorado: sci d'alta quota sulle Rocciose, da Vail e Aspen a Telluride, Breckenridge e Steamboat, raggiungibili da Denver o Eagle.",
+      nl: "De klassiekers van Colorado: hooggelegen skiën in de Rockies, van Vail en Aspen tot Telluride, Breckenridge en Steamboat, allemaal bereikbaar vanuit Denver of Eagle.",
     },
     description: {
       en: 'Colorado holds the highest concentration of marquee American ski resorts in one state, all above 2 100 m of base altitude. Vail leads with its 7 Back Bowls and Bavarian-style mid-mountain village; Aspen Snowmass spreads four mountains and an old-money town around its base; Breckenridge tops out at the highest in-bounds lift in the US; Telluride hides in the most dramatic box canyon setting in the country; Beaver Creek polishes its luxury; Steamboat brings the ranching town and the Champagne Powder.',
@@ -723,6 +785,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Colorado concentra la mayor densidad de estaciones americanas de renombre en un solo estado, todas con base por encima de 2 100 m. Vail lidera con sus 7 Back Bowls y su pueblo bávaro a media montaña; Aspen Snowmass extiende cuatro montañas y un pueblo de old money en su base; Breckenridge culmina en el telesilla más alto de Estados Unidos; Telluride se esconde en el cañón más espectacular del país; Beaver Creek pule su lujo; Steamboat aporta el pueblo ranchero y la Champagne Powder.",
       pt: "O Colorado concentra a maior densidade de estâncias americanas de renome num só estado, todas com base acima dos 2 100 m. Vail lidera com os seus 7 Back Bowls e a aldeia bávara a meio da montanha; Aspen Snowmass espalha quatro montanhas e uma vila old money em torno da base; Breckenridge culmina no teleférico mais alto dos EUA; Telluride esconde-se no canyon mais espetacular do país; Beaver Creek pole o seu luxo; Steamboat traz a vila de ranchos e a Champagne Powder.",
       it: "Il Colorado concentra la più alta densità di località americane di richiamo in un solo stato, tutte con base sopra i 2 100 m. Vail guida con i suoi 7 Back Bowls e il borgo bavarese a metà montagna; Aspen Snowmass dispiega quattro montagne e una cittadina old money attorno alla base; Breckenridge culmina nel seggiovia in quota più alto degli USA; Telluride si nasconde nel canyon più spettacolare del paese; Beaver Creek lima il suo lusso; Steamboat porta il paese di ranch e la Champagne Powder.",
+      nl: "Colorado heeft de hoogste concentratie topskigebieden van Amerika binnen één staat, allemaal met een basishoogte boven 2 100 m. Vail gaat voorop met zijn 7 Back Bowls en het Beierse dorp halverwege de berg; Aspen Snowmass spreidt vier bergen en een old-money stadje rond zijn basis; Breckenridge heeft de hoogste lift binnen de pistegrenzen van de VS; Telluride verschuilt zich in de meest dramatische canyon van het land; Beaver Creek polijst zijn luxe verder; Steamboat brengt het ranchstadje en de Champagne Powder mee.",
     },
     filter: (d) => isUSA(d) && USA_COLORADO_SLUGS.has(d.slug),
     sort: (d) => d.snowScore,
@@ -737,6 +800,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí del Wasatch (Utah)',
       pt: 'Melhores estâncias de esqui do Wasatch (Utah)',
       it: 'Migliori località sciistiche del Wasatch (Utah)',
+      nl: 'Beste skigebieden in de Utah Wasatch',
     },
     intro: {
       en: 'The greatest snow on earth, or so the licence plates say: Snowbird, Alta, Park City and Deer Valley, all within 45 minutes of Salt Lake City airport.',
@@ -744,6 +808,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'La mejor nieve del mundo, según rezan las matrículas: Snowbird, Alta, Park City y Deer Valley, todas a 45 minutos del aeropuerto de Salt Lake City.',
       pt: 'A melhor neve do mundo, como dizem as matrículas: Snowbird, Alta, Park City e Deer Valley, todas a 45 minutos do aeroporto de Salt Lake City.',
       it: "La neve più bella del mondo, come dichiarano le targhe: Snowbird, Alta, Park City e Deer Valley, tutte a 45 minuti dall'aeroporto di Salt Lake City.",
+      nl: "De beste sneeuw ter wereld, althans volgens de kentekenplaten: Snowbird, Alta, Park City en Deer Valley, allemaal binnen 45 minuten van de luchthaven van Salt Lake City.",
     },
     description: {
       en: 'The Wasatch Range above Salt Lake City gets some of the lightest, driest snow in North America, channeled into a handful of canyon-end ski resorts. Snowbird and Alta in Little Cottonwood Canyon are powder royalty; Park City Mountain is the biggest US ski resort by skiable acreage; Deer Valley keeps it ski-only and white-tablecloth. From plane to first chair: under two hours.',
@@ -751,6 +816,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "La cadena del Wasatch sobre Salt Lake City recibe una de las nieves más ligeras y secas de Norteamérica, canalizada en un puñado de estaciones al fondo del cañón. Snowbird y Alta en Little Cottonwood son la realeza del polvo; Park City Mountain es la mayor estación de EE. UU. por superficie esquiable; Deer Valley se queda con esquí solo y mantel blanco. Del avión a la primera silla: menos de dos horas.",
       pt: "A cordilheira do Wasatch acima de Salt Lake City recebe uma das neves mais leves e secas da América do Norte, canalizada para um punhado de estâncias no fundo do canyon. Snowbird e Alta em Little Cottonwood são a realeza do pó; Park City Mountain é a maior estância dos EUA em área esquiável; Deer Valley mantém-se só esqui e toalha branca. Do avião à primeira cadeira: menos de duas horas.",
       it: "La catena del Wasatch sopra Salt Lake City riceve una delle nevi più leggere e asciutte del Nord America, incanalata in un pugno di località in fondo al canyon. Snowbird e Alta nel Little Cottonwood sono la nobiltà della polvere; Park City Mountain è la più grande località degli USA per superficie sciabile; Deer Valley resta solo sci e tovaglia bianca. Dall'aereo alla prima seggiovia: meno di due ore.",
+      nl: "De Wasatch Range boven Salt Lake City krijgt van de lichtste, droogste sneeuw van Noord-Amerika, geconcentreerd in een handvol skigebieden aan het einde van een canyon. Snowbird en Alta in Little Cottonwood Canyon zijn poederkoningen; Park City Mountain is het grootste Amerikaanse skigebied qua skibare oppervlakte; Deer Valley houdt het bij ski-only en witte tafellakens. Van vliegtuig tot eerste stoeltjeslift: minder dan twee uur.",
     },
     filter: (d) => isUSA(d) && USA_UTAH_SLUGS.has(d.slug),
     sort: (d) => d.snowScore,
@@ -765,6 +831,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí en la costa Este de EE. UU.',
       pt: 'Melhores estâncias de esqui na costa Leste dos EUA',
       it: "Migliori località sciistiche sulla costa orientale degli USA",
+      nl: "Beste skigebieden aan de oostkust van de VS",
     },
     intro: {
       en: 'New England ski country, where the sport grew up in the 1930s: classic Vermont resorts a drive from Boston, New York or Montréal.',
@@ -772,6 +839,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'El país del esquí de Nueva Inglaterra, donde el deporte creció en los años 30: estaciones clásicas del Vermont a unas horas de Boston, Nueva York o Montreal.',
       pt: 'O país do esqui da Nova Inglaterra, onde o desporto cresceu nos anos 30: estâncias clássicas do Vermont a algumas horas de Boston, Nova Iorque ou Montreal.',
       it: "Il paese sciistico del New England, dove lo sport è cresciuto negli anni '30: località classiche del Vermont a poche ore da Boston, New York o Montréal.",
+      nl: "Skiland New England, waar de sport in de jaren dertig groot werd: klassieke skigebieden in Vermont op rijafstand van Boston, New York of Montréal.",
     },
     description: {
       en: 'East Coast skiing is its own discipline: cold smoke when the storms align, ice-armoured groomers when they do not, and a culture of tough locals who keep skiing through both. Stowe under Mt Mansfield is Vermont\'s most polished classic; Killington is the Beast of the East, the largest in the region with the longest season. Both deliver on a weekend trip from Boston, New York or Montréal.',
@@ -779,6 +847,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "El esquí de la costa Este es una disciplina propia: humo frío cuando las tormentas se alinean, pistas blindadas de hielo cuando no, y una cultura de locales duros que esquían en ambas. Stowe bajo Mt Mansfield es el clásico más pulido del Vermont; Killington es la Bestia del Este, la mayor de la región y la de temporada más larga. Las dos funcionan para un fin de semana desde Boston, Nueva York o Montreal.",
       pt: "O esqui da costa Leste é uma disciplina própria: fumo frio quando as tempestades se alinham, pistas blindadas de gelo quando não, e uma cultura de locais duros que esquia em ambas. Stowe sob o Mt Mansfield é o clássico mais polido do Vermont; Killington é a Besta do Leste, a maior da região e a de época mais longa. Ambas funcionam para um fim de semana a partir de Boston, Nova Iorque ou Montreal.",
       it: "Lo sci della costa orientale è una disciplina a sé: fumo freddo quando le tempeste si allineano, piste corazzate di ghiaccio quando no, e una cultura di locali tosti che scia in entrambe. Stowe sotto il Mt Mansfield è il classico più curato del Vermont; Killington è la Bestia dell'Est, la più grande della regione e con la stagione più lunga. Entrambe reggono un weekend da Boston, New York o Montréal.",
+      nl: "Skiën aan de oostkust is een discipline op zich: koude rook wanneer de stormen goed uitkomen, ijzig geprepareerde pistes wanneer dat niet zo is, en een cultuur van taaie locals die in beide gevallen blijven skiën. Stowe onder de Mt Mansfield is de meest verfijnde klassieker van Vermont; Killington is het Beast of the East, het grootste van de regio met het langste seizoen. Beide zijn ideaal voor een weekendtrip vanuit Boston, New York of Montréal.",
     },
     filter: (d) => isUSA(d) && USA_EAST_SLUGS.has(d.slug),
     sort: (d) => d.snowScore,
@@ -793,6 +862,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Estaciones de esquí de África',
       pt: 'Estâncias de esqui de África',
       it: "Località sciistiche in Africa",
+      nl: "Skigebieden in Afrika",
     },
     intro: {
       en: 'Yes, you can ski in Africa: Morocco\'s Atlas, Algeria\'s Djurdjura, Lesotho\'s Maluti, South Africa\'s Drakensberg and even an indoor slope in Cairo.',
@@ -800,6 +870,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Sí, se puede esquiar en África: el Atlas marroquí, el Djurdjura argelino, los Maluti de Lesoto, el Drakensberg sudafricano y hasta una pista cubierta en El Cairo.',
       pt: 'Sim, esquia-se em África: o Atlas marroquino, o Djurdjura argelino, os Maluti do Lesoto, o Drakensberg sul-africano e até uma pista indoor no Cairo.',
       it: "Sì, in Africa si scia: l'Atlante marocchino, il Djurdjura algerino, i Maluti del Lesotho, il Drakensberg sudafricano e perfino una pista indoor al Cairo.",
+      nl: "Jazeker, je kunt skiën in Afrika: de Atlas in Marokko, de Djurdjura in Algerije, de Maluti in Lesotho, de Drakensberg in Zuid-Afrika en zelfs een indoorpiste in Caïro.",
     },
     description: {
       en: 'African skiing is short, often unreliable, and almost always small. That is the appeal. Oukaïmeden in the Moroccan High Atlas is the headline act at 2620 m with 7 lifts and Mt Toubkal as the backdrop; Mischliffen and a handful of Middle Atlas resorts add cedar-forest skiing near Ifrane. Algeria runs Chréa above Blida and the Djurdjura pair of Tikjda and Tala-Guilef. Afriski in Lesotho is the highest base in Africa (3050 m) and skis southern-hemisphere winter June to August, joined by South Africa\'s Tiffindell. Ski Egypt in Cairo is indoor and year-round. None of this is the Alps. All of it is improbable in the best way.',
@@ -807,6 +878,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "El esquí africano es corto, a menudo poco fiable y casi siempre pequeño. Justo eso es lo que lo hace especial. Oukaïmeden, en el Alto Atlas marroquí, es la cabeza de cartel a 2620 m con 7 remontes y el Toubkal de fondo; Mischliffen y un puñado de estaciones del Atlas Medio suman esquí en cedrales cerca de Ifrane. Argelia juega con Chréa sobre Blida y el dúo del Djurdjura (Tikjda + Tala-Guilef). Afriski en Lesoto tiene la base más alta de África (3050 m) y esquía el invierno austral de junio a agosto, acompañado de Tiffindell en Sudáfrica. Ski Egypt en El Cairo es cubierto y abre todo el año. Nada de esto iguala a los Alpes. Todo es improbable, en el mejor sentido.",
       pt: "O esqui africano é curto, muitas vezes pouco fiável e quase sempre pequeno. É precisamente por isso que é especial. Oukaïmeden, no Alto Atlas marroquino, é o cabeça de cartaz a 2620 m com 7 teleféricos e o Toubkal como cenário; Mischliffen e um punhado de estâncias do Atlas Médio juntam esqui em cedrais perto de Ifrane. A Argélia alinha Chréa acima de Blida e o duo do Djurdjura (Tikjda + Tala-Guilef). O Afriski no Lesoto tem a base mais alta de África (3050 m) e esquia o inverno austral de junho a agosto, com Tiffindell na África do Sul a acompanhar. O Ski Egypt no Cairo é indoor, aberto todo o ano. Nada disto iguala os Alpes. Tudo é improvável, no melhor dos sentidos.",
       it: "Lo sci africano è breve, spesso poco affidabile e quasi sempre piccolo. È esattamente questo a renderlo speciale. Oukaïmeden, nell'Alto Atlante marocchino, è la testa di cartellone a 2620 m con 7 impianti e il Toubkal sullo sfondo; Mischliffen e un pugno di località dell'Atlante Medio aggiungono lo sci tra i cedri vicino a Ifrane. L'Algeria schiera Chréa sopra Blida e la coppia del Djurdjura (Tikjda + Tala-Guilef). Afriski in Lesotho ha la base più alta d'Africa (3050 m) e scia l'inverno australe da giugno ad agosto, con Tiffindell in Sudafrica al seguito. Ski Egypt al Cairo è indoor, aperto tutto l'anno. Nulla di tutto questo è all'altezza delle Alpi. Tutto è improbabile, nel senso migliore.",
+      nl: "Skiën in Afrika is kort, vaak onbetrouwbaar en bijna altijd klein. Dat is precies de charme ervan. Oukaïmeden in het Marokkaanse Hoge Atlasgebergte is het paradepaardje op 2620 m met 7 liften en de Toubkal als decor; Mischliffen en een handvol skigebieden in de Midden-Atlas voegen skiën in cederbos toe, bij Ifrane. Algerije heeft Chréa boven Blida en het Djurdjura-duo Tikjda en Tala-Guilef. Afriski in Lesotho heeft de hoogste basis van Afrika (3050 m) en skit in de winter van het zuidelijk halfrond, van juni tot augustus, samen met Tiffindell in Zuid-Afrika. Ski Egypt in Caïro is indoor en het hele jaar open. Niets hiervan is de Alpen. Alles eraan is onwaarschijnlijk, op de beste manier.",
     },
     filter: (d) => isAfrica(d),
     sort: (d) => d.snowScore,
@@ -821,6 +893,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Canadá',
       pt: 'Melhores estâncias de esqui do Canadá',
       it: 'Migliori località sciistiche del Canada',
+      nl: 'Beste skigebieden in Canada',
     },
     intro: {
       en: "Whistler's Pacific maritime giant, the Banff National Park trio, the alpine steeps of Kicking Horse and Revelstoke, plus East-Coast Tremblant and Mont-Sainte-Anne: ten resorts that frame Canadian skiing in one list.",
@@ -828,6 +901,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'El gigante marítimo del Pacífico en Whistler, el trío del parque nacional de Banff, los empinados alpinos de Kicking Horse y Revelstoke, más Tremblant y Mont-Sainte-Anne en el Este: diez estaciones que resumen el esquí canadiense.',
       pt: 'O gigante marítimo do Pacífico em Whistler, o trio do parque nacional de Banff, os íngremes alpinos de Kicking Horse e Revelstoke, mais Tremblant e Mont-Sainte-Anne no Leste: dez estâncias que resumem o esqui canadiano.',
       it: "Il gigante marittimo del Pacifico a Whistler, il trio del parco nazionale di Banff, le ripide alpine di Kicking Horse e Revelstoke, più Tremblant e Mont-Sainte-Anne sul versante Est: dieci località che riassumono lo sci canadese.",
+      nl: "De maritieme reus van Whistler aan de Pacifische kust, het trio van Banff National Park, het steile alpiene terrein van Kicking Horse en Revelstoke, plus Tremblant en Mont-Sainte-Anne aan de oostkust: tien skigebieden die het Canadese skiën in één lijst samenvatten.",
     },
     description: {
       en: "Canada packs two ski countries onto one passport. The West runs maritime + continental in big chunks: Whistler Blackcomb on the Pacific with the Peak 2 Peak Gondola, the Banff park trio (Sunshine + Lake Louise + Marmot Basin) trading on altitude and national-park scenery, the BC Interior offering Big White and Sun Peaks for family powder, Revelstoke for the highest vertical in North America, Kicking Horse for the steepest in-bounds Canadian terrain. The East runs colder and smaller: Tremblant's pedestrian village 2 hr from Montreal, Mont-Sainte-Anne's St-Lawrence views 30 min from Quebec City. November-to-May seasons on both coasts.",
@@ -835,6 +909,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Canadá mete dos países de esquí en un solo pasaporte. El Oeste corre marítimo + continental por grandes bloques: Whistler Blackcomb en el Pacífico con la Peak 2 Peak Gondola, el trío del parque de Banff (Sunshine + Lake Louise + Marmot Basin) que apuesta por la altitud y los paisajes de parque nacional, el interior de la Columbia Británica con Big White y Sun Peaks para polvo en familia, Revelstoke para el mayor desnivel de Norteamérica, Kicking Horse para el terreno más empinado dentro de pistas del país. El Este corre más frío y más pequeño: el pueblo peatonal de Tremblant a 2 h de Montreal, las vistas al San Lorenzo de Mont-Sainte-Anne a 30 min de Quebec. Temporadas de noviembre a mayo en ambos lados.",
       pt: "O Canadá mete dois países de esqui num só passaporte. O Oeste corre marítimo + continental em grandes blocos: Whistler Blackcomb no Pacífico com a Peak 2 Peak Gondola, o trio do parque de Banff (Sunshine + Lake Louise + Marmot Basin) que aposta na altitude e nas paisagens de parque nacional, o interior da Colúmbia Britânica com Big White e Sun Peaks para neve em pó em família, Revelstoke para o maior desnível da América do Norte, Kicking Horse para o terreno mais íngreme dentro de pistas do país. O Leste corre mais frio e mais pequeno: a vila pedonal de Tremblant a 2 h de Montreal, as vistas para o São Lourenço de Mont-Sainte-Anne a 30 min de Quebec. Épocas de novembro a maio dos dois lados.",
       it: "Il Canada infila due paesi sciistici in un solo passaporto. L'Ovest corre marittimo + continentale a grandi blocchi: Whistler Blackcomb sul Pacifico con la Peak 2 Peak Gondola, il trio del parco di Banff (Sunshine + Lake Louise + Marmot Basin) che punta sulla quota e sui paesaggi da parco nazionale, l'interno della Columbia Britannica con Big White e Sun Peaks per la polvere in famiglia, Revelstoke per il maggior dislivello del Nord America, Kicking Horse per il terreno più ripido in pista del paese. L'Est corre più freddo e più piccolo: il villaggio pedonale di Tremblant a 2 h da Montréal, le viste sul San Lorenzo del Mont-Sainte-Anne a 30 min da Québec. Stagioni da novembre a maggio su entrambi i versanti.",
+      nl: "Canada verenigt twee skilanden in één paspoort. Het westen combineert maritiem en continentaal in grote blokken: Whistler Blackcomb aan de Stille Oceaan met de Peak 2 Peak Gondola, het parktrio van Banff (Sunshine, Lake Louise, Marmot Basin) dat leunt op hoogte en nationaal-parklandschap, het binnenland van Brits-Columbia met Big White en Sun Peaks voor poeder met het gezin, Revelstoke voor het grootste hoogteverschil van Noord-Amerika, Kicking Horse voor het steilste terrein binnen de pistegrenzen van Canada. Het oosten is kouder en kleiner: het voetgangersdorp van Tremblant op 2 uur van Montreal, het uitzicht op de Saint-Lawrence bij Mont-Sainte-Anne op 30 minuten van Quebec City. Seizoen van november tot mei aan beide kusten.",
     },
     filter: (d) => isCanada(d),
     sort: (d) => d.snowScore,
@@ -849,6 +924,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Corea del Sur',
       pt: 'Melhores estâncias de esqui da Coreia do Sul',
       it: 'Migliori località sciistiche della Corea del Sud',
+      nl: 'Beste skigebieden in Zuid-Korea',
     },
     intro: {
       en: 'The PyeongChang 2018 Olympic legacy plus the Seoul day-trip resorts and the southern outlier: ten ski destinations that frame the Korean winter on one ranked list.',
@@ -856,6 +932,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'El legado olímpico de PyeongChang 2018 más las estaciones de fin de semana cerca de Seúl y el atípico del sur: diez destinos que resumen el invierno coreano en una lista clasificada.',
       pt: 'O legado olímpico de PyeongChang 2018 mais as estâncias de fim de semana perto de Seul e o atípico do sul: dez destinos que resumem o inverno coreano numa lista ordenada.',
       it: 'Il lascito olimpico di PyeongChang 2018 più le località da weekend vicino a Seoul e l\'atipica del Sud: dieci destinazioni che riassumono l\'inverno coreano in una lista ordinata.',
+      nl: 'De olympische erfenis van PyeongChang 2018, plus de dagtripbestemmingen bij Seoel en het zuidelijke buitenbeentje: tien skibestemmingen die de Koreaanse winter samenvatten in één gerangschikte lijst.',
     },
     description: {
       en: 'South Korea\'s ski map is dominated by Gangwon Province, where PyeongChang hosted the 2018 Olympics. Yongpyong ran the alpine slalom + GS, Phoenix Pyeongchang the freestyle + snowboard, Alpensia the jumping + nordic + sliding. High1 in Jeongseon is the family-friendly mass-market giant. Closer to Seoul, Vivaldi Park, Konjiam and Oak Valley pack day-trippers in for night skiing under stadium lights, while Welli Hilli Park sits in between. Further south, Muju Deogyusan hides Korea\'s highest skiable peak at 1614 m, and Eden Valley above Busan rounds the list as the most southerly ski resort in the country. Heavy snowmaking, lifts into the small hours, KTX trains to the door.',
@@ -863,6 +940,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "El mapa del esquí surcoreano está dominado por la provincia de Gangwon, donde PyeongChang acogió los Juegos 2018. Yongpyong albergó el slalom + GS, Phoenix Pyeongchang el freestyle + snowboard, Alpensia los saltos + nórdico + sliding. High1 en Jeongseon es el gigante familiar. Más cerca de Seúl, Vivaldi Park, Konjiam y Oak Valley llenan sus pistas de visitantes de día para esquí nocturno bajo focos de estadio, Welli Hilli Park queda en medio. Más al sur, Muju Deogyusan esconde la cima esquiable más alta de Corea a 1614 m, y Eden Valley sobre Busan cierra la lista como la más austral del país. Producción de nieve intensa, remontes hasta tarde, KTX a la puerta.",
       pt: "O mapa do esqui sul-coreano é dominado pela província de Gangwon, onde PyeongChang acolheu os Jogos 2018. Yongpyong recebeu o slalom + GS, Phoenix Pyeongchang o freestyle + snowboard, Alpensia os saltos + nórdico + sliding. O High1 em Jeongseon é o gigante familiar. Mais perto de Seul, Vivaldi Park, Konjiam e Oak Valley enchem-se de visitantes de dia para esqui noturno sob holofotes de estádio, Welli Hilli Park fica no meio. Mais a sul, Muju Deogyusan esconde o pico esquiável mais alto da Coreia a 1614 m, e Eden Valley sobre Busan fecha a lista como a mais a sul do país. Forte produção de neve artificial, teleféricos até tarde, KTX à porta.",
       it: "La mappa dello sci sudcoreano è dominata dalla provincia di Gangwon, dove PyeongChang ha ospitato i Giochi 2018. Yongpyong ha ospitato lo slalom + GS, Phoenix Pyeongchang il freestyle + lo snowboard, Alpensia i salti + nordico + sliding. High1 a Jeongseon è il gigante familiare. Più vicino a Seoul, Vivaldi Park, Konjiam e Oak Valley si riempiono di visitatori giornalieri per lo sci notturno sotto luci da stadio, Welli Hilli Park sta nel mezzo. Più a sud, Muju Deogyusan nasconde la cima sciabile più alta di Corea a 1614 m, ed Eden Valley sopra Busan chiude la lista come la più meridionale del paese. Forte innevamento artificiale, impianti fino a tardi, KTX alla porta.",
+      nl: "De skikaart van Zuid-Korea wordt gedomineerd door de provincie Gangwon, waar PyeongChang de Olympische Spelen van 2018 organiseerde. Yongpyong huisvestte de alpineslalom en de reuzenslalom, Phoenix Pyeongchang de freestyle en snowboard, Alpensia het springen, langlaufen en bobsleeën. High1 in Jeongseon is de laagdrempelige reus voor het hele gezin. Dichter bij Seoel proppen Vivaldi Park, Konjiam en Oak Valley dagjesmensen samen voor nachtskiën onder stadionverlichting, terwijl Welli Hilli Park er precies tussenin zit. Verder naar het zuiden verbergt Muju Deogyusan de hoogste skibare piek van Korea op 1614 m, en Eden Valley boven Busan sluit de lijst af als het meest zuidelijke skigebied van het land. Veel kunstsneeuw, liften tot diep in de nacht, KTX-treinen tot aan de deur.",
     },
     filter: (d) => isSouthKorea(d),
     sort: (d) => d.snowScore,
@@ -877,6 +955,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Australia',
       pt: 'Melhores estâncias de esqui da Austrália',
       it: 'Migliori località sciistiche in Australia',
+      nl: 'Beste skigebieden in Australië',
     },
     intro: {
       en: 'The Snowy Mountains and the Victorian Alps: five resorts that frame Australian skiing on one ranked list, all Southern Hemisphere winter Jun-Sep.',
@@ -884,6 +963,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Las Snowy Mountains y los Alpes victorianos: cinco estaciones que resumen el esquí australiano en una lista clasificada, todas en invierno del hemisferio sur (junio a septiembre).',
       pt: 'As Snowy Mountains e os Alpes Victorianos: cinco estâncias que resumem o esqui australiano numa lista ordenada, todas no inverno do hemisfério sul (junho a setembro).',
       it: "Le Snowy Mountains e le Alpi Victoriane: cinque località che riassumono lo sci australiano in una lista ordinata, tutte nell'inverno dell'emisfero sud (da giugno a settembre).",
+      nl: "De Snowy Mountains en de Victoriaanse Alpen: vijf skigebieden die het Australische skiën samenvatten in één gerangschikte lijst, allemaal winter op het zuidelijk halfrond van juni tot september.",
     },
     description: {
       en: 'Perisher in NSW runs the largest lift fleet in the Southern Hemisphere (47 lifts across 4 linked villages). Thredbo offers Australia\'s biggest vertical (672 m) under Mt Kosciuszko. The Victorian Alps add Falls Creek (car-free pedestrian village, strong nordic), Mt Hotham ("Powder Capital of Australia," ski-down-to-village layout) and Mt Buller (closest major to Melbourne, 80 km of pistes). Snow gum eucalyptus forests give every run an identity unlike anywhere in the Northern Hemisphere.',
@@ -891,6 +971,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Perisher (Nueva Gales del Sur) alinea la mayor flota de remontes del hemisferio sur (47 remontes sobre 4 pueblos enlazados). Thredbo ofrece el mayor desnivel de Australia (672 m) bajo el Mt Kosciuszko. Los Alpes victorianos suman Falls Creek (pueblo peatonal sin coches, fuerte en nórdico), Mt Hotham ("capital de la nieve polvo australiana," pueblo en la cresta donde se esquía hacia abajo) y Mt Buller (el más cercano a Melbourne, 80 km de pistas). Los bosques de snow gum (eucaliptos) dan a cada pista una identidad única.',
       pt: "Perisher (Nova Gales do Sul) alinha a maior frota de teleféricos do hemisfério sul (47 teleféricos sobre 4 vilas ligadas). Thredbo oferece o maior desnível da Austrália (672 m) sob o Mt Kosciuszko. Os Alpes Victorianos somam Falls Creek (vila pedonal sem carros, forte em nórdico), Mt Hotham (\"capital da neve em pó australiana,\" vila na crista onde se esquia para baixo) e Mt Buller (o mais próximo de Melbourne, 80 km de pistas). As florestas de snow gum (eucaliptos) dão a cada pista uma identidade única.",
       it: "Perisher (Nuovo Galles del Sud) schiera la maggior flotta di impianti dell'emisfero sud (47 impianti su 4 villaggi collegati). Thredbo offre il maggior dislivello d'Australia (672 m) sotto il Mt Kosciuszko. Le Alpi Victoriane aggiungono Falls Creek (borgo pedonale senza auto, forte sul nordico), Mt Hotham (\"capitale della polvere australiana,\" borgo sulla cresta dove si scia verso il basso) e Mt Buller (il più vicino a Melbourne, 80 km di piste). I boschi di snow gum (eucalipti) danno a ogni pista un'identità unica.",
+      nl: "Perisher (New South Wales) heeft de grootste liftvloot van het zuidelijk halfrond (47 liften over 4 verbonden dorpen). Thredbo biedt het grootste hoogteverschil van Australië (672 m) onder de Mt Kosciuszko. De Victoriaanse Alpen voegen daar Falls Creek aan toe (autovrij voetgangersdorp, sterk in langlaufen), Mt Hotham (\"hoofdstad van de Australische poedersneeuw,\" waar je zo vanaf de piste het dorp in skiet) en Mt Buller (het dichtst bij Melbourne, 80 km piste). De bossen van snow gum-eucalyptus geven elke piste een karakter dat je nergens op het noordelijk halfrond vindt.",
     },
     filter: (d) => isAustralia(d),
     sort: (d) => d.snowScore,
@@ -905,6 +986,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Nueva Zelanda',
       pt: 'Melhores estâncias de esqui da Nova Zelândia',
       it: 'Migliori località sciistiche in Nuova Zelanda',
+      nl: 'Beste skigebieden in Nieuw-Zeeland',
     },
     intro: {
       en: 'The Southern Alps of South Island: five resorts above Wanaka, Queenstown and Methven, Southern Hemisphere season Jun-Oct, no on-mountain lodging.',
@@ -912,6 +994,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Los Alpes del Sur de la Isla Sur: cinco estaciones sobre Wanaka, Queenstown y Methven, invierno del hemisferio sur de junio a octubre, sin alojamiento en montaña.',
       pt: 'Os Alpes do Sul da Ilha do Sul: cinco estâncias acima de Wanaka, Queenstown e Methven, inverno do hemisfério sul de junho a outubro, sem alojamento na montanha.',
       it: "Le Alpi del Sud dell'Isola del Sud: cinque località sopra Wanaka, Queenstown e Methven, inverno dell'emisfero sud da giugno a ottobre, niente alloggio in quota.",
+      nl: "De Southern Alps van het Zuidereiland: vijf skigebieden boven Wanaka, Queenstown en Methven, seizoen op het zuidelijk halfrond van juni tot oktober, geen overnachting op de berg zelf.",
     },
     description: {
       en: 'Around Wanaka, Cardrona is the family-friendly freestyle classic and Treble Cone the expert freeride mecca. Around Queenstown, Coronet Peak runs night skiing under floodlights and The Remarkables name themselves for the jagged Single Cone above Lake Wakatipu. North on South Island, Mt Hutt above Methven runs the longest commercial season in NZ (Jun to late Oct). Almost no resort has ski-in/ski-out lodging: you sleep in the lakeside towns and drive up daily.',
@@ -919,6 +1002,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Cerca de Wanaka, Cardrona es el clásico freestyle familiar y Treble Cone la meca del freeride experto. Cerca de Queenstown, Coronet Peak abre el esquí nocturno bajo focos, y los Remarkables toman su nombre de los picos dentados del Single Cone sobre el lago Wakatipu. Más al norte en la Isla Sur, Mt Hutt sobre Methven mantiene la temporada comercial más larga de Nueva Zelanda (de junio a finales de octubre). Casi ninguna estación ofrece ski-in/ski-out: se duerme en los pueblos junto al lago y se sube cada día.",
       pt: "Perto de Wanaka, Cardrona é o clássico freestyle familiar e Treble Cone a meca do freeride para experts. Perto de Queenstown, Coronet Peak abre o esqui noturno sob holofotes, e os Remarkables ganham o nome dos picos serrilhados do Single Cone sobre o lago Wakatipu. Mais a norte na Ilha do Sul, Mt Hutt acima de Methven tem a época comercial mais longa da Nova Zelândia (de junho a finais de outubro). Quase nenhuma estância oferece ski-in/ski-out: dorme-se nas vilas à beira-lago e sobe-se todos os dias.",
       it: "Intorno a Wanaka, Cardrona è il classico freestyle familiare e Treble Cone la mecca del freeride da esperti. Intorno a Queenstown, Coronet Peak apre lo sci notturno sotto i fari, e i Remarkables prendono il nome dalle vette frastagliate del Single Cone sopra il lago Wakatipu. Più a nord sull'Isola del Sud, Mt Hutt sopra Methven tiene la stagione commerciale più lunga della Nuova Zelanda (da giugno a fine ottobre). Quasi nessuna località offre ski-in/ski-out: si dorme nei paesi sul lago e si sale ogni giorno.",
+      nl: "Bij Wanaka is Cardrona de gezinsvriendelijke freestyleklassieker en Treble Cone het walhalla voor freeriders op expertniveau. Bij Queenstown biedt Coronet Peak nachtskiën onder schijnwerpers, en The Remarkables ontlenen hun naam aan de getande Single Cone boven het Lake Wakatipu. Noordelijker op het Zuidereiland heeft Mt Hutt boven Methven het langste commerciële seizoen van Nieuw-Zeeland (juni tot eind oktober). Bijna geen enkel skigebied heeft ski-in/ski-out overnachting: je slaapt in de stadjes aan het meer en rijdt dagelijks omhoog.",
     },
     filter: (d) => isNewZealand(d),
     sort: (d) => d.snowScore,
@@ -933,6 +1017,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Chile',
       pt: 'Melhores estâncias de esqui do Chile',
       it: 'Migliori località sciistiche in Cile',
+      nl: 'Beste skigebieden in Chili',
     },
     intro: {
       en: 'The Andes around Santiago: three classics that frame Chilean skiing, Portillo on Laguna del Inca, Valle Nevado and La Parva in the Tres Valles cluster, Southern Hemisphere Jun-Oct.',
@@ -940,6 +1025,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Los Andes alrededor de Santiago: tres clásicos que resumen el esquí chileno, Portillo sobre la Laguna del Inca, Valle Nevado y La Parva en el grupo Tres Valles, invierno austral de junio a octubre.',
       pt: 'Os Andes em torno de Santiago: três clássicos que resumem o esqui chileno, Portillo sobre a Laguna del Inca, Valle Nevado e La Parva no cluster dos Tres Valles, inverno austral de junho a outubro.',
       it: "Le Ande attorno a Santiago: tre classici che riassumono lo sci cileno, Portillo sulla Laguna del Inca, Valle Nevado e La Parva nel gruppo dei Tres Valles, inverno australe da giugno a ottobre.",
+      nl: "De Andes rond Santiago: drie klassiekers die het Chileense skiën samenvatten, Portillo aan de Laguna del Inca, Valle Nevado en La Parva in de Tres Valles-groep, seizoen op het zuidelijk halfrond van juni tot oktober.",
     },
     description: {
       en: "Chile's three Andean classics each frame a different facet of South American skiing. Portillo (2 hours north of Santiago, base 2880 m) hosted the only Alpine World Championships ever held in the Southern Hemisphere (1966) and remains the August training base for US, Canadian and European national teams, with the iconic yellow Hotel Portillo on Laguna del Inca. Valle Nevado (1 hour 30 east of Santiago, base 3025 m, highest in Chile) runs modern Compagnie des Alpes design with a Three Valleys interconnect to El Colorado and La Parva. La Parva (Tres Valles too) leans residential and quieter, with Las Lomas alpine bowls and the Falsa Parva freeride hike-to. Southern Hemisphere season runs June to October. The Andes do the work; Santiago is the gateway 1 to 3 hours below.",
@@ -947,6 +1033,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Los tres clásicos andinos de Chile marcan cada uno una faceta del esquí sudamericano. Portillo (2 h al norte de Santiago, base 2880 m) acogió los únicos Campeonatos del Mundo alpinos jamás celebrados en el hemisferio sur (1966) y sigue siendo el campamento de agosto de los equipos nacionales de EE. UU., Canadá y Europa, con el icónico Hotel Portillo amarillo sobre la Laguna del Inca. Valle Nevado (1 h 30 al este de Santiago, base 3025 m, la más alta de Chile) propone diseño moderno de la Compagnie des Alpes con interconexión Tres Valles hacia El Colorado y La Parva. La Parva (Tres Valles también) apuesta por lo residencial y tranquilo, con los bowls alpinos de Las Lomas y el freeride hike-to de Falsa Parva. Temporada de junio a octubre.",
       pt: "Os três clássicos andinos do Chile retratam cada um uma faceta do esqui sul-americano. Portillo (2 h a norte de Santiago, base 2880 m) acolheu os únicos Campeonatos do Mundo alpinos jamais realizados no hemisfério sul (1966) e continua a ser o campo de agosto das equipas nacionais dos EUA, Canadá e Europa, com o icónico Hotel Portillo amarelo sobre a Laguna del Inca. Valle Nevado (1 h 30 a leste de Santiago, base 3025 m, a mais alta do Chile) propõe design moderno da Compagnie des Alpes com interligação Tres Valles para El Colorado e La Parva. La Parva (Tres Valles também) joga a carta residencial e mais calma, com os bowls alpinos de Las Lomas e o freeride hike-to de Falsa Parva. Época de junho a outubro.",
       it: "I tre classici andini del Cile dipingono ciascuno una faccia dello sci sudamericano. Portillo (2 ore a nord di Santiago, base 2880 m) ha ospitato gli unici Mondiali di sci alpino mai disputati nell'emisfero sud (1966) e resta il campo di allenamento di agosto delle nazionali statunitense, canadese ed europea, con l'iconico Hotel Portillo giallo sulla Laguna del Inca. Valle Nevado (1 h 30 a est di Santiago, base 3025 m, la più alta del Cile) propone design moderno della Compagnie des Alpes con collegamento Tres Valles verso El Colorado e La Parva. La Parva (anche Tres Valles) gioca la carta residenziale e tranquilla, con le conche alpine di Las Lomas e il freeride hike-to di Falsa Parva. Stagione da giugno a ottobre.",
+      nl: "De drie Andesklassiekers van Chili belichten elk een ander facet van het Zuid-Amerikaanse skiën. Portillo (2 uur ten noorden van Santiago, basis 2880 m) was gastheer van het enige wereldkampioenschap alpineskiën dat ooit op het zuidelijk halfrond werd gehouden (1966) en blijft in augustus de trainingsbasis voor de nationale teams van de VS, Canada en Europa, met het iconische gele Hotel Portillo aan de Laguna del Inca. Valle Nevado (1 uur 30 ten oosten van Santiago, basis 3025 m, de hoogste van Chili) heeft een moderne inrichting van Compagnie des Alpes met een Tres Valles-verbinding naar El Colorado en La Parva. La Parva (ook Tres Valles) is residentiëler en rustiger, met de alpiene komvormige pistes van Las Lomas en de te voet bereikbare freeride van Falsa Parva. Het seizoen op het zuidelijk halfrond loopt van juni tot oktober. De Andes doen het werk, Santiago is de toegangspoort, 1 tot 3 uur lager gelegen.",
     },
     filter: (d) => isChile(d),
     sort: (d) => d.snowScore,
@@ -961,6 +1048,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'Mejores estaciones de esquí de Argentina',
       pt: 'Melhores estâncias de esqui da Argentina',
       it: 'Migliori località sciistiche in Argentina',
+      nl: 'Beste skigebieden in Argentinië',
     },
     intro: {
       en: 'From the Patagonian lakes to the high Mendoza Andes and the far south of Tierra del Fuego, the pick of Argentine skiing, Southern Hemisphere Jun to Oct.',
@@ -968,6 +1056,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: 'De los lagos patagónicos a los altos Andes de Mendoza y el extremo sur de Tierra del Fuego, lo mejor del esquí argentino, invierno austral de junio a octubre.',
       pt: 'Dos lagos patagónicos aos altos Andes de Mendoza e ao extremo sul da Terra do Fogo, o melhor do esqui argentino, inverno austral de junho a outubro.',
       it: "Dai laghi della Patagonia alle alte Ande di Mendoza fino all'estremo sud della Terra del Fuoco, il meglio dello sci argentino, inverno australe da giugno a ottobre.",
+      nl: "Van de Patagonische meren tot de hoge Andes van Mendoza en het uiterste zuiden van Tierra del Fuego: het beste van het Argentijnse skiën, seizoen op het zuidelijk halfrond van juni tot oktober.",
     },
     description: {
       en: "Argentina spreads its skiing across the Andes from north to south. Cerro Catedral, above Bariloche and Lago Nahuel Huapi, is the largest ski area in South America, with lift-served terrain through lenga forest and a lively base. Las Leñas, high in Mendoza, is the continent's reference for steep, snow-sure off-piste off the Marte chair, built around a genuine slopeside base village. Chapelco (above San Martin de los Andes) and Cerro Bayo (above Villa La Angostura) are the scenic, family-friendly resorts of the Patagonian lake district. Far to the south, Cerro Castor near Ushuaia is the southernmost ski resort on earth, with one of the longest seasons going. Southern Hemisphere season runs June to October.",
@@ -975,6 +1064,7 @@ export const BEST_FOR_LISTS: BestForList[] = [
       es: "Argentina despliega su esquí por los Andes de norte a sur. Cerro Catedral, sobre Bariloche y el Lago Nahuel Huapi, es el mayor dominio esquiable de Sudamérica, con terreno servido por remontes a través del bosque de lengas y una base animada. Las Leñas, en lo alto de los Andes de Mendoza, es la referencia del continente para el fuera de pista empinado y seguro de nieve desde el telesilla Marte, en torno a un auténtico pueblo a pie de pista. Chapelco (sobre San Martín de los Andes) y Cerro Bayo (sobre Villa La Angostura) son las estaciones panorámicas y familiares de la región de los lagos patagónicos. En el extremo sur, Cerro Castor, cerca de Ushuaia, es la estación más austral del mundo, con una de las temporadas más largas que existen. Temporada del hemisferio sur de junio a octubre.",
       pt: "A Argentina estende o seu esqui ao longo dos Andes, de norte a sul. O Cerro Catedral, acima de Bariloche e do Lago Nahuel Huapi, é o maior domínio esquiável da América do Sul, com terreno servido por teleféricos através da floresta de lengas e uma base animada. Las Leñas, no alto dos Andes de Mendoza, é a referência do continente para o fora de pista íngreme e com neve garantida a partir do teleassento Marte, em torno de uma autêntica aldeia à beira da pista. Chapelco (acima de San Martin de los Andes) e Cerro Bayo (acima de Villa La Angostura) são as estâncias panorâmicas e familiares da região dos lagos da Patagónia. Bem a sul, o Cerro Castor, perto de Ushuaia, é a estância mais austral do mundo, com uma das épocas mais longas que há. Época do hemisfério sul de junho a outubro.",
       it: "L'Argentina distribuisce il suo sci lungo le Ande, da nord a sud. Il Cerro Catedral, sopra Bariloche e il Lago Nahuel Huapi, è il più grande comprensorio del Sud America, con terreno servito dagli impianti attraverso la foresta di lenga e una base vivace. Las Leñas, in alto sulle Ande di Mendoza, è il riferimento del continente per il fuoripista ripido e sicuro di neve dalla seggiovia Marte, attorno a un vero paese sulle piste. Chapelco (sopra San Martin de los Andes) e Cerro Bayo (sopra Villa La Angostura) sono le località panoramiche e adatte alle famiglie della regione dei laghi della Patagonia. Nell'estremo sud, il Cerro Castor, vicino a Ushuaia, è la località più australe del mondo, con una delle stagioni più lunghe in assoluto. Stagione dell'emisfero sud da giugno a ottobre.",
+      nl: "Argentinië verspreidt zijn skigebieden over de Andes, van noord naar zuid. Cerro Catedral, boven Bariloche en het Lago Nahuel Huapi, is het grootste skigebied van Zuid-Amerika, met liftgebonden terrein door lenga-bos en een levendige basis. Las Leñas, hoog in de Andes bij Mendoza, is het continentale referentiepunt voor steile, sneeuwzekere off-piste vanaf de Marte-stoeltjeslift, gebouwd rond een echt dorp aan de piste. Chapelco (boven San Martin de los Andes) en Cerro Bayo (boven Villa La Angostura) zijn de schilderachtige, gezinsvriendelijke skigebieden van het Patagonische merengebied. Ver in het zuiden is Cerro Castor bij Ushuaia het zuidelijkste skigebied ter wereld, met een van de langste seizoenen die er zijn. Het seizoen op het zuidelijk halfrond loopt van juni tot oktober.",
     },
     filter: (d) => isArgentina(d),
     sort: (d) => d.snowScore,

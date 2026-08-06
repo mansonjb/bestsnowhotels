@@ -14,6 +14,7 @@ const T = {
     es: 'Comparativas de estaciones de esquí: cara a cara',
     pt: 'Comparativos de estâncias de esqui: face a face',
     it: 'Confronti tra località sciistiche: testa a testa',
+    nl: 'Skigebieden vergeleken: kop-aan-kop',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Six side-by-side ski resort matchups: where each one wins and who should pick which.',
@@ -21,6 +22,7 @@ const T = {
     es: 'Seis enfrentamientos entre estaciones: dónde gana cada una y a quién le conviene cada cual.',
     pt: 'Seis confrontos entre estâncias: onde cada uma ganha e a quem convém cada qual.',
     it: 'Sei confronti tra località: dove vince ciascuna e a chi conviene quale.',
+    nl: 'Zes skigebieden naast elkaar vergeleken: waar elk in uitblinkt en wie welke moet kiezen.',
   } as Record<Locale, string>,
 }
 

@@ -22,6 +22,7 @@ const T = {
     es: `Estaciones de esquí cerca de ${airport}`,
     pt: `Estâncias de esqui perto de ${airport}`,
     it: `Località sciistiche vicino a ${airport}`,
+    nl: `Skigebieden bij ${airport}`,
   }[l]),
   metaDesc: (airport: string, top: string, km: number, l: Locale) => ({
     en: `The closest ski resorts to ${airport}, ranked by distance. ${top} is the nearest at ${km} km, with ski-in/ski-out hotels you can compare in a click.`,
@@ -29,6 +30,7 @@ const T = {
     es: `Las estaciones de esquí más cercanas a ${airport}, ordenadas por distancia. ${top} es la más próxima a ${km} km, con hoteles a pie de pista para comparar en un clic.`,
     pt: `As estâncias de esqui mais próximas de ${airport}, ordenadas por distância. ${top} é a mais próxima a ${km} km, com hotéis à beira das pistas para comparar num clique.`,
     it: `Le località sciistiche più vicine a ${airport}, ordinate per distanza. ${top} è la più vicina a ${km} km, con hotel sugli sci da confrontare in un clic.`,
+    nl: `De dichtstbijzijnde skigebieden bij ${airport}, gerangschikt op afstand. ${top} is het dichtstbij op ${km} km, met ski-in/ski-out hotels die je in een klik vergelijkt.`,
   }[l]),
   intro: (airport: string, n: number, l: Locale) => ({
     en: `Flying into ${airport}? These are the ${n} closest ski resorts, ranked by straight-line distance from the terminal. Mountain roads wind, so allow more time by car, but the order still tells you where the snow starts soonest. Each resort has ski-in/ski-out hotels you can compare in one click.`,
@@ -36,6 +38,7 @@ const T = {
     es: `¿Aterrizas en ${airport}? Estas son las ${n} estaciones de esquí más cercanas, ordenadas por distancia en línea recta desde la terminal. Las carreteras de montaña serpentean, así que cuenta con más tiempo en coche, pero el orden indica dónde empieza antes la nieve. Cada estación tiene hoteles a pie de pista para comparar en un clic.`,
     pt: `Aterras em ${airport}? Estas são as ${n} estâncias de esqui mais próximas, ordenadas por distância em linha reta desde o terminal. As estradas de montanha serpenteiam, por isso conta com mais tempo de carro, mas a ordem indica onde a neve começa mais cedo. Cada estância tem hotéis à beira das pistas para comparar num clique.`,
     it: `Atterri a ${airport}? Queste sono le ${n} località sciistiche più vicine, ordinate per distanza in linea d'aria dal terminal. Le strade di montagna serpeggiano, quindi metti in conto più tempo in auto, ma l'ordine dice dove la neve inizia prima. Ogni località ha hotel sugli sci da confrontare in un clic.`,
+    nl: `Land je op ${airport}? Dit zijn de ${n} dichtstbijzijnde skigebieden, gerangschikt op afstand in een rechte lijn vanaf de terminal. Bergwegen slingeren, dus reken op meer tijd met de auto, maar de volgorde laat zien waar de sneeuw het eerst begint. Elk skigebied heeft ski-in/ski-out hotels die je in een klik vergelijkt.`,
   }[l]),
   quick: (top: string, km: number, region: string, l: Locale) => ({
     en: `The closest ski resort to the airport is ${top}, about ${km} km away in ${region}.`,
@@ -43,21 +46,23 @@ const T = {
     es: `La estación de esquí más cercana al aeropuerto es ${top}, a unos ${km} km, en ${region}.`,
     pt: `A estância de esqui mais próxima do aeroporto é ${top}, a cerca de ${km} km, em ${region}.`,
     it: `La località sciistica più vicina all'aeroporto è ${top}, a circa ${km} km, in ${region}.`,
+    nl: `Het dichtstbijzijnde skigebied bij de luchthaven is ${top}, op ongeveer ${km} km, in ${region}.`,
   }[l]),
-  rankTitle: { en: 'Closest resorts, nearest first', fr: 'Les stations les plus proches, par distance', es: 'Las estaciones más cercanas, por distancia', pt: 'As estâncias mais próximas, por distância', it: 'Le località più vicine, per distanza' } as Record<Locale, string>,
-  fromCity: (city: string, l: Locale) => ({ en: `km from ${city}`, fr: `km de ${city}`, es: `km de ${city}`, pt: `km de ${city}`, it: `km da ${city}` }[l]),
-  easyPistes: { en: 'easy pistes', fr: 'de pistes faciles', es: 'de pistas fáciles', pt: 'de pistas fáceis', it: 'di piste facili' } as Record<Locale, string>,
-  guide: { en: 'Resort guide', fr: 'Guide de la station', es: 'Guía de la estación', pt: 'Guia da estância', it: 'Guida della località' } as Record<Locale, string>,
-  book: { en: 'Find a hotel', fr: 'Trouver un hôtel', es: 'Buscar un hotel', pt: 'Encontrar um hotel', it: 'Trova un hotel' } as Record<Locale, string>,
-  mapTitle: { en: 'Hotels around', fr: 'Hôtels autour de', es: 'Hoteles en torno a', pt: 'Hotéis em redor de', it: 'Hotel intorno a' } as Record<Locale, string>,
-  allGateways: { en: 'Ski resorts near an airport', fr: "Stations près d'un aéroport", es: 'Estaciones cerca de un aeropuerto', pt: 'Estâncias perto de um aeroporto', it: "Località vicino a un aeroporto" } as Record<Locale, string>,
-  faqTitle: { en: 'Getting there', fr: 'Y aller', es: 'Cómo llegar', pt: 'Como chegar', it: 'Come arrivare' } as Record<Locale, string>,
+  rankTitle: { en: 'Closest resorts, nearest first', fr: 'Les stations les plus proches, par distance', es: 'Las estaciones más cercanas, por distancia', pt: 'As estâncias mais próximas, por distância', it: 'Le località più vicine, per distanza', nl: 'De dichtstbijzijnde skigebieden, op afstand' } as Record<Locale, string>,
+  fromCity: (city: string, l: Locale) => ({ en: `km from ${city}`, fr: `km de ${city}`, es: `km de ${city}`, pt: `km de ${city}`, it: `km da ${city}`, nl: `km van ${city}` }[l]),
+  easyPistes: { en: 'easy pistes', fr: 'de pistes faciles', es: 'de pistas fáciles', pt: 'de pistas fáceis', it: 'di piste facili', nl: 'makkelijke pistes' } as Record<Locale, string>,
+  guide: { en: 'Resort guide', fr: 'Guide de la station', es: 'Guía de la estación', pt: 'Guia da estância', it: 'Guida della località', nl: 'Skigebiedgids' } as Record<Locale, string>,
+  book: { en: 'Find a hotel', fr: 'Trouver un hôtel', es: 'Buscar un hotel', pt: 'Encontrar um hotel', it: 'Trova un hotel', nl: 'Vind een hotel' } as Record<Locale, string>,
+  mapTitle: { en: 'Hotels around', fr: 'Hôtels autour de', es: 'Hoteles en torno a', pt: 'Hotéis em redor de', it: 'Hotel intorno a', nl: 'Hotels rond' } as Record<Locale, string>,
+  allGateways: { en: 'Ski resorts near an airport', fr: "Stations près d'un aéroport", es: 'Estaciones cerca de un aeropuerto', pt: 'Estâncias perto de um aeroporto', it: "Località vicino a un aeroporto", nl: 'Skigebieden bij een luchthaven' } as Record<Locale, string>,
+  faqTitle: { en: 'Getting there', fr: 'Y aller', es: 'Cómo llegar', pt: 'Como chegar', it: 'Come arrivare', nl: 'Hoe je er komt' } as Record<Locale, string>,
   cbTitle: (city: string, l: Locale) => ({
     en: `Turn it into a ${city} city break`,
     fr: `Prolongez par un city break à ${city}`,
     es: `Conviértelo en una escapada a ${city}`,
     pt: `Transforme numa escapadinha a ${city}`,
     it: `Trasformalo in una city break a ${city}`,
+    nl: `Maak er een citytrip van in ${city}`,
   }[l]),
   cbBody: (city: string, l: Locale) => ({
     en: `You are already flying into ${city}. Before or after the mountains, give the city a night or two: our sister site perfectcitybreak.com has where to stay and what to do.`,
@@ -65,6 +70,7 @@ const T = {
     es: `Ya vuelas a ${city}. Antes o después de la montaña, dedícale una noche o dos a la ciudad: nuestro sitio hermano perfectcitybreak.com te dice dónde alojarte y qué hacer.`,
     pt: `Já voa para ${city}. Antes ou depois da montanha, dedique uma noite ou duas à cidade: o nosso site irmão perfectcitybreak.com diz-lhe onde ficar e o que fazer.`,
     it: `Atterri già a ${city}. Prima o dopo la montagna, concedi alla città una notte o due: il nostro sito gemello perfectcitybreak.com ti dice dove alloggiare e cosa fare.`,
+    nl: `Je vliegt toch al naar ${city}. Geef de stad voor of na de bergen een nacht of twee: onze zustersite perfectcitybreak.com laat zien waar je kunt overnachten en wat je kunt doen.`,
   }[l]),
   cbCta: (city: string, l: Locale) => ({
     en: `Plan a ${city} city break`,
@@ -72,6 +78,7 @@ const T = {
     es: `Planear una escapada a ${city}`,
     pt: `Planear uma escapadinha a ${city}`,
     it: `Organizza una city break a ${city}`,
+    nl: `Plan een citytrip in ${city}`,
   }[l]),
 }
 
@@ -131,12 +138,12 @@ export default async function GatewayPage({
 
   const faq = [
     {
-      q: ({ en: `Which ski resort is closest to ${g.airport}?`, fr: `Quelle station de ski est la plus proche de ${g.airport} ?`, es: `¿Qué estación de esquí está más cerca de ${g.airport}?`, pt: `Que estância de esqui está mais perto de ${g.airport}?`, it: `Quale località sciistica è più vicina a ${g.airport}?` } as Record<Locale, string>)[l],
-      a: ({ en: `${top.d.name}, in ${localizeRegion(top.d.region, 'en')}, is the nearest at about ${top.km} km in a straight line. By mountain road it is longer, but nothing else is closer.`, fr: `${top.d.name}, ${localizeRegion(top.d.region, 'fr')}, est la plus proche, à environ ${top.km} km à vol d'oiseau. Par la route de montagne c'est plus long, mais rien n'est plus près.`, es: `${top.d.name}, en ${localizeRegion(top.d.region, 'es')}, es la más cercana, a unos ${top.km} km en línea recta. Por carretera de montaña es más, pero nada está más cerca.`, pt: `${top.d.name}, em ${localizeRegion(top.d.region, 'pt')}, é a mais próxima, a cerca de ${top.km} km em linha reta. Por estrada de montanha é mais, mas nada está mais perto.`, it: `${top.d.name}, in ${localizeRegion(top.d.region, 'it')}, è la più vicina, a circa ${top.km} km in linea d'aria. Su strada di montagna è di più, ma niente è più vicino.` } as Record<Locale, string>)[l],
+      q: ({ en: `Which ski resort is closest to ${g.airport}?`, fr: `Quelle station de ski est la plus proche de ${g.airport} ?`, es: `¿Qué estación de esquí está más cerca de ${g.airport}?`, pt: `Que estância de esqui está mais perto de ${g.airport}?`, it: `Quale località sciistica è più vicina a ${g.airport}?`, nl: `Welk skigebied ligt het dichtst bij ${g.airport}?` } as Record<Locale, string>)[l],
+      a: ({ en: `${top.d.name}, in ${localizeRegion(top.d.region, 'en')}, is the nearest at about ${top.km} km in a straight line. By mountain road it is longer, but nothing else is closer.`, fr: `${top.d.name}, ${localizeRegion(top.d.region, 'fr')}, est la plus proche, à environ ${top.km} km à vol d'oiseau. Par la route de montagne c'est plus long, mais rien n'est plus près.`, es: `${top.d.name}, en ${localizeRegion(top.d.region, 'es')}, es la más cercana, a unos ${top.km} km en línea recta. Por carretera de montaña es más, pero nada está más cerca.`, pt: `${top.d.name}, em ${localizeRegion(top.d.region, 'pt')}, é a mais próxima, a cerca de ${top.km} km em linha reta. Por estrada de montanha é mais, mas nada está mais perto.`, it: `${top.d.name}, in ${localizeRegion(top.d.region, 'it')}, è la più vicina, a circa ${top.km} km in linea d'aria. Su strada di montagna è di più, ma niente è più vicino.`, nl: `${top.d.name}, in ${localizeRegion(top.d.region, 'nl')}, ligt het dichtstbij, op ongeveer ${top.km} km in een rechte lijn. Over de bergweg is het verder, maar niets ligt dichterbij.` } as Record<Locale, string>)[l],
     },
     {
-      q: ({ en: `How are these distances measured?`, fr: `Comment ces distances sont-elles mesurées ?`, es: `¿Cómo se miden estas distancias?`, pt: `Como são medidas estas distâncias?`, it: `Come sono misurate queste distanze?` } as Record<Locale, string>)[l],
-      a: ({ en: `As the crow flies, from the airport coordinates to each resort. It is a fair way to rank what is nearest, but real driving distance is longer on winding Alpine roads, so treat it as an order of proximity, not a transfer time.`, fr: `À vol d'oiseau, des coordonnées de l'aéroport à chaque station. C'est une façon juste de classer le plus proche, mais la distance réelle par la route est plus longue sur les routes alpines sinueuses : voyez-le comme un ordre de proximité, pas un temps de transfert.`, es: `En línea recta, desde las coordenadas del aeropuerto a cada estación. Es una forma justa de ordenar lo más cercano, pero la distancia real por carretera es mayor en las sinuosas carreteras alpinas: tómalo como un orden de proximidad, no un tiempo de traslado.`, pt: `Em linha reta, das coordenadas do aeroporto a cada estância. É uma forma justa de ordenar o mais próximo, mas a distância real por estrada é maior nas sinuosas estradas alpinas: veja-o como uma ordem de proximidade, não um tempo de transfer.`, it: `In linea d'aria, dalle coordinate dell'aeroporto a ogni località. È un modo equo per ordinare ciò che è più vicino, ma la distanza reale su strada è maggiore sulle tortuose strade alpine: consideralo un ordine di vicinanza, non un tempo di trasferimento.` } as Record<Locale, string>)[l],
+      q: ({ en: `How are these distances measured?`, fr: `Comment ces distances sont-elles mesurées ?`, es: `¿Cómo se miden estas distancias?`, pt: `Como são medidas estas distâncias?`, it: `Come sono misurate queste distanze?`, nl: `Hoe worden deze afstanden gemeten?` } as Record<Locale, string>)[l],
+      a: ({ en: `As the crow flies, from the airport coordinates to each resort. It is a fair way to rank what is nearest, but real driving distance is longer on winding Alpine roads, so treat it as an order of proximity, not a transfer time.`, fr: `À vol d'oiseau, des coordonnées de l'aéroport à chaque station. C'est une façon juste de classer le plus proche, mais la distance réelle par la route est plus longue sur les routes alpines sinueuses : voyez-le comme un ordre de proximité, pas un temps de transfert.`, es: `En línea recta, desde las coordenadas del aeropuerto a cada estación. Es una forma justa de ordenar lo más cercano, pero la distancia real por carretera es mayor en las sinuosas carreteras alpinas: tómalo como un orden de proximidad, no un tiempo de traslado.`, pt: `Em linha reta, das coordenadas do aeroporto a cada estância. É uma forma justa de ordenar o mais próximo, mas a distância real por estrada é maior nas sinuosas estradas alpinas: veja-o como uma ordem de proximidade, não um tempo de transfer.`, it: `In linea d'aria, dalle coordinate dell'aeroporto a ogni località. È un modo equo per ordinare ciò che è più vicino, ma la distanza reale su strada è maggiore sulle tortuose strade alpine: consideralo un ordine di vicinanza, non un tempo di trasferimento.`, nl: `In een rechte lijn, van de coördinaten van de luchthaven tot elk skigebied. Het is een eerlijke manier om te rangschikken wat het dichtst bij is, maar de werkelijke rijafstand is langer op kronkelende Alpenwegen: zie het als een volgorde van nabijheid, niet als een overstaptijd.` } as Record<Locale, string>)[l],
     },
   ]
 

@@ -52,6 +52,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El mayor dominio enlazado del mundo: 600 km de pistas y ocho estaciones con un solo forfait, en lo alto de la Tarentaise.",
       pt: "O maior domínio ligado do mundo: 600 km de pistas e oito estâncias num só forfait, no alto da Tarentaise.",
       it: "Il più grande comprensorio collegato del mondo: 600 km di piste e otto località con un solo skipass, in cima alla Tarentaise.",
+      nl: "Het grootste aaneengesloten skigebied ter wereld: 600 km piste en acht skigebieden op een enkele skipas, hoog boven de Tarentaise.",
     },
     description: {
       en: 'Les 3 Vallées joins Courchevel, Méribel, Val Thorens and Les Menuires, plus their satellites, into one vast 600 km playground served by around 160 lifts, almost all of it above 1800 m. It is the benchmark for big-mountain skiing in France, with terrain for every level and snow that lasts thanks to the altitude. One pass covers four of our resorts, so you can base yourself anywhere and ski the lot.',
@@ -59,6 +60,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Les 3 Vallées une Courchevel, Méribel, Val Thorens y Les Menuires, además de sus satélites, en un inmenso terreno de juego de 600 km servido por unos 160 remontes, casi todo por encima de los 1800 m. Es la referencia del gran esquí en Francia, con terreno para todos los niveles y una nieve que aguanta gracias a la altitud. Un solo forfait cubre cuatro de nuestras estaciones: puedes alojarte donde quieras y esquiarlo todo.",
       pt: "As 3 Vallées unem Courchevel, Méribel, Val Thorens e Les Menuires, mais os seus satélites, num imenso recreio de 600 km servido por cerca de 160 teleféricos, quase tudo acima dos 1800 m. É a referência do grande esqui em França, com terreno para todos os níveis e uma neve que aguenta graças à altitude. Um só forfait cobre quatro das nossas estâncias: pode ficar em qualquer uma e esquiar tudo.",
       it: "Les 3 Vallées collegano Courchevel, Méribel, Val Thorens e Les Menuires, insieme ai loro satelliti, in un immenso terreno di gioco di 600 km servito da circa 160 impianti, quasi tutti sopra i 1.800 m. È il riferimento del grande sci in Francia, con terreno per ogni livello e una neve che tiene grazie alla quota. Un solo skipass copre quattro delle nostre località: si può alloggiare ovunque e sciare tutto.",
+      nl: "Les 3 Vallées verbindt Courchevel, Méribel, Val Thorens en Les Menuires, plus hun satellietdorpen, tot een immense speeltuin van 600 km, bediend door zo'n 160 liften, bijna allemaal boven de 1800 m. Het is de maatstaf voor grootschalig skiën in Frankrijk, met terrein voor elk niveau en sneeuw die blijft liggen dankzij de hoogte. Een enkele skipas dekt vier van onze skigebieden, dus je kunt je overal vestigen en alles skiën.",
     },
   },
   {
@@ -80,6 +82,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Les Arcs y La Plagne unidos por el teleférico de dos pisos Vanoise Express, 425 km con un solo forfait.",
       pt: "Les Arcs e La Plagne ligados pelo teleférico de dois andares Vanoise Express, 425 km num só forfait.",
       it: "Les Arcs e La Plagne collegate dalla funivia a due piani Vanoise Express, 425 km su un solo skipass.",
+      nl: "Les Arcs en La Plagne verbonden door de dubbeldekskabelbaan Vanoise Express, 425 km op een enkele skipas.",
     },
     description: {
       en: 'Paradiski links Les Arcs and La Plagne across the Ponturin valley via the Vanoise Express, one of the world\'s largest cable cars, for 425 km of piste topping out on the Bellecôte glacier at 3250 m. It pairs high, snow-sure skiing with a huge spread of slope-side accommodation. Base in either resort and the whole domain is a cable-car ride away.',
@@ -87,6 +90,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Paradiski une Les Arcs y La Plagne por encima del valle del Ponturin mediante el Vanoise Express, uno de los mayores teleféricos del mundo, para 425 km de pistas que culminan en el glaciar de Bellecôte a 3250 m. Combina un esquí de altura con buena nieve y una enorme oferta de alojamiento a pie de pista. Alójate en cualquiera de las dos y todo el dominio queda a un teleférico.",
       pt: "Paradiski liga Les Arcs e La Plagne por cima do vale do Ponturin através do Vanoise Express, um dos maiores teleféricos do mundo, para 425 km de pistas que culminam no glaciar de Bellecôte a 3250 m. Combina um esqui de altitude com boa neve e uma enorme oferta de alojamento no sopé das pistas. Fique numa das duas e todo o domínio está a um teleférico de distância.",
       it: "Paradiski collega Les Arcs e La Plagne attraverso la valle del Ponturin grazie al Vanoise Express, una delle funivie più grandi del mondo, per 425 km di piste che culminano sul ghiacciaio del Bellecôte a 3.250 m. Unisce uno sci d'alta quota ben innevato a un'enorme offerta di alloggi ai piedi delle piste. Si soggiorna in una delle due località e tutto il comprensorio è a una funivia di distanza.",
+      nl: "Paradiski verbindt Les Arcs en La Plagne over de Ponturinvallei via de Vanoise Express, een van 's werelds grootste kabelbanen, voor 425 km piste die uitloopt op de gletsjer van Bellecôte op 3250 m. Het combineert hooggelegen, sneeuwzeker skiën met een enorm aanbod aan accommodatie vlak bij de piste. Verblijf in een van beide skigebieden en het hele domein ligt een kabelbaanrit verderop.",
     },
   },
   {
@@ -108,6 +112,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Tignes y Val d'Isère juntos, 300 km de pistas altas y de nieve segura, conocidas por una generación como el Espace Killy.",
       pt: "Tignes e Val d'Isère juntos, 300 km de pistas altas e de neve segura, conhecidas por uma geração como o Espace Killy.",
       it: "Tignes e Val d'Isère insieme, 300 km di piste d'alta quota ben innevate, conosciute da una generazione con il nome di Espace Killy.",
+      nl: "Tignes en Val d'Isère samen, 300 km hooggelegen, sneeuwzekere piste die een hele generatie kent als de Espace Killy.",
     },
     description: {
       en: 'The Espace Killy links Tignes and Val d\'Isère into 300 km of mostly high-altitude piste topping out on the Grande Motte glacier at 3456 m, which is why the season here runs longer than almost anywhere in the Alps. It is a serious skier\'s domain, big on vertical, off-piste and reliable snow. Stay in either resort and the lifts carry you seamlessly across both.',
@@ -115,6 +120,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Espace Killy une Tignes y Val d'Isère en 300 km de pistas sobre todo de altura, que culminan en el glaciar de la Grande Motte a 3456 m, lo que explica una temporada más larga que casi en cualquier sitio de los Alpes. Es un dominio de esquiadores, generoso en desnivel, fuera de pista y nieve fiable. Alójate en cualquiera de las dos y los remontes te llevan de una a otra sin cortes.",
       pt: "O Espace Killy liga Tignes e Val d'Isère em 300 km de pistas sobretudo de altitude, que culminam no glaciar da Grande Motte a 3456 m, o que explica uma época mais longa do que quase em qualquer lado dos Alpes. É um domínio de esquiadores, generoso em desnível, fora-de-pista e neve fiável. Fique numa das duas e os teleféricos levam-no de uma à outra sem interrupções.",
       it: "L'Espace Killy collega Tignes e Val d'Isère in 300 km di piste prevalentemente d'alta quota, che culminano sul ghiacciaio della Grande Motte a 3.456 m, ragione per cui la stagione qui dura più a lungo che quasi ovunque nelle Alpi. È un comprensorio da sciatori veri, generoso in dislivello, fuori pista e neve affidabile. Si soggiorna in una delle due località e gli impianti permettono di passare dall'una all'altra senza interruzioni.",
+      nl: "De Espace Killy verbindt Tignes en Val d'Isère tot 300 km piste, grotendeels op grote hoogte en uitlopend op de gletsjer van de Grande Motte op 3456 m, waardoor het seizoen hier langer duurt dan bijna overal anders in de Alpen. Het is een domein voor serieuze skiërs, met veel hoogteverschil, off-piste en betrouwbare sneeuw. Verblijf in een van beide skigebieden en de liften brengen je moeiteloos van het ene naar het andere.",
     },
   },
   {
@@ -136,6 +142,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Uno de los mayores dominios internacionales del mundo: unos 600 km a través de una docena de pueblos franceses y suizos con un solo forfait.",
       pt: "Um dos maiores domínios internacionais do mundo: cerca de 600 km por uma dúzia de aldeias francesas e suíças num só forfait.",
       it: "Uno dei più grandi comprensori internazionali del mondo: circa 600 km tra una dozzina di borghi francesi e svizzeri su un solo skipass.",
+      nl: "Een van de grootste internationale skidomeinen ter wereld: zo'n 600 km verspreid over een dozijn Franse en Zwitserse dorpen op een enkele skipas.",
     },
     description: {
       en: 'The Portes du Soleil strings a dozen resorts across the French and Swiss border into roughly 600 km of piste served by some 196 lifts, all linked ski-to-ski around a great loop. It is mostly intermediate, tree-lined and hugely varied, from family Les Gets to the cliff-top modernism of Avoriaz. Four of its French villages feature here, each a different way into the same vast circuit.',
@@ -143,6 +150,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Los Portes du Soleil encadenan una docena de estaciones a ambos lados de la frontera francosuiza en unos 600 km de pistas servidas por cerca de 196 remontes, enlazadas a pie de pista en un gran circuito. El esquí es sobre todo intermedio, arbolado y muy variado, de la familiar Les Gets al modernismo colgado de Avoriaz. Cuatro de sus pueblos franceses aparecen aquí, cada uno una entrada distinta al mismo vasto circuito.",
       pt: "Os Portes du Soleil encadeiam uma dúzia de estâncias de ambos os lados da fronteira franco-suíça em cerca de 600 km de pistas servidas por uns 196 teleféricos, ligadas a esqui num grande circuito. O esqui é sobretudo intermédio, arborizado e muito variado, da familiar Les Gets ao modernismo empoleirado de Avoriaz. Quatro das suas aldeias francesas aparecem aqui, cada uma uma entrada diferente para o mesmo vasto circuito.",
       it: "Le Portes du Soleil concatenano una dozzina di località a cavallo del confine franco-svizzero in circa 600 km di piste servite da circa 196 impianti, collegate sci ai piedi su un grande anello. Lo sci è soprattutto intermedio, immerso nei boschi e molto vario, dalla familiare Les Gets al modernismo a strapiombo di Avoriaz. Quattro dei suoi borghi francesi sono presenti qui, ciascuno una porta d'ingresso diversa allo stesso vasto circuito.",
+      nl: "De Portes du Soleil rijgt een dozijn skigebieden aan weerszijden van de Frans-Zwitserse grens aaneen tot zo'n 600 km piste, bediend door ongeveer 196 liften, allemaal ski-aan-ski verbonden in een grote lus. Het is grotendeels middelmoeilijk, bebost en enorm gevarieerd, van het familievriendelijke Les Gets tot het modernisme op de rotsen van Avoriaz. Vier van de Franse dorpen komen hier aan bod, elk een andere toegangspoort tot hetzelfde immense circuit.",
     },
   },
   {
@@ -164,6 +172,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "400 km de pistas soleadas y panorámicas bajo el Mont Blanc, compartidas por Megève, Saint-Gervais y Combloux.",
       pt: "400 km de pistas solarengas e panorâmicas sob o Mont Blanc, partilhadas por Megève, Saint-Gervais e Combloux.",
       it: "400 km di piste soleggiate e panoramiche ai piedi del Monte Bianco, condivise da Megève, Saint-Gervais e Combloux.",
+      nl: "400 km zonnige, panoramische piste onder de Mont Blanc, gedeeld door Megève, Saint-Gervais en Combloux.",
     },
     description: {
       en: 'Évasion Mont-Blanc links Megève, Saint-Gervais, Combloux and their neighbours into 400 km of mostly gentle, beautifully scenic piste facing the Mont Blanc massif. It is intermediate heaven, long cruising runs through forest and over open balconies, with the grandest backdrop in the Alps. Pick the chic of Megève or the spa-town calm of Saint-Gervais and ski the lot.',
@@ -171,6 +180,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Évasion Mont-Blanc une Megève, Saint-Gervais, Combloux y sus vecinas en 400 km de pistas sobre todo suaves y de gran belleza, frente al macizo del Mont Blanc. Es el paraíso del intermedio, largas pistas rodadoras por el bosque y sobre balcones abiertos, con el mayor telón de fondo de los Alpes. Elige el chic de Megève o la calma termal de Saint-Gervais y esquíalo todo.",
       pt: "Évasion Mont-Blanc une Megève, Saint-Gervais, Combloux e as suas vizinhas em 400 km de pistas sobretudo suaves e de grande beleza, viradas para o maciço do Mont Blanc. É o paraíso do intermédio, longas pistas roladoras pela floresta e sobre varandas abertas, com o maior pano de fundo dos Alpes. Escolha o chique de Megève ou a calma termal de Saint-Gervais e esquie tudo.",
       it: "Évasion Mont-Blanc collega Megève, Saint-Gervais, Combloux e i loro vicini in 400 km di piste perlopiù dolci e splendidamente panoramiche, di fronte al massiccio del Monte Bianco. È il paradiso degli intermedi, con lunghe piste scorrevoli nei boschi e su balconate aperte, con lo scenario più grandioso delle Alpi. Si sceglie il chic di Megève o la calma termale di Saint-Gervais e si scia tutto il comprensorio.",
+      nl: "Évasion Mont-Blanc verbindt Megève, Saint-Gervais, Combloux en hun buren tot 400 km piste, grotendeels licht glooiend en prachtig panoramisch, met uitzicht op het Mont Blanc-massief. Het is een paradijs voor gemiddelde skiërs, met lange, soepel glijdende pistes door bossen en over open balkons, en het grootste decor van de Alpen. Kies voor de chique van Megève of de rustige kuuroordsfeer van Saint-Gervais en ski het hele gebied.",
     },
   },
   {
@@ -192,6 +202,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "265 km sobre el valle del Giffre, de la segura Flaine al viejo pueblo de Samoëns.",
       pt: "265 km acima do vale do Giffre, da segura Flaine à velha aldeia de Samoëns.",
       it: "265 km sopra la valle del Giffre, dalla sicura Flaine al vecchio borgo di Samoëns.",
+      nl: "265 km boven de Giffrevallei, van het sneeuwzekere Flaine tot het oude dorp Samoëns.",
     },
     description: {
       en: 'The Grand Massif links Flaine, Samoëns, Morillon, Les Carroz and Sixt into 265 km of piste, crowned by the snow-sure bowl of Flaine and the long Cascades run down to the valley. It blends a high, purpose-built hub with genuine old Savoyard villages, less than an hour from Geneva. Two of its faces feature here, very different bases for the same domain.',
@@ -199,6 +210,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Grand Massif une Flaine, Samoëns, Morillon, Les Carroz y Sixt en 265 km de pistas, coronados por el circo de nieve segura de Flaine y la larga pista de las Cascades hasta el valle. Combina un núcleo de altura construido con auténticos viejos pueblos saboyanos, a menos de una hora de Ginebra. Dos de sus caras aparecen aquí, dos bases muy distintas para el mismo dominio.",
       pt: "O Grand Massif une Flaine, Samoëns, Morillon, Les Carroz e Sixt em 265 km de pistas, coroados pelo circo de neve segura de Flaine e pela longa pista das Cascades até ao vale. Combina um polo de altitude construído com autênticas velhas aldeias saboianas, a menos de uma hora de Genebra. Duas das suas faces aparecem aqui, duas bases muito diferentes para o mesmo domínio.",
       it: "Il Grand Massif collega Flaine, Samoëns, Morillon, Les Carroz e Sixt in 265 km di piste, coronati dal vallone ben innevato di Flaine e dalla lunga pista des Cascades fino a valle. Unisce un polo d'alta quota costruito ad autentici vecchi borghi savoiardi, a meno di un'ora da Ginevra. Due dei suoi volti sono presenti qui, due basi molto diverse per lo stesso comprensorio.",
+      nl: "Het Grand Massif verbindt Flaine, Samoëns, Morillon, Les Carroz en Sixt tot 265 km piste, met als kroonjuweel de sneeuwzekere kom van Flaine en de lange Cascades-afdaling naar de vallei. Het combineert een hooggelegen, doelgericht gebouwd centrum met authentieke oude Savoyaardse dorpen, minder dan een uur van Genève. Twee van de gezichten van het gebied komen hier aan bod, heel verschillende uitvalsbases voor hetzelfde domein.",
     },
   },
   {
@@ -220,6 +232,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Vars y Risoul unidos por la cresta, 185 km de pistas soleadas de los Alpes del Sur entre alerces.",
       pt: "Vars e Risoul ligados pela crista, 185 km de pistas solarengas dos Alpes do Sul por entre lariços.",
       it: "Vars e Risoul collegate dalla cresta, 185 km di piste soleggiate delle Alpi del Sud tra i larici.",
+      nl: "Vars en Risoul verbonden over de bergkam, 185 km zonnige piste van de zuidelijke Alpen door de lariksbossen.",
     },
     description: {
       en: 'La Forêt Blanche links Vars and Risoul across the Pic de Chabrières into 185 km of sunny, larch-lined piste in the southern Alps. It is friendly, good value and reliably bright, with enough sweeping reds and off-piste to keep strong skiers happy. Base in either resort and the whole domain opens up over the hill.',
@@ -227,6 +240,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Forêt Blanche une Vars y Risoul por el Pic de Chabrières en 185 km de pistas soleadas y bordeadas de alerces, en los Alpes del Sur. Acogedora, de buena relación calidad-precio y fiablemente luminosa, ofrece suficientes rojas amplias y fuera de pista para contentar a los buenos esquiadores. Alójate en cualquiera de las dos y todo el dominio se abre al otro lado de la loma.",
       pt: "La Forêt Blanche une Vars e Risoul pelo Pic de Chabrières em 185 km de pistas solarengas e ladeadas de lariços, nos Alpes do Sul. Acolhedora, de boa relação qualidade-preço e fiavelmente luminosa, oferece amplas vermelhas e fora-de-pista que chegam para contentar os bons esquiadores. Fique numa das duas e todo o domínio se abre do outro lado da crista.",
       it: "La Forêt Blanche collega Vars e Risoul attraverso il Pic de Chabrières in 185 km di piste soleggiate e bordate di larici, nelle Alpi del Sud. Accogliente, dall'ottimo rapporto qualità-prezzo e fedelmente luminosa, offre abbastanza grandi piste rosse e fuori pista per accontentare i buoni sciatori. Si soggiorna in una delle due località e tutto il comprensorio si apre dall'altra parte della cresta.",
+      nl: "La Forêt Blanche verbindt Vars en Risoul over de Pic de Chabrières tot 185 km zonnige piste, omzoomd door lariksen, in de zuidelijke Alpen. Het is vriendelijk, voordelig en betrouwbaar zonnig, met genoeg lange rode pistes en off-piste om sterke skiërs tevreden te houden. Verblijf in een van beide skigebieden en het hele domein opent zich aan de andere kant van de heuvel.",
     },
   },
   {
@@ -248,6 +262,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Valloire y Valmeinier unidos al pie del Galibier, 150 km de pistas soleadas de la Maurienne.",
       pt: "Valloire e Valmeinier ligados ao pé do Galibier, 150 km de pistas solarengas da Maurienne.",
       it: "Valloire e Valmeinier collegate ai piedi del Galibier, 150 km di piste soleggiate della Maurienne.",
+      nl: "Valloire en Valmeinier verbonden aan de voet van de Galibier, 150 km zonnige piste in de Maurienne.",
     },
     description: {
       en: 'The Galibier-Thabor domain joins the old village of Valloire with the quieter Valmeinier for 150 km of sunny, varied piste below the legendary Col du Galibier. It mixes real Savoyard character with reliable high-altitude snow, at prices well under the Tarentaise giants. Two contrasting bases, one connected domain.',
@@ -255,6 +270,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El dominio Galibier-Thabor une el viejo pueblo de Valloire con la más tranquila Valmeinier para 150 km de pistas soleadas y variadas, bajo el legendario Col du Galibier. Mezcla un carácter saboyano de verdad con una nieve de altura fiable, a precios muy por debajo de los gigantes de la Tarentaise. Dos bases contrastadas, un dominio conectado.",
       pt: "O domínio Galibier-Thabor une a velha aldeia de Valloire à mais tranquila Valmeinier para 150 km de pistas solarengas e variadas, sob o lendário Col du Galibier. Mistura um carácter saboiano a sério com uma neve de altitude fiável, a preços bem abaixo dos gigantes da Tarentaise. Duas bases contrastantes, um domínio ligado.",
       it: "Il comprensorio Galibier-Thabor unisce il vecchio borgo di Valloire alla più tranquilla Valmeinier per 150 km di piste soleggiate e varie, sotto il leggendario col du Galibier. Mescola un autentico carattere savoiardo a una neve d'alta quota affidabile, a tariffe ben inferiori ai giganti della Tarentaise. Due basi contrastanti, un comprensorio collegato.",
+      nl: "Het domein Galibier-Thabor verbindt het oude dorp Valloire met het rustigere Valmeinier tot 150 km zonnige, gevarieerde piste onder de legendarische Col du Galibier. Het combineert authentiek Savoyaards karakter met betrouwbare sneeuw op grote hoogte, tegen prijzen ruim onder die van de reuzen van de Tarentaise. Twee contrasterende uitvalsbases, een verbonden domein.",
     },
   },
   {
@@ -276,6 +292,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Valmorel y Saint-François-Longchamp unidos por el Col de la Madeleine, 165 km con un solo forfait.",
       pt: "Valmorel e Saint-François-Longchamp ligados pelo Col de la Madeleine, 165 km num só forfait.",
       it: "Valmorel e Saint-François-Longchamp collegate dal col de la Madeleine, 165 km su un solo skipass.",
+      nl: "Valmorel en Saint-François-Longchamp verbonden over de Col de la Madeleine, 165 km op een enkele skipas.",
     },
     description: {
       en: 'Le Grand Domaine connects Valmorel and Saint-François-Longchamp across the Col de la Madeleine into 165 km of sunny, mostly intermediate piste. It is one of the better-value family domains in the Savoie, low-key, well-laid-out and rarely crowded. Either resort gives you the whole area at the door.',
@@ -283,6 +300,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Le Grand Domaine conecta Valmorel y Saint-François-Longchamp por el Col de la Madeleine en 165 km de pistas soleadas, sobre todo intermedias. Es uno de los dominios familiares de mejor relación calidad-precio de la Saboya, discreto, bien trazado y rara vez abarrotado. Cualquiera de las dos estaciones te da todo el dominio a la puerta.",
       pt: "Le Grand Domaine liga Valmorel e Saint-François-Longchamp pelo Col de la Madeleine em 165 km de pistas solarengas, sobretudo intermédias. É um dos domínios familiares de melhor relação qualidade-preço da Saboia, discreto, bem traçado e raramente cheio. Qualquer das duas estâncias dá-lhe todo o domínio à porta.",
       it: "Le Grand Domaine collega Valmorel e Saint-François-Longchamp attraverso il col de la Madeleine in 165 km di piste soleggiate, perlopiù intermedie. È uno dei comprensori familiari dal miglior rapporto qualità-prezzo della Savoia, discreto, ben tracciato e raramente affollato. Ogni località dà accesso all'intero comprensorio direttamente dalla porta.",
+      nl: "Le Grand Domaine verbindt Valmorel en Saint-François-Longchamp over de Col de la Madeleine tot 165 km zonnige, grotendeels middelmoeilijke piste. Het is een van de voordeligere familiedomeinen in de Savoie, ingetogen, goed uitgelegd en zelden druk. Beide skigebieden geven je toegang tot het hele gebied vanaf de voordeur.",
     },
   },
   {
@@ -304,6 +322,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "250 km de pistas bañadas de sol del Oisans desde el Pic Blanc a 3330 m, compartidas por Alpe d'Huez y Vaujany.",
       pt: "250 km de pistas cheias de sol do Oisans desde o Pic Blanc a 3330 m, partilhadas por Alpe d'Huez e Vaujany.",
       it: "250 km di piste baciate dal sole dell'Oisans dal Pic Blanc a 3.330 m, condivise da Alpe d'Huez e Vaujany.",
+      nl: "250 km zongedrenkte piste in de Oisans vanaf de Pic Blanc op 3330 m, gedeeld door Alpe d'Huez en Vaujany.",
     },
     description: {
       en: "The Alpe d'Huez Grand Domaine spreads 250 km of famously sunny piste across the Grandes Rousses, from the glacier runs off the 3330 m Pic Blanc to the 16 km Sarenne, the longest black run in the Alps. Buzzy Alpe d'Huez and the quiet village of Vaujany are two very different ways in. One pass, the whole massif.",
@@ -311,6 +330,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Alpe d'Huez Grand Domaine despliega 250 km de pistas famosas por su sol en las Grandes Rousses, de las bajadas glaciares del Pic Blanc a 3330 m a la Sarenne y sus 16 km, la negra más larga de los Alpes. La animada Alpe d'Huez y el tranquilo pueblo de Vaujany son dos entradas muy distintas. Un forfait, todo el macizo.",
       pt: "O Alpe d'Huez Grand Domaine desdobra 250 km de pistas famosas pelo sol nas Grandes Rousses, das descidas glaciares do Pic Blanc a 3330 m à Sarenne e os seus 16 km, a mais longa negra dos Alpes. A animada Alpe d'Huez e a tranquila aldeia de Vaujany são duas entradas bem diferentes. Um forfait, todo o maciço.",
       it: "L'Alpe d'Huez Grand Domaine dispiega 250 km di piste famose per il sole sulle Grandes Rousses, dalle discese glaciali del Pic Blanc a 3.330 m alla Sarenne, lunga 16 km, la pista nera più lunga delle Alpi. La vivace Alpe d'Huez e il tranquillo borgo di Vaujany sono due porte d'ingresso molto diverse. Uno skipass, tutto il massiccio.",
+      nl: "Het Alpe d'Huez Grand Domaine spreidt 250 km beroemd zonnige piste uit over de Grandes Rousses, van de gletsjerafdalingen vanaf de Pic Blanc op 3330 m tot de 16 km lange Sarenne, de langste zwarte piste van de Alpen. Het bruisende Alpe d'Huez en het rustige dorp Vaujany zijn twee heel verschillende ingangen. Een skipas, het hele massief.",
     },
   },
   {
@@ -332,6 +352,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Vía Láctea transfronteriza: unos 400 km que enlazan el francés Montgenèvre con la italiana Sestriere y las pistas olímpicas.",
       pt: "A Via Láctea transfronteiriça: cerca de 400 km que ligam o francês Montgenèvre à italiana Sestriere e às pistas olímpicas.",
       it: "La Via Lattea transfrontaliera: circa 400 km che collegano la francese Montgenèvre all'italiana Sestriere e alle piste olimpiche.",
+      nl: "De grensoverschrijdende Melkweg: zo'n 400 km die het Franse Montgenèvre verbindt met het Italiaanse Sestriere en de Olympische hellingen.",
     },
     description: {
       en: 'The Via Lattea, or Milky Way, links Montgenèvre in France with Sestriere, Sauze d\'Oulx and the other Italian villages of the 2006 Olympics into around 400 km of sunny, high piste straddling the border. It is vast, varied and great value on the Italian side, with long descents and big views. Cross from France to Italy and back on a single pass.',
@@ -339,6 +360,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Via Lattea, o Vía Láctea, enlaza Montgenèvre en Francia con Sestriere, Sauze d'Oulx y los demás pueblos italianos de los Juegos de 2006, en unos 400 km de pistas altas y soleadas a caballo de la frontera. Vasta, variada y de excelente relación calidad-precio en el lado italiano, ofrece largos descensos y grandes vistas. Se pasa de Francia a Italia y vuelta con un solo forfait.",
       pt: "A Via Lattea, ou Via Láctea, liga Montgenèvre em França a Sestriere, Sauze d'Oulx e às outras aldeias italianas dos Jogos de 2006, em cerca de 400 km de pistas altas e solarengas a cavalo da fronteira. Vasta, variada e de excelente relação qualidade-preço do lado italiano, oferece longas descidas e grandes vistas. Passa-se de França para Itália e de volta num só forfait.",
       it: "La Via Lattea collega Montgenèvre in Francia a Sestriere, Sauze d'Oulx e agli altri paesi italiani dei Giochi del 2006 in circa 400 km di piste d'alta quota e soleggiate a cavallo del confine. Vasta, varia e dall'eccellente rapporto qualità-prezzo sul versante italiano, offre lunghe discese e ampi panorami. Si passa dalla Francia all'Italia e ritorno con un solo skipass.",
+      nl: "De Via Lattea, oftewel de Melkweg, verbindt Montgenèvre in Frankrijk met Sestriere, Sauze d'Oulx en de andere Italiaanse dorpen van de Olympische Spelen van 2006 tot zo'n 400 km zonnige, hooggelegen piste schrijlings over de grens. Het is uitgestrekt, gevarieerd en erg voordelig aan de Italiaanse kant, met lange afdalingen en weidse uitzichten. Steek over van Frankrijk naar Italië en terug op een enkele skipas.",
     },
   },
   {
@@ -360,6 +382,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Molina y Masella unidas por la Tosa d'Alp, 140 km y el mayor dominio del Pirineo oriental español.",
       pt: "La Molina e Masella ligadas pela Tosa d'Alp, 140 km e o maior domínio dos Pirenéus orientais espanhóis.",
       it: "La Molina e Masella collegate dalla Tosa d'Alp, 140 km e il più grande comprensorio dei Pirenei spagnoli orientali.",
+      nl: "La Molina en Masella verbonden over de Tosa d'Alp, 140 km en het grootste domein van de oostelijke Spaanse Pyreneeën.",
     },
     description: {
       en: 'Alp 2500 joins historic La Molina with forested Masella over the 2537 m Tosa d\'Alp, making 140 km of sunny, family-friendly piste, the biggest linked area in the Catalan Pyrenees. It is easy to reach from Barcelona, even by train, and famous for long tree runs and night skiing. Two resorts, one of the friendliest big domains in Spain.',
@@ -367,6 +390,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Alp 2500 une la histórica La Molina con la arbolada Masella por encima de la Tosa d'Alp a 2537 m, para 140 km de pistas soleadas y familiares, el mayor dominio enlazado del Pirineo catalán. Es fácil de alcanzar desde Barcelona, incluso en tren, y famoso por sus largas pistas entre árboles y su esquí nocturno. Dos estaciones, uno de los grandes dominios más acogedores de España.",
       pt: "Alp 2500 une a histórica La Molina à arborizada Masella por cima da Tosa d'Alp a 2537 m, para 140 km de pistas solarengas e familiares, o maior domínio ligado dos Pirenéus catalães. É fácil de alcançar desde Barcelona, mesmo de comboio, e famoso pelas longas pistas entre árvores e pelo esqui noturno. Duas estâncias, um dos grandes domínios mais acolhedores de Espanha.",
       it: "Alp 2500 unisce la storica La Molina alla boscosa Masella attraverso la Tosa d'Alp a 2.537 m, per 140 km di piste soleggiate e familiari, il più grande comprensorio collegato dei Pirenei catalani. Facilmente raggiungibile da Barcellona, anche in treno, è celebre per le lunghe piste nei boschi e lo sci notturno. Due località, uno dei grandi comprensori più accoglienti della Spagna.",
+      nl: "Alp 2500 verbindt het historische La Molina met het beboste Masella over de Tosa d'Alp op 2537 m, samen goed voor 140 km zonnige, gezinsvriendelijke piste, het grootste aaneengesloten gebied in de Catalaanse Pyreneeën. Het is gemakkelijk te bereiken vanuit Barcelona, zelfs met de trein, en beroemd om zijn lange boswegen en nachtskiën. Twee skigebieden, een van de gastvrijste grote domeinen van Spanje.",
     },
   },
   {
@@ -388,6 +412,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Las dos estaciones del valle de Tena con un solo forfait Aramón: la animada Formigal y la pintoresca Panticosa, 216 km en total.",
       pt: "As duas estâncias do vale de Tena num só passe Aramón: a animada Formigal e a pitoresca Panticosa, 216 km no total.",
       it: "Le due località della valle di Tena su un solo skipass Aramón: la vivace Formigal e la fotogenica Panticosa, 216 km in tutto.",
+      nl: "De twee skigebieden van de Tenavallei op een Aramón-skipas: het levendige Formigal en het schilderachtige Panticosa, 216 km in totaal.",
     },
     description: {
       en: 'Formigal and Panticosa sit in the Aragonese Tena valley and share a single Aramón lift pass, combining for around 216 km of piste, the largest ski offer in the Spanish Pyrenees. Big, sunny, party-loving Formigal contrasts with the smaller, prettier Panticosa and its famous spa just down the valley. One pass covers both mountains.',
@@ -395,6 +420,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Formigal y Panticosa están en el valle aragonés de Tena y comparten un solo forfait Aramón, sumando unos 216 km de pistas, la mayor oferta de esquí del Pirineo español. La grande, soleada y fiestera Formigal contrasta con la más pequeña y bonita Panticosa y su famoso balneario valle abajo. Un forfait cubre las dos montañas.",
       pt: "Formigal e Panticosa ficam no vale aragonês de Tena e partilham um só passe Aramón, somando cerca de 216 km de pistas, a maior oferta de esqui dos Pirenéus espanhóis. A grande, solarenga e festiva Formigal contrasta com a mais pequena e bonita Panticosa e as suas famosas termas vale abaixo. Um passe cobre as duas montanhas.",
       it: "Formigal e Panticosa si trovano nella valle aragonese di Tena e condividono un solo skipass Aramón, per un totale di circa 216 km di piste, la più grande offerta sciistica dei Pirenei spagnoli. La grande, soleggiata e festaiola Formigal contrasta con la più piccola e graziosa Panticosa e le sue famose terme poco più a valle. Uno skipass copre entrambe le montagne.",
+      nl: "Formigal en Panticosa liggen in de Aragonese Tenavallei en delen een enkele Aramón-skipas, samen goed voor zo'n 216 km piste, het grootste skiaanbod van de Spaanse Pyreneeën. Het grote, zonnige en feestelijke Formigal contrasteert met het kleinere, mooiere Panticosa met zijn beroemde kuuroord verderop in de vallei. Een skipas dekt beide bergen.",
     },
   },
   {
@@ -416,6 +442,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Los dominios del oeste andorrano: la familiar Pal-Arinsal y la freeride Ordino-Arcalís, bajo el nombre de Vallnord.",
       pt: "Os domínios do oeste andorrano: a familiar Pal-Arinsal e a freeride Ordino-Arcalís, sob o nome Vallnord.",
       it: "I comprensori dell'Andorra occidentale: la familiare Pal-Arinsal e la freeride Ordino-Arcalís, con il nome di Vallnord.",
+      nl: "De westelijke skidomeinen van Andorra: het gezinsvriendelijke Pal-Arinsal en het freeride-gerichte Ordino-Arcalís, samen onder de naam Vallnord.",
     },
     description: {
       en: 'Vallnord groups Andorra\'s western ski areas, the linked family slopes of Pal-Arinsal and the wilder, north-facing Ordino-Arcalís, for around 93 km of varied piste. Together they are the snowier, quieter alternative to giant Grandvalira on the other side of the country. Two distinct mountains, one Andorran name.',
@@ -423,6 +450,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Vallnord agrupa los dominios del oeste andorrano, las laderas familiares enlazadas de Pal-Arinsal y la más salvaje Ordino-Arcalís orientada al norte, para unos 93 km de pistas variadas. Juntos son la alternativa más nevada y tranquila a la gigante Grandvalira, al otro lado del país. Dos montañas distintas, un nombre andorrano.",
       pt: "Vallnord agrupa os domínios do oeste andorrano, as encostas familiares ligadas de Pal-Arinsal e a mais selvagem Ordino-Arcalís virada a norte, para cerca de 93 km de pistas variadas. Juntos são a alternativa mais nevada e tranquila à gigante Grandvalira, do outro lado do país. Duas montanhas distintas, um nome andorrano.",
       it: "Vallnord raggruppa i comprensori dell'Andorra occidentale, i pendii familiari collegati di Pal-Arinsal e la più selvaggia Ordino-Arcalís esposta a nord, per circa 93 km di piste varie. Insieme rappresentano l'alternativa più innevata e tranquilla alla gigantesca Grandvalira, dall'altra parte del paese. Due montagne distinte, un nome andorrano.",
+      nl: "Vallnord groepeert de westelijke skigebieden van Andorra, de verbonden familiehellingen van Pal-Arinsal en het wildere, noordgeoriënteerde Ordino-Arcalís, samen goed voor zo'n 93 km gevarieerde piste. Samen vormen ze het besneeuwdere, rustigere alternatief voor het reusachtige Grandvalira aan de andere kant van het land. Twee verschillende bergen, een Andorrese naam.",
     },
   },
   {
@@ -444,6 +472,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El mayor dominio enlazado de Austria: St. Anton y Lech-Zürs unidos en 305 km, la cuna del esquí alpino.",
       pt: "O maior domínio ligado da Áustria: St. Anton e Lech-Zürs unidos em 305 km, o berço do esqui alpino.",
       it: "Il più grande comprensorio collegato dell'Austria: St. Anton e Lech-Zürs uniti in 305 km, la culla dello sci alpino.",
+      nl: "Het grootste aaneengesloten skidomein van Oostenrijk: St. Anton en Lech-Zürs samen goed voor 305 km, de bakermat van het alpineskiën.",
     },
     description: {
       en: 'Ski Arlberg links St. Anton, Lech, Zürs, Stuben and Warth-Schröcken into 305 km of piste and around 88 lifts, the biggest connected ski area in Austria and the birthplace of modern alpine technique. It pairs the legendary off-piste and nightlife of St. Anton with the chic, snow-sure bowls of Lech-Zürs, all on one pass and the famous White Ring circuit. Two of its great resorts anchor the domain here.',
@@ -451,6 +480,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Ski Arlberg une St. Anton, Lech, Zürs, Stuben y Warth-Schröcken en 305 km de pistas y unos 88 remontes, el mayor dominio conectado de Austria y la cuna de la técnica alpina moderna. Combina el fuera de pista y la vida nocturna legendarios de St. Anton con los circos chic y de nieve segura de Lech-Zürs, todo con un forfait y el famoso circuito del White Ring. Dos de sus grandes estaciones anclan el dominio aquí.",
       pt: "Ski Arlberg une St. Anton, Lech, Zürs, Stuben e Warth-Schröcken em 305 km de pistas e cerca de 88 teleféricos, o maior domínio ligado da Áustria e o berço da técnica alpina moderna. Combina o fora-de-pista e a vida noturna lendários de St. Anton com os circos chiques e de neve segura de Lech-Zürs, tudo num passe e no famoso circuito do White Ring. Duas das suas grandes estâncias ancoram o domínio aqui.",
       it: "Ski Arlberg collega St. Anton, Lech, Zürs, Stuben e Warth-Schröcken in 305 km di piste e circa 88 impianti, il più grande comprensorio collegato d'Austria e culla della moderna tecnica alpina. Unisce il fuori pista e la vita notturna leggendari di St. Anton ai valloni chic e ben innevati di Lech-Zürs, il tutto su un unico skipass e sul famoso circuito del White Ring. Due delle sue grandi località ancorano il comprensorio qui.",
+      nl: "Ski Arlberg verbindt St. Anton, Lech, Zürs, Stuben en Warth-Schröcken tot 305 km piste en zo'n 88 liften, het grootste aaneengesloten skigebied van Oostenrijk en de bakermat van de moderne alpinetechniek. Het combineert de legendarische off-piste en het nachtleven van St. Anton met de chique, sneeuwzekere kommen van Lech-Zürs, alles op een skipas en het beroemde White Ring-circuit. Twee van de grote skigebieden vormen hier het anker van het domein.",
     },
   },
   {
@@ -472,6 +502,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El legendario valle del Mont Blanc: Chamonix y Les Houches, 170 km de terreno con el forfait Mont Blanc Unlimited.",
       pt: "O lendário vale do Mont Blanc: Chamonix e Les Houches, 170 km de terreno no passe Mont Blanc Unlimited.",
       it: "La leggendaria valle del Monte Bianco: Chamonix e Les Houches, 170 km di terreno sullo skipass Mont Blanc Unlimited.",
+      nl: "De legendarische Mont Blanc-vallei: Chamonix en Les Houches, 170 km terrein op de Mont Blanc Unlimited-skipas.",
     },
     description: {
       en: 'The Chamonix valley spreads 170 km of piste across separate sectors under Mont Blanc, from the gentle, forested slopes of Les Houches to the steep, glacier-fringed terrain of the Grands Montets. The Mont Blanc Unlimited pass ties them together and reaches into Italy and Switzerland. It is as much a mountaineering capital as a ski resort, unmatched for scenery and serious off-piste.',
@@ -479,6 +510,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El valle de Chamonix despliega 170 km de pistas por sectores separados bajo el Mont Blanc, de las laderas suaves y arboladas de Les Houches al terreno empinado y glaciar de los Grands Montets. El forfait Mont Blanc Unlimited los une y llega hasta Italia y Suiza. Es tanto una capital del alpinismo como una estación de esquí, sin rival en paisaje y fuera de pista serio.",
       pt: "O vale de Chamonix desdobra 170 km de pistas por setores separados sob o Mont Blanc, das encostas suaves e arborizadas de Les Houches ao terreno íngreme e glaciar dos Grands Montets. O passe Mont Blanc Unlimited liga-os e estende-se até Itália e à Suíça. É tanto uma capital do alpinismo como uma estância de esqui, sem rival em paisagem e fora-de-pista a sério.",
       it: "La valle di Chamonix dispiega 170 km di piste su settori separati ai piedi del Monte Bianco, dai pendii dolci e boscosi di Les Houches al terreno ripido e glaciale dei Grands Montets. Lo skipass Mont Blanc Unlimited li riunisce e si estende fino in Italia e Svizzera. È tanto una capitale dell'alpinismo quanto una località di sci, senza rivali per i paesaggi e il fuori pista impegnativo.",
+      nl: "De vallei van Chamonix spreidt 170 km piste uit over afzonderlijke sectoren onder de Mont Blanc, van de zachte, beboste hellingen van Les Houches tot het steile, door gletsjers omzoomde terrein van de Grands Montets. De Mont Blanc Unlimited-skipas verbindt ze allemaal en reikt tot in Italië en Zwitserland. Het is minstens zoveel een bergsportcapitale als een skigebied, ongeëvenaard qua landschap en serieuze off-piste.",
     },
   },
   {
@@ -500,6 +532,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Dos estaciones vecinas de los Aravis cerca de Annecy, La Clusaz y Le Grand-Bornand, unos 220 km entre las dos.",
       pt: "Duas estâncias vizinhas dos Aravis perto de Annecy, La Clusaz e Le Grand-Bornand, cerca de 220 km entre as duas.",
       it: "Due località vicine degli Aravis vicino ad Annecy, La Clusaz e Le Grand-Bornand, circa 220 km in due.",
+      nl: "Twee naburige skigebieden van de Aravis bij Annecy, La Clusaz en Le Grand-Bornand, samen zo'n 220 km.",
     },
     description: {
       en: 'The Aravis massif above Annecy holds two of the most authentic resorts in the northern Alps, La Clusaz and Le Grand-Bornand, with around 220 km of sunny piste between them and a shared local pass. Both are working Savoyard villages, strong on character, food and tree-lined runs rather than high-rise convenience. Close to Geneva, they are a favourite weekend escape.',
@@ -507,6 +540,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El macizo de los Aravis sobre Annecy alberga dos de las estaciones más auténticas de los Alpes del Norte, La Clusaz y Le Grand-Bornand, con unos 220 km de pistas soleadas entre las dos y un forfait local compartido. Son pueblos saboyanos de verdad, fuertes en carácter, gastronomía y pistas entre árboles más que en bloques prácticos. Cerca de Ginebra, son una escapada de fin de semana favorita.",
       pt: "O maciço dos Aravis acima de Annecy alberga duas das estâncias mais autênticas dos Alpes do Norte, La Clusaz e Le Grand-Bornand, com cerca de 220 km de pistas solarengas entre as duas e um passe local partilhado. São verdadeiras aldeias saboianas, fortes em carácter, gastronomia e pistas entre árvores mais do que em blocos práticos. Perto de Genebra, são uma escapadela de fim de semana favorita.",
       it: "Il massiccio degli Aravis sopra Annecy ospita due delle località più autentiche delle Alpi del Nord, La Clusaz e Le Grand-Bornand, con circa 220 km di piste soleggiate tra le due e uno skipass locale comune. Sono veri borghi savoiardi, ricchi di carattere, cucina e piste boscose, più che di palazzine funzionali. Vicini a Ginevra, sono una delle mete preferite per il fine settimana.",
+      nl: "Het Aravismassief boven Annecy herbergt twee van de meest authentieke skigebieden van de noordelijke Alpen, La Clusaz en Le Grand-Bornand, met samen zo'n 220 km zonnige piste en een gedeelde lokale skipas. Beide zijn nog echte, werkende Savoyaardse dorpen, sterk in karakter, keuken en beboste pistes eerder dan in praktische hoogbouw. Dicht bij Genève zijn ze een geliefde weekendbestemming.",
     },
   },
   {
@@ -528,6 +562,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Eiger, el Mönch y la Jungfrau dominan esta legendaria región que enlaza Grindelwald, Wengen y Mürren, unos 206 km con un solo forfait.",
       pt: "O Eiger, o Mönch e a Jungfrau dominam esta lendária região que liga Grindelwald, Wengen e Mürren, cerca de 206 km num só forfait.",
       it: "L'Eiger, il Mönch e la Jungfrau dominano questo comprensorio mitico che collega Grindelwald, Wengen e Mürren, circa 206 km su un solo skipass.",
+      nl: "De Eiger, Mönch en Jungfrau torenen boven dit legendarische gebied dat Grindelwald, Wengen en Mürren verbindt, zo'n 206 km op een enkele skipas.",
     },
     description: {
       en: 'The Jungfrau Ski Region gathers Grindelwald, Wengen and the cliff-top Mürren-Schilthorn area under one pass, around 206 km of piste beneath the legendary north face of the Eiger. It is mostly gentle, intermediate cruising with unbeatable scenery, plus the Lauberhorn and Inferno race courses for the brave. Cog railways and cable cars link everything, so this is classic, car-light Swiss skiing at its most beautiful.',
@@ -535,6 +570,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La región de la Jungfrau reúne Grindelwald, Wengen y el sector colgado de Mürren-Schilthorn bajo un solo forfait, unos 206 km de pistas bajo la legendaria cara norte del Eiger. Sobre todo suave e intermedio, con un paisaje imbatible, alberga también las pistas de carrera del Lauberhorn y del Inferno para los más atrevidos. Trenes cremallera y teleféricos lo enlazan todo: es el esquí suizo clásico, casi sin coche, en todo su esplendor.",
       pt: "A região da Jungfrau reúne Grindelwald, Wengen e o setor empoleirado de Mürren-Schilthorn sob um só forfait, cerca de 206 km de pistas sob a lendária face norte do Eiger. Sobretudo suave e intermédio, com uma paisagem imbatível, alberga também as pistas de corrida do Lauberhorn e do Inferno para os mais audazes. Comboios de cremalheira e teleféricos ligam tudo: é o esqui suíço clássico, quase sem carro, em todo o seu esplendor.",
       it: "La Jungfrau Ski Region riunisce Grindelwald, Wengen e il settore a strapiombo di Mürren-Schilthorn su un solo skipass, circa 206 km di piste sotto la leggendaria parete nord dell'Eiger. Soprattutto dolce e intermedia, con uno scenario imbattibile, ospita anche le piste da gara del Lauberhorn e dell'Inferno per i più temerari. Treni a cremagliera e funivie collegano tutto: è lo sci svizzero classico, quasi senza auto, in tutta la sua bellezza.",
+      nl: "De Jungfrau Ski Region brengt Grindelwald, Wengen en het hoog gelegen Mürren-Schilthorn samen onder een skipas, zo'n 206 km piste onder de legendarische noordwand van de Eiger. Het is grotendeels licht glooiend, ideaal voor gemiddelde skiërs, met een onovertroffen landschap, plus de wedstrijdpistes van de Lauberhorn en de Inferno voor de durvers. Tandradbanen en kabelbanen verbinden alles, waardoor dit klassiek, bijna autovrij Zwitsers skiën op zijn mooist is.",
     },
   },
   {
@@ -556,6 +592,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El mayor dominio enlazado de Suiza: 410 km que unen Verbier, Nendaz, Veysonnaz y Thyon bajo el Mont-Fort.",
       pt: "O maior domínio ligado da Suíça: 410 km que unem Verbier, Nendaz, Veysonnaz e Thyon sob o Mont-Fort.",
       it: "Il più grande comprensorio collegato della Svizzera: 410 km che uniscono Verbier, Nendaz, Veysonnaz e Thyon sotto il Mont-Fort.",
+      nl: "Het grootste aaneengesloten skigebied van Zwitserland: 410 km die Verbier, Nendaz, Veysonnaz en Thyon verbindt onder de Mont-Fort.",
     },
     description: {
       en: 'The 4 Vallées is the biggest connected ski domain in Switzerland, 410 km linking glamorous Verbier with Nendaz, Veysonnaz and Thyon across four sunny Valais valleys. It climbs to the glacier on Mont-Fort at 3330 m, mixing vast intermediate cruising with steep, legendary off-piste like the Tortin bumps. Base in chic Verbier or in better-value Nendaz and ski the whole expanse on one pass.',
@@ -563,6 +600,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Los 4 Vallées forman el mayor dominio enlazado de Suiza, 410 km que unen la glamurosa Verbier con Nendaz, Veysonnaz y Thyon por cuatro soleados valles del Valais. Sube al glaciar del Mont-Fort a 3330 m, mezclando inmensas pistas intermedias con fuera de pista empinado y legendario como los baches de Tortin. Alójate en la chic Verbier o en la más económica Nendaz y esquía toda la extensión con un solo forfait.",
       pt: "Os 4 Vallées formam o maior domínio ligado da Suíça, 410 km que unem a glamorosa Verbier a Nendaz, Veysonnaz e Thyon por quatro solarengos vales do Valais. Sobe ao glaciar do Mont-Fort a 3330 m, misturando imensas pistas intermédias com fora-de-pista íngreme e lendário como as lombas de Tortin. Fique na chique Verbier ou na mais económica Nendaz e esquie toda a extensão num só forfait.",
       it: "Les 4 Vallées formano il più grande comprensorio collegato della Svizzera, 410 km che uniscono la glamour Verbier a Nendaz, Veysonnaz e Thyon su quattro valli vallesane soleggiate. Sale fino al ghiacciaio del Mont-Fort a 3.330 m, mescolando immense piste intermedie a fuori pista ripidi e leggendari come le gobbe di Tortin. Si soggiorna nella chic Verbier o nella più conveniente Nendaz e si scia l'intera estensione con un solo skipass.",
+      nl: "De 4 Vallées is het grootste aaneengesloten skidomein van Zwitserland, 410 km die het glamoureuze Verbier verbindt met Nendaz, Veysonnaz en Thyon over vier zonnige Valaisvalleien. Het klimt naar de gletsjer op de Mont-Fort op 3330 m, en combineert enorme middelmoeilijke pistes met steile, legendarische off-piste zoals de bulten van Tortin. Verblijf in het chique Verbier of in het voordeligere Nendaz en ski de hele uitgestrektheid op een enkele skipas.",
     },
   },
   {
@@ -584,6 +622,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Villars-Gryon y Les Diablerets unidos por la montaña, 125 km coronados por el Glacier 3000, seguro de nieve.",
       pt: "Villars-Gryon e Les Diablerets ligados pela montanha, 125 km coroados pelo Glacier 3000, seguro em neve.",
       it: "Villars-Gryon e Les Diablerets collegate dalla montagna, 125 km coronati dal Glacier 3000, sicuro per la neve.",
+      nl: "Villars-Gryon en Les Diablerets verbonden over de heuvel, 125 km met als kroon de sneeuwzekere Glacier 3000.",
     },
     description: {
       en: 'Villars-Gryon and Les Diablerets join over the mountain into a sunny 125 km domain in the Vaud Alps, crowned by the snow-sure Glacier 3000 at 2971 m. The terrain is mostly gentle and scenic, ideal for families, with grand views to the Dents du Midi and Mont Blanc. Two traditional villages, one relaxed domain an easy hop from Geneva and Lausanne.',
@@ -591,6 +630,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Villars-Gryon y Les Diablerets se unen por la montaña en un dominio soleado de 125 km en los Alpes de Vaud, coronado por el Glacier 3000, seguro de nieve, a 2971 m. El terreno es sobre todo suave y pintoresco, ideal para familias, con grandes vistas a los Dents du Midi y al Mont Blanc. Dos pueblos tradicionales, un dominio relajado a un paso de Ginebra y Lausana.",
       pt: "Villars-Gryon e Les Diablerets juntam-se pela montanha num domínio solarengo de 125 km nos Alpes de Vaud, coroado pelo Glacier 3000, seguro em neve, a 2971 m. O terreno é sobretudo suave e pitoresco, ideal para famílias, com grandes vistas para os Dents du Midi e o Mont Blanc. Duas aldeias tradicionais, um domínio descontraído a um passo de Genebra e Lausana.",
       it: "Villars-Gryon e Les Diablerets si congiungono attraverso la montagna in un soleggiato comprensorio di 125 km nelle Alpi vodesi, coronato dal Glacier 3000, sicuro per la neve, a 2.971 m. Il terreno è perlopiù dolce e fotogenico, ideale per le famiglie, con ampie vedute sui Dents du Midi e sul Monte Bianco. Due borghi tradizionali, un comprensorio rilassato a due passi da Ginevra e Losanna.",
+      nl: "Villars-Gryon en Les Diablerets sluiten over de berg aan tot een zonnig domein van 125 km in de Vaudse Alpen, met als kroon de sneeuwzekere Glacier 3000 op 2971 m. Het terrein is grotendeels zacht glooiend en pittoresk, ideaal voor gezinnen, met weidse uitzichten op de Dents du Midi en de Mont Blanc. Twee traditionele dorpen, een ontspannen domein op een steenworp van Genève en Lausanne.",
     },
   },
   {
@@ -612,6 +652,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El mayor forfait de esquí de Austria: 760 km en cinco regiones, de Schladming al valle de Gastein y Flachau.",
       pt: "O maior passe de esqui da Áustria: 760 km em cinco regiões, de Schladming ao vale de Gastein e Flachau.",
       it: "Il più grande skipass dell'Austria: 760 km su cinque regioni, da Schladming alla valle di Gastein e Flachau.",
+      nl: "De grootste skipas van Oostenrijk: 760 km verspreid over vijf regio's, van Schladming tot de Gasteinvallei en Flachau.",
     },
     description: {
       en: "Ski amadé is the biggest ski pass in Austria, a single ticket covering around 760 km of piste and 270 lifts across five regions, including Schladming's 4-Berge Skischaukel, Snow Space Salzburg at Flachau and the Gastein valley. The terrain is overwhelmingly broad, well-groomed and intermediate, with night skiing, World Cup race hills and famous thermal spas in Gastein. One pass, a huge spread of Salzburg and Styrian skiing.",
@@ -619,6 +660,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Ski amadé es el mayor forfait de esquí de Austria, un solo billete que cubre unos 760 km de pistas y 270 remontes en cinco regiones, entre ellas la 4-Berge Skischaukel de Schladming, el Snow Space Salzburg en Flachau y el valle de Gastein. El terreno es mayoritariamente amplio, bien pisado e intermedio, con esquí nocturno, pistas de Copa del Mundo y famosas termas en Gastein. Un forfait, una inmensa extensión de esquí salzburgués y estirio.",
       pt: "Ski amadé é o maior passe de esqui da Áustria, um só bilhete que cobre cerca de 760 km de pistas e 270 teleféricos em cinco regiões, entre elas a 4-Berge Skischaukel de Schladming, o Snow Space Salzburg em Flachau e o vale de Gastein. O terreno é maioritariamente amplo, bem pisado e intermédio, com esqui noturno, pistas da Taça do Mundo e famosas termas em Gastein. Um passe, uma imensa extensão de esqui de Salzburgo e da Estíria.",
       it: "Ski amadé è il più grande skipass dell'Austria, un solo biglietto che copre circa 760 km di piste e 270 impianti su cinque regioni, tra cui la 4-Berge Skischaukel di Schladming, Snow Space Salzburg a Flachau e la valle di Gastein. Il terreno è prevalentemente ampio, ben battuto e intermedio, con sci notturno, piste di Coppa del Mondo e celebri terme a Gastein. Uno skipass, un'immensa estensione di sci salisburghese e stiriano.",
+      nl: "Ski amadé is de grootste skipas van Oostenrijk, een enkel ticket dat zo'n 760 km piste en 270 liften dekt over vijf regio's, waaronder de 4-Berge Skischaukel van Schladming, Snow Space Salzburg bij Flachau en de Gasteinvallei. Het terrein is overwegend breed, goed geprepareerd en middelmoeilijk, met nachtskiën, wedstrijdpistes van de Wereldbeker en beroemde thermale baden in Gastein. Een skipas, een enorme spreiding van skiën in Salzburg en Stiermarken.",
     },
   },
   {
@@ -640,6 +682,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Zell am See junto al lago y el glaciar del Kitzsteinhorn en Kaprun en una misma Alpin Card, 138 km con nieve garantizada en altura.",
       pt: "Zell am See à beira do lago e o glaciar do Kitzsteinhorn em Kaprun numa mesma Alpin Card, 138 km com neve garantida em altitude.",
       it: "Zell am See sul lago e il ghiacciaio del Kitzsteinhorn a Kaprun su un'unica Alpin Card, 138 km con neve garantita in quota.",
+      nl: "Het aan het meer gelegen Zell am See en de Kitzsteinhorn-gletsjer bij Kaprun op een Alpin Card, 138 km met sneeuwgarantie op grote hoogte.",
     },
     description: {
       en: "The Alpin Card joins the lake-and-mountain skiing of Zell am See's Schmittenhöhe with the Kitzsteinhorn glacier at Kaprun, around 138 km in all. It is a clever pairing: scenic intermediate runs above the turquoise lake, plus snow-sure glacier skiing to 3029 m whenever the valley is short of snow. One ticket covers both, in one of the most photogenic corners of the Salzburg Alps.",
@@ -647,6 +690,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Alpin Card une el esquí de lago y montaña del Schmittenhöhe de Zell am See con el glaciar del Kitzsteinhorn en Kaprun, unos 138 km en total. Una combinación inteligente: pistas intermedias panorámicas sobre el lago turquesa, y esquí de glaciar de nieve segura hasta los 3029 m cuando el valle anda escaso de nieve. Un solo billete cubre ambos, en uno de los rincones más fotogénicos de los Alpes de Salzburgo.",
       pt: "A Alpin Card une o esqui de lago e montanha do Schmittenhöhe de Zell am See com o glaciar do Kitzsteinhorn em Kaprun, cerca de 138 km no total. Uma combinação inteligente: pistas intermédias panorâmicas sobre o lago turquesa, e esqui de glaciar de neve segura até aos 3029 m sempre que o vale tem pouca neve. Um só bilhete cobre ambos, num dos cantos mais fotogénicos dos Alpes de Salzburgo.",
       it: "L'Alpin Card riunisce lo sci tra lago e montagna dello Schmittenhöhe di Zell am See e il ghiacciaio del Kitzsteinhorn a Kaprun, circa 138 km in tutto. Un abbinamento intelligente: piste intermedie panoramiche sopra il lago turchese, e sci su ghiacciaio sicuro per la neve fino a 3.029 m ogni volta che la valle resta a corto di neve. Un solo biglietto copre entrambi, in uno degli angoli più fotogenici delle Alpi di Salisburgo.",
+      nl: "De Alpin Card verbindt het meer-en-berg-skiën van de Schmittenhöhe bij Zell am See met de Kitzsteinhorn-gletsjer bij Kaprun, samen zo'n 138 km. Het is een slimme combinatie: panoramische middelmoeilijke pistes boven het turquoise meer, plus sneeuwzeker gletsjerskiën tot 3029 m wanneer de vallei sneeuw tekortkomt. Een enkel ticket dekt beide, in een van de meest fotogenieke hoeken van de Salzburgse Alpen.",
     },
   },
   {
@@ -668,6 +712,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Saalbach y Fieberbrunn anclan el gigante Skicircus, 270 km de pistas enlazadas con un après-ski y un freeride legendarios.",
       pt: "Saalbach e Fieberbrunn ancoram o gigante Skicircus, 270 km de pistas ligadas com um après-ski e um freeride lendários.",
       it: "Saalbach e Fieberbrunn ancorano il gigantesco Skicircus, 270 km di piste collegate con après-ski e freeride leggendari.",
+      nl: "Saalbach en Fieberbrunn vormen het anker van de gigantische Skicircus, 270 km met liften verbonden piste met legendarische après-ski en freeride.",
     },
     description: {
       en: 'The Skicircus Saalbach Hinterglemm Leogang Fieberbrunn is one of Austria\'s biggest linked areas, 270 km looping around a sunny valley and over to the freeride slopes of Fieberbrunn. It is famous for its great circular tour, its wide intermediate cruising and an après-ski scene that runs from mid-afternoon onwards. Glamorous Saalbach and snowier Fieberbrunn are two very different ways into the same vast circuit.',
@@ -675,6 +720,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Skicircus Saalbach Hinterglemm Leogang Fieberbrunn es uno de los mayores dominios enlazados de Austria, 270 km en bucle alrededor de un valle soleado y hasta las laderas de freeride de Fieberbrunn. Es famoso por su gran tour circular, sus amplias pistas intermedias y un après-ski que arranca a media tarde. La glamurosa Saalbach y la más nevada Fieberbrunn son dos entradas muy distintas al mismo vasto circuito.",
       pt: "O Skicircus Saalbach Hinterglemm Leogang Fieberbrunn é um dos maiores domínios ligados da Áustria, 270 km em circuito à volta de um vale solarengo e até às encostas de freeride de Fieberbrunn. É famoso pelo seu grande tour circular, pelas amplas pistas intermédias e por um après-ski que começa a meio da tarde. A glamorosa Saalbach e a mais nevada Fieberbrunn são duas entradas muito diferentes para o mesmo vasto circuito.",
       it: "Lo Skicircus Saalbach Hinterglemm Leogang Fieberbrunn è uno dei più grandi comprensori collegati d'Austria, 270 km ad anello intorno a una valle soleggiata e fino ai pendii freeride di Fieberbrunn. È celebre per il suo grande giro circolare, le ampie piste intermedie e una scena après-ski che parte già a metà pomeriggio. La glamour Saalbach e la più innevata Fieberbrunn sono due porte d'ingresso molto diverse allo stesso vasto circuito.",
+      nl: "De Skicircus Saalbach Hinterglemm Leogang Fieberbrunn is een van de grootste aaneengesloten gebieden van Oostenrijk, 270 km die in een lus rond een zonnige vallei lopen en doorlopen naar de freeride-hellingen van Fieberbrunn. Het staat bekend om zijn grote rondtoer, zijn brede middelmoeilijke pistes en een après-skiscene die al vanaf halverwege de middag op gang komt. Het glamoureuze Saalbach en het besneeuwdere Fieberbrunn zijn twee heel verschillende ingangen tot hetzelfde immense circuit.",
     },
   },
   {
@@ -696,6 +742,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Un valle, cuatro dominios y el glaciar de Hintertux: el Zillertal Superskipass supera los 500 km en el Tirol.",
       pt: "Um vale, quatro domínios e o glaciar de Hintertux: o Zillertal Superskipass ultrapassa os 500 km no Tirol.",
       it: "Una valle, quattro comprensori e il ghiacciaio dell'Hintertux: lo Zillertal Superskipass supera i 500 km nel Tirolo.",
+      nl: "Een vallei, vier skigebieden en de Hintertux-gletsjer: de Zillertal Superskipass overschrijdt de 500 km in Tirol.",
     },
     description: {
       en: 'The Zillertal packs four separate ski areas into one Tyrolean valley, all on the Zillertal Superskipass, which together reach well over 500 km of piste. Mayrhofen brings the steep Harakiri and big-resort buzz, the Zillertal Arena around Gerlos adds sunny cruising, and the Hintertux glacier guarantees snow 365 days a year up at 3250 m. It is one of the most complete ski valleys in the Alps, from gentle nursery slopes to year-round glacier turns.',
@@ -703,6 +750,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Zillertal reúne cuatro dominios distintos en un solo valle tirolés, todos en el Zillertal Superskipass, que juntos superan con holgura los 500 km de pistas. Mayrhofen aporta la empinada Harakiri y el bullicio de las grandes estaciones, la Zillertal Arena en torno a Gerlos añade pistas soleadas, y el glaciar de Hintertux garantiza nieve 365 días al año, a 3250 m. Es uno de los valles de esquí más completos de los Alpes, de las pistas de debutante al glaciar abierto todo el año.",
       pt: "O Zillertal reúne quatro domínios distintos num só vale tirolês, todos no Zillertal Superskipass, que juntos ultrapassam largamente os 500 km de pistas. Mayrhofen traz a íngreme Harakiri e a efervescência das grandes estâncias, a Zillertal Arena à volta de Gerlos acrescenta pistas solarengas, e o glaciar de Hintertux garante neve 365 dias por ano, a 3250 m. É um dos vales de esqui mais completos dos Alpes, das pistas de iniciação ao glaciar aberto todo o ano.",
       it: "Lo Zillertal riunisce quattro comprensori distinti in un'unica valle tirolese, tutti sullo Zillertal Superskipass, che insieme superano abbondantemente i 500 km di piste. Mayrhofen porta la ripida Harakiri e l'effervescenza delle grandi località, la Zillertal Arena intorno a Gerlos aggiunge piste soleggiate, e il ghiacciaio dell'Hintertux garantisce neve 365 giorni all'anno, a 3.250 m. È una delle valli sciistiche più complete delle Alpi, dai dolci campi scuola al ghiacciaio aperto tutto l'anno.",
+      nl: "Het Zillertal bundelt vier afzonderlijke skigebieden in een enkele Tiroolse vallei, allemaal op de Zillertal Superskipass, die samen ruim over de 500 km piste komen. Mayrhofen brengt de steile Harakiri en de drukte van een groot skigebied, de Zillertal Arena rond Gerlos voegt zonnige pistes toe, en de Hintertux-gletsjer garandeert 365 dagen per jaar sneeuw op 3250 m. Het is een van de meest complete skivalleien van de Alpen, van zachte oefenhellingen tot gletsjerbochten het hele jaar door.",
     },
   },
   {
@@ -724,6 +772,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El mayor forfait de esquí del mundo: unos 1200 km a través de 12 valles dolomíticos, con un solo billete bajo las cumbres declaradas por la UNESCO.",
       pt: "O maior passe de esqui do mundo: cerca de 1200 km por 12 vales dolomíticos, num só bilhete sob os cumes classificados pela UNESCO.",
       it: "Il più grande skipass del mondo: circa 1.200 km su 12 vallate dolomitiche, con un solo biglietto sotto le vette patrimonio UNESCO.",
+      nl: "De grootste skipas ter wereld: zo'n 1200 km verspreid over 12 Dolomietvalleien, op een enkel ticket onder de UNESCO-toppen.",
     },
     description: {
       en: 'Dolomiti Superski links a dozen separate ski areas in the Dolomites into around 1200 km of mostly intermediate piste, all on a single ticket beneath the legendary pale rock walls of the UNESCO range. It connects the Sella Ronda valleys (Val Gardena, Alta Badia, Val di Fassa, Arabba), Cortina d\'Ampezzo, the flat-topped Kronplatz, San Martino di Castrozza and more. It is the biggest single lift pass on earth, and every chairlift ride is a postcard.',
@@ -731,6 +780,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Dolomiti Superski une una docena de dominios distintos de los Dolomitas en unos 1200 km de pistas sobre todo intermedias, con un solo billete bajo las legendarias murallas de roca pálida declaradas por la UNESCO. Conecta los valles de la Sella Ronda (Val Gardena, Alta Badia, Val di Fassa, Arabba), Cortina d'Ampezzo, la cumbre aplanada de Kronplatz, San Martino di Castrozza y más. Es el mayor forfait de esquí del mundo, y cada telesilla es una postal.",
       pt: "O Dolomiti Superski reúne uma dúzia de domínios distintos das Dolomitas em cerca de 1200 km de pistas sobretudo intermédias, num só bilhete sob as lendárias muralhas de rocha pálida classificadas pela UNESCO. Liga os vales da Sella Ronda (Val Gardena, Alta Badia, Val di Fassa, Arabba), Cortina d'Ampezzo, o cume achatado de Kronplatz, San Martino di Castrozza e mais. É o maior passe de esqui do mundo, e cada teleassento é um postal.",
       it: "Dolomiti Superski collega una dozzina di comprensori distinti delle Dolomiti in circa 1.200 km di piste perlopiù intermedie, tutte su un solo biglietto sotto le leggendarie pareti di roccia chiara del patrimonio UNESCO. Unisce le vallate del Sella Ronda (Val Gardena, Alta Badia, Val di Fassa, Arabba), Cortina d'Ampezzo, l'altopiano del Kronplatz, San Martino di Castrozza e molto altro. È il più grande skipass al mondo, e ogni seggiovia è una cartolina.",
+      nl: "Dolomiti Superski verbindt een dozijn afzonderlijke skigebieden in de Dolomieten tot zo'n 1200 km grotendeels middelmoeilijke piste, allemaal op een enkel ticket onder de legendarische lichte rotswanden van het UNESCO-gebergte. Het verbindt de valleien van de Sella Ronda (Val Gardena, Alta Badia, Val di Fassa, Arabba), Cortina d'Ampezzo, de platte top van de Kronplatz, San Martino di Castrozza en meer. Het is de grootste enkele skipas ter wereld, en elke stoeltjeslift is een ansichtkaart.",
     },
   },
   {
@@ -752,6 +802,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Tres valles walser unidos bajo el Monte Rosa, 180 km de pistas altas y panorámicas y uno de los mejores freerides de los Alpes.",
       pt: "Três vales walser ligados sob o Monte Rosa, 180 km de pistas altas e panorâmicas e um dos melhores freerides dos Alpes.",
       it: "Tre valli walser collegate sotto il Monte Rosa, 180 km di piste d'alta quota e panoramiche e uno dei più bei freeride delle Alpi.",
+      nl: "Drie Walservalleien verbonden onder de Monte Rosa, 180 km hooggelegen, panoramische piste en enkele van de beste freeride-plekken van de Alpen.",
     },
     description: {
       en: 'Monterosa Ski links three Walser valleys beneath the south face of the Monte Rosa, the second-highest peak in the Alps, into 180 km of high, scenic piste shared by Alagna, Champoluc and Gressoney. The pisted skiing is mostly broad and intermediate, but the real draw is the off-piste: long, classic Alagna lines and easy access to heli-skiing put it on every freeride wish list. Three very different villages, one of the wildest big domains in Italy.',
@@ -759,6 +810,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Monterosa Ski une tres valles walser bajo la cara sur del Monte Rosa, la segunda cumbre más alta de los Alpes, en 180 km de pistas altas y panorámicas compartidas por Alagna, Champoluc y Gressoney. El esquí en pista es sobre todo amplio e intermedio, pero el verdadero atractivo es el fuera de pista: largas líneas clásicas de Alagna y acceso fácil al heliesquí lo ponen en todas las listas de freeride. Tres pueblos muy distintos, uno de los grandes dominios más salvajes de Italia.",
       pt: "O Monterosa Ski liga três vales walser sob a face sul do Monte Rosa, o segundo mais alto cume dos Alpes, em 180 km de pistas altas e panorâmicas partilhadas por Alagna, Champoluc e Gressoney. O esqui em pista é sobretudo amplo e intermédio, mas o verdadeiro atrativo é o fora-de-pista: longas linhas clássicas de Alagna e acesso fácil ao heliesqui colocam-no em todas as listas de freeride. Três aldeias muito diferentes, um dos mais selvagens grandes domínios da Itália.",
       it: "Monterosa Ski collega tre valli walser sotto la parete sud del Monte Rosa, seconda vetta più alta delle Alpi, in 180 km di piste d'alta quota e panoramiche condivise da Alagna, Champoluc e Gressoney. Lo sci su pista è perlopiù ampio e intermedio, ma la vera attrazione è il fuori pista: le lunghe linee classiche di Alagna e il facile accesso all'eliski lo inseriscono in ogni lista dei sogni del freeride. Tre paesi molto diversi, uno dei più selvaggi tra i grandi comprensori italiani.",
+      nl: "Monterosa Ski verbindt drie Walservalleien onder de zuidwand van de Monte Rosa, de op een na hoogste top van de Alpen, tot 180 km hooggelegen, panoramische piste, gedeeld door Alagna, Champoluc en Gressoney. Het skiën op piste is grotendeels breed en middelmoeilijk, maar de echte trekpleister is de off-piste: lange, klassieke lijnen bij Alagna en gemakkelijke toegang tot heliskiën zetten het op elk freeride-verlanglijstje. Drie heel verschillende dorpen, een van de wildste grote domeinen van Italië.",
     },
   },
   {
@@ -780,6 +832,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Rosière en Francia y La Thuile en Italia unidas por el puerto del Pequeño San Bernardo, 152 km en un solo forfait transfronterizo.",
       pt: "La Rosière em França e La Thuile em Itália ligadas pelo colo do Pequeno São Bernardo, 152 km num só passe transfronteiriço.",
       it: "La Rosière in Francia e La Thuile in Italia collegate dal colle del Piccolo San Bernardo, 152 km su un solo skipass transfrontaliero.",
+      nl: "La Rosière in Frankrijk en La Thuile in Italië verbonden over de Kleine Sint-Bernhardpas, 152 km op een enkele grensoverschrijdende skipas.",
     },
     description: {
       en: 'The Espace San Bernardo links sunny La Rosière in the French Tarentaise with quieter La Thuile in the Italian Aosta valley, over the Little St Bernard pass into 152 km of shared piste. Reliably snowy thanks to its altitude and aspect, it is famous for crossing two countries on skis on a single ticket. Lunches turn from tartiflette on the French side to bombardino on the Italian, in one of the most genuinely cross-border ski experiences in the Alps.',
@@ -787,6 +840,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Espace San Bernardo une la soleada La Rosière, en la Tarentaise francesa, con la más tranquila La Thuile, en el valle italiano de Aosta, por el puerto del Pequeño San Bernardo, en 152 km de pistas compartidas. Fielmente nevado gracias a la altitud y la orientación, es famoso por cruzar dos países esquiando con un solo billete. Las comidas pasan de la tartiflette en el lado francés al bombardino en el italiano, en una de las experiencias de esquí más auténticamente transfronterizas de los Alpes.",
       pt: "O Espace San Bernardo liga a solarenga La Rosière, na Tarentaise francesa, à mais tranquila La Thuile, no vale italiano de Aosta, por cima do colo do Pequeno São Bernardo, em 152 km de pistas partilhadas. Fielmente nevado graças à altitude e à exposição, é famoso por atravessar dois países a esquiar num só bilhete. Os almoços passam da tartiflette do lado francês ao bombardino do italiano, numa das experiências de esqui mais autenticamente transfronteiriças dos Alpes.",
       it: "L'Espace San Bernardo collega la soleggiata La Rosière, nella Tarentaise francese, alla più tranquilla La Thuile, in Valle d'Aosta, attraverso il colle del Piccolo San Bernardo, per 152 km di piste condivise. Fedelmente innevato grazie alla quota e all'esposizione, è celebre per attraversare due paesi sugli sci con un solo biglietto. I pranzi passano dalla tartiflette sul versante francese al bombardino su quello italiano, in una delle esperienze sciistiche davvero transfrontaliere più autentiche delle Alpi.",
+      nl: "De Espace San Bernardo verbindt het zonnige La Rosière in de Franse Tarentaise met het rustigere La Thuile in de Italiaanse Aostavallei, over de Kleine Sint-Bernhardpas, tot 152 km gedeelde piste. Betrouwbaar besneeuwd dankzij de hoogte en ligging, staat het bekend om het op ski's oversteken van twee landen met een enkel ticket. De lunch verandert van tartiflette aan de Franse kant naar bombardino aan de Italiaanse, in een van de meest oprecht grensoverschrijdende skibelevenissen van de Alpen.",
     },
   },
   {
@@ -808,6 +862,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Madonna di Campiglio y los pueblos del Val di Sole, Folgarida y Marilleva, enlazados por los Dolomitas de Brenta, 150 km en un solo forfait.",
       pt: "Madonna di Campiglio e as aldeias do Val di Sole, Folgarida e Marilleva, ligadas pelas Dolomitas de Brenta, 150 km num só passe.",
       it: "Madonna di Campiglio e i paesi della Val di Sole, Folgarida e Marilleva, collegati attraverso le Dolomiti di Brenta, 150 km su un solo skipass.",
+      nl: "Madonna di Campiglio en de dorpen Folgarida en Marilleva in de Val di Sole, verbonden over de Dolomieten van Brenta, 150 km op een enkele skipas.",
     },
     description: {
       en: 'The Madonna-Folgarida-Marilleva area joins chic Madonna di Campiglio with the sunnier, better-value Val di Sole villages of Folgarida and Marilleva over the Brenta Dolomite ridges, for 150 km of broad, well-groomed piste. It is one of Italy\'s great mixed-character domains: dressy Madonna for the evening, family-friendly Folgarida and Marilleva for the morning. All three sit on the broader Skirama Dolomiti pass, which adds neighbouring valleys for the keenest skiers.',
@@ -815,6 +870,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El dominio Madonna-Folgarida-Marilleva une la chic Madonna di Campiglio con los pueblos del Val di Sole, más soleados y económicos, Folgarida y Marilleva, por las crestas de los Dolomitas de Brenta, para 150 km de pistas amplias y bien pisadas. Es uno de los grandes dominios italianos de carácter mixto: Madonna elegante para la noche, Folgarida y Marilleva familiares para la mañana. Los tres están en el más amplio forfait Skirama Dolomiti, que añade los valles vecinos para los más entregados.",
       pt: "O domínio Madonna-Folgarida-Marilleva une a chique Madonna di Campiglio com as aldeias do Val di Sole, mais solarengas e acessíveis, Folgarida e Marilleva, pelas cristas das Dolomitas de Brenta, em 150 km de pistas amplas e bem pisadas. É um dos grandes domínios italianos de carácter misto: Madonna elegante para a noite, Folgarida e Marilleva familiares para a manhã. Os três estão no mais amplo passe Skirama Dolomiti, que acrescenta os vales vizinhos para os mais dedicados.",
       it: "Il comprensorio Madonna-Folgarida-Marilleva unisce la chic Madonna di Campiglio ai paesi più soleggiati e più convenienti della Val di Sole, Folgarida e Marilleva, attraverso le creste delle Dolomiti di Brenta, per 150 km di piste ampie e ben battute. È uno dei grandi comprensori italiani dal carattere misto: Madonna elegante per la sera, Folgarida e Marilleva familiari per la mattina. Tutti e tre rientrano nello skipass più ampio Skirama Dolomiti, che aggiunge le valli vicine per i più appassionati.",
+      nl: "Het gebied Madonna-Folgarida-Marilleva verbindt het chique Madonna di Campiglio met de zonnigere, voordeligere dorpen Folgarida en Marilleva in de Val di Sole, over de bergkammen van de Dolomieten van Brenta, tot 150 km brede, goed geprepareerde piste. Het is een van de grote domeinen van Italië met een gemengd karakter: het opgedirkte Madonna voor de avond, het gezinsvriendelijke Folgarida en Marilleva voor de ochtend. Alle drie vallen ze onder de bredere Skirama Dolomiti-skipas, die naburige valleien toevoegt voor de fanatiekste skiërs.",
     },
   },
   {
@@ -836,6 +892,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Pra-Loup y La Foux d'Allos unidas por la cresta de los Alpes del Sur, 180 km con un forfait soleado.",
       pt: "Pra-Loup e La Foux d'Allos ligadas pela crista dos Alpes do Sul, 180 km num passe solarengo.",
       it: "Pra-Loup e La Foux d'Allos collegate dalla cresta delle Alpi del Sud, 180 km su uno skipass soleggiato.",
+      nl: "Pra-Loup en La Foux d'Allos verbonden over de bergkam van de zuidelijke Alpen, 180 km op een enkele zonnige skipas.",
     },
     description: {
       en: "The Espace Lumière links Pra-Loup in the Ubaye with La Foux d'Allos in the Val d'Allos over the southern Alps ridge, 180 km of sunny, mostly intermediate piste between 1500 m and 2600 m. The aspect and altitude keep the snow reliable and the light gloriously southern, with larch forests below and open bowls up top. One pass, two valleys and one of the most underrated big domains in France.",
@@ -843,6 +900,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Espace Lumière une Pra-Loup, en el Ubaye, con La Foux d'Allos, en el Val d'Allos, por la cresta de los Alpes del Sur, 180 km de pistas soleadas y sobre todo intermedias entre 1500 m y 2600 m. La orientación y la altitud mantienen la nieve fiable y la luz espléndidamente meridional, entre alerces abajo y circos abiertos arriba. Un forfait, dos valles y uno de los grandes dominios más infravalorados de Francia.",
       pt: "O Espace Lumière liga Pra-Loup, no Ubaye, a La Foux d'Allos, no Val d'Allos, pela crista dos Alpes do Sul, 180 km de pistas solarengas e sobretudo intermédias entre 1500 m e 2600 m. A exposição e a altitude mantêm a neve fiável e a luz esplendidamente meridional, entre lariços em baixo e circos abertos em cima. Um passe, dois vales e um dos grandes domínios mais subvalorizados de França.",
       it: "L'Espace Lumière collega Pra-Loup, nell'Ubaye, a La Foux d'Allos, nel Val d'Allos, attraverso la cresta delle Alpi del Sud, 180 km di piste soleggiate e perlopiù intermedie tra i 1.500 m e i 2.600 m. L'esposizione e la quota mantengono la neve affidabile e la luce splendidamente meridionale, tra boschi di larici in basso e valloni aperti in alto. Uno skipass, due valli e uno dei grandi comprensori più sottovalutati di Francia.",
+      nl: "De Espace Lumière verbindt Pra-Loup in de Ubaye met La Foux d'Allos in de Val d'Allos over de bergkam van de zuidelijke Alpen, tot 180 km zonnige, grotendeels middelmoeilijke piste tussen 1500 m en 2600 m. De ligging en hoogte houden de sneeuw betrouwbaar en het licht heerlijk zuidelijk, met lariksbossen beneden en open kommen bovenaan. Een skipas, twee valleien en een van de meest onderschatte grote domeinen van Frankrijk.",
     },
   },
   {
@@ -864,6 +922,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe y Praz-sur-Arly unidos en 192 km de pistas soleadas del Val d'Arly, con vistas al Mont Blanc.",
       pt: "Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe e Praz-sur-Arly unidos em 192 km de pistas solarengas do Val d'Arly, com vistas para o Mont Blanc.",
       it: "Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe e Praz-sur-Arly collegate in 192 km di piste soleggiate del Val d'Arly, con vista sul Monte Bianco.",
+      nl: "Les Saisies, Crest-Voland, Notre-Dame-de-Bellecombe en Praz-sur-Arly verbonden tot 192 km zonnige piste in de Val d'Arly, met uitzicht op de Mont Blanc.",
     },
     description: {
       en: 'The Espace Diamant joins five villages of the Val d\'Arly and the Beaufortain into 192 km of mostly intermediate, beautifully sunny piste with grand views toward Mont Blanc. The high, snow-sure Les Saisies anchors the domain, while quieter villages like Crest-Voland and Notre-Dame-de-Bellecombe keep an authentic Savoyard feel and gentler prices. A favourite of families and intermediates looking for big mileage without the big-resort buzz.',
@@ -871,6 +930,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Espace Diamant une cinco pueblos del Val d'Arly y el Beaufortain en 192 km de pistas sobre todo intermedias y magníficamente soleadas, con grandes vistas al Mont Blanc. Les Saisies, alta y de nieve segura, ancla el dominio, mientras los pueblos más tranquilos como Crest-Voland y Notre-Dame-de-Bellecombe conservan un alma saboyana auténtica y precios más suaves. Un favorito de familias e intermedios que quieren muchos kilómetros sin el bullicio de los grandes nombres.",
       pt: "O Espace Diamant une cinco aldeias do Val d'Arly e do Beaufortain em 192 km de pistas sobretudo intermédias e magnificamente solarengas, com grandes vistas para o Mont Blanc. Les Saisies, alta e de neve segura, ancora o domínio, enquanto as aldeias mais tranquilas como Crest-Voland e Notre-Dame-de-Bellecombe conservam uma alma saboiana autêntica e preços mais suaves. Um favorito de famílias e intermédios que querem muitos quilómetros sem a efervescência dos grandes nomes.",
       it: "L'Espace Diamant unisce cinque paesi del Val d'Arly e del Beaufortain in 192 km di piste perlopiù intermedie e splendidamente soleggiate, con ampie vedute sul Monte Bianco. Les Saisies, d'alta quota e sicura per la neve, ancora il comprensorio, mentre paesi più tranquilli come Crest-Voland e Notre-Dame-de-Bellecombe conservano un'anima savoiarda autentica e tariffe più morbide. Una meta preferita da famiglie e intermedi che cercano molti chilometri senza l'effervescenza dei grandi nomi.",
+      nl: "De Espace Diamant verbindt vijf dorpen van de Val d'Arly en het Beaufortain tot 192 km grotendeels middelmoeilijke, prachtig zonnige piste met weidse uitzichten op de Mont Blanc. Het hooggelegen, sneeuwzekere Les Saisies vormt het anker van het domein, terwijl rustigere dorpen zoals Crest-Voland en Notre-Dame-de-Bellecombe een authentiek Savoyaards gevoel en zachtere prijzen behouden. Een favoriet bij gezinnen en gemiddelde skiërs die veel kilometers zoeken zonder de drukte van een groot skigebied.",
     },
   },
   {
@@ -892,6 +952,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Bormio y Santa Caterina Valfurva con un solo forfait Alta Valtellina, 115 km en el parque nacional del Stelvio.",
       pt: "Bormio e Santa Caterina Valfurva num só passe Alta Valtellina, 115 km no parque nacional do Stelvio.",
       it: "Bormio e Santa Caterina Valfurva su un solo skipass Alta Valtellina, 115 km nel Parco Nazionale dello Stelvio.",
+      nl: "Bormio en Santa Caterina Valfurva op een enkele Alta Valtellina-skipas, 115 km in het Nationaal Park Stelvio.",
     },
     description: {
       en: 'The Alta Valtellina pass links historic Bormio with snow-sure Santa Caterina Valfurva at the edge of the Stelvio National Park, around 115 km of mostly red and black piste with a serious World Cup pedigree. Bormio brings the brutally steep Stelvio downhill course and 1800 m of vertical from 3012 m, while Santa Caterina adds Olympic-grade racing terrain at higher altitude. With Roman thermal baths in Bormio as a bonus, it is a strong-skier base in one of Italy\'s most spectacular alpine corners.',
@@ -899,6 +960,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El forfait Alta Valtellina une la histórica Bormio con la nieve segura Santa Caterina Valfurva, al borde del parque nacional del Stelvio, unos 115 km de pistas sobre todo rojas y negras con una fuerte herencia de Copa del Mundo. Bormio aporta la temible Stelvio y 1800 m de desnivel desde 3012 m, Santa Caterina añade terreno olímpico a mayor altitud. Con las termas romanas de Bormio como bonus, es una base de esquiadores fuertes en uno de los rincones alpinos más espectaculares de Italia.",
       pt: "O passe Alta Valtellina liga a histórica Bormio à de neve segura Santa Caterina Valfurva, à beira do parque nacional do Stelvio, cerca de 115 km de pistas sobretudo vermelhas e negras com um forte legado da Taça do Mundo. Bormio traz a temível Stelvio e 1800 m de desnível desde 3012 m, Santa Caterina acrescenta terreno olímpico a maior altitude. Com as termas romanas de Bormio como bónus, é uma base de esquiadores fortes num dos cantos alpinos mais espetaculares da Itália.",
       it: "Lo skipass Alta Valtellina collega la storica Bormio alla ben innevata Santa Caterina Valfurva ai margini del Parco Nazionale dello Stelvio, circa 115 km di piste perlopiù rosse e nere con un forte pedigree di Coppa del Mondo. Bormio porta la temibile pista Stelvio e 1.800 m di dislivello dai 3.012 m, mentre Santa Caterina aggiunge un terreno da gara di livello olimpico a quota più elevata. Con le terme romane di Bormio in più, è una base per sciatori sicuri in uno degli angoli alpini più spettacolari d'Italia.",
+      nl: "De Alta Valtellina-skipas verbindt het historische Bormio met het sneeuwzekere Santa Caterina Valfurva aan de rand van het Nationaal Park Stelvio, zo'n 115 km grotendeels rode en zwarte piste met een indrukwekkende Wereldbeker-geschiedenis. Bormio brengt de berucht steile Stelvio-afdaling en 1800 m hoogteverschil vanaf 3012 m, terwijl Santa Caterina wedstrijdterrein van olympisch niveau op grotere hoogte toevoegt. Met de Romeinse thermale baden in Bormio als bonus is dit een uitvalsbasis voor sterke skiërs in een van de spectaculairste alpiene hoeken van Italië.",
     },
   },
   {
@@ -920,6 +982,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Passo Tonale y Ponte di Legno unidos en 100 km de pistas de altura, con el glaciar de la Presena a 3016 m que garantiza nieve hasta mayo.",
       pt: "Passo Tonale e Ponte di Legno ligados em 100 km de pistas de altitude, com o glaciar da Presena a 3016 m a garantir neve até maio.",
       it: "Passo Tonale e Ponte di Legno collegati in 100 km di piste d'alta quota, con il ghiacciaio Presena a 3.016 m che garantisce neve fino a maggio.",
+      nl: "Passo Tonale en Ponte di Legno verbonden tot 100 km hooggelegen piste, met de Presena-gletsjer op 3016 m die sneeuw garandeert tot in mei.",
     },
     description: {
       en: 'Adamello Ski joins the high pass of Passo Tonale with the historic town of Ponte di Legno over a single mountain link, 100 km of mostly intermediate piste topped by the snow-sure Presena glacier at 3016 m. The contrast is striking: a purpose-built, ski-in/ski-out resort up at 1883 m and a real working Lombard town with porticoes and a famous Christmas market down at 1257 m. One pass covers both and reaches into May.',
@@ -927,6 +990,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Adamello Ski une el alto puerto del Passo Tonale con la histórica ciudad de Ponte di Legno mediante un enlace de montaña, 100 km de pistas sobre todo intermedias coronados por el glaciar de la Presena a 3016 m, de nieve segura. El contraste es llamativo: una estación construida y a pie de pista a 1883 m, y una ciudad lombarda de verdad con soportales y un famoso mercado navideño a 1257 m. Un solo forfait cubre ambos, hasta mayo.",
       pt: "O Adamello Ski une o alto colo do Passo Tonale à histórica cidade de Ponte di Legno através de uma ligação de montanha, 100 km de pistas sobretudo intermédias coroados pelo glaciar da Presena a 3016 m, de neve segura. O contraste é marcante: uma estância construída e no sopé das pistas a 1883 m, e uma cidade lombarda a sério com arcadas e famoso mercado de Natal a 1257 m. Um só passe cobre ambos, até maio.",
       it: "Adamello Ski unisce l'alto Passo Tonale e la storica cittadina di Ponte di Legno attraverso un collegamento di montagna, 100 km di piste perlopiù intermedie coronati dal ghiacciaio Presena, sicuro per la neve, a 3.016 m. Il contrasto è sorprendente: una località costruita e ski-in/ski-out a 1.883 m, e una vera cittadina lombarda con portici e un famoso mercatino di Natale a 1.257 m. Un solo skipass copre entrambi, fino a maggio.",
+      nl: "Adamello Ski verbindt de hooggelegen Passo Tonale met het historische stadje Ponte di Legno via een enkele bergverbinding, 100 km grotendeels middelmoeilijke piste met als kroon de sneeuwzekere Presena-gletsjer op 3016 m. Het contrast is opvallend: een doelgericht gebouwd ski-in/ski-out-skigebied op 1883 m en een echt, levendig Lombardisch stadje met arcades en een beroemde kerstmarkt beneden op 1257 m. Een skipas dekt beide en reikt tot in mei.",
     },
   },
   {
@@ -948,6 +1012,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Davos y Klosters unidos en un mismo forfait, 300 km de pistas de los Grisones por Parsenn, Madrisa, Gotschna y el Jakobshorn.",
       pt: "Davos e Klosters ligados num mesmo passe, 300 km de pistas dos Grisões por Parsenn, Madrisa, Gotschna e o Jakobshorn.",
       it: "Davos e Klosters collegati su un unico skipass, 300 km di piste dei Grigioni tra Parsenn, Madrisa, Gotschna e Jakobshorn.",
+      nl: "Davos en Klosters verbonden op een enkele skipas, 300 km piste in Graubünden over Parsenn, Madrisa, Gotschna en de Jakobshorn.",
     },
     description: {
       en: 'The Davos Klosters pass strings six lift-served mountains across the upper Landwasser valley into 300 km of piste, from the open ridges of the Parsenn to the steep Jakobshorn and the family Madrisa above Klosters. Davos is the urban half (Swiss town with cogwheel railway in town), Klosters the chocolate-box half. Either base gives you the whole domain on the same ticket.',
@@ -955,6 +1020,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El forfait Davos Klosters encadena seis montañas servidas por remontes en el valle alto del Landwasser para 300 km de pistas, de las crestas abiertas del Parsenn al empinado Jakobshorn y al familiar Madrisa sobre Klosters. Davos es la mitad urbana (ciudad suiza con tren cremallera), Klosters la mitad de postal. Cualquiera de las dos bases da todo el dominio con el mismo ticket.",
       pt: "O passe Davos Klosters encadeia seis montanhas com teleféricos no alto vale do Landwasser para 300 km de pistas, das cristas abertas do Parsenn ao íngreme Jakobshorn e ao familiar Madrisa sobre Klosters. Davos é a metade urbana (cidade suíça com comboio cremalheira), Klosters a metade de postal. Qualquer das duas bases dá acesso a todo o domínio com o mesmo bilhete.",
       it: "Lo skipass Davos Klosters mette in fila sei montagne servite da impianti nella valle alta del Landwasser per 300 km di piste, dalle creste aperte del Parsenn al ripido Jakobshorn e al family Madrisa sopra Klosters. Davos è la metà urbana (vera cittadina svizzera con la cremagliera in centro), Klosters la metà da cartolina. Da una qualunque delle due basi si accede a tutto il comprensorio con lo stesso biglietto.",
+      nl: "De Davos Klosters-skipas rijgt zes met liften ontsloten bergen boven de bovenloop van de Landwasservallei aaneen tot 300 km piste, van de open bergkammen van de Parsenn tot de steile Jakobshorn en het gezinsvriendelijke Madrisa boven Klosters. Davos is de stedelijke helft (een echte Zwitserse stad met tandradbaan middenin), Klosters de ansichtkaarthelft. Beide uitvalsbases geven je toegang tot het hele domein met hetzelfde ticket.",
     },
   },
   {
@@ -976,6 +1042,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El mayor dominio interconectado de Austria: 284 km de pistas sobre todo intermedias que enlazan nueve pueblos tiroleses bajo el Wilder Kaiser.",
       pt: "O maior domínio interligado da Áustria: 284 km de pistas sobretudo intermédias que ligam nove aldeias tirolesas sob o Wilder Kaiser.",
       it: "Il più grande comprensorio collegato d'Austria: 284 km di piste perlopiù intermedie che uniscono nove borghi tirolesi sotto il Wilder Kaiser.",
+      nl: "Het grootste onderling verbonden skigebied van Oostenrijk: 284 km grotendeels middelmoeilijke piste die negen Tiroolse dorpen verbindt onder de Wilder Kaiser.",
     },
     description: {
       en: 'SkiWelt links Söll, Westendorf, Going, Ellmau, Scheffau, Brixen and three smaller satellite villages into 284 km of piste under the dramatic limestone wall of the Wilder Kaiser. Skiing is mostly wide intermediate cruising, perfect for groups of mixed ability, plus night skiing on the Hochsöll and one of Europe\'s biggest snowmaking systems. Either base feels properly Austrian, with onion-domed church and Gasthof culture.',
@@ -983,6 +1050,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El SkiWelt enlaza Söll, Westendorf, Going, Ellmau, Scheffau, Brixen y tres pueblos satélite más en 284 km de pistas bajo la espectacular muralla caliza del Wilder Kaiser. El esquí es sobre todo intermedio y rodador, perfecto para grupos de niveles mixtos, más esquí nocturno en el Hochsöll y uno de los mayores sistemas de innivación de Europa. Cualquier base sigue siendo auténticamente austriaca, con iglesia de cebolla y cultura Gasthof.",
       pt: "O SkiWelt liga Söll, Westendorf, Going, Ellmau, Scheffau, Brixen e mais três aldeias satélite em 284 km de pistas sob a espectacular muralha calcária do Wilder Kaiser. O esqui é sobretudo intermédio e rolador, perfeito para grupos de níveis mistos, mais esqui nocturno no Hochsöll e um dos maiores sistemas de neve artificial da Europa. Qualquer base mantém-se autenticamente austríaca, com igreja de cebola e cultura Gasthof.",
       it: "Lo SkiWelt collega Söll, Westendorf, Going, Ellmau, Scheffau, Brixen e altri tre borghi satellite in 284 km di piste sotto la spettacolare muraglia calcarea del Wilder Kaiser. Lo sci è perlopiù intermedio e scorrevole, perfetto per gruppi di livelli misti, più sci notturno sull'Hochsöll e uno dei più grandi impianti di innevamento d'Europa. Ogni base rimane autenticamente austriaca, con chiesa a bulbo e cultura Gasthof.",
+      nl: "SkiWelt verbindt Söll, Westendorf, Going, Ellmau, Scheffau, Brixen en drie kleinere satellietdorpen tot 284 km piste onder de dramatische kalkstenen wand van de Wilder Kaiser. Het skiën is grotendeels breed en middelmoeilijk, perfect voor groepen met gemengd niveau, plus nachtskiën op de Hochsöll en een van de grootste sneeuwsystemen van Europa. Beide uitvalsbases voelen echt Oostenrijks aan, met uienkoepelkerk en Gasthof-cultuur.",
     },
   },
   {
@@ -1004,6 +1072,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Las montañas alrededor de la Zugspitze, la cumbre más alta de Alemania: la tirolesa Lermoos y la bávara Garmisch-Partenkirchen en un solo forfait transfronterizo.",
       pt: "As montanhas à volta da Zugspitze, o cume mais alto da Alemanha: a tirolesa Lermoos e a bávara Garmisch-Partenkirchen num só passe transfronteiriço.",
       it: "Le montagne intorno alla Zugspitze, vetta più alta della Germania: la tirolese Lermoos e la bavarese Garmisch-Partenkirchen su un unico skipass transfrontaliero.",
+      nl: "De bergen rond de Zugspitze, de hoogste top van Duitsland: het Tiroolse Lermoos en het Beierse Garmisch-Partenkirchen op een enkele grensoverschrijdende skipas.",
     },
     description: {
       en: 'The Tiroler Zugspitz Arena groups Lermoos, Ehrwald and the smaller Tirolean villages on the Austrian side of the Zugspitze, with the Top Snow Card extending across to Garmisch-Partenkirchen and the Zugspitzplatt glacier on the German side, for roughly 150 km of piste and the highest lift-served terrain in Germany at 2962 m. The cross-border angle is the draw: ski under the same peak from two countries on the same day.',
@@ -1011,6 +1080,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Tiroler Zugspitz Arena reúne Lermoos, Ehrwald y los pueblos tiroleses más pequeños del lado austriaco de la Zugspitze, y la Top Snow Card extiende el acceso a Garmisch-Partenkirchen y al glaciar del Zugspitzplatt del lado alemán, para unos 150 km de pistas y el terreno más alto servido por remontes en Alemania, a 2962 m. El atractivo: esquiar bajo la misma cima desde dos países el mismo día.",
       pt: "A Tiroler Zugspitz Arena reúne Lermoos, Ehrwald e as aldeias tirolesas mais pequenas do lado austríaco da Zugspitze, e o Top Snow Card estende o acesso a Garmisch-Partenkirchen e ao glaciar do Zugspitzplatt do lado alemão, para cerca de 150 km de pistas e o terreno mais alto servido por teleféricos na Alemanha, a 2962 m. O atrativo: esquiar sob o mesmo cume a partir de dois países no mesmo dia.",
       it: "La Tiroler Zugspitz Arena riunisce Lermoos, Ehrwald e i borghi tirolesi più piccoli sul versante austriaco della Zugspitze, e la Top Snow Card estende l'accesso a Garmisch-Partenkirchen e al ghiacciaio dello Zugspitzplatt sul versante tedesco, per circa 150 km di piste e il terreno più alto servito da impianti in Germania, a 2.962 m. Il bello: sciare sotto la stessa vetta da due paesi nello stesso giorno.",
+      nl: "De Tiroler Zugspitz Arena groepeert Lermoos, Ehrwald en de kleinere Tiroolse dorpen aan de Oostenrijkse kant van de Zugspitze, terwijl de Top Snow Card zich uitstrekt tot Garmisch-Partenkirchen en de Zugspitzplatt-gletsjer aan de Duitse kant, goed voor zo'n 150 km piste en het hoogst met liften ontsloten terrein van Duitsland op 2962 m. De grensoverschrijdende insteek is de grote troef: ski onder dezelfde top vanuit twee landen op een en dezelfde dag.",
     },
   },
   {
@@ -1032,6 +1102,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Ischgl y la suiza Samnaun unidas en 239 km de pistas de altura transfronterizas, con shopping libre de impuestos al pie del teleférico de regreso.",
       pt: "Ischgl e a suíça Samnaun unidas em 239 km de pistas de altitude transfronteiriças, com shopping duty-free ao pé do teleférico de regresso.",
       it: "Ischgl e la svizzera Samnaun unite in 239 km di piste d'alta quota transfrontaliere, con shopping duty-free ai piedi della funivia di ritorno.",
+      nl: "Ischgl en het Zwitserse Samnaun samen goed voor 239 km hooggelegen, grensoverschrijdende piste, met belastingvrij shoppen onderaan de kabelbaan terug.",
     },
     description: {
       en: 'The Silvretta Arena links Austrian Ischgl with Swiss Samnaun across the Paznaun-side ridge, for 239 km of mostly-above-2000 m piste served by 45 lifts. Snow-sure to early May thanks to altitude and aspect, with the famous double-decker cable car carrying skiers back from the Samnaun duty-free shops to the Alp Trida and on into Austria. Two countries on one pass, one of Europe\'s biggest high-altitude domains.',
@@ -1039,6 +1110,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Silvretta Arena enlaza la austriaca Ischgl con la suiza Samnaun por encima de la cresta del lado del Paznaun, para 239 km de pistas sobre todo por encima de 2000 m servidas por 45 remontes. Nieve garantizada hasta principios de mayo gracias a la altitud y la orientación, con el famoso teleférico de dos pisos que devuelve a los esquiadores desde las tiendas duty-free de Samnaun al Alp Trida y luego a Austria. Dos países en un solo forfait, uno de los mayores dominios de altura de Europa.",
       pt: "A Silvretta Arena liga a austríaca Ischgl à suíça Samnaun por cima da crista do lado do Paznaun, para 239 km de pistas sobretudo acima dos 2000 m servidas por 45 teleféricos. Neve garantida até início de maio graças à altitude e à exposição, com o famoso teleférico de dois andares que traz os esquiadores das lojas duty-free de Samnaun ao Alp Trida e depois à Áustria. Dois países num só passe, um dos maiores domínios de altitude da Europa.",
       it: "La Silvretta Arena collega l'austriaca Ischgl alla svizzera Samnaun oltre la cresta del versante Paznaun, per 239 km di piste perlopiù sopra i 2.000 m servite da 45 impianti. Neve sicura fino a inizio maggio grazie alla quota e all'esposizione, con la celebre funivia a due piani che riporta gli sciatori dai negozi duty-free di Samnaun all'Alp Trida e poi in Austria. Due paesi su un solo skipass, uno dei più grandi comprensori d'alta quota d'Europa.",
+      nl: "De Silvretta Arena verbindt het Oostenrijkse Ischgl met het Zwitserse Samnaun over de bergkam aan de Paznaun-kant, tot 239 km piste grotendeels boven de 2000 m, bediend door 45 liften. Sneeuwzeker tot begin mei dankzij hoogte en ligging, met de beroemde dubbeldekskabelbaan die skiërs terugbrengt van de belastingvrije winkels in Samnaun naar de Alp Trida en verder naar Oostenrijk. Twee landen op een skipas, een van de grootste hooggelegen domeinen van Europa.",
     },
   },
   {
@@ -1060,6 +1132,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Andermatt, Sedrun y Disentis enlazados por el puerto del Oberalp para 180 km de pistas de Suiza central con un solo billete.",
       pt: "Andermatt, Sedrun e Disentis ligados pelo colo do Oberalp para 180 km de pistas da Suíça central num só bilhete.",
       it: "Andermatt, Sedrun e Disentis collegate dal passo dell'Oberalp per 180 km di piste della Svizzera centrale su un unico biglietto.",
+      nl: "Andermatt, Sedrun en Disentis verbonden over de Oberalppas tot 180 km piste in Midden-Zwitserland, op een enkel ticket.",
     },
     description: {
       en: 'Egyptian-investor Sawiris-funded buildout of the Gotthard region put Andermatt, Sedrun and Disentis on one SkiArena ticket: 180 km of piste, 33 lifts and the Oberalp-pass connection between Uri and Graubünden. Andermatt is the urban-chic half, Sedrun the snow-sure middle, Disentis the quiet Romansh-speaking end. Glacier-edge skiing on the Gemsstock above Andermatt and the Schneehüenerstock above Sedrun.',
@@ -1067,6 +1140,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La compra del sector del Gotardo por el inversor egipcio Sawiris unió Andermatt, Sedrun y Disentis en un mismo billete SkiArena: 180 km de pistas, 33 remontes y el enlace del puerto del Oberalp entre Uri y los Grisones. Andermatt juega la carta chic, Sedrun la nieve segura, Disentis la punta romanche tranquila. Esquí al borde de glaciar en el Gemsstock sobre Andermatt y el Schneehüenerstock sobre Sedrun.",
       pt: "A compra do sector do Gotardo pelo investidor egípcio Sawiris uniu Andermatt, Sedrun e Disentis num mesmo bilhete SkiArena: 180 km de pistas, 33 teleféricos e a ligação do colo do Oberalp entre Uri e os Grisões. Andermatt joga a cartada chique, Sedrun a neve segura, Disentis a ponta romanche tranquila. Esqui à beira de glaciar no Gemsstock sobre Andermatt e no Schneehüenerstock sobre Sedrun.",
       it: "L'acquisizione del comprensorio del Gottardo da parte dell'investitore egiziano Sawiris ha unito Andermatt, Sedrun e Disentis sullo stesso biglietto SkiArena: 180 km di piste, 33 impianti e il collegamento del passo dell'Oberalp tra Uri e i Grigioni. Andermatt gioca la carta chic, Sedrun la neve sicura, Disentis la punta romancia tranquilla. Sci ai margini del ghiacciaio sul Gemsstock sopra Andermatt e sullo Schneehüenerstock sopra Sedrun.",
+      nl: "De door de Egyptische investeerder Sawiris gefinancierde ontwikkeling van de Gotthardregio bracht Andermatt, Sedrun en Disentis samen op een enkel SkiArena-ticket: 180 km piste, 33 liften en de verbinding via de Oberalppas tussen Uri en Graubünden. Andermatt is de stads-chique helft, Sedrun het sneeuwzekere midden, Disentis het rustige, Reto-Romaans sprekende uiteinde. Skiën langs de gletsjerrand op de Gemsstock boven Andermatt en de Schneehüenerstock boven Sedrun.",
     },
   },
   {
@@ -1088,6 +1162,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Bettmeralp y Riederalp en el balcón sin coches sobre el glaciar de Aletsch, 104 km de pistas sobre un panorama UNESCO.",
       pt: "Bettmeralp e Riederalp na varanda sem carros sobre o glaciar de Aletsch, 104 km de pistas sobre um panorama UNESCO.",
       it: "Bettmeralp e Riederalp sul balcone senza auto sopra il ghiacciaio dell'Aletsch, 104 km di piste su un panorama UNESCO.",
+      nl: "Bettmeralp en Riederalp op het autovrije balkon boven de Aletsch-gletsjer, 104 km piste op een UNESCO-panorama.",
     },
     description: {
       en: 'The Aletsch Arena groups Bettmeralp, Riederalp and Fiescheralp on the high south-facing balcony above the longest glacier of the Alps, all car-free villages reached only by cable car from the valley. 104 km of piste, 35 lifts, ski-to-the-door chalets everywhere, and the UNESCO-listed Aletsch glacier as backdrop. Snow-sure thanks to altitude and aspect, with skiing into May most years.',
@@ -1095,6 +1170,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Aletsch Arena reúne Bettmeralp, Riederalp y Fiescheralp en el alto balcón orientado al sur sobre el glaciar más largo de los Alpes, todos pueblos sin coches a los que solo se accede por teleférico desde el valle. 104 km de pistas, 35 remontes, chalets a pie de pista por todas partes y el glaciar de Aletsch inscrito en la UNESCO como telón de fondo. Nieve garantizada gracias a la altitud y la orientación, con esquí hasta mayo casi cada año.",
       pt: "A Aletsch Arena reúne Bettmeralp, Riederalp e Fiescheralp na alta varanda virada a sul sobre o glaciar mais longo dos Alpes, todas aldeias sem carros a que só se chega por teleférico desde o vale. 104 km de pistas, 35 teleféricos, chalés no sopé das pistas por toda a parte, e o glaciar de Aletsch inscrito na UNESCO como pano de fundo. Neve garantida graças à altitude e à exposição, com esqui até maio quase todos os anos.",
       it: "L'Aletsch Arena riunisce Bettmeralp, Riederalp e Fiescheralp sull'alto balcone esposto a sud sopra il più lungo ghiacciaio delle Alpi, tutti borghi senza auto raggiungibili solo in funivia dal fondovalle. 104 km di piste, 35 impianti, chalet ski-in/ski-out ovunque, e il ghiacciaio dell'Aletsch iscritto all'UNESCO come fondale. Neve sicura grazie a quota ed esposizione, con sci fino a maggio quasi ogni anno.",
+      nl: "De Aletsch Arena groepeert Bettmeralp, Riederalp en Fiescheralp op het hoge, zuidgerichte balkon boven de langste gletsjer van de Alpen, allemaal autovrije dorpen die alleen per kabelbaan vanuit de vallei te bereiken zijn. 104 km piste, 35 liften, overal chalets met ski-in/ski-out, en de door UNESCO erkende Aletsch-gletsjer als decor. Sneeuwzeker dankzij hoogte en ligging, met skiën tot in mei in de meeste jaren.",
     },
   },
   {
@@ -1116,6 +1192,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Dos pueblos del Bregenzerwald unidos por la montaña, 110 km de pistas en lo que regularmente se presenta como la zona más nevada de Austria.",
       pt: "Duas aldeias do Bregenzerwald ligadas pela montanha, 110 km de pistas naquilo que é regularmente apresentado como a zona mais nevada da Áustria.",
       it: "Due borghi del Bregenzerwald collegati dalla montagna, 110 km di piste in quella che è regolarmente presentata come la zona più nevosa dell'Austria.",
+      nl: "Twee dorpen in het Bregenzerwald verbonden over de berg, 110 km piste in wat regelmatig wordt omschreven als het sneeuwrijkste hoekje van Oostenrijk.",
     },
     description: {
       en: 'Damüls-Mellau links the two Bregenzerwald villages into 110 km of piste over the Mittagspitze sector, with a combined 29 lifts and a snow record that is frequently cited as the best in Austria (often well over 9 metres of annual snowfall on the upper slopes). Mostly above the tree line, with proper freeride terrain on the north faces and easy intermediate cruising on the wide front. Beautiful Bregenzerwald Wälderhaus architecture in both villages.',
@@ -1123,6 +1200,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Damüls-Mellau enlaza los dos pueblos del Bregenzerwald en 110 km de pistas por encima del sector del Mittagspitze, con 29 remontes en total y un récord de nieve que se cita con frecuencia como el mejor de Austria (a menudo bastante más de 9 m de nevadas anuales en las laderas altas). Sobre todo por encima del bosque, con un verdadero terreno de freeride en las caras norte y largos descensos intermedios en el gran frente. Bonita arquitectura Wälderhaus del Bregenzerwald en ambos pueblos.",
       pt: "Damüls-Mellau liga as duas aldeias do Bregenzerwald em 110 km de pistas por cima do sector do Mittagspitze, com 29 teleféricos no total e um recorde de neve que é frequentemente citado como o melhor da Áustria (muitas vezes bem mais de 9 m de nevadas anuais nas encostas altas). Sobretudo acima do bosque, com um verdadeiro terreno de freeride nas faces norte e longas descidas intermédias na grande frente. Bonita arquitectura Wälderhaus do Bregenzerwald em ambas as aldeias.",
       it: "Damüls-Mellau collega i due borghi del Bregenzerwald in 110 km di piste oltre il settore del Mittagspitze, con 29 impianti in totale e un record di neve frequentemente citato come il migliore d'Austria (spesso ben oltre 9 m di nevicate annue sui pendii alti). Soprattutto sopra il bosco, con vero terreno freeride sulle facce nord e lunghe discese intermedie sul grande fronte. Bella architettura Wälderhaus del Bregenzerwald in entrambi i borghi.",
+      nl: "Damüls-Mellau verbindt de twee dorpen van het Bregenzerwald tot 110 km piste over de Mittagspitze-sector, met samen 29 liften en een sneeuwrecord dat vaak wordt aangehaald als het beste van Oostenrijk (vaak ruim meer dan 9 m sneeuwval per jaar op de hoger gelegen hellingen). Grotendeels boven de boomgrens, met echt freeride-terrein op de noordwanden en gemakkelijke middelmoeilijke pistes aan de brede voorkant. Prachtige Wälderhaus-architectuur van het Bregenzerwald in beide dorpen.",
     },
   },
   {
@@ -1144,6 +1222,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Saas-Fee y Saas-Almagell comparten el alto valle valaisano bajo el Mischabel, 145 km de pistas de glaciar de nieve segura con un solo forfait.",
       pt: "Saas-Fee e Saas-Almagell partilham o alto vale valaisano sob o Mischabel, 145 km de pistas de glaciar de neve segura num só passe.",
       it: "Saas-Fee e Saas-Almagell condividono l'alta valle vallesana sotto il Mischabel, 145 km di piste di ghiacciaio sicure sulla neve con un unico skipass.",
+      nl: "Saas-Fee en Saas-Almagell delen de hooggelegen Valaisvallei onder de Mischabel, 145 km sneeuwzekere gletsjerpiste op een enkele skipas.",
     },
     description: {
       en: 'The Saastal Card groups Saas-Fee, Saas-Almagell, Saas-Grund and Saas-Balen at the head of the Saas valley, with 145 km of piste reaching 3500 m on the Saas-Fee glacier (snow-sure to May), 27 lifts and ski-touring access into the Mischabel range. Saas-Fee is the car-free flagship; Almagell, Grund and Balen are quieter, value-priced alternatives. One pass covers the whole valley.',
@@ -1151,6 +1230,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La Saastal Card agrupa Saas-Fee, Saas-Almagell, Saas-Grund y Saas-Balen en lo alto del valle de Saas, con 145 km de pistas que llegan a 3500 m en el glaciar de Saas-Fee (nieve segura hasta mayo), 27 remontes y acceso al esquí de travesía en el Mischabel. Saas-Fee es la joya sin coches; Almagell, Grund y Balen son alternativas más tranquilas y económicas. Un solo forfait cubre todo el valle.",
       pt: "O Saastal Card agrupa Saas-Fee, Saas-Almagell, Saas-Grund e Saas-Balen no alto do vale de Saas, com 145 km de pistas que chegam a 3500 m no glaciar de Saas-Fee (neve garantida até maio), 27 teleféricos e acesso ao esqui de travessia no Mischabel. Saas-Fee é a joia sem carros; Almagell, Grund e Balen são alternativas mais tranquilas e económicas. Um só passe cobre todo o vale.",
       it: "La Saastal Card riunisce Saas-Fee, Saas-Almagell, Saas-Grund e Saas-Balen in cima alla valle di Saas, con 145 km di piste che raggiungono i 3.500 m sul ghiacciaio di Saas-Fee (neve sicura fino a maggio), 27 impianti e accesso allo sci alpinismo sul Mischabel. Saas-Fee è la perla senza auto; Almagell, Grund e Balen sono alternative più tranquille e a prezzo contenuto. Un solo skipass copre tutta la valle.",
+      nl: "De Saastal Card groepeert Saas-Fee, Saas-Almagell, Saas-Grund en Saas-Balen aan het hoofd van de Saasvallei, met 145 km piste die tot 3500 m reikt op de gletsjer van Saas-Fee (sneeuwzeker tot mei), 27 liften en toegang tot skitochten in het Mischabelmassief. Saas-Fee is het autovrije uithangbord; Almagell, Grund en Balen zijn rustigere, voordeligere alternatieven. Een skipas dekt de hele vallei.",
     },
   },
   {
@@ -1172,6 +1252,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Saalbach, Hinterglemm, Leogang y Fieberbrunn unidos en 270 km de pistas, uno de los mayores circuitos esquiables de Austria.",
       pt: "Saalbach, Hinterglemm, Leogang e Fieberbrunn unidos em 270 km de pistas, um dos maiores circuitos esquiáveis da Áustria.",
       it: "Saalbach, Hinterglemm, Leogang e Fieberbrunn uniti in 270 km di piste, uno dei più grandi circuiti sciabili dell'Austria.",
+      nl: "Saalbach, Hinterglemm, Leogang en Fieberbrunn samengevoegd tot 270 km piste, een van de grootste skicircuits van Oostenrijk.",
     },
     description: {
       en: 'The Skicircus joins four Salzburger Land villages over a great circular ski-tour for 270 km of piste, 70 lifts and a famously sunny exposure on the Salzburg-Tirol border. Saalbach is the after-ski heavyweight, Hinterglemm the family hub up the valley, Leogang the snowpark-and-bike-park sister, Fieberbrunn the freeride end. One pass covers the whole loop.',
@@ -1179,6 +1260,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "El Skicircus encadena cuatro pueblos del Salzburger Land en un gran tour circular para 270 km de pistas, 70 remontes y una exposición famosa por el sol en la frontera Salzburgo-Tirol. Saalbach es el peso pesado del après-ski, Hinterglemm el polo familiar valle arriba, Leogang la hermana del snowpark y el bike-park, Fieberbrunn la punta freeride. Un solo forfait cubre el bucle.",
       pt: "O Skicircus encadeia quatro aldeias do Salzburger Land num grande circuito para 270 km de pistas, 70 teleféricos e uma exposição famosa pelo sol na fronteira Salzburgo-Tirol. Saalbach é o peso pesado do après-ski, Hinterglemm o polo familiar vale acima, Leogang a irmã do snowpark e do bike-park, Fieberbrunn a ponta freeride. Um só passe cobre o circuito.",
       it: "Lo Skicircus mette in fila quattro borghi del Salzburger Land su un grande giro per 270 km di piste, 70 impianti e un'esposizione celebre per il sole sul confine Salisburgo-Tirolo. Saalbach è il pezzo grosso dell'après-ski, Hinterglemm il polo famiglie a monte, Leogang la sorella di snowpark e bike-park, Fieberbrunn la punta freeride. Un solo skipass copre l'anello.",
+      nl: "De Skicircus verbindt vier dorpen in het Salzburger Land via een grote rondtoer tot 270 km piste, 70 liften en een beroemd zonnige ligging op de grens tussen Salzburg en Tirol. Saalbach is het zwaargewicht van de après-ski, Hinterglemm het familiehart verderop in de vallei, Leogang de snowpark-en-bikepark-zus, Fieberbrunn het freeride-uiteinde. Een skipas dekt de hele lus.",
     },
   },
   {
@@ -1200,6 +1282,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "Schladming, el glaciar del Dachstein y la meseta de Ramsau con un solo forfait regional, 230 km de pistas en los Alpes estirios.",
       pt: "Schladming, o glaciar do Dachstein e o planalto de Ramsau num único passe regional, 230 km de pistas nos Alpes estírios.",
       it: "Schladming, il ghiacciaio del Dachstein e l'altopiano di Ramsau su un unico skipass regionale, 230 km di piste nelle Alpi della Stiria.",
+      nl: "Schladming, de Dachstein-gletsjer en het Ramsau-plateau onder een regionale skipas, 230 km piste in de Stiermarkse Alpen.",
     },
     description: {
       en: 'The Schladming-Dachstein region groups the World Cup town of Schladming (four-mountain area on the Planai-Hochwurzen-Hauser Kaibling-Reiteralm system) with the Dachstein glacier (2700 m, snow-sure to May) and the nordic-skiing-capital Ramsau plateau (220 km of cross-country). Around 230 km of alpine piste on 86 lifts, all on the wider Ski Amadé pass that also adds Wagrain and Filzmoos.',
@@ -1207,6 +1290,7 @@ export const SKI_AREAS: SkiArea[] = [
       es: "La región Schladming-Dachstein agrupa la ciudad de Copa del Mundo de Schladming (cuatro montañas: Planai, Hochwurzen, Hauser Kaibling, Reiteralm) con el glaciar del Dachstein (2700 m, nieve segura hasta mayo) y la meseta nórdica de Ramsau (220 km de fondo). Unos 230 km de pistas alpinas en 86 remontes, todo en el forfait Ski Amadé que añade también Wagrain y Filzmoos.",
       pt: "A região Schladming-Dachstein agrupa a cidade de Taça do Mundo de Schladming (quatro montanhas: Planai, Hochwurzen, Hauser Kaibling, Reiteralm) com o glaciar do Dachstein (2700 m, neve segura até maio) e o planalto nórdico de Ramsau (220 km de fundo). Cerca de 230 km de pistas alpinas em 86 teleféricos, tudo no passe Ski Amadé que adiciona ainda Wagrain e Filzmoos.",
       it: "La regione Schladming-Dachstein riunisce la cittadina della Coppa del Mondo di Schladming (quattro montagne: Planai, Hochwurzen, Hauser Kaibling, Reiteralm) con il ghiacciaio del Dachstein (2.700 m, neve sicura fino a maggio) e l'altopiano nordico di Ramsau (220 km di fondo). Circa 230 km di piste alpine su 86 impianti, tutto sullo skipass Ski Amadé che aggiunge anche Wagrain e Filzmoos.",
+      nl: "De regio Schladming-Dachstein groepeert het Wereldbekerstadje Schladming (een gebied met vier bergen: Planai, Hochwurzen, Hauser Kaibling, Reiteralm) met de Dachstein-gletsjer (2700 m, sneeuwzeker tot mei) en het Ramsau-plateau, de hoofdstad van het langlaufen (220 km langlaufloipes). Zo'n 230 km alpiene piste op 86 liften, alles op de bredere Ski Amadé-skipas die ook Wagrain en Filzmoos toevoegt.",
     },
   },
 ]

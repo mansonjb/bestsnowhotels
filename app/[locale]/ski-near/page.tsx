@@ -8,15 +8,16 @@ import { getGateways, resortsNear } from '@/lib/gateways'
 import { SITE_URL, hreflangFor } from '@/lib/site'
 
 const LBL = {
-  title: { en: 'Ski resorts near an airport', fr: "Stations de ski près d'un aéroport", es: 'Estaciones de esquí cerca de un aeropuerto', pt: 'Estâncias de esqui perto de um aeroporto', it: "Località sciistiche vicino a un aeroporto" } as Record<Locale, string>,
+  title: { en: 'Ski resorts near an airport', fr: "Stations de ski près d'un aéroport", es: 'Estaciones de esquí cerca de un aeropuerto', pt: 'Estâncias de esqui perto de um aeroporto', it: "Località sciistiche vicino a un aeroporto", nl: 'Skigebieden bij een luchthaven' } as Record<Locale, string>,
   intro: {
     en: 'Pick the airport you are flying into and see the closest ski resorts, ranked by distance, each with ski-in/ski-out hotels. The fastest way to turn a flight into a first run.',
     fr: "Choisissez l'aéroport où vous atterrissez et découvrez les stations de ski les plus proches, classées par distance, chacune avec ses hôtels ski au pied. Le moyen le plus rapide de passer de l'avion à la première descente.",
     es: 'Elige el aeropuerto al que llegas y descubre las estaciones de esquí más cercanas, ordenadas por distancia, cada una con hoteles a pie de pista. La forma más rápida de pasar del vuelo a la primera bajada.',
     pt: 'Escolha o aeroporto onde aterra e veja as estâncias de esqui mais próximas, ordenadas por distância, cada uma com hotéis à beira das pistas. A forma mais rápida de passar do voo à primeira descida.',
     it: "Scegli l'aeroporto in cui atterri e scopri le località sciistiche più vicine, ordinate per distanza, ognuna con hotel sugli sci. Il modo più rapido di trasformare un volo nella prima discesa.",
+    nl: 'Kies de luchthaven waar je landt en bekijk de dichtstbijzijnde skigebieden, gerangschikt op afstand, elk met ski-in/ski-out hotels. De snelste manier om van een vlucht naar je eerste afdaling te gaan.',
   } as Record<Locale, string>,
-  nearest: { en: 'closest', fr: 'la plus proche', es: 'la más cercana', pt: 'a mais próxima', it: 'la più vicina' } as Record<Locale, string>,
+  nearest: { en: 'closest', fr: 'la plus proche', es: 'la más cercana', pt: 'a mais próxima', it: 'la più vicina', nl: 'dichtstbij' } as Record<Locale, string>,
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

@@ -14,10 +14,10 @@ import { SITE_URL, hreflangFor, buildAllezDestLink, jsonLdGraph } from '@/lib/si
 
 const T = {
   whyHeading: {
-    en: 'Why this domain for winter 2027', fr: "Pourquoi ce domaine pour l'hiver 2027", es: 'Por qué este dominio para el invierno 2027', pt: 'Porquê este domínio para o inverno 2027', it: "Perché questo comprensorio per l'inverno 2027",
+    en: 'Why this domain for winter 2027', fr: "Pourquoi ce domaine pour l'hiver 2027", es: 'Por qué este dominio para el invierno 2027', pt: 'Porquê este domínio para o inverno 2027', it: "Perché questo comprensorio per l'inverno 2027", nl: 'Waarom dit skigebied voor de winter van 2027',
   } as Record<Locale, string>,
   baseHeading: {
-    en: 'Where to base yourself', fr: 'Où poser ses valises', es: 'Dónde alojarse', pt: 'Onde ficar', it: 'Dove sistemarsi',
+    en: 'Where to base yourself', fr: 'Où poser ses valises', es: 'Dónde alojarse', pt: 'Onde ficar', it: 'Dove sistemarsi', nl: 'Waar u kunt verblijven',
   } as Record<Locale, string>,
   baseSub: {
     en: 'Each of these resorts opens onto the linked domain on one pass. Pick the village, ski it all.',
@@ -25,42 +25,44 @@ const T = {
     es: 'Cada una de estas estaciones da al dominio enlazado con un forfait. Elige el pueblo, esquíalo todo.',
     pt: 'Cada uma destas estâncias abre para o domínio ligado com um passe. Escolha a aldeia, esquie tudo.',
     it: 'Ognuna di queste località si apre sul comprensorio collegato con un solo skipass. Scegli il paese, scia tutto.',
+    nl: 'Vanuit elk van deze skigebieden bereikt u met één skipas het hele verbonden gebied. Kies het dorp en ski overal.',
   } as Record<Locale, string>,
   planHeading: {
-    en: 'Plan your 2027 stay', fr: 'Préparez votre séjour 2027', es: 'Planifica tu estancia 2027', pt: 'Planeie a sua estadia 2027', it: 'Pianifica il tuo soggiorno 2027',
+    en: 'Plan your 2027 stay', fr: 'Préparez votre séjour 2027', es: 'Planifica tu estancia 2027', pt: 'Planeie a sua estadia 2027', it: 'Pianifica il tuo soggiorno 2027', nl: 'Plan uw verblijf voor 2027',
   } as Record<Locale, string>,
   book: {
-    en: 'Compare stays in the area', fr: 'Comparer les séjours sur le domaine', es: 'Comparar alojamientos en el dominio', pt: 'Comparar estadias no domínio', it: 'Confronta soggiorni nel comprensorio',
+    en: 'Compare stays in the area', fr: 'Comparer les séjours sur le domaine', es: 'Comparar alojamientos en el dominio', pt: 'Comparar estadias no domínio', it: 'Confronta soggiorni nel comprensorio', nl: 'Vergelijk verblijven in het gebied',
   } as Record<Locale, string>,
   fullGuide: {
-    en: 'Full domain guide', fr: 'Guide complet du domaine', es: 'Guía completa del dominio', pt: 'Guia completo do domínio', it: 'Guida completa del comprensorio',
+    en: 'Full domain guide', fr: 'Guide complet du domaine', es: 'Guía completa del dominio', pt: 'Guia completo do domínio', it: 'Guida completa del comprensorio', nl: 'Volledige gids van het gebied',
   } as Record<Locale, string>,
   whenLink: {
-    en: 'Where to ski in 2027', fr: 'Où skier en 2027', es: 'Dónde esquiar en 2027', pt: 'Onde esquiar em 2027', it: 'Dove sciare nel 2027',
+    en: 'Where to ski in 2027', fr: 'Où skier en 2027', es: 'Dónde esquiar en 2027', pt: 'Onde esquiar em 2027', it: 'Dove sciare nel 2027', nl: 'Waar skiën in 2027',
   } as Record<Locale, string>,
   hub: {
-    en: 'All domains', fr: 'Tous les domaines', es: 'Todos los dominios', pt: 'Todos os domínios', it: 'Tutti i comprensori',
+    en: 'All domains', fr: 'Tous les domaines', es: 'Todos los dominios', pt: 'Todos os domínios', it: 'Tutti i comprensori', nl: 'Alle skigebieden',
   } as Record<Locale, string>,
-  statPiste: { en: 'of piste', fr: 'de pistes', es: 'de pistas', pt: 'de pistas', it: 'di piste' } as Record<Locale, string>,
-  statLifts: { en: 'lifts', fr: 'remontées', es: 'remontes', pt: 'teleféricos', it: 'impianti' } as Record<Locale, string>,
-  statTop: { en: 'top altitude', fr: 'point culminant', es: 'cota máxima', pt: 'cota máxima', it: 'quota massima' } as Record<Locale, string>,
-  statVert: { en: 'vertical', fr: 'dénivelé', es: 'desnivel', pt: 'desnível', it: 'dislivello' } as Record<Locale, string>,
-  statResorts: { en: 'linked resorts', fr: 'stations reliées', es: 'estaciones enlazadas', pt: 'estâncias ligadas', it: 'località collegate' } as Record<Locale, string>,
-  pisteMix: { en: 'Piste mix across the domain', fr: 'Répartition des pistes du domaine', es: 'Reparto de pistas del dominio', pt: 'Repartição das pistas do domínio', it: 'Ripartizione delle piste del comprensorio' } as Record<Locale, string>,
-  green: { en: 'green', fr: 'vertes', es: 'verdes', pt: 'verdes', it: 'verdi' } as Record<Locale, string>,
-  blue: { en: 'blue', fr: 'bleues', es: 'azules', pt: 'azuis', it: 'blu' } as Record<Locale, string>,
-  red: { en: 'red', fr: 'rouges', es: 'rojas', pt: 'vermelhas', it: 'rosse' } as Record<Locale, string>,
-  black: { en: 'black', fr: 'noires', es: 'negras', pt: 'pretas', it: 'nere' } as Record<Locale, string>,
-  snowHeading: { en: 'Snow through the season', fr: 'La neige au fil de la saison', es: 'La nieve a lo largo de la temporada', pt: 'A neve ao longo da época', it: 'La neve nel corso della stagione' } as Record<Locale, string>,
+  statPiste: { en: 'of piste', fr: 'de pistes', es: 'de pistas', pt: 'de pistas', it: 'di piste', nl: 'aan piste' } as Record<Locale, string>,
+  statLifts: { en: 'lifts', fr: 'remontées', es: 'remontes', pt: 'teleféricos', it: 'impianti', nl: 'liften' } as Record<Locale, string>,
+  statTop: { en: 'top altitude', fr: 'point culminant', es: 'cota máxima', pt: 'cota máxima', it: 'quota massima', nl: 'hoogste punt' } as Record<Locale, string>,
+  statVert: { en: 'vertical', fr: 'dénivelé', es: 'desnivel', pt: 'desnível', it: 'dislivello', nl: 'hoogteverschil' } as Record<Locale, string>,
+  statResorts: { en: 'linked resorts', fr: 'stations reliées', es: 'estaciones enlazadas', pt: 'estâncias ligadas', it: 'località collegate', nl: 'verbonden skigebieden' } as Record<Locale, string>,
+  pisteMix: { en: 'Piste mix across the domain', fr: 'Répartition des pistes du domaine', es: 'Reparto de pistas del dominio', pt: 'Repartição das pistas do domínio', it: 'Ripartizione delle piste del comprensorio', nl: 'Verdeling van de pistes in het gebied' } as Record<Locale, string>,
+  green: { en: 'green', fr: 'vertes', es: 'verdes', pt: 'verdes', it: 'verdi', nl: 'groen' } as Record<Locale, string>,
+  blue: { en: 'blue', fr: 'bleues', es: 'azules', pt: 'azuis', it: 'blu', nl: 'blauw' } as Record<Locale, string>,
+  red: { en: 'red', fr: 'rouges', es: 'rojas', pt: 'vermelhas', it: 'rosse', nl: 'rood' } as Record<Locale, string>,
+  black: { en: 'black', fr: 'noires', es: 'negras', pt: 'pretas', it: 'nere', nl: 'zwart' } as Record<Locale, string>,
+  snowHeading: { en: 'Snow through the season', fr: 'La neige au fil de la saison', es: 'La nieve a lo largo de la temporada', pt: 'A neve ao longo da época', it: 'La neve nel corso della stagione', nl: 'Sneeuw door het seizoen heen' } as Record<Locale, string>,
   snowSub: {
     en: (name: string) => `Indicative average snow depth on the slopes at ${name}, the domain's snowiest base.`,
     fr: (name: string) => `Hauteur de neige moyenne indicative sur les pistes à ${name}, la base la plus enneigée du domaine.`,
     es: (name: string) => `Espesor medio indicativo de nieve en las pistas de ${name}, la base más nevada del dominio.`,
     pt: (name: string) => `Espessura média indicativa de neve nas pistas de ${name}, a base mais nevada do domínio.`,
     it: (name: string) => `Spessore medio indicativo della neve sulle piste a ${name}, la base più nevosa del comprensorio.`,
+    nl: (name: string) => `Indicatieve gemiddelde sneeuwhoogte op de piste bij ${name}, de sneeuwzekerste basis van het gebied.`,
   } as Record<Locale, (name: string) => string>,
-  liveSnow: { en: 'Live snow report', fr: 'Bulletin neige en direct', es: 'Parte de nieve en directo', pt: 'Boletim de neve em direto', it: 'Bollettino neve in tempo reale' } as Record<Locale, string>,
-  faqHeading: { en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti' } as Record<Locale, string>,
+  liveSnow: { en: 'Live snow report', fr: 'Bulletin neige en direct', es: 'Parte de nieve en directo', pt: 'Boletim de neve em direto', it: 'Bollettino neve in tempo reale', nl: 'Actueel sneeuwbericht' } as Record<Locale, string>,
+  faqHeading: { en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti', nl: 'Veelgestelde vragen' } as Record<Locale, string>,
 }
 
 export function generateStaticParams() {

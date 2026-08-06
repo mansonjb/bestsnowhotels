@@ -16,6 +16,7 @@ const T = {
     es: 'Guías de estaciones: lo que saber antes de ir',
     pt: 'Guias de estâncias: o que saber antes de ir',
     it: 'Guide alle località: cosa sapere prima di partire',
+    nl: 'Gidsen voor skigebieden: wat je moet weten voor je vertrekt',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Short, practical briefings on each resort: snow, getting there, the ski area, the vibe and when to go. Every point is drawn from our own data, not marketing.',
@@ -23,9 +24,10 @@ const T = {
     es: 'Fichas breves y prácticas de cada estación: nieve, cómo llegar, el dominio, el ambiente y cuándo ir. Cada punto sale de nuestros propios datos, no del marketing.',
     pt: 'Fichas curtas e práticas de cada estância: neve, como chegar, o domínio, o ambiente e quando ir. Cada ponto vem dos nossos próprios dados, não do marketing.',
     it: 'Schede brevi e pratiche per ogni località: neve, come arrivare, il comprensorio, l’atmosfera e quando andare. Ogni punto viene dai nostri dati, non dal marketing.',
+    nl: 'Korte, praktische briefings per skigebied: sneeuw, hoe je er komt, het skidomein, de sfeer en wanneer te gaan. Elk punt komt uit onze eigen data, niet uit marketing.',
   } as Record<Locale, string>,
   read: {
-    en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere',
+    en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere', nl: 'Goed om te weten',
   } as Record<Locale, string>,
 }
 

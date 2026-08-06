@@ -38,13 +38,14 @@ export function weatherKind(code: number | null): WeatherKind {
 }
 
 const LABELS: Record<WeatherKind, Record<Locale, string>> = {
-  clear: { en: 'Clear', fr: 'Ciel clair', es: 'Despejado', pt: 'Céu limpo', it: 'Sereno' },
+  clear: { en: 'Clear', fr: 'Ciel clair', es: 'Despejado', pt: 'Céu limpo', it: 'Sereno', nl: 'Helder' },
   partlyCloudy: {
     en: 'Partly cloudy',
     fr: 'Partiellement nuageux',
     es: 'Parcialmente nublado',
     pt: 'Parcialmente nublado',
     it: 'Parzialmente nuvoloso',
+    nl: 'Gedeeltelijk bewolkt',
   },
   overcast: {
     en: 'Overcast',
@@ -52,16 +53,18 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     es: 'Cubierto',
     pt: 'Encoberto',
     it: 'Coperto',
+    nl: 'Zwaar bewolkt',
   },
-  fog: { en: 'Fog', fr: 'Brouillard', es: 'Niebla', pt: 'Nevoeiro', it: 'Nebbia' },
-  drizzle: { en: 'Drizzle', fr: 'Bruine', es: 'Llovizna', pt: 'Chuvisco', it: 'Pioviggine' },
-  rain: { en: 'Rain', fr: 'Pluie', es: 'Lluvia', pt: 'Chuva', it: 'Pioggia' },
+  fog: { en: 'Fog', fr: 'Brouillard', es: 'Niebla', pt: 'Nevoeiro', it: 'Nebbia', nl: 'Mist' },
+  drizzle: { en: 'Drizzle', fr: 'Bruine', es: 'Llovizna', pt: 'Chuvisco', it: 'Pioviggine', nl: 'Motregen' },
+  rain: { en: 'Rain', fr: 'Pluie', es: 'Lluvia', pt: 'Chuva', it: 'Pioggia', nl: 'Regen' },
   freezingRain: {
     en: 'Freezing rain',
     fr: 'Pluie verglaçante',
     es: 'Lluvia helada',
     pt: 'Chuva gelada',
     it: 'Pioggia gelata',
+    nl: 'IJzel',
   },
   snowLight: {
     en: 'Light snow',
@@ -69,6 +72,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     es: 'Nieve ligera',
     pt: 'Neve fraca',
     it: 'Neve leggera',
+    nl: 'Lichte sneeuw',
   },
   snowHeavy: {
     en: 'Heavy snow',
@@ -76,6 +80,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     es: 'Nieve intensa',
     pt: 'Neve forte',
     it: 'Neve intensa',
+    nl: 'Zware sneeuwval',
   },
   thunderstorm: {
     en: 'Thunderstorm',
@@ -83,6 +88,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     es: 'Tormenta',
     pt: 'Trovoada',
     it: 'Temporale',
+    nl: 'Onweer',
   },
 }
 

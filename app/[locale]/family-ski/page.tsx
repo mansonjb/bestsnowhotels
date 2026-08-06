@@ -9,15 +9,16 @@ import { localizeCountry } from '@/lib/countryNames'
 import { SITE_URL, hreflangFor } from '@/lib/site'
 
 const LBL = {
-  title: { en: 'Best family ski resorts, by country', fr: 'Meilleures stations de ski en famille, par pays', es: 'Mejores estaciones de esquí para niños, por país', pt: 'Melhores estâncias de esqui em família, por país', it: 'Migliori località sciistiche per famiglie, per paese' } as Record<Locale, string>,
+  title: { en: 'Best family ski resorts, by country', fr: 'Meilleures stations de ski en famille, par pays', es: 'Mejores estaciones de esquí para niños, por país', pt: 'Melhores estâncias de esqui em família, por país', it: 'Migliori località sciistiche per famiglie, per paese', nl: 'Beste skigebieden voor gezinnen, per land' } as Record<Locale, string>,
   intro: {
     en: 'Skiing with kids is its own puzzle: you want gentle slopes, real beginner terrain and a base that keeps small legs close to the door. Pick a country to see its resorts ranked for families.',
     fr: "Skier avec des enfants, c'est un autre casse-tête : il faut des pentes douces, un vrai domaine débutant et un village qui garde les petites jambes près de la porte. Choisissez un pays pour voir ses stations classées pour les familles.",
     es: 'Esquiar con niños es otro rompecabezas: quieres pistas suaves, verdadero terreno para debutantes y una base que mantenga las piernas pequeñas cerca de la puerta. Elige un país para ver sus estaciones clasificadas para familias.',
     pt: 'Esquiar com crianças é outro quebra-cabeças: quer pistas suaves, verdadeiro terreno de iniciação e uma base que mantenha as perninhas perto da porta. Escolha um país para ver as suas estâncias classificadas para famílias.',
     it: 'Sciare con i bambini è un rebus a parte: servono pendii dolci, vero terreno per principianti e una base che tenga le gambine vicino alla porta. Scegli un paese per vedere le sue località in classifica per le famiglie.',
+    nl: 'Skien met kinderen is een puzzel op zich: je wilt zachte hellingen, echt beginnersterrein en een basis die kleine beentjes dicht bij de deur houdt. Kies een land om de skigebieden gerangschikt voor gezinnen te zien.',
   } as Record<Locale, string>,
-  resorts: { en: 'family resorts', fr: 'stations familiales', es: 'estaciones familiares', pt: 'estâncias familiares', it: 'località per famiglie' } as Record<Locale, string>,
+  resorts: { en: 'family resorts', fr: 'stations familiales', es: 'estaciones familiares', pt: 'estâncias familiares', it: 'località per famiglie', nl: 'skigebieden voor gezinnen' } as Record<Locale, string>,
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
