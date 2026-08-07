@@ -15,15 +15,36 @@ const defaultLocale: Locale = 'en'
 // in local dev, so dev never gets the flag). Extend only for confirmed non-market
 // bot sources. Kept out of any Server Component / headers() read on purpose, so
 // the 455-resort ISR cache is never forced dynamic.
+//
+// We also suppress by CITY (Vercel x-vercel-ip-city) for datacenter hubs that sit
+// inside an otherwise-real market: Council Bluffs, Iowa is a Google datacenter, so
+// its traffic is crawler/datacenter bots, not real US skiers. Blocking the whole
+// US country would be wrong, so we match the city and keep the rest of the US
+// tracked. Compare in lowercase (city casing varies).
 const NO_ANALYTICS_COUNTRIES = new Set(['SG'])
+const NO_ANALYTICS_CITIES = new Set(['council bluffs'])
 const GEO_BLOCK_COOKIE = 'bsh_geo_block'
+
+// x-vercel-ip-city is URL-encoded (e.g. "Council%20Bluffs"); decode + lowercase
+// for a robust compare. Absent in local dev, so dev is never flagged.
+function blockedCity(request: NextRequest): boolean {
+  const raw = request.headers.get('x-vercel-ip-city') ?? ''
+  if (!raw) return false
+  let city = raw
+  try {
+    city = decodeURIComponent(raw)
+  } catch {
+    // keep raw on malformed percent-encoding
+  }
+  return NO_ANALYTICS_CITIES.has(city.toLowerCase())
+}
 
 // Attach (or clear) the analytics-suppression cookie on a response, only when the
 // desired state differs from what the client already has, so most responses carry
 // no Set-Cookie at all.
 function applyGeoCookie(request: NextRequest, response: NextResponse): NextResponse {
   const country = request.headers.get('x-vercel-ip-country') ?? ''
-  const shouldBlock = NO_ANALYTICS_COUNTRIES.has(country)
+  const shouldBlock = NO_ANALYTICS_COUNTRIES.has(country) || blockedCity(request)
   const hasCookie = request.cookies.has(GEO_BLOCK_COOKIE)
   if (shouldBlock && !hasCookie) {
     response.cookies.set(GEO_BLOCK_COOKIE, '1', {
