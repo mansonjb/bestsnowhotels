@@ -24,6 +24,7 @@ interface HeaderProps {
 
 const localeLabels: Record<Locale, string> = { en: 'EN', fr: 'FR', es: 'ES', pt: 'PT', it: 'IT', nl: 'NL' }
 const allLocales: Locale[] = ['en', 'fr', 'es', 'pt', 'it', 'nl']
+const menuAria: Record<Locale, string> = { en: 'Toggle menu', fr: 'Ouvrir le menu', es: 'Abrir menú', pt: 'Abrir menu', it: 'Apri menu', nl: 'Menu openen' }
 
 export default function Header({ locale, dict }: HeaderProps) {
   const [open, setOpen] = useState(false)
@@ -92,7 +93,7 @@ export default function Header({ locale, dict }: HeaderProps) {
           <button
             type="button"
             className="md:hidden p-2 rounded text-ice-800"
-            aria-label="Toggle menu"
+            aria-label={menuAria[locale]}
             onClick={() => setOpen(!open)}
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

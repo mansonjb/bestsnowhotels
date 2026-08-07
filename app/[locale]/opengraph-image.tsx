@@ -1,10 +1,37 @@
 import { ImageResponse } from 'next/og'
+import { locales, hasLocale } from './dictionaries'
+import type { Locale } from './dictionaries'
 
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
-export const alt = 'BestSnowHotels: ski-in/ski-out hotels in the Alps and Pyrenees'
+export const alt = 'BestSnowHotels: ski-in/ski-out hotels around the world'
 
-export default async function OG() {
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
+
+const TAGLINE: Record<Locale, string> = {
+  en: 'Ski-in/ski-out hotels around the world',
+  fr: 'Hôtels ski-in/ski-out partout dans le monde',
+  es: 'Hoteles ski-in/ski-out en todo el mundo',
+  pt: 'Hotéis ski-in/ski-out em todo o mundo',
+  it: 'Hotel ski-in/ski-out in tutto il mondo',
+  nl: 'Ski-in/ski-out hotels over de hele wereld',
+}
+
+const LABELS: Record<Locale, { resorts: string; countries: string; languages: string }> = {
+  en: { resorts: 'resorts', countries: 'countries', languages: 'languages' },
+  fr: { resorts: 'stations', countries: 'pays', languages: 'langues' },
+  es: { resorts: 'estaciones', countries: 'países', languages: 'idiomas' },
+  pt: { resorts: 'estâncias', countries: 'países', languages: 'idiomas' },
+  it: { resorts: 'località', countries: 'paesi', languages: 'lingue' },
+  nl: { resorts: 'skigebieden', countries: 'landen', languages: 'talen' },
+}
+
+export default async function OG({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const l: Locale = hasLocale(locale) ? locale : 'en'
+  const lbl = LABELS[l]
   return new ImageResponse(
     (
       <div
@@ -50,7 +77,7 @@ export default async function OG() {
             maxWidth: 900,
           }}
         >
-          Ski-in/ski-out hotels across the Alps and Pyrenees
+          {TAGLINE[l]}
         </div>
         <div
           style={{
@@ -61,11 +88,11 @@ export default async function OG() {
             color: '#e3f1fa',
           }}
         >
-          <span>455 resorts</span>
+          <span>455 {lbl.resorts}</span>
           <span>·</span>
-          <span>24 countries</span>
+          <span>24 {lbl.countries}</span>
           <span>·</span>
-          <span>5 languages</span>
+          <span>6 {lbl.languages}</span>
         </div>
       </div>
     ),
