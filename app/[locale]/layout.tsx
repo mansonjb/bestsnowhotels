@@ -7,6 +7,7 @@ import type { Locale } from './dictionaries'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Analytics from '@/components/Analytics'
+import AffiliateTracker from '@/components/AffiliateTracker'
 import { STAY22_ID, SITE_URL } from '@/lib/site'
 import { notFound } from 'next/navigation'
 
@@ -110,6 +111,7 @@ export default async function LocaleLayout({
             proxy.ts). Singapore datacenter bots never fire these tags, so they
             stop polluting analytics, while real SG visitors still browse + book. */}
         <Analytics />
+        <AffiliateTracker />
       </body>
     </html>
   )
