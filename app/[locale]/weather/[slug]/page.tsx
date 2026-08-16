@@ -14,7 +14,7 @@ import { compareToSeasonalAvg, formatSnowCm, formatTempC, formatWindKmh } from '
 import { weatherGlyph, weatherLabel } from '@/lib/weatherCodes'
 import Forecast7Day from '@/components/Forecast7Day'
 import WeatherCard from '@/components/WeatherCard'
-import { SITE_URL, jsonLdGraph } from '@/lib/site'
+import { SITE_URL, jsonLdGraph, buildAllezDestLink } from '@/lib/site'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { getSkiAreaForResort } from '@/lib/skiAreas'
@@ -101,6 +101,9 @@ export default async function ResortWeatherPage({
   const snap = await fetchWeather(d)
   const skiArea = getSkiAreaForResort(slug)
   const related = getRelatedDestinations(slug, 3)
+  // Direct affiliate CTA so the high-traffic snow-report pages convert on the
+  // spot (campaign "weather" lets us split these clicks in GA4 via the tracker).
+  const allezLink = buildAllezDestLink(d.name, d.country, 'weather', 7)
 
   // Fetch related snapshots for the carousel at the bottom. Cached fetches mean
   // we usually pay nothing for them on a warm cycle.
@@ -320,6 +323,14 @@ export default async function ResortWeatherPage({
           {d.intro[l]}
         </p>
         <div className="mt-5 flex flex-wrap gap-3">
+          <a
+            href={allezLink}
+            target="_blank"
+            rel="noopener sponsored"
+            className="inline-block bg-alpenglow-500 text-white font-bold px-6 py-3 rounded-full hover:bg-alpenglow-400 transition shadow-sm"
+          >
+            {dict.destination.checkAvailability} →
+          </a>
           <Link
             href={`/${l}/destinations/${d.slug}`}
             className="inline-block bg-slate-deep text-white font-semibold px-6 py-3 rounded-full hover:bg-ice-800 transition"
