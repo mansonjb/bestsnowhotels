@@ -307,6 +307,15 @@ export default async function SkiInSkiOutCountryPage({
   const jsonLd: object[] = [
     {
       '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: dict.nav.home, item: `${SITE_URL}/${l}` },
+        { '@type': 'ListItem', position: 2, name: NOUN[l], item: `${SITE_URL}/${l}/ski-in-ski-out` },
+        { '@type': 'ListItem', position: 3, name: localizeCountry(c.country, l), item: `${SITE_URL}/${l}/ski-in-ski-out/${c.slug}` },
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
       '@type': 'ItemList',
       name: title(c.country, l),
       numberOfItems: c.resorts.length,
