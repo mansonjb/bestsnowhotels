@@ -24,6 +24,7 @@ const TERM: Record<Locale, string> = {
   pt: 'ski-in/ski-out',
   it: 'sci ai piedi',
   nl: 'ski-in/ski-out',
+  ja: 'ski-in/ski-out',
 }
 
 const NOUN: Record<Locale, string> = {
@@ -33,6 +34,7 @@ const NOUN: Record<Locale, string> = {
   pt: 'Estâncias ski-in/ski-out',
   it: 'Località ski-in/ski-out',
   nl: 'Ski-in/ski-out skigebieden',
+  ja: 'ski-in/ski-outリゾート',
 }
 
 const T = {
@@ -43,6 +45,7 @@ const T = {
     pt: 'Esquia até à porta',
     it: 'Sci ai piedi fin dalla porta',
     nl: 'Ski tot aan de voordeur',
+    ja: '玄関からゲレンデへ',
   } as Record<Locale, string>,
   strongLead: {
     en: 'Most of the village is genuinely on the snow: you can clip in outside your hotel.',
@@ -51,6 +54,7 @@ const T = {
     pt: 'A maior parte da aldeia está mesmo sobre a neve: calça os esquis à porta do hotel.',
     it: 'Gran parte del paese è davvero sulla neve: ci si allaccia gli sci davanti all’hotel.',
     nl: 'Het grootste deel van het dorp ligt echt op de sneeuw: skiën begint voor de deur van je hotel.',
+    ja: '村の大部分が本当に雪の上にあり、ホテルの外でそのままスキー板を着けられます。',
   } as Record<Locale, string>,
   partialHeading: {
     en: 'Ski-in/ski-out addresses',
@@ -59,6 +63,7 @@ const T = {
     pt: 'Moradas ski-in/ski-out',
     it: 'Indirizzi ski-in/ski-out',
     nl: 'Ski-in/ski-out adressen',
+    ja: 'ski-in/ski-outな宿泊先',
   } as Record<Locale, string>,
   partialLead: {
     en: 'Not the whole resort, but specific hotels or sectors put you right on the piste. Pick the address carefully.',
@@ -67,23 +72,24 @@ const T = {
     pt: 'Não toda a estância, mas hotéis ou setores específicos deixam-no mesmo na pista. Escolha bem a morada.',
     it: 'Non tutta la località, ma hotel o settori specifici vi mettono proprio sulla pista. Scegliete bene l’indirizzo.',
     nl: 'Niet het hele skigebied, maar bepaalde hotels of sectoren liggen echt aan de piste. Kies het adres zorgvuldig.',
+    ja: 'リゾート全体ではなく、特定のホテルやエリアだけがゲレンデに直結しています。宿泊先は慎重に選びましょう。',
   } as Record<Locale, string>,
   carFree: {
-    en: 'Car-free', fr: 'Sans voitures', es: 'Sin coches', pt: 'Sem carros', it: 'Senza auto', nl: 'Autovrij',
+    en: 'Car-free', fr: 'Sans voitures', es: 'Sin coches', pt: 'Sem carros', it: 'Senza auto', nl: 'Autovrij', ja: '車不要',
   } as Record<Locale, string>,
   viewHotels: {
-    en: 'View hotels', fr: 'Voir les hôtels', es: 'Ver hoteles', pt: 'Ver hotéis', it: 'Vedi hotel', nl: 'Bekijk hotels',
+    en: 'View hotels', fr: 'Voir les hôtels', es: 'Ver hoteles', pt: 'Ver hotéis', it: 'Vedi hotel', nl: 'Bekijk hotels', ja: 'ホテルを見る',
   } as Record<Locale, string>,
   book: {
-    en: 'Compare stays', fr: 'Comparer les séjours', es: 'Comparar alojamientos', pt: 'Comparar estadias', it: 'Confronta soggiorni', nl: 'Vergelijk verblijven',
+    en: 'Compare stays', fr: 'Comparer les séjours', es: 'Comparar alojamientos', pt: 'Comparar estadias', it: 'Confronta soggiorni', nl: 'Vergelijk verblijven', ja: '宿泊先を比較する',
   } as Record<Locale, string>,
-  alt: { en: 'Base', fr: 'Bas', es: 'Base', pt: 'Base', it: 'Base', nl: 'Basis' } as Record<Locale, string>,
-  pistes: { en: 'Pistes', fr: 'Pistes', es: 'Pistas', pt: 'Pistas', it: 'Piste', nl: 'Pistes' } as Record<Locale, string>,
+  alt: { en: 'Base', fr: 'Bas', es: 'Base', pt: 'Base', it: 'Base', nl: 'Basis', ja: 'ベース' } as Record<Locale, string>,
+  pistes: { en: 'Pistes', fr: 'Pistes', es: 'Pistas', pt: 'Pistas', it: 'Piste', nl: 'Pistes', ja: 'コース' } as Record<Locale, string>,
   allCountries: {
-    en: 'All countries', fr: 'Tous les pays', es: 'Todos los países', pt: 'Todos os países', it: 'Tutti i paesi', nl: 'Alle landen',
+    en: 'All countries', fr: 'Tous les pays', es: 'Todos los países', pt: 'Todos os países', it: 'Tutti i paesi', nl: 'Alle landen', ja: 'すべての国',
   } as Record<Locale, string>,
   hotelsHeading: {
-    en: 'Ski-in/ski-out hotels', fr: 'Hôtels ski au pied', es: 'Hoteles a pie de pista', pt: 'Hotéis ski-in/ski-out', it: 'Hotel sci ai piedi', nl: 'Ski-in/ski-out hotels',
+    en: 'Ski-in/ski-out hotels', fr: 'Hôtels ski au pied', es: 'Hoteles a pie de pista', pt: 'Hotéis ski-in/ski-out', it: 'Hotel sci ai piedi', nl: 'Ski-in/ski-out hotels', ja: 'ski-in/ski-outホテル',
   } as Record<Locale, string>,
   hotelsSub: {
     en: 'A standout slope-side hotel in the most ski-in/ski-out resorts, with live prices.',
@@ -92,12 +98,13 @@ const T = {
     pt: 'Um hotel de destaque junto às pistas nas estâncias mais ski-in/ski-out, com preços em direto.',
     it: 'Un hotel di spicco sulle piste nelle località più sci ai piedi, con prezzi in tempo reale.',
     nl: 'Een opvallend hotel aan de piste in de beste ski-in/ski-out skigebieden, met actuele prijzen.',
+    ja: '最もski-in/ski-outなリゾートから選んだ、とっておきのゲレンデ直結ホテル。リアルタイム料金付き。',
   } as Record<Locale, string>,
   mapHeading: {
-    en: 'Map: ski-in/ski-out hotels in', fr: 'Carte : hôtels ski au pied à', es: 'Mapa: hoteles a pie de pista en', pt: 'Mapa: hotéis ski-in/ski-out em', it: 'Mappa: hotel sci ai piedi a', nl: 'Kaart: ski-in/ski-out hotels in',
+    en: 'Map: ski-in/ski-out hotels in', fr: 'Carte : hôtels ski au pied à', es: 'Mapa: hoteles a pie de pista en', pt: 'Mapa: hotéis ski-in/ski-out em', it: 'Mappa: hotel sci ai piedi a', nl: 'Kaart: ski-in/ski-out hotels in', ja: 'マップ：ski-in/ski-outホテル、',
   } as Record<Locale, string>,
   faqHeading: {
-    en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti', nl: 'Veelgestelde vragen',
+    en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti', nl: 'Veelgestelde vragen', ja: 'よくある質問',
   } as Record<Locale, string>,
 }
 
@@ -115,6 +122,7 @@ function seoTitle(country: string, l: Locale): string {
     case 'pt': return `Hotéis ski-in/ski-out ${c}: estâncias na neve`
     case 'it': return `Hotel sci ai piedi ${c}: località ski-in/ski-out`
     case 'nl': return `Ski-in/ski-out hotels ${c}: de beste skigebieden aan de piste`
+    case 'ja': return `${c}のski-in/ski-out ホテル：本当にゲレンデに直結するリゾート`
     default: return `Ski-in/ski-out hotels ${c}: the best slope-side resorts`
   }
 }
@@ -144,6 +152,10 @@ function intro(c: SioCountry, l: Locale): string {
       return `${n} skigebieden ${country} met echte ski-in/ski-out en geverifieerde hotels aan de piste, gerangschikt op basis van onze eigen aantekeningen ter plekke in plaats van marketing. ${
         carFree > 0 ? `${carFree} daarvan volledig autovrij. ` : ''
       }Voor elk skigebied leggen we precies uit hoe ver het ski-in/ski-out echt gaat, en waar je op de sneeuw kunt overnachten.`
+    case 'ja':
+      return `${country}で本当にski-in/ski-outが叶うリゾートを${n}件、検証済みのゲレンデ直結ホテルとともにご紹介。マーケティング文句ではなく、現地取材による独自の評価に基づいてランキングしています。${
+        carFree > 0 ? `うち${carFree}件は完全に車不要です。` : ''
+      }それぞれのリゾートについて、ski-in/ski-outが実際どこまで本物か、そしてゲレンデ沿いのどこに泊まるべきかを具体的にお伝えします。`
     default:
       return `${n} resorts ${country} where ski-in/ski-out is real, with verified slope-side hotels, ranked from our own on-the-ground notes rather than marketing. ${
         carFree > 0 ? `${carFree} of them are fully car-free. ` : ''
@@ -188,6 +200,12 @@ function faqItems(c: SioCountry, l: Locale): { q: string; a: string }[] {
     { q: `Welke skigebieden ${country} zijn echt ski-in/ski-out?`, a: `Onze meest ski-in/ski-out skigebieden ${cName} zijn ${top}. Voor elk skigebied zeggen we eerlijk of het hele skigebied op de sneeuw ligt of alleen bepaalde hotels en sectoren.` },
     { q: `Zijn er autovrije skigebieden ${country}?`, a: carFree > 0 ? `Ja, ${carFree} van onze skigebieden ${cName} zijn volledig autovrij, wat het ski-in/ski-out nog natuurlijker maakt.` : `Weinig skigebieden ${cName} zijn helemaal autovrij, maar veel bieden hotels vlak aan de piste.` },
     { q: `Waar vind je luxe of gezinsvriendelijke ${term} hotels ${country}?`, a: `Bekijk onze selecties luxe hotels en gezinsvriendelijke skigebieden, en de kaart hieronder om hotels aan de piste met actuele prijzen te vergelijken.` },
+  ]
+  if (l === 'ja') return [
+    { q: `ski-in/ski-outとは？`, a: `ski-in/ski-outとは、ホテルやアパートのすぐ外でスキー板を着脱できる、つまり送迎も徒歩移動も不要ということです。朝は玄関からすぐゲレンデへ、夕方はスキーのまま宿へ戻れる、スキー旅行ならではの本当の贅沢です。` },
+    { q: `${country}で本当にski-in/ski-outなリゾートはどこ？`, a: `${cName}で最もski-in/ski-outなリゾートは${top}です。それぞれについて、リゾート全体が雪に面しているのか、一部のホテルやエリアだけなのかを正直にお伝えしています。` },
+    { q: `${country}に車不要のスキーリゾートはある？`, a: carFree > 0 ? `はい、${cName}のリゾートのうち${carFree}件が完全に車不要で、ski-in/ski-outがさらに自然に楽しめます。` : `${cName}で完全に車不要のリゾートは多くありませんが、ゲレンデのすぐそばにホテルがある場所は数多くあります。` },
+    { q: `${country}でラグジュアリーや家族向けの${term}ホテルはどこにある？`, a: `ラグジュアリーホテルや家族向けリゾートの特集ページ、そして下記の地図で、ゲレンデ沿いのホテルと実際の料金を比較してご覧いただけます。` },
   ]
   return [
     { q: `What does ski-in/ski-out mean?`, a: `Ski-in/ski-out means you clip your skis on and off right outside your hotel or apartment, with no transfer or walk. It is the real luxury of a ski trip: the piste at your door in the morning and skiing home at the end of the day.` },

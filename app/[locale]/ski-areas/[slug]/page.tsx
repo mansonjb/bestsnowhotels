@@ -16,7 +16,7 @@ export async function generateStaticParams() {
   )
 }
 
-const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e', nl: 'en' }
+const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e', nl: 'en', ja: 'と' }
 
 function listJoin(names: string[], locale: Locale): string {
   if (names.length <= 1) return names[0] ?? ''
@@ -39,6 +39,7 @@ export async function generateMetadata({
     pt: `Domínio esquiável de ${area.name}: estâncias, pistas e hotéis ski-in/ski-out | BestSnowHotels`,
     it: `Comprensorio di ${area.name}: località, piste e hotel ski-in/ski-out | BestSnowHotels`,
     nl: `Skidomein ${area.name}: skigebieden, pistekaart en ski-in/ski-out hotels | BestSnowHotels`,
+    ja: `${area.name}スキーエリア：リゾート、コースマップ、ski-in/ski-outホテル | BestSnowHotels`,
   }
   const descriptions: Record<Locale, string> = {
     en: `${area.name}: ${area.pistesKm} km of piste, ${area.members.length} linked resorts and ski-in/ski-out hotels. Compare Booking, Expedia and Hotels.com on a live map.`,
@@ -47,6 +48,7 @@ export async function generateMetadata({
     pt: `${area.name}: ${area.pistesKm} km de pistas, ${area.members.length} estâncias ligadas e hotéis ski-in/ski-out. Compare Booking, Expedia e Hotels.com num mapa em direto.`,
     it: `${area.name}: ${area.pistesKm} km di piste, ${area.members.length} località collegate e hotel ski-in/ski-out. Confronta Booking, Expedia e Hotels.com su una mappa in tempo reale.`,
     nl: `${area.name}: ${area.pistesKm} km piste, ${area.members.length} gekoppelde skigebieden en ski-in/ski-out hotels. Vergelijk Booking, Expedia en Hotels.com op een live kaart.`,
+    ja: `${area.name}：コース${area.pistesKm}km、連結リゾート${area.members.length}件、ski-in/ski-outホテルあり。Booking、Expedia、Hotels.comの料金をライブマップで比較。`,
   }
   return {
     title: titles[l],
@@ -91,6 +93,7 @@ export default async function SkiAreaPage({
         pt: `Que estâncias fazem parte de ${area.name}?`,
         it: `Quali località fanno parte del comprensorio ${area.name}?`,
         nl: `Welke skigebieden maken deel uit van ${area.name}?`,
+        ja: `${area.name}にはどのリゾートが含まれますか？`,
       } as Record<Locale, string>,
       a: {
         en: `${area.name} links ${listJoin(memberNames, 'en')} on the ${area.pass} pass, with ${area.pistesKm} km of piste served by around ${area.lifts} lifts.`,
@@ -99,6 +102,7 @@ export default async function SkiAreaPage({
         pt: `${area.name} liga ${listJoin(memberNames, 'pt')} no forfait ${area.pass}, ${area.pistesKm} km de pistas servidas por cerca de ${area.lifts} teleféricos.`,
         it: `${area.name} collega ${listJoin(memberNames, 'it')} sullo skipass ${area.pass}, con ${area.pistesKm} km di piste serviti da circa ${area.lifts} impianti.`,
         nl: `${area.name} verbindt ${listJoin(memberNames, 'nl')} op de ${area.pass} skipas, met ${area.pistesKm} km piste en ongeveer ${area.lifts} liften.`,
+        ja: `${area.name}は${area.pass}パスで${listJoin(memberNames, 'ja')}を結び、約${area.lifts}基のリフトが整備する${area.pistesKm}kmのコースがあります。`,
       } as Record<Locale, string>,
     },
     {
@@ -109,6 +113,7 @@ export default async function SkiAreaPage({
         pt: `Qual é a dimensão do domínio esquiável de ${area.name}?`,
         it: `Quanto è grande il comprensorio di ${area.name}?`,
         nl: `Hoe groot is het skidomein van ${area.name}?`,
+        ja: `${area.name}スキーエリアの規模は？`,
       } as Record<Locale, string>,
       a: {
         en: `${area.name} offers ${area.pistesKm} km of marked piste and about ${area.lifts} lifts, rising to ${area.topAltitude} m.`,
@@ -117,6 +122,7 @@ export default async function SkiAreaPage({
         pt: `${area.name} oferece ${area.pistesKm} km de pistas balizadas e cerca de ${area.lifts} teleféricos, até aos ${area.topAltitude} m.`,
         it: `${area.name} offre ${area.pistesKm} km di piste segnalate e circa ${area.lifts} impianti, fino a ${area.topAltitude} m.`,
         nl: `${area.name} biedt ${area.pistesKm} km gemarkeerde piste en ongeveer ${area.lifts} liften, tot op ${area.topAltitude} m.`,
+        ja: `${area.name}には${area.pistesKm}kmの整備されたコースと約${area.lifts}基のリフトがあり、標高${area.topAltitude}mまで広がっています。`,
       } as Record<Locale, string>,
     },
   ]
@@ -218,7 +224,7 @@ export default async function SkiAreaPage({
           href={`/${l}/winter-2027/${area.slug}`}
           className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-ice-700 hover:text-slate-deep transition"
         >
-          {({ en: `Why ${area.name} for the 2027 winter holidays`, fr: `Pourquoi ${area.name} pour les vacances d'hiver 2027`, es: `Por qué ${area.name} en las vacaciones de invierno 2027`, pt: `Porquê ${area.name} nas férias de inverno de 2027`, it: `Perché ${area.name} per le vacanze invernali 2027`, nl: `Waarom ${area.name} voor de wintervakantie van 2027` } as Record<Locale, string>)[l]} →
+          {({ en: `Why ${area.name} for the 2027 winter holidays`, fr: `Pourquoi ${area.name} pour les vacances d'hiver 2027`, es: `Por qué ${area.name} en las vacaciones de invierno 2027`, pt: `Porquê ${area.name} nas férias de inverno de 2027`, it: `Perché ${area.name} per le vacanze invernali 2027`, nl: `Waarom ${area.name} voor de wintervakantie van 2027`, ja: `2027年の冬休みに${area.name}を選ぶ理由` } as Record<Locale, string>)[l]} →
         </Link>
       </section>
 

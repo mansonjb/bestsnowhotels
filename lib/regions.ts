@@ -12,6 +12,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes franceses',
     pt: 'Alpes franceses',
     it: 'Alpi francesi',
+    ja: 'フランスアルプス',
     nl: 'Franse Alpen',
   },
   'Swiss Alps': {
@@ -20,6 +21,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes suizos',
     pt: 'Alpes suíços',
     it: 'Alpi svizzere',
+    ja: 'スイスアルプス',
     nl: 'Zwitserse Alpen',
   },
   'Austrian Alps': {
@@ -28,6 +30,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes austriacos',
     pt: 'Alpes austríacos',
     it: 'Alpi austriache',
+    ja: 'オーストリアアルプス',
     nl: 'Oostenrijkse Alpen',
   },
   'Italian Alps': {
@@ -36,6 +39,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes italianos',
     pt: 'Alpes italianos',
     it: 'Alpi italiane',
+    ja: 'イタリアアルプス',
     nl: 'Italiaanse Alpen',
   },
   Apennines: {
@@ -44,6 +48,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Apeninos',
     pt: 'Apeninos',
     it: 'Appennini',
+    ja: 'アペニン山脈',
     nl: 'Apennijnen',
   },
   'Spanish Pyrenees': {
@@ -52,6 +57,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Pirineos españoles',
     pt: 'Pirenéus espanhóis',
     it: 'Pirenei spagnoli',
+    ja: 'スペイン・ピレネー山脈',
     nl: 'Spaanse Pyreneeën',
   },
   'French Pyrenees': {
@@ -60,6 +66,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Pirineos franceses',
     pt: 'Pirenéus franceses',
     it: 'Pirenei francesi',
+    ja: 'フランス・ピレネー山脈',
     nl: 'Franse Pyreneeën',
   },
   Vosges: {
@@ -68,6 +75,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Vosgos',
     pt: 'Vosgos',
     it: 'Vosgi',
+    ja: 'ヴォージュ山脈',
     nl: 'Vogezen',
   },
   Jura: {
@@ -76,6 +84,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Jura',
     pt: 'Jura',
     it: 'Giura',
+    ja: 'ジュラ山脈',
     nl: 'Jura',
   },
   'Massif Central': {
@@ -84,6 +93,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Macizo Central',
     pt: 'Maciço Central',
     it: 'Massiccio Centrale',
+    ja: '中央山塊',
     nl: 'Centraal Massief',
   },
   Cascades: {
@@ -92,6 +102,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Cascadas',
     pt: 'Cascades',
     it: 'Cascade',
+    ja: 'カスケード山脈',
     nl: 'Cascades',
   },
   Appalachians: {
@@ -100,6 +111,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Apalaches',
     pt: 'Apalaches',
     it: 'Appalachi',
+    ja: 'アパラチア山脈',
     nl: 'Appalachen',
   },
   Pirin: {
@@ -108,6 +120,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montes Pirin',
     pt: 'Montes Pirin',
     it: 'Monti Pirin',
+    ja: 'ピリン山脈',
     nl: 'Piringebergte',
   },
   Rila: {
@@ -116,6 +129,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montes Rila',
     pt: 'Montes Rila',
     it: 'Monti Rila',
+    ja: 'リラ山脈',
     nl: 'Rilagebergte',
   },
   'Rhodope Mountains': {
@@ -124,6 +138,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montes Ródope',
     pt: 'Montes Ródope',
     it: 'Monti Rodope',
+    ja: 'ロドピ山脈',
     nl: 'Rhodopegebergte',
   },
   'Andorran Pyrenees': {
@@ -132,6 +147,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Pirineos andorranos',
     pt: 'Pirenéus andorranos',
     it: 'Pirenei andorrani',
+    ja: 'アンドラ・ピレネー山脈',
     nl: 'Andorrese Pyreneeën',
   },
   'Sierra Nevada (Spain)': {
@@ -140,6 +156,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Sierra Nevada (España)',
     pt: 'Sierra Nevada (Espanha)',
     it: 'Sierra Nevada (Spagna)',
+    ja: 'シエラネバダ（スペイン）',
     nl: 'Sierra Nevada (Spanje)',
   },
   'Cantabrian Mountains': {
@@ -148,6 +165,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Cordillera Cantábrica',
     pt: 'Cordilheira Cantábrica',
     it: 'Monti Cantabrici',
+    ja: 'カンタブリア山脈',
     nl: 'Cantabrisch Gebergte',
   },
   'Bavarian Alps': {
@@ -156,6 +174,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes bávaros',
     pt: 'Alpes bávaros',
     it: 'Alpi bavaresi',
+    ja: 'バイエルンアルプス',
     nl: 'Beierse Alpen',
   },
   'Black Forest': {
@@ -164,6 +183,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Selva Negra',
     pt: 'Floresta Negra',
     it: 'Foresta Nera',
+    ja: '黒い森',
     nl: 'Zwarte Woud',
   },
   'Bavarian Forest': {
@@ -172,6 +192,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Selva Bávara',
     pt: 'Floresta Bávara',
     it: 'Foresta Bavarese',
+    ja: 'バイエルンの森',
     nl: 'Beierse Woud',
   },
   'Norwegian Mountains': {
@@ -180,6 +201,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montañas noruegas',
     pt: 'Montanhas norueguesas',
     it: 'Montagne norvegesi',
+    ja: 'ノルウェーの山々',
     nl: 'Noorse Bergen',
   },
   'Swedish Mountains': {
@@ -188,6 +210,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montañas suecas',
     pt: 'Montanhas suecas',
     it: 'Montagne svedesi',
+    ja: 'スウェーデンの山々',
     nl: 'Zweedse Bergen',
   },
   'Finnish Lapland': {
@@ -196,6 +219,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Laponia finlandesa',
     pt: 'Lapónia finlandesa',
     it: 'Lapponia finlandese',
+    ja: 'フィンランドのラップランド',
     nl: 'Fins Lapland',
   },
   'Hokkaido': {
@@ -204,6 +228,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Hokkaidō',
     pt: 'Hokkaidō',
     it: 'Hokkaidō',
+    ja: '北海道',
     nl: 'Hokkaidō',
   },
   'Japanese Alps': {
@@ -212,6 +237,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes japoneses',
     pt: 'Alpes japoneses',
     it: 'Alpi giapponesi',
+    ja: '日本アルプス',
     nl: 'Japanse Alpen',
   },
   'Tohoku Mountains': {
@@ -220,6 +246,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montañas de Tōhoku',
     pt: 'Montanhas de Tōhoku',
     it: 'Monti del Tōhoku',
+    ja: '東北山地',
     nl: 'Tōhoku-gebergte',
   },
   'Colorado Rockies': {
@@ -228,6 +255,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Rocosas de Colorado',
     pt: 'Rochosas do Colorado',
     it: 'Montagne Rocciose del Colorado',
+    ja: 'コロラド・ロッキー山脈',
     nl: 'Rotsgebergte van Colorado',
   },
   'Wasatch Mountains': {
@@ -236,6 +264,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montañas Wasatch',
     pt: 'Montanhas Wasatch',
     it: 'Monti Wasatch',
+    ja: 'ワサッチ山脈',
     nl: 'Wasatchgebergte',
   },
   'Sierra Nevada': {
@@ -244,6 +273,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Sierra Nevada (California)',
     pt: 'Sierra Nevada (Califórnia)',
     it: 'Sierra Nevada (California)',
+    ja: 'シエラネバダ（カリフォルニア）',
     nl: 'Sierra Nevada (Californië)',
   },
   'Northern Rockies': {
@@ -252,6 +282,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Rocosas del Norte',
     pt: 'Rochosas do Norte',
     it: 'Montagne Rocciose del Nord',
+    ja: '北ロッキー山脈',
     nl: 'Noordelijk Rotsgebergte',
   },
   'Green Mountains': {
@@ -260,6 +291,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Green Mountains',
     pt: 'Green Mountains',
     it: 'Green Mountains',
+    ja: 'Green Mountains',
     nl: 'Green Mountains',
   },
   'Sangre de Cristo': {
@@ -268,6 +300,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Sangre de Cristo',
     pt: 'Sangre de Cristo',
     it: 'Sangre de Cristo',
+    ja: 'Sangre de Cristo',
     nl: 'Sangre de Cristo',
   },
   'Moroccan Atlas': {
@@ -276,6 +309,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Atlas marroquí',
     pt: 'Atlas marroquino',
     it: 'Atlante marocchino',
+    ja: 'モロッコ・アトラス山脈',
     nl: 'Marokkaanse Atlas',
   },
   'Algerian Mountains': {
@@ -284,6 +318,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montañas argelinas',
     pt: 'Montanhas argelinas',
     it: 'Monti algerini',
+    ja: 'アルジェリアの山々',
     nl: 'Algerijnse bergen',
   },
   'Maluti and Drakensberg': {
@@ -292,6 +327,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Maluti y Drakensberg',
     pt: 'Maluti e Drakensberg',
     it: 'Maluti e Drakensberg',
+    ja: 'マルーティとドラケンスバーグ',
     nl: 'Maluti en Drakensberg',
   },
   'Cairo Indoor': {
@@ -300,6 +336,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Cubierto de El Cairo',
     pt: 'Indoor do Cairo',
     it: 'Indoor del Cairo',
+    ja: 'カイロ・インドア',
     nl: 'Indoor Caïro',
   },
   'Coast Mountains': {
@@ -308,6 +345,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Cordillera Costera',
     pt: 'Cordilheira Costeira',
     it: 'Catena Costiera',
+    ja: '海岸山脈',
     nl: 'Kustgebergte',
   },
   'Canadian Rockies': {
@@ -316,6 +354,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Rocosas canadienses',
     pt: 'Rochosas canadianas',
     it: 'Montagne Rocciose canadesi',
+    ja: 'カナディアン・ロッキー山脈',
     nl: 'Canadese Rotsgebergte',
   },
   'BC Interior': {
@@ -324,6 +363,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Interior de la Columbia Británica',
     pt: 'Interior da Colúmbia Britânica',
     it: 'Interno della Columbia Britannica',
+    ja: 'ブリティッシュコロンビア内陸部',
     nl: 'Binnenland van Brits-Columbia',
   },
   'Laurentides': {
@@ -332,6 +372,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Laurentides',
     pt: 'Laurentides',
     it: 'Laurentides',
+    ja: 'Laurentides',
     nl: 'Laurentides',
   },
   'Taebaek Mountains': {
@@ -340,6 +381,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montañas Taebaek',
     pt: 'Montanhas Taebaek',
     it: 'Monti Taebaek',
+    ja: 'テベク山脈',
     nl: 'Taebaekgebergte',
   },
   'Seoul Capital Area': {
@@ -348,6 +390,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Área Metropolitana de Seúl',
     pt: 'Área Metropolitana de Seul',
     it: 'Area metropolitana di Seoul',
+    ja: 'ソウル首都圏',
     nl: 'Metropoolregio Seoel',
   },
   'Sobaek Mountains': {
@@ -356,6 +399,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Montañas Sobaek',
     pt: 'Montanhas Sobaek',
     it: 'Monti Sobaek',
+    ja: 'ソベク山脈',
     nl: 'Sobaekgebergte',
   },
   'Australian Alps': {
@@ -364,6 +408,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes australianos',
     pt: 'Alpes australianos',
     it: 'Alpi australiane',
+    ja: 'オーストラリアンアルプス',
     nl: 'Australische Alpen',
   },
   'Southern Alps': {
@@ -372,6 +417,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Alpes del Sur (Nueva Zelanda)',
     pt: 'Alpes do Sul (Nova Zelândia)',
     it: 'Alpi del Sud (Nuova Zelanda)',
+    ja: 'サザンアルプス（ニュージーランド）',
     nl: 'Zuidelijke Alpen (Nieuw-Zeeland)',
   },
   'Andes': {
@@ -380,6 +426,7 @@ const REGIONS: Record<string, Record<Locale, string>> = {
     es: 'Andes',
     pt: 'Andes',
     it: 'Ande',
+    ja: 'アンデス山脈',
     nl: 'Andes',
   },
 }

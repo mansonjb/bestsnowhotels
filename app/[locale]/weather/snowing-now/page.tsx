@@ -21,6 +21,7 @@ const T = {
     pt: 'Onde está a nevar neste momento?',
     it: 'Dove sta nevicando in questo momento?',
     nl: 'Waar sneeuwt het nu?',
+    ja: '今、世界のどこで雪が降っている？',
   } as Record<Locale, string>,
   subtitle: {
     en: 'A live look at which ski resorts in the world have the most fresh snow on the slopes right now, ranked from real conditions and updated every 30 minutes.',
@@ -29,6 +30,7 @@ const T = {
     pt: 'Uma vista em direto das estâncias de esqui do mundo com mais neve fresca nas pistas neste momento, ordenadas pelas condições reais e atualizadas a cada 30 minutos.',
     it: 'Uno sguardo in tempo reale alle località sciistiche del mondo con più neve fresca sulle piste in questo momento, ordinate in base alle condizioni reali e aggiornate ogni 30 minuti.',
     nl: 'Een actueel overzicht van welke skigebieden ter wereld nu de meeste verse sneeuw op de piste hebben, gerangschikt op basis van actuele omstandigheden en elke 30 minuten bijgewerkt.',
+    ja: '世界中のスキーリゾートの中から、今いちばん新雪が積もっているゲレンデをライブでランキング。実際のコンディションをもとに30分ごとに更新しています。',
   } as Record<Locale, string>,
   answerSnowing: {
     en: 'Right now, the most fresh snow is falling at',
@@ -37,6 +39,7 @@ const T = {
     pt: 'Neste momento, a maior queda de neve fresca é em',
     it: 'In questo momento, la maggiore nevicata fresca è a',
     nl: 'Op dit moment valt de meeste verse sneeuw bij',
+    ja: '今、最も新雪が積もっているのは',
   } as Record<Locale, string>,
   answerSnowingTail: {
     en: '',
@@ -45,6 +48,7 @@ const T = {
     pt: '',
     it: '',
     nl: '',
+    ja: 'です',
   } as Record<Locale, string>,
   answerCalm: {
     en: 'No major snowfall worldwide right now. The deepest snow currently on the slopes is at',
@@ -53,6 +57,7 @@ const T = {
     pt: 'Sem grandes quedas de neve no mundo neste momento. A neve mais profunda atualmente nas pistas é em',
     it: 'Nessuna grande nevicata nel mondo in questo momento. La neve più profonda attualmente sulle piste è a',
     nl: 'Nergens ter wereld valt nu veel sneeuw. De diepste sneeuw op de piste ligt op dit moment bij',
+    ja: '現在、世界的に大きな降雪はありません。今いちばん積雪が深いのは',
   } as Record<Locale, string>,
   // Secondary phrasings people search, surfaced in the meta description and FAQ
   // so the page matches "which country", "where in the world", etc.
@@ -63,9 +68,10 @@ const T = {
     pt: "Veja em que país e em que estância está a nevar neste momento, num ranking em direto.",
     it: "Scopri in quale paese e in quale località sta nevicando in questo momento, in una classifica dal vivo.",
     nl: "Ontdek in welk land en in welk skigebied het nu sneeuwt, in een live ranglijst.",
+    ja: "今どの国のどのスキーリゾートに雪が降っているか、ライブランキングで確認できます。",
   } as Record<Locale, string>,
   freshLabel: {
-    en: "fresh in 24h", es: "de nieve en 24 h", fr: "de neige fraîche en 24 h", pt: "de neve em 24 h", it: "di neve fresca in 24 h", nl: "verse sneeuw in 24 u",
+    en: "fresh in 24h", es: "de nieve en 24 h", fr: "de neige fraîche en 24 h", pt: "de neve em 24 h", it: "di neve fresca in 24 h", nl: "verse sneeuw in 24 u", ja: "新雪（24時間）",
   } as Record<Locale, string>,
   faqWhichCountryQ: {
     en: "Which country is it snowing in right now?",
@@ -74,6 +80,7 @@ const T = {
     pt: "Em que país está a nevar neste momento?",
     it: "In quale paese sta nevicando in questo momento?",
     nl: "In welk land sneeuwt het nu?",
+    ja: "今、どの国で雪が降っている？",
   } as Record<Locale, string>,
   faqWhereWorldQ: {
     en: "Where in the world is it snowing right now?",
@@ -82,6 +89,7 @@ const T = {
     pt: "Onde está a nevar no mundo neste momento?",
     it: "Dove sta nevicando nel mondo in questo momento?",
     nl: "Waar ter wereld sneeuwt het nu?",
+    ja: "世界のどこで、今雪が降っている？",
   } as Record<Locale, string>,
   faqAnywhereQ: {
     en: "Is it snowing anywhere in the world right now?",
@@ -90,6 +98,7 @@ const T = {
     pt: "Está a nevar em algum lugar do mundo neste momento?",
     it: "Sta nevicando da qualche parte nel mondo in questo momento?",
     nl: "Sneeuwt het nu ergens ter wereld?",
+    ja: "今、世界のどこかで雪は降っている？",
   } as Record<Locale, string>,
   faqAnywhereA: {
     en: "Almost always, yes. In the northern winter (roughly November to May) it is usually snowing somewhere in the Alps, the Rockies or Japan, and from June to October the snow flips to the Andes, New Zealand and Australia. This page ranks the resorts with the most fresh snow on the slopes right now, updated every 30 minutes.",
@@ -98,6 +107,7 @@ const T = {
     pt: "Quase sempre, sim. No inverno do norte (de novembro a maio, aproximadamente) costuma estar a nevar algures nos Alpes, nas Montanhas Rochosas ou no Japão, e de junho a outubro a neve passa para os Andes, a Nova Zelândia e a Austrália. Esta página ordena as estâncias com mais neve fresca nas pistas neste momento, atualizada a cada 30 minutos.",
     it: "Quasi sempre, sì. Nell'inverno del nord (all'incirca da novembre a maggio) di solito nevica da qualche parte sulle Alpi, sulle Montagne Rocciose o in Giappone, e da giugno a ottobre la neve si sposta sulle Ande, in Nuova Zelanda e in Australia. Questa pagina ordina le località con più neve fresca sulle piste in questo momento, aggiornata ogni 30 minuti.",
     nl: "Bijna altijd wel, ja. In de winter op het noordelijk halfrond (ruwweg november tot mei) sneeuwt het meestal ergens in de Alpen, de Rocky Mountains of Japan, en van juni tot oktober verschuift de sneeuw naar de Andes, Nieuw-Zeeland en Australië. Deze pagina rangschikt de skigebieden met nu de meeste verse sneeuw op de piste, elke 30 minuten bijgewerkt.",
+    ja: "ほぼ常に、どこかで降っています。北半球の冬（おおむね11月から5月）はアルプス、ロッキー山脈、日本のいずれかで雪が降っていることが多く、6月から10月にかけてはアンデス、ニュージーランド、オーストラリアへと舞台が移ります。このページは今いちばん新雪が積もっているゲレンデをランキングし、30分ごとに更新しています。",
   } as Record<Locale, string>,
 } as const
 
@@ -159,6 +169,7 @@ export default async function SnowingNowPage({
     pt: 'Neste momento, está a nevar sobretudo em',
     it: 'In questo momento sta nevicando soprattutto in',
     nl: 'Op dit moment valt er vooral sneeuw in',
+    ja: '今、主に雪が降っているのは',
   }
   const topCountries = [...new Set(top3.map((d) => localizeCountry(d.country, l)))].join(', ')
   const faq = [

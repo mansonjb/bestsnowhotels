@@ -34,6 +34,7 @@ export async function generateMetadata({
     pt: `Hotéis ski-in/ski-out ${inCountry(country.name, 'pt')} | BestSnowHotels`,
     it: `Hotel ski-in/ski-out ${inCountry(country.name, 'it')} | BestSnowHotels`,
     nl: `Ski-in/ski-out hotels ${inCountry(country.name, 'nl')} | BestSnowHotels`,
+    ja: `${inCountry(country.name, 'ja')}のski-in/ski-out ホテル | BestSnowHotels`,
   }
   return {
     title: titles[locale as Locale],

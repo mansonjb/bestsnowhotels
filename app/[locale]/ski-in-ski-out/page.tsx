@@ -16,6 +16,7 @@ const T = {
     pt: 'Estâncias ski-in/ski-out por país',
     it: 'Località ski-in/ski-out per paese',
     nl: 'Ski-in/ski-out skigebieden per land',
+    ja: '国別 ski-in/ski-out リゾート',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Where you can genuinely ski to your door, country by country. We only list resorts our own notes call real ski-in/ski-out, not marketing.',
@@ -24,12 +25,13 @@ const T = {
     pt: 'Onde se pode mesmo esquiar até à porta, país a país. Só listamos estâncias que as nossas próprias notas consideram ski-in/ski-out real, não marketing.',
     it: 'Dove si può davvero sciare fino alla porta, paese per paese. Elenchiamo solo le località che le nostre note giudicano ski-in/ski-out vero, non marketing.',
     nl: 'Waar je echt tot aan de deur kunt skiën, land voor land. We vermelden alleen skigebieden die onze eigen aantekeningen als echt ski-in/ski-out bestempelen, geen marketing.',
+    ja: '国ごとに、本当に玄関からゲレンデへ出られるリゾートだけを紹介します。マーケティング文句ではなく、独自の調査で本物のski-in/ski-outと判断したリゾートだけを掲載しています。',
   } as Record<Locale, string>,
   resortsWord: {
-    en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden',
+    en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート',
   } as Record<Locale, string>,
   carFree: {
-    en: 'car-free', fr: 'sans voiture', es: 'sin coches', pt: 'sem carros', it: 'senza auto', nl: 'autovrij',
+    en: 'car-free', fr: 'sans voiture', es: 'sin coches', pt: 'sem carros', it: 'senza auto', nl: 'autovrij', ja: '車不要',
   } as Record<Locale, string>,
 }
 

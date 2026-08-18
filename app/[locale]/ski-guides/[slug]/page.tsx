@@ -14,10 +14,10 @@ import { hotelReason, whyWeLikeLabel } from '@/lib/hotelContent'
 import { SITE_URL, hreflangFor, buildAllezHotelLink, jsonLdGraph } from '@/lib/site'
 
 const T = {
-  picksResorts: { en: 'Our picks', fr: 'Notre sélection', es: 'Nuestra selección', pt: 'A nossa seleção', it: 'La nostra selezione', nl: 'Onze selectie' } as Record<Locale, string>,
-  picksHotels: { en: 'The hotels, resort by resort', fr: 'Les hôtels, station par station', es: 'Los hoteles, estación por estación', pt: 'Os hotéis, estância a estância', it: 'Gli hotel, località per località', nl: 'De hotels, skigebied per skigebied' } as Record<Locale, string>,
-  viewResort: { en: 'View resort', fr: 'Voir la station', es: 'Ver estación', pt: 'Ver estância', it: 'Vedi località', nl: 'Bekijk skigebied' } as Record<Locale, string>,
-  faqHeading: { en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti', nl: 'Veelgestelde vragen' } as Record<Locale, string>,
+  picksResorts: { en: 'Our picks', fr: 'Notre sélection', es: 'Nuestra selección', pt: 'A nossa seleção', it: 'La nostra selezione', nl: 'Onze selectie', ja: 'おすすめのリゾート' } as Record<Locale, string>,
+  picksHotels: { en: 'The hotels, resort by resort', fr: 'Les hôtels, station par station', es: 'Los hoteles, estación por estación', pt: 'Os hotéis, estância a estância', it: 'Gli hotel, località per località', nl: 'De hotels, skigebied per skigebied', ja: 'リゾート別ホテル一覧' } as Record<Locale, string>,
+  viewResort: { en: 'View resort', fr: 'Voir la station', es: 'Ver estación', pt: 'Ver estância', it: 'Vedi località', nl: 'Bekijk skigebied', ja: 'リゾートを見る' } as Record<Locale, string>,
+  faqHeading: { en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti', nl: 'Veelgestelde vragen', ja: 'よくある質問' } as Record<Locale, string>,
   ratingsNote: {
     en: 'Ratings from Google Places. We may earn a commission on bookings.',
     fr: 'Notes via Google Places. Nous pouvons percevoir une commission sur les réservations.',
@@ -25,19 +25,20 @@ const T = {
     pt: 'Avaliações do Google Places. Podemos ganhar uma comissão nas reservas.',
     it: 'Valutazioni da Google Places. Potremmo guadagnare una commissione sulle prenotazioni.',
     nl: 'Beoordelingen via Google Places. We kunnen een commissie verdienen op boekingen.',
+    ja: '評価データはGoogle Placesを参照しています。予約により当サイトが手数料を得る場合があります。',
   } as Record<Locale, string>,
-  allGuides: { en: 'All ski guides', fr: 'Tous les guides ski', es: 'Todas las guías', pt: 'Todos os guias', it: 'Tutte le guide', nl: 'Alle skigidsen' } as Record<Locale, string>,
-  critTitle: { en: 'What we look at', fr: 'Nos critères', es: 'Nuestros criterios', pt: 'Os nossos critérios', it: 'I nostri criteri', nl: 'Waar we op letten' } as Record<Locale, string>,
+  allGuides: { en: 'All ski guides', fr: 'Tous les guides ski', es: 'Todas las guías', pt: 'Todos os guias', it: 'Tutte le guide', nl: 'Alle skigidsen', ja: 'すべてのスキーガイド' } as Record<Locale, string>,
+  critTitle: { en: 'What we look at', fr: 'Nos critères', es: 'Nuestros criterios', pt: 'Os nossos critérios', it: 'I nostri criteri', nl: 'Waar we op letten', ja: '選定基準' } as Record<Locale, string>,
 }
 
 const CRIT: Record<HotelCriterion, { icon: string; tint: string; label: Record<Locale, string> }> = {
-  ski: { icon: '🎿', tint: 'bg-ice-50 text-ice-700 border-ice-200', label: { en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'A pie de pista', pt: 'Ski-in/ski-out', it: 'Sci ai piedi', nl: 'Ski-in/ski-out' } },
-  spa: { icon: '🧖', tint: 'bg-teal-50 text-teal-700 border-teal-200', label: { en: 'Spa & wellness', fr: 'Spa et bien-être', es: 'Spa y bienestar', pt: 'Spa e bem-estar', it: 'Spa e benessere', nl: 'Spa en wellness' } },
-  dining: { icon: '🍽️', tint: 'bg-orange-50 text-orange-700 border-orange-200', label: { en: 'Fine dining', fr: 'Gastronomie', es: 'Gastronomía', pt: 'Gastronomia', it: 'Alta cucina', nl: 'Gastronomie' } },
-  apres: { icon: '🍸', tint: 'bg-rose-50 text-rose-700 border-rose-200', label: { en: 'Après-ski', fr: 'Après-ski', es: 'Après-ski', pt: 'Après-ski', it: 'Après-ski', nl: 'Après-ski' } },
-  family: { icon: '👨‍👩‍👧', tint: 'bg-violet-50 text-violet-700 border-violet-200', label: { en: 'Family-friendly', fr: 'Familles', es: 'Familias', pt: 'Famílias', it: 'Famiglie', nl: 'Gezinnen' } },
-  scenery: { icon: '🏔️', tint: 'bg-cyan-50 text-cyan-700 border-cyan-200', label: { en: 'Scenery', fr: 'Panorama', es: 'Paisaje', pt: 'Paisagem', it: 'Panorama', nl: 'Uitzicht' } },
-  topRated: { icon: '⭐', tint: 'bg-amber-50 text-amber-700 border-amber-200', label: { en: 'Top-rated', fr: 'Très bien noté', es: 'Muy valorado', pt: 'Muito bem avaliado', it: 'Molto valutato', nl: 'Hoog beoordeeld' } },
+  ski: { icon: '🎿', tint: 'bg-ice-50 text-ice-700 border-ice-200', label: { en: 'Ski-in/ski-out', fr: 'Ski au pied', es: 'A pie de pista', pt: 'Ski-in/ski-out', it: 'Sci ai piedi', nl: 'Ski-in/ski-out', ja: 'ski-in/ski-out' } },
+  spa: { icon: '🧖', tint: 'bg-teal-50 text-teal-700 border-teal-200', label: { en: 'Spa & wellness', fr: 'Spa et bien-être', es: 'Spa y bienestar', pt: 'Spa e bem-estar', it: 'Spa e benessere', nl: 'Spa en wellness', ja: 'スパ＆ウェルネス' } },
+  dining: { icon: '🍽️', tint: 'bg-orange-50 text-orange-700 border-orange-200', label: { en: 'Fine dining', fr: 'Gastronomie', es: 'Gastronomía', pt: 'Gastronomia', it: 'Alta cucina', nl: 'Gastronomie', ja: 'グルメ' } },
+  apres: { icon: '🍸', tint: 'bg-rose-50 text-rose-700 border-rose-200', label: { en: 'Après-ski', fr: 'Après-ski', es: 'Après-ski', pt: 'Après-ski', it: 'Après-ski', nl: 'Après-ski', ja: 'アプレスキー' } },
+  family: { icon: '👨‍👩‍👧', tint: 'bg-violet-50 text-violet-700 border-violet-200', label: { en: 'Family-friendly', fr: 'Familles', es: 'Familias', pt: 'Famílias', it: 'Famiglie', nl: 'Gezinnen', ja: '家族向け' } },
+  scenery: { icon: '🏔️', tint: 'bg-cyan-50 text-cyan-700 border-cyan-200', label: { en: 'Scenery', fr: 'Panorama', es: 'Paisaje', pt: 'Paisagem', it: 'Panorama', nl: 'Uitzicht', ja: '眺望' } },
+  topRated: { icon: '⭐', tint: 'bg-amber-50 text-amber-700 border-amber-200', label: { en: 'Top-rated', fr: 'Très bien noté', es: 'Muy valorado', pt: 'Muito bem avaliado', it: 'Molto valutato', nl: 'Hoog beoordeeld', ja: '高評価' } },
 }
 const CRIT_ORDER: HotelCriterion[] = ['ski', 'spa', 'dining', 'apres', 'family', 'scenery', 'topRated']
 

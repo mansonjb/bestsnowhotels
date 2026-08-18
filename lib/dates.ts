@@ -7,18 +7,18 @@ import type { Locale } from '@/app/[locale]/dictionaries'
  * "23 de nov." in Portuguese, "Nov 23" in English, "23 nov." in Italian.
  */
 const MONTHS: Record<string, Record<Locale, string>> = {
-  Jan: { en: 'Jan', fr: 'janv.', es: 'ene.', pt: 'jan.', it: 'gen.', nl: 'jan.' },
-  Feb: { en: 'Feb', fr: 'févr.', es: 'feb.', pt: 'fev.', it: 'feb.', nl: 'feb.' },
-  Mar: { en: 'Mar', fr: 'mars', es: 'mar.', pt: 'mar.', it: 'mar.', nl: 'mrt.' },
-  Apr: { en: 'Apr', fr: 'avr.', es: 'abr.', pt: 'abr.', it: 'apr.', nl: 'apr.' },
-  May: { en: 'May', fr: 'mai', es: 'may.', pt: 'mai.', it: 'mag.', nl: 'mei' },
-  Jun: { en: 'Jun', fr: 'juin', es: 'jun.', pt: 'jun.', it: 'giu.', nl: 'jun.' },
-  Jul: { en: 'Jul', fr: 'juil.', es: 'jul.', pt: 'jul.', it: 'lug.', nl: 'jul.' },
-  Aug: { en: 'Aug', fr: 'août', es: 'ago.', pt: 'ago.', it: 'ago.', nl: 'aug.' },
-  Sep: { en: 'Sep', fr: 'sept.', es: 'sep.', pt: 'set.', it: 'set.', nl: 'sep.' },
-  Oct: { en: 'Oct', fr: 'oct.', es: 'oct.', pt: 'out.', it: 'ott.', nl: 'okt.' },
-  Nov: { en: 'Nov', fr: 'nov.', es: 'nov.', pt: 'nov.', it: 'nov.', nl: 'nov.' },
-  Dec: { en: 'Dec', fr: 'déc.', es: 'dic.', pt: 'dez.', it: 'dic.', nl: 'dec.' },
+  Jan: { en: 'Jan', fr: 'janv.', es: 'ene.', pt: 'jan.', it: 'gen.', ja: '1月', nl: 'jan.' },
+  Feb: { en: 'Feb', fr: 'févr.', es: 'feb.', pt: 'fev.', it: 'feb.', ja: '2月', nl: 'feb.' },
+  Mar: { en: 'Mar', fr: 'mars', es: 'mar.', pt: 'mar.', it: 'mar.', ja: '3月', nl: 'mrt.' },
+  Apr: { en: 'Apr', fr: 'avr.', es: 'abr.', pt: 'abr.', it: 'apr.', ja: '4月', nl: 'apr.' },
+  May: { en: 'May', fr: 'mai', es: 'may.', pt: 'mai.', it: 'mag.', ja: '5月', nl: 'mei' },
+  Jun: { en: 'Jun', fr: 'juin', es: 'jun.', pt: 'jun.', it: 'giu.', ja: '6月', nl: 'jun.' },
+  Jul: { en: 'Jul', fr: 'juil.', es: 'jul.', pt: 'jul.', it: 'lug.', ja: '7月', nl: 'jul.' },
+  Aug: { en: 'Aug', fr: 'août', es: 'ago.', pt: 'ago.', it: 'ago.', ja: '8月', nl: 'aug.' },
+  Sep: { en: 'Sep', fr: 'sept.', es: 'sep.', pt: 'set.', it: 'set.', ja: '9月', nl: 'sep.' },
+  Oct: { en: 'Oct', fr: 'oct.', es: 'oct.', pt: 'out.', it: 'ott.', ja: '10月', nl: 'okt.' },
+  Nov: { en: 'Nov', fr: 'nov.', es: 'nov.', pt: 'nov.', it: 'nov.', ja: '11月', nl: 'nov.' },
+  Dec: { en: 'Dec', fr: 'déc.', es: 'dic.', pt: 'dez.', it: 'dic.', ja: '12月', nl: 'dec.' },
 }
 
 const ALL_YEAR: Record<Locale, string> = {
@@ -27,6 +27,7 @@ const ALL_YEAR: Record<Locale, string> = {
   es: 'Todo el año',
   pt: 'Todo o ano',
   it: 'Tutto l\'anno',
+  ja: '通年',
   nl: 'Het hele jaar',
 }
 

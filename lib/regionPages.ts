@@ -104,5 +104,8 @@ export function regionIntro(h: RegionHub, l: Locale): string {
   const nl = single
     ? `${r} heeft een skigebied in onze gids, ${s.topName}, dat oploopt tot ${s.maxSummit} m. Hieronder vind je de ski-in/ski-out hotels, het sneeuwverleden en de reislinks.`
     : `${r} telt ${s.count} skigebieden in onze gids, tot ${s.maxSummit} m op het hoogste punt. ${s.topName} heeft hier de hoogste sneeuwscore en ${s.biggestName} is het grootst met ${s.biggestKm} km piste. Vergelijk ze allemaal hieronder, elk met ski-in/ski-out hotels.`
-  return { en, fr, es, pt, it, nl }[l]
+  const ja = single
+    ? `${r}には、私たちのガイドに掲載しているスキーリゾートが1件あります。標高${s.maxSummit}mまで達する${s.topName}です。以下でski-in/ski-outホテル、積雪実績、旅に役立つリンクを確認できます。`
+    : `${r}には、私たちのガイドに掲載しているスキーリゾートが${s.count}件あり、最も高い地点で標高${s.maxSummit}mに達します。積雪スコアが最も高いのは${s.topName}、コースが最も長いのは${s.biggestName}で${s.biggestKm}kmです。以下でそれぞれを比較でき、いずれもski-in/ski-outホテルつきです。`
+  return { en, fr, es, pt, it, nl, ja }[l]
 }

@@ -48,6 +48,7 @@ export async function generateMetadata({
   const countryPt = localizeCountry(d.country, 'pt')
   const countryIt = localizeCountry(d.country, 'it')
   const countryNl = localizeCountry(d.country, 'nl')
+  const countryJa = localizeCountry(d.country, 'ja')
 
   const titles: Record<Locale, string> = {
     en: `${d.name} snow report today and 7-day forecast (${countryEn}) | BestSnowHotels`,
@@ -56,6 +57,7 @@ export async function generateMetadata({
     pt: `${d.name}: boletim de neve hoje e previsão 7 dias (${countryPt}) | BestSnowHotels`,
     it: `${d.name}: bollettino neve di oggi e previsioni 7 giorni (${countryIt}) | BestSnowHotels`,
     nl: `${d.name}: sneeuwbericht van vandaag en 7-daagse verwachting (${countryNl}) | BestSnowHotels`,
+    ja: `${d.name}：本日の積雪と7日間予報（${countryJa}） | BestSnowHotels`,
   }
   const descriptions: Record<Locale, string> = {
     en: `Live snow report for ${d.name}: current snow depth, fresh snow over the last 24 hours and a 7-day forecast. Updated every 30 minutes.`,
@@ -64,6 +66,7 @@ export async function generateMetadata({
     pt: `Boletim de neve em direto de ${d.name}: altura de neve, neve fresca nas últimas 24 horas e previsão a 7 dias. Atualizado a cada 30 minutos.`,
     it: `Bollettino neve in tempo reale di ${d.name}: altezza neve, neve fresca delle ultime 24 ore e previsioni a 7 giorni. Aggiornato ogni 30 minuti.`,
     nl: `Actueel sneeuwbericht voor ${d.name}: huidige sneeuwhoogte, verse sneeuw van de laatste 24 uur en een verwachting voor 7 dagen. Elke 30 minuten bijgewerkt.`,
+    ja: `${d.name}のリアルタイム積雪情報。現在の積雪深、過去24時間の新雪、7日間予報がひと目でわかります。30分ごとに更新。`,
   }
 
   return {
@@ -434,5 +437,6 @@ function localeForDateFns(l: Locale): string {
   if (l === 'pt') return 'pt-PT'
   if (l === 'it') return 'it-IT'
   if (l === 'nl') return 'nl-NL'
+  if (l === 'ja') return 'ja-JP'
   return 'en-GB'
 }

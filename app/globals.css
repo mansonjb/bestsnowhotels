@@ -52,3 +52,12 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 12px 32px -10px rgba(28, 88, 130, 0.25);
 }
+
+/* Japanese (ja) locale: system CJK font stack (no webfont download; renders
+   native on every OS). Applied on <html> in the locale layout. Han glyphs use
+   the Japanese regional forms. A separate .font-tc will follow for zh-HK. */
+.font-jp {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic",
+    "YuGothic", "Meiryo", "Noto Sans JP", "Noto Sans CJK JP", system-ui,
+    sans-serif !important;
+}

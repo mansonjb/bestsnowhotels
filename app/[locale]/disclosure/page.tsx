@@ -57,6 +57,12 @@ const COPY: Record<Locale, { paragraphs: string[] }> = {
       'We accepteren geen betaling voor redactionele aandacht. De selectie van skigebieden en de ski-in/ski-out notities zijn geschreven op basis van openbare gegevens en ons eigen onderzoek.',
     ],
   },
+  ja: {
+    paragraphs: [
+      'BestSnowHotelsはStay22と連携しており、予約リンクをBooking.com、Expedia、Hotels.comなど複数の予約サイトへ振り分けています。リンクをクリックしてご予約いただくと、予約サイト側から当サイトへわずかなアフィリエイト手数料が支払われます。BestSnowHotels経由でも直接予約サイトを訪れても、お支払いいただく金額は同じです。',
+      '編集内容の掲載にあたって金銭を受け取ることはありません。リゾートの選定やski-in/ski-outに関する情報は、公開されているデータと当サイト独自の調査をもとに作成しています。',
+    ],
+  },
 }
 
 export default async function DisclosurePage({

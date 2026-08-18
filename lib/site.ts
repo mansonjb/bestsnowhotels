@@ -1,7 +1,7 @@
 export const SITE_URL = 'https://www.bestsnowhotels.com'
 export const SITE_NAME = 'BestSnowHotels'
 
-const LOCALES = ['en', 'fr', 'es', 'pt', 'it', 'nl'] as const
+const LOCALES = ['en', 'fr', 'es', 'pt', 'it', 'nl', 'ja'] as const
 
 /**
  * Build the `alternates.languages` map for a given site-relative path,

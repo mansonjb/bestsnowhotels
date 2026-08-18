@@ -12,15 +12,15 @@ import { localizeCountry } from '@/lib/countryNames'
 import { countrySlug } from '@/lib/countries'
 
 const LBL = {
-  regions: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: 'Berggebieden' } as Record<Locale, string>,
-  byCountry: { en: 'Browse by country', fr: 'Parcourir par pays', es: 'Explora por país', pt: 'Explorar por país', it: 'Sfoglia per paese', nl: 'Bekijk per land' } as Record<Locale, string>,
-  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden' } as Record<Locale, string>,
-  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località', nl: 'skigebied' } as Record<Locale, string>,
-  title: { en: 'Ski resorts in', fr: 'Stations de ski', es: 'Estaciones de esquí en', pt: 'Estâncias de esqui em', it: 'Località sciistiche in', nl: 'Skigebieden in' } as Record<Locale, string>,
+  regions: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: 'Berggebieden', ja: '山岳エリア' } as Record<Locale, string>,
+  byCountry: { en: 'Browse by country', fr: 'Parcourir par pays', es: 'Explora por país', pt: 'Explorar por país', it: 'Sfoglia per paese', nl: 'Bekijk per land', ja: '国から探す' } as Record<Locale, string>,
+  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート' } as Record<Locale, string>,
+  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località', nl: 'skigebied', ja: 'リゾート' } as Record<Locale, string>,
+  title: { en: 'Ski resorts in', fr: 'Stations de ski', es: 'Estaciones de esquí en', pt: 'Estâncias de esqui em', it: 'Località sciistiche in', nl: 'Skigebieden in', ja: 'スキー場' } as Record<Locale, string>,
 }
 
 const titleFor = (region: string, l: Locale) =>
-  l === 'fr' ? `Stations de ski des ${region}` : `${LBL.title[l]} ${region}`
+  l === 'fr' ? `Stations de ski des ${region}` : l === 'ja' ? `${region}のスキー場` : `${LBL.title[l]} ${region}`
 
 export async function generateStaticParams() {
   const params: { locale: string; slug: string }[] = []

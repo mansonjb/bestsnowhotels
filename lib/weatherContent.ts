@@ -40,6 +40,7 @@ const DAY_NAMES: Record<Locale, string[]> = {
   pt: ['dom.', 'seg.', 'ter.', 'qua.', 'qui.', 'sex.', 'sáb.'],
   it: ['dom.', 'lun.', 'mar.', 'mer.', 'gio.', 'ven.', 'sab.'],
   nl: ['zo', 'ma', 'di', 'wo', 'do', 'vr', 'za'],
+  ja: ['日', '月', '火', '水', '木', '金', '土'],
 }
 
 /** Parse a yyyy-mm-dd ISO date as a local-time Date (no UTC drift). */

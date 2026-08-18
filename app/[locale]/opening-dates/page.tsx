@@ -17,6 +17,7 @@ const T = {
     pt: 'Datas de abertura das estâncias de esqui 2026-2027',
     it: "Date di apertura delle località sciistiche 2026-2027",
     nl: 'Openingsdata skigebieden 2026-2027',
+    ja: 'スキー場オープン日程 2026-2027',
   } as Record<Locale, string>,
   subtitle: {
     en: 'When does the season start? Resorts grouped by their typical opening window, from year-round glaciers to the December crowd, across both hemispheres.',
@@ -25,6 +26,7 @@ const T = {
     pt: 'Quando começa a época? Estâncias agrupadas pela sua janela de abertura típica, dos glaciares abertos todo o ano à vaga de dezembro, nos dois hemisférios.',
     it: "Quando inizia la stagione? Località raggruppate per la loro tipica finestra di apertura, dai ghiacciai aperti tutto l'anno all'ondata di dicembre, in entrambi gli emisferi.",
     nl: 'Wanneer begint het seizoen? Skigebieden ingedeeld per typische openingsperiode, van het hele jaar open gletsjers tot de decemberdrukte, op beide halfronden.',
+    ja: 'シーズンはいつ始まる？南北両半球のリゾートを、通年オープンの氷河から12月の混雑期まで、典型的なオープン時期ごとに分類しました。',
   } as Record<Locale, string>,
   // Honesty disclaimer: these are indicative windows, not confirmed dates.
   disclaimer: {
@@ -34,12 +36,13 @@ const T = {
     pt: 'São janelas indicativas baseadas em épocas recentes, não datas confirmadas para 2026-2027. A maioria das estâncias só publica as datas exatas no outono, e a abertura depende da neve. Confirme sempre no site oficial da estância antes de viajar.',
     it: "Sono finestre indicative basate sulle stagioni recenti, non date confermate per il 2026-2027. La maggior parte delle località pubblica le date esatte solo in autunno, e l'apertura dipende dalla neve. Conferma sempre sul sito ufficiale della località prima di partire.",
     nl: 'Dit zijn indicatieve periodes op basis van recente seizoenen, geen bevestigde data voor 2026-2027. De meeste skigebieden publiceren de exacte openingsdata pas in het najaar, en de opening hangt af van de sneeuwval. Controleer altijd de officiële website van het skigebied voordat je vertrekt.',
+    ja: 'これらは近年のシーズン実績に基づく目安の時期であり、2026-2027シーズンの確定日程ではありません。多くのリゾートは秋になってから正確なオープン日を発表し、シーズン序盤のコース状況は降雪次第です。出発前に必ずリゾート公式サイトで確認してください。',
   } as Record<Locale, string>,
   official: {
-    en: 'Official site', fr: 'Site officiel', es: 'Web oficial', pt: 'Site oficial', it: 'Sito ufficiale', nl: 'Officiële website',
+    en: 'Official site', fr: 'Site officiel', es: 'Web oficial', pt: 'Site oficial', it: 'Sito ufficiale', nl: 'Officiële website', ja: '公式サイト',
   } as Record<Locale, string>,
   typicalSeason: {
-    en: 'Typical season', fr: 'Saison habituelle', es: 'Temporada habitual', pt: 'Época habitual', it: 'Stagione abituale', nl: 'Gebruikelijk seizoen',
+    en: 'Typical season', fr: 'Saison habituelle', es: 'Temporada habitual', pt: 'Época habitual', it: 'Stagione abituale', nl: 'Gebruikelijk seizoen', ja: '通常シーズン',
   } as Record<Locale, string>,
 }
 

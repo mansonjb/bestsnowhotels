@@ -23,6 +23,7 @@ const PAGE_TITLE: Record<Locale, string> = {
   pt: 'Como pontuamos e classificamos as estâncias de esqui',
   it: 'Come valutiamo e classifichiamo le località sciistiche',
   nl: 'Hoe we skigebieden beoordelen en indelen',
+  ja: 'スキーリゾートの採点・分類方法',
 }
 
 export async function generateStaticParams() {

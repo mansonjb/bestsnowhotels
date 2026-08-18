@@ -99,6 +99,16 @@ const CONCEPTS: Record<Locale, { terms: string[]; to: 'family' | 'luxury' | 'gla
     { terms: ['thermaal', 'spa', 'wellness'], to: 'spa' },
     { terms: ['poedersneeuw', 'poeder'], to: 'powder' },
   ],
+  ja: [
+    { terms: ['家族向け'], to: 'family' },
+    { terms: ['高級', 'ラグジュアリー'], to: 'luxury' },
+    { terms: ['氷河'], to: 'glacier' },
+    { terms: ['初心者'], to: 'beginner' },
+    { terms: ['スノーパーク'], to: 'freestyle' },
+    { terms: ['アフタースキー'], to: 'apres' },
+    { terms: ['スパ'], to: 'spa' },
+    { terms: ['パウダー'], to: 'powder' },
+  ],
 }
 
 function conceptHref(to: string, l: Locale): string {
@@ -187,6 +197,7 @@ export function linkifyProse(text: string, d: Destination, l: Locale, max = 6): 
     pt: ['a beira das pistas', 'pe nas pistas'],
     it: ['sugli sci', 'ai piedi delle piste'],
     nl: ['ski-in/ski-out', 'ski-in ski-out'],
+    ja: ['ski-in/ski-out', 'スキーインスキーアウト', 'ゲレンデ直結'],
   }
   for (const p of sioPhrase[l]) {
     cands.push({ term: p, href: hasSio ? `/${l}/ski-in-ski-out/${cSlug}` : `/${l}/ski-in-ski-out`, ci: true })

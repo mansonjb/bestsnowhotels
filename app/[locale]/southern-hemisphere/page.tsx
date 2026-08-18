@@ -148,10 +148,10 @@ export default async function SouthernHemispherePage({
                   ❄ {totalResorts} {SH_COPY.resortsLabel[l].toLowerCase()}
                 </span>
                 <span className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm rounded-full px-4 py-1.5 font-semibold">
-                  🌍 {countryCount} {l === 'fr' ? 'pays' : l === 'es' ? 'países' : l === 'pt' ? 'países' : l === 'it' ? 'paesi' : l === 'nl' ? 'landen' : 'countries'}
+                  🌍 {countryCount} {l === 'fr' ? 'pays' : l === 'es' ? 'países' : l === 'pt' ? 'países' : l === 'it' ? 'paesi' : l === 'nl' ? 'landen' : l === 'ja' ? 'カ国' : 'countries'}
                 </span>
                 <span className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm rounded-full px-4 py-1.5 font-semibold">
-                  📅 {l === 'fr' ? 'Juin à octobre' : l === 'es' ? 'Junio a octubre' : l === 'pt' ? 'Junho a outubro' : l === 'it' ? 'Giugno a ottobre' : l === 'nl' ? 'Juni tot oktober' : 'June to October'}
+                  📅 {l === 'fr' ? 'Juin à octobre' : l === 'es' ? 'Junio a octubre' : l === 'pt' ? 'Junho a outubro' : l === 'it' ? 'Giugno a ottobre' : l === 'nl' ? 'Juni tot oktober' : l === 'ja' ? '6月〜10月' : 'June to October'}
                 </span>
               </div>
             </div>
@@ -184,7 +184,7 @@ export default async function SouthernHemispherePage({
         >
           <span className="font-semibold text-slate-deep flex items-center gap-3">
             <span aria-hidden className="text-2xl">⏳</span>
-            {({ en: 'The 2026 Andes season is ending. Book the last weeks of snow.', fr: 'La saison 2026 des Andes se termine. Reservez les dernieres semaines de neige.', es: 'La temporada 2026 en los Andes cierra pronto. Reserva las ultimas semanas de nieve.', pt: 'A temporada 2026 nos Andes fecha em breve. Reserve as ultimas semanas de neve.', it: 'La stagione 2026 sulle Ande sta finendo. Prenota le ultime settimane di neve.', nl: 'Het Andes-seizoen 2026 loopt ten einde. Boek de laatste weken sneeuw.' } as Record<Locale, string>)[l]}
+            {({ en: 'The 2026 Andes season is ending. Book the last weeks of snow.', fr: 'La saison 2026 des Andes se termine. Reservez les dernieres semaines de neige.', es: 'La temporada 2026 en los Andes cierra pronto. Reserva las ultimas semanas de nieve.', pt: 'A temporada 2026 nos Andes fecha em breve. Reserve as ultimas semanas de neve.', it: 'La stagione 2026 sulle Ande sta finendo. Prenota le ultime settimane di neve.', nl: 'Het Andes-seizoen 2026 loopt ten einde. Boek de laatste weken sneeuw.', ja: '2026年のアンデスシーズンは終盤です。積雪が残る最後の数週間に予約を。' } as Record<Locale, string>)[l]}
           </span>
           <span className="text-alpenglow-600 font-bold group-hover:translate-x-0.5 transition" aria-hidden>→</span>
         </Link>

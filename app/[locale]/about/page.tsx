@@ -69,6 +69,14 @@ const COPY: Record<Locale, { title: string; paragraphs: string[] }> = {
       'We ontvangen een kleine commissie wanneer je via onze links boekt. Die commissie kost jou niets extra. Ze financiert de site, meer niet.',
     ],
   },
+  ja: {
+    title: 'BestSnowHotelsについて',
+    paragraphs: [
+      'BestSnowHotelsは、目的がひとつだけの小さな編集プロジェクトです。一般的な予約サイトを延々と探し回らなくても、アルプスとピレネーで本当にski-in/ski-outなホテルをスキーヤーが見つけられるよう手伝います。',
+      '対象は、フランス、スイス、オーストリア、イタリア、スペイン、アンドラ、ドイツ、ノルウェー、スウェーデン、フィンランド、日本、アメリカ、モロッコ、アルジェリア、レソト、南アフリカ、エジプト、カナダ、韓国、オーストラリア、ニュージーランド、チリの455リゾートです。各リゾートについて、確認済みの標高、コースの総距離、シーズン期間、そしてski-in/ski-outかどうかを正直に記載しています。各目的地ページのインタラクティブマップはStay22が提供しており、Booking、Expedia、Hotels.comの料金をリアルタイムで比較するので、常に最安値がわかります。',
+      'リンク経由でご予約いただくと、当サイトはわずかな手数料を得ています。お客様に追加費用が発生することはありません。サイトの運営費に充てているだけで、それ以外の目的はありません。',
+    ],
+  },
 }
 
 export default async function AboutPage({

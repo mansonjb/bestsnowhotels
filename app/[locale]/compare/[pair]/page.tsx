@@ -21,6 +21,7 @@ const HEADINGS = {
     pt: 'Veredicto: quem escolhe qual',
     it: 'Verdetto: chi sceglie quale',
     nl: 'Conclusie: wie kiest wat',
+    ja: '結論：どちらを選ぶべきか',
   } as Record<Locale, string>,
   sideBySide: {
     en: 'Side by side',
@@ -29,6 +30,7 @@ const HEADINGS = {
     pt: 'Face a face',
     it: 'A confronto',
     nl: 'Naast elkaar',
+    ja: '横並び比較',
   } as Record<Locale, string>,
   altitudeBase: {
     en: 'Base altitude',
@@ -37,6 +39,7 @@ const HEADINGS = {
     pt: 'Altitude da base',
     it: 'Quota base',
     nl: 'Hoogte basis',
+    ja: 'ベース標高',
   } as Record<Locale, string>,
   altitudeSummit: {
     en: 'Summit altitude',
@@ -45,6 +48,7 @@ const HEADINGS = {
     pt: 'Altitude do cume',
     it: 'Quota della vetta',
     nl: 'Hoogte top',
+    ja: '山頂標高',
   } as Record<Locale, string>,
   pistes: {
     en: 'Pistes',
@@ -53,6 +57,7 @@ const HEADINGS = {
     pt: 'Pistas',
     it: 'Piste',
     nl: 'Pistes',
+    ja: 'コース',
   } as Record<Locale, string>,
   lifts: {
     en: 'Lifts',
@@ -61,6 +66,7 @@ const HEADINGS = {
     pt: 'Teleféricos',
     it: 'Impianti',
     nl: 'Liften',
+    ja: 'リフト',
   } as Record<Locale, string>,
   season: {
     en: 'Season',
@@ -69,6 +75,7 @@ const HEADINGS = {
     pt: 'Época',
     it: 'Stagione',
     nl: 'Seizoen',
+    ja: 'シーズン',
   } as Record<Locale, string>,
   snowScore: {
     en: 'Snow score',
@@ -77,6 +84,7 @@ const HEADINGS = {
     pt: 'Pontuação de neve',
     it: 'Punteggio neve',
     nl: 'Sneeuwscore',
+    ja: '積雪スコア',
   } as Record<Locale, string>,
   country: {
     en: 'Country',
@@ -85,6 +93,7 @@ const HEADINGS = {
     pt: 'País',
     it: 'Paese',
     nl: 'Land',
+    ja: '国',
   } as Record<Locale, string>,
   region: {
     en: 'Region',
@@ -93,6 +102,7 @@ const HEADINGS = {
     pt: 'Região',
     it: 'Regione',
     nl: 'Regio',
+    ja: 'エリア',
   } as Record<Locale, string>,
   goDeeper: {
     en: 'Go deeper:',
@@ -101,6 +111,7 @@ const HEADINGS = {
     pt: 'Ir mais a fundo:',
     it: 'Vai più a fondo:',
     nl: 'Meer weten:',
+    ja: 'もっと詳しく：',
   } as Record<Locale, string>,
   moreCompares: {
     en: 'Other comparisons',
@@ -109,6 +120,7 @@ const HEADINGS = {
     pt: 'Outros comparativos',
     it: 'Altri confronti',
     nl: 'Andere vergelijkingen',
+    ja: '他の比較',
   } as Record<Locale, string>,
   whereToStay: {
     en: 'Where to stay in each',
@@ -117,6 +129,7 @@ const HEADINGS = {
     pt: 'Onde ficar em cada uma',
     it: 'Dove dormire in ciascuna',
     nl: 'Waar overnachten in elk',
+    ja: 'それぞれの宿泊先',
   } as Record<Locale, string>,
 }
 
