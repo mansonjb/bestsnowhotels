@@ -9,7 +9,7 @@ import { localizeRegion } from '@/lib/regions'
 import { SITE_URL } from '@/lib/site'
 
 const LBL = {
-  title: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: 'Berggebieden', ja: '山岳エリア' } as Record<Locale, string>,
+  title: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: 'Berggebieden', ja: '山岳エリア', 'zh-hk': '滑雪地區' } as Record<Locale, string>,
   intro: {
     en: 'Every massif and mountain range in our guide, from the French Alps to the Andes. Pick a region to see all its resorts and their ski-in/ski-out hotels.',
     fr: 'Tous les massifs de notre guide, des Alpes françaises aux Andes. Choisissez une région pour voir toutes ses stations et leurs hôtels ski au pied.',
@@ -18,9 +18,10 @@ const LBL = {
     it: 'Tutti i massicci della nostra guida, dalle Alpi francesi alle Ande. Scegli una regione per vedere tutte le sue località e gli hotel sugli sci.',
     nl: 'Elk massief en gebergte in onze gids, van de Franse Alpen tot de Andes. Kies een regio om alle skigebieden en hun ski-in/ski-out hotels te zien.',
     ja: 'フランスアルプスからアンデスまで、当サイトが扱うすべての山塊と山脈を掲載。エリアを選べば、そのリゾートとski-in/ski-outホテルを一覧で確認できます。',
+    'zh-hk': '本指南收錄的所有山系與山脈，由法國阿爾卑斯山到安第斯山脈。選擇一個地區，即可查看旗下所有滑雪場及其ski-in/ski-out酒店。',
   } as Record<Locale, string>,
-  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート' } as Record<Locale, string>,
-  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località', nl: 'skigebied', ja: 'リゾート' } as Record<Locale, string>,
+  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート', 'zh-hk': '滑雪場' } as Record<Locale, string>,
+  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località', nl: 'skigebied', ja: 'リゾート', 'zh-hk': '滑雪場' } as Record<Locale, string>,
 }
 
 export async function generateMetadata({

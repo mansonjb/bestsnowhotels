@@ -24,7 +24,7 @@ interface GuideContent {
 const GUIDE = bestForGuide as Record<string, GuideContent | undefined>
 
 const T = {
-  topPicks: { en: 'Our top picks', fr: 'Notre sélection', es: 'Nuestra selección', pt: 'A nossa seleção', it: 'La nostra selezione', nl: 'Onze topkeuzes', ja: '当サイトの一押し' },
+  topPicks: { en: 'Our top picks', fr: 'Notre sélection', es: 'Nuestra selección', pt: 'A nossa seleção', it: 'La nostra selezione', nl: 'Onze topkeuzes', ja: '当サイトの一押し', 'zh-hk': '我們的精選推介' },
   topAnswer: {
     en: 'At a glance, the best resorts on this list are',
     fr: 'En bref, les meilleures stations de cette liste sont',
@@ -33,13 +33,14 @@ const T = {
     it: 'In sintesi, le migliori località di questa lista sono',
     nl: 'Kort gezegd, de beste skigebieden op deze lijst zijn',
     ja: 'このリストで特におすすめのリゾートは',
+    'zh-hk': '簡單來說，這份清單中最出色的滑雪場包括',
   },
-  criteriaTitle: { en: 'What to look for', fr: 'Ce qu’il faut regarder', es: 'Qué buscar', pt: 'O que procurar', it: 'Cosa cercare', nl: 'Waar je op moet letten', ja: '確認しておきたいポイント' },
-  rundownTitle: { en: 'The resorts, ranked', fr: 'Les stations, classées', es: 'Las estaciones, clasificadas', pt: 'As estâncias, classificadas', it: 'Le località, in classifica', nl: 'De skigebieden, gerangschikt', ja: 'リゾートランキング' },
-  whereToStay: { en: 'Where to stay', fr: 'Où dormir', es: 'Dónde alojarse', pt: 'Onde ficar', it: 'Dove dormire', nl: 'Waar te overnachten', ja: '宿泊先' },
-  fullGuide: { en: 'Full resort guide', fr: 'Guide complet de la station', es: 'Guía completa de la estación', pt: 'Guia completo da estância', it: 'Guida completa della località', nl: 'Volledige gids van het skigebied', ja: 'リゾート完全ガイド' },
-  findHotels: { en: 'Find hotels', fr: 'Trouver des hôtels', es: 'Buscar hoteles', pt: 'Procurar hotéis', it: 'Cerca hotel', nl: 'Zoek hotels', ja: 'ホテルを探す' },
-  mapTitle: { en: 'Map: hotels in', fr: 'Carte : hôtels à', es: 'Mapa: hoteles en', pt: 'Mapa: hotéis em', it: 'Mappa: hotel a', nl: 'Kaart: hotels in', ja: '周辺ホテル地図' },
+  criteriaTitle: { en: 'What to look for', fr: 'Ce qu’il faut regarder', es: 'Qué buscar', pt: 'O que procurar', it: 'Cosa cercare', nl: 'Waar je op moet letten', ja: '確認しておきたいポイント', 'zh-hk': '需要留意的重點' },
+  rundownTitle: { en: 'The resorts, ranked', fr: 'Les stations, classées', es: 'Las estaciones, clasificadas', pt: 'As estâncias, classificadas', it: 'Le località, in classifica', nl: 'De skigebieden, gerangschikt', ja: 'リゾートランキング', 'zh-hk': '滑雪場排名' },
+  whereToStay: { en: 'Where to stay', fr: 'Où dormir', es: 'Dónde alojarse', pt: 'Onde ficar', it: 'Dove dormire', nl: 'Waar te overnachten', ja: '宿泊先', 'zh-hk': '住宿選擇' },
+  fullGuide: { en: 'Full resort guide', fr: 'Guide complet de la station', es: 'Guía completa de la estación', pt: 'Guia completo da estância', it: 'Guida completa della località', nl: 'Volledige gids van het skigebied', ja: 'リゾート完全ガイド', 'zh-hk': '滑雪場完整指南' },
+  findHotels: { en: 'Find hotels', fr: 'Trouver des hôtels', es: 'Buscar hoteles', pt: 'Procurar hotéis', it: 'Cerca hotel', nl: 'Zoek hotels', ja: 'ホテルを探す', 'zh-hk': '搜尋酒店' },
+  mapTitle: { en: 'Map: hotels in', fr: 'Carte : hôtels à', es: 'Mapa: hoteles en', pt: 'Mapa: hotéis em', it: 'Mappa: hotel a', nl: 'Kaart: hotels in', ja: '周辺ホテル地図', 'zh-hk': '周邊酒店地圖' },
   mapSub: {
     en: 'Live prices from Booking, Expedia and Hotels.com around the top resort on this list.',
     fr: 'Prix en direct sur Booking, Expedia et Hotels.com autour de la meilleure station de cette liste.',
@@ -48,15 +49,16 @@ const T = {
     it: 'Prezzi in tempo reale da Booking, Expedia e Hotels.com attorno alla migliore località di questa lista.',
     nl: 'Live prijzen van Booking, Expedia en Hotels.com rond het beste skigebied op deze lijst.',
     ja: 'このリストのトップリゾート周辺、Booking、Expedia、Hotels.comのライブ料金。',
+    'zh-hk': '這份清單中排名第一滑雪場周邊，Booking、Expedia及Hotels.com的即時價格。',
   },
-  faqTitle: { en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti', nl: 'Veelgestelde vragen', ja: 'よくある質問' },
-  base: { en: 'Base', fr: 'Base', es: 'Base', pt: 'Base', it: 'Base', nl: 'Basis', ja: 'ベース' },
-  summit: { en: 'Summit', fr: 'Sommet', es: 'Cima', pt: 'Cume', it: 'Vetta', nl: 'Top', ja: '山頂' },
-  pistes: { en: 'Pistes', fr: 'Pistes', es: 'Pistas', pt: 'Pistas', it: 'Piste', nl: 'Pistes', ja: 'コース' },
-  lifts: { en: 'Lifts', fr: 'Remontées', es: 'Remontes', pt: 'Teleféricos', it: 'Impianti', nl: 'Liften', ja: 'リフト' },
-  snow: { en: 'Snow score', fr: 'Score neige', es: 'Nieve', pt: 'Neve', it: 'Neve', nl: 'Sneeuwscore', ja: '積雪スコア' },
-  season: { en: 'Season', fr: 'Saison', es: 'Temporada', pt: 'Época', it: 'Stagione', nl: 'Seizoen', ja: 'シーズン' },
-  exploreAll: { en: 'See all resorts', fr: 'Voir toutes les stations', es: 'Ver todas las estaciones', pt: 'Ver todas as estâncias', it: 'Vedi tutte le località', nl: 'Bekijk alle skigebieden', ja: 'すべてのリゾートを見る' },
+  faqTitle: { en: 'Frequently asked questions', fr: 'Questions fréquentes', es: 'Preguntas frecuentes', pt: 'Perguntas frequentes', it: 'Domande frequenti', nl: 'Veelgestelde vragen', ja: 'よくある質問', 'zh-hk': '常見問題' },
+  base: { en: 'Base', fr: 'Base', es: 'Base', pt: 'Base', it: 'Base', nl: 'Basis', ja: 'ベース', 'zh-hk': '山腳' },
+  summit: { en: 'Summit', fr: 'Sommet', es: 'Cima', pt: 'Cume', it: 'Vetta', nl: 'Top', ja: '山頂', 'zh-hk': '山頂' },
+  pistes: { en: 'Pistes', fr: 'Pistes', es: 'Pistas', pt: 'Pistas', it: 'Piste', nl: 'Pistes', ja: 'コース', 'zh-hk': '雪道' },
+  lifts: { en: 'Lifts', fr: 'Remontées', es: 'Remontes', pt: 'Teleféricos', it: 'Impianti', nl: 'Liften', ja: 'リフト', 'zh-hk': '纜車' },
+  snow: { en: 'Snow score', fr: 'Score neige', es: 'Nieve', pt: 'Neve', it: 'Neve', nl: 'Sneeuwscore', ja: '積雪スコア', 'zh-hk': '積雪評分' },
+  season: { en: 'Season', fr: 'Saison', es: 'Temporada', pt: 'Época', it: 'Stagione', nl: 'Seizoen', ja: 'シーズン', 'zh-hk': '雪季' },
+  exploreAll: { en: 'See all resorts', fr: 'Voir toutes les stations', es: 'Ver todas las estaciones', pt: 'Ver todas as estâncias', it: 'Vedi tutte le località', nl: 'Bekijk alle skigebieden', ja: 'すべてのリゾートを見る', 'zh-hk': '查看所有滑雪場' },
 } as Record<string, Record<Locale, string>>
 
 export async function generateStaticParams() {

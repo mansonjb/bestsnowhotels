@@ -16,6 +16,7 @@ const T = {
     it: 'Dove sciare per le vacanze invernali 2027?',
     nl: 'Waar skiën tijdens de wintervakantie 2027?',
     ja: '2027年の冬休み、どこへ滑りに行く？',
+    'zh-hk': '2027年冬季假期去哪裡滑雪？',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Planning the 2027 winter holidays? Here is why each big linked domain is worth a week, with one pass, real piste numbers and where to base yourself. No marketing, just our data.',
@@ -25,9 +26,10 @@ const T = {
     it: 'State pianificando le vacanze invernali 2027? Ecco perché ogni grande comprensorio collegato vale una settimana, con un solo skipass, numeri reali delle piste e dove sistemarsi. Niente marketing, solo i nostri dati.',
     nl: 'Plant u de wintervakantie 2027? Hier leest u waarom elk groot verbonden skigebied een week waard is, met één skipas, echte pistecijfers en waar u het beste kunt verblijven. Geen marketing, alleen onze data.',
     ja: '2027年の冬休みの計画中？ 大規模な連結スキーエリアがそれぞれ1週間分の価値を持つ理由を、1枚のリフト券、実際のコースデータ、拠点にすべき場所とともに解説します。宣伝文句ではなく、独自データだけに基づいています。',
+    'zh-hk': '正在計劃2027年冬季假期嗎？以下說明為何每個大型相連滑雪區都值得留足一星期：一張纜車證、真實雪道數據，以及該落腳的村莊。沒有行銷噱頭，只有我們的實際數據。',
   } as Record<Locale, string>,
   resortsWord: {
-    en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート',
+    en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート', 'zh-hk': '滑雪場',
   } as Record<Locale, string>,
 }
 

@@ -18,6 +18,7 @@ const T = {
     it: 'Guide alle località: cosa sapere prima di partire',
     nl: 'Gidsen voor skigebieden: wat je moet weten voor je vertrekt',
     ja: 'スキーリゾートガイド：行く前に知っておきたいこと',
+    'zh-hk': '滑雪場攻略：出發前必須知道的事',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Short, practical briefings on each resort: snow, getting there, the ski area, the vibe and when to go. Every point is drawn from our own data, not marketing.',
@@ -27,9 +28,10 @@ const T = {
     it: 'Schede brevi e pratiche per ogni località: neve, come arrivare, il comprensorio, l’atmosfera e quando andare. Ogni punto viene dai nostri dati, non dal marketing.',
     nl: 'Korte, praktische briefings per skigebied: sneeuw, hoe je er komt, het skidomein, de sfeer en wanneer te gaan. Elk punt komt uit onze eigen data, niet uit marketing.',
     ja: '各リゾートを短く実用的に紹介：積雪、アクセス、スキーエリア、雰囲気、ベストシーズン。すべて広告ではなく、当サイト独自のデータに基づいています。',
+    'zh-hk': '簡短實用的滑雪場介紹：積雪、交通、滑雪區、氛圍及最佳出發時間。所有內容均來自我們自家數據，並非廣告宣傳。',
   } as Record<Locale, string>,
   read: {
-    en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere', nl: 'Goed om te weten', ja: '知っておきたいこと',
+    en: 'Things to know', fr: 'À savoir', es: 'Qué saber', pt: 'O que saber', it: 'Cosa sapere', nl: 'Goed om te weten', ja: '知っておきたいこと', 'zh-hk': '須知事項',
   } as Record<Locale, string>,
 }
 

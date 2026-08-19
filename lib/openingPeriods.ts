@@ -61,6 +61,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       pt: 'Aberto todo o ano', it: "Aperto tutto l'anno",
       ja: '通年営業',
       nl: "Het hele jaar open",
+      'zh-hk': '全年開放',
     },
     blurb: {
       en: 'Glacier and indoor slopes that run in every month.',
@@ -70,6 +71,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       it: 'Ghiacciai e piste coperte aperti ogni mese.',
       ja: '氷河エリアと屋内ゲレンデは、一年を通じて滑走できる。',
       nl: 'Gletsjers en overdekte pistes die het hele jaar open zijn.',
+      'zh-hk': '冰川及室內雪場全年每月均可滑雪。',
     },
   },
   'autumn-glacier': {
@@ -78,6 +80,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       pt: 'Aberturas de outono (glaciares)', it: "Aperture d'autunno (ghiacciai)",
       ja: '秋のオープン(氷河エリア)',
       nl: "Herfstopeningen (gletsjers)",
+      'zh-hk': '秋季開放（冰川）',
     },
     blurb: {
       en: 'High glacier sectors that usually spin up in September or October.',
@@ -87,6 +90,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       it: 'Settori glaciali alti che di solito aprono a settembre o ottobre.',
       ja: '標高の高い氷河エリアは、通常9月か10月に滑走を開始する。',
       nl: 'Hooggelegen gletsjersectoren die meestal in september of oktober opengaan.',
+      'zh-hk': '高海拔冰川雪場通常於9月或10月開放。',
     },
   },
   october: {
@@ -95,6 +99,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       pt: 'Abrem normalmente em outubro', it: 'Aprono di solito a ottobre',
       ja: '例年10月にオープン',
       nl: 'Meestal open in oktober',
+      'zh-hk': '通常於10月開放',
     },
     blurb: {
       en: 'Early-season resorts, often the Nordic long-season fields and high-altitude names.',
@@ -104,6 +109,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       it: 'Località di inizio stagione, spesso i comprensori nordici a stagione lunga e i nomi d\'alta quota.',
       ja: '早期オープンのスキー場。北欧の長期シーズンのゲレンデや標高の高い名だたる山が多い。',
       nl: 'Vroege skigebieden, vaak de Noordse gebieden met een lang seizoen en de namen op grote hoogte.',
+      'zh-hk': '雪季較早開放的滑雪勝地，多為北歐長雪季雪場及高海拔知名雪場。',
     },
   },
   november: {
@@ -112,6 +118,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       pt: 'Abrem normalmente em novembro', it: 'Aprono di solito a novembre',
       ja: '例年11月にオープン',
       nl: 'Meestal open in november',
+      'zh-hk': '通常於11月開放',
     },
     blurb: {
       en: 'The big high-altitude Alpine and North American names that lead the season.',
@@ -121,6 +128,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       it: 'I grandi nomi alpini e nordamericani d\'alta quota che aprono la stagione.',
       ja: 'シーズンの先陣を切る、標高の高いアルプスと北米の大型スキー場。',
       nl: 'De grote namen uit de Alpen en Noord-Amerika op grote hoogte die het seizoen openen.',
+      'zh-hk': '率先展開雪季的阿爾卑斯山及北美高海拔知名雪場。',
     },
   },
   december: {
@@ -129,6 +137,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       pt: 'Abrem normalmente em dezembro', it: 'Aprono di solito a dicembre',
       ja: '例年12月にオープン',
       nl: 'Meestal open in december',
+      'zh-hk': '通常於12月開放',
     },
     blurb: {
       en: 'The bulk of resorts, aiming to be fully open for the Christmas holidays.',
@@ -138,6 +147,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       it: 'La maggior parte delle località, che puntano ad aprire del tutto per le feste di Natale.',
       ja: '大半のスキー場が対象で、クリスマス休暇までの全面オープンを目指す。',
       nl: 'Het merendeel van de skigebieden, met als doel volledig open te zijn voor de kerstvakantie.',
+      'zh-hk': '大部分滑雪勝地均以聖誕假期全面開放為目標。',
     },
   },
   'spring-summer': {
@@ -146,6 +156,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       pt: 'Esqui de primavera e verão', it: 'Sci di primavera ed estate',
       ja: '春・夏スキー',
       nl: 'Skiën in voorjaar en zomer',
+      'zh-hk': '春夏滑雪',
     },
     blurb: {
       en: 'Rare fields that ski the warm months on lingering high-altitude snow.',
@@ -155,6 +166,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       it: 'Rari comprensori che sciano nei mesi caldi su neve d\'alta quota persistente.',
       ja: '暖かい時期でも標高の高い残雪で滑走できる、数少ないゲレンデ。',
       nl: 'Zeldzame gebieden waar in de warme maanden wordt geskied op lang liggende sneeuw op grote hoogte.',
+      'zh-hk': '罕見於暖季仍可滑雪的雪場，全靠高海拔殘留積雪。',
     },
   },
   'southern-hemisphere': {
@@ -163,6 +175,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       pt: 'Hemisfério sul (junho a outubro)', it: 'Emisfero sud (da giugno a ottobre)',
       ja: '南半球(6月から10月)',
       nl: 'Zuidelijk halfrond (juni tot oktober)',
+      'zh-hk': '南半球（6月至10月）',
     },
     blurb: {
       en: 'Australia, New Zealand, Chile, Lesotho and South Africa, in season while the Alps sleep.',
@@ -172,6 +185,7 @@ const META: Record<BucketId, { label: Record<Locale, string>; blurb: Record<Loca
       it: 'Australia, Nuova Zelanda, Cile, Lesotho e Sudafrica, in stagione mentre le Alpi dormono.',
       ja: 'オーストラリア、ニュージーランド、チリ、レソト、南アフリカ。アルプスが眠る間、シーズンを迎える。',
       nl: 'Australië, Nieuw-Zeeland, Chili, Lesotho en Zuid-Afrika, in seizoen terwijl de Alpen slapen.',
+      'zh-hk': '澳洲、紐西蘭、智利、萊索托及南非，趁阿爾卑斯山休眠期間迎來雪季。',
     },
   },
 }

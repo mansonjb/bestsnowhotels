@@ -19,6 +19,7 @@ const T = {
     it: 'Hotel vicino a',
     nl: 'Hotels bij',
     ja: '周辺のホテル：',
+    'zh-hk': '附近酒店：',
   } as Record<Locale, string>,
   shHub: {
     en: 'Full Southern Hemisphere guide: where to ski in July, August and September',
@@ -28,6 +29,7 @@ const T = {
     it: "Guida completa all'emisfero sud: dove sciare a luglio, agosto e settembre",
     nl: 'Volledige gids voor het zuidelijk halfrond: waar skiën in juli, augustus en september',
     ja: '南半球の完全ガイド：7月・8月・9月にどこへ滑りに行くか',
+    'zh-hk': '南半球完整指南：7月、8月及9月去哪裡滑雪',
   } as Record<Locale, string>,
   picks: {
     en: 'Top picks for this period',
@@ -37,6 +39,7 @@ const T = {
     it: 'La nostra selezione per questo periodo',
     nl: 'Onze topkeuzes voor deze periode',
     ja: 'この時期のおすすめ',
+    'zh-hk': '這個時期的精選推介',
   } as Record<Locale, string>,
   other: {
     en: 'Other periods',
@@ -46,6 +49,7 @@ const T = {
     it: 'Altri periodi',
     nl: 'Andere periodes',
     ja: '他の時期',
+    'zh-hk': '其他時期',
   } as Record<Locale, string>,
   matched: {
     en: 'Resorts matching this period',
@@ -55,6 +59,7 @@ const T = {
     it: 'Località adatte a questo periodo',
     nl: 'Skigebieden die bij deze periode passen',
     ja: 'この時期に合うリゾート',
+    'zh-hk': '適合這個時期的滑雪場',
   } as Record<Locale, string>,
 }
 

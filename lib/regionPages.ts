@@ -107,5 +107,8 @@ export function regionIntro(h: RegionHub, l: Locale): string {
   const ja = single
     ? `${r}には、私たちのガイドに掲載しているスキーリゾートが1件あります。標高${s.maxSummit}mまで達する${s.topName}です。以下でski-in/ski-outホテル、積雪実績、旅に役立つリンクを確認できます。`
     : `${r}には、私たちのガイドに掲載しているスキーリゾートが${s.count}件あり、最も高い地点で標高${s.maxSummit}mに達します。積雪スコアが最も高いのは${s.topName}、コースが最も長いのは${s.biggestName}で${s.biggestKm}kmです。以下でそれぞれを比較でき、いずれもski-in/ski-outホテルつきです。`
-  return { en, fr, es, pt, it, nl, ja }[l]
+  const zhHk = single
+    ? `${r}在我們的指南中收錄一個滑雪勝地：${s.topName}，海拔達${s.maxSummit}m。以下可查看其ski-in/ski-out酒店、積雪紀錄及行程連結。`
+    : `${r}在我們的指南中收錄${s.count}個滑雪勝地，最高海拔達${s.maxSummit}m。${s.topName}在這裡積雪評分最高，而${s.biggestName}以${s.biggestKm}km雪道成為規模最大。以下逐一比較，每個都設有ski-in/ski-out酒店。`
+  return { en, fr, es, pt, it, nl, ja, 'zh-hk': zhHk }[l]
 }

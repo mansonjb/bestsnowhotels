@@ -63,6 +63,12 @@ const COPY: Record<Locale, { paragraphs: string[] }> = {
       '編集内容の掲載にあたって金銭を受け取ることはありません。リゾートの選定やski-in/ski-outに関する情報は、公開されているデータと当サイト独自の調査をもとに作成しています。',
     ],
   },
+  'zh-hk': {
+    paragraphs: [
+      'BestSnowHotels與Stay22合作，將預訂連結導向Booking.com、Expedia、Hotels.com及其他幾家供應商。當您點擊並完成預訂後，該供應商會支付少量聯盟佣金。無論您是透過BestSnowHotels還是直接預訂，付款金額都是一樣的。',
+      '我們不會收取任何費用以換取編輯報導。滑雪勝地的挑選及ski-in/ski-out備註，均根據公開資料及我們自己的調查撰寫而成。',
+    ],
+  },
 }
 
 export default async function DisclosurePage({

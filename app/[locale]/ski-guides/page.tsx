@@ -9,7 +9,7 @@ import { SITE_URL, hreflangFor } from '@/lib/site'
 
 const T = {
   title: {
-    en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías de esquí por tema', pt: 'Guias de esqui por tema', it: 'Guide allo sci per tema', nl: 'Skigidsen per thema', ja: 'テーマ別スキーガイド',
+    en: 'Ski guides by theme', fr: 'Guides ski par thème', es: 'Guías de esquí por tema', pt: 'Guias de esqui por tema', it: 'Guide allo sci per tema', nl: 'Skigidsen per thema', ja: 'テーマ別スキーガイド', 'zh-hk': '主題滑雪指南',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Hand-picked guides around one idea: spa skiing, the liveliest après-ski, the most luxurious hotels. Resorts and hotels chosen from our own data.',
@@ -19,6 +19,7 @@ const T = {
     it: "Guide scelte attorno a un'idea: sci e terme, l'après-ski più vivace, gli hotel più lussuosi. Località e hotel scelti dai nostri dati.",
     nl: 'Zorgvuldig samengestelde gidsen rond één idee: wellness en ski, de levendigste après-ski, de meest luxueuze hotels. Skigebieden en hotels gekozen op basis van onze eigen data.',
     ja: '「スパ×スキー」「一番盛り上がるアプレスキー」「最高級ホテル」など、ひとつのテーマを軸に厳選したガイド集。リゾートもホテルも独自データから選んでいます。',
+    'zh-hk': '圍繞單一主題精選的指南：溫泉滑雪、最熱鬧的après-ski、最豪華的酒店。滑雪場與酒店均由我們的獨家數據甄選而成。',
   } as Record<Locale, string>,
 }
 

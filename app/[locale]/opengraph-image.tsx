@@ -18,6 +18,7 @@ const TAGLINE: Record<Locale, string> = {
   it: 'Hotel ski-in/ski-out in tutto il mondo',
   nl: 'Ski-in/ski-out hotels over de hele wereld',
   ja: '世界中のski-in/ski-outホテル',
+  'zh-hk': '全球 ski-in/ski-out 酒店',
 }
 
 const LABELS: Record<Locale, { resorts: string; countries: string; languages: string }> = {
@@ -28,6 +29,7 @@ const LABELS: Record<Locale, { resorts: string; countries: string; languages: st
   it: { resorts: 'località', countries: 'paesi', languages: 'lingue' },
   nl: { resorts: 'skigebieden', countries: 'landen', languages: 'talen' },
   ja: { resorts: 'リゾート', countries: 'カ国', languages: '言語' },
+  'zh-hk': { resorts: '滑雪場', countries: '國家/地區', languages: '語言' },
 }
 
 export default async function OG({ params }: { params: Promise<{ locale: string }> }) {

@@ -7,7 +7,8 @@
       "pt": "Estâncias de esqui com termas e fontes de água quente",
       "it": "Località sciistiche con terme e sorgenti calde",
       "nl": "Skigebieden met thermale spa's en warmwaterbronnen",
-      "ja": "温泉とスパを備えたスキー場"
+      "ja": "温泉とスパを備えたスキー場",
+      "zh-hk": "設有溫泉水療的滑雪場"
     },
     "intro": {
       "en": "Ski hard all day, then sink into naturally heated thermal water as the snow keeps falling. These are the resorts where the slopes and the springs share the same valley.",
@@ -16,7 +17,8 @@
       "pt": "Esquie a fundo durante todo o dia e depois mergulhe em água termal naturalmente quente enquanto a neve continua a cair. Estas são as estâncias onde as pistas e as nascentes partilham o mesmo vale.",
       "it": "Sciate intensamente tutto il giorno, poi immergetevi nell'acqua termale naturalmente calda mentre la neve continua a cadere. Queste sono le località dove le piste e le sorgenti condividono la stessa valle.",
       "nl": "Skie de hele dag stevig door en zak dan weg in natuurlijk verwarmd thermaal water, terwijl de sneeuw blijft vallen. Dit zijn de skigebieden waar de pistes en de bronnen dezelfde vallei delen.",
-      "ja": "一日中思い切り滑った後は、雪が降り続くなかで天然の温泉にゆっくり浸かる。ゲレンデと温泉が同じ谷にあるスキー場をご紹介します。"
+      "ja": "一日中思い切り滑った後は、雪が降り続くなかで天然の温泉にゆっくり浸かる。ゲレンデと温泉が同じ谷にあるスキー場をご紹介します。",
+      "zh-hk": "全日盡情滑雪,然後趁飄雪未停之際,浸浴於天然溫熱的溫泉水中。這些滑雪場的雪道與溫泉,同處一個山谷。"
     },
     "body": {
       "en": "There is a particular kind of luxury in skiing a resort built on real thermal springs. Your aching legs go straight from cold chairlifts into mineral water that the earth heats for you, no electric jacuzzi required. Switzerland leads the way: Leukerbad is the largest thermal spa village in the Alps, while Scuol, Davos and Crans-Montana pair high skiing with serious wellness culture. Across the border, the Gastein valley in Austria, Bad Gastein, Bad Hofgastein and Bad Kleinkirchheim, is famous for its radon-rich thermal waters that have drawn bathers for centuries.\n\nWhat to expect is simple: ski first, soak second. In Italy, Bormio sends you down long pistes and then into baths the Romans already knew about. France makes a strong case too, with Saint-Gervais and Saint-Lary blending downhill terrain and dedicated thermal centres, plus Serre Chevalier, Brides-les-Bains, Ax 3 Domaines and Luchon-Superbagneres in the Pyrenees and the Alps. Even Panorama in Canada offers hot-pool soaking after a day on the snow. Wherever you go, the ritual is the same: earn the heat on the mountain, then let the thermal water do the rest.",
@@ -25,7 +27,8 @@
       "pt": "Há um luxo muito particular em esquiar numa estância construída sobre verdadeiras nascentes termais. As pernas cansadas passam diretamente dos teleféricos gelados para a água mineral que a terra aquece por si, sem precisar de jacúzi elétrico. A Suíça lidera o caminho: Leukerbad é a maior aldeia termal dos Alpes, enquanto Scuol, Davos e Crans-Montana juntam esqui de altitude a uma autêntica cultura de bem-estar. Do outro lado da fronteira, o vale de Gastein, na Áustria, Bad Gastein, Bad Hofgastein e Bad Kleinkirchheim, é célebre pelas suas águas termais ricas em rádon, que atraem banhistas há séculos.\n\nO que pode esperar é simples: primeiro esquiar, depois mergulhar. Em Itália, Bormio leva-o por longas pistas e, a seguir, para banhos que os romanos já conheciam. A França também tem muito a oferecer, com Saint-Gervais e Saint-Lary a combinarem domínio esquiável e centros termais próprios, além de Serre Chevalier, Brides-les-Bains, Ax 3 Domaines e Luchon-Superbagneres nos Pirenéus e nos Alpes. Até Panorama, no Canadá, oferece piscinas quentes depois de um dia na neve. Para onde quer que vá, o ritual é o mesmo: conquiste o calor na montanha e deixe que a água termal faça o resto.",
       "it": "C'è un lusso tutto particolare nello sciare in una località costruita su vere sorgenti termali. Le gambe affaticate passano direttamente dalle seggiovie gelate all'acqua minerale che la terra riscalda per voi, senza bisogno di vasche idromassaggio elettriche. La Svizzera fa da apripista: Leukerbad è il più grande villaggio termale delle Alpi, mentre Scuol, Davos e Crans-Montana uniscono lo sci d'alta quota a una vera cultura del benessere. Oltre confine, la valle di Gastein in Austria, Bad Gastein, Bad Hofgastein e Bad Kleinkirchheim, è celebre per le sue acque termali ricche di radon, che attirano i bagnanti da secoli.\n\nCosa aspettarsi è semplice: prima si scia, poi ci si immerge. In Italia, Bormio vi fa scendere lungo piste interminabili per poi accogliervi in bagni che già i Romani conoscevano. Anche la Francia ha molto da offrire, con Saint-Gervais e Saint-Lary che uniscono comprensorio sciistico e centri termali dedicati, oltre a Serre Chevalier, Brides-les-Bains, Ax 3 Domaines e Luchon-Superbagneres tra Pirenei e Alpi. Persino Panorama, in Canada, propone le sue piscine calde dopo una giornata sulla neve. Ovunque andiate, il rito è lo stesso: guadagnatevi il calore in montagna, poi lasciate che sia l'acqua termale a fare il resto.",
       "nl": "Er schuilt een bijzondere luxe in skiën in een skigebied dat op echte thermale bronnen is gebouwd. Je vermoeide benen gaan rechtstreeks van de koude stoeltjeslift het mineraalwater in dat de aarde voor je verwarmt, geen elektrische jacuzzi nodig. Zwitserland loopt voorop: Leukerbad is het grootste thermale spadorp van de Alpen, terwijl Scuol, Davos en Crans-Montana hooggelegen skiën combineren met een serieuze welnesscultuur. Aan de andere kant van de grens is de Gasteinervallei in Oostenrijk, met Bad Gastein, Bad Hofgastein en Bad Kleinkirchheim, beroemd om het radonrijke thermale water dat al eeuwenlang badgasten trekt.\n\nWat je kunt verwachten is simpel: eerst skiën, dan weken. In Italië stuurt Bormio je over lange pistes naar beneden en daarna de baden in die de Romeinen al kenden. Ook Frankrijk heeft veel te bieden, met Saint-Gervais en Saint-Lary die skiterrein combineren met eigen thermale centra, plus Serre Chevalier, Brides-les-Bains, Ax 3 Domaines en Luchon-Superbagnères in de Pyreneeën en de Alpen. Zelfs Panorama in Canada biedt een warmwaterbad na een dag op de sneeuw. Waar je ook heen gaat, het ritueel is hetzelfde: verdien de warmte op de berg, en laat daarna het thermale water de rest doen.",
-      "ja": "本物の温泉の上に築かれたスキー場を滑る、そこには格別の贅沢があります。冷え切った脚は、チェアリフトを降りてそのまま大地が温めてくれるミネラル豊かな湯へ。電気式のジャクジーなど必要ありません。その筆頭がスイスです。Leukerbadはアルプス最大の温泉村で、Scuol、Davos、Crans-Montanaは標高の高いスキーと本格的なウェルネス文化を組み合わせています。国境を越えたオーストリアのGastein渓谷、Bad Gastein、Bad Hofgastein、Bad Kleinkirchheimは、何世紀にもわたり湯治客を惹きつけてきたラドンを豊富に含む温泉で知られています。\n\nやることはシンプルです。まず滑って、それから浸かる。イタリアのBormioでは、長いピステを滑り降りた先に、古代ローマ人もすでに知っていた浴場が待っています。フランスも負けていません。Saint-GervaisとSaint-Laryはダウンヒルのゲレンデと専用の温泉センターを融合させ、さらにピレネーとアルプスにはSerre Chevalier、Brides-les-Bains、Ax 3 Domaines、Luchon-Superbagneresがあります。カナダのPanoramaでさえ、一日雪の上で過ごした後に温水プールで浸かることができます。どこへ行っても儀式は同じです。山で熱を稼いだら、あとは温泉に任せましょう。"
+      "ja": "本物の温泉の上に築かれたスキー場を滑る、そこには格別の贅沢があります。冷え切った脚は、チェアリフトを降りてそのまま大地が温めてくれるミネラル豊かな湯へ。電気式のジャクジーなど必要ありません。その筆頭がスイスです。Leukerbadはアルプス最大の温泉村で、Scuol、Davos、Crans-Montanaは標高の高いスキーと本格的なウェルネス文化を組み合わせています。国境を越えたオーストリアのGastein渓谷、Bad Gastein、Bad Hofgastein、Bad Kleinkirchheimは、何世紀にもわたり湯治客を惹きつけてきたラドンを豊富に含む温泉で知られています。\n\nやることはシンプルです。まず滑って、それから浸かる。イタリアのBormioでは、長いピステを滑り降りた先に、古代ローマ人もすでに知っていた浴場が待っています。フランスも負けていません。Saint-GervaisとSaint-Laryはダウンヒルのゲレンデと専用の温泉センターを融合させ、さらにピレネーとアルプスにはSerre Chevalier、Brides-les-Bains、Ax 3 Domaines、Luchon-Superbagneresがあります。カナダのPanoramaでさえ、一日雪の上で過ごした後に温水プールで浸かることができます。どこへ行っても儀式は同じです。山で熱を稼いだら、あとは温泉に任せましょう。",
+      "zh-hk": "在建於真正溫泉之上的滑雪場滑雪,自有一種獨特的奢華感。痠痛的雙腿滑畢寒冷的纜車後,可直接浸入由大地天然加熱的礦物溫泉水中,毋須電動按摩浴缸。瑞士堪稱表表者:Leukerbad是阿爾卑斯山區最大的溫泉水療小鎮,而Scuol、Davos與Crans-Montana則將高山滑雪與認真的養生文化結合。邊境另一端,奧地利的Gastein山谷,即Bad Gastein、Bad Hofgastein及Bad Kleinkirchheim,以蘊含氡氣的溫泉水聞名,數百年來一直吸引泡湯客到訪。\n\n體驗其實很簡單:先滑雪,後泡湯。在意大利,Bormio讓你滑畢長長雪道後,浸浴於古羅馬人早已認識的溫泉浴場。法國同樣表現出色,Saint-Gervais與Saint-Lary將下坡地形與專屬溫泉中心結合,還有庇里牛斯山及阿爾卑斯山一帶的Serre Chevalier、Brides-les-Bains、Ax 3 Domaines及Luchon-Superbagneres。就連加拿大的Panorama,亦提供滑雪一日後的溫泉浴池體驗。無論身處何地,儀式都一樣:先在山上掙得暖意,再交由溫泉水完成餘下一切。"
     },
     "faq": [
       {
@@ -36,7 +39,8 @@
           "pt": "Que estâncias de esqui têm as melhores termas?",
           "it": "Quali località sciistiche hanno le terme migliori?",
           "nl": "Welke skigebieden hebben de beste thermale spa's?",
-          "ja": "最高の温泉を備えたスキー場はどこですか。"
+          "ja": "最高の温泉を備えたスキー場はどこですか。",
+          "zh-hk": "哪些滑雪場擁有最好的溫泉水療?"
         },
         "a": {
           "en": "For genuine thermal water, Leukerbad and Scuol in Switzerland and the Gastein valley in Austria, Bad Gastein and Bad Hofgastein, are among the best. Bormio in Italy and Saint-Gervais and Saint-Lary in France are also strong choices for skiing and soaking in the same trip.",
@@ -45,7 +49,8 @@
           "pt": "Para água termal autêntica, Leukerbad e Scuol na Suíça e o vale de Gastein na Áustria, Bad Gastein e Bad Hofgastein, estão entre as melhores. Bormio em Itália e Saint-Gervais e Saint-Lary em França são também excelentes opções para esquiar e mergulhar na mesma viagem.",
           "it": "Per acqua termale autentica, Leukerbad e Scuol in Svizzera e la valle di Gastein in Austria, Bad Gastein e Bad Hofgastein, sono tra le migliori. Bormio in Italia e Saint-Gervais e Saint-Lary in Francia sono altrettanto ottime per sciare e immergersi nello stesso viaggio.",
           "nl": "Voor authentiek thermaal water horen Leukerbad en Scuol in Zwitserland en de Gasteinervallei in Oostenrijk, met Bad Gastein en Bad Hofgastein, tot de beste opties. Bormio in Italië en Saint-Gervais en Saint-Lary in Frankrijk zijn ook uitstekende keuzes om skiën en weken in dezelfde reis te combineren.",
-          "ja": "本物の温泉を求めるなら、スイスのLeukerbadとScuol、オーストリアのGastein渓谷にあるBad GasteinとBad Hofgasteinが筆頭に挙げられます。イタリアのBormio、フランスのSaint-GervaisとSaint-Laryも、スキーと湯浴みを同じ旅で楽しめる有力な選択肢です。"
+          "ja": "本物の温泉を求めるなら、スイスのLeukerbadとScuol、オーストリアのGastein渓谷にあるBad GasteinとBad Hofgasteinが筆頭に挙げられます。イタリアのBormio、フランスのSaint-GervaisとSaint-Laryも、スキーと湯浴みを同じ旅で楽しめる有力な選択肢です。",
+          "zh-hk": "若要體驗真正的溫泉水,瑞士的Leukerbad與Scuol,以及奧地利Gastein山谷的Bad Gastein及Bad Hofgastein,均屬首選之列。意大利的Bormio,以及法國的Saint-Gervais與Saint-Lary,同樣是集滑雪與泡湯於一身的理想選擇。"
         }
       },
       {
@@ -56,7 +61,8 @@
           "pt": "É possível esquiar e usar as termas no mesmo dia?",
           "it": "Si può sciare e usare le terme nello stesso giorno?",
           "nl": "Kun je op dezelfde dag skiën en de thermale baden gebruiken?",
-          "ja": "同じ日にスキーと温泉の両方を楽しめますか。"
+          "ja": "同じ日にスキーと温泉の両方を楽しめますか。",
+          "zh-hk": "可否在同一日內滑雪兼享用溫泉浴?"
         },
         "a": {
           "en": "Yes, and that is exactly the appeal. In resorts like Leukerbad, Bormio or Bad Hofgastein the thermal baths sit right in or beside the ski village, so you can ski in the morning and be in the warm water by mid-afternoon.",
@@ -65,7 +71,8 @@
           "pt": "Sim, e é precisamente esse o encanto. Em estâncias como Leukerbad, Bormio ou Bad Hofgastein as termas ficam mesmo dentro ou ao lado da aldeia de esqui, por isso pode esquiar de manhã e estar na água quente a meio da tarde.",
           "it": "Sì, ed è proprio questo il bello. In località come Leukerbad, Bormio o Bad Hofgastein le terme si trovano dentro o accanto al paese sciistico, così potete sciare la mattina ed essere nell'acqua calda nel primo pomeriggio.",
           "nl": "Ja, en dat is precies de charme. In skigebieden als Leukerbad, Bormio of Bad Hofgastein liggen de thermale baden midden in of vlak naast het skidorp, zodat je 's ochtends kunt skiën en al tegen het midden van de middag in het warme water ligt.",
-          "ja": "はい、それこそがこの旅の魅力です。Leukerbad、Bormio、Bad Hofgasteinなどのスキー場では、温泉施設がスキー村の中またはすぐ隣にあるため、午前中に滑って午後の早い時間には温かい湯に浸かることができます。"
+          "ja": "はい、それこそがこの旅の魅力です。Leukerbad、Bormio、Bad Hofgasteinなどのスキー場では、温泉施設がスキー村の中またはすぐ隣にあるため、午前中に滑って午後の早い時間には温かい湯に浸かることができます。",
+          "zh-hk": "當然可以,而這正正就是其吸引之處。在Leukerbad、Bormio或Bad Hofgastein等滑雪場,溫泉浴場就座落於滑雪小鎮之內或旁邊,因此你可以早上滑雪,下午中段已可浸浴於暖水之中。"
         }
       },
       {
@@ -76,7 +83,8 @@
           "pt": "As termas fazem bem depois de esquiar?",
           "it": "Le terme fanno bene dopo lo sci?",
           "nl": "Zijn thermale spa's goed na het skiën?",
-          "ja": "スキーの後に温泉に入るのは体に良いのですか。"
+          "ja": "スキーの後に温泉に入るのは体に良いのですか。",
+          "zh-hk": "滑雪後浸溫泉水療有益處嗎?"
         },
         "a": {
           "en": "Many skiers find that warm mineral water helps tired, cold muscles relax after a long day on the slopes. It is a soothing way to wind down, which is why historic thermal towns like Bad Gastein and Leukerbad built their reputation around bathing long before ski lifts arrived.",
@@ -85,7 +93,8 @@
           "pt": "Muitos esquiadores acham que a água mineral quente ajuda a relaxar os músculos cansados e arrefecidos após um longo dia nas pistas. É uma forma reconfortante de descontrair e foi por isso que cidades termais históricas como Bad Gastein e Leukerbad construíram a sua fama em torno dos banhos muito antes de existirem teleféricos.",
           "it": "Molti sciatori trovano che l'acqua minerale calda aiuti a rilassare i muscoli stanchi e infreddoliti dopo una lunga giornata sulle piste. È un modo piacevole per staccare, ed è per questo che città termali storiche come Bad Gastein e Leukerbad hanno costruito la loro fama sui bagni molto prima che arrivassero gli impianti di risalita.",
           "nl": "Veel skiërs merken dat warm mineraalwater vermoeide, koude spieren helpt ontspannen na een lange dag op de piste. Het is een verkwikkende manier om tot rust te komen, en daarom bouwden historische thermale plaatsen als Bad Gastein en Leukerbad hun reputatie al op rond baden, lang voordat de skiliften er waren.",
-          "ja": "多くのスキーヤーは、温かいミネラル泉が一日滑って冷えた筋肉をほぐしてくれると感じています。心身をゆるめる心地よい方法であり、Bad GasteinやLeukerbadのような歴史ある温泉町は、スキーリフトが登場するはるか以前から、この湯治文化によって名声を築いてきました。"
+          "ja": "多くのスキーヤーは、温かいミネラル泉が一日滑って冷えた筋肉をほぐしてくれると感じています。心身をゆるめる心地よい方法であり、Bad GasteinやLeukerbadのような歴史ある温泉町は、スキーリフトが登場するはるか以前から、この湯治文化によって名声を築いてきました。",
+          "zh-hk": "許多滑雪愛好者發現,溫暖的礦物溫泉水有助放鬆經過一整日滑雪後疲勞、冰冷的肌肉,是一種令人舒緩身心的休息方式。這亦解釋了為何Bad Gastein與Leukerbad等歷史悠久的溫泉小鎮,早在滑雪纜車出現之前,已憑泡湯文化建立起聲譽。"
         }
       }
     ]
@@ -98,7 +107,8 @@
       "pt": "As melhores estancias para o apres-ski",
       "it": "Le migliori localita per l'apres-ski",
       "nl": "De beste skigebieden voor apres-ski",
-      "ja": "最高のアプレスキーが楽しめるスキー場"
+      "ja": "最高のアプレスキーが楽しめるスキー場",
+      "zh-hk": "最佳滑雪後派對度假村"
     },
     "intro": {
       "en": "When the lifts close, the real fun begins. These are the resorts where the music starts at the bottom of the last run and keeps going long after dark.",
@@ -107,7 +117,8 @@
       "pt": "Quando os telefericos fecham, comeca a verdadeira diversao. Estas sao as estancias onde a musica arranca ao fundo da ultima descida e prossegue muito depois de cair a noite.",
       "it": "Quando gli impianti chiudono, comincia il vero divertimento. Queste sono le localita dove la musica parte ai piedi dell'ultima pista e continua fino a notte fonda.",
       "nl": "Als de liften stoppen, begint het echte feest. Dit zijn de skigebieden waar de muziek losbarst onderaan de laatste afdaling en nog lang na het invallen van de duisternis doorgaat.",
-      "ja": "リフトが止まったとき、本当の楽しみが始まります。最後の1本を滑り終えたゲレンデの麓で音楽が鳴り出し、日が暮れてからも長く続くスキー場をご紹介します。"
+      "ja": "リフトが止まったとき、本当の楽しみが始まります。最後の1本を滑り終えたゲレンデの麓で音楽が鳴り出し、日が暮れてからも長く続くスキー場をご紹介します。",
+      "zh-hk": "纜車停運後,真正的樂趣才剛開始。在這些度假村,音樂在最後一趟雪道的終點便已響起,並持續到入夜以後。"
     },
     "body": {
       "en": "Great apres-ski comes in two flavours. There are the slopeside umbrella bars where you ski straight in, boots still on, for a drink and a dance before the last descent: St. Anton am Arlberg built its legend on places like the Mooserwirt, and Solden, Obertauern and Soll keep the tradition very much alive. Then there is the resort that turns into a full town party after dark, with Ischgl famous for its big concerts and Saalbach Hinterglemm packing its main street every evening.\n\nFrance and Switzerland have their own icons. Val Thorens, the highest resort in Europe, mixes huge open-air terraces with late nightclubs, while Verbier draws an international crowd that dances on the tables. Les Deux Alpes leans young and loud, and beyond the Alps the energy travels well: Sauze d'Oulx in Italy, Are in Sweden and Hemsedal in Norway all know how to celebrate, while Aspen Snowmass, Breckenridge, Park City and Heavenly bring an easygoing American spin to the after-ski hours.",
@@ -116,7 +127,8 @@
       "pt": "Um bom apres-ski tem dois estilos. Ha os bares ao pe das pistas, aonde se chega de esquis, ainda com as botas calcadas, para beber um copo e dancar antes da ultima descida: St. Anton am Arlberg construiu a sua lenda em espacos como o Mooserwirt, e Solden, Obertauern e Soll mantem viva essa tradicao. Depois ha a estancia que se transforma numa grande festa ao cair da noite, com Ischgl, famosa pelos seus grandes concertos, e Saalbach Hinterglemm, que enche a rua principal todas as noites.\n\nA Franca e a Suica tem os seus proprios icones. Val Thorens, a estancia mais alta da Europa, combina enormes esplanadas ao ar livre com discotecas ate tarde, enquanto Verbier atrai um publico internacional que danca em cima das mesas. Les Deux Alpes aposta num ambiente jovem e animado, e para la dos Alpes a energia viaja muito bem: Sauze d'Oulx em Italia, Are na Suecia e Hemsedal na Noruega sabem festejar, ao passo que Aspen Snowmass, Breckenridge, Park City e Heavenly trazem um toque americano mais descontraido as horas a seguir ao esqui.",
       "it": "Un buon apres-ski ha due anime. Ci sono i bar ai piedi delle piste, dove si arriva con gli sci, scarponi ancora ai piedi, per bere qualcosa e ballare prima dell'ultima discesa: St. Anton am Arlberg ha costruito la sua leggenda su locali come il Mooserwirt, e Solden, Obertauern e Soll tengono viva questa tradizione. Poi c'e la localita che si trasforma in una grande festa al calar della notte, con Ischgl, celebre per i suoi grandi concerti, e Saalbach Hinterglemm, che riempie la via principale ogni sera.\n\nFrancia e Svizzera hanno le loro icone. Val Thorens, la localita piu alta d'Europa, unisce enormi terrazze all'aperto a discoteche aperte fino a tardi, mentre Verbier attira un pubblico internazionale che balla sui tavoli. Les Deux Alpes punta su un'atmosfera giovane e scatenata, e oltre le Alpi l'energia viaggia benissimo: Sauze d'Oulx in Italia, Are in Svezia e Hemsedal in Norvegia sanno far festa, mentre Aspen Snowmass, Breckenridge, Park City e Heavenly portano un tocco americano piu rilassato alle ore dopo lo sci.",
       "nl": "Goede apres-ski komt in twee smaken. Er zijn de parasolbars aan de piste waar je zo naar binnen skiet, skischoenen nog aan, voor een drankje en een dansje voor de laatste afdaling: St. Anton am Arlberg bouwde zijn legende op plekken als de Mooserwirt, en Sölden, Obertauern en Söll houden die traditie springlevend. Dan is er het skigebied dat na het invallen van de duisternis verandert in een groot dorpsfeest, met Ischgl bekend om zijn grote concerten en Saalbach Hinterglemm dat elke avond de hoofdstraat vult.\n\nFrankrijk en Zwitserland hebben hun eigen iconen. Val Thorens, het hoogstgelegen skigebied van Europa, combineert enorme openluchtterrassen met nachtclubs die tot laat open zijn, terwijl Verbier een internationaal publiek trekt dat op de tafels danst. Les Deux Alpes is jong en uitbundig, en ook buiten de Alpen weet men van feesten: Sauze d'Oulx in Italië, Åre in Zweden en Hemsedal in Noorwegen kunnen er allemaal wat van, terwijl Aspen Snowmass, Breckenridge, Park City en Heavenly de apres-skiuren een ontspannen Amerikaans tintje geven.",
-      "ja": "素晴らしいアプレスキーには二つのタイプがあります。一つは、ブーツを履いたまま滑り込んでそのまま一杯やって踊り、最後の滑走に戻れるゲレンデ脇のパラソルバーです。St. Anton am ArlbergはMooserwirtのような店でその伝説を築き、Solden、Obertauern、Sollはその伝統を今も色濃く受け継いでいます。もう一つは、日が暮れると町全体がパーティー会場に変わるタイプで、Ischglは大規模なコンサートで知られ、Saalbach Hinterglemmは毎晩メインストリートが人であふれます。\n\nフランスとスイスにも独自の名所があります。ヨーロッパ最高所のスキー場であるVal Thorensは、広大な屋外テラスと深夜まで営業するナイトクラブを併せ持ち、Verbierはテーブルの上で踊り出す国際色豊かな客層を引き寄せます。Les Deux Alpesは若々しく賑やかな雰囲気で知られ、アルプスの外でもその熱気は健在です。イタリアのSauze d'Oulx、スウェーデンのAre、ノルウェーのHemsedalはいずれも盛り上がり方を心得ており、Aspen Snowmass、Breckenridge、Park City、Heavenlyはアフタースキーの時間にアメリカらしい気楽な雰囲気を添えています。"
+      "ja": "素晴らしいアプレスキーには二つのタイプがあります。一つは、ブーツを履いたまま滑り込んでそのまま一杯やって踊り、最後の滑走に戻れるゲレンデ脇のパラソルバーです。St. Anton am ArlbergはMooserwirtのような店でその伝説を築き、Solden、Obertauern、Sollはその伝統を今も色濃く受け継いでいます。もう一つは、日が暮れると町全体がパーティー会場に変わるタイプで、Ischglは大規模なコンサートで知られ、Saalbach Hinterglemmは毎晩メインストリートが人であふれます。\n\nフランスとスイスにも独自の名所があります。ヨーロッパ最高所のスキー場であるVal Thorensは、広大な屋外テラスと深夜まで営業するナイトクラブを併せ持ち、Verbierはテーブルの上で踊り出す国際色豊かな客層を引き寄せます。Les Deux Alpesは若々しく賑やかな雰囲気で知られ、アルプスの外でもその熱気は健在です。イタリアのSauze d'Oulx、スウェーデンのAre、ノルウェーのHemsedalはいずれも盛り上がり方を心得ており、Aspen Snowmass、Breckenridge、Park City、Heavenlyはアフタースキーの時間にアメリカらしい気楽な雰囲気を添えています。",
+      "zh-hk": "出色的滑雪後派對主要有兩種風格。一種是雪道旁的露天遮陽傘酒吧,滑雪者可穿着雪靴直接滑入,在踏上最後一趟落山雪道前先喝一杯、跳一支舞:St. Anton am Arlberg憑Mooserwirt等場地建立起傳奇地位,而Solden、Obertauern與Soll亦將這項傳統延續至今。另一種則是入夜後整個小鎮化身派對現場,Ischgl以大型音樂會聞名,Saalbach Hinterglemm的主街每晚都擠滿人潮。\n\n法國與瑞士亦各有代表。歐洲海拔最高的度假村Val Thorens,將寬廣的露天平台與深夜夜店融為一體;Verbier則吸引國際旅客在桌上起舞。Les Deux Alpes走年輕熱鬧路線,而阿爾卑斯山以外的地區同樣不遑多讓:意大利的Sauze d'Oulx、瑞典的Are與挪威的Hemsedal都深諳派對之道;Aspen Snowmass、Breckenridge、Park City與Heavenly則為滑雪後時光帶來悠閒的美式風情。"
     },
     "faq": [
       {
@@ -127,7 +139,8 @@
           "pt": "Qual a estancia com o melhor apres-ski?",
           "it": "Quale localita ha il miglior apres-ski?",
           "nl": "Welk skigebied heeft de beste apres-ski?",
-          "ja": "最高のアプレスキーを楽しめるスキー場はどこですか。"
+          "ja": "最高のアプレスキーを楽しめるスキー場はどこですか。",
+          "zh-hk": "哪個度假村擁有最佳滑雪後派對?"
         },
         "a": {
           "en": "It depends on the style you want, but St. Anton am Arlberg and Ischgl are widely seen as the benchmarks in Austria, with Val Thorens and Verbier leading the way for big terraces and late nightlife.",
@@ -136,7 +149,8 @@
           "pt": "Depende do estilo que procuras, mas St. Anton am Arlberg e Ischgl sao muitas vezes apontadas como as referencias na Austria, com Val Thorens e Verbier a liderar nas grandes esplanadas e na vida noturna ate tarde.",
           "it": "Dipende dallo stile che cerchi, ma St. Anton am Arlberg e Ischgl sono spesso considerate i punti di riferimento in Austria, con Val Thorens e Verbier in testa per le grandi terrazze e la vita notturna fino a tardi.",
           "nl": "Dat hangt af van de stijl die je zoekt, maar St. Anton am Arlberg en Ischgl worden algemeen gezien als de norm in Oostenrijk, terwijl Val Thorens en Verbier voorop lopen als het gaat om grote terrassen en een nachtleven dat tot laat doorgaat.",
-          "ja": "求めるスタイルによりますが、オーストリアではSt. Anton am ArlbergとIschglが基準として広く知られており、大規模なテラスと深夜のナイトライフではVal ThorensとVerbierが先頭を走っています。"
+          "ja": "求めるスタイルによりますが、オーストリアではSt. Anton am ArlbergとIschglが基準として広く知られており、大規模なテラスと深夜のナイトライフではVal ThorensとVerbierが先頭を走っています。",
+          "zh-hk": "這視乎你喜歡的風格而定,不過St. Anton am Arlberg與Ischgl普遍被視為奧地利的指標,而Val Thorens與Verbier則在大型露天平台及深夜夜生活方面領先。"
         }
       },
       {
@@ -147,7 +161,8 @@
           "pt": "O que e o apres-ski?",
           "it": "Cos'e l'apres-ski?",
           "nl": "Wat is apres-ski?",
-          "ja": "アプレスキーとは何ですか。"
+          "ja": "アプレスキーとは何ですか。",
+          "zh-hk": "什麼是滑雪後派對?"
         },
         "a": {
           "en": "Apres-ski is the social scene that follows a day on the slopes, from a drink at a slopeside bar to dancing in town. In resorts like Saalbach Hinterglemm or Solden it often starts in ski boots in the afternoon and rolls straight into the evening.",
@@ -156,7 +171,8 @@
           "pt": "O apres-ski e o convivio que se segue a um dia nas pistas, desde um copo num bar ao pe das pistas ate a danca na vila. Em estancias como Saalbach Hinterglemm ou Solden costuma comecar de botas calcadas a tarde e prolongar-se pela noite.",
           "it": "L'apres-ski e la vita sociale che segue una giornata sulle piste, da un drink in un bar a bordo pista al ballo in paese. In localita come Saalbach Hinterglemm o Solden spesso inizia con gli scarponi nel pomeriggio e prosegue dritto fino a sera.",
           "nl": "Apres-ski is het sociale gebeuren na een dag op de piste, van een drankje bij een bar aan de piste tot dansen in het dorp. In skigebieden als Saalbach Hinterglemm of Sölden begint het vaak al in de middag, op skischoenen, en loopt het naadloos door tot in de avond.",
-          "ja": "アプレスキーとは、一日ゲレンデで過ごした後に続く社交シーンのことで、ゲレンデ脇のバーでの一杯から町でのダンスまでを指します。Saalbach HinterglemmやSoldenのようなスキー場では、午後にスキーブーツを履いたまま始まり、そのまま夜へと続くことがよくあります。"
+          "ja": "アプレスキーとは、一日ゲレンデで過ごした後に続く社交シーンのことで、ゲレンデ脇のバーでの一杯から町でのダンスまでを指します。Saalbach HinterglemmやSoldenのようなスキー場では、午後にスキーブーツを履いたまま始まり、そのまま夜へと続くことがよくあります。",
+          "zh-hk": "滑雪後派對是指結束一日滑雪後的社交活動,由雪道旁酒吧的一杯酒,到小鎮內的跳舞派對皆包括在內。在Saalbach Hinterglemm或Solden等度假村,活動通常在下午穿着雪靴時已經開始,並一直延續至晚上。"
         }
       },
       {
@@ -167,7 +183,8 @@
           "pt": "Onde fica a melhor vida noturna de esqui na Europa?",
           "it": "Dove si trova la migliore vita notturna sugli sci in Europa?",
           "nl": "Waar vind je het beste skinachtleven van Europa?",
-          "ja": "ヨーロッパで最高のスキーナイトライフはどこにありますか。"
+          "ja": "ヨーロッパで最高のスキーナイトライフはどこにありますか。",
+          "zh-hk": "歐洲哪裡擁有最佳滑雪夜生活?"
         },
         "a": {
           "en": "For full nightclubs and late nights, Ischgl, Val Thorens and Verbier are hard to beat, while St. Anton am Arlberg pairs legendary slopeside bars with a buzzing town. Andorra's Grandvalira is also a strong pick for a lively, good-value scene.",
@@ -176,7 +193,8 @@
           "pt": "Para discotecas a serio e noites longas, Ischgl, Val Thorens e Verbier sao dificeis de superar, enquanto St. Anton am Arlberg junta bares lendarios ao pe das pistas a uma vila muito animada. Grandvalira, em Andorra, e tambem uma otima escolha para um ambiente festivo e acessivel.",
           "it": "Per discoteche vere e nottate lunghe, Ischgl, Val Thorens e Verbier sono difficili da battere, mentre St. Anton am Arlberg unisce bar leggendari a bordo pista a un paese molto vivace. Anche Grandvalira, in Andorra, e un'ottima scelta per un'atmosfera festosa e conveniente.",
           "nl": "Voor volle nachtclubs en late nachten zijn Ischgl, Val Thorens en Verbier moeilijk te verslaan, terwijl St. Anton am Arlberg legendarische bars aan de piste combineert met een bruisend dorp. Grandvalira in Andorra is ook een sterke keuze voor een levendige sfeer met een goede prijs-kwaliteitverhouding.",
-          "ja": "本格的なナイトクラブと深夜まで続く盛り上がりを求めるなら、Ischgl、Val Thorens、Verbierに勝る場所はそうありません。St. Anton am Arlbergは伝説的なゲレンデ脇のバーと活気ある町並みを兼ね備えています。アンドラのGrandvaliraも、賑やかでコストパフォーマンスの良いシーンとして有力な候補です。"
+          "ja": "本格的なナイトクラブと深夜まで続く盛り上がりを求めるなら、Ischgl、Val Thorens、Verbierに勝る場所はそうありません。St. Anton am Arlbergは伝説的なゲレンデ脇のバーと活気ある町並みを兼ね備えています。アンドラのGrandvaliraも、賑やかでコストパフォーマンスの良いシーンとして有力な候補です。",
+          "zh-hk": "若論正式夜店及深夜派對,Ischgl、Val Thorens與Verbier難以匹敵,而St. Anton am Arlberg則將傳奇雪道酒吧與熱鬧小鎮氣氛結合。安道爾的Grandvalira同樣是體驗熱鬧且高性價比氣氛的理想之選。"
         }
       }
     ]
@@ -189,7 +207,8 @@
       "pt": "Os hoteis de esqui mais luxuosos",
       "it": "Gli hotel sciistici piu lussuosi",
       "nl": "De meest luxueuze skihotels",
-      "ja": "最高級のスキーホテル"
+      "ja": "最高級のスキーホテル",
+      "zh-hk": "最奢華的滑雪酒店"
     },
     "intro": {
       "en": "Step straight from your suite onto the snow, then unwind in a spa and dine at the chef's table. These are the most luxurious ski hotels in the world's great alpine resorts.",
@@ -198,7 +217,8 @@
       "pt": "Saia diretamente da sua suite para a neve, descontraia depois num spa e delicie-se com uma mesa de alta cozinha. Estes sao os hoteis de esqui mais luxuosos das grandes estancias alpinas.",
       "it": "Esci direttamente dalla tua suite sulla neve, rilassati poi in una spa e concediti la tavola dello chef. Questi sono gli hotel sciistici piu lussuosi delle grandi localita alpine.",
       "nl": "Stap zo vanuit je suite de sneeuw in, ontspan daarna in een spa en dineer aan de tafel van de chef. Dit zijn de meest luxueuze skihotels in de grote alpiene skigebieden van de wereld.",
-      "ja": "スイートルームから一歩出ればそこはもうゲレンデ。スパでくつろぎ、シェフズテーブルで食事を楽しむ。世界屈指のアルプスリゾートにある、最高級のスキーホテルをご紹介します。"
+      "ja": "スイートルームから一歩出ればそこはもうゲレンデ。スパでくつろぎ、シェフズテーブルで食事を楽しむ。世界屈指のアルプスリゾートにある、最高級のスキーホテルをご紹介します。",
+      "zh-hk": "從套房直接踏出即達雪道,再於水療中心放鬆身心,並在主廚餐桌品嚐佳餚。這些正是世界頂尖高山度假村中最奢華的滑雪酒店。"
     },
     "body": {
       "en": "A truly luxurious ski hotel begins with its location on the snow: ski-in, ski-out access so the slopes are your front door. Add a spa worthy of a destination in its own right, refined gastronomy from breakfast to the late dinner service, and a level of personal service that anticipates every need. You will find these addresses in the most renowned luxury resorts, from Courchevel, Megeve and Val d'Isere in France to Zermatt, St. Moritz, Verbier and Crans-Montana in Switzerland. Lech and Kitzbuhel in Austria, Cortina d'Ampezzo in Italy, Aspen Snowmass in the United States and Niseko in Japan round out this exclusive map. Every hotel listed below has been selected for its high guest ratings, drawn from real reviews left by travellers who have stayed there. The result is a shortlist where genuine guest satisfaction, not marketing, points the way to the finest stays on the mountain.",
@@ -207,7 +227,8 @@
       "pt": "Um hotel de esqui verdadeiramente luxuoso comeca pela sua localizacao sobre a neve: acesso ski-in, ski-out, com as pistas a porta. Junte um spa que so por si justifica a viagem, uma gastronomia requintada do pequeno-almoco ao jantar, e um servico personalizado que se antecipa a cada desejo. Encontra estes enderecos nas estancias de luxo mais conceituadas, de Courchevel, Megeve e Val d'Isere em Franca a Zermatt, St. Moritz, Verbier e Crans-Montana na Suica. Lech e Kitzbuhel na Austria, Cortina d'Ampezzo em Italia, Aspen Snowmass nos Estados Unidos e Niseko no Japao completam este mapa exclusivo. Cada hotel apresentado abaixo foi selecionado pelas suas elevadas avaliacoes, baseadas em comentarios reais de viajantes que la ficaram. O resultado e uma selecao onde a satisfacao genuina dos hospedes, e nao o marketing, aponta o caminho para as melhores estadias na montanha.",
       "it": "Un hotel sciistico davvero lussuoso parte dalla sua posizione sulla neve: accesso ski-in, ski-out, con le piste sull'uscio di casa. Aggiungi una spa che da sola vale il viaggio, una gastronomia raffinata dalla colazione alla cena, e un servizio personalizzato che anticipa ogni desiderio. Trovi questi indirizzi nelle localita di lusso piu rinomate, da Courchevel, Megeve e Val d'Isere in Francia a Zermatt, St. Moritz, Verbier e Crans-Montana in Svizzera. Lech e Kitzbuhel in Austria, Cortina d'Ampezzo in Italia, Aspen Snowmass negli Stati Uniti e Niseko in Giappone completano questa mappa esclusiva. Ogni hotel elencato qui sotto e stato scelto per le sue alte valutazioni, ricavate dalle recensioni reali lasciate dai viaggiatori che vi hanno soggiornato. Il risultato e una selezione in cui la soddisfazione autentica degli ospiti, e non il marketing, indica la strada verso i soggiorni migliori in montagna.",
       "nl": "Een echt luxueus skihotel begint met zijn ligging op de sneeuw: ski-in/ski-out toegang, zodat de piste je voordeur is. Voeg daar een spa aan toe die op zichzelf al een bestemming is, verfijnde gastronomie van het ontbijt tot het diner in de late avond, en een niveau van persoonlijke service dat elke wens voorspelt. Je vindt deze adressen in de meest gerenommeerde luxe skigebieden, van Courchevel, Megève en Val d'Isère in Frankrijk tot Zermatt, St. Moritz, Verbier en Crans-Montana in Zwitserland. Lech en Kitzbühel in Oostenrijk, Cortina d'Ampezzo in Italië, Aspen Snowmass in de Verenigde Staten en Niseko in Japan maken deze exclusieve kaart compleet. Elk hotel hieronder is geselecteerd op basis van hoge gastbeoordelingen, afkomstig uit echte reviews van reizigers die er hebben verbleven. Het resultaat is een shortlist waarin oprechte gasttevredenheid, niet marketing, de weg wijst naar de mooiste verblijven op de berg.",
-      "ja": "本当に贅沢なスキーホテルは、まずその立地から始まります。ゲレンデが玄関先になるski-in/ski-outのアクセスです。それに加えて、それ自体が旅の目的地となり得るスパ、朝食から夜遅くのディナーサービスまで洗練されたガストロノミー、そしてあらゆる要望を先読みするパーソナルサービスが揃います。こうした名だたるホテルは、フランスのCourchevel、Megeve、Val d'Isereから、スイスのZermatt、St. Moritz、Verbier、Crans-Montanaまで、世界屈指の高級リゾートに見つかります。オーストリアのLechとKitzbuhel、イタリアのCortina d'Ampezzo、アメリカのAspen Snowmass、そして日本のニセコも、この特別な地図に名を連ねます。以下に紹介するホテルはすべて、実際に宿泊した旅行者による本物のレビューに基づく高評価によって選ばれています。その結果できあがったのは、マーケティングではなく本物のゲスト満足度が、山の上で最高の滞在先を教えてくれる厳選リストです。"
+      "ja": "本当に贅沢なスキーホテルは、まずその立地から始まります。ゲレンデが玄関先になるski-in/ski-outのアクセスです。それに加えて、それ自体が旅の目的地となり得るスパ、朝食から夜遅くのディナーサービスまで洗練されたガストロノミー、そしてあらゆる要望を先読みするパーソナルサービスが揃います。こうした名だたるホテルは、フランスのCourchevel、Megeve、Val d'Isereから、スイスのZermatt、St. Moritz、Verbier、Crans-Montanaまで、世界屈指の高級リゾートに見つかります。オーストリアのLechとKitzbuhel、イタリアのCortina d'Ampezzo、アメリカのAspen Snowmass、そして日本のニセコも、この特別な地図に名を連ねます。以下に紹介するホテルはすべて、実際に宿泊した旅行者による本物のレビューに基づく高評価によって選ばれています。その結果できあがったのは、マーケティングではなく本物のゲスト満足度が、山の上で最高の滞在先を教えてくれる厳選リストです。",
+      "zh-hk": "真正奢華的滑雪酒店,首先講求座落雪道之上的位置:ski-in, ski-out的無縫連接,令雪道如同你的家門一樣近。再加上本身已值得專程到訪的水療中心、由早餐至深夜晚膳皆講究的精緻美食,以及能預先照顧每項需要的個人化服務。這類酒店遍布最負盛名的奢華度假村,由法國的Courchevel、Megeve與Val d'Isere,到瑞士的Zermatt、St. Moritz、Verbier與Crans-Montana,皆可尋得蹤影。奧地利的Lech與Kitzbuhel、意大利的Cortina d'Ampezzo、美國的Aspen Snowmass,以及日本的Niseko,同樣是這幅頂級版圖的一部分。以下每間酒店,均因住客評分持續優異而獲揀選,評分均來自曾入住旅客的真實評價。因此,這份精選名單所依據的,是真實的住客滿意度,而非市場宣傳。"
     },
     "faq": [
       {
@@ -218,7 +239,8 @@
           "pt": "Que estancias de esqui tem os hoteis mais luxuosos?",
           "it": "Quali localita sciistiche hanno gli hotel piu lussuosi?",
           "nl": "Welke skigebieden hebben de meest luxueuze hotels?",
-          "ja": "最も高級なホテルが揃うスキー場はどこですか。"
+          "ja": "最も高級なホテルが揃うスキー場はどこですか。",
+          "zh-hk": "哪些滑雪場擁有最奢華的酒店?"
         },
         "a": {
           "en": "The greatest concentration is found in resorts like Courchevel, Megeve and Val d'Isere in France, Zermatt, St. Moritz, Verbier and Crans-Montana in Switzerland, and Lech and Kitzbuhel in Austria. Cortina d'Ampezzo in Italy, Aspen Snowmass in the United States and Niseko in Japan are also home to exceptional addresses.",
@@ -227,7 +249,8 @@
           "pt": "A maior concentracao encontra-se em estancias como Courchevel, Megeve e Val d'Isere em Franca, Zermatt, St. Moritz, Verbier e Crans-Montana na Suica, e Lech e Kitzbuhel na Austria. Cortina d'Ampezzo em Italia, Aspen Snowmass nos Estados Unidos e Niseko no Japao tambem acolhem enderecos excecionais.",
           "it": "La maggiore concentrazione si trova in localita come Courchevel, Megeve e Val d'Isere in Francia, Zermatt, St. Moritz, Verbier e Crans-Montana in Svizzera, e Lech e Kitzbuhel in Austria. Anche Cortina d'Ampezzo in Italia, Aspen Snowmass negli Stati Uniti e Niseko in Giappone ospitano indirizzi eccezionali.",
           "nl": "De grootste concentratie vind je in skigebieden als Courchevel, Megève en Val d'Isère in Frankrijk, Zermatt, St. Moritz, Verbier en Crans-Montana in Zwitserland, en Lech en Kitzbühel in Oostenrijk. Ook Cortina d'Ampezzo in Italië, Aspen Snowmass in de Verenigde Staten en Niseko in Japan herbergen uitzonderlijke adressen.",
-          "ja": "最も集中しているのは、フランスのCourchevel、Megeve、Val d'Isere、スイスのZermatt、St. Moritz、Verbier、Crans-Montana、そしてオーストリアのLechとKitzbuhelです。イタリアのCortina d'Ampezzo、アメリカのAspen Snowmass、日本のニセコにも、卓越したホテルがあります。"
+          "ja": "最も集中しているのは、フランスのCourchevel、Megeve、Val d'Isere、スイスのZermatt、St. Moritz、Verbier、Crans-Montana、そしてオーストリアのLechとKitzbuhelです。イタリアのCortina d'Ampezzo、アメリカのAspen Snowmass、日本のニセコにも、卓越したホテルがあります。",
+          "zh-hk": "最集中的地區包括法國的Courchevel、Megeve與Val d'Isere,瑞士的Zermatt、St. Moritz、Verbier與Crans-Montana,以及奧地利的Lech與Kitzbuhel。意大利的Cortina d'Ampezzo、美國的Aspen Snowmass與日本的Niseko,同樣坐擁多間頂級酒店。"
         }
       },
       {
@@ -238,7 +261,8 @@
           "pt": "O que torna um hotel de esqui luxuoso?",
           "it": "Cosa rende lussuoso un hotel sciistico?",
           "nl": "Wat maakt een skihotel luxueus?",
-          "ja": "スキーホテルの何が高級さを決めるのですか。"
+          "ja": "スキーホテルの何が高級さを決めるのですか。",
+          "zh-hk": "是什麼令一間滑雪酒店稱得上奢華?"
         },
         "a": {
           "en": "Luxury combines a prime location on the slopes, a spa and wellness area, fine dining, and attentive, personal service. The hotels here stand out above all for their consistently high guest ratings from real reviews, so the quality is confirmed by the travellers who have stayed there.",
@@ -247,7 +271,8 @@
           "pt": "O luxo combina uma localizacao privilegiada nas pistas, uma zona de spa e bem-estar, alta cozinha e um servico atento e personalizado. Os hoteis aqui apresentados destacam-se sobretudo pelas suas elevadas avaliacoes provenientes de comentarios reais, pelo que a qualidade e confirmada pelos viajantes que la ficaram.",
           "it": "Il lusso unisce una posizione privilegiata sulle piste, un'area spa e benessere, un'ottima cucina e un servizio attento e personalizzato. Gli hotel qui presentati si distinguono soprattutto per le loro alte valutazioni provenienti da recensioni reali, quindi la qualita e confermata dai viaggiatori che vi hanno soggiornato.",
           "nl": "Luxe combineert een uitstekende ligging op de piste, een spa en wellnessruimte, verfijnde keuken en aandachtige, persoonlijke service. De hotels hier onderscheiden zich vooral door hun consequent hoge gastbeoordelingen uit echte reviews, zodat de kwaliteit wordt bevestigd door de reizigers die er hebben verbleven.",
-          "ja": "高級さとは、ゲレンデの一等地という立地、スパとウェルネスエリア、上質な食事、そしてきめ細やかなパーソナルサービスが組み合わさったものです。ここで紹介するホテルは、何より本物のレビューによる一貫した高評価が際立っており、その質は実際に宿泊した旅行者によって裏付けられています。"
+          "ja": "高級さとは、ゲレンデの一等地という立地、スパとウェルネスエリア、上質な食事、そしてきめ細やかなパーソナルサービスが組み合わさったものです。ここで紹介するホテルは、何より本物のレビューによる一貫した高評価が際立っており、その質は実際に宿泊した旅行者によって裏付けられています。",
+          "zh-hk": "奢華體現於雪道旁的優越地段、水療養生設施、精緻餐飲,以及細心的個人化服務。以下酒店最突出之處,在於其真實評價中持續優異的住客評分,品質由曾入住的旅客親身印證。"
         }
       },
       {
@@ -258,7 +283,8 @@
           "pt": "Os hoteis de esqui de luxo sao ski-in, ski-out?",
           "it": "Gli hotel sciistici di lusso sono ski-in, ski-out?",
           "nl": "Zijn luxe skihotels ski-in/ski-out?",
-          "ja": "高級スキーホテルはski-in/ski-outですか。"
+          "ja": "高級スキーホテルはski-in/ski-outですか。",
+          "zh-hk": "奢華滑雪酒店是否設有ski-in, ski-out?"
         },
         "a": {
           "en": "Many of them are, with direct ski-in, ski-out access to the slopes, which is one of the hallmarks of the category. Others sit in the heart of a resort such as Zermatt or St. Moritz, a short walk or shuttle from the lifts, so it is always worth checking each hotel's exact position.",
@@ -267,7 +293,8 @@
           "pt": "Muitos sao, com acesso direto ski-in, ski-out as pistas, uma das marcas desta categoria. Outros situam-se no coracao de uma estancia como Zermatt ou St. Moritz, a poucos passos ou a uma curta viagem de transfer dos telefericos, pelo que convem verificar sempre a localizacao exata de cada hotel.",
           "it": "Molti lo sono, con accesso diretto ski-in, ski-out alle piste, uno dei tratti distintivi della categoria. Altri si trovano nel cuore di una localita come Zermatt o St. Moritz, a pochi passi o a una breve navetta dagli impianti, quindi conviene sempre verificare la posizione esatta di ogni hotel.",
           "nl": "Veel wel, met directe ski-in/ski-out toegang tot de piste, een van de kenmerken van deze categorie. Andere liggen in het hart van een skigebied zoals Zermatt of St. Moritz, op een korte wandel- of shuttleafstand van de liften, dus het loont altijd om de precieze ligging van elk hotel te checken.",
-          "ja": "多くはゲレンデに直結するski-in/ski-outアクセスを備えており、これはこのカテゴリーの特徴の一つです。ZermattやSt. Moritzのようにリゾートの中心部にあり、リフトまで徒歩やシャトルで少し移動するホテルもあるため、それぞれのホテルの正確な立地は必ず確認する価値があります。"
+          "ja": "多くはゲレンデに直結するski-in/ski-outアクセスを備えており、これはこのカテゴリーの特徴の一つです。ZermattやSt. Moritzのようにリゾートの中心部にあり、リフトまで徒歩やシャトルで少し移動するホテルもあるため、それぞれのホテルの正確な立地は必ず確認する価値があります。",
+          "zh-hk": "當中不少確實設有直達雪道的ski-in, ski-out設計,這正是此類酒店的特色之一。其餘則座落於Zermatt或St. Moritz等度假村中心地帶,只需步行片刻或乘搭接駁車即可到達纜車站,因此建議事先核實每間酒店的確實位置。"
         }
       }
     ]
@@ -280,7 +307,8 @@
       "pt": "Melhores estâncias de esqui dos Alpes franceses",
       "it": "Migliori località sciistiche delle Alpi francesi",
       "nl": "De beste skigebieden in de Franse Alpen",
-      "ja": "フランスアルプスの最高のスキー場"
+      "ja": "フランスアルプスの最高のスキー場",
+      "zh-hk": "法國阿爾卑斯山最佳滑雪場"
     },
     "intro": {
       "en": "The French Alps are the beating heart of European skiing: the biggest linked domains on earth, high-altitude snow you can count on, and a resort for every budget and level. Here are the ones worth the trip.",
@@ -289,7 +317,8 @@
       "pt": "Os Alpes franceses são o coração do esqui europeu: os maiores domínios ligados do mundo, neve de altitude fiável e uma estância para cada orçamento e nível. Estas são as que valem a viagem.",
       "it": "Le Alpi francesi sono il cuore pulsante dello sci europeo: i comprensori collegati più grandi al mondo, neve d'alta quota affidabile e una località per ogni budget e livello. Ecco quelle che valgono il viaggio.",
       "nl": "De Franse Alpen zijn het kloppende hart van het Europese skiën: de grootste aaneengesloten skigebieden ter wereld, sneeuwzekerheid op grote hoogte en een skigebied voor elk budget en niveau. Dit zijn de bestemmingen die de reis waard zijn.",
-      "ja": "フランスアルプスはヨーロッパスキーの中心です。地球上最大級の連結ゲレンデ、確実に積もる高地の雪、そしてあらゆる予算とレベルに応じたスキー場が揃っています。ここでは、訪れる価値のあるスキー場をご紹介します。"
+      "ja": "フランスアルプスはヨーロッパスキーの中心です。地球上最大級の連結ゲレンデ、確実に積もる高地の雪、そしてあらゆる予算とレベルに応じたスキー場が揃っています。ここでは、訪れる価値のあるスキー場をご紹介します。",
+      "zh-hk": "法國阿爾卑斯山是歐洲滑雪運動的心臟地帶:擁有全球最大型的相連滑雪區域、可靠的高海拔積雪,以及適合各種預算與程度的度假村。以下就是值得專程前往的選擇。"
     },
     "body": {
       "en": "No mountain range packs in more world-class skiing than the French Alps. From the Tarentaise valley, where Val Thorens, Tignes, Val d'Isere, Les Arcs, La Plagne and the Three Valleys stack up altitude and piste kilometres, to the Mont Blanc massif around Chamonix and Megeve, this is where the sport goes big.\n\nAltitude is the trump card. Val Thorens (Europe's highest village at 2300 m), Tignes and Val d'Isere sit high enough to hold cold, dry snow from late November into May, several plugged into a glacier for good measure. Lower down, Morzine, Avoriaz and the Portes du Soleil trade a little snow-sureness for tree-lined runs and cross-border charm.\n\nSize is the other. The Three Valleys, Paradiski and the Espace Killy rank among the largest lift-linked areas in the world, so you can ski a week without repeating a run. Whatever your level, from a first green run to the couloirs of Chamonix, there is a French Alpine resort built for it.",
@@ -298,7 +327,8 @@
       "pt": "Nenhuma cordilheira concentra tanto esqui de topo como os Alpes franceses. Do vale da Tarentaise, onde Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne e os Três Vales acumulam altitude e quilómetros de pistas, ao maciço do Monte Branco em torno de Chamonix e Megève, é aqui que o esqui se faz em grande.\n\nA altitude é o trunfo maior. Val Thorens (a aldeia mais alta da Europa, a 2300 m), Tignes e Val d'Isère erguem-se o suficiente para manter neve fria e seca de finais de novembro a maio, vários prolongados por um glaciar. Mais abaixo, Morzine, Avoriaz e os Portes du Soleil trocam alguma garantia de neve por pistas na floresta e charme transfronteiriço.\n\nO tamanho é o outro. Os Três Vales, Paradiski e o Espace Killy estão entre os maiores domínios ligados do mundo: esquia-se uma semana sem repetir pista. Seja qual for o seu nível, da primeira pista verde aos corredores de Chamonix, há uma estância dos Alpes franceses feita para si.",
       "it": "Nessuna catena concentra tanto sci di livello mondiale come le Alpi francesi. Dalla valle della Tarentaise, dove Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne e le Tre Valli accumulano quota e chilometri di piste, al massiccio del Monte Bianco attorno a Chamonix e Megève, è qui che lo sci si fa in grande.\n\nLa quota è l'asso nella manica. Val Thorens (il paese più alto d'Europa a 2300 m), Tignes e Val d'Isère sono abbastanza in alto da mantenere neve fredda e asciutta da fine novembre a maggio, molti prolungati da un ghiacciaio. Più in basso, Morzine, Avoriaz e i Portes du Soleil scambiano un po' di garanzia di neve con piste nel bosco e fascino transfrontaliero.\n\nLe dimensioni sono l'altro. Le Tre Valli, Paradiski e l'Espace Killy figurano tra i comprensori collegati più grandi al mondo: si scia una settimana senza ripetere una pista. Qualunque sia il tuo livello, dalla prima pista verde ai canali di Chamonix, c'è una località delle Alpi francesi fatta apposta.",
       "nl": "Geen enkel gebergte biedt zoveel skiën van wereldklasse als de Franse Alpen. Van de Tarentaisevallei, waar Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne en de Drie Valleien hoogte en pistekilometers stapelen, tot het Mont Blanc-massief rond Chamonix en Megève: hier gebeurt het skiën op grote schaal.\n\nHoogte is de troefkaart. Val Thorens (met 2300 m het hoogstgelegen dorp van Europa), Tignes en Val d'Isère liggen hoog genoeg om koude, droge sneeuw vast te houden van eind november tot mei, en verschillende zijn ook nog aangesloten op een gletsjer. Lager gelegen ruilen Morzine, Avoriaz en de Portes du Soleil wat sneeuwzekerheid in voor pistes tussen de bomen en grensoverschrijdende charme.\n\nOmvang is de andere troef. Les Trois Vallées, Paradiski en de Espace Killy behoren tot de grootste aaneengesloten skigebieden ter wereld, dus je skiet een week lang zonder een piste te herhalen. Welk niveau je ook hebt, van een eerste groene piste tot de couloirs van Chamonix, er is een skigebied in de Franse Alpen dat daarvoor gemaakt is.",
-      "ja": "フランスアルプスほど世界クラスのスキーが詰まった山脈は他にありません。Val Thorens、Tignes、Val d'Isere、Les Arcs、La Plagne、Three Valleysが標高とピステの距離を積み重ねるTarentaise渓谷から、ChamonixとMegeveを擁するMont Blanc山群まで、ここはスキーというスポーツがスケール感を持って展開される場所です。\n\n標高こそが切り札です。Val Thorens（標高2300メートルのヨーロッパ最高所の村）、TignesとVal d'Isereは、11月下旬から5月まで冷たく乾いた雪を保つのに十分な高さにあり、いくつかは氷河にもつながっています。標高を下げると、Morzine、Avoriaz、Portes du Soleilは確実な積雪と引き換えに、木立に囲まれたコースと国境を越える魅力を提供してくれます。\n\nもう一つの魅力は規模です。Three Valleys、Paradiski、Espace Killyは世界最大級のリフト連結エリアに数えられ、一週間滑っても同じコースを繰り返すことがありません。初めてのグリーンコースからChamonixのクーロワールまで、どんなレベルにもふさわしいフランスアルプスのスキー場が見つかります。"
+      "ja": "フランスアルプスほど世界クラスのスキーが詰まった山脈は他にありません。Val Thorens、Tignes、Val d'Isere、Les Arcs、La Plagne、Three Valleysが標高とピステの距離を積み重ねるTarentaise渓谷から、ChamonixとMegeveを擁するMont Blanc山群まで、ここはスキーというスポーツがスケール感を持って展開される場所です。\n\n標高こそが切り札です。Val Thorens（標高2300メートルのヨーロッパ最高所の村）、TignesとVal d'Isereは、11月下旬から5月まで冷たく乾いた雪を保つのに十分な高さにあり、いくつかは氷河にもつながっています。標高を下げると、Morzine、Avoriaz、Portes du Soleilは確実な積雪と引き換えに、木立に囲まれたコースと国境を越える魅力を提供してくれます。\n\nもう一つの魅力は規模です。Three Valleys、Paradiski、Espace Killyは世界最大級のリフト連結エリアに数えられ、一週間滑っても同じコースを繰り返すことがありません。初めてのグリーンコースからChamonixのクーロワールまで、どんなレベルにもふさわしいフランスアルプスのスキー場が見つかります。",
+      "zh-hk": "沒有任何山脈比法國阿爾卑斯山蘊藏更多世界級滑雪體驗。從Tarentaise山谷,即Val Thorens、Tignes、Val d'Isere、Les Arcs、La Plagne與Three Valleys海拔與雪道公里數並重之地,到Chamonix與Megeve一帶的Mont Blanc山群,這裡正是滑雪運動盡展規模之處。\n\n海拔是這裡的王牌。Val Thorens(歐洲海拔最高的村莊,達2300米)、Tignes與Val d'Isere海拔足夠高,由十一月底至五月均能保持乾冷積雪,當中數個更連接冰川,錦上添花。海拔較低之處,Morzine、Avoriaz與Portes du Soleil則以林蔭雪道及跨境滑雪的魅力,換取稍遜一籌的積雪保證。\n\n規模則是另一優勢。Three Valleys、Paradiski與Espace Killy躋身全球最大型的纜車相連滑雪區域之列,足以讓你滑足一星期而不用重複同一雪道。無論程度高低,由初階綠道到Chamonix的雪溝地形,總有一個法國阿爾卑斯山度假村專為你而設。"
     },
     "faq": [
       {
@@ -309,7 +339,8 @@
           "pt": "Que estância dos Alpes franceses tem a neve mais fiável?",
           "it": "Quale località delle Alpi francesi ha la neve più affidabile?",
           "nl": "Welk skigebied in de Franse Alpen heeft de meest betrouwbare sneeuw?",
-          "ja": "フランスアルプスで最も雪が安定しているスキー場はどこですか。"
+          "ja": "フランスアルプスで最も雪が安定しているスキー場はどこですか。",
+          "zh-hk": "法國阿爾卑斯山哪個度假村的積雪最穩定可靠?"
         },
         "a": {
           "en": "The high Tarentaise resorts, Val Thorens, Tignes and Val d'Isere, sit above 1800 m and hold snow from late November into May, several with glacier skiing on top.",
@@ -318,7 +349,8 @@
           "pt": "As estâncias da alta Tarentaise, Val Thorens, Tignes e Val d'Isère, ultrapassam os 1800 m e mantêm a neve de finais de novembro a maio, várias com esqui em glaciar.",
           "it": "Le località dell'alta Tarentaise, Val Thorens, Tignes e Val d'Isère, superano i 1800 m e mantengono la neve da fine novembre a maggio, diverse con sci sul ghiacciaio.",
           "nl": "De hooggelegen skigebieden van de Tarentaise, Val Thorens, Tignes en Val d'Isère, liggen boven de 1800 m en houden de sneeuw vast van eind november tot mei, met bij verschillende ook nog gletsjerskiën erbovenop.",
-          "ja": "Tarentaiseの標高が高いスキー場であるVal Thorens、Tignes、Val d'Isereは標高1800メートルを超える場所にあり、11月下旬から5月まで雪を保ちます。氷河スキーができる場所もあります。"
+          "ja": "Tarentaiseの標高が高いスキー場であるVal Thorens、Tignes、Val d'Isereは標高1800メートルを超える場所にあり、11月下旬から5月まで雪を保ちます。氷河スキーができる場所もあります。",
+          "zh-hk": "Tarentaise山谷內海拔較高的度假村,包括Val Thorens、Tignes與Val d'Isere,座落於1800米以上,積雪由十一月底一直維持至五月,當中數個更設有冰川滑雪。"
         }
       },
       {
@@ -329,7 +361,8 @@
           "pt": "Qual é o maior domínio esquiável dos Alpes franceses?",
           "it": "Qual è il comprensorio più grande delle Alpi francesi?",
           "nl": "Wat is het grootste skigebied van de Franse Alpen?",
-          "ja": "フランスアルプスで最大のスキーエリアはどこですか。"
+          "ja": "フランスアルプスで最大のスキーエリアはどこですか。",
+          "zh-hk": "法國阿爾卑斯山最大的滑雪區域是什麼?"
         },
         "a": {
           "en": "The Three Valleys, linking Val Thorens, Meribel, Courchevel, Les Menuires and Orelle, is the largest lift-linked ski area in the world, followed by Paradiski (Les Arcs and La Plagne).",
@@ -338,7 +371,8 @@
           "pt": "Os Três Vales, que ligam Val Thorens, Méribel, Courchevel, Les Menuires e Orelle, formam o maior domínio ligado do mundo, à frente de Paradiski (Les Arcs e La Plagne).",
           "it": "Le Tre Valli, che collegano Val Thorens, Méribel, Courchevel, Les Menuires e Orelle, formano il comprensorio collegato più grande al mondo, davanti a Paradiski (Les Arcs e La Plagne).",
           "nl": "De Drie Valleien (Les Trois Vallées), die Val Thorens, Méribel, Courchevel, Les Menuires en Orelle met elkaar verbinden, vormen het grootste aaneengesloten skigebied ter wereld, gevolgd door Paradiski (Les Arcs en La Plagne).",
-          "ja": "Val Thorens、Meribel、Courchevel、Les Menuires、Orelleを結ぶThree Valleysは、世界最大のリフト連結スキーエリアであり、次いでParadiski（Les ArcsとLa Plagne）が続きます。"
+          "ja": "Val Thorens、Meribel、Courchevel、Les Menuires、Orelleを結ぶThree Valleysは、世界最大のリフト連結スキーエリアであり、次いでParadiski（Les ArcsとLa Plagne）が続きます。",
+          "zh-hk": "Three Valleys連接Val Thorens、Meribel、Courchevel、Les Menuires與Orelle,是全球最大型的纜車相連滑雪區域,其次為Paradiski(Les Arcs及La Plagne)。"
         }
       },
       {
@@ -349,7 +383,8 @@
           "pt": "Quando é a época de esqui nos Alpes franceses?",
           "it": "Quando è la stagione sciistica nelle Alpi francesi?",
           "nl": "Wanneer is het skiseizoen in de Franse Alpen?",
-          "ja": "フランスアルプスのスキーシーズンはいつですか。"
+          "ja": "フランスアルプスのスキーシーズンはいつですか。",
+          "zh-hk": "法國阿爾卑斯山的滑雪季節是什麼時候?"
         },
         "a": {
           "en": "Roughly early December to late April, with the high-altitude resorts opening in late November and closing in early May. Christmas and the February half-term are the busiest and priciest weeks.",
@@ -358,7 +393,8 @@
           "pt": "Sensivelmente de início de dezembro a fim de abril, com as estâncias de altitude a abrir no fim de novembro e a fechar no início de maio. O Natal e as férias de fevereiro são as semanas mais cheias e caras.",
           "it": "All'incirca da inizio dicembre a fine aprile, con le località d'alta quota che aprono a fine novembre e chiudono a inizio maggio. Natale e le vacanze di febbraio sono le settimane più affollate e care.",
           "nl": "Ruwweg van begin december tot eind april, waarbij de hooggelegen skigebieden eind november openen en begin mei sluiten. Kerst en de februarivakanties zijn de drukste en duurste weken.",
-          "ja": "おおよそ12月上旬から4月下旬までで、標高の高いスキー場は11月下旬にオープンし、5月上旬にクローズします。クリスマスと2月の学校休暇期間が最も混み合い、料金も高くなる週です。"
+          "ja": "おおよそ12月上旬から4月下旬までで、標高の高いスキー場は11月下旬にオープンし、5月上旬にクローズします。クリスマスと2月の学校休暇期間が最も混み合い、料金も高くなる週です。",
+          "zh-hk": "大致由十二月初至四月底,當中高海拔度假村會於十一月底開放,並延至五月初才休季。聖誕假期及二月期中假期是全年最繁忙、收費亦最高的星期。"
         }
       }
     ]
@@ -371,7 +407,8 @@
       "pt": "Melhores estâncias de esqui dos Pirenéus franceses",
       "it": "Migliori località sciistiche dei Pirenei francesi",
       "nl": "De beste skigebieden in de Franse Pyreneeën",
-      "ja": "フランスピレネーの最高のスキー場"
+      "ja": "フランスピレネーの最高のスキー場",
+      "zh-hk": "法國庇里牛斯山最佳滑雪場"
     },
     "intro": {
       "en": "Wilder, sunnier and far kinder on the wallet than the Alps, the French Pyrenees are France's best-value mountains, with big-sky views over the Spanish border and genuine local character.",
@@ -380,7 +417,8 @@
       "pt": "Mais selvagens, mais soalheiros e muito mais suaves para a carteira do que os Alpes, os Pirenéus franceses são as montanhas de melhor relação qualidade-preço, com grandes horizontes sobre Espanha e autêntico carácter local.",
       "it": "Più selvaggi, più soleggiati e molto più leggeri per il portafoglio delle Alpi, i Pirenei francesi sono le montagne dal miglior rapporto qualità-prezzo, con ampi orizzonti verso la Spagna e autentico carattere locale.",
       "nl": "Wilder, zonniger en veel vriendelijker voor de portemonnee dan de Alpen: de Franse Pyreneeën zijn Frankrijks bergen met de beste prijs-kwaliteitverhouding, met weidse uitzichten over de Spaanse grens en een authentiek lokaal karakter.",
-      "ja": "アルプスよりも野性味があり、日照に恵まれ、財布にもずっと優しいフランスピレネーは、フランスで最もコストパフォーマンスの良い山岳地帯です。スペイン国境を望む雄大な空の景色と、本物の地元らしさが魅力です。"
+      "ja": "アルプスよりも野性味があり、日照に恵まれ、財布にもずっと優しいフランスピレネーは、フランスで最もコストパフォーマンスの良い山岳地帯です。スペイン国境を望む雄大な空の景色と、本物の地元らしさが魅力です。",
+      "zh-hk": "比阿爾卑斯山更原始、陽光更充沛,對荷包亦更友善,法國庇里牛斯山堪稱法國最超值的山區,坐擁跨越西班牙邊境的開闊天際線,以及地道的當地風情。"
     },
     "body": {
       "en": "Running along the Spanish frontier from the Atlantic to the Mediterranean, the French Pyrenees are the country's friendliest ski country. Saint-Lary, Grand Tourmalet (Bareges and La Mongie), Peyragudes, Cauterets and Piau-Engaly lead on size and snow, while Font-Romeu and Les Angles bring Catalan sunshine to the eastern end.\n\nWhat you give up in sheer scale you get back in value and atmosphere. Lift passes and lodging cost a fraction of the Tarentaise, the crowds are thinner, and many resorts pair skiing with thermal spas (Cauterets, Saint-Lary, Bareges) for tired legs. Piau-Engaly and Grand Tourmalet top out high enough for dependable snow.\n\nIt is a family stronghold too: gentle nursery areas, ski schools used to teaching in the sun, and villages where the apres is a plate of garbure rather than a nightclub. For a first ski trip or a budget-savvy week, the Pyrenees are hard to beat.",
@@ -389,7 +427,8 @@
       "pt": "Ao longo da fronteira espanhola, do Atlântico ao Mediterrâneo, os Pirenéus franceses são a montanha mais acolhedora do país. Saint-Lary, Grand Tourmalet (Barèges e La Mongie), Peyragudes, Cauterets e Piau-Engaly lideram em tamanho e neve, enquanto Font-Romeu e Les Angles trazem o sol catalão a leste.\n\nO que se perde em dimensão recupera-se em preço e ambiente. Os passes e o alojamento custam uma fração da Tarentaise, há menos gente, e muitas estâncias juntam o esqui a termas (Cauterets, Saint-Lary, Barèges) para as pernas cansadas. Piau-Engaly e Grand Tourmalet sobem o suficiente para uma neve fiável.\n\nÉ também um reduto de família: zonas de iniciação suaves, escolas de esqui habituadas a ensinar ao sol e aldeias onde o apres é um prato de garbure e não uma discoteca. Para uma primeira viagem ou uma semana esperta no orçamento, os Pirenéus são difíceis de bater.",
       "it": "Lungo il confine spagnolo, dall'Atlantico al Mediterraneo, i Pirenei francesi sono la montagna più accogliente del paese. Saint-Lary, Grand Tourmalet (Barèges e La Mongie), Peyragudes, Cauterets e Piau-Engaly guidano per dimensioni e neve, mentre Font-Romeu e Les Angles portano il sole catalano a est.\n\nQuello che si perde in scala si recupera in prezzo e atmosfera. Skipass e alloggio costano una frazione della Tarentaise, c'è meno folla e molte località abbinano lo sci alle terme (Cauterets, Saint-Lary, Barèges) per le gambe stanche. Piau-Engaly e Grand Tourmalet salgono abbastanza da garantire neve affidabile.\n\nÈ anche una roccaforte per famiglie: campi scuola dolci, maestri abituati a insegnare al sole e paesi dove l'apres è un piatto di garbure e non una discoteca. Per un primo viaggio o una settimana attenta al budget, i Pirenei sono difficili da battere.",
       "nl": "Van de Atlantische Oceaan tot de Middellandse Zee volgen de Franse Pyreneeën de Spaanse grens: het gastvrijste skiland van Frankrijk. Saint-Lary, Grand Tourmalet (Barèges en La Mongie), Peyragudes, Cauterets en Piau-Engaly voeren de boventoon in omvang en sneeuw, terwijl Font-Romeu en Les Angles Catalaanse zon brengen aan het oostelijke uiteinde.\n\nWat je inlevert aan schaal, krijg je terug in prijs en sfeer. Skipassen en accommodatie kosten een fractie van wat je in de Tarentaise betaalt, het is minder druk, en veel skigebieden combineren skiën met thermale spa's (Cauterets, Saint-Lary, Barèges) voor moe geskide benen. Piau-Engaly en Grand Tourmalet liggen hoog genoeg voor betrouwbare sneeuw.\n\nHet is ook een bolwerk voor gezinnen: rustige oefenterreinen, skischolen die gewend zijn les te geven in de zon, en dorpen waar de apres-ski bestaat uit een bord garbure in plaats van een nachtclub. Voor een eerste skivakantie of een week met een goed oog voor het budget zijn de Pyreneeën moeilijk te verslaan.",
-      "ja": "大西洋から地中海まで、スペイン国境沿いに連なるフランスピレネーは、フランスで最もフレンドリーなスキーカントリーです。Saint-Lary、Grand Tourmalet（BaregesとLa Mongie）、Peyragudes、CauteretsとPiau-Engalyが規模と積雪の面で先頭を走り、Font-RomeuとLes Anglesは東端にカタルーニャらしい日差しをもたらします。\n\n規模の大きさで譲る分は、コストパフォーマンスと雰囲気で取り戻せます。リフト券と宿泊費はTarentaiseのほんの一部で済み、混雑も少なく、多くのスキー場では疲れた脚のためにスキーと温泉（Cauterets、Saint-Lary、Bareges）が組み合わされています。Piau-EngalyとGrand Tourmaletは、安定した積雪を確保できるだけの標高があります。\n\nファミリー層にも強い地域です。緩やかなキッズ向けエリア、日差しの中での指導に慣れたスキースクール、そしてアプレスキーがナイトクラブではなくガルビュールの一皿である村々。初めてのスキー旅行や予算を抑えた一週間を求めるなら、ピレネーに勝る場所はなかなかありません。"
+      "ja": "大西洋から地中海まで、スペイン国境沿いに連なるフランスピレネーは、フランスで最もフレンドリーなスキーカントリーです。Saint-Lary、Grand Tourmalet（BaregesとLa Mongie）、Peyragudes、CauteretsとPiau-Engalyが規模と積雪の面で先頭を走り、Font-RomeuとLes Anglesは東端にカタルーニャらしい日差しをもたらします。\n\n規模の大きさで譲る分は、コストパフォーマンスと雰囲気で取り戻せます。リフト券と宿泊費はTarentaiseのほんの一部で済み、混雑も少なく、多くのスキー場では疲れた脚のためにスキーと温泉（Cauterets、Saint-Lary、Bareges）が組み合わされています。Piau-EngalyとGrand Tourmaletは、安定した積雪を確保できるだけの標高があります。\n\nファミリー層にも強い地域です。緩やかなキッズ向けエリア、日差しの中での指導に慣れたスキースクール、そしてアプレスキーがナイトクラブではなくガルビュールの一皿である村々。初めてのスキー旅行や予算を抑えた一週間を求めるなら、ピレネーに勝る場所はなかなかありません。",
+      "zh-hk": "法國庇里牛斯山沿西班牙邊境延伸,由大西洋直到地中海,是全法國最平易近人的滑雪之鄉。Saint-Lary、Grand Tourmalet(Bareges及La Mongie)、Peyragudes、Cauterets與Piau-Engaly在規模及積雪方面領先,而Font-Romeu與Les Angles則為東端帶來加泰隆尼亞式的燦爛陽光。\n\n規模上的犧牲,換來的是超值與氣氛的回報。纜車證及住宿費用僅為Tarentaise的一小部分,人潮亦較稀疏,加上多個度假村將滑雪與溫泉水療(Cauterets、Saint-Lary、Bareges)結合,正好舒緩疲累雙腿。Piau-Engaly與Grand Tourmalet海拔亦足夠高,積雪穩定可靠。\n\n這裡同時是家庭旅遊的大本營:平緩的初學者雪道、慣於在陽光下教學的滑雪學校,以及滑雪後活動只是一碗garbure濃湯而非夜店的純樸小鎮。無論是首次滑雪之旅,還是精打細算的一週假期,庇里牛斯山都難以被超越。"
     },
     "faq": [
       {
@@ -400,7 +439,8 @@
           "pt": "Os Pirenéus franceses são mais baratos do que os Alpes?",
           "it": "I Pirenei francesi costano meno delle Alpi?",
           "nl": "Zijn de Franse Pyreneeën goedkoper dan de Alpen?",
-          "ja": "フランスピレネーはアルプスより安いですか。"
+          "ja": "フランスピレネーはアルプスより安いですか。",
+          "zh-hk": "法國庇里牛斯山是否比阿爾卑斯山便宜?"
         },
         "a": {
           "en": "Yes, noticeably. Lift passes, lessons and accommodation usually cost far less than in the Tarentaise, which makes the Pyrenees France's top choice for value and family ski trips.",
@@ -409,7 +449,8 @@
           "pt": "Sim, claramente. Passes, aulas e alojamento costumam custar muito menos do que na Tarentaise, o que faz dos Pirenéus a primeira escolha francesa para uma viagem económica ou em família.",
           "it": "Sì, nettamente. Skipass, lezioni e alloggio costano di solito molto meno che in Tarentaise, il che rende i Pirenei la prima scelta francese per un viaggio conveniente o in famiglia.",
           "nl": "Ja, merkbaar. Skipassen, lessen en accommodatie kosten meestal een stuk minder dan in de Tarentaise, waardoor de Pyreneeën in Frankrijk de eerste keuze zijn voor een voordelige of gezinsvriendelijke skivakantie.",
-          "ja": "はい、はっきりと安くなります。リフト券、レッスン、宿泊費はTarentaiseに比べて通常かなり抑えられており、そのためピレネーはコストパフォーマンスとファミリー向けスキー旅行においてフランス随一の選択肢となっています。"
+          "ja": "はい、はっきりと安くなります。リフト券、レッスン、宿泊費はTarentaiseに比べて通常かなり抑えられており、そのためピレネーはコストパフォーマンスとファミリー向けスキー旅行においてフランス随一の選択肢となっています。",
+          "zh-hk": "是,而且差距明顯。纜車證、課程及住宿費用通常遠低於Tarentaise,令庇里牛斯山成為法國超值及家庭滑雪之旅的首選。"
         }
       },
       {
@@ -420,7 +461,8 @@
           "pt": "Qual é a maior estância dos Pirenéus franceses?",
           "it": "Qual è la località più grande dei Pirenei francesi?",
           "nl": "Wat is het grootste skigebied in de Franse Pyreneeën?",
-          "ja": "フランスピレネーで最大のスキー場はどこですか。"
+          "ja": "フランスピレネーで最大のスキー場はどこですか。",
+          "zh-hk": "法國庇里牛斯山最大的度假村是哪個?"
         },
         "a": {
           "en": "Grand Tourmalet (Bareges and La Mongie) and Saint-Lary are the largest, each with more than 60 km of pistes, followed by Peyragudes and Piau-Engaly.",
@@ -429,7 +471,8 @@
           "pt": "Grand Tourmalet (Barèges e La Mongie) e Saint-Lary são as maiores, cada uma com mais de 60 km de pistas, seguidas de Peyragudes e Piau-Engaly.",
           "it": "Grand Tourmalet (Barèges e La Mongie) e Saint-Lary sono le più grandi, ciascuna con oltre 60 km di piste, seguite da Peyragudes e Piau-Engaly.",
           "nl": "Grand Tourmalet (Barèges en La Mongie) en Saint-Lary zijn de grootste, elk met meer dan 60 km piste, gevolgd door Peyragudes en Piau-Engaly.",
-          "ja": "Grand Tourmalet（BaregesとLa Mongie）とSaint-Laryが最大で、それぞれ60キロメートルを超えるピステを有し、次いでPeyragudesとPiau-Engalyが続きます。"
+          "ja": "Grand Tourmalet（BaregesとLa Mongie）とSaint-Laryが最大で、それぞれ60キロメートルを超えるピステを有し、次いでPeyragudesとPiau-Engalyが続きます。",
+          "zh-hk": "Grand Tourmalet(Bareges及La Mongie)與Saint-Lary規模最大,雪道均超過60公里,其次為Peyragudes及Piau-Engaly。"
         }
       },
       {
@@ -440,7 +483,8 @@
           "pt": "As estâncias pirenaicas têm boa neve?",
           "it": "Le località dei Pirenei hanno buona neve?",
           "nl": "Hebben skigebieden in de Pyreneeën goede sneeuw?",
-          "ja": "ピレネーのスキー場の積雪状況は良いですか。"
+          "ja": "ピレネーのスキー場の積雪状況は良いですか。",
+          "zh-hk": "庇里牛斯山的度假村積雪情況良好嗎?"
         },
         "a": {
           "en": "The higher resorts, Piau-Engaly, Grand Tourmalet, Peyragudes and Cauterets, hold snow well thanks to altitude and snowmaking, though the range is sunnier and a touch lower than the high Alps.",
@@ -449,7 +493,8 @@
           "pt": "As estâncias mais altas, Piau-Engaly, Grand Tourmalet, Peyragudes e Cauterets, mantêm bem a neve graças à altitude e à neve produzida, embora a cordilheira seja mais soalheira e um pouco mais baixa do que os altos Alpes.",
           "it": "Le località più alte, Piau-Engaly, Grand Tourmalet, Peyragudes e Cauterets, tengono bene la neve grazie alla quota e all'innevamento programmato, anche se la catena è più soleggiata e un po' più bassa delle Alpi alte.",
           "nl": "De hogergelegen skigebieden, Piau-Engaly, Grand Tourmalet, Peyragudes en Cauterets, houden de sneeuw goed vast dankzij de hoogte en sneeuwkanonnen, al is het gebergte zonniger en iets lager dan de hoge Alpen.",
-          "ja": "Piau-Engaly、Grand Tourmalet、Peyragudes、Cauteretsといった標高の高いスキー場は、標高と人工降雪のおかげで雪をよく保っています。ただし、この山脈は高地アルプスに比べて日照が多く、標高もやや低めです。"
+          "ja": "Piau-Engaly、Grand Tourmalet、Peyragudes、Cauteretsといった標高の高いスキー場は、標高と人工降雪のおかげで雪をよく保っています。ただし、この山脈は高地アルプスに比べて日照が多く、標高もやや低めです。",
+          "zh-hk": "海拔較高的度假村,包括Piau-Engaly、Grand Tourmalet、Peyragudes與Cauterets,憑藉海拔優勢及人工造雪保持良好積雪,不過整個山區日照較多,海拔亦略低於阿爾卑斯山高處。"
         }
       }
     ]
@@ -462,7 +507,8 @@
       "pt": "Estâncias de esqui com melhor relação qualidade-preço de França",
       "it": "Località sciistiche col miglior rapporto qualità-prezzo in Francia",
       "nl": "Skigebieden in Frankrijk met de beste prijs-kwaliteitverhouding",
-      "ja": "フランスで最もコストパフォーマンスの良いスキー場"
+      "ja": "フランスで最もコストパフォーマンスの良いスキー場",
+      "zh-hk": "法國最超值滑雪場"
     },
     "intro": {
       "en": "You do not need a Courchevel budget to ski France well. These resorts deliver big terrain, real snow and slope-side lodging for a fraction of the marquee-name price.",
@@ -471,7 +517,8 @@
       "pt": "Não é preciso um orçamento de Courchevel para esquiar bem em França. Estas estâncias oferecem grandes domínios, neve a sério e alojamento à beira das pistas por uma fração do preço dos nomes famosos.",
       "it": "Non serve un budget da Courchevel per sciare bene in Francia. Queste località offrono grandi comprensori, neve vera e alloggio sulle piste a una frazione del prezzo dei nomi blasonati.",
       "nl": "Je hebt geen Courchevel-budget nodig om goed te skiën in Frankrijk. Deze skigebieden bieden veel terrein, echte sneeuw en accommodatie aan de piste voor een fractie van de prijs van de grote namen.",
-      "ja": "フランスで満足のいくスキーをするのに、Courchevel並みの予算は必要ありません。ここで紹介するスキー場は、有名リゾートの一部の価格で、広大なゲレンデ、本物の積雪、ゲレンデ脇の宿泊施設を提供してくれます。"
+      "ja": "フランスで満足のいくスキーをするのに、Courchevel並みの予算は必要ありません。ここで紹介するスキー場は、有名リゾートの一部の価格で、広大なゲレンデ、本物の積雪、ゲレンデ脇の宿泊施設を提供してくれます。",
+      "zh-hk": "想暢遊法國滑雪場,並不一定需要Courchevel級數的預算。這些度假村以名牌度假村一小部分的價錢,提供廣闊地形、真材實料的積雪,以及雪道旁住宿。"
     },
     "body": {
       "en": "France's best value hides in plain sight, often one lift from a famous name. Les Menuires and Orelle open the door to the Three Valleys at a fraction of Courchevel's prices; Valmorel, Valmeinier, La Norma and Saint-Francois-Longchamp give you proper Savoie skiing without the resort-town markup; and Les Sybelles is one of the biggest linked areas in the Alps that almost nobody talks about.\n\nValue here does not mean small. Many are purpose-built at altitude, so the snow is reliable and you walk to the lifts, and their apartments and family passes are priced for real budgets. Over in the Pyrenees, Luz-Ardiden and the local hills come cheaper still.\n\nThe trick is to trade a prestigious postcode for the same mountain. Base yourself in Les Menuires and you ski the identical Three Valleys pistes as Courchevel guests; pick Orelle and you are on the Val Thorens side by mid-morning. Same snow, smaller bill.",
@@ -480,7 +527,8 @@
       "pt": "A melhor relação qualidade-preço de França esconde-se à vista, muitas vezes a um teleférico de um nome famoso. Les Menuires e Orelle abrem os Três Vales por uma fração dos preços de Courchevel; Valmorel, Valmeinier, La Norma e Saint-François-Longchamp oferecem verdadeiro esqui da Saboia sem o agravamento das estâncias-montra; e Les Sybelles é um dos maiores domínios ligados dos Alpes de que quase ninguém fala.\n\nBarato não quer dizer pequeno. Muitas são estâncias de altitude construídas à beira das pistas: a neve é fiável, chega-se aos teleféricos a pé, e os apartamentos e passes de família têm preços para orçamentos reais. Nos Pirenéus, Luz-Ardiden e as estâncias locais saem ainda mais baratas.\n\nO truque é trocar uma morada prestigiada pela mesma montanha. Fique em Les Menuires e esquia as mesmas pistas dos Três Vales que os clientes de Courchevel; escolha Orelle e está do lado de Val Thorens a meio da manhã. A mesma neve, uma conta mais leve.",
       "it": "Il miglior rapporto qualità-prezzo francese si nasconde in piena vista, spesso a un impianto da un nome famoso. Les Menuires e Orelle aprono le Tre Valli a una frazione dei prezzi di Courchevel; Valmorel, Valmeinier, La Norma e Saint-François-Longchamp offrono vero sci della Savoia senza il sovrapprezzo delle località vetrina; e Les Sybelles è uno dei comprensori collegati più grandi delle Alpi di cui quasi nessuno parla.\n\nConveniente non vuol dire piccolo. Molte sono località d'alta quota costruite sulle piste: la neve è affidabile, si raggiungono gli impianti a piedi, e gli appartamenti e gli skipass famiglia hanno prezzi per budget reali. Sui Pirenei, Luz-Ardiden e le stazioni locali costano ancora meno.\n\nIl trucco è scambiare un indirizzo prestigioso con la stessa montagna. Alloggia a Les Menuires e sci sulle stesse piste delle Tre Valli dei clienti di Courchevel; scegli Orelle e sei sul versante di Val Thorens a metà mattina. Stessa neve, conto più leggero.",
       "nl": "Frankrijks beste prijs-kwaliteitverhouding ligt voor het oprapen, vaak maar een lift verwijderd van een beroemde naam. Les Menuires en Orelle openen de deur naar de Drie Valleien voor een fractie van de prijzen van Courchevel; Valmorel, Valmeinier, La Norma en Saint-François-Longchamp geven je echt Savoyaards skiën zonder de meerprijs van de grote namen; en Les Sybelles is een van de grootste aaneengesloten skigebieden van de Alpen waar bijna niemand het over heeft.\n\nVoordelig betekent hier niet klein. Veel zijn speciaal op hoogte gebouwde skidorpen, dus de sneeuw is betrouwbaar en je loopt zo naar de liften, en de appartementen en gezinsskipassen zijn geprijsd voor een realistisch budget. Verderop in de Pyreneeën zijn Luz-Ardiden en de lokale skigebiedjes nog goedkoper.\n\nDe truc is een prestigieuze postcode inruilen voor dezelfde berg. Verblijf in Les Menuires en je skiet op precies dezelfde pistes van de Drie Valleien als de gasten van Courchevel; kies Orelle en je staat tegen het einde van de ochtend al aan de kant van Val Thorens. Dezelfde sneeuw, een lagere rekening.",
-      "ja": "フランスで最もお得なスキー場は、実は目の前に隠れています。有名な名前からリフト1本というケースも少なくありません。Les MenuiresとOrelleは、Courchevelのほんの一部の価格でThree Valleysへの扉を開いてくれますし、Valmorel、Valmeinier、La Norma、Saint-Francois-Longchampは、リゾートタウンの割増料金なしに本格的なSavoieのスキーを味わわせてくれます。そしてLes Sybellesは、ほとんど話題にのぼることのない、アルプス最大級の連結エリアの一つです。\n\nここで言うお得さは、規模の小ささを意味しません。多くは標高の高い場所に計画的に建設されており、雪は安定していて、リフトまで歩いて行けます。アパートメントやファミリーパスの価格も、現実的な予算に合わせて設定されています。ピレネー側でも、Luz-Ardidenと地元の丘陵地帯はさらに割安です。\n\nコツは、名高い住所と同じ山を交換することです。Les Menuiresを拠点にすれば、Courchevelの宿泊客とまったく同じThree Valleysのピステを滑ることができますし、Orelleを選べば午前中のうちにVal Thorens側に到着します。雪は同じ、請求額はより小さくなります。"
+      "ja": "フランスで最もお得なスキー場は、実は目の前に隠れています。有名な名前からリフト1本というケースも少なくありません。Les MenuiresとOrelleは、Courchevelのほんの一部の価格でThree Valleysへの扉を開いてくれますし、Valmorel、Valmeinier、La Norma、Saint-Francois-Longchampは、リゾートタウンの割増料金なしに本格的なSavoieのスキーを味わわせてくれます。そしてLes Sybellesは、ほとんど話題にのぼることのない、アルプス最大級の連結エリアの一つです。\n\nここで言うお得さは、規模の小ささを意味しません。多くは標高の高い場所に計画的に建設されており、雪は安定していて、リフトまで歩いて行けます。アパートメントやファミリーパスの価格も、現実的な予算に合わせて設定されています。ピレネー側でも、Luz-Ardidenと地元の丘陵地帯はさらに割安です。\n\nコツは、名高い住所と同じ山を交換することです。Les Menuiresを拠点にすれば、Courchevelの宿泊客とまったく同じThree Valleysのピステを滑ることができますし、Orelleを選べば午前中のうちにVal Thorens側に到着します。雪は同じ、請求額はより小さくなります。",
+      "zh-hk": "法國最超值之選往往近在眼前,通常只距離著名度假村一程纜車之遙。Les Menuires與Orelle以Courchevel一小部分的價錢,同樣可通往Three Valleys;Valmorel、Valmeinier、La Norma與Saint-Francois-Longchamp讓你體驗正宗Savoie滑雪,卻毋須負擔度假市鎮的溢價;而Les Sybelles則是阿爾卑斯山其中一個最大型的相連滑雪區域,卻鮮少為人談論。\n\n這裡的超值並不代表規模細小。當中不少度假村是專為高海拔而建,積雪因而穩定可靠,而且步行即達纜車站,其公寓及家庭證亦以真實預算定價。至於庇里牛斯山一帶,Luz-Ardiden及當地山區收費更加相宜。\n\n箇中訣竅,在於以同一座山換取一個較低調的地址。以Les Menuires為據點,你所滑的正是與Courchevel住客相同的Three Valleys雪道;選擇Orelle,你在上午半段前已可抵達Val Thorens一側。積雪相同,帳單卻更輕鬆。"
     },
     "faq": [
       {
@@ -491,7 +539,8 @@
           "pt": "Qual é a estância de esqui com melhor relação qualidade-preço de França?",
           "it": "Qual è la località sciistica col miglior rapporto qualità-prezzo in Francia?",
           "nl": "Wat is het skigebied met de beste prijs-kwaliteitverhouding in Frankrijk?",
-          "ja": "フランスで最もコストパフォーマンスの良いスキー場はどこですか。"
+          "ja": "フランスで最もコストパフォーマンスの良いスキー場はどこですか。",
+          "zh-hk": "法國哪個滑雪場最超值?"
         },
         "a": {
           "en": "Les Menuires and Orelle are the classic picks: both give full access to the Three Valleys, the world's largest ski area, at a fraction of the price of Courchevel or Meribel.",
@@ -500,7 +549,8 @@
           "pt": "Les Menuires e Orelle são as apostas clássicas: ambas dão acesso completo aos Três Vales, o maior domínio do mundo, por uma fração do preço de Courchevel ou Méribel.",
           "it": "Les Menuires e Orelle sono le scelte classiche: entrambe danno accesso completo alle Tre Valli, il comprensorio più grande al mondo, a una frazione del prezzo di Courchevel o Méribel.",
           "nl": "Les Menuires en Orelle zijn de klassieke keuzes: beide geven volledige toegang tot de Drie Valleien, het grootste skigebied ter wereld, voor een fractie van de prijs van Courchevel of Méribel.",
-          "ja": "Les MenuiresとOrelleが定番の選択肢です。どちらも世界最大のスキーエリアであるThree Valleysに、CourchevelやMeribelのほんの一部の価格で完全にアクセスできます。"
+          "ja": "Les MenuiresとOrelleが定番の選択肢です。どちらも世界最大のスキーエリアであるThree Valleysに、CourchevelやMeribelのほんの一部の価格で完全にアクセスできます。",
+          "zh-hk": "Les Menuires與Orelle是經典之選:兩者均可全面暢遊全球最大滑雪區域Three Valleys,價錢卻只是Courchevel或Meribel的一小部分。"
         }
       },
       {
@@ -511,7 +561,8 @@
           "pt": "Como esquiar em França com pouco orçamento?",
           "it": "Come sciare in Francia con un budget ridotto?",
           "nl": "Hoe kan ik met een beperkt budget skiën in Frankrijk?",
-          "ja": "予算を抑えてフランスでスキーをするにはどうすればよいですか。"
+          "ja": "予算を抑えてフランスでスキーをするにはどうすればよいですか。",
+          "zh-hk": "如何以有限預算暢遊法國滑雪?"
         },
         "a": {
           "en": "Base yourself in a purpose-built or satellite resort (Les Menuires, Orelle, Valmorel, Les Sybelles), book an apartment with a kitchen, travel outside the Christmas and February peaks, and buy area passes rather than daily tickets.",
@@ -520,7 +571,8 @@
           "pt": "Fique numa estância de altitude ou satélite (Les Menuires, Orelle, Valmorel, Les Sybelles), reserve um apartamento com cozinha, viaje fora dos picos do Natal e de fevereiro, e compre passes de domínio em vez de bilhetes diários.",
           "it": "Alloggia in una località d'alta quota o satellite (Les Menuires, Orelle, Valmorel, Les Sybelles), prenota un appartamento con cucina, viaggia fuori dai picchi di Natale e febbraio, e compra skipass di comprensorio invece dei giornalieri.",
           "nl": "Verblijf in een speciaal gebouwd skidorp of satellietplaats (Les Menuires, Orelle, Valmorel, Les Sybelles), boek een appartement met keuken, reis buiten de piekperiodes rond kerst en februari, en koop skipassen voor het hele gebied in plaats van dagkaarten.",
-          "ja": "計画的に建設されたスキー場やサテライトリゾート（Les Menuires、Orelle、Valmorel、Les Sybelles）を拠点にし、キッチン付きのアパートメントを予約し、クリスマスや2月の繁忙期を避けて旅行し、1日券ではなくエリアパスを購入しましょう。"
+          "ja": "計画的に建設されたスキー場やサテライトリゾート（Les Menuires、Orelle、Valmorel、Les Sybelles）を拠点にし、キッチン付きのアパートメントを予約し、クリスマスや2月の繁忙期を避けて旅行し、1日券ではなくエリアパスを購入しましょう。",
+          "zh-hk": "選擇入住專為滑雪而建或衛星度假村(如Les Menuires、Orelle、Valmorel、Les Sybelles),預訂設有廚房的公寓,避開聖誕及二月旺季出行,並購買區域纜車證而非單日票。"
         }
       },
       {
@@ -531,7 +583,8 @@
           "pt": "As estâncias francesas económicas servem para principiantes?",
           "it": "Le località francesi economiche vanno bene per i principianti?",
           "nl": "Zijn goedkopere Franse skigebieden nog steeds goed voor beginners?",
-          "ja": "手頃な価格のフランスのスキー場でも初心者に向いていますか。"
+          "ja": "手頃な価格のフランスのスキー場でも初心者に向いていますか。",
+          "zh-hk": "較便宜的法國度假村依然適合初學者嗎?"
         },
         "a": {
           "en": "Very much so. Value resorts like Valmorel, Les Menuires and the Pyrenean hills have wide, gentle nursery slopes and affordable ski schools, which makes them ideal for first-timers and families.",
@@ -540,7 +593,8 @@
           "pt": "Claro que sim. Estâncias como Valmorel, Les Menuires e as pequenas dos Pirenéus têm amplas zonas de iniciação suaves e escolas de esqui acessíveis, ideais para principiantes e famílias.",
           "it": "Assolutamente. Località come Valmorel, Les Menuires e le piccole dei Pirenei hanno ampi campi scuola dolci e scuole di sci accessibili, ideali per chi inizia e per le famiglie.",
           "nl": "Absoluut. Voordelige skigebieden als Valmorel, Les Menuires en de skiplaatsen in de Pyreneeën hebben brede, glooiende oefenpistes en betaalbare skischolen, waardoor ze ideaal zijn voor beginners en gezinnen.",
-          "ja": "十分に向いています。Valmorel、Les Menuires、ピレネーの丘陵地帯のようなコストパフォーマンスの良いスキー場には、広く緩やかな初心者向けゲレンデと手頃な価格のスキースクールがあり、初めての方やファミリーに最適です。"
+          "ja": "十分に向いています。Valmorel、Les Menuires、ピレネーの丘陵地帯のようなコストパフォーマンスの良いスキー場には、広く緩やかな初心者向けゲレンデと手頃な価格のスキースクールがあり、初めての方やファミリーに最適です。",
+          "zh-hk": "絕對適合。Valmorel、Les Menuires及庇里牛斯山一帶等超值度假村,均設有寬闊平緩的初學者雪道,以及收費相宜的滑雪學校,非常適合初學者及家庭。"
         }
       }
     ]
@@ -553,7 +607,8 @@
       "pt": "Melhores estâncias de esqui dos Pirenéus espanhóis",
       "it": "Migliori località sciistiche dei Pirenei spagnoli",
       "nl": "De beste skigebieden in de Spaanse Pyreneeën",
-      "ja": "スペイン・ピレネーの最高のスキーリゾート"
+      "ja": "スペイン・ピレネーの最高のスキーリゾート",
+      "zh-hk": "西班牙庇里牛斯山脈最佳滑雪場"
     },
     "intro": {
       "en": "Spain's mountains deliver more than most expect: high, snow-sure terrain, long sunny days and prices well below the Alps. From royal Baqueira to the buzzing Aragon valleys, here is where to ski in the Spanish Pyrenees.",
@@ -562,7 +617,8 @@
       "pt": "As montanhas de Espanha dão mais do que muitos esperam: cotas altas, neve fiável, dias longos e soalheiros e preços bem abaixo dos Alpes. Da exclusiva Baqueira aos animados vales aragoneses, eis onde esquiar nos Pirenéus espanhóis.",
       "it": "Le montagne spagnole offrono più di quanto molti si aspettino: quote alte, neve affidabile, giornate lunghe e soleggiate e prezzi ben sotto le Alpi. Dall'esclusiva Baqueira alle vivaci valli aragonesi, ecco dove sciare nei Pirenei spagnoli.",
       "nl": "De Spaanse bergen bieden meer dan de meesten verwachten: hooggelegen terrein met sneeuwzekerheid, lange zonnige dagen en prijzen die ruim onder die van de Alpen liggen. Van het koninklijke Baqueira tot de bruisende valleien van Aragón: dit is waar je moet skiën in de Spaanse Pyreneeën.",
-      "ja": "スペインの山々は多くの人の予想以上のものを届けてくれる。標高が高く雪の状態が安定した地形、長く続く晴天、そしてアルプスよりずっと手頃な価格。王室御用達のバケイラから活気あふれるアラゴンの谷まで、スペイン・ピレネーでスキーを楽しむならここだ。"
+      "ja": "スペインの山々は多くの人の予想以上のものを届けてくれる。標高が高く雪の状態が安定した地形、長く続く晴天、そしてアルプスよりずっと手頃な価格。王室御用達のバケイラから活気あふれるアラゴンの谷まで、スペイン・ピレネーでスキーを楽しむならここだ。",
+      "zh-hk": "西班牙的山脈，往往超乎預期：地勢高、積雪穩定、日照時間長，而價格亦遠低於阿爾卑斯山。從皇室鍾愛的Baqueira，到熱鬧的阿拉貢山谷，以下為你介紹西班牙庇里牛斯山脈的滑雪好去處。"
     },
     "body": {
       "en": "The Spanish Pyrenees split into two worlds. In Catalonia, Baqueira Beret is the crown, the largest ski area in Spain and the resort where the royal family takes its holidays, all fine dining and Val d'Aran charm. Nearby, La Molina and Masella join up as Alp 2500 in the sunny Cerdanya, while Boí Taüll sits at the highest base in the Pyrenees for the most reliable snow of all.\n\nIn Aragon, the valleys above Huesca are the heartland. Formigal is one of the biggest and liveliest resorts in the country, Cerler climbs highest above the Benasque valley, and the Canfranc pair of Candanchú and Astún deliver classic, no-nonsense skiing right on the French border.\n\nWhat ties them together is value and sunshine. Lift passes, ski school and slope-side apartments cost a fraction of the Alps, the pistes are gentle enough for families and beginners, and the famous Spanish sun means long bluebird days on the snow. Base yourself in a valley town and the lifts are a short drive away.",
@@ -571,7 +627,8 @@
       "pt": "Os Pirenéus espanhóis dividem-se em dois mundos. Na Catalunha, Baqueira Beret é a coroa, a maior estância de Espanha e o lugar onde a família real passa as férias, entre alta gastronomia e o encanto do Vale de Arão. Perto, La Molina e Masella juntam-se como Alp 2500 na soalheira Cerdanha, enquanto Boí Taüll, a cota base mais alta dos Pirenéus, oferece a neve mais fiável.\n\nEm Aragão, os vales acima de Huesca são o coração. Formigal é uma das maiores e mais animadas do país, Cerler sobe mais alto sobre o vale de Benasque, e a dupla de Canfranc, Candanchú e Astún, oferece um esqui clássico e sem artifícios, mesmo junto à fronteira francesa.\n\nO que as une é a relação qualidade-preço e o sol. Passes, escola de esqui e apartamentos à beira das pistas custam uma fração dos Alpes, as pistas são suaves para famílias e principiantes, e o famoso sol espanhol oferece longos dias azuis sobre a neve. Fique numa vila do vale e os teleféricos ficam a poucos minutos.",
       "it": "I Pirenei spagnoli si dividono in due mondi. In Catalogna, Baqueira Beret è la corona, il comprensorio più grande di Spagna e la località dove la famiglia reale trascorre le vacanze, tra alta cucina e fascino della Val d'Aran. Vicino, La Molina e Masella si uniscono come Alp 2500 nella soleggiata Cerdanya, mentre Boí Taüll, la quota base più alta dei Pirenei, offre la neve più affidabile.\n\nIn Aragona, le valli sopra Huesca sono il cuore. Formigal è una delle più grandi e vivaci del paese, Cerler sale più in alto sulla valle di Benasque, e la coppia di Canfranc, Candanchú e Astún, regala uno sci classico e senza fronzoli, proprio sul confine francese.\n\nCiò che le unisce è il rapporto qualità-prezzo e il sole. Skipass, scuola di sci e appartamenti sulle piste costano una frazione delle Alpi, le piste sono dolci per famiglie e principianti, e il famoso sole spagnolo regala lunghe giornate azzurre sulla neve. Alloggia in un paese di valle e gli impianti sono a pochi minuti.",
       "nl": "De Spaanse Pyreneeën vallen uiteen in twee werelden. In Catalonië is Baqueira Beret de kroon: het grootste skigebied van Spanje en de plek waar de koninklijke familie vakantie viert, met verfijnde gastronomie en de charme van de Val d'Aran. Vlakbij vormen La Molina en Masella samen Alp 2500 in de zonnige Cerdanya, terwijl Boí Taüll op de hoogste basis van de Pyreneeën ligt, voor de meest betrouwbare sneeuw van allemaal.\n\nIn Aragón vormen de valleien boven Huesca het hart van de regio. Formigal is een van de grootste en levendigste skigebieden van het land, Cerler klimt het hoogst boven de Benasquevallei, en het Canfranc-duo Candanchú en Astún biedt klassiek, nuchter skiën vlak op de Franse grens.\n\nWat ze verbindt, is prijs en zon. Skipassen, skischool en appartementen aan de piste kosten een fractie van de Alpen, de pistes zijn zacht genoeg voor gezinnen en beginners, en de beroemde Spaanse zon zorgt voor lange stralend blauwe dagen op de sneeuw. Verblijf in een dorp in de vallei en de liften liggen op een korte rit.",
-      "ja": "スペイン・ピレネーは大きく二つの顔を持つ。カタルーニャでは、バケイラ・ベレーがその頂点に立つ。スペイン最大のスキーエリアであり、王室が休暇を過ごすリゾートでもあり、洗練された食事とヴァル・ダランならではの魅力にあふれている。近隣のラ・モリーナとマセーリャは、日当たりのよいセルダーニャ地方で「アルプ2500」として一体化し、ボイ・タウイはピレネーで最も標高の高いベース地点として、誰よりも安定した雪質を誇る。\n\nアラゴンでは、ウエスカより上流の谷々が中心地となる。フォルミガルは同国屈指の規模と活気を誇るリゾートで、セルレールはベナスケ渓谷の上に最も高くそびえ、カンフランクのカンダンチュとアストゥンのペアは、フランス国境のすぐそばで正統派の飾らないスキーを提供する。\n\nこれらすべてに共通するのは、コストパフォーマンスと晴天だ。リフト券、スキースクール、ゲレンデ直結のアパートは、アルプスの数分の一の値段で楽しめる。斜面は家族連れや初心者にもやさしい傾斜で、スペインならではの晴天が、雪上での長く快晴の一日をもたらしてくれる。谷あいの町を拠点にすれば、リフトまでは車ですぐの距離だ。"
+      "ja": "スペイン・ピレネーは大きく二つの顔を持つ。カタルーニャでは、バケイラ・ベレーがその頂点に立つ。スペイン最大のスキーエリアであり、王室が休暇を過ごすリゾートでもあり、洗練された食事とヴァル・ダランならではの魅力にあふれている。近隣のラ・モリーナとマセーリャは、日当たりのよいセルダーニャ地方で「アルプ2500」として一体化し、ボイ・タウイはピレネーで最も標高の高いベース地点として、誰よりも安定した雪質を誇る。\n\nアラゴンでは、ウエスカより上流の谷々が中心地となる。フォルミガルは同国屈指の規模と活気を誇るリゾートで、セルレールはベナスケ渓谷の上に最も高くそびえ、カンフランクのカンダンチュとアストゥンのペアは、フランス国境のすぐそばで正統派の飾らないスキーを提供する。\n\nこれらすべてに共通するのは、コストパフォーマンスと晴天だ。リフト券、スキースクール、ゲレンデ直結のアパートは、アルプスの数分の一の値段で楽しめる。斜面は家族連れや初心者にもやさしい傾斜で、スペインならではの晴天が、雪上での長く快晴の一日をもたらしてくれる。谷あいの町を拠点にすれば、リフトまでは車ですぐの距離だ。",
+      "zh-hk": "西班牙庇里牛斯山脈分成兩個世界。在加泰羅尼亞，Baqueira Beret是皇冠上的明珠，是西班牙最大的滑雪區，亦是皇室度假的滑雪場，坐擁精緻美饌與Val d'Aran的迷人風情。附近的La Molina與Masella合併為陽光充沛的Cerdanya地區內的Alp 2500，而Boí Taüll則位處庇里牛斯山脈海拔最高的山腳，積雪最為穩定可靠。\n\n在阿拉貢，Huesca以上的山谷是滑雪核心地帶。Formigal是全國其中一個最大、最熱鬧的滑雪場，Cerler高踞Benasque山谷之上，而Canfranc山谷的Candanchú與Astún則在法國邊境，提供經典、實而不華的滑雪體驗。\n\n將它們連繫在一起的，是超值與陽光。纜車票、滑雪學校及雪道旁的公寓，價錢只是阿爾卑斯山的一小部分，雪道亦足夠平緩，適合家庭與初學者，而西班牙著名的陽光，意味著雪地上總有連綿的晴朗好天氣。只要落腳於山谷小鎮，驅車片刻即可到達纜車站。"
     },
     "faq": [
       {
@@ -582,7 +639,8 @@
           "pt": "Qual é a melhor estância de esqui dos Pirenéus espanhóis?",
           "it": "Qual è la migliore località sciistica dei Pirenei spagnoli?",
           "nl": "Wat is het beste skigebied in de Spaanse Pyreneeën?",
-          "ja": "スペイン・ピレネーで最高のスキーリゾートはどこ?"
+          "ja": "スペイン・ピレネーで最高のスキーリゾートはどこ?",
+          "zh-hk": "西班牙庇里牛斯山脈中，哪個滑雪場最好？"
         },
         "a": {
           "en": "Baqueira Beret is the biggest and most complete, with the widest terrain and the best dining. For lively value skiing, Formigal in Aragon is the standout.",
@@ -591,7 +649,8 @@
           "pt": "Baqueira Beret é a maior e mais completa, com o maior domínio e a melhor gastronomia. Para um esqui animado e económico, Formigal em Aragão destaca-se.",
           "it": "Baqueira Beret è la più grande e completa, con il comprensorio più ampio e la migliore cucina. Per uno sci vivace ed economico, Formigal in Aragona è il riferimento.",
           "nl": "Baqueira Beret is het grootste en meest complete, met het breedste terrein en de beste gastronomie. Voor een levendige skivakantie met een goede prijs is Formigal in Aragón de uitblinker.",
-          "ja": "バケイラ・ベレーが規模、設備の充実度ともに最大で、最も広いゲレンデと最高のダイニングを誇る。活気があってコストパフォーマンスの良いスキーを求めるなら、アラゴンのフォルミガルが一番だ。"
+          "ja": "バケイラ・ベレーが規模、設備の充実度ともに最大で、最も広いゲレンデと最高のダイニングを誇る。活気があってコストパフォーマンスの良いスキーを求めるなら、アラゴンのフォルミガルが一番だ。",
+          "zh-hk": "Baqueira Beret規模最大、設施最完善，雪道範圍最廣，餐飲亦是首屈一指。若想以超值價錢享受熱鬧的滑雪氣氛，阿拉貢的Formigal最為出色。"
         }
       },
       {
@@ -602,7 +661,8 @@
           "pt": "Esquiar em Espanha é mais barato do que nos Alpes?",
           "it": "Sciare in Spagna costa meno che sulle Alpi?",
           "nl": "Is skiën in Spanje goedkoper dan in de Alpen?",
-          "ja": "スペインのスキーはアルプスより安い?"
+          "ja": "スペインのスキーはアルプスより安い?",
+          "zh-hk": "在西班牙滑雪，是否比阿爾卑斯山便宜？"
         },
         "a": {
           "en": "Generally yes. Lift passes, ski school and slope-side lodging in the Spanish Pyrenees usually cost well below equivalent resorts in France, Switzerland or Austria.",
@@ -611,7 +671,8 @@
           "pt": "Em geral sim. Passes, escola de esqui e alojamento à beira das pistas nos Pirenéus espanhóis costumam custar bastante menos do que em estâncias equivalentes dos Alpes.",
           "it": "In genere sì. Skipass, scuola di sci e alloggio sulle piste nei Pirenei spagnoli costano di solito ben meno rispetto a località equivalenti delle Alpi.",
           "nl": "Over het algemeen wel. Skipassen, skischool en accommodatie aan de piste in de Spaanse Pyreneeën kosten meestal ruim minder dan vergelijkbare skigebieden in Frankrijk, Zwitserland of Oostenrijk.",
-          "ja": "基本的には安い。スペイン・ピレネーのリフト券、スキースクール、ゲレンデ直結の宿泊施設は、フランス、スイス、オーストリアの同等のリゾートより大幅に安いのが一般的だ。"
+          "ja": "基本的には安い。スペイン・ピレネーのリフト券、スキースクール、ゲレンデ直結の宿泊施設は、フランス、スイス、オーストリアの同等のリゾートより大幅に安いのが一般的だ。",
+          "zh-hk": "大致而言是的。西班牙庇里牛斯山脈的纜車票、滑雪學校及雪道旁住宿，價錢通常遠低於法國、瑞士或奧地利同級滑雪場。"
         }
       },
       {
@@ -622,7 +683,8 @@
           "pt": "Quando é a época de esqui nos Pirenéus espanhóis?",
           "it": "Quando è la stagione sciistica nei Pirenei spagnoli?",
           "nl": "Wanneer is het skiseizoen in de Spaanse Pyreneeën?",
-          "ja": "スペイン・ピレネーのスキーシーズンはいつ?"
+          "ja": "スペイン・ピレネーのスキーシーズンはいつ?",
+          "zh-hk": "西班牙庇里牛斯山脈的滑雪季是幾時？"
         },
         "a": {
           "en": "Roughly December to April, with the most reliable snow from January to March. High-base resorts like Boí Taüll hold their season the longest.",
@@ -631,7 +693,8 @@
           "pt": "Sensivelmente de dezembro a abril, com a neve mais fiável de janeiro a março. As estâncias de cota alta como Boí Taüll prolongam mais a época.",
           "it": "All'incirca da dicembre ad aprile, con la neve più affidabile da gennaio a marzo. Le località a quota base alta come Boí Taüll prolungano di più la stagione.",
           "nl": "Ruwweg van december tot april, met de meest betrouwbare sneeuw van januari tot maart. Skigebieden met een hoge basis, zoals Boí Taüll, houden hun seizoen het langst vol.",
-          "ja": "おおよそ12月から4月まで。最も雪の状態が安定するのは1月から3月だ。ボイ・タウイのようにベース標高が高いリゾートはシーズンが最も長く続く。"
+          "ja": "おおよそ12月から4月まで。最も雪の状態が安定するのは1月から3月だ。ボイ・タウイのようにベース標高が高いリゾートはシーズンが最も長く続く。",
+          "zh-hk": "大約由12月至4月，積雪最穩定的月份則為1月至3月。像Boí Taüll這類海拔較高的滑雪場，雪季維持時間最長。"
         }
       }
     ]
@@ -644,7 +707,8 @@
       "pt": "Melhores estâncias de esqui económicas de Espanha",
       "it": "Migliori località sciistiche economiche di Spagna",
       "nl": "De beste betaalbare skigebieden in Spanje",
-      "ja": "スペインで最もお得なスキーリゾート"
+      "ja": "スペインで最もお得なスキーリゾート",
+      "zh-hk": "西班牙最超值的滑雪場"
     },
     "intro": {
       "en": "Spain is the budget way to ski in Western Europe: high sunny mountains, gentle pistes and lift passes that undercut the Alps. These are the resorts that give you the most snow for your money.",
@@ -653,7 +717,8 @@
       "pt": "Espanha é a forma económica de esquiar na Europa Ocidental: montanhas altas e soalheiras, pistas suaves e passes que ficam abaixo dos Alpes. Estas são as estâncias que dão mais neve pelo seu dinheiro.",
       "it": "La Spagna è il modo economico di sciare nell'Europa occidentale: montagne alte e soleggiate, piste dolci e skipass che battono le Alpi. Ecco le località che offrono più neve per il tuo budget.",
       "nl": "Spanje is de voordelige manier om te skiën in West-Europa: hoge zonnige bergen, glooiende pistes en skipassen die goedkoper zijn dan in de Alpen. Dit zijn de skigebieden die je de meeste sneeuw voor je geld geven.",
-      "ja": "スペインは西ヨーロッパで手頃にスキーを楽しめる選択肢だ。標高が高く日当たりのよい山々、緩やかな斜面、そしてアルプスより安いリフト券。ここで紹介するのは、コストに対して最も雪を楽しめるリゾートだ。"
+      "ja": "スペインは西ヨーロッパで手頃にスキーを楽しめる選択肢だ。標高が高く日当たりのよい山々、緩やかな斜面、そしてアルプスより安いリフト券。ここで紹介するのは、コストに対して最も雪を楽しめるリゾートだ。",
+      "zh-hk": "西班牙是遊覽西歐滑雪最划算的選擇：山勢高聳、陽光充沛、雪道平緩，纜車票價錢亦比阿爾卑斯山便宜。以下滑雪場，能讓你以最少預算享受最多雪量。"
     },
     "body": {
       "en": "Spain has long been the value corner of the Alpine map. In the Aragon Pyrenees, Formigal packs a big, lively ski area into holiday-club prices, while Candanchú and Astún share the Canfranc valley with honest, no-frills skiing that locals have loved for decades. Over in Catalonia, Masella and its Alp 2500 pistes are a byword for family-friendly value.\n\nThe further you get from the marquee names, the more your money stretches. Panticosa is a quiet spa-town base with skiing above, and Alto Campoo in the Cantabrian Mountains is about as no-frills and cheap as lift-served skiing gets in Spain.\n\nThen there is Sierra Nevada, the one that breaks every rule: Europe's southernmost major resort, high above Granada, where you can ski in the morning and reach the Mediterranean coast the same afternoon. Wherever you go, expect sunshine, gentle learning terrain and a bill that leaves room for tapas.",
@@ -662,7 +727,8 @@
       "pt": "Espanha é há muito o canto acessível do mapa alpino. No Pirenéu aragonês, Formigal mete um domínio grande e animado em preços de clube de férias, enquanto Candanchú e Astún partilham o vale de Canfranc com um esqui honesto e sem artifícios que os locais adoram há décadas. Na Catalunha, Masella e as suas pistas de Alp 2500 são sinónimo de boa relação qualidade-preço em família.\n\nQuanto mais se afasta dos grandes nomes, mais o dinheiro rende. Panticosa é uma tranquila vila termal com o esqui por cima, e Alto Campoo, na Cordilheira Cantábrica, é quase o mais simples e barato do esqui com teleféricos em Espanha.\n\nE depois há a Serra Nevada, a que quebra todas as regras: a maior estância mais a sul da Europa, sobre Granada, onde pode esquiar de manhã e chegar ao Mediterrâneo nessa mesma tarde. Onde quer que vá, conte com sol, terreno suave para aprender e uma conta que deixa espaço para as tapas.",
       "it": "La Spagna è da tempo l'angolo conveniente della mappa alpina. Nei Pirenei aragonesi, Formigal infila un comprensorio grande e vivace in prezzi da villaggio vacanze, mentre Candanchú e Astún si dividono la valle di Canfranc con uno sci onesto e senza fronzoli che la gente del posto ama da decenni. In Catalogna, Masella e le sue piste di Alp 2500 sono sinonimo di buon rapporto qualità-prezzo in famiglia.\n\nPiù ti allontani dai grandi nomi, più il budget si allunga. Panticosa è un tranquillo paese termale con lo sci sopra, e Alto Campoo, nella Cordigliera Cantabrica, è quanto di più semplice ed economico offra lo sci con impianti in Spagna.\n\nE poi c'è la Sierra Nevada, quella che rompe ogni regola: la più grande località più a sud d'Europa, sopra Granada, dove puoi sciare al mattino e raggiungere il Mediterraneo nello stesso pomeriggio. Ovunque tu vada, aspettati sole, pendii dolci per imparare e un conto che lascia spazio per le tapas.",
       "nl": "Spanje is al lang de voordelige hoek van de Alpiene kaart. In de Aragonese Pyreneeën perst Formigal een groot, levendig skigebied in prijzen van een vakantieclub, terwijl Candanchú en Astún de Canfrancvallei delen met eerlijk skiën zonder poespas, waar de lokale bevolking al decennialang van houdt. In Catalonië staan Masella en zijn pistes van Alp 2500 garant voor gezinsvriendelijke voordeligheid.\n\nHoe verder je van de grote namen afraakt, hoe verder je geld reikt. Panticosa is een rustige thermale badplaats met skiën erboven, en Alto Campoo in het Cantabrisch Gebergte is zo eenvoudig en goedkoop als skiën met liften in Spanje maar kan zijn.\n\nDan is er nog de Sierra Nevada, die alle regels breekt: het zuidelijkste grote skigebied van Europa, hoog boven Granada, waar je 's ochtends kunt skiën en dezelfde middag nog de Middellandse Zeekust kunt bereiken. Waar je ook heen gaat, reken op zon, glooiend leerterrein en een rekening die nog ruimte laat voor tapas.",
-      "ja": "スペインは昔から、アルプス圏の中でも「お得な一角」として知られてきた。アラゴン・ピレネーのフォルミガルは、大規模で活気あるスキーエリアをホリデークラブ並みの価格で楽しめる。カンダンチュとアストゥンはカンフランク渓谷を共有し、地元の人々が何十年も愛してきた飾らない正統派のスキーを提供する。カタルーニャに目を移せば、マセーリャと「アルプ2500」の斜面は、家族連れに優しいコストパフォーマンスの代名詞だ。\n\n有名どころから離れるほど、予算はさらに伸びる。パンティコサは静かな温泉町を拠点にその上でスキーができ、カンタブリア山脈のアルト・カンポは、スペインのリフト付きスキーの中でも屈指の飾り気のない安さを誇る。\n\nそして、あらゆる常識を覆すのがシエラネバダだ。ヨーロッパ最南端の主要リゾートで、グラナダの高台に位置し、午前中にスキーを楽しんだその日の午後には地中海沿岸に到着できる。どこへ行っても、晴天と初心者にやさしい緩斜面、そしてタパスを楽しむ余裕を残してくれる価格が待っている。"
+      "ja": "スペインは昔から、アルプス圏の中でも「お得な一角」として知られてきた。アラゴン・ピレネーのフォルミガルは、大規模で活気あるスキーエリアをホリデークラブ並みの価格で楽しめる。カンダンチュとアストゥンはカンフランク渓谷を共有し、地元の人々が何十年も愛してきた飾らない正統派のスキーを提供する。カタルーニャに目を移せば、マセーリャと「アルプ2500」の斜面は、家族連れに優しいコストパフォーマンスの代名詞だ。\n\n有名どころから離れるほど、予算はさらに伸びる。パンティコサは静かな温泉町を拠点にその上でスキーができ、カンタブリア山脈のアルト・カンポは、スペインのリフト付きスキーの中でも屈指の飾り気のない安さを誇る。\n\nそして、あらゆる常識を覆すのがシエラネバダだ。ヨーロッパ最南端の主要リゾートで、グラナダの高台に位置し、午前中にスキーを楽しんだその日の午後には地中海沿岸に到着できる。どこへ行っても、晴天と初心者にやさしい緩斜面、そしてタパスを楽しむ余裕を残してくれる価格が待っている。",
+      "zh-hk": "西班牙一直是歐洲滑雪版圖上最超值的一角。在阿拉貢的庇里牛斯山區，Formigal以度假村般的價錢，提供大型而熱鬧的滑雪區；而Candanchú與Astún共用Canfranc山谷，提供實在、不花巧的滑雪體驗，深受當地人數十年來的喜愛。至於加泰羅尼亞的Masella，其Alp 2500雪道，則是家庭超值之選的代名詞。\n\n越遠離知名大場，預算就越能發揮更大效用。Panticosa是寧靜的溫泉小鎮，滑雪場就在鎮上方；而坎塔布連山脈的Alto Campoo，則是西班牙最樸實、最便宜的纜車滑雪場之一。\n\n還有打破所有常規的Sierra Nevada：這是歐洲最南端的大型滑雪場，高踞格拉納達之上，早上滑雪，同日下午即可到達地中海岸。無論你選擇哪個滑雪場，都能享有充沛陽光、平緩易學的雪道，以及仍有餘裕享用西班牙小吃的預算。"
     },
     "faq": [
       {
@@ -673,7 +739,8 @@
           "pt": "Onde se pode esquiar barato em Espanha?",
           "it": "Dove si può sciare a poco prezzo in Spagna?",
           "nl": "Waar kun je goedkoop skiën in Spanje?",
-          "ja": "スペインで安くスキーを楽しめる場所はどこ?"
+          "ja": "スペインで安くスキーを楽しめる場所はどこ?",
+          "zh-hk": "在西班牙，哪裡可以平價滑雪？"
         },
         "a": {
           "en": "Formigal, Astún and Candanchú in Aragon and Masella in Catalonia offer big, sunny skiing at friendly prices, while Alto Campoo and Panticosa are cheaper still.",
@@ -682,7 +749,8 @@
           "pt": "Formigal, Astún e Candanchú em Aragão e Masella na Catalunha oferecem um grande esqui soalheiro a preços amigáveis, enquanto Alto Campoo e Panticosa saem ainda mais baratos.",
           "it": "Formigal, Astún e Candanchú in Aragona e Masella in Catalogna offrono un grande sci soleggiato a prezzi accessibili, mentre Alto Campoo e Panticosa costano ancora meno.",
           "nl": "Formigal, Astún en Candanchú in Aragón en Masella in Catalonië bieden veel zonnig skiplezier voor vriendelijke prijzen, terwijl Alto Campoo en Panticosa nog goedkoper zijn.",
-          "ja": "アラゴンのフォルミガル、アストゥン、カンダンチュ、そしてカタルーニャのマセーリャは、手頃な価格で規模が大きく日当たりの良いスキーを楽しめる。アルト・カンポとパンティコサはさらに安い。"
+          "ja": "アラゴンのフォルミガル、アストゥン、カンダンチュ、そしてカタルーニャのマセーリャは、手頃な価格で規模が大きく日当たりの良いスキーを楽しめる。アルト・カンポとパンティコサはさらに安い。",
+          "zh-hk": "阿拉貢的Formigal、Astún及Candanchú，以及加泰羅尼亞的Masella，均以親民價錢提供大型、陽光充沛的滑雪體驗；而Alto Campoo及Panticosa的價錢則更為相宜。"
         }
       },
       {
@@ -693,7 +761,8 @@
           "pt": "É mesmo possível esquiar e ir à praia no mesmo dia em Espanha?",
           "it": "Si può davvero sciare e andare in spiaggia lo stesso giorno in Spagna?",
           "nl": "Kun je in Spanje echt op dezelfde dag skiën en naar het strand gaan?",
-          "ja": "スペインでは本当に同じ日にスキーとビーチを両方楽しめる?"
+          "ja": "スペインでは本当に同じ日にスキーとビーチを両方楽しめる?",
+          "zh-hk": "在西班牙，真的可以同一日滑雪又去沙灘嗎？"
         },
         "a": {
           "en": "At Sierra Nevada, yes. The resort sits above Granada in the south, close enough to the Mediterranean coast that a morning on the snow and an afternoon by the sea is a genuine day out.",
@@ -702,7 +771,8 @@
           "pt": "Na Serra Nevada, sim. A estância ergue-se sobre Granada, no sul, perto o suficiente do Mediterrâneo para juntar uma manhã na neve e uma tarde à beira-mar.",
           "it": "Alla Sierra Nevada, sì. La località domina Granada, nel sud, abbastanza vicina alla costa mediterranea da unire una mattina sulla neve e un pomeriggio al mare.",
           "nl": "Bij de Sierra Nevada wel. Het skigebied ligt boven Granada, in het zuiden, dicht genoeg bij de Middellandse Zeekust om een ochtend op de sneeuw en een middag aan zee tot een echt haalbaar dagje uit te maken.",
-          "ja": "シエラネバダなら本当に可能だ。このリゾートは南部グラナダの高台にあり、地中海沿岸まで十分近いため、午前中は雪の上、午後は海辺という一日の過ごし方が実現できる。"
+          "ja": "シエラネバダなら本当に可能だ。このリゾートは南部グラナダの高台にあり、地中海沿岸まで十分近いため、午前中は雪の上、午後は海辺という一日の過ごし方が実現できる。",
+          "zh-hk": "在Sierra Nevada，答案是可以的。這個滑雪場位於南部格拉納達之上，與地中海岸距離相近，早上滑雪、下午到海邊，絕對是真實可行的一日行程。"
         }
       },
       {
@@ -713,7 +783,8 @@
           "pt": "Espanha é boa para uma primeira viagem de esqui?",
           "it": "La Spagna è adatta a una prima settimana bianca?",
           "nl": "Is Spanje geschikt voor een eerste skivakantie?",
-          "ja": "スキー初挑戦の旅先としてスペインはおすすめ?"
+          "ja": "スキー初挑戦の旅先としてスペインはおすすめ?",
+          "zh-hk": "西班牙適合作為第一次滑雪之旅嗎？"
         },
         "a": {
           "en": "Very. Gentle sunny pistes, well-priced ski schools and lower overall costs make the Spanish resorts an easy, low-pressure place to learn.",
@@ -722,7 +793,8 @@
           "pt": "Muito. Pistas suaves e soalheiras, escolas de esqui a bom preço e custos mais baixos fazem das estâncias espanholas um lugar fácil e sem pressão para aprender.",
           "it": "Molto. Piste dolci e soleggiate, scuole di sci a buon prezzo e costi complessivi più bassi rendono le località spagnole un posto facile e senza pressioni per imparare.",
           "nl": "Zeker. Glooiende, zonnige pistes, betaalbare skischolen en lagere kosten in het algemeen maken de Spaanse skigebieden een laagdrempelige plek zonder druk om te leren skiën.",
-          "ja": "非常におすすめだ。緩やかで日当たりの良い斜面、手頃な価格のスキースクール、そして全体的に低いコストが、スペインのリゾートを気軽でプレッシャーの少ない練習の場にしてくれる。"
+          "ja": "非常におすすめだ。緩やかで日当たりの良い斜面、手頃な価格のスキースクール、そして全体的に低いコストが、スペインのリゾートを気軽でプレッシャーの少ない練習の場にしてくれる。",
+          "zh-hk": "非常適合。平緩且陽光充沛的雪道、價錢合理的滑雪學校，加上整體較低的花費，令西班牙的滑雪場成為輕鬆、無壓力的入門好去處。"
         }
       }
     ]
@@ -735,7 +807,8 @@
       "pt": "Melhores estâncias de esqui para famílias em Espanha",
       "it": "Migliori località sciistiche per famiglie in Spagna",
       "nl": "De beste skigebieden voor gezinnen in Spanje",
-      "ja": "スペインで家族向けに最適なスキーリゾート"
+      "ja": "スペインで家族向けに最適なスキーリゾート",
+      "zh-hk": "西班牙最適合親子滑雪的滑雪場"
     },
     "intro": {
       "en": "Sunny, gentle and easy on the wallet, Spain is one of Europe's most relaxed places to ski with children. These resorts pair broad beginner slopes and good ski schools with prices that keep a family holiday sane.",
@@ -744,7 +817,8 @@
       "pt": "Soalheira, suave e amiga da carteira, Espanha é um dos lugares mais tranquilos da Europa para esquiar com crianças. Estas estâncias juntam amplas pistas de principiantes e boas escolas de esqui a preços que mantêm o orçamento familiar são.",
       "it": "Soleggiata, dolce e leggera per il portafoglio, la Spagna è uno dei posti più rilassati d'Europa per sciare con i bambini. Queste località uniscono ampie piste per principianti e buone scuole di sci a prezzi che tengono in salute il budget di famiglia.",
       "nl": "Zonnig, zacht en licht voor de portemonnee: Spanje is een van de meest ontspannen plekken van Europa om met kinderen te skiën. Deze skigebieden combineren brede beginnerspistes en goede skischolen met prijzen die een gezinsvakantie behapbaar houden.",
-      "ja": "晴天で緩やかな斜面、そして家計にもやさしいスペインは、子ども連れでスキーを楽しむのに最もリラックスできるヨーロッパの目的地のひとつだ。ここで紹介するリゾートは、広々とした初心者向けゲレンデと質の良いスキースクールを、家族旅行の予算を無理なく保てる価格で提供してくれる。"
+      "ja": "晴天で緩やかな斜面、そして家計にもやさしいスペインは、子ども連れでスキーを楽しむのに最もリラックスできるヨーロッパの目的地のひとつだ。ここで紹介するリゾートは、広々とした初心者向けゲレンデと質の良いスキースクールを、家族旅行の予算を無理なく保てる価格で提供してくれる。",
+      "zh-hk": "陽光充沛、坡度平緩，而且對荷包友善，西班牙是歐洲其中一個最悠閒寫意、適合帶同子女滑雪的地方。這些滑雪場既有寬闊的初學者雪道及優質滑雪學校，價錢亦讓一家人的假期不致超支。"
     },
     "body": {
       "en": "Spanish skiing was practically built for families. In the Catalan Cerdanya, La Molina is the country's oldest resort and still one of its friendliest for children, with a dedicated learning area and an easy train link, while neighbouring Masella adds sunny, gentle pistes on the same Alp 2500 lift pass.\n\nAcross the Pyrenees the story repeats: Astún and Port Ainé, Espot and Panticosa all offer broad nursery slopes, ski schools used to first-timers and compact bases where you are never far from the kids. Prices for lessons, gear hire and family lodging stay refreshingly down to earth.\n\nFor something different, Sierra Nevada above Granada is a brilliant family week: a purpose-built pedestrian village, tons of sun, a big beginner zone and the novelty of a city and the coast within reach. And for a quiet, low-cost weekend, Alto Campoo in the Cantabrian mountains is as unfussy as it gets.",
@@ -753,7 +827,8 @@
       "pt": "O esqui espanhol parece feito para as famílias. Na Cerdanha catalã, La Molina é a estância mais antiga do país e continua a ser uma das mais acolhedoras para as crianças, com uma zona de aprendizagem própria e um cómodo acesso de comboio, enquanto a vizinha Masella soma pistas suaves e soalheiras com o mesmo passe de Alp 2500.\n\nDe ponta a ponta dos Pirenéus a história repete-se: Astún e Port Ainé, Espot e Panticosa oferecem amplas zonas de principiantes, escolas de esqui habituadas a quem começa e bases compactas onde nunca se está longe das crianças. Os preços de aulas, aluguer e alojamento familiar mantêm-se agradavelmente sensatos.\n\nPara algo diferente, a Serra Nevada sobre Granada é uma ótima semana em família: uma aldeia pedonal feita de propósito, sol em abundância, uma grande zona de principiantes e o encanto de ter uma cidade e a costa por perto. E para um fim de semana tranquilo e barato, Alto Campoo, na Cordilheira Cantábrica, é o mais simples que há.",
       "it": "Lo sci spagnolo sembra fatto per le famiglie. Nella Cerdanya catalana, La Molina è la località più antica del paese e resta una delle più accoglienti per i bambini, con un'area apprendimento dedicata e un comodo collegamento in treno, mentre la vicina Masella aggiunge piste dolci e soleggiate con lo stesso skipass di Alp 2500.\n\nDa un capo all'altro dei Pirenei la storia si ripete: Astún e Port Ainé, Espot e Panticosa offrono ampie zone per principianti, scuole di sci abituate ai neofiti e basi compatte dove non sei mai lontano dai bambini. I prezzi di lezioni, noleggio e alloggio per famiglie restano piacevolmente ragionevoli.\n\nPer qualcosa di diverso, la Sierra Nevada sopra Granada è una splendida settimana in famiglia: un villaggio pedonale costruito apposta, sole in abbondanza, una grande zona per principianti e il piacere di avere una città e la costa a portata di mano. E per un fine settimana tranquillo ed economico, Alto Campoo, nei monti Cantabrici, è il più semplice che ci sia.",
       "nl": "Skiën in Spanje lijkt speciaal gemaakt voor gezinnen. In de Catalaanse Cerdanya is La Molina het oudste skigebied van het land en nog altijd een van de kindvriendelijkste, met een eigen leergebied en een gemakkelijke treinverbinding, terwijl het naburige Masella zonnige, glooiende pistes toevoegt op hetzelfde Alp 2500-skipass.\n\nDoor de hele Pyreneeën herhaalt het verhaal zich: Astún en Port Ainé, Espot en Panticosa bieden allemaal brede oefenpistes, skischolen die gewend zijn aan beginners en compacte basisdorpen waar je nooit ver van de kinderen bent. Prijzen voor lessen, materiaalverhuur en gezinsaccommodatie blijven verfrissend redelijk.\n\nVoor iets anders is de Sierra Nevada boven Granada een geweldige gezinsweek: een speciaal gebouwd voetgangersdorp, bakken met zon, een grote beginnerszone en de aantrekkelijke bonus van een stad en de kust binnen handbereik. En voor een rustig, voordelig weekend is Alto Campoo in het Cantabrisch Gebergte zo eenvoudig als het maar kan.",
-      "ja": "スペインのスキーは、いわば家族連れのために作られたようなものだ。カタルーニャのセルダーニャ地方にあるラ・モリーナは、同国最古のリゾートでありながら今なお子連れに最も優しい場所のひとつで、専用の練習エリアと便利な鉄道アクセスを備えている。隣接するマセーリャも同じ「アルプ2500」のリフト券で、日当たりの良い緩やかな斜面を追加で楽しめる。\n\nピレネー全域でも同じ傾向が見られる。アストゥン、ポルト・アイネ、エスポット、パンティコサは、いずれも広々としたキッズ向け斜面、初心者に慣れたスキースクール、そして子どもからいつも近くにいられるコンパクトな拠点を備えている。レッスン、用具レンタル、家族向け宿泊の価格も、驚くほど良心的だ。\n\n少し違った体験を求めるなら、グラナダの高台にあるシエラネバダが素晴らしい家族旅行の一週間を約束してくれる。歩行者専用に設計された村、たっぷりの日差し、大きな初心者エリア、そして街と海の両方が近いという新鮮さが魅力だ。そして静かで低予算の週末を求めるなら、カンタブリア山脈のアルト・カンポほど飾り気のない場所はない。"
+      "ja": "スペインのスキーは、いわば家族連れのために作られたようなものだ。カタルーニャのセルダーニャ地方にあるラ・モリーナは、同国最古のリゾートでありながら今なお子連れに最も優しい場所のひとつで、専用の練習エリアと便利な鉄道アクセスを備えている。隣接するマセーリャも同じ「アルプ2500」のリフト券で、日当たりの良い緩やかな斜面を追加で楽しめる。\n\nピレネー全域でも同じ傾向が見られる。アストゥン、ポルト・アイネ、エスポット、パンティコサは、いずれも広々としたキッズ向け斜面、初心者に慣れたスキースクール、そして子どもからいつも近くにいられるコンパクトな拠点を備えている。レッスン、用具レンタル、家族向け宿泊の価格も、驚くほど良心的だ。\n\n少し違った体験を求めるなら、グラナダの高台にあるシエラネバダが素晴らしい家族旅行の一週間を約束してくれる。歩行者専用に設計された村、たっぷりの日差し、大きな初心者エリア、そして街と海の両方が近いという新鮮さが魅力だ。そして静かで低予算の週末を求めるなら、カンタブリア山脈のアルト・カンポほど飾り気のない場所はない。",
+      "zh-hk": "西班牙的滑雪場，幾乎就是為家庭而設。在加泰羅尼亞的Cerdanya地區，La Molina是全國歷史最悠久的滑雪場，至今仍是對兒童最友善的滑雪場之一，設有專屬教學區，亦有便捷的鐵路連接；而鄰近的Masella，則憑同一張Alp 2500纜車票，增添陽光充沛、坡度平緩的雪道。\n\n同樣的情況在庇里牛斯山脈各處重演：Astún與Port Ainé、Espot與Panticosa，均設有寬闊的新手雪道、慣於教導初學者的滑雪學校，以及範圍緊湊、隨時能照顧到子女的滑雪基地。無論是課程、裝備租借還是家庭住宿的價錢，都相當親民實在。\n\n想試試不一樣的體驗？格拉納達之上的Sierra Nevada，是絕佳的親子滑雪勝地：專為步行而建的無車村落、充沛陽光、大型初學者專區，加上城市與海岸近在咫尺的新鮮感。至於想找個寧靜、低消費的週末，坎塔布連山脈的Alto Campoo，則是再樸實不過的選擇。"
     },
     "faq": [
       {
@@ -764,7 +839,8 @@
           "pt": "Que estância de esqui espanhola é a melhor para famílias?",
           "it": "Quale località sciistica spagnola è la migliore per le famiglie?",
           "nl": "Welk Spaans skigebied is het beste voor gezinnen?",
-          "ja": "家族連れに最適なスペインのスキーリゾートはどこ?"
+          "ja": "家族連れに最適なスペインのスキーリゾートはどこ?",
+          "zh-hk": "哪個西班牙滑雪場最適合親子出遊？"
         },
         "a": {
           "en": "La Molina and neighbouring Masella are the classic family pick, with wide learning slopes and a shared lift pass. Sierra Nevada and Astún are also excellent for children.",
@@ -773,7 +849,8 @@
           "pt": "La Molina e a vizinha Masella são a escolha familiar clássica, com amplas pistas de aprendizagem e um passe partilhado. Serra Nevada e Astún também são excelentes para as crianças.",
           "it": "La Molina e la vicina Masella sono la scelta di famiglia classica, con ampie piste per imparare e uno skipass condiviso. Sierra Nevada e Astún sono ottime anche per i bambini.",
           "nl": "La Molina en het naburige Masella zijn de klassieke keuze voor gezinnen, met brede leerpistes en een gedeeld skipass. Sierra Nevada en Astún zijn ook uitstekend voor kinderen.",
-          "ja": "ラ・モリーナと隣接するマセーリャは、広い練習斜面と共通のリフト券を備えた定番の家族向け選択肢だ。シエラネバダとアストゥンも子連れに非常に適している。"
+          "ja": "ラ・モリーナと隣接するマセーリャは、広い練習斜面と共通のリフト券を備えた定番の家族向け選択肢だ。シエラネバダとアストゥンも子連れに非常に適している。",
+          "zh-hk": "La Molina與鄰近的Masella，是經典的親子之選，擁有寬闊的教學雪道及共用纜車票。Sierra Nevada及Astún同樣非常適合帶同小朋友前往。"
         }
       },
       {
@@ -784,7 +861,8 @@
           "pt": "As estâncias espanholas têm escolas de esqui para crianças?",
           "it": "Le località spagnole hanno scuole di sci per bambini?",
           "nl": "Hebben Spaanse skigebieden skischolen voor kinderen?",
-          "ja": "スペインのリゾートには子ども向けのスキースクールがある?"
+          "ja": "スペインのリゾートには子ども向けのスキースクールがある?",
+          "zh-hk": "西班牙的滑雪場，設有兒童滑雪學校嗎？"
         },
         "a": {
           "en": "Yes. Every resort here runs ski schools with children's groups and private lessons, usually at prices below the big Alpine names, plus dedicated beginner and snow-garden areas.",
@@ -793,7 +871,8 @@
           "pt": "Sim. Todas estas estâncias têm escolas de esqui com grupos infantis e aulas particulares, normalmente mais baratas do que nos grandes nomes alpinos, além de zonas de principiantes e jardins de neve.",
           "it": "Sì. Ognuna di queste località ha scuole di sci con corsi per bambini, di gruppo e privati, di solito a prezzi inferiori ai grandi nomi alpini, oltre ad aree per principianti e giardini di neve.",
           "nl": "Ja. Elk skigebied hier heeft skischolen met groepslessen voor kinderen en privélessen, meestal tegen prijzen onder die van de grote namen in de Alpen, plus speciale beginners- en sneeuwtuingebieden.",
-          "ja": "ある。ここで紹介するリゾートはすべて、子ども向けグループレッスンとプライベートレッスンを備えたスキースクールを運営しており、料金は大手アルプスのリゾートより安いことが多い。専用の初心者エリアやキッズ向けの「スノーガーデン」も用意されている。"
+          "ja": "ある。ここで紹介するリゾートはすべて、子ども向けグループレッスンとプライベートレッスンを備えたスキースクールを運営しており、料金は大手アルプスのリゾートより安いことが多い。専用の初心者エリアやキッズ向けの「スノーガーデン」も用意されている。",
+          "zh-hk": "有的。這裡每個滑雪場均設有滑雪學校，提供兒童小組班及私人課程，價錢通常比阿爾卑斯山的知名滑雪場便宜，亦設有專屬的初學者及兒童雪地樂園區域。"
         }
       },
       {
@@ -804,7 +883,8 @@
           "pt": "A Serra Nevada é boa para umas férias de esqui em família?",
           "it": "La Sierra Nevada è adatta a una vacanza sugli sci in famiglia?",
           "nl": "Is de Sierra Nevada geschikt voor een gezinsskivakantie?",
-          "ja": "家族でのスキー旅行にシエラネバダはおすすめ?"
+          "ja": "家族でのスキー旅行にシエラネバダはおすすめ?",
+          "zh-hk": "Sierra Nevada適合一家大小的滑雪假期嗎？"
         },
         "a": {
           "en": "Very. It has a car-free village you can walk end to end, a large sunny beginner zone, reliable snow at altitude and the bonus of Granada and the coast nearby for days off the snow.",
@@ -813,7 +893,8 @@
           "pt": "Muito. Tem uma aldeia pedonal que se percorre a pé, uma grande zona de principiantes soalheira, neve fiável em altitude e o bónus de Granada e da costa por perto para os dias sem esqui.",
           "it": "Molto. Ha un villaggio pedonale che si attraversa a piedi, una grande zona per principianti soleggiata, neve affidabile in quota e il vantaggio di Granada e della costa vicine per i giorni senza sci.",
           "nl": "Zeker. Het heeft een autovrij dorp dat je van het ene naar het andere eind kunt doorlopen, een grote zonnige beginnerszone, betrouwbare sneeuw op hoogte en de bonus van Granada en de kust in de buurt voor dagen zonder ski's.",
-          "ja": "非常におすすめだ。端から端まで歩ける車の入らない村、広く日当たりの良い初心者エリア、標高による安定した雪質に加え、雪から離れる日にはグラナダや海岸にも足を延ばせるという魅力がある。"
+          "ja": "非常におすすめだ。端から端まで歩ける車の入らない村、広く日当たりの良い初心者エリア、標高による安定した雪質に加え、雪から離れる日にはグラナダや海岸にも足を延ばせるという魅力がある。",
+          "zh-hk": "非常適合。這裡設有無車村落，由頭走到尾亦十分輕鬆，加上大型陽光初學者專區、高海拔帶來的穩定積雪，以及鄰近格拉納達與海岸，方便安排滑雪以外的休息日。"
         }
       }
     ]
@@ -826,7 +907,8 @@
       "pt": "Esquiar nas férias de fevereiro de 2027: para onde ir",
       "it": "Sciare nelle vacanze di febbraio 2027: settimana bianca, dove andare",
       "nl": "Skiën in de februarivakantie 2027: waar moet je heen",
-      "ja": "2027年2月の学校休暇スキー、どこへ行くべきか"
+      "ja": "2027年2月の学校休暇スキー、どこへ行くべきか",
+      "zh-hk": "2027年2月學校假期滑雪：該去哪裡"
     },
     "intro": {
       "en": "February is the busiest month on European snow: French zones, UK half term and Italian settimana bianca all collide. Here is the 2027 crowd calendar, the resorts big enough to absorb it, and the weeks the locals keep for themselves.",
@@ -835,7 +917,8 @@
       "pt": "Fevereiro é o mês mais cheio da neve europeia: as zonas escolares francesas, o half term britânico e o Carnaval coincidem. Eis o calendário de 2027, as estâncias com capacidade para absorver a multidão e as semanas mais tranquilas.",
       "it": "Febbraio è il mese più affollato della neve europea: le zone scolastiche francesi, l'half term britannico e la settimana bianca si sovrappongono. Ecco il calendario 2027, le località capaci di assorbire la folla e le settimane più tranquille.",
       "nl": "Februari is de drukste maand op de Europese sneeuw: de Franse vakantiezones, de Britse half term en de Italiaanse settimana bianca vallen allemaal samen. Dit is de drukte-kalender voor 2027, de skigebieden die groot genoeg zijn om de drukte op te vangen, en de weken die de locals liever voor zichzelf houden.",
-      "ja": "2月はヨーロッパのゲレンデが最も混雑する月だ。フランスの学校ゾーン、イギリスのハーフターム、イタリアの「セッティマーナ・ビアンカ」が重なり合う。ここでは2027年の混雑カレンダー、その人出を十分に吸収できる規模のリゾート、そして地元の人々がひそかに選ぶ週を紹介する。"
+      "ja": "2月はヨーロッパのゲレンデが最も混雑する月だ。フランスの学校ゾーン、イギリスのハーフターム、イタリアの「セッティマーナ・ビアンカ」が重なり合う。ここでは2027年の混雑カレンダー、その人出を十分に吸収できる規模のリゾート、そして地元の人々がひそかに選ぶ週を紹介する。",
+      "zh-hk": "2月是歐洲雪季最繁忙的月份：法國各分區假期、英國期中假期，以及意大利的settimana bianca假期同時交疊。以下為你送上2027年人潮行事曆、足以應付人潮的大型滑雪場，以及當地人留給自己的清靜週。"
     },
     "body": {
       "en": "The crowds in the Alps follow the French school calendar, so it pays to know it even if you are not French. In 2027, zone C (Paris, Toulouse, Montpellier) breaks from 6 to 22 February, zone A (Lyon, Bordeaux, Grenoble) from 13 February to 1 March, and zone B (Lille, Marseille, Strasbourg) from 20 February to 8 March. UK half term lands in the middle of that, around mid-February. The peak runs from 13 to 27 February, when two zones are always on the snow at once.\n\nTwo ways to win. Either pick a resort built for volume: Val Thorens, Les Arcs, La Plagne, Tignes and the big Austrian machines move enormous numbers of skiers with modern lifts, so queues stay bearable even in peak week. Or shift your dates: the first week of February (before zone C) and the first week of March (only zone B left) offer the same midwinter snow with far fewer people.\n\nEither way, February is the month to book earliest. High-altitude, snow-sure resorts sell out first, and slope-side lodging goes months ahead. If you are reading this in summer, you are on time.",
@@ -844,7 +927,8 @@
       "pt": "Nos Alpes, a multidão segue o calendário escolar francês, por isso convém conhecê-lo mesmo não sendo francês. Em 2027, a zona C (Paris, Toulouse, Montpellier) está de férias de 6 a 22 de fevereiro, a zona A (Lyon, Bordéus, Grenoble) de 13 de fevereiro a 1 de março, e a zona B (Lille, Marselha, Estrasburgo) de 20 de fevereiro a 8 de março. O half term britânico cai no meio, por meados do mês, e o Carnaval de 2027 é a 9 de fevereiro. O pico vai de 13 a 27 de fevereiro, quando há sempre duas zonas ao mesmo tempo nas pistas.\n\nDuas formas de ganhar. Ou escolhe uma estância feita para o volume: Val Thorens, Les Arcs, La Plagne, Tignes e as grandes máquinas austríacas movem quantidades enormes de esquiadores com teleféricos modernos, e as filas mantêm-se razoáveis mesmo na semana de ponta. Ou muda as datas: a primeira semana de fevereiro (antes da zona C) e a primeira de março (resta só a zona B) oferecem a mesma neve de pleno inverno com muito menos gente.\n\nSeja como for, fevereiro é o mês a reservar mais cedo. As estâncias de altitude com neve garantida esgotam primeiro, e o alojamento à beira das pistas parte com meses de antecedência. Se está a ler isto no verão, vai a tempo.",
       "it": "Sulle Alpi la folla segue il calendario scolastico francese, quindi conviene conoscerlo anche se non sei francese. Nel 2027 la zona C (Parigi, Tolosa, Montpellier) è in vacanza dal 6 al 22 febbraio, la zona A (Lione, Bordeaux, Grenoble) dal 13 febbraio al 1 marzo, e la zona B (Lilla, Marsiglia, Strasburgo) dal 20 febbraio all'8 marzo. L'half term britannico cade nel mezzo, verso metà mese, e il carnevale 2027 è il 9 febbraio. Il picco va dal 13 al 27 febbraio, quando ci sono sempre due zone in pista contemporaneamente.\n\nDue modi per vincere. O scegli una località fatta per i grandi numeri: Val Thorens, Les Arcs, La Plagne, Tignes e le grandi macchine austriache muovono volumi enormi di sciatori con impianti moderni, e le code restano accettabili anche nella settimana di punta. O sposti le date: la prima settimana di febbraio (prima della zona C) e la prima di marzo (resta solo la zona B) offrono la stessa neve di pieno inverno con molta meno gente.\n\nIn ogni caso, febbraio è il mese da prenotare prima di tutti. Le località d'alta quota con neve sicura si esauriscono per prime, e gli alloggi sulle piste partono con mesi di anticipo. Se leggi queste righe d'estate, sei in orario.",
       "nl": "De drukte in de Alpen volgt de Franse schoolkalender, dus het loont om die te kennen, ook als je zelf geen Fransman bent. In 2027 heeft zone C (Parijs, Toulouse, Montpellier) vakantie van 6 tot 22 februari, zone A (Lyon, Bordeaux, Grenoble) van 13 februari tot 1 maart, en zone B (Rijsel, Marseille, Straatsburg) van 20 februari tot 8 maart. De Britse half term valt daar middenin, rond half februari. De piek loopt van 13 tot 27 februari, wanneer er altijd twee zones tegelijk op de sneeuw zijn.\n\nEr zijn twee manieren om te winnen. Kies ofwel een skigebied dat gebouwd is voor grote volumes: Val Thorens, Les Arcs, La Plagne, Tignes en de grote Oostenrijkse skimachines verwerken enorme aantallen skiërs met moderne liften, waardoor de wachtrijen zelfs in de piekweek draaglijk blijven. Of verschuif je data: de eerste week van februari (voor zone C) en de eerste week van maart (alleen zone B is dan nog over) bieden dezelfde midwintersneeuw met veel minder mensen.\n\nHoe dan ook, februari is de maand om het vroegst te boeken. Hooggelegen skigebieden met sneeuwzekerheid raken het eerst volgeboekt, en accommodatie aan de piste is maanden van tevoren al weg. Lees je dit in de zomer, dan ben je op tijd.",
-      "ja": "アルプスの混雑はフランスの学校休暇カレンダーに左右されるため、フランス人でなくても知っておく価値がある。2027年、Cゾーン(パリ、トゥールーズ、モンペリエ)は2月6日から22日、Aゾーン(リヨン、ボルドー、グルノーブル)は2月13日から3月1日、Bゾーン(リール、マルセイユ、ストラスブール)は2月20日から3月8日が休暇期間だ。イギリスのハーフタームはその間、2月中旬頃に重なる。ピークは2月13日から27日で、この期間は常に二つのゾーンが同時にゲレンデに繰り出す。\n\n対策は二つ。ひとつは大人数を想定して作られたリゾートを選ぶこと。ヴァル・トランス、レ・ザルク、ラ・プラーニュ、ティーニュ、そしてオーストリアの大規模リゾート群は、最新のリフトで膨大な数のスキーヤーをさばけるため、ピーク週でも待ち時間は許容範囲に収まる。もうひとつは日程をずらすこと。2月最初の週(Cゾーン開始前)と3月最初の週(残るはBゾーンのみ)なら、真冬と同じ雪質をずっと少ない人出で楽しめる。\n\nいずれにせよ、2月は最も早く予約すべき月だ。標高が高く雪の状態が安定したリゾートから先に埋まっていき、ゲレンデ直結の宿泊施設は数ヶ月前から予約で埋まる。この記事を夏に読んでいるなら、まだ間に合う。"
+      "ja": "アルプスの混雑はフランスの学校休暇カレンダーに左右されるため、フランス人でなくても知っておく価値がある。2027年、Cゾーン(パリ、トゥールーズ、モンペリエ)は2月6日から22日、Aゾーン(リヨン、ボルドー、グルノーブル)は2月13日から3月1日、Bゾーン(リール、マルセイユ、ストラスブール)は2月20日から3月8日が休暇期間だ。イギリスのハーフタームはその間、2月中旬頃に重なる。ピークは2月13日から27日で、この期間は常に二つのゾーンが同時にゲレンデに繰り出す。\n\n対策は二つ。ひとつは大人数を想定して作られたリゾートを選ぶこと。ヴァル・トランス、レ・ザルク、ラ・プラーニュ、ティーニュ、そしてオーストリアの大規模リゾート群は、最新のリフトで膨大な数のスキーヤーをさばけるため、ピーク週でも待ち時間は許容範囲に収まる。もうひとつは日程をずらすこと。2月最初の週(Cゾーン開始前)と3月最初の週(残るはBゾーンのみ)なら、真冬と同じ雪質をずっと少ない人出で楽しめる。\n\nいずれにせよ、2月は最も早く予約すべき月だ。標高が高く雪の状態が安定したリゾートから先に埋まっていき、ゲレンデ直結の宿泊施設は数ヶ月前から予約で埋まる。この記事を夏に読んでいるなら、まだ間に合う。",
+      "zh-hk": "阿爾卑斯山的人潮，取決於法國學校假期行事曆，即使你並非法國人，了解一下亦絕對值得。2027年，C區（巴黎、圖盧茲、蒙彼利埃）假期為2月6日至22日，A區（里昂、波爾多、格勒諾布爾）為2月13日至3月1日，B區（里爾、馬賽、史特拉斯堡）則為2月20日至3月8日。英國的期中假期，大約落在2月中，正好夾在其中。人潮高峰期為2月13日至27日，期間總有兩個分區同時放假滑雪。\n\n應對方法有兩個。其一，是選擇專為應付大量人潮而設的滑雪場：Val Thorens、Les Arcs、La Plagne、Tignes，以及奧地利多個大型滑雪場，均以先進纜車系統疏導龐大人流，即使在人潮高峰週，排隊時間仍屬可以接受。其二，是調整出發日期：2月第一週（C區假期開始前）及3月第一週（只餘B區假期），同樣享有隆冬積雪，人潮卻少得多。\n\n無論如何，2月都是最需要提早預訂的月份。海拔高、積雪穩定的滑雪場最先訂滿，雪道旁的住宿更會提前數月被訂走。如果你在夏天讀到這篇文章，現在預訂正合時。"
     },
     "faq": [
       {
@@ -855,7 +939,8 @@
           "pt": "Quais são as datas das zonas escolares francesas em fevereiro de 2027?",
           "it": "Quali sono le date delle zone scolastiche francesi a febbraio 2027?",
           "nl": "Wat zijn de data van de Franse schoolvakantiezones voor februari 2027?",
-          "ja": "2027年2月のフランスの学校ゾーンの休暇日程は?"
+          "ja": "2027年2月のフランスの学校ゾーンの休暇日程は?",
+          "zh-hk": "2027年2月，法國學校分區假期日期是幾時？"
         },
         "a": {
           "en": "Zone C (Paris, Toulouse, Montpellier): 6 to 22 February. Zone A (Lyon, Bordeaux, Grenoble): 13 February to 1 March. Zone B (Lille, Marseille, Strasbourg): 20 February to 8 March 2027.",
@@ -864,7 +949,8 @@
           "pt": "Zona C (Paris, Toulouse, Montpellier): 6 a 22 de fevereiro. Zona A (Lyon, Bordéus, Grenoble): 13 de fevereiro a 1 de março. Zona B (Lille, Marselha, Estrasburgo): 20 de fevereiro a 8 de março de 2027.",
           "it": "Zona C (Parigi, Tolosa, Montpellier): dal 6 al 22 febbraio. Zona A (Lione, Bordeaux, Grenoble): dal 13 febbraio al 1 marzo. Zona B (Lilla, Marsiglia, Strasburgo): dal 20 febbraio all'8 marzo 2027.",
           "nl": "Zone C (Parijs, Toulouse, Montpellier): 6 tot 22 februari. Zone A (Lyon, Bordeaux, Grenoble): 13 februari tot 1 maart. Zone B (Rijsel, Marseille, Straatsburg): 20 februari tot 8 maart 2027.",
-          "ja": "Cゾーン(パリ、トゥールーズ、モンペリエ)は2月6日から22日。Aゾーン(リヨン、ボルドー、グルノーブル)は2月13日から3月1日。Bゾーン(リール、マルセイユ、ストラスブール)は2027年2月20日から3月8日。"
+          "ja": "Cゾーン(パリ、トゥールーズ、モンペリエ)は2月6日から22日。Aゾーン(リヨン、ボルドー、グルノーブル)は2月13日から3月1日。Bゾーン(リール、マルセイユ、ストラスブール)は2027年2月20日から3月8日。",
+          "zh-hk": "C區（巴黎、圖盧茲、蒙彼利埃）：2月6日至22日。A區（里昂、波爾多、格勒諾布爾）：2月13日至3月1日。B區（里爾、馬賽、史特拉斯堡）：2027年2月20日至3月8日。"
         }
       },
       {
@@ -875,7 +961,8 @@
           "pt": "Que semana de fevereiro de 2027 é a mais tranquila nas pistas?",
           "it": "Quale settimana di febbraio 2027 è la più tranquilla sulle piste?",
           "nl": "Welke week van februari 2027 is het rustigst op de piste?",
-          "ja": "2027年2月でゲレンデが最も空いているのはどの週?"
+          "ja": "2027年2月でゲレンデが最も空いているのはどの週?",
+          "zh-hk": "2027年2月，哪一週的雪道人流最少？"
         },
         "a": {
           "en": "The first week of February, before zone C starts on the 6th, then the 1 to 8 March window when only zone B remains. Avoid 13 to 27 February, when two zones overlap plus UK half term.",
@@ -884,7 +971,8 @@
           "pt": "A primeira semana de fevereiro, antes de a zona C começar no dia 6, e a janela de 1 a 8 de março quando resta só a zona B. Evite de 13 a 27 de fevereiro, quando duas zonas se sobrepõem mais o half term britânico.",
           "it": "La prima settimana di febbraio, prima che la zona C inizi il 6, e la finestra dal 1 all'8 marzo quando resta solo la zona B. Da evitare il 13-27 febbraio, quando due zone si sovrappongono più l'half term britannico.",
           "nl": "De eerste week van februari, voordat zone C op de 6e begint, en daarna de periode van 1 tot 8 maart, wanneer alleen zone B nog overblijft. Vermijd 13 tot 27 februari, wanneer twee zones overlappen, plus de Britse half term.",
-          "ja": "Cゾーンが始まる6日より前の2月最初の週、そしてBゾーンのみが残る3月1日から8日の期間だ。2月13日から27日は二つのゾーンにイギリスのハーフタームも重なるため避けたい。"
+          "ja": "Cゾーンが始まる6日より前の2月最初の週、そしてBゾーンのみが残る3月1日から8日の期間だ。2月13日から27日は二つのゾーンにイギリスのハーフタームも重なるため避けたい。",
+          "zh-hk": "2月第一週，即C區假期於6日開始之前，以及3月1日至8日期間（只餘B區假期），人流最少。應避開2月13日至27日，因為屆時不但兩個分區假期重疊，更遇上英國期中假期。"
         }
       },
       {
@@ -895,7 +983,8 @@
           "pt": "Que estâncias absorvem melhor as multidões de fevereiro?",
           "it": "Quali località assorbono meglio la folla di febbraio?",
           "nl": "Welke skigebieden verwerken de februaridrukte het beste?",
-          "ja": "2月の混雑に最もうまく対応できるリゾートはどこ?"
+          "ja": "2月の混雑に最もうまく対応できるリゾートはどこ?",
+          "zh-hk": "哪些滑雪場最能應付2月人潮？"
         },
         "a": {
           "en": "The high-capacity giants: Val Thorens, Les Arcs, La Plagne and Tignes in France, plus big Austrian networks like Ischgl and Saalbach. Modern lifts and huge terrain dilute peak-week queues, and their altitude keeps the snow reliable.",
@@ -904,7 +993,8 @@
           "pt": "Os gigantes de grande capacidade: Val Thorens, Les Arcs, La Plagne e Tignes em França, mais as grandes redes austríacas como Ischgl e Saalbach. Teleféricos modernos e domínios imensos diluem as filas, e a altitude garante a neve.",
           "it": "I giganti ad alta capacità: Val Thorens, Les Arcs, La Plagne e Tignes in Francia, più le grandi reti austriache come Ischgl e Saalbach. Impianti moderni e comprensori immensi diluiscono le code, e la quota garantisce la neve.",
           "nl": "De giganten met grote capaciteit: Val Thorens, Les Arcs, La Plagne en Tignes in Frankrijk, plus grote Oostenrijkse skinetwerken als Ischgl en Saalbach. Moderne liften en enorme skigebieden verdunnen de wachtrijen in de piekweek, en hun hoogte houdt de sneeuw betrouwbaar.",
-          "ja": "大容量を誇る大規模リゾート群だ。フランスのヴァル・トランス、レ・ザルク、ラ・プラーニュ、ティーニュ、そしてイシュグルやザールバッハといったオーストリアの大規模リゾートネットワーク。最新のリフトと広大なゲレンデがピーク週の待ち時間を分散させ、標高の高さが雪質の安定を支えている。"
+          "ja": "大容量を誇る大規模リゾート群だ。フランスのヴァル・トランス、レ・ザルク、ラ・プラーニュ、ティーニュ、そしてイシュグルやザールバッハといったオーストリアの大規模リゾートネットワーク。最新のリフトと広大なゲレンデがピーク週の待ち時間を分散させ、標高の高さが雪質の安定を支えている。",
+          "zh-hk": "承載力高的大型滑雪場：法國的Val Thorens、Les Arcs、La Plagne及Tignes，以及奧地利的大型滑雪網絡，例如Ischgl及Saalbach。先進纜車系統與廣闊雪道範圍，能分散人潮高峰週的排隊人流，而海拔高度亦確保積雪穩定可靠。"
         }
       }
     ]
@@ -917,7 +1007,8 @@
       "pt": "Esquiar no Natal e na passagem de ano 2026: onde a neve é aposta segura",
       "it": "Sciare a Natale e Capodanno 2026: dove la neve è una certezza",
       "nl": "Skiën met kerst en oud en nieuw 2026: waar sneeuw een zekerheidje is",
-      "ja": "2026年クリスマス・年末年始スキー、雪が確実な行き先"
+      "ja": "2026年クリスマス・年末年始スキー、雪が確実な行き先",
+      "zh-hk": "2026年聖誕新年滑雪：哪裡的積雪最有保證"
     },
     "intro": {
       "en": "Christmas is the start of the season, and low-altitude villages can be green. The trick is altitude: pick a base above 1800 m or a glacier and the white Christmas takes care of itself. These are the resorts that deliver in late December.",
@@ -926,7 +1017,8 @@
       "pt": "O Natal é o arranque da época, e as aldeias baixas podem estar verdes. O truque é a altitude: escolha uma cota base acima dos 1800 m ou um glaciar e o Natal branco trata de si próprio. Estas são as estâncias que cumprem no fim de dezembro.",
       "it": "Natale è l'inizio della stagione, e i paesi a bassa quota possono essere verdi. Il trucco è la quota: scegli una base sopra i 1800 m o un ghiacciaio e il bianco Natale arriva da solo. Queste sono le località che rispondono presente a fine dicembre.",
       "nl": "Kerst is het begin van het seizoen, en laaggelegen dorpen kunnen dan nog groen zijn. De truc is hoogte: kies een basis boven de 1800 m of een gletsjer, en de witte kerst regelt zichzelf. Dit zijn de skigebieden die eind december leveren.",
-      "ja": "クリスマスはシーズンの始まりであり、標高の低い村では雪がなく地面が見えていることもある。カギとなるのは標高だ。標高1800メートル以上のベース、もしくは氷河リゾートを選べば、ホワイトクリスマスは自然と実現する。ここで紹介するのは、12月下旬でも確実に雪を楽しめるリゾートだ。"
+      "ja": "クリスマスはシーズンの始まりであり、標高の低い村では雪がなく地面が見えていることもある。カギとなるのは標高だ。標高1800メートル以上のベース、もしくは氷河リゾートを選べば、ホワイトクリスマスは自然と実現する。ここで紹介するのは、12月下旬でも確実に雪を楽しめるリゾートだ。",
+      "zh-hk": "聖誕正值雪季之初，海拔較低的村落，雪地或未必雪白一片。訣竅在於海拔：選擇山腳海拔高於1800米的滑雪場，或直接選冰川滑雪場，白色聖誕自然無憂。以下是12月下旬表現最穩定的滑雪場。"
     },
     "body": {
       "en": "In late December the snowpack is young, so altitude does the heavy lifting. Val Thorens (2300 m), Cervinia (2050 m), Obergurgl, Sestriere and Livigno all start their pistes high enough that Christmas snow is close to guaranteed, while the glacier resorts, Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun and the Stubai, have been skiing since autumn and simply do not depend on December storms.\n\nThe week between Christmas and New Year is the most expensive and the most booked of the whole winter. If you want it, book by early autumn: slope-side beds in the snow-sure names go first. For the party, Val Thorens and Ischgl own New Year on the snow; for a quieter, more elegant réveillon, Lech-Zürs, Obergurgl and Zermatt do candlelight better than anyone.\n\nAnd a trick the regulars use: the first week of January. Same young-winter snow, the same pistes freshly groomed, at a fraction of the New Year price and with half the people. If your dates are flexible, it is the best-value week of the entire winter.",
@@ -935,7 +1027,8 @@
       "pt": "No fim de dezembro o manto é jovem: é a altitude que faz o trabalho. Val Thorens (2300 m), Cervinia (2050 m), Obergurgl, Sestriere e Livigno começam as pistas tão alto que a neve de Natal está quase garantida, enquanto as estâncias de glaciar, Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun e o Stubai, esquiam desde o outono e simplesmente não dependem dos nevões de dezembro.\n\nA semana entre o Natal e a passagem de ano é a mais cara e a mais reservada de todo o inverno. Se a quer, reserve antes do início do outono: as camas à beira das pistas das estâncias com neve garantida partem primeiro. Para a festa, Val Thorens e Ischgl mandam na passagem de ano; para um réveillon mais discreto, Lech-Zürs, Obergurgl e Zermatt fazem as velas melhor do que ninguém.\n\nE o truque dos habituais: a primeira semana de janeiro. A mesma neve de início de inverno, as mesmas pistas acabadas de pisar, por uma fração do preço da passagem de ano e com metade das pessoas. Se as suas datas são flexíveis, é a semana com melhor relação qualidade-preço de todo o inverno.",
       "it": "A fine dicembre il manto è giovane: è la quota a fare il lavoro. Val Thorens (2300 m), Cervinia (2050 m), Obergurgl, Sestriere e Livigno partono con le piste così in alto che la neve di Natale è quasi garantita, mentre le località di ghiacciaio, Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun e lo Stubai, sciano dall'autunno e semplicemente non dipendono dalle nevicate di dicembre.\n\nLa settimana tra Natale e Capodanno è la più cara e la più prenotata di tutto l'inverno. Se la vuoi, prenota entro inizio autunno: i letti sulle piste dei nomi con neve sicura partono per primi. Per la festa, Val Thorens e Ischgl comandano a Capodanno; per un cenone più elegante, Lech-Zürs, Obergurgl e Zermatt fanno le candele meglio di chiunque.\n\nE il trucco degli habitué: la prima settimana di gennaio. La stessa neve di inizio inverno, le stesse piste appena battute, a una frazione del prezzo di Capodanno e con metà della gente. Se le tue date sono flessibili, è la settimana con il miglior rapporto qualità-prezzo di tutto l'inverno.",
       "nl": "Eind december is het sneeuwdek nog jong, dus doet hoogte het zware werk. Val Thorens (2300 m), Cervinia (2050 m), Obergurgl, Sestriere en Livigno beginnen hun pistes allemaal hoog genoeg dat kerstsneeuw bijna gegarandeerd is, terwijl de gletsjergebieden, Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun en de Stubai, al sinds de herfst skiën en simpelweg niet afhankelijk zijn van sneeuwval in december.\n\nDe week tussen kerst en oud en nieuw is de duurste en meest volgeboekte van de hele winter. Wil je die periode, boek dan uiterlijk begin herfst: bedden aan de piste bij de namen met sneeuwzekerheid zijn het eerst weg. Voor het feestgedruis regeren Val Thorens en Ischgl met oud en nieuw op de sneeuw; voor een rustigere, elegantere jaarwisseling doen Lech-Zürs, Obergurgl en Zermatt kaarslicht beter dan wie dan ook.\n\nEn een truc van de vaste klanten: de eerste week van januari. Dezelfde sneeuw van vroeg in de winter, dezelfde vers geprepareerde pistes, voor een fractie van de prijs van oud en nieuw en met half zoveel mensen. Als je data flexibel zijn, is dit de week met de beste prijs-kwaliteitverhouding van de hele winter.",
-      "ja": "12月下旬はまだ積雪が浅いため、標高がものを言う。ヴァル・トランス(標高2300メートル)、チェルヴィニア(標高2050メートル)、オーバーグルグル、セストリエーレ、リヴィーニョは、いずれもゲレンデの起点が高く、クリスマスの雪はほぼ確実といっていい。一方、ツェルマット、サースフェー、ヒンタートゥクス、ゼルデン、カプルン、シュトゥバイといった氷河リゾートは秋からすでに滑走可能で、12月の降雪に左右されることがそもそもない。\n\nクリスマスから年末年始にかけての一週間は、冬シーズン全体で最も高額かつ最も予約が埋まりやすい時期だ。この時期を狙うなら初秋までに予約を済ませておきたい。雪が確実なリゾートのゲレンデ直結の部屋から先に埋まっていく。賑やかに過ごしたいなら、ヴァル・トランスとイシュグルが雪上のカウントダウンの主役だ。一方、静かで上品な年越し(レヴェイヨン)を求めるなら、レッヒ・ツュルス、オーバーグルグル、ツェルマットのキャンドルライトの雰囲気に勝る場所はない。\n\nそして常連客が使う裏技が、1月最初の週だ。雪質はクリスマスと変わらず新しく、ゲレンデも整備されたばかりなのに、価格は年末年始のほんの一部、人出も半分程度で済む。日程に融通が利くなら、冬シーズン全体で最もお得な一週間といえる。"
+      "ja": "12月下旬はまだ積雪が浅いため、標高がものを言う。ヴァル・トランス(標高2300メートル)、チェルヴィニア(標高2050メートル)、オーバーグルグル、セストリエーレ、リヴィーニョは、いずれもゲレンデの起点が高く、クリスマスの雪はほぼ確実といっていい。一方、ツェルマット、サースフェー、ヒンタートゥクス、ゼルデン、カプルン、シュトゥバイといった氷河リゾートは秋からすでに滑走可能で、12月の降雪に左右されることがそもそもない。\n\nクリスマスから年末年始にかけての一週間は、冬シーズン全体で最も高額かつ最も予約が埋まりやすい時期だ。この時期を狙うなら初秋までに予約を済ませておきたい。雪が確実なリゾートのゲレンデ直結の部屋から先に埋まっていく。賑やかに過ごしたいなら、ヴァル・トランスとイシュグルが雪上のカウントダウンの主役だ。一方、静かで上品な年越し(レヴェイヨン)を求めるなら、レッヒ・ツュルス、オーバーグルグル、ツェルマットのキャンドルライトの雰囲気に勝る場所はない。\n\nそして常連客が使う裏技が、1月最初の週だ。雪質はクリスマスと変わらず新しく、ゲレンデも整備されたばかりなのに、価格は年末年始のほんの一部、人出も半分程度で済む。日程に融通が利くなら、冬シーズン全体で最もお得な一週間といえる。",
+      "zh-hk": "12月下旬，積雪層仍算「年輕」，因此海拔高度成為關鍵。Val Thorens（2300米）、Cervinia（2050米）、Obergurgl、Sestriere及Livigno的雪道起點均夠高，聖誕積雪幾乎有保證；而冰川滑雪場，包括Zermatt、Saas-Fee、Hintertux、Sölden、Kaprun及Stubai，自秋天已開始滑雪，根本毋須依賴12月的降雪。\n\n聖誕與新年之間的一週，是整個雪季中最昂貴、亦最快訂滿的一週。如果想安排這段假期，最遲要在初秋預訂：積雪穩定的知名滑雪場，雪道旁的床位總是最先被訂走。想熱鬧跨年，Val Thorens及Ischgl的雪地新年氣氛首屈一指；想要寧靜優雅的跨年夜，Lech-Zürs、Obergurgl及Zermatt的燭光氣氛，無人能及。\n\n還有一個常客才知道的訣竅：1月第一週。同樣是初冬積雪，同樣是剛修整好的雪道，價錢卻只是新年價錢的一小部分，人流亦減半。如果你的出發日期能夠彈性安排，這正是整個雪季最超值的一週。"
     },
     "faq": [
       {
@@ -946,7 +1039,8 @@
           "pt": "Onde é mais fiável a neve no Natal?",
           "it": "Dove la neve è più affidabile a Natale?",
           "nl": "Waar is de sneeuw met kerst het meest betrouwbaar?",
-          "ja": "クリスマスに最も雪が確実な場所はどこ?"
+          "ja": "クリスマスに最も雪が確実な場所はどこ?",
+          "zh-hk": "聖誕期間，哪裡的積雪最穩定可靠？"
         },
         "a": {
           "en": "Resorts with a base above 1800 m (Val Thorens, Cervinia, Obergurgl, Sestriere, Livigno) and the glacier resorts (Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun, Stubai), which have been open since autumn.",
@@ -955,7 +1049,8 @@
           "pt": "As estâncias com cota base acima dos 1800 m (Val Thorens, Cervinia, Obergurgl, Sestriere, Livigno) e as de glaciar (Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun, Stubai), abertas desde o outono.",
           "it": "Le località con base sopra i 1800 m (Val Thorens, Cervinia, Obergurgl, Sestriere, Livigno) e quelle di ghiacciaio (Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun, Stubai), aperte dall'autunno.",
           "nl": "Skigebieden met een basis boven de 1800 m (Val Thorens, Cervinia, Obergurgl, Sestriere, Livigno) en de gletsjergebieden (Zermatt, Saas-Fee, Hintertux, Sölden, Kaprun, Stubai), die al open zijn sinds de herfst.",
-          "ja": "ベース標高1800メートル以上のリゾート(ヴァル・トランス、チェルヴィニア、オーバーグルグル、セストリエーレ、リヴィーニョ)、そして秋から営業している氷河リゾート(ツェルマット、サースフェー、ヒンタートゥクス、ゼルデン、カプルン、シュトゥバイ)だ。"
+          "ja": "ベース標高1800メートル以上のリゾート(ヴァル・トランス、チェルヴィニア、オーバーグルグル、セストリエーレ、リヴィーニョ)、そして秋から営業している氷河リゾート(ツェルマット、サースフェー、ヒンタートゥクス、ゼルデン、カプルン、シュトゥバイ)だ。",
+          "zh-hk": "山腳海拔高於1800米的滑雪場（Val Thorens、Cervinia、Obergurgl、Sestriere、Livigno），以及自秋天已開放的冰川滑雪場（Zermatt、Saas-Fee、Hintertux、Sölden、Kaprun、Stubai）。"
         }
       },
       {
@@ -966,7 +1061,8 @@
           "pt": "Quando reservar o esqui de Natal e passagem de ano?",
           "it": "Quando prenotare la settimana di Natale e Capodanno?",
           "nl": "Wanneer moet ik een skivakantie met kerst en oud en nieuw boeken?",
-          "ja": "クリスマス・年末年始のスキーはいつ予約すべき?"
+          "ja": "クリスマス・年末年始のスキーはいつ予約すべき?",
+          "zh-hk": "聖誕新年滑雪，應該幾時預訂？"
         },
         "a": {
           "en": "By early autumn at the latest. Christmas and New Year are the most booked weeks of the winter, and slope-side lodging in the snow-sure resorts sells out first. Summer bookings get the best choice.",
@@ -975,7 +1071,8 @@
           "pt": "O mais tardar no início do outono. Natal e passagem de ano são as semanas mais reservadas do inverno, e o alojamento à beira das pistas das estâncias seguras esgota primeiro. Reservar no verão dá a melhor escolha.",
           "it": "Al più tardi a inizio autunno. Natale e Capodanno sono le settimane più prenotate dell'inverno, e gli alloggi sulle piste delle località sicure si esauriscono per primi. Prenotare d'estate dà la scelta migliore.",
           "nl": "Uiterlijk begin herfst. Kerst en oud en nieuw zijn de meest volgeboekte weken van de winter, en accommodatie aan de piste in de skigebieden met sneeuwzekerheid is het eerst uitverkocht. Wie in de zomer boekt, heeft de beste keuze.",
-          "ja": "遅くとも初秋までに。クリスマスと年末年始は冬シーズン中で最も予約が埋まりやすい週で、雪が確実なリゾートのゲレンデ直結の宿泊施設から先に売り切れる。夏のうちに予約すれば選択肢が最も豊富だ。"
+          "ja": "遅くとも初秋までに。クリスマスと年末年始は冬シーズン中で最も予約が埋まりやすい週で、雪が確実なリゾートのゲレンデ直結の宿泊施設から先に売り切れる。夏のうちに予約すれば選択肢が最も豊富だ。",
+          "zh-hk": "最遲初秋就要預訂。聖誕與新年是整個雪季中最快訂滿的兩週，積雪穩定的滑雪場，雪道旁住宿更會最先售罄。夏天預訂，選擇最多。"
         }
       },
       {
@@ -986,7 +1083,8 @@
           "pt": "A primeira semana de janeiro é melhor do que a da passagem de ano?",
           "it": "La prima settimana di gennaio è meglio di quella di Capodanno?",
           "nl": "Is begin januari beter dan de week van oud en nieuw?",
-          "ja": "1月上旬は年末年始の週より狙い目?"
+          "ja": "1月上旬は年末年始の週より狙い目?",
+          "zh-hk": "1月初，是否比新年週更值得選擇？"
         },
         "a": {
           "en": "For value, yes. The snow is the same, the pistes are quieter and prices drop sharply once the holidays end. If your dates are flexible, the first two weeks of January are the smartest window of the winter.",
@@ -995,7 +1093,8 @@
           "pt": "Em termos de qualidade-preço, sim. A neve é a mesma, as pistas estão mais calmas e os preços caem assim que as festas terminam. Com datas flexíveis, as duas primeiras semanas de janeiro são a janela mais inteligente do inverno.",
           "it": "Per il rapporto qualità-prezzo, sì. La neve è la stessa, le piste sono più tranquille e i prezzi crollano appena finite le feste. Con date flessibili, le prime due settimane di gennaio sono la finestra più furba dell'inverno.",
           "nl": "Qua prijs-kwaliteitverhouding wel. De sneeuw is hetzelfde, de pistes zijn rustiger en de prijzen dalen flink zodra de feestdagen voorbij zijn. Als je data flexibel zijn, zijn de eerste twee weken van januari het slimste moment van de winter.",
-          "ja": "コストパフォーマンスで見れば狙い目だ。雪質は変わらず、ゲレンデは空いていて、休暇が終わると価格は大きく下がる。日程に融通が利くなら、1月最初の2週間が冬シーズン中で最も賢い選択だ。"
+          "ja": "コストパフォーマンスで見れば狙い目だ。雪質は変わらず、ゲレンデは空いていて、休暇が終わると価格は大きく下がる。日程に融通が利くなら、1月最初の2週間が冬シーズン中で最も賢い選択だ。",
+          "zh-hk": "論超值程度，答案是的。積雪質素相同，雪道人流卻較少，而假期一結束，價錢便會大幅下降。如果出發日期能夠彈性安排，1月頭兩週便是整個雪季最精明的選擇。"
         }
       }
     ]
@@ -1008,7 +1107,8 @@
       "pt": "Onde esquiar em novembro de 2026: glaciares e aberturas antecipadas",
       "it": "Dove sciare a novembre 2026: ghiacciai e aperture anticipate",
       "nl": "Waar skiën in november 2026: gletsjers en vroege openingen",
-      "ja": "2026年11月にスキーを楽しむなら、氷河と早期オープンのゲレンデへ"
+      "ja": "2026年11月にスキーを楽しむなら、氷河と早期オープンのゲレンデへ",
+      "zh-hk": "2026年11月該去哪裡滑雪：冰川與率先開放的滑雪場"
     },
     "intro": {
       "en": "You do not have to wait for December. Between the Alpine glaciers that never really closed and Lapland's early winter, November offers real skiing on quiet pistes at pre-season prices. Here is where the lifts are already turning.",
@@ -1017,7 +1117,8 @@
       "pt": "Não é preciso esperar por dezembro. Entre os glaciares alpinos que nunca chegaram a fechar e o inverno antecipado da Lapónia, novembro oferece esqui a sério em pistas calmas a preços de pré-época. Eis onde os teleféricos já rodam.",
       "it": "Non serve aspettare dicembre. Tra i ghiacciai alpini che non hanno mai davvero chiuso e l'inverno anticipato della Lapponia, novembre offre vero sci su piste tranquille a prezzi di pre-stagione. Ecco dove gli impianti girano già.",
       "nl": "Je hoeft niet te wachten tot december. Tussen de Alpengletsjers die nooit echt gesloten waren en de vroege winter van Lapland biedt november echt skiën op rustige pistes tegen prijzen van het voorseizoen. Dit is waar de liften al draaien.",
-      "ja": "12月を待つ必要はない。実質的に閉鎖することのないアルプスの氷河と、いち早く冬を迎えるラップランドのおかげで、11月でも空いたゲレンデでシーズン前料金の本格的なスキーが楽しめる。ここでは、すでにリフトが動き始めている場所を紹介する。"
+      "ja": "12月を待つ必要はない。実質的に閉鎖することのないアルプスの氷河と、いち早く冬を迎えるラップランドのおかげで、11月でも空いたゲレンデでシーズン前料金の本格的なスキーが楽しめる。ここでは、すでにリフトが動き始めている場所を紹介する。",
+      "zh-hk": "毋須苦等12月。阿爾卑斯山從未真正關閉的冰川滑雪場，加上拉普蘭提早降臨的冬天，令11月已能享受貨真價實的滑雪體驗：雪道清靜，價錢亦屬季前優惠。以下滑雪場的纜車，現在已經開始運行。"
     },
     "body": {
       "en": "November skiing splits into two worlds. The first is the glaciers: Zermatt skis year-round, Saas-Fee reopens in July, Tignes, Sölden, the Stubai and Mölltal fire up in September, and Hintertux, Kaprun and Cervinia follow through October. By November they offer serious verticals of wintry, high-altitude snow while the valleys below are still autumn brown. This is where the national race teams train, and you will share the lifts with them.\n\nThe second world is the far north. Ruka in Finland opens in early October on farmed snow saved under sawdust from last season, with Levi, Saariselkä and Pyhä close behind; Levi even hosts the World Cup slalom in mid-November. Trysil, Sälen and Geilo bring Scandinavia online through early November. Days are short and the light is low and blue, but the snow is real winter and the atmosphere is pure Lapland.\n\nWhy go in November at all? Empty pistes, pre-season prices, and first tracks months before the crowds. Check what is actually open before booking, glacier weather can close upper sections, and use our live snow report to time it.",
@@ -1026,7 +1127,8 @@
       "pt": "O esqui de novembro divide-se em dois mundos. O primeiro são os glaciares: Zermatt esquia todo o ano, Saas-Fee reabre em julho, Tignes, Sölden, o Stubai e o Mölltal arrancam em setembro, e Hintertux, Kaprun e Cervinia seguem em outubro. Em novembro oferecem desníveis a sério de neve de altitude enquanto os vales ainda estão castanhos. É ali que treinam as equipas nacionais, e vai partilhar os teleféricos com elas.\n\nO segundo mundo é o grande norte. Ruka, na Finlândia, abre no início de outubro com neve conservada sob serradura desde a época passada, seguida de perto por Levi, Saariselkä e Pyhä; Levi recebe mesmo o slalom da Taça do Mundo a meio de novembro. Trysil, Sälen e Geilo acendem a Escandinávia no início do mês. Os dias são curtos e a luz baixa e azul, mas a neve é inverno a sério e o ambiente é pura Lapónia.\n\nPorquê ir em novembro? Pistas vazias, preços de pré-época e primeiras marcas meses antes da multidão. Confirme o que está mesmo aberto antes de reservar, o tempo de glaciar pode fechar as secções altas, e use o nosso boletim de neve em direto para acertar.",
       "it": "Lo sci di novembre si divide in due mondi. Il primo sono i ghiacciai: Zermatt scia tutto l'anno, Saas-Fee riapre a luglio, Tignes, Sölden, lo Stubai e il Mölltal ripartono a settembre, e Hintertux, Kaprun e Cervinia seguono a ottobre. A novembre offrono dislivelli seri di neve d'alta quota mentre le valli sono ancora marroni. È lì che si allenano le squadre nazionali, e condividerai gli impianti con loro.\n\nIl secondo mondo è il grande nord. Ruka, in Finlandia, apre a inizio ottobre su neve conservata sotto la segatura dalla stagione scorsa, seguita da vicino da Levi, Saariselkä e Pyhä; Levi ospita persino lo slalom di Coppa del Mondo a metà novembre. Trysil, Sälen e Geilo accendono la Scandinavia a inizio mese. Le giornate sono corte e la luce bassa e blu, ma la neve è vero inverno e l'atmosfera pura Lapponia.\n\nPerché andare a novembre? Piste vuote, prezzi di pre-stagione e prime tracce mesi prima della folla. Verifica cosa è davvero aperto prima di prenotare, il meteo dei ghiacciai può chiudere le sezioni alte, e usa il nostro bollettino neve in diretta per scegliere il momento.",
       "nl": "Skiën in november valt uiteen in twee werelden. De eerste zijn de gletsjers: Zermatt skiet het hele jaar door, Saas-Fee heropent in juli, Tignes, Sölden, de Stubai en de Mölltal komen in september op gang, en Hintertux, Kaprun en Cervinia volgen in de loop van oktober. Tegen november bieden ze serieuze hoogteverschillen met winterse sneeuw op grote hoogte, terwijl de valleien eronder nog herfstbruin zijn. Hier trainen de nationale wedstrijdploegen, en je deelt de liften met hen.\n\nDe tweede wereld is het hoge noorden. Ruka in Finland opent begin oktober op gekweekte sneeuw die onder zaagsel bewaard is gebleven van vorig seizoen, met Levi, Saariselkä en Pyhä vlak erachter; Levi organiseert medio november zelfs de wereldbekerslalom. Trysil, Sälen en Geilo brengen Scandinavië begin november op gang. De dagen zijn kort en het licht is laag en blauw, maar de sneeuw is echte winter en de sfeer is puur Lapland.\n\nWaarom zou je in november gaan? Lege pistes, prijzen van het voorseizoen en de eerste sporen maanden voor de drukte. Controleer voor het boeken wat er echt open is, gletsjerweer kan de hogere secties sluiten, en gebruik ons actuele sneeuwbericht om het juiste moment te kiezen.",
-      "ja": "11月のスキーは大きく二つの世界に分かれる。ひとつは氷河だ。ツェルマットは通年滑走可能、サースフェーは7月に営業を再開し、ティーニュ、ゼルデン、シュトゥバイ、メルタールは9月に始動、ヒンタートゥクス、カプルン、チェルヴィニアも10月にかけて続く。11月になる頃には、麓の谷がまだ秋色に染まっている中、本格的な標高差のある冬らしい雪を楽しめる。各国のナショナルチームが練習拠点にする場所でもあり、リフトを彼らと共にすることになる。\n\nもうひとつの世界は極北だ。フィンランドのルカは、前シーズンからおがくずの下で保存した雪を使い10月上旬にオープン、レヴィ、サーリセルカ、ピュハもすぐ後に続く。レヴィは11月中旬にワールドカップのスラロームさえ開催する。トリシル、セーレン、ガイロは11月上旬にかけて北欧のシーズンを本格化させる。日照時間は短く光は低く青みがかっているが、雪は正真正銘の冬そのもので、雰囲気はまさにラップランドだ。\n\nなぜあえて11月に行くのか。空いたゲレンデ、シーズン前料金、そして混雑が始まる何ヶ月も前のファーストトラック。予約前に実際の営業状況を確認すること(氷河は天候次第で上部エリアが閉鎖されることもある)、そしてタイミングを計るにはライブ降雪情報を活用してほしい。"
+      "ja": "11月のスキーは大きく二つの世界に分かれる。ひとつは氷河だ。ツェルマットは通年滑走可能、サースフェーは7月に営業を再開し、ティーニュ、ゼルデン、シュトゥバイ、メルタールは9月に始動、ヒンタートゥクス、カプルン、チェルヴィニアも10月にかけて続く。11月になる頃には、麓の谷がまだ秋色に染まっている中、本格的な標高差のある冬らしい雪を楽しめる。各国のナショナルチームが練習拠点にする場所でもあり、リフトを彼らと共にすることになる。\n\nもうひとつの世界は極北だ。フィンランドのルカは、前シーズンからおがくずの下で保存した雪を使い10月上旬にオープン、レヴィ、サーリセルカ、ピュハもすぐ後に続く。レヴィは11月中旬にワールドカップのスラロームさえ開催する。トリシル、セーレン、ガイロは11月上旬にかけて北欧のシーズンを本格化させる。日照時間は短く光は低く青みがかっているが、雪は正真正銘の冬そのもので、雰囲気はまさにラップランドだ。\n\nなぜあえて11月に行くのか。空いたゲレンデ、シーズン前料金、そして混雑が始まる何ヶ月も前のファーストトラック。予約前に実際の営業状況を確認すること(氷河は天候次第で上部エリアが閉鎖されることもある)、そしてタイミングを計るにはライブ降雪情報を活用してほしい。",
+      "zh-hk": "11月的滑雪，分成兩個世界。第一個是冰川滑雪場：Zermatt全年開放，Saas-Fee於7月重開，Tignes、Sölden、Stubai及Mölltal於9月起動，Hintertux、Kaprun及Cervinia則陸續於10月加入。踏入11月，這些滑雪場已提供紮實的高海拔冬季雪道落差，而山下的山谷仍是一片秋日褐色。這裡正是各國代表隊集訓之地，你將與職業選手共用纜車。\n\n第二個世界，是遙遠的北方。芬蘭的Ruka於10月初開放，靠的是上季用鋸屑保存下來的人造雪；Levi、Saariselkä及Pyhä緊隨其後開放，Levi更於11月中舉辦世界盃回轉賽。Trysil、Sälen及Geilo則於11月初帶動整個斯堪的納維亞開放滑雪。日短夜長，光線低垂帶點淡藍，但積雪絕對是貨真價實的隆冬雪，氣氛更是純正的拉普蘭風情。\n\n為何值得在11月出發？雪道空無一人、價錢屬季前優惠，更可比人潮提早數月率先「開荒」踏雪。預訂前務必查清實際開放情況，冰川天氣可能令上段雪道關閉，建議參考我們的即時雪況報告，以便掌握最佳時機。"
     },
     "faq": [
       {
@@ -1037,7 +1139,8 @@
           "pt": "Que estâncias europeias estão abertas em novembro?",
           "it": "Quali località europee sono aperte a novembre?",
           "nl": "Welke Europese skigebieden zijn open in november?",
-          "ja": "11月に営業しているヨーロッパのリゾートはどこ?"
+          "ja": "11月に営業しているヨーロッパのリゾートはどこ?",
+          "zh-hk": "11月，哪些歐洲滑雪場已經開放？"
         },
         "a": {
           "en": "The glaciers (Zermatt, Saas-Fee, Tignes, Sölden, Hintertux, Stubai, Kaprun, Cervinia), Lapland (Ruka, Levi, Saariselkä, Pyhä) and Scandinavian early openers like Trysil, Sälen and Geilo. Obergurgl joins mid-month.",
@@ -1046,7 +1149,8 @@
           "pt": "Os glaciares (Zermatt, Saas-Fee, Tignes, Sölden, Hintertux, Stubai, Kaprun, Cervinia), a Lapónia (Ruka, Levi, Saariselkä, Pyhä) e os madrugadores escandinavos como Trysil, Sälen e Geilo. Obergurgl junta-se a meio do mês.",
           "it": "I ghiacciai (Zermatt, Saas-Fee, Tignes, Sölden, Hintertux, Stubai, Kaprun, Cervinia), la Lapponia (Ruka, Levi, Saariselkä, Pyhä) e i primi ad aprire in Scandinavia come Trysil, Sälen e Geilo. Obergurgl si aggiunge a metà mese.",
           "nl": "De gletsjers (Zermatt, Saas-Fee, Tignes, Sölden, Hintertux, Stubai, Kaprun, Cervinia), Lapland (Ruka, Levi, Saariselkä, Pyhä) en vroege Scandinavische openers zoals Trysil, Sälen en Geilo. Obergurgl sluit halverwege de maand aan.",
-          "ja": "氷河リゾート(ツェルマット、サースフェー、ティーニュ、ゼルデン、ヒンタートゥクス、シュトゥバイ、カプルン、チェルヴィニア)、ラップランド(ルカ、レヴィ、サーリセルカ、ピュハ)、そしてトリシル、セーレン、ガイロといった北欧の早期オープン組だ。オーバーグルグルは月半ばに加わる。"
+          "ja": "氷河リゾート(ツェルマット、サースフェー、ティーニュ、ゼルデン、ヒンタートゥクス、シュトゥバイ、カプルン、チェルヴィニア)、ラップランド(ルカ、レヴィ、サーリセルカ、ピュハ)、そしてトリシル、セーレン、ガイロといった北欧の早期オープン組だ。オーバーグルグルは月半ばに加わる。",
+          "zh-hk": "冰川滑雪場（Zermatt、Saas-Fee、Tignes、Sölden、Hintertux、Stubai、Kaprun、Cervinia）、拉普蘭（Ruka、Levi、Saariselkä、Pyhä），以及斯堪的納維亞率先開放的滑雪場，例如Trysil、Sälen及Geilo。Obergurgl則於月中加入開放行列。"
         }
       },
       {
@@ -1057,7 +1161,8 @@
           "pt": "Glaciar ou Lapónia para uma viagem em novembro?",
           "it": "Ghiacciaio o Lapponia per un viaggio a novembre?",
           "nl": "Gletsjer of Lapland voor een novemberreis?",
-          "ja": "11月の旅行なら氷河とラップランド、どちらがいい?"
+          "ja": "11月の旅行なら氷河とラップランド、どちらがいい?",
+          "zh-hk": "11月出發，應該選冰川滑雪場還是拉普蘭？"
         },
         "a": {
           "en": "Glaciers for big verticals, hard training and high-alpine scenery; Lapland for guaranteed winter atmosphere, gentle pistes and the blue polar light. Days are noticeably shorter in the far north.",
@@ -1066,7 +1171,8 @@
           "pt": "O glaciar para grandes desníveis, treino e alta montanha; a Lapónia para o ambiente de inverno garantido, pistas suaves e a luz azul polar. Os dias são bem mais curtos no grande norte.",
           "it": "Il ghiacciaio per grandi dislivelli, allenamento e alta montagna; la Lapponia per l'atmosfera invernale garantita, piste dolci e la luce blu polare. Le giornate sono nettamente più corte nel grande nord.",
           "nl": "Gletsjers voor grote hoogteverschillen, stevige training en hoogalpiene natuur; Lapland voor gegarandeerde wintersfeer, glooiende pistes en het blauwe poollicht. De dagen zijn in het hoge noorden merkbaar korter.",
-          "ja": "大きな標高差、本格的なトレーニング、高山らしい景観を求めるなら氷河。確実な冬の雰囲気、緩やかな斜面、青みがかった極地の光を求めるならラップランドだ。極北では日照時間が目に見えて短くなる。"
+          "ja": "大きな標高差、本格的なトレーニング、高山らしい景観を求めるなら氷河。確実な冬の雰囲気、緩やかな斜面、青みがかった極地の光を求めるならラップランドだ。極北では日照時間が目に見えて短くなる。",
+          "zh-hk": "想要紮實的雪道落差、刻苦訓練及高山美景，選冰川滑雪場；想要有保證的冬日氣氛、平緩雪道及淡藍極地光線，則選拉普蘭。北方日照時間明顯較短。"
         }
       },
       {
@@ -1077,7 +1183,8 @@
           "pt": "Esquiar em novembro compensa?",
           "it": "Sciare a novembre conviene?",
           "nl": "Is skiën in november voordelig?",
-          "ja": "11月のスキーはお得?"
+          "ja": "11月のスキーはお得?",
+          "zh-hk": "11月滑雪，是否超值？"
         },
         "a": {
           "en": "Usually, yes: lodging runs at pre-season prices and pistes are quiet. The trade-off is that only part of each ski area is open, so check the live snow report and lift status before you commit.",
@@ -1086,7 +1193,8 @@
           "pt": "Normalmente sim: o alojamento está a preços de pré-época e as pistas estão calmas. A contrapartida é que só parte do domínio está aberta: confirme o boletim de neve e os teleféricos antes de reservar.",
           "it": "Di solito sì: gli alloggi sono a prezzi di pre-stagione e le piste tranquille. Il rovescio è che solo parte del comprensorio è aperta: controlla il bollettino neve e lo stato degli impianti prima di prenotare.",
           "nl": "Meestal wel: accommodatie is geprijsd op voorseizoensniveau en de pistes zijn rustig. De keerzijde is dat maar een deel van elk skigebied open is, dus controleer het actuele sneeuwbericht en de liftstatus voordat je boekt.",
-          "ja": "多くの場合お得だ。宿泊費はシーズン前料金で、ゲレンデも空いている。ただし各エリアの一部しか営業していないというトレードオフがあるため、予約前にライブ降雪情報とリフトの稼働状況を確認してほしい。"
+          "ja": "多くの場合お得だ。宿泊費はシーズン前料金で、ゲレンデも空いている。ただし各エリアの一部しか営業していないというトレードオフがあるため、予約前にライブ降雪情報とリフトの稼働状況を確認してほしい。",
+          "zh-hk": "一般而言是的：住宿以季前優惠價提供，雪道亦較為清靜。唯一要留意的是，每個滑雪區僅局部開放，預訂前應查看即時雪況報告及纜車運行狀態。"
         }
       }
     ]

@@ -38,7 +38,7 @@ export function weatherKind(code: number | null): WeatherKind {
 }
 
 const LABELS: Record<WeatherKind, Record<Locale, string>> = {
-  clear: { en: 'Clear', fr: 'Ciel clair', es: 'Despejado', pt: 'Céu limpo', it: 'Sereno', ja: '晴れ', nl: 'Helder' },
+  clear: { en: 'Clear', fr: 'Ciel clair', es: 'Despejado', pt: 'Céu limpo', it: 'Sereno', ja: '晴れ', nl: 'Helder', 'zh-hk': '晴天' },
   partlyCloudy: {
     en: 'Partly cloudy',
     fr: 'Partiellement nuageux',
@@ -47,6 +47,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     it: 'Parzialmente nuvoloso',
     ja: '一部曇り',
     nl: 'Gedeeltelijk bewolkt',
+    'zh-hk': '部分多雲',
   },
   overcast: {
     en: 'Overcast',
@@ -56,10 +57,11 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     it: 'Coperto',
     ja: '曇り',
     nl: 'Zwaar bewolkt',
+    'zh-hk': '密雲',
   },
-  fog: { en: 'Fog', fr: 'Brouillard', es: 'Niebla', pt: 'Nevoeiro', it: 'Nebbia', ja: '霧', nl: 'Mist' },
-  drizzle: { en: 'Drizzle', fr: 'Bruine', es: 'Llovizna', pt: 'Chuvisco', it: 'Pioviggine', ja: '霧雨', nl: 'Motregen' },
-  rain: { en: 'Rain', fr: 'Pluie', es: 'Lluvia', pt: 'Chuva', it: 'Pioggia', ja: '雨', nl: 'Regen' },
+  fog: { en: 'Fog', fr: 'Brouillard', es: 'Niebla', pt: 'Nevoeiro', it: 'Nebbia', ja: '霧', nl: 'Mist', 'zh-hk': '霧' },
+  drizzle: { en: 'Drizzle', fr: 'Bruine', es: 'Llovizna', pt: 'Chuvisco', it: 'Pioviggine', ja: '霧雨', nl: 'Motregen', 'zh-hk': '微雨' },
+  rain: { en: 'Rain', fr: 'Pluie', es: 'Lluvia', pt: 'Chuva', it: 'Pioggia', ja: '雨', nl: 'Regen', 'zh-hk': '雨' },
   freezingRain: {
     en: 'Freezing rain',
     fr: 'Pluie verglaçante',
@@ -68,6 +70,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     it: 'Pioggia gelata',
     ja: '着氷性の雨',
     nl: 'IJzel',
+    'zh-hk': '凍雨',
   },
   snowLight: {
     en: 'Light snow',
@@ -77,6 +80,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     it: 'Neve leggera',
     ja: '小雪',
     nl: 'Lichte sneeuw',
+    'zh-hk': '小雪',
   },
   snowHeavy: {
     en: 'Heavy snow',
@@ -86,6 +90,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     it: 'Neve intensa',
     ja: '大雪',
     nl: 'Zware sneeuwval',
+    'zh-hk': '大雪',
   },
   thunderstorm: {
     en: 'Thunderstorm',
@@ -95,6 +100,7 @@ const LABELS: Record<WeatherKind, Record<Locale, string>> = {
     it: 'Temporale',
     ja: '雷雨',
     nl: 'Onweer',
+    'zh-hk': '雷暴',
   },
 }
 

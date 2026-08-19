@@ -12,11 +12,11 @@ import { localizeCountry } from '@/lib/countryNames'
 import { countrySlug } from '@/lib/countries'
 
 const LBL = {
-  regions: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: 'Berggebieden', ja: '山岳エリア' } as Record<Locale, string>,
-  byCountry: { en: 'Browse by country', fr: 'Parcourir par pays', es: 'Explora por país', pt: 'Explorar por país', it: 'Sfoglia per paese', nl: 'Bekijk per land', ja: '国から探す' } as Record<Locale, string>,
-  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート' } as Record<Locale, string>,
-  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località', nl: 'skigebied', ja: 'リゾート' } as Record<Locale, string>,
-  title: { en: 'Ski resorts in', fr: 'Stations de ski', es: 'Estaciones de esquí en', pt: 'Estâncias de esqui em', it: 'Località sciistiche in', nl: 'Skigebieden in', ja: 'スキー場' } as Record<Locale, string>,
+  regions: { en: 'Ski regions', fr: 'Régions de ski', es: 'Regiones de esquí', pt: 'Regiões de esqui', it: 'Regioni sciistiche', nl: 'Berggebieden', ja: '山岳エリア', 'zh-hk': '滑雪地區' } as Record<Locale, string>,
+  byCountry: { en: 'Browse by country', fr: 'Parcourir par pays', es: 'Explora por país', pt: 'Explorar por país', it: 'Sfoglia per paese', nl: 'Bekijk per land', ja: '国から探す', 'zh-hk': '按國家瀏覽' } as Record<Locale, string>,
+  resorts: { en: 'resorts', fr: 'stations', es: 'estaciones', pt: 'estâncias', it: 'località', nl: 'skigebieden', ja: 'リゾート', 'zh-hk': '滑雪場' } as Record<Locale, string>,
+  resort: { en: 'resort', fr: 'station', es: 'estación', pt: 'estância', it: 'località', nl: 'skigebied', ja: 'リゾート', 'zh-hk': '滑雪場' } as Record<Locale, string>,
+  title: { en: 'Ski resorts in', fr: 'Stations de ski', es: 'Estaciones de esquí en', pt: 'Estâncias de esqui em', it: 'Località sciistiche in', nl: 'Skigebieden in', ja: 'スキー場', 'zh-hk': '滑雪場' } as Record<Locale, string>,
 }
 
 const titleFor = (region: string, l: Locale) =>

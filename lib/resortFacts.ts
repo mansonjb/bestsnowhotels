@@ -76,6 +76,7 @@ const TERRAIN: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `La mappa delle piste pende verso il facile: ${d.pisteCounts.green} verdi e ${d.pisteCounts.blue} blu contro ${d.pisteCounts.red} rosse e ${d.pisteCounts.black} nere. Principianti e primi intermedi non restano mai senza terreno comodo.`,
     ja: (d) => `コース構成はやさしめで、グリーン${d.pisteCounts.green}本とブルー${d.pisteCounts.blue}本に対し、レッド${d.pisteCounts.red}本、ブラック${d.pisteCounts.black}本。初心者や初級者でも滑りやすいコースに困ることはまずない。`,
     nl: (d) => `De pistekaart leunt naar gemakkelijk: ${d.pisteCounts.green} groene en ${d.pisteCounts.blue} blauwe pistes tegenover ${d.pisteCounts.red} rode en ${d.pisteCounts.black} zwarte. Beginners en beginnende gevorderden komen hier zelden terrein tekort.`,
+    'zh-hk': (d) => `雪道分佈以輕鬆為主：${d.pisteCounts.green}條綠色雪道及${d.pisteCounts.blue}條藍色雪道，相對只有${d.pisteCounts.red}條紅色及${d.pisteCounts.black}條黑色雪道，初學者與初級滑雪者甚少會找不到合適雪道。`,
   },
   balanced: {
     en: (d) => `The terrain is well balanced: ${d.pisteCounts.green} green, ${d.pisteCounts.blue} blue, ${d.pisteCounts.red} red and ${d.pisteCounts.black} black runs, which suits a mixed group skiing together at different levels.`,
@@ -85,6 +86,7 @@ const TERRAIN: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Il terreno è ben bilanciato: ${d.pisteCounts.green} verdi, ${d.pisteCounts.blue} blu, ${d.pisteCounts.red} rosse e ${d.pisteCounts.black} nere. Ideale per un gruppo di livelli diversi che scia insieme.`,
     ja: (d) => `コース構成のバランスが良く、グリーン${d.pisteCounts.green}本、ブルー${d.pisteCounts.blue}本、レッド${d.pisteCounts.red}本、ブラック${d.pisteCounts.black}本と揃う。レベルの異なるグループで一緒に滑るのに向いている。`,
     nl: (d) => `Het terrein is goed in balans: ${d.pisteCounts.green} groene, ${d.pisteCounts.blue} blauwe, ${d.pisteCounts.red} rode en ${d.pisteCounts.black} zwarte pistes. Ideaal voor een groep met verschillende niveaus die samen skiet.`,
+    'zh-hk': (d) => `地形分佈十分平均：${d.pisteCounts.green}條綠色、${d.pisteCounts.blue}條藍色、${d.pisteCounts.red}條紅色及${d.pisteCounts.black}條黑色雪道，適合不同程度的滑雪者結伴同行。`,
   },
   expert: {
     en: (d) => `This is an expert-leaning mountain: ${d.pisteCounts.black} black runs alongside ${d.pisteCounts.red} red, with ${d.pisteCounts.green} green and ${d.pisteCounts.blue} blue for warming up. Strong skiers will find plenty to bite into.`,
@@ -94,6 +96,7 @@ const TERRAIN: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `È una montagna orientata agli esperti: ${d.pisteCounts.black} nere accanto a ${d.pisteCounts.red} rosse, con ${d.pisteCounts.green} verdi e ${d.pisteCounts.blue} blu per scaldarsi. Gli sciatori forti hanno parecchio da mordere.`,
     ja: (d) => `上級者向けの山で、ブラック${d.pisteCounts.black}本とレッド${d.pisteCounts.red}本が中心。ウォーミングアップ用にグリーン${d.pisteCounts.green}本とブルー${d.pisteCounts.blue}本もある。滑り応えのあるコースが豊富だ。`,
     nl: (d) => `Dit is een berg voor gevorderde skiërs: ${d.pisteCounts.black} zwarte pistes naast ${d.pisteCounts.red} rode, met ${d.pisteCounts.green} groene en ${d.pisteCounts.blue} blauwe om op te warmen. Sterke skiërs vinden hier meer dan genoeg uitdaging.`,
+    'zh-hk': (d) => `這裡偏向進階雪道：${d.pisteCounts.black}條黑色雪道加上${d.pisteCounts.red}條紅色雪道，另有${d.pisteCounts.green}條綠色及${d.pisteCounts.blue}條藍色雪道可作熱身。滑雪高手在此絕對大有可為。`,
   },
 }
 
@@ -106,6 +109,7 @@ const SNOW: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Con una base a ${km(d.altitudeBase)} m che sale fino a ${km(d.altitudeSummit)} m, l'affidabilità della neve è tra le migliori del nostro indice (punteggio ${d.snowScore}/100).`,
     ja: (d) => `標高${d.altitudeBase}mのベースから${d.altitudeSummit}mまで駆け上がり、積雪の安定性は当サイトの指数でもトップクラス(スコア${d.snowScore}/100)。`,
     nl: (d) => `Met een basishoogte van ${km(d.altitudeBase)} m die oploopt tot ${km(d.altitudeSummit)} m, hoort de sneeuwzekerheid hier bij de beste van onze index (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `山腳海拔${km(d.altitudeBase)}m，一路攀升至${km(d.altitudeSummit)}m，積雪穩定度在我們的指數中名列前茅（評分${d.snowScore}/100）。`,
   },
   reliable: {
     en: (d) => `The base sits at ${km(d.altitudeBase)} m and the top reaches ${km(d.altitudeSummit)} m, a profile that holds snow well across a normal winter (score ${d.snowScore}/100).`,
@@ -115,6 +119,7 @@ const SNOW: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `La base è a ${km(d.altitudeBase)} m e la cima raggiunge ${km(d.altitudeSummit)} m, un profilo che tiene bene la neve in un inverno normale (punteggio ${d.snowScore}/100).`,
     ja: (d) => `ベースは標高${d.altitudeBase}m、山頂は${d.altitudeSummit}mに達し、通常の冬なら積雪がしっかり保たれる地形(スコア${d.snowScore}/100)。`,
     nl: (d) => `De basis ligt op ${km(d.altitudeBase)} m en de top reikt tot ${km(d.altitudeSummit)} m, een profiel dat de sneeuw goed vasthoudt in een normale winter (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `山腳海拔${km(d.altitudeBase)}m，山頂則達${km(d.altitudeSummit)}m，這樣的地勢在一般雪季中都能保持良好積雪（評分${d.snowScore}/100）。`,
   },
   decent: {
     en: (d) => `From ${km(d.altitudeBase)} m at the base to ${km(d.altitudeSummit)} m up top, the resort leans on grooming and snowmaking in lean spells (score ${d.snowScore}/100).`,
@@ -124,6 +129,7 @@ const SNOW: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Da ${km(d.altitudeBase)} m alla base a ${km(d.altitudeSummit)} m in cima, la località si appoggia su battitura e neve programmata nei periodi magri (punteggio ${d.snowScore}/100).`,
     ja: (d) => `ベースの${d.altitudeBase}mから山頂の${d.altitudeSummit}mまで、雪が少ない時期は圧雪と人工降雪機に頼るスキー場(スコア${d.snowScore}/100)。`,
     nl: (d) => `Van ${km(d.altitudeBase)} m bij de basis tot ${km(d.altitudeSummit)} m boven, leunt het resort in magere periodes op pistebewerking en sneeuwkanonnen (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `由山腳${km(d.altitudeBase)}m至山頂${km(d.altitudeSummit)}m，遇上積雪較少的日子，這裡主要依靠壓雪及人工造雪維持雪況（評分${d.snowScore}/100）。`,
   },
   low: {
     en: (d) => `At ${km(d.altitudeBase)} m to ${km(d.altitudeSummit)} m this is a lower-altitude resort, so check conditions before you book and lean on the live snow report (score ${d.snowScore}/100).`,
@@ -133,6 +139,7 @@ const SNOW: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Tra ${km(d.altitudeBase)} m e ${km(d.altitudeSummit)} m è una località di quota più bassa: controlla le condizioni prima di prenotare e affidati al bollettino neve in tempo reale (punteggio ${d.snowScore}/100).`,
     ja: (d) => `標高${d.altitudeBase}mから${d.altitudeSummit}mと、比較的低いスキー場。予約前にコンディションを確認し、最新の積雪情報を活用したい(スコア${d.snowScore}/100)。`,
     nl: (d) => `Met ${km(d.altitudeBase)} m tot ${km(d.altitudeSummit)} m is dit een resort op lagere hoogte, dus check de omstandigheden voor je boekt en vertrouw op het actuele sneeuwbericht (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `海拔介乎${km(d.altitudeBase)}m至${km(d.altitudeSummit)}m，屬於較低海拔的滑雪勝地，訂房前宜先查看即時積雪報告（評分${d.snowScore}/100）。`,
   },
 }
 
@@ -145,6 +152,7 @@ const SIZE: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `È uno dei grandi comprensori della nostra selezione, ${d.pistesKm} km di piste su ${d.lifts} impianti, abbastanza per sciare un settore diverso ogni giorno della settimana.`,
     ja: (d) => `当サイトの中でも特に大規模なゲレンデで、コース総延長${d.pistesKm}km、リフト${d.lifts}基。1週間毎日違うエリアを滑ることもできる。`,
     nl: (d) => `Dit is een van de grotere skigebieden in onze selectie, ${d.pistesKm} km piste over ${d.lifts} liften, genoeg om elke dag van de week een ander deel te verkennen.`,
+    'zh-hk': (d) => `這是區內較大型的滑雪區之一，設有${d.pistesKm}km雪道及${d.lifts}座纜車，足以讓你連續一星期每天暢滑不同區域。`,
   },
   big: {
     en: (d) => `At ${d.pistesKm} km of piste on ${d.lifts} lifts, it is a substantial mountain that earns a multi-day stay.`,
@@ -154,6 +162,7 @@ const SIZE: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Con ${d.pistesKm} km di piste su ${d.lifts} impianti, è una montagna sostanziosa che merita un soggiorno di più giorni.`,
     ja: (d) => `コース総延長${d.pistesKm}km、リフト${d.lifts}基の見応えある山で、数日間の滞在に値する。`,
     nl: (d) => `Met ${d.pistesKm} km piste over ${d.lifts} liften is dit een flinke berg die een verblijf van meerdere dagen waard is.`,
+    'zh-hk': (d) => `擁有${d.pistesKm}km雪道及${d.lifts}座纜車，規模相當可觀，值得安排多天行程。`,
   },
   mid: {
     en: (d) => `With ${d.pistesKm} km of piste on ${d.lifts} lifts, it is a mid-size area, easy to get to know in a long weekend.`,
@@ -163,6 +172,7 @@ const SIZE: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Con ${d.pistesKm} km di piste su ${d.lifts} impianti, è un comprensorio di media taglia, facile da conoscere in un weekend lungo.`,
     ja: (d) => `コース総延長${d.pistesKm}km、リフト${d.lifts}基の中規模ゲレンデ。長めの週末で十分にまわれる。`,
     nl: (d) => `Met ${d.pistesKm} km piste over ${d.lifts} liften is dit een middelgroot skigebied, makkelijk te leren kennen in een lang weekend.`,
+    'zh-hk': (d) => `設有${d.pistesKm}km雪道及${d.lifts}座纜車，屬中型滑雪區，一個長週末已能大致遊遍。`,
   },
   compact: {
     en: (d) => `It is a compact resort, ${d.pistesKm} km of piste on ${d.lifts} lifts, best as a day trip or a relaxed short break rather than a week-long base.`,
@@ -172,6 +182,7 @@ const SIZE: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `È una località compatta, ${d.pistesKm} km di piste su ${d.lifts} impianti, meglio per una gita in giornata o una breve fuga che per una settimana intera.`,
     ja: (d) => `コース総延長${d.pistesKm}km、リフト${d.lifts}基のコンパクトなスキー場。1週間の滞在拠点よりも、日帰りやのんびりした短期滞在に向いている。`,
     nl: (d) => `Dit is een compact resort, ${d.pistesKm} km piste over ${d.lifts} liften, meer geschikt voor een dagtrip of een rustige korte break dan voor een hele week.`,
+    'zh-hk': (d) => `這是一個小型滑雪勝地，設有${d.pistesKm}km雪道及${d.lifts}座纜車，較適合作一日遊或輕鬆短假，而非一星期的長駐據點。`,
   },
 }
 
@@ -186,6 +197,7 @@ function seasonSentence(d: Destination, locale: Locale): string | null {
       it: `Qui la neve resiste tutto l'anno, quindi si scia bene anche fuori dalla solita finestra invernale.`,
       ja: `ここでは一年中雪が残るため、通常の冬のシーズン以外でも快適に滑走できる。`,
       nl: `Hier ligt het hele jaar sneeuw, dus je kunt hier ook prima buiten het gebruikelijke winterseizoen skiën.`,
+      'zh-hk': `這裡全年積雪，即使在一般雪季以外亦能暢快滑雪。`,
     }
     return yr[locale]
   }
@@ -197,6 +209,7 @@ function seasonSentence(d: Destination, locale: Locale): string | null {
     it: `Gli impianti girano di solito per circa ${weeks} settimane a stagione; puntare tra fine gennaio e fine febbraio offre spesso l'innevamento più affidabile.`,
     ja: `リフトは例年シーズン中およそ${weeks}週間稼働する。1月下旬から2月下旬を狙うと、最も安定した積雪に当たりやすい。`,
     nl: `De liften draaien meestal ongeveer ${weeks} weken per seizoen; wie mikt op eind januari tot eind februari heeft meestal de betrouwbaarste sneeuw.`,
+    'zh-hk': `纜車一般每季運行約${weeks}星期，安排於1月底至2月底期間出發，通常能遇上最穩定的積雪。`,
   }
   return t[locale]
 }

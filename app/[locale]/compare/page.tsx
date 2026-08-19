@@ -16,6 +16,7 @@ const T = {
     it: 'Confronti tra località sciistiche: testa a testa',
     nl: 'Skigebieden vergeleken: kop-aan-kop',
     ja: 'スキーリゾート比較：徹底対決',
+    'zh-hk': '滑雪場比較：正面對決',
   } as Record<Locale, string>,
   subtitle: {
     en: 'Six side-by-side ski resort matchups: where each one wins and who should pick which.',
@@ -25,6 +26,7 @@ const T = {
     it: 'Sei confronti tra località: dove vince ciascuna e a chi conviene quale.',
     nl: 'Zes skigebieden naast elkaar vergeleken: waar elk in uitblinkt en wie welke moet kiezen.',
     ja: '6組のスキーリゾートを徹底比較。それぞれの強みと、どんな人に向いているかが分かります。',
+    'zh-hk': '六組滑雪場並排比較，助你了解各自優勢，以及什麼人適合哪一個。',
   } as Record<Locale, string>,
 }
 

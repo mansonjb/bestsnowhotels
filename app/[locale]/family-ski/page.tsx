@@ -9,7 +9,7 @@ import { localizeCountry } from '@/lib/countryNames'
 import { SITE_URL, hreflangFor } from '@/lib/site'
 
 const LBL = {
-  title: { en: 'Best family ski resorts, by country', fr: 'Meilleures stations de ski en famille, par pays', es: 'Mejores estaciones de esquí para niños, por país', pt: 'Melhores estâncias de esqui em família, por país', it: 'Migliori località sciistiche per famiglie, per paese', nl: 'Beste skigebieden voor gezinnen, per land', ja: '家族向けベストスキーリゾート（国別）' } as Record<Locale, string>,
+  title: { en: 'Best family ski resorts, by country', fr: 'Meilleures stations de ski en famille, par pays', es: 'Mejores estaciones de esquí para niños, por país', pt: 'Melhores estâncias de esqui em família, por país', it: 'Migliori località sciistiche per famiglie, per paese', nl: 'Beste skigebieden voor gezinnen, per land', ja: '家族向けベストスキーリゾート（国別）', 'zh-hk': '最佳家庭滑雪場（按國家）' } as Record<Locale, string>,
   intro: {
     en: 'Skiing with kids is its own puzzle: you want gentle slopes, real beginner terrain and a base that keeps small legs close to the door. Pick a country to see its resorts ranked for families.',
     fr: "Skier avec des enfants, c'est un autre casse-tête : il faut des pentes douces, un vrai domaine débutant et un village qui garde les petites jambes près de la porte. Choisissez un pays pour voir ses stations classées pour les familles.",
@@ -18,8 +18,9 @@ const LBL = {
     it: 'Sciare con i bambini è un rebus a parte: servono pendii dolci, vero terreno per principianti e una base che tenga le gambine vicino alla porta. Scegli un paese per vedere le sue località in classifica per le famiglie.',
     nl: 'Skien met kinderen is een puzzel op zich: je wilt zachte hellingen, echt beginnersterrein en een basis die kleine beentjes dicht bij de deur houdt. Kies een land om de skigebieden gerangschikt voor gezinnen te zien.',
     ja: '子供とのスキーには独特の悩みがあります。緩やかな斜面、本格的な初心者コース、そして小さな足でも歩ける近さのベース。国を選んで、家族向けにランキングしたリゾートをご覧ください。',
+    'zh-hk': '帶小朋友滑雪自成一門學問：你需要平緩的坡道、正宗的初學者雪道，以及讓小小雙腿也能輕鬆走回房間的基地。選擇一個國家，查看為家庭排名的滑雪場。',
   } as Record<Locale, string>,
-  resorts: { en: 'family resorts', fr: 'stations familiales', es: 'estaciones familiares', pt: 'estâncias familiares', it: 'località per famiglie', nl: 'skigebieden voor gezinnen', ja: '家族向けリゾート' } as Record<Locale, string>,
+  resorts: { en: 'family resorts', fr: 'stations familiales', es: 'estaciones familiares', pt: 'estâncias familiares', it: 'località per famiglie', nl: 'skigebieden voor gezinnen', ja: '家族向けリゾート', 'zh-hk': '家庭滑雪場' } as Record<Locale, string>,
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {

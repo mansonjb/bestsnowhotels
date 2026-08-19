@@ -31,6 +31,7 @@ export async function generateMetadata({
     it: 'BestSnowHotels: hotel ski-in/ski-out sulle Alpi e sui Pirenei',
     nl: 'BestSnowHotels: ski-in/ski-out hotels in de Alpen en de Pyreneeën',
     ja: 'BestSnowHotels：アルプスとピレネーのスキーイン・スキーアウトホテル',
+    'zh-hk': 'BestSnowHotels：阿爾卑斯山及比利牛斯山脈的ski-in/ski-out酒店',
   }
   const descriptions: Record<Locale, string> = {
     en: 'Find ski-in/ski-out hotels across 455 resorts in France, Switzerland, Austria, Italy, Spain, Andorra, Germany, Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt, Canada, South Korea, Australia, New Zealand and Chile. Real altitudes, real snow data, best prices.',
@@ -40,6 +41,7 @@ export async function generateMetadata({
     it: 'Trova hotel ski-in/ski-out in 455 località tra Francia, Svizzera, Austria, Italia, Spagna, Andorra, Germania, Norvegia, Svezia, Finlandia, Giappone, Stati Uniti, Marocco, Algeria, Lesotho, Sudafrica, Egitto, Canada, Corea del Sud, Australia, Nuova Zelanda e Cile. Quote reali, dati neve veri, prezzi migliori.',
     ja: 'フランス、スイス、オーストリア、イタリア、スペイン、アンドラ、ドイツ、ノルウェー、スウェーデン、フィンランド、日本、アメリカ、モロッコ、アルジェリア、レソト、南アフリカ、エジプト、カナダ、韓国、オーストラリア、ニュージーランド、チリの455のスキー場から、スキーイン・スキーアウトのホテルを探せます。正確な標高、実際の積雪データ、最安値。',
     nl: 'Vind ski-in/ski-out hotels in 455 skigebieden in Frankrijk, Zwitserland, Oostenrijk, Italië, Spanje, Andorra, Duitsland, Noorwegen, Zweden, Finland, Japan, de Verenigde Staten, Marokko, Algerije, Lesotho, Zuid-Afrika, Egypte, Canada, Zuid-Korea, Australië, Nieuw-Zeeland en Chili. Echte hoogtes, echte sneeuwdata, de beste prijzen.',
+    'zh-hk': '在法國、瑞士、奧地利、意大利、西班牙、安道爾、德國、挪威、瑞典、芬蘭、日本、美國、摩洛哥、阿爾及利亞、萊索托、南非、埃及、加拿大、南韓、澳洲、紐西蘭及智利的455個滑雪勝地中尋找ski-in/ski-out酒店。真實海拔、真實降雪數據、最優惠價格。',
   }
   const l = hasLocale(locale) ? locale : 'en'
 
@@ -66,7 +68,7 @@ export async function generateMetadata({
       siteName: 'BestSnowHotels',
       type: 'website',
       locale:
-        l === 'fr' ? 'fr_FR' : l === 'es' ? 'es_ES' : l === 'pt' ? 'pt_PT' : l === 'it' ? 'it_IT' : l === 'nl' ? 'nl_NL' : l === 'ja' ? 'ja_JP' : 'en_GB',
+        l === 'fr' ? 'fr_FR' : l === 'es' ? 'es_ES' : l === 'pt' ? 'pt_PT' : l === 'it' ? 'it_IT' : l === 'nl' ? 'nl_NL' : l === 'ja' ? 'ja_JP' : l === 'zh-hk' ? 'zh_HK' : 'en_GB',
     },
     twitter: {
       card: 'summary_large_image',
@@ -87,7 +89,7 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale as Locale)
 
   return (
-    <html lang={locale} className={locale === 'ja' ? `${inter.className} font-jp` : inter.className}>
+    <html lang={locale === 'zh-hk' ? 'zh-HK' : locale} className={locale === 'ja' ? `${inter.className} font-jp` : locale === 'zh-hk' ? `${inter.className} font-tc` : inter.className}>
       <head>
         <link rel="preconnect" href="https://www.stay22.com" />
         <link rel="dns-prefetch" href="https://scripts.stay22.com" />

@@ -27,6 +27,7 @@ export async function generateMetadata({
     it: 'Le 455 destinazioni sci sulle Alpi e sui Pirenei | BestSnowHotels',
     nl: 'Alle 455 skigebieden in de Alpen en de Pyreneeën | BestSnowHotels',
     ja: 'アルプスとピレネーの455全スキー目的地 | BestSnowHotels',
+    'zh-hk': '阿爾卑斯山脈和比利牛斯山脈455個滑雪目的地一覽 | BestSnowHotels',
   }
 
   return {
@@ -41,6 +42,7 @@ export async function generateMetadata({
         it: `${SITE_URL}/it/destinations`,
         nl: `${SITE_URL}/nl/destinations`,
         ja: `${SITE_URL}/ja/destinations`,
+        'zh-hk': `${SITE_URL}/zh-hk/destinations`,
         'x-default': `${SITE_URL}/en/destinations`,
       },
     },

@@ -24,6 +24,7 @@ const T = {
     it: (name: string, n: number) => `${name}: ${n} cose da sapere prima di partire`,
     nl: (name: string, n: number) => `${name}: ${n} dingen om te weten voor je vertrekt`,
     ja: (name: string, n: number) => `${name}：行く前に知っておきたい${n}のこと`,
+    'zh-hk': (name: string, n: number) => `${name}：出發前必須知道的${n}件事`,
   } as Record<Locale, (name: string, n: number) => string>,
   metaTitle: {
     en: (name: string) => `${name}: things to know before you go`,
@@ -33,9 +34,10 @@ const T = {
     it: (name: string) => `${name}: cosa sapere prima di partire`,
     nl: (name: string) => `${name}: wat te weten voor je vertrekt`,
     ja: (name: string) => `${name}：行く前に知っておきたいこと`,
+    'zh-hk': (name: string) => `${name}：出發前必須知道的事`,
   } as Record<Locale, (name: string) => string>,
   whereToStay: {
-    en: 'Where to stay', fr: 'Où dormir', es: 'Dónde alojarse', pt: 'Onde ficar', it: 'Dove alloggiare', nl: 'Waar te overnachten', ja: '宿泊先',
+    en: 'Where to stay', fr: 'Où dormir', es: 'Dónde alojarse', pt: 'Onde ficar', it: 'Dove alloggiare', nl: 'Waar te overnachten', ja: '宿泊先', 'zh-hk': '住宿推介',
   } as Record<Locale, string>,
   whereToStaySub: {
     en: 'Hotels we like for ski access and value. Prices are indicative; check live availability.',
@@ -45,9 +47,10 @@ const T = {
     it: "Hotel che ci piacciono per l'accesso alle piste e il rapporto qualità-prezzo. Prezzi indicativi; verifica la disponibilità in tempo reale.",
     nl: 'Hotels die we goed vinden voor de toegang tot de piste en de prijs-kwaliteitverhouding. Prijzen zijn indicatief, controleer de actuele beschikbaarheid.',
     ja: 'ゲレンデへのアクセスとコストパフォーマンスで選んだホテル。価格は目安です。最新の空室状況をご確認ください。',
+    'zh-hk': '我們精選滑雪出入方便、性價比高的酒店。價格僅供參考，請查看即時空房。',
   } as Record<Locale, string>,
   fullGuide: {
-    en: 'Full resort guide', fr: 'Guide complet de la station', es: 'Guía completa de la estación', pt: 'Guia completo da estância', it: 'Guida completa della località', nl: 'Volledige gids van het skigebied', ja: 'リゾート完全ガイド',
+    en: 'Full resort guide', fr: 'Guide complet de la station', es: 'Guía completa de la estación', pt: 'Guia completo da estância', it: 'Guida completa della località', nl: 'Volledige gids van het skigebied', ja: 'リゾート完全ガイド', 'zh-hk': '滑雪場完整指南',
   } as Record<Locale, string>,
   ctaTitle: {
     en: (name: string) => `The full ${name} guide`,
@@ -57,6 +60,7 @@ const T = {
     it: (name: string) => `La guida completa di ${name}`,
     nl: (name: string) => `De volledige gids van ${name}`,
     ja: (name: string) => `${name}の完全ガイド`,
+    'zh-hk': (name: string) => `${name}完整指南`,
   } as Record<Locale, (name: string) => string>,
   ctaSub: {
     en: 'Hotels, piste breakdown, snow month by month, lift and rental info, map and more.',
@@ -66,6 +70,7 @@ const T = {
     it: 'Hotel, dettaglio delle piste, neve mese per mese, skipass e noleggio, mappa e altro.',
     nl: 'Hotels, pisteoverzicht, sneeuw per maand, skipas en verhuur, kaart en meer.',
     ja: 'ホテル、コース内訳、月別積雪、リフト・レンタル情報、地図など。',
+    'zh-hk': '酒店、雪道詳情、逐月積雪數據、纜車及租賃資訊、地圖等等。',
   } as Record<Locale, string>,
   ctaButton: {
     en: (name: string) => `See the full ${name} guide`,
@@ -75,15 +80,16 @@ const T = {
     it: (name: string) => `Vedi la guida completa di ${name}`,
     nl: (name: string) => `Bekijk de volledige gids van ${name}`,
     ja: (name: string) => `${name}の完全ガイドを見る`,
+    'zh-hk': (name: string) => `查看${name}完整指南`,
   } as Record<Locale, (name: string) => string>,
   faqHeading: {
-    en: 'More questions, answered', fr: 'Plus de questions, des réponses', es: 'Más preguntas, respondidas', pt: 'Mais perguntas, respondidas', it: 'Altre domande, con risposta', nl: 'Meer vragen, beantwoord', ja: 'その他のよくある質問',
+    en: 'More questions, answered', fr: 'Plus de questions, des réponses', es: 'Más preguntas, respondidas', pt: 'Mais perguntas, respondidas', it: 'Altre domande, con risposta', nl: 'Meer vragen, beantwoord', ja: 'その他のよくある質問', 'zh-hk': '更多問題解答',
   } as Record<Locale, string>,
   snowReport: {
-    en: 'Live snow report', fr: 'Bulletin neige en direct', es: 'Parte de nieve en directo', pt: 'Boletim de neve em direto', it: 'Bollettino neve in tempo reale', nl: 'Actueel sneeuwbericht', ja: 'ライブ積雪情報',
+    en: 'Live snow report', fr: 'Bulletin neige en direct', es: 'Parte de nieve en directo', pt: 'Boletim de neve em direto', it: 'Bollettino neve in tempo reale', nl: 'Actueel sneeuwbericht', ja: 'ライブ積雪情報', 'zh-hk': '即時積雪報告',
   } as Record<Locale, string>,
   skiInCountry: {
-    en: 'Ski-in/ski-out', fr: 'Stations ski au pied', es: 'Ski-in/ski-out', pt: 'Ski-in/ski-out', it: 'Ski-in/ski-out', nl: 'Ski-in/ski-out', ja: 'ski-in/ski-out',
+    en: 'Ski-in/ski-out', fr: 'Stations ski au pied', es: 'Ski-in/ski-out', pt: 'Ski-in/ski-out', it: 'Ski-in/ski-out', nl: 'Ski-in/ski-out', ja: 'ski-in/ski-out', 'zh-hk': 'ski-in/ski-out',
   } as Record<Locale, string>,
   ratingsNote: {
     en: 'Ratings and review counts from Google Places. We may earn a commission on bookings.',
@@ -93,6 +99,7 @@ const T = {
     it: 'Valutazioni e numero di recensioni da Google Places. Potremmo guadagnare una commissione sulle prenotazioni.',
     nl: 'Beoordelingen en aantal reviews via Google Places. We kunnen een commissie verdienen op boekingen.',
     ja: '評価とレビュー数はGoogle Placesのデータに基づきます。予約により当サイトが手数料を得る場合があります。',
+    'zh-hk': '評分及評論數量來自Google Places。我們可能從預訂中賺取佣金。',
   } as Record<Locale, string>,
 }
 

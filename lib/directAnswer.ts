@@ -27,6 +27,7 @@ export function directAnswer(d: Destination, l: Locale): string {
     it: tier === 'strong' ? 'località sci ai piedi (gran parte del paese è davvero sulla neve)' : tier === 'partial' ? 'località con veri hotel sci ai piedi' : 'località sciistica',
     nl: tier === 'strong' ? 'ski-in/ski-out skigebied (het grootste deel van het dorp ligt echt aan de piste)' : tier === 'partial' ? 'skigebied met echte ski-in/ski-out hotels' : 'skigebied',
     ja: tier === 'strong' ? 'ski-in/ski-outリゾート(集落の大部分が本当に雪の上にある)' : tier === 'partial' ? '本物のski-in/ski-outホテルがあるスキーリゾート' : 'スキーリゾート',
+    'zh-hk': tier === 'strong' ? 'ski-in/ski-out滑雪勝地（村內大部分地方確實建於雪地上）' : tier === 'partial' ? '設有真正ski-in/ski-out酒店的滑雪勝地' : '滑雪勝地',
   }[l]
 
   switch (l) {
@@ -42,6 +43,8 @@ export function directAnswer(d: Destination, l: Locale): string {
       return `${d.name} is een ${sio} ${inC}, in de regio ${region}. Het dorp ligt op ${d.altitudeBase} m en de liften reiken tot ${d.altitudeSummit} m, met ${d.pistesKm} km piste en ${d.lifts} liften. De BestSnowHotels sneeuwscore is ${d.snowScore}/100, en het seizoen loopt meestal van ${season}.`
     case 'ja':
       return `${d.name}は${inC}の${region}にある${sio}です。${d.lifts}基のリフトが通る${d.pistesKm}kmのコースがあり、標高${d.altitudeBase}mから${d.altitudeSummit}mまで広がっています。BestSnowHotelsの積雪スコアは${d.snowScore}/100で、シーズンは例年${season}です。`
+    case 'zh-hk':
+      return `${d.name}是${inC}的${sio}，位於${region}山區。村莊海拔${d.altitudeBase}m，纜車最高可達${d.altitudeSummit}m，設有${d.pistesKm}km雪道及${d.lifts}座纜車。其BestSnowHotels積雪評分為${d.snowScore}/100，雪季通常為${season}。`
     default:
       return `${d.name} is a ${sio} ${inC}, in the ${region}. The village sits at ${d.altitudeBase} m and the lifts top out at ${d.altitudeSummit} m, with ${d.pistesKm} km of pistes and ${d.lifts} lifts. Its BestSnowHotels snow score is ${d.snowScore}/100, and the season usually runs ${season}.`
   }

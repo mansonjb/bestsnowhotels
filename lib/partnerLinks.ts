@@ -36,9 +36,9 @@ const HONEYMOON_REGION: Record<string, string> = {
 }
 // Full prepositional phrase per locale, so each blurb reads naturally.
 const REGION_LABEL: Record<string, Record<Locale, string>> = {
-  dolomites: { en: 'in the Dolomites', fr: 'dans les Dolomites', es: 'en los Dolomitas', pt: 'nas Dolomitas', it: 'nelle Dolomiti', ja: 'ドロミテ', nl: 'in de Dolomieten' },
-  lapland: { en: 'in Lapland', fr: 'en Laponie', es: 'en Laponia', pt: 'na Lapónia', it: 'in Lapponia', ja: 'ラップランド', nl: 'in Lapland' },
-  banff: { en: 'in Banff', fr: 'à Banff', es: 'en Banff', pt: 'em Banff', it: 'a Banff', ja: 'バンフ', nl: 'in Banff' },
+  dolomites: { en: 'in the Dolomites', fr: 'dans les Dolomites', es: 'en los Dolomitas', pt: 'nas Dolomitas', it: 'nelle Dolomiti', ja: 'ドロミテ', nl: 'in de Dolomieten', 'zh-hk': '多洛米蒂' },
+  lapland: { en: 'in Lapland', fr: 'en Laponie', es: 'en Laponia', pt: 'na Lapónia', it: 'in Lapponia', ja: 'ラップランド', nl: 'in Lapland', 'zh-hk': '拉普蘭' },
+  banff: { en: 'in Banff', fr: 'à Banff', es: 'en Banff', pt: 'em Banff', it: 'a Banff', ja: 'バンフ', nl: 'in Banff', 'zh-hk': '班夫' },
 }
 
 // RaceWeekStays slug is the circuit, not the resort. Schladming is a known base
@@ -58,6 +58,7 @@ function hwpBlurb(name: string, l: Locale): string {
     it: `Viaggi con il cane? HotelsWithPets raccoglie gli hotel che accettano animali a ${name}.`,
     ja: `愛犬と一緒に旅行しますか。HotelsWithPetsが${name}のペット可ホテルを紹介しています。`,
     nl: `Reis je met je hond? HotelsWithPets verzamelt de huisdiervriendelijke hotels in ${name}.`,
+    'zh-hk': `與愛犬同行旅遊？HotelsWithPets為你整理${name}的寵物友善酒店。`,
   }[l]
 }
 function sttBlurb(name: string, l: Locale): string {
@@ -69,6 +70,7 @@ function sttBlurb(name: string, l: Locale): string {
     it: `${name} è apparsa sullo schermo. ScreenToTrip mappa i luoghi delle riprese da visitare.`,
     ja: `${name}は映画やドラマに登場したことがあります。ScreenToTripが、訪れたいロケ地を紹介しています。`,
     nl: `${name} was te zien op het scherm. ScreenToTrip brengt de film- en serielocaties in kaart die je kunt bezoeken.`,
+    'zh-hk': `${name}曾在電影或劇集中登場。ScreenToTrip整理了值得一遊的取景地點。`,
   }[l]
 }
 function mhhBlurb(regionPhrase: string, l: Locale): string {
@@ -80,6 +82,7 @@ function mhhBlurb(regionPhrase: string, l: Locale): string {
     it: `Stai organizzando una luna di miele? MyHoneymoonHotel seleziona gli hotel più romantici ${regionPhrase}.`,
     ja: `新婚旅行を計画中ですか。MyHoneymoonHotelが${regionPhrase}で最もロマンチックなホテルを厳選しています。`,
     nl: `Plan je een huwelijksreis? MyHoneymoonHotel selecteert de meest romantische hotels ${regionPhrase}.`,
+    'zh-hk': `正在計劃蜜月旅行？MyHoneymoonHotel精選${regionPhrase}內最浪漫的酒店。`,
   }[l]
 }
 
@@ -92,6 +95,7 @@ function rwsBlurb(l: Locale): string {
     it: `Sei qui per un weekend di gara al vicino Red Bull Ring? RaceWeekStays trova alloggi per il Gran Premio d'Austria.`,
     ja: `近くのRed Bull Ringでのレース観戦が目的ですか。RaceWeekStaysがオーストリアグランプリの宿泊先を探してくれます。`,
     nl: `Hier voor een raceweekend bij de nabijgelegen Red Bull Ring? RaceWeekStays vindt accommodatie voor de Grand Prix van Oostenrijk.`,
+    'zh-hk': `專程來附近的Red Bull Ring觀賽？RaceWeekStays為奧地利大獎賽提供住宿搜尋服務。`,
   }[l]
 }
 

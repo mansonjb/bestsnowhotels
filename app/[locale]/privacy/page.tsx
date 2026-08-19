@@ -70,6 +70,13 @@ const COPY: Record<Locale, { paragraphs: string[] }> = {
       'アフィリエイトの計測のため、少数のCookieを設置する場合があります。ブラウザでCookieを無効にすることもでき、その場合でもBestSnowHotelsの閲覧に支障はありません。',
     ],
   },
+  'zh-hk': {
+    paragraphs: [
+      'BestSnowHotels不會直接收集個人資料。我們使用輕量的分析工具（瀏覽量統計、國家層級數據），以了解哪些目的地最能引起讀者興趣。',
+      '預訂合作夥伴（Stay22、Booking、Expedia、Hotels.com）均按照各自的私隱政策運作。當您點擊前往該網站後，即受其條款約束。',
+      '我們可能會設置少量Cookie，用於聯盟歸因。您可以在瀏覽器中停用Cookie，這不會影響您瀏覽BestSnowHotels。',
+    ],
+  },
 }
 
 export default async function PrivacyPage({

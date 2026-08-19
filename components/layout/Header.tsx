@@ -22,9 +22,9 @@ interface HeaderProps {
   }
 }
 
-const localeLabels: Record<Locale, string> = { en: 'EN', fr: 'FR', es: 'ES', pt: 'PT', it: 'IT', nl: 'NL', ja: '日本語' }
-const allLocales: Locale[] = ['en', 'fr', 'es', 'pt', 'it', 'nl', 'ja']
-const menuAria: Record<Locale, string> = { en: 'Toggle menu', fr: 'Ouvrir le menu', es: 'Abrir menú', pt: 'Abrir menu', it: 'Apri menu', nl: 'Menu openen', ja: 'メニューを開く' }
+const localeLabels: Record<Locale, string> = { en: 'EN', fr: 'FR', es: 'ES', pt: 'PT', it: 'IT', nl: 'NL', ja: '日本語', 'zh-hk': '繁體中文' }
+const allLocales: Locale[] = ['en', 'fr', 'es', 'pt', 'it', 'nl', 'ja', 'zh-hk']
+const menuAria: Record<Locale, string> = { en: 'Toggle menu', fr: 'Ouvrir le menu', es: 'Abrir menú', pt: 'Abrir menu', it: 'Apri menu', nl: 'Menu openen', ja: 'メニューを開く', 'zh-hk': '開啟選單' }
 
 export default function Header({ locale, dict }: HeaderProps) {
   const [open, setOpen] = useState(false)

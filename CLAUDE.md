@@ -7,14 +7,14 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 - **TypeScript** strict mode
 - **Tailwind CSS 4** (no `tailwind.config.js`, uses `@theme` in `app/globals.css`)
 - **next-intl**-style locale routing via Next.js 16 proxy (custom, no `next-intl` package; see `proxy.ts`)
-- **7 languages**: en / fr / es / pt / it / nl / ja (ja = Japanese, added 2026-08 with a system CJK font stack `.font-jp`; nl = Dutch; pt = European Portuguese post-Acordo)
+- **8 languages**: en / fr / es / pt / it / nl / ja / zh-hk (zh-hk = Traditional Chinese Hong Kong, added 2026-08 with a system CJK font stack `.font-tc`; ja = Japanese, `.font-jp`; nl = Dutch; pt = European Portuguese post-Acordo)
 - **Stay22 LetMeAllez** for affiliate (lmaID `6a172a3725eb5f0f8532400c`)
 - **No DB**, 455 destinations in `data/destinations.json`
 
 ## Routing
 - All pages live under `app/[locale]/...`
 - `proxy.ts` (Next.js 16, replaces the deprecated `middleware.ts` convention) redirects bare `/path` to `/en/path` etc.
-- Available locales: `en`, `fr`, `es`, `pt`, `it`, `nl`, `ja` (see `app/[locale]/dictionaries.ts`). The locale list is duplicated in `proxy.ts` and `lib/site.ts` (LOCALES) and `components/layout/Header.tsx` (allLocales) - keep them in sync. CJK locales also need the `.font-jp` stack wired in `app/[locale]/layout.tsx` (Inter has no CJK glyphs). Adding a locale: run `npx tsc --noEmit`, every `Record<Locale>` missing the key errors and becomes your checklist.
+- Available locales: `en`, `fr`, `es`, `pt`, `it`, `nl`, `ja`, `zh-hk` (see `app/[locale]/dictionaries.ts`). The locale list is duplicated in `proxy.ts` and `lib/site.ts` (LOCALES) and `components/layout/Header.tsx` (allLocales) - keep them in sync. CJK locales need a system font stack wired in `app/[locale]/layout.tsx` (`.font-jp` for ja, `.font-tc` for zh-hk; Inter has no CJK glyphs). Hyphenated locales (`zh-hk`): the URL slug stays lowercase `/zh-hk/` but hreflang/`<html lang>`/openGraph emit proper BCP-47 `zh-HK`/`zh_HK` via a small map in `hreflangFor` (lib/site.ts) + a ternary in layout.tsx. Adding a locale: run `npx tsc --noEmit`, every `Record<Locale>` missing the key errors and becomes your checklist.
 
 ## Affiliate
 - Stay22 lmaID is in `lib/site.ts` as `STAY22_ID`
@@ -30,11 +30,11 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 
 ## Adding a destination
 1. Add an entry to `data/destinations.json` with the full schema (see `lib/destinations.ts` for the `Destination` type)
-2. Provide `intro` (+ `longDescription`, `skiInSkiOutNote`) in all 7 languages
+2. Provide `intro` (+ `longDescription`, `skiInSkiOutNote`) in all 8 languages
 3. Rebuild, and pages, sitemap and OG images regenerate automatically
 
 ## SEO
-- Every page has `generateMetadata` with hreflang to all 7 locales
+- Every page has `generateMetadata` with hreflang to all 8 locales
 - JSON-LD on home (`WebSite`), destinations index (`ItemList`), destination detail (`TouristAttraction` + `BreadcrumbList` + `FAQPage`)
 - `robots.txt` explicitly allows GPTBot, ClaudeBot, PerplexityBot, Google-Extended
 - `/llms.txt` lists priority pages for AI crawlers
@@ -42,4 +42,4 @@ You're working on **bestsnowhotels.com**, a SEO + affiliate site for ski-in/ski-
 ## DO NOT
 - Do not introduce a database. Keep `data/destinations.json` as source of truth
 - Do not add tracking pixels other than what's in the locale layout
-- Do not break the 7-locale parity (every page must exist in en/fr/es/pt/it/nl/ja or fall back gracefully)
+- Do not break the 8-locale parity (every page must exist in en/fr/es/pt/it/nl/ja/zh-hk or fall back gracefully)

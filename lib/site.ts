@@ -1,7 +1,11 @@
 export const SITE_URL = 'https://www.bestsnowhotels.com'
 export const SITE_NAME = 'BestSnowHotels'
 
-const LOCALES = ['en', 'fr', 'es', 'pt', 'it', 'nl', 'ja'] as const
+const LOCALES = ['en', 'fr', 'es', 'pt', 'it', 'nl', 'ja', 'zh-hk'] as const
+
+/** URL slug (lowercase) -> proper BCP-47 hreflang tag. Only hyphenated/cased
+ *  locales need an entry; 2-char codes are their own hreflang. */
+const HREFLANG_TAG: Record<string, string> = { 'zh-hk': 'zh-HK' }
 
 /**
  * Build the `alternates.languages` map for a given site-relative path,
@@ -17,7 +21,7 @@ const LOCALES = ['en', 'fr', 'es', 'pt', 'it', 'nl', 'ja'] as const
 export function hreflangFor(path: string): Record<string, string> {
   const p = path.startsWith('/') ? path : `/${path}`
   const out: Record<string, string> = {}
-  for (const l of LOCALES) out[l] = `${SITE_URL}/${l}${p}`
+  for (const l of LOCALES) out[HREFLANG_TAG[l] ?? l] = `${SITE_URL}/${l}${p}`
   out['x-default'] = `${SITE_URL}/en${p}`
   return out
 }

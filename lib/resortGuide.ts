@@ -87,6 +87,7 @@ const Q = {
     it: (d: Destination) => `La neve è affidabile a ${d.name}?`,
     ja: (d: Destination) => `${d.name}は積雪が安定していますか？`,
     nl: (d: Destination) => `Is de sneeuw betrouwbaar in ${d.name}?`,
+    'zh-hk': (d: Destination) => `${d.name}的積雪穩定嗎？`,
   },
   access: {
     en: () => `Do you need a car, or can you ski in and out?`,
@@ -96,6 +97,7 @@ const Q = {
     it: () => `Serve l'auto o si scia ai piedi?`,
     ja: () => `車は必要ですか、それともゲレンデに直結していますか？`,
     nl: () => `Heb je een auto nodig, of kun je ski-in/ski-out?`,
+    'zh-hk': () => `你需要駕車，還是可以ski-in/ski-out？`,
   },
   mountain: {
     en: () => `How big is the ski area, and who is it for?`,
@@ -105,6 +107,7 @@ const Q = {
     it: () => `Quanto è grande il comprensorio e per chi è?`,
     ja: () => `ゲレンデの規模は？どんな人向けですか？`,
     nl: () => `Hoe groot is het skigebied, en voor wie is het geschikt?`,
+    'zh-hk': () => `滑雪區有多大？適合什麼人？`,
   },
   vibe: {
     en: () => `What is the resort like?`,
@@ -114,6 +117,7 @@ const Q = {
     it: () => `Com'è l'atmosfera della località?`,
     ja: () => `リゾートの雰囲気は？`,
     nl: () => `Wat is de sfeer in het resort?`,
+    'zh-hk': () => `這個滑雪勝地氛圍如何？`,
   },
   when: {
     en: () => `When is the best time to go?`,
@@ -123,6 +127,7 @@ const Q = {
     it: () => `Qual è il periodo migliore per andare?`,
     ja: () => `訪れるのに最適な時期は？`,
     nl: () => `Wat is de beste periode om te gaan?`,
+    'zh-hk': () => `最佳出發時間是何時？`,
   },
 }
 
@@ -137,6 +142,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Sì. La base è a ${km(d.altitudeBase)} m e la cima raggiunge ${km(d.altitudeSummit)} m, il che mette l'affidabilità della neve tra le migliori del nostro indice (punteggio ${d.snowScore}/100).`,
     ja: (d) => `はい。ベースは標高${km(d.altitudeBase)}m、山頂は${km(d.altitudeSummit)}mに達し、当サイトの指数でも積雪の安定性は最上位クラスです（スコア${d.snowScore}/100）。`,
     nl: (d) => `Ja. De basis ligt op ${km(d.altitudeBase)} m en de top reikt tot ${km(d.altitudeSummit)} m, waarmee de sneeuwzekerheid tot de beste van onze index behoort (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `是的。山腳海拔${km(d.altitudeBase)}m，山頂達${km(d.altitudeSummit)}m，積雪穩定度在我們的指數中屬頂尖水平（評分${d.snowScore}/100）。`,
   },
   reliable: {
     en: (d) => `Generally yes. From ${km(d.altitudeBase)} m at the base to ${km(d.altitudeSummit)} m up top, the profile holds snow well across a normal winter (score ${d.snowScore}/100).`,
@@ -146,6 +152,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `In genere sì. Da ${km(d.altitudeBase)} m alla base a ${km(d.altitudeSummit)} m in cima, il profilo tiene bene la neve in un inverno normale (punteggio ${d.snowScore}/100).`,
     ja: (d) => `基本的には安定しています。ベース${km(d.altitudeBase)}mから山頂${km(d.altitudeSummit)}mまで、通常のシーズンなら積雪はしっかり保たれます（スコア${d.snowScore}/100）。`,
     nl: (d) => `Over het algemeen wel. Van ${km(d.altitudeBase)} m bij de basis tot ${km(d.altitudeSummit)} m boven houdt dit profiel de sneeuw goed vast in een normale winter (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `大致穩定。由山腳${km(d.altitudeBase)}m至山頂${km(d.altitudeSummit)}m，這樣的地勢在一般雪季都能保持良好積雪（評分${d.snowScore}/100）。`,
   },
   decent: {
     en: (d) => `Usually, with help. From ${km(d.altitudeBase)} m to ${km(d.altitudeSummit)} m the resort leans on grooming and snowmaking in lean spells, so check the live report before booking early or late dates (score ${d.snowScore}/100).`,
@@ -155,6 +162,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Quasi sempre, con un aiuto. Da ${km(d.altitudeBase)} m a ${km(d.altitudeSummit)} m la località si appoggia su battitura e neve programmata nei periodi magri; controlla il bollettino in tempo reale per date a inizio o fine stagione (punteggio ${d.snowScore}/100).`,
     ja: (d) => `ほぼ安定していますが、多少の手助けが必要です。${km(d.altitudeBase)}mから${km(d.altitudeSummit)}mの標高帯では、積雪が少ない時期は整備と人工降雪に頼ります。シーズン初めや終わりに訪れる場合は最新の積雪情報を確認してください（スコア${d.snowScore}/100）。`,
     nl: (d) => `Meestal wel, met een handje hulp. Van ${km(d.altitudeBase)} m tot ${km(d.altitudeSummit)} m leunt het resort in magere periodes op pistebewerking en sneeuwkanonnen; check het actuele sneeuwbericht voor data vroeg of laat in het seizoen (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `大多時候穩定，但需人工協助。由${km(d.altitudeBase)}m至${km(d.altitudeSummit)}m，遇上少雪時期會依靠壓雪及人工造雪，如選擇雪季初或尾段出發，建議先查看即時積雪報告（評分${d.snowScore}/100）。`,
   },
   low: {
     en: (d) => `It depends on conditions. At ${km(d.altitudeBase)} m to ${km(d.altitudeSummit)} m this is a lower-altitude resort, so lean on the live snow report and stay flexible on dates (score ${d.snowScore}/100).`,
@@ -164,6 +172,7 @@ const SNOW_A: Record<Snow, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Dipende dalle condizioni. Tra ${km(d.altitudeBase)} m e ${km(d.altitudeSummit)} m è una località di quota più bassa: affidati al bollettino neve in tempo reale e resta flessibile sulle date (punteggio ${d.snowScore}/100).`,
     ja: (d) => `状況次第です。標高${km(d.altitudeBase)}mから${km(d.altitudeSummit)}mと比較的低いリゾートのため、最新の積雪情報を確認し、日程には余裕を持たせてください（スコア${d.snowScore}/100）。`,
     nl: (d) => `Dat hangt van de omstandigheden af. Met ${km(d.altitudeBase)} m tot ${km(d.altitudeSummit)} m is dit een resort op lagere hoogte, dus vertrouw op het actuele sneeuwbericht en blijf flexibel met je data (score ${d.snowScore}/100).`,
+    'zh-hk': (d) => `視乎雪況而定。海拔${km(d.altitudeBase)}m至${km(d.altitudeSummit)}m，屬較低海拔的滑雪勝地，建議留意即時積雪報告，並保持行程日期彈性（評分${d.snowScore}/100）。`,
   },
 }
 
@@ -176,6 +185,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `È uno dei grandi comprensori del sito: ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, abbastanza per sciare un settore diverso ogni giorno.`,
     ja: (d) => `当サイトの中でも大規模なゲレンデのひとつです。コース総延長${km(d.pistesKm)}km、リフト${d.lifts}基を誇り、1週間毎日違うエリアを滑れるほどの広さです。`,
     nl: (d) => `Dit is een van de grotere skigebieden op de site: ${km(d.pistesKm)} km piste over ${d.lifts} liften, genoeg om elke dag van de week een ander deel te skiën.`,
+    'zh-hk': (d) => `這是本站較大型的滑雪區之一：設有${km(d.pistesKm)}km雪道及${d.lifts}座纜車，足以連續一星期每天暢滑不同區域。`,
   },
   big: {
     en: (d) => `At ${km(d.pistesKm)} km of piste on ${d.lifts} lifts, it is a substantial mountain that rewards a multi-day stay.`,
@@ -185,6 +195,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Con ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, è una montagna sostanziosa che merita un soggiorno di più giorni.`,
     ja: (d) => `コース総延長${km(d.pistesKm)}km、リフト${d.lifts}基を備えた見応えのあるゲレンデで、数日間の滞在に値します。`,
     nl: (d) => `Met ${km(d.pistesKm)} km piste over ${d.lifts} liften is dit een flinke berg die een verblijf van meerdere dagen beloont.`,
+    'zh-hk': (d) => `擁有${km(d.pistesKm)}km雪道及${d.lifts}座纜車，規模相當可觀，值得安排多天行程細味。`,
   },
   mid: {
     en: (d) => `With ${km(d.pistesKm)} km of piste on ${d.lifts} lifts, it is a mid-size area, easy to get to know over a long weekend.`,
@@ -194,6 +205,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Con ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, è un comprensorio di media taglia, facile da conoscere in un weekend lungo.`,
     ja: (d) => `コース総延長${km(d.pistesKm)}km、リフト${d.lifts}基の中規模ゲレンデで、長めの週末で十分に把握できます。`,
     nl: (d) => `Met ${km(d.pistesKm)} km piste over ${d.lifts} liften is dit een middelgroot skigebied, gemakkelijk te leren kennen in een lang weekend.`,
+    'zh-hk': (d) => `設有${km(d.pistesKm)}km雪道及${d.lifts}座纜車，屬中型滑雪區，一個長週末便可大致遊遍。`,
   },
   compact: {
     en: (d) => `It is a compact area, ${km(d.pistesKm)} km of piste on ${d.lifts} lifts, best for a short break or a focused trip rather than a full week.`,
@@ -203,6 +215,7 @@ const SIZE_A: Record<Size, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `È un comprensorio compatto, ${km(d.pistesKm)} km di piste su ${d.lifts} impianti, meglio per una breve fuga o un viaggio mirato che per una settimana intera.`,
     ja: (d) => `コース総延長${km(d.pistesKm)}km、リフト${d.lifts}基のコンパクトなゲレンデです。1週間の滞在よりも、短めの旅行や目的を絞った滞在に向いています。`,
     nl: (d) => `Dit is een compact skigebied, ${km(d.pistesKm)} km piste over ${d.lifts} liften, meer geschikt voor een korte break of een gerichte trip dan voor een hele week.`,
+    'zh-hk': (d) => `這是小型滑雪區，設有${km(d.pistesKm)}km雪道及${d.lifts}座纜車，較適合短假或主題式行程，而非一整星期的旅程。`,
   },
 }
 
@@ -215,6 +228,7 @@ const TERRAIN_A: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Il mix di piste pende verso il facile (${d.pisteCounts.green} verdi, ${d.pisteCounts.blue} blu, ${d.pisteCounts.red} rosse, ${d.pisteCounts.black} nere), quindi principianti e primi intermedi sono ben serviti.`,
     ja: (d) => `コース構成は易しいものが多く（緑${d.pisteCounts.green}本、青${d.pisteCounts.blue}本、赤${d.pisteCounts.red}本、黒${d.pisteCounts.black}本）、初心者や滑り始めの中級者にも向いています。`,
     nl: (d) => `De pistemix leunt naar gemakkelijk (${d.pisteCounts.green} groen, ${d.pisteCounts.blue} blauw, ${d.pisteCounts.red} rood, ${d.pisteCounts.black} zwart), dus beginners en beginnende gevorderden zijn hier goed bediend.`,
+    'zh-hk': (d) => `雪道配置以輕鬆為主（${d.pisteCounts.green}條綠色、${d.pisteCounts.blue}條藍色、${d.pisteCounts.red}條紅色、${d.pisteCounts.black}條黑色），非常適合初學者及初級滑雪者。`,
   },
   balanced: {
     en: (d) => `The terrain is balanced (${d.pisteCounts.green} green, ${d.pisteCounts.blue} blue, ${d.pisteCounts.red} red, ${d.pisteCounts.black} black), which suits a mixed-level group skiing together.`,
@@ -224,6 +238,7 @@ const TERRAIN_A: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Il terreno è bilanciato (${d.pisteCounts.green} verdi, ${d.pisteCounts.blue} blu, ${d.pisteCounts.red} rosse, ${d.pisteCounts.black} nere), ideale per un gruppo di livelli diversi.`,
     ja: (d) => `コース構成はバランスが取れており（緑${d.pisteCounts.green}本、青${d.pisteCounts.blue}本、赤${d.pisteCounts.red}本、黒${d.pisteCounts.black}本）、レベルの異なるグループでの滑走に適しています。`,
     nl: (d) => `Het terrein is in balans (${d.pisteCounts.green} groen, ${d.pisteCounts.blue} blauw, ${d.pisteCounts.red} rood, ${d.pisteCounts.black} zwart), ideaal voor een groep met verschillende niveaus die samen skiet.`,
+    'zh-hk': (d) => `地形配置均衡（${d.pisteCounts.green}條綠色、${d.pisteCounts.blue}條藍色、${d.pisteCounts.red}條紅色、${d.pisteCounts.black}條黑色），適合不同程度的滑雪者結伴同行。`,
   },
   expert: {
     en: (d) => `It leans toward strong skiers (${d.pisteCounts.black} black and ${d.pisteCounts.red} red, with ${d.pisteCounts.green} green and ${d.pisteCounts.blue} blue to warm up), so confident skiers get the most from it.`,
@@ -233,6 +248,7 @@ const TERRAIN_A: Record<Profile, Record<Locale, (d: Destination) => string>> = {
     it: (d) => `Pende verso sciatori forti (${d.pisteCounts.black} nere e ${d.pisteCounts.red} rosse, con ${d.pisteCounts.green} verdi e ${d.pisteCounts.blue} blu per scaldarsi), quindi gli sciatori sicuri ne traggono di più.`,
     ja: (d) => `上級者向けの傾向が強く（黒${d.pisteCounts.black}本、赤${d.pisteCounts.red}本に加え、ウォームアップ用に緑${d.pisteCounts.green}本、青${d.pisteCounts.blue}本）、実力のあるスキーヤーほど楽しめます。`,
     nl: (d) => `Het terrein leunt naar sterke skiërs (${d.pisteCounts.black} zwart en ${d.pisteCounts.red} rood, met ${d.pisteCounts.green} groen en ${d.pisteCounts.blue} blauw om op te warmen), dus zelfverzekerde skiërs halen hier het meeste uit.`,
+    'zh-hk': (d) => `地形偏向滑雪高手（${d.pisteCounts.black}條黑色及${d.pisteCounts.red}條紅色雪道，另有${d.pisteCounts.green}條綠色及${d.pisteCounts.blue}條藍色雪道可作熱身），實力派滑雪者在此最能盡興。`,
   },
 }
 
@@ -245,6 +261,7 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     it: (d) => `${d.name} è senza auto. Si parcheggia all'ingresso della località e si raggiunge il paese senza auto; gran parte degli alloggi si apre poi direttamente sulla neve, quindi l'auto può restare ferma tutta la settimana.`,
     ja: (d) => `${d.name}は車が不要なリゾートです。リゾート入口に駐車すれば村までは車なしで移動でき、宿泊施設の多くはゲレンデに直結しているため、滞在中ずっと車を動かさずに済みます。`,
     nl: (d) => `${d.name} is autovrij. Je parkeert bij de ingang van het resort en bereikt het dorp zonder auto; de meeste accommodaties openen daarna direct op de sneeuw, dus de auto kan de hele week blijven staan.`,
+    'zh-hk': (d) => `${d.name}為無車村莊。你可將車輛停泊於入口處，然後徒步進入村內；大部分住宿均直接連接雪道，整個假期都毋須再用車。`,
   },
   strong: {
     en: () => `Most hotels sit right on the snow front, so this is genuine ski-in/ski-out: park once on arrival and ski from the door, with no daily driving or shuttle.`,
@@ -254,6 +271,7 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     it: () => `La maggior parte degli hotel è proprio sul fronte neve: è vero ski-in/ski-out. Si parcheggia all'arrivo e si scia dalla porta, senza auto né navetta quotidiana.`,
     ja: () => `ホテルの大半がゲレンデに面しており、正真正銘のski-in/ski-outです。到着時に一度駐車すればあとは玄関からそのまま滑走でき、毎日の車移動やシャトルは不要です。`,
     nl: () => `De meeste hotels liggen recht aan de piste, dit is dus echt ski-in/ski-out: je parkeert eenmalig bij aankomst en skiet vanaf de deur, zonder dagelijks rijden of pendelbus.`,
+    'zh-hk': () => `大部分酒店均座落雪道旁，屬正宗ski-in/ski-out：抵達後泊好車，往後每天都可直接從酒店門口滑雪出發，毋須每日駕車或搭接駁車。`,
   },
   partial: {
     en: () => `Ski-in/ski-out depends on the address here: some hotels are on the snow, others need a short walk or shuttle. Pick a slopeside address if skiing from the door matters to you.`,
@@ -263,6 +281,7 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     it: () => `Lo ski-in/ski-out qui dipende dall'indirizzo: alcuni hotel sono sulla neve, altri richiedono una breve camminata o navetta. Scegli un indirizzo sulle piste se sciare dalla porta è importante per te.`,
     ja: () => `ここでのski-in/ski-outはホテルの立地次第です。ゲレンデに直結したホテルもあれば、少し歩くかシャトルが必要なホテルもあります。玄関からすぐ滑り出したいなら、ゲレンデ沿いの立地を選んでください。`,
     nl: () => `Ski-in/ski-out hangt hier af van het adres: sommige hotels liggen aan de sneeuw, andere vragen een kort stukje lopen of een pendelbus. Kies een adres aan de piste als skiën vanaf de deur belangrijk voor je is.`,
+    'zh-hk': () => `這裡的ski-in/ski-out視乎酒店位置而定：部分酒店直達雪道，其餘則需要步行一小段路或乘搭接駁車。若在意能否直接從酒店滑出，建議選擇雪道旁的住宿。`,
   },
   limited: {
     en: () => `This is more of a valley base than a slopeside village, so expect a lift, train or shuttle to the snow each morning. Staying central, near the main lift, saves the most time.`,
@@ -272,28 +291,29 @@ const ACCESS_A: Record<'carfree' | 'strong' | 'partial' | 'limited', Record<Loca
     it: () => `È più una base a fondovalle che un paese sulle piste, quindi metti in conto un impianto, un treno o una navetta per la neve ogni mattina. Alloggiare in centro, vicino all'impianto principale, fa risparmiare più tempo.`,
     ja: () => `ここはゲレンデ沿いの村というより谷底の拠点に近く、毎朝リフトや電車、シャトルでゲレンデへ向かうことになります。中心部、主要リフトの近くに宿を取ると最も時間を節約できます。`,
     nl: () => `Dit is meer een basis in de vallei dan een dorp aan de piste, dus reken op een lift, trein of pendelbus naar de sneeuw elke ochtend. Centraal overnachten, dicht bij de hoofdlift, bespaart de meeste tijd.`,
+    'zh-hk': () => `這裡屬於山谷據點，而非雪道旁村莊，每天早上需要乘搭纜車、火車或接駁車前往雪場。入住市中心、靠近主纜車站的住宿，最能節省時間。`,
   },
 }
 
 /* vibe fragments: short descriptive clauses, composed into one sentence */
 const VIBE_FRAG: Partial<Record<string, Record<Locale, string>>> = {
-  luxury: { en: 'a polished, high-end scene', fr: 'une ambiance chic et haut de gamme', es: 'un ambiente cuidado y de alta gama', pt: 'um ambiente requintado e de alta gama', it: "un'atmosfera curata e di alto livello", ja: '洗練されたハイエンドな雰囲気', nl: "een verzorgde, hoogwaardige sfeer" },
-  party: { en: 'lively après-ski', fr: 'un après-ski animé', es: 'un après-ski animado', pt: 'um après-ski animado', it: 'un après-ski vivace', ja: '賑やかなアプレスキー', nl: 'levendige après-ski' },
-  freeride: { en: 'serious off-piste and freeride terrain', fr: 'du hors-piste et du freeride sérieux', es: 'fuera de pista y freeride serios', pt: 'fora de pista e freeride a sério', it: 'fuoripista e freeride seri', ja: '本格的なオフピステとフリーライドの地形', nl: 'serieus off-piste en freerideterrein' },
-  family: { en: 'a family-friendly setup', fr: 'un cadre adapté aux familles', es: 'un entorno apto para familias', pt: 'um ambiente adequado a famílias', it: 'un contesto adatto alle famiglie', ja: 'ファミリーに適した環境', nl: 'een gezinsvriendelijke opzet' },
-  gastronomy: { en: 'a strong dining scene', fr: 'une belle scène gastronomique', es: 'una notable escena gastronómica', pt: 'uma forte cena gastronómica', it: 'una solida scena gastronomica', ja: '充実したグルメシーン', nl: 'een sterk culinair aanbod' },
-  glacier: { en: 'glacier skiing up high', fr: 'du ski de glacier en altitude', es: 'esquí en glaciar en altura', pt: 'esqui em glaciar nas alturas', it: 'sci su ghiacciaio in quota', ja: '標高の高い氷河スキー', nl: 'gletsjerskiën op grote hoogte' },
-  'high-altitude': { en: 'snow-sure high-altitude slopes', fr: "des pentes d'altitude à l'enneigement fiable", es: 'pistas de gran altitud con nieve segura', pt: 'pistas de grande altitude com neve fiável', it: "piste d'alta quota con neve sicura", ja: '積雪が安定した高地のゲレンデ', nl: "hooggelegen pistes met sneeuwzekerheid" },
-  iconic: { en: 'a genuinely iconic name', fr: 'un nom véritablement iconique', es: 'un nombre realmente icónico', pt: 'um nome verdadeiramente icónico', it: 'un nome davvero iconico', ja: '名実ともに象徴的な名前', nl: 'een echt iconische naam' },
-  japow: { en: 'the famous dry Japanese powder', fr: 'la fameuse poudreuse japonaise', es: 'la famosa nieve polvo japonesa', pt: 'a famosa neve pó japonesa', it: 'la famosa neve farinosa giapponese', ja: '名高い日本の乾いたパウダースノー', nl: 'de beroemde droge Japanse poeder' },
-  mountaineering: { en: 'big-mountain and mountaineering terrain', fr: "un terrain de haute montagne et d'alpinisme", es: 'terreno de alta montaña y alpinismo', pt: 'terreno de alta montanha e alpinismo', it: "terreno d'alta montagna e alpinismo", ja: '高山と登山に適した地形', nl: "terrein voor hooggebergte en alpinisme" },
-  racing: { en: 'a racing and competition pedigree', fr: 'une tradition de course et de compétition', es: 'una tradición de competición', pt: 'uma tradição de competição', it: 'una tradizione di gare e competizione', ja: 'レースと競技の伝統', nl: 'een traditie van wedstrijden en competitie' },
-  'winter-sports': { en: 'a broad winter-sports offering beyond skiing', fr: "une offre de sports d'hiver large au-delà du ski", es: 'una amplia oferta de deportes de invierno más allá del esquí', pt: 'uma ampla oferta de desportos de inverno além do esqui', it: "un'ampia offerta di sport invernali oltre allo sci", ja: 'スキー以外にも幅広いウィンタースポーツ', nl: "een breed aanbod aan wintersporten naast skiën" },
-  'big-domain': { en: 'a vast, multi-sector domain', fr: 'un domaine vaste à plusieurs secteurs', es: 'un dominio enorme de varios sectores', pt: 'um domínio vasto de vários setores', it: 'un comprensorio vasto a più settori', ja: '複数エリアにまたがる広大なゲレンデ', nl: 'een uitgestrekt skigebied met meerdere sectoren' },
-  expert: { en: 'demanding terrain for strong skiers', fr: 'un terrain exigeant pour bons skieurs', es: 'terreno exigente para esquiadores fuertes', pt: 'terreno exigente para esquiadores fortes', it: 'terreno impegnativo per sciatori forti', ja: '実力者向けの難易度の高い地形', nl: 'veeleisend terrein voor sterke skiërs' },
+  luxury: { en: 'a polished, high-end scene', fr: 'une ambiance chic et haut de gamme', es: 'un ambiente cuidado y de alta gama', pt: 'um ambiente requintado e de alta gama', it: "un'atmosfera curata e di alto livello", ja: '洗練されたハイエンドな雰囲気', nl: "een verzorgde, hoogwaardige sfeer", 'zh-hk': '精緻高端的氛圍' },
+  party: { en: 'lively après-ski', fr: 'un après-ski animé', es: 'un après-ski animado', pt: 'um après-ski animado', it: 'un après-ski vivace', ja: '賑やかなアプレスキー', nl: 'levendige après-ski', 'zh-hk': '熱鬧的après-ski' },
+  freeride: { en: 'serious off-piste and freeride terrain', fr: 'du hors-piste et du freeride sérieux', es: 'fuera de pista y freeride serios', pt: 'fora de pista e freeride a sério', it: 'fuoripista e freeride seri', ja: '本格的なオフピステとフリーライドの地形', nl: 'serieus off-piste en freerideterrein', 'zh-hk': '認真級的野雪及自由滑雪地形' },
+  family: { en: 'a family-friendly setup', fr: 'un cadre adapté aux familles', es: 'un entorno apto para familias', pt: 'um ambiente adequado a famílias', it: 'un contesto adatto alle famiglie', ja: 'ファミリーに適した環境', nl: 'een gezinsvriendelijke opzet', 'zh-hk': '適合家庭的配套' },
+  gastronomy: { en: 'a strong dining scene', fr: 'une belle scène gastronomique', es: 'una notable escena gastronómica', pt: 'uma forte cena gastronómica', it: 'una solida scena gastronomica', ja: '充実したグルメシーン', nl: 'een sterk culinair aanbod', 'zh-hk': '出色的餐飲場景' },
+  glacier: { en: 'glacier skiing up high', fr: 'du ski de glacier en altitude', es: 'esquí en glaciar en altura', pt: 'esqui em glaciar nas alturas', it: 'sci su ghiacciaio in quota', ja: '標高の高い氷河スキー', nl: 'gletsjerskiën op grote hoogte', 'zh-hk': '高海拔冰川滑雪' },
+  'high-altitude': { en: 'snow-sure high-altitude slopes', fr: "des pentes d'altitude à l'enneigement fiable", es: 'pistas de gran altitud con nieve segura', pt: 'pistas de grande altitude com neve fiável', it: "piste d'alta quota con neve sicura", ja: '積雪が安定した高地のゲレンデ', nl: "hooggelegen pistes met sneeuwzekerheid", 'zh-hk': '積雪穩定的高海拔雪道' },
+  iconic: { en: 'a genuinely iconic name', fr: 'un nom véritablement iconique', es: 'un nombre realmente icónico', pt: 'um nome verdadeiramente icónico', it: 'un nome davvero iconico', ja: '名実ともに象徴的な名前', nl: 'een echt iconische naam', 'zh-hk': '名副其實的傳奇名字' },
+  japow: { en: 'the famous dry Japanese powder', fr: 'la fameuse poudreuse japonaise', es: 'la famosa nieve polvo japonesa', pt: 'a famosa neve pó japonesa', it: 'la famosa neve farinosa giapponese', ja: '名高い日本の乾いたパウダースノー', nl: 'de beroemde droge Japanse poeder', 'zh-hk': '著名的日本乾爽粉雪' },
+  mountaineering: { en: 'big-mountain and mountaineering terrain', fr: "un terrain de haute montagne et d'alpinisme", es: 'terreno de alta montaña y alpinismo', pt: 'terreno de alta montanha e alpinismo', it: "terreno d'alta montagna e alpinismo", ja: '高山と登山に適した地形', nl: "terrein voor hooggebergte en alpinisme", 'zh-hk': '大山地形及登山路線' },
+  racing: { en: 'a racing and competition pedigree', fr: 'une tradition de course et de compétition', es: 'una tradición de competición', pt: 'uma tradição de competição', it: 'una tradizione di gare e competizione', ja: 'レースと競技の伝統', nl: 'een traditie van wedstrijden en competitie', 'zh-hk': '賽事及競技傳統' },
+  'winter-sports': { en: 'a broad winter-sports offering beyond skiing', fr: "une offre de sports d'hiver large au-delà du ski", es: 'una amplia oferta de deportes de invierno más allá del esquí', pt: 'uma ampla oferta de desportos de inverno além do esqui', it: "un'ampia offerta di sport invernali oltre allo sci", ja: 'スキー以外にも幅広いウィンタースポーツ', nl: "een breed aanbod aan wintersporten naast skiën", 'zh-hk': '滑雪以外多元的冬季運動選擇' },
+  'big-domain': { en: 'a vast, multi-sector domain', fr: 'un domaine vaste à plusieurs secteurs', es: 'un dominio enorme de varios sectores', pt: 'um domínio vasto de vários setores', it: 'un comprensorio vasto a più settori', ja: '複数エリアにまたがる広大なゲレンデ', nl: 'een uitgestrekt skigebied met meerdere sectoren', 'zh-hk': '幅員遼闊、分區眾多的滑雪區' },
+  expert: { en: 'demanding terrain for strong skiers', fr: 'un terrain exigeant pour bons skieurs', es: 'terreno exigente para esquiadores fuertes', pt: 'terreno exigente para esquiadores fortes', it: 'terreno impegnativo per sciatori forti', ja: '実力者向けの難易度の高い地形', nl: 'veeleisend terrein voor sterke skiërs', 'zh-hk': '考驗實力的高難度地形' },
 }
 
-const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e', ja: 'と', nl: 'en' }
+const AND: Record<Locale, string> = { en: 'and', fr: 'et', es: 'y', pt: 'e', it: 'e', ja: 'と', nl: 'en', 'zh-hk': '及' }
 function joinList(items: string[], locale: Locale): string {
   if (items.length <= 1) return items.join('')
   return `${items.slice(0, -1).join(', ')} ${AND[locale]} ${items[items.length - 1]}`
@@ -306,6 +326,7 @@ const VIBE_LEAD: Record<Locale, (name: string, list: string) => string> = {
   it: (n, l) => `${n} si distingue per ${l}.`,
   ja: (n, l) => `${n}の魅力は${l}です。`,
   nl: (n, l) => `${n} onderscheidt zich door ${l}.`,
+  'zh-hk': (n, l) => `${n}的特色在於${l}。`,
 }
 function vibeAnswer(d: Destination, locale: Locale): string {
   const frags = d.vibes.map((v) => VIBE_FRAG[v]?.[locale]).filter((x): x is string => Boolean(x)).slice(0, 3)
@@ -324,6 +345,7 @@ function whenAnswer(d: Destination, locale: Locale): string {
       it: `Qui la neve resiste tutto l'anno, quindi si scia ben oltre la solita finestra invernale, ghiacciaio estivo compreso.`,
       ja: `ここでは一年中雪が残るため、通常の冬季シーズンを大きく超えて滑走でき、夏の氷河スキーも楽しめます。`,
       nl: `Hier ligt het hele jaar sneeuw, dus je kunt hier ver buiten het gebruikelijke winterseizoen skiën, inclusief zomerse gletsjerrondjes.`,
+      'zh-hk': `這裡全年積雪，滑雪季遠超一般冬季範圍，夏天亦可享受冰川滑雪。`,
     }
     return yr[locale]
   }
@@ -339,12 +361,13 @@ function whenAnswer(d: Destination, locale: Locale): string {
       it: `Nell'emisfero sud la stagione va all'incirca da ${start} a ${end} (l'inverno locale), con luglio e agosto i più affidabili.`,
       ja: `南半球ではシーズンはおおよそ${start}から${end}まで（現地の冬）で、7月と8月が最も安定しています。`,
       nl: `Op het zuidelijk halfrond loopt het seizoen ruwweg van ${start} tot ${end} (de lokale winter), met juli en augustus als de meest betrouwbare maanden.`,
+      'zh-hk': `南半球的雪季大約由${start}至${end}（當地冬季），其中7月及8月的雪況最為穩定。`,
     }
     return t[locale]
   }
   const tail: Record<Locale, string> = high
-    ? { en: ` The altitude also holds spring snow, so late-season skiing stays good well into spring.`, fr: ` L'altitude tient aussi la neige de printemps : le ski de fin de saison reste bon tard au printemps.`, es: ` La altitud también aguanta la nieve de primavera, así que el final de temporada se mantiene bueno entrada la primavera.`, pt: ` A altitude também segura a neve de primavera, por isso o fim de época mantém-se bom já dentro da primavera.`, it: ` La quota tiene anche la neve di primavera, quindi il fine stagione resta buono fino a primavera inoltrata.`, ja: ` 標高の高さが春の雪も保つため、シーズン終盤まで春遅くまで良好なコンディションが続きます。`, nl: ` De hoogte houdt ook de lentesneeuw vast, dus blijft skiën laat in het seizoen goed tot ver in de lente.` }
-    : { en: ` Conditions soften as spring arrives, so earlier in the window is the safer call.`, fr: ` Les conditions s'adoucissent à l'approche du printemps : viser le début de la fenêtre est plus sûr.`, es: ` Las condiciones se ablandan al llegar la primavera, así que el principio de la ventana es más seguro.`, pt: ` As condições amolecem com a chegada da primavera, por isso o início da janela é mais seguro.`, it: ` Le condizioni si ammorbidiscono con l'arrivo della primavera, quindi l'inizio della finestra è la scelta più sicura.`, ja: ` 春が近づくとコンディションが緩むため、シーズン序盤の早い時期を狙うのが安全です。`, nl: ` De omstandigheden worden zachter zodra de lente aanbreekt, dus vroeg in het seizoen is de veiligere keuze.` }
+    ? { en: ` The altitude also holds spring snow, so late-season skiing stays good well into spring.`, fr: ` L'altitude tient aussi la neige de printemps : le ski de fin de saison reste bon tard au printemps.`, es: ` La altitud también aguanta la nieve de primavera, así que el final de temporada se mantiene bueno entrada la primavera.`, pt: ` A altitude também segura a neve de primavera, por isso o fim de época mantém-se bom já dentro da primavera.`, it: ` La quota tiene anche la neve di primavera, quindi il fine stagione resta buono fino a primavera inoltrata.`, ja: ` 標高の高さが春の雪も保つため、シーズン終盤まで春遅くまで良好なコンディションが続きます。`, nl: ` De hoogte houdt ook de lentesneeuw vast, dus blijft skiën laat in het seizoen goed tot ver in de lente.`, 'zh-hk': ` 高海拔亦有助保存春雪，即使到雪季後段仍可享有良好雪況直至春天。` }
+    : { en: ` Conditions soften as spring arrives, so earlier in the window is the safer call.`, fr: ` Les conditions s'adoucissent à l'approche du printemps : viser le début de la fenêtre est plus sûr.`, es: ` Las condiciones se ablandan al llegar la primavera, así que el principio de la ventana es más seguro.`, pt: ` As condições amolecem com a chegada da primavera, por isso o início da janela é mais seguro.`, it: ` Le condizioni si ammorbidiscono con l'arrivo della primavera, quindi l'inizio della finestra è la scelta più sicura.`, ja: ` 春が近づくとコンディションが緩むため、シーズン序盤の早い時期を狙うのが安全です。`, nl: ` De omstandigheden worden zachter zodra de lente aanbreekt, dus vroeg in het seizoen is de veiligere keuze.`, 'zh-hk': ` 隨著春天來臨，雪況會逐漸轉軟，因此宜盡早於雪季前段出發較為穩妥。` }
   const base: Record<Locale, string> = {
     en: `The season usually runs ${start} to ${end} (about ${weeks} weeks). For the most dependable cover, the deep-winter window of January to February is the safe bet.`,
     fr: `La saison va en général de ${start} à ${end} (environ ${weeks} semaines). Pour l'enneigement le plus sûr, la fenêtre de plein hiver de janvier à février est la valeur sûre.`,
@@ -353,6 +376,7 @@ function whenAnswer(d: Destination, locale: Locale): string {
     it: `La stagione va di solito da ${start} a ${end} (circa ${weeks} settimane). Per l'innevamento più affidabile, la finestra di pieno inverno tra gennaio e febbraio è la scelta sicura.`,
     ja: `シーズンは通常${start}から${end}まで（約${weeks}週間）です。最も雪質が安定するのは1月から2月にかけての真冬シーズンで、これが最も確実な選択です。`,
     nl: `Het seizoen loopt meestal van ${start} tot ${end} (ongeveer ${weeks} weken). Voor de betrouwbaarste sneeuw is het hart van de winter, van januari tot februari, de veilige keuze.`,
+    'zh-hk': `雪季一般由${start}至${end}（約${weeks}星期）。若想確保穩定雪況，1月至2月的隆冬時段是最穩妥的選擇。`,
   }
   return base[locale] + tail[locale]
 }
@@ -393,6 +417,7 @@ const FAQ_Q = {
     it: (d: Destination) => `Qual è il dislivello di ${d.name}?`,
     ja: (d: Destination) => `${d.name}の標高差はどのくらいですか？`,
     nl: (d: Destination) => `Hoeveel hoogteverschil heeft ${d.name}?`,
+    'zh-hk': (d: Destination) => `${d.name}的垂直落差有多少？`,
   } as Record<Locale, (d: Destination) => string>,
   domain: {
     en: (d: Destination) => `Is ${d.name} part of a larger ski area?`,
@@ -402,6 +427,7 @@ const FAQ_Q = {
     it: (d: Destination) => `${d.name} fa parte di un comprensorio più ampio?`,
     ja: (d: Destination) => `${d.name}はより大きなスキーエリアの一部ですか？`,
     nl: (d: Destination) => `Maakt ${d.name} deel uit van een groter skigebied?`,
+    'zh-hk': (d: Destination) => `${d.name}是否屬於更大型滑雪區的一部分？`,
   } as Record<Locale, (d: Destination) => string>,
   beginners: {
     en: (d: Destination) => `Is ${d.name} good for beginners?`,
@@ -411,6 +437,7 @@ const FAQ_Q = {
     it: (d: Destination) => `${d.name} è adatta ai principianti?`,
     ja: (d: Destination) => `${d.name}は初心者に向いていますか？`,
     nl: (d: Destination) => `Is ${d.name} geschikt voor beginners?`,
+    'zh-hk': (d: Destination) => `${d.name}適合初學者嗎？`,
   } as Record<Locale, (d: Destination) => string>,
   glacier: {
     en: () => `Can you ski on a glacier here?`,
@@ -420,6 +447,7 @@ const FAQ_Q = {
     it: () => `Si può sciare su un ghiacciaio qui?`,
     ja: () => `ここでは氷河でスキーができますか？`,
     nl: () => `Kun je hier op een gletsjer skiën?`,
+    'zh-hk': () => `這裡可以在冰川上滑雪嗎？`,
   } as Record<Locale, () => string>,
 }
 
@@ -433,6 +461,7 @@ function verticalAnswer(d: Destination, locale: Locale): string {
     it: `Circa ${v} m di dislivello, da una base di ${d.altitudeBase} m fino a ${d.altitudeSummit} m in cima.`,
     ja: `標高差は約${v}m、ベース標高${d.altitudeBase}mから山頂${d.altitudeSummit}mまでです。`,
     nl: `Ongeveer ${v} m hoogteverschil, van een basis op ${d.altitudeBase} m tot ${d.altitudeSummit} m boven.`,
+    'zh-hk': `垂直落差約${v}m，由山腳${d.altitudeBase}m攀升至山頂${d.altitudeSummit}m。`,
   }
   return t[locale]
 }
@@ -448,6 +477,7 @@ function domainAnswer(d: Destination, locale: Locale): string {
       it: `Sì. ${d.name} fa parte del comprensorio ${area.name}, uno dei grandi comprensori collegati: un solo skipass apre l'intero comprensorio.`,
       ja: `はい。${d.name}は${area.name}エリアの一部で、大規模な連結ゲレンデのひとつです。1枚のスキーパスでエリア全体を滑走できます。`,
       nl: `Ja. ${d.name} maakt deel uit van het skigebied ${area.name}, een van de grote gekoppelde gebieden, dus met één liftpas heb je toegang tot het geheel.`,
+      'zh-hk': `是的。${d.name}屬於${area.name}滑雪區的一部分，是規模龐大的聯合滑雪區之一，一張纜車證即可暢遊全區。`,
     }
     return t[locale]
   }
@@ -459,6 +489,7 @@ function domainAnswer(d: Destination, locale: Locale): string {
     it: `No, è una località a sé con i suoi ${d.pistesKm} km di piste, non parte di un comprensorio collegato.`,
     ja: `いいえ、ここは単独のリゾートで、コース総延長${d.pistesKm}kmを自前で有しており、連結ゲレンデの一部ではありません。`,
     nl: `Nee, dit is een op zichzelf staand resort met eigen ${d.pistesKm} km piste, geen onderdeel van een gekoppeld skigebied.`,
+    'zh-hk': `不是，這是一個獨立的滑雪勝地，擁有自家${d.pistesKm}km雪道，並非聯合滑雪區的一部分。`,
   }
   return t[locale]
 }
@@ -478,6 +509,7 @@ function beginnersAnswer(d: Destination, locale: Locale): string {
       it: `Sì. Con ${c.green} piste verdi e ${c.blue} blu, c'è terreno facile in abbondanza per imparare.`,
       ja: `はい。緑${c.green}本、青${c.blue}本と初心者向けのやさしいコースが充実しています。`,
       nl: `Ja. Met ${c.green} groene en ${c.blue} blauwe pistes is er volop rustig terrein om op te leren.`,
+      'zh-hk': `適合。設有${c.green}條綠色及${c.blue}條藍色雪道，有大量平緩地形可供練習。`,
     },
     ok: {
       en: `It can work: ${c.green} green and ${c.blue} blue runs are enough to start, though the area rewards skiers who can already link turns.`,
@@ -487,6 +519,7 @@ function beginnersAnswer(d: Destination, locale: Locale): string {
       it: `Può andare: ${c.green} verdi e ${c.blue} blu bastano per iniziare, anche se il comprensorio premia chi sa già collegare le curve.`,
       ja: `十分滑走できます。緑${c.green}本、青${c.blue}本があれば始めるには十分ですが、すでにターンをつなげられるレベルの人ほど楽しめるゲレンデです。`,
       nl: `Het kan lukken: ${c.green} groene en ${c.blue} blauwe pistes zijn genoeg om te beginnen, al beloont het gebied skiërs die al bochten kunnen koppelen.`,
+      'zh-hk': `尚算可行：${c.green}條綠色及${c.blue}條藍色雪道足夠入門，不過這片滑雪區更適合已能連續轉彎的滑雪者發揮。`,
     },
     limited: {
       en: `Less so: the terrain leans intermediate and advanced (${c.green} green, ${c.blue} blue), so committed beginners are better off starting elsewhere.`,
@@ -496,6 +529,7 @@ function beginnersAnswer(d: Destination, locale: Locale): string {
       it: `Meno: il terreno pende verso intermedio e avanzato (${c.green} verdi, ${c.blue} blu), quindi i veri principianti fanno meglio a iniziare altrove.`,
       ja: `あまり向きません。地形は中級・上級寄り（緑${c.green}本、青${c.blue}本）のため、本格的な初心者は他のゲレンデから始める方がよいでしょう。`,
       nl: `Minder: het terrein leunt naar gevorderd en ervaren (${c.green} groen, ${c.blue} blauw), dus serieuze beginners kunnen beter elders starten.`,
+      'zh-hk': `未必適合：地形偏向中級至進階（${c.green}條綠色、${c.blue}條藍色），認真的初學者較宜選擇其他地方入門。`,
     },
   }
   return A[tier][locale]
@@ -510,6 +544,7 @@ function glacierAnswer(locale: Locale): string {
     it: `Sì, c'è sci su ghiacciaio in quota, il che allunga la stagione e aiuta nelle annate con poca neve.`,
     ja: `はい、標高の高い場所で氷河スキーができ、シーズンが延びるほか積雪が少ない年にも役立ちます。`,
     nl: `Ja, er is gletsjerskiën op grote hoogte, wat het seizoen verlengt en helpt in jaren met weinig sneeuw.`,
+    'zh-hk': `有的，高處設有冰川雪道，有助延長雪季，並在少雪年份提供保障。`,
   }
   return t[locale]
 }

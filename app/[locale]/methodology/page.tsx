@@ -24,6 +24,7 @@ const PAGE_TITLE: Record<Locale, string> = {
   it: 'Come valutiamo e classifichiamo le località sciistiche',
   nl: 'Hoe we skigebieden beoordelen en indelen',
   ja: 'スキーリゾートの採点・分類方法',
+  'zh-hk': '滑雪勝地評分及分類方法',
 }
 
 export async function generateStaticParams() {

@@ -16,6 +16,7 @@ const PARTNER_LABEL = {
     it: 'Stai organizzando il tuo viaggio a {name}?',
     nl: 'Ben je een reis naar {name} aan het plannen?',
     ja: '{name}への旅行を計画中ですか？',
+    'zh-hk': '正在計劃前往{name}的旅程？',
   } as Record<Locale, string>,
   sub: {
     en: 'A few of our sister sites cover this destination too.',
@@ -25,8 +26,9 @@ const PARTNER_LABEL = {
     it: 'Alcuni dei nostri siti partner coprono anche questa destinazione.',
     nl: 'Een aantal van onze zustersites behandelt deze bestemming ook.',
     ja: '姉妹サイトの一部でも、この目的地を紹介しています。',
+    'zh-hk': '我們部分姊妹網站也有介紹這個目的地。',
   } as Record<Locale, string>,
-  visit: { en: 'Visit', fr: 'Voir', es: 'Ver', pt: 'Ver', it: 'Vai a', nl: 'Bekijk', ja: '見る' } as Record<Locale, string>,
+  visit: { en: 'Visit', fr: 'Voir', es: 'Ver', pt: 'Ver', it: 'Vai a', nl: 'Bekijk', ja: '見る', 'zh-hk': '查看' } as Record<Locale, string>,
 }
 import RelatedBridges from '@/components/RelatedBridges'
 import HubChips from '@/components/HubChips'
@@ -84,6 +86,7 @@ export async function generateMetadata({
   const countryIt = localizeCountry(d.country, 'it')
   const countryNl = localizeCountry(d.country, 'nl')
   const countryJa = localizeCountry(d.country, 'ja')
+  const countryZhHk = localizeCountry(d.country, 'zh-hk')
 
   const titles: Record<Locale, string> = {
     en: `Ski-in/ski-out hotels in ${d.name} (${countryEn}) | BestSnowHotels`,
@@ -93,6 +96,7 @@ export async function generateMetadata({
     it: `Hotel ski-in/ski-out a ${d.name} (${countryIt}) | BestSnowHotels`,
     nl: `Ski-in/ski-out hotels in ${d.name} (${countryNl}) | BestSnowHotels`,
     ja: `${d.name}（${countryJa}）のski-in/ski-outホテル | BestSnowHotels`,
+    'zh-hk': `${d.name}（${countryZhHk}）ski-in/ski-out酒店 | BestSnowHotels`,
   }
   const descriptions: Record<Locale, string> = {
     en: `Best ski-in/ski-out hotels in ${d.name}. ${d.pistesKm} km of pistes, top at ${d.altitudeSummit} m. Compare Booking, Expedia and Hotels.com.`,
@@ -102,6 +106,7 @@ export async function generateMetadata({
     it: `Migliori hotel ski-in/ski-out a ${d.name}. ${d.pistesKm} km di piste, cima a ${d.altitudeSummit} m. Confronta Booking, Expedia e Hotels.com.`,
     nl: `Beste ski-in/ski-out hotels in ${d.name}. ${d.pistesKm} km piste, top op ${d.altitudeSummit} m. Vergelijk Booking, Expedia en Hotels.com.`,
     ja: `${d.name}のski-in/ski-outホテルを厳選。コース${d.pistesKm}km、山頂標高${d.altitudeSummit}m。Booking、Expedia、Hotels.comの料金を比較できます。`,
+    'zh-hk': `${d.name}最佳ski-in/ski-out酒店。雪道全長${d.pistesKm}km，山頂海拔${d.altitudeSummit}m。比較Booking、Expedia及Hotels.com的價格。`,
   }
 
   return {
@@ -123,6 +128,7 @@ export async function generateMetadata({
         it: `${SITE_URL}/it/destinations/${d.slug}`,
         nl: `${SITE_URL}/nl/destinations/${d.slug}`,
         ja: `${SITE_URL}/ja/destinations/${d.slug}`,
+        'zh-hk': `${SITE_URL}/zh-hk/destinations/${d.slug}`,
         'x-default': `${SITE_URL}/en/destinations/${d.slug}`,
       },
     },
@@ -150,12 +156,12 @@ export default async function DestinationDetailPage({
   const hubGroups = hubLinksFor(d, l, regionLabel, countryLabel)
   // Localised copy for the maillage sections (chip cloud + bridges).
   const cocoon = {
-    hubHeading: ({ en: 'Keep exploring from here', fr: 'Continuer à explorer', es: 'Sigue explorando desde aquí', pt: 'Continue a explorar a partir daqui', it: 'Continua a esplorare da qui', nl: 'Blijf verkennen vanaf hier', ja: 'ここからさらに探す' } as Record<Locale, string>)[l],
-    hubSub: ({ en: `Everything on our site connected to ${d.name}: its area, the lists it makes, head-to-heads and trip guides.`, fr: `Tout ce qui, sur le site, est lié à ${d.name} : sa région, les sélections où elle figure, les comparatifs et les guides pratiques.`, es: `Todo lo de nuestra web conectado con ${d.name}: su zona, las listas en las que aparece, los duelos y las guías de viaje.`, pt: `Tudo no nosso site ligado a ${d.name}: a sua zona, as listas em que aparece, os duelos e os guias de viagem.`, it: `Tutto ciò che sul sito è collegato a ${d.name}: la sua zona, le liste in cui compare, i confronti e le guide di viaggio.`, nl: `Alles op onze site dat verbonden is met ${d.name}: het gebied, de lijsten waarin het voorkomt, de vergelijkingen en de reisgidsen.`, ja: `${d.name}に関連する当サイトのすべてのコンテンツ：エリア、掲載リスト、比較記事、旅行ガイド。` } as Record<Locale, string>)[l],
-    nearTitle: ({ en: `Ski resorts near ${d.name}`, fr: `Stations de ski près de ${d.name}`, es: `Estaciones de esquí cerca de ${d.name}`, pt: `Estâncias de esqui perto de ${d.name}`, it: `Località sciistiche vicino a ${d.name}`, nl: `Skigebieden bij ${d.name}`, ja: `${d.name}周辺のスキーリゾート` } as Record<Locale, string>)[l],
-    nearSub: ({ en: 'The closest alternatives, an easy switch if dates or hotels are tight.', fr: 'Les alternatives les plus proches, faciles à substituer si les dates ou les hôtels coincent.', es: 'Las alternativas más cercanas, fáciles de cambiar si las fechas o los hoteles aprietan.', pt: 'As alternativas mais próximas, fáceis de trocar se as datas ou os hotéis apertarem.', it: 'Le alternative più vicine, facili da scegliere se date o hotel scarseggiano.', nl: 'De dichtstbijzijnde alternatieven, makkelijk te kiezen als data of hotels krap zijn.', ja: '最も近い代替候補。日程やホテルの都合が合わないときに切り替えやすいリゾートです。' } as Record<Locale, string>)[l],
-    simTitle: ({ en: `If you like ${d.name}, try these`, fr: `Si vous aimez ${d.name}, essayez`, es: `Si te gusta ${d.name}, prueba estas`, pt: `Se gosta de ${d.name}, experimente estas`, it: `Se ti piace ${d.name}, prova queste`, nl: `Houd je van ${d.name}, probeer dan deze`, ja: `${d.name}が気に入ったなら、こちらもおすすめ` } as Record<Locale, string>)[l],
-    simSub: ({ en: 'Resorts with a similar feel, snow record and size.', fr: 'Des stations à l\'ambiance, l\'enneigement et la taille comparables.', es: 'Estaciones con un ambiente, una nieve y un tamaño parecidos.', pt: 'Estâncias com ambiente, neve e dimensão semelhantes.', it: 'Località con atmosfera, innevamento e dimensioni simili.', nl: 'Skigebieden met een vergelijkbare sfeer, sneeuwzekerheid en omvang.', ja: '雰囲気や積雪実績、規模が似ているリゾートです。' } as Record<Locale, string>)[l],
+    hubHeading: ({ en: 'Keep exploring from here', fr: 'Continuer à explorer', es: 'Sigue explorando desde aquí', pt: 'Continue a explorar a partir daqui', it: 'Continua a esplorare da qui', nl: 'Blijf verkennen vanaf hier', ja: 'ここからさらに探す', 'zh-hk': '從這裡繼續探索' } as Record<Locale, string>)[l],
+    hubSub: ({ en: `Everything on our site connected to ${d.name}: its area, the lists it makes, head-to-heads and trip guides.`, fr: `Tout ce qui, sur le site, est lié à ${d.name} : sa région, les sélections où elle figure, les comparatifs et les guides pratiques.`, es: `Todo lo de nuestra web conectado con ${d.name}: su zona, las listas en las que aparece, los duelos y las guías de viaje.`, pt: `Tudo no nosso site ligado a ${d.name}: a sua zona, as listas em que aparece, os duelos e os guias de viagem.`, it: `Tutto ciò che sul sito è collegato a ${d.name}: la sua zona, le liste in cui compare, i confronti e le guide di viaggio.`, nl: `Alles op onze site dat verbonden is met ${d.name}: het gebied, de lijsten waarin het voorkomt, de vergelijkingen en de reisgidsen.`, ja: `${d.name}に関連する当サイトのすべてのコンテンツ：エリア、掲載リスト、比較記事、旅行ガイド。`, 'zh-hk': `本站所有與${d.name}相關的內容：所屬滑雪區、入選清單、對比文章及旅遊指南。` } as Record<Locale, string>)[l],
+    nearTitle: ({ en: `Ski resorts near ${d.name}`, fr: `Stations de ski près de ${d.name}`, es: `Estaciones de esquí cerca de ${d.name}`, pt: `Estâncias de esqui perto de ${d.name}`, it: `Località sciistiche vicino a ${d.name}`, nl: `Skigebieden bij ${d.name}`, ja: `${d.name}周辺のスキーリゾート`, 'zh-hk': `${d.name}附近的滑雪場` } as Record<Locale, string>)[l],
+    nearSub: ({ en: 'The closest alternatives, an easy switch if dates or hotels are tight.', fr: 'Les alternatives les plus proches, faciles à substituer si les dates ou les hôtels coincent.', es: 'Las alternativas más cercanas, fáciles de cambiar si las fechas o los hoteles aprietan.', pt: 'As alternativas mais próximas, fáceis de trocar se as datas ou os hotéis apertarem.', it: 'Le alternative più vicine, facili da scegliere se date o hotel scarseggiano.', nl: 'De dichtstbijzijnde alternatieven, makkelijk te kiezen als data of hotels krap zijn.', ja: '最も近い代替候補。日程やホテルの都合が合わないときに切り替えやすいリゾートです。', 'zh-hk': '最鄰近的替代選擇，適合日期或酒店房源緊張時輕鬆轉換。' } as Record<Locale, string>)[l],
+    simTitle: ({ en: `If you like ${d.name}, try these`, fr: `Si vous aimez ${d.name}, essayez`, es: `Si te gusta ${d.name}, prueba estas`, pt: `Se gosta de ${d.name}, experimente estas`, it: `Se ti piace ${d.name}, prova queste`, nl: `Houd je van ${d.name}, probeer dan deze`, ja: `${d.name}が気に入ったなら、こちらもおすすめ`, 'zh-hk': `如果你喜歡${d.name}，不妨試試這些` } as Record<Locale, string>)[l],
+    simSub: ({ en: 'Resorts with a similar feel, snow record and size.', fr: 'Des stations à l\'ambiance, l\'enneigement et la taille comparables.', es: 'Estaciones con un ambiente, una nieve y un tamaño parecidos.', pt: 'Estâncias com ambiente, neve e dimensão semelhantes.', it: 'Località con atmosfera, innevamento e dimensioni simili.', nl: 'Skigebieden met een vergelijkbare sfeer, sneeuwzekerheid en omvang.', ja: '雰囲気や積雪実績、規模が似ているリゾートです。', 'zh-hk': '氣氛、積雪紀錄及規模相近的滑雪場。' } as Record<Locale, string>)[l],
   }
   const bridges = [
     { key: 'near', title: cocoon.nearTitle, sub: cocoon.nearSub, items: near, accent: 'ice' as const },
@@ -391,7 +397,7 @@ export default async function DestinationDetailPage({
           href={`/${l}/methodology`}
           className="mt-2 inline-block text-sm text-ice-600 hover:text-alpenglow-700 underline decoration-ice-300 underline-offset-2"
         >
-          {({ en: 'How we score and classify resorts', fr: 'Comment on note et classe les stations', es: 'Cómo puntuamos y clasificamos las estaciones', pt: 'Como pontuamos e classificamos as estâncias', it: 'Come valutiamo e classifichiamo le località', nl: 'Hoe we skigebieden beoordelen en indelen', ja: 'リゾートの採点・分類方法' } as Record<Locale, string>)[l]}
+          {({ en: 'How we score and classify resorts', fr: 'Comment on note et classe les stations', es: 'Cómo puntuamos y clasificamos las estaciones', pt: 'Como pontuamos e classificamos as estâncias', it: 'Come valutiamo e classifichiamo le località', nl: 'Hoe we skigebieden beoordelen en indelen', ja: 'リゾートの採点・分類方法', 'zh-hk': '滑雪場評分及分類方法' } as Record<Locale, string>)[l]}
         </Link>
       </section>
 

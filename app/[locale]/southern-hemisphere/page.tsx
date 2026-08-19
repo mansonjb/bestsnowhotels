@@ -184,7 +184,7 @@ export default async function SouthernHemispherePage({
         >
           <span className="font-semibold text-slate-deep flex items-center gap-3">
             <span aria-hidden className="text-2xl">⏳</span>
-            {({ en: 'The 2026 Andes season is ending. Book the last weeks of snow.', fr: 'La saison 2026 des Andes se termine. Reservez les dernieres semaines de neige.', es: 'La temporada 2026 en los Andes cierra pronto. Reserva las ultimas semanas de nieve.', pt: 'A temporada 2026 nos Andes fecha em breve. Reserve as ultimas semanas de neve.', it: 'La stagione 2026 sulle Ande sta finendo. Prenota le ultime settimane di neve.', nl: 'Het Andes-seizoen 2026 loopt ten einde. Boek de laatste weken sneeuw.', ja: '2026年のアンデスシーズンは終盤です。積雪が残る最後の数週間に予約を。' } as Record<Locale, string>)[l]}
+            {({ en: 'The 2026 Andes season is ending. Book the last weeks of snow.', fr: 'La saison 2026 des Andes se termine. Reservez les dernieres semaines de neige.', es: 'La temporada 2026 en los Andes cierra pronto. Reserva las ultimas semanas de nieve.', pt: 'A temporada 2026 nos Andes fecha em breve. Reserve as ultimas semanas de neve.', it: 'La stagione 2026 sulle Ande sta finendo. Prenota le ultime settimane di neve.', nl: 'Het Andes-seizoen 2026 loopt ten einde. Boek de laatste weken sneeuw.', ja: '2026年のアンデスシーズンは終盤です。積雪が残る最後の数週間に予約を。', 'zh-hk': '2026年安第斯山脈雪季即將結束。立即預訂僅餘的降雪星期。' } as Record<Locale, string>)[l]}
           </span>
           <span className="text-alpenglow-600 font-bold group-hover:translate-x-0.5 transition" aria-hidden>→</span>
         </Link>

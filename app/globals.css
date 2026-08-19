@@ -61,3 +61,11 @@ body {
     "YuGothic", "Meiryo", "Noto Sans JP", "Noto Sans CJK JP", system-ui,
     sans-serif !important;
 }
+
+/* Traditional Chinese (zh-HK) system stack: PingFang TC (macOS/iOS),
+   Microsoft JhengHei (Windows), Noto Sans TC (Android/Linux). Han glyphs use
+   the Traditional regional forms, distinct from .font-jp. */
+.font-tc {
+  font-family: "PingFang TC", "PingFang HK", "Microsoft JhengHei",
+    "Noto Sans TC", "Noto Sans CJK TC", system-ui, sans-serif !important;
+}

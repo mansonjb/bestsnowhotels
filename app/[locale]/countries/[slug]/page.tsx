@@ -35,6 +35,7 @@ export async function generateMetadata({
     it: `Hotel ski-in/ski-out ${inCountry(country.name, 'it')} | BestSnowHotels`,
     nl: `Ski-in/ski-out hotels ${inCountry(country.name, 'nl')} | BestSnowHotels`,
     ja: `${inCountry(country.name, 'ja')}のski-in/ski-out ホテル | BestSnowHotels`,
+    'zh-hk': `${inCountry(country.name, 'zh-hk')}的ski-in/ski-out酒店 | BestSnowHotels`,
   }
   return {
     title: titles[locale as Locale],
