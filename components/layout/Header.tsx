@@ -39,17 +39,17 @@ export default function Header({ locale, dict }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-ice-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between gap-6 h-16">
           <Link
             href={`/${locale}`}
-            className="flex items-center gap-2 font-bold text-lg text-slate-deep"
+            className="flex shrink-0 items-center gap-2 font-bold text-lg text-slate-deep"
             onClick={() => setOpen(false)}
           >
             <span aria-hidden className="text-2xl">❄</span>
             <span>BestSnowHotels</span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-7 text-sm font-medium text-ice-800">
+          <nav className="hidden xl:flex items-center gap-6 whitespace-nowrap text-sm font-medium text-ice-800">
             <Link href={`/${locale}/destinations`} className="hover:text-slate-deep transition">
               {dict.nav.destinations}
             </Link>
@@ -72,13 +72,13 @@ export default function Header({ locale, dict }: HeaderProps) {
               {dict.nav.weather}
             </Link>
 
-            <div className="flex items-center gap-1 ml-2 border-l border-ice-200 pl-4">
+            <div className="flex shrink-0 items-center gap-1 ml-1 border-l border-ice-200 pl-3">
               {allLocales.map((l) => (
                 <Link
                   key={l}
                   href={switchLocale(l)}
                   className={
-                    'text-xs font-semibold px-2 py-1 rounded ' +
+                    'text-xs font-semibold px-2 py-1 rounded whitespace-nowrap ' +
                     (l === locale
                       ? 'bg-slate-deep text-white'
                       : 'text-ice-700 hover:bg-ice-50')
@@ -92,7 +92,7 @@ export default function Header({ locale, dict }: HeaderProps) {
 
           <button
             type="button"
-            className="md:hidden p-2 rounded text-ice-800"
+            className="xl:hidden p-2 rounded text-ice-800"
             aria-label={menuAria[locale]}
             onClick={() => setOpen(!open)}
           >
@@ -103,7 +103,7 @@ export default function Header({ locale, dict }: HeaderProps) {
         </div>
 
         {open && (
-          <div className="md:hidden pb-4 border-t border-ice-100 pt-3 space-y-2">
+          <div className="xl:hidden pb-4 border-t border-ice-100 pt-3 space-y-2">
             <Link
               href={`/${locale}/destinations`}
               onClick={() => setOpen(false)}
@@ -153,14 +153,14 @@ export default function Header({ locale, dict }: HeaderProps) {
             >
               {dict.nav.weather}
             </Link>
-            <div className="flex items-center gap-2 pt-2 border-t border-ice-100">
+            <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-ice-100">
               {allLocales.map((l) => (
                 <Link
                   key={l}
                   href={switchLocale(l)}
                   onClick={() => setOpen(false)}
                   className={
-                    'text-xs font-semibold px-3 py-1 rounded ' +
+                    'text-xs font-semibold px-3 py-1 rounded whitespace-nowrap ' +
                     (l === locale
                       ? 'bg-slate-deep text-white'
                       : 'text-ice-700 bg-ice-50')
