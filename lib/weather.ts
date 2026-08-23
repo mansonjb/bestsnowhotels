@@ -9,8 +9,8 @@ import type { Destination } from './destinations'
  * - Snow-specific fields: snow_depth (m), snowfall (cm), freezing_level_height
  * - Reliable European coverage (ECMWF + MeteoFrance + DWD + Met Norway models)
  *
- * Caching: each fetch goes through Next.js's data cache with revalidate=1800
- * (30 minutes). At ISR rebuild time the cached response is reused across pages,
+ * Caching: each fetch goes through Next.js's data cache with revalidate=10800
+ * (3 heures). At ISR rebuild time the cached response is reused across pages,
  * so the /weather index sharing data with /weather/[slug] costs zero extra calls.
  */
 
@@ -55,7 +55,7 @@ const ENDPOINT = 'https://api.open-meteo.com/v1/forecast'
 
 /** Cache window for the underlying fetch, in seconds. 30 min keeps pages fresh
  *  without melting the API quota. */
-const REVALIDATE_SECONDS = 1800
+const REVALIDATE_SECONDS = 10800
 
 function num(v: unknown): number | null {
   return typeof v === 'number' && Number.isFinite(v) ? v : null

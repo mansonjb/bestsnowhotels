@@ -10,8 +10,8 @@ import { SITE_URL } from '@/lib/site'
 import { localizeCountry } from '@/lib/countryNames'
 import { formatSnowCm } from '@/lib/weatherContent'
 
-/** ISR: top of the funnel; regenerate every 30 minutes. */
-export const revalidate = 1800
+/** ISR: top of the funnel; regenerate every 3 hours. */
+export const revalidate = 10800
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))

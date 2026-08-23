@@ -1,0 +1,3 @@
+{
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ':!*.md' ':!scripts/**' ':!tasks/**' ':!.claude/**' ':!docs/**' ':!*.original.md'"
+}

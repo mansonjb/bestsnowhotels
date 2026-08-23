@@ -9,7 +9,7 @@ import { localizeCountry } from '@/lib/countryNames'
 import WeatherCard from '@/components/WeatherCard'
 import { SITE_URL, jsonLdGraph } from '@/lib/site'
 
-export const revalidate = 1800
+export const revalidate = 10800
 
 // Question-framed page targeting "where is it snowing right now" / "ou neige-t-il
 // en ce moment" (we already rank ~#5 for these with tangential pages).

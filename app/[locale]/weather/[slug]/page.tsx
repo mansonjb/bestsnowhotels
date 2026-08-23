@@ -20,7 +20,7 @@ import { localizeRegion } from '@/lib/regions'
 import { getSkiAreaForResort } from '@/lib/skiAreas'
 
 /** ISR: regenerate every 30 minutes from Open-Meteo. */
-export const revalidate = 1800
+export const revalidate = 10800
 
 export async function generateStaticParams() {
   const params: { locale: string; slug: string }[] = []

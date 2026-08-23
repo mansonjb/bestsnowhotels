@@ -8,7 +8,7 @@ import { fetchManyWeather, snowDepthScore } from '@/lib/weather'
 import WeatherCard from '@/components/WeatherCard'
 import { SITE_URL, jsonLdGraph } from '@/lib/site'
 
-export const revalidate = 1800
+export const revalidate = 10800
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
