@@ -6,6 +6,7 @@ import type { Locale } from './dictionaries'
 import Hero from '@/components/Hero'
 import DestinationCard from '@/components/DestinationCard'
 import { destinations, getDestinationsByCountry } from '@/lib/destinations'
+import { countrySlug } from '@/lib/countries'
 import { SITE_URL } from '@/lib/site'
 import { localizeCountry } from '@/lib/countryNames'
 
@@ -221,7 +222,7 @@ export default async function HomePage({
             {Array.from(byCountry.entries()).map(([country, list]) => (
               <Link
                 key={country}
-                href={`/${locale}/countries/${country.toLowerCase()}`}
+                href={`/${locale}/countries/${countrySlug(country)}`}
                 className="bg-white rounded-2xl border border-ice-100 p-5 text-center card-hover block"
               >
                 <div className="text-3xl" aria-hidden>

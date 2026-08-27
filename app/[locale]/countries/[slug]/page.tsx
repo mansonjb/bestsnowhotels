@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../../dictionaries'
@@ -58,7 +58,13 @@ export default async function CountryPage({
   const { locale, slug } = await params
   if (!hasLocale(locale)) notFound()
   const country = getCountry(slug)
-  if (!country) notFound()
+  if (!country) {
+    // Tolerate legacy/space-encoded slugs (e.g. "new zealand" -> "new-zealand")
+    // so old or mistyped links redirect to the real page instead of 404ing.
+    const normalized = decodeURIComponent(slug).toLowerCase().replace(/\s+/g, '-')
+    if (normalized !== slug && getCountry(normalized)) redirect(`/${locale}/countries/${normalized}`)
+    notFound()
+  }
 
   const l = locale as Locale
   const dict = await getDictionary(l)
