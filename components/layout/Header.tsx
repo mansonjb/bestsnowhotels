@@ -50,25 +50,25 @@ export default function Header({ locale, dict }: HeaderProps) {
           </Link>
 
           <nav className="hidden xl:flex items-center gap-6 whitespace-nowrap text-sm font-medium text-ice-800">
-            <Link href={`/${locale}/destinations`} className="hover:text-slate-deep transition">
+            <Link href={`/${locale}/destinations`} prefetch={false} className="hover:text-slate-deep transition">
               {dict.nav.destinations}
             </Link>
-            <Link href={`/${locale}/countries`} className="hover:text-slate-deep transition">
+            <Link href={`/${locale}/countries`} prefetch={false} className="hover:text-slate-deep transition">
               {dict.nav.countries}
             </Link>
-            <Link href={`/${locale}/ski-areas`} className="hover:text-slate-deep transition">
+            <Link href={`/${locale}/ski-areas`} prefetch={false} className="hover:text-slate-deep transition">
               {dict.nav.skiAreas}
             </Link>
-            <Link href={`/${locale}/guides`} className="hover:text-slate-deep transition">
+            <Link href={`/${locale}/guides`} prefetch={false} className="hover:text-slate-deep transition">
               {dict.nav.guides}
             </Link>
-            <Link href={`/${locale}/best`} className="hover:text-slate-deep transition">
+            <Link href={`/${locale}/best`} prefetch={false} className="hover:text-slate-deep transition">
               {dict.nav.best}
             </Link>
-            <Link href={`/${locale}/ski-in-ski-out`} className="hover:text-slate-deep transition">
+            <Link href={`/${locale}/ski-in-ski-out`} prefetch={false} className="hover:text-slate-deep transition">
               {dict.nav.skiInSkiOut}
             </Link>
-            <Link href={`/${locale}/weather`} className="hover:text-slate-deep transition">
+            <Link href={`/${locale}/weather`} prefetch={false} className="hover:text-slate-deep transition">
               {dict.nav.weather}
             </Link>
 
@@ -77,6 +77,7 @@ export default function Header({ locale, dict }: HeaderProps) {
                 <Link
                   key={l}
                   href={switchLocale(l)}
+                  prefetch={false}
                   className={
                     'text-xs font-semibold px-2 py-1 rounded whitespace-nowrap ' +
                     (l === locale
@@ -107,6 +108,7 @@ export default function Header({ locale, dict }: HeaderProps) {
             <Link
               href={`/${locale}/destinations`}
               onClick={() => setOpen(false)}
+              prefetch={false}
               className="block py-2 text-sm font-medium text-ice-800"
             >
               {dict.nav.destinations}
@@ -158,6 +160,7 @@ export default function Header({ locale, dict }: HeaderProps) {
                 <Link
                   key={l}
                   href={switchLocale(l)}
+                  prefetch={false}
                   onClick={() => setOpen(false)}
                   className={
                     'text-xs font-semibold px-3 py-1 rounded whitespace-nowrap ' +

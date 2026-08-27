@@ -25,6 +25,7 @@ export default function DestinationCard({
   return (
     <Link
       href={`/${locale}/destinations/${d.slug}`}
+      prefetch={false}
       className="group card-hover block bg-white rounded-2xl border border-ice-100 overflow-hidden"
     >
       <div className="relative h-48 overflow-hidden">

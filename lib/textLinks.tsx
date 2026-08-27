@@ -157,7 +157,7 @@ function applyLinks(text: string, cands: Candidate[], max: number): ReactNode[] 
       const matched = m[0]
       const after = seg.slice(m.index + matched.length)
       const node = (
-        <Link key={`tl-${key++}`} href={c.href} className={LINK_CLASS}>
+        <Link key={`tl-${key++}`} href={c.href} prefetch={false} className={LINK_CLASS}>
           {matched}
         </Link>
       )

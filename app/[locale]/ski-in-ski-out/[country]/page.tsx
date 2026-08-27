@@ -291,6 +291,7 @@ function ResortCard({ d, l }: { d: Destination; l: Locale }) {
         <div className="flex gap-2 pt-1">
           <Link
             href={`/${l}/destinations/${d.slug}`}
+            prefetch={false}
             className="flex-1 text-center text-sm font-semibold rounded-xl border border-ice-200 text-slate-deep px-3 py-2 hover:bg-ice-50 transition"
           >
             {T.viewHotels[l]}
@@ -400,7 +401,7 @@ export default async function SkiInSkiOutCountryPage({
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {featured.map(({ dest, hotel }) => (
               <div key={dest.slug}>
-                <Link href={`/${l}/destinations/${dest.slug}`} className="group inline-flex items-baseline gap-2 mb-3">
+                <Link href={`/${l}/destinations/${dest.slug}`} prefetch={false} className="group inline-flex items-baseline gap-2 mb-3">
                   <span className="text-sm font-bold uppercase tracking-wide text-ice-700 group-hover:text-alpenglow-700">{dest.name}</span>
                 </Link>
                 <HotelCard

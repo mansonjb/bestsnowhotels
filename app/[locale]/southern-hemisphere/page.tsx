@@ -326,7 +326,7 @@ export default async function SouthernHemispherePage({
             <p className="font-semibold text-slate-deep">{dict.nav.when}</p>
             <p className="mt-1 text-sm text-ice-700/80">{SH_COPY.heroKicker[l]}</p>
           </Link>
-          <Link href={`/${l}/destinations`} className="rounded-2xl border border-ice-200 bg-white p-5 hover:border-ice-400 hover:shadow-md transition">
+          <Link href={`/${l}/destinations`} prefetch={false} className="rounded-2xl border border-ice-200 bg-white p-5 hover:border-ice-400 hover:shadow-md transition">
             <p className="font-semibold text-slate-deep">{dict.nav.destinations}</p>
             <p className="mt-1 text-sm text-ice-700/80">{dict.destinations.title}</p>
           </Link>

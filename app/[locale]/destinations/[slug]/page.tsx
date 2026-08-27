@@ -310,11 +310,11 @@ export default async function DestinationDetailPage({
         <div className="absolute inset-0 bg-gradient-to-t from-slate-deep/95 via-slate-deep/70 to-slate-deep/45" />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-8">
           <nav className="text-sm text-white/70 mb-5">
-            <Link href={`/${l}`} className="hover:text-white">
+            <Link href={`/${l}`} prefetch={false} className="hover:text-white">
               {dict.nav.home}
             </Link>
             <span className="mx-2 text-white/40">/</span>
-            <Link href={`/${l}/destinations`} className="hover:text-white">
+            <Link href={`/${l}/destinations`} prefetch={false} className="hover:text-white">
               {dict.destinations.title}
             </Link>
             <span className="mx-2 text-white/40">/</span>

@@ -53,6 +53,7 @@ export default function Hero({ locale, dict }: HeroProps) {
           <div className="mt-10">
             <Link
               href={`/${locale}/destinations`}
+              prefetch={false}
               className="inline-block bg-slate-deep text-white font-semibold px-8 py-3.5 rounded-full hover:bg-ice-800 transition shadow-lg shadow-ice-900/20"
             >
               {dict.hero.cta} →

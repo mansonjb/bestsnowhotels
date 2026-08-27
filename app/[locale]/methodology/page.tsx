@@ -108,7 +108,7 @@ export default async function MethodologyPage({
         </div>
 
         <div className="mt-12 flex flex-wrap gap-3">
-          <Link href={`/${l}/destinations`} className="rounded-full bg-slate-deep text-white font-semibold px-5 py-2.5 text-sm hover:bg-ice-800 transition">
+          <Link href={`/${l}/destinations`} prefetch={false} className="rounded-full bg-slate-deep text-white font-semibold px-5 py-2.5 text-sm hover:bg-ice-800 transition">
             {dict.destinations.title} →
           </Link>
           <Link href={`/${l}/weather`} className="rounded-full bg-white border border-ice-200 text-slate-deep font-semibold px-5 py-2.5 text-sm hover:border-ice-400 transition">

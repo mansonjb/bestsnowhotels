@@ -64,6 +64,7 @@ export default function HubChips({
                     <Link
                       key={it.href + it.label}
                       href={it.href}
+                      prefetch={false}
                       className={`inline-flex items-center gap-1.5 text-sm font-medium border rounded-full px-3.5 py-1.5 transition ${t.chip}`}
                     >
                       <span className={`inline-block w-1.5 h-1.5 rounded-full ${t.dot}`} aria-hidden />

@@ -176,6 +176,7 @@ export default async function HomePage({
         <div className="mt-8 text-center">
           <Link
             href={`/${locale}/destinations`}
+            prefetch={false}
             className="inline-block text-ice-700 font-semibold hover:text-slate-deep"
           >
             {dict.destinations.title} →
@@ -278,6 +279,7 @@ export default async function HomePage({
           <div className="mt-8">
             <Link
               href={`/${locale}/destinations`}
+              prefetch={false}
               className="inline-block bg-white text-slate-deep font-semibold px-8 py-3.5 rounded-full hover:bg-ice-100 transition"
             >
               {dict.hero.cta} →

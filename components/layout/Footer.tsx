@@ -65,32 +65,32 @@ export default function Footer({ locale, dict }: FooterProps) {
             </h4>
             <ul className="space-y-2 text-sm text-ice-800/90">
               <li>
-                <Link href={`/${locale}/destinations`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/destinations`} prefetch={false} className="hover:text-slate-deep">
                   {dict.nav.destinations}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/countries`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/countries`} prefetch={false} className="hover:text-slate-deep">
                   {dict.nav.countries}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/regions`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/regions`} prefetch={false} className="hover:text-slate-deep">
                   {REGIONS_LABEL[locale]}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/ski-areas`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/ski-areas`} prefetch={false} className="hover:text-slate-deep">
                   {dict.nav.skiAreas}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/best`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/best`} prefetch={false} className="hover:text-slate-deep">
                   {dict.nav.best}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/weather`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/weather`} prefetch={false} className="hover:text-slate-deep">
                   {dict.nav.weather}
                 </Link>
               </li>
@@ -103,34 +103,34 @@ export default function Footer({ locale, dict }: FooterProps) {
             </h4>
             <ul className="space-y-2 text-sm text-ice-800/90">
               <li>
-                <Link href={`/${locale}/guides`} className="hover:text-slate-deep">{dict.nav.guides}</Link>
+                <Link href={`/${locale}/guides`} prefetch={false} className="hover:text-slate-deep">{dict.nav.guides}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/family-ski`} className="hover:text-slate-deep">{PLAN.family[locale]}</Link>
+                <Link href={`/${locale}/family-ski`} prefetch={false} className="hover:text-slate-deep">{PLAN.family[locale]}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/ski-near`} className="hover:text-slate-deep">{PLAN.nearAirport[locale]}</Link>
+                <Link href={`/${locale}/ski-near`} prefetch={false} className="hover:text-slate-deep">{PLAN.nearAirport[locale]}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/southern-hemisphere`} className="hover:text-slate-deep">{PLAN.southern[locale]}</Link>
+                <Link href={`/${locale}/southern-hemisphere`} prefetch={false} className="hover:text-slate-deep">{PLAN.southern[locale]}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/winter-2027`} className="hover:text-slate-deep">{PLAN.winter[locale]}</Link>
+                <Link href={`/${locale}/winter-2027`} prefetch={false} className="hover:text-slate-deep">{PLAN.winter[locale]}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/ski-in-ski-out`} className="hover:text-slate-deep">{dict.nav.skiInSkiOut}</Link>
+                <Link href={`/${locale}/ski-in-ski-out`} prefetch={false} className="hover:text-slate-deep">{dict.nav.skiInSkiOut}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/compare`} className="hover:text-slate-deep">{dict.nav.compare}</Link>
+                <Link href={`/${locale}/compare`} prefetch={false} className="hover:text-slate-deep">{dict.nav.compare}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/when`} className="hover:text-slate-deep">{dict.nav.when}</Link>
+                <Link href={`/${locale}/when`} prefetch={false} className="hover:text-slate-deep">{dict.nav.when}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/opening-dates`} className="hover:text-slate-deep">{PLAN.opening[locale]}</Link>
+                <Link href={`/${locale}/opening-dates`} prefetch={false} className="hover:text-slate-deep">{PLAN.opening[locale]}</Link>
               </li>
               <li>
-                <Link href={`/${locale}/ski-guides`} className="hover:text-slate-deep">{PLAN.themes[locale]}</Link>
+                <Link href={`/${locale}/ski-guides`} prefetch={false} className="hover:text-slate-deep">{PLAN.themes[locale]}</Link>
               </li>
             </ul>
           </div>
@@ -141,22 +141,22 @@ export default function Footer({ locale, dict }: FooterProps) {
             </h4>
             <ul className="space-y-2 text-sm text-ice-800/90">
               <li>
-                <Link href={`/${locale}/about`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/about`} prefetch={false} className="hover:text-slate-deep">
                   {dict.footer.about}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/methodology`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/methodology`} prefetch={false} className="hover:text-slate-deep">
                   {({ en: 'How we score resorts', fr: 'Notre méthodologie', es: 'Nuestra metodología', pt: 'A nossa metodologia', it: 'La nostra metodologia', nl: 'Zo beoordelen we skigebieden', ja: 'リゾートの評価方法', 'zh-hk': '滑雪場評分方法' } as Record<string, string>)[locale] ?? 'Methodology'}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/disclosure`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/disclosure`} prefetch={false} className="hover:text-slate-deep">
                   {dict.footer.disclosure}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/privacy`} className="hover:text-slate-deep">
+                <Link href={`/${locale}/privacy`} prefetch={false} className="hover:text-slate-deep">
                   {dict.footer.privacy}
                 </Link>
               </li>

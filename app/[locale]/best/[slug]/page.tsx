@@ -291,6 +291,7 @@ export default async function BestForListPage({
                     <div className="mt-4 flex flex-wrap gap-3">
                       <Link
                         href={`/${l}/destinations/${d.slug}`}
+                        prefetch={false}
                         className="inline-flex items-center gap-1.5 rounded-full bg-ice-600 hover:bg-ice-700 text-white text-sm font-semibold px-4 py-1.5 transition"
                       >
                         {T.fullGuide[l]} →
@@ -331,7 +332,7 @@ export default async function BestForListPage({
         </div>
         {matched.length > ranked.length && (
           <div className="mt-8">
-            <Link href={`/${l}/destinations`} className="text-ice-700 font-semibold hover:text-slate-deep">
+            <Link href={`/${l}/destinations`} prefetch={false} className="text-ice-700 font-semibold hover:text-slate-deep">
               {T.exploreAll[l]} →
             </Link>
           </div>
