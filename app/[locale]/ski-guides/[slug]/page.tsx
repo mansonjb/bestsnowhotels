@@ -57,7 +57,15 @@ function Snowflake({ className = '' }: { className?: string }) {
   )
 }
 
+// ISR paresseuse : rien au build, chaque page se genere a sa 1re requete puis
+// reste en cache jusqu au prochain deploy. Le build pre-rendait ~9 000 pages
+// (455 stations x 8 locales sur plusieurs familles), soit ~245 min CPU facturees
+// par deploy.
 export function generateStaticParams() {
+  return []
+}
+
+export function allStaticParams() {
   const params: { locale: string; slug: string }[] = []
   for (const l of locales) for (const t of getThemes()) params.push({ locale: l, slug: t.slug })
   return params

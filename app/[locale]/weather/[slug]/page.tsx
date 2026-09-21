@@ -22,7 +22,15 @@ import { getSkiAreaForResort } from '@/lib/skiAreas'
 /** ISR: regenerate every 30 minutes from Open-Meteo. */
 export const revalidate = 10800
 
-export async function generateStaticParams() {
+// ISR paresseuse : rien au build, chaque page se genere a sa 1re requete puis
+// reste en cache jusqu au prochain deploy. Le build pre-rendait ~9 000 pages
+// (455 stations x 8 locales sur plusieurs familles), soit ~245 min CPU facturees
+// par deploy.
+export function generateStaticParams() {
+  return []
+}
+
+export async function allStaticParams() {
   const params: { locale: string; slug: string }[] = []
   for (const locale of locales) {
     for (const d of destinations) {
