@@ -1,0 +1,1248 @@
+{
+  "courchevel-lake-hotel": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "courchevel-ecrin-blanc-resort-courchevel": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar",
+      "skiinout"
+    ]
+  },
+  "courchevel-les-airelles": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "courchevel-hotel-le-lana": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "courchevel-hotel-la-sivoliere": {
+    "stars": 5,
+    "amenities": [
+      "breakfast",
+      "parking",
+      "pool",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "spa",
+      "fitness",
+      "bar",
+      "skiinout"
+    ]
+  },
+  "courchevel-six-senses-residences-spa-courchevel": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "val-thorens-hotel-pashmina": {
+    "stars": 5,
+    "amenities": [
+      "breakfast",
+      "pets",
+      "family"
+    ]
+  },
+  "val-thorens-hotel-altapura-val-thorens": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "family",
+      "hottub",
+      "spa",
+      "skiinout"
+    ]
+  },
+  "val-thorens-hotel-koh-i-nor-by-les-etincelles": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "val-thorens-le-val-thorens-val-thorens-a-beaumier-hotel": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "val-thorens-hotel-marielle": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "roomservice",
+      "family",
+      "restaurant",
+      "spa",
+      "bar"
+    ]
+  },
+  "val-thorens-hotel-3-vallees-val-thorens": {
+    "stars": 4,
+    "amenities": [
+      "breakfast",
+      "parking",
+      "pets",
+      "family",
+      "hottub"
+    ]
+  },
+  "val-thorens-le-fitz-roy-val-thorens-a-beaumier-hotel-spa": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "val-thorens-hotel-le-sherpa": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "family",
+      "restaurant",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "val-d-isere-avancher-hotel-lodge-restaurant-bar-massage-coiffu": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "family",
+      "shuttle",
+      "spa"
+    ]
+  },
+  "val-d-isere-hotel-le-blizzard": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "val-d-isere-hotel-altitude-val-d-isere": {
+    "stars": 3,
+    "amenities": [
+      "breakfast",
+      "pets",
+      "family",
+      "shuttle"
+    ]
+  },
+  "val-d-isere-hotel-les-barmes-de-l-ours": {
+    "stars": 5,
+    "amenities": [
+      "breakfast",
+      "aircon",
+      "family"
+    ]
+  },
+  "val-d-isere-hotel-le-val-d-isere": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "pets",
+      "family",
+      "restaurant",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "val-d-isere-hotel-le-yule": {
+    "stars": 5,
+    "amenities": [
+      "aircon",
+      "pets",
+      "family",
+      "shuttle"
+    ]
+  },
+  "val-d-isere-airelles-val-d-isere": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "val-d-isere-hotel-mont-blanc": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "chamonix-rockypop-chamonix-les-houches": {
+    "stars": 3,
+    "amenities": [
+      "breakfast",
+      "parking",
+      "aircon",
+      "family",
+      "restaurant",
+      "shuttle",
+      "bar"
+    ]
+  },
+  "chamonix-heliopic-hotel-spa": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "chamonix-la-folie-douce-hotels-chamonix": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "family",
+      "restaurant",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar",
+      "skiinout"
+    ]
+  },
+  "chamonix-plan-b-hotel": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pets",
+      "family",
+      "restaurant",
+      "shuttle",
+      "spa",
+      "bar"
+    ]
+  },
+  "chamonix-lykke-hotel-spa": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pets",
+      "family",
+      "restaurant",
+      "bar"
+    ]
+  },
+  "chamonix-hotel-les-aiglons-chamonix": {
+    "stars": 4,
+    "amenities": [
+      "breakfast",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "bar"
+    ]
+  },
+  "chamonix-hotel-mont-blanc": {
+    "stars": 5,
+    "amenities": [
+      "breakfast",
+      "parking",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "bar"
+    ]
+  },
+  "chamonix-alpina-eclectic-hotel-spa-chamonix": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "chamonix-big-sky-hotel-spa": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "family",
+      "restaurant",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "chamonix-hotel-spa-le-faucigny": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "aircon",
+      "family",
+      "shuttle",
+      "spa"
+    ]
+  },
+  "chamonix-residence-le-cristal-de-jade-mgm-hotels-residences": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "megeve-novotel-megeve-mont-blanc": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "fitness",
+      "bar"
+    ]
+  },
+  "megeve-les-fermes-de-marie": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "megeve-four-seasons-resort-megeve": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "spa",
+      "fitness",
+      "bar",
+      "skiinout"
+    ]
+  },
+  "megeve-le-m-de-megeve": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "pets",
+      "family",
+      "shuttle",
+      "hottub",
+      "spa"
+    ]
+  },
+  "megeve-hotel-les-loges-blanches": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "family",
+      "restaurant",
+      "shuttle",
+      "bar"
+    ]
+  },
+  "megeve-zannier-le-chalet": {
+    "stars": null,
+    "amenities": [
+      "pets",
+      "family"
+    ]
+  },
+  "megeve-hotel-lodge-park-megeve": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "megeve-les-chalets-du-mont-d-arbois": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "family",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness"
+    ]
+  },
+  "megeve-hotel-saint-georges-relais-chateaux": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pets",
+      "family",
+      "hottub",
+      "spa"
+    ]
+  },
+  "megeve-magic-megeve-bois": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "parking",
+      "pets",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness"
+    ]
+  },
+  "tignes-club-med-tignes": {
+    "stars": 4,
+    "amenities": []
+  },
+  "tignes-hotel-voulezvous-by-les-etincelles": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "tignes-hotel-le-refuge": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pets",
+      "family",
+      "hottub",
+      "spa"
+    ]
+  },
+  "tignes-hotel-village-montana-by-les-etincelles": {
+    "stars": 4,
+    "amenities": [
+      "breakfast",
+      "pets",
+      "shuttle"
+    ]
+  },
+  "tignes-hotel-le-taos": {
+    "stars": 4,
+    "amenities": [
+      "pets",
+      "family",
+      "skiinout"
+    ]
+  },
+  "tignes-hotel-le-diamond-rock": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "laundry",
+      "pets",
+      "roomservice",
+      "restaurant",
+      "shuttle",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "tignes-hotel-les-campanules-by-les-etincelles": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "family",
+      "restaurant",
+      "spa",
+      "bar"
+    ]
+  },
+  "tignes-hotel-tetras-lodge": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pets",
+      "roomservice",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "tignes-residence-cap-neige-by-altitude-residences": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "pets",
+      "family",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-grandes-rousses-hotel-spa-alpe-d-huez": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-club-med-alpe-d-huez-french-alps": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "family",
+      "shuttle",
+      "spa"
+    ]
+  },
+  "alpe-d-huez-hotel-le-pic-blanc": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "family",
+      "restaurant",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-le-castillan": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "family",
+      "fitness",
+      "skiinout"
+    ]
+  },
+  "alpe-d-huez-au-chamois-d-or": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-hotel-daria-i-nor-by-les-etincelles": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-popalp": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pets",
+      "family",
+      "restaurant",
+      "shuttle",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-le-dome": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-alp-azur": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "family"
+    ]
+  },
+  "alpe-d-huez-royal-ours-blanc-hotel-restaurant-alpe-d-huez": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "pool",
+      "pets",
+      "family",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "alpe-d-huez-cgh-residences-spas-le-cristal-de-l-alpe": {
+    "stars": 5,
+    "amenities": [
+      "parking",
+      "pool",
+      "pets",
+      "family",
+      "hottub",
+      "spa",
+      "fitness"
+    ]
+  },
+  "verbier-w-verbier": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "verbier-hotel-bristol-verbier": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "pets",
+      "family"
+    ]
+  },
+  "verbier-le-chalet-d-adrien": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "verbier-hotel-cordee-des-alpes": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "verbier-hotel-montpelier": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "aircon",
+      "laundry",
+      "pets",
+      "family",
+      "shuttle"
+    ]
+  },
+  "verbier-hotel-de-verbier": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "verbier-the-lodge": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "aircon",
+      "laundry",
+      "family",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "saas-fee-walliserhof-grand-hotel-spa": {
+    "stars": 5,
+    "amenities": [
+      "sauna",
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "shuttle",
+      "hottub",
+      "bar"
+    ]
+  },
+  "saas-fee-boutique-hotel-la-gorge-restaurant-zer-schlucht": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "laundry",
+      "roomservice",
+      "family",
+      "restaurant",
+      "hottub",
+      "bar"
+    ]
+  },
+  "saas-fee-the-capra": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness"
+    ]
+  },
+  "saas-fee-elite-alpine-lodge": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pets",
+      "family",
+      "spa"
+    ]
+  },
+  "saas-fee-hotel-allalin-saas-fee": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "aircon",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "shuttle"
+    ]
+  },
+  "saas-fee-wellness-spa-hotel-schweizerhof": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "pets",
+      "roomservice",
+      "family",
+      "shuttle"
+    ]
+  },
+  "saas-fee-hotel-christiania": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "family",
+      "restaurant",
+      "hottub",
+      "spa",
+      "bar"
+    ]
+  },
+  "saas-fee-amber-ski-in-out-hotel-spa": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "pets"
+    ]
+  },
+  "zermatt-beausite-zermatt": {
+    "stars": null,
+    "amenities": [
+      "breakfast",
+      "pool",
+      "pets",
+      "roomservice",
+      "restaurant",
+      "hottub",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "zermatt-the-omnia": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "pool",
+      "laundry",
+      "roomservice",
+      "family",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness"
+    ]
+  },
+  "zermatt-schloss-hotel-zermatt-nahe-bahnhof-mit-spa-yoga": {
+    "stars": 4,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "pool",
+      "pets",
+      "family",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  },
+  "zermatt-hotel-butterfly": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "pets",
+      "family"
+    ]
+  },
+  "zermatt-resort-la-ginabelle": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "aircon",
+      "pets",
+      "family",
+      "restaurant",
+      "spa",
+      "bar"
+    ]
+  },
+  "zermatt-christiania-mountain-spa": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "aircon",
+      "pets",
+      "family",
+      "restaurant",
+      "spa",
+      "bar"
+    ]
+  },
+  "zermatt-unique-hotel-post": {
+    "stars": 5,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking",
+      "pool",
+      "laundry",
+      "pets",
+      "roomservice",
+      "restaurant",
+      "shuttle",
+      "hottub",
+      "spa",
+      "fitness"
+    ]
+  },
+  "zermatt-hotel-bellerive": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "laundry",
+      "pets",
+      "family"
+    ]
+  },
+  "zermatt-mont-cervin-palace": {
+    "stars": 3,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "pets",
+      "family",
+      "restaurant",
+      "spa",
+      "fitness",
+      "bar"
+    ]
+  }
+}

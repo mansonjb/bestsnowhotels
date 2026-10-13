@@ -97,7 +97,7 @@
     "faq1Q": "¿{name} es adecuado para principiantes?",
     "faq1A": "{name} ofrece {pistesKm} km de pistas servidas por {lifts} remontes, de {altitudeBase} m a {altitudeSummit} m. Su idoneidad para principiantes depende de las zonas de aprendizaje al pie del dominio. Consulta a la escuela de esquí local sobre el acceso a las pistas verdes y azules.",
     "faq2Q": "¿Cuál es la mejor época para esquiar en {name}?",
-    "faq2A": "La temporada se extiende del {seasonStart} al {seasonEnd}, con una puntuación de nieve de {snowScore}/100. Las mejores condiciones suelen darse entre finales de enero y finales de febrero ; el esquí de primavera en marzo y abril ofrece jornadas más largas y tardes más suaves.",
+    "faq2A": "La temporada se extiende del {seasonStart} al {seasonEnd}, con una puntuación de nieve de {snowScore}/100. La nieve suele ser más fiable en pleno corazón de ese período, en pleno invierno, mientras que las últimas semanas ofrecen jornadas más largas y una nieve de tarde más blanda.",
     "faq3Q": "¿Dónde alojarse para disfrutar de un verdadero ski-in/ski-out?",
     "faq4Q": "¿Qué tamaño tiene el dominio esquiable de {name}?",
     "faq4A": "{name} tiene {pistesKm} km de pistas balizadas servidas por {lifts} remontes, entre {altitudeBase} m y {altitudeSummit} m de altitud.",
@@ -171,7 +171,8 @@
     "network": "También de nuestro equipo:",
     "networkHoneymoon": "hoteles para luna de miel",
     "networkPets": "hoteles que admiten mascotas",
-    "networkCitybreak": "escapadas urbanas"
+    "networkCitybreak": "escapadas urbanas",
+    "networkSwitzerland": "alojamiento en Suiza"
   },
   "home": {
     "topTitle": "Top destinos de esquí",

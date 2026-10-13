@@ -45,7 +45,12 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/'],
+        // NE PAS bloquer /_next/ : Googlebot a besoin de /_next/static/*.css et
+        // *.js pour rendre la page (eval mobile/CLS). Le disallow /_next/ ne
+        // sauvait aucun cout ISR (l'ISR se declenche sur la route HTML, pas sur
+        // /_next/static/ qui est du CDN cache). Les bots couteux sont deja en
+        // disallow:'/' plus bas.
+        disallow: ['/api/'],
       },
       // Les routes opengraph-image sont des fonctions : chaque fetch coute une
       // invocation + du CPU. Ce sont des images, elles n'ont rien a faire dans
@@ -54,7 +59,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: ['Googlebot', 'Bingbot'],
         allow: '/',
-        disallow: ['/api/', '/_next/', '/*opengraph-image'],
+        disallow: ['/api/', '/*opengraph-image'],
       },
       // Crawlers IA / LLM : bienvenus, on veut etre cite dans les reponses.
       { userAgent: 'GPTBot', allow: '/' },

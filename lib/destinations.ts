@@ -29,6 +29,41 @@ export interface Destination {
 
 export const destinations = data as Destination[]
 
+/** The fields the /destinations index cards + filters actually read. */
+export type DestinationSummary = Pick<
+  Destination,
+  | 'slug'
+  | 'name'
+  | 'country'
+  | 'flag'
+  | 'region'
+  | 'altitudeBase'
+  | 'altitudeSummit'
+  | 'pistesKm'
+  | 'snowScore'
+  | 'vibes'
+>
+
+/**
+ * Slim projection for the client-side /destinations grid + filters. Drops the
+ * per-locale prose (intro, longDescription, skiInSkiOutNote) that ballooned the
+ * serialized client payload to ~4.4 MB per page x 8 locales. Any full
+ * Destination is still assignable to DestinationSummary, so cards used elsewhere
+ * keep working unchanged.
+ */
+export const destinationSummaries: DestinationSummary[] = destinations.map((d) => ({
+  slug: d.slug,
+  name: d.name,
+  country: d.country,
+  flag: d.flag,
+  region: d.region,
+  altitudeBase: d.altitudeBase,
+  altitudeSummit: d.altitudeSummit,
+  pistesKm: d.pistesKm,
+  snowScore: d.snowScore,
+  vibes: d.vibes,
+}))
+
 export function getDestination(slug: string): Destination | undefined {
   return destinations.find((d) => d.slug === slug)
 }

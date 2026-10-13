@@ -97,7 +97,7 @@
     "faq1Q": "{name} è adatta ai principianti?",
     "faq1A": "{name} offre {pistesKm} km di piste servite da {lifts} impianti, da {altitudeBase} m a {altitudeSummit} m. L'adeguatezza per i principianti dipende dalle aree per chi inizia ai piedi del comprensorio. Chiedi alla scuola sci locale informazioni sulle piste verdi e blu.",
     "faq2Q": "Qual è il periodo migliore per sciare a {name}?",
-    "faq2A": "La stagione va dal {seasonStart} al {seasonEnd}, con un punteggio neve di {snowScore}/100. Le condizioni migliori capitano di solito tra fine gennaio e fine febbraio ; lo sci di primavera a marzo e aprile regala giornate più lunghe e pomeriggi più miti.",
+    "faq2A": "La stagione va dal {seasonStart} al {seasonEnd}, con un punteggio neve di {snowScore}/100. La neve è di solito più affidabile nel cuore di questo periodo, in pieno inverno, mentre le ultime settimane regalano giornate più lunghe e una neve pomeridiana più morbida.",
     "faq3Q": "Dove dormire per godersi un vero ski-in/ski-out?",
     "faq4Q": "Quanto è grande il comprensorio di {name}?",
     "faq4A": "{name} conta {pistesKm} km di piste segnalate servite da {lifts} impianti, tra {altitudeBase} m e {altitudeSummit} m di quota.",
@@ -171,7 +171,8 @@
     "network": "Anche dal nostro team:",
     "networkHoneymoon": "hotel per la luna di miele",
     "networkPets": "hotel che accettano animali",
-    "networkCitybreak": "weekend in città"
+    "networkCitybreak": "weekend in città",
+    "networkSwitzerland": "dove dormire in Svizzera"
   },
   "home": {
     "topTitle": "Top destinazioni sci",

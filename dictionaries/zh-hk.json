@@ -97,7 +97,7 @@
     "faq1Q": "{name}適合初學者嗎？",
     "faq1A": "{name}提供{pistesKm}公里雪道，由{lifts}條纜車連接，海拔由{altitudeBase}米至{altitudeSummit}米。是否適合初學者主要視乎山腳有沒有專屬初學者滑雪區，建議查詢當地滑雪學校能否安排綠道及藍道教學。",
     "faq2Q": "{name}的最佳滑雪時間是什麼時候？",
-    "faq2A": "雪季由{seasonStart}至{seasonEnd}，積雪指數為{snowScore}/100。最佳雪況通常在1月底至2月，而3月至4月的春季滑雪則有較長日照及較鬆軟的午後雪質。",
+    "faq2A": "雪季由{seasonStart}至{seasonEnd}，積雪指數為{snowScore}/100。雪況通常在雪季正中、隆冬時分最為穩定，而臨近尾聲的數週則日照較長、午後雪質較為鬆軟。",
     "faq3Q": "想體驗真正的Ski-in/ski-out，應該住在哪裡？",
     "faq4Q": "{name}的滑雪區有多大？",
     "faq4A": "{name}擁有{pistesKm}公里標記雪道，由{lifts}條纜車服務，海拔介乎{altitudeBase}米至{altitudeSummit}米之間。",
@@ -171,7 +171,8 @@
     "network": "我們旗下其他網站：",
     "networkHoneymoon": "蜜月酒店",
     "networkPets": "寵物友善酒店",
-    "networkCitybreak": "城市短遊"
+    "networkCitybreak": "城市短遊",
+    "networkSwitzerland": "瑞士住宿"
   },
   "home": {
     "topTitle": "熱門滑雪目的地",

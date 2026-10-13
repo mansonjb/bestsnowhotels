@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../dictionaries'
 import type { Locale } from '../dictionaries'
 import DestinationFilters from '@/components/DestinationFilters'
-import { destinations } from '@/lib/destinations'
+import { destinations, destinationSummaries } from '@/lib/destinations'
 import { SITE_URL } from '@/lib/site'
 import { localizeCountry } from '@/lib/countryNames'
 
@@ -107,7 +107,7 @@ export default async function DestinationsPage({
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <DestinationFilters
-          destinations={destinations}
+          destinations={destinationSummaries}
           locale={locale as Locale}
           labels={cardLabels}
           uiLabels={uiLabels}

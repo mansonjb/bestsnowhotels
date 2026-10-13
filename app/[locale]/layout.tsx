@@ -8,7 +8,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Analytics from '@/components/Analytics'
 import AffiliateTracker from '@/components/AffiliateTracker'
-import { STAY22_ID, SITE_URL } from '@/lib/site'
+import { STAY22_ID, SITE_URL, jsonLdGraph } from '@/lib/site'
 import { notFound } from 'next/navigation'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' })
@@ -88,14 +88,44 @@ export default async function LocaleLayout({
 
   const dict = await getDictionary(locale as Locale)
 
+  // Site-wide Organization + WebSite, linked by @id. Previously the WebSite
+  // lived only on the home page and there was no Organization node at all.
+  const langTag = locale === 'zh-hk' ? 'zh-HK' : locale
+  const siteSchema = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      name: 'BestSnowHotels',
+      url: SITE_URL,
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/icon.svg` },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': `${SITE_URL}/#website`,
+      name: 'BestSnowHotels',
+      url: SITE_URL,
+      inLanguage: langTag,
+      publisher: { '@id': `${SITE_URL}/#organization` },
+    },
+  ]
+
   return (
     <html lang={locale === 'zh-hk' ? 'zh-HK' : locale} className={locale === 'ja' ? `${inter.className} font-jp` : locale === 'zh-hk' ? `${inter.className} font-tc` : inter.className}>
       <head>
+        {/* Image CDN (Cloudflare R2): every hero/hotel photo loads from here,
+            so open the connection early to shave LCP on the money pages. */}
+        <link rel="preconnect" href="https://snow.samnogroup.com" />
         <link rel="preconnect" href="https://www.stay22.com" />
         <link rel="dns-prefetch" href="https://scripts.stay22.com" />
         <link rel="preconnect" href="https://www.booking.com" />
       </head>
       <body className="bg-powder text-slate-deep antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonLdGraph(siteSchema) }}
+        />
         <Header locale={locale as Locale} dict={dict} />
         <main>{children}</main>
         <Footer locale={locale as Locale} dict={dict} />
@@ -104,7 +134,7 @@ export default async function LocaleLayout({
             to multi-platform affiliate links (Booking, Expedia, Hotels.com). */}
         <Script
           id="stay22-letmeallez"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `(function(s,t,a,y,twenty,two){s.Stay22=s.Stay22||{};s.Stay22.params={lmaID:'${STAY22_ID}'};twenty=t.createElement(a);two=t.getElementsByTagName(a)[0];twenty.async=1;twenty.src=y;two.parentNode.insertBefore(twenty,two)})(window,document,'script','https://scripts.stay22.com/letmeallez.js');`,
           }}

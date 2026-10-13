@@ -97,7 +97,7 @@
     "faq1Q": "{name}は初心者向きですか？",
     "faq1A": "{name}には{lifts}基のリフトが通う{pistesKm}kmのコースがあり、標高{altitudeBase}mから{altitudeSummit}mまで広がっています。初心者に向いているかどうかはふもとの初心者エリアの充実度次第なので、グリーンやブルーコースを使えるスキースクールがあるか現地で確認しましょう。",
     "faq2Q": "{name}のベストシーズンは？",
-    "faq2A": "シーズンは{seasonStart}から{seasonEnd}まで、積雪スコアは{snowScore}/100。コンディションが最も良いのは例年1月下旬から2月にかけてで、3月から4月の春スキーは日照時間が長く、午後の雪も柔らかくなります。",
+    "faq2A": "シーズンは{seasonStart}から{seasonEnd}まで、積雪スコアは{snowScore}/100。雪質が最も安定するのは通常この期間の真ん中、真冬の頃で、終盤の数週間は日照時間が長くなり、午後の雪も柔らかくなります。",
     "faq3Q": "本物のスキーイン・スキーアウトを楽しむには、どこに泊まればいいですか？",
     "faq4Q": "{name}のスキーエリアはどのくらいの広さ？",
     "faq4A": "{name}には{lifts}基のリフトが整備する{pistesKm}kmのコースがあり、標高{altitudeBase}mから{altitudeSummit}mに広がっています。",
@@ -171,7 +171,8 @@
     "network": "同じチームが運営する他のサイト：",
     "networkHoneymoon": "ハネムーンホテル",
     "networkPets": "ペット可のホテル",
-    "networkCitybreak": "シティトリップ"
+    "networkCitybreak": "シティトリップ",
+    "networkSwitzerland": "スイスの宿"
   },
   "home": {
     "topTitle": "人気のスキー目的地",

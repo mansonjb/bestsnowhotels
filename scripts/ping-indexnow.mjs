@@ -27,8 +27,10 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.join(__dirname, '..')
 
-const SITE_HOST = 'bestsnowhotels.com'
-const SITE_URL = `https://www.${SITE_HOST}`
+// Must match the host of the submitted URLs (they are all www.*). IndexNow
+// rejects (422) a submission whose `host` differs from the URLs' host.
+const SITE_HOST = 'www.bestsnowhotels.com'
+const SITE_URL = `https://${SITE_HOST}`
 const ENDPOINT = 'https://api.indexnow.org/IndexNow'
 const BATCH = 100
 
@@ -43,28 +45,27 @@ async function loadKey() {
 }
 
 async function listSitemapUrls() {
-  // We import the sitemap module directly via dynamic import so we get the
-  // same list Next.js publishes. Requires the Next.js dev build to be compiled.
+  // Next 16 renders the sitemap route to a static body file at build time.
+  // Parse that. NEVER fetch the live sitemap.xml as a fallback: the production
+  // WAF 403s automated requests and can ban the origin IP. Run `next build`
+  // first if the file is missing.
   const candidates = [
-    path.join(ROOT, '.next', 'server', 'app', 'sitemap.js'),
+    path.join(ROOT, '.next', 'server', 'app', 'sitemap.xml.body'),
+    path.join(ROOT, '.next', 'server', 'app', 'sitemap.xml'),
   ]
   for (const p of candidates) {
     if (existsSync(p)) {
-      try {
-        const mod = await import(p)
-        const fn = mod.default || mod.sitemap || mod
-        if (typeof fn === 'function') {
-          const out = await fn()
-          if (Array.isArray(out)) return out.map((e) => e.url).filter(Boolean)
-        }
-      } catch (e) {
-        console.error('Failed to import sitemap from', p, ':', e.message)
-      }
+      const xml = await readFile(p, 'utf8')
+      const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) =>
+        m[1].replace(/&amp;/g, '&'),
+      )
+      if (urls.length) return urls
     }
   }
-  // Fallback: fetch live sitemap.xml
-  const xml = await (await fetch(`${SITE_URL}/sitemap.xml`)).text()
-  return [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1])
+  throw new Error(
+    'Built sitemap not found (.next/server/app/sitemap.xml.body). Run `next build` first. ' +
+      'Refusing to fetch the live sitemap: the WAF 403s bots and may ban the IP.',
+  )
 }
 
 async function pingBatch(urls, key) {

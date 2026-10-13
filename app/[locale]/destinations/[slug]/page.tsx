@@ -48,6 +48,7 @@ import { getSkiTypes } from '@/lib/skiTypes'
 import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
 import SafeImage from '@/components/SafeImage'
 import { getHotels } from '@/lib/hotels'
+import { isBestHotelsResort } from '@/lib/bestHotels'
 import { getGallery } from '@/lib/galleries'
 import { resortFacts } from '@/lib/resortFacts'
 import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
@@ -112,6 +113,10 @@ export async function generateMetadata({
   return {
     title: titles[locale as Locale],
     description: descriptions[locale as Locale],
+    // Resorts with zero bookable hotels render a thin "0 hotels" page that
+    // contradicts the "ski-in/ski-out hotels in X" title. Keep them out of the
+    // index (follow, so the internal links still pass equity).
+    robots: getHotels(slug).length === 0 ? { index: false, follow: true } : undefined,
     openGraph: {
       title: titles[locale as Locale],
       description: descriptions[locale as Locale],
@@ -282,6 +287,55 @@ export default async function DestinationDetailPage({
     })),
   }
 
+  // Hotel ItemList: the central entity of a money page, previously absent from
+  // the structured data. Deliberately NO aggregateRating: the ratings come from
+  // a third party (Google), so emitting them as our own schema risks a
+  // "borrowed rating" penalty. Name/address/geo/price/image only.
+  const IMG_CDN = process.env.NEXT_PUBLIC_IMAGE_CDN || 'https://snow.samnogroup.com'
+  const hotelsListSchema =
+    hotels.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: `${dict.destination.whereToStay} — ${d.name}`,
+          numberOfItems: hotels.length,
+          itemListElement: hotels.map((h, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            item: {
+              '@type': 'Hotel',
+              name: h.name,
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: d.name,
+                addressCountry: d.countryCode,
+              },
+              ...(h.lat != null && h.lng != null
+                ? { geo: { '@type': 'GeoCoordinates', latitude: h.lat, longitude: h.lng } }
+                : {}),
+              ...(h.priceLevel ? { priceRange: '€'.repeat(h.priceLevel) } : {}),
+              ...(h.hasPhoto ? { image: `${IMG_CDN}/images/hotels/${h.id}.jpg` } : {}),
+            },
+          })),
+        }
+      : null
+
+  // WebPage node tying the page to the Organization as author + publisher
+  // (E-E-A-T authorship signal). No date fields: we don't track a real per-resort
+  // review date, and stamping build time on every page would fake freshness.
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${SITE_URL}/${l}/destinations/${d.slug}#webpage`,
+    url: `${SITE_URL}/${l}/destinations/${d.slug}`,
+    name: d.name,
+    inLanguage: l === 'zh-hk' ? 'zh-HK' : l,
+    isPartOf: { '@id': `${SITE_URL}/#website` },
+    author: { '@id': `${SITE_URL}/#organization` },
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    primaryImageOfPage: `${IMG_CDN}/images/destinations/${d.slug}.jpg`,
+  }
+
   return (
     <>
       <script
@@ -295,6 +349,16 @@ export default async function DestinationDetailPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      {hotelsListSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(hotelsListSchema) }}
+        />
+      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }}
       />
 
       {/* Hero, photo background */}
@@ -399,6 +463,9 @@ export default async function DestinationDetailPage({
         >
           {({ en: 'How we score and classify resorts', fr: 'Comment on note et classe les stations', es: 'Cómo puntuamos y clasificamos las estaciones', pt: 'Como pontuamos e classificamos as estâncias', it: 'Come valutiamo e classifichiamo le località', nl: 'Hoe we skigebieden beoordelen en indelen', ja: 'リゾートの採点・分類方法', 'zh-hk': '滑雪場評分及分類方法' } as Record<Locale, string>)[l]}
         </Link>
+        <p className="mt-3 text-sm text-ice-600">
+          {({ en: 'Researched by the BestSnowHotels team', fr: "Recherché par l'équipe BestSnowHotels", es: 'Investigado por el equipo de BestSnowHotels', pt: 'Pesquisado pela equipa BestSnowHotels', it: 'A cura del team di BestSnowHotels', nl: 'Samengesteld door het BestSnowHotels-team', ja: 'BestSnowHotelsチームによる調査', 'zh-hk': '由BestSnowHotels團隊研究整理' } as Record<Locale, string>)[l]}
+        </p>
       </section>
 
       {/* Part of a ski area (maillage) */}
@@ -512,6 +579,16 @@ export default async function DestinationDetailPage({
             )}
           </div>
           <p className="mt-4 text-xs text-ice-500">{dict.destination.ratingsNote}</p>
+          {isBestHotelsResort(slug) && (
+            <div className="mt-6">
+              <Link
+                href={`/${l}/best-hotels/${slug}`}
+                className="inline-flex items-center gap-2 bg-slate-deep text-white font-semibold px-6 py-3 rounded-full hover:bg-ice-800 transition shadow-lg shadow-ice-900/20"
+              >
+                {({ en: `Compare the best hotels in ${d.name}`, fr: `Comparer les meilleurs hôtels à ${d.name}`, es: `Comparar los mejores hoteles en ${d.name}`, pt: `Comparar os melhores hotéis em ${d.name}`, it: `Confronta i migliori hotel a ${d.name}`, nl: `Vergelijk de beste hotels in ${d.name}`, ja: `${d.name}のおすすめホテルを比較`, 'zh-hk': `比較${d.name}最佳酒店` } as Record<Locale, string>)[l]} →
+              </Link>
+            </div>
+          )}
         </section>
       )}
 

@@ -191,18 +191,28 @@ export function hotelBlurb(hotel: Hotel, resortName: string, locale: Locale): st
   const pw = PRICE_PHRASE[priceKey(hotel.priceFrom)][locale]
   const r = hotel.rating.toFixed(1)
   const n = hotel.reviewCount.toLocaleString(locale === 'en' ? 'en-US' : locale)
-  const d = hotelDistanceLabel(hotel.distanceToSlopesM)
+  // No "X from the slopes" sentence here: distanceToSlopesM is centre-distance,
+  // not nearest-lift distance, so it misstated slope access. See HotelCard.
   if (locale === 'fr') {
-    return `Les voyageurs jugent cet hôtel ${rw} (${r}/5 sur ${n} avis).${d ? ` Il se trouve à environ ${d} des pistes.` : ''} Une adresse ${pw} pour ${resortName}, avec les prix par nuit en direct pour vos dates, pour toujours voir le meilleur tarif.`
+    return `Les voyageurs jugent cet hôtel ${rw} (${r}/5 sur ${n} avis). Une adresse ${pw} pour ${resortName}, avec les prix par nuit en direct pour vos dates, pour toujours voir le meilleur tarif.`
   }
   if (locale === 'es') {
-    return `Los viajeros valoran este hotel como ${rw} (${r}/5 con ${n} opiniones).${d ? ` Está a unos ${d} de las pistas.` : ''} Una opción ${pw} para ${resortName}, con precios por noche en directo para tus fechas, para ver siempre la mejor tarifa.`
+    return `Los viajeros valoran este hotel como ${rw} (${r}/5 con ${n} opiniones). Una opción ${pw} para ${resortName}, con precios por noche en directo para tus fechas, para ver siempre la mejor tarifa.`
   }
   if (locale === 'pt') {
-    return `Os viajantes classificam este hotel como ${rw} (${r}/5 em ${n} avaliações).${d ? ` Fica a cerca de ${d} das pistas.` : ''} Uma opção ${pw} para ${resortName}, com preços por noite em direto para as suas datas, para ver sempre a melhor tarifa.`
+    return `Os viajantes classificam este hotel como ${rw} (${r}/5 em ${n} avaliações). Uma opção ${pw} para ${resortName}, com preços por noite em direto para as suas datas, para ver sempre a melhor tarifa.`
   }
   if (locale === 'it') {
-    return `I viaggiatori giudicano questo hotel ${rw} (${r}/5 su ${n} recensioni).${d ? ` Si trova a circa ${d} dalle piste.` : ''} Un indirizzo ${pw} per ${resortName}, con prezzi a notte in tempo reale per le tue date, per vedere sempre la tariffa migliore.`
+    return `I viaggiatori giudicano questo hotel ${rw} (${r}/5 su ${n} recensioni). Un indirizzo ${pw} per ${resortName}, con prezzi a notte in tempo reale per le tue date, per vedere sempre la tariffa migliore.`
   }
-  return `Guests rate this hotel as ${rw} (${r}/5 from ${n} reviews).${d ? ` It sits about ${d} from the slopes.` : ''} A ${pw} option for ${resortName}, with live nightly rates shown for your exact dates so you always see the best price.`
+  if (locale === 'nl') {
+    return `Gasten beoordelen dit hotel als ${rw} (${r}/5 op basis van ${n} reviews). Een ${pw} optie voor ${resortName}, met actuele prijzen per nacht voor jouw exacte data, zodat je altijd de beste prijs ziet.`
+  }
+  if (locale === 'ja') {
+    return `宿泊客の評価は${rw}（${r}/5、${n}件のレビュー）。${resortName}での${pw}選択肢で、指定の日程のリアルタイム料金を表示するので、常に最安値がわかります。`
+  }
+  if (locale === 'zh-hk') {
+    return `住客給這間酒店的評價為${rw}（${r}/5，來自${n}則評論）。這是${resortName}的${pw}之選，並提供你指定日期的即時每晚房價，讓你隨時看到最優惠價格。`
+  }
+  return `Guests rate this hotel as ${rw} (${r}/5 from ${n} reviews). A ${pw} option for ${resortName}, with live nightly rates shown for your exact dates so you always see the best price.`
 }

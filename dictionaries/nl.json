@@ -97,7 +97,7 @@
     "faq1Q": "Is {name} geschikt voor beginners?",
     "faq1A": "{name} heeft {pistesKm} km pistes verdeeld over {lifts} liften, van {altitudeBase} m tot {altitudeSummit} m. Of het geschikt is voor beginners hangt af van de oefenzones onderaan de piste, dus check de plaatselijke skischool voor toegang tot groene en blauwe pistes.",
     "faq2Q": "Wat is de beste tijd om te skiën in {name}?",
-    "faq2A": "Het seizoen loopt van {seasonStart} tot {seasonEnd}, met een sneeuwscore van {snowScore}/100. De beste omstandigheden zijn meestal van eind januari tot en met februari, terwijl lenteskiën in maart en april langere dagen en zachtere middagen brengt.",
+    "faq2A": "Het seizoen loopt van {seasonStart} tot {seasonEnd}, met een sneeuwscore van {snowScore}/100. De sneeuw is meestal het betrouwbaarst in het hart van die periode, midden in de winter, terwijl de laatste weken langere dagen en zachtere middagsneeuw brengen.",
     "faq3Q": "Waar kun je het beste overnachten voor echte ski-in/ski-out?",
     "faq4Q": "Hoe groot is het skigebied van {name}?",
     "faq4A": "{name} heeft {pistesKm} km gemarkeerde pistes, bediend door {lifts} liften, tussen {altitudeBase} m en {altitudeSummit} m hoogte.",
@@ -171,7 +171,8 @@
     "network": "Ook van ons team:",
     "networkHoneymoon": "huwelijksreishotels",
     "networkPets": "huisdiervriendelijke hotels",
-    "networkCitybreak": "stedentrips"
+    "networkCitybreak": "stedentrips",
+    "networkSwitzerland": "verblijven in Zwitserland"
   },
   "home": {
     "topTitle": "Top skibestemmingen",

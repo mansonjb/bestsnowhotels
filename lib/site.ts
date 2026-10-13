@@ -19,7 +19,11 @@ const HREFLANG_TAG: Record<string, string> = { 'zh-hk': 'zh-HK' }
  *   }
  */
 export function hreflangFor(path: string): Record<string, string> {
-  const p = path.startsWith('/') ? path : `/${path}`
+  const raw = path.startsWith('/') ? path : `/${path}`
+  // Home = no trailing slash: emit `/en`, not `/en/`. Next resolves the route
+  // at `/en` (trailingSlash:false), and the <loc>/canonical are `/en`; a `/en/`
+  // hreflang would 308-redirect and mismatch the self-referencing canonical.
+  const p = raw === '/' ? '' : raw
   const out: Record<string, string> = {}
   for (const l of LOCALES) out[HREFLANG_TAG[l] ?? l] = `${SITE_URL}/${l}${p}`
   out['x-default'] = `${SITE_URL}/en${p}`

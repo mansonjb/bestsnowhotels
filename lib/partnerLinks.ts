@@ -16,6 +16,10 @@ import type { Locale } from '@/app/[locale]/dictionaries'
  *   weekends, locales en/fr/nl/de/it/es, URL /<loc>/<circuit>. Only Schladming
  *   has a credible nearby circuit (the Red Bull Ring at Spielberg, ~1h, same
  *   Styria region), and RaceWeekStays already links the other way.
+ * - StaysInSwitzerland (staysinswitzerland.com): where-to-stay guides for Swiss
+ *   resorts, locales en/de/fr, URL /<loc>/<slug> (en at root). Shown only on the
+ *   Swiss resorts it has a published guide for; a few resort areas map to a
+ *   different slug there (verified live) so no link breaks.
  */
 export interface PartnerLink {
   id: string
@@ -44,6 +48,29 @@ const REGION_LABEL: Record<string, Record<Locale, string>> = {
 // RaceWeekStays slug is the circuit, not the resort. Schladming is a known base
 // for a weekend at the Red Bull Ring (Austrian F1 + MotoGP GP) in the same region.
 const RWS_CIRCUIT: Record<string, string> = { schladming: 'spielberg' }
+
+// BestSnowHotels resort slug -> Stays in Switzerland guide slug. Only the Swiss
+// resorts that site has a live guide for (checked against publishedGuides()).
+// Most are identical; the last four are the same resort area under a different
+// slug there, mapped explicitly so the deep link never 404s.
+const SIS_GUIDE: Record<string, string> = {
+  zermatt: 'zermatt', verbier: 'verbier', 'st-moritz': 'st-moritz',
+  'crans-montana': 'crans-montana', 'saas-fee': 'saas-fee', davos: 'davos',
+  andermatt: 'andermatt', grindelwald: 'grindelwald', wengen: 'wengen',
+  murren: 'murren', engelberg: 'engelberg', laax: 'laax',
+  'les-diablerets': 'les-diablerets', adelboden: 'adelboden', gstaad: 'gstaad',
+  champery: 'champery', klosters: 'klosters', bettmeralp: 'bettmeralp',
+  lenk: 'lenk', scuol: 'scuol', riederalp: 'riederalp', pontresina: 'pontresina',
+  wildhaus: 'wildhaus', leukerbad: 'leukerbad', interlaken: 'interlaken',
+  grachen: 'grachen', stoos: 'stoos',
+  'arosa-lenzerheide': 'arosa', 'villars-gryon': 'villars',
+  'grimentz-zinal': 'zinal', grimentz: 'zinal',
+}
+// staysinswitzerland has only en/de/fr; map our fr to fr, everything else to en.
+const sisHref = (slug: string, l: Locale) =>
+  l === 'fr'
+    ? `https://www.staysinswitzerland.com/fr/${slug}`
+    : `https://www.staysinswitzerland.com/${slug}`
 
 const hwpLoc = (l: Locale) => (['en', 'fr', 'es'] as string[]).includes(l) ? l : 'en'
 const sttLoc = (l: Locale) => (['en', 'fr', 'es', 'it'] as string[]).includes(l) ? l : 'en'
@@ -99,6 +126,19 @@ function rwsBlurb(l: Locale): string {
   }[l]
 }
 
+function sisBlurb(name: string, l: Locale): string {
+  return {
+    en: `Staying on in ${name} beyond the ski? Stays in Switzerland has a full where-to-stay guide for the resort.`,
+    fr: `Vous prolongez le séjour à ${name} au-delà du ski ? Stays in Switzerland propose un guide complet des hébergements sur place.`,
+    es: `¿Alargas tu estancia en ${name} más allá del esquí? Stays in Switzerland ofrece una guía completa de alojamiento.`,
+    pt: `Vai ficar em ${name} para além do esqui? O Stays in Switzerland tem um guia completo de alojamento.`,
+    it: `Ti fermi a ${name} oltre lo sci? Stays in Switzerland propone una guida completa su dove alloggiare.`,
+    ja: `${name}でスキー以外の滞在も楽しみますか。Stays in Switzerlandが現地の宿泊ガイドを詳しく紹介しています。`,
+    nl: `Blijf je in ${name} langer dan alleen om te skiën? Stays in Switzerland heeft een volledige verblijfsgids.`,
+    'zh-hk': `打算在${name}滑雪以外多留幾天？Stays in Switzerland提供當地住宿的完整指南。`,
+  }[l]
+}
+
 export function partnerLinksFor(slug: string, name: string, l: Locale): PartnerLink[] {
   const out: PartnerLink[] = []
   if (HWP_SLUGS.has(slug)) {
@@ -114,6 +154,10 @@ export function partnerLinksFor(slug: string, name: string, l: Locale): PartnerL
   const circuit = RWS_CIRCUIT[slug]
   if (circuit) {
     out.push({ id: 'raceweekstays', name: 'RaceWeekStays', href: `https://raceweekstays.com/${rwsLoc(l)}/${circuit}`, blurb: rwsBlurb(l) })
+  }
+  const sisSlug = SIS_GUIDE[slug]
+  if (sisSlug) {
+    out.push({ id: 'staysinswitzerland', name: 'Stays in Switzerland', href: sisHref(sisSlug, l), blurb: sisBlurb(name, l) })
   }
   return out
 }

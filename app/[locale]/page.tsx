@@ -107,23 +107,11 @@ export default async function HomePage({
     viewHotels: dict.destinations.viewHotels,
   }
 
-  const websiteSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'BestSnowHotels',
-    alternateName: 'BestSnowHotels.com',
-    url: SITE_URL,
-    description: '455 ski-in/ski-out resorts in the Alps and Pyrenees with verified altitudes, snow data and best-price hotel maps.',
-    inLanguage: ['en', 'fr', 'es', 'pt', 'it', 'nl', 'ja', 'zh-hk'],
-    publisher: { '@type': 'Organization', name: 'BestSnowHotels', url: SITE_URL },
-  }
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-      />
+      {/* Organization + WebSite JSON-LD now emitted site-wide from the locale
+          layout (app/[locale]/layout.tsx), so the home page no longer repeats
+          a WebSite node here. */}
 
       <Hero locale={locale as Locale} dict={dict} />
 

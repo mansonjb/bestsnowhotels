@@ -102,6 +102,14 @@ const TARGETS = [
   { slug: 'jbel-habri', query: 'hotels Ifrane Azrou Morocco', maxDist: 28000, minReviews: 6 },
   { slug: 'afriski', query: 'AfriSki Mountain Resort lodge Lesotho', maxDist: 12000, minReviews: 2 },
   { slug: 'tiffindell', query: 'Tiffindell ski resort lodge Barkly East Eastern Cape South Africa', maxDist: 16000, minReviews: 2 },
+  // Major resorts left thin by the default query (base-town geocoding): give
+  // them town-aware search strings where the lodging actually sits.
+  { slug: 'ischgl', query: 'hotels Ischgl Galtur Paznaun Tirol Austria', maxDist: 10000, minReviews: 20 },
+  { slug: 'vail', query: 'hotels Vail Colorado', maxDist: 13000, minReviews: 12 },
+  { slug: 'alta', query: 'hotels lodges Alta Snowbird Little Cottonwood Canyon Utah', maxDist: 12000, minReviews: 12 },
+  { slug: 'sun-valley', query: 'hotels lodges Ketchum Sun Valley Idaho', maxDist: 16000, minReviews: 8 },
+  { slug: 'palisades-tahoe', query: 'hotels Olympic Valley Tahoe City Truckee California', maxDist: 22000, minReviews: 15 },
+  { slug: 'lake-louise', query: 'hotels Lake Louise Alberta Canada', maxDist: 15000, minReviews: 25 },
 ]
 
 async function loadToken() {

@@ -1,7 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import type { Destination } from '@/lib/destinations'
+import type { DestinationSummary } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
 import DestinationCard from './DestinationCard'
 import { localizeCountry } from '@/lib/countryNames'
@@ -17,7 +17,7 @@ interface FilterLabels {
 }
 
 interface DestinationFiltersProps {
-  destinations: Destination[]
+  destinations: DestinationSummary[]
   locale: Locale
   labels: FilterLabels
   uiLabels: {
@@ -185,12 +185,16 @@ export default function DestinationFilters({
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {filtered.map((d) => (
-            <DestinationCard
+            // content-visibility:auto lets the browser skip layout/paint for the
+            // off-screen cards (all 455 stay in the DOM, so every internal link
+            // is still crawlable), and contain-intrinsic-size keeps the
+            // scrollbar stable. Big win on a 455-card grid.
+            <div
               key={d.slug}
-              destination={d}
-              locale={locale}
-              labels={labels}
-            />
+              className="[content-visibility:auto] [contain-intrinsic-size:auto_22rem]"
+            >
+              <DestinationCard destination={d} locale={locale} labels={labels} />
+            </div>
           ))}
         </div>
       )}

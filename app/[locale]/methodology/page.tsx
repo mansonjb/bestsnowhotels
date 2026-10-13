@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { getDictionary, hasLocale, locales } from '../dictionaries'
 import type { Locale } from '../dictionaries'
 import { SITE_URL, jsonLdGraph } from '@/lib/site'
+import { destinations } from '@/lib/destinations'
 import methodology from '@/data/methodology.json'
 
 interface Section { title: Record<Locale, string>; body: Record<Locale, string> }
@@ -41,7 +42,7 @@ export async function generateMetadata({
   const l = locale as Locale
   return {
     title: `${PAGE_TITLE[l]} | BestSnowHotels`,
-    description: M.intro[l],
+    description: M.intro[l].replace('{count}', String(destinations.length)),
     alternates: {
       canonical: `${SITE_URL}/${l}/methodology`,
       languages: Object.fromEntries([
@@ -61,6 +62,7 @@ export default async function MethodologyPage({
   if (!hasLocale(locale)) notFound()
   const l = locale as Locale
   const dict = await getDictionary(l)
+  const intro = M.intro[l].replace('{count}', String(destinations.length))
   const sections = [M.snowScore, M.skiInSkiOut, M.data, M.honesty]
 
   const jsonLd = [
@@ -76,7 +78,7 @@ export default async function MethodologyPage({
       '@context': 'https://schema.org',
       '@type': 'WebPage',
       name: PAGE_TITLE[l],
-      description: M.intro[l],
+      description: intro,
       url: `${SITE_URL}/${l}/methodology`,
       inLanguage: l,
       publisher: { '@type': 'Organization', name: 'BestSnowHotels', url: SITE_URL },
@@ -96,7 +98,7 @@ export default async function MethodologyPage({
         <h1 className="text-4xl sm:text-5xl font-bold text-slate-deep tracking-tight">
           {PAGE_TITLE[l]}
         </h1>
-        <p className="mt-5 text-lg text-ice-800/85 leading-relaxed">{M.intro[l]}</p>
+        <p className="mt-5 text-lg text-ice-800/85 leading-relaxed">{intro}</p>
 
         <div className="mt-10 space-y-10">
           {sections.map((s, i) => (

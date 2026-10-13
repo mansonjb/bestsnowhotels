@@ -10,14 +10,21 @@ import { getFamilyCountries } from '@/lib/familyCountries'
 import { getGateways } from '@/lib/gateways'
 import { SEASONAL_GUIDES } from '@/lib/seasonalGuides'
 import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
-import { GUIDE_SLUGS } from '@/lib/resortGuide'
 import { getWinterAreas } from '@/lib/winterHolidays'
 import { getThemes } from '@/lib/skiThemes'
+import { getHotels } from '@/lib/hotels'
+import { BEST_HOTELS_SLUGS } from '@/lib/bestHotels'
 import { locales } from './[locale]/dictionaries'
 
 const REGION_HUBS = getRegionHubs()
 const FAMILY_COUNTRIES = getFamilyCountries()
 const GATEWAYS = getGateways()
+
+// Only resorts with at least one bookable hotel belong in the sitemap. The 4
+// hotel-less resorts (lofsdalen, jbel-bou-iblane, tala-guilef, tiffindell)
+// render thin "0 hotels" pages and are noindex, so they are excluded from the
+// destination and weather loops below.
+const INDEXABLE_DESTINATIONS = destinations.filter((d) => getHotels(d.slug).length > 0)
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()
@@ -47,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
 
     // Each destination
-    for (const d of destinations) {
+    for (const d of INDEXABLE_DESTINATIONS) {
       entries.push({
         url: `${SITE_URL}/${locale}/destinations/${d.slug}`,
         lastModified: now,
@@ -223,7 +230,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
 
     // Per-resort weather pages (one per destination, every 30 min ISR)
-    for (const d of destinations) {
+    for (const d of INDEXABLE_DESTINATIONS) {
       entries.push({
         url: `${SITE_URL}/${locale}/weather/${d.slug}`,
         lastModified: now,
@@ -312,7 +319,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       })
     }
 
-    // Resort guides hub + per-resort "things to know"
+    // Resort guides hub only. The per-resort /guides/{slug} pages are noindex
+    // (near-duplicate of /destinations/{slug}), so they are intentionally left
+    // out of the sitemap.
     entries.push({
       url: `${SITE_URL}/${locale}/guides`,
       lastModified: now,
@@ -322,17 +331,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         languages: hreflangFor(`/guides`),
       },
     })
-    for (const slug of GUIDE_SLUGS) {
-      entries.push({
-        url: `${SITE_URL}/${locale}/guides/${slug}`,
-        lastModified: now,
-        changeFrequency: 'monthly',
-        priority: 0.75,
-        alternates: {
-          languages: hreflangFor(`/guides/${slug}`),
-        },
-      })
-    }
 
     // Winter holidays 2027 hub + per-domain
     entries.push({
@@ -367,6 +365,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.7,
         alternates: { languages: hreflangFor(`/ski-guides/${t.slug}`) },
+      })
+    }
+
+    // Best-hotels comparison hub + curated per-resort comparison pages
+    entries.push({
+      url: `${SITE_URL}/${locale}/best-hotels`,
+      lastModified: now,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: { languages: hreflangFor('/best-hotels') },
+    })
+    for (const slug of BEST_HOTELS_SLUGS) {
+      entries.push({
+        url: `${SITE_URL}/${locale}/best-hotels/${slug}`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.8,
+        alternates: { languages: hreflangFor(`/best-hotels/${slug}`) },
       })
     }
 

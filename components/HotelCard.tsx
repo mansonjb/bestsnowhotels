@@ -6,7 +6,6 @@ import {
   hotelPriceWord,
   hotelBlurb,
   hotelReason,
-  hotelDistanceLabel,
   whyWeLikeLabel,
   topPickLabel,
 } from '@/lib/hotelContent'
@@ -138,13 +137,14 @@ export default function HotelCard({
   featured = false,
   labels,
 }: HotelCardProps) {
-  const distance = hotelDistanceLabel(hotel.distanceToSlopesM)
   const ratingWord = hotelRatingWord(hotel.rating, locale)
   const priceWord = hotelPriceWord(hotel.priceFrom, locale)
   const reason = hotelReason(hotel, resortName, locale)
-  const chips = [distance ? `≈ ${distance} ${labels.toSlopes}` : null, priceWord].filter(
-    Boolean,
-  ) as string[]
+  // Distance-to-slopes chip removed: the stored distanceToSlopesM is a
+  // straight-line distance to the resort CENTRE, not to the nearest lift, so
+  // labelling it "to slopes" was misleading (e.g. slopeside Val Thorens hotels
+  // showed "3.3 km"). Re-add only with a real nearest-lift distance.
+  const chips = [priceWord]
 
   if (featured) {
     return (

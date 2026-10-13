@@ -1,13 +1,13 @@
 {
   "intro": {
-    "en": "This page explains how BestSnowHotels rates and classifies the 436 ski resorts it covers. We do it transparently, so that both travelers and the numbers we publish can be trusted.",
-    "fr": "Cette page explique comment BestSnowHotels note et classe les 436 stations de ski qu'il couvre. Nous le faisons en toute transparence, pour que les voyageurs comme les chiffres que nous publions méritent votre confiance.",
-    "es": "Esta página explica cómo BestSnowHotels puntúa y clasifica las 436 estaciones de esquí que cubre. Lo hacemos con total transparencia, para que tanto los viajeros como las cifras que publicamos sean dignos de confianza.",
-    "pt": "Esta página explica como o BestSnowHotels avalia e classifica as 436 estâncias de esqui que abrange. Fazemo-lo de forma transparente, para que tanto os viajantes como os números que publicamos sejam de confiança.",
-    "it": "Questa pagina spiega come BestSnowHotels valuta e classifica le 436 località sciistiche che copre. Lo facciamo in modo trasparente, affinché sia i viaggiatori sia i dati che pubblichiamo siano degni di fiducia.",
-    "nl": "Deze pagina legt de methodologie uit waarmee BestSnowHotels de 436 skigebieden die we behandelen, beoordeelt en classificeert. We doen dit transparant, zodat zowel reizigers als de cijfers die we publiceren te vertrouwen zijn.",
-    "ja": "このページでは、BestSnowHotelsが掲載する436のスキー場をどのように評価し分類しているかを説明します。旅行者の皆様にも、公開する数値そのものにも信頼していただけるよう、評価はすべて透明性を保って行っています。",
-    "zh-hk": "此頁面解釋BestSnowHotels如何為旗下涵蓋的436個滑雪場評分及分類。我們以公開透明的方式進行，令旅客及我們公佈的數字，同樣值得信賴。"
+    "en": "This page explains how BestSnowHotels rates and classifies the {count} ski resorts it covers. We do it transparently, so that both travelers and the numbers we publish can be trusted.",
+    "fr": "Cette page explique comment BestSnowHotels note et classe les {count} stations de ski qu'il couvre. Nous le faisons en toute transparence, pour que les voyageurs comme les chiffres que nous publions méritent votre confiance.",
+    "es": "Esta página explica cómo BestSnowHotels puntúa y clasifica las {count} estaciones de esquí que cubre. Lo hacemos con total transparencia, para que tanto los viajeros como las cifras que publicamos sean dignos de confianza.",
+    "pt": "Esta página explica como o BestSnowHotels avalia e classifica as {count} estâncias de esqui que abrange. Fazemo-lo de forma transparente, para que tanto os viajantes como os números que publicamos sejam de confiança.",
+    "it": "Questa pagina spiega come BestSnowHotels valuta e classifica le {count} località sciistiche che copre. Lo facciamo in modo trasparente, affinché sia i viaggiatori sia i dati che pubblichiamo siano degni di fiducia.",
+    "nl": "Deze pagina legt de methodologie uit waarmee BestSnowHotels de {count} skigebieden die we behandelen, beoordeelt en classificeert. We doen dit transparant, zodat zowel reizigers als de cijfers die we publiceren te vertrouwen zijn.",
+    "ja": "このページでは、BestSnowHotelsが掲載する{count}のスキー場をどのように評価し分類しているかを説明します。旅行者の皆様にも、公開する数値そのものにも信頼していただけるよう、評価はすべて透明性を保って行っています。",
+    "zh-hk": "此頁面解釋BestSnowHotels如何為旗下涵蓋的{count}個滑雪場評分及分類。我們以公開透明的方式進行，令旅客及我們公佈的數字，同樣值得信賴。"
   },
   "snowScore": {
     "title": {

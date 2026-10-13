@@ -18,6 +18,7 @@ interface FooterProps {
       networkHoneymoon: string
       networkPets: string
       networkCitybreak: string
+      networkSwitzerland: string
     }
     nav: {
       destinations: string; countries: string; skiAreas: string; best: string; weather: string
@@ -193,6 +194,15 @@ export default function Footer({ locale, dict }: FooterProps) {
               className="hover:text-ice-700 underline-offset-2 hover:underline"
             >
               {dict.footer.networkCitybreak}
+            </a>
+            {' · '}
+            <a
+              href="https://www.staysinswitzerland.com"
+              target="_blank"
+              rel="noopener"
+              className="hover:text-ice-700 underline-offset-2 hover:underline"
+            >
+              {dict.footer.networkSwitzerland}
             </a>
           </span>
         </div>

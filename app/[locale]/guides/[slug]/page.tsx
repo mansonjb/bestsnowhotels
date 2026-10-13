@@ -122,6 +122,11 @@ export async function generateMetadata({
   return {
     title: `${T.metaTitle[l](d.name)} | BestSnowHotels`,
     description: points[0]?.a ?? d.intro[l],
+    // These per-resort "things to know" pages reuse the destination intro and
+    // hotel block (~455 x 8 locales), so they read as scaled/near-duplicate
+    // content next to /destinations/{slug}. noindex,follow keeps them live for
+    // users and lets link equity flow to the money page without index bloat.
+    robots: { index: false, follow: true },
     alternates: {
       canonical: `${SITE_URL}/${l}/guides/${slug}`,
       languages: hreflangFor(`/guides/${slug}`),

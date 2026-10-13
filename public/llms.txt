@@ -1,6 +1,6 @@
 # BestSnowHotels
 
-> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Andes. 455 hand-picked ski destinations across 24 countries and 6 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia, New Zealand, Chile, Argentina and Bulgaria. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese and Italian.
+> The best ski-in/ski-out hotel directory worldwide, from the Alps to the Atlas to the Andes. 455 hand-picked ski destinations across 24 countries and 6 continents: France, Switzerland, Austria, Italy, Spain, Andorra, Germany (including the Bavarian Forest), Norway, Sweden, Finland, Japan, the United States, Morocco, Algeria, Lesotho, South Africa, Egypt (indoor), Canada, South Korea, Australia, New Zealand, Chile, Argentina and Bulgaria. Verified altitudes, snow data, piste detail and live hotel comparison via Stay22. Available in English, French, Spanish, Portuguese, Italian, Dutch, Japanese and Traditional Chinese (Hong Kong).
 
 ## What we cover
 
@@ -24,6 +24,22 @@ Each destination page lists:
 - The BestSnowHotels Snow Score (0 to 100): a comparative index of snow reliability combining base and summit altitude, the resort's historical snow record, and slope aspect. It is a way to compare resorts, not a live forecast.
 - The ski-in/ski-out classification, three honest tiers against marketing: "ski to your door" (most of the village is on the snow), "ski-in/ski-out addresses" (only specific hotels or sectors), and stay-nearby (lodging in a town, you travel to the lifts).
 - Sources: altitudes, piste km, lift counts and season windows are compiled and cross-checked; live snow comes from the Open-Meteo aggregated model; hotels are real listings with genuine ratings and honest distance to the slopes. We do not fabricate numbers or unverifiable dates.
+
+## Best hotels: per-resort hotel comparisons
+
+/best-hotels compares the top hotels within a single resort point by point and names a clear winner for each need: best overall, best luxury, best value, most popular and best on a budget. Every hotel is described from real data: its official star class, guest rating and review count (Google), amenities (spa, indoor pool, ski-in/ski-out, restaurant, hot tub, sauna, gym, free parking, and more), an indicative nightly price in euro, and its distance to the resort centre. Each pick gets a short editorial write-up explaining why it wins, with a transparent note where a hotel is not genuinely ski-in/ski-out. Ten flagship resorts, France first:
+- /best-hotels/courchevel (France)
+- /best-hotels/val-thorens (France)
+- /best-hotels/val-d-isere (France)
+- /best-hotels/chamonix (France)
+- /best-hotels/megeve (France)
+- /best-hotels/tignes (France)
+- /best-hotels/alpe-d-huez (France)
+- /best-hotels/zermatt (Switzerland)
+- /best-hotels/verbier (Switzerland)
+- /best-hotels/saas-fee (Switzerland)
+
+Index: https://www.bestsnowhotels.com/en/best-hotels
 
 ## Ski areas (linked domains)
 
@@ -274,7 +290,7 @@ Index: https://www.bestsnowhotels.com/en/winter-2027
 
 ## Languages
 
-Site available in English (en), French (fr), Spanish (es), Portuguese (pt) and Italian (it). Every page has hreflang alternates for all five.
+Site available in English (en), French (fr), Spanish (es), Portuguese (pt), Italian (it), Dutch (nl), Japanese (ja) and Traditional Chinese for Hong Kong (zh-hk). Every page has hreflang alternates for all eight.
 
 ## Key pages
 

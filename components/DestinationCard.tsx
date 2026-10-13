@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import SafeImage from './SafeImage'
-import type { Destination } from '@/lib/destinations'
+import type { DestinationSummary } from '@/lib/destinations'
 import type { Locale } from '@/app/[locale]/dictionaries'
 import { localizeCountry } from '@/lib/countryNames'
 import { localizeRegion } from '@/lib/regions'
 import { localizeVibe } from '@/lib/vibes'
 
 interface DestinationCardProps {
-  destination: Destination
+  destination: DestinationSummary
   locale: Locale
   labels: {
     altitude: string

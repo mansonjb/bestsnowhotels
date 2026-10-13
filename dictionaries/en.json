@@ -97,7 +97,7 @@
     "faq1Q": "Is {name} good for beginners?",
     "faq1A": "{name} offers {pistesKm} km of pistes across {lifts} lifts, from {altitudeBase} m to {altitudeSummit} m. Whether it suits beginners depends on the dedicated learner zones at the base of the slopes, so check the local ski-school options for green and blue run access.",
     "faq2Q": "When is the best time to ski {name}?",
-    "faq2A": "The season runs from {seasonStart} to {seasonEnd}, with a snow score of {snowScore}/100. The best conditions are usually from late January through February, while spring skiing in March and April brings longer days and softer afternoons.",
+    "faq2A": "The season runs from {seasonStart} to {seasonEnd}, with a snow score of {snowScore}/100. Snow is usually most reliable in the heart of that window, deep in winter, while the closing weeks bring longer days and softer afternoon snow.",
     "faq3Q": "Where should I stay for true ski-in/ski-out?",
     "faq4Q": "How big is the {name} ski area?",
     "faq4A": "{name} has {pistesKm} km of marked pistes served by {lifts} lifts, between {altitudeBase} m and {altitudeSummit} m of altitude.",
@@ -171,7 +171,8 @@
     "network": "Also from our team:",
     "networkHoneymoon": "honeymoon hotels",
     "networkPets": "pet-friendly hotels",
-    "networkCitybreak": "city breaks"
+    "networkCitybreak": "city breaks",
+    "networkSwitzerland": "Switzerland stays"
   },
   "home": {
     "topTitle": "Top ski destinations",
