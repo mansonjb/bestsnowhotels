@@ -101,7 +101,15 @@ const easyPct = (green: number, blue: number, red: number, black: number) => {
   return total > 0 ? Math.round(((green + blue) / total) * 100) : 0
 }
 
-export async function generateStaticParams() {
+// ISR paresseuse : rien au build, chaque page se genere a sa 1re requete puis
+// reste en cache jusqu au prochain deploy. Le build pre-rendait ~9 000 pages
+// (455 stations x 8 locales sur plusieurs familles), soit ~245 min CPU facturees
+// par deploy.
+export function generateStaticParams() {
+  return []
+}
+
+export async function allStaticParams() {
   const params: { locale: string; gateway: string }[] = []
   for (const locale of locales) {
     for (const g of getGateways()) params.push({ locale, gateway: g.slug })

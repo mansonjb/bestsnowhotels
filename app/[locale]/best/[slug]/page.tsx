@@ -61,7 +61,15 @@ const T = {
   exploreAll: { en: 'See all resorts', fr: 'Voir toutes les stations', es: 'Ver todas las estaciones', pt: 'Ver todas as estâncias', it: 'Vedi tutte le località', nl: 'Bekijk alle skigebieden', ja: 'すべてのリゾートを見る', 'zh-hk': '查看所有滑雪場' },
 } as Record<string, Record<Locale, string>>
 
-export async function generateStaticParams() {
+// ISR paresseuse : rien au build, chaque page se genere a sa 1re requete puis
+// reste en cache jusqu au prochain deploy. Le build pre-rendait ~9 000 pages
+// (455 stations x 8 locales sur plusieurs familles), soit ~245 min CPU facturees
+// par deploy.
+export function generateStaticParams() {
+  return []
+}
+
+export async function allStaticParams() {
   return locales.flatMap((locale) => BEST_FOR_LISTS.map((b) => ({ locale, slug: b.slug })))
 }
 
