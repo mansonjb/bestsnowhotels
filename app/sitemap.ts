@@ -13,6 +13,7 @@ import { skiInSkiOutByCountry } from '@/lib/skiInSkiOut'
 import { getWinterAreas } from '@/lib/winterHolidays'
 import { getThemes } from '@/lib/skiThemes'
 import { getHotels } from '@/lib/hotels'
+import { isPruned } from '@/lib/pruneResorts'
 import { BEST_HOTELS_SLUGS } from '@/lib/bestHotels'
 import { locales } from './[locale]/dictionaries'
 
@@ -23,8 +24,11 @@ const GATEWAYS = getGateways()
 // Only resorts with at least one bookable hotel belong in the sitemap. The 4
 // hotel-less resorts (lofsdalen, jbel-bou-iblane, tala-guilef, tiffindell)
 // render thin "0 hotels" pages and are noindex, so they are excluded from the
-// destination and weather loops below.
-const INDEXABLE_DESTINATIONS = destinations.filter((d) => getHotels(d.slug).length > 0)
+// destination and weather loops below. PRUNE_RESORTS (obscure, zero-traffic)
+// are likewise noindex + excluded here (spam-update recovery, see lib/pruneResorts).
+const INDEXABLE_DESTINATIONS = destinations.filter(
+  (d) => getHotels(d.slug).length > 0 && !isPruned(d.slug),
+)
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date()

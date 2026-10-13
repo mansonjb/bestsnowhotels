@@ -10,6 +10,7 @@ import {
   getRelatedDestinations,
 } from '@/lib/destinations'
 import { getHotels } from '@/lib/hotels'
+import { isPruned } from '@/lib/pruneResorts'
 import { fetchWeather } from '@/lib/weather'
 import { compareToSeasonalAvg, formatSnowCm, formatTempC, formatWindKmh } from '@/lib/weatherContent'
 import { weatherGlyph, weatherLabel } from '@/lib/weatherCodes'
@@ -84,9 +85,12 @@ export async function generateMetadata({
   return {
     title: titles[locale as Locale],
     description: descriptions[locale as Locale],
-    // Keep the 4 hotel-less resorts out of the index (they have no bookable
-    // stay, so the whole resort is noindex across destination/weather/guide).
-    robots: getHotels(slug).length === 0 ? { index: false, follow: true } : undefined,
+    // Keep hotel-less resorts out of the index (no bookable stay), plus pruned
+    // obscure/zero-traffic resorts (spam-update recovery, see lib/pruneResorts).
+    robots:
+      getHotels(slug).length === 0 || isPruned(slug)
+        ? { index: false, follow: true }
+        : undefined,
     openGraph: {
       title: titles[locale as Locale],
       description: descriptions[locale as Locale],

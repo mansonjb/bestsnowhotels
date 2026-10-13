@@ -48,6 +48,7 @@ import { getSkiTypes } from '@/lib/skiTypes'
 import { SITE_URL, buildAllezDestLink, buildAllezHotelLink } from '@/lib/site'
 import SafeImage from '@/components/SafeImage'
 import { getHotels } from '@/lib/hotels'
+import { isPruned } from '@/lib/pruneResorts'
 import { isBestHotelsResort } from '@/lib/bestHotels'
 import { getGallery } from '@/lib/galleries'
 import { resortFacts } from '@/lib/resortFacts'
@@ -122,9 +123,13 @@ export async function generateMetadata({
     title: titles[locale as Locale],
     description: descriptions[locale as Locale],
     // Resorts with zero bookable hotels render a thin "0 hotels" page that
-    // contradicts the "ski-in/ski-out hotels in X" title. Keep them out of the
-    // index (follow, so the internal links still pass equity).
-    robots: getHotels(slug).length === 0 ? { index: false, follow: true } : undefined,
+    // contradicts the "ski-in/ski-out hotels in X" title. Pruned resorts
+    // (obscure, zero-traffic) are likewise kept out of the index (spam-update
+    // recovery). follow:true keeps internal links passing equity.
+    robots:
+      getHotels(slug).length === 0 || isPruned(slug)
+        ? { index: false, follow: true }
+        : undefined,
     openGraph: {
       title: titles[locale as Locale],
       description: descriptions[locale as Locale],
