@@ -110,6 +110,7 @@ const TARGETS = [
   { slug: 'sun-valley', query: 'hotels lodges Ketchum Sun Valley Idaho', maxDist: 16000, minReviews: 8 },
   { slug: 'palisades-tahoe', query: 'hotels Olympic Valley Tahoe City Truckee California', maxDist: 22000, minReviews: 15 },
   { slug: 'lake-louise', query: 'hotels Lake Louise Alberta Canada', maxDist: 15000, minReviews: 25 },
+  { slug: 'st-moritz', query: 'hotels St. Moritz Celerina Pontresina Silvaplana Engadin Switzerland', maxDist: 9000, minReviews: 20 },
 ]
 
 async function loadToken() {

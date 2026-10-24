@@ -50,6 +50,7 @@ import SafeImage from '@/components/SafeImage'
 import { getHotels } from '@/lib/hotels'
 import { isPruned } from '@/lib/pruneResorts'
 import { isBestHotelsResort } from '@/lib/bestHotels'
+import { getDestinationFaq } from '@/lib/destinationFaq'
 import { getGallery } from '@/lib/galleries'
 import { resortFacts } from '@/lib/resortFacts'
 import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
@@ -267,7 +268,7 @@ export default async function DestinationDetailPage({
         String(d.pisteCounts.green + d.pisteCounts.blue + d.pisteCounts.red + d.pisteCounts.black),
       )
 
-  const faqItems = [
+  const templatedFaq = [
     {
       q: dict.destination.faq1Q.replace('{name}', d.name),
       a: fillTemplate(dict.destination.faq1A),
@@ -289,6 +290,11 @@ export default async function DestinationDetailPage({
       a: fillTemplate(dict.destination.faq5A),
     },
   ]
+
+  // Hand-written per-resort FAQ (editorial enrichment) overrides the templated
+  // set when present for this locale; otherwise fall back to the template so
+  // 8-locale parity is preserved.
+  const faqItems = getDestinationFaq(slug, l) ?? templatedFaq
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -620,9 +626,11 @@ export default async function DestinationDetailPage({
         <h2 className="text-2xl font-bold text-slate-deep mb-5">
           {dict.destination.aboutTitle}
         </h2>
-        <p className="text-lg text-ice-800/80 leading-relaxed">
-          {linkifyProse(d.longDescription[l], d, l)}
-        </p>
+        <div className="space-y-5 text-lg text-ice-800/80 leading-relaxed">
+          {d.longDescription[l].split('\n\n').map((para, i) => (
+            <p key={i}>{linkifyProse(para, d, l)}</p>
+          ))}
+        </div>
 
         {/* Good to know: data-driven facts, unique per resort */}
         <div className="mt-8 rounded-2xl border border-ice-100 bg-ice-50/60 p-6">
