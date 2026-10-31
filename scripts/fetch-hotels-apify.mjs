@@ -18,6 +18,9 @@
  *   node scripts/fetch-hotels-apify.mjs --missing                all resorts with < 2 hotels
  *   node scripts/fetch-hotels-apify.mjs                          the TARGETS list below
  *   add --dry to preview without writing.
+ *   By default a resort's freshly scraped hotels are MERGED with any existing
+ *   ones (so a query that misses a hotel, e.g. a town-wide search that drops a
+ *   palace, never deletes it); add --replace to force a clean overwrite.
  *
  * Per-resort tuning lives in TARGETS (query / maxDist / minReviews); resorts
  * not listed there fall back to a generic "hotels in <name>, <country>" query.
@@ -40,6 +43,7 @@ const ACTOR = (process.env.APIFY_ACTOR || 'compass~crawler-google-places').repla
 
 const argv = process.argv.slice(2)
 const DRY = argv.includes('--dry')
+const REPLACE = argv.includes('--replace')
 const MISSING = argv.includes('--missing')
 const filterArg = (() => {
   const i = argv.indexOf('--filter')
@@ -278,7 +282,22 @@ async function main() {
       })
     }
     if (!DRY && out.length) {
-      hotels[cfg.slug] = out
+      // Merge by default (NOT a blind overwrite): keep the freshly scraped
+      // records, add back any existing hotel this query missed (e.g. St-Moritz's
+      // palaces, which a town-wide Google Maps search dropped), dedupe by id,
+      // re-rank with the same score and cap. --replace forces a clean overwrite.
+      if (REPLACE) {
+        hotels[cfg.slug] = out
+      } else {
+        const have = new Set(out.map((h) => h.id))
+        const merged = [...out, ...(hotels[cfg.slug] || []).filter((h) => !have.has(h.id))]
+        merged.sort(
+          (a, b) =>
+            b.rating * Math.log10(Number(b.reviewCount || 0) + 10) -
+            a.rating * Math.log10(Number(a.reviewCount || 0) + 10),
+        )
+        hotels[cfg.slug] = merged.slice(0, HOTELS_PER_RESORT)
+      }
       // Persist after every resort so a long background run never loses work.
       await writeFile(OUT, JSON.stringify(hotels, null, 2) + '\n')
     }

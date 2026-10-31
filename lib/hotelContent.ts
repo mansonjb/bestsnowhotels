@@ -1,5 +1,6 @@
 import type { Locale } from '@/app/[locale]/dictionaries'
 import type { Hotel } from './hotels'
+import { getHotelDetail, hasSkiInOut } from './hotelDetails'
 
 /**
  * Localised, data-driven copy for hotel cards (rating word, price tier, the
@@ -107,13 +108,18 @@ export function topPickLabel(locale: Locale): string {
  * value, popular, or a safe default).
  */
 export function hotelReason(hotel: Hotel, resortName: string, locale: Locale): string {
-  const d = hotel.distanceToSlopesM
   const r = hotel.rating
   const n = hotel.reviewCount
   const tier = priceKey(hotel.priceFrom)
+  // "Slopeside" is claimed ONLY when Google data actually confirms ski-in/ski-out
+  // for this hotel, never from distanceToSlopesM (a centre-distance, unreliable,
+  // the same reason the distance chip was removed). This stops us promising "ski
+  // to the door" in valley towns like St. Moritz, where our own ski-in/ski-out
+  // note says the opposite. Lights up automatically as resorts get enriched.
+  const detail = getHotelDetail(hotel.id)
 
   let kind: string
-  if (d != null && d <= 350) kind = 'slopeside'
+  if (hasSkiInOut(detail?.amenities)) kind = 'slopeside'
   else if (r >= 4.7 && n >= 150) kind = 'topRated'
   else if (tier === 'luxury') kind = 'luxury'
   else if ((tier === 'budget' || tier === 'mid') && r >= 4.4) kind = 'value'

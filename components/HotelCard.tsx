@@ -9,6 +9,7 @@ import {
   whyWeLikeLabel,
   topPickLabel,
 } from '@/lib/hotelContent'
+import { getHotelDetail, amenityChips, AMENITY } from '@/lib/hotelDetails'
 
 interface HotelCardProps {
   hotel: Hotel
@@ -99,6 +100,34 @@ function Chips({ chips }: { chips: string[] }) {
   )
 }
 
+/** Hotel class (official star rating), distinct from the Google guest score. */
+function Stars({ n }: { n: number }) {
+  return (
+    <span className="text-amber-500 text-xs leading-none" aria-label={`${n}-star hotel`}>
+      {'★'.repeat(n)}
+    </span>
+  )
+}
+
+/** Concrete, Google-derived amenities: the hotel-level information gain that a
+ *  generic booking listing does not surface at a glance. */
+function AmenityChips({ slugs, locale }: { slugs: string[]; locale: Locale }) {
+  if (!slugs.length) return null
+  return (
+    <div className="mt-2 flex flex-wrap gap-1.5">
+      {slugs.map((s) => (
+        <span
+          key={s}
+          className="inline-flex items-center gap-1 text-[10px] font-medium text-ice-700 bg-ice-50 border border-ice-100 rounded-full px-2 py-0.5"
+        >
+          <span aria-hidden>{AMENITY[s].icon}</span>
+          {AMENITY[s].label[locale]}
+        </span>
+      ))}
+    </div>
+  )
+}
+
 function PriceFooter({
   price,
   labels,
@@ -145,6 +174,11 @@ export default function HotelCard({
   // labelling it "to slopes" was misleading (e.g. slopeside Val Thorens hotels
   // showed "3.3 km"). Re-add only with a real nearest-lift distance.
   const chips = [priceWord]
+  // Google-derived hotel class + amenities (data/hotelDetails.json), shown when
+  // we have them for this hotel. Honest information gain, not invented.
+  const detail = getHotelDetail(hotel.id)
+  const stars = detail?.stars ?? null
+  const amenities = amenityChips(detail?.amenities, featured ? 6 : 4)
 
   if (featured) {
     return (
@@ -161,6 +195,11 @@ export default function HotelCard({
 
         <div className="flex flex-col flex-1 p-5">
           <h3 className="text-xl font-bold text-slate-deep leading-snug">{hotel.name}</h3>
+          {stars && (
+            <div className="mt-1">
+              <Stars n={stars} />
+            </div>
+          )}
           <p className="mt-1 text-sm text-ice-600">
             <span className="font-semibold text-slate-deep">{ratingWord}</span>
             {' · '}
@@ -169,6 +208,7 @@ export default function HotelCard({
           <Why reason={reason} locale={locale} />
           <p className="mt-3 text-sm text-ice-800/90 leading-relaxed">{hotelBlurb(hotel, resortName, locale)}</p>
           <Chips chips={chips} />
+          <AmenityChips slugs={amenities} locale={locale} />
           <PriceFooter price={hotel.priceFrom} labels={labels} bookHref={bookHref} />
         </div>
       </article>
@@ -186,6 +226,11 @@ export default function HotelCard({
 
       <div className="flex flex-col flex-1 p-4">
         <h3 className="font-bold text-slate-deep leading-snug">{hotel.name}</h3>
+        {stars && (
+          <div className="mt-0.5">
+            <Stars n={stars} />
+          </div>
+        )}
         <p className="mt-1 text-xs text-ice-600">
           <span className="font-semibold text-slate-deep">{ratingWord}</span>
           {' · '}
@@ -193,6 +238,7 @@ export default function HotelCard({
         </p>
         <Why reason={reason} locale={locale} />
         <Chips chips={chips} />
+        <AmenityChips slugs={amenities} locale={locale} />
         <PriceFooter price={hotel.priceFrom} labels={labels} bookHref={bookHref} />
       </div>
     </article>

@@ -51,6 +51,8 @@ import { getHotels } from '@/lib/hotels'
 import { isPruned } from '@/lib/pruneResorts'
 import { isBestHotelsResort } from '@/lib/bestHotels'
 import { getDestinationFaq } from '@/lib/destinationFaq'
+import { getReviewDate, formatReviewDate } from '@/lib/reviewDates'
+import { getDestinationSources } from '@/lib/destinationSources'
 import { getGallery } from '@/lib/galleries'
 import { resortFacts } from '@/lib/resortFacts'
 import { resortSite, skiRentalMapsUrl } from '@/lib/resortLinks'
@@ -211,6 +213,8 @@ export default async function DestinationDetailPage({
   const officialSite = resortSite(slug)
   const rentalUrl = skiRentalMapsUrl(d.name, d.country)
   const gallery = getGallery(slug)
+  const reviewDate = getReviewDate(slug)
+  const sources = getDestinationSources(slug)
 
   const cardLabels = {
     altitude: dict.destinations.altitude,
@@ -340,8 +344,9 @@ export default async function DestinationDetailPage({
       : null
 
   // WebPage node tying the page to the Organization as author + publisher
-  // (E-E-A-T authorship signal). No date fields: we don't track a real per-resort
-  // review date, and stamping build time on every page would fake freshness.
+  // (E-E-A-T authorship signal). dateModified is emitted ONLY for pages with a
+  // real editorial review date (data/reviewDates.json), never a build-time stamp,
+  // so freshness stays honest and earned rather than faked.
   const webPageSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
@@ -352,6 +357,7 @@ export default async function DestinationDetailPage({
     isPartOf: { '@id': `${SITE_URL}/#website` },
     author: { '@id': `${SITE_URL}/#organization` },
     publisher: { '@id': `${SITE_URL}/#organization` },
+    ...(reviewDate ? { dateModified: reviewDate } : {}),
     primaryImageOfPage: `${IMG_CDN}/images/destinations/${d.slug}.jpg`,
   }
 
@@ -483,7 +489,16 @@ export default async function DestinationDetailPage({
           {({ en: 'How we score and classify resorts', fr: 'Comment on note et classe les stations', es: 'Cómo puntuamos y clasificamos las estaciones', pt: 'Como pontuamos e classificamos as estâncias', it: 'Come valutiamo e classifichiamo le località', nl: 'Hoe we skigebieden beoordelen en indelen', ja: 'リゾートの採点・分類方法', 'zh-hk': '滑雪場評分及分類方法' } as Record<Locale, string>)[l]}
         </Link>
         <p className="mt-3 text-sm text-ice-600">
-          {({ en: 'Researched by the BestSnowHotels team', fr: "Recherché par l'équipe BestSnowHotels", es: 'Investigado por el equipo de BestSnowHotels', pt: 'Pesquisado pela equipa BestSnowHotels', it: 'A cura del team di BestSnowHotels', nl: 'Samengesteld door het BestSnowHotels-team', ja: 'BestSnowHotelsチームによる調査', 'zh-hk': '由BestSnowHotels團隊研究整理' } as Record<Locale, string>)[l]}
+          <Link href={`/${l}/about`} className="hover:text-slate-deep underline decoration-ice-300 underline-offset-2">
+            {({ en: 'Researched by the BestSnowHotels team', fr: "Recherché par l'équipe BestSnowHotels", es: 'Investigado por el equipo de BestSnowHotels', pt: 'Pesquisado pela equipa BestSnowHotels', it: 'A cura del team di BestSnowHotels', nl: 'Samengesteld door het BestSnowHotels-team', ja: 'BestSnowHotelsチームによる調査', 'zh-hk': '由BestSnowHotels團隊研究整理' } as Record<Locale, string>)[l]}
+          </Link>
+          {reviewDate && (
+            <>
+              {' · '}
+              {({ en: 'Last reviewed', fr: 'Revu le', es: 'Revisado el', pt: 'Revisto a', it: 'Rivisto il', nl: 'Laatst herzien', ja: '最終確認', 'zh-hk': '最後審閱' } as Record<Locale, string>)[l]}{' '}
+              <time dateTime={reviewDate}>{formatReviewDate(reviewDate, l)}</time>
+            </>
+          )}
         </p>
       </section>
 
@@ -744,6 +759,29 @@ export default async function DestinationDetailPage({
           ))}
         </div>
       </section>
+
+      {/* Sources: authoritative, verified references for the facts on this page (E-E-A-T) */}
+      {sources && (
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-4">
+          <h2 className="text-sm font-bold uppercase tracking-wide text-ice-700 mb-3">
+            {({ en: 'Sources', fr: 'Sources', es: 'Fuentes', pt: 'Fontes', it: 'Fonti', nl: 'Bronnen', ja: '出典', 'zh-hk': '資料來源' } as Record<Locale, string>)[l]}
+          </h2>
+          <ul className="space-y-1.5 text-sm text-ice-600">
+            {sources.map((s) => (
+              <li key={s.url}>
+                <a
+                  href={s.url}
+                  target="_blank"
+                  rel="noopener"
+                  className="underline decoration-ice-300 underline-offset-2 hover:text-alpenglow-700"
+                >
+                  {s.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* Sister sites: contextual cross-links, only on resorts they also cover */}
       {partnerLinksFor(d.slug, d.name, l).length > 0 && (

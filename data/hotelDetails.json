@@ -1244,5 +1244,94 @@
       "fitness",
       "bar"
     ]
+  },
+  "st-moritz-hauser-hotel-st-moritz": {
+    "stars": 3,
+    "amenities": [
+      "parking",
+      "breakfast",
+      "wifi"
+    ]
+  },
+  "st-moritz-badrutt-s-palace-hotel-st-moritz": {
+    "stars": 5,
+    "amenities": [
+      "pool",
+      "spa",
+      "breakfast",
+      "wifi"
+    ]
+  },
+  "st-moritz-grand-hotel-des-bains-kempinski-st-moritz": {
+    "stars": 5,
+    "amenities": []
+  },
+  "st-moritz-hotel-laudinella-st-moritz": {
+    "stars": 4,
+    "amenities": [
+      "spa",
+      "breakfast",
+      "wifi"
+    ]
+  },
+  "st-moritz-kulm-hotel-st-moritz": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking"
+    ]
+  },
+  "st-moritz-hotel-restaurant-waldhaus-am-see": {
+    "stars": 3,
+    "amenities": [
+      "spa",
+      "parking",
+      "breakfast",
+      "wifi"
+    ]
+  },
+  "st-moritz-hotel-san-gian": {
+    "stars": 4,
+    "amenities": [
+      "pool",
+      "spa",
+      "wifi",
+      "aircon"
+    ]
+  },
+  "st-moritz-hotel-steffani": {
+    "stars": 3,
+    "amenities": [
+      "parking",
+      "breakfast",
+      "wifi"
+    ]
+  },
+  "st-moritz-hotel-grace-la-margna-st-moritz": {
+    "stars": 5,
+    "amenities": [
+      "pool",
+      "spa",
+      "parking",
+      "wifi"
+    ]
+  },
+  "st-moritz-jugendherberge-st-moritz": {
+    "stars": null,
+    "amenities": [
+      "wifi",
+      "breakfast",
+      "parking"
+    ]
+  },
+  "st-moritz-berghotel-randolins-st-moritz": {
+    "stars": 3,
+    "amenities": [
+      "spa",
+      "parking",
+      "breakfast",
+      "wifi"
+    ]
   }
 }
